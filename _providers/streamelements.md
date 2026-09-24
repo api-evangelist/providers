@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -46,72 +46,72 @@ apis:
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to interract with activities collected by StreamElements
-  name: StreamElements activities API
+  name: StreamElements Activities API
   slug: streamelements-activities-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage StreamElements chat bot
-  name: StreamElements bot API
+  name: StreamElements Bot API
   slug: streamelements-bot-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to get channel data
-  name: StreamElements channels API
+  name: StreamElements Channels API
   slug: streamelements-channels-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoint to get chat statistics
-  name: StreamElements chatstats API
+  name: StreamElements Chatstats API
   slug: streamelements-chatstats-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Bot commands management
-  name: StreamElements commands API
+  name: StreamElements Commands API
   slug: streamelements-commands-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to interract with contests
-  name: StreamElements contests API
+  name: StreamElements Contests API
   slug: streamelements-contests-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Bot spam filters management
-  name: StreamElements filters API
+  name: StreamElements Filters API
   slug: streamelements-filters-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: 'This endpoint is available only in the API version 3. Make sure to use the v3 base URL: https://api.streamelements.com/kappa/v3.'
-  name: StreamElements giveaways API
+  name: StreamElements Giveaways API
   slug: streamelements-giveaways-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage loyalty settings
-  name: StreamElements loyalties API
+  name: StreamElements Loyalties API
   slug: streamelements-loyalties-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage bot modules
-  name: StreamElements modules API
+  name: StreamElements Modules API
   slug: streamelements-modules-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage overlays assigned to channel
-  name: StreamElements overlays API
+  name: StreamElements Overlays API
   slug: streamelements-overlays-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage loyalty points
-  name: StreamElements points API
+  name: StreamElements Points API
   slug: streamelements-points-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: The redemptions API from StreamElements — 4 operation(s) for redemptions.
-  name: StreamElements redemptions API
+  name: StreamElements Redemptions API
   slug: streamelements-redemptions-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to manage session data
-  name: StreamElements sessions API
+  name: StreamElements Sessions API
   slug: streamelements-sessions-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
@@ -131,37 +131,37 @@ apis:
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to interact with StreamElements Mediashare
-  name: StreamElements songrequests API
+  name: StreamElements Songrequests API
   slug: streamelements-songrequests-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Folder for loyalty
-  name: StreamElements stats API
+  name: StreamElements Stats API
   slug: streamelements-stats-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Store items management
-  name: StreamElements store API
+  name: StreamElements Store API
   slug: streamelements-store-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to browse StreamElements themes
-  name: StreamElements themes API
+  name: StreamElements Themes API
   slug: streamelements-themes-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Bot timers (chat "cron" messages) management
-  name: StreamElements timers API
+  name: StreamElements Timers API
   slug: streamelements-timers-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Endpoints to interract with tips
-  name: StreamElements tips API
+  name: StreamElements Tips API
   slug: streamelements-tips-api
 - baseURL: https://api.streamelements.com/kappa/v2
   baseurl_source: declared
   description: Folder for loyalty
-  name: StreamElements users API
+  name: StreamElements Users API
   slug: streamelements-users-api
 artifact_total: 54
 asyncapis:
@@ -396,7 +396,7 @@ modified: '2026-07-21'
 name: StreamElements
 nav: Providers
 network: true
-overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) network, including activities API, bot API, channels API, and 21 more. Tagged areas include Company, Consumer, Live Streaming, Creator Economy, and Overlays.
+overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Bot API, Channels API, and 21 more. Tagged areas include Company, Consumer, Live Streaming, Creator Economy, and Overlays.
 
 
   The StreamElements catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -439,7 +439,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

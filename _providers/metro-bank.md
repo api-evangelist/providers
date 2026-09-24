@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-07-23'
 name: Metro Bank
 nav: Providers
 network: true
-overview: 'Metro Bank publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Metro Bank publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 18 more developer resources.'
@@ -225,7 +225,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.6
     contract_governance: 18.2
@@ -241,7 +241,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 38.2
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,7 +249,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -263,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 65.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -281,7 +281,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: metro-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

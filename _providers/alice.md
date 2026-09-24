@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -52,22 +52,22 @@ apis:
 - baseURL: https://api.alice.io
   baseurl_source: declared
   description: Collection API Represents grouped entities. A collection is comprised of multiple items grouped together in a playlist, album, folder, group or channel on your platform. For example, a playlist of vid
-  name: Alice collection API
+  name: Alice Collection API
   slug: alice-collection-api
 - baseURL: https://api.alice.io
   baseurl_source: declared
   description: Content APIs Represents WHAT content was created on your platform, such as a post, comment, review, message, article or data. For example, a web page containing a video, a customer review of a product
-  name: Alice content API
+  name: Alice Content API
   slug: alice-content-api
 - baseURL: https://api.alice.io
   baseurl_source: declared
   description: The Flags API enables you to send details about the flag made on an item on your platform to the Alice T&S platform.
-  name: Alice flags API
+  name: Alice Flags API
   slug: alice-flags-api
 - baseURL: https://api.alice.io
   baseurl_source: declared
   description: Users API Represents WHO created content on your platform. These are the end users that have uploaded content to your platform, meaning the people who are the creators or publishers of the content. Fo
-  name: Alice users API
+  name: Alice Users API
   slug: alice-users-api
 - baseURL: https://api.alice.io
   baseurl_source: declared
@@ -226,7 +226,7 @@ modified: '2026-07-17'
 name: Alice
 nav: Providers
 network: true
-overview: 'Alice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, collection API, content API, and 4 more. Tagged areas include Company, Developer Tools, AI Security, AI Safety, and Content Moderation.
+overview: 'Alice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, Collection API, Content API, and 4 more. Tagged areas include Company, Developer Tools, AI Security, AI Safety, and Content Moderation.
 
 
   The Alice catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -264,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

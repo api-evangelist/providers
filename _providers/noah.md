@@ -23,7 +23,7 @@ modified: '2026-07-20'
 name: Noah
 nav: Providers
 network: true
-overview: Noah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Home Equity, Mortgage, and Real-Estate.
+overview: Noah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Home Equity, Mortgage, and Real Estate.
 random_paper: 4
 slug: noah
 tags:
@@ -31,9 +31,9 @@ tags:
 - Fintech
 - Home Equity
 - Mortgage
-- Real-Estate
+- Real Estate
 - Lending
-- Financial-Services
+- Financial Services
 - Defunct
 website: https://www.patchhomes.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -216,7 +216,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 70.3
     catalog_earned_first_party: 0.0
     catalog_gap: 44.8
@@ -232,7 +232,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

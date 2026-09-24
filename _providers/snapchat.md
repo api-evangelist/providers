@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
   name: Snapchat O Auth API
   slug: snapchat-oauth-api
-artifact_total: 64
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -394,10 +394,6 @@ finops:
 - name: Snapchat Finops
   service_category: Advertising
   slug: snapchat-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Snapchat platform, covering the Snap Kit developer APIs (Login Kit, Creative Kit, Camera Kit), the Snapchat Ads API (Marketing API), the Conversions API, an
-  name: Snapchat GraphQL Schema
-  slug: snapchat-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snapchat.png
 json_schemas:
 - name: Snapchat Ad Campaign
@@ -535,19 +531,19 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 65.3
+  composite: 64.1
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 63.5
     catalog_earned_first_party: 16.0
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 71.1
     contract_governance: 31.8
-    contract_quality: 65.3
+    contract_quality: 60.8
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 57.9
@@ -563,7 +559,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -593,6 +589,6 @@ tags:
 - Augmented Reality
 - Marketing
 - Messaging
-- Social-Media
+- Social Media
 website: https://snap.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Videos API from Vimeo — 3 operation(s) for videos.
   name: Vimeo Videos API
   slug: vimeo-videos-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -155,10 +155,6 @@ common:
   url: https://vimeo.com/blog/feed
 created: '2026-05-11'
 description: Vimeo is a video hosting, creation, and streaming platform for creators, businesses, and enterprises that provides ad-free video hosting, live streaming, video editing, analytics, and OTT distribution. The Vimeo REST API enables programmatic upload, management, embedding, and analytics of videos, albums, channels, groups, and users using Bearer token (OAuth 2.0) authentication.
-graphqls:
-- description: Vimeo is a professional video hosting platform. The API covers video upload and management, albums, showcases, channels, user management, analytics, OTT platform configuration, live streaming, caption
-  name: Vimeo GraphQL API
-  slug: vimeo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vimeo.png
 layout: provider
 modified: '2026-05-30'
@@ -177,19 +173,19 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.2
+  composite: 34.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 59.9
+    contract_quality: 57.7
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 2.6
@@ -203,7 +199,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

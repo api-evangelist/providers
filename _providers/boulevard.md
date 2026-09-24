@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - description: Query and mutate client (customer) records synced from Boulevard's CRM - profiles, contact details, custom fields, loyalty point balances, and appointment history. Third parties such as Klaviyo and Ex
@@ -57,7 +57,7 @@ apis:
 - description: A narrow, non-GraphQL REST endpoint (`POST https://vault.blvd.co/cards/tokenize`, confirmed in the public `promotion-demo` reference client's source) used to exchange raw card details for a reusable p
   name: Boulevard Tokenization API
   slug: boulevard-tokenization-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: Boulevard API
@@ -109,10 +109,6 @@ finops:
 - name: Boulevard Finops
   service_category: Vertical SaaS - Salon, Spa & Med Spa Management
   slug: boulevard-finops
-graphqls:
-- description: Boulevard exposes two distinct, confirmed GraphQL surfaces plus one adjacent REST endpoint. All three require an Enterprise-tier Boulevard account and are provisioned through the Boulevard Developer P
-  name: Boulevard GraphQL APIs
-  slug: boulevard-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boulevard.png
 layout: provider
 modified: '2026-07-03'
@@ -133,20 +129,20 @@ rate_limits:
   name: Boulevard Rate Limits
   slug: boulevard-rate-limits
 score:
-  band: thin
-  composite: 28.9
+  band: emerging
+  composite: 19.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 74.1
     operational_transparency: 34.2
@@ -158,8 +154,8 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -180,5 +176,6 @@ tags:
 - CRM
 - Payments
 - Self-Care
+- Scheduling
 website: https://www.joinblvd.com/
 ---

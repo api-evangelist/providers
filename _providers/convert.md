@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 153
+- acting_count: 145
   human_in_the_loop: 5
   name: Convert Agentic Access
-  operation_count: 189
+  operation_count: 208
   slug: convert-agentic-access
-  summary_line: 189 operations · 153 acting · 5 human-in-the-loop
+  summary_line: 208 operations · 145 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - description: Convert Experiences REST API v2 manages accounts, projects, experiments, goals, audiences, locations, reports, and collaborators. Requests are signed via HMAC.
@@ -421,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

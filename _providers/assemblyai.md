@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Transcript related operations
   name: AssemblyAI Transcript API
   slug: assemblyai-transcript-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI specification for the AssemblyAI Universal Streaming Speech-to-Text WebSocket API (v3). Clients open a WebSocket to `wss://streaming.assemblyai.com/v3/ws`, send raw binary PCM audio frames, a
   name: AssemblyAI Universal Streaming Speech-to-Text API
@@ -153,10 +153,6 @@ finops:
 - name: Assemblyai Finops
   service_category: API
   slug: assemblyai-finops
-graphqls:
-- description: AssemblyAI is an AI speech-to-text and audio intelligence API. The API covers async and real-time transcription, speaker diarization, sentiment analysis, topic detection, PII redaction, chapter detect
-  name: AssemblyAI GraphQL API
-  slug: assemblyai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assemblyai.png
 integrations:
 - description: Integration with Twilio Media Streams for transcribing phone calls in real-time using AssemblyAI's streaming API.
@@ -202,19 +198,19 @@ rules:
   slug: assemblyai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.7
+  composite: 43.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 49.8
     catalog_earned_first_party: 0.0
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 40.8
     contract_governance: 11.4
-    contract_quality: 64.2
+    contract_quality: 59.6
     developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 26.3
@@ -227,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -253,6 +249,8 @@ tags:
 - Speech
 - Transcription
 - Speech-to-Text
+- Voice
+- Real-Time
 use_cases:
 - description: Customer service teams transcribe and analyze customer calls for quality assurance, compliance, agent coaching, and sentiment analysis.
   name: Call Center Analytics

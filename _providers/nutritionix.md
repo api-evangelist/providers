@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Nutritionix Agentic Access
   operation_count: 6
   slug: nutritionix-agentic-access
-  summary_line: 6 operations · 2 acting
+  summary_line: 6 operations
 api_count: 4
 apis:
 - baseURL: https://trackapi.nutritionix.com/v2
@@ -416,7 +416,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -439,6 +439,7 @@ tags:
 - Food
 - Fitness
 - Public APIs
+- Food and Beverage
 use_cases:
 - description: Power food logging and calorie-counting apps with natural-language meal entry.
   name: Diet & Calorie Tracking

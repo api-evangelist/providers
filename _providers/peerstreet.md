@@ -28,7 +28,7 @@ modified: '2026-09-16'
 name: PeerStreet
 nav: Providers
 network: true
-overview: PeerStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Fintech, Lending, and Investing.
+overview: PeerStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Fintech, Lending, and Investing.
 random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/peerstreet/refs/heads/main/screenshots/peerstreet-2026-09-02T150941.png
 security:
@@ -39,7 +39,7 @@ security:
 slug: peerstreet
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Fintech
 - Lending
 - Investing

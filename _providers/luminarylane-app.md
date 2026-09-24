@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server (Streamable HTTP, server name luminary-mcp-server v1.0.0) that exposes a customer''s Lane workspace to MCP clients: brands, brand foundation (voice, personas, objec'
@@ -244,7 +244,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -271,7 +271,7 @@ tags:
 - Brand Management
 - Content Generation
 - Campaign Management
-- Social-Media
+- Social Media
 - Software-as-a-Service
 website: https://luminarylane.app/
 ---

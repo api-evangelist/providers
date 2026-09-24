@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 3
   human_in_the_loop: 0
   name: Langdb Agentic Access
   operation_count: 10
   slug: langdb-agentic-access
-  summary_line: 10 operations · 7 acting
+  summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -241,5 +241,6 @@ tags:
 - Routing
 - Governance
 - MCP
+- Real-Time
 website: https://langdb.ai
 ---

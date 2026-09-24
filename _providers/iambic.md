@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 8
 common:
@@ -126,7 +126,7 @@ modified: '2026-05-23'
 name: Iambic Therapeutics
 nav: Providers
 network: true
-overview: 'Iambic Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drug Discovery, AI for Science, Therapeutics, Biotech, and Oncology.
+overview: 'Iambic Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drug Discovery, AI for Science, Therapeutics, Biotechnology, and Oncology.
 
 
   Iambic Therapeutics'' developer surface includes engineering blog, authentication, and 10 more developer resources.'
@@ -157,7 +157,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Drug Discovery
 - AI for Science
 - Therapeutics
-- Biotech
+- Biotechnology
 - Oncology
 - Clinical-Stage Pipeline
 - Generative Chemistry

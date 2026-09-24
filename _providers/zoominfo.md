@@ -30,19 +30,19 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 70.1
-  scored_at: '2026-09-23'
+  score: 65.8
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 90
+- acting_count: 83
   human_in_the_loop: 5
   name: Zoominfo Agentic Access
   operation_count: 199
   slug: zoominfo-agentic-access
-  summary_line: 199 operations · 90 acting · 5 human-in-the-loop
+  summary_line: 199 operations · 83 acting · 5 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.zoominfo.com
@@ -280,7 +280,7 @@ arazzos:
 - description: Authenticate, search Scoops for a company, then re-pull the top company's Scoops scoped by department.
   name: ZoomInfo Discover Scoops then Refine by Department
   slug: zoominfo-scoop-search-then-enrich-workflow
-artifact_total: 952
+artifact_total: 951
 asyncapis:
 - description: ''
   name: Zoominfo Webhooks
@@ -1525,10 +1525,6 @@ finops:
 - name: Zoominfo Finops
   service_category: API
   slug: zoominfo-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the ZoomInfo B2B data and intelligence API. ZoomInfo provides programmatic access to its contact database, company intelligence, intent signals, scoops, news,
-  name: ZoomInfo GraphQL Schema
-  slug: zoominfo-graphql
 image: https://www.zoominfo.com/assets/img/zoominfo-logo.png
 integrations:
 - description: Native integration to enrich and sync contact and company data with Salesforce CRM
@@ -3295,23 +3291,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 84.7
+  composite: 84.8
   coverage:
-    artifact_dirs: 36
+    artifact_dirs: 35
     catalog_earned: 91.5
     catalog_earned_first_party: 24.0
     catalog_gap: 23.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.1
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 82.5
+    contract_quality: 83.0
     developer_ergonomics: 89.3
     discoverability: 75.9
     operational_transparency: 92.1
-  previous_composite: 84.3
+  previous_composite: 84.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3323,7 +3319,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

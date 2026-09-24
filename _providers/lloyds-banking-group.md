@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -376,7 +376,7 @@ modified: '2026-07-23'
 name: Lloyds Banking Group
 nav: Providers
 network: true
-overview: 'Lloyds Banking Group publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 33 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Lloyds Banking Group publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 33 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Lloyds Banking Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -436,7 +436,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -453,7 +453,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lloyds-banking-group
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

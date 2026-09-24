@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Automate and schedule predictive query training and batch predictions. Retrain a predictive query (re-ingesting data from the source), trigger recurring batch predictions, monitor job status and evalu
@@ -195,7 +195,7 @@ modified: '2026-07-19'
 name: Kumo.AI
 nav: Providers
 network: true
-overview: 'Kumo.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Predictive Analytics, and Graph Neural Networks.
+overview: 'Kumo.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Predictive Analytics, and Graph Neural Networks.
 
 
   Kumo.AI''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 23 more developer resources.'
@@ -231,7 +231,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -259,7 +259,7 @@ slug: kumoai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 - Graph Neural Networks
 - Foundation Models

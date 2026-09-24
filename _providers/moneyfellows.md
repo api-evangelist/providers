@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-20'
 name: Moneyfellows
 nav: Providers
 network: true
-overview: 'Moneyfellows is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Savings, and ROSCA.
+overview: 'Moneyfellows is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Savings, and ROSCA.
 
 
   Moneyfellows'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
@@ -115,7 +115,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ security:
 slug: moneyfellows
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Savings
 - ROSCA

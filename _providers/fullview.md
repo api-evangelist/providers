@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.eu1.fullview.io
@@ -193,7 +193,7 @@ modified: '2026-07-19'
 name: Fullview
 nav: Providers
 network: true
-overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer-Support, Co-Browsing, Session Replay, and Customer Experience.
+overview: 'Fullview publishes 1 API on the [APIs.io](https://apis.io/) network: Bug Report API. Tagged areas include Company, Customer Support, Co-Browsing, Session Replay, and Customer Experience.
 
 
   Fullview''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -258,7 +258,7 @@ security:
 slug: fullview
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Co-Browsing
 - Session Replay
 - Customer Experience

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -55,207 +55,207 @@ apis:
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Generic application handlers.
-  name: Eden Health grdn.routes.impl.app API
+  name: Eden Health Grdn.routes.impl.app API
   slug: eden-health-grdn-routes-impl-app-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: 'Contains handlers for routes related to Appointments, Cases, Encounters etc. On timezones: Appointments are tied to Athena departments, and their date and start time are to be interpreted as represent'
-  name: Eden Health grdn.routes.impl.appointments API
+  name: Eden Health Grdn.routes.impl.appointments API
   slug: eden-health-grdn-routes-impl-appointments-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Contains handlers for routes related to provider patient assignments.
-  name: Eden Health grdn.routes.impl.assignment API
+  name: Eden Health Grdn.routes.impl.assignment API
   slug: eden-health-grdn-routes-impl-assignment-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.athena-providers API from Eden Health — 1 operation(s) for grdn.routes.impl.athena-providers.
-  name: Eden Health grdn.routes.impl.athena-providers API
+  name: Eden Health Grdn.routes.impl.athena Providers API
   slug: eden-health-grdn-routes-impl-athena-providers-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Direct authentication handlers
-  name: Eden Health grdn.routes.impl.auth API
+  name: Eden Health Grdn.routes.impl.auth API
   slug: eden-health-grdn-routes-impl-auth-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.bookable-entities API from Eden Health — 1 operation(s) for grdn.routes.impl.bookable-entities.
-  name: Eden Health grdn.routes.impl.bookable-entities API
+  name: Eden Health Grdn.routes.impl.bookable Entities API
   slug: eden-health-grdn-routes-impl-bookable-entities-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.brad API from Eden Health — 3 operation(s) for grdn.routes.impl.brad.
-  name: Eden Health grdn.routes.impl.brad API
+  name: Eden Health Grdn.routes.impl.brad API
   slug: eden-health-grdn-routes-impl-brad-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Bug Report handler
-  name: Eden Health grdn.routes.impl.bug API
+  name: Eden Health Grdn.routes.impl.bug API
   slug: eden-health-grdn-routes-impl-bug-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.care-pods API from Eden Health — 1 operation(s) for grdn.routes.impl.care-pods.
-  name: Eden Health grdn.routes.impl.care-pods API
+  name: Eden Health Grdn.routes.impl.care Pods API
   slug: eden-health-grdn-routes-impl-care-pods-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.careteam API from Eden Health — 2 operation(s) for grdn.routes.impl.careteam.
-  name: Eden Health grdn.routes.impl.careteam API
+  name: Eden Health Grdn.routes.impl.careteam API
   slug: eden-health-grdn-routes-impl-careteam-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Contains handlers for routes related to Channels.
-  name: Eden Health grdn.routes.impl.channel API
+  name: Eden Health Grdn.routes.impl.channel API
   slug: eden-health-grdn-routes-impl-channel-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.chat API from Eden Health — 1 operation(s) for grdn.routes.impl.chat.
-  name: Eden Health grdn.routes.impl.chat API
+  name: Eden Health Grdn.routes.impl.chat API
   slug: eden-health-grdn-routes-impl-chat-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.configuration API from Eden Health — 1 operation(s) for grdn.routes.impl.configuration.
-  name: Eden Health grdn.routes.impl.configuration API
+  name: Eden Health Grdn.routes.impl.configuration API
   slug: eden-health-grdn-routes-impl-configuration-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.consent API from Eden Health — 2 operation(s) for grdn.routes.impl.consent.
-  name: Eden Health grdn.routes.impl.consent API
+  name: Eden Health Grdn.routes.impl.consent API
   slug: eden-health-grdn-routes-impl-consent-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.demographics API from Eden Health — 1 operation(s) for grdn.routes.impl.demographics.
-  name: Eden Health grdn.routes.impl.demographics API
+  name: Eden Health Grdn.routes.impl.demographics API
   slug: eden-health-grdn-routes-impl-demographics-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.document API from Eden Health — 12 operation(s) for grdn.routes.impl.document.
-  name: Eden Health grdn.routes.impl.document API
+  name: Eden Health Grdn.routes.impl.document API
   slug: eden-health-grdn-routes-impl-document-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Route implementation for all things eligibility
-  name: Eden Health grdn.routes.impl.eligibility API
+  name: Eden Health Grdn.routes.impl.eligibility API
   slug: eden-health-grdn-routes-impl-eligibility-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Route implementation for our various event posting endpoints.
-  name: Eden Health grdn.routes.impl.event API
+  name: Eden Health Grdn.routes.impl.event API
   slug: eden-health-grdn-routes-impl-event-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Contains handlers for routes related to Appointments, Cases, Encounters etc.
-  name: Eden Health grdn.routes.impl.feedback API
+  name: Eden Health Grdn.routes.impl.feedback API
   slug: eden-health-grdn-routes-impl-feedback-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for image upload and download.
-  name: Eden Health grdn.routes.impl.images API
+  name: Eden Health Grdn.routes.impl.images API
   slug: eden-health-grdn-routes-impl-images-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.insurance API from Eden Health — 3 operation(s) for grdn.routes.impl.insurance.
-  name: Eden Health grdn.routes.impl.insurance API
+  name: Eden Health Grdn.routes.impl.insurance API
   slug: eden-health-grdn-routes-impl-insurance-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Simple CRUD operations for macros.
-  name: Eden Health grdn.routes.impl.macros API
+  name: Eden Health Grdn.routes.impl.macros API
   slug: eden-health-grdn-routes-impl-macros-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for sponsor roster members
-  name: Eden Health grdn.routes.impl.member API
+  name: Eden Health Grdn.routes.impl.member API
   slug: eden-health-grdn-routes-impl-member-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for membership, invites, codes
-  name: Eden Health grdn.routes.impl.membership API
+  name: Eden Health Grdn.routes.impl.membership API
   slug: eden-health-grdn-routes-impl-membership-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Contains handlers for routes related to Patients.
-  name: Eden Health grdn.routes.impl.next-step API
+  name: Eden Health Grdn.routes.impl.next Step API
   slug: eden-health-grdn-routes-impl-next-step-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Contains handlers for routes related to Patients.
-  name: Eden Health grdn.routes.impl.patients API
+  name: Eden Health Grdn.routes.impl.patients API
   slug: eden-health-grdn-routes-impl-patients-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.pediatric API from Eden Health — 7 operation(s) for grdn.routes.impl.pediatric.
-  name: Eden Health grdn.routes.impl.pediatric API
+  name: Eden Health Grdn.routes.impl.pediatric API
   slug: eden-health-grdn-routes-impl-pediatric-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Simple CRUD operations for popups.
-  name: Eden Health grdn.routes.impl.popup API
+  name: Eden Health Grdn.routes.impl.popup API
   slug: eden-health-grdn-routes-impl-popup-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers to get general info about providers and departments.
-  name: Eden Health grdn.routes.impl.provider API
+  name: Eden Health Grdn.routes.impl.provider API
   slug: eden-health-grdn-routes-impl-provider-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.provider-groups API from Eden Health — 1 operation(s) for grdn.routes.impl.provider-groups.
-  name: Eden Health grdn.routes.impl.provider-groups API
+  name: Eden Health Grdn.routes.impl.provider Groups API
   slug: eden-health-grdn-routes-impl-provider-groups-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for screener fetching and submission.
-  name: Eden Health grdn.routes.impl.screener-response API
+  name: Eden Health Grdn.routes.impl.screener Response API
   slug: eden-health-grdn-routes-impl-screener-response-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for screener fetching and submission.
-  name: Eden Health grdn.routes.impl.screeners API
+  name: Eden Health Grdn.routes.impl.screeners API
   slug: eden-health-grdn-routes-impl-screeners-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for sendbird webhooks.
-  name: Eden Health grdn.routes.impl.sendbird API
+  name: Eden Health Grdn.routes.impl.sendbird API
   slug: eden-health-grdn-routes-impl-sendbird-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for sponsor data.
-  name: Eden Health grdn.routes.impl.sponsor API
+  name: Eden Health Grdn.routes.impl.sponsor API
   slug: eden-health-grdn-routes-impl-sponsor-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for sponsor_user endpoints
-  name: Eden Health grdn.routes.impl.sponsor-user API
+  name: Eden Health Grdn.routes.impl.sponsor User API
   slug: eden-health-grdn-routes-impl-sponsor-user-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.ticklers API from Eden Health — 5 operation(s) for grdn.routes.impl.ticklers.
-  name: Eden Health grdn.routes.impl.ticklers API
+  name: Eden Health Grdn.routes.impl.ticklers API
   slug: eden-health-grdn-routes-impl-ticklers-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.tools API from Eden Health — 1 operation(s) for grdn.routes.impl.tools.
-  name: Eden Health grdn.routes.impl.tools API
+  name: Eden Health Grdn.routes.impl.tools API
   slug: eden-health-grdn-routes-impl-tools-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: The grdn.routes.impl.validation API from Eden Health — 1 operation(s) for grdn.routes.impl.validation.
-  name: Eden Health grdn.routes.impl.validation API
+  name: Eden Health Grdn.routes.impl.validation API
   slug: eden-health-grdn-routes-impl-validation-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Scheduling calls and querying call metadata
-  name: Eden Health grdn.routes.impl.video API
+  name: Eden Health Grdn.routes.impl.video API
   slug: eden-health-grdn-routes-impl-video-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for getting and creating Video Visits.
-  name: Eden Health grdn.routes.impl.video-visit API
+  name: Eden Health Grdn.routes.impl.video Visit API
   slug: eden-health-grdn-routes-impl-video-visit-api
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
   description: Handlers for sponsor visitors
-  name: Eden Health grdn.routes.impl.visitor API
+  name: Eden Health Grdn.routes.impl.visitor API
   slug: eden-health-grdn-routes-impl-visitor-api
 artifact_total: 89
 collections:
@@ -449,7 +449,7 @@ modified: '2026-07-19'
 name: Eden Health
 nav: Providers
 network: true
-overview: Eden Health publishes 43 APIs on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
+overview: Eden Health publishes 43 APIs on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, Grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
 random_paper: 9
 score:
   band: emerging
@@ -485,7 +485,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

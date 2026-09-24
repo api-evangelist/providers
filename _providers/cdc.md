@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -58,27 +58,27 @@ apis:
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The app-notifications API from CDC — 1 operation(s) for app-notifications.
-  name: CDC app-notifications API
+  name: CDC App Notifications API
   slug: cdc-app-notifications-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The code-systems API from CDC — 1 operation(s) for code-systems.
-  name: CDC code-systems API
+  name: CDC Code Systems API
   slug: cdc-code-systems-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The conditions API from CDC — 2 operation(s) for conditions.
-  name: CDC conditions API
+  name: CDC Conditions API
   slug: cdc-conditions-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The configurations API from CDC — 15 operation(s) for configurations.
-  name: CDC configurations API
+  name: CDC Configurations API
   slug: cdc-configurations-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The events API from CDC — 2 operation(s) for events.
-  name: CDC events API
+  name: CDC Events API
   slug: cdc-events-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
@@ -93,17 +93,17 @@ apis:
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The releases API from CDC — 1 operation(s) for releases.
-  name: CDC releases API
+  name: CDC Releases API
   slug: cdc-releases-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The simulator API from CDC — 3 operation(s) for simulator.
-  name: CDC simulator API
+  name: CDC Simulator API
   slug: cdc-simulator-api
 - baseURL: https://data.cdc.gov/resource
   baseurl_source: declared
   description: The user API from CDC — 1 operation(s) for user.
-  name: CDC user API
+  name: CDC User API
   slug: cdc-user-api
 artifact_total: 30
 collections:
@@ -195,7 +195,7 @@ modified: '2026-06-13'
 name: CDC
 nav: Providers
 network: true
-overview: 'CDC publishes 10 APIs on the [APIs.io](https://apis.io/) network, including app-notifications API, code-systems API, conditions API, and 7 more. Tagged areas include Public Health, Disease Surveillance, Vaccination, Health Statistics, and Government.
+overview: 'CDC publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App Notifications API, Code Systems API, Conditions API, and 7 more. Tagged areas include Public Health, Disease Surveillance, Vaccination, Health Statistics, and Government.
 
 
   CDC''s developer surface includes developer portal, GitHub presence, authentication, and 7 more developer resources.'
@@ -241,7 +241,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

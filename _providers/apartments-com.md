@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -159,7 +159,7 @@ modified: '2026-07-26'
 name: Apartments.com
 nav: Providers
 network: true
-overview: 'Apartments.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, Rentals, Property Listings, and Multifamily.
+overview: 'Apartments.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, Rentals, Property Listings, and Multifamily.
 
 
   Apartments.com''s developer surface includes support, documentation, signup flow, legal docs, YouTube channel, and 22 more developer resources.'
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: apartments-com
 tags:
-- Real-Estate
+- Real Estate
 - United States
 - Rentals
 - Property Listings

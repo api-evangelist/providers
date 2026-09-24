@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
@@ -735,6 +735,10 @@ common:
   title: ''
   type: HelpCenter
   url: https://help.splunk.com/en/splunk-observability-cloud
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/signalfx
 created: '2026-08-19'
 description: 'Splunk Observability Cloud is the observability platform Splunk built on SignalFx and now runs as part of Cisco: infrastructure monitoring, APM, real user monitoring, synthetics, Log Observer and incident response over OpenTelemetry-native ingest. Its control plane is the largest API surface Splunk operates — 48 OpenAPI documents and 242 operations covering charts, dashboards, detectors, incidents and muting rules, metrics and dimension metadata, SignalFlow, SLOs, org and session tokens, teams, integrations and twenty distinct Synthetics services — alongside a SignalFlow WebSocket/SSE streaming interface and a hosted MCP server for agents. Authentication is a single X-SF-TOKEN header, the realm is part of the hostname, and Splunk publishes no downloadable spec file: the contract is embedded in its own reference pages.'
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
@@ -753,7 +757,7 @@ overview: 'Splunk Observability Cloud publishes 48 APIs on the [APIs.io](https:/
   The Splunk Observability Cloud catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 86 more developer resources.'
+  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 87 more developer resources.'
 plans:
 - name: Splunk Observability Plans Pricing
   plan_count: 10
@@ -773,7 +777,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -781,18 +785,18 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 81.6
-  previous_composite: 62.8
+  previous_composite: 62.9
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 96
+      derived: 48
       marker_coverage: 100.0
-      total: 96
+      total: 48
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -832,5 +836,6 @@ tags:
 - Logging
 - SignalFlow
 - MCP
+- Real-Time
 website: https://www.splunk.com/en_us/products/observability.html
 ---

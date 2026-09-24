@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 18
+- acting_count: 17
   human_in_the_loop: 1
   name: Blueconic Agentic Access
   operation_count: 64
   slug: blueconic-agentic-access
-  summary_line: 64 operations · 18 acting · 1 human-in-the-loop
+  summary_line: 64 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://{tenantname}.blueconic.net/rest/v2
@@ -896,7 +896,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

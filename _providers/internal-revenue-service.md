@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The IRS Modernized e-File (MeF) system is the web-based electronic filing platform supporting individual, business, and tax-exempt return submission via XML-based schemas. Software developers and tran
@@ -81,7 +81,7 @@ modified: '2026-04-28'
 name: Internal Revenue Service
 nav: Providers
 network: true
-overview: 'Internal Revenue Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Finance, IRS, Tax, and Tax Filing.
+overview: 'Internal Revenue Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Finance, IRS, Tax, and Tax Filing.
 
 
   Internal Revenue Service''s developer surface includes support and 5 more developer resources.'
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -134,7 +134,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: internal-revenue-service
 tags:
-- Federal-Government
+- Federal Government
 - Finance
 - IRS
 - Tax

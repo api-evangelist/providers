@@ -42,7 +42,7 @@ tags:
 - Spatial Computing
 - SDK
 - Mobile
-- Computer-Vision
+- Computer Vision
 - ARKit
 - Unity
 - Defunct

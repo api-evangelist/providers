@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-19'
 name: IKI AI
 nav: Providers
 network: true
-overview: 'IKI AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge-Management, Research, and Productivity.
+overview: 'IKI AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Knowledge Management, Research, and Productivity.
 
 
   IKI AI''s developer surface includes pricing, signup flow, engineering blog, support, changelog, and 4 more developer resources.'
@@ -106,7 +106,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -122,7 +122,7 @@ slug: iki-ai
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Research
 - Productivity
 - LLM

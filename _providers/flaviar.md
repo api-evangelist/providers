@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Flaviar''s Shopify storefront exposes an agent-driven commerce surface built on the Universal Commerce Protocol (ucp.dev): a discovery document at /.well-known/ucp and a hosted MCP endpoint for catalog'
@@ -162,7 +162,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -12,10 +12,6 @@ access_model:
 api_count: 0
 artifact_total: 1
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/microsoft/
 - group: company
   title: ''
   type: Website
@@ -44,7 +40,7 @@ network: true
 overview: 'Jumbo Privacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, Security, Consumer, and Identity Protection.
 
 
-  Jumbo Privacy''s developer surface includes engineering blog and 4 more developer resources.'
+  Jumbo Privacy''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumboprivacy/refs/heads/main/screenshots/jumboprivacy-2026-07-25T223312.png
 security:

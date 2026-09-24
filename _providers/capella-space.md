@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 0
   name: Capella Space Agentic Access
   operation_count: 16
   slug: capella-space-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
 - description: The Capella Tasking API lets customers submit imagery tasking requests against the Capella SAR constellation, configure collect parameters (geometry, resolution, polarization, look direction, off-nadi
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

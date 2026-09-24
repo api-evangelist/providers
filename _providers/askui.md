@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -47,77 +47,77 @@ apis:
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The access-tokens API from AskUI — 6 operation(s) for access-tokens.
-  name: AskUI access-tokens API
+  name: AskUI Access Tokens API
   slug: askui-access-tokens-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The agent-executions API from AskUI — 2 operation(s) for agent-executions.
-  name: AskUI agent-executions API
+  name: AskUI Agent Executions API
   slug: askui-agent-executions-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The agents API from AskUI — 3 operation(s) for agents.
-  name: AskUI agents API
+  name: AskUI Agents API
   slug: askui-agents-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The analytics API from AskUI — 1 operation(s) for analytics.
-  name: AskUI analytics API
+  name: AskUI Analytics API
   slug: askui-analytics-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The auth API from AskUI — 2 operation(s) for auth.
-  name: AskUI auth API
+  name: AskUI Auth API
   slug: askui-auth-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The billing API from AskUI — 4 operation(s) for billing.
-  name: AskUI billing API
+  name: AskUI Billing API
   slug: askui-billing-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The dashboard API from AskUI — 1 operation(s) for dashboard.
-  name: AskUI dashboard API
+  name: AskUI Dashboard API
   slug: askui-dashboard-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The files API from AskUI — 3 operation(s) for files.
-  name: AskUI files API
+  name: AskUI Files API
   slug: askui-files-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The invites API from AskUI — 3 operation(s) for invites.
-  name: AskUI invites API
+  name: AskUI Invites API
   slug: askui-invites-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The runner-jobs API from AskUI — 3 operation(s) for runner-jobs.
-  name: AskUI runner-jobs API
+  name: AskUI Runner Jobs API
   slug: askui-runner-jobs-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The runs API from AskUI — 1 operation(s) for runs.
-  name: AskUI runs API
+  name: AskUI Runs API
   slug: askui-runs-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The schedules API from AskUI — 2 operation(s) for schedules.
-  name: AskUI schedules API
+  name: AskUI Schedules API
   slug: askui-schedules-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The tools API from AskUI — 1 operation(s) for tools.
-  name: AskUI tools API
+  name: AskUI Tools API
   slug: askui-tools-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The workspace-memberships API from AskUI — 3 operation(s) for workspace-memberships.
-  name: AskUI workspace-memberships API
+  name: AskUI Workspace Memberships API
   slug: askui-workspace-memberships-api
 - baseURL: https://workspaces.askui.com
   baseurl_source: declared
   description: The workspaces API from AskUI — 2 operation(s) for workspaces.
-  name: AskUI workspaces API
+  name: AskUI Workspaces API
   slug: askui-workspaces-api
 artifact_total: 35
 collections:
@@ -323,7 +323,7 @@ modified: '2026-07-18'
 name: AskUI
 nav: Providers
 network: true
-overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, agent-executions API, agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
+overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Agent Executions API, Agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
 
 
   AskUI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 25 more developer resources.'
@@ -364,7 +364,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

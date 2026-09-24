@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -304,7 +304,7 @@ modified: '2026-08-13'
 name: Brandwatch
 nav: Providers
 network: true
-overview: 'Brandwatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Client API, Data API, Me API, and 4 more. Tagged areas include Analytics, Social-Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
+overview: 'Brandwatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Client API, Data API, Me API, and 4 more. Tagged areas include Analytics, Social Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
 
 
   Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 36 more developer resources.'
@@ -351,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ security:
 slug: brandwatch
 tags:
 - Analytics
-- Social-Media
+- Social Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

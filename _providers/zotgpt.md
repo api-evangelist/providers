@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.zotgpt.uci.edu/v1
@@ -249,7 +249,7 @@ score:
   facets:
     access_clarity: 68.4
     contract_governance: 0.0
-    contract_quality: 17.4
+    contract_quality: 17.6
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 55.3
@@ -264,10 +264,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 75.0
-      derived: 4
+      callable: 100.0
+      derived: 2
       marker_coverage: 100.0
-      total: 4
+      total: 2
     skills: derived
   regulatory:
     applies: true
@@ -276,7 +276,7 @@ score:
     regime_id: education
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

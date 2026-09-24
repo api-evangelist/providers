@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Backend API for the TrueTracts appraiser console — the subscription platform that performs market definition, comparable selection, time and feature adjustments, heat mapping and 1004MC generation for
@@ -137,7 +137,7 @@ modified: '2026-08-05'
 name: True Footage
 nav: Providers
 network: true
-overview: 'True Footage publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Appraisal, Valuation, and PropTech.
+overview: 'True Footage publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Appraisal, Valuation, and PropTech.
 
 
   True Footage''s developer surface includes engineering blog, pricing, signup flow, YouTube channel, authentication, and 11 more developer resources.'
@@ -164,7 +164,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -183,13 +183,13 @@ security:
 slug: true-footage
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Appraisal
 - Valuation
 - PropTech
 - Mortgage
 - Property Data
 - Analytics
-- Machine-Learning
+- Machine Learning
 website: https://www.truefootage.tech/
 ---

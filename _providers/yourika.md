@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: YOURIKA
 nav: Providers
 network: true
-overview: 'YOURIKA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Healthcare, and Nursing.
+overview: 'YOURIKA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Healthcare, and Nursing.
 
 
   YOURIKA''s developer surface includes support and 4 more developer resources.'
@@ -105,7 +105,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ slug: yourika
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Nursing
 - Workforce

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. The product itself does not publish a consumer-facing HTTP API; it is a d
@@ -186,7 +186,7 @@ score:
     score: 50.0
   previous_composite: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - GUI
 - REST
 - WebSocket
-- Open-Source
+- Open Source
 - Testing
 website: https://firecamp.io
 ---

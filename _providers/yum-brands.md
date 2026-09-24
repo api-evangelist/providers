@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
   name: Byte by Yum! Platform
   slug: byte-by-yum
-artifact_total: 27
+artifact_total: 26
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/security/yum-brands-domain-security.yml
@@ -115,10 +115,6 @@ finops:
 - name: Yum Brands Finops
   service_category: Quick Service Restaurants
   slug: yum-brands-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Yum! Brands Byte by Yum! platform, covering the digital ordering, loyalty, menu management, restaurant operations, and delivery capabilities across KFC, Piz
-  name: Yum! Brands GraphQL Schema
-  slug: yum-brands-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yum-brands.png
 integrations:
 - description: AI-driven kitchen order management and delivery technology acquired in 2021 ($69.1M), optimizing food preparation from order through delivery.
@@ -177,26 +173,26 @@ rate_limits:
   slug: yum-brands-rate-limits
 score:
   band: emerging
-  composite: 25.7
+  composite: 16.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.6
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 53.2
+    contract_quality: 14.7
     developer_ergonomics: 10.7
     discoverability: 59.3
     operational_transparency: 5.3
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

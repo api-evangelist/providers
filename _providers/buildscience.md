@@ -39,7 +39,7 @@ tags:
 - Facilities
 - Energy
 - Sustainability
-- Real-Estate
+- Real Estate
 - Operating System
 - Defunct
 website: https://www.ycombinator.com/companies/buildscience

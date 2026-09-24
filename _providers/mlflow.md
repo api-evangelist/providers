@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Mlflow Agentic Access
   operation_count: 23
   slug: mlflow-agentic-access
-  summary_line: 23 operations · 17 acting
+  summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
 - description: The MLflow tracking server exposes a REST API for experiments, runs, parameters, metrics, tags, registered models, model versions, model aliases, and artifacts, plus newer endpoints for traces, prompt
@@ -198,7 +198,7 @@ modified: '2026-05-08'
 name: MLflow
 nav: Providers
 network: true
-overview: 'MLflow publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 3 more. Tagged areas include Machine-Learning, MLOps, Generative AI, Experiment Tracking, and Open-Source.
+overview: 'MLflow publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 3 more. Tagged areas include Machine Learning, MLOps, Generative AI, Experiment Tracking, and Open Source.
 
 
   MLflow''s developer surface includes authentication, developer portal, engineering blog, and 15 more developer resources.'
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -255,10 +255,10 @@ security:
   summary_line: TLSv1.3
 slug: mlflow
 tags:
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Generative AI
 - Experiment Tracking
-- Open-Source
+- Open Source
 website: https://mlflow.org/
 ---

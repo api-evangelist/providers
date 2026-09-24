@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ modified: '2026-05-29'
 name: Disney API
 nav: Providers
 network: true
-overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Characters API and Index API. Tagged areas include Entertainment, Characters, Disney, Open-Source, and Fan API.
+overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Characters API and Index API. Tagged areas include Entertainment, Characters, Disney, Open Source, and Fan API.
 
 
   The Disney API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -317,7 +317,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -334,7 +334,7 @@ tags:
 - Entertainment
 - Characters
 - Disney
-- Open-Source
+- Open Source
 - Fan API
 - REST
 - GraphQL

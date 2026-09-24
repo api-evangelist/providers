@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Social beer sharing
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: Untappd
 nav: Providers
 network: true
-overview: 'Untappd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
+overview: 'Untappd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage and Public APIs.
 
 
   Untappd''s developer surface includes engineering blog and 3 more developer resources.'
@@ -92,7 +92,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -105,7 +105,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: untappd
 tags:
-- Food And Drink
+- Food and Beverage
 - Public APIs
 website: https://untappd.com/api/docs
 ---

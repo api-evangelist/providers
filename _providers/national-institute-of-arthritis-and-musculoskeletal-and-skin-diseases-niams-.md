@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) supports research into the causes, treatment, and prevention of arthritis and musculoskeletal and skin diseases.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)
 nav: Providers
 network: true
-overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Health, NIH, and Research.
+overview: National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Health, NIH, and Research.
 plans:
 - name: National Institute Of Arthritis And Musculoskeletal And Skin Diseases Niams  Plans Pricing
   plan_count: 3
@@ -106,7 +106,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -120,7 +120,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: national-institute-of-arthritis-and-musculoskeletal-and-skin-diseases-niams-
 tags:
-- Federal-Government
+- Federal Government
 - Health
 - NIH
 - Research

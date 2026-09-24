@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -363,7 +363,7 @@ modified: '2026-07-20'
 name: OpenRelay
 nav: Providers
 network: true
-overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Batches API, and 15 more. Tagged areas include Company, GPU, Inference, Artificial Intelligence, and Machine-Learning.
+overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Batches API, and 15 more. Tagged areas include Company, GPU, Inference, Artificial Intelligence, and Machine Learning.
 
 
   The OpenRelay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,7 +404,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -429,7 +429,7 @@ tags:
 - GPU
 - Inference
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Compute
 - Infrastructure
 - OpenAI-Compatible

@@ -34,103 +34,103 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
-  name: Super.ai auth API
+  name: Super.ai Auth API
   slug: superai-auth-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: File download operations for retrieving files from gs:// storage URIs. When Super.AI Flows processes documents, task outputs often include file references as `gs://` URIs pointing to Google Cloud Stor
-  name: Super.ai files API
+  name: Super.ai Files API
   slug: superai-files-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Flow execution operations for running and monitoring workflows. Flow executions represent runtime instances of flows. When you execute a flow, a new flow execution is created with its own unique ID, s
-  name: Super.ai flow-executions API
+  name: Super.ai Flow Executions API
   slug: superai-flow-executions-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Flow management operations for defining and organizing workflows. Flows represent workflow definitions with tasks, dependencies, and execution logic. They serve as reusable templates that can be execu
-  name: Super.ai flows API
+  name: Super.ai Flows API
   slug: superai-flows-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Human review task operations for creating and managing human-in-the-loop review workflows.
-  name: Super.ai human-review-tasks API
+  name: Super.ai Human Review Tasks API
   slug: superai-human-review-tasks-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: 'Integration operations for connecting flows to external services and platforms. Integrations enable your workflows to interact with third-party services, databases, storage systems, and communication '
-  name: Super.ai integrations API
+  name: Super.ai Integrations API
   slug: superai-integrations-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: 'Model operations for querying available AI models and their configurations. Model endpoints provide information about the AI models available through the platform. These endpoints enable discovery of '
-  name: Super.ai models API
+  name: Super.ai Models API
   slug: superai-models-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Organization operations for viewing credit balance and organization-scoped information.
-  name: Super.ai organizations API
+  name: Super.ai Organizations API
   slug: superai-organizations-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Plugin operations for managing integration plugin instances, OAuth flows, and webhooks.
-  name: Super.ai plugins API
+  name: Super.ai Plugins API
   slug: superai-plugins-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: User profile operations for viewing and updating account information. Profile endpoints allow authenticated users to view and update their own account information and preferences. These endpoints oper
-  name: Super.ai profile API
+  name: Super.ai Profile API
   slug: superai-profile-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Service account operations for managing programmatic API access credentials.
-  name: Super.ai service-accounts API
+  name: Super.ai Service Accounts API
   slug: superai-service-accounts-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Single Sign-On operations for configuring SAML-based SSO authentication.
-  name: Super.ai sso API
+  name: Super.ai SSO API
   slug: superai-sso-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Task data operations for flow validation, schema discovery, and dynamic configuration. The task-data endpoint analyzes flow definitions to extract task output schemas, dynamic configuration options, a
-  name: Super.ai task-data API
+  name: Super.ai Task Data API
   slug: superai-task-data-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Task execution operations for tracking individual task runs within flow executions. Task executions represent individual task runs within a flow execution. Each task in a flow execution has its own ta
-  name: Super.ai task-executions API
+  name: Super.ai Task Executions API
   slug: superai-task-executions-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Task executor operations for discovering available task types and their capabilities. Task executors define the available task types that can be used in flow definitions. Each executor specifies its i
-  name: Super.ai task-executors API
+  name: Super.ai Task Executors API
   slug: superai-task-executors-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: 'Task output operations for storing and retrieving task execution results. Task outputs store the results produced by task executions in a structured, queryable format. While task executions track the '
-  name: Super.ai task-outputs API
+  name: Super.ai Task Outputs API
   slug: superai-task-outputs-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Task tag operations for categorizing and organizing tasks with metadata. Task tags provide metadata and categorization for tasks within flow executions. Tags enable flexible organization, filtering, a
-  name: Super.ai task-tags API
+  name: Super.ai Task Tags API
   slug: superai-task-tags-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: Push data from external systems to a flow execution's waiting 'Wait for Webhook' task. A 2xx acknowledgment means the data is durably stored; identical redeliveries are idempotent.
-  name: Super.ai webhook-data API
+  name: Super.ai Webhook Data API
   slug: superai-webhook-data-api
 - baseURL: https://flows.super.ai/api
   baseurl_source: declared
   description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
-  name: Super.ai worker-groups API
+  name: Super.ai Worker Groups API
   slug: superai-worker-groups-api
 artifact_total: 43
 asyncapis:
@@ -349,7 +349,7 @@ modified: '2026-07-21'
 name: Super.ai
 nav: Providers
 network: true
-overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network, including auth API, files API, flow-executions API, and 16 more. Tagged areas include Company, Ai Enterprise Software, Intelligent Document Processing, Document Processing, and Workflow Orchestration.
+overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Files API, Flow Executions API, and 16 more. Tagged areas include Company, Ai Enterprise Software, Intelligent Document Processing, Document Processing, and Workflow Orchestration.
 
 
   The Super.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -386,7 +386,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

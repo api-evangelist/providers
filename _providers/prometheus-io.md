@@ -32,14 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 14
   human_in_the_loop: 0
   name: Prometheus Io Agentic Access
   operation_count: 57
   slug: prometheus-io-agentic-access
-  summary_line: 57 operations · 22 acting
+  summary_line: 57 operations · 14 acting
 api_count: 2
 apis:
 - description: Remote Write is Prometheus' push protocol for shipping scraped samples to long-term storage and analysis backends (Cortex, Thanos, Mimir, VictoriaMetrics, InfluxDB, Datadog, etc.). Snappy-compressed p
@@ -54,94 +54,94 @@ apis:
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Administrative operations for TSDB management.
-  name: Prometheus admin API
+  name: Prometheus Admin API
   slug: prometheus-io-admin-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Everything related to Alertmanager alerts
-  name: Prometheus alert API
+  name: Prometheus Alert API
   slug: prometheus-io-alert-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: The alertgroup API from Prometheus — 1 operation(s) for alertgroup.
-  name: Prometheus alertgroup API
+  name: Prometheus Alertgroup API
   slug: prometheus-io-alertgroup-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query active alerts and alertmanager discovery.
-  name: Prometheus alerts API
+  name: Prometheus Alerts API
   slug: prometheus-io-alerts-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query enabled features.
-  name: Prometheus features API
+  name: Prometheus Features API
   slug: prometheus-io-features-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: General Alertmanager operations
-  name: Prometheus general API
+  name: Prometheus General API
   slug: prometheus-io-general-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query label names and values.
-  name: Prometheus labels API
+  name: Prometheus Labels API
   slug: prometheus-io-labels-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Retrieve metric metadata such as type and unit.
-  name: Prometheus metadata API
+  name: Prometheus Metadata API
   slug: prometheus-io-metadata-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Server notifications and events.
-  name: Prometheus notifications API
+  name: Prometheus Notifications API
   slug: prometheus-io-notifications-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: OpenTelemetry Protocol metrics ingestion.
-  name: Prometheus otlp API
+  name: Prometheus Otlp API
   slug: prometheus-io-otlp-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query and evaluate PromQL expressions.
-  name: Prometheus query API
+  name: Prometheus Query API
   slug: prometheus-io-query-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Everything related to Alertmanager receivers
-  name: Prometheus receiver API
+  name: Prometheus Receiver API
   slug: prometheus-io-receiver-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Remote read and write endpoints.
-  name: Prometheus remote API
+  name: Prometheus Remote API
   slug: prometheus-io-remote-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query recording and alerting rules.
-  name: Prometheus rules API
+  name: Prometheus Rules API
   slug: prometheus-io-rules-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Query and manage time series.
-  name: Prometheus series API
+  name: Prometheus Series API
   slug: prometheus-io-series-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Everything related to Alertmanager silences
-  name: Prometheus silence API
+  name: Prometheus Silence API
   slug: prometheus-io-silence-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Retrieve server status and configuration.
-  name: Prometheus status API
+  name: Prometheus Status API
   slug: prometheus-io-status-api
 - baseURL: http://localhost:9090/api/v1
   baseurl_source: declared
   description: Retrieve target and scrape pool information.
-  name: Prometheus targets API
+  name: Prometheus Targets API
   slug: prometheus-io-targets-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -393,10 +393,6 @@ examples:
 - key_count: 2
   name: Prometheus Targets Example
   slug: prometheus-targets-example
-graphqls:
-- description: This directory contains a conceptual GraphQL schema that maps the Prometheus HTTP API to GraphQL types and queries. Prometheus itself exposes a REST/PromQL HTTP API — this schema is a structural repre
-  name: Prometheus GraphQL Schema
-  slug: prometheus-io-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prometheus-io.png
 json_schemas:
 - name: Prometheus Query Result
@@ -415,7 +411,7 @@ modified: 2026-05-25 00:00:00+00:00
 name: Prometheus
 nav: Providers
 network: true
-overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) network, including admin API, alert API, alertgroup API, and 15 more. Tagged areas include Prometheus, Monitoring, Metrics, Observability, and Time Series.
+overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Alert API, Alertgroup API, and 15 more. Tagged areas include Prometheus, Monitoring, Metrics, Observability, and Time Series.
 
 
   The Prometheus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -447,23 +443,23 @@ rules:
   slug: prometheus-io-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 36.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 51.5
     catalog_earned_first_party: 0.0
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.2
+  delta: -1.1
   facets:
     access_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 66.0
+    contract_quality: 61.6
     developer_ergonomics: 42.9
     discoverability: 53.7
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -472,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -493,7 +489,7 @@ tags:
 - Alerting
 - Cloud-Native
 - CNCF
-- Open-Source
+- Open Source
 - PromQL
 - Telemetry
 website: https://www.prometheus.io/

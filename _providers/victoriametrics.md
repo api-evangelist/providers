@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 12
   human_in_the_loop: 0
   name: Victoriametrics Agentic Access
   operation_count: 25
   slug: victoriametrics-agentic-access
-  summary_line: 25 operations · 13 acting
+  summary_line: 25 operations · 12 acting
 api_count: 1
 apis:
 - description: Prometheus-compatible HTTP API for instant and range queries (PromQL / MetricsQL), label discovery, series search, metadata and TSDB status. Single-node default port 8428; in cluster mode served by vm
@@ -82,7 +82,7 @@ apis:
   description: Endpoints compatible with other monitoring formats
   name: VictoriaMetrics Third-Party API
   slug: victoriametrics-third-party-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -175,17 +175,13 @@ finops:
 - name: Victoriametrics Finops
   service_category: Observability / Time-Series
   slug: victoriametrics-finops
-graphqls:
-- description: 'This directory contains a conceptual GraphQL schema for the VictoriaMetrics time-series database and monitoring platform. VictoriaMetrics does not natively expose a GraphQL endpoint; this schema is a '
-  name: VictoriaMetrics GraphQL Schema
-  slug: victoriametrics-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/victoriametrics.png
 layout: provider
 modified: '2026-05-08'
 name: VictoriaMetrics
 nav: Providers
 network: true
-overview: 'VictoriaMetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Export API, Import API, and 2 more. Tagged areas include Database, Time Series, Monitoring, Open-Source, and Prometheus.
+overview: 'VictoriaMetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Export API, Import API, and 2 more. Tagged areas include Database, Time Series, Monitoring, Open Source, and Prometheus.
 
 
   VictoriaMetrics'' developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -200,19 +196,19 @@ rate_limits:
   slug: victoriametrics-rate-limits
 score:
   band: thin
-  composite: 32.1
+  composite: 30.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 51.2
+    contract_quality: 44.9
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 13.2
@@ -225,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -249,7 +245,7 @@ tags:
 - Database
 - Time Series
 - Monitoring
-- Open-Source
+- Open Source
 - Prometheus
 - PromQL
 - MetricsQL

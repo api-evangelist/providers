@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -322,7 +322,7 @@ modified: '2026-09-16'
 name: SuperTokens
 nav: Providers
 network: true
-overview: 'SuperTokens publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Email Password API, Email Verification API, Health API, and 7 more. Tagged areas include Authentication, Open-Source, Session Management, Social Login, and Passwordless.
+overview: 'SuperTokens publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Email Password API, Email Verification API, Health API, and 7 more. Tagged areas include Authentication, Open Source, Session Management, Social Login, and Passwordless.
 
 
   The SuperTokens catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -386,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -400,7 +400,7 @@ security:
 slug: supertokens
 tags:
 - Authentication
-- Open-Source
+- Open Source
 - Session Management
 - Social Login
 - Passwordless

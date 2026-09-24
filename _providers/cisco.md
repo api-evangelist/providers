@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -32,11 +32,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-09-23'
+  score: 23.7
+  scored_at: '2026-09-24'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -70,7 +70,7 @@ arazzos:
 - description: Verify organization access, guard against a duplicate network name, create the network, and read it back.
   name: Cisco Meraki Provision an Organization Network
   slug: cisco-provision-meraki-network-workflow
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Cisco Meraki Dashboard Clients API
@@ -375,10 +375,6 @@ finops:
 - name: Cisco Finops
   service_category: Networking + Security
   slug: cisco-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for Cisco's APIs, unifying resources from Cisco Meraki, Webex, Catalyst Center (DNA Center), and NSO (Network Services Orchestrator). Cisco provides REST APIs throu
-  name: Cisco GraphQL Schema
-  slug: cisco-graphql
 image: /assets/icons/cisco.png
 integrations:
 - description: Network automation modules for Cisco platforms including IOS, NX-OS, ACI, and Meraki.
@@ -454,20 +450,20 @@ rules:
     warn: 10
   slug: cisco-spectral-rules
 score:
-  band: developing
-  composite: 45.3
+  band: thin
+  composite: 36.5
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 60.5
     catalog_earned_first_party: 0.0
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.8
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 45.7
+    contract_quality: 10.7
     developer_ergonomics: 69.0
     discoverability: 74.1
     operational_transparency: 23.7
@@ -476,8 +472,8 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

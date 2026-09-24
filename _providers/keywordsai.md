@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 11
   human_in_the_loop: 0
   name: Keywordsai Agentic Access
   operation_count: 20
   slug: keywordsai-agentic-access
-  summary_line: 20 operations · 15 acting
+  summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
 - baseURL: https://api.keywordsai.co/api
@@ -251,7 +251,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -277,5 +277,6 @@ tags:
 - Observability
 - Gateways
 - Monitoring
+- Real-Time
 website: https://www.keywordsai.co
 ---

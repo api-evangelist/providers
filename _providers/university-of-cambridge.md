@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,22 +56,22 @@ apis:
 - baseURL: https://www.lookup.cam.ac.uk/api/v1/
   baseurl_source: declared
   description: 'Methods for querying and manipulating groups. #### The fetch parameter for groups All methods that return groups also accept an optional `fetch` parameter that may be used to request additional inform'
-  name: University of Cambridge group API
+  name: University of Cambridge Group API
   slug: university-of-cambridge-group-api
 - baseURL: https://www.lookup.cam.ac.uk/api/v1/
   baseurl_source: declared
   description: Common methods for searching for objects in the Lookup/Ibis database.
-  name: University of Cambridge ibis API
+  name: University of Cambridge Ibis API
   slug: university-of-cambridge-ibis-api
 - baseURL: https://www.lookup.cam.ac.uk/api/v1/
   baseurl_source: declared
   description: 'Methods for querying and manipulating institutions. #### The fetch parameter for institutions All methods that return institutions also accept an optional `fetch` parameter that may be used to request'
-  name: University of Cambridge institution API
+  name: University of Cambridge Institution API
   slug: university-of-cambridge-institution-api
 - baseURL: https://www.lookup.cam.ac.uk/api/v1/
   baseurl_source: declared
   description: 'Methods for querying and manipulating people. #### Notes on the fetch parameter All methods that return people, institutions or groups also accept an optional `fetch` parameter that may be used to req'
-  name: University of Cambridge person API
+  name: University of Cambridge Person API
   slug: university-of-cambridge-person-api
 - description: The University's Shibboleth identity provider, publishing signed SAML 2.0 IdP metadata at https://shib.raven.cam.ac.uk/shibboleth. The EntityDescriptor carries entityID https://shib.raven.cam.ac.uk/sh
   name: Cambridge Shibboleth Identity Provider (SAML 2.0 metadata)
@@ -276,7 +276,7 @@ modified: '2026-08-19'
 name: University of Cambridge
 nav: Providers
 network: true
-overview: 'University of Cambridge publishes 4 APIs on the [APIs.io](https://apis.io/) network, including group API, ibis API, institution API, and 1 more. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
+overview: 'University of Cambridge publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Group API, Ibis API, Institution API, and 1 more. Tagged areas include Education, Higher Education, University, Research, and United Kingdom.
 
 
   The University of Cambridge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -356,7 +356,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

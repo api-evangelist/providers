@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 119
+- acting_count: 130
   human_in_the_loop: 1
   name: Revolut Agentic Access
-  operation_count: 237
+  operation_count: 259
   slug: revolut-agentic-access
-  summary_line: 237 operations · 119 acting · 1 human-in-the-loop
+  summary_line: 259 operations · 130 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://b2b.revolut.com/api/1.0
@@ -659,7 +659,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

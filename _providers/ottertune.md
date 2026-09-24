@@ -32,7 +32,7 @@ modified: '2026-07-20'
 name: OtterTune
 nav: Providers
 network: true
-overview: OtterTune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Database Optimization, and Machine-Learning.
+overview: OtterTune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Database Optimization, and Machine Learning.
 random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/ottertune/refs/heads/main/screenshots/ottertune-2026-08-07T191032.png
 security:
@@ -46,7 +46,7 @@ tags:
 - Big Data
 - Database
 - Database Optimization
-- Machine-Learning
+- Machine Learning
 - PostgreSQL
 - MySQL
 - Defunct

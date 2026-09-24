@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Kairos Ar Agentic Access
   operation_count: 13
   slug: kairos-ar-agentic-access
-  summary_line: 13 operations · 11 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.kairos.com
@@ -233,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -255,10 +255,10 @@ tags:
 - Facial Recognition
 - Biometrics
 - Emotion Analysis
-- Computer-Vision
+- Computer Vision
 - Identity
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Image Analysis
 website: https://kairos.com
 ---

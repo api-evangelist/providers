@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON) hardware, exposing a vendor-agnostic gRPC API for '
@@ -143,7 +143,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ tags:
 - Networking
 - Telecommunications
 - PON
-- Open-Source
+- Open Source
 - SDN
 website: https://lfbroadband.org/
 ---

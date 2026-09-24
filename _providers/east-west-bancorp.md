@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: East West Bancorp's API surface is delivered by its banking subsidiary, East West Bank, through the Bridge Open Banking developer program for Global Transaction Services clients. Documented capabiliti
@@ -192,7 +192,7 @@ modified: '2026-09-14'
 name: East West Bancorp
 nav: Providers
 network: true
-overview: 'East West Bancorp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Commercial Banking, Treasury Management, and Open Banking.
+overview: 'East West Bancorp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, Treasury Management, and Open Banking.
 
 
   The East West Bancorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -243,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -262,7 +262,7 @@ security:
 slug: east-west-bancorp
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Commercial Banking
 - Treasury Management
 - Open Banking

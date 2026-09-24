@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
@@ -101,7 +101,7 @@ modified: '2026-07-25'
 name: ResWare
 nav: Providers
 network: true
-overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title, Escrow, Real-Estate, Closing, and Title Production.
+overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title, Escrow, Real Estate, Closing, and Title Production.
 
 
   ResWare''s developer surface includes documentation and 7 more developer resources.'
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ slug: resware
 tags:
 - Title
 - Escrow
-- Real-Estate
+- Real Estate
 - Closing
 - Title Production
 - SOAP

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
-  human_in_the_loop: 19
+- acting_count: 15
+  human_in_the_loop: 15
   name: Ninetyio Agentic Access
   operation_count: 25
   slug: ninetyio-agentic-access
-  summary_line: 25 operations · 19 acting · 19 human-in-the-loop
+  summary_line: 25 operations · 15 acting · 15 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.public.ninety.io/v1
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

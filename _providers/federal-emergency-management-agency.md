@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ modified: '2026-05-19'
 name: Federal Emergency Management Agency
 nav: Providers
 network: true
-overview: 'Federal Emergency Management Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assistance API, Disasters API, Metadata API, and 1 more. Tagged areas include Disasters, Emergencies, Federal-Government, Flood Insurance, and Hazard Mitigation.
+overview: 'Federal Emergency Management Agency publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assistance API, Disasters API, Metadata API, and 1 more. Tagged areas include Disasters, Emergencies, Federal Government, Flood Insurance, and Hazard Mitigation.
 
 
   The Federal Emergency Management Agency catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -191,7 +191,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ slug: federal-emergency-management-agency
 tags:
 - Disasters
 - Emergencies
-- Federal-Government
+- Federal Government
 - Flood Insurance
 - Hazard Mitigation
 website: https://www.fema.gov/

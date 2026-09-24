@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 221
+- acting_count: 215
   human_in_the_loop: 5
   name: Rapid7 Agentic Access
   operation_count: 459
   slug: rapid7-agentic-access
-  summary_line: 459 operations · 221 acting · 5 human-in-the-loop
+  summary_line: 459 operations · 215 acting · 5 human-in-the-loop
 api_count: 3
 apis:
 - description: REST API for the InsightVM vulnerability management product, exposing assets, scans, vulnerabilities, remediation projects, and reports. Authentication uses an Insight Platform API key in the `X-Api-K
@@ -289,7 +289,7 @@ apis:
   description: Resources and operations for retrieving vulnerability results on assessed assets.
   name: Rapid7 Vulnerability Result API
   slug: rapid7-vulnerability-result-api
-artifact_total: 321
+artifact_total: 320
 collections:
 - collection_type: open
   name: API Collection
@@ -537,10 +537,6 @@ finops:
 - name: Rapid7 Finops
   service_category: API
   slug: rapid7-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Rapid7 Insight Platform API surface, covering InsightVM (vulnerability management), InsightIDR (SIEM/XDR), and InsightConnect (SOAR). The schema is derive
-  name: Rapid7 GraphQL Schema
-  slug: rapid7-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rapid7.png
 json_schemas:
 - name: AccountV2
@@ -1200,32 +1196,32 @@ rules:
   slug: rapid7-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 43.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 59.3
     catalog_earned_first_party: 0.0
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: -0.9
   facets:
     access_clarity: 52.6
     contract_governance: 9.8
-    contract_quality: 63.2
+    contract_quality: 59.6
     developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 39.5
-  previous_composite: 43.7
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 37.0
       derived: 0
       marker_coverage: 0.0
       total: 47
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Indian Affairs GIS Open Data Hub publishes authoritative geospatial datasets as downloadable and machine-readable resources via Esri ArcGIS Hub, including federally recognized tribal boundaries, l
@@ -104,7 +104,7 @@ modified: '2026-07-25'
 name: Bureau of Indian Affairs
 nav: Providers
 network: true
-overview: 'Bureau of Indian Affairs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, GIS, ICWA, Indigenous, and Tribal.
+overview: 'Bureau of Indian Affairs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, GIS, ICWA, Indigenous, and Tribal.
 
 
   Bureau of Indian Affairs'' developer surface includes engineering blog and 10 more developer resources.'
@@ -148,7 +148,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bureau-of-indian-affairs
 tags:
-- Federal-Government
+- Federal Government
 - GIS
 - ICWA
 - Indigenous

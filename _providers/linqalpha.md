@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.linqalpha.com
@@ -263,7 +263,7 @@ modified: '2026-07-19'
 name: LinqAlpha
 nav: Providers
 network: true
-overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Briefing API, Connectors API, Data API, and 7 more. Tagged areas include Company, Financial-Services, Investment Research, Artificial Intelligence, and Agents.
+overview: 'LinqAlpha publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Briefing API, Connectors API, Data API, and 7 more. Tagged areas include Company, Financial Services, Investment Research, Artificial Intelligence, and Agents.
 
 
   LinqAlpha''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
@@ -312,7 +312,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -334,7 +334,7 @@ security:
 slug: linqalpha
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investment Research
 - Artificial Intelligence
 - Agents

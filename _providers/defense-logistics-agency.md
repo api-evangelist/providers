@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: 'Comprehensive list of DLA business applications used to work with the agency, including supply, contracting, distribution, disposition, fuel, and energy systems. The catalog provides links, contacts, '
@@ -98,7 +98,7 @@ modified: '2026-04-28'
 name: Defense Logistics Agency
 nav: Providers
 network: true
-overview: 'Defense Logistics Agency publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, Defense, Department of Defense, DLA, and Federal-Government.
+overview: 'Defense Logistics Agency publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, Defense, Department of Defense, DLA, and Federal Government.
 
 
   Defense Logistics Agency''s developer surface includes documentation, product news, and 6 more developer resources.'
@@ -137,7 +137,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -155,7 +155,7 @@ tags:
 - Defense
 - Department of Defense
 - DLA
-- Federal-Government
+- Federal Government
 - Logistics
 - Procurement
 - Supply Chain

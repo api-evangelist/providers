@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 23
+- acting_count: 10
   human_in_the_loop: 0
   name: Cloudkit Agentic Access
   operation_count: 23
   slug: cloudkit-agentic-access
-  summary_line: 23 operations · 23 acting
+  summary_line: 23 operations · 10 acting
 api_count: 1
 apis:
 - description: 'The CloudKit Web Services REST API is structured as /database/1/{container}/{environment}/{database}/{operation}, where database is one of public, private, or shared and environment is development or '
@@ -376,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

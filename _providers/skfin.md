@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-21'
 name: SK Finance Ltd
 nav: Providers
 network: true
-overview: SK Finance Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, NBFC, and Vehicle Finance.
+overview: SK Finance Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, NBFC, and Vehicle Finance.
 random_paper: 11
 score:
   band: minimal
@@ -82,7 +82,7 @@ score:
     - india-south-asia
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ security:
 slug: skfin
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - NBFC
 - Vehicle Finance

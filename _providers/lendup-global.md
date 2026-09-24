@@ -18,12 +18,12 @@ modified: '2026-07-19'
 name: LendUp Global
 nav: Providers
 network: true
-overview: LendUp Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Lending, and Consumer Credit.
+overview: LendUp Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Lending, and Consumer Credit.
 random_paper: 20
 slug: lendup-global
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Consumer Credit

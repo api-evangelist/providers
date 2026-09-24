@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Availity Agentic Access
   operation_count: 19
   slug: availity-agentic-access
-  summary_line: 19 operations · 9 acting
+  summary_line: 19 operations · 8 acting
 api_count: 4
 apis:
 - description: The Availity Healthcare HIPAA Transactions API provides a unified interface for standard HIPAA EDI transactions. REST APIs enable healthcare providers and vendors to submit and receive X12 EDI transac
@@ -988,7 +988,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

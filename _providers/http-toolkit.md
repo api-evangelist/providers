@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -48,24 +48,24 @@ apis:
 - baseURL: http://localhost:45456
   baseurl_source: declared
   description: HTTP client request sending through the proxy
-  name: HTTP Toolkit client API
+  name: HTTP Toolkit Client API
   slug: http-toolkit-client-api
 - baseURL: http://localhost:45456
   baseurl_source: declared
   description: Proxy configuration and network settings
-  name: HTTP Toolkit config API
+  name: HTTP Toolkit Config API
   slug: http-toolkit-config-api
 - baseURL: http://localhost:45456
   baseurl_source: declared
   description: Interceptor management for various environments and applications
-  name: HTTP Toolkit interceptors API
+  name: HTTP Toolkit Interceptors API
   slug: http-toolkit-interceptors-api
 - baseURL: http://localhost:45456
   baseurl_source: declared
   description: Server lifecycle and version management
-  name: HTTP Toolkit server API
+  name: HTTP Toolkit Server API
   slug: http-toolkit-server-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -180,10 +180,6 @@ finops:
 - name: Http Toolkit Finops
   service_category: ''
   slug: http-toolkit-finops
-graphqls:
-- description: HTTP Toolkit GraphQL API
-  name: HTTP Toolkit GraphQL Schema
-  slug: http-toolkit-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/http-toolkit.png
 json_schemas:
 - name: HTTP Toolkit Interceptor
@@ -205,7 +201,7 @@ modified: '2026-06-13'
 name: HTTP Toolkit
 nav: Providers
 network: true
-overview: 'HTTP Toolkit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including client API, config API, interceptors API, and 1 more. Tagged areas include HTTP, Debugging, Proxy, Interception, and Mocking.
+overview: 'HTTP Toolkit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client API, Config API, Interceptors API, and 1 more. Tagged areas include HTTP, Debugging, Proxy, Interception, and Mocking.
 
 
   The HTTP Toolkit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -234,19 +230,19 @@ rules:
   slug: http-toolkit-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 37.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 64.3
     catalog_earned_first_party: 0.0
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.2
+    contract_quality: 60.0
     developer_ergonomics: 23.8
     discoverability: 64.8
     operational_transparency: 21.1
@@ -262,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -286,6 +282,6 @@ tags:
 - Mocking
 - Testing
 - Developer Tools
-- Open-Source
+- Open Source
 website: https://httptoolkit.com
 ---

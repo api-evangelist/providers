@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -74,27 +74,27 @@ apis:
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The consents/tokens API from Didomi — 1 operation(s) for consents/tokens.
-  name: Didomi consents/tokens API
+  name: Didomi Consents/tokens API
   slug: didomi-consents-tokens-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The consents/users API from Didomi — 2 operation(s) for consents/users.
-  name: Didomi consents/users API
+  name: Didomi Consents/users API
   slug: didomi-consents-users-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage cookies set by a property
-  name: Didomi cookies API
+  name: Didomi Cookies API
   slug: didomi-cookies-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The dashboards-urls API from Didomi — 1 operation(s) for dashboards-urls.
-  name: Didomi dashboards-urls API
+  name: Didomi Dashboards URLs API
   slug: didomi-dashboards-urls-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Provisioned domains for consent notices and privacy centers
-  name: Didomi domains API
+  name: Didomi Domains API
   slug: didomi-domains-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
@@ -104,122 +104,122 @@ apis:
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage API keys
-  name: Didomi keys API
+  name: Didomi Keys API
   slug: didomi-keys-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: List of available languages for the SDKs
-  name: Didomi languages API
+  name: Didomi Languages API
   slug: didomi-languages-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage members of an organization
-  name: Didomi members API
+  name: Didomi Members API
   slug: didomi-members-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: A metadata service
-  name: Didomi metadata API
+  name: Didomi Metadata API
   slug: didomi-metadata-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The metadata-purpose-regulation-override API from Didomi — 2 operation(s) for metadata-purpose-regulation-override.
-  name: Didomi metadata-purpose-regulation-override API
+  name: Didomi Metadata Purpose Regulation Override API
   slug: didomi-metadata-purpose-regulation-override-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The notices API from Didomi — 18 operation(s) for notices.
-  name: Didomi notices API
+  name: Didomi Notices API
   slug: didomi-notices-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage organizations
-  name: Didomi organizations API
+  name: Didomi Organizations API
   slug: didomi-organizations-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage organization source systems
-  name: Didomi organizations-source-systems API
+  name: Didomi Organizations Source Systems API
   slug: didomi-organizations-source-systems-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The partners API from Didomi — 2 operation(s) for partners.
-  name: Didomi partners API
+  name: Didomi Partners API
   slug: didomi-partners-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The partners-default-purposes API from Didomi — 1 operation(s) for partners-default-purposes.
-  name: Didomi partners-default-purposes API
+  name: Didomi Partners Default Purposes API
   slug: didomi-partners-default-purposes-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The partners-legitimate-interest-purposes API from Didomi — 1 operation(s) for partners-legitimate-interest-purposes.
-  name: Didomi partners-legitimate-interest-purposes API
+  name: Didomi Partners Legitimate Interest Purposes API
   slug: didomi-partners-legitimate-interest-purposes-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The partners-spi-purposes API from Didomi — 1 operation(s) for partners-spi-purposes.
-  name: Didomi partners-spi-purposes API
+  name: Didomi Partners Spi Purposes API
   slug: didomi-partners-spi-purposes-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The partners-storages API from Didomi — 2 operation(s) for partners-storages.
-  name: Didomi partners-storages API
+  name: Didomi Partners Storages API
   slug: didomi-partners-storages-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage premium features
-  name: Didomi premium-features API
+  name: Didomi Premium Features API
   slug: didomi-premium-features-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage privacy centers
-  name: Didomi privacy-centers API
+  name: Didomi Privacy Centers API
   slug: didomi-privacy-centers-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The purposes API from Didomi — 3 operation(s) for purposes.
-  name: Didomi purposes API
+  name: Didomi Purposes API
   slug: didomi-purposes-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The purposes-groups API from Didomi — 2 operation(s) for purposes-groups.
-  name: Didomi purposes-groups API
+  name: Didomi Purposes Groups API
   slug: didomi-purposes-groups-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage quotas
-  name: Didomi quotas API
+  name: Didomi Quotas API
   slug: didomi-quotas-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage secrets
-  name: Didomi secrets API
+  name: Didomi Secrets API
   slug: didomi-secrets-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage sessions
-  name: Didomi sessions API
+  name: Didomi Sessions API
   slug: didomi-sessions-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage SSO connections
-  name: Didomi sso-connections API
+  name: Didomi SSO Connections API
   slug: didomi-sso-connections-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage the taxonomy for vendors
-  name: Didomi taxonomies API
+  name: Didomi Taxonomies API
   slug: didomi-taxonomies-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: Manage vendors used by a property
-  name: Didomi vendors API
+  name: Didomi Vendors API
   slug: didomi-vendors-api
 - baseURL: https://api.didomi.io/v1
   baseurl_source: declared
   description: The widgets/notices/remote-configs API from Didomi — 1 operation(s) for widgets/notices/remote-configs.
-  name: Didomi widgets/notices/remote-configs API
+  name: Didomi Widgets/notices/remote Configs API
   slug: didomi-widgets-notices-remote-configs-api
 arazzos:
 - description: Create a vendor taxonomy item, register a cookie classified with it, and read the cookie back.
@@ -832,7 +832,7 @@ modified: '2026-08-13'
 name: Didomi
 nav: Providers
 network: true
-overview: 'Didomi publishes 32 APIs on the [APIs.io](https://apis.io/) network, including consents/events API, consents/proofs API, consents/tokens API, and 29 more. Tagged areas include Advertising, AdTech, CCPA, CMP, and Consent.
+overview: 'Didomi publishes 32 APIs on the [APIs.io](https://apis.io/) network, including consents/events API, consents/proofs API, Consents/tokens API, and 29 more. Tagged areas include Advertising, AdTech, CCPA, CMP, and Consent.
 
 
   The Didomi catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -906,7 +906,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 60
+- acting_count: 59
   human_in_the_loop: 2
   name: Boldsign Agentic Access
   operation_count: 85
   slug: boldsign-agentic-access
-  summary_line: 85 operations · 60 acting · 2 human-in-the-loop
+  summary_line: 85 operations · 59 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.boldsign.com
@@ -239,7 +239,7 @@ modified: 2026-06-12
 name: BoldSign
 nav: Providers
 network: true
-overview: 'BoldSign publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Branding API, Contacts API, Custom Field API, and 8 more. Tagged areas include E-Signature, Electronic Signature, Document-Management, Embedded Signing, and Webhook.
+overview: 'BoldSign publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Branding API, Contacts API, Custom Field API, and 8 more. Tagged areas include E-Signature, Electronic Signature, Document Management, Embedded Signing, and Webhook.
 
 
   The BoldSign catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -294,7 +294,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +313,7 @@ slug: boldsign
 tags:
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - Embedded Signing
 - Webhook
 - Templates

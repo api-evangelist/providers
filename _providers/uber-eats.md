@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Uber Eats Agentic Access
   operation_count: 17
   slug: uber-eats-agentic-access
-  summary_line: 17 operations · 10 acting
+  summary_line: 17 operations · 9 acting
 api_count: 2
 apis:
 - description: The Integration Activation API suite onboards merchant stores onto a partner's Uber Eats integration, connecting Uber store identifiers to a partner platform and enabling subsequent menu, order, and s
@@ -93,7 +93,7 @@ apis:
   description: The Eats API from Uber Eats — 9 operation(s) for eats.
   name: Uber Eats API
   slug: uber-eats-eats-api
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -259,10 +259,6 @@ finops:
 - name: Uber Eats Finops
   service_category: API
   slug: uber-eats-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Uber Eats platform API domain, covering restaurant and store management, menus, orders, delivery fulfillment, promotions, customer data, and reporting. Ub
-  name: Uber Eats GraphQL Schema
-  slug: uber-eats-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uber-eats.png
 json_schemas:
 - name: MenuItem
@@ -402,19 +398,19 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.2
+  composite: 54.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 80.5
     catalog_earned_first_party: 0.0
     catalog_gap: 34.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 67.9
+    contract_quality: 66.4
     developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 31.6
@@ -427,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

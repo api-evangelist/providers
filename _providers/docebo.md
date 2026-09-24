@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: RESTful API for managing all aspects of the Docebo learning platform including courses, users, enrollments, certifications, learning plans, reports, gamification, and e-commerce.
   name: Docebo REST API
   slug: docebo-rest-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -117,10 +117,6 @@ finops:
 - name: Docebo Finops
   service_category: ''
   slug: docebo-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Docebo LMS (Learning Management System) platform. Docebo provides a REST API at https://developers.docebo.com/reference — this GraphQL schema models the sam
-  name: Docebo GraphQL Schema
-  slug: docebo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docebo.png
 layout: provider
 modified: '2026-06-13'
@@ -142,19 +138,19 @@ rate_limits:
   slug: docebo-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 31.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 40.6
+    contract_quality: 26.0
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 44.7
@@ -166,7 +162,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

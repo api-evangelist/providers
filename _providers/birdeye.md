@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 127
+- acting_count: 100
   human_in_the_loop: 0
   name: Birdeye Agentic Access
-  operation_count: 162
+  operation_count: 168
   slug: birdeye-agentic-access
-  summary_line: 162 operations · 127 acting
+  summary_line: 168 operations · 100 acting
 api_count: 2
 apis:
 - baseURL: https://api.birdeye.com
@@ -1077,7 +1077,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1109,5 +1109,6 @@ tags:
 - Messaging
 - Multi-Location
 - Artificial Intelligence
+- A2A
 website: https://birdeye.com/
 ---

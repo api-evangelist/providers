@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 66
+- acting_count: 62
   human_in_the_loop: 0
   name: Genius Sports Agentic Access
   operation_count: 227
   slug: genius-sports-agentic-access
-  summary_line: 227 operations · 66 acting
+  summary_line: 227 operations · 62 acting
 api_count: 3
 apis:
 - description: Query information regarding matches, players, statistics etc. both past and future. Covers basketball, 3x3, football (soccer), volleyball, American football, and ice hockey.
@@ -83,17 +83,17 @@ apis:
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
   description: Groups the operations related to competitors of type Player
-  name: Genius Sports competitors/players API
+  name: Genius Sports Competitors/players API
   slug: genius-sports-competitors-players-api
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
   description: Groups the operations related to to-be-determined competitors.
-  name: Genius Sports competitors/tbds API
+  name: Genius Sports Competitors/tbds API
   slug: genius-sports-competitors-tbds-api
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
   description: Groups the operations related to competitors of type Team
-  name: Genius Sports competitors/teams API
+  name: Genius Sports Competitors/teams API
   slug: genius-sports-competitors-teams-api
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
@@ -366,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

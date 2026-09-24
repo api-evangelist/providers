@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: ReQL (RethinkDB Query Language) is the expressive query language exposed by RethinkDB through official client drivers. Drivers communicate with the RethinkDB server using a native JSON protocol over T
@@ -97,7 +97,7 @@ modified: '2026-05-11'
 name: RethinkDB
 nav: Providers
 network: true
-overview: 'RethinkDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, NoSQL, Document Database, Real-Time, and Open-Source.
+overview: 'RethinkDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, NoSQL, Document Database, Real-Time, and Open Source.
 
 
   RethinkDB''s developer surface includes documentation, API reference, engineering blog, and 9 more developer resources.'
@@ -122,7 +122,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ tags:
 - NoSQL
 - Document Database
 - Real-Time
-- Open-Source
+- Open Source
 - Change Feeds
 - ReQL
 website: https://rethinkdb.com

@@ -44,6 +44,6 @@ tags:
 - Vacation Rentals
 - Corporate Housing
 - Accommodation
-- Real-Estate
+- Real Estate
 - Consumer
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Face and License Plate Anonymization
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: IPS Online
 nav: Providers
 network: true
-overview: IPS Online publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine-Learning and Public APIs.
+overview: IPS Online publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine Learning and Public APIs.
 random_paper: 10
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -92,7 +92,7 @@ score:
     reason: no_specs
 slug: ips-online
 tags:
-- Machine-Learning
+- Machine Learning
 - Public APIs
 website: https://docs.identity.ps/docs
 ---

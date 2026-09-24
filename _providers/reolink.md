@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 65
-  human_in_the_loop: 4
+- acting_count: 27
+  human_in_the_loop: 3
   name: Reolink Agentic Access
-  operation_count: 65
+  operation_count: 69
   slug: reolink-agentic-access
-  summary_line: 65 operations · 65 acting · 4 human-in-the-loop
+  summary_line: 69 operations · 27 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL_template: https://{camera_ip}
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

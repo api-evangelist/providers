@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
+- acting_count: 15
   human_in_the_loop: 1
   name: Amazon Athena Agentic Access
   operation_count: 32
   slug: amazon-athena-agentic-access
-  summary_line: 32 operations · 32 acting · 1 human-in-the-loop
+  summary_line: 32 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://athena.us-east-1.amazonaws.com
@@ -121,7 +121,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/athena/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/agentic-access/amazon-athena-agentic-access.yml
   title: ''
@@ -1134,7 +1134,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1166,5 +1166,5 @@ use_cases:
 - Query AWS service logs including CloudTrail, ELB, and VPC Flow Logs
 - Perform cost analysis on AWS Cost and Usage Reports
 - Enable self-service analytics for business intelligence teams
-website: https://amazon.com
+website: https://aws.amazon.com/athena/
 ---

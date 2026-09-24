@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://proofdraw.com/api/v1
@@ -263,11 +263,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

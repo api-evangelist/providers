@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
   description: The atc API from VATSIM — 2 operation(s) for atc.
-  name: VATSIM atc API
+  name: VATSIM Atc API
   slug: vatsim-atc-api
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
@@ -78,7 +78,7 @@ apis:
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
   description: The community API from VATSIM — 1 operation(s) for community.
-  name: VATSIM community API
+  name: VATSIM Community API
   slug: vatsim-community-api
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
@@ -98,7 +98,7 @@ apis:
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
   description: The members API from VATSIM — 7 operation(s) for members.
-  name: VATSIM members API
+  name: VATSIM Members API
   slug: vatsim-members-api
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
@@ -108,7 +108,7 @@ apis:
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
   description: The orgs API from VATSIM — 2 operation(s) for orgs.
-  name: VATSIM orgs API
+  name: VATSIM Orgs API
   slug: vatsim-orgs-api
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
@@ -258,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

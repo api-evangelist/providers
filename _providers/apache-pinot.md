@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Apache Pinot Agentic Access
   operation_count: 12
   slug: apache-pinot-agentic-access
-  summary_line: 12 operations · 5 acting
+  summary_line: 12 operations · 4 acting
 api_count: 5
 apis:
 - baseURL_template: https://{host}
@@ -354,7 +354,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ tags:
 - OLAP
 - Real-Time
 - Apache
-- Open-Source
+- Open Source
 use_cases:
 - description: Power user-facing dashboards like LinkedIn Who Viewed Profile
   name: User-Facing Analytics

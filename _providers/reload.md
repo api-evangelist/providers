@@ -35,45 +35,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Reload Agentic Access
   operation_count: 34
   slug: reload-agentic-access
-  summary_line: 34 operations · 21 acting
+  summary_line: 34 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: List channels and their members.
-  name: Reload channels API
+  name: Reload Channels API
   slug: reload-channels-api
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: Presigned upload / download of file attachments.
-  name: Reload files API
+  name: Reload Files API
   slug: reload-files-api
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: Author and recall the workspace context graph.
-  name: Reload memory API
+  name: Reload Memory API
   slug: reload-memory-api
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: Send, read, and search channel messages.
-  name: Reload messages API
+  name: Reload Messages API
   slug: reload-messages-api
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: Create, update, and track tasks.
-  name: Reload tasks API
+  name: Reload Tasks API
   slug: reload-tasks-api
 - baseURL: https://api.reload.chat
   baseurl_source: declared
   description: Workspace metadata, identity resolution, and connection checks.
-  name: Reload workspace API
+  name: Reload Workspace API
   slug: reload-workspace-api
 arazzos:
 - description: Resolve who stated a decision, write it to the context graph with provenance, then recall related context.
@@ -256,7 +256,7 @@ modified: '2026-07-21'
 name: Reload
 nav: Providers
 network: true
-overview: 'Reload publishes 6 APIs on the [APIs.io](https://apis.io/) network, including channels API, files API, memory API, and 3 more. Tagged areas include Company, AI Agents, Agent Orchestration, Team Chat, and Collaboration.
+overview: 'Reload publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Files API, Memory API, and 3 more. Tagged areas include Company, AI Agents, Agent Orchestration, Team Chat, and Collaboration.
 
 
   Reload''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
@@ -295,7 +295,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

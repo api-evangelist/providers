@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 18
 common:
@@ -107,7 +107,7 @@ modified: '2026-05-16'
 name: Anheuser-Busch
 nav: Providers
 network: true
-overview: 'Anheuser-Busch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, and Manufacturing.
+overview: 'Anheuser-Busch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, Manufacturing, and Food and Beverage.
 
 
   Anheuser-Busch''s developer surface includes GitHub presence, authentication, and 5 more developer resources.'
@@ -140,7 +140,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -161,6 +161,7 @@ tags:
 - Beverages
 - Consumer Goods
 - Manufacturing
+- Food and Beverage
 use_cases:
 - description: End-to-end brewing, packaging, and distribution of beer and beyond-beer beverages.
   name: Beer Production & Distribution

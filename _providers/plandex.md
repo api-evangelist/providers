@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 46
+- acting_count: 44
   human_in_the_loop: 1
   name: Plandex Agentic Access
   operation_count: 80
   slug: plandex-agentic-access
-  summary_line: 80 operations · 46 acting · 1 human-in-the-loop
+  summary_line: 80 operations · 44 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:8099
@@ -503,7 +503,7 @@ modified: '2026-05-29'
 name: Plandex
 nav: Providers
 network: true
-overview: 'Plandex publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Branches API, Context API, and 12 more. Tagged areas include Artificial Intelligence, AI Coding Agents, Developer Tools, Open-Source, and CLI.
+overview: 'Plandex publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Branches API, Context API, and 12 more. Tagged areas include Artificial Intelligence, AI Coding Agents, Developer Tools, Open Source, and CLI.
 
 
   The Plandex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -568,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -590,7 +590,7 @@ tags:
 - Artificial Intelligence
 - AI Coding Agents
 - Developer Tools
-- Open-Source
+- Open Source
 - CLI
 - Terminal
 - LLM

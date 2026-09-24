@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.kalpalabs.ai
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +244,8 @@ tags:
 - Voice
 - Audio
 - Conversational AI
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
+- Real-Time
 website: https://kalpalabs.ai
 ---

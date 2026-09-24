@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ modified: '2026-05-19'
 name: Apache Livy
 nav: Providers
 network: true
-overview: 'Apache Livy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batches API, Sessions API, and Statements API. Tagged areas include Big Data, Interactive Computing, Open-Source, REST, and Spark.
+overview: 'Apache Livy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batches API, Sessions API, and Statements API. Tagged areas include Big Data, Interactive Computing, Open Source, REST, and Spark.
 
 
   The Apache Livy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -379,7 +379,7 @@ slug: apache-livy
 tags:
 - Big Data
 - Interactive Computing
-- Open-Source
+- Open Source
 - REST
 - Spark
 use_cases:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Aible API server (self-reported version 2.0.0) is the control plane behind the Aible platform. Its published route index lists 394 routes under the /v1 prefix across 29 modules — account, project,
@@ -131,7 +131,7 @@ modified: '2026-09-14'
 name: Aible
 nav: Providers
 network: true
-overview: 'Aible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, AutoML, Analytics, and Data Science.
+overview: 'Aible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, AutoML, Analytics, and Data Science.
 
 
   Aible''s developer surface includes API reference, engineering blog, support, pricing, changelog, authentication, and 14 more developer resources.'
@@ -172,7 +172,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +190,7 @@ security:
 slug: aible
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AutoML
 - Analytics
 - Data Science

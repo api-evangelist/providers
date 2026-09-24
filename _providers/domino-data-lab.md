@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,7 +125,7 @@ modified: '2026-07-18'
 name: Domino Data Lab
 nav: Providers
 network: true
-overview: 'Domino Data Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine-Learning, and AI Platform.
+overview: 'Domino Data Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Science, Machine Learning, and AI Platform.
 
 
   Domino Data Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 11 more developer resources.'
@@ -152,7 +152,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ tags:
 - Company
 - MLOps
 - Data Science
-- Machine-Learning
+- Machine Learning
 - AI Platform
 - Model Monitoring
 - Enterprise AI

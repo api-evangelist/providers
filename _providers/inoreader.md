@@ -23,16 +23,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
-api_count: 2
+  scored_at: '2026-09-24'
+api_count: 1
 apis:
 - description: Programmatic access to Inoreader feed data and user actions.
   name: Inoreader API
   slug: inoreader-api
-- description: 'Inoreader API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-09-22); not the provider''s own document.'
-  name: Inoreader API
-  slug: inoreader-api
-artifact_total: 13
+artifact_total: 12
 common:
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/inoreader/refs/heads/main/rules/inoreader-rules.yml
@@ -238,7 +235,7 @@ score:
       total: 1
     mcp: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

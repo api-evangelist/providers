@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -45,7 +45,7 @@ apis:
 - description: 'REST API providing programmatic access to Tipalti Procurement data, enabling integration for purchase orders, purchase requisitions, and procurement workflows. Designed for low-frequency polling with '
   name: Tipalti Procurement REST API
   slug: tipalti-procurement-rest-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: operate
   title: ''
@@ -123,10 +123,6 @@ finops:
 - name: Tipalti Finops
   service_category: ''
   slug: tipalti-finops
-graphqls:
-- description: Tipalti is a global payables automation platform covering supplier payments, invoice management, tax compliance, and global payment routing across 196 countries with 120+ currencies. The API covers pa
-  name: Tipalti GraphQL API
-  slug: tipalti-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tipalti.png
 jsonld:
 - class_count: 15
@@ -155,20 +151,20 @@ rate_limits:
   name: Tipalti Rate Limits
   slug: tipalti-rate-limits
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 38.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 78.0
     catalog_earned_first_party: 0.0
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 48.9
+    contract_quality: 41.3
     developer_ergonomics: 16.7
     discoverability: 81.5
     operational_transparency: 34.2
@@ -180,7 +176,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

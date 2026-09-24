@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -46,12 +46,12 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to artifacts
-  name: Podman artifacts API
+  name: Podman Artifacts API
   slug: podman-artifacts-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to containers
-  name: Podman containers API
+  name: Podman Containers API
   slug: podman-containers-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -61,7 +61,7 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to exec
-  name: Podman exec API
+  name: Podman Exec API
   slug: podman-exec-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -71,7 +71,7 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to images
-  name: Podman images API
+  name: Podman Images API
   slug: podman-images-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -81,12 +81,12 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to manifests
-  name: Podman manifests API
+  name: Podman Manifests API
   slug: podman-manifests-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to networks
-  name: Podman networks API
+  name: Podman Networks API
   slug: podman-networks-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -96,17 +96,17 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to pods
-  name: Podman pods API
+  name: Podman Pods API
   slug: podman-pods-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: The quadlets API from Podman — 5 operation(s) for quadlets.
-  name: Podman quadlets API
+  name: Podman Quadlets API
   slug: podman-quadlets-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to secrets
-  name: Podman secrets API
+  name: Podman Secrets API
   slug: podman-secrets-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -116,7 +116,7 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to Podman engine
-  name: Podman system API
+  name: Podman System API
   slug: podman-system-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -126,7 +126,7 @@ apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
   description: Actions related to volumes
-  name: Podman volumes API
+  name: Podman Volumes API
   slug: podman-volumes-api
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -270,7 +270,7 @@ modified: '2026-05-19'
 name: Podman
 nav: Providers
 network: true
-overview: 'Podman publishes 18 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, containers API, containers (compat) API, and 15 more. Tagged areas include Cloud-Native, Containers, DevOps, OCI, and Open-Source.
+overview: 'Podman publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Containers API, containers (compat) API, and 15 more. Tagged areas include Cloud-Native, Containers, DevOps, OCI, and Open Source.
 
 
   Podman''s developer surface includes documentation, engineering blog, getting-started guide, and 12 more developer resources.'
@@ -293,7 +293,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -304,7 +304,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 37.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -313,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -330,6 +330,6 @@ tags:
 - Containers
 - DevOps
 - OCI
-- Open-Source
+- Open Source
 website: https://podman.io/
 ---

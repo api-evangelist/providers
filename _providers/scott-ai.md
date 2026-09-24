@@ -34,90 +34,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 82
+- acting_count: 85
   human_in_the_loop: 2
   name: Scott Ai Agentic Access
-  operation_count: 139
+  operation_count: 145
   slug: scott-ai-agentic-access
-  summary_line: 139 operations · 82 acting · 2 human-in-the-loop
+  summary_line: 145 operations · 85 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The access API from Scott Ai — 1 operation(s) for access.
-  name: Scott Ai access API
+  name: Scott Ai Access API
   slug: scott-ai-access-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The agent-counsel API from Scott Ai — 4 operation(s) for agent-counsel.
-  name: Scott Ai agent-counsel API
+  name: Scott Ai Agent Counsel API
   slug: scott-ai-agent-counsel-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The agent-counsel-internal API from Scott Ai — 3 operation(s) for agent-counsel-internal.
-  name: Scott Ai agent-counsel-internal API
+  name: Scott Ai Agent Counsel Internal API
   slug: scott-ai-agent-counsel-internal-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The agent-loop API from Scott Ai — 16 operation(s) for agent-loop.
-  name: Scott Ai agent-loop API
+  name: Scott Ai Agent Loop API
   slug: scott-ai-agent-loop-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The agent-loop-internal API from Scott Ai — 3 operation(s) for agent-loop-internal.
-  name: Scott Ai agent-loop-internal API
+  name: Scott Ai Agent Loop Internal API
   slug: scott-ai-agent-loop-internal-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The artifacts API from Scott Ai — 1 operation(s) for artifacts.
-  name: Scott Ai artifacts API
+  name: Scott Ai Artifacts API
   slug: scott-ai-artifacts-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The auth API from Scott Ai — 1 operation(s) for auth.
-  name: Scott Ai auth API
+  name: Scott Ai Auth API
   slug: scott-ai-auth-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The billing API from Scott Ai — 5 operation(s) for billing.
-  name: Scott Ai billing API
+  name: Scott Ai Billing API
   slug: scott-ai-billing-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The cli-version API from Scott Ai — 1 operation(s) for cli-version.
-  name: Scott Ai cli-version API
+  name: Scott Ai Cli Version API
   slug: scott-ai-cli-version-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The connected-sources API from Scott Ai — 6 operation(s) for connected-sources.
-  name: Scott Ai connected-sources API
+  name: Scott Ai Connected Sources API
   slug: scott-ai-connected-sources-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The conversations API from Scott Ai — 9 operation(s) for conversations.
-  name: Scott Ai conversations API
+  name: Scott Ai Conversations API
   slug: scott-ai-conversations-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The documents API from Scott Ai — 9 operation(s) for documents.
-  name: Scott Ai documents API
+  name: Scott Ai Documents API
   slug: scott-ai-documents-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The e2b API from Scott Ai — 2 operation(s) for e2b.
-  name: Scott Ai e2b API
+  name: Scott Ai E2b API
   slug: scott-ai-e2b-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The github API from Scott Ai — 1 operation(s) for github.
-  name: Scott Ai github API
+  name: Scott Ai Github API
   slug: scott-ai-github-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The github-links API from Scott Ai — 3 operation(s) for github-links.
-  name: Scott Ai github-links API
+  name: Scott Ai Github Links API
   slug: scott-ai-github-links-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
@@ -127,22 +127,22 @@ apis:
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The integrations API from Scott Ai — 1 operation(s) for integrations.
-  name: Scott Ai integrations API
+  name: Scott Ai Integrations API
   slug: scott-ai-integrations-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The invites API from Scott Ai — 6 operation(s) for invites.
-  name: Scott Ai invites API
+  name: Scott Ai Invites API
   slug: scott-ai-invites-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The issues API from Scott Ai — 1 operation(s) for issues.
-  name: Scott Ai issues API
+  name: Scott Ai Issues API
   slug: scott-ai-issues-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The notifications API from Scott Ai — 5 operation(s) for notifications.
-  name: Scott Ai notifications API
+  name: Scott Ai Notifications API
   slug: scott-ai-notifications-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
@@ -152,42 +152,42 @@ apis:
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The orgs API from Scott Ai — 1 operation(s) for orgs.
-  name: Scott Ai orgs API
+  name: Scott Ai Orgs API
   slug: scott-ai-orgs-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The probes API from Scott Ai — 3 operation(s) for probes.
-  name: Scott Ai probes API
+  name: Scott Ai Probes API
   slug: scott-ai-probes-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The reviews API from Scott Ai — 9 operation(s) for reviews.
-  name: Scott Ai reviews API
+  name: Scott Ai Reviews API
   slug: scott-ai-reviews-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The snapshots API from Scott Ai — 7 operation(s) for snapshots.
-  name: Scott Ai snapshots API
+  name: Scott Ai Snapshots API
   slug: scott-ai-snapshots-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The sync-chat API from Scott Ai — 8 operation(s) for sync-chat.
-  name: Scott Ai sync-chat API
+  name: Scott Ai Sync Chat API
   slug: scott-ai-sync-chat-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The users API from Scott Ai — 8 operation(s) for users.
-  name: Scott Ai users API
+  name: Scott Ai Users API
   slug: scott-ai-users-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The waitlist API from Scott Ai — 1 operation(s) for waitlist.
-  name: Scott Ai waitlist API
+  name: Scott Ai Waitlist API
   slug: scott-ai-waitlist-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
   description: The walkthroughs API from Scott Ai — 3 operation(s) for walkthroughs.
-  name: Scott Ai walkthroughs API
+  name: Scott Ai Walkthroughs API
   slug: scott-ai-walkthroughs-api
 - baseURL: https://api.tryscott.ai
   baseurl_source: declared
@@ -443,7 +443,7 @@ modified: '2026-09-16'
 name: Scott Ai
 nav: Providers
 network: true
-overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network, including access API, agent-counsel API, agent-counsel-internal API, and 27 more. Tagged areas include Company, Coding Agents, Artificial Intelligence, Developer Tools, and Collaboration.
+overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Access API, Agent Counsel API, Agent Counsel Internal API, and 27 more. Tagged areas include Company, Coding Agents, Artificial Intelligence, Developer Tools, and Collaboration.
 
 
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 24 more developer resources.'
@@ -478,7 +478,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

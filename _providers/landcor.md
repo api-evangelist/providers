@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ modified: '2026-07-26'
 name: Landcor Data
 nav: Providers
 network: true
-overview: 'Landcor Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AVM Summary API, Comparables API, Health API, and 2 more. Tagged areas include Real-Estate, Canada, Valuation, AVM, and Property Records.
+overview: 'Landcor Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AVM Summary API, Comparables API, Health API, and 2 more. Tagged areas include Real Estate, Canada, Valuation, AVM, and Property Records.
 
 
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -300,7 +300,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: landcor
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Valuation
 - AVM

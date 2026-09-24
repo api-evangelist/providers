@@ -27,7 +27,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
@@ -71,15 +71,15 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 59.7,
+     "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 57.0,
      "agent_band": "agent-native",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -291,18 +291,18 @@
      "slug": "criteo",
      "description": "Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com covering 219 operations: campaign and line-item management, keyword and promoted-product targeting, audience segments and contact lists, retailer catalogs, account and brand hierarchies, balances and billing, creative and product-boost management, and demand-side and supply-side analytics. Authentication is OAuth 2.0 with client-credentials and authorization-code grants and 22 scopes of the form <Service>_<Domain>_<Level>. Criteo ships officially supported Python, PHP and Java SDKs, a public Postman workspace, an llms.txt docs index, an A2A agent card, a published Agent Skill, and two remote MCP servers — an anonymous documentation server and an OAuth-protected API server at mcp.criteo.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png",
-     "score": 58.4,
+     "score": 57.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 53.3,
+      "contract_quality": 50.0,
       "contract_governance": 18.2,
       "operational_transparency": 78.9,
       "developer_ergonomics": 63.7,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -390,7 +390,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -434,7 +434,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -492,7 +492,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -536,15 +536,15 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 41.4,
+     "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -591,7 +591,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -620,50 +620,6 @@
      "rank": 13
     },
     {
-     "name": "The Trade Desk",
-     "slug": "trade-desk",
-     "description": "The Trade Desk is an independent, omnichannel demand-side platform (DSP) for programmatic advertising, headquartered in Ventura, California. Its cloud-based platform — Kokai (the current flagship, succeeding Solimar) — lets agencies, brands, and trading desks buy and optimize digital ad inventory across connected TV (CTV), audio, mobile, video, native, display, and digital out-of-home. The Trade Desk positions itself as the buy-side counterweight to the walled gardens by championing the open internet through OpenPath (direct publisher integrations that bypass SSPs) and Unified ID 2.0 (UID2), an open-source, deterministic identity framework governed by the IAB Tech Lab. The company also stewards EUID (UID2's European equivalent), the Galileo first-party data activation framework, and Koa — its in-platform AI used for forecasting, bidding optimization, and audience modeling. Programmatic developers integrate via the TTD Workflows API (REST + GraphQL for campaign, ad group, and creative management), the Data API (advertiser/third-party data ingestion, offline conversions, deletion/opt-out), the Real-Time Conversion Events API (RTCE), and the OpenSincera data-quality APIs (acquired May 2024). Official SDKs are published in Python, Go, and Java and are Speakeasy-generated from OpenAPI specs. Most documentation lives behind the Partner Portal (partner.thetradedesk.com) but a public docs surface is exposed at open.thetradedesk.com. The Trade Desk is publicly traded (NASDAQ: TTD).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png",
-     "score": 52.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 47.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 80.4,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 43.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 14
-    },
-    {
      "name": "Constructor.io",
      "slug": "constructorio",
      "description": "Constructor (Constructor.io) is an AI-powered ecommerce search and product discovery platform for online retailers. Its APIs cover autocomplete/autosuggest, keyword and natural-language search, image search, category browse, recommendations, quizzes, collections, offsite/email discovery, retail media (sponsored listings and display ads), an AI Shopping Agent and Product Insights Agent, plus a full catalog-management and configuration surface for items, variations, item groups, facets, searchabilities, synonyms, sort options, redirects and searchandising rules. Results are optimized against ecommerce KPIs (conversion, revenue per visit) using natural-language processing, behavioral re-ranking and per-user personalization, and are delivered through a REST API served from the ac.cnstrc.com family of hosts with first-party client libraries for JavaScript, Node.js, Python, Java, .NET, Ruby, Swift and Kotlin.",
@@ -679,7 +635,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -705,37 +661,37 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 15
+     "rank": 14
     },
     {
-     "name": "Magnite",
-     "slug": "magnite",
-     "description": "Magnite, Inc. (NASDAQ: MGNI) is the world's largest independent sell-side advertising platform, headquartered in New York with major operations in Los Angeles. Formed in 2020 from the merger of Rubicon Project and Telaria, and expanded through the acquisitions of SpotX (2021), SpringServe (2021), and Streamr.ai (2025), Magnite operates an omnichannel SSP spanning Connected TV (CTV), online video, display, audio, and mobile in-app. Its flagship offering is the Magnite Streaming platform — a next-generation CTV/OTT solution that unifies the SpringServe ad server with Magnite's Streaming SSP — alongside DV+ for display/video web and mobile, ClearLine for agency self-service direct buying of premium video, and Magnite Access for first- and third-party data activation. Magnite connects publishers including Disney Advertising, Paramount, Roku, Samsung, LG Ad Solutions, and Warner Bros. Discovery to virtually all major DSPs, and Jounce Media's March 2025 Supply Path Benchmarking Report verified Magnite reaches 99% of US streaming supply on a dollar-weighted basis. The company exposes developer surfaces through the SpringServe REST API, the Magnite Streaming Public API, the Magnite Seller Platform / CTV Platform Public APIs, an OpenRTB v2.5 bidder integration, and iOS/Android in-app SDKs. The SpringServe UI API publishes a real, anonymously reachable OpenAPI 3.1.2 contract in two concurrent versions (v0, 289 operations; v1, 379 operations) from the Swagger UI at https://api.springserve.com/api-docs, with the callable base at https://console.springserve.com. The Magnite Streaming and Seller Platform reference material on help.magnite.com remains gated behind an authenticated partner login. In Q1 2026 Magnite reported $164.4M revenue with CTV crossing 51% of contribution ex-TAC for the first time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/screenshots/magnite-2026-07-25T225900.png",
-     "score": 50.5,
+     "name": "The Trade Desk",
+     "slug": "trade-desk",
+     "description": "The Trade Desk is an independent, omnichannel demand-side platform (DSP) for programmatic advertising, headquartered in Ventura, California. Its cloud-based platform — Kokai (the current flagship, succeeding Solimar) — lets agencies, brands, and trading desks buy and optimize digital ad inventory across connected TV (CTV), audio, mobile, video, native, display, and digital out-of-home. The Trade Desk positions itself as the buy-side counterweight to the walled gardens by championing the open internet through OpenPath (direct publisher integrations that bypass SSPs) and Unified ID 2.0 (UID2), an open-source, deterministic identity framework governed by the IAB Tech Lab. The company also stewards EUID (UID2's European equivalent), the Galileo first-party data activation framework, and Koa — its in-platform AI used for forecasting, bidding optimization, and audience modeling. Programmatic developers integrate via the TTD Workflows API (REST + GraphQL for campaign, ad group, and creative management), the Data API (advertiser/third-party data ingestion, offline conversions, deletion/opt-out), the Real-Time Conversion Events API (RTCE), and the OpenSincera data-quality APIs (acquired May 2024). Official SDKs are published in Python, Go, and Java and are Speakeasy-generated from OpenAPI specs. Most documentation lives behind the Partner Portal (partner.thetradedesk.com) but a public docs surface is exposed at open.thetradedesk.com. The Trade Desk is publicly traded (NASDAQ: TTD).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png",
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 60.5
+      "contract_quality": 44.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 80.4,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 29.0,
+     "agent_score": 43.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
@@ -743,13 +699,13 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 16
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 15
     },
     {
      "name": "SmartNews",
@@ -767,7 +723,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -780,6 +736,50 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 16
+    },
+    {
+     "name": "Magnite",
+     "slug": "magnite",
+     "description": "Magnite, Inc. (NASDAQ: MGNI) is the world's largest independent sell-side advertising platform, headquartered in New York with major operations in Los Angeles. Formed in 2020 from the merger of Rubicon Project and Telaria, and expanded through the acquisitions of SpotX (2021), SpringServe (2021), and Streamr.ai (2025), Magnite operates an omnichannel SSP spanning Connected TV (CTV), online video, display, audio, and mobile in-app. Its flagship offering is the Magnite Streaming platform — a next-generation CTV/OTT solution that unifies the SpringServe ad server with Magnite's Streaming SSP — alongside DV+ for display/video web and mobile, ClearLine for agency self-service direct buying of premium video, and Magnite Access for first- and third-party data activation. Magnite connects publishers including Disney Advertising, Paramount, Roku, Samsung, LG Ad Solutions, and Warner Bros. Discovery to virtually all major DSPs, and Jounce Media's March 2025 Supply Path Benchmarking Report verified Magnite reaches 99% of US streaming supply on a dollar-weighted basis. The company exposes developer surfaces through the SpringServe REST API, the Magnite Streaming Public API, the Magnite Seller Platform / CTV Platform Public APIs, an OpenRTB v2.5 bidder integration, and iOS/Android in-app SDKs. The SpringServe UI API publishes a real, anonymously reachable OpenAPI 3.1.2 contract in two concurrent versions (v0, 289 operations; v1, 379 operations) from the Swagger UI at https://api.springserve.com/api-docs, with the callable base at https://console.springserve.com. The Magnite Streaming and Seller Platform reference material on help.magnite.com remains gated behind an authenticated partner login. In Q1 2026 Magnite reported $164.4M revenue with CTV crossing 51% of contribution ex-TAC for the first time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnite/refs/heads/main/screenshots/magnite-2026-07-25T225900.png",
+     "score": 49.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 49.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
@@ -811,7 +811,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -855,7 +855,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -884,22 +884,65 @@
      "rank": 19
     },
     {
-     "name": "MikMak",
-     "slug": "mikmak",
-     "description": "MikMak is an eCommerce enablement and analytics platform for multichannel brands, converting shoppers across social media, retail media, brand-owned websites, search, CTV, display and QR codes. The platform pairs a Headless Commerce API — product lookup, retailer availability, offers, carts and experience configuration across a global retailer network — with the MikMak Insights reporting API that pushes purchase-intent and attributable-sales data into data lakes and BI tools, and a hosted Model Context Protocol server that exposes the same commerce surface to AI agents. MikMak acquired the French shoppable-media company Swaven in 2021, whose where-to-buy tag technology still powers the brand.com widget and whose name persists in the platform's asset hosts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png",
+     "name": "RevContent",
+     "slug": "revcontent",
+     "description": "RevContent is a performance-driven native advertising and content recommendation network offering a REST API for managing widgets, campaigns (boosts), ad content, audience targeting, bidding, conversion pixels, sub accounts, and performance reporting. Publishers and advertisers access the platform through OAuth 2.0 client-credentials authenticated endpoints to programmatically control campaign settings, device, OS, browser, language and geo targeting, widget blacklisting, content delivery, and statistical reporting at scale. RevContent publishes its machine-readable contract as apiDoc rather than OpenAPI, at https://api.revcontent.io/docs/stats/api_data.json, covering 43 operations across eleven groups.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/screenshots/revcontent-2026-06-20T193044.png",
      "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 25.1,
+      "contract_governance": 72.7,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "MikMak",
+     "slug": "mikmak",
+     "description": "MikMak is an eCommerce enablement and analytics platform for multichannel brands, converting shoppers across social media, retail media, brand-owned websites, search, CTV, display and QR codes. The platform pairs a Headless Commerce API — product lookup, retailer availability, offers, carts and experience configuration across a global retailer network — with the MikMak Insights reporting API that pushes purchase-intent and attributable-sales data into data lakes and BI tools, and a hosted Model Context Protocol server that exposes the same commerce surface to AI agents. MikMak acquired the French shoppable-media company Swaven in 2021, whose where-to-buy tag technology still powers the brand.com widget and whose name persists in the platform's asset hosts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png",
+     "score": 46.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
       "discoverability": 72.2,
-      "contract_quality": 58.1,
+      "contract_quality": 57.1,
       "contract_governance": 4.5,
       "operational_transparency": 50.0,
       "developer_ergonomics": 41.1,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -925,49 +968,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 20
-    },
-    {
-     "name": "RevContent",
-     "slug": "revcontent",
-     "description": "RevContent is a performance-driven native advertising and content recommendation network offering a REST API for managing widgets, campaigns (boosts), ad content, audience targeting, bidding, conversion pixels, sub accounts, and performance reporting. Publishers and advertisers access the platform through OAuth 2.0 client-credentials authenticated endpoints to programmatically control campaign settings, device, OS, browser, language and geo targeting, widget blacklisting, content delivery, and statistical reporting at scale. RevContent publishes its machine-readable contract as apiDoc rather than OpenAPI, at https://api.revcontent.io/docs/stats/api_data.json, covering 43 operations across eleven groups.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/screenshots/revcontent-2026-06-20T193044.png",
-     "score": 46.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 25.1,
-      "contract_governance": 72.7,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 21
     },
     {
@@ -986,7 +986,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1030,7 +1030,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1074,7 +1074,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1125,7 +1125,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 43.7,
      "agent_band": "agent-ready",
@@ -1158,18 +1158,18 @@
      "slug": "rubicon-project",
      "description": "Rubicon Project is a Los Angeles-based advertising technology company, founded in 2007, that built and operated one of the largest real-time bidding advertising exchanges, connecting digital publishers (the sell side) with advertisers and demand-side platforms. In 2020 Rubicon Project merged with Telaria and rebranded as Magnite, now positioned as the world's largest independent sell-side (SSP) advertising company, spanning connected TV (CTV), online video, display, and audio across its DV+, SpringServe, ClearLine and Magnite Streaming platforms. This profile tracks the company as it exists today under the Magnite brand. Magnite publishes a public, machine-readable OpenAPI 3.1 contract for the SpringServe ad-serving platform (v1 and v0) at console.springserve.com/api-docs, mirrored for the ClearLine buy-side console at console.clearline.magnite.com, together with a public Confluence documentation space, published rate limits, a first-party Python SDK, mobile In-App Ads SDKs for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png",
-     "score": 45.6,
+     "score": 44.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 55.9,
+      "contract_quality": 52.7,
       "contract_governance": 4.5,
       "operational_transparency": 34.2,
       "developer_ergonomics": 66.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -1213,7 +1213,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1257,7 +1257,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1301,7 +1301,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1345,7 +1345,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1389,7 +1389,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1440,7 +1440,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1484,7 +1484,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -1528,7 +1528,7 @@
       "developer_ergonomics": 60.7,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1582,7 +1582,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -1626,7 +1626,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -1670,7 +1670,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1714,7 +1714,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1758,7 +1758,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -1802,7 +1802,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
@@ -1846,7 +1846,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1890,7 +1890,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -1934,7 +1934,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1978,7 +1978,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -2022,7 +2022,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2066,7 +2066,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -2110,7 +2110,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -2154,7 +2154,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 16.9,
      "agent_band": "agent-aware",
@@ -2197,7 +2197,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2241,7 +2241,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2285,7 +2285,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2336,7 +2336,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -2380,7 +2380,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -2424,7 +2424,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
@@ -2467,7 +2467,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2496,50 +2496,6 @@
      "rank": 55
     },
     {
-     "name": "TEGNA",
-     "slug": "tegna",
-     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. Its digital marketing portfolio includes AudienceOne first-party data targeting, OTT/CTV advertising through the Premion platform, and the TEGNA Marketing Solutions full-service agency. TEGNA runs no public developer program and publishes no developer portal: those advertising products are transacted through insertion orders, programmatic deal IDs and agency contracts. The only publicly callable, machine-readable API surfaces TEGNA serves are the WordPress REST content APIs behind its corporate site and premion.com; the Premion advertising platform API at api.premion.com is live but token-gated and undocumented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
-     "score": 28.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 8.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 10.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 56
-    },
-    {
      "name": "SocialSign.in",
      "slug": "socialsignin",
      "description": "SocialSign.in is a guest WiFi marketing platform that turns venue Wi-Fi login into a customer-acquisition and engagement channel. When guests connect to free Wi-Fi through branded splash pages, the platform captures opt-in contact data (email, phone, profile), measures visit frequency and dwell time, and syncs profiles to CRM and email/SMS marketing tools to trigger targeted campaigns across retail, hospitality, sports and entertainment, healthcare, and commercial real estate venues. It sells two products: the enterprise platform, sold through a contact-sales motion, and SocialSign.in Go, a self-serve packaged version with published per-location pricing. The company publishes no developer portal, no API reference, and no machine-readable specification of any kind; its product documentation lives in a public Zendesk help center covering portal setup and CRM/ESP connector configuration rather than any programmable interface. A JSON-emitting API root does exist at c.socialsign.in/api/ inside the authenticated customer console, and the Enterprise tier advertises \"Advanced integrations\" and a \"Data mart\", but neither is documented publicly.",
@@ -2555,7 +2511,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2581,7 +2537,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Swiftly",
@@ -2599,7 +2555,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2625,7 +2581,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Silveredge",
@@ -2643,7 +2599,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2669,7 +2625,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "OneScreen AI",
@@ -2687,7 +2643,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -2705,6 +2661,50 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 59
+    },
+    {
+     "name": "TEGNA",
+     "slug": "tegna",
+     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. Its digital marketing portfolio includes AudienceOne first-party data targeting, OTT/CTV advertising through the Premion platform, and the TEGNA Marketing Solutions full-service agency. TEGNA runs no public developer program and publishes no developer portal: those advertising products are transacted through insertion orders, programmatic deal IDs and agency contracts. The only publicly callable, machine-readable API surfaces TEGNA serves are the WordPress REST content APIs behind its corporate site and premion.com; the Premion advertising platform API at api.premion.com is live but token-gated and undocumented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
+     "score": 26.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 1.7,
+      "contract_governance": 33.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
@@ -2741,7 +2741,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -2784,7 +2784,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2828,7 +2828,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2872,7 +2872,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2916,7 +2916,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2960,7 +2960,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -2989,6 +2989,50 @@
      "rank": 66
     },
     {
+     "name": "Sinclair, Inc.",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 67
+    },
+    {
      "name": "Tvscientific",
      "slug": "tvscientific",
      "description": "tvScientific is a connected-TV (CTV) advertising platform for performance marketers, pairing premium streaming-TV inventory with AI-powered bidding and optimization and outcome-based measurement so brands can run television campaigns against measurable goals like sales, app installs, and site traffic. It positions itself on \"premium inventory, AI-powered optimization, and radical transparency,\" and offers a self-serve buying platform plus an academy and reporting resources for advertisers and agencies. Originally surfaced as a portfolio company of Norwest Venture Partners, it now brands itself \"tvScientific by Pinterest\" after Pinterest completed its acquisition of the company in February 2026. tvScientific runs a real Campaign Management REST API at api.tvscientific.app — named as a component on its own status page — whose v1 and v2 version roots publicly enumerate 50 resource collections covering campaigns, line items, creatives, audiences, targeting, bid strategies, billing and accounts. It publishes no developer program around it: no portal, no API reference, no OpenAPI or GraphQL contract, no SDK, no CLI, and no MCP or agent surface. Every collection but one is credentialed, both documentation hosts sit behind a customer login, and the machine-readable operational signal is limited to an Atlassian Statuspage API and a first-party Google Tag Manager measurement pixel.",
@@ -3004,7 +3048,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3030,50 +3074,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 67
-    },
-    {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 20.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 0.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
      "rank": 68
     },
     {
@@ -3092,7 +3092,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3136,7 +3136,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3180,7 +3180,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3224,7 +3224,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3268,7 +3268,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -3312,7 +3312,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3356,7 +3356,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3400,7 +3400,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3443,7 +3443,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3487,7 +3487,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3531,7 +3531,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -3575,7 +3575,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3619,7 +3619,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -3662,7 +3662,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3706,7 +3706,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3749,7 +3749,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3793,7 +3793,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3837,7 +3837,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3881,7 +3881,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3925,7 +3925,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3979,7 +3979,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4023,7 +4023,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4067,7 +4067,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4111,7 +4111,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4155,7 +4155,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4199,7 +4199,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4243,7 +4243,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4287,7 +4287,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4331,7 +4331,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4374,7 +4374,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4418,7 +4418,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4462,7 +4462,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4505,7 +4505,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4549,7 +4549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4592,7 +4592,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4636,7 +4636,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

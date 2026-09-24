@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ modified: '2026-05-19'
 name: Fluent Bit
 nav: Providers
 network: true
-overview: 'Fluent Bit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Build API, Health API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Metrics, and Open-Source.
+overview: 'Fluent Bit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Build API, Health API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Metrics, and Open Source.
 
 
   Fluent Bit''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -229,6 +229,6 @@ tags:
 - Logging
 - Observability
 - Metrics
-- Open-Source
+- Open Source
 website: https://fluentbit.io
 ---

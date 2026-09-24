@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: BankUnited's first-party developer portal ("API Experience Hub"), a Salesforce Experience Cloud site backed by MuleSoft Anypoint Exchange. Provides self-service developer registration, OAuth applicati
@@ -126,7 +126,7 @@ modified: '2026-07-23'
 name: BankUnited
 nav: Providers
 network: true
-overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Commercial Banking.
+overview: 'BankUnited publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Commercial Banking.
 
 
   BankUnited''s developer surface includes authentication, signup flow, developer portal, engineering blog, and 13 more developer resources.'
@@ -171,7 +171,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -189,7 +189,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: bankunited
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - United States
 - Regional Bank

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 137
+- acting_count: 134
   human_in_the_loop: 1
   name: Svix Agentic Access
   operation_count: 230
   slug: svix-agentic-access
-  summary_line: 230 operations · 137 acting · 1 human-in-the-loop
+  summary_line: 230 operations · 134 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: 'The self-hostable open source Svix server (svix-webhooks repo). Smaller surface area than the hosted product (no Stream, no Ingest, no Connectors, no Background Tasks, no multi-region) — 29 paths, 46 '
@@ -890,7 +890,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -949,7 +949,7 @@ tags:
 - HIPAA
 - PCI DSS
 - GDPR
-- Open-Source
+- Open Source
 - Rust
 - Polyglot SDK
 - Terraform

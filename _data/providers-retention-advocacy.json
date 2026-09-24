@@ -16,7 +16,7 @@
      "slug": "thanx",
      "description": "Thanx is a customer engagement, loyalty, and marketing automation platform for restaurants and other offline businesses, built to acquire, engage, and retain best customers and grow customer lifetime value. The platform combines data infrastructure, lifecycle marketing, loyalty and CRM, and digital ordering experiences. Thanx is API-first and publishes a public developer portal documenting a Consumer API for custom consumer experiences, a Partner API for privileged integration use cases, and a Loyalty API for digital ordering and kiosk providers, along with webhooks and Connex data-export integrations to warehouses like Snowflake and BigQuery. Thanx serves roughly 500 brands and processes over a billion transactions annually. It also publishes a hosted Docs MCP server for natural-language API search and an open agent-skills starter kit.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png",
-     "score": 75.7,
+     "score": 74.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -24,10 +24,10 @@
       "contract_quality": 82.2,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
-      "developer_ergonomics": 88.1,
+      "developer_ergonomics": 84.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 41.0,
      "agent_band": "agent-native",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-native",
@@ -99,56 +99,6 @@
      "rank": 2
     },
     {
-     "name": "Punchh",
-     "slug": "punchh",
-     "description": "Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and marketing programs. PAR exposes well-documented Punchh APIs through its developer portal covering platform functions, mobile, online ordering, POS and kiosk integration, and a webhooks manager, with sample collections published to Postman. Most integration surfaces require partner certification. Over 275 restaurant brands rely on Punchh to grow customer lifetime value.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png",
-     "score": 71.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 69.9,
-      "contract_governance": 47.0,
-      "operational_transparency": 92.1,
-      "developer_ergonomics": 68.5,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 40.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "ThriveCart",
      "slug": "thrivecart",
      "description": "ThriveCart is a hosted shopping cart, checkout and course platform for creators, coaches and digital-product sellers, operated by ThriveCart LLC. It sells one-time and recurring digital and physical products through customisable checkout pages with order bumps, one-click upsells and downsells, A/B testing, abandoned-cart recovery, sales-tax automation and a built-in affiliate centre, and bundles a learning-management product (ThriveCart Learn / ThriveCart Academy). Payments are processed through Stripe, PayPal, Authorize.net and ThrivePay Installments rather than by ThriveCart itself. The public ThriveCart API is a bearer-token REST surface at https://thrivecart.com/api/external covering products, bump offers, upsells, downsells, pricing options, transactions, customers, subscriptions, affiliates, Learn students and event subscriptions, with an account-wide webhook surface and a targeted Event Subscription API alongside it.",
@@ -164,7 +114,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -196,6 +146,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 3
+    },
+    {
+     "name": "Punchh",
+     "slug": "punchh",
+     "description": "Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and marketing programs. PAR exposes well-documented Punchh APIs through its developer portal covering platform functions, mobile, online ordering, POS and kiosk integration, and a webhooks manager, with sample collections published to Postman. Most integration surfaces require partner certification. Over 275 restaurant brands rely on Punchh to grow customer lifetime value.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png",
+     "score": 71.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 68.6,
+      "contract_governance": 47.0,
+      "operational_transparency": 92.1,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 4
     },
     {
@@ -214,7 +214,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 53.7,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 54.4,
      "agent_band": "agent-ready",
@@ -356,7 +356,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -417,7 +417,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -461,7 +461,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -505,7 +505,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 53.7,
      "agent_band": "agent-ready",
@@ -548,7 +548,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 62.5,
      "agent_band": "agent-ready",
@@ -576,49 +576,6 @@
      "rank": 12
     },
     {
-     "name": "Refersion",
-     "slug": "refersion",
-     "description": "Affiliate marketing platform for e-commerce brands providing a REST and GraphQL API for managing affiliates, tracking referrals, processing commissions, and integrating with Shopify, BigCommerce, WooCommerce, and other platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png",
-     "score": 61.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 72.0,
-      "contract_governance": 29.5,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 34.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Playable",
      "slug": "playable",
      "description": "Playable (formerly Leadfamly, Playable ApS, Aarhus Denmark and London UK) is a self-service marketing gamification platform used by brands to build, publish and measure interactive campaigns — spin-the-wheel, advent calendars, quizzes, scratch cards, memory and skill games — across web, email, in-app, in-store and retail-media placements. The platform pairs a campaign builder with zero-party data collection, prize and voucher management, ESP/CRM/storage integrations, webhooks and campaign analytics. Programmatic access is delivered through a public REST API at api.playable.com documented with an OpenAPI 3.0 definition and secured with OAuth 2.0 client-credentials scoped per capability, plus a browser-side campaign SDK published to npm. API access is a Premium-plan entitlement; developer apps and credentials are created under Global settings.",
@@ -634,7 +591,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -660,6 +617,49 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 13
+    },
+    {
+     "name": "Refersion",
+     "slug": "refersion",
+     "description": "Affiliate marketing platform for e-commerce brands providing a REST and GraphQL API for managing affiliates, tracking referrals, processing commissions, and integrating with Shopify, BigCommerce, WooCommerce, and other platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/refersion/refs/heads/main/screenshots/refersion-2026-06-20T192744.png",
+     "score": 60.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 68.5,
+      "contract_governance": 29.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 34.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -667,18 +667,18 @@
      "slug": "partnerize",
      "description": "Partnerize is a partnership-automation platform for affiliate, influencer and performance marketing, used by brands to discover and recruit partners, track clicks and conversions, calculate and pay commissions, guard against fraud, and report on channel performance. Its API is built API-first — the Partnerize console runs on top of it — and is published as two OpenAPI documents, a Brands API and a Partners API, covering 327 operations across three concurrent versions (v1, v2 and v3) on api.partnerize.com, authenticated with HTTP Basic over an application key and a user API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png",
-     "score": 60.5,
+     "score": 60.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 66.0,
+      "contract_quality": 64.4,
       "contract_governance": 29.5,
       "operational_transparency": 47.4,
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -722,7 +722,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -765,7 +765,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -808,7 +808,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 42.2,
      "agent_band": "agent-native",
@@ -851,7 +851,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -894,7 +894,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -948,7 +948,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -998,7 +998,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1041,7 +1041,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -1084,7 +1084,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1128,7 +1128,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 52.9,
      "agent_band": "agent-ready",
@@ -1172,7 +1172,7 @@
       "developer_ergonomics": 17.3,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -1215,7 +1215,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -1259,7 +1259,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1310,7 +1310,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1354,7 +1354,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -1397,7 +1397,7 @@
       "developer_ergonomics": 38.7,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -1441,7 +1441,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -1495,7 +1495,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
@@ -1538,7 +1538,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -1581,7 +1581,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1625,7 +1625,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1676,7 +1676,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -1720,7 +1720,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1763,7 +1763,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -1806,7 +1806,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -1850,7 +1850,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1908,7 +1908,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -1962,7 +1962,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -2006,7 +2006,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2050,7 +2050,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2094,7 +2094,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2137,7 +2137,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -2181,7 +2181,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2224,7 +2224,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -2268,7 +2268,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2317,7 +2317,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2360,7 +2360,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -2414,7 +2414,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2458,7 +2458,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2508,7 +2508,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2552,7 +2552,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

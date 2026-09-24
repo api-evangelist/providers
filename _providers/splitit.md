@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 11
   human_in_the_loop: 0
   name: Splitit Agentic Access
-  operation_count: 18
+  operation_count: 17
   slug: splitit-agentic-access
-  summary_line: 18 operations · 13 acting
+  summary_line: 17 operations · 11 acting
 api_count: 2
 apis:
 - description: The updated version of the Splitit Installments API offering enhanced capabilities for creating and managing credit card installment plans with improvements over the v3 API.
@@ -311,7 +311,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

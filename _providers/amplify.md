@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Private partner-facing API behind api.getamplifylife.com, used for Amplify's embedded distribution motion ("Embed your products inside trusted partner ecosystems via API", per the Carrier Solutions pa
@@ -119,7 +119,7 @@ modified: '2026-07-20'
 name: Amplify
 nav: Providers
 network: true
-overview: 'Amplify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Life Insurance, and Financial-Services.
+overview: 'Amplify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Life Insurance, and Financial Services.
 
 
   Amplify''s developer surface includes engineering blog, pricing, authentication, and 12 more developer resources.'
@@ -152,7 +152,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Insurance
 - Insurtech
 - Life Insurance
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Annuities

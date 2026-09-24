@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ modified: '2026-07-19'
 name: Hosta a.i.
 nav: Providers
 network: true
-overview: 'Hosta a.i. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Technology, PropTech, Artificial Intelligence, and Computer-Vision.
+overview: 'Hosta a.i. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Artificial Intelligence, Computer Vision, and Property Assessment.
 
 
   Hosta a.i.''s developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, and 8 more developer resources.'
@@ -139,7 +139,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -154,14 +154,13 @@ security:
 slug: hosta-ai
 tags:
 - Company
-- Property Technology
 - PropTech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Property Assessment
 - Insurance
 - Construction
-- Real-Estate
+- Real Estate
 - Spatial Analytics
 website: https://hosta.ai/
 ---

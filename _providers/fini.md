@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 38
   human_in_the_loop: 0
   name: Fini Agentic Access
   operation_count: 56
   slug: fini-agentic-access
-  summary_line: 56 operations · 39 acting
+  summary_line: 56 operations · 38 acting
 api_count: 1
 apis:
 - baseURL: https://api-prod.usefini.com/v2
@@ -251,7 +251,7 @@ modified: '2026-07-19'
 name: Fini
 nav: Providers
 network: true
-overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Articles API, Conversations API, and 6 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer-Support, and Customer Experience.
+overview: 'Fini publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Articles API, Conversations API, and 6 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Support, and Customer Experience.
 
 
   Fini''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -286,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -314,9 +314,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer-Support
+- Customer Support
 - Customer Experience
-- Knowledge-Management
+- Knowledge Management
 - Conversational AI
 - Voice AI
 - Help Desk

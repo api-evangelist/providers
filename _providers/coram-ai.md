@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -47,42 +47,42 @@ apis:
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: The alerts API from Coram Ai — 5 operation(s) for alerts.
-  name: Coram Ai alerts API
+  name: Coram Ai Alerts API
   slug: coram-ai-alerts-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Organize cameras into logical collections for easier management. Camera groups allow you to categorize cameras by location, purpose, or any custom criteria. Use these endpoints to create, update, list
-  name: Coram Ai camera-groups API
+  name: Coram Ai Camera Groups API
   slug: coram-ai-camera-groups-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Manage individual cameras within your organization. Use these endpoints to register new cameras, update camera settings, retrieve camera information and status, move cameras between locations, and del
-  name: Coram Ai cameras API
+  name: Coram Ai Cameras API
   slug: coram-ai-cameras-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: List access control doors and trigger momentary remote unlocks. The same per-door permission checks the in-app unlock flow runs apply here — a key whose creator cannot unlock a door in the UI cannot u
-  name: Coram Ai doors API
+  name: Coram Ai Doors API
   slug: coram-ai-doors-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Query access control device events (card scans, REX presses, forced-open / held-open alarms, battery alerts, …) and fetch the MP4 video clip recorded by the door's primary camera around an event's tim
-  name: Coram Ai events API
+  name: Coram Ai Events API
   slug: coram-ai-events-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Manage physical site configurations where cameras and NVRs are deployed. Locations represent your facilities, buildings, or areas. Use these endpoints to create, update, list, and delete locations.
-  name: Coram Ai locations API
+  name: Coram Ai Locations API
   slug: coram-ai-locations-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Control and monitor Network Video Recorders (NVRs) in your infrastructure. NVRs are hardware devices that record and store video from connected cameras. Use these endpoints to register NVRs, update th
-  name: Coram Ai nvrs API
+  name: Coram Ai Nvrs API
   slug: coram-ai-nvrs-api
 - baseURL: https://api.coram.ai/developer-api
   baseurl_source: declared
   description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
-  name: Coram Ai reunification API
+  name: Coram Ai Reunification API
   slug: coram-ai-reunification-api
 artifact_total: 20
 collections:
@@ -231,7 +231,7 @@ modified: '2026-07-18'
 name: Coram Ai
 nav: Providers
 network: true
-overview: 'Coram Ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including alerts API, camera-groups API, cameras API, and 5 more. Tagged areas include Company, Physical Security, Video Surveillance, Access Control, and Artificial Intelligence.
+overview: 'Coram Ai publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Camera Groups API, Cameras API, and 5 more. Tagged areas include Company, Physical Security, Video Surveillance, Access Control, and Artificial Intelligence.
 
 
   Coram Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 17 more developer resources.'
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -290,6 +290,6 @@ tags:
 - Artificial Intelligence
 - Security Cameras
 - Emergency Management
-- Computer-Vision
+- Computer Vision
 website: https://coram.ai
 ---

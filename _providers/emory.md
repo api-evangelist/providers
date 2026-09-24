@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 187
+- acting_count: 186
   human_in_the_loop: 4
   name: Emory Agentic Access
   operation_count: 344
   slug: emory-agentic-access
-  summary_line: 344 operations · 187 acting · 4 human-in-the-loop
+  summary_line: 344 operations · 186 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - description: Emory's instance of the Instructure Canvas learning management system exposes the standard Canvas LMS REST API. Access requires an Emory Canvas account and developer keys / API access tokens; the refe
@@ -57,112 +57,112 @@ apis:
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: annotation resource
-  name: Emory University annotation API
+  name: Emory University Annotation API
   slug: emory-annotation-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: api_key resource
-  name: Emory University api_key API
+  name: Emory University API Key API
   slug: emory-api-key-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: assetstore resource
-  name: Emory University assetstore API
+  name: Emory University Assetstore API
   slug: emory-assetstore-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: collection resource
-  name: Emory University collection API
+  name: Emory University Collection API
   slug: emory-collection-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: dicomweb_assetstore resource
-  name: Emory University dicomweb_assetstore API
+  name: Emory University Dicomweb Assetstore API
   slug: emory-dicomweb-assetstore-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: file resource
-  name: Emory University file API
+  name: Emory University File API
   slug: emory-file-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: files resource
-  name: Emory University files API
+  name: Emory University Files API
   slug: emory-files-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: folder resource
-  name: Emory University folder API
+  name: Emory University Folder API
   slug: emory-folder-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: group resource
-  name: Emory University group API
+  name: Emory University Group API
   slug: emory-group-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: histomicsui resource
-  name: Emory University histomicsui API
+  name: Emory University Histomicsui API
   slug: emory-histomicsui-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: homepage resource
-  name: Emory University homepage API
+  name: Emory University Homepage API
   slug: emory-homepage-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: item resource
-  name: Emory University item API
+  name: Emory University Item API
   slug: emory-item-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: job resource
-  name: Emory University job API
+  name: Emory University Job API
   slug: emory-job-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: large_image resource
-  name: Emory University large_image API
+  name: Emory University Large Image API
   slug: emory-large-image-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: notification resource
-  name: Emory University notification API
+  name: Emory University Notification API
   slug: emory-notification-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: resource resource
-  name: Emory University resource API
+  name: Emory University Resource API
   slug: emory-resource-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: slicer_cli_web resource
-  name: Emory University slicer_cli_web API
+  name: Emory University Slicer Cli Web API
   slug: emory-slicer-cli-web-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: system resource
-  name: Emory University system API
+  name: Emory University System API
   slug: emory-system-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: tcga resource
-  name: Emory University tcga API
+  name: Emory University Tcga API
   slug: emory-tcga-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: token resource
-  name: Emory University token API
+  name: Emory University Token API
   slug: emory-token-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: user resource
-  name: Emory University user API
+  name: Emory University User API
   slug: emory-user-api
 - baseURL: https://computablebrain.emory.edu/api/v1
   baseurl_source: declared
   description: worker resource
-  name: Emory University worker API
+  name: Emory University Worker API
   slug: emory-worker-api
 - description: The Emory Libraries Digital Library Program discovery layer (dlp-lux) exposes its Blacklight search index as a JSON:API document at /catalog.json. Query, paginate and read digital collection records —
   name: Emory Digital Library Program Search API (Blacklight JSON:API)
@@ -416,7 +416,7 @@ modified: '2026-09-01'
 name: Emory University
 nav: Providers
 network: true
-overview: 'Emory University publishes 22 APIs on the [APIs.io](https://apis.io/) network, including annotation API, api_key API, assetstore API, and 19 more. Tagged areas include University, Higher Education, Education, Private Research University, and Association of American Universities.
+overview: 'Emory University publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Annotation API, API Key API, Assetstore API, and 19 more. Tagged areas include University, Higher Education, Education, Private Research University, and Association of American Universities.
 
 
   The Emory University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -494,7 +494,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

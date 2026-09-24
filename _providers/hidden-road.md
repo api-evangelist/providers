@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The Hidden Road prime brokerage and clearing API suite, announced generally available on 2023-05-04. Four service surfaces are confirmed live under https://api.hiddenroad.com/v0/ — accountactivity, me
@@ -124,7 +124,7 @@ modified: '2026-08-22'
 name: Hidden Road
 nav: Providers
 network: true
-overview: 'Hidden Road publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Prime Brokerage, Clearing, and Digital Assets.
+overview: 'Hidden Road publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Prime Brokerage, Clearing, and Digital Assets.
 
 
   Hidden Road''s developer surface includes support and 14 more developer resources.'
@@ -171,7 +171,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +198,7 @@ security:
 slug: hidden-road
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Prime Brokerage
 - Clearing
 - Digital Assets

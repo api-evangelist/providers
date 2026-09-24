@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -133,7 +133,7 @@ modified: '2026-09-05'
 name: Commission of Fine Arts
 nav: Providers
 network: true
-overview: 'Commission of Fine Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Arts, Design Review, Federal-Government, and Washington DC.
+overview: 'Commission of Fine Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Arts, Design Review, Federal Government, and Washington DC.
 
 
   Commission of Fine Arts'' developer surface includes engineering blog and 16 more developer resources.'
@@ -172,7 +172,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +193,7 @@ tags:
 - Architecture
 - Arts
 - Design Review
-- Federal-Government
+- Federal Government
 - Washington DC
 website: https://www.cfa.gov
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-20'
 name: Planetary
 nav: Providers
 network: true
-overview: 'Planetary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social-Media, Decentralized, and Peer-to-Peer.
+overview: 'Planetary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Media, Decentralized, and Peer-to-Peer.
 
 
   Planetary''s developer surface includes support and 6 more developer resources.'
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -114,12 +114,12 @@ slug: planetary
 tags:
 - Company
 - Social
-- Social-Media
+- Social Media
 - Decentralized
 - Peer-to-Peer
 - Scuttlebutt
 - Nostr
-- Open-Source
+- Open Source
 - Protocol
 - iOS
 website: https://planetary.social/

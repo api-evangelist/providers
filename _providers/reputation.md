@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 26
+- acting_count: 24
   human_in_the_loop: 0
   name: Reputation Agentic Access
   operation_count: 67
   slug: reputation-agentic-access
-  summary_line: 67 operations · 26 acting
+  summary_line: 67 operations · 24 acting
 api_count: 1
 apis:
 - baseURL: https://api.reputation.com
@@ -454,7 +454,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

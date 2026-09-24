@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: Real-time access to BMO Online Banking for Business account data — current balances; day-end, month-end and year-end balances; and transaction histories that can replace BAI files and other settlement
@@ -150,7 +150,7 @@ modified: '2026-07-23'
 name: BMO Financial Group
 nav: Providers
 network: true
-overview: 'BMO Financial Group publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Big Six, and Commercial Banking.
+overview: 'BMO Financial Group publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Commercial Banking.
 
 
   BMO Financial Group''s developer surface includes authentication, sandbox, API reference, getting-started guide, documentation, signup flow, support, and 12 more developer resources.'
@@ -190,7 +190,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ security:
   summary_line: Hackerone · contact published
 slug: bank-of-montreal
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Canada
 - Big Six

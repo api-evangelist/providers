@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://app.lendapi.com/api/v1/
@@ -330,7 +330,7 @@ modified: '2026-07-19'
 name: LendAPI
 nav: Providers
 network: true
-overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Amortization API, Application API, Credit Risk API, and 10 more. Tagged areas include Company, Lending, Loan Origination, Financial-Services, and Fintech.
+overview: 'LendAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Amortization API, Application API, Credit Risk API, and 10 more. Tagged areas include Company, Lending, Loan Origination, Financial Services, and Fintech.
 
 
   The LendAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -373,7 +373,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -393,7 +393,7 @@ tags:
 - Company
 - Lending
 - Loan Origination
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Underwriting

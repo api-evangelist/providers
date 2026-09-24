@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications, including routing, middleware support, and HTTP utility meth
@@ -140,7 +140,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ tags:
 - HTTP
 - Middleware
 - Node.js
-- Open-Source
+- Open Source
 - Web Framework
 - Fortune 1000
 website: https://expressjs.com

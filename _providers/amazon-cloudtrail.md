@@ -32,14 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Amazon Cloudtrail Agentic Access
   operation_count: 6
   slug: amazon-cloudtrail-agentic-access
-  summary_line: 6 operations · 4 acting
+  summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://cloudtrail.us-east-1.amazonaws.com
@@ -387,7 +387,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

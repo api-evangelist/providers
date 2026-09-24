@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,7 +92,7 @@ modified: '2026-07-18'
 name: Cape Analytics
 nav: Providers
 network: true
-overview: 'Cape Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Intelligence, Geospatial, Computer-Vision, and Machine-Learning.
+overview: 'Cape Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Intelligence, Geospatial, Computer Vision, and Machine Learning.
 
 
   Cape Analytics'' developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -123,7 +123,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -140,9 +140,9 @@ tags:
 - Company
 - Property Intelligence
 - Geospatial
-- Computer-Vision
-- Machine-Learning
-- Real-Estate
+- Computer Vision
+- Machine Learning
+- Real Estate
 - Insurance
 - Underwriting
 - Aerial Imagery

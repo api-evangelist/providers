@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 14
   human_in_the_loop: 0
   name: Code Ocean Agentic Access
   operation_count: 26
   slug: code-ocean-agentic-access
-  summary_line: 26 operations · 19 acting
+  summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://codeocean.com/api/v1
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

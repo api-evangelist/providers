@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 5
   human_in_the_loop: 0
   name: Amazon Systems Manager Agentic Access
   operation_count: 7
   slug: amazon-systems-manager-agentic-access
-  summary_line: 7 operations · 7 acting
+  summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://ssm.amazonaws.com
@@ -286,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

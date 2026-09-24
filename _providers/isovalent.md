@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,22 +49,22 @@ apis:
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The bgp API from Isovalent — 3 operation(s) for bgp.
-  name: Isovalent bgp API
+  name: Isovalent Bgp API
   slug: isovalent-bgp-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The connectivity API from Isovalent — 2 operation(s) for connectivity.
-  name: Isovalent connectivity API
+  name: Isovalent Connectivity API
   slug: isovalent-connectivity-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The daemon API from Isovalent — 9 operation(s) for daemon.
-  name: Isovalent daemon API
+  name: Isovalent Daemon API
   slug: isovalent-daemon-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The endpoint API from Isovalent — 6 operation(s) for endpoint.
-  name: Isovalent endpoint API
+  name: Isovalent Endpoint API
   slug: isovalent-endpoint-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
@@ -74,22 +74,22 @@ apis:
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The ipam API from Isovalent — 2 operation(s) for ipam.
-  name: Isovalent ipam API
+  name: Isovalent Ipam API
   slug: isovalent-ipam-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The policy API from Isovalent — 10 operation(s) for policy.
-  name: Isovalent policy API
+  name: Isovalent Policy API
   slug: isovalent-policy-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The prefilter API from Isovalent — 1 operation(s) for prefilter.
-  name: Isovalent prefilter API
+  name: Isovalent Prefilter API
   slug: isovalent-prefilter-api
 - baseURL: unix:///var/run/cilium/cilium.sock
   baseurl_source: declared
   description: The service API from Isovalent — 2 operation(s) for service.
-  name: Isovalent service API
+  name: Isovalent Service API
   slug: isovalent-service-api
 artifact_total: 24
 collections:
@@ -303,7 +303,7 @@ modified: '2026-08-19'
 name: Isovalent
 nav: Providers
 network: true
-overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network, including bgp API, connectivity API, daemon API, and 6 more. Tagged areas include Company, Networking, Kubernetes, eBPF, and Security.
+overview: 'Isovalent publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bgp API, Connectivity API, Daemon API, and 6 more. Tagged areas include Company, Networking, Kubernetes, eBPF, and Security.
 
 
   Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 30 more developer resources.'
@@ -338,7 +338,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Xano Agentic Access
   operation_count: 37
   slug: xano-agentic-access
-  summary_line: 37 operations · 21 acting
+  summary_line: 37 operations · 20 acting
 api_count: 1
 apis:
 - description: The REST APIs that Xano users build visually. Each API group is served at its own /api:{token} path on the instance and auto-generates its own OpenAPI/Swagger document; surface, paths, and auth are de
@@ -188,8 +188,8 @@ rate_limits:
   name: Xano Rate Limits
   slug: xano-rate-limits
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 64.0
@@ -197,12 +197,12 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 50.2
-    developer_ergonomics: 33.3
+    developer_ergonomics: 29.8
     discoverability: 68.5
     operational_transparency: 34.2
   previous_composite: 39.3
@@ -215,7 +215,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

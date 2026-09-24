@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.appen.com/v1
@@ -236,7 +236,7 @@ modified: '2026-07-19'
 name: Figure Eight
 nav: Providers
 network: true
-overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Job Create/Update API, Job Ontology API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Data Labeling, and Data Annotation.
+overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Job Create/Update API, Job Ontology API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data Labeling, and Data Annotation.
 
 
   The Figure Eight catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -272,7 +272,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +291,7 @@ slug: figure-eight
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Labeling
 - Data Annotation
 - Training Data

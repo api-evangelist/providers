@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 10
+- acting_count: 9
+  human_in_the_loop: 9
   name: Denim Agentic Access
   operation_count: 19
   slug: denim-agentic-access
-  summary_line: 19 operations · 10 acting · 10 human-in-the-loop
+  summary_line: 19 operations · 9 acting · 9 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.denim.com/api
@@ -270,7 +270,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

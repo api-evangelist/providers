@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'The Lightning AI control-plane API used by the lightning-sdk Python SDK, the @lightningai/sdk JavaScript SDK and the lightning CLI to programmatically manage platform resources: Studios, Jobs, Deploym'
@@ -195,7 +195,7 @@ modified: '2026-07-19'
 name: Lightning AI
 nav: Providers
 network: true
-overview: 'Lightning AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Machine-Learning, GPU Cloud, and Model Inference.
+overview: 'Lightning AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Machine Learning, GPU Cloud, and Model Inference.
 
 
   Lightning AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 24 more developer resources.'
@@ -230,7 +230,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -250,13 +250,13 @@ slug: lightning-ai
 tags:
 - Company
 - Ai Ml
-- Machine-Learning
+- Machine Learning
 - GPU Cloud
 - Model Inference
 - Model Training
 - Developer Platform
 - Sandbox
 - LLM APIs
-- Open-Source
+- Open Source
 website: https://lightning.ai/
 ---

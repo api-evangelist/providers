@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -48,52 +48,52 @@ apis:
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The activitypub API from Forgejo — 11 operation(s) for activitypub.
-  name: Forgejo activitypub API
+  name: Forgejo Activitypub API
   slug: forgejo-activitypub-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The admin API from Forgejo — 34 operation(s) for admin.
-  name: Forgejo admin API
+  name: Forgejo Admin API
   slug: forgejo-admin-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The issue API from Forgejo — 33 operation(s) for issue.
-  name: Forgejo issue API
+  name: Forgejo Issue API
   slug: forgejo-issue-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The miscellaneous API from Forgejo — 14 operation(s) for miscellaneous.
-  name: Forgejo miscellaneous API
+  name: Forgejo Miscellaneous API
   slug: forgejo-miscellaneous-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The notification API from Forgejo — 4 operation(s) for notification.
-  name: Forgejo notification API
+  name: Forgejo Notification API
   slug: forgejo-notification-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The organization API from Forgejo — 42 operation(s) for organization.
-  name: Forgejo organization API
+  name: Forgejo Organization API
   slug: forgejo-organization-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The package API from Forgejo — 5 operation(s) for package.
-  name: Forgejo package API
+  name: Forgejo Package API
   slug: forgejo-package-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The repository API from Forgejo — 126 operation(s) for repository.
-  name: Forgejo repository API
+  name: Forgejo Repository API
   slug: forgejo-repository-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The settings API from Forgejo — 4 operation(s) for settings.
-  name: Forgejo settings API
+  name: Forgejo Settings API
   slug: forgejo-settings-api
 - baseURL: https://code.forgejo.org/api/v1
   baseurl_source: declared
   description: The user API from Forgejo — 54 operation(s) for user.
-  name: Forgejo user API
+  name: Forgejo User API
   slug: forgejo-user-api
 artifact_total: 290
 collections:
@@ -1003,7 +1003,7 @@ modified: '2026-06-13'
 name: Forgejo
 nav: Providers
 network: true
-overview: 'Forgejo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including activitypub API, admin API, issue API, and 7 more. Tagged areas include Git, Source Code Management, Self-Hosted, DevOps, and CI/CD.
+overview: 'Forgejo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activitypub API, Admin API, Issue API, and 7 more. Tagged areas include Git, Source Code Management, Self-Hosted, DevOps, and CI/CD.
 
 
   The Forgejo catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1057,7 +1057,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1083,7 +1083,7 @@ tags:
 - Self-Hosted
 - DevOps
 - CI/CD
-- Open-Source
+- Open Source
 - Forge
 - Repositories
 - Issues

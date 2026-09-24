@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,12 +47,12 @@ apis:
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The authentication API from Moveworks — 2 operation(s) for authentication.
-  name: Moveworks authentication API
+  name: Moveworks Authentication API
   slug: moveworks-authentication-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The conversations API from Moveworks — 3 operation(s) for conversations.
-  name: Moveworks conversations API
+  name: Moveworks Conversations API
   slug: moveworks-conversations-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
@@ -62,33 +62,38 @@ apis:
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The deprecated API from Moveworks — 1 operation(s) for deprecated.
-  name: Moveworks deprecated API
+  name: Moveworks Deprecated API
   slug: moveworks-deprecated-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The events API from Moveworks — 1 operation(s) for events.
-  name: Moveworks events API
+  name: Moveworks Events API
   slug: moveworks-events-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The messages API from Moveworks — 3 operation(s) for messages.
-  name: Moveworks messages API
+  name: Moveworks Messages API
   slug: moveworks-messages-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The responses API from Moveworks — 3 operation(s) for responses.
-  name: Moveworks responses API
+  name: Moveworks Responses API
   slug: moveworks-responses-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The smartForms API from Moveworks — 3 operation(s) for smartforms.
-  name: Moveworks smartForms API
+  name: Moveworks Smart Forms API
   slug: moveworks-smartforms-api
 - baseURL: https://api.moveworks.ai
   baseurl_source: declared
   description: The webhooks API from Moveworks — 1 operation(s) for webhooks.
-  name: Moveworks webhooks API
+  name: Moveworks Webhooks API
   slug: moveworks-webhooks-api
+- baseURL: https://api.moveworks.ai/export/v1
+  baseurl_source: declared
+  description: Exported AI Assistant interaction records
+  name: Moveworks Data API
+  slug: moveworks-servicenow-records-api
 arazzos:
 - description: Create a conversation, request a response, then list the resulting messages.
   name: Moveworks — start an AI Assistant conversation and read the reply
@@ -96,7 +101,7 @@ arazzos:
 - description: Mint an OAuth client-credentials token, verify it, then send an event-triggered message to employees.
   name: Moveworks — authenticate and notify employees for an event
   slug: moveworks-notify-employees
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Moveworks Webhooks
@@ -357,7 +362,7 @@ modified: '2026-07-20'
 name: Moveworks
 nav: Providers
 network: true
-overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network, including authentication API, conversations API, Default API, and 6 more. Tagged areas include Company, Artificial Intelligence, Agentic AI, AI Assistant, and Enterprise Automation.
+overview: 'Moveworks publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conversations API, Default API, and 7 more. Tagged areas include Company, Artificial Intelligence, Agentic AI, AI Assistant, and Enterprise Automation.
 
 
   The Moveworks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -367,7 +372,7 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 15
 score:
   band: strong
-  composite: 55.2
+  composite: 54.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -375,11 +380,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 63.1
+    contract_quality: 59.6
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 65.8
@@ -389,13 +394,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 1
+      marker_coverage: 10.0
+      total: 10
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

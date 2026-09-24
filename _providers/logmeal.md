@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Logmeal Agentic Access
   operation_count: 4
   slug: logmeal-agentic-access
-  summary_line: 4 operations · 3 acting
+  summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.logmeal.com
@@ -129,7 +129,7 @@ modified: '2026-05-19'
 name: LogMeal
 nav: Providers
 network: true
-overview: 'LogMeal publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Image Recognition API, and Nutrition API. Tagged areas include Computer-Vision, Food, Image Recognition, Nutrition, and Semantic Tagging.
+overview: 'LogMeal publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Image Recognition API, and Nutrition API. Tagged areas include Computer Vision, Food, Image Recognition, Nutrition, and Semantic Tagging.
 
 
   LogMeal''s developer surface includes authentication, documentation, developer portal, engineering blog, and 5 more developer resources.'
@@ -169,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -186,7 +186,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: logmeal
 tags:
-- Computer-Vision
+- Computer Vision
 - Food
 - Image Recognition
 - Nutrition

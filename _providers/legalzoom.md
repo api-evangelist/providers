@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/legalzoom/refs/heads/main/security/legalzoom-vulnerability-disclosure.yml
@@ -137,10 +137,6 @@ common:
 created: '2026-05-25'
 description: 'LegalZoom.com, Inc. (NASDAQ: LZ) is a Glendale, California online legal technology and services company that helps individuals and small businesses create legal documents and form, run, and grow their businesses without necessarily hiring an attorney. Founded in 1999, LegalZoom offers business formation services (LLC, S-Corp, C-Corp, nonprofit, DBA), registered agent service, EIN/tax ID filing, annual report and compliance filings, business licenses, virtual mail, business banking partnerships, trademark registration, and ongoing bookkeeping and tax services through LZ Books and LZ Tax. On the personal side it provides wills, living trusts, power of attorney, prenuptial agreements, and a partner-driven divorce flow via Divorce.com. Customers access an attorney-network legal advice subscription (LZ Legal Services / business advisory plans) connecting them to independent attorneys for consultations and document review. LegalZoom went public on Nasdaq in 2021 (ticker LZ) and serves
   customers primarily in the United States. The company''s revenue model is transactional document and formation fees plus recurring subscription services (registered agent, compliance, attorney advice, bookkeeping). LegalZoom does not publish a public developer API, OpenAPI specification, SDK, or developer portal; partner integrations (e.g. divorce.com, banking partners, accounting partners) appear to be private commercial arrangements rather than self-service developer APIs. The legalzoom.com web app calls a set of internal hosts under apigw.legalzoom.com (checkout-graphql-public-api, customer, experimentation, revv, attorney-state-service, site-search) but these are first-party and not documented for third-party use.'
-graphqls:
-- description: ''
-  name: LegalZoom GraphQL API
-  slug: legalzoom-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legalzoom.png
 layout: provider
 modified: '2026-05-25'
@@ -156,7 +152,7 @@ score:
   band: minimal
   composite: 9.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -180,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

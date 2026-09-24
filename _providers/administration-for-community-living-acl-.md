@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
@@ -165,7 +165,7 @@ modified: '2026-08-30'
 name: Administration for Community Living (ACL)
 nav: Providers
 network: true
-overview: 'Administration for Community Living (ACL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal-Government, Healthcare, Disability, and Independent Living.
+overview: 'Administration for Community Living (ACL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal Government, Healthcare, Disability, and Independent Living.
 
 
   Administration for Community Living (ACL)''s developer surface includes authentication, changelog, support, engineering blog, developer portal, and 16 more developer resources.'
@@ -207,7 +207,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ security:
 slug: administration-for-community-living-acl-
 tags:
 - Aging
-- Federal-Government
+- Federal Government
 - Healthcare
 - Disability
 - Independent Living

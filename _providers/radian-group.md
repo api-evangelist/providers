@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ modified: '2026-05-23'
 name: Radian Group
 nav: Providers
 network: true
-overview: 'Radian Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial-Services, Mortgage Insurance, Specialty Insurance, and Real-Estate.
+overview: 'Radian Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Mortgage Insurance, Specialty Insurance, and Real Estate.
 
 
   Radian Group''s developer surface includes engineering blog, YouTube channel, and 7 more developer resources.'
@@ -112,7 +112,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -127,10 +127,10 @@ security:
 slug: radian-group
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Mortgage Insurance
 - Specialty Insurance
-- Real-Estate
+- Real Estate
 - Mortgage
 - Publicly Traded
 website: https://www.radian.com

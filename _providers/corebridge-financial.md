@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 artifact_total: 6
 collections:
@@ -109,7 +109,7 @@ modified: '2026-07-25'
 name: Corebridge Financial
 nav: Providers
 network: true
-overview: 'Corebridge Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial-Services, Fortune 500, and Insurance.
+overview: 'Corebridge Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AIG, Annuities, Financial Services, Fortune 500, and Insurance.
 
 
   Corebridge Financial''s developer surface includes product news and 12 more developer resources.'
@@ -148,7 +148,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ slug: corebridge-financial
 tags:
 - AIG
 - Annuities
-- Financial-Services
+- Financial Services
 - Fortune 500
 - Insurance
 - K-12

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-21'
 name: Vico
 nav: Providers
 network: true
-overview: 'Vico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Rentals, Housing, and Marketplace.
+overview: 'Vico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Rentals, Housing, and Marketplace.
 
 
   Vico''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -111,7 +111,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ security:
 slug: vico
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Rentals
 - Housing
 - Marketplace

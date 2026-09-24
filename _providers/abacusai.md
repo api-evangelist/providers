@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Abacus.AI REST API and first-party Python client library for building generative AI, agent, and structured ML applications on the Abacus.AI platform. Authentication is via an API key generated fro
@@ -150,7 +150,7 @@ modified: '2026-07-17'
 name: Abacus.ai
 nav: Providers
 network: true
-overview: 'Abacus.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Generative AI.
+overview: 'Abacus.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine Learning, and Generative AI.
 
 
   Abacus.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
@@ -182,7 +182,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ tags:
 - Company
 - Ai Ml
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - LLM
 - AI Agents

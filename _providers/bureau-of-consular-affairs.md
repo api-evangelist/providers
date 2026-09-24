@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-09-05'
 name: Bureau of Consular Affairs
 nav: Providers
 network: true
-overview: 'Bureau of Consular Affairs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datastore API, Discovery API, and Write API. Tagged areas include Federal-Government, Passports, Travel, Travel Advisories, and Visa.
+overview: 'Bureau of Consular Affairs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datastore API, Discovery API, and Write API. Tagged areas include Federal Government, Passports, Travel, Travel Advisories, and Visa.
 
 
   Bureau of Consular Affairs'' developer surface includes authentication, developer portal, and 25 more developer resources.'
@@ -279,7 +279,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -300,7 +300,7 @@ security:
   summary_line: Hackerone · contact published
 slug: bureau-of-consular-affairs
 tags:
-- Federal-Government
+- Federal Government
 - Passports
 - Travel
 - Travel Advisories

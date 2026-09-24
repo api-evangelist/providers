@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,7 +140,7 @@ modified: '2026-07-19'
 name: Landis
 nav: Providers
 network: true
-overview: 'Landis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real-Estate, PropTech, and Fintech.
+overview: 'Landis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Real Estate, PropTech, and Fintech.
 
 
   Landis'' developer surface includes engineering blog, pricing, signup flow, developer portal, support, YouTube channel, and 17 more developer resources.'
@@ -165,7 +165,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -189,7 +189,7 @@ slug: landis
 tags:
 - Company
 - Consumer
-- Real-Estate
+- Real Estate
 - PropTech
 - Fintech
 - Mortgage

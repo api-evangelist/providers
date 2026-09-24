@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 97
+- acting_count: 43
   human_in_the_loop: 0
   name: Bolt Eu Agentic Access
-  operation_count: 97
+  operation_count: 45
   slug: bolt-eu-agentic-access
-  summary_line: 97 operations · 97 acting
+  summary_line: 45 operations · 43 acting
 api_count: 3
 apis:
 - baseURL: https://node.bolt.eu/delivery-provider-pos
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

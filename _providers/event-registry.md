@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 5
   human_in_the_loop: 0
   name: Event Registry Agentic Access
-  operation_count: 12
+  operation_count: 14
   slug: event-registry-agentic-access
-  summary_line: 12 operations · 12 acting
+  summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://eventregistry.org/api/v1
@@ -331,7 +331,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

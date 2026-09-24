@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 29
+- acting_count: 23
   human_in_the_loop: 0
   name: Invoice Ninja Agentic Access
   operation_count: 44
   slug: invoice-ninja-agentic-access
-  summary_line: 44 operations · 29 acting
+  summary_line: 44 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://invoicing.co
@@ -188,7 +188,7 @@ modified: '2026-05-11'
 name: Invoice Ninja
 nav: Providers
 network: true
-overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Bank Integrations API, and 7 more. Tagged areas include Invoicing, Billing, Payments, Accounting, and Open-Source.
+overview: 'Invoice Ninja publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Bank Integrations API, and 7 more. Tagged areas include Invoicing, Billing, Payments, Accounting, and Open Source.
 
 
   Invoice Ninja''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
@@ -226,7 +226,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -247,7 +247,7 @@ tags:
 - Billing
 - Payments
 - Accounting
-- Open-Source
+- Open Source
 - Freelancers
 - SMB
 website: https://www.invoiceninja.com

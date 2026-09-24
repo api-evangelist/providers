@@ -27,7 +27,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.9,
      "agent_band": "agent-native",
@@ -131,7 +131,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -180,7 +180,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -230,7 +230,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -279,7 +279,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
@@ -314,8 +314,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 12,
-   "shown": 12,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "JPX (Japan Exchange Group)",
@@ -333,7 +333,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -383,7 +383,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -426,7 +426,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -461,56 +461,6 @@
      "rank": 9
     },
     {
-     "name": "Tokyo Institute of Technology",
-     "slug": "tokyo-institute-of-technology",
-     "description": "Tokyo Institute of Technology (Tokyo Tech / Titech) was Japan's leading national institute of technology and ranked #76 in the QS World University Rankings 2025. On 2024-10-01 it merged with Tokyo Medical and Dental University to form the Institute of Science Tokyo (Science Tokyo); the corporate web presence moved to isct.ac.jp while most academic and service systems still run on titech.ac.jp. Its institution-operated programmable footprint is small and, as of 2026-08-30, shrinking. There is no developer portal, no public REST API, no open-data portal and no OAuth or OpenID Connect surface anywhere on its domains. What the institution genuinely operates and we verified live is two protocol endpoints: the T2R2 research repository's OAI-PMH 2.0 harvesting interface (oai_dc and junii2), and a Shibboleth/SAML 2.0 Identity Provider registered in GakuNin, Japan's national academic access management federation. The first is being switched off — the operator published a discontinuation schedule on 2026-07-22 that ended T2R2 search on 2026-08-20 and ends T2R2 registration on 2026-10-01, moving full text to the Science Tokyo Repository on JAIRO Cloud, which is a TENANT surface run by NII and JPCOAR rather than by the university. The library discovery layer, the syllabus system, the STRDB researcher database and the TSUBAME4 supercomputer service are all real institution-run systems with human interfaces only — none of them publishes a machine-readable contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 38.1,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 61.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "MeetsMore",
      "slug": "meetsmore",
      "description": "MeetsMore Inc. (株式会社ミツモア) operates Japan's largest local-services marketplace, matching consumers and businesses with vetted professionals across 600+ categories — house cleaning, appliance installation, moving, renovation, pest control, photography, tax accountants and administrative scriveners — alongside ProOne, a cloud operations system for short-term construction contractors, and Hatchoo, an enterprise procurement platform built on the same contractor network. Founded February 2017 and headquartered in Ginza, Tokyo, the company reports 77,000+ registered service providers and passed a cumulative five million service requests in 2024. MeetsMore runs no public developer program for the marketplace itself and its production backend (api.meetsmore.com) is a closed AWS API Gateway; its public API surface is instead two first-party open-source products published from its own GitHub organization — Nittei, a self-hosted Rust calendar/scheduler API server with a utoipa-generated OpenAPI document, and use-ai, an AG-UI/MCP React framework distributed as four npm packages.",
@@ -526,7 +476,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -551,7 +501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Kyoto University",
@@ -569,7 +519,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -601,7 +551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Acall",
@@ -618,7 +568,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -643,47 +593,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
-     "name": "Tohoku University",
-     "slug": "tohoku",
-     "description": "Tohoku University is a Japanese national research university in Sendai, founded in 1907, one of the seven former Imperial Universities and a Designated National University. Its programmable footprint is small, unevenly distributed, and mostly NOT operated by central IT — which is the honest shape for a university, and the profile says so rather than padding it. Exactly one unambiguously institution-operated API was found: jMorp, the Japanese Multi Omics Reference Panel published by the Tohoku Medical Megabank Organization at jmorp.megabank.tohoku.ac.jp, which answers anonymous GraphQL queries and full schema introspection over a 305-field read-only query root. Everything else is a relationship rather than a contract: the TOUR institutional repository is a tenant on NII's JAIRO Cloud (WEKO3) with a live OAI-PMH 2.0 endpoint; the university operates its own SAML 2.0 Shibboleth Identity Provider registered in the GakuNin national academic federation; and three of its units are Crossref DOI-registering members. There is no central developer portal, no API key issuance, no open-data platform, no llms.txt, no MCP server and no published OpenAPI anywhere on tohoku.ac.jp. Public course information is served as HTML by the university's own QuickSyllabus, not as an API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png",
-     "score": 40.9,
+     "name": "Magic Moment",
+     "slug": "magic-moment",
+     "description": "Magic Moment is a Tokyo-based AI sales-automation company whose Magic Moment Playbook platform captures real business facts from deals, calls, email, and meetings and writes them back into Salesforce, HubSpot, and other CRMs as structured sales data. Products include Magic Moment Playbook (AI auto-recording SFA/CRM), Playbook Capture, MM Claw, the Revenue Platform performance-based demand service, and the Magic Moment X managed AI department. The company publishes a Playbook API for developers and partners (announced 2024-04-03, documented at developer.magicmoment.co.jp behind the product login) and serves five anonymous Swagger 2.0 contracts for its Playbook integration services on its production hosts — Salesforce, HubSpot, Office suite (Google Workspace / Microsoft 365), call integration (MiiTel, Zoom Phone), and the reporting/aggregation service. The company is ISO/IEC 27001:2022 certified and publishes an llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png",
+     "score": 40.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 51.6,
+      "discoverability": 81.5,
+      "contract_quality": 50.2,
       "contract_governance": 18.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 39.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 64.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.2,
+     "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -693,7 +636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Paidy",
@@ -711,7 +654,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -743,50 +686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
-    },
-    {
-     "name": "Magic Moment",
-     "slug": "magic-moment",
-     "description": "Magic Moment is a Tokyo-based AI sales-automation company whose Magic Moment Playbook platform captures real business facts from deals, calls, email, and meetings and writes them back into Salesforce, HubSpot, and other CRMs as structured sales data. Products include Magic Moment Playbook (AI auto-recording SFA/CRM), Playbook Capture, MM Claw, the Revenue Platform performance-based demand service, and the Magic Moment X managed AI department. The company publishes a Playbook API for developers and partners (announced 2024-04-03, documented at developer.magicmoment.co.jp behind the product login) and serves five anonymous Swagger 2.0 contracts for its Playbook integration services on its production hosts — Salesforce, HubSpot, Office suite (Google Workspace / Microsoft 365), call integration (MiiTel, Zoom Phone), and the reporting/aggregation service. The company is ISO/IEC 27001:2022 certified and publishes an llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png",
-     "score": 40.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 49.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 64.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
+     "rank": 14
     },
     {
      "name": "Agri Info Design",
@@ -803,7 +703,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
@@ -828,7 +728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 15
     },
     {
      "name": "SmartHR",
@@ -846,7 +746,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -871,7 +771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 16
     }
    ]
   },
@@ -880,8 +780,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 21,
-   "shown": 21,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "KG-NINJA",
@@ -898,7 +798,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 54.9,
      "agent_band": "agent-native",
@@ -923,7 +823,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 17
     },
     {
      "name": "Preferred Networks",
@@ -941,7 +841,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
@@ -966,7 +866,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 18
+    },
+    {
+     "name": "Tokyo Institute of Technology",
+     "slug": "tokyo-institute-of-technology",
+     "description": "Tokyo Institute of Technology (Tokyo Tech / Titech) was Japan's leading national institute of technology and ranked #76 in the QS World University Rankings 2025. On 2024-10-01 it merged with Tokyo Medical and Dental University to form the Institute of Science Tokyo (Science Tokyo); the corporate web presence moved to isct.ac.jp while most academic and service systems still run on titech.ac.jp. Its institution-operated programmable footprint is small and, as of 2026-08-30, shrinking. There is no developer portal, no public REST API, no open-data portal and no OAuth or OpenID Connect surface anywhere on its domains. What the institution genuinely operates and we verified live is two protocol endpoints: the T2R2 research repository's OAI-PMH 2.0 harvesting interface (oai_dc and junii2), and a Shibboleth/SAML 2.0 Identity Provider registered in GakuNin, Japan's national academic access management federation. The first is being switched off — the operator published a discontinuation schedule on 2026-07-22 that ended T2R2 search on 2026-08-20 and ends T2R2 registration on 2026-10-01, moving full text to the Science Tokyo Repository on JAIRO Cloud, which is a TENANT surface run by NII and JPCOAR rather than by the university. The library discovery layer, the syllabus system, the STRDB researcher database and the TSUBAME4 supercomputer service are all real institution-run systems with human interfaces only — none of them publishes a machine-readable contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png",
+     "score": 38.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 22.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 61.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
     },
     {
      "name": "freee",
@@ -984,7 +934,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1009,7 +959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "LayerX",
@@ -1027,7 +977,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1059,7 +1009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Nagoya University",
@@ -1077,7 +1027,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1109,7 +1059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Keio University",
@@ -1127,7 +1077,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1159,7 +1109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "KOMOJU",
@@ -1177,7 +1127,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1209,7 +1159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Kyushu University",
@@ -1227,7 +1177,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1259,7 +1209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Rakuten",
@@ -1277,7 +1227,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1309,6 +1259,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 26
+    },
+    {
+     "name": "Logiless",
+     "slug": "logiless",
+     "description": "LOGILESS (ロジレス) is a Japanese cloud EC logistics platform that unifies order management (OMS) and warehouse management (WMS) for e-commerce merchants — automating order intake from marketplaces and shopping carts (Rakuten, Shopify, ColorMe, futureshop, ec-force and more), inventory synchronization, allocation, shipping-label issuance and warehouse operations. LOGILESS exposes a RESTful, OAuth2-protected API (scoped per merchant) for reading and writing sales orders, outbound and inbound deliveries, sales returns, inter-warehouse transfers, articles (product master), multi-layer inventory summaries, warehouses, stores and suppliers. The company is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline from LOGILESS's public developer documentation; the OpenAPI here is derived and not an official LOGILESS artifact.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png",
+     "score": 35.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 11.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 31.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 27
     },
     {
@@ -1316,7 +1309,7 @@
      "slug": "tablecheck",
      "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/screenshots/tablecheck-2026-09-02T161720.png",
-     "score": 36.0,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1324,10 +1317,10 @@
       "contract_quality": 53.1,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -1355,49 +1348,6 @@
      "rank": 28
     },
     {
-     "name": "Logiless",
-     "slug": "logiless",
-     "description": "LOGILESS (ロジレス) is a Japanese cloud EC logistics platform that unifies order management (OMS) and warehouse management (WMS) for e-commerce merchants — automating order intake from marketplaces and shopping carts (Rakuten, Shopify, ColorMe, futureshop, ec-force and more), inventory synchronization, allocation, shipping-label issuance and warehouse operations. LOGILESS exposes a RESTful, OAuth2-protected API (scoped per merchant) for reading and writing sales orders, outbound and inbound deliveries, sales returns, inter-warehouse transfers, articles (product master), multi-layer inventory summaries, warehouses, stores and suppliers. The company is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline from LOGILESS's public developer documentation; the OpenAPI here is derived and not an official LOGILESS artifact.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png",
-     "score": 35.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 11.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 31.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 29
-    },
-    {
      "name": "PayPay",
      "slug": "paypay",
      "description": "PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.",
@@ -1413,7 +1363,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1445,7 +1395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "MakeLeaps",
@@ -1463,7 +1413,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1495,7 +1445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Waseda University",
@@ -1513,7 +1463,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1545,7 +1495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "JAXA",
@@ -1563,7 +1513,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1595,7 +1545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "LegalOn",
@@ -1613,7 +1563,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1638,7 +1588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "NTT Docomo",
@@ -1656,7 +1606,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1688,7 +1638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "HaneruTo",
@@ -1705,7 +1655,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -1730,7 +1680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "J-Quants",
@@ -1748,7 +1698,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1773,7 +1723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Unifa",
@@ -1790,7 +1740,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1822,6 +1772,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 37
+    },
+    {
+     "name": "Tohoku University",
+     "slug": "tohoku",
+     "description": "Tohoku University is a Japanese national research university in Sendai, founded in 1907, one of the seven former Imperial Universities and a Designated National University. Its programmable footprint is small, unevenly distributed, and mostly NOT operated by central IT — which is the honest shape for a university, and the profile says so rather than padding it. Exactly one unambiguously institution-operated API was found: jMorp, the Japanese Multi Omics Reference Panel published by the Tohoku Medical Megabank Organization at jmorp.megabank.tohoku.ac.jp, which answers anonymous GraphQL queries and full schema introspection over a 305-field read-only query root. Everything else is a relationship rather than a contract: the TOUR institutional repository is a tenant on NII's JAIRO Cloud (WEKO3) with a live OAI-PMH 2.0 endpoint; the university operates its own SAML 2.0 Shibboleth Identity Provider registered in the GakuNin national academic federation; and three of its units are Crossref DOI-registering members. There is no central developer portal, no API key issuance, no open-data platform, no llms.txt, no MCP server and no published OpenAPI anywhere on tohoku.ac.jp. Public course information is served as HTML by the university's own QuickSyllabus, not as an API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png",
+     "score": 26.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 20.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 38
     },
     {
@@ -1840,7 +1840,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",
@@ -1942,7 +1942,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1992,7 +1992,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2042,7 +2042,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2084,7 +2084,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2134,7 +2134,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2177,7 +2177,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2226,7 +2226,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2276,7 +2276,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2319,7 +2319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2369,7 +2369,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2419,7 +2419,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2469,7 +2469,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2519,7 +2519,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2569,7 +2569,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2619,7 +2619,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2669,7 +2669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2711,7 +2711,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.2,
      "agent_band": "agent-aware",
@@ -2754,7 +2754,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2796,7 +2796,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2846,7 +2846,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2889,7 +2889,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2932,7 +2932,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2975,7 +2975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3025,7 +3025,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3074,7 +3074,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3117,7 +3117,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3170,7 +3170,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3213,7 +3213,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3256,7 +3256,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3306,7 +3306,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3349,7 +3349,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3391,7 +3391,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3441,7 +3441,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3484,7 +3484,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3527,7 +3527,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3577,7 +3577,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3627,7 +3627,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3669,7 +3669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3712,7 +3712,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3754,7 +3754,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3797,7 +3797,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3840,7 +3840,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3883,7 +3883,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3925,7 +3925,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3968,7 +3968,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4010,7 +4010,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4052,7 +4052,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4094,7 +4094,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4136,7 +4136,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4178,7 +4178,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4221,7 +4221,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4271,7 +4271,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4314,7 +4314,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4364,7 +4364,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4407,7 +4407,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4456,7 +4456,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4499,7 +4499,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4549,7 +4549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4599,7 +4599,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4642,7 +4642,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4685,7 +4685,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4728,7 +4728,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4771,7 +4771,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4814,7 +4814,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4857,7 +4857,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4906,7 +4906,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4949,7 +4949,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4999,7 +4999,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5048,7 +5048,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5149,7 +5149,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5199,7 +5199,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5249,7 +5249,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5299,7 +5299,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

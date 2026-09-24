@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-18'
 name: Cambridge Cancer Genomics
 nav: Providers
 network: true
-overview: Cambridge Cancer Genomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Precision Oncology, Genomics, and Machine-Learning.
+overview: Cambridge Cancer Genomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Biology, Precision Oncology, Genomics, and Machine Learning.
 random_paper: 3
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -99,7 +99,7 @@ tags:
 - Digital Biology
 - Precision Oncology
 - Genomics
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Cancer Research
 - Bioinformatics

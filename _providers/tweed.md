@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -44,47 +44,47 @@ apis:
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The assets API from Tweed — 5 operation(s) for assets.
-  name: Tweed assets API
+  name: Tweed Assets API
   slug: tweed-assets-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The audit-event-mappings API from Tweed — 1 operation(s) for audit-event-mappings.
-  name: Tweed audit-event-mappings API
+  name: Tweed Audit Event Mappings API
   slug: tweed-audit-event-mappings-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The auth API from Tweed — 3 operation(s) for auth.
-  name: Tweed auth API
+  name: Tweed Auth API
   slug: tweed-auth-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The blockchains API from Tweed — 4 operation(s) for blockchains.
-  name: Tweed blockchains API
+  name: Tweed Blockchains API
   slug: tweed-blockchains-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The checkout API from Tweed — 4 operation(s) for checkout.
-  name: Tweed checkout API
+  name: Tweed Checkout API
   slug: tweed-checkout-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The contracts API from Tweed — 5 operation(s) for contracts.
-  name: Tweed contracts API
+  name: Tweed Contracts API
   slug: tweed-contracts-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The items API from Tweed — 5 operation(s) for items.
-  name: Tweed items API
+  name: Tweed Items API
   slug: tweed-items-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The payouts API from Tweed — 4 operation(s) for payouts.
-  name: Tweed payouts API
+  name: Tweed Payouts API
   slug: tweed-payouts-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The platform-webhooks API from Tweed — 3 operation(s) for platform-webhooks.
-  name: Tweed platform-webhooks API
+  name: Tweed Platform Webhooks API
   slug: tweed-platform-webhooks-api
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
@@ -94,7 +94,7 @@ apis:
 - baseURL: https://api-v2.prod.paytweed.com
   baseurl_source: declared
   description: The tickets API from Tweed — 1 operation(s) for tickets.
-  name: Tweed tickets API
+  name: Tweed Tickets API
   slug: tweed-tickets-api
 artifact_total: 27
 asyncapis:
@@ -250,7 +250,7 @@ modified: '2026-07-21'
 name: Tweed
 nav: Providers
 network: true
-overview: 'Tweed publishes 11 APIs on the [APIs.io](https://apis.io/) network, including assets API, audit-event-mappings API, auth API, and 8 more. Tagged areas include Company, Payments, Crypto, Wallets, and NFT.
+overview: 'Tweed publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Audit Event Mappings API, Auth API, and 8 more. Tagged areas include Company, Payments, Crypto, Wallets, and NFT.
 
 
   The Tweed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,7 +268,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
@@ -276,7 +276,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 7.9
-  previous_composite: 37.9
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -293,7 +293,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 3
   human_in_the_loop: 1
   name: Linkerd Agentic Access
-  operation_count: 12
+  operation_count: 11
   slug: linkerd-agentic-access
-  summary_line: 12 operations · 7 acting · 1 human-in-the-loop
+  summary_line: 11 operations · 3 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: The Linkerd Proxy Control Plane gRPC API defines the protobuf service contracts used by the data-plane proxy to communicate with the control plane. It includes the Destination API for service discover
@@ -331,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

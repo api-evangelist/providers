@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://api.akkio.com/v1
@@ -600,7 +600,7 @@ modified: '2026-08-13'
 name: Akkio
 nav: Providers
 network: true
-overview: 'Akkio publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Models API, Ad Analytics API, and 75 more. Tagged areas include Company, Ai Apps, Machine-Learning, Predictive Analytics, and No-Code.
+overview: 'Akkio publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Models API, Ad Analytics API, and 75 more. Tagged areas include Company, Ai Apps, Machine Learning, Predictive Analytics, and No-Code.
 
 
   Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -642,7 +642,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -669,7 +669,7 @@ slug: akkio
 tags:
 - Company
 - Ai Apps
-- Machine-Learning
+- Machine Learning
 - Predictive Analytics
 - No-Code
 - Data Science

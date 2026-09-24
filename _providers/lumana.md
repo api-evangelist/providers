@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -109,7 +109,7 @@ modified: '2026-07-20'
 name: Lumana
 nav: Providers
 network: true
-overview: 'Lumana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Security, Artificial Intelligence, Computer-Vision, and Physical Security.
+overview: 'Lumana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Security, Artificial Intelligence, Computer Vision, and Physical Security.
 
 
   The Lumana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -139,7 +139,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,7 @@ tags:
 - Company
 - Video Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Physical Security
 - Surveillance
 - Video Management

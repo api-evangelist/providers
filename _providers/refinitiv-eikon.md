@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 8
   human_in_the_loop: 0
   name: Refinitiv Eikon Agentic Access
-  operation_count: 29
+  operation_count: 28
   slug: refinitiv-eikon-agentic-access
-  summary_line: 29 operations · 12 acting
+  summary_line: 28 operations · 8 acting
 api_count: 3
 apis:
 - description: Python and R library that allows programmatic access to Refinitiv Eikon data. Provides access to instrument pricing, fundamentals, estimates, time series, news, and symbology. Requires the Eikon or LS
@@ -712,7 +712,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -735,5 +735,6 @@ tags:
 - Market Data
 - Real-Time Data
 - Trading
+- Real-Time
 website: https://www.lseg.com
 ---

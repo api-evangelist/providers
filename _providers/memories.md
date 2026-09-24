@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 20
   human_in_the_loop: 1
   name: Memories Agentic Access
   operation_count: 34
   slug: memories-agentic-access
-  summary_line: 34 operations · 27 acting · 1 human-in-the-loop
+  summary_line: 34 operations · 20 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.memories.ai
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -285,6 +285,6 @@ tags:
 - Multimodal AI
 - Content Moderation
 - AI Agents
-- Machine-Learning
+- Machine Learning
 website: http://memories.ai
 ---

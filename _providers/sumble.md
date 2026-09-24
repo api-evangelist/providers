@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -35,66 +35,66 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-09-23'
+  score: 61.5
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 20
+- acting_count: 12
   human_in_the_loop: 0
   name: Sumble Agentic Access
   operation_count: 26
   slug: sumble-agentic-access
-  summary_line: 26 operations · 20 acting
+  summary_line: 26 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The contact-lists API from Sumble — 3 operation(s) for contact-lists.
-  name: Sumble contact-lists API
+  name: Sumble Contact Lists API
   slug: sumble-contact-lists-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The jobs API from Sumble — 2 operation(s) for jobs.
-  name: Sumble jobs API
+  name: Sumble Jobs API
   slug: sumble-jobs-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The organization-lists API from Sumble — 5 operation(s) for organization-lists.
-  name: Sumble organization-lists API
+  name: Sumble Organization Lists API
   slug: sumble-organization-lists-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The organizations API from Sumble — 3 operation(s) for organizations.
-  name: Sumble organizations API
+  name: Sumble Organizations API
   slug: sumble-organizations-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The people API from Sumble — 1 operation(s) for people.
-  name: Sumble people API
+  name: Sumble People API
   slug: sumble-people-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The projects API from Sumble — 1 operation(s) for projects.
-  name: Sumble projects API
+  name: Sumble Projects API
   slug: sumble-projects-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The signals API from Sumble — 3 operation(s) for signals.
-  name: Sumble signals API
+  name: Sumble Signals API
   slug: sumble-signals-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The support API from Sumble — 2 operation(s) for support.
-  name: Sumble support API
+  name: Sumble Support API
   slug: sumble-support-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The teams API from Sumble — 1 operation(s) for teams.
-  name: Sumble teams API
+  name: Sumble Teams API
   slug: sumble-teams-api
 - baseURL: https://api.sumble.com
   baseurl_source: declared
   description: The technologies API from Sumble — 3 operation(s) for technologies.
-  name: Sumble technologies API
+  name: Sumble Technologies API
   slug: sumble-technologies-api
 artifact_total: 80
 collections:
@@ -469,7 +469,7 @@ modified: '2026-08-13'
 name: Sumble
 nav: Providers
 network: true
-overview: 'Sumble publishes 10 APIs on the [APIs.io](https://apis.io/) network, including contact-lists API, jobs API, organization-lists API, and 7 more. Tagged areas include Company, Account Intelligence, Sales Intelligence, Data Enrichment, and Go-To-Market.
+overview: 'Sumble publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Contact Lists API, Jobs API, Organization Lists API, and 7 more. Tagged areas include Company, Account Intelligence, Sales Intelligence, Data Enrichment, and Go-To-Market.
 
 
   Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
@@ -512,7 +512,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

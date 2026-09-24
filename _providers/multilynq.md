@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: MultiLynq's single normalized API for electronic fixed income trading across every major and emerging U.S. venue. It abstracts each venue's native messaging and trading protocol — RFQ negotiation, por
@@ -117,7 +117,7 @@ modified: '2026-08-26'
 name: MultiLynq
 nav: Providers
 network: true
-overview: 'MultiLynq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fixed Income, Bond Trading, Capital Markets, and Financial-Services.
+overview: 'MultiLynq publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fixed Income, Bond Trading, Capital Markets, and Financial Services.
 
 
   MultiLynq''s developer surface includes support and 10 more developer resources.'
@@ -158,7 +158,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ tags:
 - Fixed Income
 - Bond Trading
 - Capital Markets
-- Financial-Services
+- Financial Services
 - Market Data
 - Trading Connectivity
 - Fintech

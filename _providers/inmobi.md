@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -230,6 +230,8 @@ score:
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
@@ -237,7 +239,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

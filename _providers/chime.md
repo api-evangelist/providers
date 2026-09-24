@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: OAuth 2.0 authorization and token management
   name: Chime O Auth API
   slug: chime-oauth-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -181,10 +181,6 @@ finops:
 - name: Chime Finops
   service_category: ''
   slug: chime-finops
-graphqls:
-- description: Chime is a neobank and fintech platform offering fee-free checking and savings accounts, early direct deposit access, credit building, and peer-to-peer payment features for consumer banking. The Chime
-  name: Chime Financial GraphQL Schema
-  slug: chime-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chime.png
 json_schemas:
 - name: ChimeAccount
@@ -232,19 +228,19 @@ rules:
   slug: chime-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 42.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 65.4
+    contract_quality: 61.0
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 36.8
@@ -263,7 +259,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -129,7 +129,7 @@ modified: '2026-09-05'
 name: 21Shares
 nav: Providers
 network: true
-overview: '21Shares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Asset Management, Cryptocurrency, and Exchange Traded Products.
+overview: '21Shares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Asset Management, Cryptocurrency, and Exchange Traded Products.
 
 
   21Shares'' developer surface includes support, engineering blog, YouTube channel, and 15 more developer resources.'
@@ -178,7 +178,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -192,7 +192,7 @@ security:
 slug: 21shares
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Asset Management
 - Cryptocurrency
 - Exchange Traded Products

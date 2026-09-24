@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 5
   human_in_the_loop: 0
   name: Amazon Redshift Agentic Access
   operation_count: 10
   slug: amazon-redshift-agentic-access
-  summary_line: 10 operations · 10 acting
+  summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
 - description: The Amazon Redshift Serverless API for managing serverless data warehouse workgroups, namespaces, and capacity without provisioning clusters.
@@ -103,7 +103,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/redshift/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -548,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -579,7 +579,7 @@ tags:
 - Data Lake
 - Data Warehouse
 - ETL
-- Machine-Learning
+- Machine Learning
 - Serverless
 - SQL
 use_cases:
@@ -593,5 +593,5 @@ use_cases:
   name: ETL Pipeline Processing
 - description: Run on-demand analytical queries without provisioning clusters using Redshift Serverless and Data API.
   name: Serverless Ad-Hoc Queries
-website: https://amazon.com
+website: https://aws.amazon.com/redshift/
 ---

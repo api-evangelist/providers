@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -117,7 +117,7 @@ modified: '2026-08-12'
 name: Doorstead
 nav: Providers
 network: true
-overview: 'Doorstead is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real-Estate, PropTech, and Rentals.
+overview: 'Doorstead is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real Estate, PropTech, and Rentals.
 
 
   Doorstead''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
@@ -155,7 +155,7 @@ score:
     - north-america
   previous_composite: 19.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ slug: doorstead
 tags:
 - Company
 - Property Management
-- Real-Estate
+- Real Estate
 - PropTech
 - Rentals
 - Leasing

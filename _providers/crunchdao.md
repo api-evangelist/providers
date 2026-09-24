@@ -34,20 +34,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 146
+- acting_count: 144
   human_in_the_loop: 2
   name: Crunchdao Agentic Access
-  operation_count: 356
+  operation_count: 358
   slug: crunchdao-agentic-access
-  summary_line: 356 operations · 146 acting · 2 human-in-the-loop
+  summary_line: 358 operations · 144 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The activity API from CrunchDAO — 4 operation(s) for activity.
-  name: CrunchDAO activity API
+  name: CrunchDAO Activity API
   slug: crunchdao-activity-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
@@ -57,342 +57,342 @@ apis:
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The auth API from CrunchDAO — 6 operation(s) for auth.
-  name: CrunchDAO auth API
+  name: CrunchDAO Auth API
   slug: crunchdao-auth-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The auth:oauth API from CrunchDAO — 4 operation(s) for auth:oauth.
-  name: CrunchDAO auth:oauth API
+  name: CrunchDAO Auth:oauth API
   slug: crunchdao-auth-oauth-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The avatar API from CrunchDAO — 3 operation(s) for avatar.
-  name: CrunchDAO avatar API
+  name: CrunchDAO Avatar API
   slug: crunchdao-avatar-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The bounty API from CrunchDAO — 3 operation(s) for bounty.
-  name: CrunchDAO bounty API
+  name: CrunchDAO Bounty API
   slug: crunchdao-bounty-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The broadcast API from CrunchDAO — 2 operation(s) for broadcast.
-  name: CrunchDAO broadcast API
+  name: CrunchDAO Broadcast API
   slug: crunchdao-broadcast-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The calendar API from CrunchDAO — 2 operation(s) for calendar.
-  name: CrunchDAO calendar API
+  name: CrunchDAO Calendar API
   slug: crunchdao-calendar-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The certificate API from CrunchDAO — 3 operation(s) for certificate.
-  name: CrunchDAO certificate API
+  name: CrunchDAO Certificate API
   slug: crunchdao-certificate-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The chart API from CrunchDAO — 2 operation(s) for chart.
-  name: CrunchDAO chart API
+  name: CrunchDAO Chart API
   slug: crunchdao-chart-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The chart-definition API from CrunchDAO — 2 operation(s) for chart-definition.
-  name: CrunchDAO chart-definition API
+  name: CrunchDAO Chart Definition API
   slug: crunchdao-chart-definition-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The competition API from CrunchDAO — 5 operation(s) for competition.
-  name: CrunchDAO competition API
+  name: CrunchDAO Competition API
   slug: crunchdao-competition-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The competition:participant API from CrunchDAO — 6 operation(s) for competition:participant.
-  name: CrunchDAO competition:participant API
+  name: CrunchDAO Competition:participant API
   slug: crunchdao-competition-participant-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The competition:slice API from CrunchDAO — 4 operation(s) for competition:slice.
-  name: CrunchDAO competition:slice API
+  name: CrunchDAO Competition:slice API
   slug: crunchdao-competition-slice-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The connection API from CrunchDAO — 10 operation(s) for connection.
-  name: CrunchDAO connection API
+  name: CrunchDAO Connection API
   slug: crunchdao-connection-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The country API from CrunchDAO — 4 operation(s) for country.
-  name: CrunchDAO country API
+  name: CrunchDAO Country API
   slug: crunchdao-country-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The crunch API from CrunchDAO — 2 operation(s) for crunch.
-  name: CrunchDAO crunch API
+  name: CrunchDAO Crunch API
   slug: crunchdao-crunch-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The crunch-target API from CrunchDAO — 2 operation(s) for crunch-target.
-  name: CrunchDAO crunch-target API
+  name: CrunchDAO Crunch Target API
   slug: crunchdao-crunch-target-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The currency API from CrunchDAO — 1 operation(s) for currency.
-  name: CrunchDAO currency API
+  name: CrunchDAO Currency API
   slug: crunchdao-currency-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The data API from CrunchDAO — 5 operation(s) for data.
-  name: CrunchDAO data API
+  name: CrunchDAO Data API
   slug: crunchdao-data-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The deployment API from CrunchDAO — 4 operation(s) for deployment.
-  name: CrunchDAO deployment API
+  name: CrunchDAO Deployment API
   slug: crunchdao-deployment-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The export API from CrunchDAO — 3 operation(s) for export.
-  name: CrunchDAO export API
+  name: CrunchDAO Export API
   slug: crunchdao-export-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The feedback API from CrunchDAO — 1 operation(s) for feedback.
-  name: CrunchDAO feedback API
+  name: CrunchDAO Feedback API
   slug: crunchdao-feedback-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The global-leaderboard API from CrunchDAO — 7 operation(s) for global-leaderboard.
-  name: CrunchDAO global-leaderboard API
+  name: CrunchDAO Global Leaderboard API
   slug: crunchdao-global-leaderboard-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The institution API from CrunchDAO — 5 operation(s) for institution.
-  name: CrunchDAO institution API
+  name: CrunchDAO Institution API
   slug: crunchdao-institution-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The leaderboard API from CrunchDAO — 8 operation(s) for leaderboard.
-  name: CrunchDAO leaderboard API
+  name: CrunchDAO Leaderboard API
   slug: crunchdao-leaderboard-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The leaderboard:definition API from CrunchDAO — 2 operation(s) for leaderboard:definition.
-  name: CrunchDAO leaderboard:definition API
+  name: CrunchDAO Leaderboard:definition API
   slug: crunchdao-leaderboard-definition-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The legal API from CrunchDAO — 2 operation(s) for legal.
-  name: CrunchDAO legal API
+  name: CrunchDAO Legal API
   slug: crunchdao-legal-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The library API from CrunchDAO — 5 operation(s) for library.
-  name: CrunchDAO library API
+  name: CrunchDAO Library API
   slug: crunchdao-library-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The library:request API from CrunchDAO — 4 operation(s) for library:request.
-  name: CrunchDAO library:request API
+  name: CrunchDAO Library:request API
   slug: crunchdao-library-request-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The metric API from CrunchDAO — 3 operation(s) for metric.
-  name: CrunchDAO metric API
+  name: CrunchDAO Metric API
   slug: crunchdao-metric-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The model API from CrunchDAO — 3 operation(s) for model.
-  name: CrunchDAO model API
+  name: CrunchDAO Model API
   slug: crunchdao-model-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The news API from CrunchDAO — 5 operation(s) for news.
-  name: CrunchDAO news API
+  name: CrunchDAO News API
   slug: crunchdao-news-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The onboard API from CrunchDAO — 1 operation(s) for onboard.
-  name: CrunchDAO onboard API
+  name: CrunchDAO Onboard API
   slug: crunchdao-onboard-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The organizer API from CrunchDAO — 4 operation(s) for organizer.
-  name: CrunchDAO organizer API
+  name: CrunchDAO Organizer API
   slug: crunchdao-organizer-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The organizer:application API from CrunchDAO — 2 operation(s) for organizer:application.
-  name: CrunchDAO organizer:application API
+  name: CrunchDAO Organizer:application API
   slug: crunchdao-organizer-application-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The out-of-sample API from CrunchDAO — 1 operation(s) for out-of-sample.
-  name: CrunchDAO out-of-sample API
+  name: CrunchDAO Out Of Sample API
   slug: crunchdao-out-of-sample-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The payout API from CrunchDAO — 9 operation(s) for payout.
-  name: CrunchDAO payout API
+  name: CrunchDAO Payout API
   slug: crunchdao-payout-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The phase API from CrunchDAO — 2 operation(s) for phase.
-  name: CrunchDAO phase API
+  name: CrunchDAO Phase API
   slug: crunchdao-phase-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The pitch API from CrunchDAO — 2 operation(s) for pitch.
-  name: CrunchDAO pitch API
+  name: CrunchDAO Pitch API
   slug: crunchdao-pitch-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The pitch:slice API from CrunchDAO — 4 operation(s) for pitch:slice.
-  name: CrunchDAO pitch:slice API
+  name: CrunchDAO Pitch:slice API
   slug: crunchdao-pitch-slice-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The prediction API from CrunchDAO — 3 operation(s) for prediction.
-  name: CrunchDAO prediction API
+  name: CrunchDAO Prediction API
   slug: crunchdao-prediction-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The problem API from CrunchDAO — 3 operation(s) for problem.
-  name: CrunchDAO problem API
+  name: CrunchDAO Problem API
   slug: crunchdao-problem-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The project API from CrunchDAO — 11 operation(s) for project.
-  name: CrunchDAO project API
+  name: CrunchDAO Project API
   slug: crunchdao-project-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The project:token API from CrunchDAO — 4 operation(s) for project:token.
-  name: CrunchDAO project:token API
+  name: CrunchDAO Project:token API
   slug: crunchdao-project-token-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The quickstarter API from CrunchDAO — 7 operation(s) for quickstarter.
-  name: CrunchDAO quickstarter API
+  name: CrunchDAO Quickstarter API
   slug: crunchdao-quickstarter-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The round API from CrunchDAO — 2 operation(s) for round.
-  name: CrunchDAO round API
+  name: CrunchDAO Round API
   slug: crunchdao-round-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The rule API from CrunchDAO — 3 operation(s) for rule.
-  name: CrunchDAO rule API
+  name: CrunchDAO Rule API
   slug: crunchdao-rule-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The run API from CrunchDAO — 5 operation(s) for run.
-  name: CrunchDAO run API
+  name: CrunchDAO Run API
   slug: crunchdao-run-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The runner API from CrunchDAO — 9 operation(s) for runner.
-  name: CrunchDAO runner API
+  name: CrunchDAO Runner API
   slug: crunchdao-runner-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The runtime:access-request API from CrunchDAO — 3 operation(s) for runtime:access-request.
-  name: CrunchDAO runtime:access-request API
+  name: CrunchDAO Runtime:access Request API
   slug: crunchdao-runtime-access-request-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The runtime:definition API from CrunchDAO — 2 operation(s) for runtime:definition.
-  name: CrunchDAO runtime:definition API
+  name: CrunchDAO Runtime:definition API
   slug: crunchdao-runtime-definition-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The season API from CrunchDAO — 3 operation(s) for season.
-  name: CrunchDAO season API
+  name: CrunchDAO Season API
   slug: crunchdao-season-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The season:slice API from CrunchDAO — 4 operation(s) for season:slice.
-  name: CrunchDAO season:slice API
+  name: CrunchDAO Season:slice API
   slug: crunchdao-season-slice-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The security-credentials API from CrunchDAO — 4 operation(s) for security-credentials.
-  name: CrunchDAO security-credentials API
+  name: CrunchDAO Security Credentials API
   slug: crunchdao-security-credentials-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The submission API from CrunchDAO — 8 operation(s) for submission.
-  name: CrunchDAO submission API
+  name: CrunchDAO Submission API
   slug: crunchdao-submission-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The target API from CrunchDAO — 2 operation(s) for target.
-  name: CrunchDAO target API
+  name: CrunchDAO Target API
   slug: crunchdao-target-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The team API from CrunchDAO — 4 operation(s) for team.
-  name: CrunchDAO team API
+  name: CrunchDAO Team API
   slug: crunchdao-team-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The team:invitation API from CrunchDAO — 3 operation(s) for team:invitation.
-  name: CrunchDAO team:invitation API
+  name: CrunchDAO Team:invitation API
   slug: crunchdao-team-invitation-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The team:referendum API from CrunchDAO — 5 operation(s) for team:referendum.
-  name: CrunchDAO team:referendum API
+  name: CrunchDAO Team:referendum API
   slug: crunchdao-team-referendum-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The timeline API from CrunchDAO — 2 operation(s) for timeline.
-  name: CrunchDAO timeline API
+  name: CrunchDAO Timeline API
   slug: crunchdao-timeline-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The todo API from CrunchDAO — 2 operation(s) for todo.
-  name: CrunchDAO todo API
+  name: CrunchDAO Todo API
   slug: crunchdao-todo-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The transparency API from CrunchDAO — 1 operation(s) for transparency.
-  name: CrunchDAO transparency API
+  name: CrunchDAO Transparency API
   slug: crunchdao-transparency-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The upload API from CrunchDAO — 6 operation(s) for upload.
-  name: CrunchDAO upload API
+  name: CrunchDAO Upload API
   slug: crunchdao-upload-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The user API from CrunchDAO — 7 operation(s) for user.
-  name: CrunchDAO user API
+  name: CrunchDAO User API
   slug: crunchdao-user-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The user:profile API from CrunchDAO — 1 operation(s) for user:profile.
-  name: CrunchDAO user:profile API
+  name: CrunchDAO User:profile API
   slug: crunchdao-user-profile-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The webapp API from CrunchDAO — 10 operation(s) for webapp.
-  name: CrunchDAO webapp API
+  name: CrunchDAO Webapp API
   slug: crunchdao-webapp-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The zzz-admin API from CrunchDAO — 12 operation(s) for zzz-admin.
-  name: CrunchDAO zzz-admin API
+  name: CrunchDAO Zzz Admin API
   slug: crunchdao-zzz-admin-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The zzz-debug API from CrunchDAO — 1 operation(s) for zzz-debug.
-  name: CrunchDAO zzz-debug API
+  name: CrunchDAO Zzz Debug API
   slug: crunchdao-zzz-debug-api
 - baseURL: https://api.hub.crunchdao.com
   baseurl_source: declared
   description: The zzz-webhook API from CrunchDAO — 1 operation(s) for zzz-webhook.
-  name: CrunchDAO zzz-webhook API
+  name: CrunchDAO Zzz Webhook API
   slug: crunchdao-zzz-webhook-api
 artifact_total: 144
 collections:
@@ -721,7 +721,7 @@ modified: '2026-07-18'
 name: CrunchDAO
 nav: Providers
 network: true
-overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including activity API, auth:api-key API, auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine-Learning, Data Science, and Competitions.
+overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Activity API, auth:api-key API, Auth API, and 67 more. Tagged areas include Company, Crypto Web3, Machine Learning, Data Science, and Competitions.
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
@@ -756,7 +756,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -775,7 +775,7 @@ slug: crunchdao
 tags:
 - Company
 - Crypto Web3
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Competitions
 - Collective Intelligence

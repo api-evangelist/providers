@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-18'
 name: CloudAStructure Inc
 nav: Providers
 network: true
-overview: 'CloudAStructure Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Surveillance, Physical Security, Artificial Intelligence, and Computer-Vision.
+overview: 'CloudAStructure Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Surveillance, Physical Security, Artificial Intelligence, and Computer Vision.
 
 
   CloudAStructure Inc''s developer surface includes engineering blog, support, FAQ, and 3 more developer resources.'
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -112,7 +112,7 @@ tags:
 - Video Surveillance
 - Physical Security
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Remote Guarding
 - Cloud Security
 - Facial Recognition

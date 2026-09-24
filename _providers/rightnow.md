@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.runinfra.ai/v1
@@ -255,7 +255,7 @@ modified: '2026-07-21'
 name: RightNow AI
 nav: Providers
 network: true
-overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM Inference, and GPU.
+overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM Inference, and GPU.
 
 
   RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 26 more developer resources.'
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -316,7 +316,7 @@ slug: rightnow
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM Inference
 - GPU
 - Model Deployment

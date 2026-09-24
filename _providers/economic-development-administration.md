@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -136,7 +136,7 @@ modified: '2026-09-06'
 name: Economic Development Administration
 nav: Providers
 network: true
-overview: 'Economic Development Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development, Federal-Government, Grants, Public Sector, and Regional Development.
+overview: 'Economic Development Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Economic Development, Federal Government, Grants, Public Sector, and Regional Development.
 
 
   Economic Development Administration''s developer surface includes YouTube channel, engineering blog, support, authentication, and 13 more developer resources.'
@@ -182,7 +182,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -201,7 +201,7 @@ security:
 slug: economic-development-administration
 tags:
 - Economic Development
-- Federal-Government
+- Federal Government
 - Grants
 - Public Sector
 - Regional Development

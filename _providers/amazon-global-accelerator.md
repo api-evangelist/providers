@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 49
+- acting_count: 39
   human_in_the_loop: 0
   name: Amazon Global Accelerator Agentic Access
   operation_count: 49
   slug: amazon-global-accelerator-agentic-access
-  summary_line: 49 operations · 49 acting
+  summary_line: 49 operations · 39 acting
 api_count: 1
 apis:
 - baseURL: https://globalaccelerator.amazonaws.com
@@ -601,7 +601,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/global-accelerator/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/capabilities/amazon-global-accelerator-capability-edges.yml
   title: ''
@@ -2294,7 +2294,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2328,5 +2328,5 @@ use_cases:
   name: Multi-Region Failover
 - description: Reduce latency for real-time gaming applications using the AWS global network.
   name: Gaming Applications
-website: https://amazon.com
+website: https://aws.amazon.com/global-accelerator/
 ---

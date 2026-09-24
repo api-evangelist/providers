@@ -33,7 +33,7 @@ tags:
 - Security
 - Infrastructure
 - Cloud
-- Data-Center
+- Data Center
 - Acquired
 - Defunct
 ---

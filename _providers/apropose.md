@@ -18,7 +18,7 @@ modified: '2026-07-18'
 name: Apropose
 nav: Providers
 network: true
-overview: Apropose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Web Design, Design Analytics, and Machine-Learning.
+overview: Apropose is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Web Design, Design Analytics, and Machine Learning.
 random_paper: 15
 slug: apropose
 tags:
@@ -26,7 +26,7 @@ tags:
 - Defunct
 - Web Design
 - Design Analytics
-- Machine-Learning
+- Machine Learning
 - Data Visualization
 - Stanford Spinout
 - a16z Portfolio

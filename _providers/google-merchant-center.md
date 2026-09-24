@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Google Merchant Center Agentic Access
   operation_count: 7
   slug: google-merchant-center-agentic-access
-  summary_line: 7 operations · 4 acting
+  summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://merchantapi.googleapis.com
@@ -274,7 +274,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

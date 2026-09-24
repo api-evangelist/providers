@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.steadyapi.com
@@ -112,7 +112,7 @@ modified: '2026-09-21'
 name: SteadyAPI
 nav: Providers
 network: true
-overview: 'SteadyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: SteadyAPI. Tagged areas include Data, Finance, Stock Market, Social-Media, and Reddit.
+overview: 'SteadyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: SteadyAPI. Tagged areas include Data, Finance, Stock Market, Social Media, and Reddit.
 
 
   SteadyAPI''s developer surface includes authentication, documentation, pricing, support, and 11 more developer resources.'
@@ -147,7 +147,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -167,7 +167,7 @@ tags:
 - Data
 - Finance
 - Stock Market
-- Social-Media
+- Social Media
 - Reddit
 - Data as a Service
 - Web Data

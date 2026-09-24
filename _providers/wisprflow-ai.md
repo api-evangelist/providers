@@ -1,0 +1,655 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: verified
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 32.9
+  scored_at: '2026-09-24'
+api_count: 1
+apis:
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
+  name: Wispr AI Analytics API
+  slug: wispr-ai-analytics-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Analytics Registry API from Wispr AI — 5 operation(s) for analytics registry.
+  name: Wispr AI Analytics Registry API
+  slug: wispr-ai-analytics-registry-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Attribution Tracking API from Wispr AI — 1 operation(s) for attribution tracking.
+  name: Wispr AI Attribution Tracking API
+  slug: wispr-ai-attribution-tracking-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Authentication API from Wispr AI — 38 operation(s) for authentication.
+  name: Wispr AI Authentication API
+  slug: wispr-ai-authentication-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Automations API from Wispr AI — 3 operation(s) for automations.
+  name: Wispr AI Automations API
+  slug: wispr-ai-automations-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Calendar API from Wispr AI — 6 operation(s) for calendar.
+  name: Wispr AI Calendar API
+  slug: wispr-ai-calendar-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Connectors API from Wispr AI — 6 operation(s) for connectors.
+  name: Wispr AI Connectors API
+  slug: wispr-ai-connectors-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Cost Centers API from Wispr AI — 4 operation(s) for cost centers.
+  name: Wispr AI Cost Centers API
+  slug: wispr-ai-cost-centers-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Dash API from Wispr AI — 7 operation(s) for dash.
+  name: Wispr AI Dash API
+  slug: wispr-ai-dash-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Dictionary API from Wispr AI — 5 operation(s) for dictionary.
+  name: Wispr AI Dictionary API
+  slug: wispr-ai-dictionary-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Enterpret API from Wispr AI — 1 operation(s) for enterpret.
+  name: Wispr AI Enterpret API
+  slug: wispr-ai-enterpret-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Enterprise API from Wispr AI — 41 operation(s) for enterprise.
+  name: Wispr AI Enterprise API
+  slug: wispr-ai-enterprise-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Geo API from Wispr AI — 3 operation(s) for geo.
+  name: Wispr AI Geo API
+  slug: wispr-ai-geo-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The History API from Wispr AI — 8 operation(s) for history.
+  name: Wispr AI History API
+  slug: wispr-ai-history-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Incidents API from Wispr AI — 1 operation(s) for incidents.
+  name: Wispr AI Incidents API
+  slug: wispr-ai-incidents-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Insights API from Wispr AI — 3 operation(s) for insights.
+  name: Wispr AI Insights API
+  slug: wispr-ai-insights-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The InstructHistory API from Wispr AI — 1 operation(s) for instructhistory.
+  name: Wispr AI InstructHistory API
+  slug: wispr-ai-instructhistory-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Internal API from Wispr AI — 69 operation(s) for internal.
+  name: Wispr AI Internal API
+  slug: wispr-ai-internal-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Internal Marketing API from Wispr AI — 6 operation(s) for internal marketing.
+  name: Wispr AI Internal Marketing API
+  slug: wispr-ai-internal-marketing-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The keyboard_telemetry API from Wispr AI — 1 operation(s) for keyboard_telemetry.
+  name: Wispr AI keyboard_telemetry API
+  slug: wispr-ai-keyboard-telemetry-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The LLM API from Wispr AI — 20 operation(s) for llm.
+  name: Wispr AI LLM API
+  slug: wispr-ai-llm-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Marketing API from Wispr AI — 6 operation(s) for marketing.
+  name: Wispr AI Marketing API
+  slug: wispr-ai-marketing-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Meeting Share API from Wispr AI — 7 operation(s) for meeting share.
+  name: Wispr AI Meeting Share API
+  slug: wispr-ai-meeting-share-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Meetings API from Wispr AI — 7 operation(s) for meetings.
+  name: Wispr AI Meetings API
+  slug: wispr-ai-meetings-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The memory API from Wispr AI — 5 operation(s) for memory.
+  name: Wispr AI memory API
+  slug: wispr-ai-memory-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notes API from Wispr AI — 1 operation(s) for notes.
+  name: Wispr AI Notes API
+  slug: wispr-ai-notes-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notetaker Chats API from Wispr AI — 4 operation(s) for notetaker chats.
+  name: Wispr AI Notetaker Chats API
+  slug: wispr-ai-notetaker-chats-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notification API from Wispr AI — 8 operation(s) for notification.
+  name: Wispr AI Notification API
+  slug: wispr-ai-notification-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Payments API from Wispr AI — 22 operation(s) for payments.
+  name: Wispr AI Payments API
+  slug: wispr-ai-payments-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Platform API from Wispr AI — 12 operation(s) for platform.
+  name: Wispr AI Platform API
+  slug: wispr-ai-platform-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Polish API from Wispr AI — 1 operation(s) for polish.
+  name: Wispr AI Polish API
+  slug: wispr-ai-polish-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Promotions API from Wispr AI — 6 operation(s) for promotions.
+  name: Wispr AI Promotions API
+  slug: wispr-ai-promotions-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Referral API from Wispr AI — 9 operation(s) for referral.
+  name: Wispr AI Referral API
+  slug: wispr-ai-referral-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The sandbox-user API from Wispr AI — 2 operation(s) for sandbox-user.
+  name: Wispr AI sandbox-user API
+  slug: wispr-ai-sandbox-user-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The SMS API from Wispr AI — 2 operation(s) for sms.
+  name: Wispr AI SMS API
+  slug: wispr-ai-sms-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Support API from Wispr AI — 16 operation(s) for support.
+  name: Wispr AI Support API
+  slug: wispr-ai-support-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Sync API from Wispr AI — 1 operation(s) for sync.
+  name: Wispr AI Sync API
+  slug: wispr-ai-sync-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Sync WS API from Wispr AI — 3 operation(s) for sync ws.
+  name: Wispr AI Sync WS API
+  slug: wispr-ai-sync-ws-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Team Insights API from Wispr AI — 7 operation(s) for team insights.
+  name: Wispr AI Team Insights API
+  slug: wispr-ai-team-insights-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Teams API from Wispr AI — 8 operation(s) for teams.
+  name: Wispr AI Teams API
+  slug: wispr-ai-teams-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Tracking API from Wispr AI — 1 operation(s) for tracking.
+  name: Wispr AI Tracking API
+  slug: wispr-ai-tracking-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Transform API from Wispr AI — 8 operation(s) for transform.
+  name: Wispr AI Transform API
+  slug: wispr-ai-transform-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Typing Test API from Wispr AI — 3 operation(s) for typing test.
+  name: Wispr AI Typing Test API
+  slug: wispr-ai-typing-test-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Context API from Wispr AI — 1 operation(s) for user context.
+  name: Wispr AI User Context API
+  slug: wispr-ai-user-context-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Management API from Wispr AI — 17 operation(s) for user management.
+  name: Wispr AI User Management API
+  slug: wispr-ai-user-management-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Voice Preferences API from Wispr AI — 2 operation(s) for user voice preferences.
+  name: Wispr AI User Voice Preferences API
+  slug: wispr-ai-user-voice-preferences-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Voice Actions API from Wispr AI — 2 operation(s) for voice actions.
+  name: Wispr AI Voice Actions API
+  slug: wispr-ai-voice-actions-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
+  name: Wispr AI Wispr Backend API
+  slug: wispr-ai-wispr-backend-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Linked In API from Wispr AI — 3 operation(s) for linked in.
+  name: Wispr AI Linked In API
+  slug: wispr-ai-linked-in-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The To Dos API from Wispr AI — 1 operation(s) for to dos.
+  name: Wispr AI To Dos API
+  slug: wispr-ai-to-dos-api
+artifact_total: 105
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Wispr Backend Analytics API
+  slug: open-wispr-ai-analytics-api
+- collection_type: open
+  name: Wispr Backend Analytics Analytics Registry API
+  slug: open-wispr-ai-analytics-registry-api
+- collection_type: open
+  name: Wispr Backend Analytics Attribution Tracking API
+  slug: open-wispr-ai-attribution-tracking-api
+- collection_type: open
+  name: Wispr Backend Analytics Authentication API
+  slug: open-wispr-ai-authentication-api
+- collection_type: open
+  name: Wispr Backend Analytics Automations API
+  slug: open-wispr-ai-automations-api
+- collection_type: open
+  name: Wispr Backend Analytics Calendar API
+  slug: open-wispr-ai-calendar-api
+- collection_type: open
+  name: Wispr Backend Analytics Connectors API
+  slug: open-wispr-ai-connectors-api
+- collection_type: open
+  name: Wispr Backend Analytics Cost Centers API
+  slug: open-wispr-ai-cost-centers-api
+- collection_type: open
+  name: Wispr Backend Analytics Dash API
+  slug: open-wispr-ai-dash-api
+- collection_type: open
+  name: Wispr Backend Analytics Dictionary API
+  slug: open-wispr-ai-dictionary-api
+- collection_type: open
+  name: Wispr Backend Analytics Enterpret API
+  slug: open-wispr-ai-enterpret-api
+- collection_type: open
+  name: Wispr Backend Analytics Enterprise API
+  slug: open-wispr-ai-enterprise-api
+- collection_type: open
+  name: Wispr Backend Analytics Geo API
+  slug: open-wispr-ai-geo-api
+- collection_type: open
+  name: Wispr Backend Analytics History API
+  slug: open-wispr-ai-history-api
+- collection_type: open
+  name: Wispr Backend Analytics Incidents API
+  slug: open-wispr-ai-incidents-api
+- collection_type: open
+  name: Wispr Backend Analytics Insights API
+  slug: open-wispr-ai-insights-api
+- collection_type: open
+  name: Wispr Backend Analytics InstructHistory API
+  slug: open-wispr-ai-instructhistory-api
+- collection_type: open
+  name: Wispr Backend Analytics Internal API
+  slug: open-wispr-ai-internal-api
+- collection_type: open
+  name: Wispr Backend Analytics Internal Marketing API
+  slug: open-wispr-ai-internal-marketing-api
+- collection_type: open
+  name: Wispr Backend Analytics keyboard_telemetry API
+  slug: open-wispr-ai-keyboard-telemetry-api
+- collection_type: open
+  name: Wispr Backend Analytics LinkedIn API
+  slug: open-wispr-ai-linkedin-api
+- collection_type: open
+  name: Wispr Backend Analytics LLM API
+  slug: open-wispr-ai-llm-api
+- collection_type: open
+  name: Wispr Backend Analytics Marketing API
+  slug: open-wispr-ai-marketing-api
+- collection_type: open
+  name: Wispr Backend Analytics Meeting Share API
+  slug: open-wispr-ai-meeting-share-api
+- collection_type: open
+  name: Wispr Backend Analytics Meetings API
+  slug: open-wispr-ai-meetings-api
+- collection_type: open
+  name: Wispr Backend Analytics memory API
+  slug: open-wispr-ai-memory-api
+- collection_type: open
+  name: Wispr Backend Analytics Notes API
+  slug: open-wispr-ai-notes-api
+- collection_type: open
+  name: Wispr Backend Analytics Notetaker Chats API
+  slug: open-wispr-ai-notetaker-chats-api
+- collection_type: open
+  name: Wispr Backend Analytics Notification API
+  slug: open-wispr-ai-notification-api
+- collection_type: open
+  name: Wispr Backend Analytics Payments API
+  slug: open-wispr-ai-payments-api
+- collection_type: open
+  name: Wispr Backend Analytics Platform API
+  slug: open-wispr-ai-platform-api
+- collection_type: open
+  name: Wispr Backend Analytics Polish API
+  slug: open-wispr-ai-polish-api
+- collection_type: open
+  name: Wispr Backend Analytics Promotions API
+  slug: open-wispr-ai-promotions-api
+- collection_type: open
+  name: Wispr Backend Analytics Referral API
+  slug: open-wispr-ai-referral-api
+- collection_type: open
+  name: Wispr Backend Analytics sandbox-user API
+  slug: open-wispr-ai-sandbox-user-api
+- collection_type: open
+  name: Wispr Backend Analytics SMS API
+  slug: open-wispr-ai-sms-api
+- collection_type: open
+  name: Wispr Backend Analytics Support API
+  slug: open-wispr-ai-support-api
+- collection_type: open
+  name: Wispr Backend Analytics Sync API
+  slug: open-wispr-ai-sync-api
+- collection_type: open
+  name: Wispr Backend Analytics Sync WS API
+  slug: open-wispr-ai-sync-ws-api
+- collection_type: open
+  name: Wispr Backend Analytics Team Insights API
+  slug: open-wispr-ai-team-insights-api
+- collection_type: open
+  name: Wispr Backend Analytics Teams API
+  slug: open-wispr-ai-teams-api
+- collection_type: open
+  name: Wispr Backend Analytics Todos API
+  slug: open-wispr-ai-todos-api
+- collection_type: open
+  name: Wispr Backend Analytics Tracking API
+  slug: open-wispr-ai-tracking-api
+- collection_type: open
+  name: Wispr Backend Analytics Transform API
+  slug: open-wispr-ai-transform-api
+- collection_type: open
+  name: Wispr Backend Analytics Typing Test API
+  slug: open-wispr-ai-typing-test-api
+- collection_type: open
+  name: Wispr Backend Analytics User Context API
+  slug: open-wispr-ai-user-context-api
+- collection_type: open
+  name: Wispr Backend Analytics User Management API
+  slug: open-wispr-ai-user-management-api
+- collection_type: open
+  name: Wispr Backend Analytics User Voice Preferences API
+  slug: open-wispr-ai-user-voice-preferences-api
+- collection_type: open
+  name: Wispr Backend Analytics Voice Actions API
+  slug: open-wispr-ai-voice-actions-api
+- collection_type: open
+  name: Analytics Wispr Backend API
+  slug: open-wispr-ai-wispr-backend-api
+common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/capabilities/wispr-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wispr-ai-capability-edges.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wisprflow.ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://wisprflow.ai/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://wisprflow.ai/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://wisprflow.ai/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.wisprflow.ai
+- group: start
+  title: ''
+  type: SignUp
+  url: https://wisprflow.ai/get-started
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://wisprflow.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://wisprflow.ai/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/wispr-ai
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://statuspage.incident.io/wispr-flow
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://wisprflow.ai/whats-new
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/changelog/wispr-ai-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/wispr-ai-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://wisprflow.ai/bug-bounty
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.wispr.ai
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/llms/wispr-ai-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/wispr-ai-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/well-known/wispr-ai-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/wispr-ai-well-known.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/packages/wispr-ai-packages.yml
+  title: ''
+  type: Packages
+  url: packages/wispr-ai-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/mcp/wispr-ai-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/wispr-ai-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/overlays/wispr-ai-backend-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/wispr-ai-backend-overlay.yaml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/conformance/wispr-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/wispr-ai-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/errors/wispr-ai-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/wispr-ai-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/lifecycle/wispr-ai-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wispr-ai-lifecycle.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/authentication/wispr-ai-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/wispr-ai-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/conventions/wispr-ai-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/wispr-ai-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/data-model/wispr-ai-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/wispr-ai-data-model.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/security/wispr-ai-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/wispr-ai-domain-security.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/security/wispr-ai-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/wispr-ai-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/security/wispr-ai-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/wispr-ai-trust-center.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-17'
+description: Wispr AI is the company behind Wispr Flow, an AI voice-to-text dictation product that turns natural speech into polished, formatted text in any application across macOS, Windows, iOS, and Android, with AI auto-edits, a personal dictionary, voice snippets, tone styling, and support for 100+ languages. Wispr has raised $81M to build what it calls the Voice OS, publishes an enterprise trust center with SOC 2 Type II, ISO 27001, and HIPAA attestations, and operates a public backend API at api.wisprflow.ai whose OpenAPI describes authentication, dictionary, teams, history, notes, and payments surfaces used by its clients.
+image: https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/683c611aba65ade013982bcd_wispr-og-min.jpg
+layout: provider
+modified: '2026-07-21'
+name: Wispr Flow
+nav: Providers
+network: true
+overview: 'Wispr Flow publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Wispr AI Analytics API, Wispr AI Analytics Registry API, Wispr AI Attribution Tracking API, and 47 more. Tagged areas include Company, Voice, Speech-to-Text, Dictation, and Artificial Intelligence.
+
+
+  Wispr Flow''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 24 more developer resources.'
+random_paper: 20
+score:
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 47.4
+    developer_ergonomics: 20.8
+    discoverability: 75.9
+    operational_transparency: 47.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 50
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-24'
+  upsert:
+    applies: true
+    score: 61.1
+screenshot: https://raw.githubusercontent.com/api-evangelist/wisprflow-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
+security:
+- kind: authentication
+  name: Wispr Ai Authentication
+  slug: wispr-ai-authentication
+  summary_line: apiKey · 2 schemes
+- kind: domain-security
+  name: Wispr Ai Domain Security
+  slug: wispr-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Wispr Ai Vulnerability Disclosure
+  slug: wispr-ai-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Wispr Ai Trust Center
+  slug: wispr-ai-trust-center
+  summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001, HIPAA
+slug: wisprflow-ai
+tags:
+- Company
+- Voice
+- Speech-to-Text
+- Dictation
+- Artificial Intelligence
+- Productivity
+- Transcription
+website: https://wisprflow.ai
+---

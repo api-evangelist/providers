@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 152
+- acting_count: 147
   human_in_the_loop: 2
   name: Hugging Face Transformers Agentic Access
-  operation_count: 283
+  operation_count: 286
   slug: hugging-face-transformers-agentic-access
-  summary_line: 283 operations · 152 acting · 2 human-in-the-loop
+  summary_line: 286 operations · 147 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: Open-source Python library that provides pretrained models, tokenizers, and pipelines for inference and fine-tuning across NLP, vision, audio, and multimodal tasks. The high-level pipeline API gives d
@@ -60,112 +60,112 @@ apis:
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints are for use with Agentic Provisioning Protocol.
-  name: Hugging Face Transformers agentic-provisioning API
+  name: Hugging Face Transformers Agentic Provisioning API
   slug: hugging-face-transformers-agentic-provisioning-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints get information about your currently used user based on the passed token.
-  name: Hugging Face Transformers auth API
+  name: Hugging Face Transformers Auth API
   slug: hugging-face-transformers-auth-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Git-free storage buckets for files, powered by Xet. Buckets provide simple file storage without git versioning.
-  name: Hugging Face Transformers buckets API
+  name: Hugging Face Transformers Buckets API
   slug: hugging-face-transformers-buckets-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Use Collections to group repositories from the Hub (Models, Datasets, Spaces and Papers) on a dedicated page. You can learn more about it in the Collections [guide](https://huggingface.co/docs/hub/col
-  name: Hugging Face Transformers collections API
+  name: Hugging Face Transformers Collections API
   slug: hugging-face-transformers-collections-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Get information from all datasets on the Hub.
-  name: Hugging Face Transformers datasets API
+  name: Hugging Face Transformers Datasets API
   slug: hugging-face-transformers-datasets-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints manage discussions.
-  name: Hugging Face Transformers discussions API
+  name: Hugging Face Transformers Discussions API
   slug: hugging-face-transformers-discussions-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints are for interacting with the Hub's documentation.
-  name: Hugging Face Transformers docs API
+  name: Hugging Face Transformers Docs API
   slug: hugging-face-transformers-docs-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Manage inference endpoints.
-  name: Hugging Face Transformers inference-endpoints API
+  name: Hugging Face Transformers Inference Endpoints API
   slug: hugging-face-transformers-inference-endpoints-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints manage jobs.
-  name: Hugging Face Transformers jobs API
+  name: Hugging Face Transformers Jobs API
   slug: hugging-face-transformers-jobs-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Get information from all kernels on the Hub.
-  name: Hugging Face Transformers kernels API
+  name: Hugging Face Transformers Kernels API
   slug: hugging-face-transformers-kernels-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Get information from all models on the Hub.
-  name: Hugging Face Transformers models API
+  name: Hugging Face Transformers Models API
   slug: hugging-face-transformers-models-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints fetch Hub notifications.
-  name: Hugging Face Transformers notifications API
+  name: Hugging Face Transformers Notifications API
   slug: hugging-face-transformers-notifications-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints let you interact with Hub Organizations and their members.
-  name: Hugging Face Transformers orgs API
+  name: Hugging Face Transformers Orgs API
   slug: hugging-face-transformers-orgs-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoint gets information about papers.
-  name: Hugging Face Transformers papers API
+  name: Hugging Face Transformers Papers API
   slug: hugging-face-transformers-papers-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints help get information about models, datasets, and Spaces stored on the Hub.
-  name: Hugging Face Transformers repo-search API
+  name: Hugging Face Transformers Repo Search API
   slug: hugging-face-transformers-repo-search-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints manage repository settings like creating and deleting a repository.
-  name: Hugging Face Transformers repos API
+  name: Hugging Face Transformers Repos API
   slug: hugging-face-transformers-repos-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints manage resource groups. Resource groups are a Team or Enterprise feature.
-  name: Hugging Face Transformers resource-groups API
+  name: Hugging Face Transformers Resource Groups API
   slug: hugging-face-transformers-resource-groups-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: 'Use the SCIM API to control and manage your hub Enterprise organization manage members'' access. ## Authentication - Must be organization owner - Use Access token with write permission on organization '
-  name: Hugging Face Transformers scim API
+  name: Hugging Face Transformers SCIM API
   slug: hugging-face-transformers-scim-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Get information from all Spaces on the Hub.
-  name: Hugging Face Transformers spaces API
+  name: Hugging Face Transformers Spaces API
   slug: hugging-face-transformers-spaces-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: Get information from SQL Console embeds from a dataset.
-  name: Hugging Face Transformers sql-console API
+  name: Hugging Face Transformers Sql Console API
   slug: hugging-face-transformers-sql-console-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: User accounts are the base authoring entity on the Hub
-  name: Hugging Face Transformers users API
+  name: Hugging Face Transformers Users API
   slug: hugging-face-transformers-users-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
   description: The following endpoints are for use with webhooks.
-  name: Hugging Face Transformers webhooks API
+  name: Hugging Face Transformers Webhooks API
   slug: hugging-face-transformers-webhooks-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
@@ -433,7 +433,7 @@ modified: '2026-06-20'
 name: Hugging Face Transformers
 nav: Providers
 network: true
-overview: 'Hugging Face Transformers publishes 23 APIs on the [APIs.io](https://apis.io/) network, including agentic-provisioning API, auth API, buckets API, and 20 more. Tagged areas include Artificial Intelligence, Computer-Vision, Deep Learning, Machine-Learning, and Natural Language Processing.
+overview: 'Hugging Face Transformers publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agentic Provisioning API, Auth API, Buckets API, and 20 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
 
 
   Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 30 more developer resources.'
@@ -483,7 +483,7 @@ score:
       total: 23
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -509,11 +509,11 @@ skills:
 slug: hugging-face-transformers
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Deep Learning
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
-- Open-Source
+- Open Source
 - Transformers
 website: https://huggingface.co
 ---

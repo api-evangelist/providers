@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 20
+- acting_count: 19
   human_in_the_loop: 0
   name: Apache Iceberg Agentic Access
   operation_count: 32
   slug: apache-iceberg-agentic-access
-  summary_line: 32 operations · 20 acting
+  summary_line: 32 operations · 19 acting
 api_count: 1
 apis:
 - description: The Iceberg Java API provides programmatic access to table operations, schema management, partition management, and catalog implementations. It is the primary library for integrating Iceberg with JVM-
@@ -1721,7 +1721,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1747,7 +1747,7 @@ tags:
 - Apache
 - Data Lake
 - Lakehouse
-- Open-Source
+- Open Source
 - Table Format
 use_cases:
 - description: Build open lakehouse architectures with ACID guarantees across petabyte-scale datasets.

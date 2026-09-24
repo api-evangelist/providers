@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-07-20'
 name: Mosey
 nav: Providers
 network: true
-overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agency Accounts API, Auth API, and 9 more. Tagged areas include Company, Compliance, Regulatory Technology, State Compliance, and Tax.
+overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agency Accounts API, Auth API, and 9 more. Tagged areas include Company, Compliance, RegTech, State Compliance, and Tax.
 
 
   Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -297,7 +297,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -316,7 +316,7 @@ slug: mosey
 tags:
 - Company
 - Compliance
-- Regulatory Technology
+- RegTech
 - State Compliance
 - Tax
 - Payroll

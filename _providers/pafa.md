@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 14
+artifact_total: 13
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pafa/refs/heads/main/security/pafa-domain-security.yml
@@ -148,10 +148,6 @@ features:
   status: Bloomberg Connects mobile app (Bloomberg Philanthropies' shared free multi-institution digital guide) is PAFA's only programmatic third-party distribution surface; API is owned and not exposed by Bloomberg Philanthropies
 - finding: Tier rationale
   status: Tier 3 — no-apis. Cultural nonprofit museum and school with no public developer surface. Documented here for completeness of the API Evangelist American-art / cultural-institution coverage and to record the institution's post-2024-2025 program restructuring, not as an API provider.
-graphqls:
-- description: ''
-  name: Pennsylvania Academy of the Fine Arts (PAFA) GraphQL API
-  slug: pafa-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pafa.png
 jsonld:
 - class_count: 56
@@ -175,7 +171,7 @@ score:
   band: minimal
   composite: 7.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -197,7 +193,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

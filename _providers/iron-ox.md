@@ -74,7 +74,7 @@ tags:
 - Automation
 - Indoor Farming
 - Controlled Environment Agriculture
-- Machine-Learning
+- Machine Learning
 - Climate Tech
 - Defunct
 ---

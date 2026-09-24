@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Smallest Ai Agentic Access
   operation_count: 6
   slug: smallest-ai-agentic-access
-  summary_line: 6 operations · 4 acting
+  summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
 - description: The Atoms platform for building, testing, and deploying production voice agents - orchestrating Waves TTS and Pulse STT with LLM-driven conversation flows, exposed through a developer API and dashboar
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -721,7 +721,7 @@ modified: '2026-05-19'
 name: Montran
 nav: Providers
 network: true
-overview: 'Montran publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 26 more. Tagged areas include Banking, Central Banking, Financial-Services, ISO 20022, and Market Infrastructure.
+overview: 'Montran publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Structures API, Accounts API, and 26 more. Tagged areas include Banking, Central Banking, Financial Services, ISO 20022, and Market Infrastructure.
 
 
   The Montran catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -786,7 +786,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -805,7 +805,7 @@ slug: montran
 tags:
 - Banking
 - Central Banking
-- Financial-Services
+- Financial Services
 - ISO 20022
 - Market Infrastructure
 - Messaging

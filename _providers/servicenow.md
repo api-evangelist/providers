@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -937,6 +937,10 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/ServiceNow/saai-skill-feedback
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.servicenow.com/blogs.html
 created: '2025-01-08'
 description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
 examples:
@@ -1447,7 +1451,7 @@ overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 100 more developer resources.'
+  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 101 more developer resources.'
 plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
@@ -1524,7 +1528,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1553,8 +1557,9 @@ tags:
 - ITSM
 - Processes
 - T1
-- Workflow-Automation
+- Workflow Automation
 - Workflows
+- A2A
 use_cases:
 - description: Automate incident creation, assignment, escalation, and resolution through Table and Predictive Intelligence APIs.
   name: Incident Management Automation

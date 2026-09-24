@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,22 @@ apis:
 - baseURL: https://api.pioneer.ai
   baseurl_source: declared
   description: Anthropic-compatible endpoints. Use with the Anthropic SDK by setting base_url=https://api.pioneer.ai.
-  name: Fastino Labs anthropic-compat API
+  name: Fastino Labs Anthropic Compat API
   slug: fastino-labs-anthropic-compat-api
 - baseURL: https://api.pioneer.ai
   baseurl_source: declared
   description: Pioneer-native inference endpoint (encoder NER/classification/extraction and decoder text generation).
-  name: Fastino Labs inference API
+  name: Fastino Labs Inference API
   slug: fastino-labs-inference-api
 - baseURL: https://api.pioneer.ai
   baseurl_source: declared
   description: List and retrieve past inference records.
-  name: Fastino Labs inference-history API
+  name: Fastino Labs Inference History API
   slug: fastino-labs-inference-history-api
 - baseURL: https://api.pioneer.ai
   baseurl_source: declared
   description: OpenAI-compatible endpoints. Use with the OpenAI SDK by setting base_url=https://api.pioneer.ai/v1.
-  name: Fastino Labs openai-compat API
+  name: Fastino Labs Openai Compat API
   slug: fastino-labs-openai-compat-api
 artifact_total: 16
 collections:
@@ -248,7 +248,7 @@ modified: '2026-07-19'
 name: Fastino Labs
 nav: Providers
 network: true
-overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including anthropic-compat API, inference API, inference-history API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Small Language Models, and Fine-Tuning.
+overview: 'Fastino Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compat API, Inference API, Inference History API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Small Language Models, and Fine-Tuning.
 
 
   Fastino Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -292,7 +292,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -315,7 +315,7 @@ slug: fastino-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Small Language Models
 - Fine-Tuning
 - Inference

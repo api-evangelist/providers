@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 9
   human_in_the_loop: 0
   name: Zayo Agentic Access
   operation_count: 26
   slug: zayo-agentic-access
-  summary_line: 26 operations · 15 acting
+  summary_line: 26 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://api.zayo.com
@@ -317,7 +317,7 @@ score:
     regime_id: telecommunications
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 102
+- acting_count: 93
   human_in_the_loop: 0
   name: Frostbyte Agentic Access
-  operation_count: 183
+  operation_count: 167
   slug: frostbyte-agentic-access
-  summary_line: 183 operations · 102 acting
+  summary_line: 167 operations · 93 acting
 api_count: 7
 apis:
 - baseURL: https://agent-gateway-kappa.vercel.app
@@ -374,7 +374,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

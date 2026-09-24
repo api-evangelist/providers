@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,7 +114,7 @@ modified: '2026-08-30'
 name: Transition Bio
 nav: Providers
 network: true
-overview: 'Transition Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Machine-Learning.
+overview: 'Transition Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Machine Learning.
 
 
   Transition Bio''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -145,7 +145,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ tags:
 - Biotechnology
 - Drug Discovery
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Microfluidics
 - Proteomics

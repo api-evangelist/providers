@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-09-23'
+  score: 12.4
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: 'The Nebius Compute API provisions and manages virtual machines and GPU clusters with NVIDIA GPUs and InfiniBand interconnect for ML and AI workloads. Exposed over gRPC and accessed through the nebius '
@@ -193,7 +193,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -208,8 +208,10 @@ score:
     discoverability: 72.2
     operational_transparency: 23.7
   previous_composite: 25.6
+  provenance:
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +236,7 @@ tags:
 - HPC
 - Inference
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - Storage
 website: https://nebius.com
 ---

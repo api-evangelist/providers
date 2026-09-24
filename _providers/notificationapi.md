@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Notificationapi Agentic Access
   operation_count: 12
   slug: notificationapi-agentic-access
-  summary_line: 12 operations · 11 acting
+  summary_line: 12 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.notificationapi.com/{clientId}
@@ -218,7 +218,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

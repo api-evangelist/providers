@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: Vector
 nav: Providers
 network: true
-overview: 'Vector publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Data Pipeline, Logs, Metrics, Observability, and Open-Source.
+overview: 'Vector publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Data Pipeline, Logs, Metrics, Observability, and Open Source.
 
 
   The Vector catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -265,7 +265,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -283,7 +283,7 @@ tags:
 - Logs
 - Metrics
 - Observability
-- Open-Source
+- Open Source
 - Rust
 - Traces
 use_cases:

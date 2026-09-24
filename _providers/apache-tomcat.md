@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,17 +54,17 @@ apis:
 - baseURL_template: http://{host}:{port}/manager/text
   baseurl_source: spec_template
   description: Manage deployed web applications
-  name: Apache Tomcat applications API
+  name: Apache Tomcat Applications API
   slug: apache-tomcat-applications-api
 - baseURL_template: http://{host}:{port}/manager/text
   baseurl_source: spec_template
   description: Server, JVM, and SSL/TLS information
-  name: Apache Tomcat server API
+  name: Apache Tomcat Server API
   slug: apache-tomcat-server-api
 - baseURL_template: http://{host}:{port}/manager/text
   baseurl_source: spec_template
   description: Inspect and expire HTTP sessions
-  name: Apache Tomcat sessions API
+  name: Apache Tomcat Sessions API
   slug: apache-tomcat-sessions-api
 artifact_total: 33
 collections:
@@ -190,7 +190,7 @@ modified: '2026-04-19'
 name: Apache Tomcat
 nav: Providers
 network: true
-overview: 'Apache Tomcat publishes 3 APIs on the [APIs.io](https://apis.io/) network: applications API, server API, and sessions API. Tagged areas include Application Server, Java, JSP, Open-Source, and Servlet.
+overview: 'Apache Tomcat publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Server API, and Sessions API. Tagged areas include Application Server, Java, JSP, Open Source, and Servlet.
 
 
   Apache Tomcat''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
@@ -233,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -257,7 +257,7 @@ tags:
 - Application Server
 - Java
 - JSP
-- Open-Source
+- Open Source
 - Servlet
 - Web Server
 use_cases:

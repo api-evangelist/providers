@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -91,7 +91,7 @@ modified: '2026-07-20'
 name: Paytient
 nav: Providers
 network: true
-overview: 'Paytient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Healthcare, Payments, and Fintech.
+overview: 'Paytient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Healthcare, Payments, and Fintech.
 
 
   Paytient''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ security:
 slug: paytient
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Healthcare
 - Payments
 - Fintech

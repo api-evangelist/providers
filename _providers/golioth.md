@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   name: Golioth Python Tools
   slug: python-tools
 - description: Open-source implementation of the Model Context Protocol (MCP) for resource-constrained embedded devices, enabling large language models to observe and control firmware via MCP tools.
-  name: Golioth tinymcp
+  name: Golioth Tinymcp API
   slug: tinymcp
 - description: Non-IP device-to-cloud transport protocol from Golioth, with a companion Bluetooth gateway reference implementation (pouch-gateway) for relaying pouch traffic to the Golioth cloud.
   name: Golioth Pouch
@@ -559,7 +559,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

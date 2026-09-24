@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 58.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 10
+- acting_count: 9
+  human_in_the_loop: 9
   name: Topograph Agentic Access
   operation_count: 22
   slug: topograph-agentic-access
-  summary_line: 22 operations · 10 acting · 10 human-in-the-loop
+  summary_line: 22 operations · 9 acting · 9 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.topograph.co
@@ -333,7 +333,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

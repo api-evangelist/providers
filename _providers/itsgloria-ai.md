@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -39,7 +39,7 @@ apis:
   name: Gloria Data Platform REST API
   slug: gloria-data-platform-rest-api
 - description: 'Pay-per-request access to Gloria news over the x402 protocol with no account or API key: GET /news ($0.03), /news-ticker-summary ($0.031), /news-by-keyword ($0.05) and /recaps ($0.10), each answering '
-  name: Gloria x402 API
+  name: Gloria X402 API
   slug: gloria-x402-api
 - description: Hosted, remote MCP server (Streamable HTTP at https://mcp.itsgloria.ai/mcp, serverInfo "Gloria AI" 1.26.0, protocol 2025-06-18) exposing seven tools - five free (get_latest_news, get_news_recap, searc
   name: Gloria MCP Server
@@ -256,7 +256,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

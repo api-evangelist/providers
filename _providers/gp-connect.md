@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Gp Connect Agentic Access
   operation_count: 14
   slug: gp-connect-agentic-access
-  summary_line: 14 operations · 5 acting
+  summary_line: 14 operations · 4 acting
 api_count: 5
 apis:
 - description: Retrieve unstructured documents (e.g. scanned letters, attachments) from a patient's GP practice record. Complements the structured access API for cases where clinical information is held as binary do
@@ -273,7 +273,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -831,7 +831,7 @@ modified: '2026-05-19'
 name: Dataiku
 nav: Providers
 network: true
-overview: 'Dataiku publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Artifact Sign-Offs API, Artifacts API, Authentication API, and 25 more. Tagged areas include Analytics, Artificial Intelligence, Data Platform, Data Science, and Machine-Learning.
+overview: 'Dataiku publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Artifact Sign-Offs API, Artifacts API, Authentication API, and 25 more. Tagged areas include Analytics, Artificial Intelligence, Data Platform, Data Science, and Machine Learning.
 
 
   The Dataiku catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -896,7 +896,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -921,6 +921,6 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Data Science
-- Machine-Learning
+- Machine Learning
 website: https://www.dataiku.com/
 ---

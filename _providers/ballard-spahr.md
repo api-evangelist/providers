@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ballard-spahr/refs/heads/main/security/ballard-spahr-domain-security.yml
@@ -91,10 +91,6 @@ common:
   url: https://www.ballardspahr.com/contact
 created: '2026-05-23'
 description: Ballard Spahr LLP is a national U.S. law firm founded in 1885 and headquartered in Philadelphia. Following its January 1, 2025 combination with Seattle-based Lane Powell, the firm operates as a "nationally recognized firm of more than 750 lawyers across 18 U.S. offices" with departments in Business and Transactions, Finance, Intellectual Property, Litigation, and Real Estate. The firm has historic depth in consumer financial services, real estate, public finance, and IP, and runs widely read thought-leadership properties including the Consumer Finance Monitor blog (with public RSS feed) and the Business Better podcast. Ballard Spahr does not expose any public developer API, SDK, OpenAPI spec, or developer portal — its only machine-readable surface is the Consumer Finance Monitor RSS feed.
-graphqls:
-- description: ''
-  name: Ballard Spahr GraphQL API
-  slug: ballard-spahr-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ballard-spahr.png
 layout: provider
 modified: '2026-05-23'
@@ -110,7 +106,7 @@ score:
   band: minimal
   composite: 2.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -137,7 +133,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +175,7 @@ tags:
 - Privacy
 - Private Equity
 - Public Finance
-- Real-Estate
+- Real Estate
 - Real Estate Finance
 - Regulatory
 - REITs

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ modified: '2026-06-20'
 name: Allianz Future Cloud Platform
 nav: Providers
 network: true
-overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial-Services, Insurance, and Platform Engineering.
+overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, Infrastructure API, Namespaces API, and 2 more. Tagged areas include Cloud Platform, Enterprise, Financial Services, Insurance, and Platform Engineering.
 
 
   The Allianz Future Cloud Platform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -390,7 +390,7 @@ score:
     regime_id: insurance
     score: 60.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -413,7 +413,7 @@ slug: allianz-future-cloud-platform
 tags:
 - Cloud Platform
 - Enterprise
-- Financial-Services
+- Financial Services
 - Insurance
 - Platform Engineering
 - Kubernetes

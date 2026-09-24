@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -302,7 +302,7 @@ modified: '2026-05-30'
 name: Spaceflight News
 nav: Providers
 network: true
-overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Blogs API, Info API, and 1 more. Tagged areas include News, Space, Spaceflight, Aerospace, and Open-Source.
+overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Blogs API, Info API, and 1 more. Tagged areas include News, Space, Spaceflight, Aerospace, and Open Source.
 
 
   The Spaceflight News catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -359,7 +359,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -377,7 +377,7 @@ tags:
 - Space
 - Spaceflight
 - Aerospace
-- Open-Source
+- Open Source
 - Launches
 - Public APIs
 website: https://spaceflightnewsapi.net

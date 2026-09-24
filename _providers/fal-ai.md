@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ arazzos:
 - description: Submit an inference job with a webhook callback and confirm it was accepted into the queue.
   name: fal Webhook-Backed Submission
   slug: fal-ai-webhook-submission-workflow
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: 'AsyncAPI description of fal''s event-driven inference surfaces. fal exposes two real-time channels in addition to its REST queue: (1) a Server-Sent Events stream that pushes incremental status updates '
   name: fal Event-Driven APIs
@@ -513,10 +513,6 @@ finops:
 - name: Fal Ai Finops
   service_category: AI and Machine Learning
   slug: fal-ai-finops
-graphqls:
-- description: fal is a fast serverless inference platform for AI models including image generation (Stable Diffusion, FLUX, Kling), video generation, speech, and custom models. The API covers model invocation, queu
-  name: fal GraphQL API
-  slug: fal-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fal-ai.png
 json_schemas:
 - name: fal Image Model Result
@@ -546,7 +542,7 @@ modified: '2026-06-20'
 name: fal
 nav: Providers
 network: true
-overview: 'fal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Streaming API, Apps API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, Generative Media, Image-Generation, and Video Generation.
+overview: 'fal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Streaming API, Apps API, and 5 more. Tagged areas include Artificial Intelligence, Generative AI, Generative Media, Image Generation, and Video Generation.
 
 
   The fal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -599,7 +595,7 @@ score:
   band: exemplar
   composite: 69.7
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 86.5
     catalog_earned_first_party: 12.0
     catalog_gap: 28.5
@@ -609,7 +605,7 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 76.6
+    contract_quality: 76.4
     developer_ergonomics: 75.0
     discoverability: 81.5
     operational_transparency: 57.9
@@ -624,7 +620,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -648,12 +644,13 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Generative Media
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio Generation
 - Inference
 - Serverless
 - GPU
 - MCP
+- Real-Time
 website: https://www.fal.ai/
 ---

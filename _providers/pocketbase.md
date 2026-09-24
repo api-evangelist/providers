@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: CRUD operations for collection records including list, view, create, update, delete, and batch operations. Supports filtering, sorting, pagination, relation expansion, field selection, and multipart f
@@ -51,7 +51,7 @@ apis:
 - description: Superuser-only endpoints for listing and updating application settings, testing S3 storage connectivity, sending test emails, generating Apple OAuth2 client secrets, and configuring rate-limiting rule
   name: PocketBase Settings API
   slug: settings-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pocketbase/refs/heads/main/security/pocketbase-domain-security.yml
@@ -113,10 +113,6 @@ finops:
 - name: Pocketbase Finops
   service_category: ''
   slug: pocketbase-finops
-graphqls:
-- description: PocketBase is a REST-only backend-as-a-service. It does not provide a native GraphQL API. All data operations are performed through a REST-ish HTTP API served at `{your-instance}/api/`, with endpoints
-  name: PocketBase GraphQL API
-  slug: pocketbase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pocketbase.png
 jsonld:
 - class_count: 10
@@ -128,7 +124,7 @@ modified: '2026-06-12'
 name: PocketBase
 nav: Providers
 network: true
-overview: 'PocketBase publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend-as-a-Service, Open-Source, SQLite, Real-Time, and Authentication.
+overview: 'PocketBase publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Backend-as-a-Service, Open Source, SQLite, Real-Time, and Authentication.
 
 
   The PocketBase catalog on APIs.io includes 1 JSON-LD context.
@@ -145,27 +141,27 @@ rate_limits:
   name: Pocketbase Rate Limits
   slug: pocketbase-rate-limits
 score:
-  band: thin
-  composite: 34.4
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 74.0
     catalog_earned_first_party: 0.0
     catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.3
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 47.9
+    contract_quality: 14.7
     developer_ergonomics: 11.9
     discoverability: 74.1
     operational_transparency: 36.8
   previous_composite: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -179,7 +175,7 @@ security:
 slug: pocketbase
 tags:
 - Backend-as-a-Service
-- Open-Source
+- Open Source
 - SQLite
 - Real-Time
 - Authentication

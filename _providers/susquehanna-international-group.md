@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 16
 common:
@@ -174,7 +174,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -196,8 +196,8 @@ tags:
 - Institutional Sales
 - Growth Equity
 - Venture Capital
-- Machine-Learning
-- Financial-Services
+- Machine Learning
+- Financial Services
 use_cases:
 - description: Continuously quoting bids and offers on listed options markets to provide liquidity for institutional and retail order flow.
   name: Liquidity Provision On Listed Options

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 1
   name: Dell Servers Agentic Access
-  operation_count: 47
+  operation_count: 46
   slug: dell-servers-agentic-access
-  summary_line: 47 operations · 8 acting · 1 human-in-the-loop
+  summary_line: 46 operations · 6 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: RESTful API for managing Dell PowerEdge MX7000 modular chassis and its components including compute sleds, network devices, IOMs, and storage. OME-Modular shares a common codebase with OpenManage Ente
@@ -644,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

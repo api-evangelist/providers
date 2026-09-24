@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-08-09'
 name: CloudSight
 nav: Providers
 network: true
-overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network: Images API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Computer-Vision, and Image Recognition.
+overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network: Images API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Image Recognition.
 
 
   CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
@@ -215,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -234,8 +234,8 @@ slug: cloudsight
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Image Recognition
 - Image Captioning
 - Classification

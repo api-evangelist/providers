@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-19'
 name: Hessian
 nav: Providers
 network: true
-overview: Hessian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow-Automation.
+overview: Hessian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
 random_paper: 21
 score:
   band: minimal
@@ -91,7 +91,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Y Combinator
 - Forward Deployed
 website: https://hessian.sh

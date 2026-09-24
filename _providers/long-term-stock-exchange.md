@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-20'
 name: Long-Term Stock Exchange
 nav: Providers
 network: true
-overview: 'Long-Term Stock Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Capital Markets, Financial-Services, and Market Data.
+overview: 'Long-Term Stock Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Exchange, Capital Markets, Financial Services, and Market Data.
 
 
   Long-Term Stock Exchange''s developer surface includes documentation, support, engineering blog, pricing, and 4 more developer resources.'
@@ -113,7 +113,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ tags:
 - Company
 - Stock Exchange
 - Capital Markets
-- Financial-Services
+- Financial Services
 - Market Data
 - Trading
 - Securities

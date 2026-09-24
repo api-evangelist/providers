@@ -18,14 +18,14 @@ modified: '2026-07-18'
 name: Corillian
 nav: Providers
 network: true
-overview: Corillian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Online Banking, Banking Software, Financial-Services, and Fintech.
+overview: Corillian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Online Banking, Banking Software, Financial Services, and Fintech.
 random_paper: 11
 slug: corillian
 tags:
 - Company
 - Online Banking
 - Banking Software
-- Financial-Services
+- Financial Services
 - Fintech
 - Bill Payments
 - Defunct

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://tanfdata.acf.hhs.gov/
   baseurl_source: declared
   description: The plg_auth_check API from The Administration for Children and Families — 1 operation(s) for plg_auth_check.
-  name: The Administration for Children and Families plg_auth_check API
+  name: The Administration for Children and Families Plg Auth Check API
   slug: the-administration-for-children-and-families-plg-auth-check-api
 - baseURL: https://tanfdata.acf.hhs.gov/
   baseurl_source: declared
@@ -187,7 +187,7 @@ modified: '2026-07-25'
 name: The Administration for Children and Families
 nav: Providers
 network: true
-overview: 'The Administration for Children and Families publishes 2 APIs on the [APIs.io](https://apis.io/) network: plg_auth_check API and v1 API. Tagged areas include Children, Families, Federal-Government, Health And Human Services, and Human Services.
+overview: 'The Administration for Children and Families publishes 2 APIs on the [APIs.io](https://apis.io/) network: Plg Auth Check API and v1 API. Tagged areas include Children, Families, Federal Government, Health And Human Services, and Human Services.
 
 
   The The Administration for Children and Families catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 25.0
@@ -232,7 +232,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 21.1
-  previous_composite: 34.3
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -247,7 +247,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -266,7 +266,7 @@ slug: the-administration-for-children-and-families
 tags:
 - Children
 - Families
-- Federal-Government
+- Federal Government
 - Health And Human Services
 - Human Services
 - Social Safety Net

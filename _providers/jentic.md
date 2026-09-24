@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Jentic Agentic Access
   operation_count: 4
   slug: jentic-agentic-access
-  summary_line: 4 operations · 4 acting
+  summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
 - description: The Jentic Remote MCP Server is the hosted Model Context Protocol endpoint that exposes the Jentic catalog to MCP-capable clients (Claude Desktop, ChatGPT, Cursor, Windsurf, VS Code). It speaks the sa
@@ -348,7 +348,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

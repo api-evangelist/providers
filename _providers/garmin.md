@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 17
 apis:
 - description: 'Connect IQ is Garmin''s open platform for building wearable apps that run on Garmin watches and cycling computers. Developers write apps in Monkey C — Garmin''s purpose-built object-oriented language — '
@@ -86,7 +86,7 @@ apis:
 - description: Specification for creating KMZ-based custom maps that load on Garmin outdoor handhelds and fitness watches — used by parks, search-and-rescue teams, race organizers, and event operators to deliver pur
   name: Garmin Custom Maps API
   slug: garmin-custom-maps
-artifact_total: 41
+artifact_total: 40
 common:
 - group: company
   title: ''
@@ -234,10 +234,6 @@ features:
 - KMZ Custom Maps specification for outdoor handhelds and fitness watches
 - LIDAR-Lite Arduino library for the LIDAR-Lite v3/v4 optical distance sensors
 - Active developer forums at forums.garmin.com/developer
-graphqls:
-- description: This conceptual GraphQL schema models the Garmin Connect platform — covering health metrics, fitness activities, training, devices, social features, and user management. It draws from the Garmin Conne
-  name: Garmin GraphQL Schema
-  slug: garmin-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/garmin.png
 layout: provider
 modified: '2026-05-30'
@@ -250,20 +246,20 @@ overview: 'Garmin publishes 17 APIs on the [APIs.io](https://apis.io/) network. 
   Garmin''s developer surface includes developer portal, documentation, signup flow, tooling, engineering blog, YouTube channel, and 24 more developer resources.'
 random_paper: 0
 score:
-  band: thin
-  composite: 31.6
+  band: emerging
+  composite: 21.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.3
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 64.8
     operational_transparency: 18.4
@@ -275,8 +271,8 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

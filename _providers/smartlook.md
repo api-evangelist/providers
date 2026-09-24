@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Smartlook Agentic Access
   operation_count: 24
   slug: smartlook-agentic-access
-  summary_line: 24 operations · 9 acting
+  summary_line: 24 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.eu.smartlook.cloud
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.eu.smartlook.cloud
   baseurl_source: declared
   description: Upload mapping files for crash reports
-  name: Smartlook mappingFiles API
+  name: Smartlook Mapping Files API
   slug: smartlook-mappingfiles-api
 - baseURL: https://api.eu.smartlook.cloud
   baseurl_source: declared
@@ -201,7 +201,7 @@ modified: '2026-06-13'
 name: Smartlook
 nav: Providers
 network: true
-overview: 'Smartlook publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Funnels API, mappingFiles API, and 4 more. Tagged areas include Product Analytics, Session Recording, Heatmaps, Funnels, and User Behavior.
+overview: 'Smartlook publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Funnels API, Mapping Files API, and 4 more. Tagged areas include Product Analytics, Session Recording, Heatmaps, Funnels, and User Behavior.
 
 
   The Smartlook catalog on APIs.io includes 1 JSON-LD context.
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

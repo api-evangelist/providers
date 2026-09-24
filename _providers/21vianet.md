@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ modified: '2026-07-17'
 name: 21Vianet
 nav: Providers
 network: true
-overview: 21Vianet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Data-Center, Cloud, and Hosting.
+overview: 21Vianet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Data Center, Cloud, and Hosting.
 random_paper: 20
 score:
   band: minimal
@@ -104,7 +104,7 @@ score:
     - greater-china
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,7 @@ slug: 21vianet
 tags:
 - Company
 - Infrastructure
-- Data-Center
+- Data Center
 - Cloud
 - Hosting
 - Colocation

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-09-23'
+  score: 32.0
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 1
@@ -524,7 +524,7 @@ score:
   band: developing
   composite: 46.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 64.3
     catalog_earned_first_party: 0.0
     catalog_gap: 50.8
@@ -549,8 +549,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

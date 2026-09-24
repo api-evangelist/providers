@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 527
-  human_in_the_loop: 6
+- acting_count: 380
+  human_in_the_loop: 5
   name: Huma Agentic Access
-  operation_count: 984
+  operation_count: 985
   slug: huma-agentic-access
-  summary_line: 984 operations · 527 acting · 6 human-in-the-loop
+  summary_line: 985 operations · 380 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - description: Huma's software development kits for building or enhancing applications with out-of-the-box Huma functionality across iOS, Android, and Angular, covering authentication/authorization, connected Device
@@ -605,7 +605,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

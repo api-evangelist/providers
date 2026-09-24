@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -2250,7 +2250,7 @@ modified: '2026-05-19'
 name: Amazon Panorama
 nav: Providers
 network: true
-overview: 'Amazon Panorama publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Instances API, Devices API, Jobs API, and 3 more. Tagged areas include Camera, Computer-Vision, Edge ML, and Industrial IoT.
+overview: 'Amazon Panorama publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Application Instances API, Devices API, Jobs API, and 3 more. Tagged areas include Camera, Computer Vision, Edge ML, and Industrial IoT.
 
 
   The Amazon Panorama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2315,7 +2315,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2341,7 +2341,7 @@ security:
 slug: amazon-panorama
 tags:
 - Camera
-- Computer-Vision
+- Computer Vision
 - Edge ML
 - Industrial IoT
 website: https://aws.amazon.com/panorama/

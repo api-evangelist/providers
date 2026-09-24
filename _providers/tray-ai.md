@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 25
-  human_in_the_loop: 0
+- acting_count: 64
+  human_in_the_loop: 6
   name: Tray Ai Agentic Access
-  operation_count: 35
+  operation_count: 105
   slug: tray-ai-agentic-access
-  summary_line: 35 operations · 25 acting
+  summary_line: 105 operations · 64 acting · 6 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://tray.io/graphql
@@ -649,37 +649,39 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 76.1
+  composite: 86.8
   coverage:
     artifact_dirs: 34
-    catalog_earned: 76.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    catalog_earned: 94.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.4
+  delta: 10.7
   facets:
-    access_clarity: 76.3
+    access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 81.3
+    contract_quality: 81.5
     developer_ergonomics: 92.9
     discoverability: 81.5
-    operational_transparency: 68.4
-  previous_composite: 73.7
+    operational_transparency: 92.1
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 15
     mcp: first-party
+    skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication
@@ -706,7 +708,7 @@ tags:
 - AI Agents
 - MCP
 - Orchestration
-- Workflow-Automation
+- Workflow Automation
 - Connectors
 - Agent Gateway
 - Embedded Integration

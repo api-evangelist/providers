@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -268,7 +268,7 @@ modified: '2026-09-16'
 name: Discourse
 nav: Providers
 network: true
-overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Communities, Forums, and Open-Source.
+overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Communities, Forums, and Open Source.
 
 
   Discourse''s developer surface includes documentation, engineering blog, support, and 15 more developer resources.'
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -331,6 +331,6 @@ slug: discourse
 tags:
 - Communities
 - Forums
-- Open-Source
+- Open Source
 website: https://www.discourse.org/
 ---

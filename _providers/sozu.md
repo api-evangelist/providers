@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'The Sozu Command API provides programmatic control of the Sōzu HTTP reverse proxy at runtime. External tools communicate with the Sozu main process through a secure Unix socket using a protobuf-based '
@@ -139,7 +139,7 @@ modified: '2026-05-02'
 name: Sozu
 nav: Providers
 network: true
-overview: 'Sozu publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy, Reverse Proxy, Load Balancing, Rust, and Open-Source.
+overview: 'Sozu publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proxy, Reverse Proxy, Load Balancing, Rust, and Open Source.
 
 
   The Sozu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -189,7 +189,7 @@ score:
     score: 50.0
   previous_composite: 27.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -207,6 +207,6 @@ tags:
 - Reverse Proxy
 - Load Balancing
 - Rust
-- Open-Source
+- Open Source
 website: https://www.sozu.io/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
@@ -125,7 +125,7 @@ modified: '2026-07-18'
 name: Dealpath
 nav: Providers
 network: true
-overview: 'Dealpath publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Deal Management, and Commercial Real Estate.
+overview: 'Dealpath publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Deal Management, and Commercial Real Estate.
 
 
   Dealpath''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ security:
 slug: dealpath
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Deal Management
 - Commercial Real Estate

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 60
+- acting_count: 59
   human_in_the_loop: 0
   name: Adobe Agentic Access
   operation_count: 96
   slug: adobe-agentic-access
-  summary_line: 96 operations · 60 acting
+  summary_line: 96 operations · 59 acting
 api_count: 4
 apis:
 - description: Extract text, images, tables, and more from native and scanned PDFs into structured JSON using AI technology.
@@ -327,7 +327,7 @@ arazzos:
 - description: Upload a PDF, split it by page count into multiple files, poll the job, and fetch the result.
   name: Adobe Split a PDF
   slug: adobe-split-pdf-workflow
-artifact_total: 257
+artifact_total: 256
 asyncapis:
 - description: ''
   name: Adobe Pdf Services Webhooks
@@ -919,10 +919,6 @@ finops:
 - name: Adobe Finops
   service_category: Creative + Marketing + Document SaaS
   slug: adobe-finops
-graphqls:
-- description: ''
-  name: Adobe GraphQL API
-  slug: adobe-graphql
 image: /assets/icons/adobe.png
 integrations:
 - Microsoft 365 and Teams integration
@@ -1245,7 +1241,7 @@ score:
   band: exemplar
   composite: 79.4
   coverage:
-    artifact_dirs: 39
+    artifact_dirs: 38
     catalog_earned: 85.5
     catalog_earned_first_party: 24.0
     catalog_gap: 29.5
@@ -1271,7 +1267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

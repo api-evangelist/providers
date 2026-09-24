@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Public OpenID Connect / OAuth 2.0 identity provider operated by Rockstar Games at signin.rockstargames.com. Backs authentication for the Rockstar Games website, Rockstar Games Launcher, Social Club, R
@@ -44,7 +44,7 @@ apis:
 - description: Rockstar's first-party PC storefront and game launcher, distributing Grand Theft Auto V, Red Dead Redemption 2, L.A. Noire, Bully, Max Payne 3, the GTA and Midnight Club catalog, and Rockstar-publishe
   name: Rockstar Games Launcher
   slug: launcher
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rockstar-games/refs/heads/main/security/rockstar-games-vulnerability-disclosure.yml
@@ -107,10 +107,6 @@ common:
 created: '2026-05-23'
 description: 'Rockstar Games is an American video game publisher headquartered in New York City and a wholly-owned subsidiary of Take-Two Interactive Software (NASDAQ: TTWO). Best known for the Grand Theft Auto and Red Dead Redemption franchises, Rockstar operates online services for GTA Online and Red Dead Online, the Rockstar Games Launcher PC client, and the legacy Rockstar Games Social Club identity / authentication platform. Rockstar does not publish a public developer portal; its HTTP API surface is internal and consumed only by first-party clients (game executables, the Rockstar Games Launcher, and Rockstar''s mobile companion apps). The most visible public-facing API is its OpenID Connect / OAuth 2.0 identity provider at signin.rockstargames.com, which exposes standard /connect/authorize, /connect/Token, /connect/introspect, and /.well-known/jwks endpoints. Grand Theft Auto VI is scheduled to launch on November 19, 2026 for PlayStation 5 and Xbox Series X/S and will include a "significant
   online mode" succeeding GTA Online.'
-graphqls:
-- description: ''
-  name: Rockstar Games GraphQL API
-  slug: rockstar-games-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rockstar-games.png
 layout: provider
 modified: '2026-07-25'
@@ -126,7 +122,7 @@ score:
   band: emerging
   composite: 14.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -147,7 +143,7 @@ score:
     - north-america
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

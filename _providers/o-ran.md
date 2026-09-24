@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Programmatic access to O-RAN Software Community open interface specifications, RAN intelligence APIs, near-real-time RIC (RICAPP), Non-RT RIC (NONRTRIC), and network virtualization tools.
@@ -86,7 +86,7 @@ modified: '2026-04-28'
 name: O-RAN
 nav: Providers
 network: true
-overview: 'O-RAN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Mobile Network, Open-Source, RAN, and Radio.
+overview: 'O-RAN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Mobile Network, Open Source, RAN, and Radio.
 
 
   O-RAN''s developer surface includes documentation and 7 more developer resources.'
@@ -125,7 +125,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +141,7 @@ slug: o-ran
 tags:
 - Linux Foundation
 - Mobile Network
-- Open-Source
+- Open Source
 - RAN
 - Radio
 - Telecommunications

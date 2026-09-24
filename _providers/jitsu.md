@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-06-21'
 name: Jitsu
 nav: Providers
 network: true
-overview: 'Jitsu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Batch API and Ingestion API. Tagged areas include Event Data, CDP, Data Pipeline, Analytics, and Open-Source.
+overview: 'Jitsu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Batch API and Ingestion API. Tagged areas include Event Data, CDP, Data Pipeline, Analytics, and Open Source.
 
 
   Jitsu''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -174,7 +174,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -199,7 +199,7 @@ tags:
 - CDP
 - Data Pipeline
 - Analytics
-- Open-Source
+- Open Source
 - Ingestion
 website: https://jitsu.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-08-06'
 name: Ajaib
 nav: Providers
 network: true
-overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial-Services, Investing, Brokerage, and Trading.
+overview: 'Ajaib publishes 3 APIs on the [APIs.io](https://apis.io/) network: Market Info API, Spot Trading API, and Wallet API. Tagged areas include Company, Financial Services, Investing, Brokerage, and Trading.
 
 
   Ajaib''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
@@ -260,7 +260,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -282,7 +282,7 @@ security:
 slug: ajaib
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investing
 - Brokerage
 - Trading

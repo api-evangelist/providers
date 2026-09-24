@@ -34,27 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Turborepo Agentic Access
   operation_count: 6
   slug: turborepo-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
 - baseURL_template: '{protocol}://{host}'
   baseurl_source: spec_template
   description: Operations for recording cache usage analytics
-  name: Turborepo analytics API
+  name: Turborepo Analytics API
   slug: turborepo-analytics-api
 - baseURL_template: '{protocol}://{host}'
   baseurl_source: spec_template
   description: Operations for managing cache artifacts
-  name: Turborepo artifacts API
+  name: Turborepo Artifacts API
   slug: turborepo-artifacts-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -232,17 +232,13 @@ features:
 - Login flow (turbo login, turbo link, turbo unlink) for Remote Cache provider auth
 - turbo bin and turbo docs helper commands
 - MIT licensed, open source on GitHub (vercel/turborepo)
-graphqls:
-- description: ''
-  name: Turborepo GraphQL API
-  slug: turborepo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turborepo.png
 layout: provider
 modified: '2026-05-25'
 name: Turborepo
 nav: Providers
 network: true
-overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network: analytics API and artifacts API. Tagged areas include Build Systems, Monorepo, JavaScript, TypeScript, and Caching.
+overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Analytics API and Artifacts API. Tagged areas include Build Systems, Monorepo, JavaScript, TypeScript, and Caching.
 
 
   Turborepo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, code examples, and 27 more developer resources.'
@@ -251,7 +247,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -274,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -296,7 +292,7 @@ tags:
 - JavaScript
 - TypeScript
 - Caching
-- Open-Source
+- Open Source
 - Rust
 - Vercel
 - Developer Tools

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ modified: '2026-09-19'
 name: Move Home Organisation CIC
 nav: Providers
 network: true
-overview: 'Move Home Organisation CIC publishes 1 API on the [APIs.io](https://apis.io/) network: RAIA Portal Feed API (MoveHome.org implementation). Tagged areas include Real-Estate, Property, Lettings, Property Sales, and Agents.
+overview: 'Move Home Organisation CIC publishes 1 API on the [APIs.io](https://apis.io/) network: RAIA Portal Feed API (MoveHome.org implementation). Tagged areas include Real Estate, Property, Lettings, Property Sales, and Agents.
 
 
   The Move Home Organisation CIC catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -299,7 +299,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: movehome-org
 tags:
-- Real-Estate
+- Real Estate
 - Property
 - Lettings
 - Property Sales
@@ -309,7 +309,7 @@ tags:
 - Agent-Native
 - Agent Registry
 - Non-Profit
-- Open-Source
+- Open Source
 - RAIA Protocol
 - United Kingdom
 website: https://movehome.org/

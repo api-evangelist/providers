@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 29 operations · 10 acting
 api_count: 1
 apis:
-- baseURL: https://api.rippling.com
-  baseurl_source: spec
-  description: The Rippling Platform API exposes core HRIS resources — companies, employees, departments, work locations, custom fields, employment types, and compensation history — for partners building HR-data int
-  name: Rippling Platform API
-  slug: rippling-platform-api
 - description: Read and write employee records — personal information, employment details, manager hierarchy, work email, work location, and custom employee fields — for active and terminated workers.
   name: Rippling Employees API
   slug: rippling-employees-api
@@ -111,10 +106,10 @@ apis:
   slug: rippling-webhooks-api
 - baseURL: https://api.rippling.com
   baseurl_source: spec
-  description: The Platform API from Rippling — 24 operation(s) for platform.
+  description: The Rippling Platform API exposes core HRIS resources — companies, employees, departments, work locations, custom fields, employment types, and compensation history — for partners building HR-data int
   name: Rippling Platform API
   slug: rippling-platform-api
-artifact_total: 43
+artifact_total: 41
 asyncapis:
 - description: 'Rippling Partner Applications listed in the Rippling App Shop can register a webhook URL to receive event-triggered notifications when relevant changes occur in a customer''s Rippling tenant. Rippling '
   name: Rippling Partner Webhooks
@@ -232,17 +227,13 @@ finops:
 - name: Rippling Finops
   service_category: HR
   slug: rippling-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Rippling unified workforce platform. Rippling provides REST APIs across HR, IT, and Finance domains. The GraphQL schema presented here model
-  name: Rippling GraphQL Schema
-  slug: rippling-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rippling.png
 layout: provider
 modified: '2026-09-19'
 name: Rippling
 nav: Providers
 network: true
-overview: 'Rippling publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Webhooks API, and 1 more. Tagged areas include Human Resources, HCM, Payroll, IT, and Identity.
+overview: 'Rippling publishes 2 APIs on the [APIs.io](https://apis.io/) network: Webhooks API and Platform API. Tagged areas include Human Resources, HCM, Payroll, IT, and Identity.
 
 
   The Rippling catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -272,19 +263,19 @@ rules:
   slug: rippling-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 34.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 34.8
     catalog_earned_first_party: 0.0
     catalog_gap: 80.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 32.9
     contract_governance: 11.4
-    contract_quality: 66.1
+    contract_quality: 62.2
     developer_ergonomics: 14.3
     discoverability: 48.1
     operational_transparency: 34.2
@@ -297,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

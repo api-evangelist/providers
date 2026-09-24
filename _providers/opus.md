@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -49,27 +49,27 @@ apis:
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The brand-templates API from Opus — 1 operation(s) for brand-templates.
-  name: Opus brand-templates API
+  name: Opus Brand Templates API
   slug: opus-brand-templates-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The censor-jobs API from Opus — 2 operation(s) for censor-jobs.
-  name: Opus censor-jobs API
+  name: Opus Censor Jobs API
   slug: opus-censor-jobs-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The clip-project API from Opus — 3 operation(s) for clip-project.
-  name: Opus clip-project API
+  name: Opus Clip Project API
   slug: opus-clip-project-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The collection API from Opus — 3 operation(s) for collection.
-  name: Opus collection API
+  name: Opus Collection API
   slug: opus-collection-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The collection-content API from Opus — 2 operation(s) for collection-content.
-  name: Opus collection-content API
+  name: Opus Collection Content API
   slug: opus-collection-content-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
@@ -79,17 +79,17 @@ apis:
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The generative-jobs API from Opus — 2 operation(s) for generative-jobs.
-  name: Opus generative-jobs API
+  name: Opus Generative Jobs API
   slug: opus-generative-jobs-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The social-posting API from Opus — 6 operation(s) for social-posting.
-  name: Opus social-posting API
+  name: Opus Social Posting API
   slug: opus-social-posting-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The transcripts API from Opus — 1 operation(s) for transcripts.
-  name: Opus transcripts API
+  name: Opus Transcripts API
   slug: opus-transcripts-api
 arazzos:
 - description: Submit a long-form video, wait for clipping, list clips, and export a collection.
@@ -327,7 +327,7 @@ modified: '2026-07-20'
 name: Opus
 nav: Providers
 network: true
-overview: 'Opus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
+overview: 'Opus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -342,7 +342,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
@@ -350,7 +350,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 28.9
-  previous_composite: 46.4
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,11 +358,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -394,7 +394,7 @@ tags:
 - Video Editing
 - Short-Form Video
 - Content Creation
-- Social-Media
+- Social Media
 - Media
 - Agents
 website: https://www.opus.pro/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: Manage and retrieve user records
   name: Lattice Users API
   slug: lattice-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -248,10 +248,6 @@ finops:
 - name: Lattice Finops
   service_category: ''
   slug: lattice-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Lattice people success platform. Lattice publicly exposes REST APIs (Talent API v1 and HRIS API v2), but the types defined here model the fu
-  name: Lattice GraphQL Schema
-  slug: lattice-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lattice.png
 json_schemas:
 - name: Goal
@@ -302,19 +298,19 @@ rules:
   slug: lattice-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 46.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 83.3
     catalog_earned_first_party: 0.0
     catalog_gap: 31.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 71.6
+    contract_quality: 68.0
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 39.5
@@ -327,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

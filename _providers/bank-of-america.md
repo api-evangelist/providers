@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: The Transactions API from Bank of America — 1 operation(s) for transactions.
   name: Bank of America Transactions API
   slug: bank-of-america-transactions-api
-artifact_total: 87
+artifact_total: 86
 collections:
 - collection_type: open
   name: API Collection
@@ -245,10 +245,6 @@ finops:
 - name: Bank Of America Finops
   service_category: Corporate Banking / Treasury Services
   slug: bank-of-america-finops
-graphqls:
-- description: 'This conceptual GraphQL schema models the Bank of America CashPro API platform and broader retail banking services. It covers the full surface area of consumer and corporate banking operations: accoun'
-  name: Bank of America GraphQL Schema
-  slug: bank-of-america-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-of-america.png
 integrations:
 - name: SAP
@@ -409,19 +405,19 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.8
+  composite: 41.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 66.6
+    contract_quality: 65.0
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 7.9
@@ -440,7 +436,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

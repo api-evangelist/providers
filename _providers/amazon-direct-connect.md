@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 63
+- acting_count: 62
   human_in_the_loop: 1
   name: Amazon Direct Connect Agentic Access
   operation_count: 63
   slug: amazon-direct-connect-agentic-access
-  summary_line: 63 operations · 63 acting · 1 human-in-the-loop
+  summary_line: 63 operations · 62 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://directconnect.amazonaws.com
@@ -1122,7 +1122,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

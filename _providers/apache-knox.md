@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-05-19'
 name: Apache Knox
 nav: Providers
 network: true
-overview: 'Apache Knox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Descriptors API, Providers API, and Topologies API. Tagged areas include API Gateway, Authentication, Hadoop, Open-Source, and Security.
+overview: 'Apache Knox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Descriptors API, Providers API, and Topologies API. Tagged areas include API Gateway, Authentication, Hadoop, Open Source, and Security.
 
 
   The Apache Knox catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -343,7 +343,7 @@ tags:
 - API Gateway
 - Authentication
 - Hadoop
-- Open-Source
+- Open Source
 - Security
 - SSO
 use_cases:

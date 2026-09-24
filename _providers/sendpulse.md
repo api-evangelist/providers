@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 382
-  human_in_the_loop: 7
+- acting_count: 232
+  human_in_the_loop: 1
   name: Sendpulse Agentic Access
-  operation_count: 635
+  operation_count: 411
   slug: sendpulse-agentic-access
-  summary_line: 635 operations · 382 acting · 7 human-in-the-loop
+  summary_line: 411 operations · 232 acting · 1 human-in-the-loop
 api_count: 20
 apis:
 - baseURL: https://api.sendpulse.com
@@ -886,7 +886,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 105
+      total: 85
     mcp: first-party
     skills: derived
   regulatory:
@@ -900,7 +900,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

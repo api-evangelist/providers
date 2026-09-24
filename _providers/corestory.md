@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -49,122 +49,122 @@ apis:
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The admin API from CoreStory — 6 operation(s) for admin.
-  name: CoreStory admin API
+  name: CoreStory Admin API
   slug: corestory-admin-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The api_debugging API from CoreStory — 2 operation(s) for api_debugging.
-  name: CoreStory api_debugging API
+  name: CoreStory API Debugging API
   slug: corestory-api-debugging-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The api_key_management API from CoreStory — 4 operation(s) for api_key_management.
-  name: CoreStory api_key_management API
+  name: CoreStory API Key Management API
   slug: corestory-api-key-management-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The artifacts API from CoreStory — 2 operation(s) for artifacts.
-  name: CoreStory artifacts API
+  name: CoreStory Artifacts API
   slug: corestory-artifacts-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The billing API from CoreStory — 4 operation(s) for billing.
-  name: CoreStory billing API
+  name: CoreStory Billing API
   slug: corestory-billing-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The cache API from CoreStory — 6 operation(s) for cache.
-  name: CoreStory cache API
+  name: CoreStory Cache API
   slug: corestory-cache-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The ciu API from CoreStory — 4 operation(s) for ciu.
-  name: CoreStory ciu API
+  name: CoreStory Ciu API
   slug: corestory-ciu-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The clerk_authentication API from CoreStory — 3 operation(s) for clerk_authentication.
-  name: CoreStory clerk_authentication API
+  name: CoreStory Clerk Authentication API
   slug: corestory-clerk-authentication-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The context API from CoreStory — 1 operation(s) for context.
-  name: CoreStory context API
+  name: CoreStory Context API
   slug: corestory-context-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The conversations API from CoreStory — 11 operation(s) for conversations.
-  name: CoreStory conversations API
+  name: CoreStory Conversations API
   slug: corestory-conversations-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The discovery API from CoreStory — 3 operation(s) for discovery.
-  name: CoreStory discovery API
+  name: CoreStory Discovery API
   slug: corestory-discovery-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The document_formatters API from CoreStory — 8 operation(s) for document_formatters.
-  name: CoreStory document_formatters API
+  name: CoreStory Document Formatters API
   slug: corestory-document-formatters-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The document_generation API from CoreStory — 6 operation(s) for document_generation.
-  name: CoreStory document_generation API
+  name: CoreStory Document Generation API
   slug: corestory-document-generation-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The documents API from CoreStory — 1 operation(s) for documents.
-  name: CoreStory documents API
+  name: CoreStory Documents API
   slug: corestory-documents-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The events API from CoreStory — 1 operation(s) for events.
-  name: CoreStory events API
+  name: CoreStory Events API
   slug: corestory-events-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The files API from CoreStory — 3 operation(s) for files.
-  name: CoreStory files API
+  name: CoreStory Files API
   slug: corestory-files-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The github_integration API from CoreStory — 10 operation(s) for github_integration.
-  name: CoreStory github_integration API
+  name: CoreStory Github Integration API
   slug: corestory-github-integration-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The github_webhooks API from CoreStory — 1 operation(s) for github_webhooks.
-  name: CoreStory github_webhooks API
+  name: CoreStory Github Webhooks API
   slug: corestory-github-webhooks-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The languages API from CoreStory — 1 operation(s) for languages.
-  name: CoreStory languages API
+  name: CoreStory Languages API
   slug: corestory-languages-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The marketplace API from CoreStory — 6 operation(s) for marketplace.
-  name: CoreStory marketplace API
+  name: CoreStory Marketplace API
   slug: corestory-marketplace-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The mcp_protocol API from CoreStory — 3 operation(s) for mcp_protocol.
-  name: CoreStory mcp_protocol API
+  name: CoreStory MCP Protocol API
   slug: corestory-mcp-protocol-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The mcp_token_management API from CoreStory — 3 operation(s) for mcp_token_management.
-  name: CoreStory mcp_token_management API
+  name: CoreStory MCP Token Management API
   slug: corestory-mcp-token-management-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The mermaid API from CoreStory — 1 operation(s) for mermaid.
-  name: CoreStory mermaid API
+  name: CoreStory Mermaid API
   slug: corestory-mermaid-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The oauth_discovery API from CoreStory — 1 operation(s) for oauth_discovery.
-  name: CoreStory oauth_discovery API
+  name: CoreStory OAUTH Discovery API
   slug: corestory-oauth-discovery-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
@@ -174,112 +174,112 @@ apis:
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The organizations API from CoreStory — 15 operation(s) for organizations.
-  name: CoreStory organizations API
+  name: CoreStory Organizations API
   slug: corestory-organizations-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The pinned-workspaces API from CoreStory — 2 operation(s) for pinned-workspaces.
-  name: CoreStory pinned-workspaces API
+  name: CoreStory Pinned Workspaces API
   slug: corestory-pinned-workspaces-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The prd API from CoreStory — 8 operation(s) for prd.
-  name: CoreStory prd API
+  name: CoreStory Prd API
   slug: corestory-prd-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The prd_version API from CoreStory — 10 operation(s) for prd_version.
-  name: CoreStory prd_version API
+  name: CoreStory Prd Version API
   slug: corestory-prd-version-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The pre_ingestion API from CoreStory — 10 operation(s) for pre_ingestion.
-  name: CoreStory pre_ingestion API
+  name: CoreStory Pre Ingestion API
   slug: corestory-pre-ingestion-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The projects API from CoreStory — 40 operation(s) for projects.
-  name: CoreStory projects API
+  name: CoreStory Projects API
   slug: corestory-projects-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The prompts API from CoreStory — 4 operation(s) for prompts.
-  name: CoreStory prompts API
+  name: CoreStory Prompts API
   slug: corestory-prompts-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The quality_metrics API from CoreStory — 3 operation(s) for quality_metrics.
-  name: CoreStory quality_metrics API
+  name: CoreStory Quality Metrics API
   slug: corestory-quality-metrics-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The realtime API from CoreStory — 1 operation(s) for realtime.
-  name: CoreStory realtime API
+  name: CoreStory Realtime API
   slug: corestory-realtime-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The reingestion API from CoreStory — 9 operation(s) for reingestion.
-  name: CoreStory reingestion API
+  name: CoreStory Reingestion API
   slug: corestory-reingestion-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The sample_projects API from CoreStory — 3 operation(s) for sample_projects.
-  name: CoreStory sample_projects API
+  name: CoreStory Sample Projects API
   slug: corestory-sample-projects-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The sections API from CoreStory — 7 operation(s) for sections.
-  name: CoreStory sections API
+  name: CoreStory Sections API
   slug: corestory-sections-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The subscriptions API from CoreStory — 2 operation(s) for subscriptions.
-  name: CoreStory subscriptions API
+  name: CoreStory Subscriptions API
   slug: corestory-subscriptions-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The sync-status API from CoreStory — 1 operation(s) for sync-status.
-  name: CoreStory sync-status API
+  name: CoreStory Sync Status API
   slug: corestory-sync-status-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The system_overview API from CoreStory — 3 operation(s) for system_overview.
-  name: CoreStory system_overview API
+  name: CoreStory System Overview API
   slug: corestory-system-overview-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The tech_spec API from CoreStory — 7 operation(s) for tech_spec.
-  name: CoreStory tech_spec API
+  name: CoreStory Tech Spec API
   slug: corestory-tech-spec-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The update-schedule API from CoreStory — 1 operation(s) for update-schedule.
-  name: CoreStory update-schedule API
+  name: CoreStory Update Schedule API
   slug: corestory-update-schedule-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The user API from CoreStory — 3 operation(s) for user.
-  name: CoreStory user API
+  name: CoreStory User API
   slug: corestory-user-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The vector_store API from CoreStory — 12 operation(s) for vector_store.
-  name: CoreStory vector_store API
+  name: CoreStory Vector Store API
   slug: corestory-vector-store-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The version API from CoreStory — 1 operation(s) for version.
-  name: CoreStory version API
+  name: CoreStory Version API
   slug: corestory-version-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The webhooks API from CoreStory — 2 operation(s) for webhooks.
-  name: CoreStory webhooks API
+  name: CoreStory Webhooks API
   slug: corestory-webhooks-api
 - baseURL: https://c2s.corestory.ai
   baseurl_source: declared
   description: The workflows API from CoreStory — 7 operation(s) for workflows.
-  name: CoreStory workflows API
+  name: CoreStory Workflows API
   slug: corestory-workflows-api
 artifact_total: 101
 collections:
@@ -562,7 +562,7 @@ modified: '2026-07-18'
 name: CoreStory
 nav: Providers
 network: true
-overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_debugging API, api_key_management API, and 44 more. Tagged areas include Company, Artificial Intelligence, Code Intelligence, Legacy Modernization, and Developer Tools.
+overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Debugging API, API Key Management API, and 44 more. Tagged areas include Company, Artificial Intelligence, Code Intelligence, Legacy Modernization, and Developer Tools.
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
@@ -601,7 +601,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

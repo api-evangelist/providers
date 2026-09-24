@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 25
+- acting_count: 19
   human_in_the_loop: 0
   name: Copper Agentic Access
   operation_count: 31
   slug: copper-agentic-access
-  summary_line: 31 operations · 25 acting
+  summary_line: 31 operations · 19 acting
 api_count: 1
 apis:
 - baseURL: https://api.copper.com/developer_api/v1
@@ -377,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

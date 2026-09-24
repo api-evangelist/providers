@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: REST API for managing users, teams, on-call schedules, escalation policies, incidents, and routing keys in Splunk On-Call (VictorOps). Authentication uses X-VO-Api-Id and X-VO-Api-Key headers generate
@@ -41,7 +41,7 @@ apis:
 - description: Inbound REST endpoint for creating incidents from any monitoring system via HTTPS POST with a JSON payload and a routing-key segment in the URL.
   name: Splunk On-Call REST Endpoint
   slug: rest-endpoint
-artifact_total: 6
+artifact_total: 5
 common:
 - group: other
   title: ''
@@ -100,10 +100,6 @@ common:
   url: https://www.splunk.com/en_us/support-and-services.html
 created: '2026-05-11'
 description: Splunk On-Call, formerly known as VictorOps, is an incident management and on-call alerting platform that helps DevOps and SRE teams reduce mean time to resolution by routing alerts, managing on-call schedules, and orchestrating incident response. The platform integrates with monitoring and observability tools to deliver context-rich alerts and supports collaborative chat-based remediation workflows. The VictorOps REST API enables programmatic management of users, teams, schedules, escalation policies, incidents, and integrations using API ID and API Key authentication headers.
-graphqls:
-- description: This conceptual GraphQL schema models the VictorOps (now Splunk On-Call) incident management platform. VictorOps provides REST APIs for programmatic control over incidents, on-call schedules, escalati
-  name: VictorOps (Splunk On-Call) GraphQL Schema
-  slug: victorops-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/victorops.png
 layout: provider
 modified: '2026-08-19'
@@ -116,27 +112,27 @@ overview: 'Splunk On-Call (VictorOps) publishes 2 APIs on the [APIs.io](https://
   Splunk On-Call (VictorOps)''s developer surface includes documentation, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 11
 score:
-  band: thin
-  composite: 26.8
+  band: emerging
+  composite: 16.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.3
   facets:
     access_clarity: 25.0
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

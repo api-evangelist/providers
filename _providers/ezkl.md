@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ modified: '2026-07-19'
 name: EZKL
 nav: Providers
 network: true
-overview: 'EZKL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Zero-Knowledge Proofs, Machine-Learning, Verifiable AI, and ZKML.
+overview: 'EZKL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Zero-Knowledge Proofs, Machine Learning, Verifiable AI, and ZKML.
 
 
   EZKL''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 10 more developer resources.'
@@ -134,7 +134,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 18.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -150,13 +150,13 @@ slug: ezkl
 tags:
 - Company
 - Zero-Knowledge Proofs
-- Machine-Learning
+- Machine Learning
 - Verifiable AI
 - ZKML
 - Cryptography
 - ONNX
 - Blockchain
-- Open-Source
+- Open Source
 - SDK
 - CLI
 website: https://ezkl.xyz/

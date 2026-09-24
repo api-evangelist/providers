@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -646,7 +646,7 @@ modified: '2026-05-19'
 name: ARGUS Enterprise
 nav: Providers
 network: true
-overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio-Management.
+overview: 'ARGUS Enterprise publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cash Flows API, Events API, and 9 more. Tagged areas include Altus Group, Asset Management, Cash Flow Modeling, Commercial Real Estate, and Portfolio Management.
 
 
   The ARGUS Enterprise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -711,7 +711,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -732,7 +732,7 @@ tags:
 - Asset Management
 - Cash Flow Modeling
 - Commercial Real Estate
-- Portfolio-Management
+- Portfolio Management
 - Valuation
 use_cases:
 - description: Produce DCF and yield-based valuations for commercial real estate appraisals and acquisitions.

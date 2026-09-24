@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 92
+- acting_count: 89
   human_in_the_loop: 0
   name: Customer Io Agentic Access
   operation_count: 191
   slug: customer-io-agentic-access
-  summary_line: 191 operations · 92 acting
+  summary_line: 191 operations · 89 acting
 api_count: 4
 apis:
 - baseURL: https://track.customer.io
@@ -253,7 +253,7 @@ apis:
   description: An API to retrieve information about your workspaces in your account. You can use this to look up counts for messages sent, monthly billable emails sent, people, and objects.
   name: Customer.io Workspaces API
   slug: customer-io-workspaces-api
-artifact_total: 87
+artifact_total: 86
 asyncapis:
 - description: Customer.io Reporting Webhooks send real-time message activity events as JSON payloads via HTTP POST to a configured endpoint. These events include message sends, deliveries, opens, clicks, bounces, u
   name: Customer.io Reporting Webhooks
@@ -615,10 +615,6 @@ finops:
 - name: Customer Io Finops
   service_category: Marketing and Customer Engagement
   slug: customer-io-finops
-graphqls:
-- description: 'This conceptual GraphQL schema represents the Customer.io messaging and marketing automation platform. Customer.io provides APIs for tracking behavioral data, managing customer profiles and segments, '
-  name: Customer.io GraphQL Schema
-  slug: customer-io-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/customer-io.png
 json_schemas:
 - name: Customer.io Customer
@@ -700,19 +696,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 89.3
+  composite: 88.5
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 81.5
     catalog_earned_first_party: 24.0
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 93.4
     contract_governance: 47.0
-    contract_quality: 73.4
+    contract_quality: 70.0
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 84.2
@@ -734,7 +730,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -774,5 +770,6 @@ tags:
 - Segments
 - SMS
 - Transactional Email
+- A2A
 website: https://customer.io
 ---

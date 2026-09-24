@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - baseURL: https://staking-api.babylonlabs.io
   baseurl_source: declared
   description: Shared API endpoints
-  name: Babylon Labs shared API
+  name: Babylon Labs Shared API
   slug: babylon-labs-shared-api
 - baseURL: https://staking-api.babylonlabs.io
   baseurl_source: declared
@@ -191,7 +191,7 @@ modified: '2026-07-18'
 name: Babylon Labs
 nav: Providers
 network: true
-overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: shared API, v1 API, and v2 API. Tagged areas include Company, Crypto Defi, Bitcoin, Bitcoin Staking, and Blockchain.
+overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Shared API, v1 API, and v2 API. Tagged areas include Company, Crypto Defi, Bitcoin, Bitcoin Staking, and Blockchain.
 
 
   Babylon Labs'' developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 19 more developer resources.'
@@ -226,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

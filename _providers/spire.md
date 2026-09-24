@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: JSON Web Key Set endpoint that exposes public keys used to verify JWT-SVIDs issued by SPIRE.
   name: SPIRE Keys API
   slug: spire-keys-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: 'The SPIRE Workload API is a gRPC streaming interface exposed by the SPIRE Agent on each node, through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) and trust bundle '
   name: SPIRE Workload API Events
@@ -217,10 +217,6 @@ finops:
 - name: Spire Finops
   service_category: API
   slug: spire-finops
-graphqls:
-- description: Spire is a global maritime and aviation intelligence company using satellite data. The API covers vessel tracking (AIS), flight tracking (ADSB), weather intelligence, maritime trade analytics, and ves
-  name: SPIRE GraphQL API
-  slug: spire-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spire.png
 json_schemas:
 - name: SPIRE Registration Entries
@@ -297,19 +293,19 @@ rules:
   slug: spire-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 42.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 0.0
     contract_governance: 28.8
-    contract_quality: 63.6
+    contract_quality: 59.5
     developer_ergonomics: 33.3
     discoverability: 66.7
     operational_transparency: 36.8
@@ -325,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

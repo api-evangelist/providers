@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,7 +113,7 @@ modified: '2026-07-25'
 name: Wingstop
 nav: Providers
 network: true
-overview: 'Wingstop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, QSR, Fast Food, Online Ordering, and Mobile Ordering.
+overview: 'Wingstop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Quick Service Restaurant, Fast Food, Online Ordering, and Mobile Ordering.
 
 
   Wingstop''s developer surface includes signup flow, support, and 13 more developer resources.'
@@ -146,7 +146,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ security:
 slug: wingstop
 tags:
 - Restaurant
-- QSR
+- Quick Service Restaurant
 - Fast Food
 - Online Ordering
 - Mobile Ordering

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 106
+- acting_count: 105
   human_in_the_loop: 4
   name: Bentoml Agentic Access
   operation_count: 222
   slug: bentoml-agentic-access
-  summary_line: 222 operations · 106 acting · 4 human-in-the-loop
+  summary_line: 222 operations · 105 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - description: Auto-generated REST API endpoints produced when BentoML services are deployed. Each decorated service method becomes an HTTP POST endpoint. Supports custom routes, path prefixes, adaptive batching, as
@@ -82,7 +82,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: auth api
-  name: BentoML auth API
+  name: BentoML Auth API
   slug: bentoml-auth-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -107,7 +107,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: bentos
-  name: BentoML bentos API
+  name: BentoML Bentos API
   slug: bentoml-bentos-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -132,7 +132,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: clusters
-  name: BentoML clusters API
+  name: BentoML Clusters API
   slug: bentoml-clusters-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -152,7 +152,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: customers api
-  name: BentoML customers API
+  name: BentoML Customers API
   slug: bentoml-customers-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -202,17 +202,17 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: host_clusters
-  name: BentoML host_clusters API
+  name: BentoML Host Clusters API
   slug: bentoml-host-clusters-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: instance_types
-  name: BentoML instance_types API
+  name: BentoML Instance Types API
   slug: bentoml-instance-types-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: labels
-  name: BentoML labels API
+  name: BentoML Labels API
   slug: bentoml-labels-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -257,7 +257,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: models
-  name: BentoML models API
+  name: BentoML Models API
   slug: bentoml-models-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -287,7 +287,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: plans
-  name: BentoML plans API
+  name: BentoML Plans API
   slug: bentoml-plans-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -322,7 +322,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: usage resource
-  name: BentoML usage API
+  name: BentoML Usage API
   slug: bentoml-usage-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -332,7 +332,7 @@ apis:
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
   description: users api
-  name: BentoML users API
+  name: BentoML Users API
   slug: bentoml-users-api
 - baseURL: https://cloud.bentoml.com
   baseurl_source: declared
@@ -637,7 +637,7 @@ modified: 2026-06-12
 name: BentoML
 nav: Providers
 network: true
-overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include Machine-Learning, Model Serving, Inference, Artificial Intelligence, and REST API.
+overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include Machine Learning, Model Serving, Inference, Artificial Intelligence, and REST API.
 
 
   The BentoML catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -691,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -708,7 +708,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bentoml
 tags:
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Inference
 - Artificial Intelligence

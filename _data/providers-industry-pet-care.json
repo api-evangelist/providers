@@ -27,7 +27,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -116,56 +116,6 @@
    "shown": 14,
    "providers": [
     {
-     "name": "Chewy",
-     "slug": "chewy",
-     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png",
-     "score": 24.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 20.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "ManyPets",
      "slug": "manypets",
      "description": "ManyPets (formerly Bought By Many, part of ManyGroup) is a digital-first pet insurance provider founded in 2012 by Steven Mendel and Guy Farley and headquartered in London, United Kingdom. The company sells lifetime dog, cat and multi-pet insurance direct to consumers in the UK, alongside a preventative flea/tick/worm plan, an online claims experience and unlimited 24/7 video vet consultations. Sister ManyGroup brands include ExoticDirect (exotic pet insurance) and VetBox (pet treatment subscriptions). ManyPets raised a $350M Series D led by EQT Growth in 2021 and has also operated in the United States and Sweden; the US book is transitioning to Odie. ManyPets does not publish a public developer portal or machine-readable API contract — its API is offered only through a gated partner programme (affiliate, widget, API partner, perk and custom solutions) operated at many-group.com/partners/.",
@@ -180,7 +130,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -219,7 +169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "UrbanSitter",
@@ -237,8 +187,58 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "FirstVet",
+     "slug": "firstvet",
+     "description": "FirstVet is a digital veterinary care company offering 24/7 online video consultations with licensed veterinarians for dogs, cats, and other pets. Founded in Sweden, FirstVet operates a consumer telehealth platform across Sweden, Norway, Denmark, Finland, Germany, the United Kingdom, and the United States, providing virtual vet appointments, healthy pet checkups, follow-up care, and triage guidance on whether a case needs an in-clinic referral. The company partners with pet insurers and employers to offer covered or subsidized access to its subscription-based virtual care. FirstVet is a portfolio company of Creandum. This profile is maintained in the API Evangelist network; FirstVet publishes no public developer API, SDKs, or API documentation as of this enrichment pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstvet/refs/heads/main/screenshots/firstvet-2026-07-25T214622.png",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -265,56 +265,6 @@
      "rank": 5
     },
     {
-     "name": "FirstVet",
-     "slug": "firstvet",
-     "description": "FirstVet is a digital veterinary care company offering 24/7 online video consultations with licensed veterinarians for dogs, cats, and other pets. Founded in Sweden, FirstVet operates a consumer telehealth platform across Sweden, Norway, Denmark, Finland, Germany, the United Kingdom, and the United States, providing virtual vet appointments, healthy pet checkups, follow-up care, and triage guidance on whether a case needs an in-clinic referral. The company partners with pet insurers and employers to offer covered or subsidized access to its subscription-based virtual care. FirstVet is a portfolio company of Creandum. This profile is maintained in the API Evangelist network; FirstVet publishes no public developer API, SDKs, or API documentation as of this enrichment pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstvet/refs/heads/main/screenshots/firstvet-2026-07-25T214622.png",
-     "score": 16.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Mars",
      "slug": "mars",
      "description": "Mars, Incorporated is one of the world's largest privately held companies, producing confectionery, pet food, food, and providing veterinary care. The company owns iconic brands including M&M's, Snickers, Twix, Milky Way, Skittles, Wrigley, Orbit, Extra, Pedigree, Whiskas, Royal Canin, IAMS, and Sheba, and operates Mars Petcare clinical brands including Banfield Pet Hospital, VCA Animal Hospitals, BluePearl, and Antech Diagnostics. Mars operates in over 80 countries. Mars operates a public Azure-API-Management developer portal at developer.mars.com for partner and B2B integrations, alongside closed channels such as the Mars Supplier Gateway.",
@@ -330,7 +280,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -355,7 +305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Petfolk",
@@ -373,7 +323,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -394,6 +344,56 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Chewy",
+     "slug": "chewy",
+     "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 20.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -423,7 +423,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -466,7 +466,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -509,7 +509,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -602,7 +602,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -645,7 +645,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -737,7 +737,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -791,7 +791,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -834,7 +834,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -877,7 +877,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -920,7 +920,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -963,7 +963,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1013,7 +1013,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1062,7 +1062,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1104,7 +1104,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1154,7 +1154,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1204,7 +1204,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1254,7 +1254,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1297,7 +1297,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1340,7 +1340,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1383,7 +1383,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1426,7 +1426,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1512,7 +1512,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1562,7 +1562,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -1609,7 +1609,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

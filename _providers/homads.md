@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://homads.com
@@ -99,7 +99,7 @@ modified: '2026-06-21'
 name: Homads
 nav: Providers
 network: true
-overview: 'Homads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Rental Market Data and Rent Comparison. Tagged areas include Rentals, Mid-Term Rental, Real-Estate, Marketplace, and Neighborhood Data.
+overview: 'Homads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Rental Market Data and Rent Comparison. Tagged areas include Rentals, Mid-Term Rental, Real Estate, Marketplace, and Neighborhood Data.
 
 
   Homads'' developer surface includes documentation and 6 more developer resources.'
@@ -137,7 +137,7 @@ score:
     - north-america
   previous_composite: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ slug: homads
 tags:
 - Rentals
 - Mid-Term Rental
-- Real-Estate
+- Real Estate
 - Marketplace
 - Neighborhood Data
 website: https://homads.com/

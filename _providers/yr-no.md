@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,17 +52,17 @@ apis:
 - baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
   baseurl_source: declared
   description: Weather alert endpoints
-  name: Yr alerts API
+  name: Yr Alerts API
   slug: yr-no-alerts-api
 - baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
   baseurl_source: declared
   description: Forecast data endpoints
-  name: Yr data API
+  name: Yr Data API
   slug: yr-no-data-api
 - baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
   baseurl_source: declared
   description: Service metadata endpoints
-  name: Yr metadata API
+  name: Yr Metadata API
   slug: yr-no-metadata-api
 artifact_total: 22
 collections:
@@ -194,7 +194,7 @@ modified: '2026-06-13'
 name: Yr
 nav: Providers
 network: true
-overview: 'Yr publishes 3 APIs on the [APIs.io](https://apis.io/) network: alerts API, data API, and metadata API. Tagged areas include Weather, Forecast, Meteorology, Climate, and Norway.
+overview: 'Yr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alerts API, Data API, and Metadata API. Tagged areas include Weather, Forecast, Meteorology, Climate, and Norway.
 
 
   The Yr catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -262,7 +262,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

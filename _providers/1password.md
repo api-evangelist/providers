@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 7
   human_in_the_loop: 0
   name: 1Password Agentic Access
   operation_count: 23
   slug: 1password-agentic-access
-  summary_line: 23 operations · 10 acting
+  summary_line: 23 operations · 7 acting
 api_count: 3
 apis:
 - baseURL: http://localhost:8080
@@ -805,7 +805,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

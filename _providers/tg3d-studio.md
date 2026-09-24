@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: TG3D Studio's two RESTful API libraries. ScanAPI (free to partners) controls the Scanatic 360 Body Scanner and registers Cloudzet scan users; APIConnect manipulates data across the Scanatic Body, Nuno
@@ -144,9 +144,14 @@ score:
     developer_ergonomics: 45.2
     discoverability: 75.9
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - taiwan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 28.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

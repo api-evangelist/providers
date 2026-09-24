@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 172
+- acting_count: 158
   human_in_the_loop: 5
   name: Salesforce Agentic Access
-  operation_count: 389
+  operation_count: 367
   slug: salesforce-agentic-access
-  summary_line: 389 operations · 172 acting · 5 human-in-the-loop
+  summary_line: 367 operations · 158 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://{instance}.salesforce.com/services/data
@@ -50,16 +50,6 @@ apis:
   description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL an
   name: Salesforce REST API
   slug: salesforce-rest-api
-- baseURL: https://{instance}.salesforce.com/services/Soap
-  baseurl_source: declared
-  description: The Salesforce SOAP API enables developers to use SOAP calls to create, retrieve, update, and delete records such as accounts, leads, and custom objects. It provides robust enterprise-grade integratio
-  name: Salesforce SOAP API
-  slug: salesforce-soap-api
-- baseURL: https://{instance}.salesforce.com/services/async
-  baseurl_source: declared
-  description: 'The Salesforce Bulk API is a specialized REST-based interface that enables asynchronous processing of large numbers of records. It is optimized for loading or deleting large sets of data and supports '
-  name: Salesforce Bulk API
-  slug: salesforce-bulk-api
 - baseURL: https://{instance}.salesforce.com/cometd
   baseurl_source: declared
   description: The Salesforce Streaming API uses a publish-subscribe model based on Bayeux/CometD to push near-real-time event notifications to subscribed clients. It supports PushTopic events for record changes and
@@ -71,11 +61,6 @@ apis:
 - description: The Salesforce Tooling API provides SOAP and REST interfaces for building developer tools for Force.com applications. It exposes fine-grained access to Apex code, Visualforce pages, and other metadata
   name: Salesforce Tooling API
   slug: salesforce-tooling-api
-- baseURL: https://{instance}.salesforce.com/services/data/v{version}/chatter
-  baseurl_source: declared
-  description: 'The Salesforce Connect REST API (formerly Chatter API) provides access to Salesforce Chatter feeds, groups, users, topics, and file sharing features. It also exposes Experience Cloud (community) data '
-  name: Salesforce Connect API (Chatter)
-  slug: salesforce-connect-api
 - description: The Salesforce Analytics REST API (also known as CRM Analytics or Wave API) provides programmatic access to CRM Analytics datasets, lenses, dashboards, and queries. Developers can read and write analy
   name: Salesforce Analytics REST API
   slug: salesforce-analytics-rest-api
@@ -104,11 +89,6 @@ apis:
   description: Salesforce Change Data Capture delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. It enables external systems to receive near-real-
   name: Salesforce Change Data Capture API
   slug: salesforce-change-data-capture-api
-- baseURL: https://{instance}.salesforce.com/services/data/v{version}/composite
-  baseurl_source: declared
-  description: The Salesforce Composite API allows developers to combine multiple Salesforce REST API requests into a single HTTP call. It reduces the number of round trips to the server and supports dependent reque
-  name: Salesforce Composite API
-  slug: salesforce-composite-api
 - description: Salesforce Apex REST enables developers to expose custom Apex classes as RESTful web services. By annotating Apex classes and methods with @RestResource and HTTP method annotations, developers can cre
   name: Salesforce Apex REST API
   slug: salesforce-apex-rest-api
@@ -157,22 +137,12 @@ apis:
 - description: The Salesforce Agentforce Agent API is a REST API that enables developers to communicate with AI agents directly, starting sessions, sending messages, receiving responses, and ending sessions. It supp
   name: Salesforce Agentforce Agent API
   slug: salesforce-agentforce-agent-api
-- baseURL: https://{instance}.salesforce.com/services/data/v{version}/einstein
-  baseurl_source: declared
-  description: The Salesforce Models API provides Apex classes and REST endpoints that connect applications to large language models (LLMs) from Salesforce partners including Anthropic, Google, and OpenAI. It suppor
-  name: Salesforce Models API
-  slug: salesforce-models-api
 - description: The Salesforce Interaction Service API enables automation and customization of the Bring Your Own Channel (BYOC) experience for messaging. It sends inbound messaging interactions from external end-use
   name: Salesforce Interaction Service API
   slug: salesforce-interaction-service-api
 - description: The Salesforce B2B Commerce API provides REST endpoints for handling commerce data in B2B and D2C storefronts. It offers support for address management, cart management, checkout processing, order man
   name: Salesforce B2B Commerce API
   slug: salesforce-b2b-commerce-api
-- baseURL: https://{instance}.salesforce.com/services/data/v{version}/actions
-  baseurl_source: declared
-  description: The Salesforce Actions API provides a unified interface for invoking standard and custom actions across the Salesforce platform. It supports Apex actions, Flow actions, quick actions, and invocable ac
-  name: Salesforce Actions API
-  slug: salesforce-actions-api
 - description: The Salesforce IoT REST API provides programmatic access to Salesforce IoT data including contexts, orchestrations, and usage data. It enables developers to manage IoT events and orchestration rules f
   name: Salesforce IoT REST API
   slug: salesforce-iot-api
@@ -197,9 +167,9 @@ apis:
   description: The Accounts API from Salesforce — 1 operation(s) for accounts.
   name: Salesforce Accounts API
   slug: salesforce-accounts-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/actions
   baseurl_source: declared
-  description: The Actions API from Salesforce — 16 operation(s) for actions.
+  description: The Salesforce Actions API provides a unified interface for invoking standard and custom actions across the Salesforce platform. It supports Apex actions, Flow actions, quick actions, and invocable ac
   name: Salesforce Actions API
   slug: salesforce-actions-api
 - baseURL: https://{instance}.salesforce.com/services/data
@@ -287,9 +257,9 @@ apis:
   description: The Blobs API from Salesforce — 1 operation(s) for blobs.
   name: Salesforce Blobs API
   slug: salesforce-blobs-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/async
   baseurl_source: declared
-  description: The Bulk API from Salesforce — 6 operation(s) for bulk.
+  description: 'The Salesforce Bulk API is a specialized REST-based interface that enables asynchronous processing of large numbers of records. It is optimized for loading or deleting large sets of data and supports '
   name: Salesforce Bulk API
   slug: salesforce-bulk-api
 - baseURL: https://{instance}.salesforce.com/services/data
@@ -367,9 +337,9 @@ apis:
   description: The Completion API from Salesforce — 1 operation(s) for completion.
   name: Salesforce Completion API
   slug: salesforce-completion-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/composite
   baseurl_source: declared
-  description: The Composite API executes a series of REST API requests in a single POST request, or retrieves a list of other composite resources with a GET request. There are three types of Composite requests some
+  description: The Salesforce Composite API allows developers to combine multiple Salesforce REST API requests into a single HTTP call. It reduces the number of round trips to the server and supports dependent reque
   name: Salesforce Composite API
   slug: salesforce-composite-api
 - baseURL: https://{instance}.salesforce.com/services/data
@@ -377,10 +347,10 @@ apis:
   description: The Configuration API from Salesforce — 3 operation(s) for configuration.
   name: Salesforce Configuration API
   slug: salesforce-configuration-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/chatter
   baseurl_source: declared
-  description: The Connect API from Salesforce — 3 operation(s) for connect.
-  name: Salesforce Connect API
+  description: 'The Salesforce Connect REST API (formerly Chatter API) provides access to Salesforce Chatter feeds, groups, users, topics, and file sharing features. It also exposes Experience Cloud (community) data '
+  name: Salesforce Connect API (Chatter)
   slug: salesforce-connect-api
 - baseURL: https://{instance}.salesforce.com/services/data
   baseurl_source: declared
@@ -697,9 +667,9 @@ apis:
   description: Operations for creating and tracking email and SMS message sends, including triggered sends and transactional messages.
   name: Salesforce Messaging API
   slug: salesforce-messaging-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/einstein
   baseurl_source: declared
-  description: The Models API from Salesforce — 2 operation(s) for models.
+  description: The Salesforce Models API provides Apex classes and REST endpoints that connect applications to large language models (LLMs) from Salesforce partners including Anthropic, Google, and OpenAI. It suppor
   name: Salesforce Models API
   slug: salesforce-models-api
 - baseURL: https://{instance}.salesforce.com/services/data
@@ -842,10 +812,10 @@ apis:
   description: The Search API from Salesforce — 9 operation(s) for search.
   name: Salesforce Search API
   slug: salesforce-search-api
-- baseURL: https://{instance}.salesforce.com/services/data
+- baseURL: https://{instance}.salesforce.com/services/Soap
   baseurl_source: declared
-  description: The Soap API from Salesforce — 3 operation(s) for soap.
-  name: Salesforce Soap API
+  description: The Salesforce SOAP API enables developers to use SOAP calls to create, retrieve, update, and delete records such as accounts, leads, and custom objects. It provides robust enterprise-grade integratio
+  name: Salesforce SOAP API
   slug: salesforce-soap-api
 - baseURL: https://{instance}.salesforce.com/services/data
   baseurl_source: declared
@@ -962,7 +932,7 @@ arazzos:
 - description: Create or update an SObject record keyed on an external id field value.
   name: Salesforce Upsert by External Id
   slug: salesforce-upsert-by-external-id-workflow
-artifact_total: 5737
+artifact_total: 5731
 asyncapis:
 - description: Salesforce Change Data Capture (CDC) delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. Subscribers receive rich change events with
   name: Salesforce Change Data Capture API
@@ -18067,7 +18037,7 @@ modified: '2026-09-16'
 name: Salesforce
 nav: Providers
 network: true
-overview: 'Salesforce publishes 152 APIs on the [APIs.io](https://apis.io/) network, including REST API, SOAP API, Bulk API, and 149 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
+overview: 'Salesforce publishes 146 APIs on the [APIs.io](https://apis.io/) network, including REST API, Streaming API, Platform Events API, and 143 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
 
 
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -18176,7 +18146,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -18214,6 +18184,7 @@ tags:
 - Sales
 - Salesforce
 - Agentic Commerce
+- A2A
 use_cases:
 - description: Synchronize customer, lead, and opportunity data between Salesforce and external systems.
   name: CRM Data Integration

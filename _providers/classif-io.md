@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: One of the sixteen demo classification APIs Classif.io advertised, named "Fashion Style classification API" in the site navigation of the last archived capture of the homepage (2025-03-21). What the A
@@ -97,7 +97,7 @@ modified: '2026-09-16'
 name: Classif.io
 nav: Providers
 network: true
-overview: 'Classif.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer-Vision, Fashion, and Image Recognition.
+overview: 'Classif.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Classification, Computer Vision, Fashion, and Image Recognition.
 
 
   The Classif.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -152,10 +152,10 @@ slug: classif-io
 tags:
 - Apparel
 - Classification
-- Computer-Vision
+- Computer Vision
 - Fashion
 - Image Recognition
-- Machine-Learning
+- Machine Learning
 - Recommendations
 website: https://classif.io
 ---

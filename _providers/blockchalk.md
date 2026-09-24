@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: http://blockchalk.com/api
   baseurl_source: declared
   description: Location-pinned neighborhood messages.
-  name: BlockChalk chalks API
+  name: BlockChalk Chalks API
   slug: blockchalk-chalks-api
 artifact_total: 5
 collections:
@@ -96,7 +96,7 @@ modified: '2026-07-20'
 name: BlockChalk
 nav: Providers
 network: true
-overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network: chalks API. Tagged areas include Company, Location, Geolocation, Social, and Messaging.
+overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network: Chalks API. Tagged areas include Company, Location, Geolocation, Social, and Messaging.
 
 
   BlockChalk''s developer surface includes documentation, API reference, and 6 more developer resources.'
@@ -128,7 +128,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

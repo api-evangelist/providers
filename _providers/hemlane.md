@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Internal REST API powering the Hemlane property management platform, providing access to rental listings, tenant applications, lease tracking, rent payments, maintenance requests, and owner financial '
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Hemlane
 nav: Providers
 network: true
-overview: 'Hemlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Rentals, Tenant Screening, and Lease Management.
+overview: 'Hemlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Rentals, Tenant Screening, and Lease Management.
 
 
   Hemlane''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ security:
 slug: hemlane
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rentals
 - Tenant Screening
 - Lease Management

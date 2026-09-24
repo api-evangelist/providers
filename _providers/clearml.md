@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 34
+- acting_count: 25
   human_in_the_loop: 3
   name: Clearml Agentic Access
   operation_count: 34
   slug: clearml-agentic-access
-  summary_line: 34 operations · 34 acting · 3 human-in-the-loop
+  summary_line: 34 operations · 25 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: 'The ClearML REST API is organized into services: auth (login/credentials), projects, tasks (experiments), workers, models, queues, events, pipelines, and reports. Authentication uses access/secret-key'
@@ -204,7 +204,7 @@ modified: '2026-05-08'
 name: ClearML
 nav: Providers
 network: true
-overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include Machine-Learning, MLOps, Open-Source, Experiment Tracking, and Orchestration.
+overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include Machine Learning, MLOps, Open Source, Experiment Tracking, and Orchestration.
 
 
   ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 12 more developer resources.'
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -265,9 +265,9 @@ security:
   summary_line: security.txt · contact published
 slug: clearml
 tags:
-- Machine-Learning
+- Machine Learning
 - MLOps
-- Open-Source
+- Open Source
 - Experiment Tracking
 - Orchestration
 website: https://clear.ml/

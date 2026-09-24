@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Nakama Agentic Access
   operation_count: 27
   slug: nakama-agentic-access
-  summary_line: 27 operations · 19 acting
+  summary_line: 27 operations · 18 acting
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:7350/ws
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -280,6 +280,6 @@ tags:
 - Matchmaking
 - Leaderboards
 - Social
-- Open-Source
+- Open Source
 website: https://heroiclabs.com/
 ---

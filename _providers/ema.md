@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards, Document Generation, Templates, Triggers and ten
@@ -159,7 +159,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -191,7 +191,7 @@ tags:
 - AI Employees
 - Automation
 - Enterprise
-- Workflow-Automation
+- Workflow Automation
 - Conversational AI
 website: https://www.ema.ai
 ---

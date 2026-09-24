@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 33
+- acting_count: 31
   human_in_the_loop: 0
   name: Sponge Agentic Access
   operation_count: 57
   slug: sponge-agentic-access
-  summary_line: 57 operations · 33 acting
+  summary_line: 57 operations · 31 acting
 api_count: 1
 apis:
 - baseURL: https://api.wallet.paysponge.com
@@ -326,7 +326,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

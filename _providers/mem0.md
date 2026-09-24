@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 34
+- acting_count: 32
   human_in_the_loop: 0
   name: Mem0 Agentic Access
   operation_count: 52
   slug: mem0-agentic-access
-  summary_line: 52 operations · 34 acting
+  summary_line: 52 operations · 32 acting
 api_count: 1
 apis:
 - description: The Mem0 Platform API provides hosted memory services for AI agents, exposing endpoints for adding, searching, retrieving, updating, and deleting memories, plus entities, events, organizations, projec
@@ -51,42 +51,42 @@ apis:
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The agents API from Mem0 — 1 operation(s) for agents.
-  name: Mem0 agents API
+  name: Mem0 Agents API
   slug: mem0-agents-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The apps API from Mem0 — 1 operation(s) for apps.
-  name: Mem0 apps API
+  name: Mem0 Apps API
   slug: mem0-apps-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The entities API from Mem0 — 3 operation(s) for entities.
-  name: Mem0 entities API
+  name: Mem0 Entities API
   slug: mem0-entities-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The events API from Mem0 — 2 operation(s) for events.
-  name: Mem0 events API
+  name: Mem0 Events API
   slug: mem0-events-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The exports API from Mem0 — 2 operation(s) for exports.
-  name: Mem0 exports API
+  name: Mem0 Exports API
   slug: mem0-exports-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The feedback API from Mem0 — 1 operation(s) for feedback.
-  name: Mem0 feedback API
+  name: Mem0 Feedback API
   slug: mem0-feedback-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The memories API from Mem0 — 12 operation(s) for memories.
-  name: Mem0 memories API
+  name: Mem0 Memories API
   slug: mem0-memories-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The organizations API from Mem0 — 3 operation(s) for organizations.
-  name: Mem0 organizations API
+  name: Mem0 Organizations API
   slug: mem0-organizations-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
@@ -96,27 +96,27 @@ apis:
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The projects API from Mem0 — 3 operation(s) for projects.
-  name: Mem0 projects API
+  name: Mem0 Projects API
   slug: mem0-projects-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The runs API from Mem0 — 1 operation(s) for runs.
-  name: Mem0 runs API
+  name: Mem0 Runs API
   slug: mem0-runs-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The stats API from Mem0 — 1 operation(s) for stats.
-  name: Mem0 stats API
+  name: Mem0 Stats API
   slug: mem0-stats-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The users API from Mem0 — 1 operation(s) for users.
-  name: Mem0 users API
+  name: Mem0 Users API
   slug: mem0-users-api
 - baseURL: https://api.mem0.ai
   baseurl_source: declared
   description: The webhooks API from Mem0 — 2 operation(s) for webhooks.
-  name: Mem0 webhooks API
+  name: Mem0 Webhooks API
   slug: mem0-webhooks-api
 artifact_total: 37
 collections:
@@ -260,7 +260,7 @@ modified: '2026-05-23'
 name: Mem0
 nav: Providers
 network: true
-overview: 'Mem0 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including agents API, apps API, entities API, and 11 more. Tagged areas include Memory, AI Agents, Agent Memory, Context, and LLM.
+overview: 'Mem0 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Apps API, Entities API, and 11 more. Tagged areas include Memory, AI Agents, Agent Memory, Context, and LLM.
 
 
   Mem0''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
@@ -283,7 +283,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     contract_governance: 0.0
@@ -294,7 +294,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 56.4
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -303,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -331,7 +331,7 @@ tags:
 - CrewAI
 - AutoGen
 - LlamaIndex
-- Open-Source
+- Open Source
 - Infrastructure
 website: https://mem0.ai
 ---

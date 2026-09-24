@@ -34,113 +34,113 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to alert comments which have been written for alerts
-  name: HappyOrNot alert-comments API
+  name: HappyOrNot Alert Comments API
   slug: happyornot-alert-comments-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to alert specifications based on which alerts are triggered
-  name: HappyOrNot alert-specifications API
+  name: HappyOrNot Alert Specifications API
   slug: happyornot-alert-specifications-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to alerts which have been triggered by incoming feedback, based on alert specfications
-  name: HappyOrNot alerts API
+  name: HappyOrNot Alerts API
   slug: happyornot-alerts-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Button feedback related endpoints and data definitions
-  name: HappyOrNot button-feedbacks API
+  name: HappyOrNot Button Feedbacks API
   slug: happyornot-button-feedbacks-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Contact details data endpoints and data definitions
-  name: HappyOrNot contact-details API
+  name: HappyOrNot Contact Details API
   slug: happyornot-contact-details-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to custom data fields
-  name: HappyOrNot custom-data-fields API
+  name: HappyOrNot Custom Data Fields API
   slug: happyornot-custom-data-fields-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Demographics data endpoints and data definitions
-  name: HappyOrNot demographics API
+  name: HappyOrNot Demographics API
   slug: happyornot-demographics-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Experience points and groups related endpoints and data definitions
-  name: HappyOrNot experience-points API
+  name: HappyOrNot Experience Points API
   slug: happyornot-experience-points-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Follow-up feedback related endpoints and data definitions
-  name: HappyOrNot follow-up-feedbacks API
+  name: HappyOrNot Follow Up Feedbacks API
   slug: happyornot-follow-up-feedbacks-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to localizations for selectable options for follow ups in surveys
-  name: HappyOrNot follow-up-option-localizations API
+  name: HappyOrNot Follow Up Option Localizations API
   slug: happyornot-follow-up-option-localizations-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to selectable options for follow ups in surveys
-  name: HappyOrNot follow-up-options API
+  name: HappyOrNot Follow Up Options API
   slug: happyornot-follow-up-options-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to localizations for questions used for follow ups in surveys
-  name: HappyOrNot follow-up-question-localizations API
+  name: HappyOrNot Follow Up Question Localizations API
   slug: happyornot-follow-up-question-localizations-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to questions used for follow ups in surveys
-  name: HappyOrNot follow-up-questions API
+  name: HappyOrNot Follow Up Questions API
   slug: happyornot-follow-up-questions-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Metadata related endpoints and daa definitions
-  name: HappyOrNot metadata API
+  name: HappyOrNot Metadata API
   slug: happyornot-metadata-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to localizations for question used in surveys
-  name: HappyOrNot question-localizations API
+  name: HappyOrNot Question Localizations API
   slug: happyornot-question-localizations-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to questions used in surveys
-  name: HappyOrNot questions API
+  name: HappyOrNot Questions API
   slug: happyornot-questions-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to smileys
-  name: HappyOrNot smileys API
+  name: HappyOrNot Smileys API
   slug: happyornot-smileys-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Surveys related endpoints and data definitions
-  name: HappyOrNot surveys API
+  name: HappyOrNot Surveys API
   slug: happyornot-surveys-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Text feedback related endpoints and data definitions
-  name: HappyOrNot text-feedbacks API
+  name: HappyOrNot Text Feedbacks API
   slug: happyornot-text-feedbacks-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Token introspection including token scopes
-  name: HappyOrNot token-introspection API
+  name: HappyOrNot Token Introspection API
   slug: happyornot-token-introspection-api
 - baseURL: https://api.happy-or-not.com/v2/
   baseurl_source: declared
   description: Endpoints and data definitions related to users
-  name: HappyOrNot users API
+  name: HappyOrNot Users API
   slug: happyornot-users-api
 arazzos:
 - description: Walk the experience-point tree, resolve surveys, then pull button feedback for a period.
@@ -368,7 +368,7 @@ modified: '2026-07-19'
 name: HappyOrNot
 nav: Providers
 network: true
-overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) network, including alert-comments API, alert-specifications API, alerts API, and 18 more. Tagged areas include Company, Enterprise, Customer Experience, Customer Feedback, and Surveys.
+overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alert Comments API, Alert Specifications API, Alerts API, and 18 more. Tagged areas include Company, Enterprise, Customer Experience, Customer Feedback, and Surveys.
 
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
@@ -402,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

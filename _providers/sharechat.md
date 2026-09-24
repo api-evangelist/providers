@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-21'
 name: Sharechat
 nav: Providers
 network: true
-overview: 'Sharechat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Social Network, Short Video, and User Generated Content.
+overview: 'Sharechat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Social Network, Short Video, and User Generated Content.
 
 
   Sharechat''s developer surface includes support, engineering blog, and 9 more developer resources.'
@@ -121,7 +121,7 @@ score:
     - india-south-asia
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +136,7 @@ security:
 slug: sharechat
 tags:
 - Company
-- Social-Media
+- Social Media
 - Social Network
 - Short Video
 - User Generated Content

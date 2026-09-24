@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-18'
 name: David AI
 nav: Providers
 network: true
-overview: 'David AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Audio Data, and Speech Recognition.
+overview: 'David AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Audio Data, and Speech Recognition.
 
 
   David AI''s developer surface includes support, engineering blog, and 4 more developer resources.'
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ slug: david-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Audio Data
 - Speech Recognition
 - Conversational AI

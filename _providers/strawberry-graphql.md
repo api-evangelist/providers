@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field extension
@@ -92,7 +92,7 @@ modified: '2026-09-16'
 name: Strawberry GraphQL
 nav: Providers
 network: true
-overview: 'Strawberry GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Python, Open-Source, Code-First, and Federation.
+overview: 'Strawberry GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Python, Open Source, Code-First, and Federation.
 
 
   Strawberry GraphQL''s developer surface includes documentation, pricing, and 7 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ slug: strawberry-graphql
 tags:
 - GraphQL
 - Python
-- Open-Source
+- Open Source
 - Code-First
 - Federation
 website: https://strawberry.rocks/

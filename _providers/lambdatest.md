@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
   description: The extensions API from LambdaTest — 2 operation(s) for extensions.
-  name: LambdaTest extensions API
+  name: LambdaTest Extensions API
   slug: lambdatest-extensions-api
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
@@ -101,12 +101,12 @@ apis:
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
   description: The platforms API from LambdaTest — 1 operation(s) for platforms.
-  name: LambdaTest platforms API
+  name: LambdaTest Platforms API
   slug: lambdatest-platforms-api
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
   description: The prerun API from LambdaTest — 4 operation(s) for prerun.
-  name: LambdaTest prerun API
+  name: LambdaTest Prerun API
   slug: lambdatest-prerun-api
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
@@ -131,7 +131,7 @@ apis:
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
   description: The tunnel API from LambdaTest — 2 operation(s) for tunnel.
-  name: LambdaTest tunnel API
+  name: LambdaTest Tunnel API
   slug: lambdatest-tunnel-api
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
@@ -141,7 +141,7 @@ apis:
 - baseURL: https://api.lambdatest.com
   baseurl_source: declared
   description: The user-files API from LambdaTest — 3 operation(s) for user-files.
-  name: LambdaTest user-files API
+  name: LambdaTest User Files API
   slug: lambdatest-user-files-api
 artifact_total: 78
 collections:
@@ -311,7 +311,7 @@ modified: '2026-06-12'
 name: LambdaTest
 nav: Providers
 network: true
-overview: 'LambdaTest publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Autoheal Command Logs API, Build API, extensions API, and 15 more. Tagged areas include Testing, Cross-Browser Testing, Selenium, Cypress, and Playwright.
+overview: 'LambdaTest publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Autoheal Command Logs API, Build API, Extensions API, and 15 more. Tagged areas include Testing, Cross-Browser Testing, Selenium, Cypress, and Playwright.
 
 
   The LambdaTest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -366,7 +366,7 @@ score:
       total: 18
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

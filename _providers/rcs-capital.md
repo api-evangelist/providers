@@ -84,7 +84,7 @@ modified: '2026-09-15'
 name: RCS Capital
 nav: Providers
 network: true
-overview: 'RCS Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Cetera Financial Group, Defunct, Financial-Services, and Independent Advisor.
+overview: 'RCS Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Cetera Financial Group, Defunct, Financial Services, and Independent Advisor.
 
 
   The RCS Capital catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -130,7 +130,7 @@ tags:
 - Broker-Dealer
 - Cetera Financial Group
 - Defunct
-- Financial-Services
+- Financial Services
 - Independent Advisor
 - Investment Banking
 - Wealth Management

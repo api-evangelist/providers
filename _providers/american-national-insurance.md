@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 13
 common:
@@ -166,7 +166,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ tags:
 - Health Insurance
 - Property Casualty
 - Pensions
-- Financial-Services
+- Financial Services
 - Fortune 1000
 use_cases:
 - description: Using annuity products to create guaranteed lifetime income streams for retirees and near-retirees concerned about outliving their assets.

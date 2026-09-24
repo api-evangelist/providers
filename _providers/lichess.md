@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 84
+- acting_count: 83
   human_in_the_loop: 4
   name: Lichess Agentic Access
-  operation_count: 185
+  operation_count: 188
   slug: lichess-agentic-access
-  summary_line: 185 operations · 84 acting · 4 human-in-the-loop
+  summary_line: 188 operations · 83 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://lichess.org
@@ -564,7 +564,7 @@ modified: '2026-05-25'
 name: Lichess
 nav: Providers
 network: true
-overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open-Source, Non-Profit, and Tournaments.
+overview: 'Lichess publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Board API, and 20 more. Tagged areas include Chess, Games, Open Source, Non-Profit, and Tournaments.
 
 
   The Lichess catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -644,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -667,7 +667,7 @@ slug: lichess
 tags:
 - Chess
 - Games
-- Open-Source
+- Open Source
 - Non-Profit
 - Tournaments
 - Puzzles

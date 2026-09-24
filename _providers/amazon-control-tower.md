@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
-  human_in_the_loop: 27
+- acting_count: 17
+  human_in_the_loop: 17
   name: Amazon Control Tower Agentic Access
   operation_count: 28
   slug: amazon-control-tower-agentic-access
-  summary_line: 28 operations · 27 acting · 27 human-in-the-loop
+  summary_line: 28 operations · 17 acting · 17 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://controltower.amazonaws.com
@@ -114,7 +114,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/controltower/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/agentic-access/amazon-control-tower-agentic-access.yml
   title: ''
@@ -732,7 +732,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -774,5 +774,5 @@ use_cases:
   name: OU Governance
 - description: Continuously monitor compliance posture across all accounts and receive alerts when controls are violated or drift is detected.
   name: Risk and Posture Management
-website: https://amazon.com
+website: https://aws.amazon.com/controltower/
 ---

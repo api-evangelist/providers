@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'REST/XML API for managing the full Vulnerability Management Detection and Response lifecycle including asset inventory, scans, vulnerability findings, prioritization, and reports. Base URL varies per '
@@ -41,7 +41,7 @@ apis:
 - description: Authentication endpoint that issues JSON Web Tokens (JWT) used as Bearer credentials for newer Qualys APIs (VMDR OT, CSAM, TotalCloud). Clients post username and password to /auth and pass the returne
   name: Qualys Authentication API
   slug: authentication-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qualys/refs/heads/main/security/qualys-domain-security.yml
@@ -94,10 +94,6 @@ common:
   url: https://blog.qualys.com/feed
 created: '2026-05-11'
 description: Qualys is a cloud-based security and compliance platform offering Vulnerability Management Detection and Response (VMDR), Policy Compliance, Web Application Scanning, Container Security, EDR, and Cloud Security Posture Management. The Qualys API framework exposes XML and JSON REST endpoints across platform pods (qualysapi.qualys.com, qualysapi.qg2.apps.qualys.com, etc.) for managing scans, assets, vulnerabilities, reports, and findings. Authentication supports HTTP Basic auth and JWT bearer tokens via the Qualys Authentication API.
-graphqls:
-- description: 'This conceptual GraphQL schema models the Qualys cloud security platform, covering its major product areas: Vulnerability Management Detection and Response (VMDR), Policy Compliance, Web Application S'
-  name: Qualys GraphQL Schema
-  slug: qualys-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualys.png
 layout: provider
 modified: '2026-05-11'
@@ -111,26 +107,26 @@ overview: 'Qualys publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: emerging
-  composite: 21.9
+  composite: 12.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 68.5
     operational_transparency: 18.4
   previous_composite: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

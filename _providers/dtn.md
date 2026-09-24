@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Dtn Agentic Access
-  operation_count: 250
+  operation_count: 232
   slug: dtn-agentic-access
-  summary_line: 250 operations · 17 acting
+  summary_line: 232 operations · 14 acting
 api_count: 37
 apis:
 - description: DTN Point Forecast API delivers high-quality weather forecasts for specified locations. Provides hourly and daily forecast data for agriculture, aviation, shipping, and utilities use cases. Uses the s
@@ -534,7 +534,7 @@ apis:
 - baseURL: https://point-forecast.weather.mg
   baseurl_source: declared
   description: Endpoints for the api/catalog resources
-  name: DTN AP Is API
+  name: DTN APIs API
   slug: dtn-apis-api
 artifact_total: 148
 asyncapis:
@@ -909,7 +909,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -935,5 +935,6 @@ tags:
 - Forecasting
 - Observations
 - Commodities
+- Real-Time
 website: https://www.dtn.com/
 ---

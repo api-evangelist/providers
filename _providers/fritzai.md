@@ -45,7 +45,7 @@ modified: '2026-09-15'
 name: Fritz.ai
 nav: Providers
 network: true
-overview: 'Fritz.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Artificial Intelligence, Mobile, and On-Device ML.
+overview: 'Fritz.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Artificial Intelligence, Mobile, and On-Device ML.
 
 
   Fritz.ai''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -59,7 +59,7 @@ security:
 slug: fritzai
 tags:
 - Company
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Mobile
 - On-Device ML

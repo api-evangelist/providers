@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,7 +62,7 @@ modified: '2026-04-28'
 name: Penn Mutual Life Insurance
 nav: Providers
 network: true
-overview: Penn Mutual Life Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, and Financial-Services.
+overview: Penn Mutual Life Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, and Financial Services.
 press:
 - date: ''
   title: AI Optimism Fuels Global Equity Markets Higher
@@ -106,7 +106,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -127,6 +127,6 @@ tags:
 - Insurance
 - Life Insurance
 - Annuities
-- Financial-Services
+- Financial Services
 website: https://www.pennmutual.com
 ---

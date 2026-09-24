@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -47,17 +47,17 @@ apis:
 - baseURL: https://apiv2.hitchpin.com
   baseurl_source: declared
   description: Invoices shared with a buyer.
-  name: HitchPin instant-invoice-share API
+  name: HitchPin Instant Invoice Share API
   slug: hitchpin-instant-invoice-share-api
 - baseURL: https://apiv2.hitchpin.com
   baseurl_source: declared
   description: Invoices created by a seller.
-  name: HitchPin instant-invoices API
+  name: HitchPin Instant Invoices API
   slug: hitchpin-instant-invoices-api
 - baseURL: https://apiv2.hitchpin.com
   baseurl_source: declared
   description: The rendering API from HitchPin — 3 operation(s) for rendering.
-  name: HitchPin rendering API
+  name: HitchPin Rendering API
   slug: hitchpin-rendering-api
 artifact_total: 12
 collections:
@@ -204,7 +204,7 @@ modified: '2026-07-19'
 name: HitchPin
 nav: Providers
 network: true
-overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network: instant-invoice-share API, instant-invoices API, and rendering API. Tagged areas include Company, Marketplace, Agriculture, Livestock, and Hay and Forage.
+overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network: Instant Invoice Share API, Instant Invoices API, and Rendering API. Tagged areas include Company, Marketplace, Agriculture, Livestock, and Hay and Forage.
 
 
   HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 18 more developer resources.'
@@ -245,7 +245,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

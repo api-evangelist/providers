@@ -91,7 +91,7 @@ apis:
   description: The Watchlist API from TD Ameritrade — 3 operation(s) for watchlist.
   name: TD Ameritrade Watchlist API
   slug: td-ameritrade-watchlist-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -207,10 +207,6 @@ finops:
 - name: Finops
   service_category: ''
   slug: finops
-graphqls:
-- description: TD Ameritrade was a major US retail brokerage that provided REST APIs for trading equities and options, accessing streaming market data, managing brokerage accounts, and retrieving historical and real
-  name: TD Ameritrade GraphQL Schema
-  slug: td-ameritrade-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/td-ameritrade.png
 json_schemas:
 - name: TD Ameritrade API Schemas

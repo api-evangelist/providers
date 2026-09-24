@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,7 +110,7 @@ modified: '2026-07-19'
 name: Lastro
 nav: Providers
 network: true
-overview: 'Lastro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Artificial Intelligence, and Brazil.
+overview: 'Lastro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Artificial Intelligence, and Brazil.
 
 
   Lastro''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -144,7 +144,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,7 @@ slug: lastro
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 - Brazil
 - Lead Management

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,42 +50,42 @@ apis:
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Charges
-  name: Companies House charges API
+  name: Companies House Charges API
   slug: companies-house-charges-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Filing history
-  name: Companies House filingHistory API
+  name: Companies House Filing History API
   slug: companies-house-filinghistory-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Insolvency
-  name: Companies House insolvency API
+  name: Companies House Insolvency API
   slug: companies-house-insolvency-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Officer disqualifications
-  name: Companies House officerDisqualifications API
+  name: Companies House Officer Disqualifications API
   slug: companies-house-officerdisqualifications-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Officers
-  name: Companies House officers API
+  name: Companies House Officers API
   slug: companies-house-officers-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Persons with significant control
-  name: Companies House personsWithSignificantControl API
+  name: Companies House Persons With Significant Control API
   slug: companies-house-personswithsignificantcontrol-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Registered office address
-  name: Companies House registeredOfficeAddress API
+  name: Companies House Registered Office Address API
   slug: companies-house-registeredofficeaddress-api
 - baseURL: https://api.company-information.service.gov.uk
   baseurl_source: declared
   description: Search
-  name: Companies House search API
+  name: Companies House Search API
   slug: companies-house-search-api
 artifact_total: 155
 collections:
@@ -614,7 +614,7 @@ modified: '2026-06-12'
 name: Companies House
 nav: Providers
 network: true
-overview: 'Companies House publishes 8 APIs on the [APIs.io](https://apis.io/) network, including charges API, filingHistory API, insolvency API, and 5 more. Tagged areas include Companies, UK Government, Business Registration, Company Search, and Officers.
+overview: 'Companies House publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Charges API, Filing History API, Insolvency API, and 5 more. Tagged areas include Companies, UK Government, Business Registration, Company Search, and Officers.
 
 
   The Companies House catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -674,7 +674,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

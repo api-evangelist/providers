@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,24 +47,24 @@ apis:
 - baseURL: https://0.gravatar.com
   baseurl_source: declared
   description: Operations about user avatars
-  name: Gravatar avatars API
+  name: Gravatar Avatars API
   slug: gravatar-avatars-api
 - baseURL: https://0.gravatar.com
   baseurl_source: declared
   description: Experimental operations that might be subject to change. Use with caution.
-  name: Gravatar experimental API
+  name: Gravatar Experimental API
   slug: gravatar-experimental-api
 - baseURL: https://0.gravatar.com
   baseurl_source: declared
   description: Operations about user profiles
-  name: Gravatar profiles API
+  name: Gravatar Profiles API
   slug: gravatar-profiles-api
 - baseURL: https://0.gravatar.com
   baseurl_source: declared
   description: Operations about QR codes
-  name: Gravatar qr-code API
+  name: Gravatar Qr Code API
   slug: gravatar-qr-code-api
-artifact_total: 42
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -205,10 +205,6 @@ finops:
 - name: Finops
   service_category: ''
   slug: finops
-graphqls:
-- description: Gravatar does not expose a native GraphQL endpoint. This schema is a conceptual GraphQL representation of the Gravatar REST API v3, derived from the public REST types documented at https://docs.gravat
-  name: Gravatar GraphQL
-  slug: gravatar-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gravatar.png
 json_schemas:
 - name: AssociatedResponse
@@ -254,7 +250,7 @@ modified: '2026-06-13'
 name: Gravatar
 nav: Providers
 network: true
-overview: 'Gravatar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including avatars API, experimental API, profiles API, and 1 more. Tagged areas include Avatars, Identity, Profiles, Social, and Image.
+overview: 'Gravatar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Experimental API, Profiles API, and 1 more. Tagged areas include Avatars, Identity, Profiles, Social, and Image.
 
 
   The Gravatar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -288,19 +284,19 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 44.9
+  composite: 44.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 67.3
     catalog_earned_first_party: 0.0
     catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.0
+    contract_quality: 60.4
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 23.7
@@ -313,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

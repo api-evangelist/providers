@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 445
-  human_in_the_loop: 88
+- acting_count: 468
+  human_in_the_loop: 14
   name: Cisco Meraki Agentic Access
-  operation_count: 957
+  operation_count: 1023
   slug: cisco-meraki-agentic-access
-  summary_line: 957 operations · 445 acting · 88 human-in-the-loop
+  summary_line: 1023 operations · 468 acting · 14 human-in-the-loop
 api_count: 6
 apis:
 - description: Webhooks API for receiving real-time alerts and events from Meraki networks, including device, network, and security events delivered to configured HTTPS endpoints.
@@ -301,7 +301,7 @@ score:
       marker_coverage: 100.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

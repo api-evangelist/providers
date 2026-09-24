@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 8
@@ -45,43 +45,43 @@ agentic_access:
 api_count: 1
 apis:
 - description: The clients API from Stacklok — 5 operation(s) for clients.
-  name: Stacklok clients API
+  name: Stacklok Clients API
   slug: stacklok-clients-api
 - description: The discovery API from Stacklok — 1 operation(s) for discovery.
-  name: Stacklok discovery API
+  name: Stacklok Discovery API
   slug: stacklok-discovery-api
 - description: The groups API from Stacklok — 2 operation(s) for groups.
-  name: Stacklok groups API
+  name: Stacklok Groups API
   slug: stacklok-groups-api
 - description: The logs API from Stacklok — 2 operation(s) for logs.
-  name: Stacklok logs API
+  name: Stacklok Logs API
   slug: stacklok-logs-api
 - description: The registry API from Stacklok — 10 operation(s) for registry.
-  name: Stacklok registry API
+  name: Stacklok Registry API
   slug: stacklok-registry-api
 - description: The registry-servers API from Stacklok — 2 operation(s) for registry-servers.
-  name: Stacklok registry-servers API
+  name: Stacklok Registry Servers API
   slug: stacklok-registry-servers-api
 - description: The registry-skills API from Stacklok — 2 operation(s) for registry-skills.
-  name: Stacklok registry-skills API
+  name: Stacklok Registry Skills API
   slug: stacklok-registry-skills-api
 - description: The secrets API from Stacklok — 4 operation(s) for secrets.
-  name: Stacklok secrets API
+  name: Stacklok Secrets API
   slug: stacklok-secrets-api
 - description: The skills API from Stacklok — 12 operation(s) for skills.
-  name: Stacklok skills API
+  name: Stacklok Skills API
   slug: stacklok-skills-api
 - description: The system API from Stacklok — 3 operation(s) for system.
-  name: Stacklok system API
+  name: Stacklok System API
   slug: stacklok-system-api
 - description: The v1 API from Stacklok — 10 operation(s) for v1.
   name: Stacklok v1 API
   slug: stacklok-v1-api
 - description: The version API from Stacklok — 1 operation(s) for version.
-  name: Stacklok version API
+  name: Stacklok Version API
   slug: stacklok-version-api
 - description: The workloads API from Stacklok — 13 operation(s) for workloads.
-  name: Stacklok workloads API
+  name: Stacklok Workloads API
   slug: stacklok-workloads-api
 artifact_total: 30
 collections:
@@ -159,7 +159,7 @@ modified: '2026-07-17'
 name: Stacklok
 nav: Providers
 network: true
-overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clients API, discovery API, groups API, and 10 more. Tagged areas include Company and Open-Source.
+overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Discovery API, Groups API, and 10 more. Tagged areas include Company, Open Source, and A2A.
 random_paper: 2
 score:
   band: emerging
@@ -171,7 +171,7 @@ score:
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -179,7 +179,7 @@ score:
     developer_ergonomics: 1.8
     discoverability: 44.4
     operational_transparency: 0.0
-  previous_composite: 19.1
+  previous_composite: 18.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,7 +191,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -209,6 +209,7 @@ security:
 slug: stacklok
 tags:
 - Company
-- Open-Source
+- Open Source
+- A2A
 website: https://www.stacklok.com/
 ---

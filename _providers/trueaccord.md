@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-07-21'
 name: TrueAccord
 nav: Providers
 network: true
-overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial-Services, Fintech, and Machine-Learning.
+overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Company, Debt Collection, Financial Services, Fintech, and Machine Learning.
 
 
   TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 17 more developer resources.'
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -212,9 +212,9 @@ slug: trueaccord
 tags:
 - Company
 - Debt Collection
-- Financial-Services
+- Financial Services
 - Fintech
-- Machine-Learning
+- Machine Learning
 - Collection
 - Consumer Finance
 website: https://www.trueaccord.com

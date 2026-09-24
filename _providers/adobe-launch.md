@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 150
+- acting_count: 149
   human_in_the_loop: 0
   name: Adobe Launch Agentic Access
   operation_count: 299
   slug: adobe-launch-agentic-access
-  summary_line: 299 operations · 150 acting
+  summary_line: 299 operations · 149 acting
 api_count: 7
 apis:
 - baseURL: https://reactor.adobe.io
@@ -2024,7 +2024,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

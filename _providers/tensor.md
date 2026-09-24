@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -501,7 +501,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -528,5 +528,6 @@ tags:
 - DAO
 - DeFi
 - AMM
+- Real-Time
 website: https://tensor.trade
 ---

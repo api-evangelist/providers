@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-18'
 name: Culdesac
 nav: Providers
 network: true
-overview: 'Culdesac is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Real Estate Development, Housing, and Urban Planning.
+overview: 'Culdesac is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Real Estate Development, Housing, and Urban Planning.
 
 
   Culdesac''s developer surface includes signup flow, support, and 7 more developer resources.'
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ security:
 slug: culdesac
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Real Estate Development
 - Housing
 - Urban Planning

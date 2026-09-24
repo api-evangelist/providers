@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 75
+- acting_count: 76
   human_in_the_loop: 0
   name: Fixflo Agentic Access
-  operation_count: 165
+  operation_count: 168
   slug: fixflo-agentic-access
-  summary_line: 165 operations · 75 acting
+  summary_line: 168 operations · 76 acting
 api_count: 1
 apis:
 - baseURL: https://api-sandbox.fixflo.com/api/v2
@@ -363,7 +363,7 @@ modified: '2026-07-26'
 name: Fixflo
 nav: Providers
 network: true
-overview: 'Fixflo publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Agent API, Asset API, and 21 more. Tagged areas include Real-Estate, United Kingdom, Property Management, PropTech, and Repairs and Maintenance.
+overview: 'Fixflo publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Agent API, Asset API, and 21 more. Tagged areas include Real Estate, United Kingdom, Property Management, PropTech, and Repairs and Maintenance.
 
 
   The Fixflo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -418,7 +418,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -435,7 +435,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fixflo
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - Property Management
 - PropTech

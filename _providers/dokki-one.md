@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://dokki.one/api/v1
@@ -216,7 +216,7 @@ modified: '2026-09-19'
 name: Dokki
 nav: Providers
 network: true
-overview: 'Dokki publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Knowledge-Management, Documents, Agents, and MCP.
+overview: 'Dokki publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Knowledge Management, Documents, Agents, and MCP.
 
 
   Dokki''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, release notes, and 30 more developer resources.'
@@ -270,7 +270,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -287,7 +287,7 @@ security:
 slug: dokki-one
 tags:
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 - Documents
 - Agents
 - MCP

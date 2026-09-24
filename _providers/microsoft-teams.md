@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ arazzos:
 - description: List a team's channels and read the recent messages in a chosen channel.
   name: Microsoft Teams Review Channel Conversation
   slug: microsoft-teams-review-channel-conversation-workflow
-artifact_total: 114
+artifact_total: 113
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous event surface for Microsoft Teams. Two distinct delivery channels are modeled: 1. Microsoft Graph change notifications - HTTPS webhook deliveries that Micr'
   name: Microsoft Teams Event Surface
@@ -477,10 +477,6 @@ finops:
 - name: Microsoft Teams Finops
   service_category: Collaboration
   slug: microsoft-teams-finops
-graphqls:
-- description: This GraphQL schema provides a conceptual representation of the Microsoft Teams API surface exposed through Microsoft Graph. It maps the core Teams resources — teams, channels, messages, meetings, cal
-  name: Microsoft Teams GraphQL Schema
-  slug: microsoft-teams-graphql
 image: https://learn.microsoft.com/en-us/graph/images/teams-logo.png
 json_schemas:
 - name: AppInstallationCollection
@@ -578,7 +574,7 @@ modified: '2026-09-16'
 name: Microsoft Teams
 nav: Providers
 network: true
-overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Microsoft Teams, Chat, Collaboration, Communications, and Microsoft-365.
+overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Microsoft Teams, Chat, Collaboration, Communications, and Microsoft 365.
 
 
   The Microsoft Teams catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -634,19 +630,19 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.0
+  composite: 52.6
   coverage:
-    artifact_dirs: 36
+    artifact_dirs: 35
     catalog_earned: 78.5
     catalog_earned_first_party: 0.0
     catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 44.7
     contract_governance: 33.3
-    contract_quality: 51.1
+    contract_quality: 45.6
     developer_ergonomics: 79.8
     discoverability: 88.9
     operational_transparency: 31.6
@@ -661,7 +657,7 @@ score:
       total: 9
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -690,7 +686,7 @@ tags:
 - Chat
 - Collaboration
 - Communications
-- Microsoft-365
+- Microsoft 365
 - Productivity
 - Video Conferencing
 use_cases:

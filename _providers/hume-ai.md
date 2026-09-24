@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -53,42 +53,42 @@ apis:
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_batch API from Hume AI — 4 operation(s) for subpackage_batch.
-  name: Hume AI subpackage_batch API
+  name: Hume AI Subpackage Batch API
   slug: hume-ai-subpackage-batch-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_chatGroups API from Hume AI — 4 operation(s) for subpackage_chatgroups.
-  name: Hume AI subpackage_chatGroups API
+  name: Hume AI Subpackage Chat Groups API
   slug: hume-ai-subpackage-chatgroups-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_chats API from Hume AI — 3 operation(s) for subpackage_chats.
-  name: Hume AI subpackage_chats API
+  name: Hume AI Subpackage Chats API
   slug: hume-ai-subpackage-chats-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_configs API from Hume AI — 3 operation(s) for subpackage_configs.
-  name: Hume AI subpackage_configs API
+  name: Hume AI Subpackage Configs API
   slug: hume-ai-subpackage-configs-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_controlPlane API from Hume AI — 1 operation(s) for subpackage_controlplane.
-  name: Hume AI subpackage_controlPlane API
+  name: Hume AI Subpackage Control Plane API
   slug: hume-ai-subpackage-controlplane-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_prompts API from Hume AI — 3 operation(s) for subpackage_prompts.
-  name: Hume AI subpackage_prompts API
+  name: Hume AI Subpackage Prompts API
   slug: hume-ai-subpackage-prompts-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_tools API from Hume AI — 3 operation(s) for subpackage_tools.
-  name: Hume AI subpackage_tools API
+  name: Hume AI Subpackage Tools API
   slug: hume-ai-subpackage-tools-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
   description: The subpackage_voices API from Hume AI — 1 operation(s) for subpackage_voices.
-  name: Hume AI subpackage_voices API
+  name: Hume AI Subpackage Voices API
   slug: hume-ai-subpackage-voices-api
 - baseURL: https://api.hume.ai
   baseurl_source: declared
@@ -206,7 +206,7 @@ modified: '2026-05-29'
 name: Hume AI
 nav: Providers
 network: true
-overview: 'Hume AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, subpackage_batch API, subpackage_chatGroups API, and 7 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multi-Modal.
+overview: 'Hume AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, Subpackage Batch API, Subpackage Chat Groups API, and 7 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multi-Modal.
 
 
   The Hume AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -261,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -283,5 +283,7 @@ tags:
 - Empathic
 - Emotion
 - Multi-Modal
+- Conversational AI
+- Real-Time
 website: https://www.hume.ai/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/serverless/serverlessrepo/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/agentic-access/amazon-serverless-application-repository-agentic-access.yml
   title: ''
@@ -458,7 +458,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -500,5 +500,5 @@ use_cases:
   name: Microservice Templates
 - description: Automate deployment of pre-vetted serverless infrastructure patterns via CI/CD pipelines.
   name: DevOps Automation
-website: https://amazon.com
+website: https://aws.amazon.com/serverless/serverlessrepo/
 ---

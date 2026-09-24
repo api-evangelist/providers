@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
   description: The Transcriptions API from Whereby — 4 operation(s) for transcriptions.
   name: Whereby Transcriptions API
   slug: whereby-transcriptions-api
-artifact_total: 37
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Review
@@ -243,10 +243,6 @@ finops:
 - name: Whereby Finops
   service_category: API
   slug: whereby-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Whereby embeddable video meetings API. Whereby provides a REST API at `https://api.whereby.dev/v1` for creating and managing meeting rooms, recordings, tran
-  name: Whereby GraphQL Schema
-  slug: whereby-graphql
 image: https://whereby.com/static/whereby-logo.svg
 layout: provider
 modified: '2026-05-23'
@@ -271,19 +267,19 @@ rate_limits:
   slug: whereby-rate-limits
 score:
   band: developing
-  composite: 52.8
+  composite: 52.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 81.6
     contract_governance: 0.0
-    contract_quality: 60.1
+    contract_quality: 57.7
     developer_ergonomics: 54.8
     discoverability: 57.4
     operational_transparency: 42.1
@@ -296,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

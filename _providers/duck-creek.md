@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,6 +47,9 @@ apis:
 - description: 'Duck Creek Policy Administration API enables product configuration, premium calculation, policy lifecycle management, and policy issuance for P&C and specialty insurance carriers. Supports end-to-end '
   name: Duck Creek Policy Administration API
   slug: duck-creek-policy-api
+- description: Duck Creek Payments Orchestrator API enables insurance carriers to orchestrate payment workflows including premium collection and claims disbursements. Provides reference documentation and how-to guid
+  name: Duck Creek Payments Orchestrator API
+  slug: duck-creek-payments-api
 - baseURL: https://api.duckcreek.com
   baseurl_source: declared
   description: Duck Creek Billing API provides billing operations for insurance carriers including invoice generation, payment processing, installment plans, and billing account management.
@@ -56,19 +59,6 @@ apis:
   baseurl_source: declared
   description: Duck Creek Claims API supports claims intake, adjudication workflow, reserve management, and payment processing for P&C insurance carriers. Enables integration with third-party claims services and dat
   name: Duck Creek Claims API
-  slug: duck-creek-claims-api
-- description: Duck Creek Payments Orchestrator API enables insurance carriers to orchestrate payment workflows including premium collection and claims disbursements. Provides reference documentation and how-to guid
-  name: Duck Creek Payments Orchestrator API
-  slug: duck-creek-payments-api
-- baseURL: https://api.duckcreek.com
-  baseurl_source: declared
-  description: Billing account and invoice management
-  name: duck-creek Billing API
-  slug: duck-creek-billing-api
-- baseURL: https://api.duckcreek.com
-  baseurl_source: declared
-  description: Claims intake and management
-  name: duck-creek Claims API
   slug: duck-creek-claims-api
 - baseURL: https://api.duckcreek.com
   baseurl_source: declared
@@ -85,7 +75,7 @@ apis:
   description: Policy quoting and rating
   name: duck-creek Quotes API
   slug: duck-creek-quotes-api
-artifact_total: 52
+artifact_total: 49
 collections:
 - collection_type: open
   name: API Collection
@@ -195,10 +185,6 @@ finops:
 - name: Duck Creek Finops
   service_category: Insurance Core SaaS
   slug: duck-creek-finops
-graphqls:
-- description: Duck Creek Technologies provides cloud SaaS for property and casualty insurance. The API covers policy lifecycle, billing management, claims processing, agency management, analytics, and digital insur
-  name: Duck Creek Technologies GraphQL API
-  slug: duck-creek-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duck-creek.png
 json_schemas:
 - name: Address
@@ -287,7 +273,7 @@ modified: '2026-09-16'
 name: Duck Creek
 nav: Providers
 network: true
-overview: 'Duck Creek publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, duck-creek Billing API, and 4 more. Tagged areas include Insurance, Payments, Claims, Payment Processing, and Product.
+overview: 'Duck Creek publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, duck-creek Policies API, and 2 more. Tagged areas include Insurance, Payments, Claims, Payment Processing, and Product.
 
 
   The Duck Creek catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -321,19 +307,19 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.1
+  composite: 49.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 42.1
     contract_governance: 9.8
-    contract_quality: 60.7
+    contract_quality: 58.4
     developer_ergonomics: 64.3
     discoverability: 59.3
     operational_transparency: 5.3
@@ -352,7 +338,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

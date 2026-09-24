@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: Revalia Bio
 nav: Providers
 network: true
-overview: Revalia Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Artificial Intelligence, Drug Development, and Medical Devices.
+overview: Revalia Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Artificial Intelligence, Drug Development, and Medical Devices.
 random_paper: 21
 score:
   band: minimal
@@ -89,7 +89,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -104,7 +104,7 @@ security:
 slug: revalia-bio
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Artificial Intelligence
 - Drug Development
 - Medical Devices

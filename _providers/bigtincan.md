@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 40
   human_in_the_loop: 1
   name: Bigtincan Agentic Access
-  operation_count: 69
+  operation_count: 78
   slug: bigtincan-agentic-access
-  summary_line: 69 operations · 36 acting · 1 human-in-the-loop
+  summary_line: 78 operations · 40 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://pubapi.bigtincan.com
@@ -366,7 +366,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

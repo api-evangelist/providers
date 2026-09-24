@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ modified: '2026-05-23'
 name: Alliance Data Systems (Bread Financial Holdings)
 nav: Providers
 network: true
-overview: 'Alliance Data Systems (Bread Financial Holdings) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Carts API, Payment Options API, and 2 more. Tagged areas include Financial-Services, Fintech, Buy Now Pay Later, Bread Pay, and Private Label Credit.
+overview: 'Alliance Data Systems (Bread Financial Holdings) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Carts API, Payment Options API, and 2 more. Tagged areas include Financial Services, Fintech, Buy Now Pay Later, Bread Pay, and Private Label Credit.
 
 
   The Alliance Data Systems (Bread Financial Holdings) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -424,7 +424,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -441,7 +441,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: alliance-data-systems
 tags:
-- Financial-Services
+- Financial Services
 - Fintech
 - Buy Now Pay Later
 - Bread Pay

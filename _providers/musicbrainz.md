@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ apis:
   description: Lookup, browse, and search for musical works (abstract compositions).
   name: MusicBrainz Works API
   slug: musicbrainz-works-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: postman
   name: MusicBrainz Web Service v2 Areas API
@@ -420,10 +420,6 @@ examples:
 - key_count: 3
   name: Musicbrainz Search Recordings Example
   slug: musicbrainz-search-recordings-example
-graphqls:
-- description: MusicBrainz is an open music encyclopedia. The API covers artist lookups, recording metadata, releases and release groups, labels, works, places, events, instruments, series, and relation data between
-  name: MusicBrainz GraphQL API
-  slug: musicbrainz-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/musicbrainz.png
 json_schemas:
 - name: MusicBrainz Artist
@@ -497,19 +493,19 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.1
+  composite: 49.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 88.5
     catalog_earned_first_party: 0.0
     catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 37.4
+    contract_quality: 29.3
     developer_ergonomics: 53.6
     discoverability: 68.5
     operational_transparency: 34.2
@@ -528,7 +524,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -561,7 +557,7 @@ tags:
 - Works
 - Labels
 - Cover Art
-- Open-Source
+- Open Source
 - Non-Profit
 website: https://musicbrainz.org/
 ---

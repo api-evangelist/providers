@@ -34,43 +34,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The alerts API from Doppel — 3 operation(s) for alerts.
-  name: Doppel alerts API
+  name: Doppel Alerts API
   slug: doppel-alerts-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The brands API from Doppel — 2 operation(s) for brands.
-  name: Doppel brands API
+  name: Doppel Brands API
   slug: doppel-brands-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The hrm API from Doppel — 3 operation(s) for hrm.
-  name: Doppel hrm API
+  name: Doppel Hrm API
   slug: doppel-hrm-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The phishing-simulation API from Doppel — 1 operation(s) for phishing-simulation.
-  name: Doppel phishing-simulation API
+  name: Doppel Phishing Simulation API
   slug: doppel-phishing-simulation-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The protected-assets API from Doppel — 3 operation(s) for protected-assets.
-  name: Doppel protected-assets API
+  name: Doppel Protected Assets API
   slug: doppel-protected-assets-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The reports API from Doppel — 2 operation(s) for reports.
-  name: Doppel reports API
+  name: Doppel Reports API
   slug: doppel-reports-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
   description: The scan API from Doppel — 2 operation(s) for scan.
-  name: Doppel scan API
+  name: Doppel Scan API
   slug: doppel-scan-api
 - baseURL: https://api.doppel.com/v1
   baseurl_source: declared
@@ -267,7 +267,7 @@ modified: '2026-07-18'
 name: Doppel
 nav: Providers
 network: true
-overview: 'Doppel publishes 11 APIs on the [APIs.io](https://apis.io/) network, including alerts API, brands API, hrm API, and 8 more. Tagged areas include Company, Security, Cybersecurity, Digital Risk Protection, and Social Engineering Defense.
+overview: 'Doppel publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Brands API, Hrm API, and 8 more. Tagged areas include Company, Security, Cybersecurity, Digital Risk Protection, and Social Engineering Defense.
 
 
   The Doppel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -304,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

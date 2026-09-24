@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 43
+- acting_count: 42
   human_in_the_loop: 3
   name: Screenpipe Agentic Access
   operation_count: 71
   slug: screenpipe-agentic-access
-  summary_line: 71 operations · 43 acting · 3 human-in-the-loop
+  summary_line: 71 operations · 42 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:3030
@@ -389,7 +389,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -425,6 +425,6 @@ tags:
 - MCP
 - Developer Tools
 - Productivity
-- Open-Source
+- Open Source
 website: https://screenpi.pe
 ---

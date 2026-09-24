@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Ncua Agentic Access
   operation_count: 2
   slug: ncua-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - description: Quarterly publicly available financial performance data for all federally insured credit unions based on their quarterly Call Report (Form 5300) filings. Data is available as bulk ZIP downloads in com
@@ -136,6 +136,10 @@ common:
   title: ''
   type: Plans
   url: plans/ncua-plans-pricing.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ncua.gov/
 created: '2026-06-13'
 description: The National Credit Union Administration (NCUA) is the independent federal agency that regulates, charters, and supervises federal credit unions. NCUA provides public REST APIs and data services for accessing credit union call report data, financial performance metrics, membership statistics, credit union locator information, and NCUA examination and enforcement findings.
 finops:
@@ -157,13 +161,13 @@ modified: '2026-06-13'
 name: National Credit Union Administration (NCUA)
 nav: Providers
 network: true
-overview: 'National Credit Union Administration (NCUA) publishes 2 APIs on the [APIs.io](https://apis.io/) network: FindCUByRadius.aspx API and SingleResult.aspx API. Tagged areas include Federal-Government, Credit Union, Financial Data, Call Reports, and Banking.
+overview: 'National Credit Union Administration (NCUA) publishes 2 APIs on the [APIs.io](https://apis.io/) network: FindCUByRadius.aspx API and SingleResult.aspx API. Tagged areas include Federal Government, Credit Union, Financial Data, Call Reports, and Banking.
 
 
   The National Credit Union Administration (NCUA) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  National Credit Union Administration (NCUA)''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  National Credit Union Administration (NCUA)''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Ncua Plans Pricing
   plan_count: 2
@@ -217,7 +221,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -234,7 +238,7 @@ security:
   summary_line: Bugcrowd
 slug: ncua
 tags:
-- Federal-Government
+- Federal Government
 - Credit Union
 - Financial Data
 - Call Reports

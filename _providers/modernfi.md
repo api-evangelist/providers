@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -51,12 +51,12 @@ apis:
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
   description: The auth API from ModernFi — 1 operation(s) for auth.
-  name: ModernFi auth API
+  name: ModernFi Auth API
   slug: modernfi-auth-api
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
   description: The customBenchmarks API from ModernFi — 2 operation(s) for custombenchmarks.
-  name: ModernFi customBenchmarks API
+  name: ModernFi Custom Benchmarks API
   slug: modernfi-custombenchmarks-api
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
@@ -66,12 +66,12 @@ apis:
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
   description: The files API from ModernFi — 4 operation(s) for files.
-  name: ModernFi files API
+  name: ModernFi Files API
   slug: modernfi-files-api
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
   description: The pricingGroups API from ModernFi — 4 operation(s) for pricinggroups.
-  name: ModernFi pricingGroups API
+  name: ModernFi Pricing Groups API
   slug: modernfi-pricinggroups-api
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
@@ -242,7 +242,7 @@ modified: '2026-07-20'
 name: ModernFi
 nav: Providers
 network: true
-overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, auth API, customBenchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Union.
+overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Custom Benchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Union.
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
@@ -283,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -305,7 +305,7 @@ tags:
 - Deposits
 - Fintech
 - Credit Union
-- Financial-Services
+- Financial Services
 - Deposit Network
 - Treasury
 website: https://www.modernfi.com/

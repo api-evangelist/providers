@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -47,22 +47,22 @@ apis:
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
   description: Operations related to configuration
-  name: Microcks config API
+  name: Microcks Config API
   slug: microcks-config-api
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
   description: Operations related to Jobs for discovering mocks and tests
-  name: Microcks job API
+  name: Microcks Job API
   slug: microcks-job-api
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
   description: Operations related to metrics
-  name: Microcks metrics API
+  name: Microcks Metrics API
   slug: microcks-metrics-api
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
   description: Operations related to API and Services mocks
-  name: Microcks mock API
+  name: Microcks Mock API
   slug: microcks-mock-api
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
@@ -72,7 +72,7 @@ apis:
 - baseURL: http://microcks.example.com/api
   baseurl_source: spec
   description: Operations related to API and Services tests
-  name: Microcks test API
+  name: Microcks Test API
   slug: microcks-test-api
 artifact_total: 22
 collections:
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Microcks
 nav: Providers
 network: true
-overview: 'Microcks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including config API, job API, metrics API, and 3 more. Tagged areas include API Testing, Cloud-Native, DevOps, Mocking, and Open-Source.
+overview: 'Microcks publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Config API, Job API, Metrics API, and 3 more. Tagged areas include API Testing, Cloud-Native, DevOps, Mocking, and Open Source.
 
 
   Microcks'' developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -235,6 +235,6 @@ tags:
 - Cloud-Native
 - DevOps
 - Mocking
-- Open-Source
+- Open Source
 website: https://www.microcks.io/
 ---

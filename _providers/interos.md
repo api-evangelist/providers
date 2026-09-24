@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api.interos.ai
   baseurl_source: declared
   description: The health API from Interos — 1 operation(s) for health.
-  name: Interos health API
+  name: Interos Health API
   slug: interos-health-api
 - baseURL: https://api.interos.ai
   baseurl_source: declared
@@ -211,7 +211,7 @@ modified: '2026-07-19'
 name: Interos
 nav: Providers
 network: true
-overview: 'Interos publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Groups API, health API, Organizations API, and 2 more. Tagged areas include Company, Enterprise, Supply Chain, Risk Management, and Supplier Risk.
+overview: 'Interos publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Health API, Organizations API, and 2 more. Tagged areas include Company, Enterprise, Supply Chain, Risk Management, and Supplier Risk.
 
 
   Interos'' developer surface includes documentation, API reference, authentication, and 21 more developer resources.'
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

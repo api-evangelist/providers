@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/keyspaces/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/agentic-access/amazon-keyspaces-agentic-access.yml
   title: ''
@@ -345,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -384,5 +384,5 @@ use_cases:
   name: Time-Series Data
 - description: Lift and shift existing Cassandra applications to a fully managed cloud service.
   name: Migrate Cassandra Workloads
-website: https://amazon.com
+website: https://aws.amazon.com/keyspaces/
 ---

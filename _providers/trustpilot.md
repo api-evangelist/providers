@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 12
   human_in_the_loop: 0
   name: Trustpilot Agentic Access
   operation_count: 38
   slug: trustpilot-agentic-access
-  summary_line: 38 operations · 15 acting
+  summary_line: 38 operations · 12 acting
 api_count: 4
 apis:
 - description: The Trustpilot Consumer API provides access to reviews written by individual consumers. Developers can retrieve a consumer's review history with filtering by stars, language, location, and business un
@@ -356,7 +356,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.7
+  composite: 48.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.5
@@ -364,15 +364,15 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.8
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 57.7
-    developer_ergonomics: 42.9
+    developer_ergonomics: 39.3
     discoverability: 81.5
     operational_transparency: 42.1
-  previous_composite: 49.6
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -381,7 +381,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

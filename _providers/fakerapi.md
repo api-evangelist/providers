@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ modified: '2026-05-30'
 name: FakerAPI
 nav: Providers
 network: true
-overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Books API, Companies API, and 7 more. Tagged areas include Test Data, Fake Data, Mocking, Developer Tools, and Open-Source.
+overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Books API, Companies API, and 7 more. Tagged areas include Test Data, Fake Data, Mocking, Developer Tools, and Open Source.
 
 
   The FakerAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -358,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -376,7 +376,7 @@ tags:
 - Fake Data
 - Mocking
 - Developer Tools
-- Open-Source
+- Open Source
 - Public APIs
 use_cases:
 - description: Populate React, Vue, or Svelte mockups with realistic data without standing up a backend.

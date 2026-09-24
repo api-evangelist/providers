@@ -36,6 +36,6 @@ tags:
 - Lodging
 - Short-Term Rental
 - Accommodation
-- Real-Estate
+- Real Estate
 - Consumer
 ---

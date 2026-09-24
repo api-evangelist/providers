@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ modified: '2026-07-21'
 name: ReelData AI
 nav: Providers
 network: true
-overview: 'ReelData AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, Artificial Intelligence, Computer-Vision, and Agriculture.
+overview: 'ReelData AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, Artificial Intelligence, Computer Vision, and Agriculture.
 
 
   ReelData AI''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ tags:
 - Company
 - Aquaculture
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Agriculture
 - Sustainability
 - Food Production

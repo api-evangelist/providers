@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ modified: '2026-05-30'
 name: Dog API
 nav: Providers
 network: true
-overview: 'Dog API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Breeds API, Images API, and Info API. Tagged areas include Dogs, Image, Open Data, and Open-Source.
+overview: 'Dog API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Breeds API, Images API, and Info API. Tagged areas include Dogs, Image, Open Data, and Open Source.
 
 
   The Dog API catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -302,7 +302,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -319,6 +319,6 @@ tags:
 - Dogs
 - Image
 - Open Data
-- Open-Source
+- Open Source
 website: https://dog.ceo
 ---

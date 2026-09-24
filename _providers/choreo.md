@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ apis:
   description: The Apis API from Choreo — 4 operation(s) for apis.
   name: Choreo APIS API
   slug: choreo-apis-api
-artifact_total: 94
+artifact_total: 93
 collections:
 - collection_type: postman
   name: Choreo API Management Alerts API
@@ -370,10 +370,6 @@ finops:
 - name: Choreo Finops
   service_category: Internal Developer Platform
   slug: choreo-finops
-graphqls:
-- description: ''
-  name: Choreo GraphQL API
-  slug: choreo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/choreo.png
 json_schemas:
 - name: Choreo API
@@ -449,7 +445,7 @@ score:
   band: developing
   composite: 47.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -472,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

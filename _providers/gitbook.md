@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -247,6 +247,38 @@ common:
   title: ''
   type: Guide
   url: https://gitbook.com/docs/guides
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.gitbook.com/join
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://gitbook.com/docs
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://gitbook.com/docs/changelog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.gitbookstatus.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://gitbook.com/docs/policies/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://gitbook.com/docs/policies/privacy-and-security/statement
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://gitbook.com/docs/developers
+- group: build
+  title: ''
+  type: SDK
+  url: https://www.npmjs.com/package/@gitbook/api
 created: '2025-01-08'
 description: GitBook is a platform that allows users to create, publish, and share online books and documentation. It provides a simple and user-friendly interface for writing and organizing content, as well as tools for collaborating with other authors or team members. With GitBook, users can easily create a professional-looking book or documentation site with features such as version control, markdown formatting, and customizable themes.
 finops:
@@ -292,7 +324,7 @@ overview: 'GitBook publishes 19 APIs on the [APIs.io](https://apis.io/) network,
   The GitBook catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  GitBook''s developer surface includes authentication, pricing, engineering blog, and 6 more developer resources.'
+  GitBook''s developer surface includes authentication, pricing, engineering blog, signup flow, getting-started guide, changelog, API reference, and 10 more developer resources.'
 plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
@@ -325,8 +357,8 @@ rules:
     warn: 3
   slug: gitbook-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.9
+  band: developing
+  composite: 53.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.5
@@ -334,14 +366,14 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 16.2
   facets:
-    access_clarity: 26.3
+    access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 74.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 50.0
     discoverability: 59.3
-    operational_transparency: 10.5
+    operational_transparency: 42.1
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -352,8 +384,8 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

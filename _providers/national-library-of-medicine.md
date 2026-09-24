@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ modified: '2026-05-19'
 name: National Library of Medicine
 nav: Providers
 network: true
-overview: 'National Library of Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, History API, Retrieve API, and 1 more. Tagged areas include Federal-Government, Health, Library, and Medicine.
+overview: 'National Library of Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, History API, Retrieve API, and 1 more. Tagged areas include Federal Government, Health, Library, and Medicine.
 
 
   National Library of Medicine''s developer surface includes developer portal and 5 more developer resources.'
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -181,7 +181,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: national-library-of-medicine
 tags:
-- Federal-Government
+- Federal Government
 - Health
 - Library
 - Medicine

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://app.biodock.ai/api/external
@@ -175,7 +175,7 @@ modified: '2026-07-18'
 name: Biodock
 nav: Providers
 network: true
-overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Image Analysis, and Microscopy.
+overview: 'Biodock publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Analysis, and Microscopy.
 
 
   Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 17 more developer resources.'
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -242,12 +242,12 @@ slug: biodock
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Image Analysis
 - Microscopy
 - Life Sciences
 - Biotechnology
-- Computer-Vision
+- Computer Vision
 - Cell Analysis
 - Research
 website: https://www.biodock.ai/

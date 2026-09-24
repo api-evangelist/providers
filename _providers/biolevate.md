@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -306,7 +306,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -328,8 +328,8 @@ tags:
 - Life Sciences
 - Regulatory Affairs
 - Document Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Pharmaceuticals
-- Machine-Learning
+- Machine Learning
 website: https://www.biolevate.com/
 ---

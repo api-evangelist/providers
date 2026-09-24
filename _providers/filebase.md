@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 23
+- acting_count: 19
   human_in_the_loop: 0
   name: Filebase Agentic Access
   operation_count: 34
   slug: filebase-agentic-access
-  summary_line: 34 operations · 23 acting
+  summary_line: 34 operations · 19 acting
 api_count: 4
 apis:
 - description: The Filebase S3-Compatible API provides standard AWS S3 protocol support for bucket and object management. Developers can use any existing S3 SDK, CLI tool, or framework with endpoint s3.filebase.io a
@@ -306,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

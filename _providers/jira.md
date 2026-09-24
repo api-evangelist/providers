@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 432
+- acting_count: 416
   human_in_the_loop: 4
   name: Jira Agentic Access
   operation_count: 814
   slug: jira-agentic-access
-  summary_line: 814 operations · 432 acting · 4 human-in-the-loop
+  summary_line: 814 operations · 416 acting · 4 human-in-the-loop
 api_count: 4
 apis:
 - description: Version 2 of the Jira Cloud platform REST API, offering the same operations as v3 but without Atlassian Document Format support.
@@ -726,7 +726,7 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 339
+artifact_total: 338
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
@@ -1285,10 +1285,6 @@ finops:
 - name: Jira Finops
   service_category: Project Management
   slug: jira-finops
-graphqls:
-- description: ''
-  name: Jira GraphQL API
-  slug: jira-graphql
 image: https://www.atlassian.com/dam/jcr:e33efd9e-e0b8-4d61-a24d-68a48ef9bbe4/jira-icon-blue.svg
 integrations:
 - description: Link Jira issues to Confluence pages for seamless knowledge management and documentation alongside project tracking.
@@ -1649,7 +1645,7 @@ score:
   band: exemplar
   composite: 73.5
   coverage:
-    artifact_dirs: 37
+    artifact_dirs: 36
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -1675,7 +1671,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

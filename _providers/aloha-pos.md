@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Aloha Pos Agentic Access
   operation_count: 14
   slug: aloha-pos-agentic-access
-  summary_line: 14 operations · 8 acting
+  summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
 - description: Aloha Cloud-specific endpoints including the In-Store API server (gRPC, default port 50051, 127.0.0.1) for local POS connectivity and the Business Services Layer (BSL) Order Service for routing online
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

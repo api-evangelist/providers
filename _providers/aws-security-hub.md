@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 24
   human_in_the_loop: 3
   name: Aws Security Hub Agentic Access
   operation_count: 40
   slug: aws-security-hub-agentic-access
-  summary_line: 40 operations · 27 acting · 3 human-in-the-loop
+  summary_line: 40 operations · 24 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: 'REST API for managing security standards, controls, findings, insights, automation rules, and member account configuration in AWS Security Hub. Requests are authenticated with AWS Signature Version 4 '
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

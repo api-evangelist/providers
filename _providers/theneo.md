@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Manage workspaces.
   name: Theneo Workspaces API
   slug: theneo-workspaces-api
-artifact_total: 36
+artifact_total: 35
 collections:
 - collection_type: postman
   name: Theneo Import API
@@ -204,10 +204,6 @@ finops:
 - name: Theneo Finops
   service_category: API
   slug: theneo-finops
-graphqls:
-- description: ''
-  name: Theneo GraphQL API
-  slug: theneo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/theneo.png
 json_schemas:
 - name: Theneo Project User
@@ -272,20 +268,20 @@ rules:
   slug: theneo-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 45.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 69.3
     catalog_earned_first_party: 0.0
     catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 67.8
-    developer_ergonomics: 35.7
+    developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 23.7
   previous_composite: 45.8
@@ -297,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

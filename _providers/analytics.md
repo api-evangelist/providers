@@ -1,49 +1,5 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
-api_count: 0
-artifact_total: 3
-common:
-- group: company
-  title: ''
-  type: Website
-  url: https://apievangelist.com
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/json-schema/analytics-platform-schema.json
-  title: ''
-  type: JSONSchema
-  url: json-schema/analytics-platform-schema.json
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/json-ld/analytics-context.jsonld
-  title: ''
-  type: JSONLD
-  url: json-ld/analytics-context.jsonld
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/vocabulary/analytics-vocabulary.yaml
-  title: ''
-  type: Vocabulary
-  url: vocabulary/analytics-vocabulary.yaml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/rules/analytics-jsonschema-spectral-rules.yml
-  title: ''
-  type: Rules
-  url: rules/analytics-jsonschema-spectral-rules.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/llms/analytics-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/analytics-llms.txt
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/api-evangelist
+artifact_total: 0
 coverage:
   checked: '2026-08-13'
   detail: '"Analytics" is not a company — it is a curated topical index of the analytics ecosystem published by API Evangelist, so apis.yml carries an empty apis[] with no baseURL, no humanURL and no OpenAPI servers[] host; the only host it names is the publisher''s own site (apievangelist.com), whose one real discovery document (/.well-known/api-catalog) describes API Evangelist''s agent-skills index and belongs to the separate all/api-evangelist profile, not to this index. The 21 member platforms it points at each carry their own profiles and contracts.'
@@ -60,51 +16,10 @@ coverage:
     url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/apis.yml
   reason: not-a-software-company
   state: none
-created: '2024-01-15'
-description: A curated index of analytics platforms, SDKs, and open source solutions spanning the full analytics spectrum — from web and product analytics (Google Analytics, Mixpanel, Amplitude, PostHog, Plausible, Matomo, Heap) to customer data platforms (Segment, mParticle, RudderStack), mobile analytics (Firebase Analytics, Adjust, AppsFlyer, Braze), business intelligence (Looker, Tableau, Metabase, Redash), event streaming (Kafka, Kinesis), and real-time analytics infrastructure (ClickHouse, Druid, Pinot). Covers both SaaS and self-hosted, open source and commercial offerings.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/analytics.png
-json_schemas:
-- name: Analytics Platform
-  property_count: 14
-  slug: analytics-platform
-jsonld:
-- class_count: 0
-  name: Analytics Context
-  property_count: 25
-  slug: analytics-context
 layout: provider
-modified: '2026-08-13'
-name: Analytics
+name: analytics
 nav: Providers
 network: true
-overview: 'Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Customer Data Platform, Data Pipeline, and Event Tracking.
-
-
-  The Analytics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 random_paper: 0
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Analytics API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: analytics-jsonschema-spectral-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/screenshots/analytics-2026-06-20T171946.png
 slug: analytics
-tags:
-- Analytics
-- Business Intelligence
-- Customer Data Platform
-- Data Pipeline
-- Event Tracking
-- Mobile Analytics
-- Observability
-- Product Analytics
-- Real-Time Analytics
-- Web Analytics
-website: https://apievangelist.com
 ---

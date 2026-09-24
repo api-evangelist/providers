@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'Relationship-based, partner-onboarded API and integration options for treasury and ERP connectivity — including ConnectNow embedded banking for Sage and NetSuite, direct platform integrations, custom '
@@ -78,7 +78,7 @@ modified: '2026-07-23'
 name: Texas Capital Bank
 nav: Providers
 network: true
-overview: 'Texas Capital Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Commercial Banking, and Treasury Management.
+overview: 'Texas Capital Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Commercial Banking, and Treasury Management.
 
 
   Texas Capital Bank''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -116,7 +116,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: texas-capital-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - United States
 - Commercial Banking

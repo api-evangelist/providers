@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-21'
 name: Thread AI
 nav: Providers
 network: true
-overview: 'Thread AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Orchestration, Workflow-Automation, and Agents.
+overview: 'Thread AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Orchestration, Workflow Automation, and Agents.
 
 
   Thread AI''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
@@ -123,7 +123,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -144,7 +144,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Orchestration
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Enterprise
 - Governance

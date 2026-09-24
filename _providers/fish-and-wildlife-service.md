@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The Environmental Conservation Online System (ECOS) is the USFWS portal for threatened and endangered species data, critical habitat designations, recovery plans, and Section 7 consultations. ECOS exp
@@ -89,7 +89,7 @@ modified: '2026-07-25'
 name: U.S. Fish and Wildlife Service
 nav: Providers
 network: true
-overview: U.S. Fish and Wildlife Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal-Government, Fisheries, and Wildlife.
+overview: U.S. Fish and Wildlife Service publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conservation, Endangered Species, Federal Government, Fisheries, and Wildlife.
 plans:
 - name: Fish And Wildlife Service Plans Pricing
   plan_count: 3
@@ -125,7 +125,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +141,7 @@ slug: fish-and-wildlife-service
 tags:
 - Conservation
 - Endangered Species
-- Federal-Government
+- Federal Government
 - Fisheries
 - Wildlife
 website: https://www.fws.gov

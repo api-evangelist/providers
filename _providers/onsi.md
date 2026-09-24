@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -49,12 +49,12 @@ apis:
 - baseURL: https://api.onsi.com
   baseurl_source: declared
   description: The members API from Onsi — 7 operation(s) for members.
-  name: Onsi members API
+  name: Onsi Members API
   slug: onsi-members-api
 - baseURL: https://api.onsi.com
   baseurl_source: declared
   description: The pay API from Onsi — 9 operation(s) for pay.
-  name: Onsi pay API
+  name: Onsi Pay API
   slug: onsi-pay-api
 artifact_total: 9
 collections:
@@ -201,7 +201,7 @@ modified: '2026-07-20'
 name: Onsi
 nav: Providers
 network: true
-overview: 'Onsi publishes 2 APIs on the [APIs.io](https://apis.io/) network: members API and pay API. Tagged areas include Company, Benefits, Earned Wage Access, On-Demand Pay, and Payroll.
+overview: 'Onsi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Members API and Pay API. Tagged areas include Company, Benefits, Earned Wage Access, On-Demand Pay, and Payroll.
 
 
   Onsi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
@@ -220,7 +220,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -228,7 +228,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 36.8
-  previous_composite: 43.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,7 +246,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

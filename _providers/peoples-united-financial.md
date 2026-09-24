@@ -31,7 +31,7 @@ modified: 2026-05-23
 name: People's United Financial
 nav: Providers
 network: true
-overview: People's United Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Regional Bank, Defunct, Acquired, and Financial-Services.
+overview: People's United Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Regional Bank, Defunct, Acquired, and Financial Services.
 random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoples-united-financial/refs/heads/main/screenshots/peoples-united-financial-2026-06-20T191551.png
 slug: peoples-united-financial
@@ -40,6 +40,6 @@ tags:
 - Regional Bank
 - Defunct
 - Acquired
-- Financial-Services
+- Financial Services
 website: https://www.mtb.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,22 +49,22 @@ apis:
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
   description: The bills API from Open States — 3 operation(s) for bills.
-  name: Open States bills API
+  name: Open States Bills API
   slug: openstates-bills-api
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
   description: The committees API from Open States — 2 operation(s) for committees.
-  name: Open States committees API
+  name: Open States Committees API
   slug: openstates-committees-api
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
   description: The events API from Open States — 2 operation(s) for events.
-  name: Open States events API
+  name: Open States Events API
   slug: openstates-events-api
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
   description: The jurisdictions API from Open States — 2 operation(s) for jurisdictions.
-  name: Open States jurisdictions API
+  name: Open States Jurisdictions API
   slug: openstates-jurisdictions-api
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
@@ -74,7 +74,7 @@ apis:
 - baseURL: https://v3.openstates.org/
   baseurl_source: declared
   description: The people API from Open States — 2 operation(s) for people.
-  name: Open States people API
+  name: Open States People API
   slug: openstates-people-api
 artifact_total: 28
 collections:
@@ -202,7 +202,7 @@ modified: '2026-06-13'
 name: Open States
 nav: Providers
 network: true
-overview: 'Open States publishes 6 APIs on the [APIs.io](https://apis.io/) network, including bills API, committees API, events API, and 3 more. Tagged areas include Government, Legislative Data, Civic Technology, State Legislature, and Bills.
+overview: 'Open States publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Committees API, Events API, and 3 more. Tagged areas include Government, Legislative Data, Civic Technology, State Legislature, and Bills.
 
 
   The Open States catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -265,7 +265,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

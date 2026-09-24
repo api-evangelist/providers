@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -120,7 +120,7 @@ apis:
   description: Operations for creating, retrieving, updating, and deleting user accounts within the OpsGenie platform.
   name: OpsGenie Users API
   slug: opsgenie-users-api
-artifact_total: 190
+artifact_total: 189
 asyncapis:
 - description: OpsGenie sends webhook notifications for alert actions to configured webhook URLs. When alert events occur such as create, acknowledge, close, or delete, OpsGenie posts a JSON payload to the registere
   name: OpsGenie Webhook Events
@@ -343,10 +343,6 @@ finops:
 - name: Opsgenie Finops
   service_category: Incident Response
   slug: opsgenie-finops
-graphqls:
-- description: OpsGenie is an incident management and alerting platform, now part of Atlassian, that helps operations teams manage on-call schedules, route alerts, and coordinate incident response. While OpsGenie cu
-  name: OpsGenie (Atlassian) GraphQL Schema
-  slug: opsgenie-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opsgenie.png
 json_schemas:
 - name: Account
@@ -712,19 +708,19 @@ rules:
   slug: opsgenie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 47.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 83.7
+    contract_quality: 81.6
     developer_ergonomics: 39.3
     discoverability: 72.2
     operational_transparency: 10.5
@@ -737,7 +733,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

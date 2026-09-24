@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.overshoot.ai/v1beta
@@ -231,7 +231,7 @@ modified: '2026-07-20'
 name: Overshoot
 nav: Providers
 network: true
-overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Video, and Video Understanding.
+overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Chat API, Healthz API, and 5 more. Tagged areas include Company, Artificial Intelligence, Computer Vision, Video, and Video Understanding.
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
@@ -242,7 +242,7 @@ rate_limits:
   slug: overshoot-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 36.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -254,22 +254,22 @@ score:
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 46.8
+    contract_quality: 48.5
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 23.7
-  previous_composite: 35.2
+  previous_composite: 35.6
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
       total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ slug: overshoot
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Video
 - Video Understanding
 - Vision Language Models
@@ -297,6 +297,6 @@ tags:
 - WebRTC
 - Inference
 - Multi-Modal
-- Machine-Learning
+- Machine Learning
 website: https://www.overshoot.ai/
 ---

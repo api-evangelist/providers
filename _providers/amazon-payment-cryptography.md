@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 20
-  human_in_the_loop: 20
+- acting_count: 13
+  human_in_the_loop: 13
   name: Amazon Payment Cryptography Agentic Access
   operation_count: 20
   slug: amazon-payment-cryptography-agentic-access
-  summary_line: 20 operations · 20 acting · 20 human-in-the-loop
+  summary_line: 20 operations · 13 acting · 13 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://controlplane.payment-cryptography.amazonaws.com
@@ -1267,7 +1267,7 @@ modified: '2026-05-19'
 name: Amazon Payment Cryptography
 nav: Providers
 network: true
-overview: 'Amazon Payment Cryptography publishes 20 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API, #X Amz Target=PaymentCryptographyControlPlane.CreateKey API, #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API, and 17 more. Tagged areas include Cryptography, Financial-Services, Payment Processing, and PCI.
+overview: 'Amazon Payment Cryptography publishes 20 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API, #X Amz Target=PaymentCryptographyControlPlane.CreateKey API, #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API, and 17 more. Tagged areas include Cryptography, Financial Services, Payment Processing, and PCI.
 
 
   The Amazon Payment Cryptography catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1338,7 +1338,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1364,7 +1364,7 @@ security:
 slug: amazon-payment-cryptography
 tags:
 - Cryptography
-- Financial-Services
+- Financial Services
 - Payment Processing
 - PCI
 website: https://aws.amazon.com/payment-cryptography/

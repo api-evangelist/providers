@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://bybit-exchange.github.io/docs/linear/#t-introduction
@@ -62,7 +62,7 @@ modified: '2026-05-29'
 name: Bybit
 nav: Providers
 network: true
-overview: 'Bybit publishes 1 API on the [APIs.io](https://apis.io/) network: Bybit. Tagged areas include Cryptocurrency and Public APIs.
+overview: 'Bybit publishes 1 API on the [APIs.io](https://apis.io/) network: Bybit. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
 
 
   The Bybit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -109,5 +109,6 @@ slug: bybit
 tags:
 - Cryptocurrency
 - Public APIs
+- Real-Time
 website: https://bybit-exchange.github.io/docs/linear/#t-introduction
 ---

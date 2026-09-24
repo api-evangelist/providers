@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -339,7 +339,7 @@ apis:
   description: Access member profile information
   name: Microsoft Profile API
   slug: microsoft-profile-api
-artifact_total: 249
+artifact_total: 248
 collections:
 - collection_type: postman
   name: Microsoft Azure Cognitive Services Accounts API
@@ -917,10 +917,6 @@ finops:
 - name: Microsoft Finops
   service_category: Cloud + Productivity + AI
   slug: microsoft-finops
-graphqls:
-- description: Microsoft Graph is the unified REST/OData gateway to Microsoft 365, Azure Active Directory, Intune, and related services. While Microsoft does not publish an official GraphQL endpoint, the resource mo
-  name: Microsoft Graph — Conceptual GraphQL Schema
-  slug: microsoft-graphql
 image: https://www.microsoft.com/favicon.ico
 json_schemas:
 - name: Azure Resource Group
@@ -1011,7 +1007,7 @@ score:
   band: strong
   composite: 58.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -1021,7 +1017,7 @@ score:
   facets:
     access_clarity: 52.6
     contract_governance: 9.8
-    contract_quality: 77.5
+    contract_quality: 77.4
     developer_ergonomics: 75.0
     discoverability: 57.4
     operational_transparency: 42.1
@@ -1034,7 +1030,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: User account preferences and metadata
   name: Charles Schwab User Preferences API
   slug: charles-schwab-user-preferences-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -236,10 +236,6 @@ finops:
 - name: Charles Schwab Finops
   service_category: Financial Services / Brokerage
   slug: charles-schwab-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Charles Schwab Trader API and Market Data API surface. Charles Schwab operates one of the largest retail brokerage platforms in the United States, offerin
-  name: Charles Schwab GraphQL Schema
-  slug: charles-schwab-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/charles-schwab.png
 json_schemas:
 - name: Schwab Account
@@ -261,7 +257,7 @@ modified: '2026-05-19'
 name: Charles Schwab
 nav: Providers
 network: true
-overview: 'Charles Schwab publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Instruments API, Market Hours API, and 7 more. Tagged areas include Account, Banking, Brokerage, Financial-Services, and Investing.
+overview: 'Charles Schwab publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Instruments API, Market Hours API, and 7 more. Tagged areas include Account, Banking, Brokerage, Financial Services, and Investing.
 
 
   The Charles Schwab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -311,19 +307,19 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.4
+  composite: 43.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
-    contract_quality: 59.0
+    contract_quality: 53.7
     developer_ergonomics: 47.6
     discoverability: 75.9
     operational_transparency: 7.9
@@ -342,7 +338,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -366,12 +362,13 @@ tags:
 - Account
 - Banking
 - Brokerage
-- Financial-Services
+- Financial Services
 - Investing
 - Market Data
 - Authentication
 - Order
 - Trading
 - Fortune 500
+- Wealth Management
 website: https://www.schwab.com
 ---

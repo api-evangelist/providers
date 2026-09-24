@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Unified REST API surface across Nova Credit's products (Credit Passport v4, Cash Atlas v2, Income Navigator v2, Eligibility Compass v1). Server-side clients authenticate with HTTP Basic to mint a shor
@@ -201,7 +201,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Income Verification
 - Underwriting
 - Fintech
-- Financial-Services
+- Financial Services
 - Lending
 - Cash Flow Underwriting
 - Identity

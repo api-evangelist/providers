@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Posh's customer-facing HTTP API, served from the same gateway that backs the Posh Portal. Posh describes it on its portal page as a "powerful API" that "automates custom reporting" and connects the po
@@ -200,7 +200,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -231,12 +231,12 @@ tags:
 - Agentic AI
 - Banking
 - Credit Union
-- Financial-Services
+- Financial Services
 - Customer Service
 - Contact Center
 - Voice
 - Chatbots
-- Knowledge-Management
+- Knowledge Management
 - RegTech
 website: https://www.posh.ai/
 ---

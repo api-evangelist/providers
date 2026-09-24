@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/kinesis/video-streams/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -227,7 +227,7 @@ modified: '2026-09-16'
 name: Amazon Kinesis Video Streams
 nav: Providers
 network: true
-overview: 'Amazon Kinesis Video Streams publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Signaling Channels API, and 1 more. Tagged areas include IoT, Machine-Learning, Media, and Video Streaming.
+overview: 'Amazon Kinesis Video Streams publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Signaling Channels API, and 1 more. Tagged areas include IoT, Machine Learning, Media, and Video Streaming.
 
 
   The Amazon Kinesis Video Streams catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -318,7 +318,7 @@ security:
 slug: amazon-kinesis-video-streams
 tags:
 - IoT
-- Machine-Learning
+- Machine Learning
 - Media
 - Video Streaming
 use_cases:
@@ -330,5 +330,5 @@ use_cases:
   name: Autonomous Vehicles
 - description: Deliver live video streams to viewers with low latency using WebRTC.
   name: Live Video Streaming
-website: https://amazon.com
+website: https://aws.amazon.com/kinesis/video-streams/
 ---

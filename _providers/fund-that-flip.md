@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://tools.flipperforce.com/api/v1
@@ -255,7 +255,7 @@ modified: '2026-08-16'
 name: Fund That Flip
 nav: Providers
 network: true
-overview: 'Fund That Flip publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Activity Log API, Attachment Upload API, Company API, and 12 more. Tagged areas include Company, Real-Estate, Lending, Construction, and Project Management.
+overview: 'Fund That Flip publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Activity Log API, Attachment Upload API, Company API, and 12 more. Tagged areas include Company, Real Estate, Lending, Construction, and Project Management.
 
 
   Fund That Flip''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
@@ -302,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -320,14 +320,14 @@ security:
 slug: fund-that-flip
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Lending
 - Construction
 - Project Management
-- Financial-Services
+- Financial Services
 - Investing
 - Fintech
-- Property Technology
+- PropTech
 - Accounting
 website: https://www.upright.us/
 ---

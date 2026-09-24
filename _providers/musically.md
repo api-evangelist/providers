@@ -27,13 +27,13 @@ modified: '2026-07-20'
 name: musical.ly
 nav: Providers
 network: true
-overview: musical.ly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social-Media, Short Video, and Music.
+overview: musical.ly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Media, Short Video, and Music.
 random_paper: 11
 slug: musically
 tags:
 - Company
 - Consumer
-- Social-Media
+- Social Media
 - Short Video
 - Music
 - Mobile

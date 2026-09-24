@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 29
   human_in_the_loop: 0
   name: Respeecher Agentic Access
   operation_count: 54
   slug: respeecher-agentic-access
-  summary_line: 54 operations · 31 acting
+  summary_line: 54 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: https://api.respeecher.com/v1/public/tts/en-rt
@@ -51,82 +51,82 @@ apis:
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The accents API from Respeecher — 1 operation(s) for accents.
-  name: Respeecher accents API
+  name: Respeecher Accents API
   slug: respeecher-accents-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The auth API from Respeecher — 3 operation(s) for auth.
-  name: Respeecher auth API
+  name: Respeecher Auth API
   slug: respeecher-auth-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The calibration API from Respeecher — 3 operation(s) for calibration.
-  name: Respeecher calibration API
+  name: Respeecher Calibration API
   slug: respeecher-calibration-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The credits API from Respeecher — 1 operation(s) for credits.
-  name: Respeecher credits API
+  name: Respeecher Credits API
   slug: respeecher-credits-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The folders API from Respeecher — 2 operation(s) for folders.
-  name: Respeecher folders API
+  name: Respeecher Folders API
   slug: respeecher-folders-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The healtz API from Respeecher — 1 operation(s) for healtz.
-  name: Respeecher healtz API
+  name: Respeecher Healtz API
   slug: respeecher-healtz-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The models API from Respeecher — 1 operation(s) for models.
-  name: Respeecher models API
+  name: Respeecher Models API
   slug: respeecher-models-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The narration-styles API from Respeecher — 1 operation(s) for narration-styles.
-  name: Respeecher narration-styles API
+  name: Respeecher Narration Styles API
   slug: respeecher-narration-styles-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The notes API from Respeecher — 1 operation(s) for notes.
-  name: Respeecher notes API
+  name: Respeecher Notes API
   slug: respeecher-notes-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The orders API from Respeecher — 2 operation(s) for orders.
-  name: Respeecher orders API
+  name: Respeecher Orders API
   slug: respeecher-orders-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The projects API from Respeecher — 4 operation(s) for projects.
-  name: Respeecher projects API
+  name: Respeecher Projects API
   slug: respeecher-projects-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The recordings API from Respeecher — 9 operation(s) for recordings.
-  name: Respeecher recordings API
+  name: Respeecher Recordings API
   slug: respeecher-recordings-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The stats API from Respeecher — 3 operation(s) for stats.
-  name: Respeecher stats API
+  name: Respeecher Stats API
   slug: respeecher-stats-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The storage API from Respeecher — 1 operation(s) for storage.
-  name: Respeecher storage API
+  name: Respeecher Storage API
   slug: respeecher-storage-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The tts API from Respeecher — 1 operation(s) for tts.
-  name: Respeecher tts API
+  name: Respeecher Tts API
   slug: respeecher-tts-api
 - baseURL: https://gateway.respeecher.com
   baseurl_source: declared
   description: The voices API from Respeecher — 4 operation(s) for voices.
-  name: Respeecher voices API
+  name: Respeecher Voices API
   slug: respeecher-voices-api
 artifact_total: 41
 asyncapis:
@@ -251,7 +251,7 @@ modified: '2026-07-11'
 name: Respeecher
 nav: Providers
 network: true
-overview: 'Respeecher publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Space Real-Time TTS API, accents API, auth API, and 14 more. Tagged areas include Voice AI, Voice Cloning, Speech to Speech, Text-to-Speech, and Voice Conversion.
+overview: 'Respeecher publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Space Real-Time TTS API, Accents API, Auth API, and 14 more. Tagged areas include Voice AI, Voice Cloning, Speech to Speech, Text-to-Speech, and Voice Conversion.
 
 
   The Respeecher catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -306,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

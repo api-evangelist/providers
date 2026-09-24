@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Community-driven taco database
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: TacoFancy
 nav: Providers
 network: true
-overview: TacoFancy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
+overview: TacoFancy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage and Public APIs.
 random_paper: 6
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -93,6 +93,6 @@ score:
 screenshot: https://raw.githubusercontent.com/api-evangelist/tacofancy/refs/heads/main/screenshots/tacofancy-2026-06-20T194851.png
 slug: tacofancy
 tags:
-- Food And Drink
+- Food and Beverage
 - Public APIs
 ---

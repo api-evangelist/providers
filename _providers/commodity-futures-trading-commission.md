@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-05-19'
 name: Commodity Futures Trading Commission
 nav: Providers
 network: true
-overview: 'Commodity Futures Trading Commission publishes 1 API on the [APIs.io](https://apis.io/) network: COT API. Tagged areas include CFTC, Commitments of Traders, Federal-Government, Finance, and Futures.
+overview: 'Commodity Futures Trading Commission publishes 1 API on the [APIs.io](https://apis.io/) network: COT API. Tagged areas include CFTC, Commitments of Traders, Federal Government, Finance, and Futures.
 
 
   The Commodity Futures Trading Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -220,7 +220,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -236,7 +236,7 @@ slug: commodity-futures-trading-commission
 tags:
 - CFTC
 - Commitments of Traders
-- Federal-Government
+- Federal Government
 - Finance
 - Futures
 - Open Data

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,7 +131,7 @@ modified: '2026-08-28'
 name: Northwestern Mutual
 nav: Providers
 network: true
-overview: 'Northwestern Mutual is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Financial-Services, Wealth Management, and Annuities.
+overview: 'Northwestern Mutual is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Financial Services, Wealth Management, and Annuities.
 
 
   Northwestern Mutual''s developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -183,7 +183,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -202,7 +202,7 @@ slug: northwestern-mutual
 tags:
 - Insurance
 - Life Insurance
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Annuities
 - Investment Management

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,7 +107,7 @@ modified: '2026-07-19'
 name: Lica
 nav: Providers
 network: true
-overview: 'Lica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Artificial Intelligence, Machine-Learning, and Graphic Design.
+overview: 'Lica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Artificial Intelligence, Machine Learning, and Graphic Design.
 
 
   Lica''s developer surface includes engineering blog, signup flow, and 12 more developer resources.'
@@ -134,7 +134,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -150,7 +150,7 @@ tags:
 - Company
 - B2B
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Graphic Design
 - Generative AI
 - Benchmarks

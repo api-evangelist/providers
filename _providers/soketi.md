@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Implements the Pusher protocol (channels, private channels, presence channels, encrypted channels) for drop-in compatibility with Pusher client SDKs. Server-side publish via REST, client-side subscrib
@@ -106,7 +106,7 @@ modified: '2026-05-08'
 name: Soketi
 nav: Providers
 network: true
-overview: 'Soketi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Time, WebSocket, Open-Source, Pusher Protocol, and Self-Host.
+overview: 'Soketi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Time, WebSocket, Open Source, Pusher Protocol, and Self-Host.
 
 
   Soketi''s developer surface includes developer portal, documentation, GitHub presence, and 9 more developer resources.'
@@ -139,7 +139,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ slug: soketi
 tags:
 - Real-Time
 - WebSocket
-- Open-Source
+- Open Source
 - Pusher Protocol
 - Self-Host
 - Drop-in

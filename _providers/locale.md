@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ modified: '2026-07-20'
 name: Locale
 nav: Providers
 network: true
-overview: 'Locale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow-Automation, No-Code, Integration, and iPaaS.
+overview: 'Locale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow Automation, No-Code, Integration, and iPaaS.
 
 
   Locale''s developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ security:
 slug: locale
 tags:
 - Company
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Integration
 - iPaaS

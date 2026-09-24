@@ -96,7 +96,7 @@ modified: '2026-09-15'
 name: Solar Mosaic
 nav: Providers
 network: true
-overview: 'Solar Mosaic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, Solar, and Clean Energy.
+overview: 'Solar Mosaic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Solar, and Clean Energy.
 
 
   Solar Mosaic''s developer surface includes support and 11 more developer resources.'
@@ -118,7 +118,7 @@ security:
 slug: solar-mosaic
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Solar
 - Clean Energy

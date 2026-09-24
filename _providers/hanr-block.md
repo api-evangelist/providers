@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'The partner-facing H&R Block integration surface — tax-data import from financial institutions, payroll providers and employer solutions. No public contract, reference or portal is reachable: api.hrbl'
@@ -143,7 +143,7 @@ modified: '2026-09-14'
 name: H&R Block
 nav: Providers
 network: true
-overview: 'H&R Block publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial-Services, Fortune 1000, Identity, and Authentication.
+overview: 'H&R Block publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Preparation, Financial Services, Fortune 1000, Identity, and Authentication.
 
 
   H&R Block''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
@@ -184,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -207,7 +207,7 @@ security:
 slug: hanr-block
 tags:
 - Tax Preparation
-- Financial-Services
+- Financial Services
 - Fortune 1000
 - Identity
 - Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Equitable Bank / EQ Bank exposes no public first-party developer API. Under explicit customer consent, EQ Bank customers can share their financial data with third-party fintech applications through th
@@ -88,7 +88,7 @@ modified: '2026-07-23'
 name: Equitable Bank
 nav: Providers
 network: true
-overview: 'Equitable Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Schedule I Bank, and Digital Banking.
+overview: 'Equitable Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Digital Banking.
 
 
   Equitable Bank''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -126,7 +126,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: equitable-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Canada
 - Schedule I Bank

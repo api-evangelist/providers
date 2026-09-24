@@ -33,30 +33,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 14
+- acting_count: 10
   human_in_the_loop: 0
   name: Amadeus Agentic Access
-  operation_count: 54
+  operation_count: 56
   slug: amadeus-agentic-access
-  summary_line: 54 operations · 14 acting
+  summary_line: 56 operations · 10 acting
 api_count: 40
 apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The air-traffic API from Amadeus — 3 operation(s) for air-traffic.
-  name: Amadeus air-traffic API
+  name: Amadeus Air Traffic API
   slug: amadeus-air-traffic-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The airlines API from Amadeus — 1 operation(s) for airlines.
-  name: Amadeus airlines API
+  name: Amadeus Airlines API
   slug: amadeus-airlines-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The airport-ontime-prediction API from Amadeus — 1 operation(s) for airport-ontime-prediction.
-  name: Amadeus airport-ontime-prediction API
+  name: Amadeus Airport Ontime Prediction API
   slug: amadeus-airport-ontime-prediction-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -71,12 +71,12 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The category-rated-areas API from Amadeus — 1 operation(s) for category-rated-areas.
-  name: Amadeus category-rated-areas API
+  name: Amadeus Category Rated Areas API
   slug: amadeus-category-rated-areas-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The checkin-links API from Amadeus — 1 operation(s) for checkin-links.
-  name: Amadeus checkin-links API
+  name: Amadeus Checkin Links API
   slug: amadeus-checkin-links-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -86,12 +86,12 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The destinations API from Amadeus — 1 operation(s) for destinations.
-  name: Amadeus destinations API
+  name: Amadeus Destinations API
   slug: amadeus-destinations-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The direct-destinations API from Amadeus — 1 operation(s) for direct-destinations.
-  name: Amadeus direct-destinations API
+  name: Amadeus Direct Destinations API
   slug: amadeus-direct-destinations-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -101,27 +101,27 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The flight-choice-prediction API from Amadeus — 1 operation(s) for flight-choice-prediction.
-  name: Amadeus flight-choice-prediction API
+  name: Amadeus Flight Choice Prediction API
   slug: amadeus-flight-choice-prediction-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The flight-dates API from Amadeus — 1 operation(s) for flight-dates.
-  name: Amadeus flight-dates API
+  name: Amadeus Flight Dates API
   slug: amadeus-flight-dates-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The flight-delay-prediction API from Amadeus — 1 operation(s) for flight-delay-prediction.
-  name: Amadeus flight-delay-prediction API
+  name: Amadeus Flight Delay Prediction API
   slug: amadeus-flight-delay-prediction-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The flight-destinations API from Amadeus — 1 operation(s) for flight-destinations.
-  name: Amadeus flight-destinations API
+  name: Amadeus Flight Destinations API
   slug: amadeus-flight-destinations-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The flights API from Amadeus — 1 operation(s) for flights.
-  name: Amadeus flights API
+  name: Amadeus Flights API
   slug: amadeus-flights-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -136,7 +136,7 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The location API from Amadeus — 3 operation(s) for location.
-  name: Amadeus location API
+  name: Amadeus Location API
   slug: amadeus-location-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -146,12 +146,12 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The price-metrics API from Amadeus — 1 operation(s) for price-metrics.
-  name: Amadeus price-metrics API
+  name: Amadeus Price Metrics API
   slug: amadeus-price-metrics-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The recommended-locations API from Amadeus — 1 operation(s) for recommended-locations.
-  name: Amadeus recommended-locations API
+  name: Amadeus Recommended Locations API
   slug: amadeus-recommended-locations-api
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
@@ -171,7 +171,7 @@ apis:
 - baseURL: https://test.api.amadeus.com/v2
   baseurl_source: declared
   description: The trip-purpose-prediction API from Amadeus — 1 operation(s) for trip-purpose-prediction.
-  name: Amadeus trip-purpose-prediction API
+  name: Amadeus Trip Purpose Prediction API
   slug: amadeus-trip-purpose-prediction-api
 - baseURL: https://api.amadeus.com
   baseurl_source: declared
@@ -238,7 +238,7 @@ arazzos:
 - description: Resolve origin and destination IATA codes from keywords, then search flight offers between them.
   name: Amadeus Resolve Locations and Search Flights
   slug: amadeus-resolve-locations-and-search-flights-workflow
-artifact_total: 2374
+artifact_total: 2373
 asyncapis:
 - description: ''
   name: Review
@@ -2573,10 +2573,6 @@ finops:
 - name: Amadeus Finops
   service_category: ''
   slug: amadeus-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Amadeus for Developers API platform. Amadeus is the leading technology provider for the global travel and tourism industry, offering 40+ tra
-  name: Amadeus GraphQL Schema
-  slug: amadeus-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amadeus.png
 integrations:
 - description: Official Amadeus for Developers public workspace with collections for every Self-Service API.
@@ -7451,7 +7447,7 @@ modified: '2026-05-30'
 name: Amadeus
 nav: Providers
 network: true
-overview: 'Amadeus publishes 28 APIs on the [APIs.io](https://apis.io/) network, including air-traffic API, airlines API, airport-ontime-prediction API, and 25 more. Tagged areas include Travel, Travel Technology, Reservations, Flights, and Hotels.
+overview: 'Amadeus publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Air Traffic API, Airlines API, Airport Ontime Prediction API, and 25 more. Tagged areas include Travel, Travel Technology, Reservations, Flights, and Hotels.
 
 
   The Amadeus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -7491,23 +7487,23 @@ rules:
   slug: amadeus-rules
 score:
   band: developing
-  composite: 51.2
+  composite: 50.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 94.5
     catalog_earned_first_party: 0.0
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -0.9
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 70.4
+    contract_quality: 66.6
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 51.0
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -7516,7 +7512,7 @@ score:
       marker_coverage: 7.1
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

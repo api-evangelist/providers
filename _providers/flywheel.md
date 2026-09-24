@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Full REST API for the Flywheel platform, covering the container hierarchy (groups, projects, subjects, sessions, acquisitions, files, analyses), gears and jobs, users and permissions, and search. Docu
@@ -164,7 +164,7 @@ modified: '2026-07-19'
 name: Flywheel
 nav: Providers
 network: true
-overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Healthcare, Data Management, and Machine-Learning.
+overview: 'Flywheel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Healthcare, Data Management, and Machine Learning.
 
 
   Flywheel''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, support, and 18 more developer resources.'
@@ -203,7 +203,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -229,7 +229,7 @@ tags:
 - Medical Imaging
 - Healthcare
 - Data Management
-- Machine-Learning
+- Machine Learning
 - Research
 - DICOM
 - Life Sciences

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ arazzos:
 - description: Export a specific module from one project and import it into a module of another project.
   name: Apidog Sync Module Across Projects
   slug: apidog-sync-module-across-projects-workflow
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Apidog API
@@ -285,10 +285,6 @@ finops:
 - name: Apidog Finops
   service_category: Developer Tools
   slug: apidog-finops
-graphqls:
-- description: ''
-  name: Apidog GraphQL API
-  slug: apidog-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apidog.png
 integrations:
 - description: Import and export OpenAPI 2.0 / 3.0 / 3.1 specifications, with Apidog-specific x-apidog-* extensions preserved on export.
@@ -379,7 +375,7 @@ score:
   band: developing
   composite: 52.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
@@ -402,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-05-19'
 name: Jina AI
 nav: Providers
 network: true
-overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine-Learning, Reranking, and Search.
+overview: 'Jina AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Embeddings API, Reader API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, Machine Learning, Reranking, and Search.
 
 
   Jina AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, and 7 more developer resources.'
@@ -200,7 +200,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -219,7 +219,7 @@ slug: jina-ai
 tags:
 - Artificial Intelligence
 - Embeddings
-- Machine-Learning
+- Machine Learning
 - Reranking
 - Search
 website: https://jina.ai

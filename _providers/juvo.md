@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ modified: '2026-07-19'
 name: Juvo
 nav: Providers
 network: true
-overview: 'Juvo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Identity, Credit Scoring, and Financial-Services.
+overview: 'Juvo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Identity, Credit Scoring, and Financial Services.
 
 
   Juvo''s developer surface includes documentation, API reference, engineering blog, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -125,10 +125,10 @@ tags:
 - Fintech
 - Financial Identity
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Mobile
 - Underbanked
-- Machine-Learning
+- Machine Learning
 - Financial Inclusion
 website: https://www.juvo.com/
 ---

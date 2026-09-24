@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ modified: '2026-07-19'
 name: igloo
 nav: Providers
 network: true
-overview: 'igloo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Insurance, Insurtech, and Embedded Insurance.
+overview: 'igloo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Insurance, Insurtech, and Embedded Insurance.
 
 
   igloo''s developer surface includes engineering blog and 6 more developer resources.'
@@ -99,6 +99,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
@@ -110,7 +112,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +127,7 @@ security:
 slug: igloo
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Insurance
 - Insurtech
 - Embedded Insurance

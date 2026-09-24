@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,7 +98,7 @@ modified: '2026-07-20'
 name: Customer Analytics
 nav: Providers
 network: true
-overview: 'Customer Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Data, Artificial Intelligence, Machine-Learning, and Business Intelligence.
+overview: 'Customer Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Data, Artificial Intelligence, Machine Learning, and Business Intelligence.
 
 
   Customer Analytics'' developer surface includes support and 12 more developer resources.'
@@ -128,7 +128,7 @@ score:
     - north-america
   previous_composite: 10.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ tags:
 - Analytics
 - Data
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Business Intelligence
 - Data Engineering
 - Quality Assurance

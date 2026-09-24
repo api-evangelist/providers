@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-20'
 name: Axiom Trust
 nav: Providers
 network: true
-overview: 'Axiom Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trust Services, Wealth Management, Fiduciary, and Financial-Services.
+overview: 'Axiom Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trust Services, Wealth Management, Fiduciary, and Financial Services.
 
 
   Axiom Trust''s developer surface includes support and 6 more developer resources.'
@@ -106,7 +106,7 @@ score:
     - north-america
   previous_composite: 8.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ tags:
 - Trust Services
 - Wealth Management
 - Fiduciary
-- Financial-Services
+- Financial Services
 - Estate Planning
 - Trust Administration
 - Wealth Transfer

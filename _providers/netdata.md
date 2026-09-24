@@ -35,25 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Netdata Agentic Access
   operation_count: 7
   slug: netdata-agentic-access
-  summary_line: 7 operations · 6 acting
+  summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:19999
   baseurl_source: declared
   description: Everything related to alerts
-  name: Netdata alerts API
+  name: Netdata Alerts API
   slug: netdata-alerts-api
 - baseURL: http://localhost:19999
   baseurl_source: declared
   description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
-  name: Netdata charts API
+  name: Netdata Charts API
   slug: netdata-charts-api
 artifact_total: 59
 collections:
@@ -306,7 +306,7 @@ modified: '2026-06-12'
 name: Netdata
 nav: Providers
 network: true
-overview: 'Netdata publishes 2 APIs on the [APIs.io](https://apis.io/) network: alerts API and charts API. Tagged areas include Monitoring, Observability, Infrastructure, Metrics, and Alerts.
+overview: 'Netdata publishes 2 APIs on the [APIs.io](https://apis.io/) network: Alerts API and Charts API. Tagged areas include Monitoring, Observability, Infrastructure, Metrics, and Alerts.
 
 
   The Netdata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

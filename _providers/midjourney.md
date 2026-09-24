@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
   description: Operations for tracking and managing asynchronous image generation jobs, including retrieving job status, results, and listing previous jobs.
   name: midjourney Jobs API
   slug: midjourney-jobs-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: 'The Midjourney Image Generation webhook interface delivers real-time notifications about image generation job status changes. When a webhook URL is provided during job creation, Midjourney sends HTTP '
   name: Midjourney Image Generation Webhooks
@@ -134,10 +134,6 @@ finops:
 - name: Midjourney Finops
   service_category: AI / Image Generation
   slug: midjourney-finops
-graphqls:
-- description: 'title: Midjourney GraphQL Schema'
-  name: Midjourney GraphQL Schema
-  slug: midjourney-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/midjourney.png
 json_schemas:
 - name: Midjourney Image Generation Job
@@ -153,7 +149,7 @@ modified: '2026-09-16'
 name: Midjourney
 nav: Providers
 network: true
-overview: 'Midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more. Tagged areas include Image-Generation, Artificial Intelligence, Creative Tools, and Job.
+overview: 'Midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more. Tagged areas include Image Generation, Artificial Intelligence, Creative Tools, and Job.
 
 
   The Midjourney catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -193,19 +189,19 @@ rules:
   slug: midjourney-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 32.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 75.9
+    contract_quality: 72.8
     developer_ergonomics: 21.4
     discoverability: 44.4
     operational_transparency: 10.5
@@ -219,7 +215,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +232,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: midjourney
 tags:
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
 - Creative Tools
 - Job

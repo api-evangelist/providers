@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -143,7 +143,7 @@ modified: '2026-05-02'
 name: SpecLynx
 nav: Providers
 network: true
-overview: 'SpecLynx publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, AsyncAPI, Developer Tools, JSON-Schema, and OpenAPI.
+overview: 'SpecLynx publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, AsyncAPI, Developer Tools, JSON Schema, and OpenAPI.
 
 
   The SpecLynx catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +199,7 @@ tags:
 - API Design
 - AsyncAPI
 - Developer Tools
-- JSON-Schema
+- JSON Schema
 - OpenAPI
 - Toolkit
 - VS Code

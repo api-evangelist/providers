@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 43
+- acting_count: 41
   human_in_the_loop: 0
   name: Bolt Financial Agentic Access
   operation_count: 58
   slug: bolt-financial-agentic-access
-  summary_line: 58 operations · 43 acting
+  summary_line: 58 operations · 41 acting
 api_count: 4
 apis:
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
@@ -418,7 +418,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

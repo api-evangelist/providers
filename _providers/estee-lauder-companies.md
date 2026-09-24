@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/estee-lauder-companies/refs/heads/main/security/estee-lauder-companies-domain-security.yml
@@ -141,10 +141,6 @@ features:
   status: None
 - finding: Tier rationale
   status: Tier 3 — no-apis. Technology surface is entirely vendor-mediated (Microsoft Azure OpenAI, Adobe Firefly, Google Gemini/Vertex AI, Shopify, Accenture, WPP).
-graphqls:
-- description: ''
-  name: The Estée Lauder Companies GraphQL API
-  slug: estee-lauder-companies-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estee-lauder-companies.png
 jsonld:
 - class_count: 35
@@ -165,7 +161,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -186,7 +182,7 @@ score:
     - north-america
   previous_composite: 8.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

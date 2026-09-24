@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property, resident, lease, maintenance, payment, and financial
   name: Entrata API
   slug: entrata-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/security/entrata-domain-security.yml
@@ -99,17 +99,13 @@ finops:
 - name: Entrata Finops
   service_category: ''
   slug: entrata-finops
-graphqls:
-- description: Entrata is a property management platform for multifamily housing. The API covers property listings, leasing applications, resident management, rent collection, maintenance requests, vendor management
-  name: Entrata GraphQL API
-  slug: entrata-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entrata.png
 layout: provider
 modified: '2026-06-13'
 name: Entrata
 nav: Providers
 network: true
-overview: 'Entrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily Housing, Real-Estate, Resident Management, and Leasing.
+overview: 'Entrata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Multifamily Housing, Real Estate, Resident Management, and Leasing.
 
 
   Entrata''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -123,20 +119,20 @@ rate_limits:
   name: Entrata Rate Limits
   slug: entrata-rate-limits
 score:
-  band: thin
-  composite: 31.5
+  band: emerging
+  composite: 22.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 68.5
     operational_transparency: 42.1
@@ -148,8 +144,8 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -164,7 +160,7 @@ slug: entrata
 tags:
 - Property Management
 - Multifamily Housing
-- Real-Estate
+- Real Estate
 - Resident Management
 - Leasing
 - Maintenance

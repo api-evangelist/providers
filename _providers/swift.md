@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ modified: '2026-05-19'
 name: SWIFT
 nav: Providers
 network: true
-overview: 'SWIFT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, BBANs API, BICs API, and 5 more. Tagged areas include Swift, Banking, Cross-Border Payments, Financial Messaging, and Financial-Services.
+overview: 'SWIFT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, BBANs API, BICs API, and 5 more. Tagged areas include Swift, Banking, Cross-Border Payments, Financial Messaging, and Financial Services.
 
 
   The SWIFT catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -350,7 +350,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -372,7 +372,7 @@ tags:
 - Banking
 - Cross-Border Payments
 - Financial Messaging
-- Financial-Services
+- Financial Services
 - GPI
 - ISO 20022
 - Payments

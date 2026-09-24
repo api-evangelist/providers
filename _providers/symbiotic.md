@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ modified: '2026-07-17'
 name: Symbiotic
 nav: Providers
 network: true
-overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company and Crypto Defi.'
+overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network: SymbioticAPIService API. Tagged areas include Company, Crypto Defi, and A2A.'
 random_paper: 11
 score:
   band: emerging
@@ -118,7 +118,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -137,5 +137,6 @@ slug: symbiotic
 tags:
 - Company
 - Crypto Defi
+- A2A
 website: https://symbiotic.fi
 ---

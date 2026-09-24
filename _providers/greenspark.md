@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 38
+- acting_count: 34
   human_in_the_loop: 1
   name: Greenspark Agentic Access
   operation_count: 67
   slug: greenspark-agentic-access
-  summary_line: 67 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 67 operations · 34 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.getgreenspark.com
@@ -288,7 +288,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 18
+- acting_count: 16
   human_in_the_loop: 1
   name: Appium Agentic Access
   operation_count: 32
   slug: appium-agentic-access
-  summary_line: 32 operations · 18 acting · 1 human-in-the-loop
+  summary_line: 32 operations · 16 acting · 1 human-in-the-loop
 api_count: 13
 apis:
 - description: Standalone GUI inspector for mobile apps that communicates with an Appium server, enabling visual element inspection and XPath generation for test authoring.
@@ -418,7 +418,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -458,7 +458,7 @@ tags:
 - Cross-Platform
 - iOS
 - Mobile Testing
-- Open-Source
+- Open Source
 - OpenJS Foundation
 - Test Automation
 - WebDriver

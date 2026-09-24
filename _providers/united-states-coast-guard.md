@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-05-19'
 name: United States Coast Guard
 nav: Providers
 network: true
-overview: 'United States Coast Guard publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Incident Reports API, Port State Information API, and 1 more. Tagged areas include Federal-Government, Maritime Safety, Vessel Documentation, Emergency Response, and Law Enforcement.
+overview: 'United States Coast Guard publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Equipment API, Incident Reports API, Port State Information API, and 1 more. Tagged areas include Federal Government, Maritime Safety, Vessel Documentation, Emergency Response, and Law Enforcement.
 
 
   The United States Coast Guard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -206,7 +206,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -220,7 +220,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: united-states-coast-guard
 tags:
-- Federal-Government
+- Federal Government
 - Maritime Safety
 - Vessel Documentation
 - Emergency Response

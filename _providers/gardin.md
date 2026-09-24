@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -204,6 +204,11 @@ score:
     developer_ergonomics: 57.1
     discoverability: 81.5
     operational_transparency: 34.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 43.0
   provenance:
     conformance: first-party
@@ -215,7 +220,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

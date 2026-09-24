@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: APIs for managing workflow executions
   name: Conductor Workflow API
   slug: conductor-workflow-api
-artifact_total: 89
+artifact_total: 88
 asyncapis:
 - description: 'Asynchronous event API for Conductor workflow orchestration platform. Conductor emits events when workflows and tasks change state, enabling reactive event-driven architectures. Event handlers can be '
   name: Conductor Events API
@@ -229,10 +229,6 @@ finops:
 - name: Conductor Finops
   service_category: API
   slug: conductor-finops
-graphqls:
-- description: Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps tra
-  name: Conductor GraphQL API
-  slug: conductor-graphql
 image: /assets/icons/conductor.png
 integrations:
 - description: Trigger workflows and tasks from Kafka events using event handler subscriptions.
@@ -412,19 +408,19 @@ rules:
   slug: conductor-spectral-rules
 score:
   band: developing
-  composite: 44.9
+  composite: 44.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 77.8
+    contract_quality: 74.9
     developer_ergonomics: 11.9
     discoverability: 59.3
     operational_transparency: 39.5
@@ -440,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

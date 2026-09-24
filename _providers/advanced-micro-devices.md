@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -497,7 +497,7 @@ modified: '2026-09-16'
 name: Advanced Micro Devices
 nav: Providers
 network: true
-overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, and 6 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, HPC, and Machine-Learning.
+overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, and 6 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, HPC, and Machine Learning.
 
 
   The Advanced Micro Devices catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -590,7 +590,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -615,7 +615,7 @@ tags:
 - Cloud Computing
 - GPU
 - HPC
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 - Fortune 500
 use_cases:

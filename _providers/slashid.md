@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 97
+- acting_count: 95
   human_in_the_loop: 6
   name: Slashid Agentic Access
   operation_count: 156
   slug: slashid-agentic-access
-  summary_line: 156 operations · 97 acting · 6 human-in-the-loop
+  summary_line: 156 operations · 95 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.slashid.com
@@ -342,9 +342,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

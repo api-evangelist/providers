@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.9
-  scored_at: '2026-09-23'
+  score: 65.0
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 18
   human_in_the_loop: 0
   name: Parallel Agentic Access
-  operation_count: 32
+  operation_count: 36
   slug: parallel-agentic-access
-  summary_line: 32 operations · 16 acting
+  summary_line: 36 operations · 18 acting
 api_count: 2
 apis:
 - baseURL: https://api.parallel.ai
@@ -391,11 +391,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -425,5 +425,6 @@ tags:
 - Data Enrichment
 - Web Monitoring
 - LLM Tools
+- A2A
 website: https://www.parallel.ai
 ---

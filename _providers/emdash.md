@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -141,7 +141,7 @@ modified: '2026-07-19'
 name: Emdash
 nav: Providers
 network: true
-overview: 'Emdash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Coding Agents, Agentic Development Environment, and Open-Source.
+overview: 'Emdash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Coding Agents, Agentic Development Environment, and Open Source.
 
 
   Emdash''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, signup flow, and 17 more developer resources.'
@@ -169,7 +169,7 @@ score:
     score: 50.0
   previous_composite: 26.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -187,7 +187,7 @@ tags:
 - Developer Tools
 - AI Coding Agents
 - Agentic Development Environment
-- Open-Source
+- Open Source
 - Desktop Application
 - Developer Productivity
 - Git Worktrees

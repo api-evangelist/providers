@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ modified: '2026-07-20'
 name: London House Exchange (Property Partner)
 nav: Providers
 network: true
-overview: 'London House Exchange (Property Partner) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Property, Fintech, and Investment.
+overview: 'London House Exchange (Property Partner) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property, Fintech, and Investment.
 
 
   London House Exchange (Property Partner)''s developer surface includes support, engineering blog, and 7 more developer resources.'
@@ -114,7 +114,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,7 @@ security:
 slug: propertypartner
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property
 - Fintech
 - Investment

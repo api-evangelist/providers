@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ modified: '2026-05-08'
 name: DeepInfra
 nav: Providers
 network: true
-overview: 'DeepInfra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and Open-Source.
+overview: 'DeepInfra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and Open Source.
 
 
   DeepInfra''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,10 +237,10 @@ tags:
 - LLM
 - Inference
 - Serverless
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - Anthropic Compatible
-- Image-Generation
+- Image Generation
 - Audio
 - Embeddings
 website: https://deepinfra.com/

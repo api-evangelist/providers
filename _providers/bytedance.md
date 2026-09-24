@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-18'
 name: ByteDance
 nav: Providers
 network: true
-overview: ByteDance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Internet, Social-Media, Video, and Artificial Intelligence.
+overview: ByteDance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Internet, Social Media, Video, and Artificial Intelligence.
 random_paper: 19
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
     - greater-china
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -100,11 +100,11 @@ slug: bytedance
 tags:
 - Company
 - Consumer Internet
-- Social-Media
+- Social Media
 - Video
 - Artificial Intelligence
 - Content Platforms
 - Cloud
-- Open-Source
+- Open Source
 website: https://www.bytedance.com
 ---

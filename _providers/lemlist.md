@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 84
+- acting_count: 86
   human_in_the_loop: 0
   name: Lemlist Agentic Access
-  operation_count: 143
+  operation_count: 153
   slug: lemlist-agentic-access
-  summary_line: 143 operations · 84 acting
+  summary_line: 153 operations · 86 acting
 api_count: 3
 apis:
 - description: lemlist's hosted remote Model Context Protocol server. An MCP client POSTs to https://app.lemlist.com/mcp and authenticates with OAuth 2.1 (authorization code + PKCE, dynamic client registration) or a
@@ -136,7 +136,7 @@ apis:
 - baseURL: https://api.lemlist.com/api
   baseurl_source: declared
   description: lemwarm mailbox warm-up - start, pause, and read or update warm-up settings per mailbox.
-  name: lemlist lemwarm API
+  name: lemlist Lemwarm API
   slug: lemlist-lemwarm-api
 - baseURL: https://api.lemlist.com/api
   baseurl_source: declared
@@ -153,7 +153,7 @@ apis:
   description: The Stats API from lemlist — 2 operation(s) for stats.
   name: lemlist Stats API
   slug: lemlist-stats-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Lemlist Webhooks
@@ -377,10 +377,6 @@ examples:
 - key_count: 143
   name: Lemlist Examples
   slug: lemlist-examples
-graphqls:
-- description: '> **Not a lemlist product. Not published by lemlist.**'
-  name: lemlist GraphQL Schema
-  slug: lemlist-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lemlist.png
 layout: provider
 mcp_servers:
@@ -414,19 +410,19 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.7
+  composite: 70.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 62.8
+    contract_quality: 60.7
     developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 57.9
@@ -442,7 +438,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -479,5 +475,6 @@ tags:
 - Multichannel Messaging
 - Webhook
 - MCP
+- A2A
 website: https://www.lemlist.com
 ---

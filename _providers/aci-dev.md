@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,22 +47,22 @@ apis:
 - baseURL: https://api.aci.dev
   baseurl_source: spec
   description: The app-configurations API from ACI.dev — 2 operation(s) for app-configurations.
-  name: ACI.dev app-configurations API
+  name: ACI.dev App Configurations API
   slug: aci-dev-app-configurations-api
 - baseURL: https://api.aci.dev
   baseurl_source: spec
   description: The apps API from ACI.dev — 2 operation(s) for apps.
-  name: ACI.dev apps API
+  name: ACI.dev Apps API
   slug: aci-dev-apps-api
 - baseURL: https://api.aci.dev
   baseurl_source: spec
   description: The functions API from ACI.dev — 3 operation(s) for functions.
-  name: ACI.dev functions API
+  name: ACI.dev Functions API
   slug: aci-dev-functions-api
 - baseURL: https://api.aci.dev
   baseurl_source: spec
   description: The linked-accounts API from ACI.dev — 4 operation(s) for linked-accounts.
-  name: ACI.dev linked-accounts API
+  name: ACI.dev Linked Accounts API
   slug: aci-dev-linked-accounts-api
 artifact_total: 45
 collections:
@@ -297,7 +297,7 @@ modified: '2026-05-25'
 name: ACI.dev
 nav: Providers
 network: true
-overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, including app-configurations API, apps API, functions API, and 1 more. Tagged areas include Agent Infrastructure, Agents, Artificial Intelligence, Function Calling, and MCP.
+overview: 'ACI.dev publishes 4 APIs on the [APIs.io](https://apis.io/) network, including App Configurations API, Apps API, Functions API, and 1 more. Tagged areas include Agent Infrastructure, Agents, Artificial Intelligence, Function Calling, and MCP.
 
 
   The ACI.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ tags:
 - Function Calling
 - MCP
 - Authentication
-- Open-Source
+- Open Source
 - Tool Calling
 - VibeOps
 website: https://www.aci.dev/

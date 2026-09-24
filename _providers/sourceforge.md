@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ modified: '2026-05-19'
 name: SourceForge
 nav: Providers
 network: true
-overview: 'SourceForge publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Blog API, Discussion API, and 4 more. Tagged areas include Open-Source, Developer Tools, Project Management, Code Hosting, and Collaboration.
+overview: 'SourceForge publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Blog API, Discussion API, and 4 more. Tagged areas include Open Source, Developer Tools, Project Management, Code Hosting, and Collaboration.
 
 
   The SourceForge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -304,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -325,7 +325,7 @@ security:
   summary_line: disclosure policy published
 slug: sourceforge
 tags:
-- Open-Source
+- Open Source
 - Developer Tools
 - Project Management
 - Code Hosting

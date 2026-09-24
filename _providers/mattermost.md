@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 29
+- acting_count: 26
   human_in_the_loop: 0
   name: Mattermost Agentic Access
   operation_count: 43
   slug: mattermost-agentic-access
-  summary_line: 43 operations · 29 acting
+  summary_line: 43 operations · 26 acting
 api_count: 1
 apis:
 - description: REST API v4 for managing users, teams, channels, posts, threads, files, integrations, plugins, webhooks, slash commands, and OAuth applications. Authentication uses Personal Access Tokens or session t
@@ -70,7 +70,7 @@ apis:
   description: The Users API from Mattermost — 8 operation(s) for users.
   name: Mattermost Users API
   slug: mattermost-users-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: Mattermost's WebSocket API delivers real-time events from a Mattermost server to authenticated clients and accepts a small set of WebSocket actions for client-to-server interaction. A client opens a s
   name: Mattermost WebSocket API
@@ -158,10 +158,6 @@ common:
   url: https://mattermost.com/blog/feed/
 created: '2026-05-11'
 description: Mattermost is an open-source collaboration platform for technical teams that combines secure team messaging, workflow automation, voice/video calling, and integrations as a self-hosted Slack alternative. The Mattermost REST API exposes full programmatic control over users, teams, channels, posts, files, integrations, plugins, and webhooks.
-graphqls:
-- description: Conceptual GraphQL schema for the [Mattermost](https://mattermost.com) open-source team messaging platform, derived from the [Mattermost REST API v4](https://api.mattermost.com/).
-  name: Mattermost GraphQL Schema
-  slug: mattermost-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermost.png
 layout: provider
 mcp_servers:
@@ -172,7 +168,7 @@ modified: '2026-05-29'
 name: Mattermost
 nav: Providers
 network: true
-overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Channels API, Posts API, and 2 more. Tagged areas include Messaging, Collaboration, Team Chat, Open-Source, and DevOps.
+overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Channels API, Posts API, and 2 more. Tagged areas include Messaging, Collaboration, Team Chat, Open Source, and DevOps.
 
 
   The Mattermost catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -194,23 +190,23 @@ rules:
   slug: mattermost-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 36.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 40.8
     catalog_earned_first_party: 0.0
     catalog_gap: 74.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
     access_clarity: 31.6
     contract_governance: 11.4
-    contract_quality: 57.8
+    contract_quality: 55.4
     developer_ergonomics: 40.5
     discoverability: 68.5
     operational_transparency: 2.6
-  previous_composite: 36.2
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -247,8 +243,9 @@ tags:
 - Messaging
 - Collaboration
 - Team Chat
-- Open-Source
+- Open Source
 - DevOps
 - Self-Hosted
+- Real-Time
 website: https://mattermost.com
 ---

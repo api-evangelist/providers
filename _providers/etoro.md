@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 87
+- acting_count: 69
   human_in_the_loop: 0
   name: Etoro Agentic Access
-  operation_count: 160
+  operation_count: 146
   slug: etoro-agentic-access
-  summary_line: 160 operations · 87 acting
+  summary_line: 146 operations · 69 acting
 api_count: 2
 apis:
 - description: Provides REST endpoints for executing and managing trades on eToro for both real and demo (paper trading) accounts. Supports creating market and limit orders, canceling pending orders, closing open po
@@ -1325,7 +1325,7 @@ modified: '2026-06-13'
 name: eToro
 nav: Providers
 network: true
-overview: 'eToro publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 19 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio-Management.
+overview: 'eToro publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Portfolios API, Asset Explorer API, Attachments API, and 19 more. Tagged areas include Social Trading, Copy Trading, Investing, Market Data, and Portfolio Management.
 
 
   The eToro catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1386,7 +1386,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1403,7 +1403,7 @@ tags:
 - Copy Trading
 - Investing
 - Market Data
-- Portfolio-Management
+- Portfolio Management
 - Fintech
 - Trading
 - Stocks

@@ -34,43 +34,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
-  name: OpenLattice authorizations API
+  name: OpenLattice Authorizations API
   slug: openlattice-authorizations-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: API endpoints to reading and writing data.
-  name: OpenLattice data API
+  name: OpenLattice Data API
   slug: openlattice-data-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: API endpoints to the entity data model.
-  name: OpenLattice edm API
+  name: OpenLattice Edm API
   slug: openlattice-edm-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: API endpoints related to organizations.
-  name: OpenLattice organizations API
+  name: OpenLattice Organizations API
   slug: openlattice-organizations-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: API endpoints for permissions for organisations, roles and users.
-  name: OpenLattice permissions API
+  name: OpenLattice Permissions API
   slug: openlattice-permissions-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: The principal API from OpenLattice — 5 operation(s) for principal.
-  name: OpenLattice principal API
+  name: OpenLattice Principal API
   slug: openlattice-principal-api
 - baseURL: https://api.openlattice.com
   baseurl_source: declared
   description: API endpoints to search data.
-  name: OpenLattice search API
+  name: OpenLattice Search API
   slug: openlattice-search-api
 artifact_total: 20
 collections:
@@ -189,7 +189,7 @@ modified: '2026-07-20'
 name: OpenLattice
 nav: Providers
 network: true
-overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including authorizations API, data API, edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
+overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Data API, Edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
 
 
   OpenLattice''s developer surface includes pricing, authentication, and 15 more developer resources.'
@@ -239,7 +239,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

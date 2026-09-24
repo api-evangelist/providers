@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Operations for managing provisioned model throughput.
   name: Amazon Bedrock Provisioned Throughput API
   slug: amazon-bedrock-provisioned-throughput-api
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Amazon Bedrock Converse API
@@ -227,10 +227,6 @@ finops:
 - name: Amazon Bedrock Finops
   service_category: API
   slug: amazon-bedrock-finops
-graphqls:
-- description: Amazon Bedrock is a fully managed AWS service for accessing foundation models from AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, and Stability AI. The API covers model invocation, streaming, agents,
-  name: Amazon Bedrock GraphQL API
-  slug: amazon-bedrock-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-bedrock.png
 json_schemas:
 - name: Amazon Bedrock Foundation Model
@@ -250,7 +246,7 @@ modified: '2026-05-19'
 name: Amazon Bedrock
 nav: Providers
 network: true
-overview: 'Amazon Bedrock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Converse API, Custom Models API, Foundation Models API, and 3 more. Tagged areas include Artificial Intelligence, Foundation Models, Generative AI, LLM, and Machine-Learning.
+overview: 'Amazon Bedrock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Converse API, Custom Models API, Foundation Models API, and 3 more. Tagged areas include Artificial Intelligence, Foundation Models, Generative AI, LLM, and Machine Learning.
 
 
   The Amazon Bedrock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -279,19 +275,19 @@ rules:
   slug: amazon-bedrock-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.2
+  composite: 55.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 78.3
     catalog_earned_first_party: 0.0
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 81.6
     contract_governance: 25.0
-    contract_quality: 65.4
+    contract_quality: 63.6
     developer_ergonomics: 46.4
     discoverability: 68.5
     operational_transparency: 39.5
@@ -304,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -329,7 +325,7 @@ tags:
 - Foundation Models
 - Generative AI
 - LLM
-- Machine-Learning
+- Machine Learning
 - RAG
 - Agents
 - Responsible AI

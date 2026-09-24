@@ -10,7 +10,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Game API is the primary client-side interface integrated into game builds for communication between the game and the LootLocker backend. It handles player session management, inventory, characters
@@ -45,7 +45,7 @@ apis:
 - description: The Admin API provides direct programmatic access to LootLocker's platform management features, enabling game editor integrations and tooling that interact with backend configuration. It is used for m
   name: LootLocker Admin API
   slug: admin-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/security/lootlocker-domain-security.yml
@@ -113,10 +113,6 @@ finops:
 - name: Lootlocker Finops
   service_category: ''
   slug: lootlocker-finops
-graphqls:
-- description: 'This document describes the conceptual GraphQL schema derived from the LootLocker Game API, Server API, and Admin API REST surfaces. LootLocker is a game backend-as-a-service platform offering player '
-  name: LootLocker GraphQL Schema
-  slug: lootlocker-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lootlocker.png
 jsonld:
 - class_count: 25
@@ -145,27 +141,27 @@ rate_limits:
   name: Lootlocker Rate Limits
   slug: lootlocker-rate-limits
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 30.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.8
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 50.0
+    contract_quality: 10.7
     developer_ergonomics: 26.2
     discoverability: 74.1
     operational_transparency: 36.8
   previous_composite: 39.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

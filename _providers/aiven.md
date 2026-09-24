@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 255
+- acting_count: 244
   human_in_the_loop: 14
   name: Aiven Agentic Access
   operation_count: 457
   slug: aiven-agentic-access
-  summary_line: 457 operations · 255 acting · 14 human-in-the-loop
+  summary_line: 457 operations · 244 acting · 14 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.aiven.io/v1
@@ -538,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -566,10 +566,11 @@ tags:
 - ClickHouse
 - Redis
 - MySQL
-- Open-Source
+- Open Source
 - Cloud Database
 - Database-as-a-Service
 - Data Streaming
 - Data Platform
+- Database
 website: https://aiven.io
 ---

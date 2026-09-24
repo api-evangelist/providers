@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -138,7 +138,7 @@ modified: '2026-09-06'
 name: Remnote
 nav: Providers
 network: true
-overview: 'Remnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Knowledge-Management, Spaced Repetition, and Flashcards.
+overview: 'Remnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Knowledge Management, Spaced Repetition, and Flashcards.
 
 
   Remnote''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -169,7 +169,7 @@ score:
     regime_id: education
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ slug: remnote
 tags:
 - Company
 - Note Taking
-- Knowledge-Management
+- Knowledge Management
 - Spaced Repetition
 - Flashcards
 - Education

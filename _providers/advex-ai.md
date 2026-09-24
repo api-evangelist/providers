@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ modified: '2026-09-09'
 name: Advex AI
 nav: Providers
 network: true
-overview: Advex AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Synthetic Data, and Manufacturing.
+overview: Advex AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Synthetic Data, and Manufacturing.
 plans:
 - name: Advex Ai Plans Pricing
   plan_count: 0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -118,10 +118,10 @@ slug: advex-ai
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Synthetic Data
 - Manufacturing
-- Machine-Learning
+- Machine Learning
 - Quality Inspection
 - Industrial Automation
 website: https://www.advexai.com/

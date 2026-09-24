@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ modified: '2026-05-25'
 name: Pagar.me
 nav: Providers
 network: true
-overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial-Services, Fintech, Brazil, and Latin America.
+overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial Services, Fintech, Brazil, and Latin America.
 
 
   Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 25 more developer resources.'
@@ -334,7 +334,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -360,7 +360,7 @@ solutions:
   name: Marketplace
 tags:
 - Payments
-- Financial-Services
+- Financial Services
 - Fintech
 - Brazil
 - Latin America

@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: America Movil Agentic Access
   operation_count: 4
   slug: america-movil-agentic-access
-  summary_line: 4 operations · 3 acting
+  summary_line: 4 operations · 2 acting
 api_count: 3
 apis:
 - description: CAMARA-aligned Number Verification API from Claro Brasil — silent verification that a mobile number is the one actually attached to the device making the request, offered as an alternative to SMS one-
@@ -401,7 +401,7 @@ score:
     regime_id: telecommunications
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

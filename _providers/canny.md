@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 51
+- acting_count: 27
   human_in_the_loop: 0
   name: Canny Agentic Access
   operation_count: 51
   slug: canny-agentic-access
-  summary_line: 51 operations · 51 acting
+  summary_line: 51 operations · 27 acting
 api_count: 1
 apis:
 - description: 'REST API for retrieving and managing Canny boards, posts, comments, votes, status changes, users, companies, categories, tags, and changelog entries. Requests authenticate using a secret API key sent '
@@ -271,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

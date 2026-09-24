@@ -11,37 +11,37 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-09-23'
+  score: 35.9
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 70
-  human_in_the_loop: 3
+- acting_count: 145
+  human_in_the_loop: 6
   name: Oracle Database Agentic Access
-  operation_count: 156
+  operation_count: 401
   slug: oracle-database-agentic-access
-  summary_line: 156 operations · 70 acting · 3 human-in-the-loop
+  summary_line: 401 operations · 145 acting · 6 human-in-the-loop
 api_count: 3
 apis:
 - description: MongoDB-compatible API for Oracle Database.
@@ -59,9 +59,7 @@ apis:
 - description: Kafka-compatible event streaming and message queuing built into Oracle Database.
   name: Oracle Transactional Event Queues (TxEventQ)
   slug: oracle-transactional-event-queues-txeventq
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Oracle APEX workspace and application management
+- description: Oracle APEX workspace and application management
   name: Oracle Database APEX API
   slug: oracle-database-apex-api
 - baseURL_template: https://database.{region}.oraclecloud.com/20160918
@@ -84,14 +82,10 @@ apis:
   description: Collection management operations (create, list, delete)
   name: Oracle Database Collections API
   slug: oracle-database-collections-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Database tables, views, columns, indexes, and object metadata
+- description: Database tables, views, columns, indexes, and object metadata
   name: Oracle Database Data Dictionary API
   slug: oracle-database-data-dictionary-api
-- baseURL_template: https://database.{region}.oraclecloud.com/20160918
-  baseurl_source: spec_template
-  description: Manage Data Guard associations for high availability
+- description: Manage Data Guard associations for high availability
   name: Oracle Database Data Guard API
   slug: oracle-database-data-guard-api
 - baseURL_template: https://{host}:{port}/ords
@@ -119,9 +113,7 @@ apis:
   description: Document CRUD operations (get, insert, update, delete)
   name: Oracle Database Documents API
   slug: oracle-database-documents-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Core database instance status, version, and configuration services
+- description: Core database instance status, version, and configuration services
   name: Oracle Database General API
   slug: oracle-database-general-api
 - baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
@@ -134,9 +126,7 @@ apis:
   description: Collection metadata and catalog operations
   name: Oracle Database Metadata API
   slug: oracle-database-metadata-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Database session monitoring, locks, alerts, and wait metrics
+- description: Database session monitoring, locks, alerts, and wait metrics
   name: Oracle Database Monitoring API
   slug: oracle-database-monitoring-api
 - baseURL_template: https://{host}:{port}/ords
@@ -149,14 +139,10 @@ apis:
   description: PDB snapshot carousel management
   name: Oracle Database PDB Snapshots API
   slug: oracle-database-pdb-snapshots-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: SQL performance analysis, execution plans, and active session history
+- description: SQL performance analysis, execution plans, and active session history
   name: Oracle Database Performance API
   slug: oracle-database-performance-api
-- baseURL_template: https://database.{region}.oraclecloud.com/20160918
-  baseurl_source: spec_template
-  description: Manage pluggable databases in multitenant architecture
+- description: Manage pluggable databases in multitenant architecture
   name: Oracle Database Pluggable Databases API
   slug: oracle-database-pluggable-databases-api
 - baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
@@ -164,14 +150,10 @@ apis:
   description: Query by Example (QBE) and filter operations
   name: Oracle Database Queries API
   slug: oracle-database-queries-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Knowledge graph management using W3C RDF, OWL, and SPARQL standards
+- description: Knowledge graph management using W3C RDF, OWL, and SPARQL standards
   name: Oracle Database RDF Graph API
   slug: oracle-database-rdf-graph-api
-- baseURL_template: https://{host}:{port}/ords
-  baseurl_source: spec_template
-  description: Custom REST API module, handler, and OAuth management
+- description: Custom REST API module, handler, and OAuth management
   name: Oracle Database REST Services API
   slug: oracle-database-rest-services-api
 - baseURL_template: https://{host}:{port}/ords
@@ -179,7 +161,37 @@ apis:
   description: Oracle Scheduler job management
   name: Oracle Database Scheduler API
   slug: oracle-database-scheduler-api
-artifact_total: 226
+- description: 'ORDS Database API services for loading, manipulating and analyzing data: data load jobs, cloud storage links, credentials and table surveys.'
+  name: Oracle Database Data Tools API
+  slug: oracle-database-data-tools-api
+- description: 'ORDS Database API services for the Oracle Database installation: Oracle Homes, databases in a home, DBCA jobs and DBCA templates. Available on Unix-based operating systems only.'
+  name: Oracle Database Environment API
+  slug: oracle-database-environment-api
+- description: 'ORDS Database API services for Oracle Transactional Event Queues (TxEventQ): topics, partitions, consumer groups, consumers, lags and producing and consuming messages over REST.'
+  name: Oracle Database Transactional Event Queues API
+  slug: oracle-database-transactional-event-queues-api
+- description: 'ORDS Vector Database inference operations: generate text embeddings and rerank documents by relevance to a query using models hosted in the database.'
+  name: Oracle Database Vector Inference API
+  slug: oracle-database-vector-inference-api
+- description: ORDS Vector Database services to list, load, describe and delete the ONNX models hosted in the database.
+  name: Oracle Database Vector Models API
+  slug: oracle-database-vector-models-api
+- description: ORDS Vector Database summary of all vector database objects present in the schema.
+  name: Oracle Database Vector Summary API
+  slug: oracle-database-vector-summary-api
+- description: ORDS Vector Database services to create, rebuild, inspect and drop IVF and HNSW vector indexes, and to follow index jobs and their logs.
+  name: Oracle Database Vector Indexes API
+  slug: oracle-database-vector-indexes-api
+- description: ORDS Vector Database services to upsert, list and delete vectors in a vector table and to bulk-load CSV datasets, with load-job status and logs.
+  name: Oracle Database Vector Operations API
+  slug: oracle-database-vector-operations-api
+- description: ORDS Vector Database vector similarity search over a vector table.
+  name: Oracle Database Vector Search API
+  slug: oracle-database-vector-search-api
+- description: ORDS Vector Database services to list, create, describe, update and delete vector tables.
+  name: Oracle Database Vector Tables API
+  slug: oracle-database-vector-tables-api
+artifact_total: 236
 asyncapis:
 - description: Oracle Transactional Event Queues provide Kafka-compatible event streaming and message queuing capabilities built into Oracle Database. TxEventQ enables event-driven architectures with transactional g
   name: Oracle Transactional Event Queues (TxEventQ) API
@@ -864,7 +876,7 @@ modified: '2026-09-16'
 name: Oracle Database
 nav: Providers
 network: true
-overview: 'Oracle Database publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Oracle Transactional Event Queues (TxEventQ), APEX API, Autonomous Databases API, and 22 more. Tagged areas include Cloud, Database, Enterprise, Oracle, and REST API.
+overview: 'Oracle Database publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Oracle Transactional Event Queues (TxEventQ), APEX API, Autonomous Databases API, and 32 more. Tagged areas include Cloud, Database, Enterprise, Oracle, and REST API.
 
 
   The Oracle Database catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -909,7 +921,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.6
+  composite: 50.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.5
@@ -917,11 +929,11 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 77.1
+    contract_quality: 71.4
     developer_ergonomics: 53.6
     discoverability: 40.7
     operational_transparency: 26.3
@@ -929,16 +941,16 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 20.8
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
-    score: 22.2
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:
 - kind: authentication

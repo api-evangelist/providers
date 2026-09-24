@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ modified: '2026-07-24'
 name: Allica Bank
 nav: Providers
 network: true
-overview: 'Allica Bank publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 13 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Allica Bank publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 13 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Allica Bank''s developer surface includes pricing, authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 26 more developer resources.'
@@ -361,7 +361,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -382,7 +382,7 @@ security:
   summary_line: security.txt · contact published
 slug: allica-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

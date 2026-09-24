@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 34
+- acting_count: 33
   human_in_the_loop: 0
   name: Ribbon Health Agentic Access
-  operation_count: 73
+  operation_count: 80
   slug: ribbon-health-agentic-access
-  summary_line: 73 operations · 34 acting
+  summary_line: 80 operations · 33 acting
 api_count: 1
 apis:
 - baseURL: https://api.ribbonhealth.com/v1
@@ -577,7 +577,7 @@ score:
     regime_id: health
     score: 41.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

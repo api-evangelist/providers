@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 1
   human_in_the_loop: 0
   name: Chief Financial Officers Council Agentic Access
-  operation_count: 14
+  operation_count: 15
   slug: chief-financial-officers-council-agentic-access
-  summary_line: 14 operations · 7 acting
+  summary_line: 15 operations · 1 acting
 api_count: 1
 apis:
 - description: The cfo.gov public website is the official portal for the federal CFO Council, hosting member rosters, council news, working-group outputs, financial-management policy guidance, and links to companion
@@ -219,7 +219,7 @@ modified: '2026-07-25'
 name: Chief Financial Officers Council
 nav: Providers
 network: true
-overview: 'Chief Financial Officers Council publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Awards API, Downloads API, and 5 more. Tagged areas include Federal Financial Management, Federal-Government, Finance, Government, and OMB.
+overview: 'Chief Financial Officers Council publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Awards API, Downloads API, and 5 more. Tagged areas include Federal Financial Management, Federal Government, Finance, Government, and OMB.
 
 
   Chief Financial Officers Council''s developer surface includes product news and 17 more developer resources.'
@@ -265,7 +265,7 @@ score:
     regime_id: government
     score: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -279,7 +279,7 @@ security:
 slug: chief-financial-officers-council
 tags:
 - Federal Financial Management
-- Federal-Government
+- Federal Government
 - Finance
 - Government
 - OMB

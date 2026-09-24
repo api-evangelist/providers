@@ -28,13 +28,13 @@ modified: '2026-09-15'
 name: Ximian
 nav: Providers
 network: true
-overview: Ximian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open-Source, Linux, GNOME, and Email.
+overview: Ximian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Linux, GNOME, and Email.
 random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/ximian/refs/heads/main/screenshots/ximian-2026-09-02T171131.png
 slug: ximian
 tags:
 - Company
-- Open-Source
+- Open Source
 - Linux
 - GNOME
 - Email

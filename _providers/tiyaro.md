@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -126,7 +126,7 @@ modified: '2026-08-14'
 name: Tiyaro
 nav: Providers
 network: true
-overview: 'Tiyaro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Customer-Support.
+overview: 'Tiyaro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Customer Support.
 
 
   Tiyaro''s developer surface includes engineering blog, CLI, and 12 more developer resources.'
@@ -159,7 +159,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agentic AI
-- Customer-Support
+- Customer Support
 - ITSM
 - Business Process Automation
 - Enterprise Software

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 3
   human_in_the_loop: 0
   name: Hotelbeds Agentic Access
   operation_count: 13
   slug: hotelbeds-agentic-access
-  summary_line: 13 operations · 5 acting
+  summary_line: 13 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://api.hotelbeds.com/hotel-api/1.0
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

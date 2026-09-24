@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-18'
 name: Cyrus Biotechnology
 nav: Providers
 network: true
-overview: 'Cyrus Biotechnology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Protein Engineering, Drug Discovery, and Structural Biology.
+overview: 'Cyrus Biotechnology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Protein Engineering, Drug Discovery, and Structural Biology.
 
 
   Cyrus Biotechnology''s developer surface includes documentation and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
     - north-america
   previous_composite: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ security:
 slug: cyrus-biotechnology
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Protein Engineering
 - Drug Discovery
 - Structural Biology

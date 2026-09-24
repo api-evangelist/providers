@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 14
   human_in_the_loop: 2
   name: Lalal Ai Agentic Access
   operation_count: 15
   slug: lalal-ai-agentic-access
-  summary_line: 15 operations · 15 acting · 2 human-in-the-loop
+  summary_line: 15 operations · 14 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://www.lalal.ai
@@ -398,7 +398,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -424,7 +424,7 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine-Learning
+- Machine Learning
 - DSP
 website: https://www.lalal.ai/
 ---

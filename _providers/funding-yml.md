@@ -23,7 +23,7 @@ modified: '2026-04-28'
 name: FUNDING.yml
 nav: Providers
 network: true
-overview: 'FUNDING.yml is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include GitHub, Open-Source, Repository, Sponsorship, and Funding.
+overview: 'FUNDING.yml is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include GitHub, Open Source, Repository, Sponsorship, and Funding.
 
 
   FUNDING.yml''s developer surface includes documentation.'
@@ -32,7 +32,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/funding-yml/refs/he
 slug: funding-yml
 tags:
 - GitHub
-- Open-Source
+- Open Source
 - Repository
 - Sponsorship
 - Funding

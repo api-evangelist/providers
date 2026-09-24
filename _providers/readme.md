@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-09-23'
+  score: 29.5
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ apis:
 - baseURL: https://api.readme.com/v2
   baseurl_source: declared
   description: Manage API definitions and reference pages
-  name: ReadMe AP Is API
+  name: ReadMe APIs API
   slug: readme-apis-api
 arazzos:
 - description: Create a branch (version), add a category, and seed it with a first guide.
@@ -148,7 +148,7 @@ arazzos:
 - description: Find a guide by slug and update it if it exists, otherwise create it.
   name: ReadMe Upsert A Guide Page
   slug: readme-upsert-guide-workflow
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: AsyncAPI 2.6 description of ReadMe's Personalized Docs Webhook surface. The Personalized Docs Webhook is the integration that lets ReadMe inject a logged-in end user's account data into a project's ho
   name: ReadMe Personalized Docs Webhook
@@ -427,10 +427,6 @@ finops:
 - name: Readme Finops
   service_category: API
   slug: readme-finops
-graphqls:
-- description: ''
-  name: ReadMe GraphQL API
-  slug: readme-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/readme.png
 json_schemas:
 - name: ReadMe API Definition
@@ -521,7 +517,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 53.9
     contract_governance: 28.8
@@ -529,7 +525,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 66.7
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -537,8 +533,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -563,5 +560,8 @@ tags:
 - Artificial Intelligence
 - MCP
 - Bi-Directional Sync
+- API Documentation
+- Developer Portal
+- OpenAPI
 website: https://www.readme.com/
 ---

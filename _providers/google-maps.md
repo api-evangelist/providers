@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Google Maps Agentic Access
   operation_count: 7
   slug: google-maps-agentic-access
-  summary_line: 7 operations · 3 acting
+  summary_line: 7 operations
 api_count: 3
 apis:
 - description: Add maps to Android and Wear OS applications with customizable markers, polylines, and user interaction support.
@@ -200,7 +200,7 @@ arazzos:
 - description: Turn raw coordinates into a street address, then list the points of interest surrounding that point.
   name: Google Maps Reverse Geocode a Coordinate and Discover What Is Around It
   slug: google-maps-reverse-geocode-to-nearby-workflow
-artifact_total: 314
+artifact_total: 313
 collections:
 - collection_type: postman
   name: Google Maps Directions Autocomplete API
@@ -652,10 +652,6 @@ finops:
 - name: Google Maps Finops
   service_category: Maps and Location
   slug: google-maps-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Google Maps Platform APIs, covering Maps, Routes, Places, Geocoding, Elevation, Geolocation, Address Validation, Roads, Time Zone, Street Vi
-  name: Google Maps Platform GraphQL Schema
-  slug: google-maps-graphql
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 integrations:
 - Google Cloud Platform for authentication and billing management
@@ -1180,19 +1176,19 @@ rules:
   slug: google-maps-spectral-rules
 score:
   band: developing
-  composite: 51.1
+  composite: 50.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 78.1
+    contract_quality: 75.3
     developer_ergonomics: 56.0
     discoverability: 48.1
     operational_transparency: 39.5
@@ -1207,7 +1203,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-07-01'
 name: Alloy Automation
 nav: Providers
 network: true
-overview: 'Alloy Automation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Credentials API, Events API, and 7 more. Tagged areas include iPaaS, Integration, Unified-API, Embedded, and Software-as-a-Service.
+overview: 'Alloy Automation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Credentials API, Events API, and 7 more. Tagged areas include iPaaS, Integration, Unified API, Embedded, and Software-as-a-Service.
 
 
   Alloy Automation''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -233,7 +233,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -252,7 +252,7 @@ slug: alloy-automation
 tags:
 - iPaaS
 - Integration
-- Unified-API
+- Unified API
 - Embedded
 - Software-as-a-Service
 - Automation

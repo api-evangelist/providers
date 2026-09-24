@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -70,8 +70,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Tesla Energy",
@@ -89,7 +89,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -125,6 +125,57 @@
      "rank": 2
     },
     {
+     "name": "Pacific Gas and Electric",
+     "slug": "pge",
+     "description": "Pacific Gas and Electric Company is the investor-owned electric and natural gas utility for northern and central California — incorporated in California in 1905, headquartered in Oakland, roughly 23,000 employees, a 70,000-square- mile service area, about 5.5 million electric accounts and 4.5 million gas accounts, and a subsidiary of PG&E Corporation. It sits in the wires, pipes and metering layer of the United States value chain: a vertically integrated regulated distribution utility that owns the meter and the customer relationship, does not run the wholesale market (CAISO does), and is regulated by the California Public Utilities Commission. Its API posture is the outlier of the American utility sector and deserves to be recorded precisely, because the United States has no federal energy consumer-data mandate at all. PG&E runs Share My Data, its production Green Button Connect My Data implementation, on a live MuleSoft API gateway at https://api.pge.com — a NAESB REQ.21 ESPI 1.1 surface with roughly two dozen documented resources under /GreenButtonConnect/espi/1_1/resource/, an OAuth 2.0 authorization server at /datacustodian/oauth/v2/, and a separate published test environment at /datacustodian/test/oauth/v2/. Unlike almost every other US utility, PG&E publishes the whole contract anonymously: a complete supported-API reference, an OAuth/ESPI authorization guide, a relational data model, supported data elements, function-block scope-string mappings, the ESPI and Share My Data XSD schemas, sample MeterReadings XML, Python and JavaScript SDKs with development guides, published rate limits (one request per second per vendor, 2,000 calls per hour and 20,000 calls per 24 hours per client ID) and a SoapUI walkthrough — all reachable without a login at pge.com. What is not open is the data itself. Share My Data is application-approval gated: a third party needs a US EIN, eligible standing with the CPUC, a CA-issued TLS 1.2 X.509 certificate (self-signed rejected), acceptance of the CPUC-filed Customer Data Access Tariff, and successful connectivity and OAuth testing before approval, after which every production call runs over mutual TLS with bearer tokens scoped to an individual customer's authorization. The mandate story is equally specific and must not be flattened into \"voluntary Green Button\": California compels third-party access through state law and CPUC tariff — Public Utilities Code section 8380 (SB 1476, 2010), the Customer Information Service Request for Share My Data tariff form (Cal. P.U.C. Sheet 55826-E, Sample Form 79-1186, Advice 6900-E, effective 1 April 2023), and Electric Rule 24 / Gas Rule 25 for demand response providers — but no federal obligation and no Ontario-style Green Button regulation applies. The consumer-versus-market split is stark: consumer data is a real, verified, standards-conformant API behind consent and approval, while PG&E publishes no open market or grid API whatsoever. Its aggregated ZIP-code electric and gas usage datasets, released quarterly under CPUC Decision 14-05-016 through the Energy Data Request Program, are CSV-in- ZIP downloads behind an organization/name/email form and a data-use agreement, not an anonymous feed; California wholesale market data belongs to CAISO.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png",
+     "score": 59.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 33.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 82.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 82.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 3
+    },
+    {
      "name": "OpenADR Alliance",
      "slug": "openadr-alliance",
      "description": "The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate demand response and dispatch distributed energy resources. It is a standards body, not a service operator: it publishes the OpenADR 2.0a/2.0b profile specifications (approved by the IEC as IEC/PAS 62746-10-1) and OpenADR 3.0/3.1, which abandoned the SOAP-era design and is now defined entirely by an OpenAPI 3.0 contract covering programs, events, reports, subscriptions, VENs, and resources, secured with OAuth 2.0 client credentials. It also runs the OpenADR and EcoPort (CTA-2045-B) certification programmes and their public certified-product databases. Its API posture is honest but narrow: the OpenADR 3 OpenAPI is a genuine, parseable machine-readable contract, and the specifications are license-free, but the Alliance itself operates no developer portal, no api./developer./docs. subdomain, and no hosted API — its canonical specification repository (github.com/oadr3-org) has zero public repositories and requires membership, and the public route to the spec is a registration form that emails download links under terms and conditions. It publishes no consumer energy data and no open grid or market data; it defines the protocol that other parties implement. Home market is the United States, with adoption across Europe, Japan, Korea, and Australia.",
@@ -140,7 +191,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -149,7 +200,7 @@
       "score": 60.1,
       "matched_via": "tags"
      },
-     "agent_score": 30.4,
+     "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -161,7 +212,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -173,7 +224,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "SolarEdge",
@@ -191,7 +242,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -224,7 +275,7 @@
       "agentic_commerce": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Green Button Alliance",
@@ -242,7 +293,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -275,7 +326,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Voltus",
@@ -293,7 +344,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -326,7 +377,7 @@
       "agentic_commerce": false
      },
      "tier": "Storage & Flexibility",
-     "rank": 6
+     "rank": 7
     }
    ],
    "open": true
@@ -336,8 +387,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "ERCOT",
@@ -355,7 +406,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -388,57 +439,6 @@
       "agentic_commerce": false
      },
      "tier": "System & Market Operators",
-     "rank": 7
-    },
-    {
-     "name": "Pacific Gas and Electric",
-     "slug": "pge",
-     "description": "Pacific Gas and Electric Company is the investor-owned electric and natural gas utility for northern and central California — incorporated in California in 1905, headquartered in Oakland, roughly 23,000 employees, a 70,000-square- mile service area, about 5.5 million electric accounts and 4.5 million gas accounts, and a subsidiary of PG&E Corporation. It sits in the wires, pipes and metering layer of the United States value chain: a vertically integrated regulated distribution utility that owns the meter and the customer relationship, does not run the wholesale market (CAISO does), and is regulated by the California Public Utilities Commission. Its API posture is the outlier of the American utility sector and deserves to be recorded precisely, because the United States has no federal energy consumer-data mandate at all. PG&E runs Share My Data, its production Green Button Connect My Data implementation, on a live MuleSoft API gateway at https://api.pge.com — a NAESB REQ.21 ESPI 1.1 surface with roughly two dozen documented resources under /GreenButtonConnect/espi/1_1/resource/, an OAuth 2.0 authorization server at /datacustodian/oauth/v2/, and a separate published test environment at /datacustodian/test/oauth/v2/. Unlike almost every other US utility, PG&E publishes the whole contract anonymously: a complete supported-API reference, an OAuth/ESPI authorization guide, a relational data model, supported data elements, function-block scope-string mappings, the ESPI and Share My Data XSD schemas, sample MeterReadings XML, Python and JavaScript SDKs with development guides, published rate limits (one request per second per vendor, 2,000 calls per hour and 20,000 calls per 24 hours per client ID) and a SoapUI walkthrough — all reachable without a login at pge.com. What is not open is the data itself. Share My Data is application-approval gated: a third party needs a US EIN, eligible standing with the CPUC, a CA-issued TLS 1.2 X.509 certificate (self-signed rejected), acceptance of the CPUC-filed Customer Data Access Tariff, and successful connectivity and OAuth testing before approval, after which every production call runs over mutual TLS with bearer tokens scoped to an individual customer's authorization. The mandate story is equally specific and must not be flattened into \"voluntary Green Button\": California compels third-party access through state law and CPUC tariff — Public Utilities Code section 8380 (SB 1476, 2010), the Customer Information Service Request for Share My Data tariff form (Cal. P.U.C. Sheet 55826-E, Sample Form 79-1186, Advice 6900-E, effective 1 April 2023), and Electric Rule 24 / Gas Rule 25 for demand response providers — but no federal obligation and no Ontario-style Green Button regulation applies. The consumer-versus-market split is stark: consumer data is a real, verified, standards-conformant API behind consent and approval, while PG&E publishes no open market or grid API whatsoever. Its aggregated ZIP-code electric and gas usage datasets, released quarterly under CPUC Decision 14-05-016 through the Energy Data Request Program, are CSV-in- ZIP downloads behind an organization/name/email form and a data-use agreement, not an anonymous feed; California wholesale market data belongs to CAISO.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png",
-     "score": 53.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 21.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 82.7,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
      "rank": 8
     },
     {
@@ -457,7 +457,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -493,57 +493,6 @@
      "rank": 9
     },
     {
-     "name": "MISO",
-     "slug": "miso",
-     "description": "MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Manitoba, serving a footprint of roughly forty-five million people from headquarters in Carmel, Indiana. Formed in 1998 and operating the region since December 2001, it is regulated by the Federal Energy Regulatory Commission, dispatches generation in real time, clears day-ahead and real-time energy and ancillary services markets, runs the ARR/FTR market and the generator interconnection queue, and plans the transmission system. It sits squarely in the middle of the value chain: it owns no generation, no wires and no retail customers, but it holds the market-wide operational data that every generator, transmission owner, load-serving entity and trader in the Midwest and the South depends on. Its API posture is the classic system operator split, and it is an unusually clean example of it. On the market side MISO is genuinely open — thirty-seven JSON endpoints at public-api.misoenergy.org return real-time fuel mix, load, prices, binding constraints and interchange to an anonymous GET with no key, no account and no click-through, and the full market report archive at docs.misoenergy.org downloads anonymously as CSV and XLSX. On the consumer side there is nothing to open: MISO is not a retail utility, holds no customer usage or billing data, and no energy-data mandate of any kind applies to it. Green Button is voluntary in the United States and is a distribution-utility standard; MISO publishes no Green Button, ESPI, or consumer data-sharing surface, and makes no claim to. Its newer MISO Data Exchange developer portal adds a keyed but self-serve tier over historical market report data, and its MUI 2.0 market interface is a genuinely closed, client-certificate-gated API for registered market participants only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png",
-     "score": 52.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 34.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "System & Market Operators",
-     "rank": 10
-    },
-    {
      "name": "Itron",
      "slug": "itron",
      "description": "Itron, Inc. (NASDAQ: ITRI) is a Liberty Lake, Washington–based industrial technology company providing smart-meter, grid-edge, and IoT infrastructure to electric, gas, and water utilities and cities. Itron's self-described mission is \"Creating a more resourceful world\" and the company reports 7,700+ customers in 100+ countries with 310M+ communicating endpoints delivered and 112M+ endpoints under management. The Itron developer surface is partner-gated rather than self-serve, centered on three platform families: (1) Distributed Intelligence (DI) — purpose-built apps that run at the grid edge on Itron smart meters; (2) Intelligent Connectivity (IC) — an IPv6/RF-mesh network platform (Itron Networks, formerly Cisco IoT FAN); and (3) the Starfish / Itron Networked Solutions Data Platform — a REST API + JavaScript SDK for device management and observation data, inherited from the Silver Spring Networks acquisition. A separate Data Warehouse OData API serves the Itron Analytics product, a Third-Party Gateway REST API bridges utility customer portals into DI enrollment, and legacy IEE web services (WCF/SOAP) and Consumer Energy Stream (CES) APIs document the Itron Enterprise Edition stack. Public OpenAPI/AsyncAPI artifacts are not published — access to specs, SDKs, and sandboxes is brokered through partner.itron.com after program acceptance. The developer.itron.com hostname now redirects to na.itron.com/developers/.",
@@ -559,7 +508,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -592,7 +541,7 @@
       "agentic_commerce": false
      },
      "tier": "Metering",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "EIA",
@@ -610,7 +559,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -643,25 +592,25 @@
       "agentic_commerce": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Virtual Peaker",
      "slug": "virtual-peaker",
      "description": "Virtual Peaker is a Louisville, Kentucky software company selling grid-edge DERMS and virtual power plant software to United States and Canadian electric utilities — investor-owned utilities, municipal utilities, and rural electric cooperatives. Its platform is sold as three suites: Shift (grid-edge DERMS device control and demand response event dispatch), Relay (customer engagement, enrollment, and incentive processing), and Envision (demand forecasting). Virtual Peaker sits in the private DER-orchestration layer of the energy value chain, between device OEMs behind the meter and the utility back office — it is a vendor, not a utility, not a retailer, and not a data holder, so no consumer energy data right attaches to it. There is no Green Button / ESPI implementation here, no Consumer Data Right obligation, and no open market or grid data of any kind. What it does publish is its own API specification: Gravity Connect, an OpenAPI 3.0.0 contract (v2.0.6) that Virtual Peaker authored and openly published as a vendor-agnostic alternative to OpenADR and IEEE 2030.5 for onboarding and controlling DER devices. Gravity Connect is two-sided — the device OEM implements one half, the VPP platform implements the other — and both halves are readable anonymously as full Redoc API references. The honest posture: a real, downloadable, standards-ambitious API contract that is effectively undiscoverable (it is linked from nowhere on the marketing site) and whose credentials are partner-only, issued per utility program by emailing the Gravity Connect team. The commercial Shift API is named and sold on the marketing site but has no public documentation at all.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/screenshots/virtual-peaker-2026-08-17T082758.png",
-     "score": 51.4,
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 58.1,
+      "contract_quality": 57.8,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -694,6 +643,57 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
+     "rank": 12
+    },
+    {
+     "name": "MISO",
+     "slug": "miso",
+     "description": "MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Manitoba, serving a footprint of roughly forty-five million people from headquarters in Carmel, Indiana. Formed in 1998 and operating the region since December 2001, it is regulated by the Federal Energy Regulatory Commission, dispatches generation in real time, clears day-ahead and real-time energy and ancillary services markets, runs the ARR/FTR market and the generator interconnection queue, and plans the transmission system. It sits squarely in the middle of the value chain: it owns no generation, no wires and no retail customers, but it holds the market-wide operational data that every generator, transmission owner, load-serving entity and trader in the Midwest and the South depends on. Its API posture is the classic system operator split, and it is an unusually clean example of it. On the market side MISO is genuinely open — thirty-seven JSON endpoints at public-api.misoenergy.org return real-time fuel mix, load, prices, binding constraints and interchange to an anonymous GET with no key, no account and no click-through, and the full market report archive at docs.misoenergy.org downloads anonymously as CSV and XLSX. On the consumer side there is nothing to open: MISO is not a retail utility, holds no customer usage or billing data, and no energy-data mandate of any kind applies to it. Green Button is voluntary in the United States and is a distribution-utility standard; MISO publishes no Green Button, ESPI, or consumer data-sharing surface, and makes no claim to. Its newer MISO Data Exchange developer portal adds a keyed but self-serve tier over historical market report data, and its MUI 2.0 market interface is a genuinely closed, client-certificate-gated API for registered market participants only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png",
+     "score": 51.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 30.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 44.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "System & Market Operators",
      "rank": 13
     },
     {
@@ -712,7 +712,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -763,7 +763,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -814,7 +814,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -865,7 +865,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -916,7 +916,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -967,7 +967,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1018,7 +1018,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1062,7 +1062,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1104,8 +1104,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 11,
-   "shown": 11,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "CenterPoint Energy",
@@ -1123,7 +1123,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1174,7 +1174,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1225,7 +1225,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1276,7 +1276,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1327,7 +1327,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1367,7 +1367,7 @@
      "slug": "watttime",
      "description": "WattTime is a nonprofit organization that provides real-time, forecast, and historical data for electric grids around the world, enabling carbon-aware computing and clean energy procurement decisions. The WattTime API delivers marginal emissions data (CO2 MOER), health damage signals, average emissions rates, and renewable energy forecasts for 342 grid regions across 210 countries and territories. Developers and organizations use the API to schedule workloads during low-carbon windows, measure actual emissions reductions from clean energy procurement, and meet sustainability reporting requirements.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png",
-     "score": 36.4,
+     "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1375,10 +1375,10 @@
       "contract_quality": 32.1,
       "contract_governance": 28.8,
       "operational_transparency": 42.1,
-      "developer_ergonomics": 50.0,
+      "developer_ergonomics": 46.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1429,7 +1429,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1480,7 +1480,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1531,7 +1531,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1567,50 +1567,6 @@
      "rank": 30
     },
     {
-     "name": "Persefoni",
-     "slug": "persefoni",
-     "description": "Persefoni is a climate management and accounting platform (CMAP) used by enterprises and financial institutions to measure, report, and reduce greenhouse gas emissions. The platform serves more than 9,000 sustainability teams and covers Scope 1, 2, and 3 emissions, financed emissions for financial services (PCAF), and disclosures aligned to SBTi, TCFD, CSRD, SEC, and SASB. Persefoni also ships PersefoniAI and the Persefoni Copilot for in-product carbon accounting expertise. An Integration Hub provides pre-built connectors to enterprise systems (AWS, SAP Concur, Expensify, Navan, Google Sheets, Coupa, NetSuite, Stripe, utilities). Persefoni does not publish a fully open, self-service API portal; programmatic access is delivered through customer and partner channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/persefoni/refs/heads/main/screenshots/persefoni-2026-06-20T191612.png",
-     "score": 27.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Carbon & Climate Accounting",
-     "rank": 31
-    },
-    {
      "name": "Entergy",
      "slug": "entergy",
      "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
@@ -1626,7 +1582,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1659,7 +1615,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 32
+     "rank": 31
     }
    ]
   },
@@ -1668,8 +1624,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Landis+Gyr",
@@ -1687,7 +1643,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1720,7 +1676,7 @@
       "agentic_commerce": false
      },
      "tier": "Metering",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Electrify America",
@@ -1738,7 +1694,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1771,50 +1727,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 34
-    },
-    {
-     "name": "Watershed",
-     "slug": "watershed",
-     "description": "Watershed is an enterprise sustainability platform used by large companies to measure their carbon footprint, report against regulatory and voluntary frameworks, and act on decarbonization opportunities. The platform combines a library of 500,000+ emissions factors, pre-verified methodologies, and AI agents for data cleaning, analysis, and report drafting. Watershed exposes an API for automated data ingestion and reporting, alongside guided uploads, and publishes integrations for common enterprise data sources. API keys are provisioned to customers via the Watershed dashboard at dashboard.watershedclimate.com. Public developer documentation is limited; most API access is delivered through customer onboarding and partner enablement.",
-     "score": 24.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Carbon & Climate Accounting",
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "EVgo",
@@ -1831,7 +1744,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1864,7 +1777,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "EnergyHub",
@@ -1882,7 +1795,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1915,7 +1828,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "NERC",
@@ -1933,7 +1846,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1966,7 +1879,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Enverus",
@@ -1984,7 +1897,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2017,7 +1930,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Yes Energy",
@@ -2035,7 +1948,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2068,7 +1981,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Sempra",
@@ -2086,7 +1999,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2119,7 +2032,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "Uplight",
@@ -2137,7 +2050,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2170,7 +2083,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Xcel Energy",
@@ -2188,7 +2101,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2221,7 +2134,51 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 43
+     "rank": 41
+    },
+    {
+     "name": "Persefoni",
+     "slug": "persefoni",
+     "description": "Persefoni is a climate management and accounting platform (CMAP) used by enterprises and financial institutions to measure, report, and reduce greenhouse gas emissions. The platform serves more than 9,000 sustainability teams and covers Scope 1, 2, and 3 emissions, financed emissions for financial services (PCAF), and disclosures aligned to SBTi, TCFD, CSRD, SEC, and SASB. Persefoni also ships PersefoniAI and the Persefoni Copilot for in-product carbon accounting expertise. An Integration Hub provides pre-built connectors to enterprise systems (AWS, SAP Concur, Expensify, Navan, Google Sheets, Coupa, NetSuite, Stripe, utilities). Persefoni does not publish a fully open, self-service API portal; programmatic access is delivered through customer and partner channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/persefoni/refs/heads/main/screenshots/persefoni-2026-06-20T191612.png",
+     "score": 17.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Carbon & Climate Accounting",
+     "rank": 42
     },
     {
      "name": "American Electric Power",
@@ -2239,7 +2196,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2272,6 +2229,49 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
+     "rank": 43
+    },
+    {
+     "name": "Watershed",
+     "slug": "watershed",
+     "description": "Watershed is an enterprise sustainability platform used by large companies to measure their carbon footprint, report against regulatory and voluntary frameworks, and act on decarbonization opportunities. The platform combines a library of 500,000+ emissions factors, pre-verified methodologies, and AI agents for data cleaning, analysis, and report drafting. Watershed exposes an API for automated data ingestion and reporting, alongside guided uploads, and publishes integrations for common enterprise data sources. API keys are provisioned to customers via the Watershed dashboard at dashboard.watershedclimate.com. Public developer documentation is limited; most API access is delivered through customer onboarding and partner enablement.",
+     "score": 15.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Carbon & Climate Accounting",
      "rank": 44
     },
     {
@@ -2290,7 +2290,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2341,7 +2341,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2402,7 +2402,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2453,7 +2453,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2504,7 +2504,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2555,7 +2555,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2606,7 +2606,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2656,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2685,22 +2685,30 @@
      "rank": 52
     },
     {
-     "name": "Duke Energy",
-     "slug": "duke-energy",
-     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
-     "score": 2.6,
+     "name": "FirstEnergy",
+     "slug": "firstenergy",
+     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "score": 2.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 25.9,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2728,10 +2736,10 @@
      "rank": 53
     },
     {
-     "name": "FirstEnergy",
-     "slug": "firstenergy",
-     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "name": "NRG Energy",
+     "slug": "nrg-energy",
+     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
      "score": 2.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2743,7 +2751,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2779,22 +2787,21 @@
      "rank": 54
     },
     {
-     "name": "NRG Energy",
-     "slug": "nrg-energy",
-     "description": "NRG Energy is a Fortune 500 American energy company. This repository captures the APIs, developer tools, and machine-readable API artifacts for NRG Energy. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nrg-energy/refs/heads/main/screenshots/nrg-energy-2026-06-20T190455.png",
-     "score": 2.4,
+     "name": "Duke Energy",
+     "slug": "duke-energy",
+     "description": "Duke Energy is one of the largest electric power holding companies in the United States, supplying electricity and natural gas to millions of customers across the Southeast and Midwest.",
+     "score": 0.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

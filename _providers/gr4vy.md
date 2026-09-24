@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 148
+- acting_count: 147
   human_in_the_loop: 4
   name: Gr4Vy Agentic Access
   operation_count: 263
   slug: gr4vy-agentic-access
-  summary_line: 263 operations · 148 acting · 4 human-in-the-loop
+  summary_line: 263 operations · 147 acting · 4 human-in-the-loop
 api_count: 4
 apis:
 - description: 'Hosted, unauthenticated Model Context Protocol server over the Gr4vy documentation: search, read-only docs filesystem queries and a docs-feedback tool. It does not execute payment operations.'
@@ -580,7 +580,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -606,5 +606,6 @@ tags:
 - 3D Secure
 - Webhook
 - Commerce
+- A2A
 website: https://gr4vy.com/
 ---

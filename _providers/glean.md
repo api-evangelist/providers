@@ -35,36 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 57
+- acting_count: 35
   human_in_the_loop: 0
   name: Glean Agentic Access
   operation_count: 61
   slug: glean-agentic-access
-  summary_line: 61 operations · 57 acting
+  summary_line: 61 operations · 35 acting
 api_count: 1
 apis:
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: Run unified semantic and keyword search across all connected enterprise content with permission-aware results, filters, and facets.
-  name: Glean Search API
-  slug: glean-search-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: Multi-turn generative chat over enterprise content with grounded answers, citations, and tool use.
-  name: Glean Chat API
-  slug: glean-chat-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: Build and invoke autonomous agents that reason over enterprise data and perform multi-step workflows on behalf of users.
-  name: Glean Agents API
-  slug: glean-agents-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: Look up people in the enterprise knowledge graph including profile, expertise, org chart relationships, and activity.
-  name: Glean People API
-  slug: glean-people-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: Read and submit activity signals (views, clicks, edits) that improve personalization and ranking across the Glean instance.
@@ -72,90 +52,80 @@ apis:
   slug: glean-activity-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
+  description: Build and invoke autonomous agents that reason over enterprise data and perform multi-step workflows on behalf of users.
+  name: Glean Agents API
+  slug: glean-agents-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
+  description: The announcements API from Glean — 3 operation(s) for announcements.
+  name: Glean Announcements API
+  slug: glean-announcements-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
+  description: The answers API from Glean — 5 operation(s) for answers.
+  name: Glean Answers API
+  slug: glean-answers-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
+  description: Multi-turn generative chat over enterprise content with grounded answers, citations, and tool use.
+  name: Glean Chat API
+  slug: glean-chat-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
+  description: The collections API from Glean — 8 operation(s) for collections.
+  name: Glean Collections API
+  slug: glean-collections-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
+  description: The documents API from Glean — 3 operation(s) for documents.
+  name: Glean Documents API
+  slug: glean-documents-api
+- baseURL: https://{instance}-be.glean.com/rest/api/v1
+  baseurl_source: declared
   description: Administer governance policies, data classification, and access controls across the Glean instance.
   name: Glean Governance API
   slug: glean-governance-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
-  description: The activity API from Glean — 2 operation(s) for activity.
-  name: Glean activity API
-  slug: glean-activity-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The agents API from Glean — 5 operation(s) for agents.
-  name: Glean agents API
-  slug: glean-agents-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The announcements API from Glean — 3 operation(s) for announcements.
-  name: Glean announcements API
-  slug: glean-announcements-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The answers API from Glean — 5 operation(s) for answers.
-  name: Glean answers API
-  slug: glean-answers-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The chat API from Glean — 8 operation(s) for chat.
-  name: Glean chat API
-  slug: glean-chat-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The collections API from Glean — 8 operation(s) for collections.
-  name: Glean collections API
-  slug: glean-collections-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The documents API from Glean — 3 operation(s) for documents.
-  name: Glean documents API
-  slug: glean-documents-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
-  description: The governance API from Glean — 3 operation(s) for governance.
-  name: Glean governance API
-  slug: glean-governance-api
-- baseURL: https://{instance}-be.glean.com/rest/api/v1
-  baseurl_source: declared
   description: The insights API from Glean — 1 operation(s) for insights.
-  name: Glean insights API
+  name: Glean Insights API
   slug: glean-insights-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
-  description: The people API from Glean — 2 operation(s) for people.
-  name: Glean people API
+  description: Look up people in the enterprise knowledge graph including profile, expertise, org chart relationships, and activity.
+  name: Glean People API
   slug: glean-people-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: The pins API from Glean — 5 operation(s) for pins.
-  name: Glean pins API
+  name: Glean Pins API
   slug: glean-pins-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
-  description: The search API from Glean — 5 operation(s) for search.
-  name: Glean search API
+  description: Run unified semantic and keyword search across all connected enterprise content with permission-aware results, filters, and facets.
+  name: Glean Search API
   slug: glean-search-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: The shortcuts API from Glean — 5 operation(s) for shortcuts.
-  name: Glean shortcuts API
+  name: Glean Shortcuts API
   slug: glean-shortcuts-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: The summarize API from Glean — 1 operation(s) for summarize.
-  name: Glean summarize API
+  name: Glean Summarize API
   slug: glean-summarize-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: The tools API from Glean — 2 operation(s) for tools.
-  name: Glean tools API
+  name: Glean Tools API
   slug: glean-tools-api
 - baseURL: https://{instance}-be.glean.com/rest/api/v1
   baseurl_source: declared
   description: The verification API from Glean — 3 operation(s) for verification.
-  name: Glean verification API
+  name: Glean Verification API
   slug: glean-verification-api
-artifact_total: 48
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -305,7 +275,7 @@ modified: '2026-05-23'
 name: Glean
 nav: Providers
 network: true
-overview: 'Glean publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Search API, Chat API, Agents API, and 19 more. Tagged areas include Agents, Artificial Intelligence, Answers, Chat, and Connectors.
+overview: 'Glean publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Agents API, Announcements API, and 13 more. Tagged areas include Agents, Artificial Intelligence, Answers, Chat, and Connectors.
 
 
   Glean''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, support, changelog, and 12 more developer resources.'
@@ -345,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

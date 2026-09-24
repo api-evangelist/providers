@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-17'
 name: Abodu
 nav: Providers
 network: true
-overview: 'Abodu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Housing, Real-Estate, and ADU.
+overview: 'Abodu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Housing, Real Estate, and ADU.
 
 
   Abodu''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ tags:
 - Company
 - Construction
 - Housing
-- Real-Estate
+- Real Estate
 - ADU
 - Prefabrication
 - Backyard Homes

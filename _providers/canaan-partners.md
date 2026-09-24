@@ -28,7 +28,7 @@ tags:
 - Series A
 - Early Stage
 - Healthcare
-- Biotech
+- Biotechnology
 - Developer Tools
 - Fintech
 - Artificial Intelligence

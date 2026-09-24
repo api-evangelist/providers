@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 16
 common:
@@ -149,7 +149,7 @@ score:
     - north-america
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,7 @@ tags:
 - Bridge Lending
 - Multifamily
 - Mortgage
-- Financial-Services
+- Financial Services
 use_cases:
 - description: HUD 223(f) insured loans for the acquisition or refinance of existing market-rate, affordable, and subsidized multifamily housing properties.
   name: Multifamily Acquisition Financing

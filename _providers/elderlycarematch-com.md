@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Agent2Agent (A2A 1.0) surface: an agent card at https://www.elderlycarematch.com/.well-known/agent-card.json (version 1.5.3, one JSONRPC interface, also mirrored at the legacy /.well-known/agent.json)'
@@ -193,7 +193,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 88
+- acting_count: 78
   human_in_the_loop: 7
   name: Tetrascience Agentic Access
-  operation_count: 239
+  operation_count: 246
   slug: tetrascience-agentic-access
-  summary_line: 239 operations · 88 acting · 7 human-in-the-loop
+  summary_line: 246 operations · 78 acting · 7 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.tetrascience.com
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The ai-workflows API from TetraScience — 8 operation(s) for ai-workflows.
-  name: TetraScience ai-workflows API
+  name: TetraScience AI Workflows API
   slug: tetrascience-ai-workflows-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The clusters API from TetraScience — 2 operation(s) for clusters.
-  name: TetraScience clusters API
+  name: TetraScience Clusters API
   slug: tetrascience-clusters-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
@@ -103,7 +103,7 @@ apis:
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The databricks API from TetraScience — 2 operation(s) for databricks.
-  name: TetraScience databricks API
+  name: TetraScience Databricks API
   slug: tetrascience-databricks-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
@@ -133,7 +133,7 @@ apis:
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The lakehouse API from TetraScience — 8 operation(s) for lakehouse.
-  name: TetraScience lakehouse API
+  name: TetraScience Lakehouse API
   slug: tetrascience-lakehouse-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
@@ -198,12 +198,12 @@ apis:
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The tetraflows API from TetraScience — 8 operation(s) for tetraflows.
-  name: TetraScience tetraflows API
+  name: TetraScience Tetraflows API
   slug: tetrascience-tetraflows-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
   description: The tetraspheres API from TetraScience — 8 operation(s) for tetraspheres.
-  name: TetraScience tetraspheres API
+  name: TetraScience Tetraspheres API
   slug: tetrascience-tetraspheres-api
 - baseURL: https://api.tetrascience.com
   baseurl_source: declared
@@ -560,7 +560,7 @@ modified: '2026-05-21'
 name: TetraScience
 nav: Providers
 network: true
-overview: 'TetraScience publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, Agents API, ai-workflows API, and 32 more. Tagged areas include Scientific Data, Life Sciences, Pharma, Biotech, and Lab Data.
+overview: 'TetraScience publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, Agents API, AI Workflows API, and 32 more. Tagged areas include Scientific Data, Life Sciences, Pharma, Biotechnology, and Lab Data.
 
 
   The TetraScience catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -591,7 +591,7 @@ rules:
   slug: tetrascience-rules
 score:
   band: strong
-  composite: 55.1
+  composite: 54.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 95.0
@@ -599,15 +599,15 @@ score:
     catalog_gap: 20.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -0.8
   facets:
     access_clarity: 51.3
     contract_governance: 69.7
-    contract_quality: 65.7
-    developer_ergonomics: 36.9
+    contract_quality: 65.6
+    developer_ergonomics: 33.3
     discoverability: 70.4
     operational_transparency: 42.1
-  previous_composite: 54.9
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -622,7 +622,7 @@ score:
     regime_id: health
     score: 24.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -646,7 +646,7 @@ tags:
 - Scientific Data
 - Life Sciences
 - Pharma
-- Biotech
+- Biotechnology
 - Lab Data
 - Lab Automation
 - Data Platform

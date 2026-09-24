@@ -32,7 +32,7 @@ tags:
 - Core Banking
 - Credit Union
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Defunct
 - Acquired
 ---

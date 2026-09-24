@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 19
   human_in_the_loop: 0
   name: Demandbase Agentic Access
   operation_count: 54
   slug: demandbase-agentic-access
-  summary_line: 54 operations · 24 acting
+  summary_line: 54 operations · 19 acting
 api_count: 16
 apis:
 - description: Hosted remote Model Context Protocol server exposing Demandbase account, person, intent, buying-group, account-brief, global company/contact and reference capabilities to AI assistants. OAuth 2.1 auth
@@ -489,7 +489,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

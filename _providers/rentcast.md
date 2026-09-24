@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-05-19'
 name: RentCast
 nav: Providers
 network: true
-overview: 'RentCast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Avm API, Listings API, Markets API, and 1 more. Tagged areas include Real-Estate, Property Data, Valuation, Rental Market, and AVM.
+overview: 'RentCast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Avm API, Listings API, Markets API, and 1 more. Tagged areas include Real Estate, Property Data, Valuation, Rental Market, and AVM.
 
 
   The RentCast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentcast
 tags:
-- Real-Estate
+- Real Estate
 - Property Data
 - Valuation
 - Rental Market

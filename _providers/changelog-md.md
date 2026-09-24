@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 26
 common:
@@ -169,7 +169,7 @@ modified: '2026-09-05'
 name: CHANGELOG.md (Keep a Changelog)
 nav: Providers
 network: true
-overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Change Tracking, Documentation, Markdown, and Open-Source.
+overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Change Tracking, Documentation, Markdown, and Open Source.
 
 
   CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, support, changelog, tooling, and 19 more developer resources.'
@@ -201,7 +201,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +219,7 @@ tags:
 - Change Tracking
 - Documentation
 - Markdown
-- Open-Source
+- Open Source
 - Release Management
 - Semantic Versioning
 - Software Releases

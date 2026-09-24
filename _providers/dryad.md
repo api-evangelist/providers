@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -48,37 +48,37 @@ apis:
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Dataset operations
-  name: Dryad datasets API
+  name: Dryad Datasets API
   slug: dryad-datasets-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Operations on individual files of a dataset
-  name: Dryad files API
+  name: Dryad Files API
   slug: dryad-files-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Internal APIs not of general interest to the public
-  name: Dryad internal API
+  name: Dryad Internal API
   slug: dryad-internal-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Reports on content in Dryad
-  name: Dryad reports API
+  name: Dryad Reports API
   slug: dryad-reports-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Root-level API calls
-  name: Dryad root API
+  name: Dryad Root API
   slug: dryad-root-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Searching datasets
-  name: Dryad search API
+  name: Dryad Search API
   slug: dryad-search-api
 - baseURL: https://datadryad.org/api/v2
   baseurl_source: declared
   description: Operations on individual versions of a dataset
-  name: Dryad versions API
+  name: Dryad Versions API
   slug: dryad-versions-api
 artifact_total: 74
 collections:
@@ -351,7 +351,7 @@ modified: '2026-06-13'
 name: Dryad
 nav: Providers
 network: true
-overview: 'Dryad publishes 7 APIs on the [APIs.io](https://apis.io/) network, including datasets API, files API, internal API, and 4 more. Tagged areas include Research Data, Open Science, Data Repository, Datasets, and Biology.
+overview: 'Dryad publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Files API, Internal API, and 4 more. Tagged areas include Research Data, Open Science, Data Repository, Datasets, and Biology.
 
 
   The Dryad catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -405,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

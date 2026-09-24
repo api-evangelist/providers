@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ modified: '2026-07-19'
 name: Homeward
 nav: Providers
 network: true
-overview: 'Homeward publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buybox API, Finalization API, and Offer Requests API. Tagged areas include Company, Real-Estate, Home Finance, Mortgage, and PropTech.
+overview: 'Homeward publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buybox API, Finalization API, and Offer Requests API. Tagged areas include Company, Real Estate, Home Finance, Mortgage, and PropTech.
 
 
   Homeward''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -255,7 +255,7 @@ security:
 slug: homeward
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Home Finance
 - Mortgage
 - PropTech

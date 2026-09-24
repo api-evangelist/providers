@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Apache Calcite Java API provides SQL parsing, validation, query planning, and optimization capabilities for embedding in JVM applications. It exposes a relational algebra framework and pluggable o
@@ -158,7 +158,7 @@ modified: '2026-04-19'
 name: Apache Calcite
 nav: Providers
 network: true
-overview: 'Apache Calcite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Data Federation, Framework, Open-Source, and Query Optimization.
+overview: 'Apache Calcite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Data Federation, Framework, Open Source, and Query Optimization.
 
 
   Apache Calcite''s developer surface includes documentation, getting-started guide, support, changelog, and 11 more developer resources.'
@@ -194,7 +194,7 @@ score:
     score: 50.0
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -215,7 +215,7 @@ tags:
 - Apache
 - Data Federation
 - Framework
-- Open-Source
+- Open Source
 - Query Optimization
 - SQL
 use_cases:

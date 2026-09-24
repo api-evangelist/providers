@@ -101,6 +101,6 @@ tags:
 - Algae
 - Climate Tech
 - Life Sciences
-- Open-Source
+- Open Source
 - Defunct
 ---

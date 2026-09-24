@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 40
-  human_in_the_loop: 1
+- acting_count: 146
+  human_in_the_loop: 2
   name: Clickup Agentic Access
-  operation_count: 75
+  operation_count: 248
   slug: clickup-agentic-access
-  summary_line: 75 operations · 40 acting · 1 human-in-the-loop
+  summary_line: 248 operations · 146 acting · 2 human-in-the-loop
 api_count: 14
 apis:
 - baseURL: https://api.clickup.com
@@ -121,7 +121,7 @@ apis:
   description: 'The first-party ClickUp Public API v3 contract: 35 operations covering Chat channels and messages, Docs and pages, entity Attachments, Workspace audit logs, object ACLs, task moves and per-user time e'
   name: ClickUp Public API v3
   slug: clickup-api-v3
-artifact_total: 114
+artifact_total: 113
 asyncapis:
 - description: The ClickUp Webhooks event system delivers real-time notifications when changes occur within a ClickUp Workspace. When subscribed events happen, ClickUp sends HTTP POST requests to a registered endpoi
   name: ClickUp Webhooks Events
@@ -452,10 +452,6 @@ finops:
 - name: Clickup Finops
   service_category: Project Management
   slug: clickup-finops
-graphqls:
-- description: ClickUp does not offer a native public GraphQL API. The platform exposes its functionality exclusively through a REST API (v2) available at `https://api.clickup.com/api/v2`. There is no publicly docum
-  name: ClickUp GraphQL
-  slug: clickup-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clickup.png
 json_schemas:
 - name: AuthorizedUser
@@ -644,19 +640,19 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 70.3
+  composite: 70.1
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 79.5
     catalog_earned_first_party: 24.0
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 86.8
     contract_governance: 31.8
-    contract_quality: 72.2
+    contract_quality: 71.4
     developer_ergonomics: 62.5
     discoverability: 81.5
     operational_transparency: 85.5
@@ -672,7 +668,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

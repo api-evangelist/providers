@@ -42,7 +42,7 @@ tags:
 - Industrial Automation
 - Manufacturing
 - Machine Tending
-- Computer-Vision
+- Computer Vision
 - Automation
 - Defunct
 - Acquired

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Amazon Entity Resolution Agentic Access
   operation_count: 16
   slug: amazon-entity-resolution-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://entityresolution.amazonaws.com
@@ -112,7 +112,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/entity-resolution/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/agentic-access/amazon-entity-resolution-agentic-access.yml
   title: ''
@@ -1003,7 +1003,7 @@ modified: '2026-09-16'
 name: Amazon Entity Resolution
 nav: Providers
 network: true
-overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine-Learning.
+overview: 'Amazon Entity Resolution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Matchingworkflows API, Schemas API, and Tags API. Tagged areas include Amazon Web Services, Data Integration, Data Matching, Entity Resolution, and Machine Learning.
 
 
   The Amazon Entity Resolution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1068,7 +1068,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1097,7 +1097,7 @@ tags:
 - Data Integration
 - Data Matching
 - Entity Resolution
-- Machine-Learning
+- Machine Learning
 use_cases:
 - description: Create a single customer view by matching records across CRM, marketing, and transaction systems
   name: Customer Data Unification
@@ -1107,5 +1107,5 @@ use_cases:
   name: Identity Resolution for Advertising
 - description: Match patient records across different healthcare providers and systems
   name: Healthcare Record Matching
-website: https://amazon.com
+website: https://aws.amazon.com/entity-resolution/
 ---

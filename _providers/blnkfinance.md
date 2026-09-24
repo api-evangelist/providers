@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -309,7 +309,7 @@ modified: '2026-08-27'
 name: Blnk Finance
 nav: Providers
 network: true
-overview: 'Blnk Finance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 5 more. Tagged areas include Fintech, Financial-Services, Ledger, double-entry-accounting, and Payments.
+overview: 'Blnk Finance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 5 more. Tagged areas include Fintech, Financial Services, Ledger, double-entry-accounting, and Payments.
 
 
   The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -369,7 +369,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -395,16 +395,17 @@ security:
 slug: blnkfinance
 tags:
 - Fintech
-- Financial-Services
+- Financial Services
 - Ledger
 - double-entry-accounting
 - Payments
 - Wallets
 - Lending
 - Banking Infrastructure
-- Open-Source
+- Open Source
 - MCP
 - AI Agents
 - Developer Tools
+- A2A
 website: https://www.blnkfinance.com/
 ---

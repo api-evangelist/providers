@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Vehicles featured in Studio Ghibli films.
   name: Studio Ghibli Vehicles API
   slug: studio-ghibli-vehicles-api
-artifact_total: 54
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -227,10 +227,6 @@ features:
   name: No Authentication
 - description: The backing JSON Server implementation is open source and can be forked and self-hosted.
   name: MIT-Licensed Source
-graphqls:
-- description: ''
-  name: Studio Ghibli GraphQL API
-  slug: studio-ghibli-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studio-ghibli.png
 integrations:
 - description: The API is implemented on top of typicode/json-server (https://github.com/typicode/json-server).
@@ -323,7 +319,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 83.5
     catalog_earned_first_party: 0.0
     catalog_gap: 31.5
@@ -346,7 +342,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -371,7 +367,7 @@ tags:
 - Species
 - Vehicles
 - Public APIs
-- Open-Source
+- Open Source
 - Read Only
 use_cases:
 - description: A safe, stable, no-auth API frequently used in front-end tutorials, REST workshops, and language-SDK demonstrations.

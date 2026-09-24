@@ -31,7 +31,7 @@ modified: '2026-09-16'
 name: Cloudistics (Fungible)
 nav: Providers
 network: true
-overview: 'Cloudistics (Fungible) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Composable Infrastructure, Hyperconverged Infrastructure, and Data-Center.
+overview: 'Cloudistics (Fungible) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Composable Infrastructure, Hyperconverged Infrastructure, and Data Center.
 
 
   Cloudistics (Fungible)''s developer surface includes documentation, API reference, and 1 more developer resources.'
@@ -43,7 +43,7 @@ tags:
 - AI Infrastructure
 - Composable Infrastructure
 - Hyperconverged Infrastructure
-- Data-Center
+- Data Center
 - Cloud Computing
 - Data Processing Unit
 - Acquired

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -128,7 +128,7 @@ modified: '2026-08-17'
 name: Metrobloks
 nav: Providers
 network: true
-overview: 'Metrobloks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data-Center, Colocation, Interconnection, and Edge Computing.
+overview: 'Metrobloks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Center, Colocation, Interconnection, and Edge Computing.
 
 
   Metrobloks'' developer surface includes engineering blog, product news, support, and 12 more developer resources.'
@@ -169,7 +169,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ security:
 slug: metrobloks
 tags:
 - Company
-- Data-Center
+- Data Center
 - Colocation
 - Interconnection
 - Edge Computing

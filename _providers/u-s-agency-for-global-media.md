@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The Open Technology Fund (OTF) is a U.S. government-funded independent nonprofit that supports the development of open-source internet freedom technologies to advance human rights and open societies. '
@@ -120,7 +120,7 @@ modified: '2026-07-25'
 name: U.S. Agency for Global Media
 nav: Providers
 network: true
-overview: 'U.S. Agency for Global Media publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Media, Broadcasting, International, and Press Freedom.
+overview: 'U.S. Agency for Global Media publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Media, Broadcasting, International, and Press Freedom.
 
 
   The U.S. Agency for Global Media catalog on APIs.io includes 1 JSON-LD context.
@@ -167,7 +167,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ security:
   summary_line: Bugcrowd
 slug: u-s-agency-for-global-media
 tags:
-- Federal-Government
+- Federal Government
 - Media
 - Broadcasting
 - International

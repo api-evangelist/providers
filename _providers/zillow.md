@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-09-23'
+  score: 13.7
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: Zillow Web Services were the legacy public XML-based APIs from Zillow including GetSearchResults, GetZestimate, GetDeepSearchResults, GetUpdatedPropertyDetails, GetComps, GetRegionChildren, and the Ne
@@ -51,7 +51,7 @@ apis:
 - description: Zillow Showcase is a premium listing enhancement product for agents and MLSs that integrates immersive media (interactive floor plans, virtual tours, AI-enhanced photography) into Zillow listings. Int
   name: Zillow Showcase
   slug: showcase-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/security/zillow-domain-security.yml
@@ -140,10 +140,6 @@ finops:
 - name: Zillow Finops
   service_category: API
   slug: zillow-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Zillow real estate search and data platform. Zillow is the largest U.S. real-estate marketplace, offering home and rental listings, Zestimate home value est
-  name: Zillow GraphQL Schema
-  slug: zillow-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zillow.png
 layout: provider
 modified: '2026-05-23'
@@ -164,20 +160,20 @@ rate_limits:
   name: Zillow Rate Limits
   slug: zillow-rate-limits
 score:
-  band: thin
-  composite: 36.5
+  band: emerging
+  composite: 26.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 81.5
     operational_transparency: 26.3
@@ -191,8 +187,8 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -212,7 +208,7 @@ tags:
 - Listings
 - Mortgage
 - MLS
-- Real-Estate
+- Real Estate
 - Rentals
 - RESO
 website: https://www.zillow.com

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 64
+- acting_count: 62
   human_in_the_loop: 0
   name: Sitecore Agentic Access
   operation_count: 107
   slug: sitecore-agentic-access
-  summary_line: 107 operations · 64 acting
+  summary_line: 107 operations · 62 acting
 api_count: 6
 apis:
 - description: The Sitecore XM Cloud GraphQL Delivery API provides access to approved and published content from Sitecore XM Cloud via a GraphQL endpoint optimized for production delivery. Developers use this API to
@@ -491,7 +491,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

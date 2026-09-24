@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ modified: '2026-07-18'
 name: Bubble Lab
 nav: Providers
 network: true
-overview: 'Bubble Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Workflow-Automation, AI Agents, Agentic Workflows, Integration, and Developer Tools.
+overview: 'Bubble Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Workflow Automation, AI Agents, Agentic Workflows, Integration, and Developer Tools.
 
 
   Bubble Lab''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, CLI, and 13 more developer resources.'
@@ -153,7 +153,7 @@ score:
     score: 25.0
   previous_composite: 22.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -167,13 +167,13 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bubble-lab
 tags:
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Agentic Workflows
 - Integration
 - Developer Tools
 - TypeScript
-- Open-Source
+- Open Source
 - Automation
 - SDK
 - Low-Code

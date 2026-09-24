@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 14
   human_in_the_loop: 1
   name: Cms Agentic Access
   operation_count: 94
   slug: cms-agentic-access
-  summary_line: 94 operations · 21 acting · 1 human-in-the-loop
+  summary_line: 94 operations · 14 acting · 1 human-in-the-loop
 api_count: 4
 apis:
 - description: Provides Original Medicare claims data to fee-for-service Medicare providers in a structured, standardized FHIR format at the point of care. Helps providers gain complete views of patient medical hist
@@ -1052,7 +1052,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1082,10 +1082,11 @@ tags:
 - Healthcare
 - Health Insurance
 - FHIR
-- Federal-Government
+- Federal Government
 - Drug Spending
 - Provider Data
 - Quality Measures
 - Claims Data
+- Government Data
 website: https://www.cms.gov/
 ---

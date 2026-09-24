@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 116
+- acting_count: 69
   human_in_the_loop: 0
   name: Virtru Agentic Access
   operation_count: 116
   slug: virtru-agentic-access
-  summary_line: 116 operations · 116 acting
+  summary_line: 116 operations · 69 acting
 api_count: 15
 apis:
 - baseURL: https://api.virtru.com
@@ -56,62 +56,62 @@ apis:
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The entityresolution.v2.EntityResolutionService API from Virtru — 2 operation(s) for entityresolution.v2.entityresolutionservice.
-  name: Virtru entityresolution.v2.EntityResolutionService API
+  name: Virtru Entityresolution.v2.Entity Resolution Service API
   slug: virtru-entityresolution-v2-entityresolutionservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: Get app info from the root path
-  name: Virtru kas.AccessService API
+  name: Virtru Kas.Access Service API
   slug: virtru-kas-accessservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The policy.actions.ActionService API from Virtru — 5 operation(s) for policy.actions.actionservice.
-  name: Virtru policy.actions.ActionService API
+  name: Virtru Policy.actions.Action Service API
   slug: virtru-policy-actions-actionservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: / / Attribute Service /
-  name: Virtru policy.attributes.AttributesService API
+  name: Virtru Policy.attributes.Attributes Service API
   slug: virtru-policy-attributes-attributesservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The policy.kasregistry.KeyAccessServerRegistryService API from Virtru — 14 operation(s) for policy.kasregistry.keyaccessserverregistryservice.
-  name: Virtru policy.kasregistry.KeyAccessServerRegistryService API
+  name: Virtru Policy.kasregistry.Key Access Server Registry Service API
   slug: virtru-policy-kasregistry-keyaccessserverregistryservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The policy.keymanagement.KeyManagementService API from Virtru — 5 operation(s) for policy.keymanagement.keymanagementservice.
-  name: Virtru policy.keymanagement.KeyManagementService API
+  name: Virtru Policy.keymanagement.Key Management Service API
   slug: virtru-policy-keymanagement-keymanagementservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The policy.namespaces.NamespaceService API from Virtru — 9 operation(s) for policy.namespaces.namespaceservice.
-  name: Virtru policy.namespaces.NamespaceService API
+  name: Virtru Policy.namespaces.Namespace Service API
   slug: virtru-policy-namespaces-namespaceservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: / / Obligation Service /
-  name: Virtru policy.obligations.Service API
+  name: Virtru Policy.obligations.Service API
   slug: virtru-policy-obligations-service-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: Registered Resources
-  name: Virtru policy.registeredresources.RegisteredResourcesService API
+  name: Virtru Policy.registeredresources.Registered Resources Service API
   slug: virtru-policy-registeredresources-registeredresourcesservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: Resource Mapping Groups
-  name: Virtru policy.resourcemapping.ResourceMappingService API
+  name: Virtru Policy.resourcemapping.Resource Mapping Service API
   slug: virtru-policy-resourcemapping-resourcemappingservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The policy.subjectmapping.SubjectMappingService API from Virtru — 12 operation(s) for policy.subjectmapping.subjectmappingservice.
-  name: Virtru policy.subjectmapping.SubjectMappingService API
+  name: Virtru Policy.subjectmapping.Subject Mapping Service API
   slug: virtru-policy-subjectmapping-subjectmappingservice-api
 - baseURL: https://api.virtru.com
   baseurl_source: declared
   description: The wellknownconfiguration.WellKnownService API from Virtru — 1 operation(s) for wellknownconfiguration.wellknownservice.
-  name: Virtru wellknownconfiguration.WellKnownService API
+  name: Virtru Wellknownconfiguration.Well Known Service API
   slug: virtru-wellknownconfiguration-wellknownservice-api
 artifact_total: 34
 collections:
@@ -327,7 +327,7 @@ modified: '2026-07-21'
 name: Virtru
 nav: Providers
 network: true
-overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authorization.AuthorizationService API, authorization.v2.AuthorizationService API, entityresolution.v2.EntityResolutionService API, and 11 more. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Access Control.
+overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authorization.AuthorizationService API, authorization.v2.AuthorizationService API, Entityresolution.v2.Entity Resolution Service API, and 11 more. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Access Control.
 
 
   Virtru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 27 more developer resources.'
@@ -362,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

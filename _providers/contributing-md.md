@@ -70,7 +70,7 @@ tags:
 - Documentation
 - GitHub
 - Markdown
-- Open-Source
+- Open Source
 - Pull Requests
 - Repository
 ---

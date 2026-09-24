@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Substrate/Polkadot JSON-RPC interface to the Parallel Finance parachain, accessed over WebSocket with the polkadot.js API and Parallel's @parallel-finance/api SDK. Exposes chain state, extrinsics (len
@@ -118,7 +118,7 @@ score:
     score: 0.0
   previous_composite: 8.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

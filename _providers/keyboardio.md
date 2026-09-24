@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,7 +102,7 @@ modified: '2026-07-19'
 name: Keyboardio
 nav: Providers
 network: true
-overview: 'Keyboardio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mechanical Keyboards, Hardware, Ergonomics, and Open-Source.
+overview: 'Keyboardio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mechanical Keyboards, Hardware, Ergonomics, and Open Source.
 
 
   Keyboardio''s developer surface includes support, engineering blog, signup flow, pricing, authentication, and 8 more developer resources.'
@@ -132,7 +132,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ tags:
 - Mechanical Keyboards
 - Hardware
 - Ergonomics
-- Open-Source
+- Open Source
 - Firmware
 - Keyboards
 - E-Commerce

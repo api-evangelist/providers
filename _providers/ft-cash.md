@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ modified: '2026-07-19'
 name: FT Cash
 nav: Providers
 network: true
-overview: FT Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Payments, and Lending.
+overview: FT Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Lending.
 random_paper: 18
 score:
   band: minimal
@@ -101,7 +101,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ security:
 slug: ft-cash
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Lending

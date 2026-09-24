@@ -32,14 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 33
+- acting_count: 31
   human_in_the_loop: 0
   name: Mytomorrows Agentic Access
   operation_count: 42
   slug: mytomorrows-agentic-access
-  summary_line: 42 operations · 33 acting
+  summary_line: 42 operations · 31 acting
 api_count: 1
 apis:
 - baseURL: https://enterprise-search.mytomorrows.com
@@ -237,7 +237,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

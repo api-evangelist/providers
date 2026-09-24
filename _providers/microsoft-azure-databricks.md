@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 20
+- acting_count: 19
   human_in_the_loop: 3
   name: Microsoft Azure Databricks Agentic Access
   operation_count: 32
   slug: microsoft-azure-databricks-agentic-access
-  summary_line: 32 operations · 20 acting · 3 human-in-the-loop
+  summary_line: 32 operations · 19 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - description: Access Databricks File System (DBFS) for file operations including uploading, downloading, listing, and deleting files and directories.
@@ -912,7 +912,7 @@ modified: '2026-05-19'
 name: Azure Databricks
 nav: Providers
 network: true
-overview: 'Azure Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Analytics, Apache Spark, Big Data, Data Engineering, and Machine-Learning.
+overview: 'Azure Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Analytics, Apache Spark, Big Data, Data Engineering, and Machine Learning.
 
 
   The Azure Databricks catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -1005,7 +1005,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1030,7 +1030,7 @@ tags:
 - Apache Spark
 - Big Data
 - Data Engineering
-- Machine-Learning
+- Machine Learning
 use_cases:
 - Building and managing data lakehouse architectures
 - Training and deploying machine learning models at scale

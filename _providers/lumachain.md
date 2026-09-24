@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-20'
 name: Lumachain
 nav: Providers
 network: true
-overview: Lumachain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Artificial Intelligence, Computer-Vision, and Food Supply Chain.
+overview: Lumachain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Artificial Intelligence, Computer Vision, and Food Supply Chain.
 random_paper: 0
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -96,7 +96,7 @@ tags:
 - Company
 - Deep Tech
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Food Supply Chain
 - Food Safety
 - Traceability

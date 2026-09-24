@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-18'
 name: Basis Set Ventures
 nav: Providers
 network: true
-overview: 'Basis Set Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Artificial Intelligence, Machine-Learning, and Seed Stage.
+overview: 'Basis Set Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Artificial Intelligence, Machine Learning, and Seed Stage.
 
 
   Basis Set Ventures'' developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -128,7 +128,7 @@ tags:
 - Company
 - Venture Capital
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Seed Stage
 - Early Stage
 - AI Infrastructure

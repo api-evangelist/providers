@@ -34,18 +34,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://docs.evermoreoutcomes.com
   baseurl_source: declared
   description: The docs API from Soda Health — 10 operation(s) for docs.
-  name: Soda Health docs API
+  name: Soda Health Docs API
   slug: soda-health-docs-api
 - baseURL: https://docs.evermoreoutcomes.com
   baseurl_source: declared
   description: The docs-auth API from Soda Health — 2 operation(s) for docs-auth.
-  name: Soda Health docs-auth API
+  name: Soda Health Docs Auth API
   slug: soda-health-docs-auth-api
 - baseURL: https://docs.evermoreoutcomes.com
   baseurl_source: declared
@@ -155,7 +155,7 @@ modified: '2026-09-16'
 name: Soda Health
 nav: Providers
 network: true
-overview: 'Soda Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including docs API, docs-auth API, Evermore Docs Portal API, and 1 more. Tagged areas include Company, Healthcare, Health Benefits, Medicare Advantage, and Medicaid.
+overview: 'Soda Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Docs API, Docs Auth API, Evermore Docs Portal API, and 1 more. Tagged areas include Company, Healthcare, Health Benefits, Medicare Advantage, and Medicaid.
 
 
   Soda Health''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
@@ -195,7 +195,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

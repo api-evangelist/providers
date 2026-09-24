@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/windward-ai/refs/heads/main/security/windward-ai-domain-security.yml
@@ -120,10 +120,6 @@ common:
 created: '2026-05-25'
 description: Windward is a Maritime AI company headquartered in London and Washington D.C. delivering mission-grade, multi-source maritime intelligence for defense agencies, law enforcement, customs, energy and commodity traders, marine insurers, shippers, and financial institutions. Founded by CEO Ami Daniel, Windward fuses AIS data, remote sensing (EO, SAR, RF GEOINT), proprietary behavioral analytics, and generative AI into a single Maritime AI platform covering vessel screening, ownership and entity resolution, sanctions exposure, deceptive shipping detection, ship-to-ship transfer analysis, IUU fishing detection, smuggling detection, container tracking, and maritime infrastructure protection. Windward exposes its intelligence through the API Insights Lab, a unified GraphQL API at developer.windward.ai providing programmatic access to vessel risk scores, Organization Defined Risk (ODR), ultimate beneficial ownership, early detection signals, tracked shipments, carriers, and detention
   & demurrage data, along with webhooks and workflow automation. The company has no public REST/OpenAPI surface, no public SDKs, and no public GitHub org — its API is GraphQL-only with managed onboarding and expert-led implementation support.
-graphqls:
-- description: ''
-  name: Windward GraphQL API
-  slug: windward-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windward-ai.png
 layout: provider
 modified: '2026-05-25'
@@ -139,7 +135,7 @@ score:
   band: minimal
   composite: 7.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -161,7 +157,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -51,16 +51,6 @@ apis:
 - description: The Solr Indexing API provides HTTP endpoints for adding, updating, and deleting documents from the search index. It supports JSON, XML, CSV, and binary Solr formats via the /update handler, atomic up
   name: Apache Solr Indexing API
   slug: apache-solr-indexing-api
-- baseURL_template: http://{host}:{port}
-  baseurl_source: spec_template
-  description: The Solr Schema API provides REST endpoints for managing the schema of a Solr collection, including field types, fields, dynamic fields, and copy fields. The Managed Schema approach allows runtime sch
-  name: Apache Solr Schema API
-  slug: apache-solr-schema-api
-- baseURL_template: http://{host}:{port}
-  baseurl_source: spec_template
-  description: The Solr Collections API provides REST endpoints for managing SolrCloud collections, shards, replicas, and aliases. It supports collection creation, deletion, modification, shard splitting, replica ma
-  name: Apache Solr Collections API
-  slug: apache-solr-collections-api
 - description: The Solr Config API and Request Parameters API provide REST endpoints for managing Solr's solrconfig.xml settings at runtime without server restart, including request handler configuration, search com
   name: Apache Solr Config API
   slug: apache-solr-config-api
@@ -71,7 +61,7 @@ apis:
   slug: apache-solr-cluster-api
 - baseURL_template: http://{host}:{port}
   baseurl_source: spec_template
-  description: Manage SolrCloud collections, replicas, and nodes
+  description: The Solr Collections API provides REST endpoints for managing SolrCloud collections, shards, replicas, and aliases. It supports collection creation, deletion, modification, shard splitting, replica ma
   name: Apache Solr Collections API
   slug: apache-solr-collections-api
 - baseURL_template: http://{host}:{port}
@@ -81,7 +71,7 @@ apis:
   slug: apache-solr-query-api
 - baseURL_template: http://{host}:{port}
   baseurl_source: spec_template
-  description: Read and modify the schema of a collection
+  description: The Solr Schema API provides REST endpoints for managing the schema of a Solr collection, including field types, fields, dynamic fields, and copy fields. The Managed Schema approach allows runtime sch
   name: Apache Solr Schema API
   slug: apache-solr-schema-api
 - baseURL_template: http://{host}:{port}
@@ -89,7 +79,7 @@ apis:
   description: Index, update, and delete documents
   name: Apache Solr Update API
   slug: apache-solr-update-api
-artifact_total: 45
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +229,7 @@ modified: '2026-04-19'
 name: Apache Solr
 nav: Providers
 network: true
-overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Schema API, Collections API, Cluster API, and 4 more. Tagged areas include Enterprise Search, Full-Text Search, Lucene, Search, and SolrCloud.
+overview: 'Apache Solr publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Collections API, Query API, and 2 more. Tagged areas include Enterprise Search, Full-Text Search, Lucene, Search, and SolrCloud.
 
 
   Apache Solr''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 12 more developer resources.'
@@ -282,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -308,7 +298,7 @@ tags:
 - Lucene
 - Search
 - SolrCloud
-- Open-Source
+- Open Source
 - Java
 use_cases:
 - description: Unified enterprise search across documents, databases, web content, and file systems.

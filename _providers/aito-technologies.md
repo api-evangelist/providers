@@ -35,30 +35,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 25
   human_in_the_loop: 0
   name: Aito Technologies Agentic Access
   operation_count: 34
   slug: aito-technologies-agentic-access
-  summary_line: 34 operations · 27 acting
+  summary_line: 34 operations · 25 acting
 api_count: 1
 apis:
 - baseURL: https://shared.aito.ai
   baseurl_source: declared
   description: The data API from Aito Technologies — 7 operation(s) for data.
-  name: Aito Technologies data API
+  name: Aito Technologies Data API
   slug: aito-technologies-data-api
 - baseURL: https://shared.aito.ai
   baseurl_source: declared
   description: The query API from Aito Technologies — 15 operation(s) for query.
-  name: Aito Technologies query API
+  name: Aito Technologies Query API
   slug: aito-technologies-query-api
 - baseURL: https://shared.aito.ai
   baseurl_source: declared
   description: The schema API from Aito Technologies — 5 operation(s) for schema.
-  name: Aito Technologies schema API
+  name: Aito Technologies Schema API
   slug: aito-technologies-schema-api
 artifact_total: 10
 collections:
@@ -227,7 +227,7 @@ modified: '2026-07-17'
 name: Aito Technologies
 nav: Providers
 network: true
-overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: data API, query API, and schema API. Tagged areas include Company, Predictive Database, Machine-Learning, Artificial Intelligence, and Recommendations.
+overview: 'Aito Technologies publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data API, Query API, and Schema API. Tagged areas include Company, Predictive Database, Machine Learning, Artificial Intelligence, and Recommendations.
 
 
   Aito Technologies'' developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 25 more developer resources.'
@@ -262,7 +262,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -281,7 +281,7 @@ slug: aito-technologies
 tags:
 - Company
 - Predictive Database
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Recommendations
 - Search

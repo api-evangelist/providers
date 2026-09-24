@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-06-13'
 name: Random User Generator
 nav: Providers
 network: true
-overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open-Source, and Public APIs.
+overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open Source, and Public APIs.
 
 
   The Random User Generator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -259,7 +259,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -283,7 +283,7 @@ tags:
 - Test Data
 - Synthetic Data
 - Mock Data
-- Open-Source
+- Open Source
 - Public APIs
 - Free API
 use_cases:

@@ -35,18 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Aspentech Agentic Access
   operation_count: 6
   slug: aspentech-agentic-access
-  summary_line: 6 operations · 5 acting
+  summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
 - description: 'AspenTech provides process optimization and simulation software for energy, chemicals, and manufacturing industries. The aspenONE platform APIs enable access to process simulation models, performance '
-  name: AspenTech aspenONE API
+  name: AspenTech Aspen ONE API
   slug: aspenone-api
 - description: The AspenTech Inmation Simple Call Interface (SCI) API provides a simplified HTTP interface for communicating with the Inmation industrial data platform. Designed for straightforward read/write access
   name: AspenTech Inmation Simple Call Interface (SCI) API
@@ -242,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

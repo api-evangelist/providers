@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Botpress Agentic Access
   operation_count: 31
   slug: botpress-agentic-access
-  summary_line: 31 operations · 19 acting
+  summary_line: 31 operations · 18 acting
 api_count: 1
 apis:
 - description: Webhook-based REST API for sending and receiving chat messages with deployed Botpress bots. Endpoint pattern is https://chat.botpress.cloud/{webhookUrl}/messages.
@@ -175,7 +175,7 @@ modified: '2026-07-25'
 name: Botpress
 nav: Providers
 network: true
-overview: 'Botpress publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Conversations API, Files API, and 3 more. Tagged areas include Artificial Intelligence, Conversational, Chat, Open-Source, and Bot Builder.
+overview: 'Botpress publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Conversations API, Files API, and 3 more. Tagged areas include Artificial Intelligence, Conversational AI, Chat, Open Source, and Bot Builder.
 
 
   Botpress'' developer surface includes authentication, documentation, GitHub presence, and 9 more developer resources.'
@@ -215,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,9 +237,9 @@ security:
 slug: botpress
 tags:
 - Artificial Intelligence
-- Conversational
+- Conversational AI
 - Chat
-- Open-Source
+- Open Source
 - Bot Builder
 - LLM
 website: https://botpress.com/

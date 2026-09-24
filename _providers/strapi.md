@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -118,7 +118,7 @@ apis:
   description: Endpoints for managing webhook configurations from the admin panel.
   name: Strapi Webhooks API
   slug: strapi-webhooks-api
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: Strapi includes a built-in webhook system that notifies external services whenever certain events occur in the CMS. Rather than polling the Strapi API for changes, you can configure Strapi to send HTT
   name: Strapi Webhooks
@@ -286,10 +286,6 @@ finops:
 - name: Strapi Finops
   service_category: API
   slug: strapi-finops
-graphqls:
-- description: ''
-  name: Strapi GraphQL API
-  slug: strapi-graphql
 image: https://strapi.io/assets/strapi-logo-dark.svg
 json_schemas:
 - name: Strapi Content Entry
@@ -362,7 +358,7 @@ score:
   band: developing
   composite: 41.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -385,7 +381,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -411,6 +407,6 @@ tags:
 - Content Management
 - Headless CMS
 - Node.js
-- Open-Source
+- Open Source
 website: https://strapi.io
 ---

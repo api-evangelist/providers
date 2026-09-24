@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 5
   human_in_the_loop: 0
   name: Finout Agentic Access
   operation_count: 15
   slug: finout-agentic-access
-  summary_line: 15 operations · 7 acting
+  summary_line: 15 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://app.finout.io/v1
@@ -293,7 +293,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

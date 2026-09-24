@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1137
+- acting_count: 1104
   human_in_the_loop: 57
   name: Elk Stack Agentic Access
-  operation_count: 1873
+  operation_count: 1923
   slug: elk-stack-agentic-access
-  summary_line: 1873 operations · 1137 acting · 57 human-in-the-loop
+  summary_line: 1923 operations · 1104 acting · 57 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://api.elastic-cloud.com/api/v1
@@ -980,19 +980,19 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elk-stack.
 layout: provider
 mcp_servers:
 - description: ''
-  name: Elastic Stack (ELK Stack) MCP Server
-  slug: elastic-stack-elk-stack-mcp-server
+  name: Elastic Stack MCP Server
+  slug: elastic-stack-mcp-server
 modified: '2026-08-27'
-name: Elastic Stack (ELK Stack)
+name: Elastic Stack
 nav: Providers
 network: true
-overview: 'Elastic Stack (ELK Stack) publishes 132 APIs on the [APIs.io](https://apis.io/) network, including Elastic Cloud API, Accounts API, Actions API, and 129 more. Tagged areas include Analytics, Logging, Monitoring, Observability, and Search.
+overview: 'Elastic Stack publishes 132 APIs on the [APIs.io](https://apis.io/) network, including Elastic Cloud API, (ELK Stack) Accounts API, (ELK Stack) Actions API, and 129 more. Tagged areas include Analytics, Logging, Monitoring, Observability, and Search.
 
 
-  The Elastic Stack (ELK Stack) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Elastic Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Elastic Stack (ELK Stack)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+  Elastic Stack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Elk Stack Plans Pricing
   plan_count: 4
@@ -1032,7 +1032,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1065,6 +1065,6 @@ tags:
 - Security
 - Vector Database
 - SIEM
-- Machine-Learning
+- Machine Learning
 website: https://www.elastic.co/elastic-stack/
 ---

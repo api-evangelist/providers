@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Remote MCP server (streamable-http, OAuth 2.1) exposing 14 tools to plan, compare and price AI video/image models, prepare an exact quote, approve a single paid generation, and recover results into a '
@@ -173,7 +173,7 @@ modified: '2026-09-20'
 name: MaxVideoAI
 nav: Providers
 network: true
-overview: 'MaxVideoAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video Generation, Image-Generation, MCP, and Agent-Native.
+overview: 'MaxVideoAI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Video Generation, Image Generation, MCP, and Agent-Native.
 
 
   MaxVideoAI''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 21 more developer resources.'
@@ -215,7 +215,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +234,7 @@ slug: maxvideoai
 tags:
 - Artificial Intelligence
 - Video Generation
-- Image-Generation
+- Image Generation
 - MCP
 - Agent-Native
 - Text-to-Video

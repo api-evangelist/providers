@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Public investor REST API for the Bitbond Offering Manager securities-issuance platform. Covers offerings lookup, orders, checkout/payments, KYC, investor profiles, and GDPR data export/erase. Protecte
@@ -240,7 +240,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

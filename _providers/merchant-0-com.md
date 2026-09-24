@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 35
   human_in_the_loop: 4
   name: Merchant 0 Com Agentic Access
   operation_count: 95
   slug: merchant-0-com-agentic-access
-  summary_line: 95 operations · 36 acting · 4 human-in-the-loop
+  summary_line: 95 operations · 35 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.merchant-0.com
@@ -201,7 +201,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

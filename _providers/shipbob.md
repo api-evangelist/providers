@@ -35,67 +35,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 28
   human_in_the_loop: 0
   name: Shipbob Agentic Access
   operation_count: 72
   slug: shipbob-agentic-access
-  summary_line: 72 operations · 30 acting
+  summary_line: 72 operations · 28 acting
 api_count: 1
 apis:
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_billing API from ShipBob — 4 operation(s) for subpackage_billing.
-  name: ShipBob subpackage_billing API
+  name: ShipBob Subpackage Billing API
   slug: shipbob-subpackage-billing-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_channels API from ShipBob — 1 operation(s) for subpackage_channels.
-  name: ShipBob subpackage_channels API
+  name: ShipBob Subpackage Channels API
   slug: shipbob-subpackage-channels-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_inventory API from ShipBob — 9 operation(s) for subpackage_inventory.
-  name: ShipBob subpackage_inventory API
+  name: ShipBob Subpackage Inventory API
   slug: shipbob-subpackage-inventory-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_locations API from ShipBob — 1 operation(s) for subpackage_locations.
-  name: ShipBob subpackage_locations API
+  name: ShipBob Subpackage Locations API
   slug: shipbob-subpackage-locations-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_orders API from ShipBob — 21 operation(s) for subpackage_orders.
-  name: ShipBob subpackage_orders API
+  name: ShipBob Subpackage Orders API
   slug: shipbob-subpackage-orders-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_products API from ShipBob — 11 operation(s) for subpackage_products.
-  name: ShipBob subpackage_products API
+  name: ShipBob Subpackage Products API
   slug: shipbob-subpackage-products-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_receiving API from ShipBob — 8 operation(s) for subpackage_receiving.
-  name: ShipBob subpackage_receiving API
+  name: ShipBob Subpackage Receiving API
   slug: shipbob-subpackage-receiving-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_returns API from ShipBob — 3 operation(s) for subpackage_returns.
-  name: ShipBob subpackage_returns API
+  name: ShipBob Subpackage Returns API
   slug: shipbob-subpackage-returns-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_simulations API from ShipBob — 2 operation(s) for subpackage_simulations.
-  name: ShipBob subpackage_simulations API
+  name: ShipBob Subpackage Simulations API
   slug: shipbob-subpackage-simulations-api
 - baseURL: https://api.shipbob.com
   baseurl_source: declared
   description: The subpackage_webhooks API from ShipBob — 2 operation(s) for subpackage_webhooks.
-  name: ShipBob subpackage_webhooks API
+  name: ShipBob Subpackage Webhooks API
   slug: shipbob-subpackage-webhooks-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI 2.6 specification modeling the ShipBob webhook event surface. ShipBob webhooks allow applications to subscribe to events that occur in a ShipBob merchant account (order shipments, returns, wa
   name: ShipBob Webhooks
@@ -220,17 +220,13 @@ finops:
 - name: Shipbob Finops
   service_category: Logistics
   slug: shipbob-finops
-graphqls:
-- description: 'ShipBob is a global ecommerce fulfillment network and third-party logistics (3PL) provider operating 60+ fulfillment centers. This conceptual GraphQL schema models the core domain objects surfaced by '
-  name: ShipBob GraphQL Schema
-  slug: shipbob-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shipbob.png
 layout: provider
 modified: '2026-05-30'
 name: ShipBob
 nav: Providers
 network: true
-overview: 'ShipBob publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_billing API, subpackage_channels API, subpackage_inventory API, and 7 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Inventory.
+overview: 'ShipBob publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Billing API, Subpackage Channels API, Subpackage Inventory API, and 7 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Inventory.
 
 
   The ShipBob catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -260,19 +256,19 @@ rules:
   slug: shipbob-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 39.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 45.8
     catalog_earned_first_party: 0.0
     catalog_gap: 69.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 26.3
     contract_governance: 11.4
-    contract_quality: 66.3
+    contract_quality: 62.1
     developer_ergonomics: 35.7
     discoverability: 75.9
     operational_transparency: 23.7
@@ -291,7 +287,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

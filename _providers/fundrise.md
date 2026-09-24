@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ modified: '2026-08-04'
 name: Fundrise
 nav: Providers
 network: true
-overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial-Services, Investing, Real-Estate, and Private Credit.
+overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial Services, Investing, Real Estate, and Private Credit.
 
 
   Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 18 more developer resources.'
@@ -288,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -310,9 +310,9 @@ security:
 slug: fundrise
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investing
-- Real-Estate
+- Real Estate
 - Private Credit
 - Venture Capital
 - Alternative Assets

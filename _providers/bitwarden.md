@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: Bitwarden
 nav: Providers
 network: true
-overview: 'Bitwarden publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 3 more. Tagged areas include Security, Password Manager, Open-Source, Vault, and Identity.
+overview: 'Bitwarden publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Events API, Groups API, and 3 more. Tagged areas include Security, Password Manager, Open Source, Vault, and Identity.
 
 
   Bitwarden''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
@@ -234,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -257,7 +257,7 @@ slug: bitwarden
 tags:
 - Security
 - Password Manager
-- Open-Source
+- Open Source
 - Vault
 - Identity
 - SCIM

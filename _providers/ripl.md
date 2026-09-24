@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.0
-  scored_at: '2026-09-23'
+  score: 11.2
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -162,7 +162,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -183,5 +183,6 @@ tags:
 - Marketing
 - Software-as-a-Service
 - Social Media Management
+- Scheduling
 website: https://www.ripl.com/
 ---

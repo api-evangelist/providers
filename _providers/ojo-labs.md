@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,7 +111,7 @@ modified: '2026-08-26'
 name: OJO Labs
 nav: Providers
 network: true
-overview: 'OJO Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Home Search, and Mortgage.
+overview: 'OJO Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Home Search, and Mortgage.
 
 
   OJO Labs'' developer surface includes support, engineering blog, and 9 more developer resources.'
@@ -144,7 +144,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ security:
 slug: ojo-labs
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Home Search
 - Mortgage

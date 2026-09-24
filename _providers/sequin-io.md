@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-07-01'
 name: Sequin
 nav: Providers
 network: true
-overview: 'Sequin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Backfills API, HTTP Endpoints API, Postgres Databases API, and 2 more. Tagged areas include Change Data Capture, Postgres, Streaming, Open-Source, and Data Pipeline.
+overview: 'Sequin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Backfills API, HTTP Endpoints API, Postgres Databases API, and 2 more. Tagged areas include Change Data Capture, PostgreSQL, Streaming, Open Source, and Data Pipeline.
 
 
   Sequin''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -214,9 +214,9 @@ security:
 slug: sequin-io
 tags:
 - Change Data Capture
-- Postgres
+- PostgreSQL
 - Streaming
-- Open-Source
+- Open Source
 - Data Pipeline
 website: https://sequinstream.com
 ---

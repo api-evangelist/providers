@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-07-19'
 name: Guidde
 nav: Providers
 network: true
-overview: 'Guidde is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documentation, Video, Digital Adoption, and Knowledge-Management.
+overview: 'Guidde is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documentation, Video, Digital Adoption, and Knowledge Management.
 
 
   Guidde''s developer surface includes pricing, engineering blog, support, signup flow, and 10 more developer resources.'
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ tags:
 - Documentation
 - Video
 - Digital Adoption
-- Knowledge-Management
+- Knowledge Management
 - Training
 - Onboarding
 - Screen Recording

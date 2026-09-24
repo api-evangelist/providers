@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ modified: '2026-08-13'
 name: Rybbit
 nav: Providers
 network: true
-overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open-Source.
+overview: 'Rybbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Event Tracking API, and Sessions API. Tagged areas include Analytics, Web Analytics, Product Analytics, Privacy, and Open Source.
 
 
   Rybbit''s developer surface includes authentication, engineering blog, documentation, changelog, sandbox, API reference, getting-started guide, and 41 more developer resources.'
@@ -362,7 +362,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -391,7 +391,7 @@ tags:
 - Web Analytics
 - Product Analytics
 - Privacy
-- Open-Source
+- Open Source
 - Cookieless
 website: https://www.rybbit.io
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The instances API from Mithril — 5 operation(s) for instances.
-  name: Mithril instances API
+  name: Mithril Instances API
   slug: mithril-instances-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
@@ -77,32 +77,32 @@ apis:
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The pricing API from Mithril — 2 operation(s) for pricing.
-  name: Mithril pricing API
+  name: Mithril Pricing API
   slug: mithril-pricing-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The profile API from Mithril — 2 operation(s) for profile.
-  name: Mithril profile API
+  name: Mithril Profile API
   slug: mithril-profile-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The projects API from Mithril — 1 operation(s) for projects.
-  name: Mithril projects API
+  name: Mithril Projects API
   slug: mithril-projects-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The quotas API from Mithril — 1 operation(s) for quotas.
-  name: Mithril quotas API
+  name: Mithril Quotas API
   slug: mithril-quotas-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The reservations API from Mithril — 10 operation(s) for reservations.
-  name: Mithril reservations API
+  name: Mithril Reservations API
   slug: mithril-reservations-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The spot API from Mithril — 5 operation(s) for spot.
-  name: Mithril spot API
+  name: Mithril Spot API
   slug: mithril-spot-api
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
@@ -112,7 +112,7 @@ apis:
 - baseURL: https://api.mithril.ai/v2
   baseurl_source: declared
   description: The volumes API from Mithril — 2 operation(s) for volumes.
-  name: Mithril volumes API
+  name: Mithril Volumes API
   slug: mithril-volumes-api
 artifact_total: 36
 collections:
@@ -335,7 +335,7 @@ modified: '2026-07-20'
 name: Mithril
 nav: Providers
 network: true
-overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, image versions API, instance types API, and 11 more. Tagged areas include Company, GPU Cloud, AI Infrastructure, Machine-Learning, and Cloud Computing.
+overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, image versions API, instance types API, and 11 more. Tagged areas include Company, GPU Cloud, AI Infrastructure, Machine Learning, and Cloud Computing.
 
 
   Mithril''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
@@ -377,7 +377,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -405,7 +405,7 @@ tags:
 - Company
 - GPU Cloud
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 - Cloud Computing
 - Compute
 - Spot Instances

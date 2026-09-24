@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 85
+- acting_count: 104
   human_in_the_loop: 2
   name: Fossology Agentic Access
-  operation_count: 167
+  operation_count: 202
   slug: fossology-agentic-access
-  summary_line: 167 operations · 85 acting · 2 human-in-the-loop
+  summary_line: 202 operations · 104 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost/repo/api/v1
@@ -54,7 +54,7 @@ apis:
 - baseURL: http://localhost/repo/api/v1
   baseurl_source: declared
   description: Authentication endpoints
-  name: FOSSology auth API
+  name: FOSSology Auth API
   slug: fossology-auth-api
 - baseURL: http://localhost/repo/api/v1
   baseurl_source: declared
@@ -74,7 +74,7 @@ apis:
 - baseURL: http://localhost/repo/api/v1
   baseurl_source: declared
   description: Basic info about API
-  name: FOSSology info API
+  name: FOSSology Info API
   slug: fossology-info-api
 - baseURL: http://localhost/repo/api/v1
   baseurl_source: declared
@@ -265,7 +265,7 @@ modified: '2026-05-19'
 name: FOSSology
 nav: Providers
 network: true
-overview: 'FOSSology publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, auth API, Copyrights API, and 12 more. Tagged areas include Compliance, Licensing, Linux Foundation, Scanning, and SPDX.
+overview: 'FOSSology publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Copyrights API, and 12 more. Tagged areas include Compliance, Licensing, Linux Foundation, Scanning, and SPDX.
 
 
   The FOSSology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -334,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -356,6 +356,6 @@ tags:
 - Linux Foundation
 - Scanning
 - SPDX
-- Open-Source
+- Open Source
 website: https://www.fossology.org/
 ---

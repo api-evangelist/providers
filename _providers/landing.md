@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ modified: '2026-07-19'
 name: Landing
 nav: Providers
 network: true
-overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, PropTech, Real-Estate, Rentals, and Furnished Apartments.
+overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, PropTech, Real Estate, Rentals, and Furnished Apartments.
 
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 22 more developer resources.'
@@ -236,7 +236,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ slug: landing
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing

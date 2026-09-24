@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-07-20'
 name: Nous Research
 nav: Providers
 network: true
-overview: 'Nous Research publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
+overview: 'Nous Research publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
 
 
   Nous Research''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, support, and 17 more developer resources.'
@@ -207,13 +207,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 3
       marker_coverage: 100.0
-      total: 2
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -232,7 +232,7 @@ slug: nous-research
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Agents

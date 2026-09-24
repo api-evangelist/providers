@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -211,6 +211,10 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/magento-product-schema.json
+- group: company
+  title: ''
+  type: Website
+  url: https://business.adobe.com/products/magento/magento-commerce.html
 description: Overview of the Adobe Commerce and Magento Open Source REST API documentation.
 features:
 - 'Magento Open Source: free, self-hosted PHP commerce platform'
@@ -364,7 +368,7 @@ overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Magento''s developer surface includes authentication and 8 more developer resources.'
+  Magento''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Magento Plans Pricing
   plan_count: 3
@@ -423,7 +427,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -448,4 +452,5 @@ tags:
 - Catalog
 - Headless Commerce
 - Magento
+website: https://business.adobe.com/products/magento/magento-commerce.html
 ---

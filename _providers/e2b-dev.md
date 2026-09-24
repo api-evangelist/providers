@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -54,27 +54,27 @@ apis:
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The access-tokens API from E2B — 2 operation(s) for access-tokens.
-  name: E2B access-tokens API
+  name: E2B Access Tokens API
   slug: e2b-dev-access-tokens-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The admin API from E2B — 4 operation(s) for admin.
-  name: E2B admin API
+  name: E2B Admin API
   slug: e2b-dev-admin-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The api-keys API from E2B — 2 operation(s) for api-keys.
-  name: E2B api-keys API
+  name: E2B API Keys API
   slug: e2b-dev-api-keys-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The auth API from E2B — 3 operation(s) for auth.
-  name: E2B auth API
+  name: E2B Auth API
   slug: e2b-dev-auth-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The events API from E2B — 2 operation(s) for events.
-  name: E2B events API
+  name: E2B Events API
   slug: e2b-dev-events-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
@@ -84,32 +84,32 @@ apis:
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The sandboxes API from E2B — 13 operation(s) for sandboxes.
-  name: E2B sandboxes API
+  name: E2B Sandboxes API
   slug: e2b-dev-sandboxes-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The snapshots API from E2B — 1 operation(s) for snapshots.
-  name: E2B snapshots API
+  name: E2B Snapshots API
   slug: e2b-dev-snapshots-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The tags API from E2B — 2 operation(s) for tags.
-  name: E2B tags API
+  name: E2B Tags API
   slug: e2b-dev-tags-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The templates API from E2B — 11 operation(s) for templates.
-  name: E2B templates API
+  name: E2B Templates API
   slug: e2b-dev-templates-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The volumes API from E2B — 5 operation(s) for volumes.
-  name: E2B volumes API
+  name: E2B Volumes API
   slug: e2b-dev-volumes-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The webhooks API from E2B — 2 operation(s) for webhooks.
-  name: E2B webhooks API
+  name: E2B Webhooks API
   slug: e2b-dev-webhooks-api
 - baseURL: https://api.e2b.app
   baseurl_source: declared
@@ -459,7 +459,7 @@ modified: '2026-09-16'
 name: E2B
 nav: Providers
 network: true
-overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandbox.
+overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Admin API, API Keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandbox.
 
 
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -513,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -545,6 +545,6 @@ tags:
 - Desktop Sandbox
 - Templates
 - MCP
-- Open-Source
+- Open Source
 website: https://www.e2b.dev/
 ---

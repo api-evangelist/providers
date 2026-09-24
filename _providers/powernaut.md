@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -48,67 +48,67 @@ apis:
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Authenticating with the Powernaut platform.
-  name: Powernaut authentication API
+  name: Powernaut Authentication API
   slug: powernaut-authentication-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: 'With baselining, you indicate your normal consumption/production behaviour. This baseline is essential to provide flexibility, which is then defined as a deviation from this baseline. You can provide '
-  name: Powernaut baselining API
+  name: Powernaut Baselining API
   slug: powernaut-baselining-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: A bid tells us how much flexibility is available in a certain time window.
-  name: Powernaut creating_bids API
+  name: Powernaut Creating Bids API
   slug: powernaut-creating-bids-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Events are EMS-initiated control actions that deviate from a resource's default behaviour (e.g. PV curtailment due to negative tariffs). Reporting these events helps us maintain clean training data fo
-  name: Powernaut events API
+  name: Powernaut Events API
   slug: powernaut-events-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: 'You can retrieve forecasts to help plan your flexibility offerings and understand expected power consumption or production patterns. See the [guide](/guides/connect/forecasting/getting-forecasts) for '
-  name: Powernaut getting_forecasts API
+  name: Powernaut Getting Forecasts API
   slug: powernaut-getting-forecasts-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Upload historical meter data for your sites. Use these endpoints to import historical consumption and production data via CSV files.
-  name: Powernaut historical_data API
+  name: Powernaut Historical Data API
   slug: powernaut-historical-data-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Manage your bids. You can update, cancel and receive notifications about bids. When a bid is accepted, you either get notified or you poll for status updates. Read more [here](/guides/connect/activati
-  name: Powernaut managing_bids API
+  name: Powernaut Managing Bids API
   slug: powernaut-managing-bids-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Markets are the electricity markets in which you can participate. Each market has a set of eligibility criteria, which you can query to see if you can participate in a certain market. Read our [guide]
-  name: Powernaut markets API
+  name: Powernaut Markets API
   slug: powernaut-markets-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Metrics reported by resources and sites
-  name: Powernaut metrics API
+  name: Powernaut Metrics API
   slug: powernaut-metrics-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Register, modify or delete flexible resources. You can add flexible resources to each site, such as batteries, heat pumps, electric vehicles, ... They are the physical resource that can offer flexibil
-  name: Powernaut resources API
+  name: Powernaut Resources API
   slug: powernaut-resources-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Read raw time series data from sensors attached to your sites, such as irradiance sensors on PV installations. Useful when you need measured conditions alongside metering data, for example to estimate
-  name: Powernaut sensor_data API
+  name: Powernaut Sensor Data API
   slug: powernaut-sensor-data-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Register, modify or delete sites. Sites are the start of everything, they are required to uniquely identify the end consumer's connection to the grid. They define the meter point(s) for which flexibil
-  name: Powernaut sites API
+  name: Powernaut Sites API
   slug: powernaut-sites-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
   description: Sharing your forecasts helps us better understand your resources' expected behaviour, leading to improved flexibility opportunities and optimised market participation. See the [guide](/guides/connect/
-  name: Powernaut uploading_forecasts API
+  name: Powernaut Uploading Forecasts API
   slug: powernaut-uploading-forecasts-api
 - baseURL: https://api.powernaut.io
   baseurl_source: declared
@@ -274,7 +274,7 @@ modified: '2026-07-20'
 name: Powernaut
 nav: Providers
 network: true
-overview: 'Powernaut publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, baselining API, creating_bids API, and 11 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
+overview: 'Powernaut publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Baselining API, Creating Bids API, and 11 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
 
 
   The Powernaut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,6 +302,8 @@ score:
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - belgium
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - benelux
@@ -324,7 +326,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

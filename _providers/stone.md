@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: The Stone Online transactional API for authorizing, capturing, canceling, and querying payment transactions for online and physical sales platforms. Supports credit card, debit, and voucher payments w
@@ -168,7 +168,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

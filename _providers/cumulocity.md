@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -990,7 +990,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1016,5 +1016,6 @@ tags:
 - Edge Computing
 - Streaming Analytics
 - Data Lake
+- Real-Time
 website: https://www.cumulocity.com/
 ---

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 66
+- acting_count: 76
   human_in_the_loop: 1
   name: Particle Agentic Access
-  operation_count: 138
+  operation_count: 155
   slug: particle-agentic-access
-  summary_line: 138 operations · 66 acting · 1 human-in-the-loop
+  summary_line: 155 operations · 76 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.particle.io
@@ -185,7 +185,7 @@ apis:
   description: The Sims API from Particle — 6 operation(s) for sims.
   name: Particle Sims API
   slug: particle-sims-api
-artifact_total: 67
+artifact_total: 66
 collections:
 - collection_type: open
   name: API Collection
@@ -405,10 +405,6 @@ finops:
 - name: Particle Finops
   service_category: ''
   slug: particle-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Particle IoT platform. Particle exposes its Device Cloud capabilities primarily through a REST API at `https://api.particle.io`. This GraphQ
-  name: Particle IoT GraphQL Schema
-  slug: particle-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/particle.png
 jsonld:
 - class_count: 13
@@ -438,23 +434,23 @@ rate_limits:
   slug: particle-rate-limits
 score:
   band: strong
-  composite: 63.7
+  composite: 62.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 80.0
     catalog_earned_first_party: 0.0
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.9
   facets:
     access_clarity: 71.1
     contract_governance: 15.2
-    contract_quality: 71.7
+    contract_quality: 68.1
     developer_ergonomics: 64.3
     discoverability: 68.5
     operational_transparency: 65.8
-  previous_composite: 63.6
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -463,7 +459,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

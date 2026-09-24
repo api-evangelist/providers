@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
@@ -180,7 +180,7 @@ modified: '2026-05-02'
 name: Reinsurance Group of America
 nav: Providers
 network: true
-overview: 'Reinsurance Group of America publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
+overview: 'Reinsurance Group of America publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Health Insurance, Insurance Technology, Life Insurance, and Reinsurance.
 
 
   The Reinsurance Group of America catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -249,7 +249,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -263,7 +263,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: reinsurance-group-of-america
 tags:
-- Financial-Services
+- Financial Services
 - Health Insurance
 - Insurance Technology
 - Life Insurance

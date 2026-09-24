@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Hsbc Australia Agentic Access
   operation_count: 19
   slug: hsbc-australia-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 1
 apis:
 - description: HSBC Group's global developer portal (develop.hsbc.com) documents commercial / corporate-banking APIs available to HSBC's business and corporate clients, alongside Open Banking APIs for non-Australian
@@ -295,7 +295,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

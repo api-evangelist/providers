@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ modified: '2026-05-30'
 name: Gorgias
 nav: Providers
 network: true
-overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer-Support, Help Desk, E-Commerce, Shopify, and Tickets.
+overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Customers API, and 11 more. Tagged areas include Customer Support, Help Desk, E-Commerce, Shopify, and Tickets.
 
 
   The Gorgias catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +313,7 @@ security:
   summary_line: security.txt · contact published
 slug: gorgias
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - E-Commerce
 - Shopify

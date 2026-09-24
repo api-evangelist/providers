@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - baseURL: https://api.ade.landing.ai
@@ -361,7 +361,7 @@ modified: '2026-07-19'
 name: Landing.ai
 nav: Providers
 network: true
-overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Document Extraction, and Document Processing.
+overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Document Extraction, and Document Processing.
 
 
   Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
@@ -403,7 +403,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -430,10 +430,10 @@ slug: landingai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Document Extraction
 - Document Processing
-- Computer-Vision
+- Computer Vision
 - OCR
 - Data Extraction
 - Agents

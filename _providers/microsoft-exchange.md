@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 51
+- acting_count: 48
   human_in_the_loop: 0
   name: Microsoft Exchange Agentic Access
-  operation_count: 79
+  operation_count: 86
   slug: microsoft-exchange-agentic-access
-  summary_line: 79 operations · 51 acting
+  summary_line: 86 operations · 48 acting
 api_count: 6
 apis:
 - description: Legacy SOAP-based API for Exchange Server providing comprehensive access to mailbox data and operations. Planned for deprecation in Exchange Online in October 2026, with Microsoft Graph recommended fo
@@ -813,7 +813,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

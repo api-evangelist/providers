@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Universal B2B recommendation API — ingest users, items, ratings and interactions, then query profile-to-items, session-to-items and item-to-items recommendations. JWT authenticated, multi-database.
@@ -144,7 +144,7 @@ modified: '2026-07-18'
 name: Crossing Minds
 nav: Providers
 network: true
-overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Recommendations, Personalization, and Machine-Learning.
+overview: 'Crossing Minds publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Recommendations, Personalization, and Machine Learning.
 
 
   Crossing Minds'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 15 more developer resources.'
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Ai Ml
 - Recommendations
 - Personalization
-- Machine-Learning
+- Machine Learning
 - Recommender System
 - Retrieval
 - E-Commerce

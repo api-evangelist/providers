@@ -99,7 +99,7 @@ tags:
 - Claims
 - Eligibility
 - Process Mining
-- Robotic Process Automation
+- RPA
 - Artificial Intelligence
 - Defunct
 website: https://oliveai.com

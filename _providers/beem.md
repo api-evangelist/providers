@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-18'
 name: Beem
 nav: Providers
 network: true
-overview: 'Beem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Consumer Finance, and Cash Advance.
+overview: 'Beem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Consumer Finance, and Cash Advance.
 
 
   Beem''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
@@ -117,7 +117,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +136,7 @@ security:
 slug: beem
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Consumer Finance
 - Cash Advance

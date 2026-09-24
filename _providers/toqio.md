@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 17
 apis:
 - baseURL: https://api.toq.io/wallet/api
@@ -104,7 +104,7 @@ apis:
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
   description: The compliance-controller API from Toqio — 1 operation(s) for compliance-controller.
-  name: Toqio compliance-controller API
+  name: Toqio Compliance Controller API
   slug: toqio-compliance-controller-api
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
@@ -219,7 +219,7 @@ apis:
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
   description: The onboarding-controller API from Toqio — 2 operation(s) for onboarding-controller.
-  name: Toqio onboarding-controller API
+  name: Toqio Onboarding Controller API
   slug: toqio-onboarding-controller-api
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
@@ -229,7 +229,7 @@ apis:
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
   description: The pre-signed-url-controller API from Toqio — 1 operation(s) for pre-signed-url-controller.
-  name: Toqio pre-signed-url-controller API
+  name: Toqio Pre Signed URL Controller API
   slug: toqio-pre-signed-url-controller-api
 - baseURL: https://api.toq.io/wallet/api
   baseurl_source: declared
@@ -636,7 +636,7 @@ score:
     regime_id: payments
     score: 71.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

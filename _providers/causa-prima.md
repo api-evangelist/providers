@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,10 +73,6 @@ collections:
   name: Invoice Invoices Scribo API
   slug: open-causa-prima-scribo-api
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/sap/
 - group: company
   title: ''
   type: Website
@@ -208,7 +204,7 @@ network: true
 overview: 'Causa Prima publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invoices API, Jurisdictions API, and Scribo API. Tagged areas include Company, Artificial Intelligence, Fintech, E-Invoicing, and Invoicing.
 
 
-  Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 21 more developer resources.'
+  Causa Prima''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 20 more developer resources.'
 random_paper: 7
 score:
   band: developing
@@ -254,7 +250,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

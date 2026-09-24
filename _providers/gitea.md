@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -61,47 +61,47 @@ apis:
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The admin API from Gitea — 22 operation(s) for admin.
-  name: Gitea admin API
+  name: Gitea Admin API
   slug: gitea-admin-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The issue API from Gitea — 34 operation(s) for issue.
-  name: Gitea issue API
+  name: Gitea Issue API
   slug: gitea-issue-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The miscellaneous API from Gitea — 12 operation(s) for miscellaneous.
-  name: Gitea miscellaneous API
+  name: Gitea Miscellaneous API
   slug: gitea-miscellaneous-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The notification API from Gitea — 4 operation(s) for notification.
-  name: Gitea notification API
+  name: Gitea Notification API
   slug: gitea-notification-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The organization API from Gitea — 37 operation(s) for organization.
-  name: Gitea organization API
+  name: Gitea Organization API
   slug: gitea-organization-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The package API from Gitea — 7 operation(s) for package.
-  name: Gitea package API
+  name: Gitea Package API
   slug: gitea-package-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The repository API from Gitea — 133 operation(s) for repository.
-  name: Gitea repository API
+  name: Gitea Repository API
   slug: gitea-repository-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The settings API from Gitea — 4 operation(s) for settings.
-  name: Gitea settings API
+  name: Gitea Settings API
   slug: gitea-settings-api
 - baseURL: https://gitea.com/api/v1
   baseurl_source: declared
   description: The user API from Gitea — 48 operation(s) for user.
-  name: Gitea user API
+  name: Gitea User API
   slug: gitea-user-api
 arazzos:
 - description: Create a repository, open a tracking issue in it, and add a kickoff comment.
@@ -809,7 +809,7 @@ modified: '2026-06-20'
 name: Gitea
 nav: Providers
 network: true
-overview: 'Gitea publishes 9 APIs on the [APIs.io](https://apis.io/) network, including admin API, issue API, miscellaneous API, and 6 more. Tagged areas include Gitea, Git, Source Control, DevOps, and CI/CD.
+overview: 'Gitea publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Issue API, Miscellaneous API, and 6 more. Tagged areas include Gitea, Git, Source Control, DevOps, and CI/CD.
 
 
   The Gitea catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -884,7 +884,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -924,7 +924,7 @@ tags:
 - DevOps
 - CI/CD
 - Code Hosting
-- Open-Source
+- Open Source
 - Self-Hosted
 - Package Registry
 - Issue Tracking

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 1
   human_in_the_loop: 0
   name: Us Patent And Trademark Office Agentic Access
   operation_count: 41
   slug: us-patent-and-trademark-office-agentic-access
-  summary_line: 41 operations · 8 acting
+  summary_line: 41 operations · 1 acting
 api_count: 2
 apis:
 - baseURL: https://api.uspto.gov
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: US Patent and Trademark Office
 nav: Providers
 network: true
-overview: 'US Patent and Trademark Office publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bulk Datasets API, Case Documents API, Case Status API, and 7 more. Tagged areas include Federal-Government, Patents, Trademarks, Intellectual Property, and Open Data.
+overview: 'US Patent and Trademark Office publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bulk Datasets API, Case Documents API, Case Status API, and 7 more. Tagged areas include Federal Government, Patents, Trademarks, Intellectual Property, and Open Data.
 
 
   The US Patent and Trademark Office catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,7 +273,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -291,7 +291,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: us-patent-and-trademark-office
 tags:
-- Federal-Government
+- Federal Government
 - Patents
 - Trademarks
 - Intellectual Property

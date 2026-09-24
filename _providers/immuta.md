@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
-  human_in_the_loop: 2
+- acting_count: 36
+  human_in_the_loop: 4
   name: Immuta Agentic Access
-  operation_count: 83
+  operation_count: 95
   slug: immuta-agentic-access
-  summary_line: 83 operations · 32 acting · 2 human-in-the-loop
+  summary_line: 95 operations · 36 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
@@ -343,7 +343,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

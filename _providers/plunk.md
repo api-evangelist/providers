@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ modified: '2026-08-13'
 name: Plunk
 nav: Providers
 network: true
-overview: 'Plunk publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Events API, and 4 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open-Source.
+overview: 'Plunk publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Events API, and 4 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open Source.
 
 
   The Plunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -325,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -346,12 +346,12 @@ tags:
 - Transactional Email
 - Marketing
 - Automation
-- Open-Source
+- Open Source
 - Software-as-a-Service
 - Email API
 - Webhook
 - Segmentation
-- Workflow-Automation
+- Workflow Automation
 - Self-Hosted
 - Developer Tools
 website: https://www.useplunk.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Programmatic access to LF Edge project resources, APIs, and edge computing framework tools.
@@ -82,7 +82,7 @@ modified: '2026-04-28'
 name: LF Edge
 nav: Providers
 network: true
-overview: 'LF Edge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Edge Computing, IoT, Linux Foundation, and Open-Source.
+overview: 'LF Edge publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Edge Computing, IoT, Linux Foundation, and Open Source.
 
 
   LF Edge''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -132,6 +132,6 @@ tags:
 - Edge Computing
 - IoT
 - Linux Foundation
-- Open-Source
+- Open Source
 website: https://www.lfedge.org/
 ---

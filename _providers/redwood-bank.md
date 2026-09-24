@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The OpenID Connect member-authentication surface (OpenIddict) behind the Umbraco headless-CMS "Content Delivery API" that powers redwoodbank.co.uk. This is the only live, machine-readable API surface '
@@ -99,7 +99,7 @@ modified: '2026-07-23'
 name: Redwood Bank
 nav: Providers
 network: true
-overview: 'Redwood Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Business Banking, SME, and Savings.
+overview: 'Redwood Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Business Banking, SME, and Savings.
 
 
   Redwood Bank''s developer surface includes authentication, engineering blog, support, legal docs, and 7 more developer resources.'
@@ -140,7 +140,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: redwood-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Business Banking
 - SME

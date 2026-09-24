@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
@@ -154,7 +154,7 @@ modified: '2026-07-18'
 name: Chert
 nav: Providers
 network: true
-overview: 'Chert publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, iMessage, Communications, and Conversational.
+overview: 'Chert publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, iMessage, Communications, and Conversational AI.
 
 
   The Chert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,7 +184,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - Messaging
 - iMessage
 - Communications
-- Conversational
+- Conversational AI
 - Webhook
 - CRM Integration
 website: https://www.trychert.com/

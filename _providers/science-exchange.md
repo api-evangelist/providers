@@ -34,118 +34,118 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 23
 apis:
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Addresses resource.
-  name: Science Exchange addresses API
+  name: Science Exchange Addresses API
   slug: science-exchange-addresses-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Attachments resource.
-  name: Science Exchange attachments API
+  name: Science Exchange Attachments API
   slug: science-exchange-attachments-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: CurrencyCodes resource.
-  name: Science Exchange currency_codes API
+  name: Science Exchange Currency Codes API
   slug: science-exchange-currency-codes-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: ExperimentTypeFields resource.
-  name: Science Exchange experiment_type_fields API
+  name: Science Exchange Experiment Type Fields API
   slug: science-exchange-experiment-type-fields-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: ExperimentTypes resource.
-  name: Science Exchange experiment_types API
+  name: Science Exchange Experiment Types API
   slug: science-exchange-experiment-types-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Facilities resource.
-  name: Science Exchange facilities API
+  name: Science Exchange Facilities API
   slug: science-exchange-facilities-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: FacilityMembers resource.
-  name: Science Exchange facility_members API
+  name: Science Exchange Facility Members API
   slug: science-exchange-facility-members-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: FacilityPhotos resource.
-  name: Science Exchange facility_photos API
+  name: Science Exchange Facility Photos API
   slug: science-exchange-facility-photos-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Groups resource.
-  name: Science Exchange groups API
+  name: Science Exchange Groups API
   slug: science-exchange-groups-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: LineItems resource.
-  name: Science Exchange line_items API
+  name: Science Exchange Line Items API
   slug: science-exchange-line-items-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: PricingUnits resource.
-  name: Science Exchange pricing_units API
+  name: Science Exchange Pricing Units API
   slug: science-exchange-pricing-units-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: QuoteVersions resource.
-  name: Science Exchange quote_versions API
+  name: Science Exchange Quote Versions API
   slug: science-exchange-quote-versions-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Quotes resource.
-  name: Science Exchange quotes API
+  name: Science Exchange Quotes API
   slug: science-exchange-quotes-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Ratings resource.
-  name: Science Exchange ratings API
+  name: Science Exchange Ratings API
   slug: science-exchange-ratings-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: RFQCollaborators resource.
-  name: Science Exchange rfq_collaborators API
+  name: Science Exchange Rfq Collaborators API
   slug: science-exchange-rfq-collaborators-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: RFQEvents resource.
-  name: Science Exchange rfq_events API
+  name: Science Exchange Rfq Events API
   slug: science-exchange-rfq-events-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: RFQFields resource.
-  name: Science Exchange rfq_fields API
+  name: Science Exchange Rfq Fields API
   slug: science-exchange-rfq-fields-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: RFQMessages resource.
-  name: Science Exchange rfq_messages API
+  name: Science Exchange Rfq Messages API
   slug: science-exchange-rfq-messages-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Services resource.
-  name: Science Exchange services API
+  name: Science Exchange Services API
   slug: science-exchange-services-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: TagContexts resource.
-  name: Science Exchange tag_contexts API
+  name: Science Exchange Tag Contexts API
   slug: science-exchange-tag-contexts-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Tags resource.
-  name: Science Exchange tags API
+  name: Science Exchange Tags API
   slug: science-exchange-tags-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
   description: Users resource.
-  name: Science Exchange users API
+  name: Science Exchange Users API
   slug: science-exchange-users-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
@@ -358,7 +358,7 @@ modified: '2026-07-21'
 name: Science Exchange
 nav: Providers
 network: true
-overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/) network, including addresses API, attachments API, currency_codes API, and 20 more. Tagged areas include Company, Life Sciences, Research and Development, Scientific Services, and Procurement.
+overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Attachments API, Currency Codes API, and 20 more. Tagged areas include Company, Life Sciences, Research and Development, Scientific Services, and Procurement.
 
 
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
@@ -409,7 +409,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -438,7 +438,7 @@ tags:
 - Procurement
 - Marketplace
 - Supplier Management
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 website: https://www.scienceexchange.com
 ---

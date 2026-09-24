@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: The BMW Vehicle Identification API allows users to access detailed information about BMW vehicles by inputting their unique vehicle identification number (VIN). Provides essential data about a vehicle
@@ -54,7 +54,7 @@ apis:
 - description: The BMW Open Data Platform provides developers, researchers, and innovators with access to vehicle data including performance metrics, sensor data, and diagnostic information. The platform supports de
   name: BMW Open Data Platform
   slug: bmw-open-data-platform
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/security/bmw-domain-security.yml
@@ -103,10 +103,6 @@ finops:
 - name: Bmw Finops
   service_category: API
   slug: bmw-finops
-graphqls:
-- description: BMW provides connected vehicle APIs through the BMW Connected Drive platform. The API covers vehicle status, remote services (locking, horn, lights), navigation destinations, charging management for E
-  name: BMW GraphQL API
-  slug: bmw-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bmw.png
 layout: provider
 modified: '2026-04-21'
@@ -127,27 +123,27 @@ rate_limits:
   name: Bmw Rate Limits
   slug: bmw-rate-limits
 score:
-  band: thin
-  composite: 33.2
+  band: emerging
+  composite: 22.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 64.8
     operational_transparency: 10.5
   previous_composite: 33.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

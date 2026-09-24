@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Bulk contact matching and enrichment. A customer creates a dataset, uploads a UTF-8 CSV of contacts as a dataset-file via a multipart upload, and Aidentified matches and enriches every record once. Th
@@ -171,7 +171,7 @@ modified: '2026-09-14'
 name: Aidentified
 nav: Providers
 network: true
-overview: 'Aidentified publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Enrichment, Wealth Management, Financial-Services, and Relationship Intelligence.
+overview: 'Aidentified publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Enrichment, Wealth Management, Financial Services, and Relationship Intelligence.
 
 
   Aidentified''s developer surface includes documentation, support, pricing, signup flow, authentication, CLI, and 22 more developer resources.'
@@ -217,7 +217,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ tags:
 - Company
 - Data Enrichment
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Relationship Intelligence
 - Sales Intelligence
 - Prospecting

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: OpenAI-compatible LLM / Model-as-a-Service API hosting the ERNIE family and select open models (DeepSeek, GLM, etc.) via chat completions and embeddings.
@@ -111,7 +111,7 @@ modified: '2026-07-18'
 name: Baidu
 nav: Providers
 network: true
-overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Artificial Intelligence, Machine-Learning, and LLM.
+overview: 'Baidu publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Artificial Intelligence, Machine Learning, and LLM.
 
 
   Baidu''s developer surface includes documentation, API reference, signup flow, authentication, and 8 more developer resources.'
@@ -145,7 +145,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ tags:
 - Company
 - Technology
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Maps
 - Geolocation

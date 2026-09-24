@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Information on campaign donations in federal elections
@@ -61,7 +61,7 @@ modified: '2026-05-28'
 name: FEC
 nav: Providers
 network: true
-overview: FEC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
+overview: FEC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Public APIs, and Government Data.
 random_paper: 16
 score:
   band: minimal
@@ -89,7 +89,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -105,5 +105,6 @@ slug: fec
 tags:
 - Government
 - Public APIs
+- Government Data
 website: https://api.open.fec.gov/developers/
 ---

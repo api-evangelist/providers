@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,7 +87,7 @@ modified: '2026-07-18'
 name: Asaak
 nav: Providers
 network: true
-overview: 'Asaak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Asset Financing, and Financial-Services.
+overview: 'Asaak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Asset Financing, and Financial Services.
 
 
   Asaak''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
@@ -119,7 +119,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -137,7 +137,7 @@ tags:
 - Fintech
 - Lending
 - Asset Financing
-- Financial-Services
+- Financial Services
 - Working Capital
 - Africa
 - Uganda

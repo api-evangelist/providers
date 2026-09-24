@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Apache Opennlp Agentic Access
   operation_count: 11
   slug: apache-opennlp-agentic-access
-  summary_line: 11 operations · 9 acting
+  summary_line: 11 operations · 8 acting
 api_count: 10
 apis:
 - baseURL_template: https://{host}/opennlp
@@ -393,7 +393,7 @@ modified: '2026-05-19'
 name: Apache OpenNLP
 nav: Providers
 network: true
-overview: 'Apache OpenNLP publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chunking API, Document Categorization API, Language Detection API, and 7 more. Tagged areas include Machine-Learning, Natural Language Processing, NLP, Text Processing, and Apache.
+overview: 'Apache OpenNLP publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Chunking API, Document Categorization API, Language Detection API, and 7 more. Tagged areas include Machine Learning, Natural Language Processing, NLP, Text Processing, and Apache.
 
 
   The Apache OpenNLP catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -458,7 +458,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -475,12 +475,12 @@ security:
   summary_line: security.txt · contact published
 slug: apache-opennlp
 tags:
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - NLP
 - Text Processing
 - Apache
-- Open-Source
+- Open Source
 - Java
 use_cases:
 - description: Extract structured data from unstructured text documents

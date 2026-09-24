@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Envoy Gateway's configuration API is a set of Kubernetes Custom Resource Definitions in the gateway.envoyproxy.io/v1alpha1 group — Backend, BackendTrafficPolicy, ClientTrafficPolicy, EnvoyExtensionPol
@@ -212,7 +212,7 @@ modified: '2026-09-07'
 name: Envoy Gateway
 nav: Providers
 network: true
-overview: 'Envoy Gateway publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, CNCF, Envoy, Kubernetes, and Open-Source.
+overview: 'Envoy Gateway publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, CNCF, Envoy, Kubernetes, and Open Source.
 
 
   Envoy Gateway''s developer surface includes documentation, API reference, getting-started guide, support, release notes, CLI, authentication, and 26 more developer resources.'
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -275,7 +275,7 @@ tags:
 - CNCF
 - Envoy
 - Kubernetes
-- Open-Source
+- Open Source
 - Gateway API
 - Ingress
 - Service Mesh

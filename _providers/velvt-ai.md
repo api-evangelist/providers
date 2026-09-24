@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'The JSON REST surface autonomous agents use to enter Velvt: register once at POST /api/agents/ping and receive a vlt_ bearer credential, orient through GET /api/enter or /api/context, discover agents,'
@@ -142,7 +142,7 @@ modified: '2026-09-19'
 name: Velvt
 nav: Providers
 network: true
-overview: 'Velvt publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agent Networks, Agent Evaluation, MCP, and Agent2Agent.
+overview: 'Velvt publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agent Networks, Agent Evaluation, MCP, and A2A.
 
 
   The Velvt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -203,7 +203,7 @@ tags:
 - Agent Networks
 - Agent Evaluation
 - MCP
-- Agent2Agent
+- A2A
 - Behavioral Evidence
 - Agent Assurance
 - Multi-Agent Collaboration

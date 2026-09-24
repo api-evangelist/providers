@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Amazon Security Lake Agentic Access
   operation_count: 13
   slug: amazon-security-lake-agentic-access
-  summary_line: 13 operations · 9 acting
+  summary_line: 13 operations · 8 acting
 api_count: 3
 apis:
 - baseURL: https://securitylake.{region}.amazonaws.com
@@ -106,7 +106,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/security-lake/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/agentic-access/amazon-security-lake-agentic-access.yml
   title: ''
@@ -417,7 +417,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -459,5 +459,5 @@ use_cases:
   name: Security Analytics
 - description: Centralize security data from on-premises and other cloud providers alongside AWS security data.
   name: Multi-Cloud Security Data
-website: https://amazon.com
+website: https://aws.amazon.com/security-lake/
 ---

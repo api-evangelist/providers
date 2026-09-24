@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -146,7 +146,7 @@ modified: '2026-08-23'
 name: KlariVis
 nav: Providers
 network: true
-overview: 'KlariVis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Data Analytics, and Business Intelligence.
+overview: 'KlariVis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Data Analytics, and Business Intelligence.
 
 
   KlariVis'' developer surface includes support, engineering blog, and 18 more developer resources.'
@@ -185,7 +185,7 @@ score:
     regime_id: banking_open_finance
     score: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +209,7 @@ slug: klarivis
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Data Analytics
 - Business Intelligence
 - Community Banking

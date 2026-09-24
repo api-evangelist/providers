@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 60
+- acting_count: 57
   human_in_the_loop: 0
   name: Gumlet Agentic Access
   operation_count: 89
   slug: gumlet-agentic-access
-  summary_line: 89 operations · 60 acting
+  summary_line: 89 operations · 57 acting
 api_count: 1
 apis:
 - baseURL: https://api.gumlet.com/v1
@@ -480,7 +480,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

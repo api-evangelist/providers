@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -184,7 +184,7 @@ modified: '2026-05-19'
 name: frp
 nav: Providers
 network: true
-overview: 'frp publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Configuration API, Health API, and 6 more. Tagged areas include NAT Traversal, Reverse Proxy, Tunneling, and Open-Source.
+overview: 'frp publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Configuration API, Health API, and 6 more. Tagged areas include NAT Traversal, Reverse Proxy, Tunneling, and Open Source.
 
 
   frp''s developer surface includes authentication, documentation, getting-started guide, release notes, and 6 more developer resources.'
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -244,6 +244,6 @@ tags:
 - NAT Traversal
 - Reverse Proxy
 - Tunneling
-- Open-Source
+- Open Source
 website: https://gofrp.org/
 ---

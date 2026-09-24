@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: Flight information and status operations
   name: American Airlines Flights API
   slug: american-airlines-flights-api
-artifact_total: 44
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -154,10 +154,6 @@ finops:
 - name: American Airlines Finops
   service_category: Airlines / Travel
   slug: american-airlines-finops
-graphqls:
-- description: This conceptual GraphQL schema models the American Airlines travel and flight API domain. It covers the full lifecycle of air travel including flight search, booking, reservations, passenger managemen
-  name: American Airlines GraphQL Schema
-  slug: american-airlines-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/american-airlines.png
 integrations:
 - description: Runway developer portal is built on Spotify's Backstage platform for internal developer experience and service catalog management.
@@ -266,19 +262,19 @@ rules:
   slug: american-airlines-spectral-rules
 score:
   band: thin
-  composite: 30.4
+  composite: 29.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 59.5
     catalog_earned_first_party: 0.0
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 59.6
+    contract_quality: 57.1
     developer_ergonomics: 20.2
     discoverability: 68.5
     operational_transparency: 7.9
@@ -296,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

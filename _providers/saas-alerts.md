@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Saas Alerts Agentic Access
   operation_count: 5
   slug: saas-alerts-agentic-access
-  summary_line: 5 operations · 1 acting
+  summary_line: 5 operations
 api_count: 1
 apis:
 - baseURL: https://api.saasalerts.com
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: SaaS Alerts
 nav: Providers
 network: true
-overview: 'SaaS Alerts publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Reports API. Tagged areas include MSP, SaaS Security, Security Monitoring, Threat Detection, and Microsoft-365.
+overview: 'SaaS Alerts publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Reports API. Tagged areas include MSP, SaaS Security, Security Monitoring, Threat Detection, and Microsoft 365.
 
 
   The SaaS Alerts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -239,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -261,7 +261,7 @@ tags:
 - SaaS Security
 - Security Monitoring
 - Threat Detection
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 - MSSP
 website: https://www.saasalerts.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -164,7 +164,7 @@ modified: '2026-08-06'
 name: Afiniti
 nav: Providers
 network: true
-overview: 'Afiniti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Contact Center, Customer Experience, and Machine-Learning.
+overview: 'Afiniti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Contact Center, Customer Experience, and Machine Learning.
 
 
   Afiniti''s developer surface includes engineering blog, product news, support, signup flow, legal docs, YouTube channel, and 19 more developer resources.'
@@ -189,7 +189,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ tags:
 - Artificial Intelligence
 - Contact Center
 - Customer Experience
-- Machine-Learning
+- Machine Learning
 - Enterprise AI
 - Call Routing
 - CCaaS

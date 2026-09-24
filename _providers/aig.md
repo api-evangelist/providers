@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -254,7 +254,7 @@ modified: '2026-08-30'
 name: AIG
 nav: Providers
 network: true
-overview: 'AIG publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial-Services, Property Casualty, Cyber Insurance, and Enterprise.
+overview: 'AIG publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Property Casualty, Cyber Insurance, and Enterprise.
 
 
   The AIG catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -331,7 +331,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -354,7 +354,7 @@ security:
 slug: aig
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Property Casualty
 - Cyber Insurance
 - Enterprise

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +219,7 @@ tags:
 - Insurtech
 - Pet Insurance
 - Pet Care
-- Financial-Services
+- Financial Services
 - Consumer
 - United Kingdom
 website: https://manypets.com/uk/

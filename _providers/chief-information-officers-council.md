@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The CIOC publishes its charter, leadership roster, committee output, playbooks (e.g., Cloud Smart, Modular Contracting, IT Modernization), and federal IT guidance through cio.gov and councils.gov. The
@@ -184,7 +184,7 @@ modified: '2026-09-05'
 name: Chief Information Officers Council
 nav: Providers
 network: true
-overview: Chief Information Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CIO, Cloud, Cybersecurity, E-Government, and Federal-Government.
+overview: Chief Information Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CIO, Cloud, Cybersecurity, E-Government, and Federal Government.
 plans:
 - name: Chief Information Officers Council Plans Pricing
   plan_count: 0
@@ -220,7 +220,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ tags:
 - Cloud
 - Cybersecurity
 - E-Government
-- Federal-Government
+- Federal Government
 - IT Modernization
 - Information Technology
 - Interagency Council

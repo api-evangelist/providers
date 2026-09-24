@@ -16,18 +16,18 @@
      "slug": "hubspot",
      "description": "HubSpot is an AI-native customer platform built around the Smart CRM, unifying marketing, sales, customer service, content, commerce and operations on a single shared customer record. Its developer platform exposes that record through a broad REST surface at api.hubapi.com covering CRM objects and associations, engagements, lists and segments, marketing and transactional email, CMS pages, blogs and HubDB, conversations, commerce payments and subscriptions, custom workflow actions, webhooks and analytics events. HubSpot ships first-party Node, Python, Ruby and PHP clients, a CLI, OAuth 2.0 with a granular scope model, a public developer changelog, date-based API versioning and a hosted MCP server for agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 87.5,
+     "score": 87.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 74.6,
+      "contract_quality": 74.2,
       "contract_governance": 31.8,
       "operational_transparency": 71.1,
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.7,
      "agent_band": "agent-ready",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 95.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 65.0,
      "agent_band": "agent-ready",
@@ -114,7 +114,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 62.5,
      "agent_band": "agent-ready",
@@ -146,18 +146,18 @@
      "slug": "ghost-org",
      "description": "Ghost is an open-source (MIT) publishing platform for professional publications, newsletters, memberships, and paid subscriptions. It can be self-hosted for free or run as the managed Ghost(Pro) service, with all Ghost(Pro) revenue funding the non-profit Ghost Foundation. Every Ghost site exposes two documented public REST APIs under https://{site}/ghost/api/. The Content API is a read-only, key-authenticated interface for delivering published posts, pages, tags, authors, tiers, and settings to front-ends and static sites. The Admin API is a read-write, token-authenticated (JWT) interface for managing posts, pages, members, tags, tiers, offers, newsletters, users, media, themes, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png",
-     "score": 77.2,
+     "score": 77.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 72.9,
+      "contract_quality": 72.2,
       "contract_governance": 31.8,
       "operational_transparency": 89.5,
       "developer_ergonomics": 86.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -201,7 +201,7 @@
       "developer_ergonomics": 89.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 62.3,
      "agent_band": "agent-native",
@@ -244,7 +244,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
@@ -288,7 +288,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
@@ -332,7 +332,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -375,7 +375,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 63.3,
      "agent_band": "agent-ready",
@@ -418,7 +418,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -476,7 +476,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -527,7 +527,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -563,8 +563,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 19,
-   "shown": 19,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "FLORA",
@@ -582,7 +582,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 62.4,
      "agent_band": "agent-native",
@@ -611,22 +611,65 @@
      "rank": 13
     },
     {
+     "name": "Postiz",
+     "slug": "postiz",
+     "description": "Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to list connected channels, upload media, and create, schedule, list, and delete posts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png",
+     "score": 64.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 51.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 89.5,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 52.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Semrush",
      "slug": "semrush",
      "description": "SEMrush is an all-in-one digital marketing tool that helps businesses improve their online visibility and attract more customers. This powerful software provides a range of tools and features for keyword research, website analysis, competitive analysis, and more. With SEMrush, businesses can track their online rankings, discover new keywords to target, analyze their competitors' strategies, and optimize their website for better search engine performance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png",
-     "score": 64.1,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.6,
+      "contract_quality": 53.7,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
       "developer_ergonomics": 60.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -652,49 +695,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 14
-    },
-    {
-     "name": "Postiz",
-     "slug": "postiz",
-     "description": "Postiz is an open-source social media scheduling and management platform for posting across 30+ social, video, community, and blogging channels from a single calendar. It ships as a free AGPL-licensed self-hosted app and as a paid managed Cloud. The Postiz Public API uses simple API-key auth to list connected channels, upload media, and create, schedule, list, and delete posts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png",
-     "score": 64.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 52.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 89.5,
-      "developer_ergonomics": 85.7,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 52.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 15
     },
     {
@@ -713,7 +713,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -742,50 +742,6 @@
      "rank": 16
     },
     {
-     "name": "Sprout Social",
-     "slug": "sprout-social",
-     "description": "Sprout Social is a social media management platform with a REST API for publishing posts, monitoring mentions, managing messages, accessing analytics, and reporting across social networks including Instagram, Facebook, LinkedIn, TikTok, YouTube, and X.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png",
-     "score": 62.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 46.8,
-      "contract_governance": 33.3,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 57.1,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 29.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 17
-    },
-    {
      "name": "Dyspatch",
      "slug": "dyspatch",
      "description": "Dyspatch is an email template management and production platform that lets marketing, design, and engineering teams build, collaborate on, approve, localize, and publish transactional and marketing messages without hand-coding HTML. Content is authored in DML (Dyspatch Markup Language) using a modular, no-code drag-and-drop builder with reusable blocks and themes, then published to any ESP (Salesforce, HubSpot, Braze, Marketo, and others). Dyspatch also covers SMS, push, voice, and Live Activity messages, AMP for Email, and large-scale localization across hundreds of languages. The public REST API at api.dyspatch.io exposes published templates, drafts with an approval workflow, localizations and translations, customer profiles, themes, blocks, and tags, and is versioned by date through the Accept header. Dyspatch ships official OpenAPI-generated SDKs for six languages, a published MCP server, webhooks, and Agent Skills. Dyspatch is backed by Y Combinator.",
@@ -801,7 +757,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -833,7 +789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "AirOps",
@@ -851,7 +807,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
@@ -877,7 +833,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "CI HUB",
@@ -895,7 +851,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -920,7 +876,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Kentico",
@@ -938,7 +894,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -963,7 +919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "MediaValet",
@@ -981,7 +937,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -1007,7 +963,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Knak",
@@ -1025,7 +981,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 58.8,
      "agent_band": "agent-ready",
@@ -1051,7 +1007,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Hashnode",
@@ -1069,7 +1025,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -1094,7 +1050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Bynder",
@@ -1112,7 +1068,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -1137,7 +1093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Paragraph",
@@ -1155,15 +1111,15 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 42.3,
+     "agent_score": 47.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -1181,7 +1137,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Jasper",
@@ -1199,7 +1155,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 56.7,
      "agent_band": "agent-ready",
@@ -1224,7 +1180,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Bluma",
@@ -1242,7 +1198,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -1268,7 +1224,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "TheBrief",
@@ -1286,7 +1242,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1311,7 +1267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Brandfolder",
@@ -1329,7 +1285,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -1355,7 +1311,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Frontify",
@@ -1373,7 +1329,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 41.7,
      "agent_band": "agent-ready",
@@ -1398,7 +1354,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     }
    ],
    "open": true
@@ -1408,53 +1364,9 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 26,
-   "shown": 26,
+   "count": 27,
+   "shown": 27,
    "providers": [
-    {
-     "name": "Permutive",
-     "slug": "permutive",
-     "description": "Permutive is a predictive data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes six REST APIs — Events, Identity, Contextual, Custom Cohort Segmentation, Cohorts and Taxonomy — plus web, mobile and CTV SDKs, an anonymous documentation Model Context Protocol server, and an invitation-only audience-intelligence MCP server that makes cohort discovery, reach measurement and audience comparison available to AI agents. Authentication is a workspace-scoped API key; every call is bounded by the workspace that owns the key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png",
-     "score": 53.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 61.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 66.7,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 50.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "flavored",
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 32
-    },
     {
      "name": "Wideo",
      "slug": "wideo",
@@ -1471,7 +1383,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1497,7 +1409,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 33
+     "rank": 31
     },
     {
      "name": "Leadpages",
@@ -1515,7 +1427,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
@@ -1540,7 +1452,51 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 32
+    },
+    {
+     "name": "Sprout Social",
+     "slug": "sprout-social",
+     "description": "Sprout Social is a social media management platform with a REST API for publishing posts, monitoring mentions, managing messages, accessing analytics, and reporting across social networks including Instagram, Facebook, LinkedIn, TikTok, YouTube, and X.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/screenshots/sprout-social-2026-08-17T082048.png",
+     "score": 52.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 6.7,
+      "contract_governance": 33.3,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 57.1,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 16.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
+     "rank": 33
     },
     {
      "name": "Bloom",
@@ -1558,7 +1514,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
@@ -1583,7 +1539,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Sitefire",
@@ -1601,7 +1557,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 58.3,
      "agent_band": "agent-ready",
@@ -1627,7 +1583,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Brandwatch",
@@ -1645,7 +1601,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -1670,7 +1626,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Ceros",
@@ -1688,7 +1644,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1713,7 +1669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Later",
@@ -1731,7 +1687,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -1756,7 +1712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "BrightEdge",
@@ -1774,7 +1730,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -1800,7 +1756,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Typeface",
@@ -1818,7 +1774,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -1843,7 +1799,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Blng",
@@ -1861,7 +1817,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -1887,7 +1843,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Movable Ink",
@@ -1905,7 +1861,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1930,7 +1886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Sprinklr",
@@ -1948,7 +1904,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -1974,7 +1930,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "News Break",
@@ -1992,7 +1948,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2018,7 +1974,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Socialbakers",
@@ -2036,7 +1992,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -2061,7 +2017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "99designs",
@@ -2079,7 +2035,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2105,7 +2061,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Brandcast",
@@ -2123,7 +2079,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2148,7 +2104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Dotdash Meredith / People Inc",
@@ -2166,7 +2122,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2199,7 +2155,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Voyant.io",
@@ -2211,21 +2167,21 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 61.2,
+      "contract_quality": 61.3,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 44.6,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 38.1,
+     "agent_score": 34.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -2243,7 +2199,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Loomly",
@@ -2261,7 +2217,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2287,6 +2243,50 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 50
+    },
+    {
+     "name": "Permutive",
+     "slug": "permutive",
+     "description": "Permutive is a predictive data collaboration and activation platform for premium publishers, advertisers and agencies. Its platform spans a Data Management Platform, a Data Clean Room for privacy-safe collaboration with 150+ premium publishers, AI-curated audiences, and the Halo agentic suite that scales direct buying. The developer platform exposes six REST APIs — Events, Identity, Contextual, Custom Cohort Segmentation, Cohorts and Taxonomy — plus web, mobile and CTV SDKs, an anonymous documentation Model Context Protocol server, and an invitation-only audience-intelligence MCP server that makes cohort discovery, reach measurement and audience comparison available to AI agents. Authentication is a workspace-scoped API key; every call is bounded by the workspace that owns the key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 23.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 66.7,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 50.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
      "rank": 51
     },
     {
@@ -2305,7 +2305,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2349,7 +2349,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2392,7 +2392,7 @@
       "developer_ergonomics": 22.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -2436,7 +2436,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2471,50 +2471,6 @@
      "rank": 55
     },
     {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 63.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 56
-    },
-    {
      "name": "Gist",
      "slug": "gist",
      "description": "Gist is an AI brand-visibility, answer-engine and content-monetization platform built by ProRata (founded 2024) that helps publishers and advertisers stay visible, measurable and monetizable inside generative AI experiences. It ships three products: Gist GEO (generative engine optimization for consistent organic visibility in AI answers), Gist Ads (paid brand amplification placed directly in AI search surfaces, with native iOS and Android ad SDKs and a publisher ad tag), and Gist Answers (an embeddable, publisher-backed AI answer engine for on-site engagement and monetization). Behind those products sits a real developer surface documented at the Gist Developer Hub: the Prorata API Service (chat, streaming completions, citations, per-source attribution, threads, recommended and related questions, publisher management and document summarization) at api.gist.ai, the Gist Content API for publisher article ingestion, the Gist Content Network crawler and CMS/RSS ingestion paths, and the gist-chat-widget web component distributed from cdn.gist.ai. Gist positions itself as turning AI from a black box into a measurable, actionable channel for brands and content owners, with fair attribution and a 50/50 publisher revenue share as the stated basis of the model.",
@@ -2530,7 +2486,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -2556,6 +2512,50 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 56
+    },
+    {
+     "name": "Spredfast",
+     "slug": "spredfast",
+     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
+     "score": 40.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 61.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
      "rank": 57
     }
    ]
@@ -2584,7 +2584,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2628,7 +2628,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -2671,7 +2671,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -2715,7 +2715,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -2758,7 +2758,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -2802,7 +2802,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -2846,7 +2846,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -2890,7 +2890,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -2933,15 +2933,15 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 31.2,
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2975,7 +2975,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3018,7 +3018,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -3061,7 +3061,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -3114,7 +3114,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3158,7 +3158,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3202,7 +3202,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3244,7 +3244,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -3287,7 +3287,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3330,7 +3330,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -3373,7 +3373,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3416,7 +3416,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -3460,7 +3460,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -3503,7 +3503,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
@@ -3546,7 +3546,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3590,7 +3590,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3634,7 +3634,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3678,7 +3678,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3721,7 +3721,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -3764,7 +3764,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3808,7 +3808,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3858,7 +3858,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3901,7 +3901,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -3945,7 +3945,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.2,
      "agent_band": "agent-aware",
@@ -3988,7 +3988,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4032,7 +4032,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -4076,7 +4076,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4120,7 +4120,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4164,7 +4164,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4208,7 +4208,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4252,7 +4252,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4296,7 +4296,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -4340,7 +4340,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4384,7 +4384,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4428,7 +4428,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4471,7 +4471,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4515,7 +4515,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4568,7 +4568,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4611,7 +4611,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4661,7 +4661,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -4704,7 +4704,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -4747,7 +4747,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -4790,7 +4790,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4880,7 +4880,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4923,7 +4923,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4967,7 +4967,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5010,7 +5010,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5054,7 +5054,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5098,7 +5098,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

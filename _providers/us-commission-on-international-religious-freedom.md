@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -143,7 +143,7 @@ modified: '2026-05-03'
 name: US Commission on International Religious Freedom
 nav: Providers
 network: true
-overview: 'US Commission on International Religious Freedom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Religious Freedom, International Human Rights, and Foreign Policy.
+overview: 'US Commission on International Religious Freedom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Religious Freedom, International Human Rights, and Foreign Policy.
 
 
   The US Commission on International Religious Freedom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -210,7 +210,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: us-commission-on-international-religious-freedom
 tags:
-- Federal-Government
+- Federal Government
 - Religious Freedom
 - International Human Rights
 - Foreign Policy

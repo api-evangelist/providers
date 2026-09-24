@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ modified: '2026-07-23'
 name: Steinbach Credit Union
 nav: Providers
 network: true
-overview: 'Steinbach Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Credit Union, and Cooperative.
+overview: 'Steinbach Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Credit Union, and Cooperative.
 
 
   Steinbach Credit Union''s developer surface includes authentication, support, documentation, and 10 more developer resources.'
@@ -151,7 +151,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -169,7 +169,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: steinbach-credit-union
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Canada
 - Credit Union

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 12
 apis:
 - description: Feign Core is the base library that processes annotated Java interfaces into templated HTTP requests. It defines the contract, encoder, decoder, and client abstractions used across the entire OpenFeig
@@ -72,7 +72,7 @@ apis:
 - description: Feign Micrometer module exposes Feign client metrics (timings, counts, errors) through Micrometer for shipment to Prometheus, Datadog, and other monitoring backends.
   name: Feign Micrometer
   slug: feign-micrometer
-artifact_total: 16
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -108,17 +108,13 @@ finops:
 - name: Feign Finops
   service_category: API
   slug: feign-finops
-graphqls:
-- description: ''
-  name: Feign GraphQL API
-  slug: feign-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/feign.png
 layout: provider
 modified: '2026-04-28'
 name: Feign
 nav: Providers
 network: true
-overview: 'Feign publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTTP Client, Java, JVM, Open-Source, and REST.
+overview: 'Feign publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HTTP Client, Java, JVM, Open Source, and REST.
 
 
   Feign''s developer surface includes documentation, release notes, and 5 more developer resources.'
@@ -135,7 +131,7 @@ score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -151,7 +147,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +159,7 @@ tags:
 - HTTP Client
 - Java
 - JVM
-- Open-Source
+- Open Source
 - REST
 - SDK
 ---

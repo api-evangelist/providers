@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 121
+- acting_count: 96
   human_in_the_loop: 4
   name: Utrecht Agentic Access
   operation_count: 121
   slug: utrecht-agentic-access
-  summary_line: 121 operations · 121 acting · 4 human-in-the-loop
+  summary_line: 121 operations · 96 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the Utrecht University Library institutional repository. Verified live 2026-08-30 on DSpace 9.0: Identify, ListMetadataFormats and ListRecords all answer,'
@@ -51,102 +51,102 @@ apis:
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The admin API from Utrecht University — 1 operation(s) for admin.
-  name: Utrecht University admin API
+  name: Utrecht University Admin API
   slug: utrecht-admin-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The browse API from Utrecht University — 4 operation(s) for browse.
-  name: Utrecht University browse API
+  name: Utrecht University Browse API
   slug: utrecht-browse-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The data_access_token API from Utrecht University — 4 operation(s) for data_access_token.
-  name: Utrecht University data_access_token API
+  name: Utrecht University Data Access Token API
   slug: utrecht-data-access-token-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The datarequest API from Utrecht University — 34 operation(s) for datarequest.
-  name: Utrecht University datarequest API
+  name: Utrecht University Datarequest API
   slug: utrecht-datarequest-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The folder API from Utrecht University — 7 operation(s) for folder.
-  name: Utrecht University folder API
+  name: Utrecht University Folder API
   slug: utrecht-folder-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The groups API from Utrecht University — 15 operation(s) for groups.
-  name: Utrecht University groups API
+  name: Utrecht University Groups API
   slug: utrecht-groups-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The meta API from Utrecht University — 2 operation(s) for meta.
-  name: Utrecht University meta API
+  name: Utrecht University Meta API
   slug: utrecht-meta-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The meta_form API from Utrecht University — 2 operation(s) for meta_form.
-  name: Utrecht University meta_form API
+  name: Utrecht University Meta Form API
   slug: utrecht-meta-form-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The notifications API from Utrecht University — 3 operation(s) for notifications.
-  name: Utrecht University notifications API
+  name: Utrecht University Notifications API
   slug: utrecht-notifications-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The provenance API from Utrecht University — 1 operation(s) for provenance.
-  name: Utrecht University provenance API
+  name: Utrecht University Provenance API
   slug: utrecht-provenance-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The publication_troubleshoot API from Utrecht University — 1 operation(s) for publication_troubleshoot.
-  name: Utrecht University publication_troubleshoot API
+  name: Utrecht University Publication Troubleshoot API
   slug: utrecht-publication-troubleshoot-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The research API from Utrecht University — 13 operation(s) for research.
-  name: Utrecht University research API
+  name: Utrecht University Research API
   slug: utrecht-research-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The revisions API from Utrecht University — 3 operation(s) for revisions.
-  name: Utrecht University revisions API
+  name: Utrecht University Revisions API
   slug: utrecht-revisions-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The schema API from Utrecht University — 1 operation(s) for schema.
-  name: Utrecht University schema API
+  name: Utrecht University Schema API
   slug: utrecht-schema-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The schema_transformation API from Utrecht University — 1 operation(s) for schema_transformation.
-  name: Utrecht University schema_transformation API
+  name: Utrecht University Schema Transformation API
   slug: utrecht-schema-transformation-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The settings API from Utrecht University — 2 operation(s) for settings.
-  name: Utrecht University settings API
+  name: Utrecht University Settings API
   slug: utrecht-settings-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The stats API from Utrecht University — 4 operation(s) for stats.
-  name: Utrecht University stats API
+  name: Utrecht University Stats API
   slug: utrecht-stats-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The vault API from Utrecht University — 16 operation(s) for vault.
-  name: Utrecht University vault API
+  name: Utrecht University Vault API
   slug: utrecht-vault-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The vault_archive API from Utrecht University — 3 operation(s) for vault_archive.
-  name: Utrecht University vault_archive API
+  name: Utrecht University Vault Archive API
   slug: utrecht-vault-archive-api
 - baseURL: https://portal.yoda.uu.nl/api
   baseurl_source: declared
   description: The vault_deaccession API from Utrecht University — 4 operation(s) for vault_deaccession.
-  name: Utrecht University vault_deaccession API
+  name: Utrecht University Vault Deaccession API
   slug: utrecht-vault-deaccession-api
 - description: 'The DSpace 9.0 HAL/JSON REST API behind the Utrecht University Repository. Openly readable without a key: the root at /server/api enumerates ~60 link relations, and /server/api/discover/search/objects'
   name: Utrecht University Repository REST API
@@ -384,7 +384,7 @@ modified: '2026-08-30'
 name: Utrecht University
 nav: Providers
 network: true
-overview: 'Utrecht University publishes 20 APIs on the [APIs.io](https://apis.io/) network, including admin API, browse API, data_access_token API, and 17 more. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
+overview: 'Utrecht University publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Browse API, Data Access Token API, and 17 more. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
 
 
   The Utrecht University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -431,7 +431,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
@@ -450,9 +450,10 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 48.3
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
@@ -465,7 +466,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -499,6 +500,6 @@ tags:
 - Open Access
 - Open Science
 - Library
-- Open-Source
+- Open Source
 website: https://www.uu.nl/en
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ modified: '2026-05-19'
 name: Apache Guacamole
 nav: Providers
 network: true
-overview: 'Apache Guacamole publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Active Connections API, Authentication API, Connections API, and 3 more. Tagged areas include Apache, Open-Source, RDP, Remote Access, and Remote Desktop.
+overview: 'Apache Guacamole publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Active Connections API, Authentication API, Connections API, and 3 more. Tagged areas include Apache, Open Source, RDP, Remote Access, and Remote Desktop.
 
 
   The Apache Guacamole catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -346,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -368,7 +368,7 @@ security:
 slug: apache-guacamole
 tags:
 - Apache
-- Open-Source
+- Open Source
 - RDP
 - Remote Access
 - Remote Desktop

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint serving the Data API (browse IP-NFTs, IPTs, and market data), the Tokenization API (mint IP-NFTs and fractionalize into IPTs), and the Labs API (manage research datarooms, file
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -203,7 +203,7 @@ tags:
 - IP-NFT
 - Tokenization
 - Life Sciences
-- Biotech
+- Biotechnology
 - Research Funding
 - AI Agents
 - MCP

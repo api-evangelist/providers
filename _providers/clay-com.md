@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Clay Com Agentic Access
   operation_count: 13
   slug: clay-com-agentic-access
-  summary_line: 13 operations · 8 acting
+  summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
 - description: Generic HTTP request column inside Clay Tables that lets users call any external REST or GraphQL endpoint with row-level variables and write the response back into Clay. Acts as Clay's universal API c
@@ -85,7 +85,7 @@ apis:
   description: Structured table query endpoints.
   name: Clay Tables API
   slug: clay-com-tables-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Clay Com Webhooks
@@ -304,10 +304,6 @@ finops:
 - name: Clay Com Finops
   service_category: API
   slug: clay-com-finops
-graphqls:
-- description: ''
-  name: Clay GraphQL API
-  slug: clay-com-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clay-com.png
 layout: provider
 mcp_servers:
@@ -343,7 +339,7 @@ score:
   band: strong
   composite: 63.7
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 26
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -369,7 +365,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -401,5 +397,6 @@ tags:
 - Automation
 - Artificial Intelligence
 - Webhook
+- A2A
 website: https://www.clay.com
 ---

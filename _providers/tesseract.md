@@ -33,33 +33,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.vault.tesseract.fi
   baseurl_source: declared
   description: The clients API from Tesseract — 3 operation(s) for clients.
-  name: Tesseract clients API
+  name: Tesseract Clients API
   slug: tesseract-clients-api
 - baseURL: https://api.vault.tesseract.fi
   baseurl_source: declared
   description: The health API from Tesseract — 1 operation(s) for health.
-  name: Tesseract health API
+  name: Tesseract Health API
   slug: tesseract-health-api
 - baseURL: https://api.vault.tesseract.fi
   baseurl_source: declared
   description: The insights API from Tesseract — 5 operation(s) for insights.
-  name: Tesseract insights API
+  name: Tesseract Insights API
   slug: tesseract-insights-api
 - baseURL: https://api.vault.tesseract.fi
   baseurl_source: declared
   description: The strategies API from Tesseract — 2 operation(s) for strategies.
-  name: Tesseract strategies API
+  name: Tesseract Strategies API
   slug: tesseract-strategies-api
 - baseURL: https://api.vault.tesseract.fi
   baseurl_source: declared
   description: The vaults API from Tesseract — 4 operation(s) for vaults.
-  name: Tesseract vaults API
+  name: Tesseract Vaults API
   slug: tesseract-vaults-api
 artifact_total: 13
 collections:
@@ -208,7 +208,7 @@ modified: '2026-07-21'
 name: Tesseract
 nav: Providers
 network: true
-overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network, including clients API, health API, insights API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, DeFi, and Lending.
+overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Health API, Insights API, and 2 more. Tagged areas include Company, Fintech, Cryptocurrency, DeFi, and Lending.
 
 
   Tesseract''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 19 more developer resources.'
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

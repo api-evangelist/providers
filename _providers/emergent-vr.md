@@ -33,6 +33,6 @@ tags:
 - Virtual Reality
 - VR
 - Media
-- Computer-Vision
+- Computer Vision
 - Defunct
 ---

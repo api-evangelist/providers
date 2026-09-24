@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Public REST API for importing data and managing labeling projects, tasks, cases, assets, gold standards, prelabels, tags and for downloading aggregated labeling results. Split across several versioned
@@ -115,7 +115,7 @@ modified: '2026-07-18'
 name: Centaur Labs
 nav: Providers
 network: true
-overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Annotation, Data Labeling, and Machine-Learning.
+overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Data Annotation, Data Labeling, and Machine Learning.
 
 
   Centaur Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 8 more developer resources.'
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ tags:
 - Artificial Intelligence
 - Data Annotation
 - Data Labeling
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Medical Imaging
 - Training Data

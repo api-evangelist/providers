@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ modified: '2026-05-19'
 name: Signal
 nav: Providers
 network: true
-overview: 'Signal publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Certificates API, and 6 more. Tagged areas include Encryption, Messaging, Security, Cryptography, and Open-Source.
+overview: 'Signal publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Certificates API, and 6 more. Tagged areas include Encryption, Messaging, Security, Cryptography, and Open Source.
 
 
   The Signal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -305,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -330,7 +330,8 @@ tags:
 - Messaging
 - Security
 - Cryptography
-- Open-Source
+- Open Source
 - Privacy
+- Real-Time
 website: https://signal.org/
 ---

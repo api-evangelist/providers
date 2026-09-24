@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 12
   human_in_the_loop: 0
   name: Amazon Rekognition Agentic Access
   operation_count: 15
   slug: amazon-rekognition-agentic-access
-  summary_line: 15 operations · 15 acting
+  summary_line: 15 operations · 12 acting
 api_count: 10
 apis:
 - baseURL: https://rekognition.amazonaws.com
@@ -129,7 +129,7 @@ arazzos:
 - description: Start an asynchronous video label detection job, poll until it succeeds, then read the results.
   name: Amazon Rekognition Video Label Detection Job
   slug: amazon-rekognition-video-label-detection-job-workflow
-artifact_total: 178
+artifact_total: 177
 collections:
 - collection_type: postman
   name: Amazon Rekognition
@@ -174,7 +174,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/rekognition/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/agentic-access/amazon-rekognition-agentic-access.yml
   title: ''
@@ -1104,10 +1104,6 @@ finops:
 - name: Amazon Rekognition Finops
   service_category: API
   slug: amazon-rekognition-finops
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for the Amazon Rekognition API. The schema is derived from the Amazon Rekognition REST API and its public documentation at https://docs.aws.amazon.c
-  name: Amazon Rekognition GraphQL Schema
-  slug: amazon-rekognition-graphql
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: BoundingBox
@@ -1341,7 +1337,7 @@ modified: '2026-09-16'
 name: Amazon Rekognition
 nav: Providers
 network: true
-overview: 'Amazon Rekognition publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Celebrity Recognition API, Content Moderation API, Custom Labels API, and 7 more. Tagged areas include Celebrity Recognition, Computer-Vision, Content Moderation, Custom Labels, and Deep Learning.
+overview: 'Amazon Rekognition publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Celebrity Recognition API, Content Moderation API, Custom Labels API, and 7 more. Tagged areas include Celebrity Recognition, Computer Vision, Content Moderation, Custom Labels, and Deep Learning.
 
 
   The Amazon Rekognition catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1380,20 +1376,20 @@ rules:
     warn: 13
   slug: amazon-rekognition-spectral-rules
 score:
-  band: strong
-  composite: 55.8
+  band: developing
+  composite: 53.7
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 76.3
     contract_governance: 33.3
-    contract_quality: 33.4
+    contract_quality: 24.8
     developer_ergonomics: 72.6
     discoverability: 75.9
     operational_transparency: 52.6
@@ -1408,7 +1404,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1434,14 +1430,14 @@ security:
 slug: amazon-rekognition
 tags:
 - Celebrity Recognition
-- Computer-Vision
+- Computer Vision
 - Content Moderation
 - Custom Labels
 - Deep Learning
 - Face Liveness
 - Facial Recognition
 - Image Analysis
-- Machine-Learning
+- Machine Learning
 - Object Detection
 - Text Detection
 - Video Analysis
@@ -1464,5 +1460,5 @@ use_cases:
   name: Media and Entertainment
 - description: Train custom classifiers to detect proprietary products, logos, brand assets, or industry-specific objects.
   name: Custom Object Detection
-website: https://amazon.com
+website: https://aws.amazon.com/rekognition/
 ---

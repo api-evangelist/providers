@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Simility
 nav: Providers
 network: true
-overview: Simility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Fraud Detection, Risk Management, and Machine-Learning.
+overview: Simility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Fraud Detection, Risk Management, and Machine Learning.
 random_paper: 4
 score:
   band: minimal
@@ -82,7 +82,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -94,7 +94,7 @@ tags:
 - Artificial Intelligence
 - Fraud Detection
 - Risk Management
-- Machine-Learning
+- Machine Learning
 - Payments
 - Security
 - Anti-Fraud

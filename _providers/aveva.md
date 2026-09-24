@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'The AVEVA CONNECT cloud platform REST APIs provide access to industrial data services including account management, identity management, data ingress pipelines, data views, and time-series retrieval. '
@@ -41,7 +41,7 @@ apis:
 - description: The AVEVA PI System REST API (PI Web API) provides RESTful HTTP access to time- series sensor data, asset metadata, and event frames stored in PI Server. Supports GET, POST, PUT, PATCH, and DELETE ope
   name: AVEVA PI System REST API
   slug: aveva-pi-system-rest-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aveva/refs/heads/main/security/aveva-trust-center.yml
@@ -96,10 +96,6 @@ common:
   url: https://www.aveva.com/en/perspectives/news/
 created: '2026-06-05'
 description: AVEVA is an industrial software company (a subsidiary of Schneider Electric) providing engineering, operations, and data management software for energy, utilities, marine, and manufacturing industries. AVEVA's product portfolio includes System Platform (unified SCADA/MES/IIoT), Plant SCADA, MES, Edge, PI System (industrial data infrastructure), and CONNECT cloud services, all of which expose REST APIs for industrial data integration, asset management, and operational analytics.
-graphqls:
-- description: 'AVEVA provides engineering and industrial software including PI System, SCADA, and MES solutions. Their API covers process data historian (PI), asset framework, event frames, analytics, manufacturing '
-  name: AVEVA GraphQL API
-  slug: aveva-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aveva.png
 jsonld:
 - class_count: 3
@@ -120,20 +116,20 @@ overview: 'AVEVA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   AVEVA''s developer surface includes documentation, engineering blog, YouTube channel, support, pricing, and 7 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 28.7
+  band: emerging
+  composite: 20.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 45.7
+    contract_quality: 10.7
     developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 0.0
@@ -145,8 +141,8 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

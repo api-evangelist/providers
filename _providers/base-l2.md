@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: Ethereum JSON-RPC 2.0 endpoint
   name: Base JSON-RPC API
   slug: base-l2-json-rpc-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -160,10 +160,6 @@ finops:
 - name: Base L2 Finops
   service_category: API
   slug: base-l2-finops
-graphqls:
-- description: ''
-  name: Base GraphQL API
-  slug: base-l2-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/base-l2.png
 layout: provider
 modified: '2026-05-23'
@@ -187,7 +183,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -219,7 +215,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

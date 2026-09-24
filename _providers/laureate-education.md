@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Laureate Education does not expose a public developer API, OpenAPI specification, SDK, CLI, webhook, GraphQL endpoint, status page or changelog. This entry documents the company's public corporate sur
@@ -41,7 +41,7 @@ apis:
 - description: Private Mexican university with more than 59 years of academic operations, 13 physical campuses across CDMX, State of Mexico, Guadalajara, León, Querétaro, Monterrey and Puebla, plus an online offerin
   name: Universidad Tecnológica de México (UNITEC)
   slug: universidad-tecnológica-de-méxico-unitec
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -91,10 +91,6 @@ common:
 created: '2026-05-22'
 description: 'Laureate Education, Inc. is a for-profit higher-education network founded in 1989 as Sylvan Learning Systems and renamed Laureate Education in May 2004. At its 2017 IPO peak the company operated more than 200 campuses across 28 countries serving over one million students; it became only the third B Corporation to go public when it listed on NASDAQ (ticker: LAUR) on 1 February 2017. Between 2018 and 2021 Laureate executed one of the largest sector-wide divestiture programs in the history of higher education, exiting Brazil (sold to Ânima Holding for ~$765M), the United States (Walden University sold to Adtalem for $1.48B), Australia / New Zealand (sold to Strategic Education), Chile (Universidad Andrés Bello transferred to Fundación Educación y Cultura in September 2020), Spain, Portugal, Morocco, Turkey, Malaysia, China, Italy, Cyprus and the United Kingdom — returning $1.29B to shareholders in October 2021. After the divestiture cycle Laureate continued as a pure-play Mexico
   / Peru operator with five remaining institutions and approximately 460,000 students. In May 2024 the company was acquired by an investor group led by the International Finance Corporation (IFC, a member of the World Bank Group) and Sterling Capital, taking Laureate Education private and delisting it from NASDAQ. The company is headquartered at 1000 Brickell Avenue, Suite 715, Miami, FL. Laureate does not publish a public developer API, OpenAPI specification, SDK, webhook surface, or status page. There is no Laureate Education GitHub organization. This profile therefore captures the corporate surface — institutions, divestiture history, leadership, investor status, news — rather than a programmable interface. The five remaining campus-network institutions each publish their own consumer-facing websites (UVM, UNITEC in Mexico; UPC, UPN, Cibertec in Peru) but none expose machine-readable APIs documented from the parent.'
-graphqls:
-- description: ''
-  name: Laureate Education GraphQL API
-  slug: laureate-education-graphql
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-logo.png
 layout: provider
 modified: '2026-09-16'
@@ -110,7 +106,7 @@ score:
   band: minimal
   composite: 9.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -140,7 +136,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

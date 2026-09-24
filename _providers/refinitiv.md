@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 15
   human_in_the_loop: 0
   name: Refinitiv Agentic Access
   operation_count: 47
   slug: refinitiv-agentic-access
-  summary_line: 47 operations · 16 acting
+  summary_line: 47 operations · 15 acting
 api_count: 5
 apis:
 - description: Python library providing uniform access to the breadth and depth of financial data and services available on the LSEG Data Platform. It offers ease-of-use interfaces for streaming and non-streaming da
@@ -232,7 +232,7 @@ apis:
   description: Identity and document verification submission and transaction record retrieval.
   name: Refinitiv Verification API
   slug: refinitiv-verification-api
-artifact_total: 93
+artifact_total: 92
 asyncapis:
 - description: Low-latency streaming API for real-time market data using WebSocket connections. It supports the Open Message Model (OMM) and allows applications to connect directly to Refinitiv Real-Time distributio
   name: Refinitiv Real-Time WebSocket API
@@ -526,10 +526,6 @@ finops:
 - name: Refinitiv Finops
   service_category: Market Data
   slug: refinitiv-finops
-graphqls:
-- description: Refinitiv (now LSEG Data & Analytics) provides financial data, trading infrastructure, and analytics. The API covers real-time market data, historical prices, reference data, news, ESG scores, and fin
-  name: Refinitiv GraphQL API
-  slug: refinitiv-graphql
 image: https://www.refinitiv.com/etc/designs/refinitiv/images/refinitiv-logo.svg
 json_schemas:
 - name: Refinitiv ESG Score
@@ -558,7 +554,7 @@ modified: '2026-09-16'
 name: Refinitiv
 nav: Providers
 network: true
-overview: 'Refinitiv publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Real-Time WebSocket API, News API, ESG API, and 23 more. Tagged areas include Financial Data, Streaming, Trading, and News.
+overview: 'Refinitiv publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Real-Time WebSocket API, News API, ESG API, and 23 more. Tagged areas include Financial Data, Streaming, Trading, News, and Real-Time.
 
 
   The Refinitiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -609,21 +605,21 @@ rules:
   slug: refinitiv-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 48.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.5
+    artifact_dirs: 19
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 40.8
     contract_governance: 28.8
-    contract_quality: 70.7
+    contract_quality: 69.7
     developer_ergonomics: 47.6
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 23.7
   previous_composite: 47.7
   provenance:
@@ -640,7 +636,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -661,5 +657,6 @@ tags:
 - Streaming
 - Trading
 - News
+- Real-Time
 website: https://www.lseg.com/en
 ---

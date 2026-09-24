@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ modified: '2026-07-19'
 name: FlyHomes
 nav: Providers
 network: true
-overview: 'FlyHomes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Mortgage, and Lending.
+overview: 'FlyHomes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Mortgage, and Lending.
 
 
   FlyHomes'' developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -104,7 +104,7 @@ score:
     - north-america
   previous_composite: 11.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -119,12 +119,12 @@ security:
 slug: flyhomes
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Mortgage
 - Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Home Buying
 website: https://flyhomes.com
 ---

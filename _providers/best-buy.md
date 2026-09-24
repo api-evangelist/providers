@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Best Buy store location and information queries
   name: Best Buy Stores API
   slug: best-buy-stores-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: open
   name: API Collection
@@ -310,10 +310,6 @@ finops:
 - name: Best Buy Finops
   service_category: Retail
   slug: best-buy-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Best Buy API. Best Buy provides a REST-based Open API covering products, stores, categories, recommendations, open box items, and commerce o
-  name: Best Buy GraphQL Schema
-  slug: best-buy-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/best-buy.png
 integrations:
 - description: Pre-built Postman collection available for testing and exploring Best Buy APIs.
@@ -462,19 +458,19 @@ rules:
   slug: best-buy-spectral-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 50.8
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 74.5
     catalog_earned_first_party: 16.0
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 52.6
     contract_governance: 33.3
-    contract_quality: 28.5
+    contract_quality: 21.9
     developer_ergonomics: 80.4
     discoverability: 72.2
     operational_transparency: 57.9
@@ -490,7 +486,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

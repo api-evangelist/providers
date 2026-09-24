@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,22 @@ apis:
 - baseURL: https://api.energy-charts.info
   baseurl_source: declared
   description: Import/export values
-  name: Energy Charts API import_export API
+  name: Energy Charts API Import Export API
   slug: energy-charts-api-import-export-api
 - baseURL: https://api.energy-charts.info
   baseurl_source: declared
   description: Query power values
-  name: Energy Charts API power API
+  name: Energy Charts API Power API
   slug: energy-charts-api-power-api
 - baseURL: https://api.energy-charts.info
   baseurl_source: declared
   description: Query price values
-  name: Energy Charts API prices API
+  name: Energy Charts API Prices API
   slug: energy-charts-api-prices-api
 - baseURL: https://api.energy-charts.info
   baseurl_source: declared
   description: Renewable shares
-  name: Energy Charts API ren_share API
+  name: Energy Charts API Ren Share API
   slug: energy-charts-api-ren-share-api
 artifact_total: 15
 collections:
@@ -114,7 +114,7 @@ modified: '2026-05-19'
 name: Energy Charts API
 nav: Providers
 network: true
-overview: Energy Charts API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including import_export API, power API, prices API, and 1 more. Tagged areas include Energy, Electricity, Renewables, Grid, and Europe.
+overview: Energy Charts API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Import Export API, Power API, Prices API, and 1 more. Tagged areas include Energy, Electricity, Renewables, Grid, and Europe.
 plans:
 - name: Energy Charts Api Plans Pricing
   plan_count: 3
@@ -162,7 +162,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

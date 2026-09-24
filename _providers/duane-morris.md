@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/duane-morris/refs/heads/main/security/duane-morris-domain-security.yml
@@ -92,10 +92,6 @@ common:
 created: '2026-05-23'
 description: Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as "a law firm with more than 900 attorneys in offices across the United States and internationally" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds
   via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.
-graphqls:
-- description: ''
-  name: Duane Morris GraphQL API
-  slug: duane-morris-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duane-morris.png
 layout: provider
 modified: '2026-05-23'
@@ -111,7 +107,7 @@ score:
   band: minimal
   composite: 4.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -138,7 +134,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +186,7 @@ tags:
 - PFAS
 - Private Equity
 - Products Liability
-- Real-Estate
+- Real Estate
 - Regulatory
 - Securities
 - Sports

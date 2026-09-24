@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
   name: Biconomy Agentic Access
-  operation_count: 5
+  operation_count: 6
   slug: biconomy-agentic-access
-  summary_line: 5 operations · 5 acting
+  summary_line: 6 operations · 5 acting
 api_count: 2
 apis:
 - description: Biconomy's open-source ERC-4337 TypeScript Bundler. Implements eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationByHash, eth_getUserOperationReceipt, and eth_supportedEntryPoint
@@ -65,17 +65,17 @@ apis:
 - baseURL: https://api.biconomy.io
   baseurl_source: declared
   description: The instructions API from Biconomy — 2 operation(s) for instructions.
-  name: Biconomy instructions API
+  name: Biconomy Instructions API
   slug: biconomy-instructions-api
 - baseURL: https://api.biconomy.io
   baseurl_source: declared
   description: The mee API from Biconomy — 1 operation(s) for mee.
-  name: Biconomy mee API
+  name: Biconomy Mee API
   slug: biconomy-mee-api
 - baseURL: https://api.biconomy.io
   baseurl_source: declared
   description: The root API from Biconomy — 2 operation(s) for root.
-  name: Biconomy root API
+  name: Biconomy Root API
   slug: biconomy-root-api
 - description: GET /api/public/projects/me/supertransactions returns a project's full supertransaction history for reporting, reconciliation and gas-spend accounting. Each item carries the supertransaction hash, exe
   name: Biconomy Dashboard Public API
@@ -477,7 +477,7 @@ modified: '2026-08-24'
 name: Biconomy
 nav: Providers
 network: true
-overview: 'Biconomy publishes 3 APIs on the [APIs.io](https://apis.io/) network: instructions API, mee API, and root API. Tagged areas include Account Abstraction, Blockchain, Bundler, Cross-Chain, and DeFi.
+overview: 'Biconomy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Instructions API, Mee API, and Root API. Tagged areas include Account Abstraction, Blockchain, Bundler, Cross-Chain, and DeFi.
 
 
   The Biconomy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -551,7 +551,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -585,5 +585,6 @@ tags:
 - Smart Sessions
 - Wallets
 - Web3
+- A2A
 website: https://www.biconomy.io/
 ---

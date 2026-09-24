@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-23'
+  score: 9.4
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
   name: Eversign API
   slug: eversign-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: operate
   title: ''
@@ -115,10 +115,6 @@ finops:
 - name: Eversign Finops
   service_category: ''
   slug: eversign-finops
-graphqls:
-- description: This GraphQL schema models the Eversign (Xodo Sign) e-signature REST API. Eversign provides a RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploadin
-  name: Eversign GraphQL Schema
-  slug: eversign-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eversign.png
 jsonld:
 - class_count: 0
@@ -130,7 +126,7 @@ modified: '2026-06-13'
 name: Eversign
 nav: Providers
 network: true
-overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signature, Document-Management, PDF, and Audit Trail.
+overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signature, Document Management, PDF, and Audit Trail.
 
 
   The Eversign catalog on APIs.io includes 1 JSON-LD context.
@@ -147,20 +143,20 @@ rate_limits:
   name: Eversign Rate Limits
   slug: eversign-rate-limits
 score:
-  band: developing
-  composite: 42.5
+  band: thin
+  composite: 33.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 10.4
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 68.4
@@ -169,8 +165,8 @@ score:
     score: 40.0
   previous_composite: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -185,7 +181,7 @@ slug: eversign
 tags:
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - PDF
 - Audit Trail
 - Webhook

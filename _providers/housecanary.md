@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: REST API providing property-level data including AVM valuations, rental value, land value, LTV, sales history, tax history, flood data, school info, and geographic features for US residential properti
@@ -113,7 +113,7 @@ modified: 2026-06-12
 name: HouseCanary
 nav: Providers
 network: true
-overview: 'HouseCanary publishes 1 API on the [APIs.io](https://apis.io/) network: Analytics API. Tagged areas include Real-Estate, Property Analytics, AVM, Valuation, and Rental Estimates.
+overview: 'HouseCanary publishes 1 API on the [APIs.io](https://apis.io/) network: Analytics API. Tagged areas include Real Estate, Property Analytics, AVM, Valuation, and Rental Estimates.
 
 
   The HouseCanary catalog on APIs.io includes 1 JSON-LD context.
@@ -149,7 +149,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 35.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: housecanary
 tags:
-- Real-Estate
+- Real Estate
 - Property Analytics
 - AVM
 - Valuation

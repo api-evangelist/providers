@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (Streamable HTTP) exposing 10 read-only tools for searching, comparing and fetching coworking spaces, market rates, locations, operators and guides. Independently health-verified on '
@@ -132,7 +132,7 @@ modified: '2026-09-15'
 name: CoworkingView API
 nav: Providers
 network: true
-overview: CoworkingView API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, Facets API, Geo API, and 8 more. Tagged areas include Co-Working, Flexible Workspace, Real-Estate, Location Services, and Search.
+overview: CoworkingView API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, Facets API, Geo API, and 8 more. Tagged areas include Co-Working, Flexible Workspace, Real Estate, Location Services, and Search.
 plans:
 - name: Coworkingview Api Plans Pricing
   plan_count: 0
@@ -171,7 +171,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -189,7 +189,7 @@ slug: coworkingview-api
 tags:
 - Co-Working
 - Flexible Workspace
-- Real-Estate
+- Real Estate
 - Location Services
 - Search
 - Comparison

@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/trackman/refs/heads/main/security/trackman-vulnerability-disclosure.yml
@@ -229,10 +229,6 @@ common:
 created: '2026-05-25'
 description: TrackMan A/S is a Danish sports-technology company (headquartered in Vedbaek, Denmark) that builds Doppler radar and optically tracked launch monitors, simulator software, and data platforms for golf, baseball, football, and US football. Its hardware lineage includes the TrackMan 4 outdoor/indoor launch monitor, TrackMan iO indoor launch monitor, the V3 stadium ball-tracking system used by every Major League Baseball club, and the portable B1 baseball launch monitor. On the software side TrackMan operates TrackMan Range (a connected driving-range platform), Virtual Golf 3 (the simulator rendering and gameplay engine), the TrackMan Golf App for performance and social play, TrackMan 360 for golf-club business operations, and a cloud data platform that aggregates measurements across products. TrackMan exposes several developer-facing surfaces — a TrackMan Cloud GraphQL API at api.golf.trackman.com/graphql for tournaments and facility data, the TrackMan Range REST API at docs.trackmanrange.com
   for range/bay/session integration, a device-local TM4 WebSocket protocol for receiving live shot measurements over LAN/UPnP from a TrackMan 4 unit, and the TrackMan Baseball Data API (Swagger-documented, OAuth-client + username/password) for ingesting V3 stadium and B1 portable measurements and media. The TrackMan public GitHub organization hosts internal Unity tooling rather than client SDKs, and most developer access is partner-gated through TrackMan Sports Solutions or the Golf B2B program. The commercial model is hardware sales plus tiered software subscriptions (TrackMan Range, TrackMan 360, V3 Cloud) sold direct to teams, leagues, ranges, and consumers.
-graphqls:
-- description: ''
-  name: TrackMan GraphQL API
-  slug: trackman-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trackman.png
 layout: provider
 modified: '2026-05-25'
@@ -248,7 +244,7 @@ score:
   band: emerging
   composite: 11.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -262,9 +258,14 @@ score:
     developer_ergonomics: 26.2
     discoverability: 50.0
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - denmark
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

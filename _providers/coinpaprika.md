@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,22 +45,22 @@ apis:
 - baseURL: https://api.coinpaprika.com/v1
   baseurl_source: declared
   description: The coins API from CoinPaprika — 1 operation(s) for coins.
-  name: CoinPaprika coins API
+  name: CoinPaprika Coins API
   slug: coinpaprika-coins-api
 - baseURL: https://api.coinpaprika.com/v1
   baseurl_source: declared
   description: The global API from CoinPaprika — 1 operation(s) for global.
-  name: CoinPaprika global API
+  name: CoinPaprika Global API
   slug: coinpaprika-global-api
 - baseURL: https://api.coinpaprika.com/v1
   baseurl_source: declared
   description: The search API from CoinPaprika — 1 operation(s) for search.
-  name: CoinPaprika search API
+  name: CoinPaprika Search API
   slug: coinpaprika-search-api
 - baseURL: https://api.coinpaprika.com/v1
   baseurl_source: declared
   description: The ticker API from CoinPaprika — 2 operation(s) for ticker.
-  name: CoinPaprika ticker API
+  name: CoinPaprika Ticker API
   slug: coinpaprika-ticker-api
 artifact_total: 21
 collections:
@@ -176,7 +176,7 @@ modified: '2026-06-13'
 name: CoinPaprika
 nav: Providers
 network: true
-overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) network, including coins API, global API, search API, and 1 more. Tagged areas include Cryptocurrency, Market Data, Finance, OHLCV, and Exchange.
+overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Coins API, Global API, Search API, and 1 more. Tagged areas include Cryptocurrency, Market Data, Finance, OHLCV, and Exchange.
 
 
   The CoinPaprika catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

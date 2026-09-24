@@ -35,50 +35,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Cognee Agentic Access
   operation_count: 22
   slug: cognee-agentic-access
-  summary_line: 22 operations · 10 acting
+  summary_line: 22 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: AI agent identity management
-  name: Cognee agents API
+  name: Cognee Agents API
   slug: cognee-agents-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: Knowledge graph construction pipeline
-  name: Cognee cognify API
+  name: Cognee Cognify API
   slug: cognee-cognify-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: Data ingestion and deletion operations
-  name: Cognee data API
+  name: Cognee Data API
   slug: cognee-data-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: Dataset management and introspection
-  name: Cognee datasets API
+  name: Cognee Datasets API
   slug: cognee-datasets-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: Service health probes
-  name: Cognee health API
+  name: Cognee Health API
   slug: cognee-health-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: Semantic and graph search queries
-  name: Cognee search API
+  name: Cognee Search API
   slug: cognee-search-api
 - baseURL: https://api.cognee.ai
   baseurl_source: declared
   description: System configuration (LLM and vector DB)
-  name: Cognee settings API
+  name: Cognee Settings API
   slug: cognee-settings-api
 artifact_total: 26
 collections:
@@ -239,7 +239,7 @@ modified: '2026-06-12'
 name: Cognee
 nav: Providers
 network: true
-overview: 'Cognee publishes 7 APIs on the [APIs.io](https://apis.io/) network, including agents API, cognify API, data API, and 4 more. Tagged areas include Artificial Intelligence, Memory, Knowledge Graph, RAG, and Agents.
+overview: 'Cognee publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Cognify API, Data API, and 4 more. Tagged areas include Artificial Intelligence, Memory, Knowledge Graph, RAG, and Agents.
 
 
   The Cognee catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -296,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -321,6 +321,6 @@ tags:
 - Graph Database
 - Vector Search
 - LLM
-- Open-Source
+- Open Source
 website: https://www.cognee.ai/
 ---

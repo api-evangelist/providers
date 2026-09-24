@@ -34,55 +34,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 46
-  human_in_the_loop: 46
+- acting_count: 43
+  human_in_the_loop: 43
   name: Momence Agentic Access
   operation_count: 73
   slug: momence-agentic-access
-  summary_line: 73 operations · 46 acting · 46 human-in-the-loop
+  summary_line: 73 operations · 43 acting · 43 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The auth API from Momence — 4 operation(s) for auth.
-  name: Momence auth API
+  name: Momence Auth API
   slug: momence-auth-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The host API from Momence — 29 operation(s) for host.
-  name: Momence host API
+  name: Momence Host API
   slug: momence-host-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The host-checkout API from Momence — 3 operation(s) for host-checkout.
-  name: Momence host-checkout API
+  name: Momence Host Checkout API
   slug: momence-host-checkout-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The member-addresses API from Momence — 2 operation(s) for member-addresses.
-  name: Momence member-addresses API
+  name: Momence Member Addresses API
   slug: momence-member-addresses-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The member API from Momence — 11 operation(s) for member.
-  name: Momence member API
+  name: Momence Member API
   slug: momence-member-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The member-checkout API from Momence — 3 operation(s) for member-checkout.
-  name: Momence member-checkout API
+  name: Momence Member Checkout API
   slug: momence-member-checkout-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The member-host API from Momence — 5 operation(s) for member-host.
-  name: Momence member-host API
+  name: Momence Member Host API
   slug: momence-member-host-api
 - baseURL: https://api.momence.com/api/v2
   baseurl_source: declared
   description: The member-sessions API from Momence — 2 operation(s) for member-sessions.
-  name: Momence member-sessions API
+  name: Momence Member Sessions API
   slug: momence-member-sessions-api
 artifact_total: 25
 collections:
@@ -176,7 +176,7 @@ modified: '2026-07-04'
 name: Momence
 nav: Providers
 network: true
-overview: 'Momence publishes 8 APIs on the [APIs.io](https://apis.io/) network, including auth API, host API, host-checkout API, and 5 more. Tagged areas include Fitness, Wellness, Studio Management, Booking, and Scheduling.
+overview: 'Momence publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Host API, Host Checkout API, and 5 more. Tagged areas include Fitness, Wellness, Studio Management, Booking, and Scheduling.
 
 
   Momence''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -227,7 +227,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

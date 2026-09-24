@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 195
+- acting_count: 143
   human_in_the_loop: 0
   name: Mediamath Agentic Access
-  operation_count: 502
+  operation_count: 363
   slug: mediamath-agentic-access
-  summary_line: 502 operations · 195 acting
+  summary_line: 363 operations · 143 acting
 api_count: 15
 apis:
 - description: API for ingesting audience event data into the MediaMath Platform via real-time server-side pixel events and batch event uploads. Supports UUID, mobile advertising IDs, and CTV device IDs for cross-de
@@ -331,7 +331,7 @@ apis:
   description: V3.0 video creative management endpoints
   name: MediaMath Video Creative Management (V3) API
   slug: mediamath-video-creative-management-v3-api
-artifact_total: 436
+artifact_total: 435
 asyncapis:
 - description: ''
   name: Mediamath Webhooks
@@ -742,10 +742,6 @@ finops:
 - name: Mediamath Finops
   service_category: ''
   slug: mediamath-finops
-graphqls:
-- description: MediaMath (now Infillion) is a programmatic advertising platform. Their TerminalOne API covers marketer management, campaigns, strategies, supply sources, audience segments, deals, and performance dat
-  name: MediaMath GraphQL API
-  slug: mediamath-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mediamath.png
 json_schemas:
 - name: ad_server_collection
@@ -1715,23 +1711,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password/clientCredentials
 score:
   band: strong
-  composite: 64.5
+  composite: 64.3
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 63.3
     catalog_earned_first_party: 20.0
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: -0.2
   facets:
     access_clarity: 56.6
     contract_governance: 14.4
-    contract_quality: 70.3
+    contract_quality: 69.2
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 60.5
-  previous_composite: 64.6
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1739,11 +1735,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 62
+      total: 56
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

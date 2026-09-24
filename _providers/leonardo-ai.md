@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -511,7 +511,7 @@ modified: '2026-09-16'
 name: Leonardo.AI
 nav: Providers
 network: true
-overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Generative AI, and Creative.
+overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3D Model Assets API, Blueprints API, Dataset API, and 11 more. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Generative AI, and Creative.
 
 
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -587,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -605,7 +605,7 @@ security:
 slug: leonardo-ai
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Generative AI
 - Creative

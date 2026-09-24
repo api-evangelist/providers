@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -49,27 +49,27 @@ apis:
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The brand-templates API from OpusClip — 1 operation(s) for brand-templates.
-  name: OpusClip brand-templates API
+  name: OpusClip Brand Templates API
   slug: opusclip-brand-templates-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The censor-jobs API from OpusClip — 2 operation(s) for censor-jobs.
-  name: OpusClip censor-jobs API
+  name: OpusClip Censor Jobs API
   slug: opusclip-censor-jobs-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The clip-project API from OpusClip — 3 operation(s) for clip-project.
-  name: OpusClip clip-project API
+  name: OpusClip Clip Project API
   slug: opusclip-clip-project-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The collection API from OpusClip — 3 operation(s) for collection.
-  name: OpusClip collection API
+  name: OpusClip Collection API
   slug: opusclip-collection-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The collection-content API from OpusClip — 2 operation(s) for collection-content.
-  name: OpusClip collection-content API
+  name: OpusClip Collection Content API
   slug: opusclip-collection-content-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
@@ -79,17 +79,17 @@ apis:
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The generative-jobs API from OpusClip — 2 operation(s) for generative-jobs.
-  name: OpusClip generative-jobs API
+  name: OpusClip Generative Jobs API
   slug: opusclip-generative-jobs-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The social-posting API from OpusClip — 6 operation(s) for social-posting.
-  name: OpusClip social-posting API
+  name: OpusClip Social Posting API
   slug: opusclip-social-posting-api
 - baseURL: https://api.opus.pro
   baseurl_source: declared
   description: The transcripts API from OpusClip — 1 operation(s) for transcripts.
-  name: OpusClip transcripts API
+  name: OpusClip Transcripts API
   slug: opusclip-transcripts-api
 artifact_total: 28
 asyncapis:
@@ -315,7 +315,7 @@ modified: '2026-07-20'
 name: OpusClip
 nav: Providers
 network: true
-overview: 'OpusClip publishes 9 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 6 more. Tagged areas include Company, Consumer, Video, Artificial Intelligence, and Video Editing.
+overview: 'OpusClip publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Brand Templates API, Censor Jobs API, Clip Project API, and 6 more. Tagged areas include Company, Consumer, Video, Artificial Intelligence, and Video Editing.
 
 
   The OpusClip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -337,7 +337,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
@@ -345,7 +345,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.9
     operational_transparency: 65.8
-  previous_composite: 52.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,11 +353,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 9
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -384,7 +384,7 @@ tags:
 - Artificial Intelligence
 - Video Editing
 - Short-Form Video
-- Social-Media
+- Social Media
 - Content Creation
 - MCP
 - Developer API

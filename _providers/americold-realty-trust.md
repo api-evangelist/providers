@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: i-3PL is Americold's customer-facing digital supply chain platform offering real-time inventory tracking, order management, dock appointment scheduling, customizable alerts, and 40+ reporting tools ac
@@ -171,7 +171,7 @@ modified: '2026-05-05'
 name: Americold Realty Trust
 nav: Providers
 network: true
-overview: 'Americold Realty Trust publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cold Storage, Logistics, Supply Chain, Warehousing, and Real-Estate.
+overview: 'Americold Realty Trust publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cold Storage, Logistics, Supply Chain, Warehousing, and Real Estate.
 
 
   The Americold Realty Trust catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -210,7 +210,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 28.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -228,7 +228,7 @@ tags:
 - Logistics
 - Supply Chain
 - Warehousing
-- Real-Estate
+- Real Estate
 - Temperature Controlled
 - Cold Chain
 - EDI

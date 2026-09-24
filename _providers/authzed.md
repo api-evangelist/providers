@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 25
   human_in_the_loop: 0
   name: Authzed Agentic Access
   operation_count: 27
   slug: authzed-agentic-access
-  summary_line: 27 operations · 27 acting
+  summary_line: 27 operations · 25 acting
 api_count: 1
 apis:
 - description: The managed cloud offering of SpiceDB by Authzed, providing production-ready authorization infrastructure with hourly metered billing. Includes all SpiceDB API capabilities plus Authzed-specific featu
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ modified: '2026-07-23'
 name: Algbra
 nav: Providers
 network: true
-overview: 'Algbra publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 2 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Algbra publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 2 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Algbra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -288,7 +288,7 @@ score:
     regime_id: banking_open_finance
     score: 88.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -309,7 +309,7 @@ security:
   summary_line: Hackerone · contact published
 slug: algbra
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

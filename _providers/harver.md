@@ -33,55 +33,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 26
+- acting_count: 25
   human_in_the_loop: 0
   name: Harver Agentic Access
   operation_count: 54
   slug: harver-agentic-access
-  summary_line: 54 operations · 26 acting
+  summary_line: 54 operations · 25 acting
 api_count: 1
 apis:
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The accounts API from Harver — 16 operation(s) for accounts.
-  name: Harver accounts API
+  name: Harver Accounts API
   slug: harver-accounts-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The applications API from Harver — 12 operation(s) for applications.
-  name: Harver applications API
+  name: Harver Applications API
   slug: harver-applications-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The candidate-statuses API from Harver — 1 operation(s) for candidate-statuses.
-  name: Harver candidate-statuses API
+  name: Harver Candidate Statuses API
   slug: harver-candidate-statuses-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The candidateApplications API from Harver — 1 operation(s) for candidateapplications.
-  name: Harver candidateApplications API
+  name: Harver Candidate Applications API
   slug: harver-candidateapplications-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The scheduling API from Harver — 2 operation(s) for scheduling.
-  name: Harver scheduling API
+  name: Harver Scheduling API
   slug: harver-scheduling-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The user-profile API from Harver — 3 operation(s) for user-profile.
-  name: Harver user-profile API
+  name: Harver User Profile API
   slug: harver-user-profile-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The vacancies API from Harver — 6 operation(s) for vacancies.
-  name: Harver vacancies API
+  name: Harver Vacancies API
   slug: harver-vacancies-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
   description: The webhook API from Harver — 1 operation(s) for webhook.
-  name: Harver webhook API
+  name: Harver Webhook API
   slug: harver-webhook-api
 - baseURL: https://api.harver.com/api/v1.0/
   baseurl_source: declared
@@ -254,7 +254,7 @@ modified: '2026-07-19'
 name: Harver
 nav: Providers
 network: true
-overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, including accounts API, applications API, candidate-statuses API, and 6 more. Tagged areas include Company, Human Resources, Recruiting, Hiring, and Talent Intelligence.
+overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Candidate Statuses API, and 6 more. Tagged areas include Company, Human Resources, Recruiting, Hiring, and Talent Intelligence.
 
 
   The Harver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

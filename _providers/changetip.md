@@ -58,7 +58,7 @@ tags:
 - Micropayments
 - Payments
 - Tipping
-- Social-Media
+- Social Media
 - Wallets
 - Defunct
 website: https://www.changetip.com

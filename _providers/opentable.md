@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Restricted REST API for approved partners covering restaurant content, availability, reservations, and CRM. Access is granted through the OpenTable Partner Portal under contractual agreement.
@@ -152,7 +152,7 @@ modified: '2026-06-03'
 name: OpenTable
 nav: Providers
 network: true
-overview: 'OpenTable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Reservations, and Restaurant.
+overview: 'OpenTable publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Reservations, Restaurant, and Booking.
 
 
   OpenTable''s developer surface includes documentation, pricing, support, FAQ, tooling, engineering blog, and 13 more developer resources.'
@@ -185,7 +185,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -202,6 +202,7 @@ tags:
 - Hospitality
 - Reservations
 - Restaurant
+- Booking
 use_cases:
 - description: Third-party apps and sites embed availability and booking flows to let diners reserve tables without leaving the partner experience.
   name: Embedded Restaurant Booking

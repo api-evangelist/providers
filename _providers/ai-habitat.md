@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -325,7 +325,7 @@ modified: '2026-08-30'
 name: AI Habitat
 nav: Providers
 network: true
-overview: 'AI Habitat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Simulation, Embodied AI, Robotics, and Computer-Vision.
+overview: 'AI Habitat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Simulation, Embodied AI, Robotics, and Computer Vision.
 
 
   The AI Habitat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -374,7 +374,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -396,10 +396,10 @@ tags:
 - Simulation
 - Embodied AI
 - Robotics
-- Computer-Vision
+- Computer Vision
 - Reinforcement Learning
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Research
 use_cases:
 - description: Train and evaluate AI agents on point-goal, object-goal, and image-goal navigation tasks in 3D environments.

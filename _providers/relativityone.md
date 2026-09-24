@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ modified: '2026-05-19'
 name: RelativityOne
 nav: Providers
 network: true
-overview: 'RelativityOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communications API, Custodians API, Entities API, and 3 more. Tagged areas include eDiscovery, Legal, Legal Hold, Document-Management, and Compliance.
+overview: 'RelativityOne publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communications API, Custodians API, Entities API, and 3 more. Tagged areas include eDiscovery, Legal, Legal Hold, Document Management, and Compliance.
 
 
   The RelativityOne catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -365,7 +365,7 @@ tags:
 - eDiscovery
 - Legal
 - Legal Hold
-- Document-Management
+- Document Management
 - Compliance
 - Litigation
 website: https://www.relativity.com

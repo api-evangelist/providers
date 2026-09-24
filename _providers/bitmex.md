@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.bitmex.com/app/apiOverview
@@ -76,7 +76,7 @@ modified: '2026-05-29'
 name: Bitmex
 nav: Providers
 network: true
-overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bitmex. Tagged areas include Cryptocurrency and Public APIs.
+overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bitmex. Tagged areas include Cryptocurrency, Public APIs, and Real-Time.
 
 
   The Bitmex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -121,7 +121,7 @@ score:
     - greater-china
   previous_composite: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -141,5 +141,6 @@ slug: bitmex
 tags:
 - Cryptocurrency
 - Public APIs
+- Real-Time
 website: https://www.bitmex.com/app/apiOverview
 ---

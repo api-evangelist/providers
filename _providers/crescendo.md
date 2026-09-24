@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ modified: '2026-07-18'
 name: Crescendo
 nav: Providers
 network: true
-overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer-Support, Artificial Intelligence, and AI Agents.
+overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer Support, Artificial Intelligence, and AI Agents.
 
 
   Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 16 more developer resources.'
@@ -238,7 +238,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -257,7 +257,7 @@ slug: crescendo
 tags:
 - Company
 - Customer Experience
-- Customer-Support
+- Customer Support
 - Artificial Intelligence
 - AI Agents
 - Contact Center

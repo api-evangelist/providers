@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Realm
 nav: Providers
 network: true
-overview: 'Realm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Property Data, Home Improvement, and Home Valuation.
+overview: 'Realm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property Data, Home Improvement, and Home Valuation.
 
 
   Realm''s developer surface includes engineering blog and 4 more developer resources.'
@@ -92,7 +92,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -107,7 +107,7 @@ security:
 slug: realm
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Data
 - Home Improvement
 - Home Valuation

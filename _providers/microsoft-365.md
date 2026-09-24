@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The Users API from Microsoft 365 — 2 operation(s) for users.
   name: Microsoft 365 Users API
   slug: microsoft-365-users-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -192,10 +192,6 @@ common:
   url: https://admin.microsoft.com/servicestatus
 created: '2026-05-11'
 description: Microsoft 365 is Microsoft's productivity and collaboration suite, including Word, Excel, PowerPoint, Outlook, Teams, OneDrive, SharePoint, and OneNote, along with identity, security, and device management services. Developers access Microsoft 365 data and intelligence programmatically through Microsoft Graph, a unified REST API that exposes users, mail, calendar, files, Teams messages, sites, devices, and more across the Microsoft cloud.
-graphqls:
-- description: 'This conceptual GraphQL schema represents the Microsoft 365 productivity suite APIs as exposed through Microsoft Graph, the unified REST API endpoint at `https://graph.microsoft.com/v1.0`. The schema '
-  name: Microsoft 365 GraphQL Schema
-  slug: microsoft-365-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-365.png
 layout: provider
 modified: '2026-05-11'
@@ -218,23 +214,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 37.7
+  composite: 37.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.7
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 56.6
+    contract_quality: 53.7
     developer_ergonomics: 45.2
     discoverability: 75.9
     operational_transparency: 18.4
-  previous_composite: 37.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -243,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

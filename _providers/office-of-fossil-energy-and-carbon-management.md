@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Office of Fossil Energy and Carbon Management (FECM) conducts research, development, demonstration, and deployment to minimize the environmental and climate impacts of fossil energy production and
@@ -62,7 +62,7 @@ modified: '2026-04-28'
 name: Office of Fossil Energy and Carbon Management
 nav: Providers
 network: true
-overview: Office of Fossil Energy and Carbon Management publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government.
+overview: Office of Fossil Energy and Carbon Management publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
 plans:
 - name: Office Of Fossil Energy And Carbon Management Plans Pricing
   plan_count: 3
@@ -98,7 +98,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -112,5 +112,5 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: office-of-fossil-energy-and-carbon-management
 tags:
-- Federal-Government
+- Federal Government
 ---

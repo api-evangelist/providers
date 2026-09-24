@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 40
-  human_in_the_loop: 0
+- acting_count: 270
+  human_in_the_loop: 4
   name: Elevenlabs Agentic Access
-  operation_count: 62
+  operation_count: 452
   slug: elevenlabs-agentic-access
-  summary_line: 62 operations · 40 acting
+  summary_line: 452 operations · 270 acting · 4 human-in-the-loop
 api_count: 11
 apis:
 - baseURL: https://api.elevenlabs.io
@@ -161,7 +161,7 @@ apis:
   description: Endpoints for managing voices including listing, creating, editing, and deleting voices in the library.
   name: elevenlabs Voices API
   slug: elevenlabs-voices-api
-artifact_total: 156
+artifact_total: 155
 asyncapis:
 - description: The ElevenLabs Conversational AI WebSocket API enables real-time, interactive voice conversations with AI agents. It supports bidirectional audio streaming, text events, and conversation lifecycle man
   name: ElevenLabs Conversational AI Events
@@ -553,10 +553,6 @@ finops:
 - name: Elevenlabs Finops
   service_category: Voice AI
   slug: elevenlabs-finops
-graphqls:
-- description: 'title: ElevenLabs GraphQL Schema'
-  name: ElevenLabs GraphQL Schema
-  slug: elevenlabs-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elevenlabs.png
 json_schemas:
 - name: AddKnowledgeBaseRequest
@@ -817,19 +813,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 82.3
+  composite: 81.5
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 81.5
     catalog_earned_first_party: 24.0
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 75.1
+    contract_quality: 71.9
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 92.1
@@ -845,7 +841,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -874,10 +870,11 @@ tags:
 - Speech-to-Text
 - Voice
 - Audio
-- Machine-Learning
+- Machine Learning
 - Conversational AI
 - Agents
 - Dubbing
 - Music Generation
+- Real-Time
 website: https://www.elevenlabs.io/
 ---

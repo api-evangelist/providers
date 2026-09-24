@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 598
-  human_in_the_loop: 291
+- acting_count: 547
+  human_in_the_loop: 265
   name: Eventscom Agentic Access
-  operation_count: 979
+  operation_count: 978
   slug: eventscom-agentic-access
-  summary_line: 979 operations · 598 acting · 291 human-in-the-loop
+  summary_line: 978 operations · 547 acting · 265 human-in-the-loop
 api_count: 6
 apis:
 - description: Hosted Model Context Protocol server for the DataGol workbook surface, reachable at the /mcp, /sse and /messages transport paths. Connections are gated on workspace_id, workbook_id and token query par
@@ -1139,7 +1139,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

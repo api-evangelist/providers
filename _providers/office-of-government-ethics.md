@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Office of Government Ethics
 nav: Providers
 network: true
-overview: Office of Government Ethics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Ethics, and Oversight.
+overview: Office of Government Ethics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Ethics, and Oversight.
 random_paper: 17
 score:
   band: minimal
@@ -85,7 +85,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -99,7 +99,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: office-of-government-ethics
 tags:
-- Federal-Government
+- Federal Government
 - Ethics
 - Oversight
 website: https://www.oge.gov/

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ apis:
   description: The Nut.link API from Blockfrost — 4 operation(s) for nut.link.
   name: Blockfrost Nut.link API
   slug: blockfrost-nut-link-api
-artifact_total: 147
+artifact_total: 146
 collections:
 - collection_type: postman
   name: Blockfrost.io ~ API Documentation Cardano » Accounts API
@@ -434,10 +434,6 @@ finops:
 - name: Blockfrost Finops
   service_category: API
   slug: blockfrost-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the [Blockfrost API](https://docs.blockfrost.io/), a RESTful infrastructure service that provides access to the Cardano blockchain and its ecosystem. Blockfrost
-  name: Blockfrost GraphQL Schema
-  slug: blockfrost-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockfrost.png
 integrations:
 - description: The Mesh JavaScript/TypeScript SDK integrates with Blockfrost as a provider for Cardano dApp development.
@@ -620,19 +616,19 @@ rules:
   slug: blockfrost-spectral-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 47.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 48.7
     contract_governance: 28.8
-    contract_quality: 65.6
+    contract_quality: 63.9
     developer_ergonomics: 46.4
     discoverability: 59.3
     operational_transparency: 26.3
@@ -645,7 +641,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

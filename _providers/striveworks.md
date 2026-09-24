@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Per-tenant REST API for the Chariot AI operations platform, organized as versioned microservice paths under /api/{service}/{version}/ — identity, training, evaluation, notification, catalog, serve and
@@ -136,7 +136,7 @@ modified: '2026-08-05'
 name: Striveworks
 nav: Providers
 network: true
-overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and AIOps.
+overview: 'Striveworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and AIOps.
 
 
   Striveworks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 12 more developer resources.'
@@ -169,7 +169,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -189,14 +189,14 @@ slug: striveworks
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - AIOps
 - Model Deployment
 - Model Monitoring
 - Inference
 - Data Annotation
-- Computer-Vision
+- Computer Vision
 - Agentic Workflows
 - Defense
 - GovTech

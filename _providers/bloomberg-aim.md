@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 22
   human_in_the_loop: 0
   name: Bloomberg Aim Agentic Access
-  operation_count: 47
+  operation_count: 48
   slug: bloomberg-aim-agentic-access
-  summary_line: 47 operations · 31 acting
+  summary_line: 48 operations · 22 acting
 api_count: 3
 apis:
 - description: Server API delivers real-time market data, historical data, premium reference data, and calculation tools from the Bloomberg Terminal into front-office applications.
@@ -1116,7 +1116,7 @@ modified: '2026-09-16'
 name: Bloomberg AIM
 nav: Providers
 network: true
-overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Broker Strategies API, Catalogs API, Distributions API, and 14 more. Tagged areas include Financial Data, Market Data, Order Management, Portfolio-Management, and Trading.
+overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Broker Strategies API, Catalogs API, Distributions API, and 14 more. Tagged areas include Financial Data, Market Data, Order Management, Portfolio Management, and Trading.
 
 
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1195,7 +1195,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1219,7 +1219,7 @@ tags:
 - Financial Data
 - Market Data
 - Order Management
-- Portfolio-Management
+- Portfolio Management
 - Trading
 use_cases:
 - Automated Portfolio Data Retrieval

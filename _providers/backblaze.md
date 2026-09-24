@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 15
   human_in_the_loop: 0
   name: Backblaze Agentic Access
   operation_count: 27
   slug: backblaze-agentic-access
-  summary_line: 27 operations · 24 acting
+  summary_line: 27 operations · 15 acting
 api_count: 7
 apis:
 - description: The Backblaze S3-Compatible API allows existing applications built for Amazon S3 to work with Backblaze B2 Cloud Storage with minimal code changes. Supports S3 authentication (AWS Signature V4) and S3
@@ -882,7 +882,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

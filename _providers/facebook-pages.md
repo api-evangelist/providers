@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ modified: '2026-05-11'
 name: Facebook Pages API
 nav: Providers
 network: true
-overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Conversations API, Feed API, and 8 more. Tagged areas include Social-Media, Facebook, Meta Graph API, Pages, and Content Publishing.
+overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Conversations API, Feed API, and 8 more. Tagged areas include Social Media, Facebook, Meta Graph API, Pages, and Content Publishing.
 
 
   Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
@@ -240,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -253,7 +253,7 @@ security:
   summary_line: oauth2 · 1 scheme
 slug: facebook-pages
 tags:
-- Social-Media
+- Social Media
 - Facebook
 - Meta Graph API
 - Pages

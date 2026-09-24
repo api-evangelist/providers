@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Food & Drink Reviews
@@ -56,7 +56,7 @@ modified: '2026-05-28'
 name: The Report of the Week
 nav: Providers
 network: true
-overview: The Report of the Week publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
+overview: The Report of the Week publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage and Public APIs.
 random_paper: 19
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -93,6 +93,6 @@ score:
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-report-of-the-week/refs/heads/main/screenshots/the-report-of-the-week-2026-06-20T195239.png
 slug: the-report-of-the-week
 tags:
-- Food And Drink
+- Food and Beverage
 - Public APIs
 ---

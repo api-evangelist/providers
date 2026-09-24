@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,7 +70,7 @@ modified: '2026-07-20'
 name: Noteworthy AI
 nav: Providers
 network: true
-overview: 'Noteworthy AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Machine-Learning, and Electric Utilities.
+overview: 'Noteworthy AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Machine Learning, and Electric Utilities.
 
 
   Noteworthy AI''s developer surface includes engineering blog and 5 more developer resources.'
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 17.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -121,8 +121,8 @@ slug: noteworthy-ai
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Electric Utilities
 - Grid Inspection
 - Energy

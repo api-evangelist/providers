@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -141,7 +141,7 @@ modified: '2026-08-01'
 name: iTrustCapital
 nav: Providers
 network: true
-overview: 'iTrustCapital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Cryptocurrency, Digital Assets, and Retirement.
+overview: 'iTrustCapital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Cryptocurrency, Digital Assets, and Retirement.
 
 
   iTrustCapital''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, product news, and 17 more developer resources.'
@@ -166,7 +166,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,7 @@ security:
 slug: itrustcapital
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Cryptocurrency
 - Digital Assets
 - Retirement

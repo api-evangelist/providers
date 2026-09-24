@@ -16,18 +16,18 @@
      "slug": "guidewire",
      "description": "Guidewire provides the insurance industry's leading platform including PolicyCenter, ClaimCenter, and BillingCenter. REST APIs enable policy lifecycle management, claims processing, payment orchestration, and underwriting workflows for P&C insurance carriers on the Guidewire Cloud platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png",
-     "score": 70.4,
+     "score": 70.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 70.2,
+      "contract_quality": 69.2,
       "contract_governance": 31.8,
       "operational_transparency": 65.8,
       "developer_ergonomics": 49.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -89,7 +89,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -202,7 +202,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -253,7 +253,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +304,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -355,73 +355,22 @@
      "rank": 6
     },
     {
-     "name": "Coalition",
-     "slug": "coalition-inc",
-     "description": "Coalition is a San Francisco–headquartered cyber insurance and active risk management provider founded in 2017 by Joshua Motta (CEO) and John Hering. Coalition pairs commercial insurance lines — Cyber, Technology Errors & Omissions, Executive Risks (D&O, EPL, Fiduciary, Crime), Miscellaneous Professional Liability, and AI coverage — with a continuous attack-surface monitoring and incident-response platform (Coalition Control, Wirespeed ADR, Coalition Incident Response, Security Awareness Training). The company's underwriting engine is exposed to brokers and distribution partners through the Coalition Active Insurance API, a RESTful surface that supports rate, quote, bind, document generation, renewals, and webhook events across the United States and Canada, with executive risks APIs and additional product lines added over time. Coalition also publishes a public Exploit Scoring System (ESS) API at ess-api.coalitioninc.com that exposes CVE detail, ESS/EPSS/CVSS scoring, exploit references (ExploitDB, Metasploit), GitHub repository signals, and Twitter mention timelines for over 200,000 vulnerabilities. Coalition is backed by Allianz X, Valor Equity Partners, Ribbit Capital, Mitsui Sumitomo, Kinetic Partners and other strategic insurers (Allianz, Arch, Ascot, Zurich, Swiss Re, Lloyd's syndicates); it raised a $250M Series F in 2022 at a $5B valuation. The Active Insurance API is partner-gated (no public OpenAPI), but the ESS API is fully public with OpenAPI 3.1, an interactive docs UI, and ReDoc.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/screenshots/coalition-inc-2026-06-20T174644.png",
-     "score": 50.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 68.7,
-      "contract_governance": 54.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 25.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Cyber & Specialty Risk",
-     "rank": 7
-    },
-    {
      "name": "Duck Creek",
      "slug": "duck-creek",
      "description": "The path forward to competing today and in the future requires an open platform designed to sit at the center of your P&C solutions – and seamlessly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png",
-     "score": 50.1,
+     "score": 49.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 60.7,
+      "contract_quality": 58.4,
       "contract_governance": 9.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 64.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -454,6 +403,57 @@
       "agentic_commerce": false
      },
      "tier": "Core Systems & Policy Administration",
+     "rank": 7
+    },
+    {
+     "name": "Coalition",
+     "slug": "coalition-inc",
+     "description": "Coalition is a San Francisco–headquartered cyber insurance and active risk management provider founded in 2017 by Joshua Motta (CEO) and John Hering. Coalition pairs commercial insurance lines — Cyber, Technology Errors & Omissions, Executive Risks (D&O, EPL, Fiduciary, Crime), Miscellaneous Professional Liability, and AI coverage — with a continuous attack-surface monitoring and incident-response platform (Coalition Control, Wirespeed ADR, Coalition Incident Response, Security Awareness Training). The company's underwriting engine is exposed to brokers and distribution partners through the Coalition Active Insurance API, a RESTful surface that supports rate, quote, bind, document generation, renewals, and webhook events across the United States and Canada, with executive risks APIs and additional product lines added over time. Coalition also publishes a public Exploit Scoring System (ESS) API at ess-api.coalitioninc.com that exposes CVE detail, ESS/EPSS/CVSS scoring, exploit references (ExploitDB, Metasploit), GitHub repository signals, and Twitter mention timelines for over 200,000 vulnerabilities. Coalition is backed by Allianz X, Valor Equity Partners, Ribbit Capital, Mitsui Sumitomo, Kinetic Partners and other strategic insurers (Allianz, Arch, Ascot, Zurich, Swiss Re, Lloyd's syndicates); it raised a $250M Series F in 2022 at a $5B valuation. The Active Insurance API is partner-gated (no public OpenAPI), but the ESS API is fully public with OpenAPI 3.1, an interactive docs UI, and ReDoc.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/screenshots/coalition-inc-2026-06-20T174644.png",
+     "score": 49.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 64.6,
+      "contract_governance": 54.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 25.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Cyber & Specialty Risk",
      "rank": 8
     },
     {
@@ -472,7 +472,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -508,57 +508,6 @@
      "rank": 9
     },
     {
-     "name": "State Farm",
-     "slug": "state-farm",
-     "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 64.9,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 72.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 10
-    },
-    {
      "name": "Solera",
      "slug": "solera",
      "description": "Solera is a Westlake, Texas headquartered vehicle lifecycle management software, data, and services company operating in more than 100 countries, and one of the claims-technology intermediaries that sits between property and casualty insurers and the repair, salvage, and fleet economy rather than underwriting risk itself. Its insurance-facing business is automobile physical damage claims — first notice of loss intake, photo and AI damage assessment, repair cost estimating, total loss valuation, parts sourcing, and claims workflow — delivered through the Audatex and Qapter brands alongside Vehicle Repair (Identifix, Autodata, Hollander), Dealer Solutions (DealerSocket, cap hpi), and Fleet Solutions (Omnitracs, SmartDrive, eDriving) divisions. Its API posture is characteristic of the United States insurance market seam — there is no self-serve developer portal on solera.com, no signup, and no public API key. The Solera Integrations portal at na.api.solera.com returns HTTP 200 to an Audatex user ID and password login wall, and onboarding is a provisioned B2B integration run through a Solera account representative with a kickoff meeting and UAT. What is genuinely public is a set of anonymously readable Swagger UI reference pages and machine readable OpenAPI 3.0.1 documents on the Audatex demo API host, plus PDF integration guides on na.api.solera.com/files, covering assignment dispatch and first notice of loss, claim image retrieval, and GIC integration. Authentication is OAuth 2.0 against an IdentityServer discovery document at dispatch-login-demo.audatex.com with resource scopes including b2b.fnol.api, gofnol.api, estimatics.api, and hqclaims.api. Solera does not reference ACORD anywhere in its public integration documentation. Its published standards alignment is CIECA instead — Audatex is documented as a Corporate Technology member of the Collision Industry Electronic Commerce Association and licensed to use CIECA standards, with the BMS 5.7 schema as the data mapping baseline for estimate return, which is the auto physical damage sector's analogue to ACORD rather than ACORD itself.",
@@ -574,7 +523,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -607,6 +556,57 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
+     "rank": 10
+    },
+    {
+     "name": "State Farm",
+     "slug": "state-farm",
+     "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 60.3,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 72.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 11
     },
     {
@@ -614,18 +614,18 @@
      "slug": "noyo",
      "description": "Noyo operates benefits data infrastructure that automates the exchange of employee benefits enrollment data between benefits administration platforms, brokers, and insurance carriers. Its APIs let ben-admin platforms connect a group to a carrier, send member snapshots (new hires, qualifying life events, open enrollment, COBRA, terminations), and receive near-real-time, field-level tracking of every change through to carrier confirmation. The Fulfillment API manages groups, connections, employees, dependents, enrollments, plans, renewals and member requests; the Tracking API surfaces differences and discrepancies; the Carrier API exposes carrier network configuration. Noyo standardizes the messy, EDI-heavy world of carrier data exchange behind a modern REST interface with webhooks and a sandbox.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/noyo/refs/heads/main/screenshots/noyo-2026-08-07T185645.png",
-     "score": 42.5,
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 56.5,
+      "contract_quality": 59.8,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -661,124 +661,22 @@
      "rank": 12
     },
     {
-     "name": "Travelers",
-     "slug": "travelers",
-     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.7,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 51.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 13
-    },
-    {
-     "name": "Extend",
-     "slug": "extend",
-     "description": "Extend is a product and shipping protection platform for merchants and ecommerce brands. Its API lets merchants surface extended-warranty and shipping-protection offers at checkout and post-purchase, create and manage protection contracts, process orders and line items, file and track claims, and manage service orders, refunds, and leads. Extend provides separate demo (sandbox) and production environments, header-based date versioning, OAuth2 client-credentials authentication with short-lived access tokens, idempotency keys on writes, and webhooks for claim and service-order status changes, alongside client-side SDKs and prebuilt commerce-platform integrations for Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 52.4,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 37.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 14
-    },
-    {
      "name": "Majesco",
      "slug": "majesco",
      "description": "Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy, Billing and Claims administration on a single platform alongside digital engagement, distribution, analytics and risk & compliance products, with GenAI (Majesco Copilot) and agentic AI embedded across the core suites. Its ClaimVantage line covers L&H claims, disability and absence management. Majesco sells API Management (APIM) as a component of those suites rather than as a public developer program, so its API surface is provisioned per carrier tenant and is not publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png",
-     "score": 42.1,
+     "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 67.0,
+      "discoverability": 75.9,
+      "contract_quality": 65.5,
       "contract_governance": 28.0,
       "operational_transparency": 15.8,
       "developer_ergonomics": 21.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -811,6 +709,108 @@
       "agentic_commerce": false
      },
      "tier": "Core Systems & Policy Administration",
+     "rank": 13
+    },
+    {
+     "name": "Travelers",
+     "slug": "travelers",
+     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 51.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 14
+    },
+    {
+     "name": "Extend",
+     "slug": "extend",
+     "description": "Extend is a product and shipping protection platform for merchants and ecommerce brands. Its API lets merchants surface extended-warranty and shipping-protection offers at checkout and post-purchase, create and manage protection contracts, process orders and line items, file and track claims, and manage service orders, refunds, and leads. Extend provides separate demo (sandbox) and production environments, header-based date versioning, OAuth2 client-credentials authentication with short-lived access tokens, idempotency keys on writes, and webhooks for claim and service-order status changes, alongside client-side SDKs and prebuilt commerce-platform integrations for Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 52.4,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Embedded Insurance & Distribution APIs",
      "rank": 15
     },
     {
@@ -829,7 +829,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -865,57 +865,6 @@
      "rank": 16
     },
     {
-     "name": "Verisk",
-     "slug": "verisk",
-     "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png",
-     "score": 41.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 73.1,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 54.8,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 25.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Risk Data & Analytics",
-     "rank": 17
-    },
-    {
      "name": "Ease",
      "slug": "ease",
      "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
@@ -931,7 +880,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -964,6 +913,57 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
+     "rank": 17
+    },
+    {
+     "name": "Verisk",
+     "slug": "verisk",
+     "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png",
+     "score": 40.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 73.1,
+      "contract_governance": 28.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 51.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 25.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Risk Data & Analytics",
      "rank": 18
     },
     {
@@ -982,7 +982,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1033,7 +1033,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1075,60 +1075,9 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
-    {
-     "name": "Cigna",
-     "slug": "cigna",
-     "description": "Cigna Healthcare is a leading global health services company offering medical, dental, behavioral, and pharmacy plans for individuals, families, and employers. The Cigna Developer Portal exposes CMS-mandated FHIR APIs for Patient Access, Provider Directory, Drug Formulary, and Provider Access, along with member and provider service APIs that enable third-party applications, electronic health record systems, and partners to access member health data with consent and look up Cigna network providers and formulary information.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 57.1,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 15.5,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 56.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 21
-    },
     {
      "name": "LexisNexis Risk Solutions",
      "slug": "lexisnexis-risk-solutions",
@@ -1145,7 +1094,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1178,41 +1127,41 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 22
+     "rank": 21
     },
     {
-     "name": "Humana",
-     "slug": "humana",
-     "description": "Humana is a U.S. health insurance company that provides Medicare, Medicaid, and employer-sponsored health insurance plans, along with wellness programs and healthcare services. Humana publishes a suite of FHIR-compliant APIs that give third-party applications access to member health data, coverage information, drug formularies, and provider directories under CMS interoperability rules.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png",
-     "score": 36.1,
+     "name": "Cigna",
+     "slug": "cigna",
+     "description": "Cigna Healthcare is a leading global health services company offering medical, dental, behavioral, and pharmacy plans for individuals, families, and employers. The Cigna Developer Portal exposes CMS-mandated FHIR APIs for Patient Access, Provider Directory, Drug Formulary, and Provider Access, along with member and provider service APIs that enable third-party applications, electronic health record systems, and partners to access member health data with consent and look up Cigna network providers and formulary information.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png",
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 56.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 25.0,
-      "access_clarity": 36.8
+      "discoverability": 81.5,
+      "contract_quality": 51.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 15.5,
+      "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 25.0,
+      "score": 56.3,
       "matched_via": "tags"
      },
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
+     "agent_score": 28.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "negotiable",
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
@@ -1223,13 +1172,13 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Unum",
@@ -1247,7 +1196,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1280,7 +1229,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Moody's RMS",
@@ -1298,7 +1247,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1331,25 +1280,25 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Gusto",
      "slug": "gusto",
      "description": "A cloud-based payroll, benefits, and human resources platform designed for small and medium-sized businesses. Gusto Embedded enables platforms to integrate payroll, tax filing, and HR workflows directly into their products via a REST API, React SDK, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-     "score": 35.8,
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 62.1,
+      "contract_quality": 60.2,
       "contract_governance": 0.0,
       "operational_transparency": 9.2,
       "developer_ergonomics": 34.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
@@ -1375,6 +1324,57 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
+     "rank": 25
+    },
+    {
+     "name": "Humana",
+     "slug": "humana",
+     "description": "Humana is a U.S. health insurance company that provides Medicare, Medicaid, and employer-sponsored health insurance plans, along with wellness programs and healthcare services. Humana publishes a suite of FHIR-compliant APIs that give third-party applications access to member health data, coverage information, drug formularies, and provider directories under CMS interoperability rules.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png",
+     "score": 34.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 50.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 25.0,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 25.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
      "rank": 26
     },
     {
@@ -1393,7 +1393,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1429,57 +1429,6 @@
      "rank": 27
     },
     {
-     "name": "UnitedHealth Group",
-     "slug": "unitedhealth",
-     "description": "UnitedHealth Group is a diversified health care company with two distinct platforms, UnitedHealthcare for health benefits and Optum for health services, serving more than 100 million people worldwide. The company offers FHIR R4-compliant Interoperability APIs through the Optum platform, providing patient access to health records, claims history, provider directory, and drug formulary data in compliance with CMS Interoperability and Patient Access final rule (CMS-9115-F) and HL7 FHIR standards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png",
-     "score": 34.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.9,
-      "contract_governance": 13.6,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 34.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 28
-    },
-    {
      "name": "CCC Intelligent Solutions",
      "slug": "ccc-intelligent-solutions",
      "description": "CCC Intelligent Solutions (CCCIS, NASDAQ CCCS) is a Chicago-headquartered cloud software company that sits between US property and casualty insurance carriers and the auto claims economy. Its IX Cloud platform and CCC ONE estimating products run auto physical damage estimating, total-loss valuation, reinspection, subrogation, first- and third-party casualty medical bill review, parts procurement, and claim payments across tens of thousands of insurers, collision repair facilities, automakers, parts suppliers and lenders. CCC is a claims-technology intermediary rather than a risk carrier, and it is one of the software layers that accumulated value in a US market with no federal insurance regulator and no open-insurance mandate. Its API posture is honest to that seam and is entirely partner-gated - there is no public, self-serve developer portal, no downloadable OpenAPI, and no public API reference. The production gateway at api.cccis.com is live but answers unauthenticated calls with an OAuth 2.0 bearer token fault, portal access runs through an Okta-hosted OAuth 2.0 authorization-code flow at auth.cccis.com, and the one named public API product - CCC Secure Share - publishes only a marketing developer page whose documentation, samples and dashboard require registration, CCC approval and active CIECA membership. CCC's data-standards posture is CIECA (BMS/EMS) rather than ACORD. The only machine-readable surfaces CCC serves anonymously are the Okta OpenID Connect discovery documents at auth.cccis.com and an llms.txt at www.cccis.com that maps the marketing and policy site but names no API.",
@@ -1495,7 +1444,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1528,7 +1477,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "NAIC",
@@ -1546,7 +1495,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1579,6 +1528,57 @@
       "agentic_commerce": false
      },
      "tier": "Market Bodies, Standards & Regulators",
+     "rank": 29
+    },
+    {
+     "name": "UnitedHealth Group",
+     "slug": "unitedhealth",
+     "description": "UnitedHealth Group is a diversified health care company with two distinct platforms, UnitedHealthcare for health benefits and Optum for health services, serving more than 100 million people worldwide. The company offers FHIR R4-compliant Interoperability APIs through the Optum platform, providing patient access to health records, claims history, provider directory, and drug formulary data in compliance with CMS Interoperability and Patient Access final rule (CMS-9115-F) and HL7 FHIR standards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png",
+     "score": 32.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 62.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 34.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
      "rank": 30
     },
     {
@@ -1597,7 +1597,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1648,7 +1648,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1684,57 +1684,6 @@
      "rank": 32
     },
     {
-     "name": "Lemonade",
-     "slug": "lemonade",
-     "description": "Lemonade, Inc. is an American insurance company. The company offers renters, homeowners, car, pet, and term life insurance in the United States, as well as contents and liability policies in Germany and the Netherlands and renters insurance in France. The Lemonade Insurance API allows partners to embed insurance quoting, policy creation, and payment flows for homeowners, condo, and renters policies into their own websites and apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonade/refs/heads/main/screenshots/lemonade-2026-06-20T184421.png",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 30.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 33
-    },
-    {
      "name": "Pie Insurance",
      "slug": "pie-insurance",
      "description": "Pie Insurance is a Washington, DC and Denver-based insurtech founded in May 2017 that makes commercial insurance for small businesses, with workers' compensation as its flagship line. Pie underwrites its own workers' comp through The Pie Insurance Company (NAIC 21857) — the carrier formerly known as Pie Casualty Insurance Company, which Pie acquired as Western Select Insurance Company in 2021 and took full-stack in February 2023 with an A- (Excellent) rating from AM Best. In addition to workers' comp, Pie offers business owners policy (BOP), commercial auto, general liability, professional liability, and errors and omissions through partner carriers. The product is sold both direct-to-business and through a partner network of 4,000+ independent insurance agencies, who quote, bind, and service policies via the Pie agency portal and the Pie Partner API. The Partner API (api.post-prod.pieinsurance.com, REST/JSON, documented with OpenAPI 3.0.4) exposes class-code search, eligibility questions, appetite checks, price indications, full bindable quotes, quote documents, and quote PDF retrieval so agency management systems and partner platforms can embed the Pie workers' comp experience without redirecting users off-platform. Coverage is available in 39 states plus DC; 73% of submissions are auto-decided and average quote time is roughly three minutes. The company has raised approximately $621M across Seed through Series D from investors including Allianz X, SVB Capital, Greycroft, Aspect Ventures, and Elefund. CEO and co-founder is John Swigart. The Pie Partner API is the public developer surface; there is no broader open-source SDK or GitHub organization.",
@@ -1750,7 +1699,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1783,25 +1732,25 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Progressive",
      "slug": "progressive",
      "description": "The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png",
-     "score": 27.0,
+     "score": 26.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 53.0,
+      "contract_quality": 49.7,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1834,7 +1783,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 35
+     "rank": 34
     }
    ]
   },
@@ -1843,8 +1792,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 29,
-   "shown": 29,
+   "count": 28,
+   "shown": 28,
    "providers": [
     {
      "name": "Branch",
@@ -1862,7 +1811,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1895,7 +1844,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Sure",
@@ -1913,7 +1862,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1946,58 +1895,7 @@
       "agentic_commerce": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 37
-    },
-    {
-     "name": "Allstate",
-     "slug": "allstate",
-     "description": "Allstate is a personal lines insurer in the United States offering auto, home, life, and other insurance products through agents, call centers, and direct channels. The Allstate Developer Portal provides partner APIs for agency management, policy quoting, claims integration, and telematics data exchange for authorized business partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png",
-     "score": 23.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Reinsurance Group of America",
@@ -2015,7 +1913,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2048,7 +1946,7 @@
       "agentic_commerce": false
      },
      "tier": "Reinsurance",
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Liberty Mutual Insurance",
@@ -2066,7 +1964,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2099,7 +1997,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Resilience",
@@ -2117,7 +2015,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2150,7 +2048,7 @@
       "agentic_commerce": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "Applied Systems",
@@ -2168,7 +2066,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2201,58 +2099,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 42
-    },
-    {
-     "name": "GEICO",
-     "slug": "geico",
-     "description": "The second-largest private passenger auto insurance company in the United States and a subsidiary of Berkshire Hathaway. Known for its direct-to-consumer model, competitive rates, and iconic advertising campaigns. GEICO serves customers through its website, GEICO Mobile app, and call centers rather than through a public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/screenshots/geico-2026-06-20T181721.png",
-     "score": 20.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 30.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 43
+     "rank": 40
     },
     {
      "name": "Prudential Financial",
@@ -2269,7 +2116,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2302,7 +2149,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 44
+     "rank": 41
     },
     {
      "name": "Arthur J. Gallagher",
@@ -2320,7 +2167,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2353,7 +2200,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 45
+     "rank": 42
     },
     {
      "name": "Openly",
@@ -2371,7 +2218,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2404,7 +2251,58 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 46
+     "rank": 43
+    },
+    {
+     "name": "Lemonade",
+     "slug": "lemonade",
+     "description": "Lemonade, Inc. is an American insurance company. The company offers renters, homeowners, car, pet, and term life insurance in the United States, as well as contents and liability policies in Germany and the Netherlands and renters insurance in France. The Lemonade Insurance API allows partners to embed insurance quoting, policy creation, and payment flows for homeowners, condo, and renters policies into their own websites and apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonade/refs/heads/main/screenshots/lemonade-2026-06-20T184421.png",
+     "score": 19.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 30.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 44
     },
     {
      "name": "Sana Benefits",
@@ -2422,7 +2320,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2455,7 +2353,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "USAA",
@@ -2473,7 +2371,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2506,7 +2404,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Kalepa",
@@ -2524,7 +2422,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2557,7 +2455,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "EIS Group",
@@ -2575,7 +2473,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2608,7 +2506,7 @@
       "agentic_commerce": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Guardian Life",
@@ -2626,7 +2524,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2659,7 +2557,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Vertafore",
@@ -2677,7 +2575,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2710,7 +2608,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 52
+     "rank": 50
     },
     {
      "name": "Kin Insurance",
@@ -2728,7 +2626,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2761,7 +2659,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 53
+     "rank": 51
     },
     {
      "name": "Cincinnati Financial",
@@ -2779,7 +2677,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2812,7 +2710,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Ebix",
@@ -2830,7 +2728,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2863,7 +2761,7 @@
       "agentic_commerce": false
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Federato",
@@ -2881,7 +2779,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2914,7 +2812,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "Chubb",
@@ -2932,7 +2830,109 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 55
+    },
+    {
+     "name": "Newfront",
+     "slug": "newfront",
+     "description": "Newfront is a modern business insurance brokerage and technology company headquartered in San Francisco. It combines a traditional insurance brokerage (commercial business insurance, employee benefits, retirement services, and risk management) with a software platform that gives clients transparent data and analytics to understand and lower their total cost of risk. Formed from the merger of Newfront and ABD Insurance, the company serves technology, venture-backed, and enterprise clients across property and casualty, health and benefits, and personal lines. Backed by Index Ventures, Susa Ventures, and SV Angel. As of this enrichment pass Newfront exposes a client-facing web application (app.newfront.com) but publishes no public developer API, developer portal, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newfront/refs/heads/main/screenshots/newfront-2026-08-07T185109.png",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Agency & Brokerage Technology",
+     "rank": 56
+    },
+    {
+     "name": "Allstate",
+     "slug": "allstate",
+     "description": "Allstate is a personal lines insurer in the United States offering auto, home, life, and other insurance products through agents, call centers, and direct channels. The Allstate Developer Portal provides partner APIs for agency management, policy quoting, claims integration, and telematics data exchange for authorized business partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/screenshots/allstate-2026-06-20T171536.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2968,108 +2968,6 @@
      "rank": 57
     },
     {
-     "name": "Newfront",
-     "slug": "newfront",
-     "description": "Newfront is a modern business insurance brokerage and technology company headquartered in San Francisco. It combines a traditional insurance brokerage (commercial business insurance, employee benefits, retirement services, and risk management) with a software platform that gives clients transparent data and analytics to understand and lower their total cost of risk. Formed from the merger of Newfront and ABD Insurance, the company serves technology, venture-backed, and enterprise clients across property and casualty, health and benefits, and personal lines. Backed by Index Ventures, Susa Ventures, and SV Angel. As of this enrichment pass Newfront exposes a client-facing web application (app.newfront.com) but publishes no public developer API, developer portal, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newfront/refs/heads/main/screenshots/newfront-2026-08-07T185109.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Agency & Brokerage Technology",
-     "rank": 58
-    },
-    {
-     "name": "ERGO NEXT Insurance",
-     "slug": "next-insurance",
-     "description": "ERGO NEXT Insurance (formerly NEXT Insurance) is a Palo Alto, California technology-first Property & Casualty insurer focused on the specific needs of U.S. small and medium-sized business owners. Founded in 2016, the company offers fully digital commercial coverage including General Liability, Workers' Compensation, Business Owner's Policy (BOP), Professional Liability / Errors & Omissions, Commercial Property, Commercial Auto, Tools & Equipment, Employment Practices Liability, Product Liability, and Liquor Liability — serving more than 750,000 customers across 1,300+ professions. In March 2025 Munich Re signed a definitive agreement to acquire 100% of NEXT Insurance at a valuation of $2.6 billion; ERGO Group AG (Munich Re's primary insurance arm) closed the full acquisition on July 1, 2025 and on January 15, 2026 the company rebranded as ERGO NEXT Insurance, becoming Munich Re/ERGO's foothold in the U.S. SMB market. ERGO NEXT's partner-facing surface is NEXT Connect, an embedded insurance platform that lets payroll, point-of-sale, accounting, e-commerce, payments, banking, and fintech platforms quote and bind small-business coverage from within their own product through low-code components and API calls. NEXT Connect aggregates 15+ carriers (including ERGO NEXT itself, Travelers, Liberty Mutual, Chubb, CNA, The Hartford) and is documented in the wild through embedded-payroll partners such as Check, Gusto Embedded, Intuit QuickBooks, Square, LegalZoom, and Amazon Business Prime, but ERGO NEXT does not publish a public developer portal, OpenAPI specification, or self-serve SDKs — partner onboarding is gated through a partnerships team. The company also offers a pay-as-you-go Workers' Comp product that integrates with partner payroll runs so premium is calculated against actual per-cycle W-2 wages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-insurance/refs/heads/main/screenshots/next-insurance-2026-08-07T185159.png",
-     "score": 13.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 59
-    },
-    {
      "name": "Lockton",
      "slug": "lockton",
      "description": "Lockton Companies is the world's largest privately held, independent insurance brokerage, founded by Jack Lockton in 1966 and headquartered in Kansas City, Missouri, United States. Lockton is a broker and intermediary rather than a risk carrier: it places commercial property and casualty, specialty and financial lines, employee benefits and people solutions, private client coverage, and — through Lockton Re — treaty and facultative reinsurance, for tens of thousands of clients across a global network of associates and offices reaching more than 140 locations. Its API posture is honestly characterized as partner-gated with no public API surface. As of July 2026 Lockton publishes no developer portal, no API reference, no OpenAPI or Swagger definition, no GraphQL endpoint, no Postman workspace, and no webhook or event catalog. The hostnames developer.lockton.com, developers.lockton.com, docs.lockton.com and api.lockton.com do not resolve in DNS, and a crawl of the 6,953 URLs in global.lockton.com/sitemap.xml surfaces no developer, API, ACORD, IVANS, OpenAPI or Swagger path. Client-facing technology is delivered through authenticated regional Lockton Client Portals and the proprietary Lockton SAGE intelligence and analytics ecosystem, which is presented on the website behind a contact form with no self-serve access, no documented data feed and no published integration surface. This is the expected posture for a US broker-intermediary: the United States has no federal insurance regulator and no open-insurance mandate, so data exchange between carriers, brokers and agency management systems runs on ACORD standards in an EDI and forms idiom rather than a public API idiom. Lockton's most substantive standards signal is governance rather than implementation — in July 2026 Nidhi Howell, Chief Business Technology Officer of Lockton Re, was appointed to the ACORD Solutions Group Board of Directors representing the reinsurance broking channel — but no ACORD AL3, ACORD XML, NGDS or IVANS agency-download implementation is documented on any public Lockton property.",
@@ -3085,7 +2983,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3118,7 +3016,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -3136,7 +3034,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3169,7 +3067,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Farmers Insurance Exchange",
@@ -3187,7 +3085,109 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 60
+    },
+    {
+     "name": "Brown & Brown",
+     "slug": "brown-brown",
+     "description": "Brown & Brown, Inc. (NYSE: BRO) is a Daytona Beach, Florida headquartered insurance brokerage and risk-management intermediary founded in 1939, and one of the largest independent brokers in the United States. Following the 2025 acquisition of Accession Risk Management Group (Risk Strategies and One80 Intermediaries), it reports through two segments: Retail — property and casualty insurance, employee benefits, private client, captive solutions and financial/wealth services — and Specialty Distribution — programs, wholesale brokerage and MGA/binding-authority businesses including Arrowhead. As a distributor rather than a carrier, Brown & Brown places risk with insurers instead of underwriting it, and its US home market has no federal insurance regulator and no open-insurance mandate. Its API posture reflects that honestly: Brown & Brown publishes no public developer portal and no self-serve API. developer.bbrown.com, developers.bbrown.com, docs.bbrown.com and api.bbrown.com do not resolve, and every /developers, /api, /partners and /integrations path returns 404. Every discoverable application subdomain is a login wall — agent, client and vendor portals behind Microsoft Entra ID SSO or third-party sign-in. The only real programmatic surface is partner-gated: the Arrowhead Programs \"Enterprise API\" (EAPI), a quoting integration distributed through comparative raters and aggregators such as CoverHound, Tarmika, Semsee and DAIS, with no public documentation, base URL or specification. No ACORD, AL3, ACORD XML or NGDS reference is published on any Brown & Brown first-party property; carrier data exchange runs, as it does across US retail brokerage, through the agency management system layer — Brown & Brown is a publicly referenced Vertafore AMS360 agency — and IVANS agency download rather than through any API Brown & Brown itself exposes. In July 2026 the company announced an AI-first transformation with Anthropic, McKinsey and Accenture, deploying Claude across 23,000 teammates and Claude Code across its software engineering organization; that is internal adoption and has so far produced no external API, developer portal or agent-facing surface. The only machine-readable documents Brown & Brown publishes are two RSS feeds — the blog and investor news releases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-brown/refs/heads/main/screenshots/brown-brown-2026-07-25T203954.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Brokers & Intermediaries",
+     "rank": 61
+    },
+    {
+     "name": "Erie Insurance",
+     "slug": "erie-insurance",
+     "description": "Erie Insurance Group (NASDAQ: ERIE) is a Fortune 500 property and casualty insurance company headquartered in Erie, Pennsylvania. The company offers auto, home, business, and life insurance products through a network of independent agents across multiple U.S. states.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/screenshots/erie-insurance-2026-06-20T180813.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3221,108 +3221,6 @@
      },
      "tier": "P&C / General Insurers",
      "rank": 62
-    },
-    {
-     "name": "Brown & Brown",
-     "slug": "brown-brown",
-     "description": "Brown & Brown, Inc. (NYSE: BRO) is a Daytona Beach, Florida headquartered insurance brokerage and risk-management intermediary founded in 1939, and one of the largest independent brokers in the United States. Following the 2025 acquisition of Accession Risk Management Group (Risk Strategies and One80 Intermediaries), it reports through two segments: Retail — property and casualty insurance, employee benefits, private client, captive solutions and financial/wealth services — and Specialty Distribution — programs, wholesale brokerage and MGA/binding-authority businesses including Arrowhead. As a distributor rather than a carrier, Brown & Brown places risk with insurers instead of underwriting it, and its US home market has no federal insurance regulator and no open-insurance mandate. Its API posture reflects that honestly: Brown & Brown publishes no public developer portal and no self-serve API. developer.bbrown.com, developers.bbrown.com, docs.bbrown.com and api.bbrown.com do not resolve, and every /developers, /api, /partners and /integrations path returns 404. Every discoverable application subdomain is a login wall — agent, client and vendor portals behind Microsoft Entra ID SSO or third-party sign-in. The only real programmatic surface is partner-gated: the Arrowhead Programs \"Enterprise API\" (EAPI), a quoting integration distributed through comparative raters and aggregators such as CoverHound, Tarmika, Semsee and DAIS, with no public documentation, base URL or specification. No ACORD, AL3, ACORD XML or NGDS reference is published on any Brown & Brown first-party property; carrier data exchange runs, as it does across US retail brokerage, through the agency management system layer — Brown & Brown is a publicly referenced Vertafore AMS360 agency — and IVANS agency download rather than through any API Brown & Brown itself exposes. In July 2026 the company announced an AI-first transformation with Anthropic, McKinsey and Accenture, deploying Claude across 23,000 teammates and Claude Code across its software engineering organization; that is internal adoption and has so far produced no external API, developer portal or agent-facing surface. The only machine-readable documents Brown & Brown publishes are two RSS feeds — the blog and investor news releases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-brown/refs/heads/main/screenshots/brown-brown-2026-07-25T203954.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Brokers & Intermediaries",
-     "rank": 63
-    },
-    {
-     "name": "Erie Insurance",
-     "slug": "erie-insurance",
-     "description": "Erie Insurance Group (NASDAQ: ERIE) is a Fortune 500 property and casualty insurance company headquartered in Erie, Pennsylvania. The company offers auto, home, business, and life insurance products through a network of independent agents across multiple U.S. states.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/screenshots/erie-insurance-2026-06-20T180813.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 64
     }
    ]
   },
@@ -3331,8 +3229,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 12,
-   "shown": 12,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Clearcover",
@@ -3350,7 +3248,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3383,7 +3281,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Policygenius",
@@ -3401,7 +3299,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3434,7 +3332,58 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 66
+     "rank": 64
+    },
+    {
+     "name": "GEICO",
+     "slug": "geico",
+     "description": "The second-largest private passenger auto insurance company in the United States and a subsidiary of Berkshire Hathaway. Known for its direct-to-consumer model, competitive rates, and iconic advertising campaigns. GEICO serves customers through its website, GEICO Mobile app, and call centers rather than through a public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/screenshots/geico-2026-06-20T181721.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 30.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 65
     },
     {
      "name": "Hi Marley",
@@ -3452,7 +3401,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3485,7 +3434,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Nava Benefits",
@@ -3503,7 +3452,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3536,7 +3485,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "American Family Insurance",
@@ -3554,7 +3503,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3587,7 +3536,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Snapsheet",
@@ -3605,7 +3554,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3638,7 +3587,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Hippo",
@@ -3656,13 +3605,64 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 70
+    },
+    {
+     "name": "ERGO NEXT Insurance",
+     "slug": "next-insurance",
+     "description": "ERGO NEXT Insurance (formerly NEXT Insurance) is a Palo Alto, California technology-first Property & Casualty insurer focused on the specific needs of U.S. small and medium-sized business owners. Founded in 2016, the company offers fully digital commercial coverage including General Liability, Workers' Compensation, Business Owner's Policy (BOP), Professional Liability / Errors & Omissions, Commercial Property, Commercial Auto, Tools & Equipment, Employment Practices Liability, Product Liability, and Liquor Liability — serving more than 750,000 customers across 1,300+ professions. In March 2025 Munich Re signed a definitive agreement to acquire 100% of NEXT Insurance at a valuation of $2.6 billion; ERGO Group AG (Munich Re's primary insurance arm) closed the full acquisition on July 1, 2025 and on January 15, 2026 the company rebranded as ERGO NEXT Insurance, becoming Munich Re/ERGO's foothold in the U.S. SMB market. ERGO NEXT's partner-facing surface is NEXT Connect, an embedded insurance platform that lets payroll, point-of-sale, accounting, e-commerce, payments, banking, and fintech platforms quote and bind small-business coverage from within their own product through low-code components and API calls. NEXT Connect aggregates 15+ carriers (including ERGO NEXT itself, Travelers, Liberty Mutual, Chubb, CNA, The Hartford) and is documented in the wild through embedded-payroll partners such as Check, Gusto Embedded, Intuit QuickBooks, Square, LegalZoom, and Amazon Business Prime, but ERGO NEXT does not publish a public developer portal, OpenAPI specification, or self-serve SDKs — partner onboarding is gated through a partnerships team. The company also offers a pay-as-you-go Workers' Comp product that integrates with partner payroll runs so premium is calculated against actual per-cycle W-2 wages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-insurance/refs/heads/main/screenshots/next-insurance-2026-08-07T185159.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -3707,7 +3707,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3751,7 +3751,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3802,7 +3802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3852,7 +3852,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3903,7 +3903,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

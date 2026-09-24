@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-05-08'
 name: Carbone
 nav: Providers
 network: true
-overview: 'Carbone publishes 3 APIs on the [APIs.io](https://apis.io/) network: Render API, Status API, and Template API. Tagged areas include Document Generation, PDF, Templates, Open-Source, and Office.
+overview: 'Carbone publishes 3 APIs on the [APIs.io](https://apis.io/) network: Render API, Status API, and Template API. Tagged areas include Document Generation, PDF, Templates, Open Source, and Office.
 
 
   Carbone''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -201,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +221,7 @@ tags:
 - Document Generation
 - PDF
 - Templates
-- Open-Source
+- Open Source
 - Office
 - DOCX
 - XLSX

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -317,7 +317,7 @@ modified: '2026-05-19'
 name: Istio
 nav: Providers
 network: true
-overview: 'Istio publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Telemetry API, AuthorizationPolicy API, DestinationRule API, and 9 more. Tagged areas include Istio, CNCF, Kubernetes, Microservices, and Open-Source.
+overview: 'Istio publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Telemetry API, AuthorizationPolicy API, DestinationRule API, and 9 more. Tagged areas include Istio, CNCF, Kubernetes, Microservices, and Open Source.
 
 
   The Istio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -371,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -392,7 +392,7 @@ tags:
 - CNCF
 - Kubernetes
 - Microservices
-- Open-Source
+- Open Source
 - Service Mesh
 website: https://istio.io/
 ---

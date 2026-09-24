@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 49
+- acting_count: 48
   human_in_the_loop: 0
   name: Supabase Agentic Access
   operation_count: 78
   slug: supabase-agentic-access
-  summary_line: 78 operations · 49 acting
+  summary_line: 78 operations · 48 acting
 api_count: 5
 apis:
 - description: 'The Supabase Realtime API provides WebSocket-based subscriptions for real-time data changes from PostgreSQL databases. It supports three channel types: database change events (INSERT/UPDATE/DELETE on '
@@ -149,7 +149,7 @@ apis:
   description: OAuth social login provider endpoints.
   name: Supabase O Auth API
   slug: supabase-oauth-api
-artifact_total: 85
+artifact_total: 84
 asyncapis:
 - description: 'The Supabase Realtime API enables real-time communication over WebSocket connections using the Phoenix Channel protocol (v2). It supports three main features: Postgres Changes for subscribing to INSER'
   name: Supabase Realtime API
@@ -336,10 +336,6 @@ finops:
 - name: Supabase Finops
   service_category: Backend Platform
   slug: supabase-finops
-graphqls:
-- description: ''
-  name: Supabase GraphQL API
-  slug: supabase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supabase.png
 json_schemas:
 - name: Supabase Project
@@ -363,7 +359,7 @@ modified: '2026-09-16'
 name: Supabase
 nav: Providers
 network: true
-overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend-as-a-Service, PostgreSQL, Open-Source, Authentication, and Real-Time.
+overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend-as-a-Service, PostgreSQL, Open Source, Authentication, and Real-Time.
 
 
   The Supabase catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -416,7 +412,7 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -440,7 +436,7 @@ score:
       total: 20
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -473,7 +469,7 @@ slug: supabase
 tags:
 - Backend-as-a-Service
 - PostgreSQL
-- Open-Source
+- Open Source
 - Authentication
 - Real-Time
 - Storage

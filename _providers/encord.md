@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: REST API and Python SDK for programmatically managing annotation projects, datasets, ontologies, labels, and workflows within the Encord Annotate platform. Supports creating and retrieving projects an
@@ -135,7 +135,7 @@ modified: 2026-06-12
 name: Encord
 nav: Providers
 network: true
-overview: 'Encord publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Computer-Vision, Data Labeling, Annotation, Machine-Learning, and Model Evaluation.
+overview: 'Encord publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Computer Vision, Data Labeling, Annotation, Machine Learning, and Model Evaluation.
 
 
   The Encord catalog on APIs.io includes 1 JSON-LD context.
@@ -176,7 +176,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,10 +194,10 @@ security:
   summary_line: SOC 2, HIPAA
 slug: encord
 tags:
-- Computer-Vision
+- Computer Vision
 - Data Labeling
 - Annotation
-- Machine-Learning
+- Machine Learning
 - Model Evaluation
 - Dataset Management
 - Artificial Intelligence

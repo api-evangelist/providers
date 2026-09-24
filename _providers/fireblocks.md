@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 160
+- acting_count: 159
   human_in_the_loop: 3
   name: Fireblocks Agentic Access
   operation_count: 303
   slug: fireblocks-agentic-access
-  summary_line: 303 operations · 160 acting · 3 human-in-the-loop
+  summary_line: 303 operations · 159 acting · 3 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.fireblocks.io/v1
@@ -885,7 +885,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ modified: '2026-06-20'
 name: Formbricks
 nav: Providers
 network: true
-overview: 'Formbricks publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open-Source.
+overview: 'Formbricks publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Action Classes API, Client API, Contacts API, and 4 more. Tagged areas include Surveys, Experience Management, Feedback, Forms, and Open Source.
 
 
   Formbricks'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -233,6 +233,6 @@ tags:
 - Experience Management
 - Feedback
 - Forms
-- Open-Source
+- Open Source
 website: https://www.formbricks.com
 ---

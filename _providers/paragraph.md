@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-09-23'
+  score: 47.5
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,52 +49,52 @@ apis:
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: The analytics API from Paragraph — 2 operation(s) for analytics.
-  name: Paragraph analytics API
+  name: Paragraph Analytics API
   slug: paragraph-analytics-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: The auth API from Paragraph — 2 operation(s) for auth.
-  name: Paragraph auth API
+  name: Paragraph Auth API
   slug: paragraph-auth-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: Operations related to tokenized content
-  name: Paragraph coins API
+  name: Paragraph Coins API
   slug: paragraph-coins-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: The discover API from Paragraph — 3 operation(s) for discover.
-  name: Paragraph discover API
+  name: Paragraph Discover API
   slug: paragraph-discover-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: The emails API from Paragraph — 1 operation(s) for emails.
-  name: Paragraph emails API
+  name: Paragraph Emails API
   slug: paragraph-emails-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: The me API from Paragraph — 1 operation(s) for me.
-  name: Paragraph me API
+  name: Paragraph Me API
   slug: paragraph-me-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: Operations related to posts and content
-  name: Paragraph posts API
+  name: Paragraph Posts API
   slug: paragraph-posts-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: Operations related to publications
-  name: Paragraph publications API
+  name: Paragraph Publications API
   slug: paragraph-publications-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: Operations related to subscriber management (requires API key)
-  name: Paragraph subscribers API
+  name: Paragraph Subscribers API
   slug: paragraph-subscribers-api
 - baseURL: https://public.api.paragraph.com/api
   baseurl_source: declared
   description: Operations related to users and authors
-  name: Paragraph users API
+  name: Paragraph Users API
   slug: paragraph-users-api
 artifact_total: 28
 collections:
@@ -307,7 +307,7 @@ modified: '2026-08-13'
 name: Paragraph
 nav: Providers
 network: true
-overview: 'Paragraph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including analytics API, auth API, coins API, and 7 more. Tagged areas include Company, Publishing, Newsletters, Web3, and Content.
+overview: 'Paragraph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Coins API, and 7 more. Tagged areas include Company, Publishing, Newsletters, Web3, and Content.
 
 
   Paragraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
@@ -355,7 +355,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

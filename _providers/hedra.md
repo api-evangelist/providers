@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ modified: '2026-07-19'
 name: Hedra
 nav: Providers
 network: true
-overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
+overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image Generation.
 
 
   The Hedra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -303,11 +303,11 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video Generation
-- Image-Generation
+- Image Generation
 - Audio Generation
 - Text-to-Speech
 - Avatars
 - Media
-- Machine-Learning
+- Machine Learning
 website: https://www.hedra.com/
 ---

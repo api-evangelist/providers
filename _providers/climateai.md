@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 49
+- acting_count: 46
   human_in_the_loop: 4
   name: Climateai Agentic Access
   operation_count: 89
   slug: climateai-agentic-access
-  summary_line: 89 operations · 49 acting · 4 human-in-the-loop
+  summary_line: 89 operations · 46 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api-prod.climate.ai
@@ -332,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

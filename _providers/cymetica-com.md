@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://cymetica.com/api/v1
@@ -239,7 +239,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,9 @@ tags:
 - Agent-Native
 - Blockchain
 - DeFi
-- Financial-Services
+- Financial Services
 - Market Data
+- A2A
+- Real-Time
 website: https://cymetica.com/
 ---

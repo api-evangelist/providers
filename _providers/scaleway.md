@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -226,7 +226,7 @@ apis:
 - baseURL: https://api.scaleway.com
   baseurl_source: spec
   description: This section allows you to manage and get get subscribed information about your project email offer.
-  name: Scaleway offers API
+  name: Scaleway Offers API
   slug: scaleway-offers-api
 - baseURL: https://api.scaleway.com
   baseurl_source: spec
@@ -2143,7 +2143,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

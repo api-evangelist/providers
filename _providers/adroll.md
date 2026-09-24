@@ -10,7 +10,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-09-23'
+  score: 29.7
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -48,7 +47,7 @@ apis:
 - description: Server-side event ingestion API for sending user events and conversions to AdRoll directly from your own servers, complementing the AdRoll pixel and mobile measurement partner integrations. Accepts ba
   name: NextRoll Server-to-Server (S2S) Event API
   slug: nextroll-s2s
-artifact_total: 13
+artifact_total: 12
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/security/adroll-domain-security.yml
@@ -231,17 +230,8 @@ common:
   title: ''
   type: Packages
   url: packages/adroll-packages.yml
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adroll/refs/heads/main/graphql/adroll-reporting.graphql
-  title: ''
-  type: GraphQL
-  url: graphql/adroll-reporting.graphql
 created: '2026-05-11'
 description: AdRoll is a display advertising and retargeting platform from NextRoll that helps direct-to-consumer brands run cross-channel display, social, and email campaigns from a single dashboard powered by the BidIQ machine learning bidder. The platform manages audience segmentation, creative serving, and attribution across the open web and major social networks. The NextRoll API for AdRoll exposes campaign, ad, audience, and reporting endpoints using OAuth 2.0 or Personal Access Token authentication.
-graphqls:
-- description: 'generated: ''2026-08-13'''
-  name: NextRoll GraphQL Reporting API (AdRoll)
-  slug: adroll-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adroll.png
 layout: provider
 mcp_servers:
@@ -255,7 +245,7 @@ network: true
 overview: 'AdRoll publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Display Advertising, Retargeting, Marketing, and AdTech.
 
 
-  AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, API reference, getting-started guide, support, and 34 more developer resources.'
+  AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Adroll Plans Pricing
   plan_count: 4
@@ -271,20 +261,20 @@ scopes:
   slug: adroll-scopes
   summary_line: 2 scopes · authorizationCode/implicit/password
 score:
-  band: strong
-  composite: 57.9
+  band: developing
+  composite: 47.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 46.8
+    contract_quality: 6.7
     developer_ergonomics: 49.4
     discoverability: 81.5
     operational_transparency: 68.4
@@ -294,8 +284,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

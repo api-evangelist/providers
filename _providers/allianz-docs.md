@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Allianz Docs Agentic Access
   operation_count: 9
   slug: allianz-docs-agentic-access
-  summary_line: 9 operations · 6 acting
+  summary_line: 9 operations · 5 acting
 api_count: 6
 apis:
 - description: The Allianz Partners API Management portal provides insurance and assistance product APIs covering the full customer journey. APIs support policy purchase, change, and cancellation operations in XML a
@@ -351,7 +351,7 @@ modified: '2026-06-20'
 name: Allianz
 nav: Providers
 network: true
-overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Leads API, Policy Details API, and 1 more. Tagged areas include Financial-Services, Insurance, and Asset Management.
+overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Leads API, Policy Details API, and 1 more. Tagged areas include Financial Services, Insurance, and Asset Management.
 
 
   The Allianz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -421,7 +421,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -438,7 +438,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: allianz-docs
 tags:
-- Financial-Services
+- Financial Services
 - Insurance
 - Asset Management
 use_cases:

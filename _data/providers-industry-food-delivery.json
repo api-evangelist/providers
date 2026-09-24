@@ -1,6 +1,6 @@
 {
- "total": 103,
- "shown": 103,
+ "total": 104,
+ "shown": 104,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "doordash",
      "description": "DoorDash is an on-demand local commerce platform whose developer program exposes its logistics and marketplace network through thirteen publicly documented REST APIs. Drive, Drive (classic) and Parcel let businesses request deliveries fulfilled by DoorDash's Dasher fleet, with Refunds, Redelivery and Dasher Feedback attached to that surface. Marketplace, Marketplace (legacy) and Item Management let merchants and retailers receive orders and synchronize menus, catalogs, inventory and promotions, while Storefront powers white-label online ordering, Reporting delivers financial and operational data exchange, and the Ads API sells sponsored placement on the marketplace. Every API authenticates with a short-lived HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML from developer.doordash.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png",
-     "score": 75.8,
+     "score": 75.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 73.7,
+      "contract_quality": 70.3,
       "contract_governance": 33.3,
       "operational_transparency": 73.7,
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
@@ -59,18 +59,18 @@
      "slug": "instacart",
      "description": "Instacart (Maplebear Inc.) is a North American grocery technology company that operates the Instacart Marketplace and sells its underlying commerce, fulfillment, catalog, advertising and storefront technology to retailers and brands. Its published API surface splits cleanly in two. The Instacart Developer Platform API is open to app and website developers, costs nothing, and exposes two shoppable-page operations plus a nearby-retailers lookup at connect.instacart.com/idp/v1 -- and, unusually, Instacart pays the developer, commissioning attributed orders through an Impact affiliate programme. Instacart Connect is the enterprise half: OAuth 2.0, partner-gated Fulfillment, Post-checkout, Transaction and Sandbox APIs, the Catalog API, Carrot Ads and Shopping Widgets, all bundled into a retailer or brand partner agreement. Instacart also runs a first-party remote Model Context Protocol server at https://mcp.instacart.com/mcp whose tools/list is served anonymously, making it one of the few grocery-sector providers with a directly reachable agent surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png",
-     "score": 70.5,
+     "score": 69.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 72.9,
+      "contract_quality": 69.4,
       "contract_governance": 33.3,
       "operational_transparency": 81.6,
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -124,7 +124,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
@@ -156,18 +156,18 @@
      "slug": "uber-eats",
      "description": "Uber Eats exposes a family of developer APIs through the Uber Developer Portal that let restaurants, marketplace platforms, POS providers, and logistics partners integrate directly with Uber Eats and Uber Direct. The Uber Eats Marketplace APIs cover store onboarding, store status and hours, menu management, order ingestion and fulfillment, delivery fulfillment (Uber-courier and BYOC), promotions, and reporting. Uber Direct (Deliveries) exposes Uber's courier network for on-demand same-day delivery — quotes, deliveries, courier tracking, proof of delivery, refunds, pick-and-pack, and webhook notifications. All APIs are RESTful, JSON, and gated by OAuth 2.0 client credentials issued from the Uber Developer Portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png",
-     "score": 55.2,
+     "score": 54.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 67.9,
+      "contract_quality": 66.4,
       "contract_governance": 28.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 47.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
@@ -221,7 +221,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -249,49 +249,6 @@
      "rank": 5
     },
     {
-     "name": "Uber",
-     "slug": "uber",
-     "description": "Uber is a global technology platform offering transportation, food delivery, and logistics services. Its developer platform provides APIs for integrating ride requests, food ordering, on-demand delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth 2.0 authentication with scope-based access controls and support both production and sandbox environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
-     "score": 50.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 76.1,
-      "contract_governance": 13.6,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 73.8,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 22.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Deliverart",
      "slug": "deliverart",
      "description": "Deliverart is food-delivery management software for restaurants and delivery businesses, founded in Italy and backed by Techstars. It centralizes orders from Just Eat, Glovo, Deliveroo, a restaurant's own website and phone into a single interface; synchronizes menus across sales channels; and manages riders, delivery routing, take-away, the Delivery Order Display System (DODS) and live tracking. The public Deliverart API is an RPC-style HTTPS API (GET for reads, POST for writes) covering orders, menu, customers, points of sale, workshifts, deliveries and reservations, with API key and OAuth2 authentication. Deliverart also ships a modular first-party JavaScript SDK suite on npm.",
@@ -307,7 +264,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -323,6 +280,49 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "Uber",
+     "slug": "uber",
+     "description": "Uber is a global technology platform offering transportation, food delivery, and logistics services. Its developer platform provides APIs for integrating ride requests, food ordering, on-demand delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth 2.0 authentication with scope-based access controls and support both production and sandbox environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png",
+     "score": 48.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 73.0,
+      "contract_governance": 13.6,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 70.2,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -350,7 +350,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -393,7 +393,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -436,7 +436,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -486,7 +486,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -529,7 +529,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -582,7 +582,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -625,7 +625,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -668,7 +668,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -711,7 +711,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -796,7 +796,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -839,7 +839,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -882,7 +882,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
@@ -925,7 +925,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -975,7 +975,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1025,7 +1025,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1068,7 +1068,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1139,7 +1139,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1188,7 +1188,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -1274,7 +1274,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1317,7 +1317,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.3,
      "agent_band": "agent-aware",
@@ -1360,7 +1360,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.6,
      "agent_band": "agent-aware",
@@ -1403,7 +1403,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1453,7 +1453,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1496,7 +1496,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1539,7 +1539,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1589,7 +1589,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1632,7 +1632,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1675,7 +1675,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -1718,7 +1718,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1760,7 +1760,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -1803,7 +1803,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1846,7 +1846,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1888,7 +1888,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1931,7 +1931,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1974,7 +1974,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2017,7 +2017,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2060,7 +2060,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2103,7 +2103,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2146,7 +2146,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2180,8 +2180,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 55,
-   "shown": 55,
+   "count": 56,
+   "shown": 56,
    "providers": [
     {
      "name": "Blue Apron",
@@ -2199,7 +2199,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2242,7 +2242,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2285,7 +2285,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2328,7 +2328,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2371,7 +2371,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2414,7 +2414,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2457,7 +2457,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2500,7 +2500,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2542,7 +2542,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2585,7 +2585,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2628,7 +2628,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2671,7 +2671,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2713,7 +2713,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2756,7 +2756,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2799,7 +2799,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2842,7 +2842,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2885,7 +2885,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2928,7 +2928,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2971,7 +2971,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3014,7 +3014,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3057,7 +3057,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3100,7 +3100,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3143,7 +3143,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3186,7 +3186,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3229,7 +3229,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3272,7 +3272,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3315,7 +3315,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3403,7 +3403,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3452,7 +3452,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3495,7 +3495,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3538,7 +3538,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3626,7 +3626,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3668,7 +3668,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3711,7 +3711,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3754,7 +3754,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3797,7 +3797,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3884,7 +3884,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3926,7 +3926,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3968,7 +3968,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4054,7 +4054,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4097,7 +4097,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4140,7 +4140,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4269,7 +4269,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4356,7 +4356,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4399,7 +4399,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4427,30 +4427,23 @@
      "rank": 100
     },
     {
-     "name": "Yassir",
-     "slug": "yassir",
-     "description": "Yassir is an Algerian-founded super app providing on-demand and financial services across the Maghreb, sub-Saharan Africa, Canada, and France. Founded in 2017 by Noureddine Tayebi and headquartered in Palo Alto, California with operations centered in Algiers, the company bundles ride-hailing (Yassir Ride), food delivery (Yassir Food), grocery delivery (Yassir Market), and digital financial services (Yassir Cash) into a single consumer mobile app, alongside a Yassir B2B suite covering corporate mobility, meal benefits, procurement, parcel delivery, and digital gift cards. Yassir reports more than six million users, 130,000+ driver and merchant partners, and 4,500 employees operating across cities in Algeria, Morocco, Tunisia, South Africa, Senegal, Canada, and France. The company has raised roughly $193M to date, including a $150M Series B led by BOND with participation from Y Combinator and DN Capital, and a global sponsorship partnership with Paris Saint-Germain. Yassir is a consumer and merchant-facing super app: it operates iOS and Android apps and a business portal (go-business.yassir.com) but does not publish a public developer API, SDK, OpenAPI specification, or open-source project. Driver, courier, restaurant, and store onboarding flow through partner sign-up forms rather than a developer program, and the yassir-tech GitHub organization currently has no public repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yassir/refs/heads/main/screenshots/yassir-2026-06-20T201734.png",
-     "score": 3.3,
+     "name": "Zomato",
+     "slug": "zomato",
+     "description": "Zomato is a company surfaced as a portfolio company of d1-capital, softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: food. This profile is a lead awaiting the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zomato/refs/heads/main/screenshots/zomato-2026-09-02T171826.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4477,22 +4470,22 @@
      "rank": 101
     },
     {
-     "name": "Noon",
-     "slug": "noon",
-     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
-     "score": 1.5,
+     "name": "Yassir",
+     "slug": "yassir",
+     "description": "Yassir is an Algerian-founded super app providing on-demand and financial services across the Maghreb, sub-Saharan Africa, Canada, and France. Founded in 2017 by Noureddine Tayebi and headquartered in Palo Alto, California with operations centered in Algiers, the company bundles ride-hailing (Yassir Ride), food delivery (Yassir Food), grocery delivery (Yassir Market), and digital financial services (Yassir Cash) into a single consumer mobile app, alongside a Yassir B2B suite covering corporate mobility, meal benefits, procurement, parcel delivery, and digital gift cards. Yassir reports more than six million users, 130,000+ driver and merchant partners, and 4,500 employees operating across cities in Algeria, Morocco, Tunisia, South Africa, Senegal, Canada, and France. The company has raised roughly $193M to date, including a $150M Series B led by BOND with participation from Y Combinator and DN Capital, and a global sponsorship partnership with Paris Saint-Germain. Yassir is a consumer and merchant-facing super app: it operates iOS and Android apps and a business portal (go-business.yassir.com) but does not publish a public developer API, SDK, OpenAPI specification, or open-source project. Driver, courier, restaurant, and store onboarding flow through partner sign-up forms rather than a developer program, and the yassir-tech GitHub organization currently has no public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yassir/refs/heads/main/screenshots/yassir-2026-06-20T201734.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4527,10 +4520,10 @@
      "rank": 102
     },
     {
-     "name": "Swoop",
-     "slug": "swoop",
-     "description": "Swoop (formerly Thumo) is an African super-app building toward a single consumer platform for everyday commerce, starting with same-day food delivery and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding areas) and Eswatini, where it launched in 2025 and became the country's largest ecommerce platform. The app offers real-time order tracking, transparent upfront pricing, in-app support, and payments via card, bank transfer and OPay, with plans to add a payments app and further services on the road to a pan-African super-app. Founded by Thiel Fellow Aubrey Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with participation from Version One Ventures, Long Journey, Variant, Soma Capital and Dune. Swoop is a consumer-facing mobile and web platform; it does not currently publish a public developer API, OpenAPI specification, SDKs, or developer documentation. This profile was surfaced as a Version One Ventures portfolio company and enriched as an identity-only lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/screenshots/swoop-2026-09-02T161422.png",
+     "name": "Noon",
+     "slug": "noon",
+     "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/noon/refs/heads/main/screenshots/noon-2026-08-07T185509.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4542,7 +4535,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4575,6 +4568,56 @@
       "agentic_commerce": false
      },
      "rank": 103
+    },
+    {
+     "name": "Swoop",
+     "slug": "swoop",
+     "description": "Swoop (formerly Thumo) is an African super-app building toward a single consumer platform for everyday commerce, starting with same-day food delivery and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding areas) and Eswatini, where it launched in 2025 and became the country's largest ecommerce platform. The app offers real-time order tracking, transparent upfront pricing, in-app support, and payments via card, bank transfer and OPay, with plans to add a payments app and further services on the road to a pan-African super-app. Founded by Thiel Fellow Aubrey Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with participation from Version One Ventures, Long Journey, Variant, Soma Capital and Dune. Swoop is a consumer-facing mobile and web platform; it does not currently publish a public developer API, OpenAPI specification, SDKs, or developer documentation. This profile was surfaced as a Version One Ventures portfolio company and enriched as an identity-only lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/screenshots/swoop-2026-09-02T161422.png",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
     }
    ]
   }

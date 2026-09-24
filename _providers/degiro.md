@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,37 +64,37 @@ apis:
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The config API from DEGIRO — 1 operation(s) for config.
-  name: DEGIRO config API
+  name: DEGIRO Config API
   slug: degiro-config-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The login API from DEGIRO — 1 operation(s) for login.
-  name: DEGIRO login API
+  name: DEGIRO Login API
   slug: degiro-login-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The pa API from DEGIRO — 3 operation(s) for pa.
-  name: DEGIRO pa API
+  name: DEGIRO Pa API
   slug: degiro-pa-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The product-search API from DEGIRO — 1 operation(s) for product-search.
-  name: DEGIRO product-search API
+  name: DEGIRO Product Search API
   slug: degiro-product-search-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The reporting API from DEGIRO — 2 operation(s) for reporting.
-  name: DEGIRO reporting API
+  name: DEGIRO Reporting API
   slug: degiro-reporting-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The settings API from DEGIRO — 4 operation(s) for settings.
-  name: DEGIRO settings API
+  name: DEGIRO Settings API
   slug: degiro-settings-api
 - baseURL: https://trader.degiro.nl
   baseurl_source: declared
   description: The trading API from DEGIRO — 4 operation(s) for trading.
-  name: DEGIRO trading API
+  name: DEGIRO Trading API
   slug: degiro-trading-api
 artifact_total: 36
 collections:
@@ -220,7 +220,7 @@ modified: '2026-06-13'
 name: DEGIRO
 nav: Providers
 network: true
-overview: 'DEGIRO publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Product Search API, Reporting API, config API, and 6 more. Tagged areas include Trading, Brokerage, Stocks, ETFs, and Portfolio.
+overview: 'DEGIRO publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Product Search API, Reporting API, Config API, and 6 more. Tagged areas include Trading, Brokerage, Stocks, ETFs, and Portfolio.
 
 
   The DEGIRO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -280,7 +280,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

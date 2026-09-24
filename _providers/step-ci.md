@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Step CI is an open source API Quality Assurance framework that is language-agnostic and configured using YAML, JSON, or JavaScript. It supports REST, GraphQL, gRPC, tRPC, and SOAP, enabling tests acro
   name: Step CI
   slug: step-ci
-artifact_total: 11
+artifact_total: 10
 common:
 - group: operate
   title: ''
@@ -92,10 +92,6 @@ finops:
 - name: Step Ci Finops
   service_category: API
   slug: step-ci-finops
-graphqls:
-- description: ''
-  name: Step CI GraphQL API
-  slug: step-ci-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/step-ci.png
 json_schemas:
 - name: Step CI Workflow
@@ -146,7 +142,7 @@ score:
   band: emerging
   composite: 19.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -165,7 +161,7 @@ score:
     score: 25.0
   previous_composite: 19.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,6 +181,6 @@ tags:
 - CI/CD
 - Quality Assurance
 - Automation
-- Open-Source
+- Open Source
 website: https://stepci.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -963,7 +963,7 @@ modified: '2026-05-19'
 name: Temenos
 nav: Providers
 network: true
-overview: 'Temenos publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Accounts Arrangement Details API, Alert Management API, and 55 more. Tagged areas include Banking, Cloud Banking, Core Banking, Digital Banking, and Financial-Services.
+overview: 'Temenos publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Accounts Arrangement Details API, Alert Management API, and 55 more. Tagged areas include Banking, Cloud Banking, Core Banking, Digital Banking, and Financial Services.
 
 
   The Temenos catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1050,7 +1050,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1071,10 +1071,11 @@ tags:
 - Cloud Banking
 - Core Banking
 - Digital Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Open Banking
 - Payments
 - Wealth Management
+- Real-Time
 website: https://www.temenos.com
 ---

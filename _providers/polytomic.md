@@ -35,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 63
+- acting_count: 62
   human_in_the_loop: 2
   name: Polytomic Agentic Access
   operation_count: 128
   slug: polytomic-agentic-access
-  summary_line: 128 operations · 63 acting · 2 human-in-the-loop
+  summary_line: 128 operations · 62 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_bulkSync API from Polytomic — 8 operation(s) for subpackage_bulksync.
-  name: Polytomic subpackage_bulkSync API
+  name: Polytomic Subpackage Bulk Sync API
   slug: polytomic-subpackage-bulksync-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
@@ -58,97 +58,97 @@ apis:
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_bulkSync.subpackage_bulkSync/schedules API from Polytomic — 2 operation(s) for subpackage_bulksync.subpackage_bulksync/schedules.
-  name: Polytomic subpackage_bulkSync.subpackage_bulkSync/schedules API
+  name: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schedules API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_bulkSync.subpackage_bulkSync/schemas API from Polytomic — 3 operation(s) for subpackage_bulksync.subpackage_bulksync/schemas.
-  name: Polytomic subpackage_bulkSync.subpackage_bulkSync/schemas API
+  name: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schemas API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_connections API from Polytomic — 12 operation(s) for subpackage_connections.
-  name: Polytomic subpackage_connections API
+  name: Polytomic Subpackage Connections API
   slug: polytomic-subpackage-connections-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_entities API from Polytomic — 2 operation(s) for subpackage_entities.
-  name: Polytomic subpackage_entities API
+  name: Polytomic Subpackage Entities API
   slug: polytomic-subpackage-entities-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_events API from Polytomic — 2 operation(s) for subpackage_events.
-  name: Polytomic subpackage_events API
+  name: Polytomic Subpackage Events API
   slug: polytomic-subpackage-events-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_identity API from Polytomic — 1 operation(s) for subpackage_identity.
-  name: Polytomic subpackage_identity API
+  name: Polytomic Subpackage Identity API
   slug: polytomic-subpackage-identity-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_jobs API from Polytomic — 1 operation(s) for subpackage_jobs.
-  name: Polytomic subpackage_jobs API
+  name: Polytomic Subpackage Jobs API
   slug: polytomic-subpackage-jobs-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_models API from Polytomic — 6 operation(s) for subpackage_models.
-  name: Polytomic subpackage_models API
+  name: Polytomic Subpackage Models API
   slug: polytomic-subpackage-models-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_modelSync API from Polytomic — 9 operation(s) for subpackage_modelsync.
-  name: Polytomic subpackage_modelSync API
+  name: Polytomic Subpackage Model Sync API
   slug: polytomic-subpackage-modelsync-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_modelSync.subpackage_modelSync/executions API from Polytomic — 6 operation(s) for subpackage_modelsync.subpackage_modelsync/executions.
-  name: Polytomic subpackage_modelSync.subpackage_modelSync/executions API
+  name: Polytomic Subpackage Model Sync.subpackage Model Sync/executions API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_modelSync.subpackage_modelSync/targets API from Polytomic — 3 operation(s) for subpackage_modelsync.subpackage_modelsync/targets.
-  name: Polytomic subpackage_modelSync.subpackage_modelSync/targets API
+  name: Polytomic Subpackage Model Sync.subpackage Model Sync/targets API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_notifications API from Polytomic — 1 operation(s) for subpackage_notifications.
-  name: Polytomic subpackage_notifications API
+  name: Polytomic Subpackage Notifications API
   slug: polytomic-subpackage-notifications-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_organization API from Polytomic — 3 operation(s) for subpackage_organization.
-  name: Polytomic subpackage_organization API
+  name: Polytomic Subpackage Organization API
   slug: polytomic-subpackage-organization-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_permissions.subpackage_permissions/policies API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/policies.
-  name: Polytomic subpackage_permissions.subpackage_permissions/policies API
+  name: Polytomic Subpackage Permissions.subpackage Permissions/policies API
   slug: polytomic-subpackage-permissions-subpackage-permissions-policies-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_permissions.subpackage_permissions/roles API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/roles.
-  name: Polytomic subpackage_permissions.subpackage_permissions/roles API
+  name: Polytomic Subpackage Permissions.subpackage Permissions/roles API
   slug: polytomic-subpackage-permissions-subpackage-permissions-roles-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_queryRunner API from Polytomic — 2 operation(s) for subpackage_queryrunner.
-  name: Polytomic subpackage_queryRunner API
+  name: Polytomic Subpackage Query Runner API
   slug: polytomic-subpackage-queryrunner-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_schemas API from Polytomic — 7 operation(s) for subpackage_schemas.
-  name: Polytomic subpackage_schemas API
+  name: Polytomic Subpackage Schemas API
   slug: polytomic-subpackage-schemas-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_users API from Polytomic — 5 operation(s) for subpackage_users.
-  name: Polytomic subpackage_users API
+  name: Polytomic Subpackage Users API
   slug: polytomic-subpackage-users-api
 - baseURL: https://app.polytomic.com
   baseurl_source: declared
   description: The subpackage_webhooks API from Polytomic — 4 operation(s) for subpackage_webhooks.
-  name: Polytomic subpackage_webhooks API
+  name: Polytomic Subpackage Webhooks API
   slug: polytomic-subpackage-webhooks-api
 artifact_total: 52
 collections:
@@ -287,7 +287,7 @@ modified: '2026-05-19'
 name: Polytomic
 nav: Providers
 network: true
-overview: 'Polytomic publishes 21 APIs on the [APIs.io](https://apis.io/) network, including subpackage_bulkSync API, subpackage_bulkSync.subpackage_bulkSync/executions API, subpackage_bulkSync.subpackage_bulkSync/schedules API, and 18 more. Tagged areas include Data Integration, Reverse ETL, Unified-API, ELT, and Data Sync.
+overview: 'Polytomic publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Bulk Sync API, subpackage_bulkSync.subpackage_bulkSync/executions API, Subpackage Bulk Sync.subpackage Bulk Sync/schedules API, and 18 more. Tagged areas include Data Integration, Reverse ETL, Unified API, ELT, and Data Sync.
 
 
   Polytomic''s developer surface includes authentication, documentation, API reference, GitHub presence, engineering blog, and 7 more developer resources.'
@@ -327,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -354,7 +354,7 @@ slug: polytomic
 tags:
 - Data Integration
 - Reverse ETL
-- Unified-API
+- Unified API
 - ELT
 - Data Sync
 website: https://www.polytomic.com/

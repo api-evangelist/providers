@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Bls Gov Agentic Access
   operation_count: 5
   slug: bls-gov-agentic-access
-  summary_line: 5 operations · 1 acting
+  summary_line: 5 operations
 api_count: 1
 apis:
 - baseURL: https://api.bls.gov/publicAPI/v2
@@ -168,7 +168,7 @@ modified: '2026-05-25'
 name: Bureau of Labor Statistics
 nav: Providers
 network: true
-overview: 'Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal-Government, Labor Statistics, Economic Data, Consumer Price Index, and Producer Price Index.
+overview: 'Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Popular Series API, Surveys API, and Time Series API. Tagged areas include Federal Government, Labor Statistics, Economic Data, Consumer Price Index, and Producer Price Index.
 
 
   The Bureau of Labor Statistics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -238,7 +238,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -255,7 +255,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: bls-gov
 tags:
-- Federal-Government
+- Federal Government
 - Labor Statistics
 - Economic Data
 - Consumer Price Index
@@ -266,5 +266,6 @@ tags:
 - Productivity
 - Open Data
 - Time Series
+- Government Data
 website: https://www.bls.gov/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ arazzos:
 - description: Read an endpoint's current state, then pause it if running or resume it if paused.
   name: Hugging Face Toggle Inference Endpoint State
   slug: hugging-face-toggle-endpoint-state-workflow
-artifact_total: 459
+artifact_total: 458
 collections:
 - collection_type: postman
   name: Hugging Face Dataset Viewer API
@@ -989,10 +989,6 @@ finops:
 - name: Hugging Face Finops
   service_category: AI Infrastructure
   slug: hugging-face-finops
-graphqls:
-- description: 'This conceptual GraphQL schema models the Hugging Face AI platform, covering the full surface area of its public APIs: the Hub API for managing models, datasets, and spaces; the Inference API for runn'
-  name: Hugging Face GraphQL Schema
-  slug: hugging-face-graphql
 image: https://huggingface.co/front/assets/huggingface_logo.svg
 json_schemas:
 - name: ChatCompletionRequest
@@ -1658,7 +1654,7 @@ modified: '2026-09-16'
 name: Hugging Face
 nav: Providers
 network: true
-overview: 'Hugging Face publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Chat Completions API, and 18 more. Tagged areas include Computer-Vision, Embeddings, Image-Generation, LLM, and Hugging Face.
+overview: 'Hugging Face publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Chat Completions API, and 18 more. Tagged areas include Computer Vision, Embeddings, Image Generation, LLM, and Hugging Face.
 
 
   The Hugging Face catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1701,19 +1697,19 @@ rules:
   slug: hugging-face-spectral-rules
 score:
   band: exemplar
-  composite: 68.9
+  composite: 68.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 71.5
     catalog_earned_first_party: 24.0
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 77.6
     contract_governance: 13.6
-    contract_quality: 68.4
+    contract_quality: 64.3
     developer_ergonomics: 82.1
     discoverability: 66.7
     operational_transparency: 68.4
@@ -1729,7 +1725,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1784,9 +1780,9 @@ skills:
   slug: transformers-js
 slug: hugging-face
 tags:
-- Computer-Vision
+- Computer Vision
 - Embeddings
-- Image-Generation
+- Image Generation
 - LLM
 - Hugging Face
 use_cases:

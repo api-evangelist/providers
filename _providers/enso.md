@@ -36,53 +36,53 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The ccip API from Enso — 2 operation(s) for ccip.
-  name: Enso ccip API
+  name: Enso Ccip API
   slug: enso-ccip-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The cctp API from Enso — 3 operation(s) for cctp.
-  name: Enso cctp API
+  name: Enso Cctp API
   slug: enso-cctp-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The layerzero API from Enso — 4 operation(s) for layerzero.
-  name: Enso layerzero API
+  name: Enso Layerzero API
   slug: enso-layerzero-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The metadata API from Enso — 8 operation(s) for metadata.
-  name: Enso metadata API
+  name: Enso Metadata API
   slug: enso-metadata-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The projects API from Enso — 2 operation(s) for projects.
-  name: Enso projects API
+  name: Enso Projects API
   slug: enso-projects-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The relay API from Enso — 1 operation(s) for relay.
-  name: Enso relay API
+  name: Enso Relay API
   slug: enso-relay-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The shortcuts API from Enso — 5 operation(s) for shortcuts.
-  name: Enso shortcuts API
+  name: Enso Shortcuts API
   slug: enso-shortcuts-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The standards API from Enso — 4 operation(s) for standards.
-  name: Enso standards API
+  name: Enso Standards API
   slug: enso-standards-api
 - baseURL: https://api.enso.finance
   baseurl_source: declared
   description: The wallet API from Enso — 2 operation(s) for wallet.
-  name: Enso wallet API
+  name: Enso Wallet API
   slug: enso-wallet-api
 artifact_total: 22
 collections:
@@ -244,7 +244,7 @@ modified: '2026-07-19'
 name: Enso
 nav: Providers
 network: true
-overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ccip API, cctp API, layerzero API, and 6 more. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Cross-Chain.
+overview: 'Enso publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Ccip API, Cctp API, Layerzero API, and 6 more. Tagged areas include Company, Crypto Web3, DeFi, Blockchain, and Cross-Chain.
 
 
   Enso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
@@ -282,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

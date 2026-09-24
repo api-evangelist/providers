@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Google Flutter
 nav: Providers
 network: true
-overview: 'Google Flutter publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documentation API and Packages API. Tagged areas include Cross-Platform, Dart, Google, Mobile Development, and Open-Source.
+overview: 'Google Flutter publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documentation API and Packages API. Tagged areas include Cross-Platform, Dart, Google, Mobile Development, and Open Source.
 
 
   The Google Flutter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -250,7 +250,7 @@ tags:
 - Dart
 - Google
 - Mobile Development
-- Open-Source
+- Open Source
 - UI Framework
 website: https://www.flutter.dev/
 ---

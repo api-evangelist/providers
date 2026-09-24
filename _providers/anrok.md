@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 10
   human_in_the_loop: 0
   name: Anrok Agentic Access
   operation_count: 17
   slug: anrok-agentic-access
-  summary_line: 17 operations · 17 acting
+  summary_line: 17 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.anrok.com
@@ -362,7 +362,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

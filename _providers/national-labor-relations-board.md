@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: NLRB case data including Unfair Labor Practice and Elections data from the Case Activity Tracking System available on data.gov.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: National Labor Relations Board
 nav: Providers
 network: true
-overview: 'National Labor Relations Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Employment, Federal-Government, and Labor.
+overview: 'National Labor Relations Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Employment, Federal Government, and Labor.
 
 
   National Labor Relations Board''s developer surface includes developer portal and 3 more developer resources.'
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ security:
 slug: national-labor-relations-board
 tags:
 - Employment
-- Federal-Government
+- Federal Government
 - Labor
 website: https://www.nlrb.gov/
 ---

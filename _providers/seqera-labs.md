@@ -34,148 +34,148 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Pipeline actions
-  name: Seqera Labs actions API
+  name: Seqera Labs Actions API
   slug: seqera-labs-actions-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The admin API from Seqera Labs — 3 operation(s) for admin.
-  name: Seqera Labs admin API
+  name: Seqera Labs Admin API
   slug: seqera-labs-admin-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The agents API from Seqera Labs — 4 operation(s) for agents.
-  name: Seqera Labs agents API
+  name: Seqera Labs Agents API
   slug: seqera-labs-agents-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Avatars
-  name: Seqera Labs avatars API
+  name: Seqera Labs Avatars API
   slug: seqera-labs-avatars-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Compute environments
-  name: Seqera Labs compute-envs API
+  name: Seqera Labs Compute Envs API
   slug: seqera-labs-compute-envs-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Credentials
-  name: Seqera Labs credentials API
+  name: Seqera Labs Credentials API
   slug: seqera-labs-credentials-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Cloud storage directory paths in Data Explorer
-  name: Seqera Labs data-links API
+  name: Seqera Labs Data Links API
   slug: seqera-labs-data-links-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Pipeline input datasets (samplesheets) in CSV or TSV format
-  name: Seqera Labs datasets API
+  name: Seqera Labs Datasets API
   slug: seqera-labs-datasets-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: GA4GH workflow execution service runs
-  name: Seqera Labs ga4gh API
+  name: Seqera Labs Ga4gh API
   slug: seqera-labs-ga4gh-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The identities API from Seqera Labs — 4 operation(s) for identities.
-  name: Seqera Labs identities API
+  name: Seqera Labs Identities API
   slug: seqera-labs-identities-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Labels and resource labels
-  name: Seqera Labs labels API
+  name: Seqera Labs Labels API
   slug: seqera-labs-labels-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Workflow launch events
-  name: Seqera Labs launch API
+  name: Seqera Labs Launch API
   slug: seqera-labs-launch-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Organizations
-  name: Seqera Labs orgs API
+  name: Seqera Labs Orgs API
   slug: seqera-labs-orgs-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The pipeline-schemas API from Seqera Labs — 1 operation(s) for pipeline-schemas.
-  name: Seqera Labs pipeline-schemas API
+  name: Seqera Labs Pipeline Schemas API
   slug: seqera-labs-pipeline-schemas-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Pipeline secrets in a user or workspace context
-  name: Seqera Labs pipeline-secrets API
+  name: Seqera Labs Pipeline Secrets API
   slug: seqera-labs-pipeline-secrets-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The pipeline-versions API from Seqera Labs — 4 operation(s) for pipeline-versions.
-  name: Seqera Labs pipeline-versions API
+  name: Seqera Labs Pipeline Versions API
   slug: seqera-labs-pipeline-versions-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Pipelines
-  name: Seqera Labs pipelines API
+  name: Seqera Labs Pipelines API
   slug: seqera-labs-pipelines-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Computing platforms
-  name: Seqera Labs platforms API
+  name: Seqera Labs Platforms API
   slug: seqera-labs-platforms-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The roles API from Seqera Labs — 4 operation(s) for roles.
-  name: Seqera Labs roles API
+  name: Seqera Labs Roles API
   slug: seqera-labs-roles-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Seqera Platform API service information
-  name: Seqera Labs service-info API
+  name: Seqera Labs Service Info API
   slug: seqera-labs-service-info-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: The ssh-keys API from Seqera Labs — 4 operation(s) for ssh-keys.
-  name: Seqera Labs ssh-keys API
+  name: Seqera Labs Ssh Keys API
   slug: seqera-labs-ssh-keys-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Studios and Studio sessions
-  name: Seqera Labs studios API
+  name: Seqera Labs Studios API
   slug: seqera-labs-studios-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Teams in an organization context
-  name: Seqera Labs teams API
+  name: Seqera Labs Teams API
   slug: seqera-labs-teams-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: API access tokens
-  name: Seqera Labs tokens API
+  name: Seqera Labs Tokens API
   slug: seqera-labs-tokens-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Workflow execution traces
-  name: Seqera Labs trace API
+  name: Seqera Labs Trace API
   slug: seqera-labs-trace-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Users
-  name: Seqera Labs users API
+  name: Seqera Labs Users API
   slug: seqera-labs-users-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Workflow executions
-  name: Seqera Labs workflows API
+  name: Seqera Labs Workflows API
   slug: seqera-labs-workflows-api
 - baseURL: https://api.cloud.seqera.io
   baseurl_source: declared
   description: Workspaces in an organization context
-  name: Seqera Labs workspaces API
+  name: Seqera Labs Workspaces API
   slug: seqera-labs-workspaces-api
 artifact_total: 62
 collections:
@@ -441,7 +441,7 @@ modified: '2026-07-21'
 name: Seqera Labs
 nav: Providers
 network: true
-overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including actions API, admin API, agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipeline, and Scientific Computing.
+overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin API, Agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipeline, and Scientific Computing.
 
 
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
@@ -460,7 +460,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 4.5
@@ -468,7 +468,7 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 52.6
-  previous_composite: 60.1
+  previous_composite: 60.4
   provenance:
     conformance: derived
     contracts:
@@ -485,7 +485,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,37 +48,37 @@ apis:
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: The admin API from DFlow — 1 operation(s) for admin.
-  name: DFlow admin API
+  name: DFlow Admin API
   slug: dflow-admin-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Intent trading endpoints
-  name: DFlow intent API
+  name: DFlow Intent API
   slug: dflow-intent-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Order API endpoints
-  name: DFlow order API
+  name: DFlow Order API
   slug: dflow-order-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Prediction market endpoints
-  name: DFlow prediction_market API
+  name: DFlow Prediction Market API
   slug: dflow-prediction-market-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Swap API endpoints
-  name: DFlow swap API
+  name: DFlow Swap API
   slug: dflow-swap-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Token endpoints
-  name: DFlow tokens API
+  name: DFlow Tokens API
   slug: dflow-tokens-api
 - baseURL: https://quote-api.dflow.net
   baseurl_source: declared
   description: Venue endpoints
-  name: DFlow venues API
+  name: DFlow Venues API
   slug: dflow-venues-api
 artifact_total: 20
 asyncapis:
@@ -235,7 +235,7 @@ modified: '2026-07-18'
 name: DFlow
 nav: Providers
 network: true
-overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including admin API, intent API, order API, and 4 more. Tagged areas include Company, Crypto Web3, Solana, Trading API, and DeFi.
+overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Intent API, Order API, and 4 more. Tagged areas include Company, Crypto Web3, Solana, Trading API, and DeFi.
 
 
   The DFlow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -279,7 +279,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -307,5 +307,6 @@ tags:
 - MEV Protection
 - Prediction Markets
 - Agent Ready
+- Real-Time
 website: https://dflow.net
 ---

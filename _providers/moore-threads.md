@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -186,7 +186,7 @@ modified: '2026-08-26'
 name: Moore Threads
 nav: Providers
 network: true
-overview: 'Moore Threads publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine-Learning, and Semiconductors.
+overview: 'Moore Threads publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine Learning, and Semiconductors.
 
 
   The Moore Threads catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -232,7 +232,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -253,7 +253,7 @@ tags:
 - Company
 - GPU
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 - Speech Recognition
 - Text-to-Speech

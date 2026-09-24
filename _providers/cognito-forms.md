@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-09-16'
 name: Cognito Forms
 nav: Providers
 network: true
-overview: 'Cognito Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Files API, and 3 more. Tagged areas include Forms, Form Builder, Form Entries, Workflow-Automation, and Data Collection.
+overview: 'Cognito Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Files API, and 3 more. Tagged areas include Forms, Form Builder, Form Entries, Workflow Automation, and Data Collection.
 
 
   The Cognito Forms catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -279,7 +279,7 @@ tags:
 - Forms
 - Form Builder
 - Form Entries
-- Workflow-Automation
+- Workflow Automation
 - Data Collection
 - OData
 website: https://www.cognitoforms.com

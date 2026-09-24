@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 10
   human_in_the_loop: 0
   name: Steel Dev Agentic Access
   operation_count: 17
   slug: steel-dev-agentic-access
-  summary_line: 17 operations · 12 acting
+  summary_line: 17 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://api.steel.dev/v1
@@ -144,7 +144,7 @@ modified: '2026-06-20'
 name: Steel
 nav: Providers
 network: true
-overview: 'Steel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Files API, Quick Actions API, Session Actions API, and 1 more. Tagged areas include Browser, Web Automation, Scraping, AI Agents, and Open-Source.
+overview: 'Steel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Files API, Quick Actions API, Session Actions API, and 1 more. Tagged areas include Browser, Web Automation, Scraping, AI Agents, and Open Source.
 
 
   Steel''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -204,6 +204,6 @@ tags:
 - Web Automation
 - Scraping
 - AI Agents
-- Open-Source
+- Open Source
 website: https://steel.dev
 ---

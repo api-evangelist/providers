@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Programmatic access to Tubular's cross-platform social video intelligence — creator, video, and audience data across YouTube, Instagram, Facebook, Twitch, and other platforms — for brand-mention monit
@@ -99,7 +99,7 @@ modified: '2026-07-21'
 name: Tubular Labs
 nav: Providers
 network: true
-overview: 'Tubular Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social-Media, Analytics, and Intelligence.
+overview: 'Tubular Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social Media, Analytics, and Intelligence.
 
 
   Tubular Labs'' developer surface includes documentation, API reference, pricing, engineering blog, signup flow, and 7 more developer resources.'
@@ -126,7 +126,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ slug: tubular-labs
 tags:
 - Company
 - Video
-- Social-Media
+- Social Media
 - Analytics
 - Intelligence
 - Creators

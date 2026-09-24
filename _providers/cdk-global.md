@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The adopt API from CDK Global — 2 operation(s) for adopt.
-  name: CDK Global adopt API
+  name: CDK Global Adopt API
   slug: cdk-global-adopt-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
@@ -71,27 +71,27 @@ apis:
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The cancel API from CDK Global — 1 operation(s) for cancel.
-  name: CDK Global cancel API
+  name: CDK Global Cancel API
   slug: cdk-global-cancel-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The create API from CDK Global — 1 operation(s) for create.
-  name: CDK Global create API
+  name: CDK Global Create API
   slug: cdk-global-create-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The events API from CDK Global — 1 operation(s) for events.
-  name: CDK Global events API
+  name: CDK Global Events API
   slug: cdk-global-events-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The manage API from CDK Global — 1 operation(s) for manage.
-  name: CDK Global manage API
+  name: CDK Global Manage API
   slug: cdk-global-manage-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The query API from CDK Global — 6 operation(s) for query.
-  name: CDK Global query API
+  name: CDK Global Query API
   slug: cdk-global-query-api
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
@@ -101,7 +101,7 @@ apis:
 - baseURL: https://api.fortellis.io
   baseurl_source: declared
   description: The update API from CDK Global — 1 operation(s) for update.
-  name: CDK Global update API
+  name: CDK Global Update API
   slug: cdk-global-update-api
 arazzos:
 - description: Create a booking session, add a requested service item, and read it back.
@@ -491,7 +491,7 @@ modified: '2026-05-23'
 name: CDK Global
 nav: Providers
 network: true
-overview: 'CDK Global publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Fortellis Event Relay Data Plane Proxy (AsyncAPI), Fortellis AsyncAPI Hello World Reference, adopt API, and 9 more. Tagged areas include Automotive, Dealer Management, DMS, Auto Retail, and F&I.
+overview: 'CDK Global publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Fortellis Event Relay Data Plane Proxy (AsyncAPI), Fortellis AsyncAPI Hello World Reference, Adopt API, and 9 more. Tagged areas include Automotive, Dealer Management, DMS, Auto Retail, and F&I.
 
 
   The CDK Global catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -572,7 +572,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

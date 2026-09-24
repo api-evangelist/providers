@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 28
   human_in_the_loop: 0
   name: Drivewealth Agentic Access
   operation_count: 102
   slug: drivewealth-agentic-access
-  summary_line: 102 operations · 30 acting
+  summary_line: 102 operations · 28 acting
 api_count: 1
 apis:
 - description: Financial Information Exchange (FIX) protocol API for institutional-grade connectivity to DriveWealth's trading infrastructure.
@@ -497,7 +497,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -524,9 +524,9 @@ tags:
 - Options
 - Fixed Income
 - Mutual Funds
-- Portfolio-Management
+- Portfolio Management
 - Account Opening
 - KYC
-- Financial-Services
+- Financial Services
 website: https://drivewealth.com
 ---

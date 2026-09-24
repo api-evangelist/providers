@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The bi_added API from Datafold — 6 operation(s) for bi_added.
-  name: Datafold bi_added API
+  name: Datafold Bi Added API
   slug: datafold-bi-added-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
@@ -62,17 +62,17 @@ apis:
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The bi_deleted API from Datafold — 1 operation(s) for bi_deleted.
-  name: Datafold bi_deleted API
+  name: Datafold Bi Deleted API
   slug: datafold-bi-deleted-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The bi_modified API from Datafold — 6 operation(s) for bi_modified.
-  name: Datafold bi_modified API
+  name: Datafold Bi Modified API
   slug: datafold-bi-modified-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The bolt API from Datafold — 1 operation(s) for bolt.
-  name: Datafold bolt API
+  name: Datafold Bolt API
   slug: datafold-bolt-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
@@ -87,7 +87,7 @@ apis:
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The data_source_added API from Datafold — 1 operation(s) for data_source_added.
-  name: Datafold data_source_added API
+  name: Datafold Data Source Added API
   slug: datafold-data-source-added-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
@@ -97,7 +97,7 @@ apis:
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
   description: The diff_created API from Datafold — 1 operation(s) for diff_created.
-  name: Datafold diff_created API
+  name: Datafold Diff Created API
   slug: datafold-diff-created-api
 - baseURL: https://app.datafold.com/api/v1/
   baseurl_source: declared
@@ -246,7 +246,7 @@ modified: '2026-06-13'
 name: Datafold
 nav: Providers
 network: true
-overview: 'Datafold publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, bi_added API, BI API, and 10 more. Tagged areas include Data Reliability, Data Diff, Data Quality, Column-Level Lineage, and Data Pipeline.
+overview: 'Datafold publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Bi Added API, BI API, and 10 more. Tagged areas include Data Reliability, Data Diff, Data Quality, Column-Level Lineage, and Data Pipeline.
 
 
   The Datafold catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

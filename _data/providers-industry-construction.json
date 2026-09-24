@@ -16,18 +16,18 @@
      "slug": "bentley-systems",
      "description": "Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software company providing comprehensive applications and cloud services for the design, construction, and operations of infrastructure across roads, bridges, rail, water, energy, and the built environment. Bentley exposes its developer platform through iTwin — a digital twin platform with 30+ REST APIs covering iModel data management, reality capture, project scheduling, reporting, visualization, clash detection, and webhooks. The company reports $1.3 billion in annual revenue, ~5,500 colleagues across 42 countries, and serves 42,000 accounts in 189 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png",
-     "score": 62.6,
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 58.5,
+      "contract_quality": 55.9,
       "contract_governance": 13.6,
       "operational_transparency": 65.8,
       "developer_ergonomics": 82.1,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -59,18 +59,18 @@
      "slug": "agave",
      "description": "Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png",
-     "score": 61.1,
+     "score": 59.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 40.5,
+      "contract_quality": 35.6,
       "contract_governance": 33.3,
       "operational_transparency": 84.2,
       "developer_ergonomics": 78.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 42.5,
      "agent_band": "agent-native",
@@ -113,7 +113,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -148,49 +148,6 @@
      "rank": 3
     },
     {
-     "name": "Fieldwire",
-     "slug": "fieldwire",
-     "description": "Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png",
-     "score": 58.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 68.3,
-      "contract_governance": 13.6,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 56.0,
-      "access_clarity": 71.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Autodesk",
      "slug": "autodesk",
      "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
@@ -206,7 +163,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.9,
      "agent_band": "agent-ready",
@@ -231,7 +188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Terabase Energy",
@@ -249,7 +206,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -281,6 +238,49 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 5
+    },
+    {
+     "name": "Fieldwire",
+     "slug": "fieldwire",
+     "description": "Fieldwire is a construction field-management platform. Its API covers plans and drawings, tasks and punch lists, forms, change orders, budget line items and actual costs, BIM models, and the people and companies attached to a project.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png",
+     "score": 57.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 64.2,
+      "contract_governance": 13.6,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 56.0,
+      "access_clarity": 71.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 6
     },
     {
@@ -299,7 +299,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -348,7 +348,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -398,7 +398,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.5,
      "agent_band": "agent-aware",
@@ -433,8 +433,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 25,
-   "shown": 25,
+   "count": 24,
+   "shown": 24,
    "providers": [
     {
      "name": "Alasco",
@@ -452,7 +452,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 48.7,
      "agent_band": "agent-ready",
@@ -495,7 +495,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
@@ -538,7 +538,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -581,7 +581,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -624,7 +624,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -667,7 +667,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
@@ -710,7 +710,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.8,
      "agent_band": "agent-aware",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -785,18 +785,18 @@
      "slug": "autodesk-construction-cloud",
      "description": "Autodesk Construction Cloud (ACC) is a unified platform connecting workflows, teams, and data across the construction project lifecycle, integrating preconstruction, design collaboration, project management, and field execution tools. ACC provides REST APIs through the Autodesk Platform Services (APS) for programmatic access to project management, issues, RFIs, submittals, cost management, model coordination, and data export capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png",
-     "score": 50.2,
+     "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 77.6,
+      "contract_quality": 74.8,
       "contract_governance": 13.6,
       "operational_transparency": 42.1,
       "developer_ergonomics": 51.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -839,7 +839,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -889,7 +889,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -932,7 +932,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -975,7 +975,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1025,7 +1025,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -1068,7 +1068,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1111,7 +1111,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -1154,7 +1154,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1197,7 +1197,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1240,7 +1240,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -1283,7 +1283,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -1326,7 +1326,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1376,7 +1376,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -1419,7 +1419,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -1462,7 +1462,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -1488,49 +1488,6 @@
       "agentic_commerce": false
      },
      "rank": 33
-    },
-    {
-     "name": "Procore",
-     "slug": "procore",
-     "description": "Procore is a leading construction management platform that connects people, applications, and devices across a single source of truth. The Procore API enables developers to build custom apps and integrations, extract meaningful insights, integrate with other industry-leading construction solutions, and use Procore as a primary system of record. The platform supports the entire construction lifecycle including project management, financials, quality and safety, field productivity, and resource management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procore/refs/heads/main/screenshots/procore-2026-06-20T192130.png",
-     "score": 39.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 33.3,
-      "access_clarity": 57.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
     }
    ],
    "open": true
@@ -1540,8 +1497,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 25,
-   "shown": 25,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "CMiC",
@@ -1559,7 +1516,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1584,25 +1541,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Trimble",
      "slug": "trimble",
      "description": "Trimble Inc. is a global technology company that provides advanced positioning, navigation, and data analytics solutions across construction, agriculture, transportation, and geospatial industries. Founded in 1978 as Trimble Navigation Limited, the company integrates GPS, laser, optical, and inertial technologies with software and services. Trimble's developer platform spans construction collaboration (Trimble Connect), commercial vehicle routing (PC*MILER, Trimble Maps), building information modeling (Tekla, SketchUp), fleet management (TruckMate, TMT, CoPilot), precision positioning (Mobile Manager, TAP Store), and construction ERP (Viewpoint). Publicly traded on NASDAQ as TRMB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png",
-     "score": 39.2,
+     "score": 38.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 68.0,
+      "contract_quality": 66.4,
       "contract_governance": 28.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1627,7 +1584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "CNH",
@@ -1645,7 +1602,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1670,7 +1627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "RenooLab",
@@ -1687,7 +1644,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -1712,7 +1669,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "MatterPort",
@@ -1730,7 +1687,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -1755,6 +1712,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 38
+    },
+    {
+     "name": "Propeller Aero",
+     "slug": "propeller-aero",
+     "description": "Propeller Aero is a drone survey and earthworks analytics platform for construction, mining, aggregates, and waste sites. Teams fly a drone, process imagery with Propeller's AeroPoints ground control and photogrammetry pipeline, and get accurate 3D site surveys, terrain models, volumes, and progress tracking in the Propeller Platform. The Propeller Public API is a paid, premium feature (available on higher tiers such as Scale) that gives programmatic, read-oriented access to organizations, sites, workspaces, surveys, downloadable survey files (orthophotos, terrain, point clouds), user-defined shapes and their calculated widgets (volumes, distances, areas), and DirtMate position-monitoring data. It is a REST API over HTTPS authenticated with a Bearer access token or via OpenID Connect.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/screenshots/propeller-aero-2026-09-02T152151.png",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 52.4,
+      "contract_governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 27.4,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 24.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 39
     },
     {
@@ -1773,7 +1773,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1816,7 +1816,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -1859,7 +1859,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.9,
      "agent_band": "agent-ready",
@@ -1902,7 +1902,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1944,7 +1944,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -1987,7 +1987,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
@@ -2030,7 +2030,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -2073,7 +2073,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -2116,7 +2116,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2159,7 +2159,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2202,7 +2202,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2245,7 +2245,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2295,7 +2295,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2323,6 +2323,49 @@
      "rank": 52
     },
     {
+     "name": "Procore",
+     "slug": "procore",
+     "description": "Procore is a leading construction management platform that connects people, applications, and devices across a single source of truth. The Procore API enables developers to build custom apps and integrations, extract meaningful insights, integrate with other industry-leading construction solutions, and use Procore as a primary system of record. The platform supports the entire construction lifecycle including project management, financials, quality and safety, field productivity, and resource management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procore/refs/heads/main/screenshots/procore-2026-06-20T192130.png",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
+    },
+    {
      "name": "Navigate",
      "slug": "navigate",
      "description": "Navigate (NavigateAI) is a proptech company building an AI copilot for the physical world, helping field teams across construction, commercial real estate, homebuilding, data centers, and the trades complete projects faster, at higher quality, and lower cost. Its platform combines AI Capture for mobile visual documentation of project features and quality, AI Insights for on-demand expert coaching and upskilling, and AI Workflows for automating documentation and communication. Co-founded by Eric Wu and David Sinsky, Navigate is backed by Khosla Ventures, Affinity Partners, and Fifth Wall, with strategic investors including Tishman Speyer, Lennar, and Helix Electric. Navigate publishes a real external REST API (OpenAPI 3.1, bearer API-key auth) at https://api.navigateai.co for programmatically managing locations, visits, video captures, scopes, line items, work orders, and vendors.",
@@ -2338,7 +2381,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.1,
      "agent_band": "agent-aware",
@@ -2363,7 +2406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Alloovium",
@@ -2381,7 +2424,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -2406,7 +2449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "United States Steel",
@@ -2424,7 +2467,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2456,7 +2499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Revolutio",
@@ -2474,7 +2517,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2499,7 +2542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "STACK",
@@ -2517,7 +2560,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2542,7 +2585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "4M Analytics",
@@ -2560,7 +2603,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2592,7 +2635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Purchaser",
@@ -2610,7 +2653,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -2635,7 +2678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     }
    ]
   },
@@ -2644,8 +2687,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 97,
-   "shown": 97,
+   "count": 96,
+   "shown": 96,
    "providers": [
     {
      "name": "Raken",
@@ -2663,7 +2706,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -2688,7 +2731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Sherwin-Williams",
@@ -2706,7 +2749,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2731,7 +2774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Moxion Power Co",
@@ -2749,7 +2792,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2781,7 +2824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Nodes and Links",
@@ -2799,50 +2842,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Twindo",
-     "slug": "twindo",
-     "description": "Twindo (formerly Canvas, by Occipital Inc.) is a spatial intelligence platform that turns LiDAR scans captured with an iPhone or iPad into 99%-accurate, editable CAD and BIM as-built models compatible with Revit, AutoCAD, Archicad, Chief Architect, SketchUp, Vectorworks, and 2020 Design. The platform spans Scan to CAD, Plan to CAD, Point Cloud to BIM, a browser Web Viewer, and an enterprise SDK + API for integrating reality capture and structured spatial data into custom workflows. Twindo publishes a machine-readable \"LLM JSON API\" company profile for LLMs and agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twindo/refs/heads/main/screenshots/twindo-2026-09-02T164627.png",
-     "score": 24.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 40.5,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2870,42 +2870,42 @@
      "rank": 64
     },
     {
-     "name": "Propeller Aero",
-     "slug": "propeller-aero",
-     "description": "Propeller Aero is a drone survey and earthworks analytics platform for construction, mining, aggregates, and waste sites. Teams fly a drone, process imagery with Propeller's AeroPoints ground control and photogrammetry pipeline, and get accurate 3D site surveys, terrain models, volumes, and progress tracking in the Propeller Platform. The Propeller Public API is a paid, premium feature (available on higher tiers such as Scale) that gives programmatic, read-oriented access to organizations, sites, workspaces, surveys, downloadable survey files (orthophotos, terrain, point clouds), user-defined shapes and their calculated widgets (volumes, distances, areas), and DirtMate position-monitoring data. It is a REST API over HTTPS authenticated with a Bearer access token or via OpenID Connect.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/screenshots/propeller-aero-2026-09-02T152151.png",
-     "score": 24.2,
+     "name": "Twindo",
+     "slug": "twindo",
+     "description": "Twindo (formerly Canvas, by Occipital Inc.) is a spatial intelligence platform that turns LiDAR scans captured with an iPhone or iPad into 99%-accurate, editable CAD and BIM as-built models compatible with Revit, AutoCAD, Archicad, Chief Architect, SketchUp, Vectorworks, and 2020 Design. The platform spans Scan to CAD, Plan to CAD, Point Cloud to BIM, a browser Web Viewer, and an enterprise SDK + API for integrating reality capture and structured spatial data into custom workflows. Twindo publishes a machine-readable \"LLM JSON API\" company profile for LLMs and agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twindo/refs/heads/main/screenshots/twindo-2026-09-02T164627.png",
+     "score": 24.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 27.4,
-      "access_clarity": 47.4
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 40.5,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 24.5,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "documented",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -2928,7 +2928,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2971,7 +2971,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 16.0,
      "agent_band": "agent-aware",
@@ -2999,49 +2999,6 @@
      "rank": 67
     },
     {
-     "name": "John Deere",
-     "slug": "john-deere",
-     "description": "John Deere is a renowned American corporation that specializes in manufacturing agricultural, construction, and forestry machinery. The company, founded in 1837 by John Deere, has a long history of innovation and has become a leader in the industry. John Deere's products include tractors, combines, excavators, and other equipment designed to support and improve farming and construction operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png",
-     "score": 23.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
      "name": "Cornerstone Building Brands",
      "slug": "cornerstone-building-brands",
      "description": "Cornerstone Building Brands, Inc. is a Fortune 1000 manufacturer of exterior building products in North America — vinyl siding and accessories, metal and rainware, fence and railing, windows and entry doors, and metal roofs, walls and buildings — sold under brands including Ply Gem, Simonton and Mastic through dealers, distributors and builders rather than as software. It operates no developer program and publishes no API documentation, SDK or developer portal: the hosts its earlier catalog record named, developer.cornerstonebuildingbrands.com and api.cornerstonebuildingbrands.com, do not resolve. Its machine-readable surface is what the corporate WordPress estate on www.cornerstonebuildingbrands.com exposes — an anonymously readable WordPress REST content API (press releases, industry pages, leadership profiles, pages, media, taxonomies and search) and, notably for a manufacturer, a live remote Model Context Protocol server published through the WordPress MCP Adapter, advertised by real RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata, with tools/list OAuth-gated. The company's partner-facing integration surface — orders, ASNs, warranty claims — sits behind the Windows & Doors Customer Portal, which signs in with Microsoft Entra ID over an Azure API Management gateway whose developer portal is unpublished.",
@@ -3057,7 +3014,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -3082,7 +3039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Makershub",
@@ -3100,7 +3057,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3132,7 +3089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Sysdyne Technologies",
@@ -3150,7 +3107,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3175,7 +3132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Kojo Technologies",
@@ -3193,7 +3150,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3218,7 +3175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Tetra Tech",
@@ -3236,7 +3193,50 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "AECOM",
+     "slug": "aecom",
+     "description": "AECOM is a global infrastructure consulting firm providing professional services across planning, design, engineering, program management, and construction management for clients in transportation, water, energy, and the environment. AECOM operates in over 150 countries and is listed on the NYSE as ACM. The firm serves governments, businesses, and organizations worldwide, delivering integrated lifecycle solutions from advisory and design through construction and operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 14.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3264,49 +3264,6 @@
      "rank": 73
     },
     {
-     "name": "AECOM",
-     "slug": "aecom",
-     "description": "AECOM is a global infrastructure consulting firm providing professional services across planning, design, engineering, program management, and construction management for clients in transportation, water, energy, and the environment. AECOM operates in over 150 countries and is listed on the NYSE as ACM. The firm serves governments, businesses, and organizations worldwide, delivering integrated lifecycle solutions from advisory and design through construction and operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png",
-     "score": 21.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 14.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
-    },
-    {
      "name": "Handle",
      "slug": "handle",
      "description": "Handle (Handle Inc., handle.com) is a San Francisco software company, founded in 2018 by Patrick Hogan, Blake Robertson, Lucas Azevedo and Chris Woodard, that builds financial-operations software for the construction industry. The Handle platform covers lien and notice management, automated lien-waiver exchange, full-service research and verification, automatic state-by-state compliance deadlines, job sheets, credit applications, collections and construction-native online payments, unified by what the company calls its Construction Data Graph. It is sold to material suppliers, equipment dealers and subcontractors — customers named on its own site include Ferguson, ABC Supply, US LBM, Oldcastle, EquipmentShare, The Home Depot, Cemex, Builders FirstSource, Vulcan, Heidelberg Materials, Herc Rentals and Floor & Decor. Handle markets ERP integrations (\"Handle integrates with any ERP\") and operates a real API host at api.handle.com, and its own status page monitors components named \"Main Portal API\" and \"Payment Portal API\", but it publishes no developer portal, no API reference, and no machine-readable specification of any kind; the only public route to the integration surface is a Contact Sales form. Handle is SOC 2 Type 1 and Type 2 compliant and publishes a Vanta-hosted trust center. It raised a $27M Series B led by Marbruck with Energize Capital, Suffolk Technologies, Liquid 2 Ventures, RXR, WEX and Amex Ventures participating.",
@@ -3322,7 +3279,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3354,7 +3311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "American Woodmark",
@@ -3372,7 +3329,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -3397,7 +3354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Attentive.ai",
@@ -3415,7 +3372,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "Disperse",
+     "slug": "disperse",
+     "description": "Disperse was a London-based construction technology company, backed by Northzone, that used computer vision and machine learning to turn 360-degree jobsite imagery into automated construction progress tracking and productivity analytics for general contractors. Disperse was acquired by OpenSpace in 2023 and its product line and team were folded into the OpenSpace Visual Intelligence Platform; the disperse.io domain now redirects to openspace.ai. OpenSpace, powered by Spatial AI, turns smartphone, 360-degree camera, and drone capture into real-time jobsite intelligence connecting the field and the office across documentation, coordination, progress tracking, BIM, and construction risk management. This API Evangelist profile tracks the combined OpenSpace surface as the live operating home of the Disperse lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/disperse/refs/heads/main/screenshots/disperse-2026-07-25T212104.png",
+     "score": 20.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3443,49 +3443,6 @@
      "rank": 77
     },
     {
-     "name": "Disperse",
-     "slug": "disperse",
-     "description": "Disperse was a London-based construction technology company, backed by Northzone, that used computer vision and machine learning to turn 360-degree jobsite imagery into automated construction progress tracking and productivity analytics for general contractors. Disperse was acquired by OpenSpace in 2023 and its product line and team were folded into the OpenSpace Visual Intelligence Platform; the disperse.io domain now redirects to openspace.ai. OpenSpace, powered by Spatial AI, turns smartphone, 360-degree camera, and drone capture into real-time jobsite intelligence connecting the field and the office across documentation, coordination, progress tracking, BIM, and construction risk management. This API Evangelist profile tracks the combined OpenSpace surface as the live operating home of the Disperse lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/disperse/refs/heads/main/screenshots/disperse-2026-07-25T212104.png",
-     "score": 20.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
      "name": "ANDPAD",
      "slug": "andpad",
      "description": "ANDPAD (株式会社アンドパッド / ANDPAD Inc.) is Japan's leading cloud construction-management and construction-DX platform, used by more than 260,000 companies and hundreds of thousands of field and office users across new-build housing, renovation, specialty trades, general contracting, and facilities management. The platform spans scheduling, photo and document management, drawings, inspection checklists, chat, billing, and procurement, and exposes an external REST API (api.andpad.jp) plus an app marketplace (ANDPAD App Market) so partners can integrate their own services with ANDPAD. ANDPAD is backed by Hongshan (HongShan / Sequoia China) and operates a public developer site, a system status page, and a published security.txt disclosure channel.",
@@ -3501,7 +3458,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3526,7 +3483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Foreman",
@@ -3544,7 +3501,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3569,7 +3526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "PlanGrid",
@@ -3587,7 +3544,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3612,7 +3569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Adaptive",
@@ -3630,7 +3587,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 81
+    },
+    {
+     "name": "BuildZoom",
+     "slug": "buildzoom",
+     "description": "BuildZoom connects homeowners and property owners with vetted local general contractors, using data-driven matching across profiles for 4M+ licensed contractors and construction-permit history spanning hundreds of millions of projects. Alongside the contractor marketplace, BuildZoom operates the Building Permit Database (buildzoomdata.com) — a normalized dataset of 350M+ building permits covering 25+ years, 2,400 jurisdictions, and 90% of the US population, plus 6M+ licensed contractors. That data is delivered through bulk data exports (weekly/monthly, full and incremental), a RESTful Data API with batch requests and sub-second latency for property permit history and contractor license/permit lookups, a Data Explorer web app, and a Permit Map. BuildZoom is backed by Andreessen Horowitz (a16z) and Y Combinator.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildzoom/refs/heads/main/screenshots/buildzoom-2026-07-25T204054.png",
+     "score": 18.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3658,22 +3658,22 @@
      "rank": 82
     },
     {
-     "name": "BuildZoom",
-     "slug": "buildzoom",
-     "description": "BuildZoom connects homeowners and property owners with vetted local general contractors, using data-driven matching across profiles for 4M+ licensed contractors and construction-permit history spanning hundreds of millions of projects. Alongside the contractor marketplace, BuildZoom operates the Building Permit Database (buildzoomdata.com) — a normalized dataset of 350M+ building permits covering 25+ years, 2,400 jurisdictions, and 90% of the US population, plus 6M+ licensed contractors. That data is delivered through bulk data exports (weekly/monthly, full and incremental), a RESTful Data API with batch requests and sub-second latency for property permit history and contractor license/permit lookups, a Data Explorer web app, and a Permit Map. BuildZoom is backed by Andreessen Horowitz (a16z) and Y Combinator.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildzoom/refs/heads/main/screenshots/buildzoom-2026-07-25T204054.png",
-     "score": 18.9,
+     "name": "Mela Works",
+     "slug": "mela-works",
+     "description": "Mela Works (mela.work) is a mobile-first construction and maintenance site-management platform that connects field teams with the back office. It turns voice dictation into structured daily reports and site minutes using AI, manages an annotated cloud photo archive, tracks attendance with clock-in/clock-out, reads DDT/invoices, controls costs (AI-calculated hours and materials), and produces blockchain-notarized digital site logs with legal/evidential validity. The app works offline with automatic sync and is offered in Italian, English, and Spanish for construction firms, works directors (DL), safety coordinators (CSE), and installers. It integrates with WhatsApp, Google Calendar, Outlook, Gmail, Excel, and accounting/management systems (RIB Presto, Holded, Billin, Zucchetti). Mela Works is a Techstars portfolio company. As of this enrichment pass it publishes no public developer API, SDK, or webhook surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mela-works/refs/heads/main/screenshots/mela-works-2026-08-07T172445.png",
+     "score": 18.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 38.2
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3701,49 +3701,6 @@
      "rank": 83
     },
     {
-     "name": "Mela Works",
-     "slug": "mela-works",
-     "description": "Mela Works (mela.work) is a mobile-first construction and maintenance site-management platform that connects field teams with the back office. It turns voice dictation into structured daily reports and site minutes using AI, manages an annotated cloud photo archive, tracks attendance with clock-in/clock-out, reads DDT/invoices, controls costs (AI-calculated hours and materials), and produces blockchain-notarized digital site logs with legal/evidential validity. The app works offline with automatic sync and is offered in Italian, English, and Spanish for construction firms, works directors (DL), safety coordinators (CSE), and installers. It integrates with WhatsApp, Google Calendar, Outlook, Gmail, Excel, and accounting/management systems (RIB Presto, Holded, Billin, Zucchetti). Mela Works is a Techstars portfolio company. As of this enrichment pass it publishes no public developer API, SDK, or webhook surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mela-works/refs/heads/main/screenshots/mela-works-2026-08-07T172445.png",
-     "score": 18.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 84
-    },
-    {
      "name": "Miter",
      "slug": "miter",
      "description": "Miter is a Human Capital Management (HCM) platform purpose-built for construction contractors, consolidating payroll, HR, benefits, field operations, and expense management into a single connected system. Its construction payroll automates prevailing-wage, certified-payroll, and union compliance, multi-state tax handling, and fully-burdened job-cost tracking in real time, while its HRIS covers recruiting, benefits, performance, and learning. Field Operations adds time tracking, scheduling, daily reports, production tracking, and safety, and Expense Management handles reimbursements, per diems, and corporate cards. Miter connects to construction ERPs and accounting systems (Sage Intacct, NetSuite, Acumatica, QuickBooks, Procore, Viewpoint, and more) through off-the-shelf integrations or a custom REST API. Backed by Bessemer Venture Partners.",
@@ -3759,7 +3716,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -3784,7 +3741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "AI Clearing",
@@ -3801,7 +3758,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3833,7 +3790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Century Communities",
@@ -3851,7 +3808,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -3876,7 +3833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "JobNimbus",
@@ -3894,7 +3851,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3919,7 +3876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "91Squarefeet",
@@ -3936,7 +3893,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -3961,7 +3918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Greenlite",
@@ -3979,7 +3936,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4011,7 +3968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "ConstructionOnline",
@@ -4029,7 +3986,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4054,7 +4011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Remarcable",
@@ -4072,7 +4029,49 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
+     "name": "Brickanta",
+     "slug": "brickanta",
+     "description": "Brickanta is a Stockholm-based agentic AI platform built for the construction industry, deploying specialized AI agents to automate pre-construction and project workflows including bid analysis, cost estimation, procurement package generation, document and contract review, compliance, and quality assurance. The platform reads drawings, specs, and contracts to surface risks and gaps, turns raw RFPs into discipline-specific procurement packages, and builds a searchable knowledge base from every finished project. Brickanta raised an $8M seed round led by Northzone in early 2026 and serves construction teams across eleven countries. The company exposes a customer application and a public trust portal but does not currently publish a public developer API, SDKs, or API reference; this profile captures its identity and security posture.",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4100,21 +4099,22 @@
      "rank": 92
     },
     {
-     "name": "Brickanta",
-     "slug": "brickanta",
-     "description": "Brickanta is a Stockholm-based agentic AI platform built for the construction industry, deploying specialized AI agents to automate pre-construction and project workflows including bid analysis, cost estimation, procurement package generation, document and contract review, compliance, and quality assurance. The platform reads drawings, specs, and contracts to surface risks and gaps, turns raw RFPs into discipline-specific procurement packages, and builds a searchable knowledge base from every finished project. Brickanta raised an $8M seed round led by Northzone in early 2026 and serves construction teams across eleven countries. The company exposes a customer application and a public trust portal but does not currently publish a public developer API, SDKs, or API reference; this profile captures its identity and security posture.",
+     "name": "Build",
+     "slug": "build",
+     "description": "Build is an AI-native operating partner for the built world, pairing autonomous AI agents (its \"Dougie\" platform) with deep domain expertise to accelerate commercial real estate and infrastructure development. The platform automates mission-critical development workflows including site selection, due diligence, underwriting, investment-committee memos, test-fit analysis, market and zoning research, environmental diligence, and ESG reporting. Build serves institutional clients across data centers, industrials, energy, power, office, telecommunications, mixed-use, hotels, and multifamily. Backed by Index Ventures; profiled in the API Evangelist network. Build is a services company and does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/build/refs/heads/main/screenshots/build-2026-07-25T204043.png",
      "score": 16.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 2.4,
-      "access_clarity": 53.9
+      "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4142,22 +4142,22 @@
      "rank": 93
     },
     {
-     "name": "Build",
-     "slug": "build",
-     "description": "Build is an AI-native operating partner for the built world, pairing autonomous AI agents (its \"Dougie\" platform) with deep domain expertise to accelerate commercial real estate and infrastructure development. The platform automates mission-critical development workflows including site selection, due diligence, underwriting, investment-committee memos, test-fit analysis, market and zoning research, environmental diligence, and ESG reporting. Build serves institutional clients across data centers, industrials, energy, power, office, telecommunications, mixed-use, hotels, and multifamily. Backed by Index Ventures; profiled in the API Evangelist network. Build is a services company and does not currently publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/build/refs/heads/main/screenshots/build-2026-07-25T204043.png",
-     "score": 16.3,
+     "name": "Ediphi",
+     "slug": "ediphi",
+     "description": "Ediphi is a cloud-native preconstruction platform for commercial construction contractors that unifies estimating, cost modeling, general conditions and general requirements (GCs & GRs) tracking, bid-package contracting, and a shared cloud unit-price catalog in one real-time collaborative workspace. Founded by Dustin DeVan (founder of BuildingConnected, acquired by Autodesk), it is used by ENR Top 400 general contractors including Hensel Phelps, Suffolk Construction, and DPR Construction. Its \"Last Mile\" module provides API-driven automation for Excel integration and reporting. Ediphi runs a private application API at api.ediphi.com; as of this profile there is no public developer portal or published API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/screenshots/ediphi-2026-07-25T212841.png",
+     "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 43.4
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4185,22 +4185,22 @@
      "rank": 94
     },
     {
-     "name": "Ediphi",
-     "slug": "ediphi",
-     "description": "Ediphi is a cloud-native preconstruction platform for commercial construction contractors that unifies estimating, cost modeling, general conditions and general requirements (GCs & GRs) tracking, bid-package contracting, and a shared cloud unit-price catalog in one real-time collaborative workspace. Founded by Dustin DeVan (founder of BuildingConnected, acquired by Autodesk), it is used by ENR Top 400 general contractors including Hensel Phelps, Suffolk Construction, and DPR Construction. Its \"Last Mile\" module provides API-driven automation for Excel integration and reporting. Ediphi runs a private application API at api.ediphi.com; as of this profile there is no public developer portal or published API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/screenshots/ediphi-2026-07-25T212841.png",
+     "name": "Northspyre",
+     "slug": "northspyre",
+     "description": "Northspyre is a real estate development management platform that gives owners, developers, and project teams an end-to-end system for managing deals, projects, and portfolios across the full development lifecycle — acquisition, early planning, pre-development, construction, and stabilization. It unifies siloed project data and automates routine work with tools for financial modeling and deal pipeline management, budget and cost control, vendor procurement and management, forecasting, portfolio analytics, and investor and lender reporting. Northspyre is delivered as a hosted SaaS application and is SOC 2 Type II certified. It exposes no public developer API surface at this time; this profile captures the company's public identity, compliance posture, and domain security.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/northspyre/refs/heads/main/screenshots/northspyre-2026-08-07T185526.png",
      "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 15.8,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 23.7
+      "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4228,22 +4228,22 @@
      "rank": 95
     },
     {
-     "name": "Northspyre",
-     "slug": "northspyre",
-     "description": "Northspyre is a real estate development management platform that gives owners, developers, and project teams an end-to-end system for managing deals, projects, and portfolios across the full development lifecycle — acquisition, early planning, pre-development, construction, and stabilization. It unifies siloed project data and automates routine work with tools for financial modeling and deal pipeline management, budget and cost control, vendor procurement and management, forecasting, portfolio analytics, and investor and lender reporting. Northspyre is delivered as a hosted SaaS application and is SOC 2 Type II certified. It exposes no public developer API surface at this time; this profile captures the company's public identity, compliance posture, and domain security.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/northspyre/refs/heads/main/screenshots/northspyre-2026-08-07T185526.png",
-     "score": 15.8,
+     "name": "UpCodes",
+     "slug": "upcodes",
+     "description": "UpCodes is a comprehensive compliance and product research platform for the construction industry, offering a searchable database of US construction and building codes consolidated by state and city for easier navigation. The platform includes libraries of codes, diagrams, and assemblies, project collaboration and bookmarking, code calculators with a BIM design data import tool, SAML single sign-on for enterprise teams, and an AI Copilot that answers code compliance questions, locates assemblies, and generates project-specific checklists. Plans span Essentials, Professional, and Enterprise tiers. UpCodes does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upcodes/refs/heads/main/screenshots/upcodes-2026-09-02T165022.png",
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "access_clarity": 43.4
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4271,49 +4271,6 @@
      "rank": 96
     },
     {
-     "name": "UpCodes",
-     "slug": "upcodes",
-     "description": "UpCodes is a comprehensive compliance and product research platform for the construction industry, offering a searchable database of US construction and building codes consolidated by state and city for easier navigation. The platform includes libraries of codes, diagrams, and assemblies, project collaboration and bookmarking, code calculators with a BIM design data import tool, SAML single sign-on for enterprise teams, and an AI Copilot that answers code compliance questions, locates assemblies, and generates project-specific checklists. Plans span Essentials, Professional, and Enterprise tiers. UpCodes does not currently publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upcodes/refs/heads/main/screenshots/upcodes-2026-09-02T165022.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 97
-    },
-    {
      "name": "Built Robotics",
      "slug": "built-robotics",
      "description": "Built Robotics is a San Francisco robotics company, founded in 2016 by Noah Ready-Campbell and Andrew Liang, that turns conventional heavy construction equipment into AI-powered autonomous robots. Its Exosystem retrofit kit converts excavators and other earthmoving machines into self-operating robots for trenching, foundation excavation and pad grading, while the RPD 35 and RPS 25 autonomous pile drivers install foundations for utility-scale solar farms. Machines are supervised from the Everest command center, and field deployment is run through its Built Solar Technologies (built.solar) division. The company reports $114M raised and 25+ commercial deployments across the United States and Australia. Built Robotics publishes no public developer API, SDK or machine-readable API contract; its only public developer artifact is the open-source rsplan Reeds-Shepp path-planning library on PyPI and GitHub.",
@@ -4329,7 +4286,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4361,7 +4318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Document Crunch",
@@ -4379,7 +4336,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
+     "name": "Handoff",
+     "slug": "handoff",
+     "description": "Handoff is an AI-native construction management and estimating platform built for residential contractors — remodelers, home builders, handymen, and trade contractors. It handles estimating, AI takeoffs, proposals, project management, scheduling, CRM, change orders, invoicing, and financial management end-to-end, generating detailed, localized estimates in seconds from descriptions, photos, drawings, or voice. Built by 1build and backed by Initialized Capital, Greycroft, Y Combinator, and Masco Ventures, Handoff serves 10,000+ monthly active users managing billions in annualized residential construction projects. Handoff does not currently expose a public developer API; it offers a Zapier integration for connected workflows, with an API on its public roadmap.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/handoff/refs/heads/main/screenshots/handoff-2026-07-25T220640.png",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4407,49 +4407,6 @@
      "rank": 99
     },
     {
-     "name": "Handoff",
-     "slug": "handoff",
-     "description": "Handoff is an AI-native construction management and estimating platform built for residential contractors — remodelers, home builders, handymen, and trade contractors. It handles estimating, AI takeoffs, proposals, project management, scheduling, CRM, change orders, invoicing, and financial management end-to-end, generating detailed, localized estimates in seconds from descriptions, photos, drawings, or voice. Built by 1build and backed by Initialized Capital, Greycroft, Y Combinator, and Masco Ventures, Handoff serves 10,000+ monthly active users managing billions in annualized residential construction projects. Handoff does not currently expose a public developer API; it offers a Zapier integration for connected workflows, with an API on its public roadmap.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/handoff/refs/heads/main/screenshots/handoff-2026-07-25T220640.png",
-     "score": 15.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 100
-    },
-    {
      "name": "PermitFlow",
      "slug": "permitflow",
      "description": "PermitFlow is an AI-powered construction permitting platform that simplifies permit preparation, submission, and tracking nationwide for contractors, home builders, commercial contractors, architects, developers, and home-services businesses. The product handles permitting paperwork across municipalities with AI agents for intake, research, submission, coordination, and issuance, and covers permit management, inspections and closeouts, and license and registration management. Backed by Accel, Felicis, and Initialized Capital, PermitFlow operates an internal product API (api.permitflow.com) and web application (app.permitflow.com) but does not currently publish a public developer API, OpenAPI, or developer portal.",
@@ -4465,7 +4422,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4497,7 +4454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "QXO Building Products",
@@ -4515,7 +4472,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4540,7 +4497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Graneet",
@@ -4558,7 +4515,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 102
+    },
+    {
+     "name": "Lessen",
+     "slug": "lessen",
+     "description": "Lessen is a Scottsdale, Arizona based property services and facilities management technology company that connects commercial and residential property owners and managers with a nationwide network of vetted service providers for repairs, maintenance, turns, make-readies and capital projects. The company operates a technology platform stack — One by Lessen for work-order, vendor-sourcing and invoicing workflow, Lessen 360 for multifamily maintenance, Lessen Pro for affiliate contractors, Aiden for AI-assisted work-order creation, and the Lessen Marketplace for procurement — supported by mobile apps for tenants, property managers and vendors. Lessen serves retail, financial services, healthcare, food service, industrial, hospitality and education properties alongside single-family and multifamily residential portfolios. Lessen acquired SMS Assist in 2023 and is backed by Fifth Wall and General Catalyst. Lessen publishes no public developer portal, API reference or OpenAPI definition; its named platform integrations are delivered as private partner connections rather than a self-serve API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lessen/refs/heads/main/screenshots/lessen-2026-07-25T224923.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4586,10 +4586,10 @@
      "rank": 103
     },
     {
-     "name": "Lessen",
-     "slug": "lessen",
-     "description": "Lessen is a Scottsdale, Arizona based property services and facilities management technology company that connects commercial and residential property owners and managers with a nationwide network of vetted service providers for repairs, maintenance, turns, make-readies and capital projects. The company operates a technology platform stack — One by Lessen for work-order, vendor-sourcing and invoicing workflow, Lessen 360 for multifamily maintenance, Lessen Pro for affiliate contractors, Aiden for AI-assisted work-order creation, and the Lessen Marketplace for procurement — supported by mobile apps for tenants, property managers and vendors. Lessen serves retail, financial services, healthcare, food service, industrial, hospitality and education properties alongside single-family and multifamily residential portfolios. Lessen acquired SMS Assist in 2023 and is backed by Fifth Wall and General Catalyst. Lessen publishes no public developer portal, API reference or OpenAPI definition; its named platform integrations are delivered as private partner connections rather than a self-serve API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lessen/refs/heads/main/screenshots/lessen-2026-07-25T224923.png",
+     "name": "TraceAir",
+     "slug": "traceair",
+     "description": "TraceAir is a construction site intelligence platform for homebuilders and land developers, combining drone photogrammetry and LiDAR scans with cloud analytics to track sitework progress, verify earthwork cut/fill quantities, generate lot layouts and yield estimates, and document builds with 360-degree interior scans across the full project lifecycle from land acquisition to handover. The company publishes no public developer portal, API documentation, or SDKs; the platform is accessed through its web application.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traceair/refs/heads/main/screenshots/traceair-2026-09-02T164025.png",
      "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4597,11 +4597,11 @@
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 18.4,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4629,22 +4629,22 @@
      "rank": 104
     },
     {
-     "name": "TraceAir",
-     "slug": "traceair",
-     "description": "TraceAir is a construction site intelligence platform for homebuilders and land developers, combining drone photogrammetry and LiDAR scans with cloud analytics to track sitework progress, verify earthwork cut/fill quantities, generate lot layouts and yield estimates, and document builds with 360-degree interior scans across the full project lifecycle from land acquisition to handover. The company publishes no public developer portal, API documentation, or SDKs; the platform is accessed through its web application.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/traceair/refs/heads/main/screenshots/traceair-2026-09-02T164025.png",
+     "name": "Xpedeon",
+     "slug": "xpedeon",
+     "description": "Xpedeon is a construction-specific ERP platform from Algorithms Software Pvt Ltd (30+ years in construction software), serving general contractors, specialist contractors, housebuilders and developers, engineer-to-order manufacturers, and off-site manufacturers across the UK, India, the GCC, and the US. The cloud platform covers construction finance and accounting, job costing and CVR, contract and subcontractor management, procurement, inventory and supply chain, plant and equipment, warehouse management, HR and payroll, CRM, and a mobile app for site teams, and is ISO 27001, 27017, 27018, 27701 and SOC 2 certified. Xpedeon publishes no public API, developer portal, or integration documentation, but does publish an llms.txt. Backed by Norwest Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xpedeon/refs/heads/main/screenshots/xpedeon-2026-09-02T171143.png",
      "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4672,22 +4672,22 @@
      "rank": 105
     },
     {
-     "name": "Xpedeon",
-     "slug": "xpedeon",
-     "description": "Xpedeon is a construction-specific ERP platform from Algorithms Software Pvt Ltd (30+ years in construction software), serving general contractors, specialist contractors, housebuilders and developers, engineer-to-order manufacturers, and off-site manufacturers across the UK, India, the GCC, and the US. The cloud platform covers construction finance and accounting, job costing and CVR, contract and subcontractor management, procurement, inventory and supply chain, plant and equipment, warehouse management, HR and payroll, CRM, and a mobile app for site teams, and is ISO 27001, 27017, 27018, 27701 and SOC 2 certified. Xpedeon publishes no public API, developer portal, or integration documentation, but does publish an llms.txt. Backed by Norwest Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xpedeon/refs/heads/main/screenshots/xpedeon-2026-09-02T171143.png",
-     "score": 15.1,
+     "name": "GoPillar",
+     "slug": "gopillar",
+     "description": "GoPillar (operated by CoContest Italy Srl, Rome, Italy) is a crowdsourced architectural and interior design marketplace where homeowners, businesses, and small construction firms launch online design contests and receive dozens of proposals from a global community of 70,000+ registered architects and designers. Clients set a project timeline, brief the community, message participating designers, and select the winning concept, with follow-on one-to-one and offline executive-project services. GoPillar also runs GoPillar Academy, an e-learning platform offering professional BIM, 3D, and design courses plus custom corporate training for architecture and construction firms. GoPillar is a consumer/SMB web platform and does not publish a public developer API, SDKs, or developer documentation; this profile captures its public web identity and domain security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gopillar/refs/heads/main/screenshots/gopillar-2026-07-25T220112.png",
+     "score": 14.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "contract_governance": 18.2,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 28.9
+      "developer_ergonomics": 4.8,
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4715,22 +4715,22 @@
      "rank": 106
     },
     {
-     "name": "GoPillar",
-     "slug": "gopillar",
-     "description": "GoPillar (operated by CoContest Italy Srl, Rome, Italy) is a crowdsourced architectural and interior design marketplace where homeowners, businesses, and small construction firms launch online design contests and receive dozens of proposals from a global community of 70,000+ registered architects and designers. Clients set a project timeline, brief the community, message participating designers, and select the winning concept, with follow-on one-to-one and offline executive-project services. GoPillar also runs GoPillar Academy, an e-learning platform offering professional BIM, 3D, and design courses plus custom corporate training for architecture and construction firms. GoPillar is a consumer/SMB web platform and does not publish a public developer API, SDKs, or developer documentation; this profile captures its public web identity and domain security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gopillar/refs/heads/main/screenshots/gopillar-2026-07-25T220112.png",
-     "score": 14.9,
+     "name": "Meisterwerk",
+     "slug": "meisterwerk",
+     "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meisterwerk/refs/heads/main/screenshots/meisterwerk-2026-08-07T172430.png",
+     "score": 14.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 44.7
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4758,11 +4758,11 @@
      "rank": 107
     },
     {
-     "name": "Meisterwerk",
-     "slug": "meisterwerk",
-     "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meisterwerk/refs/heads/main/screenshots/meisterwerk-2026-08-07T172430.png",
-     "score": 14.8,
+     "name": "Buildvision",
+     "slug": "buildvision",
+     "description": "BuildVision is an AI bid-management and equipment-procurement platform for the construction industry. It monitors email inboxes and construction plan rooms for incoming bids, extracts equipment specifications from construction documents, matches them against a company's line card, and drafts quotes with automatic conflict detection and RFI generation. Products span bid triage automation, a \"spec memory\" of historical engineer data, equipment quoting, and channel intelligence for OEMs. BuildVision integrates with Microsoft Outlook and BuildingConnected and offers direct API / browser-agent integration to selection software by request, but publishes no public developer API, OpenAPI, or SDK. Surfaced as a portfolio company of Norwest Venture Partners and enriched by the API Evangelist pipeline from BuildVision's public surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildvision/refs/heads/main/screenshots/buildvision-2026-07-25T204052.png",
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4770,10 +4770,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "developer_ergonomics": 16.7,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4801,22 +4801,22 @@
      "rank": 108
     },
     {
-     "name": "Buildvision",
-     "slug": "buildvision",
-     "description": "BuildVision is an AI bid-management and equipment-procurement platform for the construction industry. It monitors email inboxes and construction plan rooms for incoming bids, extracts equipment specifications from construction documents, matches them against a company's line card, and drafts quotes with automatic conflict detection and RFI generation. Products span bid triage automation, a \"spec memory\" of historical engineer data, equipment quoting, and channel intelligence for OEMs. BuildVision integrates with Microsoft Outlook and BuildingConnected and offers direct API / browser-agent integration to selection software by request, but publishes no public developer API, OpenAPI, or SDK. Surfaced as a portfolio company of Norwest Venture Partners and enriched by the API Evangelist pipeline from BuildVision's public surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/buildvision/refs/heads/main/screenshots/buildvision-2026-07-25T204052.png",
-     "score": 14.6,
+     "name": "Boxabl",
+     "slug": "boxabl",
+     "description": "BOXABL Inc. is a Las Vegas, Nevada manufacturer of factory-built, foldable homes, founded in 2017 and trading on Nasdaq under the ticker BXBL. Its homes are assembled on a production line in a climate-controlled factory rather than on site, then folded to 8.5 by 20 feet for shipment by truck, rail, sea or air and unfolded on the pad in about two hours. The Casita is the current production model, sold as a studio, one-bedroom and two-bedroom in unit-only or turnkey configurations, with a Baby Box travel trailer and a multi-unit Developer Series catalog alongside it. BOXABL publishes no public API, developer portal or machine-readable API contract; its machine-readable surface is an agent-facing llms.txt, a permissive AI-crawler robots.txt, and an RFC 9116 security.txt pointing at a real responsible-disclosure and bug bounty policy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boxabl/refs/heads/main/screenshots/boxabl-2026-08-07T162728.png",
+     "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 27.6
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4844,22 +4844,22 @@
      "rank": 109
     },
     {
-     "name": "Boxabl",
-     "slug": "boxabl",
-     "description": "BOXABL Inc. is a Las Vegas, Nevada manufacturer of factory-built, foldable homes, founded in 2017 and trading on Nasdaq under the ticker BXBL. Its homes are assembled on a production line in a climate-controlled factory rather than on site, then folded to 8.5 by 20 feet for shipment by truck, rail, sea or air and unfolded on the pad in about two hours. The Casita is the current production model, sold as a studio, one-bedroom and two-bedroom in unit-only or turnkey configurations, with a Baby Box travel trailer and a multi-unit Developer Series catalog alongside it. BOXABL publishes no public API, developer portal or machine-readable API contract; its machine-readable surface is an agent-facing llms.txt, a permissive AI-crawler robots.txt, and an RFC 9116 security.txt pointing at a real responsible-disclosure and bug bounty policy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boxabl/refs/heads/main/screenshots/boxabl-2026-08-07T162728.png",
-     "score": 14.4,
+     "name": "Planera",
+     "slug": "planera",
+     "description": "Planera is a modern construction scheduling platform for builders and general contractors, purpose-built around the Critical Path Method (CPM). It lets teams build, manage, and optimize project schedules through a visual, collaborative interface with drag-and-drop editing, a digital whiteboard (Canvas), Gantt views, DCMA quality checks, resource planning, and an AI scheduling assistant (Manny) for scenario analysis and risk identification. Planera spans pursuits, preconstruction, operations, and enterprise portfolio management, offers an iPad field app, and integrates with Procore, Autodesk, Primavera P6, and Microsoft Project. The company is SOC 2 Type 2 and SOC 3 certified and is backed by Sierra Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planera/refs/heads/main/screenshots/planera-2026-09-02T151404.png",
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 31.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4887,49 +4887,6 @@
      "rank": 110
     },
     {
-     "name": "Planera",
-     "slug": "planera",
-     "description": "Planera is a modern construction scheduling platform for builders and general contractors, purpose-built around the Critical Path Method (CPM). It lets teams build, manage, and optimize project schedules through a visual, collaborative interface with drag-and-drop editing, a digital whiteboard (Canvas), Gantt views, DCMA quality checks, resource planning, and an AI scheduling assistant (Manny) for scenario analysis and risk identification. Planera spans pursuits, preconstruction, operations, and enterprise portfolio management, offers an iPad field app, and integrates with Procore, Autodesk, Primavera P6, and Microsoft Project. The company is SOC 2 Type 2 and SOC 3 certified and is backed by Sierra Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planera/refs/heads/main/screenshots/planera-2026-09-02T151404.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
      "name": "Lennar",
      "slug": "lennar",
      "description": "Lennar Corporation is a Fortune 500 company and one of the leading homebuilders of new homes for sale in the United States. Lennar operates an internal Azure-hosted API Management developer portal where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts have not been observed; access generally requires sign-in and partner approval.",
@@ -4945,7 +4902,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4970,7 +4927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Motif",
@@ -4988,7 +4945,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
+     "name": "OnStation",
+     "slug": "onstation",
+     "description": "OnStation is a digital stationing platform for road and highway construction projects, replacing paper station logs and manual chaining with GPS-based field documentation. Its iOS and Android mobile app lets crews, inspectors, and project managers identify exact station locations, drop and share flags, capture timestamped photos and notes, and complete forms in the field without extra hardware. A cloud Data Portal aggregates that field documentation into searchable, exportable DOT-ready reports for compliance and dispute resolution, while Active Worksite alerts drivers through Waze and OEM systems when crews are working. OnStation offers pre-built integrations with construction and survey systems including HCSS HeavyJob, Trimble and Bad Elf GNSS receivers, TransTech density gauges, FleetWatcher e-ticketing, and ESRI GIS, but does not currently publish a public developer API. Backed by Insight Partners and Techstars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onstation/refs/heads/main/screenshots/onstation-2026-08-07T190420.png",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5016,49 +5016,6 @@
      "rank": 113
     },
     {
-     "name": "OnStation",
-     "slug": "onstation",
-     "description": "OnStation is a digital stationing platform for road and highway construction projects, replacing paper station logs and manual chaining with GPS-based field documentation. Its iOS and Android mobile app lets crews, inspectors, and project managers identify exact station locations, drop and share flags, capture timestamped photos and notes, and complete forms in the field without extra hardware. A cloud Data Portal aggregates that field documentation into searchable, exportable DOT-ready reports for compliance and dispute resolution, while Active Worksite alerts drivers through Waze and OEM systems when crews are working. OnStation offers pre-built integrations with construction and survey systems including HCSS HeavyJob, Trimble and Bad Elf GNSS receivers, TransTech density gauges, FleetWatcher e-ticketing, and ESRI GIS, but does not currently publish a public developer API. Backed by Insight Partners and Techstars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onstation/refs/heads/main/screenshots/onstation-2026-08-07T190420.png",
-     "score": 14.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 114
-    },
-    {
      "name": "Apogee Enterprises",
      "slug": "apog-enterprises",
      "description": "Apogee Enterprises (Nasdaq: APOG), founded in 1949 as the Harmon Glass Company and headquartered in Minneapolis, Minnesota, is an architectural products and services company. Its operating brands make high-performance architectural glass (Viracon), aluminum framing, storefront, curtainwall and entrance systems (Apogee Architectural Metals — the former EFCO and Tubelite — and Alumicor, with Linetec finishing), install glass and metal facades on large commercial buildings (Harmon) and produce large-scale optical glass and acrylic for framing and displays (Tru Vue, UW Solutions). Apogee does not publish a public developer API, SDK, webhook or developer portal. Its external digital surface is an Akamai-fronted investor-relations website at apog.com serving HTML and PDF, plus supplier onboarding on Coupa's Supplier Portal; the \"EDI/API/Integration contact\" named there is a Coupa user role, not an Apogee API. The hosts api.apog.com and developer.apog.com listed by an earlier stub do not exist in DNS. Machine-readable company data is available only through third-party channels, namely the SEC's EDGAR APIs.",
@@ -5073,7 +5030,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -5090,6 +5047,49 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
+    },
+    {
+     "name": "John Deere",
+     "slug": "john-deere",
+     "description": "John Deere is a renowned American corporation that specializes in manufacturing agricultural, construction, and forestry machinery. The company, founded in 1837 by John Deere, has a long history of innovation and has become a leader in the industry. John Deere's products include tractors, combines, excavators, and other equipment designed to support and improve farming and construction operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/screenshots/john-deere-2026-06-20T183749.png",
+     "score": 13.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -5116,7 +5116,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5159,7 +5159,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5202,7 +5202,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5252,7 +5252,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5302,7 +5302,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5345,7 +5345,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5388,7 +5388,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5431,7 +5431,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5474,7 +5474,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5524,7 +5524,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5574,7 +5574,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5617,7 +5617,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5660,7 +5660,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5703,7 +5703,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5746,7 +5746,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5789,7 +5789,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5832,7 +5832,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5875,7 +5875,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5918,7 +5918,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5961,7 +5961,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6004,7 +6004,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6047,7 +6047,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6090,7 +6090,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6133,7 +6133,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6175,7 +6175,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6218,7 +6218,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6268,7 +6268,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6311,7 +6311,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6354,7 +6354,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6397,7 +6397,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -6439,7 +6439,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6482,7 +6482,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6525,7 +6525,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6567,7 +6567,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6610,7 +6610,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6653,7 +6653,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6703,7 +6703,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6753,7 +6753,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6803,7 +6803,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6846,7 +6846,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6889,7 +6889,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6942,7 +6942,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6985,7 +6985,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -7027,7 +7027,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7070,7 +7070,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7120,7 +7120,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7163,7 +7163,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7206,7 +7206,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7249,7 +7249,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7292,7 +7292,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7335,7 +7335,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7378,7 +7378,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7421,7 +7421,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7464,7 +7464,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7507,7 +7507,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7550,7 +7550,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7593,7 +7593,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -7635,7 +7635,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7678,7 +7678,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -7721,7 +7721,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7764,7 +7764,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7807,7 +7807,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7850,7 +7850,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7893,7 +7893,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7936,7 +7936,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7979,7 +7979,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8022,7 +8022,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8065,7 +8065,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8108,7 +8108,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8151,7 +8151,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8201,7 +8201,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -8244,7 +8244,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8287,7 +8287,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8337,7 +8337,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8380,7 +8380,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8430,7 +8430,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8473,7 +8473,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8516,7 +8516,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8559,7 +8559,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8601,7 +8601,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8644,7 +8644,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8694,7 +8694,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8737,7 +8737,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8780,7 +8780,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8823,7 +8823,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8866,7 +8866,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8909,7 +8909,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8952,7 +8952,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8995,7 +8995,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9038,7 +9038,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9081,7 +9081,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9124,7 +9124,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9167,7 +9167,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9210,7 +9210,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9253,7 +9253,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9296,7 +9296,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9339,7 +9339,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9382,7 +9382,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9432,7 +9432,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9475,7 +9475,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9518,7 +9518,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9561,7 +9561,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9604,7 +9604,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9647,7 +9647,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9689,7 +9689,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9732,7 +9732,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9775,7 +9775,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9818,7 +9818,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9861,7 +9861,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9904,7 +9904,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9947,7 +9947,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9997,7 +9997,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10039,7 +10039,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10082,7 +10082,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10125,7 +10125,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10168,7 +10168,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10211,7 +10211,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10254,7 +10254,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10297,7 +10297,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10347,7 +10347,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10390,7 +10390,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10433,7 +10433,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10483,7 +10483,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10525,7 +10525,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10568,7 +10568,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10611,7 +10611,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10654,7 +10654,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10697,7 +10697,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10739,7 +10739,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10782,7 +10782,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10825,7 +10825,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10868,7 +10868,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10910,7 +10910,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10952,7 +10952,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10995,7 +10995,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11038,7 +11038,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11087,7 +11087,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11136,7 +11136,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11266,7 +11266,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11353,7 +11353,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11396,7 +11396,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11438,7 +11438,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11480,7 +11480,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11523,7 +11523,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11565,7 +11565,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11608,7 +11608,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11651,7 +11651,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11693,7 +11693,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11780,7 +11780,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11823,7 +11823,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11873,7 +11873,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11916,7 +11916,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11959,7 +11959,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12002,7 +12002,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12045,7 +12045,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12088,7 +12088,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12131,7 +12131,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12174,7 +12174,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12216,7 +12216,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12259,7 +12259,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12301,7 +12301,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12344,7 +12344,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12387,7 +12387,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12430,7 +12430,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12472,7 +12472,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12515,7 +12515,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12558,7 +12558,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12601,7 +12601,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12644,7 +12644,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12694,7 +12694,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12744,7 +12744,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12794,7 +12794,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12837,7 +12837,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12931,7 +12931,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12981,7 +12981,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13024,7 +13024,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13067,7 +13067,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13109,7 +13109,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13152,7 +13152,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13194,7 +13194,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13237,7 +13237,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13280,7 +13280,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13322,7 +13322,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13365,7 +13365,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13408,7 +13408,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13458,7 +13458,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13508,7 +13508,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13558,7 +13558,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13608,7 +13608,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13658,7 +13658,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13707,7 +13707,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13750,7 +13750,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13800,7 +13800,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13850,7 +13850,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13899,7 +13899,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13949,7 +13949,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13999,7 +13999,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14046,7 +14046,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14093,7 +14093,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14139,7 +14139,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14186,7 +14186,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14232,7 +14232,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14275,7 +14275,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14322,7 +14322,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14372,7 +14372,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14422,7 +14422,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: The Cap'n Proto schema language is used to define message types in .capnp files that are then compiled into native code for each supported language. The schema language defines structs, unions, enums,
@@ -106,7 +106,7 @@ modified: '2026-04-23'
 name: Cap'n Proto
 nav: Providers
 network: true
-overview: 'Cap''n Proto publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Format, Capability-Based Security, Code Generation, IPC, and Open-Source.
+overview: 'Cap''n Proto publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Format, Capability-Based Security, Code Generation, IPC, and Open Source.
 
 
   Cap''n Proto''s developer surface includes documentation, getting-started guide, engineering blog, and 7 more developer resources.'
@@ -139,7 +139,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ tags:
 - Capability-Based Security
 - Code Generation
 - IPC
-- Open-Source
+- Open Source
 - Protocol
 - RPC
 - Schema

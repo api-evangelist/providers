@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -158,7 +158,7 @@ arazzos:
 - description: Look up a staff member and retrieve their booked appointments for a date range.
   name: Mindbody Staff Schedule Lookup
   slug: mindbody-staff-schedule-lookup-workflow
-artifact_total: 1105
+artifact_total: 1104
 collections:
 - collection_type: postman
   name: Mindbody Public API v6
@@ -1389,10 +1389,6 @@ finops:
 - name: Mindbody Finops
   service_category: Business Management SaaS
   slug: mindbody-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Mindbody Public API v6 domain model for fitness, wellness, and beauty business management. Mindbody exposes a REST API at `https://api.mindbodyonline.com`
-  name: Mindbody GraphQL Schema
-  slug: mindbody-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mindbody.png
 integrations:
 - description: OpenID Connect provider at signin.mindbodyonline.com powering OAuth 2.0 flows for the Public API.
@@ -3572,19 +3568,19 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.2
+  composite: 64.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 81.5
     catalog_earned_first_party: 0.0
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 71.4
+    contract_quality: 70.5
     developer_ergonomics: 72.6
     discoverability: 63.0
     operational_transparency: 65.8
@@ -3597,7 +3593,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

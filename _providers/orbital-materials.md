@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -126,7 +126,7 @@ modified: '2026-08-26'
 name: Orbital Materials
 nav: Providers
 network: true
-overview: 'Orbital Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Materials Science, and Computational Chemistry.
+overview: 'Orbital Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Materials Science, and Computational Chemistry.
 
 
   Orbital Materials'' developer surface includes engineering blog, support, changelog, and 10 more developer resources.'
@@ -159,7 +159,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -175,13 +175,13 @@ slug: orbital-materials
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Materials Science
 - Computational Chemistry
 - Scientific Computing
 - Climate Technology
 - Open Source Models
-- Data-Center
+- Data Center
 - Manufacturing
 website: https://www.orbitalindustries.com/
 ---

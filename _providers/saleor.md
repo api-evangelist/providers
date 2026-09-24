@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-09-16'
 name: Saleor
 nav: Providers
 network: true
-overview: 'Saleor publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, Headless, E-Commerce, GraphQL, and Open-Source.
+overview: 'Saleor publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, Headless, E-Commerce, GraphQL, and Open Source.
 
 
   Saleor''s developer surface includes authentication, documentation, API reference, GitHub presence, status page, engineering blog, and 11 more developer resources.'
@@ -216,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,7 +237,7 @@ tags:
 - Headless
 - E-Commerce
 - GraphQL
-- Open-Source
+- Open Source
 - Python
 - TypeScript
 website: https://saleor.io/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -137,7 +137,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The documents API from Miro — 2 operation(s) for documents.
-  name: Miro documents API
+  name: Miro Documents API
   slug: miro-documents-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -152,7 +152,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The frames API from Miro — 2 operation(s) for frames.
-  name: Miro frames API
+  name: Miro Frames API
   slug: miro-frames-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -162,7 +162,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The groups API from Miro — 4 operation(s) for groups.
-  name: Miro groups API
+  name: Miro Groups API
   slug: miro-groups-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -172,7 +172,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The images API from Miro — 2 operation(s) for images.
-  name: Miro images API
+  name: Miro Images API
   slug: miro-images-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -242,7 +242,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The tags API from Miro — 5 operation(s) for tags.
-  name: Miro tags API
+  name: Miro Tags API
   slug: miro-tags-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -272,7 +272,7 @@ apis:
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
   description: The tokens API from Miro — 2 operation(s) for tokens.
-  name: Miro tokens API
+  name: Miro Tokens API
   slug: miro-tokens-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
@@ -590,7 +590,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -616,5 +616,6 @@ tags:
 - Visual Collaboration
 - Diagramming
 - Software-as-a-Service
+- Collaboration
 website: https://miro.com/
 ---

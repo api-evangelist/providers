@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.music.ai/v1
@@ -192,7 +192,7 @@ modified: '2026-07-20'
 name: Moises
 nav: Providers
 network: true
-overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application API, Jobs API, Upload API, and 1 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Machine-Learning.
+overview: 'Moises publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application API, Jobs API, Upload API, and 1 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Machine Learning.
 
 
   Moises'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
@@ -226,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -243,7 +243,7 @@ tags:
 - Music
 - Audio
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Stem Separation
 - Audio Processing
 - Media

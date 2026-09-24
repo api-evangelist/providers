@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 86
+- acting_count: 109
   human_in_the_loop: 1
   name: Activiti Agentic Access
-  operation_count: 171
+  operation_count: 240
   slug: activiti-agentic-access
-  summary_line: 171 operations · 86 acting · 1 human-in-the-loop
+  summary_line: 240 operations · 109 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: The Activiti Cloud Runtime Bundle provides a cloud-native REST API for executing BPMN 2.0 processes in a distributed, scalable environment. It exposes endpoints for process instances, tasks, variables
@@ -553,7 +553,7 @@ modified: 2026-06-13
 name: Activiti
 nav: Providers
 network: true
-overview: 'Activiti publishes 42 APIs on the [APIs.io](https://apis.io/) network, including About API, Admin Endpoints API, Admin Groups API, and 39 more. Tagged areas include Business Process Management, Workflows, BPMN, Open-Source, and Process Automation.
+overview: 'Activiti publishes 42 APIs on the [APIs.io](https://apis.io/) network, including About API, Admin Endpoints API, Admin Groups API, and 39 more. Tagged areas include Business Process Management, Workflows, BPMN, Open Source, and Process Automation.
 
 
   The Activiti catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -610,7 +610,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -630,7 +630,7 @@ tags:
 - Business Process Management
 - Workflows
 - BPMN
-- Open-Source
+- Open Source
 - Process Automation
 - Java
 - REST API

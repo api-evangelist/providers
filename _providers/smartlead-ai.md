@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 54
+- acting_count: 42
   human_in_the_loop: 1
   name: Smartlead Ai Agentic Access
-  operation_count: 112
+  operation_count: 98
   slug: smartlead-ai-agentic-access
-  summary_line: 112 operations · 54 acting · 1 human-in-the-loop
+  summary_line: 98 operations · 42 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: REST endpoints to create, list, fetch, update, schedule, pause, resume, and delete email campaigns, plus manage sequences, A/B variants, and sender account assignments inside a campaign.
@@ -385,11 +385,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 11
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -413,5 +413,6 @@ tags:
 - Email Warm-up
 - Automation
 - Sequences
+- A2A
 website: https://www.smartlead.ai
 ---

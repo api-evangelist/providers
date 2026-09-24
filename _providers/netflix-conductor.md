@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -126,7 +126,7 @@ modified: '2026-05-19'
 name: Netflix Conductor
 nav: Providers
 network: true
-overview: 'Netflix Conductor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metadata API, Tasks API, and 1 more. Tagged areas include Event-Driven, Microservices, Netflix, Open-Source, and Orchestration.
+overview: 'Netflix Conductor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metadata API, Tasks API, and 1 more. Tagged areas include Event-Driven, Microservices, Netflix, Open Source, and Orchestration.
 
 
   Netflix Conductor''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, and 3 more developer resources.'
@@ -166,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -182,7 +182,7 @@ tags:
 - Event-Driven
 - Microservices
 - Netflix
-- Open-Source
+- Open Source
 - Orchestration
 - Workflows
 website: https://conductor-oss.org/

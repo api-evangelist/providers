@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://fulfillment.noyo.com
@@ -685,7 +685,7 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 13
 score:
   band: developing
-  composite: 42.5
+  composite: 43.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -697,15 +697,15 @@ score:
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 56.5
+    contract_quality: 59.8
     developer_ergonomics: 61.3
     discoverability: 81.5
     operational_transparency: 7.9
-  previous_composite: 41.7
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 98.4
       derived: 0
       marker_coverage: 0.0
       total: 64
@@ -718,7 +718,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

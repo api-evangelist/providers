@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 67.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 105
+- acting_count: 103
   human_in_the_loop: 3
   name: Sageox Agentic Access
   operation_count: 223
   slug: sageox-agentic-access
-  summary_line: 223 operations · 105 acting · 3 human-in-the-loop
+  summary_line: 223 operations · 103 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: http://localhost:3000
@@ -149,7 +149,7 @@ apis:
 - baseURL: http://localhost:3000
   baseurl_source: spec
   description: The runs API from Sageox — 7 operation(s) for runs.
-  name: Sageox runs API
+  name: Sageox Runs API
   slug: sageox-runs-api
 - baseURL: http://localhost:3000
   baseurl_source: spec
@@ -267,7 +267,7 @@ modified: '2026-07-17'
 name: Sageox
 nav: Providers
 network: true
-overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company.
+overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company and A2A.
 random_paper: 9
 scopes:
 - name: Sageox Scopes
@@ -310,7 +310,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -327,4 +327,5 @@ security:
 slug: sageox
 tags:
 - Company
+- A2A
 ---

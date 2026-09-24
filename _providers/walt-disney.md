@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: Disney character data including films, TV shows, and park attractions
   name: Walt Disney Characters API
   slug: walt-disney-characters-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -120,10 +120,6 @@ finops:
 - name: Walt Disney Finops
   service_category: Entertainment / Media
   slug: walt-disney-finops
-graphqls:
-- description: ''
-  name: Walt Disney GraphQL API
-  slug: walt-disney-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walt-disney.png
 json_schemas:
 - name: Disney Character
@@ -201,7 +197,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 65.5
     catalog_earned_first_party: 0.0
     catalog_gap: 34.5
@@ -224,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

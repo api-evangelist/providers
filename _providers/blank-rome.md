@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Blank Rome public website at blankrome.com is the firm's primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, client alerts, publicat
   name: Blank Rome Public Website
   slug: website
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/blank-rome/refs/heads/main/security/blank-rome-domain-security.yml
@@ -108,10 +108,6 @@ common:
 created: '2026-05-23'
 description: Blank Rome LLP is an Am Law 100 U.S. law firm founded in 1946 and headquartered in Philadelphia, with approximately 600+ attorneys across roughly 14 U.S. offices plus an international presence (Shanghai). The firm provides comprehensive legal and government-advocacy services across commercial and corporate litigation, corporate / M&A and finance, restructuring and bankruptcy, government contracts, intellectual property, labor and employment, real estate, tax, white-collar defense, matrimonial and family law, and a nationally recognized maritime and international trade practice. Blank Rome Government Relations LLC, the firm's affiliated lobbying arm, operates from Washington, D.C. The firm publishes practice-area client alerts, the Mainbrace maritime newsletter, and industry insights through its website's News & Events and Publications sections. Blank Rome does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization; this profile catalogs
   the firm's public-facing knowledge surface (practice pages, newsletters, alerts) rather than a developer platform.
-graphqls:
-- description: ''
-  name: Blank Rome LLP GraphQL API
-  slug: blank-rome-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blank-rome.png
 layout: provider
 modified: '2026-07-25'
@@ -124,7 +120,7 @@ score:
   band: minimal
   composite: 4.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -151,7 +147,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

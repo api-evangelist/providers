@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/security/lvmh-vulnerability-disclosure.yml
@@ -94,17 +94,8 @@ common:
   title: ''
   type: LlmsText
   url: https://www.lvmh.com/llms.txt
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/graphql/lvmh-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/lvmh-graphql.md
 created: '2026-05-05'
 description: LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods conglomerate, headquartered in Paris and operating over 75 prestigious brands. Its portfolio spans fashion and leather goods (Louis Vuitton, Christian Dior, Fendi, Loewe, Celine), wines and spirits (Moët & Chandon, Hennessy, Veuve Clicquot), perfumes and cosmetics (Givenchy, Guerlain), watches and jewelry (Tiffany & Co., Bulgari, TAG Heuer), and selective retailing (Sephora, DFS). LVMH does not currently publish a public developer API or developer portal at the group level; technical and partner integrations are handled brand-by-brand and through closed innovation partnerships such as the Aura Blockchain Consortium.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for LVMH Moet Hennessy Louis Vuitton, the world's largest luxury goods conglomerate. LVMH does not currently publish a public developer API at the g
-  name: LVMH GraphQL Schema
-  slug: lvmh-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lvmh.png
 layout: provider
 modified: '2026-05-16'
@@ -114,23 +105,23 @@ network: true
 overview: 'LVMH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cosmetics, Fashion, Jewelry, Luxury, and Retail.
 
 
-  LVMH''s developer surface includes product news and 14 more developer resources.'
+  LVMH''s developer surface includes product news and 13 more developer resources.'
 random_paper: 21
 score:
-  band: emerging
-  composite: 15.4
+  band: minimal
+  composite: 6.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 57.4
     operational_transparency: 2.6
@@ -142,8 +133,8 @@ score:
     - france-iberia
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

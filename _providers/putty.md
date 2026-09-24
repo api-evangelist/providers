@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Terminal emulator and SSH client for Windows and Unix platforms.
@@ -66,7 +66,7 @@ modified: '2026-03-16'
 name: PuTTY
 nav: Providers
 network: true
-overview: 'PuTTY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Network Tools, Open-Source, Remote Access, SSH, and Terminal.
+overview: 'PuTTY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Network Tools, Open Source, Remote Access, SSH, and Terminal.
 
 
   PuTTY''s developer surface includes documentation and 2 more developer resources.'
@@ -99,7 +99,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -114,7 +114,7 @@ security:
 slug: putty
 tags:
 - Network Tools
-- Open-Source
+- Open Source
 - Remote Access
 - SSH
 - Terminal

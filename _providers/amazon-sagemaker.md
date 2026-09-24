@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 9
   human_in_the_loop: 0
   name: Amazon Sagemaker Agentic Access
   operation_count: 13
   slug: amazon-sagemaker-agentic-access
-  summary_line: 13 operations · 13 acting
+  summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
 - description: The Amazon SageMaker AI runtime API for invoking deployed model endpoints to get real-time inference predictions.
@@ -103,7 +103,7 @@ arazzos:
 - description: Train a model to completion, then register it from the produced artifacts and stand up a hosted endpoint.
   name: Amazon SageMaker Train Then Deploy
   slug: amazon-sagemaker-train-then-deploy-workflow
-artifact_total: 88
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Amazon SageMaker API
@@ -135,7 +135,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/sagemaker/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/capabilities/amazon-sagemaker-capability-edges.yml
   title: ''
@@ -483,10 +483,6 @@ finops:
 - name: Amazon Sagemaker Finops
   service_category: AI / Machine Learning
   slug: amazon-sagemaker-finops
-graphqls:
-- description: 'This GraphQL schema provides a conceptual graph representation of the [Amazon SageMaker REST API](https://docs.aws.amazon.com/sagemaker/latest/APIReference/). SageMaker is a fully managed ML platform '
-  name: Amazon SageMaker GraphQL Schema
-  slug: amazon-sagemaker-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-sagemaker.png
 json_schemas:
 - name: Endpoint
@@ -539,7 +535,7 @@ modified: '2026-09-16'
 name: Amazon SageMaker
 nav: Providers
 network: true
-overview: 'Amazon SageMaker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, Models API, Notebook Instances API, and 1 more. Tagged areas include Artificial Intelligence, Inference, Machine-Learning, MLOps, and Training.
+overview: 'Amazon SageMaker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, Models API, Notebook Instances API, and 1 more. Tagged areas include Artificial Intelligence, Inference, Machine Learning, MLOps, and Training.
 
 
   The Amazon SageMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -582,19 +578,19 @@ rules:
   slug: amazon-sagemaker-spectral-rules
 score:
   band: exemplar
-  composite: 67.5
+  composite: 67.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 82.5
     catalog_earned_first_party: 12.0
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 100.0
     contract_governance: 28.8
-    contract_quality: 70.5
+    contract_quality: 69.4
     developer_ergonomics: 67.9
     discoverability: 70.4
     operational_transparency: 52.6
@@ -610,7 +606,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -633,7 +629,7 @@ slug: amazon-sagemaker
 tags:
 - Artificial Intelligence
 - Inference
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Training
 use_cases:
@@ -653,5 +649,5 @@ use_cases:
   name: Fraud Detection
 - description: Deploy ML models on edge devices for predictive maintenance use cases.
   name: Predictive Maintenance
-website: https://amazon.com
+website: https://aws.amazon.com/sagemaker/
 ---

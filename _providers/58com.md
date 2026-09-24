@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-17'
 name: 58.com
 nav: Providers
 network: true
-overview: 58.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Classifieds, Marketplace, and Real-Estate.
+overview: 58.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Classifieds, Marketplace, and Real Estate.
 random_paper: 10
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     - greater-china
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -104,7 +104,7 @@ tags:
 - Consumer
 - Classifieds
 - Marketplace
-- Real-Estate
+- Real Estate
 - Recruitment
 - Local Services
 - China

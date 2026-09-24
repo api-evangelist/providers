@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-18'
 name: Biren Technology
 nav: Providers
 network: true
-overview: 'Biren Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, AI Chips, Semiconductors, and Machine-Learning.
+overview: 'Biren Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, AI Chips, Semiconductors, and Machine Learning.
 
 
   Biren Technology''s developer surface includes documentation and 3 more developer resources.'
@@ -93,7 +93,7 @@ score:
     - greater-china
   previous_composite: 8.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ tags:
 - GPU
 - AI Chips
 - Semiconductors
-- Machine-Learning
+- Machine Learning
 - High Performance Computing
 - SDK
 - China

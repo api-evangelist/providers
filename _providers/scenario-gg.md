@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: List, inspect, and manage custom and base AI models available to a Scenario account. Returns training status, training progress, model type (image, video, audio, 3D), and metadata for the 500+ base mo
@@ -183,7 +183,7 @@ modified: '2026-05-25'
 name: Scenario
 nav: Providers
 network: true
-overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image-Generation.
+overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image Generation.
 
 
   Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 19 more developer resources.'
@@ -215,7 +215,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -237,7 +237,7 @@ tags:
 - Game Assets
 - Game Development
 - Generative AI
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio Generation
 - 3D Assets

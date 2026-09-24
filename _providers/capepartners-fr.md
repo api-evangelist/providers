@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.capepartners.fr
@@ -122,7 +122,7 @@ modified: '2026-09-19'
 name: Cape Partners
 nav: Providers
 network: true
-overview: 'Cape Partners publishes 1 API on the [APIs.io](https://apis.io/) network: Sniffer Agent API. Tagged areas include Mergers and Acquisitions, Deal Flow, Valuation, Investment, and Financial-Services.
+overview: 'Cape Partners publishes 1 API on the [APIs.io](https://apis.io/) network: Sniffer Agent API. Tagged areas include Mergers and Acquisitions, Deal Flow, Valuation, Investment, and Financial Services.
 
 
   Cape Partners'' developer surface includes documentation, API reference, signup flow, authentication, and 13 more developer resources.'
@@ -172,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -192,7 +192,7 @@ tags:
 - Deal Flow
 - Valuation
 - Investment
-- Financial-Services
+- Financial Services
 - Agents
 - A2A
 - France

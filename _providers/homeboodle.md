@@ -29,7 +29,7 @@ modified: '2026-07-19'
 name: Homeboodle
 nav: Providers
 network: true
-overview: Homeboodle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Rentals, Marketplace, and Property Management.
+overview: Homeboodle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Rentals, Marketplace, and Property Management.
 random_paper: 20
 security:
 - kind: domain-security
@@ -39,7 +39,7 @@ security:
 slug: homeboodle
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Rentals
 - Marketplace
 - Property Management

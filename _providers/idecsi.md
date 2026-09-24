@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-19'
 name: Idecsi
 nav: Providers
 network: true
-overview: 'Idecsi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Data Security, Microsoft-365, and Data Access Governance.
+overview: 'Idecsi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Data Security, Microsoft 365, and Data Access Governance.
 
 
   Idecsi''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Data Security
-- Microsoft-365
+- Microsoft 365
 - Data Access Governance
 - DSPM
 - Cybersecurity

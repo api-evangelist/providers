@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ modified: '2026-05-19'
 name: Google Business Messages
 nav: Providers
 network: true
-overview: 'Google Business Messages publishes 1 API on the [APIs.io](https://apis.io/) network: Conversations API. Tagged areas include Business Communications, Conversations, Customer-Support, Google, and Messaging.
+overview: 'Google Business Messages publishes 1 API on the [APIs.io](https://apis.io/) network: Conversations API. Tagged areas include Business Communications, Conversations, Customer Support, Google, and Messaging.
 
 
   The Google Business Messages catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -215,7 +215,7 @@ slug: google-business-messages
 tags:
 - Business Communications
 - Conversations
-- Customer-Support
+- Customer Support
 - Google
 - Messaging
 website: https://www.google.com/

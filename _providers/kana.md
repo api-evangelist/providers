@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The callable surface a deployed Kana pipeline ("skill") exposes on the Kana application host. POST /skill/{pipelineid} starts a run and returns a runid; GET /run/{runid}/status reports progress and qu
@@ -43,10 +43,6 @@ apis:
   slug: kana-mcp-server
 artifact_total: 8
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/salesforce/
 - group: company
   title: ''
   type: Website
@@ -160,7 +156,7 @@ network: true
 overview: 'Kana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Marketing Technology.
 
 
-  Kana''s developer surface includes engineering blog, support, getting-started guide, signup flow, authentication, and 17 more developer resources.'
+  Kana''s developer surface includes engineering blog, support, getting-started guide, signup flow, authentication, and 16 more developer resources.'
 plans:
 - name: Kana Plans Pricing
   plan_count: 3
@@ -198,7 +194,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://apisetu.gov.in/acko/v3
   baseurl_source: declared
   description: The APIs API from Acko — 3 operation(s) for apis.
-  name: Acko AP Is API
+  name: Acko APIs API
   slug: acko-apis-api
 artifact_total: 6
 collections:
@@ -168,7 +168,7 @@ modified: '2026-07-18'
 name: Acko
 nav: Providers
 network: true
-overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: AP Is API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial-Services.
+overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, Insurtech, and Financial Services.
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
@@ -216,7 +216,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,7 +237,7 @@ tags:
 - Consumer
 - Insurance
 - Insurtech
-- Financial-Services
+- Financial Services
 - Digital Insurance
 - India
 - Embedded Insurance

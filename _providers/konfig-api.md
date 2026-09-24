@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
-api_count: 6
+  scored_at: '2026-09-24'
+api_count: 5
 apis:
 - description: Capability area (endpointsModeled - no documented public REST endpoint). Generates idiomatic client-library SDKs from an OpenAPI Specification or Postman Collection in TypeScript/JavaScript, Python, J
   name: Konfig SDK Generation
@@ -51,10 +51,7 @@ apis:
 - description: Capability area (endpointsModeled). A configurable linter that inspects an OpenAPI Specification for errors and quality issues before SDK and docs generation, so client libraries are produced from a c
   name: Konfig OpenAPI Linting
   slug: konfig-linting
-- description: Konfig's developer platform for generating, validating, and publishing SDKs, API reference documentation, and interactive tutorials from OpenAPI specifications and Postman Collections. Delivered prima
-  name: Konfig SDK Generation Platform (Sunset)
-  slug: konfig-sdk-generation
-artifact_total: 9
+artifact_total: 8
 common:
 - group: build
   title: ''
@@ -107,7 +104,7 @@ modified: '2026-07-11'
 name: Konfig
 nav: Providers
 network: true
-overview: 'Konfig publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK Generation, Client Library, API Documentation, Developer Tools, and API Lifecycle.
+overview: 'Konfig publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SDK Generation, Client Library, API Documentation, Developer Tools, and API Lifecycle.
 
 
   Konfig''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -146,7 +143,7 @@ score:
     regime_id: education
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

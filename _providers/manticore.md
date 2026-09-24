@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 20
+- acting_count: 9
   human_in_the_loop: 0
   name: Manticore Agentic Access
-  operation_count: 20
+  operation_count: 10
   slug: manticore-agentic-access
-  summary_line: 20 operations · 20 acting
+  summary_line: 10 operations · 9 acting
 api_count: 2
 apis:
 - baseURL: http://127.0.0.1:9308/
@@ -56,7 +56,7 @@ apis:
 - baseURL: http://127.0.0.1:9308/
   baseurl_source: declared
   description: The utils API from Manticore Search — 1 operation(s) for utils.
-  name: Manticore Search utils API
+  name: Manticore Search Utils API
   slug: manticore-utils-api
 artifact_total: 69
 collections:
@@ -310,7 +310,7 @@ modified: '2026-09-16'
 name: Manticore Search
 nav: Providers
 network: true
-overview: 'Manticore Search publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Index API, utils API, and 1 more. Tagged areas include Search, Full-Text Search, Vector Search, Elasticsearch Compatible, and Open-Source.
+overview: 'Manticore Search publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Index API, Utils API, and 1 more. Tagged areas include Search, Full-Text Search, Vector Search, Elasticsearch Compatible, and Open Source.
 
 
   The Manticore Search catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -381,7 +381,7 @@ tags:
 - Full-Text Search
 - Vector Search
 - Elasticsearch Compatible
-- Open-Source
+- Open Source
 - Database
 website: https://manticoresearch.com/
 ---

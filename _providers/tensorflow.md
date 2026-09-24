@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ modified: '2026-09-16'
 name: TensorFlow
 nav: Providers
 network: true
-overview: 'TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inference API and Models API. Tagged areas include Artificial Intelligence, Deep Learning, JavaScript, Machine-Learning, and Model Serving.
+overview: 'TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inference API and Models API. Tagged areas include Artificial Intelligence, Deep Learning, JavaScript, Machine Learning, and Model Serving.
 
 
   The TensorFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -376,7 +376,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -396,10 +396,10 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Neural Networks
-- Open-Source
+- Open Source
 - Python
 website: https://tensorflow.org
 ---

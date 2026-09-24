@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Visitor profile updates
   name: Olark Visitor API
   slug: olark-visitor-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -156,40 +156,36 @@ common:
   url: https://blog.olark.com/rss.xml
 created: '2026-05-11'
 description: Olark is a live chat and AI-powered customer communication platform that enables businesses to engage website visitors in real time through chat, chatbots, WhatsApp, and SMS. The platform combines human support with CoPilot automation for capturing leads, driving sales, and providing 24/7 customer service, and is WCAG 2.1 AA accessibility certified. Olark exposes a browser-side JavaScript API for embedding and customizing the chat widget, plus webhooks and integrations with 100+ external tools.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Olark live chat and customer support platform. The schema is derived from the [Olark REST API](https://www.olark.com/api/rest/) and the broa
-  name: Olark GraphQL Schema
-  slug: olark-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/olark.png
 layout: provider
 modified: '2026-05-11'
 name: Olark
 nav: Providers
 network: true
-overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Box API, Chat API, Configure API, and 2 more. Tagged areas include Live Chat, Customer-Support, Chatbots, Customer Engagement, and Messaging.
+overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Box API, Chat API, Configure API, and 2 more. Tagged areas include Live Chat, Customer Support, Chatbots, Customer Engagement, and Messaging.
 
 
   Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 31.1
+  composite: 29.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 54.9
+    contract_quality: 49.1
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 2.6
-  previous_composite: 30.5
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +195,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +217,7 @@ security:
 slug: olark
 tags:
 - Live Chat
-- Customer-Support
+- Customer Support
 - Chatbots
 - Customer Engagement
 - Messaging

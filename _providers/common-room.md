@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ apis:
   description: Operations related to website visit tracking
   name: Common Room Website Visits API
   slug: common-room-website-visits-api
-artifact_total: 138
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Common Room Webhooks
@@ -442,10 +442,6 @@ finops:
 - name: Common Room Finops
   service_category: ''
   slug: common-room-finops
-graphqls:
-- description: Common Room is a community intelligence and go-to-market (GTM) platform that aggregates member signals across GitHub, Slack, Discord, LinkedIn, Twitter, and other channels. This conceptual GraphQL sch
-  name: Common Room GraphQL Schema
-  slug: common-room-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/common-room.png
 json_schemas:
 - name: ApiActivity
@@ -727,19 +723,19 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 65.0
+  composite: 64.3
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 69.3
     catalog_earned_first_party: 12.0
     catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 93.4
     contract_governance: 28.0
-    contract_quality: 76.9
+    contract_quality: 74.0
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 23.7
@@ -755,7 +751,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

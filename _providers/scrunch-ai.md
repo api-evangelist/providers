@@ -29,7 +29,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.7
-  scored_at: '2026-09-23'
+  score: 56.8
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -51,17 +51,17 @@ apis:
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
   description: The agent-traffic API from Scrunch AI — 1 operation(s) for agent-traffic.
-  name: Scrunch AI agent-traffic API
+  name: Scrunch AI Agent Traffic API
   slug: scrunch-ai-agent-traffic-api
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
   description: The ai-referrals API from Scrunch AI — 3 operation(s) for ai-referrals.
-  name: Scrunch AI ai-referrals API
+  name: Scrunch AI AI Referrals API
   slug: scrunch-ai-ai-referrals-api
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
   description: The axp-render API from Scrunch AI — 1 operation(s) for axp-render.
-  name: Scrunch AI axp-render API
+  name: Scrunch AI Axp Render API
   slug: scrunch-ai-axp-render-api
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
   description: The orchestration API from Scrunch AI — 2 operation(s) for orchestration.
-  name: Scrunch AI orchestration API
+  name: Scrunch AI Orchestration API
   slug: scrunch-ai-orchestration-api
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
@@ -96,7 +96,7 @@ apis:
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
   description: The sitemap API from Scrunch AI — 4 operation(s) for sitemap.
-  name: Scrunch AI sitemap API
+  name: Scrunch AI Sitemap API
   slug: scrunch-ai-sitemap-api
 - baseURL: https://api.scrunchai.com/v1
   baseurl_source: declared
@@ -359,7 +359,7 @@ modified: '2026-08-13'
 name: Scrunch AI
 nav: Providers
 network: true
-overview: 'Scrunch AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including agent-traffic API, ai-referrals API, axp-render API, and 10 more. Tagged areas include Company, Artificial Intelligence, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
+overview: 'Scrunch AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Traffic API, AI Referrals API, Axp Render API, and 10 more. Tagged areas include Company, Artificial Intelligence, AI Search, Answer Engine Optimization, and Generative Engine Optimization.
 
 
   The Scrunch AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -410,7 +410,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

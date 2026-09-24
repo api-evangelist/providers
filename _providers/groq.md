@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: The Responses API from Groq — 1 operation(s) for responses.
   name: Groq Responses API
   slug: groq-responses-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI 2.6 description of Groq's **chat completion streaming** surface. Groq does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://console.groq.com/do
   name: Groq Chat Completions Streaming (HTTP + SSE)
@@ -196,10 +196,6 @@ finops:
 - name: Groq Finops
   service_category: AI and Machine Learning
   slug: groq-finops
-graphqls:
-- description: Groq provides ultra-fast LLM inference via their Language Processing Unit (LPU) hardware. The API is OpenAI-compatible and covers chat completions, audio transcription, and batch processing with model
-  name: Groq GraphQL API
-  slug: groq-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
 modified: '2026-05-29'
@@ -236,19 +232,19 @@ rules:
   slug: groq-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 33.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 49.8
     catalog_earned_first_party: 0.0
     catalog_gap: 65.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 57.9
+    contract_quality: 55.3
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 10.5
@@ -261,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -291,5 +287,6 @@ tags:
 - Inference
 - LPU
 - Low Latency
+- Real-Time
 website: https://groq.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -116,7 +116,7 @@ modified: '2026-07-20'
 name: Bodygram
 nav: Providers
 network: true
-overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer-Vision, Artificial Intelligence, and Sizing.
+overview: 'Bodygram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Sizing.
 
 
   Bodygram''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, and 9 more developer resources.'
@@ -155,7 +155,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ slug: original
 tags:
 - Company
 - Body Measurement
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Sizing
 - Retail

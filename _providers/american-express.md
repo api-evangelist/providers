@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -233,7 +233,7 @@ modified: '2026-07-23'
 name: American Express
 nav: Providers
 network: true
-overview: 'American Express publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Cards, Financial-Services, Payments, Card Network, and Tokenization.
+overview: 'American Express publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Cards, Financial Services, Payments, Card Network, and Tokenization.
 
 
   American Express'' developer surface includes developer portal, documentation, engineering blog, support, signup flow, getting-started guide, authentication, and 21 more developer resources.'
@@ -301,7 +301,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -320,7 +320,7 @@ security:
 slug: american-express
 tags:
 - Credit Cards
-- Financial-Services
+- Financial Services
 - Payments
 - Card Network
 - Tokenization

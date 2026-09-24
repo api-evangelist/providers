@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-19'
 name: Inyad
 nav: Providers
 network: true
-overview: 'Inyad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Payments, Point-of-Sale, and Invoicing.
+overview: 'Inyad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Point-of-Sale, and Invoicing.
 
 
   Inyad''s developer surface includes engineering blog, pricing, signup flow, and 2 more developer resources.'
@@ -101,7 +101,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ security:
 slug: inyad
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Point-of-Sale
 - Invoicing

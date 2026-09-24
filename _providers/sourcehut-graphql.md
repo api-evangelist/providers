@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Sourcehut GraphQL API provides programmatic access to all sr.ht services including git hosting, Mercurial hosting, build pipelines, mailing lists, bug tracking, and account management. Each servic
@@ -96,7 +96,7 @@ modified: '2026-09-16'
 name: Sourcehut GraphQL
 nav: Providers
 network: true
-overview: 'Sourcehut GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Developer Tools, Software Forge, Version Control, and Open-Source.
+overview: 'Sourcehut GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Developer Tools, Software Forge, Version Control, and Open Source.
 
 
   Sourcehut GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -139,7 +139,7 @@ tags:
 - Developer Tools
 - Software Forge
 - Version Control
-- Open-Source
+- Open Source
 - CI/CD
 - Git
 website: https://sourcehut.org/

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 1
   name: Justworks Agentic Access
   operation_count: 27
   slug: justworks-agentic-access
-  summary_line: 27 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 27 operations · 8 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://public-api.justworks.com
@@ -375,7 +375,7 @@ score:
     regime_id: insurance
     score: 64.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

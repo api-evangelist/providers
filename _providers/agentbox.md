@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The production Agentbox (Reapit Sales) REST API used by approved integration partners to read and write agency CRM data - contacts, listings, properties, staff and offices. The host is live and fronte
@@ -209,7 +209,7 @@ modified: '2026-07-26'
 name: Agentbox
 nav: Providers
 network: true
-overview: 'Agentbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Australia, Property Listings, PropTech, and CRM.
+overview: 'Agentbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Australia, Property Listings, PropTech, and CRM.
 
 
   Agentbox''s developer surface includes authentication, changelog, engineering blog, documentation, support, pricing, training material, and 30 more developer resources.'
@@ -248,7 +248,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -266,7 +266,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: agentbox
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Property Listings
 - PropTech

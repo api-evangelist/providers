@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.1
-  scored_at: '2026-09-23'
+  score: 6.1
+  scored_at: '2026-09-24'
 api_count: 10
 apis:
 - description: Manages Anyscale Workspaces - cloud-hosted, GPU-backed development environments preconfigured with Ray for interactive development and debugging.
@@ -66,7 +66,7 @@ apis:
 - description: Retrieves cluster, job, and service logs, metrics, and Ray dashboard data for observability and debugging.
   name: Anyscale Logs and Monitoring API
   slug: anyscale-logs-api
-artifact_total: 16
+artifact_total: 15
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/anyscale/refs/heads/main/security/anyscale-trust-center.yml
@@ -123,10 +123,6 @@ finops:
 - name: Anyscale Finops
   service_category: AI and Machine Learning
   slug: anyscale-finops
-graphqls:
-- description: Anyscale is a managed Ray platform for distributed AI compute. Their Endpoints API provides OpenAI-compatible access to open-source LLMs (Llama, Mistral), fine-tuning, and deployment.
-  name: Anyscale GraphQL API
-  slug: anyscale-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anyscale.png
 layout: provider
 modified: '2026-05-08'
@@ -147,27 +143,27 @@ rate_limits:
   name: Anyscale Rate Limits
   slug: anyscale-rate-limits
 score:
-  band: thin
-  composite: 26.9
+  band: emerging
+  composite: 17.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 81.5
     operational_transparency: 10.5
   previous_composite: 26.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

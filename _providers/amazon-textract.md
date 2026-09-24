@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Amazon Textract Agentic Access
   operation_count: 6
   slug: amazon-textract-agentic-access
-  summary_line: 6 operations · 6 acting
+  summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
 - baseURL: https://textract.amazonaws.com
@@ -227,7 +227,7 @@ modified: '2026-05-19'
 name: Amazon Textract
 nav: Providers
 network: true
-overview: 'Amazon Textract publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Async Operations API, Document Analysis API, Expense Analysis API, and 2 more. Tagged areas include Document Processing, Machine-Learning, and OCR.
+overview: 'Amazon Textract publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Async Operations API, Document Analysis API, Expense Analysis API, and 2 more. Tagged areas include Document Processing, Machine Learning, and OCR.
 
 
   The Amazon Textract catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -314,7 +314,7 @@ security:
 slug: amazon-textract
 tags:
 - Document Processing
-- Machine-Learning
+- Machine Learning
 - OCR
 use_cases:
 - description: Use Amazon Textract to manage and automate cloud operations.

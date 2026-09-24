@@ -12,30 +12,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-09-23'
+  score: 48.5
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 42
   slug: amazon-agentic-access
   summary_line: 42 operations · 20 acting
-api_count: 3
+api_count: 2
 apis:
 - description: The Amazon Creators API provides programmatic access to Amazon product data for publishers, influencers, and affiliate partners. It is the recommended replacement for the Product Advertising API and r
   name: Amazon Creators API
@@ -54,82 +55,57 @@ apis:
 - description: The Amazon Appstore Developer APIs provide tools for managing app submissions, testing, and monetization through in-app purchases on the Amazon Appstore for Android and Fire OS applications.
   name: Amazon Appstore API
   slug: appstore-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
   description: Ad group management operations
   name: Amazon Ad Groups API
   slug: amazon-ad-groups-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
   description: Campaign management operations
   name: Amazon Campaigns API
   slug: amazon-campaigns-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
-  baseurl_source: declared
-  description: Search and retrieve catalog item information
-  name: Amazon Catalog API
-  slug: amazon-catalog-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://pay-api.amazon.com/live/v2
   baseurl_source: declared
   description: Manage buyer charge authorizations
   name: Amazon Charge Permissions API
   slug: amazon-charge-permissions-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://pay-api.amazon.com/live/v2
   baseurl_source: declared
   description: Create and manage payment charges
   name: Amazon Charges API
   slug: amazon-charges-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://pay-api.amazon.com/live/v2
   baseurl_source: declared
   description: Manage buyer checkout sessions
   name: Amazon Checkout Sessions API
   slug: amazon-checkout-sessions-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
-  baseurl_source: declared
-  description: Retrieve financial transaction data
-  name: Amazon Finances API
-  slug: amazon-finances-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
-  baseurl_source: declared
-  description: Manage FBA inventory
-  name: Amazon Inventory API
-  slug: amazon-inventory-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
   description: Keyword management operations
   name: Amazon Keywords API
   slug: amazon-keywords-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
-  baseurl_source: declared
-  description: Create, update, and manage product listings
-  name: Amazon Listings API
-  slug: amazon-listings-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
-  baseurl_source: declared
-  description: Manage and retrieve order information
-  name: Amazon Orders API
-  slug: amazon-orders-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
   description: Account profile management
   name: Amazon Profiles API
   slug: amazon-profiles-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://pay-api.amazon.com/live/v2
   baseurl_source: declared
   description: Process refunds on captured charges
   name: Amazon Refunds API
   slug: amazon-refunds-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
-  description: Reporting and analytics
-  name: Amazon Reports API
+  description: Request Amazon Ads (Sponsored Products) performance reports by record type and poll report status. The Selling Partner API Reports operations are profiled separately in the amazon-seller-central repo.
+  name: Amazon Ads Reports API
   slug: amazon-reports-api
-- baseURL: https://sellingpartnerapi-na.amazon.com
+- baseURL: https://advertising-api.amazon.com
   baseurl_source: declared
   description: Product targeting operations
   name: Amazon Targets API
   slug: amazon-targets-api
-artifact_total: 266
+artifact_total: 190
 collections:
 - collection_type: postman
   name: Amazon Advertising Ad Groups API
@@ -137,9 +113,6 @@ collections:
 - collection_type: postman
   name: Amazon Advertising Ad Groups Campaigns API
   slug: postman-amazon-campaigns-api
-- collection_type: postman
-  name: Amazon Advertising Ad Groups Catalog API
-  slug: postman-amazon-catalog-api
 - collection_type: postman
   name: Amazon Advertising Ad Groups Charge Permissions API
   slug: postman-amazon-charge-permissions-api
@@ -150,29 +123,14 @@ collections:
   name: Amazon Advertising Ad Groups Checkout Sessions API
   slug: postman-amazon-checkout-sessions-api
 - collection_type: postman
-  name: Amazon Advertising Ad Groups Finances API
-  slug: postman-amazon-finances-api
-- collection_type: postman
-  name: Amazon Advertising Ad Groups Inventory API
-  slug: postman-amazon-inventory-api
-- collection_type: postman
   name: Amazon Advertising Ad Groups Keywords API
   slug: postman-amazon-keywords-api
-- collection_type: postman
-  name: Amazon Advertising Ad Groups Listings API
-  slug: postman-amazon-listings-api
-- collection_type: postman
-  name: Amazon Advertising Ad Groups Orders API
-  slug: postman-amazon-orders-api
 - collection_type: postman
   name: Amazon Advertising Ad Groups Profiles API
   slug: postman-amazon-profiles-api
 - collection_type: postman
   name: Amazon Advertising Ad Groups Refunds API
   slug: postman-amazon-refunds-api
-- collection_type: postman
-  name: Amazon Advertising Ad Groups Reports API
-  slug: postman-amazon-reports-api
 - collection_type: postman
   name: Amazon Advertising Ad Groups Targets API
   slug: postman-amazon-targets-api
@@ -189,9 +147,6 @@ collections:
   name: Amazon Advertising Ad Groups Campaigns API
   slug: open-amazon-campaigns-api
 - collection_type: open
-  name: Amazon Advertising Ad Groups Catalog API
-  slug: open-amazon-catalog-api
-- collection_type: open
   name: Amazon Advertising Ad Groups Charge Permissions API
   slug: open-amazon-charge-permissions-api
 - collection_type: open
@@ -201,20 +156,8 @@ collections:
   name: Amazon Advertising Ad Groups Checkout Sessions API
   slug: open-amazon-checkout-sessions-api
 - collection_type: open
-  name: Amazon Advertising Ad Groups Finances API
-  slug: open-amazon-finances-api
-- collection_type: open
-  name: Amazon Advertising Ad Groups Inventory API
-  slug: open-amazon-inventory-api
-- collection_type: open
   name: Amazon Advertising Ad Groups Keywords API
   slug: open-amazon-keywords-api
-- collection_type: open
-  name: Amazon Advertising Ad Groups Listings API
-  slug: open-amazon-listings-api
-- collection_type: open
-  name: Amazon Advertising Ad Groups Orders API
-  slug: open-amazon-orders-api
 - collection_type: open
   name: Amazon Pay API
   slug: open-amazon-pay-api
@@ -225,15 +168,71 @@ collections:
   name: Amazon Advertising Ad Groups Refunds API
   slug: open-amazon-refunds-api
 - collection_type: open
-  name: Amazon Advertising Ad Groups Reports API
+  name: Amazon Ads Reports API
   slug: open-amazon-reports-api
-- collection_type: open
-  name: Amazon Selling Partner API
-  slug: open-amazon-selling-partner-api
 - collection_type: open
   name: Amazon Advertising Ad Groups Targets API
   slug: open-amazon-targets-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/finops/amazon-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-finops.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/rate-limits/amazon-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/plans/amazon-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-plans-pricing.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/rules/amazon-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/amazon-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/rules/amazon-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/amazon-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/rules/amazon-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/amazon-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/vocabulary/amazon-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amazon-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/data-model/amazon-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/amazon-data-model.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/amazonvrp
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/errors/amazon-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/conformance/amazon-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/amazon-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/llms/amazon-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-llms.txt
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/capabilities/amazon-capability-edges.yml
   title: ''
@@ -248,6 +247,21 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-agentic-access.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/mcp/amazon-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/well-known/amazon-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/well-known/amazon-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-security.txt
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/security/amazon-vulnerability-disclosure.yml
   title: ''
@@ -431,66 +445,6 @@ examples:
 - key_count: 3
   name: Pay Update Checkout Session Request Example
   slug: pay-update-checkout-session-request-example
-- key_count: 4
-  name: Selling Partner Catalog Item Example
-  slug: selling-partner-catalog-item-example
-- key_count: 3
-  name: Selling Partner Catalog Item List Example
-  slug: selling-partner-catalog-item-list-example
-- key_count: 1
-  name: Selling Partner Create Report Response Example
-  slug: selling-partner-create-report-response-example
-- key_count: 4
-  name: Selling Partner Create Report Specification Example
-  slug: selling-partner-create-report-specification-example
-- key_count: 1
-  name: Selling Partner Error List Example
-  slug: selling-partner-error-list-example
-- key_count: 2
-  name: Selling Partner Inventory Summaries Example
-  slug: selling-partner-inventory-summaries-example
-- key_count: 5
-  name: Selling Partner Listings Item Example
-  slug: selling-partner-listings-item-example
-- key_count: 2
-  name: Selling Partner Listings Item Patch Request Example
-  slug: selling-partner-listings-item-patch-request-example
-- key_count: 2
-  name: Selling Partner Listings Item Put Request Example
-  slug: selling-partner-listings-item-put-request-example
-- key_count: 4
-  name: Selling Partner Listings Item Submission Response Example
-  slug: selling-partner-listings-item-submission-response-example
-- key_count: 2
-  name: Selling Partner Money Example
-  slug: selling-partner-money-example
-- key_count: 10
-  name: Selling Partner Order Example
-  slug: selling-partner-order-example
-- key_count: 7
-  name: Selling Partner Order Item Example
-  slug: selling-partner-order-item-example
-- key_count: 1
-  name: Selling Partner Order Item List Example
-  slug: selling-partner-order-item-list-example
-- key_count: 1
-  name: Selling Partner Order List Example
-  slug: selling-partner-order-list-example
-- key_count: 2
-  name: Selling Partner Pagination Example
-  slug: selling-partner-pagination-example
-- key_count: 2
-  name: Selling Partner Report Document Example
-  slug: selling-partner-report-document-example
-- key_count: 5
-  name: Selling Partner Report Example
-  slug: selling-partner-report-example
-- key_count: 2
-  name: Selling Partner Report List Example
-  slug: selling-partner-report-list-example
-- key_count: 2
-  name: Selling Partner Transaction List Example
-  slug: selling-partner-transaction-list-example
 features:
 - 'Amazon (Web Services + Marketplace + Ads): hundreds of services across Cloud + Commerce'
 - 'Detailed pricing: see https://aws.amazon.com/pricing/'
@@ -539,10 +493,6 @@ finops:
 - name: Amazon Finops
   service_category: Cloud + Commerce
   slug: amazon-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Amazon Selling Partner API (SP-API) surface.
-  name: Amazon Selling Partner API - GraphQL Schema
-  slug: amazon-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon.png
 integrations:
 - description: SP-API is the modern replacement for the deprecated Amazon Marketplace Web Service (MWS) for all seller operations.
@@ -646,66 +596,6 @@ json_schemas:
 - name: UpdateCheckoutSessionRequest
   property_count: 3
   slug: pay-update-checkout-session-request
-- name: CatalogItemList
-  property_count: 3
-  slug: selling-partner-catalog-item-list
-- name: CatalogItem
-  property_count: 4
-  slug: selling-partner-catalog-item
-- name: CreateReportResponse
-  property_count: 1
-  slug: selling-partner-create-report-response
-- name: CreateReportSpecification
-  property_count: 4
-  slug: selling-partner-create-report-specification
-- name: ErrorList
-  property_count: 1
-  slug: selling-partner-error-list
-- name: InventorySummaries
-  property_count: 2
-  slug: selling-partner-inventory-summaries
-- name: ListingsItemPatchRequest
-  property_count: 2
-  slug: selling-partner-listings-item-patch-request
-- name: ListingsItemPutRequest
-  property_count: 2
-  slug: selling-partner-listings-item-put-request
-- name: ListingsItem
-  property_count: 5
-  slug: selling-partner-listings-item
-- name: ListingsItemSubmissionResponse
-  property_count: 4
-  slug: selling-partner-listings-item-submission-response
-- name: Money
-  property_count: 2
-  slug: selling-partner-money
-- name: OrderItemList
-  property_count: 1
-  slug: selling-partner-order-item-list
-- name: OrderItem
-  property_count: 7
-  slug: selling-partner-order-item
-- name: OrderList
-  property_count: 1
-  slug: selling-partner-order-list
-- name: Order
-  property_count: 10
-  slug: selling-partner-order
-- name: Pagination
-  property_count: 2
-  slug: selling-partner-pagination
-- name: ReportDocument
-  property_count: 2
-  slug: selling-partner-report-document
-- name: ReportList
-  property_count: 2
-  slug: selling-partner-report-list
-- name: Report
-  property_count: 5
-  slug: selling-partner-report
-- name: TransactionList
-  property_count: 2
-  slug: selling-partner-transaction-list
 json_structures:
 - name: Advertising Ad Group Response Structure
   property_count: 3
@@ -797,83 +687,27 @@ json_structures:
 - name: Pay Update Checkout Session Request Structure
   property_count: 3
   slug: pay-update-checkout-session-request-structure
-- name: Selling Partner Catalog Item List Structure
-  property_count: 3
-  slug: selling-partner-catalog-item-list-structure
-- name: Selling Partner Catalog Item Structure
-  property_count: 4
-  slug: selling-partner-catalog-item-structure
-- name: Selling Partner Create Report Response Structure
-  property_count: 1
-  slug: selling-partner-create-report-response-structure
-- name: Selling Partner Create Report Specification Structure
-  property_count: 4
-  slug: selling-partner-create-report-specification-structure
-- name: Selling Partner Error List Structure
-  property_count: 1
-  slug: selling-partner-error-list-structure
-- name: Selling Partner Inventory Summaries Structure
-  property_count: 2
-  slug: selling-partner-inventory-summaries-structure
-- name: Selling Partner Listings Item Patch Request Structure
-  property_count: 2
-  slug: selling-partner-listings-item-patch-request-structure
-- name: Selling Partner Listings Item Put Request Structure
-  property_count: 2
-  slug: selling-partner-listings-item-put-request-structure
-- name: Selling Partner Listings Item Structure
-  property_count: 5
-  slug: selling-partner-listings-item-structure
-- name: Selling Partner Listings Item Submission Response Structure
-  property_count: 4
-  slug: selling-partner-listings-item-submission-response-structure
-- name: Selling Partner Money Structure
-  property_count: 2
-  slug: selling-partner-money-structure
-- name: Selling Partner Order Item List Structure
-  property_count: 1
-  slug: selling-partner-order-item-list-structure
-- name: Selling Partner Order Item Structure
-  property_count: 7
-  slug: selling-partner-order-item-structure
-- name: Selling Partner Order List Structure
-  property_count: 1
-  slug: selling-partner-order-list-structure
-- name: Selling Partner Order Structure
-  property_count: 10
-  slug: selling-partner-order-structure
-- name: Selling Partner Pagination Structure
-  property_count: 2
-  slug: selling-partner-pagination-structure
-- name: Selling Partner Report Document Structure
-  property_count: 2
-  slug: selling-partner-report-document-structure
-- name: Selling Partner Report List Structure
-  property_count: 2
-  slug: selling-partner-report-list-structure
-- name: Selling Partner Report Structure
-  property_count: 5
-  slug: selling-partner-report-structure
-- name: Selling Partner Transaction List Structure
-  property_count: 2
-  slug: selling-partner-transaction-list-structure
 jsonld:
 - class_count: 53
   name: Amazon Context
   property_count: 113
   slug: amazon-context
 layout: provider
+mcp_servers:
+- description: Amazon Ads operates a first-party hosted MCP server, the Amazon Ads MCP Server, at https://advertising-ai.amazon.com/mcp. Amazon's docs describe it as a standardized access layer that translates the A
+  name: Amazon MCP Server
+  slug: amazon-mcp-server
 modified: '2026-05-19'
 name: Amazon
 nav: Providers
 network: true
-overview: 'Amazon publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Campaigns API, Catalog API, and 12 more. Tagged areas include Amazon, Advertising, Alexa, E-Commerce, and Marketplace.
+overview: 'Amazon publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Campaigns API, Charge Permissions API, and 7 more. Tagged areas include Amazon, Advertising, Alexa, E-Commerce, and Marketplace.
 
 
-  The Amazon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Amazon catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 17 more developer resources.'
+  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 32 more developer resources.'
 plans:
 - name: Amazon Plans Pricing
   plan_count: 3
@@ -910,6 +744,17 @@ rules:
     info: 2
     warn: 3
   slug: amazon-jsonschema-spectral-rules
+- effective_rule_count: 58
+  extends:
+  - spectral:oas
+  name: Amazon API Rules
+  rule_count: 17
+  severity_counts:
+    error: 15
+    hint: 0
+    info: 1
+    warn: 1
+  slug: amazon-rules
 - effective_rule_count: 63
   extends:
   - spectral:oas
@@ -923,19 +768,19 @@ rules:
   slug: amazon-spectral-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 52.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 74.5
     catalog_earned_first_party: 0.0
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 43.4
     contract_governance: 28.8
-    contract_quality: 71.2
+    contract_quality: 70.2
     developer_ergonomics: 46.4
     discoverability: 81.5
     operational_transparency: 7.9
@@ -954,7 +799,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

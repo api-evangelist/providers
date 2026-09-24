@@ -18,7 +18,7 @@ modified: '2026-07-21'
 name: YesPath
 nav: Providers
 network: true
-overview: YesPath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Engagement, Sales, Marketing, and Machine-Learning.
+overview: YesPath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Engagement, Sales, Marketing, and Machine Learning.
 random_paper: 18
 slug: yespath
 tags:
@@ -26,7 +26,7 @@ tags:
 - Account Engagement
 - Sales
 - Marketing
-- Machine-Learning
+- Machine Learning
 - B2B
 - Defunct
 - Acquired

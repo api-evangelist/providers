@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'The Postmates Fleet API (also referred to as the Postmates On-Demand Delivery API and Postmates Anywhere API) was a REST API that let merchants programmatically create delivery jobs, quote pickup and '
@@ -138,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -159,6 +159,6 @@ tags:
 - Historical
 - Logistics
 - On-Demand
-- Sunset
+- Restaurant
 website: https://postmates.com
 ---

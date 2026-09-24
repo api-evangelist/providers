@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and P
@@ -114,7 +114,7 @@ modified: '2026-09-16'
 name: Rentec Direct
 nav: Providers
 network: true
-overview: 'Rentec Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Property Management, Real-Estate, Rentals, Tenant Screening, and Payments.
+overview: 'Rentec Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Property Management, Real Estate, Rentals, Tenant Screening, and Payments.
 
 
   Rentec Direct''s developer surface includes pricing, engineering blog, status page, support, and 11 more developer resources.'
@@ -153,7 +153,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +168,7 @@ security:
 slug: rentec
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rentals
 - Tenant Screening
 - Payments

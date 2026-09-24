@@ -29,5 +29,5 @@ tags:
 - Identity
 - Credentials
 - Defunct
-- Open-Source
+- Open Source
 ---

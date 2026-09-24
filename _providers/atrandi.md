@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-18'
 name: Atrandi
 nav: Providers
 network: true
-overview: 'Atrandi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Single Cell Analysis, and Genomics.
+overview: 'Atrandi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Single Cell Analysis, and Genomics.
 
 
   Atrandi''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,7 @@ security:
 slug: atrandi
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Life Sciences
 - Single Cell Analysis
 - Genomics

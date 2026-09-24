@@ -35,55 +35,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 5
   human_in_the_loop: 0
   name: Echo Global Agentic Access
   operation_count: 14
   slug: echo-global-agentic-access
-  summary_line: 14 operations · 7 acting
+  summary_line: 14 operations · 5 acting
 api_count: 3
 apis:
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: GET and POST to shipment documents endpoints.
-  name: Echo Global Logistics documents API
+  name: Echo Global Logistics Documents API
   slug: echo-global-documents-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: The health API from Echo Global Logistics — 1 operation(s) for health.
-  name: Echo Global Logistics health API
+  name: Echo Global Logistics Health API
   slug: echo-global-health-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: GET to ping endpoints.
-  name: Echo Global Logistics ping API
+  name: Echo Global Logistics Ping API
   slug: echo-global-ping-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: GET and POST to query shipment details endpoints.
-  name: Echo Global Logistics query API
+  name: Echo Global Logistics Query API
   slug: echo-global-query-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: Used for creating and retrieving quotes.
-  name: Echo Global Logistics quotes API
+  name: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: GET and POST to shipment rates endpoints.
-  name: Echo Global Logistics rates API
+  name: Echo Global Logistics Rates API
   slug: echo-global-rates-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: GET and POST to shipment endpoints.
-  name: Echo Global Logistics shipments API
+  name: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
 - baseURL: https://api.echo.com
   baseurl_source: declared
   description: Obtaining and using tokens
-  name: Echo Global Logistics token API
+  name: Echo Global Logistics Token API
   slug: echo-global-token-api
 - description: Echo supports system-to-system EDI integration alongside its REST APIs via the EchoSync platform, enabling shippers, carriers, third parties, and TMS software to exchange transactional data with Echo'
   name: Echo EDI Integration
@@ -246,7 +246,7 @@ modified: '2026-06-13'
 name: Echo Global Logistics
 nav: Providers
 network: true
-overview: 'Echo Global Logistics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including documents API, health API, ping API, and 6 more. Tagged areas include Freight, Logistics, Shipping, LTL, and Truckload.
+overview: 'Echo Global Logistics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Health API, Ping API, and 6 more. Tagged areas include Freight, Logistics, Shipping, LTL, and Truckload.
 
 
   The Echo Global Logistics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

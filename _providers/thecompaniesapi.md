@@ -34,75 +34,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 13
   human_in_the_loop: 0
   name: Thecompaniesapi Agentic Access
-  operation_count: 44
+  operation_count: 46
   slug: thecompaniesapi-agentic-access
-  summary_line: 44 operations · 15 acting
+  summary_line: 46 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The actions API from The Companies API — 2 operation(s) for actions.
-  name: The Companies API actions API
+  name: The Companies API Actions API
   slug: thecompaniesapi-actions-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The analytics API from The Companies API — 2 operation(s) for analytics.
-  name: The Companies API analytics API
+  name: The Companies API Analytics API
   slug: thecompaniesapi-analytics-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The companies API from The Companies API — 13 operation(s) for companies.
-  name: The Companies API companies API
+  name: The Companies API Companies API
   slug: thecompaniesapi-companies-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The industries API from The Companies API — 2 operation(s) for industries.
-  name: The Companies API industries API
+  name: The Companies API Industries API
   slug: thecompaniesapi-industries-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The job-titles API from The Companies API — 1 operation(s) for job-titles.
-  name: The Companies API job-titles API
+  name: The Companies API Job Titles API
   slug: thecompaniesapi-job-titles-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The lists API from The Companies API — 5 operation(s) for lists.
-  name: The Companies API lists API
+  name: The Companies API Lists API
   slug: thecompaniesapi-lists-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The locations API from The Companies API — 5 operation(s) for locations.
-  name: The Companies API locations API
+  name: The Companies API Locations API
   slug: thecompaniesapi-locations-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The prompts API from The Companies API — 4 operation(s) for prompts.
-  name: The Companies API prompts API
+  name: The Companies API Prompts API
   slug: thecompaniesapi-prompts-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The teams API from The Companies API — 1 operation(s) for teams.
-  name: The Companies API teams API
+  name: The Companies API Teams API
   slug: thecompaniesapi-teams-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The technologies API from The Companies API — 1 operation(s) for technologies.
-  name: The Companies API technologies API
+  name: The Companies API Technologies API
   slug: thecompaniesapi-technologies-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The users API from The Companies API — 1 operation(s) for users.
-  name: The Companies API users API
+  name: The Companies API Users API
   slug: thecompaniesapi-users-api
 - baseURL: https://api.thecompaniesapi.com/v2
   baseurl_source: declared
   description: The utilities API from The Companies API — 2 operation(s) for utilities.
-  name: The Companies API utilities API
+  name: The Companies API Utilities API
   slug: thecompaniesapi-utilities-api
 artifact_total: 33
 asyncapis:
@@ -315,7 +315,7 @@ modified: '2026-08-14'
 name: The Companies API
 nav: Providers
 network: true
-overview: 'The Companies API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including actions API, analytics API, companies API, and 9 more. Tagged areas include Company Data, Data Enrichment, Firmographics, Web Intelligence, and B2B Data.
+overview: 'The Companies API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Analytics API, Companies API, and 9 more. Tagged areas include Company Data, Data Enrichment, Firmographics, Web Intelligence, and B2B Data.
 
 
   The The Companies API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -341,7 +341,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 77.6
     contract_governance: 4.5
@@ -349,7 +349,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 78.9
-  previous_composite: 65.4
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

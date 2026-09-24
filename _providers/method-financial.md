@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 55
+- acting_count: 54
   human_in_the_loop: 0
   name: Method Financial Agentic Access
   operation_count: 128
   slug: method-financial-agentic-access
-  summary_line: 128 operations · 55 acting
+  summary_line: 128 operations · 54 acting
 api_count: 1
 apis:
 - baseURL: https://production.methodfi.com
@@ -613,7 +613,7 @@ modified: '2026-08-04'
 name: Method Financial
 nav: Providers
 network: true
-overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 39 more. Tagged areas include Company, Financial-Services, Fintech, Lending, and Payments.
+overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 39 more. Tagged areas include Company, Financial Services, Fintech, Lending, and Payments.
 
 
   The Method Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -661,7 +661,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -687,7 +687,7 @@ security:
 slug: method-financial
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Payments
@@ -697,5 +697,6 @@ tags:
 - Open Banking
 - Identity Verification
 - Personal Finance
+- A2A
 website: https://methodfi.com/
 ---

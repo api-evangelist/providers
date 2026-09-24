@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -152,7 +152,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ tags:
 - DevOps
 - DORA Metrics
 - Software Analytics
-- Open-Source
+- Open Source
 - Data Platform
 website: https://www.devinsight.ai
 ---

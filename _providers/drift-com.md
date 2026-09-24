@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -319,6 +319,7 @@ tags:
 - Customer Engagement
 - Revenue Orchestration
 - AI Chat
+- Conversational AI
 use_cases:
 - description: Convert anonymous website visitors into qualified pipeline using AI chat plus Fastlane routing.
   name: Inbound Lead Qualification

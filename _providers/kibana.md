@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 389
+- acting_count: 377
   human_in_the_loop: 15
   name: Kibana Agentic Access
   operation_count: 612
   slug: kibana-agentic-access
-  summary_line: 612 operations · 389 acting · 15 human-in-the-loop
+  summary_line: 612 operations · 377 acting · 15 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://localhost:5601/api
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Alerting enables you to define rules, which detect complex conditions within your data. When a condition is met, the rule tracks it as an alert and runs the actions that are defined in the rule. Actio
-  name: Kibana alerting API
+  name: Kibana Alerting API
   slug: kibana-alerting-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -88,12 +88,12 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: 'Cases are used to open and track issues. You can add assignees and tags to your cases, set their severity and status, and add alerts, comments, and visualizations. You can also send cases to external '
-  name: Kibana cases API
+  name: Kibana Cases API
   slug: kibana-cases-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Connectors provide a central place to store connection information for services and integrations with Elastic or third party systems. Alerting rules can use connectors to run actions when rule conditi
-  name: Kibana connectors API
+  name: Kibana Connectors API
   slug: kibana-connectors-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -198,12 +198,12 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Programmatically integrate with Logstash configuration management. > warn > Do not directly access the `.logstash` index. The structure of the `.logstash` index is subject to change, which could cause
-  name: Kibana logstash API
+  name: Kibana Logstash API
   slug: kibana-logstash-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: You can schedule single or recurring maintenance windows to temporarily reduce rule notifications. For example, a maintenance window prevents false alarms during planned outages.
-  name: Kibana maintenance-window API
+  name: Kibana Maintenance Window API
   slug: kibana-maintenance-window-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -213,17 +213,17 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Enables you to synchronize machine learning saved objects.
-  name: Kibana ml API
+  name: Kibana Ml API
   slug: kibana-ml-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Interact with the Observability AI Assistant resources.
-  name: Kibana observability_ai_assistant API
+  name: Kibana Observability AI Assistant API
   slug: kibana-observability-ai-assistant-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Manage the roles that grant Elasticsearch and Kibana privileges.
-  name: Kibana roles API
+  name: Kibana Roles API
   slug: kibana-roles-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -298,7 +298,7 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: SLO APIs enable you to define, manage and track service-level objectives
-  name: Kibana slo API
+  name: Kibana Slo API
   slug: kibana-slo-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -308,17 +308,17 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: 'Streams provide a unified data management layer for ingestion, routing, and processing. There are three stream types: * **Wired** streams are managed by Kibana. They route documents to child streams b'
-  name: Kibana streams API
+  name: Kibana Streams API
   slug: kibana-streams-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Synthetics APIs enable you to check the status of your services and applications.
-  name: Kibana synthetics API
+  name: Kibana Synthetics API
   slug: kibana-synthetics-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Get information about the system status, resource usage, features, and installed plugins.
-  name: Kibana system API
+  name: Kibana System API
   slug: kibana-system-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -328,12 +328,12 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: 'The Kibana Upgrade Assistant API helps you prepare for the next major Elasticsearch release. > warn > This is a Kibana REST API (not an Elasticsearch API) and requests must target your Kibana URL: > *'
-  name: Kibana upgrade API
+  name: Kibana Upgrade API
   slug: kibana-upgrade-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Uptime APIs enable you to view and update uptime monitoring settings.
-  name: Kibana uptime API
+  name: Kibana Uptime API
   slug: kibana-uptime-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -343,7 +343,7 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Workflows enable you to automate multi-step processes directly in Kibana. Define sequences of steps in YAML to transform data insights into automated actions and outcomes, without needing external aut
-  name: Kibana workflows API
+  name: Kibana Workflows API
   slug: kibana-workflows-api
 artifact_total: 128
 collections:
@@ -617,7 +617,7 @@ modified: '2026-09-16'
 name: Kibana
 nav: Providers
 network: true
-overview: 'Kibana publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Actions API, agent builder API, alerting API, and 57 more. Tagged areas include Alerting, Analytics, Dashboards, Elastic Stack, and Logging.
+overview: 'Kibana publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Actions API, agent builder API, Alerting API, and 57 more. Tagged areas include Alerting, Analytics, Dashboards, Elastic Stack, and Logging.
 
 
   Kibana''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, support, and 11 more developer resources.'
@@ -657,7 +657,7 @@ score:
       marker_coverage: 0.0
       total: 60
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

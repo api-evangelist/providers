@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-09-23'
+  score: 5.0
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Orca Security's REST API provides programmatic access to the Orca Cloud Security Platform for querying cloud inventory and assets, managing alerts and risk findings, configuring integrations and autom
@@ -42,7 +42,7 @@ apis:
 - description: SCIM 2.0 endpoint for provisioning and de-provisioning users and groups in Orca Security from identity providers such as Okta, Azure AD, and OneLogin.
   name: Orca Security SCIM 2.0 API
   slug: orca-security-scim-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/orca-security/refs/heads/main/security/orca-security-vulnerability-disclosure.yml
@@ -120,10 +120,6 @@ finops:
 - name: Orca Security Finops
   service_category: API
   slug: orca-security-finops
-graphqls:
-- description: This document describes the conceptual GraphQL schema for the Orca Security cloud security platform. Orca Security exposes a REST API for its Cloud Native Application Protection Platform (CNAPP), cove
-  name: Orca Security GraphQL Schema
-  slug: orca-security-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orca-security.png
 layout: provider
 modified: '2026-05-23'
@@ -144,27 +140,27 @@ rate_limits:
   name: Orca Security Rate Limits
   slug: orca-security-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 17.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 59.3
     operational_transparency: 21.1
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

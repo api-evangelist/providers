@@ -34,28 +34,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://developer.bitpanda.com
   baseurl_source: declared
   description: Asset metadata lookup
-  name: Bitpanda assets API
+  name: Bitpanda Assets API
   slug: bitpanda-assets-api
 - baseURL: https://developer.bitpanda.com
   baseurl_source: declared
   description: Live ticker prices
-  name: Bitpanda market-data API
+  name: Bitpanda Market Data API
   slug: bitpanda-market-data-api
 - baseURL: https://developer.bitpanda.com
   baseurl_source: declared
   description: Transaction history across all asset types
-  name: Bitpanda transactions API
+  name: Bitpanda Transactions API
   slug: bitpanda-transactions-api
 - baseURL: https://developer.bitpanda.com
   baseurl_source: declared
   description: Wallet balances across all asset types
-  name: Bitpanda wallets API
+  name: Bitpanda Wallets API
   slug: bitpanda-wallets-api
 artifact_total: 13
 collections:
@@ -227,7 +227,7 @@ modified: '2026-07-18'
 name: Bitpanda
 nav: Providers
 network: true
-overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network, including assets API, market-data API, transactions API, and 1 more. Tagged areas include Company, Cryptocurrency, Fintech, Trading, and Investing.
+overview: 'Bitpanda publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Market Data API, Transactions API, and 1 more. Tagged areas include Company, Cryptocurrency, Fintech, Trading, and Investing.
 
 
   Bitpanda''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
@@ -271,7 +271,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

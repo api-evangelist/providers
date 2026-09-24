@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Orama Agentic Access
   operation_count: 8
   slug: orama-agentic-access
-  summary_line: 8 operations · 8 acting
+  summary_line: 8 operations · 7 acting
 api_count: 1
 apis:
 - description: The open-source @orama/orama library (Apache 2.0) - a complete in-memory search engine and RAG pipeline that runs in the browser, on the server, or at the edge in under 2kb. Exposes JavaScript functio
@@ -147,7 +147,7 @@ modified: '2026-06-21'
 name: Orama
 nav: Providers
 network: true
-overview: 'Orama publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Answer API, Documents API, Indexes API, and 1 more. Tagged areas include Search, Vector Search, RAG, Open-Source, and Search as a Service.
+overview: 'Orama publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Answer API, Documents API, Indexes API, and 1 more. Tagged areas include Search, Vector Search, RAG, Open Source, and Search as a Service.
 
 
   Orama''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -187,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -207,7 +207,7 @@ tags:
 - Search
 - Vector Search
 - RAG
-- Open-Source
+- Open Source
 - Search as a Service
 website: https://orama.com
 ---

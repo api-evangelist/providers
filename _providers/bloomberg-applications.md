@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Provides programmatic access to Bloomberg's financial market data including real-time and historical pricing, reference data, and analytics.
@@ -198,7 +198,7 @@ modified: '2026-09-16'
 name: Bloomberg Applications
 nav: Providers
 network: true
-overview: 'Bloomberg Applications publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise API, Financial Analytics, Financial-Services, Market Data, and Real-Time Data.
+overview: 'Bloomberg Applications publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise API, Financial Analytics, Financial Services, Market Data, and Real-Time Data.
 
 
   The Bloomberg Applications catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -248,7 +248,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -272,7 +272,7 @@ slug: bloomberg-applications
 tags:
 - Enterprise API
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Market Data
 - Real-Time Data
 website: https://bloomberg.com

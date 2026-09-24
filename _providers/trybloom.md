@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-08-13'
 name: Bloom
 nav: Providers
 network: true
-overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image-Generation, Artificial Intelligence, and Agents.
+overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image Generation, Artificial Intelligence, and Agents.
 
 
   Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, changelog, and 27 more developer resources.'
@@ -290,7 +290,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -309,7 +309,7 @@ slug: trybloom
 tags:
 - Company
 - Brand Management
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
 - Agents
 - MCP

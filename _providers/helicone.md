@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 201
+- acting_count: 130
   human_in_the_loop: 1
   name: Helicone Agentic Access
   operation_count: 267
   slug: helicone-agentic-access
-  summary_line: 267 operations · 201 acting · 1 human-in-the-loop
+  summary_line: 267 operations · 130 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://ai-gateway.helicone.ai
@@ -2258,7 +2258,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

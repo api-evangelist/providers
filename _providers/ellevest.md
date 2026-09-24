@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST APIs powering Ellevest's wealth management platform, including portfolio management, financial goal tracking, investment account operations, financial coaching scheduling, and personalized financ
@@ -102,7 +102,7 @@ modified: '2026-06-13'
 name: Ellevest
 nav: Providers
 network: true
-overview: 'Ellevest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Wealth Management, Investing, Financial Planning, and Women Finance.
+overview: 'Ellevest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Wealth Management, Investing, Financial Planning, and Women Finance.
 
 
   Ellevest''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -135,7 +135,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -149,12 +149,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ellevest
 tags:
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Investing
 - Financial Planning
 - Women Finance
 - Robo-Advisory
-- Portfolio-Management
+- Portfolio Management
 website: https://www.ellevest.com/
 ---

@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 330
+- acting_count: 322
   human_in_the_loop: 3
   name: Highlevel Agentic Access
   operation_count: 575
   slug: highlevel-agentic-access
-  summary_line: 575 operations · 330 acting · 3 human-in-the-loop
+  summary_line: 575 operations · 322 acting · 3 human-in-the-loop
 api_count: 40
 apis:
 - baseURL: https://api.gohighlevel.com
@@ -1003,7 +1003,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

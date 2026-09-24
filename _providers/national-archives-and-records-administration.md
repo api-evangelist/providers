@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 20
   human_in_the_loop: 0
   name: National Archives And Records Administration Agentic Access
   operation_count: 64
   slug: national-archives-and-records-administration-agentic-access
-  summary_line: 64 operations · 22 acting
+  summary_line: 64 operations · 20 acting
 api_count: 1
 apis:
 - baseURL: https://catalog.archives.gov/api/v2/
@@ -218,7 +218,7 @@ modified: '2026-05-19'
 name: National Archives and Records Administration
 nav: Providers
 network: true
-overview: 'National Archives and Records Administration publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal-Government, Records, and Catalog.
+overview: 'National Archives and Records Administration publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Announcements API, Comments API, and 13 more. Tagged areas include Archives, Federal Government, Records, and Catalog.
 
 
   National Archives and Records Administration''s developer surface includes developer portal and 5 more developer resources.'
@@ -241,7 +241,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -249,7 +249,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 66.7
     operational_transparency: 13.2
-  previous_composite: 27.1
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +264,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -278,7 +278,7 @@ security:
 slug: national-archives-and-records-administration
 tags:
 - Archives
-- Federal-Government
+- Federal Government
 - Records
 - Catalog
 website: https://www.archives.gov/

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 38
+- acting_count: 37
   human_in_the_loop: 1
   name: Ki Insurance Agentic Access
   operation_count: 109
   slug: ki-insurance-agentic-access
-  summary_line: 109 operations · 38 acting · 1 human-in-the-loop
+  summary_line: 109 operations · 37 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.ki-insurance.com
@@ -344,7 +344,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

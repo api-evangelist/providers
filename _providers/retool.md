@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ apis:
   description: Create, read, update, and delete users within a Retool organization. Manage user roles (admin, standard, end-user) and activation status.
   name: Retool Users API
   slug: retool-users-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: postman
   name: Retool Management Apps API
@@ -220,10 +220,6 @@ finops:
 - name: Retool Finops
   service_category: Internal Tools
   slug: retool-finops
-graphqls:
-- description: Retool is a low-code platform for building internal tools, dashboards, and admin panels. While Retool does not expose a native public GraphQL endpoint, this schema is a conceptual representation of th
-  name: Retool GraphQL API
-  slug: retool-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retool.png
 json_schemas:
 - name: Retool App
@@ -289,19 +285,19 @@ rules:
   slug: retool-management-api-rules
 score:
   band: developing
-  composite: 47.9
+  composite: 47.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 40.8
     contract_governance: 28.8
-    contract_quality: 70.4
+    contract_quality: 69.3
     developer_ergonomics: 34.5
     discoverability: 66.7
     operational_transparency: 44.7
@@ -315,7 +311,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

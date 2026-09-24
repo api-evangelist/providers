@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: The Tasks API from Scale AI — 5 operation(s) for tasks.
   name: Scale AI Tasks API
   slug: scale-ai-tasks-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -206,10 +206,6 @@ finops:
 - name: Scale Ai Finops
   service_category: API
   slug: scale-ai-finops
-graphqls:
-- description: Scale AI provides data labeling, RLHF, and AI evaluation services. The API covers task creation for labeling, annotation retrieval, workforce management, evaluation datasets, and model improvement pip
-  name: Scale AI GraphQL API
-  slug: scale-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scale-ai.png
 integrations:
 - description: Cloud storage ingest and delivery for labeling jobs.
@@ -240,19 +236,19 @@ rate_limits:
   slug: scale-ai-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 45.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 53.6
+    contract_quality: 50.3
     developer_ergonomics: 64.3
     discoverability: 59.3
     operational_transparency: 21.1
@@ -265,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

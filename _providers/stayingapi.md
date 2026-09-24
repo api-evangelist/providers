@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Stayingapi Agentic Access
   operation_count: 9
   slug: stayingapi-agentic-access
-  summary_line: 9 operations · 1 acting
+  summary_line: 9 operations
 api_count: 1
 apis:
 - description: 'Hosted MCP server (Streamable HTTP, OAuth 2.1/PKCE) exposing 7 read-only tools mapping 1:1 to the REST endpoints: search_stays, check_availability, get_listing, get_price, compare_prices, get_reviews,'
@@ -340,7 +340,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

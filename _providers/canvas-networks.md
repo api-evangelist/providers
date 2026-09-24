@@ -18,12 +18,12 @@ modified: '2026-07-18'
 name: Canvas Networks
 nav: Providers
 network: true
-overview: Canvas Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Image Sharing, Content Remixing, and Consumer.
+overview: Canvas Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Image Sharing, Content Remixing, and Consumer.
 random_paper: 12
 slug: canvas-networks
 tags:
 - Company
-- Social-Media
+- Social Media
 - Image Sharing
 - Content Remixing
 - Consumer

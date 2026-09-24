@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-19'
 name: Esusu
 nav: Providers
 network: true
-overview: 'Esusu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Fintech, Financial-Services, and Credit.
+overview: 'Esusu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Fintech, Financial Services, and Credit.
 
 
   Esusu''s developer surface includes developer portal, support, engineering blog, and 10 more developer resources.'
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -153,11 +153,11 @@ tags:
 - Company
 - Enterprise
 - Fintech
-- Financial-Services
+- Financial Services
 - Credit
 - Credit Building
 - Rent Reporting
-- Real-Estate
+- Real Estate
 - Identity Verification
 - Income Verification
 website: https://www.esusurent.com/

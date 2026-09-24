@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
+- acting_count: 12
   human_in_the_loop: 0
   name: Replicate Agentic Access
-  operation_count: 58
+  operation_count: 27
   slug: replicate-agentic-access
-  summary_line: 58 operations · 32 acting
+  summary_line: 27 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://api.replicate.com/v1
@@ -132,7 +132,7 @@ arazzos:
 - description: Retrieve the default webhook signing secret, then create a prediction that posts to a webhook.
   name: Replicate Fetch Webhook Secret and Run a Webhook Prediction
   slug: replicate-webhook-secured-predict-workflow
-artifact_total: 85
+artifact_total: 84
 asyncapis:
 - description: 'AsyncAPI definition for Replicate''s event-driven surfaces: - Server-Sent Events (SSE) stream returned for predictions where the model supports streaming output. The stream URL is published by the Pred'
   name: Replicate Streaming and Webhooks API
@@ -383,10 +383,6 @@ finops:
 - name: Replicate Finops
   service_category: ML Inference
   slug: replicate-finops
-graphqls:
-- description: Replicate does not currently expose a public GraphQL endpoint. The platform's primary API is a REST HTTP API available at `https://api.replicate.com/v1`. This GraphQL schema is a conceptual representa
-  name: Replicate GraphQL
-  slug: replicate-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/replicate.png
 json_schemas:
 - name: Replicate Model
@@ -425,7 +421,7 @@ modified: '2026-05-29'
 name: Replicate
 nav: Providers
 network: true
-overview: 'Replicate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 8 more. Tagged areas include Artificial Intelligence, Machine-Learning, Image-Generation, Language Models, and Model Deployment.
+overview: 'Replicate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 8 more. Tagged areas include Artificial Intelligence, Machine Learning, Image Generation, Language Models, and Model Deployment.
 
 
   The Replicate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -476,19 +472,19 @@ rules:
   slug: replicate-rules
 score:
   band: developing
-  composite: 53.9
+  composite: 53.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 53.9
     contract_governance: 28.8
-    contract_quality: 71.1
+    contract_quality: 70.1
     developer_ergonomics: 52.4
     discoverability: 66.7
     operational_transparency: 42.1
@@ -499,10 +495,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -536,8 +532,8 @@ skills:
 slug: replicate
 tags:
 - Artificial Intelligence
-- Machine-Learning
-- Image-Generation
+- Machine Learning
+- Image Generation
 - Language Models
 - Model Deployment
 website: https://replicate.com

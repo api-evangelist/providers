@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
@@ -353,7 +353,7 @@ modified: '2026-07-23'
 name: Bank of Scotland
 nav: Providers
 network: true
-overview: 'Bank of Scotland publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Bank of Scotland publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Bank of Scotland''s developer surface includes authentication, sandbox, documentation, and 24 more developer resources.'
@@ -410,7 +410,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -427,7 +427,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bank-of-scotland
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

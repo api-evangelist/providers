@@ -35,90 +35,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 55
-  human_in_the_loop: 3
+- acting_count: 41
+  human_in_the_loop: 2
   name: Athenian Agentic Access
   operation_count: 79
   slug: athenian-agentic-access
-  summary_line: 79 operations · 55 acting · 3 human-in-the-loop
+  summary_line: 79 operations · 41 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The align API from Athenian — 3 operation(s) for align.
-  name: Athenian align API
+  name: Athenian Align API
   slug: athenian-align-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The events API from Athenian — 4 operation(s) for events.
-  name: Athenian events API
+  name: Athenian Events API
   slug: athenian-events-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The filter API from Athenian — 11 operation(s) for filter.
-  name: Athenian filter API
+  name: Athenian Filter API
   slug: athenian-filter-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The get API from Athenian — 4 operation(s) for get.
-  name: Athenian get API
+  name: Athenian Get API
   slug: athenian-get-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The histograms API from Athenian — 3 operation(s) for histograms.
-  name: Athenian histograms API
+  name: Athenian Histograms API
   slug: athenian-histograms-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The integrations API from Athenian — 2 operation(s) for integrations.
-  name: Athenian integrations API
+  name: Athenian Integrations API
   slug: athenian-integrations-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The metrics API from Athenian — 7 operation(s) for metrics.
-  name: Athenian metrics API
+  name: Athenian Metrics API
   slug: athenian-metrics-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The pagination API from Athenian — 1 operation(s) for pagination.
-  name: Athenian pagination API
+  name: Athenian Pagination API
   slug: athenian-pagination-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The registration API from Athenian — 6 operation(s) for registration.
-  name: Athenian registration API
+  name: Athenian Registration API
   slug: athenian-registration-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The reposet API from Athenian — 3 operation(s) for reposet.
-  name: Athenian reposet API
+  name: Athenian Reposet API
   slug: athenian-reposet-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The security API from Athenian — 3 operation(s) for security.
-  name: Athenian security API
+  name: Athenian Security API
   slug: athenian-security-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The settings API from Athenian — 13 operation(s) for settings.
-  name: Athenian settings API
+  name: Athenian Settings API
   slug: athenian-settings-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The team API from Athenian — 3 operation(s) for team.
-  name: Athenian team API
+  name: Athenian Team API
   slug: athenian-team-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The user API from Athenian — 6 operation(s) for user.
-  name: Athenian user API
+  name: Athenian User API
   slug: athenian-user-api
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
   description: The version API from Athenian — 1 operation(s) for version.
-  name: Athenian version API
+  name: Athenian Version API
   slug: athenian-version-api
 artifact_total: 35
 collections:
@@ -242,7 +242,7 @@ modified: '2026-07-18'
 name: Athenian
 nav: Providers
 network: true
-overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network, including align API, events API, filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
+overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Align API, Events API, Filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
 
 
   Athenian''s developer surface includes authentication and 12 more developer resources.'
@@ -277,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The Ximilar REST API at https://api.ximilar.com. One account token in an ''Authorization: Token'' header unlocks every service the active plan includes: fashion, home-decor and photo tagging, collectibl'
@@ -219,7 +219,7 @@ modified: '2026-08-28'
 name: Ximilar
 nav: Providers
 network: true
-overview: 'Ximilar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Computer-Vision, Image Recognition, Visual Search, Image Tagging, and Machine-Learning.
+overview: 'Ximilar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Computer Vision, Image Recognition, Visual Search, Image Tagging, and Machine Learning.
 
 
   The Ximilar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -258,7 +258,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -276,11 +276,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ximilar
 tags:
-- Computer-Vision
+- Computer Vision
 - Image Recognition
 - Visual Search
 - Image Tagging
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - OCR
 - Collectibles

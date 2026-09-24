@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
   description: The Spend Limits API from Brex — 3 operation(s) for spend limits.
   name: Brex Spend Limits API
   slug: brex-spend-limits-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Brex Webhooks surface. Brex uses webhooks to deliver real-time notifications when events happen in the accounts that you manage. Subscribers register an HTTPS callback '
   name: Brex Webhooks API
@@ -116,10 +116,6 @@ finops:
 - name: Brex Finops
   service_category: API
   slug: brex-finops
-graphqls:
-- description: Brex is a financial stack for startups and enterprises covering corporate cards, business accounts, bill pay, and expense management. The API covers accounts, cards, transactions, statements, expenses
-  name: Brex GraphQL API
-  slug: brex-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brex.png
 layout: provider
 modified: '2026-05-30'
@@ -156,28 +152,22 @@ rules:
   slug: brex-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 16.8
+  composite: 14.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 16.1
+    contract_quality: 8.1
     developer_ergonomics: 11.9
     discoverability: 72.2
     operational_transparency: 10.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 16.8
   provenance:
     agentic_access: derived
@@ -194,7 +184,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

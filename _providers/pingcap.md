@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 192
   slug: pingcap-agentic-access
   summary_line: 192 operations · 93 acting · 5 human-in-the-loop
-api_count: 9
+api_count: 11
 apis:
 - description: Official Model Context Protocol server maintained by PingCAP that exposes a TiDB or TiDB Cloud database to MCP-capable agents and IDEs. Ships in the pytidb package, runs over stdio by default or SSE w
   name: TiDB MCP Server
@@ -205,7 +205,72 @@ apis:
   description: The Trends API from PingCAP — 1 operation(s) for trends.
   name: PingCAP Trends API
   slug: pingcap-trends-api
-artifact_total: 71
+- baseURL: https://data.tidbcloud.com/api/v1beta/app/{dataAppId}/endpoint
+  baseurl_source: declared
+  description: Operations for translating natural language questions into SQL and executing them against TiDB Cloud clusters.
+  name: tidb Chat2Data API
+  slug: tidb-chat2data-api
+- baseURL: https://data.tidbcloud.com/api/v1beta/app/{dataAppId}/endpoint
+  baseurl_source: declared
+  description: Operations for generating and managing AI summaries of database schemas used as context for SQL generation.
+  name: tidb Data Summaries API
+  slug: tidb-data-summaries-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for managing and inspecting DDL jobs, including ownership and history.
+  name: tidb DDL API
+  slug: tidb-ddl-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for downloading debug information and managing server diagnostics.
+  name: tidb Diagnostics API
+  slug: tidb-diagnostics-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for retrieving multi-version concurrency control (MVCC) key details for debugging.
+  name: tidb MVCC API
+  slug: tidb-mvcc-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for retrieving database and table schema information from the TiDB information schema.
+  name: tidb Schema API
+  slug: tidb-schema-api
+- baseURL: https://data.tidbcloud.com/api/v1beta/app/{dataAppId}/endpoint
+  baseurl_source: declared
+  description: Operations for creating and managing multi-round conversational chat sessions.
+  name: tidb Sessions API
+  slug: tidb-sessions-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for retrieving and modifying TiDB server runtime settings.
+  name: tidb Settings API
+  slug: tidb-settings-api
+- baseURL: https://data.tidbcloud.com/api/v1beta/app/{dataAppId}/endpoint
+  baseurl_source: declared
+  description: Operations for refining and improving previously generated SQL queries.
+  name: tidb SQL Refinement API
+  slug: tidb-sql-refinement-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for exporting optimizer statistics used for query planning.
+  name: tidb Statistics API
+  slug: tidb-statistics-api
+- baseURL: http://{tidb-host}:10080
+  baseurl_source: declared
+  description: Endpoints for retrieving the operational status of the TiDB server instance.
+  name: tidb Status API
+  slug: tidb-status-api
+- baseURL: https://cloud.tidbapi.com/v1beta2
+  baseurl_source: declared
+  description: The published Swagger 2.0 contract for TiDB Cloud Premium, the v1beta2 API — Premium instance lifecycle and configuration, root passwords, CA certificates, cloud provider information, backups and back
+  name: TiDB Cloud Premium API
+  slug: tidb-cloud-premium-api
+- baseURL: https://msp.tidbapi.com/v1beta1/msp
+  baseurl_source: declared
+  description: The published Swagger 2.0 contract for the TiDB Cloud Managed Service Provider surface, which PingCAP marks as deprecated in its own v1beta1 overview. Recorded because it is still served and still doc
+  name: TiDB Cloud MSP API
+  slug: tidb-cloud-msp-api
+artifact_total: 88
 collections:
 - collection_type: open
   name: API Collection
@@ -531,6 +596,13 @@ common:
 created: '2026-08-02'
 description: PingCAP is the company behind TiDB, an open-source, MySQL-compatible distributed SQL database built for hybrid transactional and analytical processing (HTAP), horizontal scale-out, Raft-based strong consistency, and vector search for AI workloads. PingCAP operates TiDB Cloud, the fully managed DBaaS delivered in Starter, Essential, Premium, Dedicated, BYOC and Lake tiers across AWS, Google Cloud, Azure and Alibaba Cloud. Developers manage the platform programmatically through the TiDB Cloud REST API family (cluster, branch, import, export, changefeed, IAM, billing and Data Service surfaces), the `ticloud` CLI, a Terraform provider, the TiDB Cloud Serverless JavaScript driver, the PyTiDB Python SDK, and an official TiDB MCP Server for agents. PingCAP also publishes OpenAPI for the TiDB Data Migration (DM) control plane and the OSS Insight public API.
 image: https://static.pingcap.com/files/2024/09/11005522/Homepage-Ad.png
+json_schemas:
+- name: TiDB Cloud Cluster
+  property_count: 14
+  slug: tidb-cluster
+- name: TiDB Cloud Data Service
+  property_count: 6
+  slug: tidb-data-service
 layout: provider
 mcp_servers:
 - description: ''
@@ -540,7 +612,7 @@ modified: '2026-08-02'
 name: PingCAP
 nav: Providers
 network: true
-overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include Distributed SQL, Database, tidb, HTAP, and MySQL Compatible.
+overview: 'PingCAP publishes 44 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 41 more. Tagged areas include Distributed SQL, Database, tidb, HTAP, and MySQL Compatible.
 
 
   PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 43 more developer resources.'
@@ -549,40 +621,43 @@ rate_limits:
 - limit_count: 1
   name: Pingcap Rate Limits
   slug: pingcap-rate-limits
+- limit_count: 6
+  name: Tidb Rate Limits
+  slug: tidb-rate-limits
 score:
   band: strong
-  composite: 58.4
+  composite: 58.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 50.7
+    contract_quality: 51.5
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 65.8
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 58.3
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 80.6
+      callable: 88.6
       derived: 0
       marker_coverage: 0.0
-      total: 31
+      total: 42
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -593,6 +668,10 @@ security:
   name: Pingcap Authentication
   slug: pingcap-authentication
   summary_line: http · 4 schemes
+- kind: authentication
+  name: Tidb Authentication
+  slug: tidb-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Pingcap Domain Security
   slug: pingcap-domain-security
@@ -617,7 +696,7 @@ tags:
 - Vector Search
 - Data Migration
 - Change Data Capture
-- Open-Source
+- Open Source
 - Infrastructure
 website: https://www.pingcap.com/
 ---

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 0
   human_in_the_loop: 0
   name: Whimsical Agentic Access
   operation_count: 5
   slug: whimsical-agentic-access
-  summary_line: 5 operations · 5 acting
+  summary_line: 5 operations
 api_count: 1
 apis:
 - description: 'Limited-beta REST API. Endpoints are read-oriented and use POST verbs: `users.get`, `teams.list`, `comments.list`, `files.list`, `files.get`. Authentication is OAuth 2.1, with credentials issued by Wh'
@@ -218,7 +218,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ apis:
   description: The Webhooks API from Mercury — 2 operation(s) for webhooks.
   name: Mercury Webhooks API
   slug: mercury-webhooks-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: AsyncAPI description of Mercury Banking's outbound webhook surface. Mercury delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber HTTPS endpoint that is registere
   name: Mercury Webhooks
@@ -225,10 +225,6 @@ finops:
 - name: Mercury Finops
   service_category: Banking
   slug: mercury-finops
-graphqls:
-- description: Mercury is a banking platform for startups and growth-stage companies. The API covers accounts, transactions, wire transfers, ACH payments, checks, debit cards, account statements, and treasury manage
-  name: Mercury GraphQL API
-  slug: mercury-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercury.png
 layout: provider
 modified: '2026-05-30'
@@ -268,23 +264,23 @@ rules:
   slug: mercury-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 40.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 59.5
     catalog_earned_first_party: 12.0
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -1.0
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 65.2
+    contract_quality: 61.3
     developer_ergonomics: 29.8
     discoverability: 75.9
     operational_transparency: 26.3
-  previous_composite: 41.3
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -299,7 +295,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

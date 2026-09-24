@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -473,7 +473,7 @@ modified: '2026-05-19'
 name: Bubble
 nav: Providers
 network: true
-overview: 'Bubble publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Action API, Context API, Element API, and 1 more. Tagged areas include No-Code, Application Platform, Database, Workflow-Automation, and Plugins.
+overview: 'Bubble publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Action API, Context API, Element API, and 1 more. Tagged areas include No-Code, Application Platform, Database, Workflow Automation, and Plugins.
 
 
   The Bubble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -538,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -571,7 +571,7 @@ tags:
 - No-Code
 - Application Platform
 - Database
-- Workflow-Automation
+- Workflow Automation
 - Plugins
 use_cases:
 - description: Build admin dashboards, CRM panels, and operations consoles without engineering headcount.

@@ -27,7 +27,7 @@ modified: '2026-07-21'
 name: StratoScale
 nav: Providers
 network: true
-overview: StratoScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Infrastructure, Hyperconverged, and Data-Center.
+overview: StratoScale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Infrastructure, Hyperconverged, and Data Center.
 random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/stratoscale/refs/heads/main/screenshots/stratoscale-2026-09-02T160955.png
 slug: stratoscale
@@ -36,7 +36,7 @@ tags:
 - Cloud
 - Infrastructure
 - Hyperconverged
-- Data-Center
+- Data Center
 - AWS Compatible
 - OpenStack
 - Defunct

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.w.ai/v1
@@ -192,7 +192,7 @@ modified: '2026-07-21'
 name: Wombo
 nav: Providers
 network: true
-overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and LLM.
+overview: 'Wombo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and LLM.
 
 
   Wombo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, CLI, and 17 more developer resources.'
@@ -226,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -245,10 +245,10 @@ slug: wombo
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
-- Image-Generation
+- Image Generation
 - Generative AI
 - Decentralized Compute
 - GPU

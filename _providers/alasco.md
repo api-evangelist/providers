@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -533,7 +533,7 @@ modified: '2026-07-17'
 name: Alasco
 nav: Providers
 network: true
-overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real-Estate, Construction, and PropTech.
+overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real Estate, Construction, and PropTech.
 
 
   Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 26 more developer resources.'
@@ -574,7 +574,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -601,7 +601,7 @@ slug: alasco
 tags:
 - Company
 - Ai Enterprise Software
-- Real-Estate
+- Real Estate
 - Construction
 - PropTech
 - Financial Management

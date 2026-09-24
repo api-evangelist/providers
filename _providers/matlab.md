@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -289,7 +289,7 @@ modified: '2026-09-14'
 name: MATLAB
 nav: Providers
 network: true
-overview: 'MATLAB publishes 1 API on the [APIs.io](https://apis.io/) network: Production Server RESTful API. Tagged areas include Data Analysis, Engineering, Machine-Learning, Numerical Analysis, and Scientific Computing.
+overview: 'MATLAB publishes 1 API on the [APIs.io](https://apis.io/) network: Production Server RESTful API. Tagged areas include Data Analysis, Engineering, Machine Learning, Numerical Analysis, and Scientific Computing.
 
 
   The MATLAB catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -329,7 +329,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -357,7 +357,7 @@ slug: matlab
 tags:
 - Data Analysis
 - Engineering
-- Machine-Learning
+- Machine Learning
 - Numerical Analysis
 - Scientific Computing
 website: https://www.mathworks.com

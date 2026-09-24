@@ -18,16 +18,16 @@ modified: '2026-07-19'
 name: Kodit.io
 nav: Providers
 network: true
-overview: Kodit.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Marketplace, and Finland.
+overview: Kodit.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Marketplace, and Finland.
 random_paper: 8
 slug: kodit-io
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Marketplace
 - Finland
 - Europe
-- Machine-Learning
+- Machine Learning
 - Defunct
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: StoneX
 nav: Providers
 network: true
-overview: 'StoneX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Documents API, and 3 more. Tagged areas include Finance, Financial-Services, Payments, Clearing, and Futures.
+overview: 'StoneX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Documents API, and 3 more. Tagged areas include Finance, Financial Services, Payments, Clearing, and Futures.
 
 
   The StoneX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -263,7 +263,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -285,7 +285,7 @@ security:
 slug: stonex
 tags:
 - Finance
-- Financial-Services
+- Financial Services
 - Payments
 - Clearing
 - Futures

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-05-19'
 name: Apache HTTP Server
 nav: Providers
 network: true
-overview: 'Apache HTTP Server publishes 2 APIs on the [APIs.io](https://apis.io/) network: Balancer API and Status API. Tagged areas include Apache, Load Balancer, Open-Source, Proxy, and Reverse Proxy.
+overview: 'Apache HTTP Server publishes 2 APIs on the [APIs.io](https://apis.io/) network: Balancer API and Status API. Tagged areas include Apache, Load Balancer, Open Source, Proxy, and Reverse Proxy.
 
 
   The Apache HTTP Server catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -280,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -299,7 +299,7 @@ slug: apache-httpd
 tags:
 - Apache
 - Load Balancer
-- Open-Source
+- Open Source
 - Proxy
 - Reverse Proxy
 - Web Server

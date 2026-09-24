@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-05-19'
 name: Federal Deposit Insurance Corporation
 nav: Providers
 network: true
-overview: 'Federal Deposit Insurance Corporation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Demographics API, Deposits API, Failures API, and 4 more. Tagged areas include Banking, Federal-Government, Financial Data, and Insurance.
+overview: 'Federal Deposit Insurance Corporation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Demographics API, Deposits API, Failures API, and 4 more. Tagged areas include Banking, Federal Government, Financial Data, and Insurance.
 
 
   The Federal Deposit Insurance Corporation catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -206,7 +206,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ security:
 slug: federal-deposit-insurance-corporation
 tags:
 - Banking
-- Federal-Government
+- Federal Government
 - Financial Data
 - Insurance
 website: https://www.fdic.gov/

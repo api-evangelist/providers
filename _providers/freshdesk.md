@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ apis:
   description: Track time spent on tickets by agents.
   name: freshdesk Time Entries API
   slug: freshdesk-time-entries-api
-artifact_total: 46
+artifact_total: 45
 asyncapis:
 - description: The Freshdesk Webhook API enables real-time communication between Freshdesk and external systems by sending HTTP POST requests when specific events occur within the helpdesk. Webhooks can be triggered
   name: Freshdesk Webhook Events
@@ -228,10 +228,6 @@ finops:
 - name: Freshdesk Finops
   service_category: Customer Support SaaS
   slug: freshdesk-finops
-graphqls:
-- description: Freshdesk is a customer support and helpdesk platform developed by Freshworks. It provides a REST API (v2) as its primary programmatic interface. Freshdesk does not offer a native public GraphQL endpo
-  name: Freshdesk GraphQL API
-  slug: freshdesk-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshdesk.png
 json_schemas:
 - name: Freshdesk Ticket
@@ -247,7 +243,7 @@ modified: '2026-09-16'
 name: Freshdesk
 nav: Providers
 network: true
-overview: 'Freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more. Tagged areas include Automation, Customer-Support, and Application.
+overview: 'Freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more. Tagged areas include Automation, Customer Support, and Application.
 
 
   The Freshdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -287,19 +283,19 @@ rules:
   slug: freshdesk-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 31.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 42.5
     catalog_earned_first_party: 0.0
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 71.3
+    contract_quality: 70.5
     developer_ergonomics: 21.4
     discoverability: 44.4
     operational_transparency: 10.5
@@ -313,7 +309,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -331,7 +327,7 @@ security:
 slug: freshdesk
 tags:
 - Automation
-- Customer-Support
+- Customer Support
 - Application
 website: https://freshdesk.com
 ---

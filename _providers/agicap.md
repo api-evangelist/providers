@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 132
+- acting_count: 130
   human_in_the_loop: 2
   name: Agicap Agentic Access
   operation_count: 235
   slug: agicap-agentic-access
-  summary_line: 235 operations · 132 acting · 2 human-in-the-loop
+  summary_line: 235 operations · 130 acting · 2 human-in-the-loop
 api_count: 19
 apis:
 - baseURL: https://api.agicap.com
@@ -302,7 +302,7 @@ apis:
 - baseURL: https://api.agicap.com
   baseurl_source: declared
   description: The webhooks API from Agicap — 5 operation(s) for webhooks.
-  name: Agicap webhooks API
+  name: Agicap Webhooks API
   slug: agicap-webhooks-api
 artifact_total: 165
 asyncapis:
@@ -840,6 +840,8 @@ score:
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
@@ -862,7 +864,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -894,7 +896,7 @@ tags:
 - Banking
 - Accounts Receivable
 - E-Invoicing
-- Financial-Services
+- Financial Services
 - Fintech
 - Applicative Saas
 website: https://agicap.com/

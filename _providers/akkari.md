@@ -32,14 +32,10 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/square/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/akkari/refs/heads/main/security/akkari-domain-security.yml
   title: ''
@@ -91,7 +87,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +106,7 @@ tags:
 - Customer Success
 - Artificial Intelligence
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Software-as-a-Service
 - Y Combinator
 - AI Agents

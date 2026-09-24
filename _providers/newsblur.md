@@ -35,43 +35,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Login, logout and signup.
-  name: NewsBlur authentication API
+  name: NewsBlur Authentication API
   slug: newsblur-authentication-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Intelligence training classifiers.
-  name: NewsBlur classifiers API
+  name: NewsBlur Classifiers API
   slug: newsblur-classifiers-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Subscriptions, folders and organization.
-  name: NewsBlur feed-management API
+  name: NewsBlur Feed Management API
   slug: newsblur-feed-management-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Feed subscription, search and metadata.
-  name: NewsBlur feeds API
+  name: NewsBlur Feeds API
   slug: newsblur-feeds-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: OPML import and export.
-  name: NewsBlur import-export API
+  name: NewsBlur Import Export API
   slug: newsblur-import-export-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Blurblogs, sharing, following and comments.
-  name: NewsBlur social API
+  name: NewsBlur Social API
   slug: newsblur-social-api
 - baseURL: https://www.newsblur.com
   baseurl_source: declared
   description: Reading, marking and starring stories.
-  name: NewsBlur stories API
+  name: NewsBlur Stories API
   slug: newsblur-stories-api
 artifact_total: 18
 collections:
@@ -217,7 +217,7 @@ modified: '2026-07-20'
 name: NewsBlur
 nav: Providers
 network: true
-overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network, including authentication API, classifiers API, feed-management API, and 4 more. Tagged areas include Company, RSS, News, Feed Reader, and Aggregator.
+overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Classifiers API, Feed Management API, and 4 more. Tagged areas include Company, RSS, News, Feed Reader, and Aggregator.
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
@@ -251,7 +251,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -276,7 +276,7 @@ tags:
 - Social
 - Content
 - Media
-- Open-Source
+- Open Source
 - MCP
 website: https://www.newsblur.com/
 ---

@@ -34,53 +34,53 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
-  name: Vers commit_tags API
+  name: Vers Commit Tags API
   slug: vers-commit-tags-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The commits API from Vers — 4 operation(s) for commits.
-  name: Vers commits API
+  name: Vers Commits API
   slug: vers-commits-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The deploy API from Vers — 1 operation(s) for deploy.
-  name: Vers deploy API
+  name: Vers Deploy API
   slug: vers-deploy-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The domains API from Vers — 2 operation(s) for domains.
-  name: Vers domains API
+  name: Vers Domains API
   slug: vers-domains-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The env_vars API from Vers — 2 operation(s) for env_vars.
-  name: Vers env_vars API
+  name: Vers Env Vars API
   slug: vers-env-vars-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The images API from Vers — 5 operation(s) for images.
-  name: Vers images API
+  name: Vers Images API
   slug: vers-images-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The keys API from Vers — 1 operation(s) for keys.
-  name: Vers keys API
+  name: Vers Keys API
   slug: vers-keys-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The public_repositories API from Vers — 4 operation(s) for public_repositories.
-  name: Vers public_repositories API
+  name: Vers Public Repositories API
   slug: vers-public-repositories-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The repositories API from Vers — 6 operation(s) for repositories.
-  name: Vers repositories API
+  name: Vers Repositories API
   slug: vers-repositories-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
@@ -90,7 +90,7 @@ apis:
 - baseURL: https://api.vers.sh
   baseurl_source: declared
   description: The vm API from Vers — 20 operation(s) for vm.
-  name: Vers vm API
+  name: Vers Vm API
   slug: vers-vm-api
 - baseURL: https://api.vers.sh
   baseurl_source: declared
@@ -270,7 +270,7 @@ modified: '2026-07-21'
 name: Vers
 nav: Providers
 network: true
-overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, including commit_tags API, commits API, deploy API, and 9 more. Tagged areas include Company, Compute, Virtualization, MicroVM, and Orchestration.
+overview: 'Vers publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Commit Tags API, Commits API, Deploy API, and 9 more. Tagged areas include Company, Compute, Virtualization, MicroVM, and Orchestration.
 
 
   Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
@@ -285,7 +285,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -293,7 +293,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 2.6
-  previous_composite: 38.4
+  previous_composite: 39.4
   provenance:
     conformance: derived
     contracts:
@@ -304,7 +304,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

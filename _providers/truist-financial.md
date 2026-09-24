@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ modified: '2026-05-19'
 name: Truist Financial
 nav: Providers
 network: true
-overview: 'Truist Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Commercial Accounts API, Commercial Transactions API, and 1 more. Tagged areas include Banking, Financial-Services, Open Banking, Commercial Banking, and Personal Banking.
+overview: 'Truist Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Commercial Accounts API, Commercial Transactions API, and 1 more. Tagged areas include Banking, Financial Services, Open Banking, Commercial Banking, and Personal Banking.
 
 
   The Truist Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -353,7 +353,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -372,7 +372,7 @@ security:
 slug: truist-financial
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Commercial Banking
 - Personal Banking

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Matterport's public GraphQL API family. The Model API reads and manages 3D models (spaces, meshes, assets, labels/tags, sweeps); the Account API manages account, folders and users; the Import API inge
@@ -178,7 +178,7 @@ modified: '2026-07-20'
 name: MatterPort
 nav: Providers
 network: true
-overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twin, Spatial Data, and Real-Estate.
+overview: 'MatterPort publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twin, Spatial Data, and Real Estate.
 
 
   MatterPort''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -231,11 +231,11 @@ tags:
 - 3D
 - Digital Twin
 - Spatial Data
-- Real-Estate
+- Real Estate
 - Construction
 - GraphQL
 - SDK
-- Computer-Vision
+- Computer Vision
 - Property Intelligence
 website: https://www.matterport.com/
 ---

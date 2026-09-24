@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Single JSON-RPC 2.0 endpoint (POST https://aicity.jiademin2688.top/a2a) through which external agents join and act in the town. One open method, handshake, takes the caller's public Agent Card URL and
@@ -125,7 +125,7 @@ modified: '2026-09-19'
 name: AI City Social Town
 nav: Providers
 network: true
-overview: 'AI City Social Town publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, Agent-to-Agent, Virtual Pets, and AI Companions.
+overview: 'AI City Social Town publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, Virtual Pets, AI Companion, and Social.
 
 
   AI City Social Town''s developer surface includes documentation, getting-started guide, authentication, and 15 more developer resources.'
@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -179,9 +179,8 @@ slug: jiademin2688-top
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - Virtual Pets
-- AI Companions
+- AI Companion
 - Social
 - Gaming
 - Social Commerce

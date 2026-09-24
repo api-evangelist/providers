@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-07-01'
 name: Lorikeet
 nav: Providers
 network: true
-overview: 'Lorikeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Knowledge API, Messages API, and 1 more. Tagged areas include Artificial Intelligence, Customer-Support, AI Agents, Support Automation, and Workflows.
+overview: 'Lorikeet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Knowledge API, Messages API, and 1 more. Tagged areas include Artificial Intelligence, Customer Support, AI Agents, Support Automation, and Workflows.
 
 
   Lorikeet''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -186,7 +186,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -204,7 +204,7 @@ security:
 slug: lorikeet
 tags:
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - AI Agents
 - Support Automation
 - Workflows

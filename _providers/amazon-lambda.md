@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ arazzos:
 - description: Push new function code, wait for the update to settle, then invoke to verify.
   name: Amazon Lambda Update Code and Verify
   slug: amazon-lambda-update-code-and-verify-workflow
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: postman
   name: Amazon Lambda API
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/lambda/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/agentic-access/amazon-lambda-agentic-access.yml
   title: ''
@@ -281,10 +281,6 @@ finops:
 - name: Amazon Lambda Finops
   service_category: API
   slug: amazon-lambda-finops
-graphqls:
-- description: ''
-  name: Amazon Lambda GraphQL API
-  slug: amazon-lambda-graphql
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Build REST and WebSocket APIs backed by Lambda functions.
@@ -365,7 +361,7 @@ score:
   band: strong
   composite: 61.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
@@ -388,7 +384,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -427,5 +423,5 @@ use_cases:
   name: Event Automation
 - description: Run ML model inference on-demand without managing inference infrastructure.
   name: Machine Learning Inference
-website: https://amazon.com
+website: https://aws.amazon.com/lambda/
 ---

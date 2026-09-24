@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -165,7 +165,7 @@ modified: 2026-06-12
 name: Labelbox
 nav: Providers
 network: true
-overview: 'Labelbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Labeling, AI Training, Machine-Learning, Annotation, and Computer-Vision.
+overview: 'Labelbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data Labeling, AI Training, Machine Learning, Annotation, and Computer Vision.
 
 
   The Labelbox catalog on APIs.io includes 1 JSON-LD context.
@@ -204,7 +204,7 @@ score:
     score: 85.0
   previous_composite: 41.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -228,9 +228,9 @@ slug: labelbox
 tags:
 - Data Labeling
 - AI Training
-- Machine-Learning
+- Machine Learning
 - Annotation
-- Computer-Vision
+- Computer Vision
 - RLHF
 - Model Evaluation
 - Dataset Management

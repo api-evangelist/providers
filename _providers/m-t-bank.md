@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 10
 apis:
 - description: Institutional payment initiation product listed in M&T's Banking and Treasury API group on the developer portal. Per-product reference is available after Entra login and Azure APIM subscription.
@@ -136,7 +136,7 @@ modified: '2026-07-23'
 name: M&T Bank
 nav: Providers
 network: true
-overview: 'M&T Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Super-Regional Bank, and Treasury Management.
+overview: 'M&T Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Super-Regional Bank, and Treasury Management.
 
 
   M&T Bank''s developer surface includes documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
@@ -174,7 +174,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: m-t-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - United States
 - Super-Regional Bank

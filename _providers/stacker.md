@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Stacker Agentic Access
   operation_count: 10
   slug: stacker-agentic-access
-  summary_line: 10 operations · 5 acting
+  summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://api.go.stackerhq.com
@@ -172,7 +172,7 @@ modified: '2026-05-19'
 name: Stacker
 nav: Providers
 network: true
-overview: 'Stacker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Hello API, Objects API, and 1 more. Tagged areas include Application Development, Low-Code, No-Code, Portal, and Workflow-Automation.
+overview: 'Stacker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Hello API, Objects API, and 1 more. Tagged areas include Application Development, Low-Code, No-Code, Portal, and Workflow Automation.
 
 
   The Stacker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -257,6 +257,6 @@ tags:
 - Low-Code
 - No-Code
 - Portal
-- Workflow-Automation
+- Workflow Automation
 website: https://stacker.ai/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -140,7 +140,7 @@ modified: '2026-09-16'
 name: LiveKit
 nav: Providers
 network: true
-overview: 'LiveKit publishes 1 API on the [APIs.io](https://apis.io/) network: Signaling Protocol (WebSocket). Tagged areas include Real-Time, WebRTC, Audio, Video, and Open-Source.
+overview: 'LiveKit publishes 1 API on the [APIs.io](https://apis.io/) network: Signaling Protocol (WebSocket). Tagged areas include Real-Time, WebRTC, Audio, Video, and Open Source.
 
 
   The LiveKit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -188,7 +188,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 32.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - WebRTC
 - Audio
 - Video
-- Open-Source
+- Open Source
 - AI Agents
 - Voice
 - Cloud

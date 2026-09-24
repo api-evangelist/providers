@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
   baseurl_source: declared
   description: The gateway API from Mindlogic — 7 operation(s) for gateway.
-  name: Mindlogic gateway API
+  name: Mindlogic Gateway API
   slug: mindlogic-gateway-api
 - baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
   baseurl_source: declared
@@ -252,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

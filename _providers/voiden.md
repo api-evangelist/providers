@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Voiden is a desktop application (Electron/TypeScript) for API design, testing, and documentation using .void file format — plain Markdown with structured request blocks. Features reusable blocks with '
   name: Voiden Desktop Tool
   slug: voiden-tool
-artifact_total: 10
+artifact_total: 9
 common:
 - group: operate
   title: ''
@@ -112,10 +112,6 @@ finops:
 - name: Voiden Finops
   service_category: API
   slug: voiden-finops
-graphqls:
-- description: ''
-  name: Voiden GraphQL API
-  slug: voiden-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voiden.png
 json_schemas:
 - name: Voiden .void File
@@ -166,7 +162,7 @@ score:
   band: emerging
   composite: 25.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -182,7 +178,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

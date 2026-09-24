@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Amazon Migration Hub Agentic Access
   operation_count: 17
   slug: amazon-migration-hub-agentic-access
-  summary_line: 17 operations · 17 acting
+  summary_line: 17 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: http://mgh.{region}.amazonaws.com
@@ -241,7 +241,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1058,7 +1058,7 @@ modified: '2026-09-16'
 name: Amazon Migration Hub
 nav: Providers
 network: true
-overview: 'Amazon Migration Hub publishes 17 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API, #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API, #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API, and 14 more. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon Migration Hub publishes 17 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API, #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API, #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API, and 14 more. Tagged areas include Migration, Cloud Migration, and Cloud.
 
 
   The Amazon Migration Hub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1123,7 +1123,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1148,9 +1148,9 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-migration-hub
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Migration
+- Cloud Migration
+- Cloud
 use_cases:
 - description: Manage complex migrations of hundreds or thousands of servers to AWS.
   name: Large-Scale Cloud Migration
@@ -1160,5 +1160,5 @@ use_cases:
   name: Multi-Tool Orchestration
 - description: Generate progress reports and status updates for stakeholders.
   name: Migration Reporting
-website: https://amazon.com
+website: https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html
 ---

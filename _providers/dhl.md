@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ apis:
   description: The Find By Location Id API from DHL — 1 operation(s) for find by location id.
   name: DHL Find By Location Id API
   slug: dhl-find-by-location-id-api
-artifact_total: 64
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -264,10 +264,6 @@ finops:
 - name: Dhl Finops
   service_category: API
   slug: dhl-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the DHL Express global shipping API. DHL Express provides express delivery services across more than 220 countries and territories. The DHL Unif
-  name: DHL Express GraphQL Schema
-  slug: dhl-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dhl.png
 layout: provider
 modified: '2026-09-16'
@@ -289,19 +285,19 @@ rate_limits:
   slug: dhl-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 28.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 53.6
+    contract_quality: 47.6
     developer_ergonomics: 21.4
     discoverability: 75.9
     operational_transparency: 7.9
@@ -314,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

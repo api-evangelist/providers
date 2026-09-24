@@ -35,26 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 98
+- acting_count: 128
   human_in_the_loop: 0
   name: Llamaparse Agentic Access
-  operation_count: 194
+  operation_count: 268
   slug: llamaparse-agentic-access
-  summary_line: 194 operations · 98 acting
+  summary_line: 268 operations · 128 acting
 api_count: 1
 apis:
-- baseURL: https://api.cloud.llamaindex.ai
-  baseurl_source: declared
-  description: Structured data extraction API that pulls typed JSON output from unstructured documents using developer-defined schemas. Supports cost-effective and agentic tiers; composable with Parse to reduce per-
-  name: LlamaParse Extract API
-  slug: llamaparse-extract-api
-- baseURL: https://api.cloud.llamaindex.ai
-  baseurl_source: declared
-  description: Document classification API that categorizes uploaded files by type or content. Available in fast (1 credit/page) and multimodal (2 credits/page) modes; useful for pre-filtering before invoking higher
-  name: LlamaParse Classify API
-  slug: llamaparse-classify-api
 - description: Managed vector index API for ingesting parsed documents into searchable LlamaCloud indexes. Supports standard (1 credit/page), spreadsheet (2 credits/page), and multi-modal (2 credits/page) indexing m
   name: LlamaCloud Index API
   slug: llamaparse-index-api
@@ -90,7 +80,7 @@ apis:
   slug: llamaparse-classifier-api
 - baseURL: https://api.cloud.llamaindex.ai
   baseurl_source: declared
-  description: The Classify API from LlamaParse — 3 operation(s) for classify.
+  description: Document classification API that categorizes uploaded files by type or content. Available in fast (1 credit/page) and multimodal (2 credits/page) modes; useful for pre-filtering before invoking higher
   name: LlamaParse Classify API
   slug: llamaparse-classify-api
 - baseURL: https://api.cloud.llamaindex.ai
@@ -125,7 +115,7 @@ apis:
   slug: llamaparse-embedding-model-configs-api
 - baseURL: https://api.cloud.llamaindex.ai
   baseurl_source: declared
-  description: The Extract API from LlamaParse — 5 operation(s) for extract.
+  description: Structured data extraction API that pulls typed JSON output from unstructured documents using developer-defined schemas. Supports cost-effective and agentic tiers; composable with Parse to reduce per-
   name: LlamaParse Extract API
   slug: llamaparse-extract-api
 - baseURL: https://api.cloud.llamaindex.ai
@@ -223,7 +213,7 @@ apis:
   description: The V2 API from LlamaParse — 19 operation(s) for v2.
   name: LlamaParse V2 API
   slug: llamaparse-v2-api
-artifact_total: 126
+artifact_total: 124
 collections:
 - collection_type: postman
   name: Llama Platform Agent Data API
@@ -616,7 +606,7 @@ modified: '2026-06-12'
 name: LlamaParse
 nav: Providers
 network: true
-overview: 'LlamaParse publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Extract API, Classify API, Agent Data API, and 32 more. Tagged areas include Document Parsing, OCR, PDF, LLM, and RAG.
+overview: 'LlamaParse publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Agent Data API, Batch Processing API, Batches API, and 30 more. Tagged areas include Document Parsing, OCR, PDF, LLM, and RAG.
 
 
   The LlamaParse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -673,7 +663,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

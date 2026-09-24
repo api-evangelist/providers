@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -1106,7 +1106,7 @@ modified: '2026-05-30'
 name: Flickr
 nav: Providers
 network: true
-overview: 'Flickr publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Auth API, Blogs API, and 29 more. Tagged areas include Photography, Photos, Social-Media, and Public APIs.
+overview: 'Flickr publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Auth API, Blogs API, and 29 more. Tagged areas include Photography, Photos, Social Media, and Public APIs.
 
 
   The Flickr catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1176,7 +1176,7 @@ score:
       marker_coverage: 97.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1206,7 +1206,7 @@ solutions:
 tags:
 - Photography
 - Photos
-- Social-Media
+- Social Media
 - Public APIs
 use_cases:
 - description: Build a third-party app that searches, displays, or remixes the public Flickr photo corpus.

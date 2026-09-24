@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-05-19'
 name: Bureau of Reclamation
 nav: Providers
 network: true
-overview: 'Bureau of Reclamation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Locations API, Model Runs API, and 3 more. Tagged areas include Energy, Federal-Government, Infrastructure, Water, and Hydrology.
+overview: 'Bureau of Reclamation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Locations API, Model Runs API, and 3 more. Tagged areas include Energy, Federal Government, Infrastructure, Water, and Hydrology.
 
 
   Bureau of Reclamation''s developer surface includes developer portal and 7 more developer resources.'
@@ -192,7 +192,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -207,7 +207,7 @@ security:
 slug: bureau-of-reclamation
 tags:
 - Energy
-- Federal-Government
+- Federal Government
 - Infrastructure
 - Water
 - Hydrology

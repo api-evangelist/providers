@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
   description: The attributions API from Kard — 1 operation(s) for attributions.
-  name: Kard attributions API
+  name: Kard Attributions API
   slug: kard-attributions-api
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
@@ -91,17 +91,17 @@ apis:
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
   description: The rewards API from Kard — 9 operation(s) for rewards.
-  name: Kard rewards API
+  name: Kard Rewards API
   slug: kard-rewards-api
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
   description: The transactions API from Kard — 7 operation(s) for transactions.
-  name: Kard transactions API
+  name: Kard Transactions API
   slug: kard-transactions-api
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
   description: The users API from Kard — 5 operation(s) for users.
-  name: Kard users API
+  name: Kard Users API
   slug: kard-users-api
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
@@ -359,7 +359,7 @@ modified: '2026-07-19'
 name: Kard
 nav: Providers
 network: true
-overview: 'Kard publishes 17 APIs on the [APIs.io](https://apis.io/) network, including attributions API, Files API, notifications > Notifications API, and 14 more. Tagged areas include Company, Rewards, Card-Linked Offers, Loyalty, and Fintech.
+overview: 'Kard publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attributions API, Files API, notifications > Notifications API, and 14 more. Tagged areas include Company, Rewards, Card-Linked Offers, Loyalty, and Fintech.
 
 
   The Kard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -408,7 +408,7 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

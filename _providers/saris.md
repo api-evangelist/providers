@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-21'
 name: Saris
 nav: Providers
 network: true
-overview: 'Saris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial-Services, Banking, and Credit Union.
+overview: 'Saris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Financial Services, Banking, and Credit Union.
 
 
   Saris'' developer surface includes engineering blog and 2 more developer resources.'
@@ -88,7 +88,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -104,10 +104,10 @@ slug: saris
 tags:
 - Company
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Banking
 - Credit Union
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Fintech
 - Compliance

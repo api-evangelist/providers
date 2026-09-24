@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,32 +47,32 @@ apis:
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Process large volumes of requests asynchronously. Batch processing is ideal when you: - Have many requests that don''t need immediate responses - Want to process data in bulk (e.g., embeddings for a do'
-  name: .txt batches API
+  name: .txt Batches API
   slug: txt-batches-api
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Create model responses for chat conversations. Supports: - **Multi-turn dialogue** with conversation history - **System prompts** to control model behavior - **Tool calling** for function execution an'
-  name: .txt chat API
+  name: .txt Chat API
   slug: txt-chat-api
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Generate vector representations of text. Use embeddings for: - **Semantic search** - find content by meaning, not just keywords - **Clustering** - group similar documents together - **Classification**'
-  name: .txt embeddings API
+  name: .txt Embeddings API
   slug: txt-embeddings-api
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Upload and manage JSONL files for batch processing. Each line in the file should be a JSON object with: - `custom_id` - your identifier for tracking the request - `method` - HTTP method (POST) - `url`'
-  name: .txt files API
+  name: .txt Files API
   slug: txt-files-api
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: List and retrieve information about available models. Use these endpoints to discover which models you have access to and their capabilities.
-  name: .txt models API
+  name: .txt Models API
   slug: txt-models-api
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Create model responses with enhanced capabilities. Open Responses compatible endpoint providing advanced features: - **Reasoning models** - Control computational effort with `reasoning` parameter - **'
-  name: .txt responses-api
+  name: .txt Responses API
   slug: txt-responses-api-api
 artifact_total: 16
 collections:
@@ -227,7 +227,7 @@ modified: '2026-09-16'
 name: .txt
 nav: Providers
 network: true
-overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including batches API, chat API, embeddings API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON-Schema.
+overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Chat API, Embeddings API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON Schema.
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
@@ -262,7 +262,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -283,9 +283,9 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON-Schema
+- JSON Schema
 - Inference
 - Developer Tools
-- Machine-Learning
+- Machine Learning
 website: https://dottxt.ai
 ---

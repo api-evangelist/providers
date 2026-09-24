@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Innago Agentic Access
   operation_count: 21
   slug: innago-agentic-access
-  summary_line: 21 operations · 7 acting
+  summary_line: 21 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://api-my.innago.com/openapi/v1
@@ -213,7 +213,7 @@ modified: '2026-09-16'
 name: Innago
 nav: Providers
 network: true
-overview: 'Innago publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Expenses API, External References API, Health API, and 6 more. Tagged areas include Property Management, Real-Estate, Leases, Rent Collection, and Maintenance.
+overview: 'Innago publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Expenses API, External References API, Health API, and 6 more. Tagged areas include Property Management, Real Estate, Leases, Rent Collection, and Maintenance.
 
 
   The Innago catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -273,7 +273,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +291,7 @@ security:
 slug: innago
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Leases
 - Rent Collection
 - Maintenance

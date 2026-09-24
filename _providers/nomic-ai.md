@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-05-23'
 name: Nomic AI
 nav: Providers
 network: true
-overview: 'Nomic AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Embeddings API, Files API, and Tasks API. Tagged areas include Embeddings, Vector Database, Data Exploration, LLM, and Open-Source.
+overview: 'Nomic AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Embeddings API, Files API, and Tasks API. Tagged areas include Embeddings, Vector Database, Data Exploration, LLM, and Open Source.
 
 
   Nomic AI''s developer surface includes authentication, documentation, GitHub presence, and 12 more developer resources.'
@@ -225,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -254,7 +254,7 @@ tags:
 - Vector Database
 - Data Exploration
 - LLM
-- Open-Source
+- Open Source
 - RAG
 - Atlas
 website: https://www.nomic.ai/

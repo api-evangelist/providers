@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -230,7 +230,7 @@ modified: '2026-08-08'
 name: Promptfoo
 nav: Providers
 network: true
-overview: 'Promptfoo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Red Teaming, AI Security, Guardrails, and Open-Source.
+overview: 'Promptfoo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Red Teaming, AI Security, Guardrails, and Open Source.
 
 
   Promptfoo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, developer portal, tooling, and 24 more developer resources.'
@@ -263,7 +263,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 36.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -285,7 +285,7 @@ tags:
 - Red Teaming
 - AI Security
 - Guardrails
-- Open-Source
+- Open Source
 - CLI
 - Developer Tools
 use_cases:

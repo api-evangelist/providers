@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ modified: '2026-09-02'
 name: AmeriCorps
 nav: Providers
 network: true
-overview: 'AmeriCorps publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Datasets API, and Metadata API. Tagged areas include Federal-Government, National Service, Volunteerism, Community Development, and Civic Engagement.
+overview: 'AmeriCorps publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Datasets API, and Metadata API. Tagged areas include Federal Government, National Service, Volunteerism, Community Development, and Civic Engagement.
 
 
   AmeriCorps'' developer surface includes authentication, developer portal, getting-started guide, and 23 more developer resources.'
@@ -284,7 +284,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -306,7 +306,7 @@ security:
   summary_line: security.txt · contact published
 slug: americorps
 tags:
-- Federal-Government
+- Federal Government
 - National Service
 - Volunteerism
 - Community Development

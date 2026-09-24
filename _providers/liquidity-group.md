@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,7 +119,7 @@ modified: '2026-08-25'
 name: LIQUiDITY Group
 nav: Providers
 network: true
-overview: 'LIQUiDITY Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Private Credit, Lending, and Asset Management.
+overview: 'LIQUiDITY Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Private Credit, Lending, and Asset Management.
 
 
   LIQUiDITY Group''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -157,7 +157,7 @@ score:
     - north-america
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ security:
 slug: liquidity-group
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Private Credit
 - Lending
 - Asset Management

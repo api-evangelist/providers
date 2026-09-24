@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Seamless Ai Agentic Access
-  operation_count: 9
+  operation_count: 10
   slug: seamless-ai-agentic-access
-  summary_line: 9 operations · 5 acting
+  summary_line: 10 operations · 4 acting
 api_count: 2
 apis:
 - baseURL: https://api.seamless.ai/api/client/v1
@@ -470,7 +470,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -501,5 +501,6 @@ tags:
 - MCP
 - Agents
 - Sales Automation
+- A2A
 website: https://seamless.ai
 ---

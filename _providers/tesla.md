@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -63,7 +63,7 @@ apis:
   description: The Vehicles API from Tesla — 11 operation(s) for vehicles.
   name: Tesla Vehicles API
   slug: tesla-vehicles-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -167,10 +167,6 @@ finops:
 - name: Tesla Finops
   service_category: API
   slug: tesla-finops
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for the Tesla Fleet API and Owner API. Tesla does not publish an official GraphQL endpoint, but this schema models the domain objects and operations
-  name: Tesla GraphQL Schema
-  slug: tesla-graphql
 json_schemas:
 - name: Tesla Vehicle
   property_count: 10
@@ -229,19 +225,19 @@ rules:
   slug: tesla-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 37.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 55.2
+    contract_quality: 52.1
     developer_ergonomics: 42.9
     discoverability: 79.6
     operational_transparency: 28.9
@@ -263,7 +259,7 @@ score:
     regime_id: energy_utilities
     score: 31.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

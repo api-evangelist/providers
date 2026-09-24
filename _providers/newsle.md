@@ -37,7 +37,7 @@ tags:
 - News Alerts
 - Media Monitoring
 - Natural Language Processing
-- Machine-Learning
+- Machine Learning
 - Acquired
 - Defunct
 ---

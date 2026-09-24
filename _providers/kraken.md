@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 45
+- acting_count: 29
   human_in_the_loop: 0
   name: Kraken Agentic Access
   operation_count: 71
   slug: kraken-agentic-access
-  summary_line: 71 operations · 45 acting
+  summary_line: 71 operations · 29 acting
 api_count: 24
 apis:
 - baseURL: wss://ws.kraken.com/v2
@@ -177,7 +177,7 @@ arazzos:
 - description: Check balance and withdrawal fees, withdraw to a saved address, then track status.
   name: Kraken Withdraw Funds with Fee Preview
   slug: kraken-withdraw-funds-workflow
-artifact_total: 401
+artifact_total: 400
 asyncapis:
 - description: 'Public WebSocket API for the Kraken cryptocurrency exchange (Spot v2). Provides real-time market data through subscribe/unsubscribe semantics over JSON. Channels documented here are restricted to the '
   name: Kraken Spot WebSocket API v2
@@ -775,10 +775,6 @@ finops:
 - name: Kraken Finops
   service_category: Cryptocurrency Exchange + Brokerage
   slug: kraken-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Kraken cryptocurrency exchange API. Kraken's public API is REST and WebSocket based (see the [Kraken REST API docs](https://docs.kraken.com/
-  name: Kraken GraphQL Schema
-  slug: kraken-graphql
 image: https://assets.kraken.com/marketing/web/kraken-logo.svg
 integrations:
 - description: Kraken Futures uses the Crypto Facilities REST v3 and WebSocket v1 protocols, with public GitHub example clients in multiple languages.
@@ -1560,19 +1556,19 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 74.5
+  composite: 73.2
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 87.5
     catalog_earned_first_party: 0.0
     catalog_gap: 27.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 92.1
     contract_governance: 33.3
-    contract_quality: 33.8
+    contract_quality: 28.7
     developer_ergonomics: 89.3
     discoverability: 88.9
     operational_transparency: 50.0
@@ -1593,7 +1589,7 @@ score:
     regime_id: securities_market_data
     score: 83.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1646,6 +1642,7 @@ tags:
 - Embed
 - Authentication
 - Public APIs
+- Real-Time
 use_cases:
 - description: Build and operate automated trading strategies against Kraken Spot using REST for order management and WebSocket v2 for low-latency market data and execution streams.
   name: Algorithmic Spot Trading

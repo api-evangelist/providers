@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.6
-  scored_at: '2026-09-23'
+  score: 8.6
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bestow/refs/heads/main/security/bestow-domain-security.yml
@@ -113,18 +113,9 @@ common:
   title: ''
   type: Medium
   url: https://medium.com/bestowinc
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bestow/refs/heads/main/graphql/bestow-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/bestow-graphql.md
 created: '2026-05-25'
 description: Bestow is a Dallas, Texas life insurance technology company building a unified SaaS platform for life insurance carriers, agents, and embedded partners. Founded in 2016, Bestow provides end-to-end and modular solutions across new business and policy administration, including a digital Application Suite for quote, illustration, and application journeys; an Underwriting engine and workbench with instant, fully automated decisioning powered by machine learning on actuarial data; an Agent Portal and sales management tooling; an Admin Portal and Customer Portal for self-service; TPA (Third-Party Administrator) services; a Performance IQ analytics surface; and a Data Optimization Suite for modeling, integrations, and activation. Bestow's Protect API and associated SDK power embedded life insurance — letting fintechs, banks, financial institutions, P&C carriers, mortgage platforms, and benefits providers offer instant term life, final expense, and IUL coverage inside their own apps
   and websites, with Bestow handling underwriting, payment, billing, policy delivery, and ongoing administration behind the scenes. Integrations span ACORD life and annuities data standards, Adyen for payments, Cloudflare for identity and security, and data vendors including Bevel, Clareto, EIS, ExamOne, and Human API ReFlex Select. There is no publicly accessible developer portal or API reference — partner documentation, sandbox access, and Protect API onboarding are gated behind a partner login at docs.bestow.com and arranged through Bestow's sales and partnerships team.
-graphqls:
-- description: This conceptual GraphQL schema models the Bestow life insurance platform, which powers embedded insurance through the Bestow Protect API. Bestow provides fintechs, banks, financial institutions, P&C c
-  name: Bestow GraphQL Schema
-  slug: bestow-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bestow.png
 layout: provider
 modified: '2026-05-25'
@@ -134,23 +125,23 @@ network: true
 overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Insurtech, Embedded Insurance, and Insurance As A Service.
 
 
-  Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 16 more developer resources.'
+  Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 15 more developer resources.'
 random_paper: 0
 score:
-  band: emerging
-  composite: 14.6
+  band: minimal
+  composite: 5.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
@@ -164,8 +155,8 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -191,6 +182,6 @@ tags:
 - Protect API
 - SDK
 - ACORD
-- Financial-Services
+- Financial Services
 website: https://www.bestow.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-07-19'
 name: Element5
 nav: Providers
 network: true
-overview: 'Element5 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Eligibility API, Object Store API, and 1 more. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow-Automation.
+overview: 'Element5 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Eligibility API, Object Store API, and 1 more. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow Automation.
 
 
   The Element5 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -264,7 +264,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -285,7 +285,7 @@ tags:
 - Healthcare
 - Revenue Cycle Management
 - Post-Acute Care
-- Workflow-Automation
+- Workflow Automation
 - Eligibility Verification
 - Prior Authorization
 - Claims Processing

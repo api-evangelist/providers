@@ -36,24 +36,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 139
+- acting_count: 32
   human_in_the_loop: 0
   name: New Relic Agentic Access
-  operation_count: 261
+  operation_count: 62
   slug: new-relic-agentic-access
-  summary_line: 261 operations · 139 acting
+  summary_line: 62 operations · 32 acting
 api_count: 5
 apis:
 - description: NerdGraph is New Relic's primary GraphQL API for querying observability data, managing account configuration, and accessing the full breadth of New Relic platform capabilities. It is the recommended A
   name: New Relic NerdGraph API
   slug: new-relic-nerdgraph-api
-- baseURL: https://api.newrelic.com/v2/
-  baseurl_source: declared
-  description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
-  name: New Relic Alerts API
-  slug: new-relic-alerts-api
 - description: The New Relic Synthetics API, available through NerdGraph, allows you to programmatically create, update, delete, and query synthetic monitors including ping monitors, scripted API monitors, browser m
   name: New Relic Synthetics API
   slug: new-relic-synthetics-api
@@ -86,7 +81,7 @@ apis:
   slug: new-relic-mobile-sdk
 - baseURL: https://api.newrelic.com/v2/
   baseurl_source: declared
-  description: The Alerts API from New Relic — 23 operation(s) for alerts.
+  description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
   name: New Relic Alerts API
   slug: new-relic-alerts-api
 - baseURL: https://api.newrelic.com/v2/
@@ -180,7 +175,7 @@ arazzos:
 - description: Resolve a policy by name, update it, then update one of its conditions.
   name: New Relic Update Policy And Condition
   slug: new-relic-update-policy-and-condition-workflow
-artifact_total: 965
+artifact_total: 964
 asyncapis:
 - description: Describes New Relic's documented event-driven and streaming surfaces. New Relic does not publish a customer-facing WebSocket or Server-Sent Events streaming endpoint, and the NerdGraph GraphQL API doe
   name: New Relic Streaming and Event-Driven Surfaces
@@ -3243,7 +3238,7 @@ modified: '2026-05-19'
 name: New Relic
 nav: Providers
 network: true
-overview: 'New Relic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, and 6 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
+overview: 'New Relic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, Events API, and 4 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
 
 
   The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -3302,7 +3297,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 28.8
@@ -3313,17 +3308,17 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 68.3
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 29
+      total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -3353,6 +3348,7 @@ tags:
 - Observability
 - Performance
 - Platform
+- Real-Time
 use_cases:
 - description: Gain unified visibility across applications, infrastructure, and digital experiences to quickly identify and resolve issues.
   name: Full-Stack Observability

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: CKAN Action API for Mendoza Open Data, ~204 datasets. Base URL https://datosabiertos.mendoza.gov.ar/api/3/action/.
@@ -132,7 +132,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ tags:
 - DCAT
 - Government Data
 - Open Data Portal
-- State-Government
+- State Government
 - Argentina
 website: https://datosabiertos.mendoza.gov.ar
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -48,67 +48,67 @@ apis:
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints for booking, cancelling, and rescheduling appointments, including retrieving current appointment statuses and updated information.
-  name: Zocdoc appointments API
+  name: Zocdoc Appointments API
   slug: zocdoc-appointments-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to manage timeslots for providers.
-  name: Zocdoc calendar-integration-timeslots API
+  name: Zocdoc Calendar Integration Timeslots API
   slug: zocdoc-calendar-integration-timeslots-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints for managing API credentials.
-  name: Zocdoc credentials API
+  name: Zocdoc Credentials API
   slug: zocdoc-credentials-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve facilities within the developer's directory.
-  name: Zocdoc facilities API
+  name: Zocdoc Facilities API
   slug: zocdoc-facilities-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve insurance plans supported by Zocdoc.
-  name: Zocdoc insurance-reference API
+  name: Zocdoc Insurance Reference API
   slug: zocdoc-insurance-reference-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints for retrieving and modifying provider location objects and their related insurance plans and availability.
-  name: Zocdoc provider-locations API
+  name: Zocdoc Provider Locations API
   slug: zocdoc-provider-locations-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve providers within the developer's directory.
-  name: Zocdoc providers API
+  name: Zocdoc Providers API
   slug: zocdoc-providers-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve information about the developer's directory.
-  name: Zocdoc reference API
+  name: Zocdoc Reference API
   slug: zocdoc-reference-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve schedulable entities with availability information.
-  name: Zocdoc schedulable-entities API
+  name: Zocdoc Schedulable Entities API
   slug: zocdoc-schedulable-entities-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Sandbox endpoints to mock webhook behavior
-  name: Zocdoc webhook API
+  name: Zocdoc Webhook API
   slug: zocdoc-webhook-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Endpoints to retrieve aggregate review summaries for providers, individually or in batches of up to 100 provider IDs.
-  name: Zocdoc reviews API
+  name: Zocdoc Reviews API
   slug: zocdoc-reviews-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Reference endpoints to retrieve the specialties Zocdoc supports and their default visit reasons, optionally filtered by care category.
-  name: Zocdoc specialties API
+  name: Zocdoc Specialties API
   slug: zocdoc-specialties-api
 - baseURL: https://api-developer.zocdoc.com
   baseurl_source: declared
   description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
-  name: Zocdoc visit-reasons API
+  name: Zocdoc Visit Reasons API
   slug: zocdoc-visit-reasons-api
 artifact_total: 41
 asyncapis:
@@ -378,7 +378,7 @@ modified: '2026-08-15'
 name: Zocdoc
 nav: Providers
 network: true
-overview: 'Zocdoc publishes 13 APIs on the [APIs.io](https://apis.io/) network, including appointments API, calendar-integration-timeslots API, credentials API, and 10 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
+overview: 'Zocdoc publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Calendar Integration Timeslots API, Credentials API, and 10 more. Tagged areas include Healthcare, Appointments, Booking, Providers, and Insurance.
 
 
   The Zocdoc catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -420,7 +420,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     contract_governance: 29.5
@@ -428,7 +428,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.9
     operational_transparency: 28.9
-  previous_composite: 64.3
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -446,7 +446,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

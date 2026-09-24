@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -47,42 +47,42 @@ apis:
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: API key management and usage reporting.
-  name: Coasty keys API
+  name: Coasty Keys API
   slug: coasty-keys-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Provision and control managed VMs.
-  name: Coasty machines API
+  name: Coasty Machines API
   slug: coasty-machines-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Stateless CUA action prediction and grounding.
-  name: Coasty predict API
+  name: Coasty Predict API
   slug: coasty-predict-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Autonomous task runs — the agent drives a task to completion on a machine.
-  name: Coasty runs API
+  name: Coasty Runs API
   slug: coasty-runs-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Cron and one-shot scheduled CUA jobs.
-  name: Coasty schedules API
+  name: Coasty Schedules API
   slug: coasty-schedules-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Stateful CUA sessions with persistent trajectory.
-  name: Coasty sessions API
+  name: Coasty Sessions API
   slug: coasty-sessions-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Webhook and chain triggers for schedules.
-  name: Coasty triggers API
+  name: Coasty Triggers API
   slug: coasty-triggers-api
 - baseURL: https://coasty.ai
   baseurl_source: declared
   description: Versioned, branching multi-step automations (DSL) and their runs.
-  name: Coasty workflows API
+  name: Coasty Workflows API
   slug: coasty-workflows-api
 artifact_total: 33
 asyncapis:
@@ -329,7 +329,7 @@ modified: '2026-07-18'
 name: Coasty
 nav: Providers
 network: true
-overview: 'Coasty publishes 8 APIs on the [APIs.io](https://apis.io/) network, including keys API, machines API, predict API, and 5 more. Tagged areas include Company, Computer Use, AI Agents, Automation, and RPA.
+overview: 'Coasty publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Keys API, Machines API, Predict API, and 5 more. Tagged areas include Company, Computer Use, AI Agents, Automation, and RPA.
 
 
   The Coasty catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -375,7 +375,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

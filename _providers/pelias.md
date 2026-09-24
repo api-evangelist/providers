@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-06-13'
 name: Pelias
 nav: Providers
 network: true
-overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include Geocoding, Reverse Geocoding, Geospatial, Open-Source, and Elasticsearch.
+overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include Geocoding, Reverse Geocoding, Geospatial, Open Source, and Elasticsearch.
 
 
   The Pelias catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -227,7 +227,7 @@ tags:
 - Geocoding
 - Reverse Geocoding
 - Geospatial
-- Open-Source
+- Open Source
 - Elasticsearch
 - OpenStreetMap
 - Addresses

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,7 +67,7 @@ modified: '2026-07-19'
 name: Jarmin
 nav: Providers
 network: true
-overview: Jarmin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic Systems, and Machine-Learning.
+overview: Jarmin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic Systems, and Machine Learning.
 random_paper: 3
 score:
   band: minimal
@@ -91,7 +91,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,7 +113,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agentic Systems
-- Machine-Learning
+- Machine Learning
 - Automation
 - AI Employees
 - Y Combinator

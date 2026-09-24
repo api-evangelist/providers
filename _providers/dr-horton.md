@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ modified: '2026-04-28'
 name: D.R. Horton
 nav: Providers
 network: true
-overview: D.R. Horton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Homebuilder, Real-Estate, and Construction.
+overview: D.R. Horton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Homebuilder, Real Estate, and Construction.
 press:
 - date: ''
   title: D.R. Horton Says Wary Buyers Will Continue Demanding ...
@@ -124,7 +124,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -143,7 +143,7 @@ slug: dr-horton
 tags:
 - Fortune 500
 - Homebuilder
-- Real-Estate
+- Real Estate
 - Construction
 website: https://www.drhorton.com
 ---

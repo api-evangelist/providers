@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://indexing.googleapis.com/v3
   baseurl_source: declared
   description: The urlNotifications API from Google Indexing — 1 operation(s) for urlnotifications.
-  name: Google Indexing urlNotifications API
+  name: Google Indexing URL Notifications API
   slug: google-indexing-urlnotifications-api
 - baseURL: https://indexing.googleapis.com/v3
   baseurl_source: declared
@@ -276,7 +276,7 @@ modified: '2026-08-13'
 name: Google Indexing
 nav: Providers
 network: true
-overview: 'Google Indexing publishes 2 APIs on the [APIs.io](https://apis.io/) network: urlNotifications API and urlNotifications:publish API. Tagged areas include Crawling, Google, Indexing, Search, and SEO.
+overview: 'Google Indexing publishes 2 APIs on the [APIs.io](https://apis.io/) network: URL Notifications API and urlNotifications:publish API. Tagged areas include Crawling, Google, Indexing, Search, and SEO.
 
 
   The Google Indexing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -349,7 +349,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
   description: The account API from PDFShift — 1 operation(s) for account.
-  name: PDFShift account API
+  name: PDFShift Account API
   slug: pdfshift-account-api
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
@@ -57,12 +57,12 @@ apis:
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
   description: The credits API from PDFShift — 1 operation(s) for credits.
-  name: PDFShift credits API
+  name: PDFShift Credits API
   slug: pdfshift-credits-api
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
   description: The details API from PDFShift — 1 operation(s) for details.
-  name: PDFShift details API
+  name: PDFShift Details API
   slug: pdfshift-details-api
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
@@ -77,12 +77,12 @@ apis:
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
   description: The templates API from PDFShift — 4 operation(s) for templates.
-  name: PDFShift templates API
+  name: PDFShift Templates API
   slug: pdfshift-templates-api
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
   description: The usage API from PDFShift — 1 operation(s) for usage.
-  name: PDFShift usage API
+  name: PDFShift Usage API
   slug: pdfshift-usage-api
 artifact_total: 48
 collections:
@@ -266,7 +266,7 @@ modified: '2026-06-13'
 name: PDFShift
 nav: Providers
 network: true
-overview: 'PDFShift publishes 8 APIs on the [APIs.io](https://apis.io/) network, including account API, Convert API, credits API, and 5 more. Tagged areas include PDF, HTML to PDF, Document Conversion, Screenshots, and Chromium.
+overview: 'PDFShift publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Convert API, Credits API, and 5 more. Tagged areas include PDF, HTML to PDF, Document Conversion, Screenshots, and Chromium.
 
 
   The PDFShift catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -303,7 +303,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
@@ -311,7 +311,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 13.2
-  previous_composite: 39.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -321,7 +321,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

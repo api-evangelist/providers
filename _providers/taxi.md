@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Taxi - Describe How Your APIs and Data Relate
 nav: Providers
 network: true
-overview: 'Taxi - Describe How Your APIs and Data Relate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Conversion API, Queries API, Schemas API, and 2 more. Tagged areas include API Description, Data Integration, Open-Source, Query Language, and Schema.
+overview: 'Taxi - Describe How Your APIs and Data Relate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Conversion API, Queries API, Schemas API, and 2 more. Tagged areas include API Description, Data Integration, Open Source, Query Language, and Schema.
 
 
   The Taxi - Describe How Your APIs and Data Relate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,7 +234,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
@@ -257,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -272,7 +272,7 @@ slug: taxi
 tags:
 - API Description
 - Data Integration
-- Open-Source
+- Open Source
 - Query Language
 - Schema
 - Semantic

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.trustlayer.io/v2
@@ -46,17 +46,17 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The branding API from TrustLayer — 2 operation(s) for branding.
-  name: TrustLayer branding API
+  name: TrustLayer Branding API
   slug: trustlayer-branding-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The compliance-profiles API from TrustLayer — 8 operation(s) for compliance-profiles.
-  name: TrustLayer compliance-profiles API
+  name: TrustLayer Compliance Profiles API
   slug: trustlayer-compliance-profiles-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The contacts API from TrustLayer — 4 operation(s) for contacts.
-  name: TrustLayer contacts API
+  name: TrustLayer Contacts API
   slug: trustlayer-contacts-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The custom-fields API from TrustLayer — 4 operation(s) for custom-fields.
-  name: TrustLayer custom-fields API
+  name: TrustLayer Custom Fields API
   slug: trustlayer-custom-fields-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -81,7 +81,7 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The documents API from TrustLayer — 15 operation(s) for documents.
-  name: TrustLayer documents API
+  name: TrustLayer Documents API
   slug: trustlayer-documents-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -91,7 +91,7 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The party-types API from TrustLayer — 1 operation(s) for party-types.
-  name: TrustLayer party-types API
+  name: TrustLayer Party Types API
   slug: trustlayer-party-types-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -116,7 +116,7 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The reports API from TrustLayer — 2 operation(s) for reports.
-  name: TrustLayer reports API
+  name: TrustLayer Reports API
   slug: trustlayer-reports-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -131,7 +131,7 @@ apis:
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
   description: The tags API from TrustLayer — 4 operation(s) for tags.
-  name: TrustLayer tags API
+  name: TrustLayer Tags API
   slug: trustlayer-tags-api
 - baseURL: https://api.trustlayer.io/v2
   baseurl_source: declared
@@ -342,7 +342,7 @@ modified: '2026-07-21'
 name: TrustLayer
 nav: Providers
 network: true
-overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Auth API, branding API, compliance-profiles API, and 18 more. Tagged areas include Company, Fintech, Insurtech, Insurance, and Risk Management.
+overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Branding API, Compliance Profiles API, and 18 more. Tagged areas include Company, Fintech, Insurtech, Insurance, and Risk Management.
 
 
   The TrustLayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -360,7 +360,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
@@ -368,7 +368,7 @@ score:
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 23.7
-  previous_composite: 50.4
+  previous_composite: 51.3
   provenance:
     conformance: derived
     contracts:
@@ -385,7 +385,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

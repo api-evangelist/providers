@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -86,7 +86,7 @@ apis:
 - baseURL: http://localhost:7860/api
   baseurl_source: declared
   description: The mcp_projects API from Langflow — 4 operation(s) for mcp_projects.
-  name: Langflow mcp_projects API
+  name: Langflow MCP Projects API
   slug: langflow-mcp-projects-api
 - baseURL: http://localhost:7860/api
   baseurl_source: declared
@@ -515,7 +515,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -540,7 +540,7 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open-Source
+- Open Source
 - FastAPI
 website: https://www.langflow.org/
 ---

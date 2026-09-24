@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 21
   human_in_the_loop: 2
   name: Amazon Appflow Agentic Access
   operation_count: 25
   slug: amazon-appflow-agentic-access
-  summary_line: 25 operations · 24 acting · 2 human-in-the-loop
+  summary_line: 25 operations · 21 acting · 2 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://appflow.amazonaws.com
@@ -86,7 +86,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/appflow/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -872,7 +872,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -913,5 +913,5 @@ use_cases:
   name: Cross-Application Automation
 - description: Securely extract and archive regulated data from SaaS applications into encrypted AWS storage for compliance auditing.
   name: Data Compliance
-website: https://amazon.com
+website: https://aws.amazon.com/appflow/
 ---

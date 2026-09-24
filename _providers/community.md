@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,17 +53,17 @@ apis:
 - baseURL: https://api.community.com/webhooks/v1/community
   baseurl_source: declared
   description: The member-data API from Community — 4 operation(s) for member-data.
-  name: Community member-data API
+  name: Community Member Data API
   slug: community-member-data-api
 - baseURL: https://api.community.com/webhooks/v1/community
   baseurl_source: declared
   description: The messaging API from Community — 1 operation(s) for messaging.
-  name: Community messaging API
+  name: Community Messaging API
   slug: community-messaging-api
 - baseURL: https://api.community.com/webhooks/v1/community
   baseurl_source: declared
   description: The tags API from Community — 4 operation(s) for tags.
-  name: Community tags API
+  name: Community Tags API
   slug: community-tags-api
 artifact_total: 16
 asyncapis:
@@ -239,7 +239,7 @@ modified: '2026-08-13'
 name: Community
 nav: Providers
 network: true
-overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network: member-data API, messaging API, and tags API. Tagged areas include Messaging, SMS, Communications, Conversational, and Marketing.
+overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network: Member Data API, Messaging API, and Tags API. Tagged areas include Messaging, SMS, Communications, Conversational AI, and Marketing.
 
 
   The Community catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -296,7 +296,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +320,7 @@ tags:
 - Messaging
 - SMS
 - Communications
-- Conversational
+- Conversational AI
 - Marketing
 - Creators
 - Webhook

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Amazon Firewall Manager Agentic Access
   operation_count: 13
   slug: amazon-firewall-manager-agentic-access
-  summary_line: 13 operations · 7 acting
+  summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://fms.amazonaws.com
@@ -403,7 +403,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

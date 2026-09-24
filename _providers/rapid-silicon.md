@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,7 +114,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ tags:
 - eFPGA
 - Electronic Design Automation
 - Chip Design
-- Open-Source
+- Open Source
 - Hardware
 - Edge AI
 - Silicon IP

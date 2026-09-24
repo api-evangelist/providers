@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 62
+- acting_count: 61
   human_in_the_loop: 2
   name: Openmercantil Agentic Access
   operation_count: 210
   slug: openmercantil-agentic-access
-  summary_line: 210 operations · 62 acting · 2 human-in-the-loop
+  summary_line: 210 operations · 61 acting · 2 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://openmercantil.es
@@ -595,7 +595,7 @@ score:
     regime_id: government
     score: 85.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

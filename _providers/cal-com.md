@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -307,7 +307,7 @@ modified: '2026-05-30'
 name: Cal.com
 nav: Providers
 network: true
-overview: 'Cal.com publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 19 more. Tagged areas include Productivity, Scheduling, Calendar, Open-Source, and Booking.
+overview: 'Cal.com publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 19 more. Tagged areas include Productivity, Scheduling, Calendar, Open Source, and Booking.
 
 
   The Cal.com catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -363,7 +363,7 @@ score:
       total: 22
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -387,7 +387,7 @@ tags:
 - Productivity
 - Scheduling
 - Calendar
-- Open-Source
+- Open Source
 - Booking
 website: https://cal.com/
 ---

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 194
+- acting_count: 192
   human_in_the_loop: 9
   name: Keboola Agentic Access
   operation_count: 327
   slug: keboola-agentic-access
-  summary_line: 327 operations · 194 acting · 9 human-in-the-loop
+  summary_line: 327 operations · 192 acting · 9 human-in-the-loop
 api_count: 14
 apis:
 - baseURL: https://connection.keboola.com/v2/storage
@@ -87,7 +87,7 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The configuration API from Keboola — 26 operation(s) for configuration.
-  name: Keboola configuration API
+  name: Keboola Configuration API
   slug: keboola-configuration-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -137,12 +137,12 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The health API from Keboola — 1 operation(s) for health.
-  name: Keboola health API
+  name: Keboola Health API
   slug: keboola-health-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: Import operations
-  name: Keboola import API
+  name: Keboola Import API
   slug: keboola-import-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -152,7 +152,7 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The jobs API from Keboola — 13 operation(s) for jobs.
-  name: Keboola jobs API
+  name: Keboola Jobs API
   slug: keboola-jobs-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -212,7 +212,7 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The queries API from Keboola — 1 operation(s) for queries.
-  name: Keboola queries API
+  name: Keboola Queries API
   slug: keboola-queries-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -222,12 +222,12 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The schedules API from Keboola — 4 operation(s) for schedules.
-  name: Keboola schedules API
+  name: Keboola Schedules API
   slug: keboola-schedules-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The service API from Keboola — 1 operation(s) for service.
-  name: Keboola service API
+  name: Keboola Service API
   slug: keboola-service-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -267,7 +267,7 @@ apis:
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
   description: The test API from Keboola — 1 operation(s) for test.
-  name: Keboola test API
+  name: Keboola Test API
   slug: keboola-test-api
 - baseURL: https://connection.keboola.com/v2/storage
   baseurl_source: declared
@@ -1853,7 +1853,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
@@ -1861,7 +1861,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 74.1
     operational_transparency: 21.1
-  previous_composite: 42.1
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1871,7 +1871,7 @@ score:
       total: 79
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

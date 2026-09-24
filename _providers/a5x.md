@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The trading, market data and post-trade interfaces A5X exposes to exchange participants — order entry and drop copy over FIX, a binary market data feed, and post-trade capture, allocation, positioning
@@ -116,7 +116,7 @@ modified: '2026-09-05'
 name: A5X
 nav: Providers
 network: true
-overview: 'A5X publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Stock Exchange, and Derivatives.
+overview: 'A5X publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Stock Exchange, and Derivatives.
 
 
   A5X''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -164,7 +164,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ security:
 slug: a5x
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Stock Exchange
 - Derivatives

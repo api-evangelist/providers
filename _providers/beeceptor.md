@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: The State Store API from Beeceptor — 2 operation(s) for state store.
   name: Beeceptor State Store API
   slug: beeceptor-state-store-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -158,10 +158,6 @@ finops:
 - name: Beeceptor Finops
   service_category: API Mocking
   slug: beeceptor-finops
-graphqls:
-- description: ''
-  name: Beeceptor GraphQL API
-  slug: beeceptor-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beeceptor.png
 integrations:
 - description: Inspect and debug Shopify webhook payloads by tunneling webhook deliveries through Beeceptor for local development and testing.
@@ -194,7 +190,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -217,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

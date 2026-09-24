@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: RentMineOnline
 nav: Providers
 network: true
-overview: RentMineOnline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Multifamily, Real-Estate, Apartment Marketing, and Social Marketing.
+overview: RentMineOnline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Multifamily, Real Estate, Apartment Marketing, and Social Marketing.
 random_paper: 15
 score:
   band: minimal
@@ -89,7 +89,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -99,7 +99,7 @@ slug: rentmineonline
 tags:
 - Company
 - Multifamily
-- Real-Estate
+- Real Estate
 - Apartment Marketing
 - Social Marketing
 - Resident Referral

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Gated REST API that lets financial institutions with their own KYC/onboarding process programmatically submit W-series forms, CRS self-certifications, and supporting documents for validation; receive '
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ tags:
 - FATCA
 - CRS
 - Tax Forms
-- Financial-Services
+- Financial Services
 - Withholding Tax
 - Onboarding
 website: https://www.taina.tech

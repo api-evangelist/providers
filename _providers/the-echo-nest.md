@@ -19,7 +19,7 @@ modified: '2026-07-21'
 name: The Echo Nest
 nav: Providers
 network: true
-overview: The Echo Nest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Music, Music Intelligence, and Machine-Learning.
+overview: The Echo Nest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Music, Music Intelligence, and Machine Learning.
 random_paper: 14
 slug: the-echo-nest
 tags:
@@ -27,7 +27,7 @@ tags:
 - Artificial Intelligence
 - Music
 - Music Intelligence
-- Machine-Learning
+- Machine Learning
 - Audio Analysis
 - Recommendations
 - Acquired

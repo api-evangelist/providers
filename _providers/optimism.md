@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Standard Ethereum JSON-RPC method invocation.
   name: Optimism JSON-RPC API
   slug: optimism-json-rpc-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the WebSocket JSON-RPC subscription surface exposed by op-geth — the OP Stack execution client used by OP Mainnet (chain ID 10) and OP Sepolia (chain ID 11155420). ## Publi'
   name: Optimism (OP Stack) WebSocket JSON-RPC API
@@ -175,10 +175,6 @@ finops:
 - name: Optimism Finops
   service_category: API
   slug: optimism-finops
-graphqls:
-- description: ''
-  name: Optimism GraphQL API
-  slug: optimism-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optimism.png
 layout: provider
 modified: '2026-05-29'
@@ -217,7 +213,7 @@ score:
   band: developing
   composite: 45.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 60.5
     catalog_earned_first_party: 0.0
     catalog_gap: 54.5
@@ -243,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -264,5 +260,6 @@ tags:
 - Rollup
 - Bridge
 - Optimism
+- Real-Time
 website: https://www.optimism.io
 ---

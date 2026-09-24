@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,12 +47,12 @@ apis:
 - baseURL: https://api.osmosis.ai
   baseurl_source: declared
   description: Operations for enhancing agent interactions and decisions
-  name: Osmosis agent API
+  name: Osmosis Agent API
   slug: osmosis-agent-api
 - baseURL: https://api.osmosis.ai
   baseurl_source: declared
   description: Operations for managing the knowledge base
-  name: Osmosis knowledge API
+  name: Osmosis Knowledge API
   slug: osmosis-knowledge-api
 - baseURL: https://api.osmosis.ai
   baseurl_source: declared
@@ -228,7 +228,7 @@ modified: '2026-09-16'
 name: Osmosis
 nav: Providers
 network: true
-overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: agent API, knowledge API, and Agent Improvement API. Tagged areas include Company, Artificial Intelligence, Reinforcement Learning, LLM, and Post-Training.
+overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agent API, Knowledge API, and Agent Improvement API. Tagged areas include Company, Artificial Intelligence, Reinforcement Learning, LLM, and Post-Training.
 
 
   The Osmosis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,7 +266,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -290,7 +290,7 @@ tags:
 - Post-Training
 - Model Training
 - Agents
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 website: https://osmosis.ai/
 ---

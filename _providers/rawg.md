@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,47 +48,47 @@ apis:
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The creator-roles API from RAWG — 1 operation(s) for creator-roles.
-  name: RAWG creator-roles API
+  name: RAWG Creator Roles API
   slug: rawg-creator-roles-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The creators API from RAWG — 2 operation(s) for creators.
-  name: RAWG creators API
+  name: RAWG Creators API
   slug: rawg-creators-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The developers API from RAWG — 2 operation(s) for developers.
-  name: RAWG developers API
+  name: RAWG Developers API
   slug: rawg-developers-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The games API from RAWG — 14 operation(s) for games.
-  name: RAWG games API
+  name: RAWG Games API
   slug: rawg-games-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The genres API from RAWG — 2 operation(s) for genres.
-  name: RAWG genres API
+  name: RAWG Genres API
   slug: rawg-genres-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The platforms API from RAWG — 3 operation(s) for platforms.
-  name: RAWG platforms API
+  name: RAWG Platforms API
   slug: rawg-platforms-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The publishers API from RAWG — 2 operation(s) for publishers.
-  name: RAWG publishers API
+  name: RAWG Publishers API
   slug: rawg-publishers-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The stores API from RAWG — 2 operation(s) for stores.
-  name: RAWG stores API
+  name: RAWG Stores API
   slug: rawg-stores-api
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
   description: The tags API from RAWG — 2 operation(s) for tags.
-  name: RAWG tags API
+  name: RAWG Tags API
   slug: rawg-tags-api
 artifact_total: 35
 collections:
@@ -208,7 +208,7 @@ modified: '2026-05-19'
 name: RAWG
 nav: Providers
 network: true
-overview: 'RAWG publishes 9 APIs on the [APIs.io](https://apis.io/) network, including creator-roles API, creators API, developers API, and 6 more. Tagged areas include Database, Entertainment, Game Discovery, Games, and Gaming.
+overview: 'RAWG publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Creator Roles API, Creators API, Developers API, and 6 more. Tagged areas include Database, Entertainment, Game Discovery, Games, and Gaming.
 
 
   The RAWG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,6 @@
 {
- "total": 41,
- "shown": 41,
+ "total": 42,
+ "shown": 42,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -76,8 +76,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Clevergy",
@@ -95,7 +95,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -145,7 +145,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 51.4,
      "agent_band": "agent-ready",
@@ -187,7 +187,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 40.7,
      "agent_band": "agent-ready",
@@ -219,18 +219,18 @@
      "slug": "multiverse-computing",
      "description": "Multiverse Computing, S.L. is a Donostia-San Sebastian (Spain) quantum- and AI-software company whose commercial developer surface is the CompactifAI API — an OpenAI-compatible LLM inference service serving tensor-network-compressed versions of frontier open models (Hypernova 60B, Carina 60B, Mistral Small 3.1 Slim, Whisper Large V3 Turbo Slim) alongside uncompressed third-party models (GPT-OSS 120B, GLM 5.1/5.2, Quasar 438B, Qwen 3.6 27B, Nemotron 3 Nano Omni). The API is published at api.compactif.ai with regional EU and US endpoints, documented at docs.compactif.ai, billed pay-as-you-go per million tokens, and also sold through the AWS Marketplace. The company additionally sells Singularity, a quantum and quantum-inspired optimization product for finance, energy and manufacturing, which has no public developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/screenshots/multiverse-computing-2026-09-02T150656.png",
-     "score": 49.3,
+     "score": 48.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.5,
+      "contract_quality": 53.1,
       "contract_governance": 4.5,
       "operational_transparency": 31.6,
       "developer_ergonomics": 58.9,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -272,7 +272,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -315,7 +315,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -347,7 +347,7 @@
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 44.1,
+     "score": 43.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -355,10 +355,10 @@
       "contract_quality": 63.3,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
-      "developer_ergonomics": 28.6,
+      "developer_ergonomics": 25.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -384,56 +384,6 @@
       "agentic_commerce": false
      },
      "rank": 8
-    },
-    {
-     "name": "Autonomous University of Barcelona",
-     "slug": "uab",
-     "description": "The Universitat Autònoma de Barcelona (UAB) is a public research university in Bellaterra, Catalonia, founded in 1968. Unusually for this cohort, its programmable footprint is real and is genuinely its own. UAB runs four OAI-PMH 2.0 endpoints on its own RIPE allocation — the Dipòsit Digital de Documents (ddd.uab.cat, 221,931 records, 18 sets, oai_dc / marcxml / edm / oai_openaire), the Traces database of Catalan language and literature, the IFMuC inventory of Catalan music collections, and per-journal endpoints on its self-hosted OJS platform at revistes.uab.cat — and an Invenio search interface that exports MARC21 XML, Dublin Core and BibTeX without a key. It self-publishes a complete SAML 2.0 IdP EntityDescriptor from its own Apereo CAS server at sso.uab.cat, which is the one institution-published machine-readable contract here, and it reaches eduGAIN through the Spanish federation SIR, whose UAB entity is operated on RedIRIS's gateway rather than UAB's. UAB is a Crossref member in its own name (member 3612, prefix 10.5565, 23,089 DOIs) and holds ROR 052g8jq94. What it does not have is a developer programme: no OpenAPI is published for anything, api.uab.cat, data.uab.cat and opendata.uab.cat do not resolve, there is no API-key or OAuth path, no institutional GitHub organisation was found, and www.uab.cat has no llms.txt. Research data is a tenant relationship, not a UAB contract: the 567 datasets in UAB's named collection live on the CSUC-operated CORA Repositori de Dades de Recerca and carry CSUC's DataCite prefix.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
-     "score": 40.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 54.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
     }
    ],
    "open": true
@@ -461,7 +411,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -493,44 +443,94 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
-     "name": "University of Navarra",
-     "slug": "university-of-navarra",
-     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with campuses in San Sebastian, Madrid and Barcelona. Its programmable footprint is small, and most of it is bought rather than built: the library discovery layer is an Ex Libris Primo VE tenancy, the DADUN institutional repository runs on a hosted DSpace whose host CNAMEs to a third-party platform, the research portal is a Dialnet CRIS tenancy operated by Fundacion Dialnet, and the library guides are Springshare LibGuides. Three surfaces are genuinely the institution's own. The Servicio de Publicaciones operates a self-hosted Open Journal Systems instance at revistas.unav.edu with a live, unauthenticated OAI-PMH 2.0 harvesting interface across 100 sets — the only institution-operated machine-readable API confirmed here. The university runs its own SAML Identity Provider, published through the RedIRIS SIR2 federation and interfederated into eduGAIN since 2018 with REFEDS Sirtfi declared. And it is a Crossref member with its own DOI prefix, 10.15581, covering more than 33,000 registered DOIs. There is no central developer portal, no open-data platform, no documented registrar, timetable or campus API, and no verifiable institutional GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
-     "score": 33.3,
+     "name": "Autonomous University of Barcelona",
+     "slug": "uab",
+     "description": "The Universitat Autònoma de Barcelona (UAB) is a public research university in Bellaterra, Catalonia, founded in 1968. Unusually for this cohort, its programmable footprint is real and is genuinely its own. UAB runs four OAI-PMH 2.0 endpoints on its own RIPE allocation — the Dipòsit Digital de Documents (ddd.uab.cat, 221,931 records, 18 sets, oai_dc / marcxml / edm / oai_openaire), the Traces database of Catalan language and literature, the IFMuC inventory of Catalan music collections, and per-journal endpoints on its self-hosted OJS platform at revistes.uab.cat — and an Invenio search interface that exports MARC21 XML, Dublin Core and BibTeX without a key. It self-publishes a complete SAML 2.0 IdP EntityDescriptor from its own Apereo CAS server at sso.uab.cat, which is the one institution-published machine-readable contract here, and it reaches eduGAIN through the Spanish federation SIR, whose UAB entity is operated on RedIRIS's gateway rather than UAB's. UAB is a Crossref member in its own name (member 3612, prefix 10.5565, 23,089 DOIs) and holds ROR 052g8jq94. What it does not have is a developer programme: no OpenAPI is published for anything, api.uab.cat, data.uab.cat and opendata.uab.cat do not resolve, there is no API-key or OAuth path, no institutional GitHub organisation was found, and www.uab.cat has no llms.txt. Research data is a tenant relationship, not a UAB contract: the 567 datasets in UAB's named collection live on the CSUC-operated CORA Repositori de Dades de Recerca and carry CSUC's DataCite prefix.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uab/refs/heads/main/screenshots/uab-2026-06-20T195920.png",
+     "score": 32.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 55.9,
+      "discoverability": 68.5,
+      "contract_quality": 22.1,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "access_clarity": 28.9
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 31.5,
+      "score": 46.3,
       "matched_via": "tags"
      },
-     "agent_score": 23.0,
+     "agent_score": 26.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Complutense University of Madrid",
+     "slug": "complutense-university-of-madrid",
+     "description": "Universidad Complutense de Madrid (UCM) is Spain's largest public research university, founded 1499 and ranked #164 in the QS World University Rankings 2025. UCM operates no central developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own — a re-profile on 2026-08-30 probed every candidate host and found none. What it does operate, verified live, is two things. First, Docta Complutense (docta.ucm.es), its institutional repository, self-hosted on UCM's own domain running DSpace 7.6.5: the DSpace REST/HAL API answers at /rest/api and an OAI-PMH 2.0 endpoint answers verb=Identify at /rest/oai/request with twelve metadata formats. The repository is UCM's; the API contract is DSpace's open-source one and is not saved here. Second, UCM is registered in eduGAIN through the Spanish RedIRIS SIR federation as a SAML 2.0 Identity Provider (entityID https://www.rediris.es/sir/ucmidp, scope ucm.es, Sirtfi asserted) — machine-readable, institution-scoped, but hosted on RedIRIS infrastructure, so recorded as a tenant relationship. UCM's open data is not self-hosted either: it is published through UniversiDATA, a five-university DKAN consortium portal (UAM, UCM, UHU, UVa, URJC) that exposes DataStore, CKAN and DCAT APIs. Thirteen of the portal's seventy-one datasets are UCM's — degree programmes, faculties, departments, budgets, mobility and procurement. UCM's data, the consortium's platform, so every UniversiDATA surface below is x-operator tenant, not institution. No course/timetable API, no library discovery API, no research-computing or campus-life API was found on any ucm.es host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
+     "score": 29.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 14.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 42.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -550,18 +550,18 @@
      "slug": "universitat-pompeu-fabra",
      "description": "Universitat Pompeu Fabra (UPF) is a public research university in Barcelona, Catalonia, Spain, founded in 1990 and ranked #266 in the QS World University Rankings 2025. UPF operates no developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own; a re-profile on 2026-09-01 probed every candidate host and found none. What it does operate, verified live, is the UPF Digital Repository (e-Repositori) at repositori.upf.edu — self-hosted on UPF's own domain running DSpace 7.6.8, whose REST/HAL API answers at /server/api with 67 link relations over 78 communities, 1,022 collections and 43,503 discoverable objects, and whose OAI-PMH 2.0 endpoint answers verb=Identify at repositori-api.upf.edu with 13 metadata formats and 100 sets. The repository, the host and the content are UPF's; the API contract is the DSpace project's generic open-source one and is deliberately not saved here. The same host runs a real Shibboleth SP — the REST API returns WWW-Authenticate: shibboleth with a Shibboleth.sso/Login location — and UPF's own SAML 2.0 Identity Provider is registered in eduGAIN through RedIRIS SIR, the Spanish national research and education federation, as entityID https://www.rediris.es/sir/upfidp with shibmd:Scope upf.edu, Sirtfi asserted and the REFEDS Research and Scholarship entity category. UPF is a Crossref member (member 14960, DOI prefix 10.31009, 1,593 DOIs) and holds ROR 04n0g0b29; it has no DataCite client of its own. The \"UPF en Xifres 2.0\" linked open data portal that the June 2026 profile was built around — a CKAN action API and a Virtuoso SPARQL endpoint at data.upf.edu — no longer exists: data.upf.edu returns an authoritative NXDOMAIN from UPF's own nameservers, and both entries have been removed. Most other UPF software is published by research groups, above all the Music Technology Group on GitHub, rather than as institutional APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/universitat-pompeu-fabra/refs/heads/main/screenshots/universitat-pompeu-fabra-2026-06-20T200116.png",
-     "score": 30.9,
+     "score": 29.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "contract_governance": 18.2,
+      "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -596,56 +596,6 @@
      "rank": 12
     },
     {
-     "name": "Complutense University of Madrid",
-     "slug": "complutense-university-of-madrid",
-     "description": "Universidad Complutense de Madrid (UCM) is Spain's largest public research university, founded 1499 and ranked #164 in the QS World University Rankings 2025. UCM operates no central developer portal and publishes no OpenAPI, AsyncAPI or SDK of its own — a re-profile on 2026-08-30 probed every candidate host and found none. What it does operate, verified live, is two things. First, Docta Complutense (docta.ucm.es), its institutional repository, self-hosted on UCM's own domain running DSpace 7.6.5: the DSpace REST/HAL API answers at /rest/api and an OAI-PMH 2.0 endpoint answers verb=Identify at /rest/oai/request with twelve metadata formats. The repository is UCM's; the API contract is DSpace's open-source one and is not saved here. Second, UCM is registered in eduGAIN through the Spanish RedIRIS SIR federation as a SAML 2.0 Identity Provider (entityID https://www.rediris.es/sir/ucmidp, scope ucm.es, Sirtfi asserted) — machine-readable, institution-scoped, but hosted on RedIRIS infrastructure, so recorded as a tenant relationship. UCM's open data is not self-hosted either: it is published through UniversiDATA, a five-university DKAN consortium portal (UAM, UCM, UHU, UVa, URJC) that exposes DataStore, CKAN and DCAT APIs. Thirteen of the portal's seventy-one datasets are UCM's — degree programmes, faculties, departments, budgets, mobility and procurement. UCM's data, the consortium's platform, so every UniversiDATA surface below is x-operator tenant, not institution. No course/timetable API, no library discovery API, no research-computing or campus-life API was found on any ucm.es host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png",
-     "score": 29.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 14.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 22.6,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 42.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Holded",
      "slug": "holded",
      "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
@@ -661,7 +611,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -686,7 +636,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Koalaboox",
@@ -704,7 +654,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -729,7 +679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "BBVA",
@@ -747,7 +697,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -779,7 +729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     }
    ]
   },
@@ -788,8 +738,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 15,
-   "shown": 15,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Autonomous University of Madrid",
@@ -807,7 +757,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -839,7 +789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Lingokids",
@@ -857,7 +807,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -889,6 +839,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 17
+    },
+    {
+     "name": "University of Navarra",
+     "slug": "university-of-navarra",
+     "description": "The University of Navarra (Universidad de Navarra) is a private research university founded in 1952, headquartered in Pamplona, Spain, with campuses in San Sebastian, Madrid and Barcelona. Its programmable footprint is small, and most of it is bought rather than built: the library discovery layer is an Ex Libris Primo VE tenancy, the DADUN institutional repository runs on a hosted DSpace whose host CNAMEs to a third-party platform, the research portal is a Dialnet CRIS tenancy operated by Fundacion Dialnet, and the library guides are Springshare LibGuides. Three surfaces are genuinely the institution's own. The Servicio de Publicaciones operates a self-hosted Open Journal Systems instance at revistas.unav.edu with a live, unauthenticated OAI-PMH 2.0 harvesting interface across 100 sets — the only institution-operated machine-readable API confirmed here. The university runs its own SAML Identity Provider, published through the RedIRIS SIR2 federation and interfederated into eduGAIN since 2018 with REFEDS Sirtfi declared. And it is a Crossref member with its own DOI prefix, 10.15581, covering more than 33,000 registered DOIs. There is no central developer portal, no open-data platform, no documented registrar, timetable or campus API, and no verifiable institutional GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png",
+     "score": 24.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 22.5,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 18
     },
     {
@@ -906,7 +906,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -956,7 +956,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -999,7 +999,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -1027,6 +1027,55 @@
      "rank": 21
     },
     {
+     "name": "Red Electrica (e-sios)",
+     "slug": "esios-red-electrica",
+     "description": "Red Electrica (e-sios) operates the Spanish electricity market data platform ESIOS, providing transparent access to generation, consumption, market prices, demand forecasts, and system operation metrics. The service offers extensive datasets through a public API, supporting developers, analysts, and energy stakeholders in building applications, visualizations, and research tools. It emphasizes open data, regulatory compliance, and real‑time updates, fostering innovation in the energy sector.",
+     "score": 21.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 23.4,
+      "contract_governance": 22.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
      "name": "IDOVEN",
      "slug": "idoven",
      "description": "Idoven builds artificial-intelligence solutions for cardiovascular care. Its flagship platform, Willem, is a CE-marked Class IIa medical device that analyzes electrocardiograms (ECGs) to detect, diagnose, and monitor cardiac disease, identifying 22 cardiac patterns and 4 intervals across ambulatory devices, diagnostic ECGs, and insertable cardiac monitors. Idoven serves MedTech companies, Life Sciences (cardiotoxicity monitoring and disease-risk scoring for pharma trials), and preventative remote-screening programs. The Willem API supports bi-directional data exchange in EDF, HL7, DICOM, JSON, XML, and PDF. The company is headquartered in Spain, holds an extensive ISO and IEC certification program, and is backed by Insight Partners and Northzone. Sector: healthcare / cardiology AI.",
@@ -1042,7 +1091,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1074,7 +1123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Veratech for Health",
@@ -1091,7 +1140,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1123,7 +1172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Aragón Open Data",
@@ -1141,57 +1190,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 24
-    },
-    {
-     "name": "Bienvenido a OpenData UGR",
-     "slug": "opendata-ugr-es",
-     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1226,10 +1225,10 @@
      "rank": 25
     },
     {
-     "name": "Datos abiertos",
-     "slug": "datos-madrid-es",
-     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
+     "name": "Bienvenido a OpenData UGR",
+     "slug": "opendata-ugr-es",
+     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1241,7 +1240,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1276,10 +1275,10 @@
      "rank": 26
     },
     {
-     "name": "Madrid Region Open Data",
-     "slug": "datos-comunidad-madrid",
-     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
+     "name": "Datos abiertos",
+     "slug": "datos-madrid-es",
+     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1291,7 +1290,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1326,10 +1325,10 @@
      "rank": 27
     },
     {
-     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
-     "slug": "datosabiertos-malaga-eu",
-     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
+     "name": "Madrid Region Open Data",
+     "slug": "datos-comunidad-madrid",
+     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1341,7 +1340,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1376,10 +1375,10 @@
      "rank": 28
     },
     {
-     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
-     "slug": "datosabiertos-rivasciudad-es",
-     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
+     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
+     "slug": "datosabiertos-malaga-eu",
+     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1391,7 +1390,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1426,6 +1425,56 @@
      "rank": 29
     },
     {
+     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
+     "slug": "datosabiertos-rivasciudad-es",
+     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
+     "score": 15.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Ontruck",
      "slug": "ontruck",
      "description": "Ontruck is a Spanish road-freight technology platform that connects shippers (cargadores) with a network of professional carriers (transportistas) for full-truckload and less-than-truckload pallet, package, and parcel transport across Spain, France, and wider Europe. Shippers get instant AI-driven pricing, automated carrier assignment, real-time traceability, and digital documentation through service tiers (Economy, Flex, Express); carriers get access to freight loads with dynamic pricing and 24/7 support. Ontruck also packages its stack as \"Ontruck AI Tech\" — an AI pricing engine, AI routing engine, a predictive incident system, and a forecast/capacity planner — offered as transport-management software. The company operates a marketing and customer web surface plus an in-product shipper/carrier application; it publishes no public developer/API portal, OpenAPI, or SDKs at this time.",
@@ -1441,7 +1490,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1466,7 +1515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Impress",
@@ -1484,7 +1533,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1516,7 +1565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     }
    ]
   },
@@ -1544,50 +1593,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Magnific",
-     "slug": "magnific-ai",
-     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1615,6 +1621,49 @@
      "rank": 33
     },
     {
+     "name": "Magnific",
+     "slug": "magnific-ai",
+     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
      "name": "2Eyes Vision",
      "slug": "2eyesvision",
      "description": "2EyesVision (2Eyes Vision, S.L.) is a Madrid, Spain based ophthalmic and optical technologies company, founded as a spin-off of the Spanish National Research Council (CSIC) out of the Visual Optics and Biophotonics Lab. It designs, manufactures and sells SimVis Gekko, a binocular visual simulator built on tunable liquid-lens temporal multiplexing that lets a patient experience premium presbyopia and cataract corrections - monofocal, EDOF, trifocal, monovision and mix-and-match intraocular lens designs - before implantation or refractive surgery. The device is CE, UKCA and FCC marked, is controlled from a wireless iPad, is cloud-connected for remote app and lens-simulation updates, and is distributed across 18 countries on 4 continents. 2EyesVision publishes no public API, SDK, webhook surface or developer program: the product is an end-user clinical instrument, and the only machine-readable document it serves is an SEO-generated llms.txt.",
@@ -1629,7 +1678,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1661,7 +1710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Goin",
@@ -1679,7 +1728,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1711,7 +1760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1729,7 +1778,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1761,7 +1810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "011h",
@@ -1778,7 +1827,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1803,7 +1852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Blink Booking",
@@ -1848,7 +1897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Circular",
@@ -1892,7 +1941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Masmovil",
@@ -1910,7 +1959,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1942,7 +1991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Groupalia",
@@ -1960,7 +2009,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1992,7 +2041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     }
    ]
   }

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -329,6 +329,6 @@ tags:
 - Event Log
 - Ed25519
 - Agent-Native
-- Open-Source
+- Open Source
 website: https://anp2.com/
 ---

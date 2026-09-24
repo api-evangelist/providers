@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 1
   name: Selenium Agentic Access
   operation_count: 13
   slug: selenium-agentic-access
-  summary_line: 13 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 13 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: WebDriver is a browser automation framework that accepts commands and sends them to a browser. It is implemented through a browser-specific driver that sends commands to a browser and retrieves result
@@ -333,7 +333,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

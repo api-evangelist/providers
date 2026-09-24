@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: REST API to create a person, upload front and side photos, and asynchronously retrieve 80+ calculated body measurements for made-to-measure apparel, uniforms, and size recommendation.
@@ -139,7 +139,7 @@ modified: '2026-07-17'
 name: 3D Look
 nav: Providers
 network: true
-overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer-Vision, Artificial Intelligence, and Apparel.
+overview: '3D Look publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Body Measurement, Computer Vision, Artificial Intelligence, and Apparel.
 
 
   3D Look''s developer surface includes documentation, API reference, pricing, support, authentication, and 14 more developer resources.'
@@ -172,7 +172,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -192,7 +192,7 @@ slug: 3d-look
 tags:
 - Company
 - Body Measurement
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Apparel
 - Fashion Technology

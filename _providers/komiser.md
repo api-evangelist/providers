@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Open-source cloud cost inspector providing cost visibility, optimization recommendations, security checks, and governance across multi-cloud environments. Distributed as a self-hosted dashboard with G
@@ -94,7 +94,7 @@ modified: '2026-04-28'
 name: Komiser
 nav: Providers
 network: true
-overview: 'Komiser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost, FinOps, Governance, Multi-Cloud, and Open-Source.
+overview: 'Komiser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost, FinOps, Governance, Multi-Cloud, and Open Source.
 
 
   Komiser''s developer surface includes documentation, release notes, and 8 more developer resources.'
@@ -127,7 +127,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,6 +145,6 @@ tags:
 - FinOps
 - Governance
 - Multi-Cloud
-- Open-Source
+- Open Source
 website: https://www.komiser.io/
 ---

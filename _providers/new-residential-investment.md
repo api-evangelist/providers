@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/new-residential-investment/refs/heads/main/security/new-residential-investment-domain-security.yml
@@ -72,10 +72,6 @@ common:
 created: 2025-05-05
 description: 'New Residential Investment Corp (NYSE: NRZ) was a mortgage real estate investment trust (REIT) that **rebranded as Rithm Capital Corp (NYSE: RITM) in August 2022** to reflect its evolution from a pure mortgage REIT into a diversified global asset manager focused on real estate, credit, and financial services. Rithm Capital is headquartered in New York City, led by Chairman & CEO Michael Nierenberg, and as of 2024 reported approximately $46 billion in assets under management, ~$5.2 billion in revenue, and ~6,045 employees across its operating businesses (Newrez mortgage origination/servicing, Genesis Capital business-purpose lending, Sculptor Capital Management alternatives platform, Rithm Property Trust REIT [formerly Great Ajax], Adoor single-family rental, Crestline credit, and Elecor Properties [formerly Paramount Group] office real estate). This profile carries forward the legacy `new-residential-investment` repo identity under the API Evangelist network. The active corporate
   identity, public filings, and investor communications are at rithmcap.com. Rithm Capital and its subsidiaries operate as financial-services businesses serving institutional investors, mortgage borrowers, and real-estate sponsors. None of the public-facing Rithm Capital, Newrez, Genesis Capital, Sculptor, Rithm Property Trust, Adoor, Crestline, or Elecor Properties websites expose a public developer portal, OpenAPI specification, REST/GraphQL API, SDK, CLI, webhook system, status page, or RSS feed. There are no public GitHub organizations of substance for any of the brand surfaces (the `newrez` GitHub org exists with zero public repositories; `rithmcap` does not exist). Integration with these businesses occurs through traditional B2B mortgage / capital-markets channels, not a public API surface.'
-graphqls:
-- description: ''
-  name: New Residential Investment Corp (Rithm Capital) GraphQL API
-  slug: new-residential-investment-graphql
 layout: provider
 modified: 2026-05-23
 name: New Residential Investment Corp (Rithm Capital)
@@ -90,7 +86,7 @@ score:
   band: minimal
   composite: 5.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -111,7 +107,7 @@ score:
     - north-america
   previous_composite: 5.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +131,7 @@ tags:
 - Private Credit
 - Commercial Real Estate
 - Single-Family Rental
-- Financial-Services
+- Financial Services
 - Fortune 1000
 website: https://www.rithmcap.com
 ---

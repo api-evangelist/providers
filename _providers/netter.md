@@ -33,235 +33,235 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 169
+- acting_count: 166
   human_in_the_loop: 2
   name: Netter Agentic Access
   operation_count: 298
   slug: netter-agentic-access
-  summary_line: 298 operations · 169 acting · 2 human-in-the-loop
+  summary_line: 298 operations · 166 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The actions API from Netter — 7 operation(s) for actions.
-  name: Netter actions API
+  name: Netter Actions API
   slug: netter-actions-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The api-keys API from Netter — 2 operation(s) for api-keys.
-  name: Netter api-keys API
+  name: Netter API Keys API
   slug: netter-api-keys-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The app-chat API from Netter — 1 operation(s) for app-chat.
-  name: Netter app-chat API
+  name: Netter App Chat API
   slug: netter-app-chat-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The apps API from Netter — 18 operation(s) for apps.
-  name: Netter apps API
+  name: Netter Apps API
   slug: netter-apps-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The apps-query API from Netter — 2 operation(s) for apps-query.
-  name: Netter apps-query API
+  name: Netter Apps Query API
   slug: netter-apps-query-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The assistant API from Netter — 2 operation(s) for assistant.
-  name: Netter assistant API
+  name: Netter Assistant API
   slug: netter-assistant-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The attributes API from Netter — 6 operation(s) for attributes.
-  name: Netter attributes API
+  name: Netter Attributes API
   slug: netter-attributes-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The automations API from Netter — 11 operation(s) for automations.
-  name: Netter automations API
+  name: Netter Automations API
   slug: netter-automations-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The chats API from Netter — 9 operation(s) for chats.
-  name: Netter chats API
+  name: Netter Chats API
   slug: netter-chats-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The companies API from Netter — 10 operation(s) for companies.
-  name: Netter companies API
+  name: Netter Companies API
   slug: netter-companies-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The dashboard-chat API from Netter — 1 operation(s) for dashboard-chat.
-  name: Netter dashboard-chat API
+  name: Netter Dashboard Chat API
   slug: netter-dashboard-chat-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The dashboard-data API from Netter — 5 operation(s) for dashboard-data.
-  name: Netter dashboard-data API
+  name: Netter Dashboard Data API
   slug: netter-dashboard-data-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The dashboard-versions API from Netter — 3 operation(s) for dashboard-versions.
-  name: Netter dashboard-versions API
+  name: Netter Dashboard Versions API
   slug: netter-dashboard-versions-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The dashboards API from Netter — 7 operation(s) for dashboards.
-  name: Netter dashboards API
+  name: Netter Dashboards API
   slug: netter-dashboards-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The databases API from Netter — 6 operation(s) for databases.
-  name: Netter databases API
+  name: Netter Databases API
   slug: netter-databases-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The file-folders API from Netter — 10 operation(s) for file-folders.
-  name: Netter file-folders API
+  name: Netter File Folders API
   slug: netter-file-folders-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The files API from Netter — 12 operation(s) for files.
-  name: Netter files API
+  name: Netter Files API
   slug: netter-files-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The folders API from Netter — 3 operation(s) for folders.
-  name: Netter folders API
+  name: Netter Folders API
   slug: netter-folders-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The groups API from Netter — 4 operation(s) for groups.
-  name: Netter groups API
+  name: Netter Groups API
   slug: netter-groups-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The infra API from Netter — 1 operation(s) for infra.
-  name: Netter infra API
+  name: Netter Infra API
   slug: netter-infra-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The integrations API from Netter — 19 operation(s) for integrations.
-  name: Netter integrations API
+  name: Netter Integrations API
   slug: netter-integrations-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The internal API from Netter — 1 operation(s) for internal.
-  name: Netter internal API
+  name: Netter Internal API
   slug: netter-internal-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The join-advisor API from Netter — 3 operation(s) for join-advisor.
-  name: Netter join-advisor API
+  name: Netter Join Advisor API
   slug: netter-join-advisor-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The lego-architect API from Netter — 5 operation(s) for lego-architect.
-  name: Netter lego-architect API
+  name: Netter Lego Architect API
   slug: netter-lego-architect-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The me API from Netter — 1 operation(s) for me.
-  name: Netter me API
+  name: Netter Me API
   slug: netter-me-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The monitoring API from Netter — 2 operation(s) for monitoring.
-  name: Netter monitoring API
+  name: Netter Monitoring API
   slug: netter-monitoring-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology API from Netter — 6 operation(s) for ontology.
-  name: Netter ontology API
+  name: Netter Ontology API
   slug: netter-ontology-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-chat API from Netter — 1 operation(s) for ontology-chat.
-  name: Netter ontology-chat API
+  name: Netter Ontology Chat API
   slug: netter-ontology-chat-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-entities API from Netter — 6 operation(s) for ontology-entities.
-  name: Netter ontology-entities API
+  name: Netter Ontology Entities API
   slug: netter-ontology-entities-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-promotion API from Netter — 3 operation(s) for ontology-promotion.
-  name: Netter ontology-promotion API
+  name: Netter Ontology Promotion API
   slug: netter-ontology-promotion-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-query API from Netter — 1 operation(s) for ontology-query.
-  name: Netter ontology-query API
+  name: Netter Ontology Query API
   slug: netter-ontology-query-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-records API from Netter — 4 operation(s) for ontology-records.
-  name: Netter ontology-records API
+  name: Netter Ontology Records API
   slug: netter-ontology-records-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-relationships API from Netter — 3 operation(s) for ontology-relationships.
-  name: Netter ontology-relationships API
+  name: Netter Ontology Relationships API
   slug: netter-ontology-relationships-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-rows API from Netter — 3 operation(s) for ontology-rows.
-  name: Netter ontology-rows API
+  name: Netter Ontology Rows API
   slug: netter-ontology-rows-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The ontology-traversal API from Netter — 1 operation(s) for ontology-traversal.
-  name: Netter ontology-traversal API
+  name: Netter Ontology Traversal API
   slug: netter-ontology-traversal-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The operators API from Netter — 1 operation(s) for operators.
-  name: Netter operators API
+  name: Netter Operators API
   slug: netter-operators-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The permissions API from Netter — 5 operation(s) for permissions.
-  name: Netter permissions API
+  name: Netter Permissions API
   slug: netter-permissions-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The project-steps API from Netter — 5 operation(s) for project-steps.
-  name: Netter project-steps API
+  name: Netter Project Steps API
   slug: netter-project-steps-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The projects API from Netter — 11 operation(s) for projects.
-  name: Netter projects API
+  name: Netter Projects API
   slug: netter-projects-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The row-policies API from Netter — 2 operation(s) for row-policies.
-  name: Netter row-policies API
+  name: Netter Row Policies API
   slug: netter-row-policies-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The run-history API from Netter — 4 operation(s) for run-history.
-  name: Netter run-history API
+  name: Netter Run History API
   slug: netter-run-history-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The step-output API from Netter — 2 operation(s) for step-output.
-  name: Netter step-output API
+  name: Netter Step Output API
   slug: netter-step-output-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The steps API from Netter — 16 operation(s) for steps.
-  name: Netter steps API
+  name: Netter Steps API
   slug: netter-steps-api
 - baseURL: https://api.netter.ai
   baseurl_source: declared
   description: The workflow-architect API from Netter — 2 operation(s) for workflow-architect.
-  name: Netter workflow-architect API
+  name: Netter Workflow Architect API
   slug: netter-workflow-architect-api
 artifact_total: 92
 collections:
@@ -511,7 +511,7 @@ modified: '2026-07-20'
 name: Netter
 nav: Providers
 network: true
-overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, including actions API, api-keys API, app-chat API, and 41 more. Tagged areas include Company, Data, Data Platform, Analytics, and Artificial Intelligence.
+overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Actions API, API Keys API, App Chat API, and 41 more. Tagged areas include Company, Data, Data Platform, Analytics, and Artificial Intelligence.
 
 
   Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 16 more developer resources.'
@@ -546,7 +546,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

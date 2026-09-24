@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 83
+- acting_count: 82
   human_in_the_loop: 1
   name: Bria Agentic Access
   operation_count: 104
   slug: bria-agentic-access
-  summary_line: 104 operations · 83 acting · 1 human-in-the-loop
+  summary_line: 104 operations · 82 acting · 1 human-in-the-loop
 api_count: 10
 apis:
 - description: Bria's hosted, remote Model Context Protocol server, exposing image generation and editing to any MCP client. Authenticated with either a static api_token header or an OAuth 2.0 bearer token; anonymou
@@ -357,7 +357,7 @@ modified: '2026-08-08'
 name: Bria
 nav: Providers
 network: true
-overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Automotive Endpoints API, Dataset API, Editing Endpoints API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Image, Image-Generation, and Image Editing.
+overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Automotive Endpoints API, Dataset API, Editing Endpoints API, and 10 more. Tagged areas include Artificial Intelligence, Generative AI, Image, Image Generation, and Image Editing.
 
 
   The Bria catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -411,7 +411,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -435,10 +435,10 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Image
-- Image-Generation
+- Image Generation
 - Image Editing
 - Video
-- Machine-Learning
+- Machine Learning
 - Media
 - Content
 - Agents

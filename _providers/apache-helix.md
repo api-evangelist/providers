@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ modified: '2026-05-19'
 name: Apache Helix
 nav: Providers
 network: true
-overview: 'Apache Helix publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Instances API, Resources API, and 1 more. Tagged areas include Apache, Cluster Management, Distributed Systems, Open-Source, and Partitioning.
+overview: 'Apache Helix publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Instances API, Resources API, and 1 more. Tagged areas include Apache, Cluster Management, Distributed Systems, Open Source, and Partitioning.
 
 
   The Apache Helix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -340,7 +340,7 @@ tags:
 - Apache
 - Cluster Management
 - Distributed Systems
-- Open-Source
+- Open Source
 - Partitioning
 - Replication
 use_cases:

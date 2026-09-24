@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 51
+- acting_count: 87
   human_in_the_loop: 1
   name: Firstpromoter Agentic Access
-  operation_count: 84
+  operation_count: 157
   slug: firstpromoter-agentic-access
-  summary_line: 84 operations · 51 acting · 1 human-in-the-loop
+  summary_line: 157 operations · 87 acting · 1 human-in-the-loop
 api_count: 74
 apis:
 - baseURL: https://api.firstpromoter.com/api/v2/company
@@ -848,7 +848,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -877,5 +877,6 @@ tags:
 - Attribution
 - Webhook
 - MCP
+- A2A
 website: https://firstpromoter.com/
 ---

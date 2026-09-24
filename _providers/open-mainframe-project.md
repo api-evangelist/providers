@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 12
 apis:
 - description: Zowe is an open source software framework that delivers modern interfaces to interact with z/OS, including a CLI, a web UI (Application Framework), and REST APIs (API Mediation Layer) for jobs, datase
@@ -185,7 +185,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - Linux Foundation
 - Linux on Z
 - Mainframe
-- Open-Source
+- Open Source
 - z/OS
 - z/VM
 website: https://www.openmainframeproject.org/

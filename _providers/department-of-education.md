@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-07-25'
 name: Department of Education
 nav: Providers
 network: true
-overview: 'Department of Education publishes 1 API on the [APIs.io](https://apis.io/) network: Schools API. Tagged areas include College Scorecard, Education, Federal-Government, Higher Education, and IPEDS.
+overview: 'Department of Education publishes 1 API on the [APIs.io](https://apis.io/) network: Schools API. Tagged areas include College Scorecard, Education, Federal Government, Higher Education, and IPEDS.
 
 
   The Department of Education catalog on APIs.io includes 1 JSON-LD context.
@@ -218,7 +218,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ slug: department-of-education
 tags:
 - College Scorecard
 - Education
-- Federal-Government
+- Federal Government
 - Higher Education
 - IPEDS
 - K-12

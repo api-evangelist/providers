@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,7 +127,7 @@ modified: '2026-09-09'
 name: Advance Tech Lending
 nav: Providers
 network: true
-overview: 'Advance Tech Lending is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Fintech, Lending, Salary Advance, and Earned Wage Access.
+overview: 'Advance Tech Lending is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Fintech, Lending, Salary Advance, and Earned Wage Access.
 
 
   Advance Tech Lending''s developer surface includes support, engineering blog, signup flow, and 14 more developer resources.'
@@ -169,7 +169,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: advancetechlending
 tags:
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Salary Advance

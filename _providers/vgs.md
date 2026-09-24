@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,22 +48,22 @@ apis:
 - baseURL: https://api.sandbox.verygoodvault.com
   baseurl_source: declared
   description: Tokenization operations on the VGS Vault HTTP API.
-  name: Very Good Security aliases API
+  name: Very Good Security Aliases API
   slug: vgs-aliases-api
 - baseURL: https://api.sandbox.verygoodvault.com
   baseurl_source: declared
   description: Organization resources on the VGS Accounts API.
-  name: Very Good Security organizations API
+  name: Very Good Security Organizations API
   slug: vgs-organizations-api
 - baseURL: https://api.sandbox.verygoodvault.com
   baseurl_source: declared
   description: Inbound / outbound proxy route resources on the VGS Accounts API.
-  name: Very Good Security routes API
+  name: Very Good Security Routes API
   slug: vgs-routes-api
 - baseURL: https://api.sandbox.verygoodvault.com
   baseurl_source: declared
   description: Vault resources on the VGS Accounts API.
-  name: Very Good Security vaults API
+  name: Very Good Security Vaults API
   slug: vgs-vaults-api
 artifact_total: 17
 collections:
@@ -149,7 +149,7 @@ modified: '2026-06-20'
 name: Very Good Security
 nav: Providers
 network: true
-overview: 'Very Good Security publishes 4 APIs on the [APIs.io](https://apis.io/) network, including aliases API, organizations API, routes API, and 1 more. Tagged areas include Security, Tokenization, Data Privacy, PCI Compliance, and Vault.
+overview: 'Very Good Security publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Organizations API, Routes API, and 1 more. Tagged areas include Security, Tokenization, Data Privacy, PCI Compliance, and Vault.
 
 
   Very Good Security''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -164,7 +164,7 @@ rate_limits:
   slug: vgs-rate-limits
 score:
   band: developing
-  composite: 40.1
+  composite: 39.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 64.0
@@ -172,12 +172,12 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 57.2
-    developer_ergonomics: 33.3
+    developer_ergonomics: 29.8
     discoverability: 68.5
     operational_transparency: 34.2
   previous_composite: 40.1
@@ -195,7 +195,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

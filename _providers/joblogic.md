@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 31
   human_in_the_loop: 0
   name: Joblogic Agentic Access
   operation_count: 52
   slug: joblogic-agentic-access
-  summary_line: 52 operations · 39 acting
+  summary_line: 52 operations · 31 acting
 api_count: 1
 apis:
 - baseURL: https://api.joblogic.com/api/v1
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

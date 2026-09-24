@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - baseURL: https://api.tradeshift.com/tradeshift
@@ -645,7 +645,7 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 65.4
+    contract_quality: 65.5
     developer_ergonomics: 35.1
     discoverability: 75.9
     operational_transparency: 52.6
@@ -653,14 +653,14 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 87.5
+      callable: 89.5
       derived: 0
       marker_coverage: 0.0
-      total: 40
+      total: 38
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -700,5 +700,6 @@ tags:
 - Fintech
 - MCP
 - Agent-Native
+- Procurement
 website: https://tradeshift.com/
 ---

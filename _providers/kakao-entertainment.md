@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Melon's first-party remote Model Context Protocol server, published by Kakao Entertainment's AI Application Technology team. Streamable HTTP transport at https://mcp.melon.com/mcp, OAuth 2.0 authentic
@@ -191,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

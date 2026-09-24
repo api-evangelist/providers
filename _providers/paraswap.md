@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,30 +49,25 @@ apis:
 - description: 'The AugustusRFQ API enables market makers to integrate with ParaSwap''s on-chain limit order and Request-for-Quote system, supporting fungible token (ERC-20) and NFT trading. Market makers implement a '
   name: ParaSwap AugustusRFQ API
   slug: paraswap-augustusrfq-api
-- baseURL: https://api.paraswap.io
-  baseurl_source: declared
-  description: 'Retrieves the curated list of tokens supported across all ParaSwap-integrated networks. Returns token metadata including symbol, contract address, decimals, and icon image URL. Supports all 12 active '
-  name: ParaSwap Tokens API
-  slug: paraswap-tokens-api
 - description: ParaSwap exposes TheGraph subgraphs for historical swap data and limit order/RFQ activity across multiple networks. Augustus v5 subgraphs cover standard DEX swaps on Ethereum, Arbitrum, Avalanche, Bas
   name: ParaSwap Subgraphs (GraphQL)
   slug: paraswap-subgraphs
 - baseURL: https://api.paraswap.io
   baseurl_source: declared
   description: Get swap path and pricing.
-  name: ParaSwap prices API
+  name: ParaSwap Prices API
   slug: paraswap-prices-api
 - baseURL: https://api.paraswap.io
   baseurl_source: declared
-  description: Return tokens list from Paraswap
-  name: ParaSwap tokens API
+  description: 'Retrieves the curated list of tokens supported across all ParaSwap-integrated networks. Returns token metadata including symbol, contract address, decimals, and icon image URL. Supports all 12 active '
+  name: ParaSwap Tokens API
   slug: paraswap-tokens-api
 - baseURL: https://api.paraswap.io
   baseurl_source: declared
   description: Build parameters for a transaction
-  name: ParaSwap transactions API
+  name: ParaSwap Transactions API
   slug: paraswap-transactions-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -182,7 +177,7 @@ modified: '2026-06-14'
 name: ParaSwap
 nav: Providers
 network: true
-overview: 'ParaSwap publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Tokens API, prices API, tokens API, and 1 more. Tagged areas include DeFi, DEX Aggregator, Token Swaps, Blockchain, and EVM.
+overview: 'ParaSwap publishes 3 APIs on the [APIs.io](https://apis.io/) network: Prices API, Tokens API, and Transactions API. Tagged areas include DeFi, DEX Aggregator, Token Swaps, Blockchain, and EVM.
 
 
   The ParaSwap catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -237,7 +232,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

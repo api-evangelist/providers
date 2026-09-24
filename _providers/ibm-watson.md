@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Convert speech into text using AI-powered speech recognition and transcription. The service uses machine learning to combine knowledge of grammar, language structure, and audio signal composition to a
@@ -108,7 +108,7 @@ modified: '2026-08-21'
 name: IBM Watson
 nav: Providers
 network: true
-overview: 'IBM Watson publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, IBM, Machine-Learning, Natural Language Processing, and Speech Recognition.
+overview: 'IBM Watson publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, IBM, Machine Learning, Natural Language Processing, and Speech Recognition.
 
 
   IBM Watson''s developer surface includes developer portal, documentation, getting-started guide, support, pricing, and 6 more developer resources.'
@@ -141,7 +141,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ slug: ibm-watson
 tags:
 - Artificial Intelligence
 - IBM
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Speech Recognition
 website: https://www.ibm.com/watson

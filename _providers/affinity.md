@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,52 +51,52 @@ apis:
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about auths
-  name: Affinity auth API
+  name: Affinity Auth API
   slug: affinity-auth-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about companies
-  name: Affinity companies API
+  name: Affinity Companies API
   slug: affinity-companies-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about company merges
-  name: Affinity companyMerges API
+  name: Affinity Company Merges API
   slug: affinity-companymerges-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about emails
-  name: Affinity emails API
+  name: Affinity Emails API
   slug: affinity-emails-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about lists
-  name: Affinity lists API
+  name: Affinity Lists API
   slug: affinity-lists-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about meetings
-  name: Affinity meetings API
+  name: Affinity Meetings API
   slug: affinity-meetings-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about notes
-  name: Affinity notes API
+  name: Affinity Notes API
   slug: affinity-notes-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about opportunities
-  name: Affinity opportunities API
+  name: Affinity Opportunities API
   slug: affinity-opportunities-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about person merges
-  name: Affinity personMerges API
+  name: Affinity Person Merges API
   slug: affinity-personmerges-api
 - baseURL: https://api.affinity.co
   baseurl_source: declared
   description: Operations about persons
-  name: Affinity persons API
+  name: Affinity Persons API
   slug: affinity-persons-api
 artifact_total: 46
 collections:
@@ -275,7 +275,7 @@ modified: '2026-06-12'
 name: Affinity
 nav: Providers
 network: true
-overview: 'Affinity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including auth API, companies API, companyMerges API, and 7 more. Tagged areas include CRM, Relationship Intelligence, Private Equity, Venture Capital, and Contacts.
+overview: 'Affinity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Company Merges API, and 7 more. Tagged areas include CRM, Relationship Intelligence, Private Equity, Venture Capital, and Contacts.
 
 
   The Affinity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -330,7 +330,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

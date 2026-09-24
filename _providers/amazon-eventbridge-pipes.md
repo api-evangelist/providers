@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/eventbridge/pipes/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/agentic-access/amazon-eventbridge-pipes-agentic-access.yml
   title: ''
@@ -1777,7 +1777,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1816,5 +1816,5 @@ use_cases:
   name: Stream Analytics
 - description: Connect SaaS event sources to AWS targets without custom code
   name: SaaS Integration
-website: https://amazon.com
+website: https://aws.amazon.com/eventbridge/pipes/
 ---

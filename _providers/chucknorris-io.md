@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-08-08'
 name: chucknorris.io
 nav: Providers
 network: true
-overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Jokes API, and Search API. Tagged areas include Entertainment, Jokes, Chuck Norris, Open-Source, and Public APIs.
+overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Jokes API, and Search API. Tagged areas include Entertainment, Jokes, Chuck Norris, Open Source, and Public APIs.
 
 
   The chucknorris.io catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -347,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -364,7 +364,7 @@ tags:
 - Entertainment
 - Jokes
 - Chuck Norris
-- Open-Source
+- Open Source
 - Public APIs
 use_cases:
 - description: Tutorial-friendly free public API for learning HTTP clients, SDKs, and AI tool patterns.

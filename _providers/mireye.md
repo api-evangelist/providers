@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 3
   name: Mireye Agentic Access
   operation_count: 30
   slug: mireye-agentic-access
-  summary_line: 30 operations · 22 acting · 3 human-in-the-loop
+  summary_line: 30 operations · 21 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.mireye.com
@@ -377,7 +377,7 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

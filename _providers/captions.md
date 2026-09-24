@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -53,12 +53,12 @@ apis:
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The health API from Captions — 1 operation(s) for health.
-  name: Captions health API
+  name: Captions Health API
   slug: captions-health-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The internal API from Captions — 8 operation(s) for internal.
-  name: Captions internal API
+  name: Captions Internal API
   slug: captions-internal-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The root API from Captions — 1 operation(s) for root.
-  name: Captions root API
+  name: Captions Root API
   slug: captions-root-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
@@ -323,7 +323,7 @@ modified: '2026-08-08'
 name: Captions
 nav: Providers
 network: true
-overview: 'Captions publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Audio API, health API, internal API, and 6 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
+overview: 'Captions publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Health API, Internal API, and 6 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
 
 
   The Captions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -383,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

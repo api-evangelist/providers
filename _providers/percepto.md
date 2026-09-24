@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The HTTP API behind the Percepto AIM (Autonomous Inspection and Monitoring) console at drones.percepto.co. The application is a Django/Django-REST-Framework deployment: /api/schema/ and /api/docs/ are'
@@ -128,7 +128,7 @@ modified: '2026-08-26'
 name: Percepto
 nav: Providers
 network: true
-overview: 'Percepto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Drones, Robotics, Industrial Inspection, Autonomous Systems, and Computer-Vision.
+overview: 'Percepto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Drones, Robotics, Industrial Inspection, Autonomous Systems, and Computer Vision.
 
 
   Percepto''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
@@ -176,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Robotics
 - Industrial Inspection
 - Autonomous Systems
-- Computer-Vision
+- Computer Vision
 - Asset Monitoring
 - Energy
 - Oil and Gas

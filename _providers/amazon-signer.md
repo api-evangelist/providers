@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -109,7 +109,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://docs.aws.amazon.com/signer/latest/developerguide/Welcome.html
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -859,7 +859,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -897,5 +897,5 @@ use_cases:
   name: Container Image Signing
 - description: Track all signing operations via CloudTrail for audit and compliance requirements.
   name: Audit and Compliance
-website: https://amazon.com
+website: https://docs.aws.amazon.com/signer/latest/developerguide/Welcome.html
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: OpenTofu is a CLI-driven infrastructure-as-code tool forked from Terraform. The opentofu binary reads HashiCorp Configuration Language (HCL) configuration, plans changes, and applies them against clou
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: OpenTofu
 nav: Providers
 network: true
-overview: 'OpenTofu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, DevOps, Infrastructure as Code, and Open-Source.
+overview: 'OpenTofu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, DevOps, Infrastructure as Code, and Open Source.
 
 
   OpenTofu''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 15 more developer resources.'
@@ -172,7 +172,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -189,6 +189,6 @@ tags:
 - Cloud
 - DevOps
 - Infrastructure as Code
-- Open-Source
+- Open Source
 website: https://opentofu.org/
 ---

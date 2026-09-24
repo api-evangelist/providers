@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,43 +42,8 @@ agentic_access:
   operation_count: 17
   slug: helpscout-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 25
+api_count: 17
 apis:
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: Append customer replies, agent replies, internal notes, phone, chat, and forwards to an existing conversation as new threads.
-  name: Help Scout Threads API
-  slug: helpscout-threads-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: Manage customer profiles including addresses, emails, phone numbers, chat handles, social profiles, websites, and properties.
-  name: Help Scout Customers API
-  slug: helpscout-customers-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: Read mailbox / inbox configuration including routing settings, saved replies, custom fields, and folders.
-  name: Help Scout Mailboxes API
-  slug: helpscout-mailboxes-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: Retrieve Help Scout user accounts (agents) including roles, permissions, and online/offline status.
-  name: Help Scout Users API
-  slug: helpscout-users-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: Manage teams that group users for routing and assignment within shared inboxes.
-  name: Help Scout Teams API
-  slug: helpscout-teams-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: List, create, and apply tags to conversations for categorization, automation, and reporting.
-  name: Help Scout Tags API
-  slug: helpscout-tags-api
-- baseURL: https://api.helpscout.net/v2
-  baseurl_source: spec
-  description: List automation workflows and trigger them manually against a conversation.
-  name: Help Scout Workflows API
-  slug: helpscout-workflows-api
 - description: Read custom field definitions on inboxes and read / update custom field values on conversations.
   name: Help Scout Custom Fields API
   slug: helpscout-custom-fields-api
@@ -91,9 +56,6 @@ apis:
 - description: Aggregated reports across company performance, conversations, happiness ratings, productivity, and user/team statistics.
   name: Help Scout Reports API
   slug: helpscout-reports-api
-- description: Subscribe to Help Scout events (convo.created, convo.assigned, convo.tag, customer.created, rating.received) for downstream automation. Webhooks include HMAC signatures for verification.
-  name: Help Scout Webhooks API
-  slug: helpscout-webhooks-api
 - description: Manage knowledge-base sites, collections, categories, articles, and search/related content for Help Scout Docs.
   name: Help Scout Docs API
   slug: helpscout-docs-api
@@ -113,45 +75,45 @@ apis:
   slug: helpscout-conversations-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Customers API from Help Scout — 2 operation(s) for customers.
+  description: Manage customer profiles including addresses, emails, phone numbers, chat handles, social profiles, websites, and properties.
   name: Help Scout Customers API
   slug: helpscout-customers-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Mailboxes API from Help Scout — 1 operation(s) for mailboxes.
+  description: Read mailbox / inbox configuration including routing settings, saved replies, custom fields, and folders.
   name: Help Scout Mailboxes API
   slug: helpscout-mailboxes-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Tags API from Help Scout — 1 operation(s) for tags.
+  description: List, create, and apply tags to conversations for categorization, automation, and reporting.
   name: Help Scout Tags API
   slug: helpscout-tags-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Teams API from Help Scout — 1 operation(s) for teams.
+  description: Manage teams that group users for routing and assignment within shared inboxes.
   name: Help Scout Teams API
   slug: helpscout-teams-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Threads API from Help Scout — 1 operation(s) for threads.
+  description: Append customer replies, agent replies, internal notes, phone, chat, and forwards to an existing conversation as new threads.
   name: Help Scout Threads API
   slug: helpscout-threads-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Users API from Help Scout — 1 operation(s) for users.
+  description: Retrieve Help Scout user accounts (agents) including roles, permissions, and online/offline status.
   name: Help Scout Users API
   slug: helpscout-users-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Webhooks API from Help Scout — 1 operation(s) for webhooks.
+  description: Subscribe to Help Scout events (convo.created, convo.assigned, convo.tag, customer.created, rating.received) for downstream automation. Webhooks include HMAC signatures for verification.
   name: Help Scout Webhooks API
   slug: helpscout-webhooks-api
 - baseURL: https://api.helpscout.net/v2
   baseurl_source: spec
-  description: The Workflows API from Help Scout — 1 operation(s) for workflows.
+  description: List automation workflows and trigger them manually against a conversation.
   name: Help Scout Workflows API
   slug: helpscout-workflows-api
-artifact_total: 66
+artifact_total: 57
 asyncapis:
 - description: 'Help Scout publishes webhook events from the Mailbox, Beacon, Docs, and organization surfaces to subscriber-configured URLs. Each delivery is an HTTP POST containing a JSON body, an X-HelpScout-Event '
   name: Help Scout Webhooks
@@ -343,17 +305,13 @@ finops:
 - name: Helpscout Finops
   service_category: Customer Support
   slug: helpscout-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Help Scout customer support and help desk platform. It covers the full surface of the Help Scout Mailbox API v2, Docs API, Beacon API, and webhooks. The schem
-  name: Help Scout GraphQL Schema
-  slug: helpscout-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helpscout.png
 layout: provider
 modified: '2026-05-30'
 name: Help Scout
 nav: Providers
 network: true
-overview: 'Help Scout publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Threads API, Customers API, Mailboxes API, and 14 more. Tagged areas include Customer-Support, Help Desk, Email, Live Chat, and Knowledge Base.
+overview: 'Help Scout publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Customers API, Mailboxes API, and 6 more. Tagged areas include Customer Support, Help Desk, Email, Live Chat, and Knowledge Base.
 
 
   The Help Scout catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -388,19 +346,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.7
+  composite: 45.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 43.5
     catalog_earned_first_party: 0.0
     catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 61.8
     contract_governance: 13.6
-    contract_quality: 63.1
+    contract_quality: 58.4
     developer_ergonomics: 34.5
     discoverability: 63.0
     operational_transparency: 34.2
@@ -413,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -434,7 +392,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: helpscout
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - Email
 - Live Chat

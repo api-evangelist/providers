@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: An open and connected ecosystem of secure REST APIs built by MRI and its partners that enables controlled data exchange between MRI's core property management and accounting platform and third-party o
@@ -111,7 +111,7 @@ modified: '2026-06-13'
 name: MRI Software
 nav: Providers
 network: true
-overview: 'MRI Software publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Property Management, Investment Management, Lease Accounting, and Facilities Management.
+overview: 'MRI Software publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Property Management, Investment Management, Lease Accounting, and Facilities Management.
 
 
   MRI Software''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -144,7 +144,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mri-software
 tags:
-- Real-Estate
+- Real Estate
 - Property Management
 - Investment Management
 - Lease Accounting

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ apis:
   description: Guest account lookups
   name: Olo Users API
   slug: olo-users-api
-artifact_total: 98
+artifact_total: 97
 asyncapis:
 - description: Olo emits outbound HTTP webhooks to partner-registered endpoints for order lifecycle, loyalty, gift-card, tender, and marketplace status events. Each delivery includes an X-Olo-Message-Id header (a un
   name: Olo Webhooks
@@ -311,11 +311,6 @@ common:
   title: ''
   type: SDKs
   url: https://github.com/ololabs/pay-digitalwallets-flutter-sdk-releases
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/graphql/olo-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/olo-graphql.md
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/plans/olo-plans-pricing.yml
   title: ''
@@ -393,10 +388,6 @@ finops:
 - name: Olo Finops
   service_category: Restaurant Commerce Platform
   slug: olo-finops
-graphqls:
-- description: Olo is a digital ordering and delivery platform for restaurant brands. The API covers orders, menus, baskets, restaurant locations, delivery dispatching, guest management, and webhook integrations for
-  name: Olo GraphQL API
-  slug: olo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/olo.png
 integrations:
 - description: Marketplace ordering via Rails and direct delivery via Dispatch.
@@ -460,7 +451,7 @@ overview: 'Olo publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The Olo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 36 more developer resources.'
+  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 35 more developer resources.'
 plans:
 - name: Olo Plans Pricing
   plan_count: 4
@@ -505,19 +496,19 @@ rules:
   slug: olo-spectral-rules
 score:
   band: strong
-  composite: 64.8
+  composite: 64.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 86.5
     catalog_earned_first_party: 0.0
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 75.0
     contract_governance: 28.8
-    contract_quality: 76.7
+    contract_quality: 76.5
     developer_ergonomics: 56.0
     discoverability: 59.3
     operational_transparency: 65.8
@@ -542,7 +533,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,17 +28,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for managing agents, threats, alerts, sites, accounts, exclusions, policies, and reporting in the SentinelOne Singularity Platform. Each customer accesses the API at their own m
   name: SentinelOne Management API
   slug: management-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sentinelone/refs/heads/main/security/sentinelone-trust-center.yml
@@ -89,10 +89,6 @@ common:
   url: https://www.linkedin.com/company/sentinelone/
 created: '2026-05-11'
 description: SentinelOne is an AI-driven extended detection and response (XDR) cloud security platform delivering autonomous endpoint protection, EDR, identity security, cloud workload protection, and threat hunting through its Singularity Platform. The Management API exposes the same operations as the web console for agents, threats, alerts, sites, accounts, exclusions, and policy management. Authentication uses tenant-issued API tokens passed in the Authorization header as `ApiToken <token>`.
-graphqls:
-- description: SentinelOne is an AI-powered endpoint security platform. The API covers agent management, threat detection alerts, automated response actions, forensics, vulnerability data, deep visibility queries, t
-  name: SentinelOne GraphQL API
-  slug: sentinelone-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sentinelone.png
 layout: provider
 modified: '2026-05-11'
@@ -105,27 +101,27 @@ overview: 'SentinelOne publishes 1 API on the [APIs.io](https://apis.io/) networ
   SentinelOne''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
 random_paper: 0
 score:
-  band: thin
-  composite: 29.5
+  band: emerging
+  composite: 20.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 29.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

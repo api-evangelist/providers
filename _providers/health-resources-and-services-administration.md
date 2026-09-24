@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The HRSA Health Center Data Service enables users to query for health centers by state, county, or ZIP Code, providing access to federally qualified health center location and service information.
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Health Resources and Services Administration
 nav: Providers
 network: true
-overview: 'Health Resources and Services Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Healthcare, Open Data, and Public Health.
+overview: 'Health Resources and Services Administration publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Healthcare, Open Data, and Public Health.
 
 
   Health Resources and Services Administration''s developer surface includes developer portal, support, and 5 more developer resources.'
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -138,7 +138,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: health-resources-and-services-administration
 tags:
-- Federal-Government
+- Federal Government
 - Healthcare
 - Open Data
 - Public Health

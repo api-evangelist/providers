@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ arazzos:
 - description: Authenticate, initialize a user state, fetch the current step, submit step data, then read the profile.
   name: Trulioo Workflow Studio Drive A Flow
   slug: trulioo-workflow-studio-run-flow-workflow
-artifact_total: 106
+artifact_total: 105
 collections:
 - collection_type: postman
   name: Trulioo Business Verification API
@@ -665,10 +665,6 @@ finops:
 - name: Trulioo Finops
   service_category: ''
   slug: trulioo-finops
-graphqls:
-- description: Trulioo is a global identity verification platform. The API covers identity document verification, biometric matching, business verification (KYB), watchlist screening, address verification, and globa
-  name: Trulioo GraphQL API
-  slug: trulioo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trulioo.png
 json_schemas:
 - name: Trulioo Business Record
@@ -743,20 +739,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.4
+  composite: 55.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 89.5
     catalog_earned_first_party: 0.0
     catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 56.6
     contract_governance: 13.6
-    contract_quality: 69.8
-    developer_ergonomics: 59.5
+    contract_quality: 66.0
+    developer_ergonomics: 56.0
     discoverability: 75.9
     operational_transparency: 46.1
   jurisdiction:
@@ -774,7 +770,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

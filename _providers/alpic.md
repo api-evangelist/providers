@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -48,42 +48,42 @@ apis:
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The analytics API from Alpic — 1 operation(s) for analytics.
-  name: Alpic analytics API
+  name: Alpic Analytics API
   slug: alpic-analytics-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The beacon API from Alpic — 2 operation(s) for beacon.
-  name: Alpic beacon API
+  name: Alpic Beacon API
   slug: alpic-beacon-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The deployments API from Alpic — 1 operation(s) for deployments.
-  name: Alpic deployments API
+  name: Alpic Deployments API
   slug: alpic-deployments-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The distribution API from Alpic — 2 operation(s) for distribution.
-  name: Alpic distribution API
+  name: Alpic Distribution API
   slug: alpic-distribution-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The environments API from Alpic — 8 operation(s) for environments.
-  name: Alpic environments API
+  name: Alpic Environments API
   slug: alpic-environments-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The projects API from Alpic — 2 operation(s) for projects.
-  name: Alpic projects API
+  name: Alpic Projects API
   slug: alpic-projects-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The teams API from Alpic — 1 operation(s) for teams.
-  name: Alpic teams API
+  name: Alpic Teams API
   slug: alpic-teams-api
 - baseURL: https://api.alpic.ai
   baseurl_source: declared
   description: The tunnels API from Alpic — 1 operation(s) for tunnels.
-  name: Alpic tunnels API
+  name: Alpic Tunnels API
   slug: alpic-tunnels-api
 artifact_total: 22
 collections:
@@ -230,7 +230,7 @@ modified: '2026-07-17'
 name: Alpic
 nav: Providers
 network: true
-overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including analytics API, beacon API, deployments API, and 5 more. Tagged areas include Company, Ai Ml, MCP, Cloud Platform, and Developer Tools.
+overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Beacon API, Deployments API, and 5 more. Tagged areas include Company, Ai Ml, MCP, Cloud Platform, and Developer Tools.
 
 
   Alpic''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 17 more developer resources.'
@@ -270,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: operate
   title: ''
@@ -160,10 +160,6 @@ common:
 created: '2026-05-24'
 description: Cartesi is a Linux-based optimistic rollup protocol that lets developers build decentralized applications by running rich off-chain computation inside a sandboxed Linux virtual machine. The core of the stack is the Cartesi Machine, a deterministic RISC-V emulator that boots a real Linux userland so dApps can be written in any language (Rust, Go, Python, JavaScript/TypeScript, C++) using familiar libraries, then settle results on Ethereum and other EVM chains through Cartesi Rollups smart contracts. Cartesi Rollups 2.0 is the current major version, packaging an application-specific rollup as the combination of the Cartesi Machine, the Cartesi Rollups Node middleware (Rust + Go), and a set of Solidity rollup contracts that handle settlement, consensus, and data availability. The DAVE permissionless fraud-proof system provides Stage-2 trust minimization, while the Cartesi CLI (the successor to Sunodo) packages scaffolding, build, and local devnet workflows. Cartesi is stewarded
   by The Cartesi Foundation and the CTSI token governs the network. Cartesi is fully open source under Apache-2.0 and LGPL-3.0 licenses on github.com/cartesi; there is no proprietary SaaS product, but the Rollups Node ships several developer-facing surfaces — the Rollup HTTP API used by application backends, the Inspect HTTP API for read-only queries from frontends, a GraphQL reader for advance-state inputs / outputs / vouchers / notices / reports, and a JSON-RPC node API for operations.
-graphqls:
-- description: ''
-  name: Cartesi GraphQL API
-  slug: cartesi-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cartesi.png
 layout: provider
 modified: '2026-05-24'
@@ -179,7 +175,7 @@ score:
   band: emerging
   composite: 19.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -198,7 +194,7 @@ score:
     score: 65.0
   previous_composite: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -227,6 +223,6 @@ tags:
 - Smart Contracts
 - Decentralized Applications
 - Web3
-- Open-Source
+- Open Source
 website: https://cartesi.io
 ---

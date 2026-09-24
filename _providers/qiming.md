@@ -34,7 +34,7 @@ tags:
 - Artificial Intelligence
 - Semiconductors
 - Robotics
-- Biotech
+- Biotechnology
 - China
 - Asia
 ---

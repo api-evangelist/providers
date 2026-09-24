@@ -35,53 +35,53 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The accounts API from Laka — 6 operation(s) for accounts.
-  name: Laka accounts API
+  name: Laka Accounts API
   slug: laka-accounts-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: Claims API
-  name: Laka claims API
+  name: Laka Claims API
   slug: laka-claims-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The deeplinks API from Laka — 1 operation(s) for deeplinks.
-  name: Laka deeplinks API
+  name: Laka Deeplinks API
   slug: laka-deeplinks-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The fleets API from Laka — 1 operation(s) for fleets.
-  name: Laka fleets API
+  name: Laka Fleets API
   slug: laka-fleets-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The policies API from Laka — 14 operation(s) for policies.
-  name: Laka policies API
+  name: Laka Policies API
   slug: laka-policies-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The quote service gets quotes.
-  name: Laka quote API
+  name: Laka Quote API
   slug: laka-quote-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The quotes API from Laka — 1 operation(s) for quotes.
-  name: Laka quotes API
+  name: Laka Quotes API
   slug: laka-quotes-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The reporting API from Laka — 3 operation(s) for reporting.
-  name: Laka reporting API
+  name: Laka Reporting API
   slug: laka-reporting-api
 - baseURL: https://api-gb.app.laka.co
   baseurl_source: declared
   description: The tasks API from Laka — 1 operation(s) for tasks.
-  name: Laka tasks API
+  name: Laka Tasks API
   slug: laka-tasks-api
 artifact_total: 21
 collections:
@@ -247,7 +247,7 @@ modified: '2026-07-19'
 name: Laka
 nav: Providers
 network: true
-overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including accounts API, claims API, deeplinks API, and 6 more. Tagged areas include Company, Insurance, Insurtech, Cycling, and Micromobility.
+overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Claims API, Deeplinks API, and 6 more. Tagged areas include Company, Insurance, Insurtech, Cycling, and Micromobility.
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 20 more developer resources.'
@@ -292,7 +292,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,7 +78,7 @@ modified: '2026-07-18'
 name: Distributional
 nav: Providers
 network: true
-overview: Distributional is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, AI Testing, and Reliability.
+overview: Distributional is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Testing, and Reliability.
 random_paper: 21
 score:
   band: minimal
@@ -100,7 +100,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -120,7 +120,7 @@ slug: distributional
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Testing
 - Reliability
 - MLOps

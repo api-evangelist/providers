@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-05-19'
 name: Shovels
 nav: Providers
 network: true
-overview: 'Shovels publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Contractors API, Geography API, and 3 more. Tagged areas include Construction, Building Permits, Contractors, Real-Estate, and Property Data.
+overview: 'Shovels publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Contractors API, Geography API, and 3 more. Tagged areas include Construction, Building Permits, Contractors, Real Estate, and Property Data.
 
 
   The Shovels catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -263,7 +263,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real-Estate
+- Real Estate
 - Property Data
 - Market Intelligence
 website: https://www.shovels.ai/

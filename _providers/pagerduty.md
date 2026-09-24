@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 178
+- acting_count: 167
   human_in_the_loop: 2
   name: Pagerduty Agentic Access
   operation_count: 337
   slug: pagerduty-agentic-access
-  summary_line: 337 operations · 178 acting · 2 human-in-the-loop
+  summary_line: 337 operations · 167 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://events.pagerduty.com
@@ -236,7 +236,7 @@ apis:
   description: A webhook is a way to receive events that occur on the PagerDuty platform via an HTTP POST request. V3 webhooks are set up by creating a webhook subscription.
   name: PagerDuty Webhooks API
   slug: pagerduty-webhooks-api
-artifact_total: 139
+artifact_total: 138
 asyncapis:
 - description: 'AsyncAPI description of PagerDuty''s event-driven surface. Two complementary channels are modelled: 1. Outbound V3 Webhooks — PagerDuty POSTs a JSON envelope to subscriber URLs whenever a configured in'
   name: PagerDuty Events
@@ -591,10 +591,6 @@ finops:
 - name: Pagerduty Finops
   service_category: Incident Response
   slug: pagerduty-finops
-graphqls:
-- description: PagerDuty is a digital operations management platform providing incident management, on-call scheduling, and automated alerting for engineering and operations teams. This conceptual GraphQL schema rep
-  name: PagerDuty GraphQL Schema
-  slug: pagerduty-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pagerduty.png
 layout: provider
 mcp_servers:
@@ -638,19 +634,19 @@ rules:
   slug: pagerduty-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.9
+  composite: 45.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 50.8
     catalog_earned_first_party: 12.0
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 77.6
     contract_governance: 11.4
-    contract_quality: 72.5
+    contract_quality: 69.4
     developer_ergonomics: 15.5
     discoverability: 61.1
     operational_transparency: 18.4
@@ -664,7 +660,7 @@ score:
       total: 37
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -686,5 +682,6 @@ tags:
 - Incident Management
 - On-Call Management
 - pagerduty
+- Monitoring
 website: https://www.pagerduty.com/
 ---

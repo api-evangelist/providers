@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 53
+- acting_count: 52
   human_in_the_loop: 1
   name: Adobe Experience Cloud Agentic Access
   operation_count: 110
   slug: adobe-experience-cloud-agentic-access
-  summary_line: 110 operations · 53 acting · 1 human-in-the-loop
+  summary_line: 110 operations · 52 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://api.adobe.io
@@ -1723,7 +1723,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

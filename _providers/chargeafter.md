@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 26
 apis:
 - baseURL: https://api.chargeafter.com
@@ -317,7 +317,7 @@ modified: '2026-08-09'
 name: ChargeAfter
 nav: Providers
 network: true
-overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications V3 API, Charges API, and 9 more. Tagged areas include Financial-Services, Payments, Lending, Buy Now Pay Later, and Embedded Finance.
+overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications V3 API, Charges API, and 9 more. Tagged areas include Financial Services, Payments, Lending, Buy Now Pay Later, and Embedded Finance.
 
 
   The ChargeAfter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -360,7 +360,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: chargeafter
 tags:
-- Financial-Services
+- Financial Services
 - Payments
 - Lending
 - Buy Now Pay Later

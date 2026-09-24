@@ -16,7 +16,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -35,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.4
-  scored_at: '2026-09-23'
+  score: 51.5
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
   name: Seismic Agentic Access
-  operation_count: 57
+  operation_count: 60
   slug: seismic-agentic-access
-  summary_line: 57 operations · 20 acting
+  summary_line: 60 operations · 20 acting
 api_count: 4
 apis:
 - baseURL: https://api.seismic.com/integration/v2
@@ -638,34 +638,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.8
+  composite: 63.9
   coverage:
     artifact_dirs: 35
-    catalog_earned: 78.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 36.5
+    catalog_earned: 93.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 21.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 5.1
   facets:
-    access_clarity: 56.6
+    access_clarity: 72.4
     contract_governance: 47.0
     contract_quality: 81.9
-    developer_ergonomics: 43.5
+    developer_ergonomics: 38.1
     discoverability: 88.9
-    operational_transparency: 34.2
-  previous_composite: 56.6
+    operational_transparency: 57.9
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
     mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

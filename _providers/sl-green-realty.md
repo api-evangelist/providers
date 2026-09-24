@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,17 +28,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Conceptual GraphQL schema for SL Green Realty Corp. covering Property, Building, Floor, Suite, Lease, Tenant, Occupancy, Transaction, Contact, AmenityLevel, CertificationLevel, GreenInitiative, Invest
   name: SL Green Realty Corp. GraphQL Schema
   slug: sl-green-realty-corp-graphql-schema
-artifact_total: 13
+artifact_total: 12
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sl-green-realty/refs/heads/main/security/sl-green-realty-domain-security.yml
@@ -112,10 +112,6 @@ features:
   status: Vendor-mediated — "My Building" portal, RequestCom, ADP Workforce
 - finding: Tier rationale
   status: Tier 3 — no-apis. REIT with no programmable public surface.
-graphqls:
-- description: 'SL Green Realty Corp. (NYSE: SLG) is Manhattan''s largest office landlord and a fully integrated real estate investment trust (REIT) focused on acquiring, managing, and maximizing the value of Manhatta'
-  name: SL Green Realty — GraphQL Schema
-  slug: sl-green-realty-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sl-green-realty.png
 jsonld:
 - class_count: 31
@@ -133,20 +129,20 @@ overview: 'SL Green Realty Corp. publishes 1 API on the [APIs.io](https://apis.i
   The SL Green Realty Corp. catalog on APIs.io includes 1 JSON-LD context.'
 random_paper: 3
 score:
-  band: emerging
-  composite: 17.5
+  band: minimal
+  composite: 7.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.8
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 50.0
+    contract_quality: 10.7
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
@@ -157,8 +153,8 @@ score:
     - north-america
   previous_composite: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -179,7 +175,7 @@ tags:
 - Office Leasing
 - Office Properties
 - Property Management
-- Real-Estate
+- Real Estate
 - REIT
 website: https://slgreen.com
 ---

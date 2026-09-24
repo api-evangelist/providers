@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -52,72 +52,72 @@ apis:
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The accounts API from Fermyon — 1 operation(s) for accounts.
-  name: Fermyon accounts API
+  name: Fermyon Accounts API
   slug: fermyon-accounts-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The apps API from Fermyon — 6 operation(s) for apps.
-  name: Fermyon apps API
+  name: Fermyon Apps API
   slug: fermyon-apps-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The auth-tokens API from Fermyon — 2 operation(s) for auth-tokens.
-  name: Fermyon auth-tokens API
+  name: Fermyon Auth Tokens API
   slug: fermyon-auth-tokens-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The channels API from Fermyon — 6 operation(s) for channels.
-  name: Fermyon channels API
+  name: Fermyon Channels API
   slug: fermyon-channels-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The custom-domains API from Fermyon — 1 operation(s) for custom-domains.
-  name: Fermyon custom-domains API
+  name: Fermyon Custom Domains API
   slug: fermyon-custom-domains-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The device-codes API from Fermyon — 3 operation(s) for device-codes.
-  name: Fermyon device-codes API
+  name: Fermyon Device Codes API
   slug: fermyon-device-codes-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The key-value-pairs API from Fermyon — 1 operation(s) for key-value-pairs.
-  name: Fermyon key-value-pairs API
+  name: Fermyon Key Value Pairs API
   slug: fermyon-key-value-pairs-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The key-value-stores API from Fermyon — 4 operation(s) for key-value-stores.
-  name: Fermyon key-value-stores API
+  name: Fermyon Key Value Stores API
   slug: fermyon-key-value-stores-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The oci API from Fermyon — 4 operation(s) for oci.
-  name: Fermyon oci API
+  name: Fermyon Oci API
   slug: fermyon-oci-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The payments API from Fermyon — 3 operation(s) for payments.
-  name: Fermyon payments API
+  name: Fermyon Payments API
   slug: fermyon-payments-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The personal-access-tokens API from Fermyon — 2 operation(s) for personal-access-tokens.
-  name: Fermyon personal-access-tokens API
+  name: Fermyon Personal Access Tokens API
   slug: fermyon-personal-access-tokens-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The revisions API from Fermyon — 1 operation(s) for revisions.
-  name: Fermyon revisions API
+  name: Fermyon Revisions API
   slug: fermyon-revisions-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The sql-databases API from Fermyon — 5 operation(s) for sql-databases.
-  name: Fermyon sql-databases API
+  name: Fermyon Sql Databases API
   slug: fermyon-sql-databases-api
 - baseURL: https://cloud.fermyon.com
   baseurl_source: declared
   description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
-  name: Fermyon variable-pairs API
+  name: Fermyon Variable Pairs API
   slug: fermyon-variable-pairs-api
 artifact_total: 38
 collections:
@@ -356,7 +356,7 @@ modified: '2026-09-09'
 name: Fermyon
 nav: Providers
 network: true
-overview: 'Fermyon publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, apps API, auth-tokens API, and 11 more. Tagged areas include Compute, Functions, WebAssembly, Serverless, and Edge Computing.
+overview: 'Fermyon publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Auth Tokens API, and 11 more. Tagged areas include Compute, Functions, WebAssembly, Serverless, and Edge Computing.
 
 
   Fermyon''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, CLI, changelog, and 31 more developer resources.'
@@ -399,7 +399,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

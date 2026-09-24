@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 0
   human_in_the_loop: 0
   name: Usgs Water Agentic Access
   operation_count: 284
   slug: usgs-water-agentic-access
-  summary_line: 284 operations · 35 acting
+  summary_line: 284 operations
 api_count: 1
 apis:
 - description: Provides near real-time water data — streamflow, gage height, temperature, specific conductance, and hundreds of other parameters — from thousands of USGS monitoring sites. Values are typically record
@@ -68,182 +68,182 @@ apis:
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Code identifying the agency or organization used for site information, data sources, and permitting agencies. Agency codes are fixed values assigned by the National Water Information System (NWIS).
-  name: USGS Water Services agency-codes API
+  name: USGS Water Services Agency Codes API
   slug: usgs-water-agency-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: The recommended vertical datum is NAVD88 (North American Vertical Datum of 1988) where applicable as stated in Office of Information Technical Memo 2002.01. NGVD29 (National Geodetic Vertical Datum of
-  name: USGS Water Services altitude-datums API
+  name: USGS Water Services Altitude Datums API
   slug: usgs-water-altitude-datums-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Local aquifers in USGS data are identified by an aquifer name and geohydrologic unit code (a three-digit number related to the age of the formation, followed by a 4 or 5 character abbreviation for the
-  name: USGS Water Services aquifer-codes API
+  name: USGS Water Services Aquifer Codes API
   slug: usgs-water-aquifer-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Groundwater occurs in aquifers under two different conditions. Where water only partly fills an aquifer, the upper surface is free to rise and decline. These aquifers are referred to as unconfined (or
-  name: USGS Water Services aquifer-types API
+  name: USGS Water Services Aquifer Types API
   slug: usgs-water-aquifer-types-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Channel measurements taken as part of streamflow field measurements.
-  name: USGS Water Services channel-measurements API
+  name: USGS Water Services Channel Measurements API
   slug: usgs-water-channel-measurements-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Citations associated with water measurement methods.
-  name: USGS Water Services citations API
+  name: USGS Water Services Citations API
   slug: usgs-water-citations-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: This endpoint combines metadata from timeseries and field measurements collections by site.
-  name: USGS Water Services combined-metadata API
+  name: USGS Water Services Combined Metadata API
   slug: usgs-water-combined-metadata-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Continuous data are collected via automated sensors installed at a monitoring location. They are collected at a high frequency and often at a fixed 15-minute interval. Depending on the specific monito
-  name: USGS Water Services continuous API
+  name: USGS Water Services Continuous API
   slug: usgs-water-continuous-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Appropriate code on the schedule to indicate the accuracy of the latitude-longitude values.
-  name: USGS Water Services coordinate-accuracy-codes API
+  name: USGS Water Services Coordinate Accuracy Codes API
   slug: usgs-water-coordinate-accuracy-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Horizontal datum code for the latitude/longitude coordinates. There are currently more than 300 horizontal datums available for entry.
-  name: USGS Water Services coordinate-datum-codes API
+  name: USGS Water Services Coordinate Datum Codes API
   slug: usgs-water-coordinate-datum-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Methods used to determine latitude-longitude values.
-  name: USGS Water Services coordinate-method-codes API
+  name: USGS Water Services Coordinate Method Codes API
   slug: usgs-water-coordinate-method-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: The name of the county or county equivalent (parish, borough, planning reagion, etc.) in which the site is located. List includes Census Bureau FIPS county codes, names and associated Country and Stat
-  name: USGS Water Services counties API
+  name: USGS Water Services Counties API
   slug: usgs-water-counties-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: FIPS country codes and names.
-  name: USGS Water Services countries API
+  name: USGS Water Services Countries API
   slug: usgs-water-countries-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
-  name: USGS Water Services daily API
+  name: USGS Water Services Daily API
   slug: usgs-water-daily-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
-  name: USGS Water Services field-measurements API
+  name: USGS Water Services Field Measurements API
   slug: usgs-water-field-measurements-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: This endpoint provides metadata about field measurement collections, including when the earliest and most recent observations for a parameter occurred at a monitoring location and its units.
-  name: USGS Water Services field-measurements-metadata API
+  name: USGS Water Services Field Measurements Metadata API
   slug: usgs-water-field-measurements-metadata-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: 'Hydrologic units are geographic areas representing part or all of a surface drainage basin or distinct hydrologic feature identified by a unique number (HUC), and a name. The United States is divided '
-  name: USGS Water Services hydrologic-unit-codes API
+  name: USGS Water Services Hydrologic Unit Codes API
   slug: usgs-water-hydrologic-unit-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: This endpoint provides the most recent observation for each time series of continuous data. Continuous data are collected via automated sensors installed at a monitoring location. They are collected a
-  name: USGS Water Services latest-continuous API
+  name: USGS Water Services Latest Continuous API
   slug: usgs-water-latest-continuous-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
-  name: USGS Water Services latest-daily API
+  name: USGS Water Services Latest Daily API
   slug: usgs-water-latest-daily-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
-  name: USGS Water Services latest-field-measurements API
+  name: USGS Water Services Latest Field Measurements API
   slug: usgs-water-latest-field-measurements-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Medium refers to the specific environmental medium from which the sample was collected. Medium type differs from site type because one site type, such as surface water, could have data for several med
-  name: USGS Water Services medium-codes API
+  name: USGS Water Services Medium Codes API
   slug: usgs-water-medium-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Categorical standards for methods describing the associated data's appropriateness for an intended use.
-  name: USGS Water Services method-categories API
+  name: USGS Water Services Method Categories API
   slug: usgs-water-method-categories-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Citation identifiers for water measurement methods.
-  name: USGS Water Services method-citations API
+  name: USGS Water Services Method Citations API
   slug: usgs-water-method-citations-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Water measurement or water-quality analytical methods. Codes and descriptions defining a method for calculating or measuring the value of a water quality or quantity parameter. Method codes are associ
-  name: USGS Water Services methods API
+  name: USGS Water Services Methods API
   slug: usgs-water-methods-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Location information is basic information about the monitoring location including the name, identifier, agency responsible for data collection, and the date the location was established. It also inclu
-  name: USGS Water Services monitoring-locations API
+  name: USGS Water Services Monitoring Locations API
   slug: usgs-water-monitoring-locations-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: National aquifers are the principal aquifers or aquifer systems in the United States, defined as regionally extensive aquifers or aquifer systems that have the potential to be used as a source of pota
-  name: USGS Water Services national-aquifer-codes API
+  name: USGS Water Services National Aquifer Codes API
   slug: usgs-water-national-aquifer-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Parameter codes are 5-digit codes and associated descriptions used to identify the constituent measured and the units of measure. Some parameter code definitions include information about the sampling
-  name: USGS Water Services parameter-codes API
+  name: USGS Water Services Parameter Codes API
   slug: usgs-water-parameter-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Annual peak flow values are the maximum instantaneous streamflow values recorded at a particular site for the entire water year from October 1 to September 30. Note that the annual peak flow value may
-  name: USGS Water Services peaks API
+  name: USGS Water Services Peaks API
   slug: usgs-water-peaks-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Code indicating the reliability of the data available for the site.
-  name: USGS Water Services reliability-codes API
+  name: USGS Water Services Reliability Codes API
   slug: usgs-water-reliability-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: These APIs provide OGC-compliant interfaces to USGS water data, letting you download continuous sensor measurements, discrete field measurements, metadata about monitoring locations, and more.
-  name: USGS Water Services server API
+  name: USGS Water Services Server API
   slug: usgs-water-server-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: The hydrologic cycle setting or a man-made feature thought to affect the hydrologic conditions measured at a site. Primary and secondary site types associated with data collection sites. All sites hav
-  name: USGS Water Services site-types API
+  name: USGS Water Services Site Types API
   slug: usgs-water-site-types-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: State name or territory. Includes U.S. states and foreign entities classified under FIPS as 'Principal Administrative Divisions'.
-  name: USGS Water Services states API
+  name: USGS Water Services States API
   slug: usgs-water-states-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: Statistic codes.
-  name: USGS Water Services statistic-codes API
+  name: USGS Water Services Statistic Codes API
   slug: usgs-water-statistic-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: 'Daily data and continuous measurements are grouped into time series, which represent a collection of observations of a single parameter, potentially aggregated using a standard statistic, at a single '
-  name: USGS Water Services time-series-metadata API
+  name: USGS Water Services Time Series Metadata API
   slug: usgs-water-time-series-metadata-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: The ISO 8601 standard defines time zone offsets as a numerical value added to a local time to convert it to Coordinated Universal Time (UTC), either as +hh:mm or -hh:mm, or represented by the letter Z
-  name: USGS Water Services time-zone-codes API
+  name: USGS Water Services Time Zone Codes API
   slug: usgs-water-time-zone-codes-api
 - baseURL: https://waterservices.usgs.gov/nwis/iv/
   baseurl_source: declared
   description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
-  name: USGS Water Services topographic-codes API
+  name: USGS Water Services Topographic Codes API
   slug: usgs-water-topographic-codes-api
 - description: Water quality and level info for rivers and lakes
   name: USGS Water Services
@@ -556,7 +556,7 @@ modified: '2026-06-13'
 name: USGS Water Services
 nav: Providers
 network: true
-overview: 'USGS Water Services publishes 36 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 33 more. Tagged areas include Water, Streamflow, Groundwater, Water Quality, and Hydrology.
+overview: 'USGS Water Services publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Agency Codes API, Altitude Datums API, Aquifer Codes API, and 33 more. Tagged areas include Water, Streamflow, Groundwater, Water Quality, and Hydrology.
 
 
   The USGS Water Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -593,7 +593,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 9.8
@@ -601,7 +601,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 63.0
     operational_transparency: 36.8
-  previous_composite: 46.9
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -616,7 +616,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -64,7 +64,7 @@ modified: '2026-04-26'
 name: CODE_OF_CONDUCT.md
 nav: Providers
 network: true
-overview: 'CODE_OF_CONDUCT.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Contributor Covenant, Governance, Open-Source, and Repository File.
+overview: 'CODE_OF_CONDUCT.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Community, Contributor Covenant, Governance, Open Source, and Repository File.
 
 
   CODE_OF_CONDUCT.md''s developer surface includes documentation and 10 more developer resources.'
@@ -80,7 +80,7 @@ tags:
 - Community
 - Contributor Covenant
 - Governance
-- Open-Source
+- Open Source
 - Repository File
 - Standards
 website: https://www.contributor-covenant.org/

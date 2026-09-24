@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-19'
 name: Apache BookKeeper
 nav: Providers
 network: true
-overview: 'Apache BookKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auto Recovery API, Bookies API, Configuration API, and 2 more. Tagged areas include Apache, Distributed Systems, Log Storage, Open-Source, and Storage.
+overview: 'Apache BookKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auto Recovery API, Bookies API, Configuration API, and 2 more. Tagged areas include Apache, Distributed Systems, Log Storage, Open Source, and Storage.
 
 
   The Apache BookKeeper catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -350,7 +350,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -370,7 +370,7 @@ tags:
 - Apache
 - Distributed Systems
 - Log Storage
-- Open-Source
+- Open Source
 - Storage
 - Streaming
 use_cases:

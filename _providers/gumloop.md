@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 23
   human_in_the_loop: 5
   name: Gumloop Agentic Access
   operation_count: 49
   slug: gumloop-agentic-access
-  summary_line: 49 operations · 24 acting · 5 human-in-the-loop
+  summary_line: 49 operations · 23 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.gumloop.com/api/v1
@@ -327,7 +327,7 @@ modified: '2026-07-19'
 name: Gumloop
 nav: Providers
 network: true
-overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow-Automation.
+overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Artifacts API, Brain API, and 11 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Workflow Automation.
 
 
   The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -370,7 +370,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -395,7 +395,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Agent Platform
 - MCP
 - LLM

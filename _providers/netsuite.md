@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
@@ -50,7 +50,7 @@ apis:
 - description: REST endpoint for executing SuiteQL (SQL-like) queries against NetSuite records and transactions for reporting and integration use cases. Returns paginated JSON results and uses the same OAuth 2.0 flo
   name: Oracle NetSuite SuiteQL Query API
   slug: suiteql-query-api
-artifact_total: 8
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/netsuite/refs/heads/main/security/netsuite-domain-security.yml
@@ -87,13 +87,6 @@ common:
   url: https://www.netsuite.com/portal/forms/free-product-tour.shtml
 created: '2026-05-11'
 description: Oracle NetSuite is a cloud-based business management suite that combines ERP, financials, CRM, inventory, supply chain, ecommerce, and human capital management into a single platform for mid-market and enterprise companies. NetSuite's SuiteCloud platform exposes both REST web services (SuiteTalk REST, with OpenAPI 3.0 metadata, SuiteQL queries, and CRUD on standard and custom records) and SOAP web services (SuiteTalk SOAP), plus the RESTlets framework for exposing custom server-side SuiteScript as REST endpoints.
-graphqls:
-- description: This conceptual GraphQL schema represents the Oracle NetSuite cloud ERP data model, derived from the SuiteTalk REST Web Services API, REST Record API, SuiteAnalytics Connect, and the SuiteQL query lay
-  name: Oracle NetSuite GraphQL Schema
-  slug: netsuite-graphql
-- description: This conceptual GraphQL schema represents the Oracle NetSuite ERP platform, covering financials, accounting, order management, inventory, CRM, HR, and professional services automation. The schema is d
-  name: Oracle NetSuite GraphQL Schema
-  slug: oracle-netsuite-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netsuite.png
 layout: provider
 modified: '2026-05-11'
@@ -107,26 +100,26 @@ overview: 'Oracle NetSuite publishes 5 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 1
 score:
   band: emerging
-  composite: 24.6
+  composite: 14.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 74.1
     operational_transparency: 2.6
   previous_composite: 24.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

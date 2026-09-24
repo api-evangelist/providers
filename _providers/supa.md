@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ modified: '2026-07-21'
 name: SUPA
 nav: Providers
 network: true
-overview: 'SUPA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Labeling, Data Annotation, Training Data, and Machine-Learning.
+overview: 'SUPA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Labeling, Data Annotation, Training Data, and Machine Learning.
 
 
   SUPA''s developer surface includes engineering blog and 3 more developer resources.'
@@ -87,7 +87,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -105,10 +105,10 @@ tags:
 - Data Labeling
 - Data Annotation
 - Training Data
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Data Curation
 - RLHF
-- Computer-Vision
+- Computer Vision
 website: https://supa.so
 ---

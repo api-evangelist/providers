@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
   description: The AWS WAFV2 API API from AWS WAF — 1 operation(s) for aws wafv2 api.
   name: AWS WAF AWS WAFV2 API
   slug: aws-waf-aws-wafv2-api-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -111,10 +111,6 @@ common:
   url: https://aws.amazon.com/blogs/networking-and-content-delivery/feed/
 created: '2026-05-11'
 description: AWS WAF is a web application firewall that monitors and controls HTTP and HTTPS requests forwarded to protected resources such as Amazon CloudFront distributions, API Gateway REST APIs, Application Load Balancers, AWS AppSync GraphQL APIs, Cognito user pools, App Runner services, Amplify applications, and Verified Access instances. It enables rule-based blocking, rate limiting, and managed rule groups to defend against common web exploits. The AWS WAFV2 API and AWS SDKs provide programmatic access using AWS Signature Version 4 authentication.
-graphqls:
-- description: ''
-  name: AWS WAF GraphQL API
-  slug: aws-waf-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-waf.png
 layout: provider
 modified: '2026-09-16'
@@ -130,7 +126,7 @@ score:
   band: thin
   composite: 31.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -153,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

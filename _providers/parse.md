@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
@@ -180,7 +180,7 @@ modified: '2026-07-20'
 name: Parse
 nav: Providers
 network: true
-overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Mobile, Open-Source, and REST API.
+overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Mobile, Open Source, and REST API.
 
 
   The Parse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,7 +211,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -236,7 +236,7 @@ tags:
 - Company
 - Backend-as-a-Service
 - Mobile
-- Open-Source
+- Open Source
 - REST API
 - Database
 - Authentication

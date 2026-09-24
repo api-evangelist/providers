@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Openssf Agentic Access
   operation_count: 6
   slug: openssf-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations · 1 acting
 api_count: 2
 apis:
 - description: Sigstore is an OpenSSF-hosted standard and service for signing, verifying, and protecting software. The public-good Sigstore instance exposes Fulcio (code-signing certificate authority) and Rekor (tra
@@ -204,7 +204,7 @@ modified: '2026-05-19'
 name: OpenSSF
 nav: Providers
 network: true
-overview: 'OpenSSF publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 2 more. Tagged areas include Linux Foundation, Open-Source, Security, Supply Chain, and Vulnerabilities.
+overview: 'OpenSSF publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Query API, Querybatch API, and 2 more. Tagged areas include Linux Foundation, Open Source, Security, Supply Chain, and Vulnerabilities.
 
 
   The OpenSSF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -235,7 +235,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -258,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -272,7 +272,7 @@ security:
 slug: openssf
 tags:
 - Linux Foundation
-- Open-Source
+- Open Source
 - Security
 - Supply Chain
 - Vulnerabilities

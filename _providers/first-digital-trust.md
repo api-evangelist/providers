@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'First Digital''s RESTful API suite for programmatic access to its trust and custody data and services. The provider''s product page describes seven capability areas: client onboarding (business and indi'
@@ -170,7 +170,7 @@ modified: '2026-08-12'
 name: First Digital Trust
 nav: Providers
 network: true
-overview: 'First Digital Trust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Custody, Trust Services, and Financial-Services.
+overview: 'First Digital Trust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Custody, Trust Services, and Financial Services.
 
 
   The First Digital Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -219,7 +219,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -245,7 +245,7 @@ tags:
 - Digital Assets
 - Custody
 - Trust Services
-- Financial-Services
+- Financial Services
 - Banking
 - Payments
 - Compliance

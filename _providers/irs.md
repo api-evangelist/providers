@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: Allows payers to submit Taxpayer Identification Number (TIN) and name combinations to be matched against IRS records before filing information returns. Supports interactive matching of up to 25 combin
@@ -121,7 +121,7 @@ modified: '2026-06-13'
 name: IRS
 nav: Providers
 network: true
-overview: 'IRS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IRS, Tax, Federal-Government, TIN Matching, and Income Verification.
+overview: 'IRS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IRS, Tax, Federal Government, TIN Matching, and Income Verification.
 
 
   IRS''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
@@ -160,7 +160,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ slug: irs
 tags:
 - IRS
 - Tax
-- Federal-Government
+- Federal Government
 - TIN Matching
 - Income Verification
 - Information Returns

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -181,7 +181,7 @@ modified: '2026-07-26'
 name: RE/MAX
 nav: Providers
 network: true
-overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Europe Datahub API and Europe Listings API. Tagged areas include Real-Estate, United States, Brokerage, Property Listings, and MLS.
+overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Europe Datahub API and Europe Listings API. Tagged areas include Real Estate, United States, Brokerage, Property Listings, and MLS.
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
@@ -223,7 +223,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: re-max
 tags:
-- Real-Estate
+- Real Estate
 - United States
 - Brokerage
 - Property Listings

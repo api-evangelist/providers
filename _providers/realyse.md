@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Data API delivering a constant feed of UK residential property data across Planning & Policy, Demographics, Market, Land & Ownership, and Amenities endpoints. Onboarded via the REalyse sales team; no '
@@ -89,7 +89,7 @@ modified: '2026-07-20'
 name: REalyse
 nav: Providers
 network: true
-overview: 'REalyse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property, Real-Estate, Data, and Analytics.
+overview: 'REalyse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property, Real Estate, Data, and Analytics.
 
 
   REalyse''s developer surface includes documentation, API reference, signup flow, and 7 more developer resources.'
@@ -124,7 +124,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ slug: realyse
 tags:
 - Company
 - Property
-- Real-Estate
+- Real Estate
 - Data
 - Analytics
 - Geospatial

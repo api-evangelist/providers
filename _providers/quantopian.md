@@ -55,7 +55,7 @@ tags:
 - Quantitative Finance
 - Fintech
 - Backtesting
-- Open-Source
+- Open Source
 - Python
 - Investing
 - Defunct

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/codeguru/reviewer/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/mcp/amazon-codeguru-reviewer-mcp.yml
   title: ''
@@ -1153,7 +1153,7 @@ modified: '2026-09-16'
 name: Amazon CodeGuru Reviewer
 nav: Providers
 network: true
-overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Associations API, Codereviews API, Codereviews#Type API, and 2 more. Tagged areas include Amazon, Code Review, Security, DevOps, and Machine-Learning.
+overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Associations API, Codereviews API, Codereviews#Type API, and 2 more. Tagged areas include Amazon, Code Review, Security, DevOps, and Machine Learning.
 
 
   The Amazon CodeGuru Reviewer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1212,7 +1212,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1241,7 +1241,7 @@ tags:
 - Code Review
 - Security
 - DevOps
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 use_cases:
 - description: Automatically detect security issues in code changes before they reach production, reducing security review burden on developers.
@@ -1250,5 +1250,5 @@ use_cases:
   name: Automated Code Quality Enforcement
 - description: Help developers identify and fix common coding errors and anti-patterns earlier in the development cycle.
   name: Developer Productivity
-website: https://amazon.com
+website: https://aws.amazon.com/codeguru/reviewer/
 ---

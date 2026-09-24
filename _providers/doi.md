@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 0
   human_in_the_loop: 0
   name: Doi Agentic Access
-  operation_count: 284
+  operation_count: 295
   slug: doi-agentic-access
-  summary_line: 284 operations · 35 acting
+  summary_line: 295 operations
 api_count: 1
 apis:
 - description: The National Park Service Data API provides authoritative data about NPS sites including parks, alerts, campgrounds, events, visitor centers, news releases, articles, and educational lesson plans. Acc
@@ -63,182 +63,182 @@ apis:
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Code identifying the agency or organization used for site information, data sources, and permitting agencies. Agency codes are fixed values assigned by the National Water Information System (NWIS).
-  name: Department of Interior agency-codes API
+  name: Department of Interior Agency Codes API
   slug: doi-agency-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: The recommended vertical datum is NAVD88 (North American Vertical Datum of 1988) where applicable as stated in Office of Information Technical Memo 2002.01. NGVD29 (National Geodetic Vertical Datum of
-  name: Department of Interior altitude-datums API
+  name: Department of Interior Altitude Datums API
   slug: doi-altitude-datums-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Local aquifers in USGS data are identified by an aquifer name and geohydrologic unit code (a three-digit number related to the age of the formation, followed by a 4 or 5 character abbreviation for the
-  name: Department of Interior aquifer-codes API
+  name: Department of Interior Aquifer Codes API
   slug: doi-aquifer-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Groundwater occurs in aquifers under two different conditions. Where water only partly fills an aquifer, the upper surface is free to rise and decline. These aquifers are referred to as unconfined (or
-  name: Department of Interior aquifer-types API
+  name: Department of Interior Aquifer Types API
   slug: doi-aquifer-types-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Channel measurements taken as part of streamflow field measurements.
-  name: Department of Interior channel-measurements API
+  name: Department of Interior Channel Measurements API
   slug: doi-channel-measurements-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Citations associated with water measurement methods.
-  name: Department of Interior citations API
+  name: Department of Interior Citations API
   slug: doi-citations-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: This endpoint combines metadata from timeseries and field measurements collections by site.
-  name: Department of Interior combined-metadata API
+  name: Department of Interior Combined Metadata API
   slug: doi-combined-metadata-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Continuous data are collected via automated sensors installed at a monitoring location. They are collected at a high frequency and often at a fixed 15-minute interval. Depending on the specific monito
-  name: Department of Interior continuous API
+  name: Department of Interior Continuous API
   slug: doi-continuous-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Appropriate code on the schedule to indicate the accuracy of the latitude-longitude values.
-  name: Department of Interior coordinate-accuracy-codes API
+  name: Department of Interior Coordinate Accuracy Codes API
   slug: doi-coordinate-accuracy-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Horizontal datum code for the latitude/longitude coordinates. There are currently more than 300 horizontal datums available for entry.
-  name: Department of Interior coordinate-datum-codes API
+  name: Department of Interior Coordinate Datum Codes API
   slug: doi-coordinate-datum-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Methods used to determine latitude-longitude values.
-  name: Department of Interior coordinate-method-codes API
+  name: Department of Interior Coordinate Method Codes API
   slug: doi-coordinate-method-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: The name of the county or county equivalent (parish, borough, planning reagion, etc.) in which the site is located. List includes Census Bureau FIPS county codes, names and associated Country and Stat
-  name: Department of Interior counties API
+  name: Department of Interior Counties API
   slug: doi-counties-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: FIPS country codes and names.
-  name: Department of Interior countries API
+  name: Department of Interior Countries API
   slug: doi-countries-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
-  name: Department of Interior daily API
+  name: Department of Interior Daily API
   slug: doi-daily-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
-  name: Department of Interior field-measurements API
+  name: Department of Interior Field Measurements API
   slug: doi-field-measurements-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: This endpoint provides metadata about field measurement collections, including when the earliest and most recent observations for a parameter occurred at a monitoring location and its units.
-  name: Department of Interior field-measurements-metadata API
+  name: Department of Interior Field Measurements Metadata API
   slug: doi-field-measurements-metadata-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: 'Hydrologic units are geographic areas representing part or all of a surface drainage basin or distinct hydrologic feature identified by a unique number (HUC), and a name. The United States is divided '
-  name: Department of Interior hydrologic-unit-codes API
+  name: Department of Interior Hydrologic Unit Codes API
   slug: doi-hydrologic-unit-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: This endpoint provides the most recent observation for each time series of continuous data. Continuous data are collected via automated sensors installed at a monitoring location. They are collected a
-  name: Department of Interior latest-continuous API
+  name: Department of Interior Latest Continuous API
   slug: doi-latest-continuous-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
-  name: Department of Interior latest-daily API
+  name: Department of Interior Latest Daily API
   slug: doi-latest-daily-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
-  name: Department of Interior latest-field-measurements API
+  name: Department of Interior Latest Field Measurements API
   slug: doi-latest-field-measurements-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Medium refers to the specific environmental medium from which the sample was collected. Medium type differs from site type because one site type, such as surface water, could have data for several med
-  name: Department of Interior medium-codes API
+  name: Department of Interior Medium Codes API
   slug: doi-medium-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Categorical standards for methods describing the associated data's appropriateness for an intended use.
-  name: Department of Interior method-categories API
+  name: Department of Interior Method Categories API
   slug: doi-method-categories-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Citation identifiers for water measurement methods.
-  name: Department of Interior method-citations API
+  name: Department of Interior Method Citations API
   slug: doi-method-citations-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Water measurement or water-quality analytical methods. Codes and descriptions defining a method for calculating or measuring the value of a water quality or quantity parameter. Method codes are associ
-  name: Department of Interior methods API
+  name: Department of Interior Methods API
   slug: doi-methods-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Location information is basic information about the monitoring location including the name, identifier, agency responsible for data collection, and the date the location was established. It also inclu
-  name: Department of Interior monitoring-locations API
+  name: Department of Interior Monitoring Locations API
   slug: doi-monitoring-locations-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: National aquifers are the principal aquifers or aquifer systems in the United States, defined as regionally extensive aquifers or aquifer systems that have the potential to be used as a source of pota
-  name: Department of Interior national-aquifer-codes API
+  name: Department of Interior National Aquifer Codes API
   slug: doi-national-aquifer-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Parameter codes are 5-digit codes and associated descriptions used to identify the constituent measured and the units of measure. Some parameter code definitions include information about the sampling
-  name: Department of Interior parameter-codes API
+  name: Department of Interior Parameter Codes API
   slug: doi-parameter-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Annual peak flow values are the maximum instantaneous streamflow values recorded at a particular site for the entire water year from October 1 to September 30. Note that the annual peak flow value may
-  name: Department of Interior peaks API
+  name: Department of Interior Peaks API
   slug: doi-peaks-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Code indicating the reliability of the data available for the site.
-  name: Department of Interior reliability-codes API
+  name: Department of Interior Reliability Codes API
   slug: doi-reliability-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: These APIs provide OGC-compliant interfaces to USGS water data, letting you download continuous sensor measurements, discrete field measurements, metadata about monitoring locations, and more.
-  name: Department of Interior server API
+  name: Department of Interior Server API
   slug: doi-server-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: The hydrologic cycle setting or a man-made feature thought to affect the hydrologic conditions measured at a site. Primary and secondary site types associated with data collection sites. All sites hav
-  name: Department of Interior site-types API
+  name: Department of Interior Site Types API
   slug: doi-site-types-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: State name or territory. Includes U.S. states and foreign entities classified under FIPS as 'Principal Administrative Divisions'.
-  name: Department of Interior states API
+  name: Department of Interior States API
   slug: doi-states-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Statistic codes.
-  name: Department of Interior statistic-codes API
+  name: Department of Interior Statistic Codes API
   slug: doi-statistic-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: 'Daily data and continuous measurements are grouped into time series, which represent a collection of observations of a single parameter, potentially aggregated using a standard statistic, at a single '
-  name: Department of Interior time-series-metadata API
+  name: Department of Interior Time Series Metadata API
   slug: doi-time-series-metadata-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: The ISO 8601 standard defines time zone offsets as a numerical value added to a local time to convert it to Coordinated Universal Time (UTC), either as +hh:mm or -hh:mm, or represented by the letter Z
-  name: Department of Interior time-zone-codes API
+  name: Department of Interior Time Zone Codes API
   slug: doi-time-zone-codes-api
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
-  name: Department of Interior topographic-codes API
+  name: Department of Interior Topographic Codes API
   slug: doi-topographic-codes-api
 - description: Department-wide open-data catalog at data.doi.gov, including datasets from all Interior bureaus.
   name: DOI Open Data Catalog
@@ -525,7 +525,7 @@ modified: '2026-06-13'
 name: Department of Interior
 nav: Providers
 network: true
-overview: 'Department of Interior publishes 46 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 43 more. Tagged areas include Federal-Government, National Parks, Federal Lands, Water Resources, and Wildlife.
+overview: 'Department of Interior publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Agency Codes API, Altitude Datums API, Aquifer Codes API, and 43 more. Tagged areas include Federal Government, National Parks, Federal Lands, Water Resources, and Wildlife.
 
 
   The Department of Interior catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -562,7 +562,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
@@ -570,7 +570,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 63.0
     operational_transparency: 5.3
-  previous_composite: 37.2
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -585,7 +585,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -602,7 +602,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: doi
 tags:
-- Federal-Government
+- Federal Government
 - National Parks
 - Federal Lands
 - Water Resources

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The FOSSA REST API lets you build integrations and automate open source management workflows — manage projects, revisions, issues, users and teams, release groups, and reports; initiate binary scans; '
@@ -185,7 +185,7 @@ modified: '2026-07-19'
 name: Fossa
 nav: Providers
 network: true
-overview: 'Fossa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Software Supply Chain, Open-Source, and License Compliance.
+overview: 'Fossa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Software Supply Chain, Open Source, and License Compliance.
 
 
   The Fossa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -216,7 +216,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ tags:
 - Company
 - Security
 - Software Supply Chain
-- Open-Source
+- Open Source
 - License Compliance
 - Vulnerability Management
 - SBOM

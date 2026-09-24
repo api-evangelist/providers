@@ -18,13 +18,13 @@ modified: '2026-07-21'
 name: SumAll
 nav: Providers
 network: true
-overview: SumAll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social-Media, Marketing, and Defunct.
+overview: SumAll is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social Media, Marketing, and Defunct.
 random_paper: 16
 slug: sumall
 tags:
 - Company
 - Analytics
-- Social-Media
+- Social Media
 - Marketing
 - Defunct
 ---

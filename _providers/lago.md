@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -256,7 +256,7 @@ modified: '2026-05-19'
 name: Lago
 nav: Providers
 network: true
-overview: 'Lago publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open-Source, and Usage-Based.
+overview: 'Lago publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open Source, and Usage-Based.
 
 
   Lago''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -297,7 +297,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -324,7 +324,7 @@ slug: lago
 tags:
 - Billing
 - Metering
-- Open-Source
+- Open Source
 - Usage-Based
 website: https://getlago.com/
 ---

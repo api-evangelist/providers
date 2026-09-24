@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The GraphQL API behind the BillGO Exchange biller portal. A live graphql-java server answers POST requests at https://exchange.billgo.com/graphql; schema introspection is disabled by the server, so no
@@ -150,7 +150,7 @@ modified: '2026-08-07'
 name: BillGO
 nav: Providers
 network: true
-overview: 'BillGO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Bill Pay, Financial-Services, Banking, and ACH.
+overview: 'BillGO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Bill Pay, Financial Services, Banking, and ACH.
 
 
   BillGO''s developer surface includes engineering blog, support, signup flow, authentication, and 15 more developer resources.'
@@ -188,7 +188,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ slug: billgo
 tags:
 - Payments
 - Bill Pay
-- Financial-Services
+- Financial Services
 - Banking
 - ACH
 - Virtual Cards

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 85
+- acting_count: 82
   human_in_the_loop: 2
   name: Ebay Agentic Access
-  operation_count: 200
+  operation_count: 199
   slug: ebay-agentic-access
-  summary_line: 200 operations · 85 acting · 2 human-in-the-loop
+  summary_line: 199 operations · 82 acting · 2 human-in-the-loop
 api_count: 25
 apis:
 - baseURL: https://api.ebay.com
@@ -2176,7 +2176,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

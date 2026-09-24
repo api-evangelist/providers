@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface), dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deplo
@@ -97,7 +97,7 @@ modified: '2026-08-21'
 name: Lepton AI
 nav: Providers
 network: true
-overview: 'Lepton AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Cloud, and GPU.
+overview: 'Lepton AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Cloud, and GPU.
 
 
   Lepton AI''s developer surface includes documentation and 9 more developer resources.'
@@ -130,7 +130,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ security:
 slug: lepton-ai
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - Cloud
 - GPU

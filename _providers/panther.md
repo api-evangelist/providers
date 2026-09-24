@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The alert api handles all operations for alerts
-  name: Panther alert API
+  name: Panther Alert API
   slug: panther-alert-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
@@ -62,12 +62,12 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The comment api handles all operations for alerts comments
-  name: Panther comment API
+  name: Panther Comment API
   slug: panther-comment-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The context tag API handles all operations for alert context tags
-  name: Panther contexttag API
+  name: Panther Contexttag API
   slug: panther-contexttag-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
@@ -87,7 +87,7 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The global api handles all operations for globals
-  name: Panther global API
+  name: Panther Global API
   slug: panther-global-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
@@ -107,7 +107,7 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The policy api handles all operations for policies
-  name: Panther policy API
+  name: Panther Policy API
   slug: panther-policy-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
@@ -117,17 +117,17 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The query api handles operations for queries
-  name: Panther query API
+  name: Panther Query API
   slug: panther-query-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The role api handles all operations for roles
-  name: Panther role API
+  name: Panther Role API
   slug: panther-role-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The rule api handles all operations for rules
-  name: Panther rule API
+  name: Panther Rule API
   slug: panther-rule-api
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
@@ -147,7 +147,7 @@ apis:
 - baseURL: https://api.your-panther-host
   baseurl_source: declared
   description: The user api handles all operations for users
-  name: Panther user API
+  name: Panther User API
   slug: panther-user-api
 artifact_total: 49
 asyncapis:
@@ -361,7 +361,7 @@ modified: '2026-07-20'
 name: Panther
 nav: Providers
 network: true
-overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network, including alert API, api token API, aws cloud account API, and 18 more. Tagged areas include Company, Security, SIEM, Detection and Response, and Security Operations.
+overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alert API, api token API, aws cloud account API, and 18 more. Tagged areas include Company, Security, SIEM, Detection and Response, and Security Operations.
 
 
   The Panther catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -399,7 +399,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

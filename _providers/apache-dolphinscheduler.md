@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -199,7 +199,7 @@ modified: '2026-04-19'
 name: Apache DolphinScheduler
 nav: Providers
 network: true
-overview: 'Apache DolphinScheduler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, DAG, Data Pipeline, Open-Source, and Orchestration.
+overview: 'Apache DolphinScheduler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, DAG, Data Pipeline, Open Source, and Orchestration.
 
 
   The Apache DolphinScheduler catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -249,7 +249,7 @@ score:
     score: 100.0
   previous_composite: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ tags:
 - Apache
 - DAG
 - Data Pipeline
-- Open-Source
+- Open Source
 - Orchestration
 - Python
 - Scheduling

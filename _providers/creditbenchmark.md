@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 18
+- acting_count: 17
   human_in_the_loop: 0
   name: Creditbenchmark Agentic Access
   operation_count: 23
   slug: creditbenchmark-agentic-access
-  summary_line: 23 operations · 18 acting
+  summary_line: 23 operations · 17 acting
 api_count: 2
 apis:
 - baseURL: https://api.creditbenchmark.com
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

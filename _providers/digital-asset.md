@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - baseURL: https://api.utilities.digitalasset.com
@@ -235,7 +235,7 @@ modified: '2026-08-04'
 name: Digital Asset
 nav: Providers
 network: true
-overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial-Services, and Distributed Ledger.
+overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
 
 
   Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
@@ -269,7 +269,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -297,12 +297,13 @@ tags:
 - Blockchain
 - Tokenization
 - Digital Assets
-- Financial-Services
+- Financial Services
 - Distributed Ledger
 - Smart Contracts
 - Capital Markets
 - Canton Network
 - Daml
 - Stablecoins
+- A2A
 website: https://www.digitalasset.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -46,37 +46,37 @@ apis:
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: Account management
-  name: Safello account API
+  name: Safello Account API
   slug: safello-account-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: Authentication flow
-  name: Safello auth API
+  name: Safello Auth API
   slug: safello-auth-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: User's compliance information/status
-  name: Safello compliance API
+  name: Safello Compliance API
   slug: safello-compliance-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: Market endpoints
-  name: Safello market API
+  name: Safello Market API
   slug: safello-market-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: Buy and sell crypto
-  name: Safello orders API
+  name: Safello Orders API
   slug: safello-orders-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: Price endpoints
-  name: Safello prices API
+  name: Safello Prices API
   slug: safello-prices-api
 - baseURL: https://api.safello.com
   baseurl_source: declared
   description: User's wallet
-  name: Safello wallet API
+  name: Safello Wallet API
   slug: safello-wallet-api
 arazzos:
 - description: Verify buy compliance, quote fees, create a buy order, and poll it to completion.
@@ -263,7 +263,7 @@ modified: '2026-07-21'
 name: Safello
 nav: Providers
 network: true
-overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, including account API, auth API, compliance API, and 4 more. Tagged areas include Company, Fintech, Cryptocurrency, Bitcoin, and Brokerage.
+overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Compliance API, and 4 more. Tagged areas include Company, Fintech, Cryptocurrency, Bitcoin, and Brokerage.
 
 
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
@@ -317,7 +317,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

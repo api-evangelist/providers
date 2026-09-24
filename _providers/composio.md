@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 60
+- acting_count: 58
   human_in_the_loop: 3
   name: Composio Agentic Access
   operation_count: 107
   slug: composio-agentic-access
-  summary_line: 107 operations · 60 acting · 3 human-in-the-loop
+  summary_line: 107 operations · 58 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://backend.composio.dev/api/v3
@@ -774,7 +774,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -802,7 +802,7 @@ tags:
 - Sandbox
 - Tools
 - Triggers
-- Unified-API
+- Unified API
 - Webhook
 website: https://www.composio.dev/
 ---

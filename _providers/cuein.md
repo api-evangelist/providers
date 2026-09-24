@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,12 +49,12 @@ apis:
 - baseURL: https://api.cuein.ai/answers/v1
   baseurl_source: declared
   description: APIs for getting answers
-  name: Cuein answers API
+  name: Cuein Answers API
   slug: cuein-answers-api
 - baseURL: https://api.cuein.ai/insights/v1
   baseurl_source: declared
   description: APIs for retrieving customer-support interaction insights
-  name: Cuein conversations API
+  name: Cuein Conversations API
   slug: cuein-conversations-api
 artifact_total: 11
 collections:
@@ -215,7 +215,7 @@ modified: '2026-08-14'
 name: Cuein
 nav: Providers
 network: true
-overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer-Support, Conversation Intelligence, and Generative AI.
+overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: Answers API and Conversations API. Tagged areas include Company, Customer Experience, Customer Support, Conversation Intelligence, and Generative AI.
 
 
   Cuein''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 25 more developer resources.'
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -282,7 +282,7 @@ slug: cuein
 tags:
 - Company
 - Customer Experience
-- Customer-Support
+- Customer Support
 - Conversation Intelligence
 - Generative AI
 - Insights

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://api.carmd.com/
@@ -159,7 +159,7 @@ modified: '2026-08-27'
 name: CarMD
 nav: Providers
 network: true
-overview: 'CarMD publishes 1 API on the [APIs.io](https://apis.io/) network: Vehicle API. Tagged areas include Automobiles, Cars, Diagnostics, Vehicles, and Automotive.
+overview: 'CarMD publishes 1 API on the [APIs.io](https://apis.io/) network: Vehicle API. Tagged areas include Automobiles, Cars, Vehicles, Automotive, and OBD-II.
 
 
   CarMD''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
@@ -201,7 +201,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,12 +221,12 @@ slug: carmd
 tags:
 - Automobiles
 - Cars
-- Diagnostics
 - Vehicles
 - Automotive
 - OBD-II
 - Agentic Commerce
 - MCP
 - E-Commerce
+- Vehicle Diagnostics
 website: https://carmd.com/
 ---

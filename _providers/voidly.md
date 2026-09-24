@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
@@ -75,7 +75,7 @@ modified: '2026-05-28'
 name: Voidly
 nav: Providers
 network: true
-overview: 'Voidly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
+overview: 'Voidly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Public APIs, and A2A.
 
 
   Voidly''s developer surface includes support and 5 more developer resources.'
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -128,5 +128,6 @@ slug: voidly
 tags:
 - Open Data
 - Public APIs
+- A2A
 website: https://voidly.ai/api-docs
 ---

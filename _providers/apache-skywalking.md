@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The SkyWalking GraphQL Query API provides a comprehensive query interface for retrieving observability data including traces, metrics, logs, alarms, topology maps, and profiling results. It supports m
@@ -220,7 +220,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -244,7 +244,7 @@ tags:
 - Distributed Tracing
 - Monitoring
 - Observability
-- Open-Source
+- Open Source
 - Tracing
 use_cases:
 - description: End-to-end monitoring and tracing for microservices architectures in Kubernetes.

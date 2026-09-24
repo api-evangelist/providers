@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -112,7 +112,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/amazon-mq/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/capabilities/amazon-mq-capability-edges.yml
   title: ''
@@ -900,7 +900,7 @@ modified: '2026-09-16'
 name: Amazon MQ
 nav: Providers
 network: true
-overview: 'Amazon MQ publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Broker Engine Types API, Broker Instance Options API, Brokers API, and 2 more. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon MQ publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Broker Engine Types API, Broker Instance Options API, Brokers API, and 2 more. Tagged areas include Message Queue, Messaging, Message Broker, and RabbitMQ.
 
 
   The Amazon MQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -965,7 +965,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -990,9 +990,10 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-mq
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Message Queue
+- Messaging
+- Message Broker
+- RabbitMQ
 use_cases:
 - description: Migrate on-premises ActiveMQ or RabbitMQ workloads to AWS without code changes.
   name: Application Migration
@@ -1002,5 +1003,5 @@ use_cases:
   name: Enterprise Integration
 - description: Build event-driven applications with reliable message delivery.
   name: Event-Driven Architecture
-website: https://amazon.com
+website: https://aws.amazon.com/amazon-mq/
 ---

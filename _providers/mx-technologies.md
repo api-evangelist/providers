@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 143
+- acting_count: 96
   human_in_the_loop: 0
   name: Mx Technologies Agentic Access
-  operation_count: 335
+  operation_count: 221
   slug: mx-technologies-agentic-access
-  summary_line: 335 operations · 143 acting
+  summary_line: 221 operations · 96 acting
 api_count: 2
 apis:
 - description: The legacy MX financial data connectivity API supporting over 48,000 data connections to thousands of financial institutions. Provides secure access to user accounts and transactions with industry-lea
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The accounts API from MX Technologies — 13 operation(s) for accounts.
-  name: MX Technologies accounts API
+  name: MX Technologies Accounts API
   slug: mx-technologies-accounts-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -72,27 +72,27 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The budgets API from MX Technologies — 3 operation(s) for budgets.
-  name: MX Technologies budgets API
+  name: MX Technologies Budgets API
   slug: mx-technologies-budgets-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The categories API from MX Technologies — 5 operation(s) for categories.
-  name: MX Technologies categories API
+  name: MX Technologies Categories API
   slug: mx-technologies-categories-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The goals API from MX Technologies — 3 operation(s) for goals.
-  name: MX Technologies goals API
+  name: MX Technologies Goals API
   slug: mx-technologies-goals-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The insights API from MX Technologies — 9 operation(s) for insights.
-  name: MX Technologies insights API
+  name: MX Technologies Insights API
   slug: mx-technologies-insights-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The institutions API from MX Technologies — 5 operation(s) for institutions.
-  name: MX Technologies institutions API
+  name: MX Technologies Institutions API
   slug: mx-technologies-institutions-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -112,17 +112,17 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The members API from MX Technologies — 20 operation(s) for members.
-  name: MX Technologies members API
+  name: MX Technologies Members API
   slug: mx-technologies-members-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The merchants API from MX Technologies — 3 operation(s) for merchants.
-  name: MX Technologies merchants API
+  name: MX Technologies Merchants API
   slug: mx-technologies-merchants-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The microdeposits API from MX Technologies — 4 operation(s) for microdeposits.
-  name: MX Technologies microdeposits API
+  name: MX Technologies Microdeposits API
   slug: mx-technologies-microdeposits-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -132,7 +132,7 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The notifications API from MX Technologies — 2 operation(s) for notifications.
-  name: MX Technologies notifications API
+  name: MX Technologies Notifications API
   slug: mx-technologies-notifications-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -142,7 +142,7 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The rewards API from MX Technologies — 5 operation(s) for rewards.
-  name: MX Technologies rewards API
+  name: MX Technologies Rewards API
   slug: mx-technologies-rewards-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -152,17 +152,17 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The statements API from MX Technologies — 5 operation(s) for statements.
-  name: MX Technologies statements API
+  name: MX Technologies Statements API
   slug: mx-technologies-statements-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The taggings API from MX Technologies — 2 operation(s) for taggings.
-  name: MX Technologies taggings API
+  name: MX Technologies Taggings API
   slug: mx-technologies-taggings-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The tags API from MX Technologies — 2 operation(s) for tags.
-  name: MX Technologies tags API
+  name: MX Technologies Tags API
   slug: mx-technologies-tags-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -172,12 +172,12 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The transactions API from MX Technologies — 19 operation(s) for transactions.
-  name: MX Technologies transactions API
+  name: MX Technologies Transactions API
   slug: mx-technologies-transactions-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The users API from MX Technologies — 3 operation(s) for users.
-  name: MX Technologies users API
+  name: MX Technologies Users API
   slug: mx-technologies-users-api
 - baseURL: https://api.mx.com
   baseurl_source: declared
@@ -187,9 +187,9 @@ apis:
 - baseURL: https://api.mx.com
   baseurl_source: declared
   description: The widgets API from MX Technologies — 4 operation(s) for widgets.
-  name: MX Technologies widgets API
+  name: MX Technologies Widgets API
   slug: mx-technologies-widgets-api
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Mx Technologies Webhooks
@@ -494,10 +494,6 @@ finops:
 - name: Mx Technologies Finops
   service_category: ''
   slug: mx-technologies-finops
-graphqls:
-- description: MX Technologies does not publish a native GraphQL API. This schema is a conceptual
-  name: MX Technologies — Conceptual GraphQL Schema
-  slug: mx-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mx-technologies.png
 json_schemas:
 - name: MX Platform API Schemas
@@ -513,7 +509,7 @@ modified: 2026-06-12
 name: MX Technologies
 nav: Providers
 network: true
-overview: 'MX Technologies publishes 26 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ach return API, budgets API, and 23 more. Tagged areas include Financial Data, Account Aggregation, Open Banking, Data Connectivity, and Fintech.
+overview: 'MX Technologies publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ach return API, Budgets API, and 23 more. Tagged areas include Financial Data, Account Aggregation, Open Banking, Data Connectivity, and Fintech.
 
 
   The MX Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -544,7 +540,7 @@ score:
   band: exemplar
   composite: 75.6
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 85.3
     catalog_earned_first_party: 0.0
     catalog_gap: 29.8
@@ -554,7 +550,7 @@ score:
   facets:
     access_clarity: 89.5
     contract_governance: 43.2
-    contract_quality: 77.9
+    contract_quality: 77.7
     developer_ergonomics: 45.8
     discoverability: 75.9
     operational_transparency: 92.1
@@ -576,7 +572,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

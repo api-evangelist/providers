@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -135,7 +135,7 @@ modified: '2026-08-27'
 name: pgvector
 nav: Providers
 network: true
-overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Database, Database, Open-Source, and PostgreSQL.
+overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Database, Database, Open Source, and PostgreSQL.
 
 
   pgvector''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 15 more developer resources.'
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - Artificial Intelligence
 - Vector Database
 - Database
-- Open-Source
+- Open Source
 - PostgreSQL
 - Search
 - Embeddings

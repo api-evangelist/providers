@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-21'
 name: Three Wheels United
 nav: Providers
 network: true
-overview: Three Wheels United is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial-Services, Lending, and Electric Vehicles.
+overview: Three Wheels United is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Lending, and Electric Vehicles.
 random_paper: 9
 score:
   band: minimal
@@ -87,7 +87,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ slug: three-wheels-united
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Lending
 - Electric Vehicles
 - Clean Mobility

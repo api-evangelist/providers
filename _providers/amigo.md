@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 273
+- acting_count: 272
   human_in_the_loop: 8
   name: Amigo Agentic Access
   operation_count: 586
   slug: amigo-agentic-access
-  summary_line: 586 operations · 273 acting · 8 human-in-the-loop
+  summary_line: 586 operations · 272 acting · 8 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.amigo.ai
@@ -126,7 +126,7 @@ apis:
 - baseURL: https://api.amigo.ai
   baseurl_source: declared
   description: The conversations API from Amigo — 6 operation(s) for conversations.
-  name: Amigo conversations API
+  name: Amigo Conversations API
   slug: amigo-conversations-api
 - baseURL: https://api.amigo.ai
   baseurl_source: declared
@@ -1085,7 +1085,7 @@ score:
     regime_id: health
     score: 63.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

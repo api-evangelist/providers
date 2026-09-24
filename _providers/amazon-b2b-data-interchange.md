@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/b2b-data-interchange/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/mcp/amazon-b2b-data-interchange-mcp.yml
   title: ''
@@ -284,7 +284,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -310,7 +310,7 @@ tags:
 - Data Interchange
 - Supply Chain
 - Healthcare
-- Financial-Services
+- Financial Services
 - Amazon Web Services
-website: https://amazon.com
+website: https://aws.amazon.com/b2b-data-interchange/
 ---

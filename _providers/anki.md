@@ -38,7 +38,7 @@ modified: '2026-09-16'
 name: Anki
 nav: Providers
 network: true
-overview: Anki is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Consumer Electronics, and Computer-Vision.
+overview: Anki is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Consumer Electronics, and Computer Vision.
 random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/anki/refs/heads/main/screenshots/anki-2026-07-25T200305.png
 slug: anki
@@ -47,7 +47,7 @@ tags:
 - Robotics
 - Artificial Intelligence
 - Consumer Electronics
-- Computer-Vision
+- Computer Vision
 - SDK
 - Python
 - Education

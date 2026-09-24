@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Myscale Agentic Access
   operation_count: 2
   slug: myscale-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - description: 'MyScale Cloud provisions and manages clusters (create, modify name / size / replicas / idle period, reset password, view status) through the web console at the MyScale Cloud site. As of this catalog, '
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

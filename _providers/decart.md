@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 75 operations · 67 acting
 api_count: 2
 apis:
-- baseURL: https://api.decart.ai
-  baseurl_source: declared
-  description: The realtime video transformation surface. A client opens a WebRTC session (LiveKit-managed transport) against a Lucy realtime model and streams camera or video frames in; the model returns transforme
-  name: Decart Realtime API
-  slug: decart-realtime-api
 - description: A gRPC session protocol for Oasis 3 Preview, Decart's promptable real-time world model. A client initializes a session, sets a scene with a text prompt, then loops Infer calls that submit four driving
   name: Decart Oasis Action-to-Video (gRPC)
   slug: decart-oasis-a2v
@@ -84,7 +79,7 @@ apis:
   slug: decart-models-api
 - baseURL: https://api.decart.ai
   baseurl_source: declared
-  description: The Realtime API from Decart — 1 operation(s) for realtime.
+  description: The realtime video transformation surface. A client opens a WebRTC session (LiveKit-managed transport) against a Lucy realtime model and streams camera or video frames in; the model returns transforme
   name: Decart Realtime API
   slug: decart-realtime-api
 - baseURL: https://api.decart.ai
@@ -97,7 +92,7 @@ apis:
   description: The Watch Stream API from Decart — 1 operation(s) for watch stream.
   name: Decart Watch Stream API
   slug: decart-watch-stream-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: Decart API
@@ -313,7 +308,7 @@ modified: '2026-08-01'
 name: Decart
 nav: Providers
 network: true
-overview: 'Decart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Client API, Files API, and 6 more. Tagged areas include Artificial Intelligence, Machine-Learning, Video, Video Generation, and Video Editing.
+overview: 'Decart publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Client API, Files API, Generate API, and 5 more. Tagged areas include Artificial Intelligence, Machine Learning, Video, Video Generation, and Video Editing.
 
 
   Decart''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 36 more developer resources.'
@@ -356,7 +351,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -374,7 +369,7 @@ security:
 slug: decart
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Video
 - Video Generation
 - Video Editing
@@ -387,5 +382,6 @@ tags:
 - Media
 - Developer Tools
 - Company
+- A2A
 website: https://decart.ai/
 ---

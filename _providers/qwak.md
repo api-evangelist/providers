@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,7 +111,7 @@ modified: '2026-07-20'
 name: Qwak
 nav: Providers
 network: true
-overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Machine-Learning, MLOps, and LLMOps.
+overview: 'Qwak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Machine Learning, MLOps, and LLMOps.
 
 
   Qwak''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 9 more developer resources.'
@@ -136,7 +136,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ slug: qwak
 tags:
 - Company
 - Ai Ml
-- Machine-Learning
+- Machine Learning
 - MLOps
 - LLMOps
 - Feature Store

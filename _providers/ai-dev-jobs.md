@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: AI/ML engineering job aggregator with REST, RSS, and MCP endpoints
@@ -79,7 +79,7 @@ modified: '2026-05-28'
 name: AI Dev Jobs
 nav: Providers
 network: true
-overview: 'AI Dev Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
+overview: 'AI Dev Jobs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Public APIs, and A2A.
 
 
   AI Dev Jobs'' developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -106,7 +106,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -126,5 +126,6 @@ slug: ai-dev-jobs
 tags:
 - Job
 - Public APIs
+- A2A
 website: https://aidevboard.com/openapi.yaml
 ---

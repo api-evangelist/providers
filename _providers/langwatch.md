@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 85
+- acting_count: 84
   human_in_the_loop: 3
   name: Langwatch Agentic Access
   operation_count: 133
   slug: langwatch-agentic-access
-  summary_line: 133 operations · 85 acting · 3 human-in-the-loop
+  summary_line: 133 operations · 84 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.langwatch.ai
@@ -549,7 +549,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -583,7 +583,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open-Source
+- Open Source
 - MCP
 - FinOps
 website: https://www.langwatch.ai/

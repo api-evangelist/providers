@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-23'
+  score: 11.2
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: 'Cosmos is Augment''s unified agents platform for agentic software development at organizational scale. It bundles specialized agents — Work Dispatcher (triage), PR Author (first commit through merge), '
@@ -151,7 +151,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -166,8 +166,10 @@ score:
     discoverability: 72.2
     operational_transparency: 21.1
   previous_composite: 27.3
+  provenance:
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

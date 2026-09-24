@@ -1,5 +1,5 @@
 {
- "total": 99,
+ "total": 100,
  "bands": [
   {
    "band": "strong",
@@ -25,7 +25,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -76,7 +76,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -117,18 +117,18 @@
      "type": "API Provider",
      "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png",
-     "score": 58.5,
+     "score": 58.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 44.6,
+      "contract_quality": 45.8,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
       "developer_ergonomics": 64.9,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -180,7 +180,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -239,7 +239,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -301,7 +301,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -360,7 +360,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -412,7 +412,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -464,7 +464,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -516,7 +516,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -568,7 +568,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -620,7 +620,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -672,7 +672,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -724,7 +724,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -766,8 +766,60 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
+   "count": 3,
    "providers": [
+    {
+     "name": "Eurostat",
+     "slug": "eurostat",
+     "url": "https://providers.apis.io/providers/eurostat/",
+     "type": "API Provider",
+     "description": "Eurostat is the statistical office of the European Union, providing free and open REST APIs for programmatic access to European statistical data covering demographics, economy, trade, agriculture, transport, environment, and dozens of other indicators across EU member states and regions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 48.0,
+      "contract_governance": 9.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
     {
      "name": "ES·pera API",
      "slug": "es-pera",
@@ -785,7 +837,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -817,7 +869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Lightning Social Ventures",
@@ -837,7 +889,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -869,7 +921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     }
    ]
   },
@@ -898,7 +950,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -930,7 +982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Calderdale Data Works",
@@ -950,59 +1002,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 22.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "data.overheid.nl",
-     "slug": "data-overheid-nl",
-     "url": "https://providers.apis.io/providers/data-overheid-nl/",
-     "type": "API Provider",
-     "description": "data.overheid.nl is a national government open-data portal for Netherlands running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 20,386 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-overheid-nl/refs/heads/main/screenshots/data-overheid-nl-2026-06-20T175606.png",
-     "score": 17.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1037,12 +1037,12 @@
      "rank": 19
     },
     {
-     "name": "Datenregister Berlin",
-     "slug": "datenregister-berlin-de",
-     "url": "https://providers.apis.io/providers/datenregister-berlin-de/",
+     "name": "data.overheid.nl",
+     "slug": "data-overheid-nl",
+     "url": "https://providers.apis.io/providers/data-overheid-nl/",
      "type": "API Provider",
-     "description": "Datenregister Berlin is a municipal government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,609 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datenregister-berlin-de/refs/heads/main/screenshots/datenregister-berlin-de-2026-06-20T175651.png",
+     "description": "data.overheid.nl is a national government open-data portal for Netherlands running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 20,386 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-overheid-nl/refs/heads/main/screenshots/data-overheid-nl-2026-06-20T175606.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1054,7 +1054,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1089,12 +1089,12 @@
      "rank": 20
     },
     {
-     "name": "Essex Open Data",
-     "slug": "data-essex-gov-uk",
-     "url": "https://providers.apis.io/providers/data-essex-gov-uk/",
+     "name": "Datenregister Berlin",
+     "slug": "datenregister-berlin-de",
+     "url": "https://providers.apis.io/providers/datenregister-berlin-de/",
      "type": "API Provider",
-     "description": "Essex Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/screenshots/data-essex-gov-uk-2026-06-20T175526.png",
+     "description": "Datenregister Berlin is a municipal government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,609 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datenregister-berlin-de/refs/heads/main/screenshots/datenregister-berlin-de-2026-06-20T175651.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1106,7 +1106,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1141,12 +1141,12 @@
      "rank": 21
     },
     {
-     "name": "Open Data Schleswig-Holstein",
-     "slug": "opendata-schleswig-holstein-de",
-     "url": "https://providers.apis.io/providers/opendata-schleswig-holstein-de/",
+     "name": "Essex Open Data",
+     "slug": "data-essex-gov-uk",
+     "url": "https://providers.apis.io/providers/data-essex-gov-uk/",
      "type": "API Provider",
-     "description": "Open Data Schleswig-Holstein is a state government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 32,414 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-schleswig-holstein-de/refs/heads/main/screenshots/opendata-schleswig-holstein-de-2026-06-20T190946.png",
+     "description": "Essex Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/screenshots/data-essex-gov-uk-2026-06-20T175526.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1158,7 +1158,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1193,12 +1193,12 @@
      "rank": 22
     },
     {
-     "name": "open NRW",
-     "slug": "open-nrw",
-     "url": "https://providers.apis.io/providers/open-nrw/",
+     "name": "Open Data Schleswig-Holstein",
+     "slug": "opendata-schleswig-holstein-de",
+     "url": "https://providers.apis.io/providers/opendata-schleswig-holstein-de/",
      "type": "API Provider",
-     "description": "open NRW is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 10,579 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-nrw/refs/heads/main/screenshots/open-nrw-2026-06-20T190846.png",
+     "description": "Open Data Schleswig-Holstein is a state government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 32,414 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-schleswig-holstein-de/refs/heads/main/screenshots/opendata-schleswig-holstein-de-2026-06-20T190946.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1210,7 +1210,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1245,12 +1245,12 @@
      "rank": 23
     },
     {
-     "name": "opendata.swiss",
-     "slug": "opendata-swiss",
-     "url": "https://providers.apis.io/providers/opendata-swiss/",
+     "name": "open NRW",
+     "slug": "open-nrw",
+     "url": "https://providers.apis.io/providers/open-nrw/",
      "type": "API Provider",
-     "description": "opendata.swiss is a national government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 14,544 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-swiss/refs/heads/main/screenshots/opendata-swiss-2026-06-20T190946.png",
+     "description": "open NRW is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 10,579 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-nrw/refs/heads/main/screenshots/open-nrw-2026-06-20T190846.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1262,7 +1262,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1297,12 +1297,12 @@
      "rank": 24
     },
     {
-     "name": "UK Government Open Data",
-     "slug": "data-gov-uk",
-     "url": "https://providers.apis.io/providers/data-gov-uk/",
+     "name": "opendata.swiss",
+     "slug": "opendata-swiss",
+     "url": "https://providers.apis.io/providers/opendata-swiss/",
      "type": "API Provider",
-     "description": "UK Government Open Data is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,791 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-uk/refs/heads/main/screenshots/data-gov-uk-2026-06-20T175540.png",
+     "description": "opendata.swiss is a national government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 14,544 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-swiss/refs/heads/main/screenshots/opendata-swiss-2026-06-20T190946.png",
      "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1314,7 +1314,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1349,13 +1349,13 @@
      "rank": 25
     },
     {
-     "name": "data.gov.uk CKAN Publishing Service",
-     "slug": "ckan-publishing-service-gov-uk",
-     "url": "https://providers.apis.io/providers/ckan-publishing-service-gov-uk/",
+     "name": "UK Government Open Data",
+     "slug": "data-gov-uk",
+     "url": "https://providers.apis.io/providers/data-gov-uk/",
      "type": "API Provider",
-     "description": "data.gov.uk CKAN Publishing Service is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,757 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-publishing-service-gov-uk/refs/heads/main/screenshots/ckan-publishing-service-gov-uk-2026-06-20T174433.png",
-     "score": 16.2,
+     "description": "UK Government Open Data is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,791 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-uk/refs/heads/main/screenshots/data-gov-uk-2026-06-20T175540.png",
+     "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1363,16 +1363,16 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 11.1,
+      "score": 22.2,
       "matched_via": "tags"
      },
      "agent_score": 2.5,
@@ -1401,13 +1401,13 @@
      "rank": 26
     },
     {
-     "name": "Aragón Open Data",
-     "slug": "opendata-aragon-es",
-     "url": "https://providers.apis.io/providers/opendata-aragon-es/",
+     "name": "data.gov.uk CKAN Publishing Service",
+     "slug": "ckan-publishing-service-gov-uk",
+     "url": "https://providers.apis.io/providers/ckan-publishing-service-gov-uk/",
      "type": "API Provider",
-     "description": "Aragón Open Data is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,429 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-aragon-es/refs/heads/main/screenshots/opendata-aragon-es-2026-06-20T190931.png",
-     "score": 15.7,
+     "description": "data.gov.uk CKAN Publishing Service is a national government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 57,757 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-publishing-service-gov-uk/refs/heads/main/screenshots/ckan-publishing-service-gov-uk-2026-06-20T174433.png",
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1415,10 +1415,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1453,12 +1453,12 @@
      "rank": 27
     },
     {
-     "name": "Avoindata.fi",
-     "slug": "avoindata-fi",
-     "url": "https://providers.apis.io/providers/avoindata-fi/",
+     "name": "Aragón Open Data",
+     "slug": "opendata-aragon-es",
+     "url": "https://providers.apis.io/providers/opendata-aragon-es/",
      "type": "API Provider",
-     "description": "Avoindata.fi is a national government open-data portal for Finland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,521 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avoindata-fi/refs/heads/main/screenshots/avoindata-fi-2026-06-20T172732.png",
+     "description": "Aragón Open Data is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,429 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-aragon-es/refs/heads/main/screenshots/opendata-aragon-es-2026-06-20T190931.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1470,7 +1470,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1505,12 +1505,12 @@
      "rank": 28
     },
     {
-     "name": "Barnet Open Data",
-     "slug": "open-barnet-gov-uk",
-     "url": "https://providers.apis.io/providers/open-barnet-gov-uk/",
+     "name": "Avoindata.fi",
+     "slug": "avoindata-fi",
+     "url": "https://providers.apis.io/providers/avoindata-fi/",
      "type": "API Provider",
-     "description": "Barnet Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-barnet-gov-uk/refs/heads/main/screenshots/open-barnet-gov-uk-2026-06-20T190733.png",
+     "description": "Avoindata.fi is a national government open-data portal for Finland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,521 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avoindata-fi/refs/heads/main/screenshots/avoindata-fi-2026-06-20T172732.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1522,7 +1522,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1557,12 +1557,12 @@
      "rank": 29
     },
     {
-     "name": "Bienvenido a OpenData UGR",
-     "slug": "opendata-ugr-es",
-     "url": "https://providers.apis.io/providers/opendata-ugr-es/",
+     "name": "Barnet Open Data",
+     "slug": "open-barnet-gov-uk",
+     "url": "https://providers.apis.io/providers/open-barnet-gov-uk/",
      "type": "API Provider",
-     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
+     "description": "Barnet Open Data is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-barnet-gov-uk/refs/heads/main/screenshots/open-barnet-gov-uk-2026-06-20T190733.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1574,7 +1574,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1609,12 +1609,12 @@
      "rank": 30
     },
     {
-     "name": "City of Milan Open Data",
-     "slug": "dati-comune-milano-it",
-     "url": "https://providers.apis.io/providers/dati-comune-milano-it/",
+     "name": "Bienvenido a OpenData UGR",
+     "slug": "opendata-ugr-es",
+     "url": "https://providers.apis.io/providers/opendata-ugr-es/",
      "type": "API Provider",
-     "description": "City of Milan Open Data is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,594 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/screenshots/dati-comune-milano-it-2026-06-20T175655.png",
+     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1626,7 +1626,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1661,12 +1661,12 @@
      "rank": 31
     },
     {
-     "name": "Data Mill North (Leeds)",
-     "slug": "datamillnorth-org",
-     "url": "https://providers.apis.io/providers/datamillnorth-org/",
+     "name": "City of Milan Open Data",
+     "slug": "dati-comune-milano-it",
+     "url": "https://providers.apis.io/providers/dati-comune-milano-it/",
      "type": "API Provider",
-     "description": "Data Mill North (Leeds) is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datamillnorth-org/refs/heads/main/screenshots/datamillnorth-org-2026-06-20T175647.png",
+     "description": "City of Milan Open Data is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,594 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/screenshots/dati-comune-milano-it-2026-06-20T175655.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1678,7 +1678,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1713,12 +1713,12 @@
      "rank": 32
     },
     {
-     "name": "data.gov.ie",
-     "slug": "data-gov-ie",
-     "url": "https://providers.apis.io/providers/data-gov-ie/",
+     "name": "Data Mill North (Leeds)",
+     "slug": "datamillnorth-org",
+     "url": "https://providers.apis.io/providers/datamillnorth-org/",
      "type": "API Provider",
-     "description": "data.gov.ie is a open data portal open-data portal for Ireland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 22,200 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ie/refs/heads/main/screenshots/data-gov-ie-2026-06-20T175536.png",
+     "description": "Data Mill North (Leeds) is a local council open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datamillnorth-org/refs/heads/main/screenshots/datamillnorth-org-2026-06-20T175647.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1730,7 +1730,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1765,12 +1765,12 @@
      "rank": 33
     },
     {
-     "name": "data.gov.lv",
-     "slug": "data-gov-lv",
-     "url": "https://providers.apis.io/providers/data-gov-lv/",
+     "name": "data.gov.ie",
+     "slug": "data-gov-ie",
+     "url": "https://providers.apis.io/providers/data-gov-ie/",
      "type": "API Provider",
-     "description": "data.gov.lv is a national government open-data portal for Latvia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,531 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-lv/refs/heads/main/screenshots/data-gov-lv-2026-06-20T175538.png",
+     "description": "data.gov.ie is a open data portal open-data portal for Ireland running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 22,200 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ie/refs/heads/main/screenshots/data-gov-ie-2026-06-20T175536.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1782,7 +1782,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1817,12 +1817,12 @@
      "rank": 34
     },
     {
-     "name": "data.zagreb.hr Official Open Data Portal",
-     "slug": "data-zagreb-hr",
-     "url": "https://providers.apis.io/providers/data-zagreb-hr/",
+     "name": "data.gov.lv",
+     "slug": "data-gov-lv",
+     "url": "https://providers.apis.io/providers/data-gov-lv/",
      "type": "API Provider",
-     "description": "data.zagreb.hr Official Open Data Portal is a open data portal open-data portal for Croatia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 199 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-zagreb-hr/refs/heads/main/screenshots/data-zagreb-hr-2026-06-20T175625.png",
+     "description": "data.gov.lv is a national government open-data portal for Latvia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,531 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-lv/refs/heads/main/screenshots/data-gov-lv-2026-06-20T175538.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1834,7 +1834,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1869,12 +1869,12 @@
      "rank": 35
     },
     {
-     "name": "dati.emilia-romagna.it",
-     "slug": "dati-emilia-romagna-it",
-     "url": "https://providers.apis.io/providers/dati-emilia-romagna-it/",
+     "name": "data.zagreb.hr Official Open Data Portal",
+     "slug": "data-zagreb-hr",
+     "url": "https://providers.apis.io/providers/data-zagreb-hr/",
      "type": "API Provider",
-     "description": "dati.emilia-romagna.it is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,851 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png",
+     "description": "data.zagreb.hr Official Open Data Portal is a open data portal open-data portal for Croatia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 199 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-zagreb-hr/refs/heads/main/screenshots/data-zagreb-hr-2026-06-20T175625.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1886,7 +1886,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1921,12 +1921,12 @@
      "rank": 36
     },
     {
-     "name": "dati.gov.it",
-     "slug": "dati-gov-it",
-     "url": "https://providers.apis.io/providers/dati-gov-it/",
+     "name": "dati.emilia-romagna.it",
+     "slug": "dati-emilia-romagna-it",
+     "url": "https://providers.apis.io/providers/dati-emilia-romagna-it/",
      "type": "API Provider",
-     "description": "dati.gov.it is a national government open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-gov-it/refs/heads/main/screenshots/dati-gov-it-2026-06-20T175659.png",
+     "description": "dati.emilia-romagna.it is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,851 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1938,7 +1938,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1973,12 +1973,12 @@
      "rank": 37
     },
     {
-     "name": "Datos abiertos",
-     "slug": "datos-madrid-es",
-     "url": "https://providers.apis.io/providers/datos-madrid-es/",
+     "name": "dati.gov.it",
+     "slug": "dati-gov-it",
+     "url": "https://providers.apis.io/providers/dati-gov-it/",
      "type": "API Provider",
-     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
+     "description": "dati.gov.it is a national government open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-gov-it/refs/heads/main/screenshots/dati-gov-it-2026-06-20T175659.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1990,7 +1990,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2025,12 +2025,12 @@
      "rank": 38
     },
     {
-     "name": "GovData Deutschland",
-     "slug": "govdata-de",
-     "url": "https://providers.apis.io/providers/govdata-de/",
+     "name": "Datos abiertos",
+     "slug": "datos-madrid-es",
+     "url": "https://providers.apis.io/providers/datos-madrid-es/",
      "type": "API Provider",
-     "description": "GovData Deutschland is a national government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 151,112 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/govdata-de/refs/heads/main/screenshots/govdata-de-2026-06-20T182305.png",
+     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2042,7 +2042,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2077,12 +2077,12 @@
      "rank": 39
     },
     {
-     "name": "GovData Germany",
-     "slug": "ckan-govdata-de",
-     "url": "https://providers.apis.io/providers/ckan-govdata-de/",
+     "name": "GovData Deutschland",
+     "slug": "govdata-de",
+     "url": "https://providers.apis.io/providers/govdata-de/",
      "type": "API Provider",
-     "description": "GovData Germany is a national government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 151,707 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/screenshots/ckan-govdata-de-2026-06-20T174432.png",
+     "description": "GovData Deutschland is a national government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 151,112 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/govdata-de/refs/heads/main/screenshots/govdata-de-2026-06-20T182305.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2094,7 +2094,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2129,12 +2129,12 @@
      "rank": 40
     },
     {
-     "name": "Leeds Data Mill",
-     "slug": "leedsdatamill-org",
-     "url": "https://providers.apis.io/providers/leedsdatamill-org/",
+     "name": "GovData Germany",
+     "slug": "ckan-govdata-de",
+     "url": "https://providers.apis.io/providers/ckan-govdata-de/",
      "type": "API Provider",
-     "description": "Leeds Data Mill is a open data portal open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/screenshots/leedsdatamill-org-2026-06-20T184406.png",
+     "description": "GovData Germany is a national government open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 151,707 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ckan-govdata-de/refs/heads/main/screenshots/ckan-govdata-de-2026-06-20T174432.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2146,7 +2146,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2181,12 +2181,12 @@
      "rank": 41
     },
     {
-     "name": "Madrid Region Open Data",
-     "slug": "datos-comunidad-madrid",
-     "url": "https://providers.apis.io/providers/datos-comunidad-madrid/",
+     "name": "Leeds Data Mill",
+     "slug": "leedsdatamill-org",
+     "url": "https://providers.apis.io/providers/leedsdatamill-org/",
      "type": "API Provider",
-     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
+     "description": "Leeds Data Mill is a open data portal open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately an open datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leedsdatamill-org/refs/heads/main/screenshots/leedsdatamill-org-2026-06-20T184406.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2198,7 +2198,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2233,12 +2233,12 @@
      "rank": 42
     },
     {
-     "name": "Montpellier Open Data",
-     "slug": "data-montpellier3m-fr",
-     "url": "https://providers.apis.io/providers/data-montpellier3m-fr/",
+     "name": "Madrid Region Open Data",
+     "slug": "datos-comunidad-madrid",
+     "url": "https://providers.apis.io/providers/datos-comunidad-madrid/",
      "type": "API Provider",
-     "description": "Montpellier Open Data is a municipal government open-data portal for France running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 0 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-montpellier3m-fr/refs/heads/main/screenshots/data-montpellier3m-fr-2026-06-20T175553.png",
+     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2250,7 +2250,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2285,12 +2285,12 @@
      "rank": 43
     },
     {
-     "name": "NHS Scotland Open Data",
-     "slug": "opendata-nhs-scot",
-     "url": "https://providers.apis.io/providers/opendata-nhs-scot/",
+     "name": "Montpellier Open Data",
+     "slug": "data-montpellier3m-fr",
+     "url": "https://providers.apis.io/providers/data-montpellier3m-fr/",
      "type": "API Provider",
-     "description": "NHS Scotland Open Data is a government agency open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 104 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-nhs-scot/refs/heads/main/screenshots/opendata-nhs-scot-2026-06-20T190944.png",
+     "description": "Montpellier Open Data is a municipal government open-data portal for France running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 0 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-montpellier3m-fr/refs/heads/main/screenshots/data-montpellier3m-fr-2026-06-20T175553.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2302,7 +2302,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2337,12 +2337,12 @@
      "rank": 44
     },
     {
-     "name": "Official Ukrainian Government Portal",
-     "slug": "data-gov-ua",
-     "url": "https://providers.apis.io/providers/data-gov-ua/",
+     "name": "NHS Scotland Open Data",
+     "slug": "opendata-nhs-scot",
+     "url": "https://providers.apis.io/providers/opendata-nhs-scot/",
      "type": "API Provider",
-     "description": "Official Ukrainian Government Portal is a open data portal open-data portal for Ukraine running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 38,895 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ua/refs/heads/main/screenshots/data-gov-ua-2026-06-20T175540.png",
+     "description": "NHS Scotland Open Data is a government agency open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 104 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-nhs-scot/refs/heads/main/screenshots/opendata-nhs-scot-2026-06-20T190944.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2354,7 +2354,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2389,12 +2389,12 @@
      "rank": 45
     },
     {
-     "name": "Open Data Regione Toscana",
-     "slug": "dati-toscana-it",
-     "url": "https://providers.apis.io/providers/dati-toscana-it/",
+     "name": "Official Ukrainian Government Portal",
+     "slug": "data-gov-ua",
+     "url": "https://providers.apis.io/providers/data-gov-ua/",
      "type": "API Provider",
-     "description": "Open Data Regione Toscana is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,382 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-toscana-it/refs/heads/main/screenshots/dati-toscana-it-2026-06-20T175713.png",
+     "description": "Official Ukrainian Government Portal is a open data portal open-data portal for Ukraine running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 38,895 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-ua/refs/heads/main/screenshots/data-gov-ua-2026-06-20T175540.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2406,7 +2406,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2441,12 +2441,12 @@
      "rank": 46
     },
     {
-     "name": "Open Data Trentino",
-     "slug": "dati-trentino-it",
-     "url": "https://providers.apis.io/providers/dati-trentino-it/",
+     "name": "Open Data Regione Toscana",
+     "slug": "dati-toscana-it",
+     "url": "https://providers.apis.io/providers/dati-toscana-it/",
      "type": "API Provider",
-     "description": "Open Data Trentino is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,381 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-trentino-it/refs/heads/main/screenshots/dati-trentino-it-2026-06-20T175707.png",
+     "description": "Open Data Regione Toscana is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,382 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-toscana-it/refs/heads/main/screenshots/dati-toscana-it-2026-06-20T175713.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2458,7 +2458,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2493,12 +2493,12 @@
      "rank": 47
     },
     {
-     "name": "OpenData.HRO - Portal für offene Data der Hansestadt Rostock",
-     "slug": "opendata-hro-de",
-     "url": "https://providers.apis.io/providers/opendata-hro-de/",
+     "name": "Open Data Trentino",
+     "slug": "dati-trentino-it",
+     "url": "https://providers.apis.io/providers/dati-trentino-it/",
      "type": "API Provider",
-     "description": "OpenData.HRO - Portal für offene Data der Hansestadt Rostock is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 281 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-hro-de/refs/heads/main/screenshots/opendata-hro-de-2026-06-20T190940.png",
+     "description": "Open Data Trentino is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,381 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-trentino-it/refs/heads/main/screenshots/dati-trentino-it-2026-06-20T175707.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2510,7 +2510,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2545,12 +2545,12 @@
      "rank": 48
     },
     {
-     "name": "OpenDataNI (Northern Ireland)",
-     "slug": "admin-opendatani-gov-uk",
-     "url": "https://providers.apis.io/providers/admin-opendatani-gov-uk/",
+     "name": "OpenData.HRO - Portal für offene Data der Hansestadt Rostock",
+     "slug": "opendata-hro-de",
+     "url": "https://providers.apis.io/providers/opendata-hro-de/",
      "type": "API Provider",
-     "description": "OpenDataNI (Northern Ireland) is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,066 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/admin-opendatani-gov-uk/refs/heads/main/screenshots/admin-opendatani-gov-uk-2026-06-20T164709.png",
+     "description": "OpenData.HRO - Portal für offene Data der Hansestadt Rostock is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 281 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-hro-de/refs/heads/main/screenshots/opendata-hro-de-2026-06-20T190940.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2562,7 +2562,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2597,12 +2597,12 @@
      "rank": 49
     },
     {
-     "name": "OPSI Slovenia",
-     "slug": "podatki-gov-si",
-     "url": "https://providers.apis.io/providers/podatki-gov-si/",
+     "name": "OpenDataNI (Northern Ireland)",
+     "slug": "admin-opendatani-gov-uk",
+     "url": "https://providers.apis.io/providers/admin-opendatani-gov-uk/",
      "type": "API Provider",
-     "description": "OPSI Slovenia is a national government open-data portal for Slovenia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 8,875 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/podatki-gov-si/refs/heads/main/screenshots/podatki-gov-si-2026-06-20T191828.png",
+     "description": "OpenDataNI (Northern Ireland) is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,066 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/admin-opendatani-gov-uk/refs/heads/main/screenshots/admin-opendatani-gov-uk-2026-06-20T164709.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2614,7 +2614,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2649,12 +2649,12 @@
      "rank": 50
     },
     {
-     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
-     "slug": "datosabiertos-malaga-eu",
-     "url": "https://providers.apis.io/providers/datosabiertos-malaga-eu/",
+     "name": "OPSI Slovenia",
+     "slug": "podatki-gov-si",
+     "url": "https://providers.apis.io/providers/podatki-gov-si/",
      "type": "API Provider",
-     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
+     "description": "OPSI Slovenia is a national government open-data portal for Slovenia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 8,875 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/podatki-gov-si/refs/heads/main/screenshots/podatki-gov-si-2026-06-20T191828.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2666,7 +2666,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2701,12 +2701,12 @@
      "rank": 51
     },
     {
-     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
-     "slug": "datosabiertos-rivasciudad-es",
-     "url": "https://providers.apis.io/providers/datosabiertos-rivasciudad-es/",
+     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
+     "slug": "datosabiertos-malaga-eu",
+     "url": "https://providers.apis.io/providers/datosabiertos-malaga-eu/",
      "type": "API Provider",
-     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
+     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2718,7 +2718,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2753,12 +2753,12 @@
      "rank": 52
     },
     {
-     "name": "Portale Dati aperti del Comune di Matera",
-     "slug": "dati-comune-matera-it",
-     "url": "https://providers.apis.io/providers/dati-comune-matera-it/",
+     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
+     "slug": "datosabiertos-rivasciudad-es",
+     "url": "https://providers.apis.io/providers/datosabiertos-rivasciudad-es/",
      "type": "API Provider",
-     "description": "Portale Dati aperti del Comune di Matera is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 250 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-matera-it/refs/heads/main/screenshots/dati-comune-matera-it-2026-06-20T175656.png",
+     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2770,7 +2770,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2805,12 +2805,12 @@
      "rank": 53
     },
     {
-     "name": "Spatial Hub Scotland",
-     "slug": "data-spatialhub-scot",
-     "url": "https://providers.apis.io/providers/data-spatialhub-scot/",
+     "name": "Portale Dati aperti del Comune di Matera",
+     "slug": "dati-comune-matera-it",
+     "url": "https://providers.apis.io/providers/dati-comune-matera-it/",
      "type": "API Provider",
-     "description": "Spatial Hub Scotland is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 496 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-spatialhub-scot/refs/heads/main/screenshots/data-spatialhub-scot-2026-06-20T175619.png",
+     "description": "Portale Dati aperti del Comune di Matera is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 250 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-matera-it/refs/heads/main/screenshots/dati-comune-matera-it-2026-06-20T175656.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2822,7 +2822,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2857,12 +2857,12 @@
      "rank": 54
     },
     {
-     "name": "Transparency Portal for the City of Karlsruhe, Germany",
-     "slug": "transparenz-karlsruhe-de",
-     "url": "https://providers.apis.io/providers/transparenz-karlsruhe-de/",
+     "name": "Spatial Hub Scotland",
+     "slug": "data-spatialhub-scot",
+     "url": "https://providers.apis.io/providers/data-spatialhub-scot/",
      "type": "API Provider",
-     "description": "Transparency Portal for the City of Karlsruhe, Germany is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 150 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transparenz-karlsruhe-de/refs/heads/main/screenshots/transparenz-karlsruhe-de-2026-06-20T195549.png",
+     "description": "Spatial Hub Scotland is a regional government open-data portal for United Kingdom running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 496 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-spatialhub-scot/refs/heads/main/screenshots/data-spatialhub-scot-2026-06-20T175619.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2874,7 +2874,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2909,13 +2909,13 @@
      "rank": 55
     },
     {
-     "name": "Montenegro Open Data",
-     "slug": "opendata-gov-me",
-     "url": "https://providers.apis.io/providers/opendata-gov-me/",
+     "name": "Transparency Portal for the City of Karlsruhe, Germany",
+     "slug": "transparenz-karlsruhe-de",
+     "url": "https://providers.apis.io/providers/transparenz-karlsruhe-de/",
      "type": "API Provider",
-     "description": "Montenegro Open Data is a national government open-data portal for Montenegro running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 894 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/screenshots/opendata-gov-me-2026-06-20T190939.png",
-     "score": 14.0,
+     "description": "Transparency Portal for the City of Karlsruhe, Germany is a open data portal open-data portal for Germany running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 150 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transparenz-karlsruhe-de/refs/heads/main/screenshots/transparenz-karlsruhe-de-2026-06-20T195549.png",
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2926,59 +2926,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "Lazio Open Data",
-     "slug": "dati-lazio-it",
-     "url": "https://providers.apis.io/providers/dati-lazio-it/",
-     "type": "API Provider",
-     "description": "Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png",
-     "score": 12.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3010,15 +2958,67 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 56
+    },
+    {
+     "name": "Montenegro Open Data",
+     "slug": "opendata-gov-me",
+     "url": "https://providers.apis.io/providers/opendata-gov-me/",
+     "type": "API Provider",
+     "description": "Montenegro Open Data is a national government open-data portal for Montenegro running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 894 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-gov-me/refs/heads/main/screenshots/opendata-gov-me-2026-06-20T190939.png",
+     "score": 14.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 57
     },
     {
-     "name": "Leipzig Open Data",
-     "slug": "opendata-leipzig-de",
-     "url": "https://providers.apis.io/providers/opendata-leipzig-de/",
+     "name": "Lazio Open Data",
+     "slug": "dati-lazio-it",
+     "url": "https://providers.apis.io/providers/dati-lazio-it/",
      "type": "API Provider",
-     "description": "Leipzig Open Data is a municipal government open-data portal for Germany running CKAN. It exposes the CKAN catalog API over approximately 395 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-leipzig-de/refs/heads/main/screenshots/opendata-leipzig-de-2026-06-20T190942.png",
+     "description": "Lazio Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 406 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lazio-it/refs/heads/main/screenshots/dati-lazio-it-2026-06-20T175706.png",
      "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3030,7 +3030,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3065,12 +3065,12 @@
      "rank": 58
     },
     {
-     "name": "Liguria Open Data",
-     "slug": "dati-regione-liguria-it",
-     "url": "https://providers.apis.io/providers/dati-regione-liguria-it/",
+     "name": "Leipzig Open Data",
+     "slug": "opendata-leipzig-de",
+     "url": "https://providers.apis.io/providers/opendata-leipzig-de/",
      "type": "API Provider",
-     "description": "Liguria Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 123 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png",
+     "description": "Leipzig Open Data is a municipal government open-data portal for Germany running CKAN. It exposes the CKAN catalog API over approximately 395 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-leipzig-de/refs/heads/main/screenshots/opendata-leipzig-de-2026-06-20T190942.png",
      "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3082,7 +3082,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3117,12 +3117,12 @@
      "rank": 59
     },
     {
-     "name": "Messina Open Data",
-     "slug": "opendata-comune-messina-it",
-     "url": "https://providers.apis.io/providers/opendata-comune-messina-it/",
+     "name": "Liguria Open Data",
+     "slug": "dati-regione-liguria-it",
+     "url": "https://providers.apis.io/providers/dati-regione-liguria-it/",
      "type": "API Provider",
-     "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png",
+     "description": "Liguria Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 123 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-liguria-it/refs/heads/main/screenshots/dati-regione-liguria-it-2026-06-20T175703.png",
      "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3134,7 +3134,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3169,12 +3169,12 @@
      "rank": 60
     },
     {
-     "name": "Modena Open Data",
-     "slug": "opendata-comune-modena-it",
-     "url": "https://providers.apis.io/providers/opendata-comune-modena-it/",
+     "name": "Messina Open Data",
+     "slug": "opendata-comune-messina-it",
+     "url": "https://providers.apis.io/providers/opendata-comune-messina-it/",
      "type": "API Provider",
-     "description": "Modena Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 111 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-modena-it/refs/heads/main/screenshots/opendata-comune-modena-it-2026-06-20T190931.png",
+     "description": "Messina Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 109 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-messina-it/refs/heads/main/screenshots/opendata-comune-messina-it-2026-06-20T190931.png",
      "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3186,7 +3186,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3221,12 +3221,12 @@
      "rank": 61
     },
     {
-     "name": "Naples Open Data",
-     "slug": "dati-comune-napoli-it",
-     "url": "https://providers.apis.io/providers/dati-comune-napoli-it/",
+     "name": "Modena Open Data",
+     "slug": "opendata-comune-modena-it",
+     "url": "https://providers.apis.io/providers/opendata-comune-modena-it/",
      "type": "API Provider",
-     "description": "Naples Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 36 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png",
+     "description": "Modena Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 111 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-modena-it/refs/heads/main/screenshots/opendata-comune-modena-it-2026-06-20T190931.png",
      "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3238,7 +3238,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3271,6 +3271,58 @@
       "agentic_commerce": false
      },
      "rank": 62
+    },
+    {
+     "name": "Naples Open Data",
+     "slug": "dati-comune-napoli-it",
+     "url": "https://providers.apis.io/providers/dati-comune-napoli-it/",
+     "type": "API Provider",
+     "description": "Naples Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 36 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/screenshots/dati-comune-napoli-it-2026-06-20T175659.png",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
     }
    ]
   },
@@ -3299,59 +3351,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 22.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Zurich Open Data",
-     "slug": "data-stadt-zuerich-ch",
-     "url": "https://providers.apis.io/providers/data-stadt-zuerich-ch/",
-     "type": "API Provider",
-     "description": "Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3386,30 +3386,30 @@
      "rank": 64
     },
     {
-     "name": "LAMMA Toscana Open Data",
-     "slug": "dati-lamma-toscana-it",
-     "url": "https://providers.apis.io/providers/dati-lamma-toscana-it/",
+     "name": "Zurich Open Data",
+     "slug": "data-stadt-zuerich-ch",
+     "url": "https://providers.apis.io/providers/data-stadt-zuerich-ch/",
      "type": "API Provider",
-     "description": "LAMMA Toscana Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 184 datasets from Tuscany's meteorological and environmental research agency.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lamma-toscana-it/refs/heads/main/screenshots/dati-lamma-toscana-it-2026-06-20T175701.png",
-     "score": 8.7,
+     "description": "Zurich Open Data is a municipal government open-data portal for Switzerland running CKAN. It exposes the CKAN catalog API over approximately 925 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-stadt-zuerich-ch/refs/heads/main/screenshots/data-stadt-zuerich-ch-2026-06-20T175620.png",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
-      "score": 11.1,
+      "score": 22.2,
       "matched_via": "tags"
      },
      "agent_score": 2.5,
@@ -3438,24 +3438,24 @@
      "rank": 65
     },
     {
-     "name": "Ireland Open Data Catalogue",
-     "slug": "datacatalogue-gov-ie",
-     "url": "https://providers.apis.io/providers/datacatalogue-gov-ie/",
+     "name": "LAMMA Toscana Open Data",
+     "slug": "dati-lamma-toscana-it",
+     "url": "https://providers.apis.io/providers/dati-lamma-toscana-it/",
      "type": "API Provider",
-     "description": "Ireland Open Data Catalogue is a national government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,467 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalogue-gov-ie/refs/heads/main/screenshots/datacatalogue-gov-ie-2026-06-20T175635.png",
-     "score": 8.3,
+     "description": "LAMMA Toscana Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 184 datasets from Tuscany's meteorological and environmental research agency.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-lamma-toscana-it/refs/heads/main/screenshots/dati-lamma-toscana-it-2026-06-20T175701.png",
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3490,12 +3490,12 @@
      "rank": 66
     },
     {
-     "name": "Lecce Open Data",
-     "slug": "dati-comune-lecce-it",
-     "url": "https://providers.apis.io/providers/dati-comune-lecce-it/",
+     "name": "Ireland Open Data Catalogue",
+     "slug": "datacatalogue-gov-ie",
+     "url": "https://providers.apis.io/providers/datacatalogue-gov-ie/",
      "type": "API Provider",
-     "description": "Lecce Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 480 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-lecce-it/refs/heads/main/screenshots/dati-comune-lecce-it-2026-06-20T175652.png",
+     "description": "Ireland Open Data Catalogue is a national government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,467 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalogue-gov-ie/refs/heads/main/screenshots/datacatalogue-gov-ie-2026-06-20T175635.png",
      "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3507,7 +3507,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3542,12 +3542,12 @@
      "rank": 67
     },
     {
-     "name": "Montenegro Open Data (data.gov.me)",
-     "slug": "data-gov-me",
-     "url": "https://providers.apis.io/providers/data-gov-me/",
+     "name": "Lecce Open Data",
+     "slug": "dati-comune-lecce-it",
+     "url": "https://providers.apis.io/providers/dati-comune-lecce-it/",
      "type": "API Provider",
-     "description": "Montenegro Open Data (data.gov.me) is a national government open-data portal for Montenegro running CKAN. It exposes the CKAN catalog API over approximately 894 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-me/refs/heads/main/screenshots/data-gov-me-2026-06-20T175540.png",
+     "description": "Lecce Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 480 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-lecce-it/refs/heads/main/screenshots/dati-comune-lecce-it-2026-06-20T175652.png",
      "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3559,7 +3559,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3594,12 +3594,12 @@
      "rank": 68
     },
     {
-     "name": "Umbria Region Open Data",
-     "slug": "dati-regione-umbria-it",
-     "url": "https://providers.apis.io/providers/dati-regione-umbria-it/",
+     "name": "Montenegro Open Data (data.gov.me)",
+     "slug": "data-gov-me",
+     "url": "https://providers.apis.io/providers/data-gov-me/",
      "type": "API Provider",
-     "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
+     "description": "Montenegro Open Data (data.gov.me) is a national government open-data portal for Montenegro running CKAN. It exposes the CKAN catalog API over approximately 894 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-me/refs/heads/main/screenshots/data-gov-me-2026-06-20T175540.png",
      "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3611,7 +3611,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3646,13 +3646,13 @@
      "rank": 69
     },
     {
-     "name": "Companies Registration Office Open Data",
-     "slug": "opendata-cro-ie",
-     "url": "https://providers.apis.io/providers/opendata-cro-ie/",
+     "name": "Umbria Region Open Data",
+     "slug": "dati-regione-umbria-it",
+     "url": "https://providers.apis.io/providers/dati-regione-umbria-it/",
      "type": "API Provider",
-     "description": "Companies Registration Office Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-cro-ie/refs/heads/main/screenshots/opendata-cro-ie-2026-06-20T190935.png",
-     "score": 7.8,
+     "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
+     "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3660,10 +3660,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3698,12 +3698,12 @@
      "rank": 70
     },
     {
-     "name": "Consip Open Data",
-     "slug": "dati-consip-it",
-     "url": "https://providers.apis.io/providers/dati-consip-it/",
+     "name": "Companies Registration Office Open Data",
+     "slug": "opendata-cro-ie",
+     "url": "https://providers.apis.io/providers/opendata-cro-ie/",
      "type": "API Provider",
-     "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
+     "description": "Companies Registration Office Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-cro-ie/refs/heads/main/screenshots/opendata-cro-ie-2026-06-20T190935.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3715,7 +3715,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3750,12 +3750,12 @@
      "rank": 71
     },
     {
-     "name": "Cork City Open Data",
-     "slug": "data-corkcity-ie",
-     "url": "https://providers.apis.io/providers/data-corkcity-ie/",
+     "name": "Consip Open Data",
+     "slug": "dati-consip-it",
+     "url": "https://providers.apis.io/providers/dati-consip-it/",
      "type": "API Provider",
-     "description": "Cork City Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 32 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-corkcity-ie/refs/heads/main/screenshots/data-corkcity-ie-2026-06-20T175523.png",
+     "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3767,7 +3767,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3802,12 +3802,12 @@
      "rank": 72
     },
     {
-     "name": "Genoa Open Data",
-     "slug": "dati-comune-genova-it",
-     "url": "https://providers.apis.io/providers/dati-comune-genova-it/",
+     "name": "Cork City Open Data",
+     "slug": "data-corkcity-ie",
+     "url": "https://providers.apis.io/providers/data-corkcity-ie/",
      "type": "API Provider",
-     "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
+     "description": "Cork City Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 32 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-corkcity-ie/refs/heads/main/screenshots/data-corkcity-ie-2026-06-20T175523.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3819,7 +3819,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3854,12 +3854,12 @@
      "rank": 73
     },
     {
-     "name": "Irish Agriculture Open Data",
-     "slug": "opendata-agriculture-gov-ie",
-     "url": "https://providers.apis.io/providers/opendata-agriculture-gov-ie/",
+     "name": "Genoa Open Data",
+     "slug": "dati-comune-genova-it",
+     "url": "https://providers.apis.io/providers/dati-comune-genova-it/",
      "type": "API Provider",
-     "description": "Irish Agriculture Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 56 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-agriculture-gov-ie/refs/heads/main/screenshots/opendata-agriculture-gov-ie-2026-06-20T190926.png",
+     "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3871,7 +3871,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3906,12 +3906,12 @@
      "rank": 74
     },
     {
-     "name": "Irish Housing Open Data",
-     "slug": "opendata-housing-gov-ie",
-     "url": "https://providers.apis.io/providers/opendata-housing-gov-ie/",
+     "name": "Irish Agriculture Open Data",
+     "slug": "opendata-agriculture-gov-ie",
+     "url": "https://providers.apis.io/providers/opendata-agriculture-gov-ie/",
      "type": "API Provider",
-     "description": "Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-housing-gov-ie/refs/heads/main/screenshots/opendata-housing-gov-ie-2026-06-20T190938.png",
+     "description": "Irish Agriculture Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 56 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-agriculture-gov-ie/refs/heads/main/screenshots/opendata-agriculture-gov-ie-2026-06-20T190926.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3923,7 +3923,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3958,12 +3958,12 @@
      "rank": 75
     },
     {
-     "name": "Kildare County Council Open Data",
-     "slug": "data-kildarecoco-ie",
-     "url": "https://providers.apis.io/providers/data-kildarecoco-ie/",
+     "name": "Irish Housing Open Data",
+     "slug": "opendata-housing-gov-ie",
+     "url": "https://providers.apis.io/providers/opendata-housing-gov-ie/",
      "type": "API Provider",
-     "description": "Kildare County Council Open Data is a county government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 80 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kildarecoco-ie/refs/heads/main/screenshots/data-kildarecoco-ie-2026-06-20T175545.png",
+     "description": "Irish Housing Open Data is a federal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 461 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-housing-gov-ie/refs/heads/main/screenshots/opendata-housing-gov-ie-2026-06-20T190938.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3975,7 +3975,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4010,12 +4010,12 @@
      "rank": 76
     },
     {
-     "name": "Kozadat Hungary Open Data",
-     "slug": "kozadatportal-hu",
-     "url": "https://providers.apis.io/providers/kozadatportal-hu/",
+     "name": "Kildare County Council Open Data",
+     "slug": "data-kildarecoco-ie",
+     "url": "https://providers.apis.io/providers/data-kildarecoco-ie/",
      "type": "API Provider",
-     "description": "Kozadat Hungary Open Data is a national government open-data portal for Hungary running CKAN. It exposes the CKAN catalog API over approximately 2,283 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kozadatportal-hu/refs/heads/main/screenshots/kozadatportal-hu-2026-06-20T184151.png",
+     "description": "Kildare County Council Open Data is a county government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 80 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kildarecoco-ie/refs/heads/main/screenshots/data-kildarecoco-ie-2026-06-20T175545.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4027,7 +4027,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4062,12 +4062,12 @@
      "rank": 77
     },
     {
-     "name": "Limerick Open Data Catalogue",
-     "slug": "datacatalog-limerick-ie",
-     "url": "https://providers.apis.io/providers/datacatalog-limerick-ie/",
+     "name": "Kozadat Hungary Open Data",
+     "slug": "kozadatportal-hu",
+     "url": "https://providers.apis.io/providers/kozadatportal-hu/",
      "type": "API Provider",
-     "description": "Limerick Open Data Catalogue is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 82 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/screenshots/datacatalog-limerick-ie-2026-06-20T175632.png",
+     "description": "Kozadat Hungary Open Data is a national government open-data portal for Hungary running CKAN. It exposes the CKAN catalog API over approximately 2,283 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kozadatportal-hu/refs/heads/main/screenshots/kozadatportal-hu-2026-06-20T184151.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4079,7 +4079,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4114,12 +4114,12 @@
      "rank": 78
     },
     {
-     "name": "Lisbon Open Data",
-     "slug": "dados-cm-lisboa-pt",
-     "url": "https://providers.apis.io/providers/dados-cm-lisboa-pt/",
+     "name": "Limerick Open Data Catalogue",
+     "slug": "datacatalog-limerick-ie",
+     "url": "https://providers.apis.io/providers/datacatalog-limerick-ie/",
      "type": "API Provider",
-     "description": "Lisbon Open Data is a municipal government open-data portal for Portugal running CKAN. It exposes the CKAN catalog API over approximately 404 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/screenshots/dados-cm-lisboa-pt-2026-06-20T175423.png",
+     "description": "Limerick Open Data Catalogue is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 82 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/screenshots/datacatalog-limerick-ie-2026-06-20T175632.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4131,7 +4131,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4166,12 +4166,12 @@
      "rank": 79
     },
     {
-     "name": "NBCO Open Data",
-     "slug": "data-nbco-gov-ie",
-     "url": "https://providers.apis.io/providers/data-nbco-gov-ie/",
+     "name": "Lisbon Open Data",
+     "slug": "dados-cm-lisboa-pt",
+     "url": "https://providers.apis.io/providers/dados-cm-lisboa-pt/",
      "type": "API Provider",
-     "description": "NBCO Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nbco-gov-ie/refs/heads/main/screenshots/data-nbco-gov-ie-2026-06-20T175554.png",
+     "description": "Lisbon Open Data is a municipal government open-data portal for Portugal running CKAN. It exposes the CKAN catalog API over approximately 404 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dados-cm-lisboa-pt/refs/heads/main/screenshots/dados-cm-lisboa-pt-2026-06-20T175423.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4183,7 +4183,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4218,12 +4218,12 @@
      "rank": 80
     },
     {
-     "name": "NCSE Open Data",
-     "slug": "opendata-ncse-ie",
-     "url": "https://providers.apis.io/providers/opendata-ncse-ie/",
+     "name": "NBCO Open Data",
+     "slug": "data-nbco-gov-ie",
+     "url": "https://providers.apis.io/providers/data-nbco-gov-ie/",
      "type": "API Provider",
-     "description": "NCSE Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 70 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/screenshots/opendata-ncse-ie-2026-06-20T190943.png",
+     "description": "NBCO Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 2 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-nbco-gov-ie/refs/heads/main/screenshots/data-nbco-gov-ie-2026-06-20T175554.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4235,7 +4235,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4270,12 +4270,12 @@
      "rank": 81
     },
     {
-     "name": "Rimini Open Data",
-     "slug": "dati-comune-rimini-it",
-     "url": "https://providers.apis.io/providers/dati-comune-rimini-it/",
+     "name": "NCSE Open Data",
+     "slug": "opendata-ncse-ie",
+     "url": "https://providers.apis.io/providers/opendata-ncse-ie/",
      "type": "API Provider",
-     "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
+     "description": "NCSE Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 70 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ncse-ie/refs/heads/main/screenshots/opendata-ncse-ie-2026-06-20T190943.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4287,7 +4287,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4322,12 +4322,12 @@
      "rank": 82
     },
     {
-     "name": "Rome Open Data",
-     "slug": "dati-comune-roma-it",
-     "url": "https://providers.apis.io/providers/dati-comune-roma-it/",
+     "name": "Rimini Open Data",
+     "slug": "dati-comune-rimini-it",
+     "url": "https://providers.apis.io/providers/dati-comune-rimini-it/",
      "type": "API Provider",
-     "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
+     "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4339,7 +4339,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4374,12 +4374,12 @@
      "rank": 83
     },
     {
-     "name": "SmartDublin Open Data",
-     "slug": "data-smartdublin-ie",
-     "url": "https://providers.apis.io/providers/data-smartdublin-ie/",
+     "name": "Rome Open Data",
+     "slug": "dati-comune-roma-it",
+     "url": "https://providers.apis.io/providers/dati-comune-roma-it/",
      "type": "API Provider",
-     "description": "SmartDublin Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 929 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-smartdublin-ie/refs/heads/main/screenshots/data-smartdublin-ie-2026-06-20T175616.png",
+     "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4391,7 +4391,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4426,12 +4426,12 @@
      "rank": 84
     },
     {
-     "name": "South Tyrol Civis Open Data",
-     "slug": "data-civis-bz-it",
-     "url": "https://providers.apis.io/providers/data-civis-bz-it/",
+     "name": "SmartDublin Open Data",
+     "slug": "data-smartdublin-ie",
+     "url": "https://providers.apis.io/providers/data-smartdublin-ie/",
      "type": "API Provider",
-     "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
+     "description": "SmartDublin Open Data is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 929 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-smartdublin-ie/refs/heads/main/screenshots/data-smartdublin-ie-2026-06-20T175616.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4443,7 +4443,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4478,12 +4478,12 @@
      "rank": 85
     },
     {
-     "name": "South Tyrol Retecivica Data",
-     "slug": "dati-retecivica-bz-it",
-     "url": "https://providers.apis.io/providers/dati-retecivica-bz-it/",
+     "name": "South Tyrol Civis Open Data",
+     "slug": "data-civis-bz-it",
+     "url": "https://providers.apis.io/providers/data-civis-bz-it/",
      "type": "API Provider",
-     "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
+     "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4495,7 +4495,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4530,12 +4530,12 @@
      "rank": 86
     },
     {
-     "name": "Teagasc Open Data",
-     "slug": "opendata-teagasc-ie",
-     "url": "https://providers.apis.io/providers/opendata-teagasc-ie/",
+     "name": "South Tyrol Retecivica Data",
+     "slug": "dati-retecivica-bz-it",
+     "url": "https://providers.apis.io/providers/dati-retecivica-bz-it/",
      "type": "API Provider",
-     "description": "Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/screenshots/opendata-teagasc-ie-2026-06-20T190948.png",
+     "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4547,7 +4547,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4582,12 +4582,12 @@
      "rank": 87
     },
     {
-     "name": "Trento Open Data",
-     "slug": "opendata-comune-trento-it",
-     "url": "https://providers.apis.io/providers/opendata-comune-trento-it/",
+     "name": "Teagasc Open Data",
+     "slug": "opendata-teagasc-ie",
+     "url": "https://providers.apis.io/providers/opendata-teagasc-ie/",
      "type": "API Provider",
-     "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
+     "description": "Teagasc Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 18 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-teagasc-ie/refs/heads/main/screenshots/opendata-teagasc-ie-2026-06-20T190948.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4599,7 +4599,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4634,12 +4634,12 @@
      "rank": 88
     },
     {
-     "name": "Turin Open Data",
-     "slug": "aperto-comune-torino-it",
-     "url": "https://providers.apis.io/providers/aperto-comune-torino-it/",
+     "name": "Trento Open Data",
+     "slug": "opendata-comune-trento-it",
+     "url": "https://providers.apis.io/providers/opendata-comune-trento-it/",
      "type": "API Provider",
-     "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
+     "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4651,7 +4651,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4686,12 +4686,12 @@
      "rank": 89
     },
     {
-     "name": "Tusla Child & Family Agency Open Data",
-     "slug": "datacatalog-tusla-ie",
-     "url": "https://providers.apis.io/providers/datacatalog-tusla-ie/",
+     "name": "Turin Open Data",
+     "slug": "aperto-comune-torino-it",
+     "url": "https://providers.apis.io/providers/aperto-comune-torino-it/",
      "type": "API Provider",
-     "description": "Tusla Child & Family Agency Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,492 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-tusla-ie/refs/heads/main/screenshots/datacatalog-tusla-ie-2026-06-20T175633.png",
+     "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4703,7 +4703,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4738,6 +4738,58 @@
      "rank": 90
     },
     {
+     "name": "Tusla Child & Family Agency Open Data",
+     "slug": "datacatalog-tusla-ie",
+     "url": "https://providers.apis.io/providers/datacatalog-tusla-ie/",
+     "type": "API Provider",
+     "description": "Tusla Child & Family Agency Open Data is a government agency open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 1,492 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacatalog-tusla-ie/refs/heads/main/screenshots/datacatalog-tusla-ie-2026-06-20T175633.png",
+     "score": 7.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
      "name": "data.egov.bg (Open Data Portal of Bulgaria)",
      "slug": "data-egov-bg",
      "url": "https://providers.apis.io/providers/data-egov-bg/",
@@ -4754,59 +4806,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 91
-    },
-    {
-     "name": "data.gov.hr",
-     "slug": "data-gov-hr",
-     "url": "https://providers.apis.io/providers/data-gov-hr/",
-     "type": "API Provider",
-     "description": "data.gov.hr (Portal otvorenih podataka) is the national government open-data portal for Croatia, operated by the Ministry of Justice and Public Administration. It runs CKAN 2.9.9 and exposes the standard CKAN Action API over approximately 3,858 datasets, supporting programmatic dataset search, metadata retrieval, and resource access, plus DCAT-AP RDF/XML catalog feeds for EU harvesting. Note that the CKAN API is mounted under a non-default /ckan/ path prefix; root-level CKAN URLs return the Vue single-page-app HTML rather than JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-hr/refs/heads/main/screenshots/data-gov-hr-2026-07-25T211249.png",
-     "score": 7.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4841,12 +4841,12 @@
      "rank": 92
     },
     {
-     "name": "dataset.gov.md (Portalul Datelor Deschise)",
-     "slug": "dataset-gov-md",
-     "url": "https://providers.apis.io/providers/dataset-gov-md/",
+     "name": "data.gov.hr",
+     "slug": "data-gov-hr",
+     "url": "https://providers.apis.io/providers/data-gov-hr/",
      "type": "API Provider",
-     "description": "dataset.gov.md is the national government open-data catalog for the Republic of Moldova (Portalul Datelor Deschise). The landing portal at date.gov.md links out to this catalog, which runs CKAN 2.10.4 and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataset-gov-md/refs/heads/main/screenshots/dataset-gov-md-2026-07-25T211354.png",
+     "description": "data.gov.hr (Portal otvorenih podataka) is the national government open-data portal for Croatia, operated by the Ministry of Justice and Public Administration. It runs CKAN 2.9.9 and exposes the standard CKAN Action API over approximately 3,858 datasets, supporting programmatic dataset search, metadata retrieval, and resource access, plus DCAT-AP RDF/XML catalog feeds for EU harvesting. Note that the CKAN API is mounted under a non-default /ckan/ path prefix; root-level CKAN URLs return the Vue single-page-app HTML rather than JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-hr/refs/heads/main/screenshots/data-gov-hr-2026-07-25T211249.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4858,7 +4858,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4893,12 +4893,12 @@
      "rank": 93
     },
     {
-     "name": "island.is (Digital Iceland)",
-     "slug": "island-is",
-     "url": "https://providers.apis.io/providers/island-is/",
+     "name": "dataset.gov.md (Portalul Datelor Deschise)",
+     "slug": "dataset-gov-md",
+     "url": "https://providers.apis.io/providers/dataset-gov-md/",
      "type": "API Provider",
-     "description": "island.is (Stafrænt Ísland / Digital Iceland) is Iceland's national digital-services and government API platform, operated by the Ministry of Finance and Economic Affairs / Digital Iceland. It provides a GraphQL gateway at api.island.is (authentication-gated) that fronts internal REST microservices, with business/government-to-government REST services described using OpenAPI 3.0 and registered in the X-Road \"Straumurinn\" API Catalogue. The developer handbook is published at docs.devland.is. Iceland's former CKAN open-data portal (opingogn.is) has been decommissioned and now redirects to island.is.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/island-is/refs/heads/main/screenshots/island-is-2026-07-25T222951.png",
+     "description": "dataset.gov.md is the national government open-data catalog for the Republic of Moldova (Portalul Datelor Deschise). The landing portal at date.gov.md links out to this catalog, which runs CKAN 2.10.4 and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dataset-gov-md/refs/heads/main/screenshots/dataset-gov-md-2026-07-25T211354.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4910,7 +4910,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4945,12 +4945,12 @@
      "rank": 94
     },
     {
-     "name": "opendata.rks-gov.net (Kosovo Open Data) [offline]",
-     "slug": "opendata-rks-gov-net",
-     "url": "https://providers.apis.io/providers/opendata-rks-gov-net/",
+     "name": "island.is (Digital Iceland)",
+     "slug": "island-is",
+     "url": "https://providers.apis.io/providers/island-is/",
      "type": "API Provider",
-     "description": "opendata.rks-gov.net (RKS Open Data) was the national government open-data portal for the Republic of Kosovo, historically running CKAN (~v2.7). As of mid-2025 the hostname no longer resolves (NXDOMAIN) and the portal is offline; the last Internet Archive snapshots are from June 2025. It is cataloged here as historical pending restoration. Sectoral government open-data services remain available (e.g. Kosovo Customs at dogana.rks-gov.net/OpenData and the national geoportal at geoportal.rks-gov.net).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/screenshots/opendata-rks-gov-net-2026-08-07T190549.png",
+     "description": "island.is (Stafrænt Ísland / Digital Iceland) is Iceland's national digital-services and government API platform, operated by the Ministry of Finance and Economic Affairs / Digital Iceland. It provides a GraphQL gateway at api.island.is (authentication-gated) that fronts internal REST microservices, with business/government-to-government REST services described using OpenAPI 3.0 and registered in the X-Road \"Straumurinn\" API Catalogue. The developer handbook is published at docs.devland.is. Iceland's former CKAN open-data portal (opingogn.is) has been decommissioned and now redirects to island.is.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/island-is/refs/heads/main/screenshots/island-is-2026-07-25T222951.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4962,7 +4962,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4997,64 +4997,13 @@
      "rank": 95
     },
     {
-     "name": "data.gov.mt (Open Data Malta)",
-     "slug": "data-gov-mt",
-     "url": "https://providers.apis.io/providers/data-gov-mt/",
+     "name": "opendata.rks-gov.net (Kosovo Open Data) [offline]",
+     "slug": "opendata-rks-gov-net",
+     "url": "https://providers.apis.io/providers/opendata-rks-gov-net/",
      "type": "API Provider",
-     "description": "data.gov.mt is the national government open-data portal for Malta, operated by MITA (Malta Information Technology Agency) as a bespoke \"Shared Data Governance and Data Management Platform\" with a JavaScript single-page-app front end (served at portal.data.gov.mt / open.data.gov.mt). It is DCAT-AP-compliant for EU harvesting (~230+ datasets) but exposes no publicly documented JSON catalog API. Malta's geospatial APIs are available separately via the MSDI geoportal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png",
-     "score": 6.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 22.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 96
-    },
-    {
-     "name": "data.gov.mk",
-     "slug": "data-gov-mk",
-     "url": "https://providers.apis.io/providers/data-gov-mk/",
-     "type": "API Provider",
-     "description": "data.gov.mk is the national government open-data portal for North Macedonia, operated by the Ministry of Digital Transformation. It runs CKAN and exposes the standard CKAN Action API over roughly 280+ datasets from 50+ public institutions, supporting programmatic dataset search, metadata retrieval, and resource access, plus DCAT exports (N3, TTL, XML, JSON-LD).",
-     "score": 5.5,
+     "description": "opendata.rks-gov.net (RKS Open Data) was the national government open-data portal for the Republic of Kosovo, historically running CKAN (~v2.7). As of mid-2025 the hostname no longer resolves (NXDOMAIN) and the portal is offline; the last Internet Archive snapshots are from June 2025. It is cataloged here as historical pending restoration. Sectoral government open-data services remain available (e.g. Kosovo Customs at dogana.rks-gov.net/OpenData and the national geoportal at geoportal.rks-gov.net).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-rks-gov-net/refs/heads/main/screenshots/opendata-rks-gov-net-2026-08-07T190549.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5065,59 +5014,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 97
-    },
-    {
-     "name": "data.gov.rs",
-     "slug": "data-gov-rs",
-     "url": "https://providers.apis.io/providers/data-gov-rs/",
-     "type": "API Provider",
-     "description": "data.gov.rs is the national government open-data portal for the Republic of Serbia, operated by the Office for IT and eGovernment. It runs the uData platform and exposes the uData REST API over approximately 3,452 datasets, supporting programmatic dataset search, metadata retrieval, organization listings, and resource access. The API provides a consistent JSON-over-HTTP interface and is harvested into the EU data portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-rs/refs/heads/main/screenshots/data-gov-rs-2026-07-25T211244.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5149,15 +5046,118 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 96
+    },
+    {
+     "name": "data.gov.mt (Open Data Malta)",
+     "slug": "data-gov-mt",
+     "url": "https://providers.apis.io/providers/data-gov-mt/",
+     "type": "API Provider",
+     "description": "data.gov.mt is the national government open-data portal for Malta, operated by MITA (Malta Information Technology Agency) as a bespoke \"Shared Data Governance and Data Management Platform\" with a JavaScript single-page-app front end (served at portal.data.gov.mt / open.data.gov.mt). It is DCAT-AP-compliant for EU harvesting (~230+ datasets) but exposes no publicly documented JSON catalog API. Malta's geospatial APIs are available separately via the MSDI geoportal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 22.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 97
+    },
+    {
+     "name": "data.gov.mk",
+     "slug": "data-gov-mk",
+     "url": "https://providers.apis.io/providers/data-gov-mk/",
+     "type": "API Provider",
+     "description": "data.gov.mk is the national government open-data portal for North Macedonia, operated by the Ministry of Digital Transformation. It runs CKAN and exposes the standard CKAN Action API over roughly 280+ datasets from 50+ public institutions, supporting programmatic dataset search, metadata retrieval, and resource access, plus DCAT exports (N3, TTL, XML, JSON-LD).",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 98
     },
     {
-     "name": "opendata.gov.al (Open Data Albania)",
-     "slug": "opendata-gov-al",
-     "url": "https://providers.apis.io/providers/opendata-gov-al/",
+     "name": "data.gov.rs",
+     "slug": "data-gov-rs",
+     "url": "https://providers.apis.io/providers/data-gov-rs/",
      "type": "API Provider",
-     "description": "opendata.gov.al is the national government open-data portal for Albania (Open Data Albania). It is a custom, DCAT-AP-compliant platform (an Angular single-page-app front end over a bespoke REST API) with a dedicated SPARQL query endpoint, and it is harvested into the EU data portal (data.europa.eu). It is not CKAN or DKAN. Read endpoints live under the /api prefix using PascalCase, action-style routes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-gov-al/refs/heads/main/screenshots/opendata-gov-al-2026-08-07T190550.png",
+     "description": "data.gov.rs is the national government open-data portal for the Republic of Serbia, operated by the Office for IT and eGovernment. It runs the uData platform and exposes the uData REST API over approximately 3,452 datasets, supporting programmatic dataset search, metadata retrieval, organization listings, and resource access. The API provides a consistent JSON-over-HTTP interface and is harvested into the EU data portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-gov-rs/refs/heads/main/screenshots/data-gov-rs-2026-07-25T211244.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5169,7 +5169,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5202,6 +5202,58 @@
       "agentic_commerce": false
      },
      "rank": 99
+    },
+    {
+     "name": "opendata.gov.al (Open Data Albania)",
+     "slug": "opendata-gov-al",
+     "url": "https://providers.apis.io/providers/opendata-gov-al/",
+     "type": "API Provider",
+     "description": "opendata.gov.al is the national government open-data portal for Albania (Open Data Albania). It is a custom, DCAT-AP-compliant platform (an Angular single-page-app front end over a bespoke REST API) with a dedicated SPARQL query endpoint, and it is harvested into the EU data portal (data.europa.eu). It is not CKAN or DKAN. Read endpoints live under the /api prefix using PascalCase, action-style routes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-gov-al/refs/heads/main/screenshots/opendata-gov-al-2026-08-07T190550.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 100
     }
    ]
   }

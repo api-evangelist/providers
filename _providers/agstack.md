@@ -35,18 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 119
+- acting_count: 118
   human_in_the_loop: 20
   name: Agstack Agentic Access
   operation_count: 191
   slug: agstack-agentic-access
-  summary_line: 191 operations · 119 acting · 20 human-in-the-loop
+  summary_line: 191 operations · 118 acting · 20 human-in-the-loop
 api_count: 3
 apis:
 - description: The api API from AgStack Foundation — 57 operation(s) for api.
-  name: AgStack Foundation api
+  name: AgStack Foundation API
   slug: agstack-api-api
 - description: The Auth API from AgStack Foundation — 2 operation(s) for auth.
   name: AgStack Foundation Auth API
@@ -883,7 +883,7 @@ modified: '2026-09-16'
 name: AgStack Foundation
 nav: Providers
 network: true
-overview: 'AgStack Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Authentication API, and 5 more. Tagged areas include Agriculture, Linux Foundation, Open-Source, Geospatial, and Precision Agriculture.
+overview: 'AgStack Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Authentication API, and 5 more. Tagged areas include Agriculture, Linux Foundation, Open Source, Geospatial, and Precision Agriculture.
 
 
   The AgStack Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -948,7 +948,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -967,7 +967,7 @@ slug: agstack
 tags:
 - Agriculture
 - Linux Foundation
-- Open-Source
+- Open Source
 - Geospatial
 - Precision Agriculture
 - Linked Data

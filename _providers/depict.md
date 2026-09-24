@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 79
+- acting_count: 61
   human_in_the_loop: 0
   name: Depict Agentic Access
   operation_count: 146
   slug: depict-agentic-access
-  summary_line: 146 operations · 79 acting
+  summary_line: 146 operations · 61 acting
 api_count: 3
 apis:
 - baseURL: https://api.depict.ai
@@ -106,12 +106,12 @@ apis:
 - baseURL: https://api.depict.ai
   baseurl_source: declared
   description: The merchant API from Depict — 6 operation(s) for merchant.
-  name: Depict merchant API
+  name: Depict Merchant API
   slug: depict-merchant-api
 - baseURL: https://api.depict.ai
   baseurl_source: declared
   description: The merchant-create API from Depict — 1 operation(s) for merchant-create.
-  name: Depict merchant-create API
+  name: Depict Merchant Create API
   slug: depict-merchant-create-api
 - baseURL: https://api.depict.ai
   baseurl_source: declared
@@ -121,7 +121,7 @@ apis:
 - baseURL: https://api.depict.ai
   baseurl_source: declared
   description: The multi-store API from Depict — 7 operation(s) for multi-store.
-  name: Depict multi-store API
+  name: Depict Multi Store API
   slug: depict-multi-store-api
 - baseURL: https://api.depict.ai
   baseurl_source: declared
@@ -201,12 +201,12 @@ apis:
 - baseURL: https://api.depict.ai
   baseurl_source: declared
   description: The tracking API from Depict — 2 operation(s) for tracking.
-  name: Depict tracking API
+  name: Depict Tracking API
   slug: depict-tracking-api
 - baseURL: https://api.depict.ai
   baseurl_source: declared
   description: The translations API from Depict — 1 operation(s) for translations.
-  name: Depict translations API
+  name: Depict Translations API
   slug: depict-translations-api
 - baseURL: https://api.depict.ai
   baseurl_source: declared
@@ -513,6 +513,8 @@ score:
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
@@ -529,7 +531,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

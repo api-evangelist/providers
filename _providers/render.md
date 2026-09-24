@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -176,7 +176,7 @@ apis:
   description: The `Workspaces` endpoints supply more information about the workspaces that your API key has access to. This category was previously called `Owners`, as reflected by endpoint paths.
   name: Render Workspaces API
   slug: render-workspaces-api
-artifact_total: 281
+artifact_total: 280
 asyncapis:
 - description: AsyncAPI 2.6 description of Render's outbound webhook surface. Render delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber URL configured in the Render dashboard
   name: Render Webhooks
@@ -461,10 +461,6 @@ finops:
 - name: Render Finops
   service_category: Hosting
   slug: render-finops
-graphqls:
-- description: 'title: Render GraphQL Schema'
-  name: Render GraphQL Schema
-  slug: render-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/render.png
 json_schemas:
 - name: addUpdateEnvVarInput
@@ -1030,7 +1026,7 @@ score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
@@ -1040,7 +1036,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 28.8
-    contract_quality: 79.8
+    contract_quality: 79.9
     developer_ergonomics: 39.3
     discoverability: 70.4
     operational_transparency: 28.9
@@ -1054,7 +1050,7 @@ score:
       total: 26
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

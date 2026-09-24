@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ modified: '2026-09-16'
 name: BFE
 nav: Providers
 network: true
-overview: 'BFE publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debug API, Monitor API, and Reload API. Tagged areas include Load Balancer, Networking, Open-Source, Traffic Management, and CNCF.
+overview: 'BFE publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debug API, Monitor API, and Reload API. Tagged areas include Load Balancer, Networking, Open Source, Traffic Management, and CNCF.
 
 
   The BFE catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -294,7 +294,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -310,7 +310,7 @@ slug: bfe
 tags:
 - Load Balancer
 - Networking
-- Open-Source
+- Open Source
 - Traffic Management
 - CNCF
 - Baidu

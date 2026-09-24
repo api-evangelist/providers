@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 265
+- acting_count: 263
   human_in_the_loop: 5
   name: Plaid Agentic Access
   operation_count: 265
   slug: plaid-agentic-access
-  summary_line: 265 operations · 265 acting · 5 human-in-the-loop
+  summary_line: 265 operations · 263 acting · 5 human-in-the-loop
 api_count: 71
 apis:
 - baseURL: https://production.plaid.com
@@ -51,7 +51,7 @@ apis:
   description: The Plaid API from Plaid — 256 operation(s) for plaid.
   name: Plaid API
   slug: plaid-plaid-api
-artifact_total: 92
+artifact_total: 91
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Plaid webhook surface. Plaid delivers asynchronous notifications via HTTP POST to the URL registered on an Item (`webhook` parameter in `/link/token/create`) or conf
   name: Plaid Webhooks
@@ -516,10 +516,6 @@ finops:
 - name: Plaid Finops
   service_category: Fintech APIs
   slug: plaid-finops
-graphqls:
-- description: Plaid does not offer a native public GraphQL API. All Plaid APIs are REST-based, accessed via POST requests to `https://production.plaid.com` with JSON request/response bodies and `client_id` / `secre
-  name: Plaid GraphQL
-  slug: plaid-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plaid.png
 layout: provider
 modified: '2026-09-16'
@@ -567,19 +563,19 @@ rules:
   slug: plaid-spectral-rules
 score:
   band: exemplar
-  composite: 71.6
+  composite: 70.6
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 52.8
     catalog_earned_first_party: 0.0
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 69.7
     contract_governance: 29.5
-    contract_quality: 68.9
+    contract_quality: 65.0
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 57.9
@@ -614,7 +610,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

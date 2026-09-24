@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Moven
 nav: Providers
 network: true
-overview: 'Moven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Financial-Services, and Digital Banking.
+overview: 'Moven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Financial Services, and Digital Banking.
 
 
   Moven''s developer surface includes support and 4 more developer resources.'
@@ -96,7 +96,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,7 +113,7 @@ tags:
 - Company
 - Fintech
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - Financial Wellness
 - Banking as a Service

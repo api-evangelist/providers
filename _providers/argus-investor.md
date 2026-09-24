@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Argus Research Company''s coverage and ratings surface: analyst BUY/HOLD/SELL recommendations and target prices on 500+ US equities across 60+ industries, A6 quantitative ratings on 1,100+ companies, a'
@@ -133,7 +133,7 @@ modified: '2026-09-14'
 name: Argus Investor
 nav: Providers
 network: true
-overview: 'Argus Investor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Analysis, Financial Data, Financial-Services, Investment Ratings, and Stock Research.
+overview: 'Argus Investor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Equity Analysis, Financial Data, Financial Services, Investment Ratings, and Stock Research.
 
 
   Argus Investor''s developer surface includes support, engineering blog, and 6 more developer resources.'
@@ -168,7 +168,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ slug: argus-investor
 tags:
 - Equity Analysis
 - Financial Data
-- Financial-Services
+- Financial Services
 - Investment Ratings
 - Stock Research
 use_cases:

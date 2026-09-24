@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://docs.voxel51.com
@@ -118,7 +118,7 @@ modified: '2026-06-21'
 name: Voxel51
 nav: Providers
 network: true
-overview: 'Voxel51 publishes 3 APIs on the [APIs.io](https://apis.io/) network: FiftyOne SDK (Python), FiftyOne Enterprise Management SDK / API, and FiftyOne Plugins & Operators. Tagged areas include Artificial Intelligence, Computer-Vision, Datasets, Machine-Learning, and Python SDK.
+overview: 'Voxel51 publishes 3 APIs on the [APIs.io](https://apis.io/) network: FiftyOne SDK (Python), FiftyOne Enterprise Management SDK / API, and FiftyOne Plugins & Operators. Tagged areas include Artificial Intelligence, Computer Vision, Datasets, Machine Learning, and Python SDK.
 
 
   Voxel51''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -151,7 +151,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -170,9 +170,9 @@ security:
 slug: voxel51
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Datasets
-- Machine-Learning
+- Machine Learning
 - Python SDK
 website: https://voxel51.com
 ---

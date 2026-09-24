@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 8
   human_in_the_loop: 0
   name: Notion Agentic Access
   operation_count: 19
   slug: notion-agentic-access
-  summary_line: 19 operations · 10 acting
+  summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.notion.com/v1
@@ -109,7 +109,7 @@ arazzos:
 - description: Identify the integration bot, list workspace users, then retrieve the first user in detail.
   name: Notion Resolve a Workspace User Directory
   slug: notion-user-directory-resolve-workflow
-artifact_total: 71
+artifact_total: 70
 asyncapis:
 - description: AsyncAPI 2.6 description of the Notion webhooks surface. Notion delivers workspace events (page, database, data source, and comment changes) to a subscriber-hosted HTTPS endpoint via signed POST reque
   name: Notion Webhooks
@@ -647,10 +647,6 @@ finops:
 - name: Notion Finops
   service_category: Productivity
   slug: notion-finops
-graphqls:
-- description: Notion does not expose a public GraphQL endpoint. Notion's public API is a versioned REST API (`api.notion.com/v1`). The GraphQL schema in `notion-schema.graphql` is a comprehensive conceptual model d
-  name: Notion GraphQL
-  slug: notion-graphql
 image: https://www.notion.so/images/meta/default.png
 json_schemas:
 - name: Notion Block
@@ -753,19 +749,19 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.8
+  composite: 60.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 60.5
     catalog_earned_first_party: 0.0
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 81.0
+    contract_quality: 81.2
     developer_ergonomics: 75.0
     discoverability: 61.1
     operational_transparency: 63.2
@@ -783,7 +779,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

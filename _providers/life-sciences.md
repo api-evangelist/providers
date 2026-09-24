@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-05-23'
 name: Life Sciences
 nav: Providers
 network: true
-overview: 'Life Sciences publishes 3 APIs on the [APIs.io](https://apis.io/) network: Stats API, Studies API, and Version API. Tagged areas include Life Sciences, Biotech, Pharma, Healthcare, and Clinical Trials.
+overview: 'Life Sciences publishes 3 APIs on the [APIs.io](https://apis.io/) network: Stats API, Studies API, and Version API. Tagged areas include Life Sciences, Biotechnology, Pharma, Healthcare, and Clinical Trials.
 
 
   The Life Sciences catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -245,7 +245,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -260,7 +260,7 @@ security:
 slug: life-sciences
 tags:
 - Life Sciences
-- Biotech
+- Biotechnology
 - Pharma
 - Healthcare
 - Clinical Trials

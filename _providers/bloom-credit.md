@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Individual account and trade line data
   name: Bloom Credit Trade Lines API
   slug: bloom-credit-trade-lines-api
-artifact_total: 53
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Bloom Credit Consumers API
@@ -211,10 +211,6 @@ finops:
 - name: Bloom Credit Finops
   service_category: API
   slug: bloom-credit-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Bloom Credit API, which provides fintech infrastructure for accessing consumer credit data from all three major credit bureaus — Equifax, Experian, and TransU
-  name: Bloom Credit GraphQL Schema
-  slug: bloom-credit-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloom-credit.png
 integrations:
 - description: Direct integration with Equifax for credit report and score data including FICO 8 and other proprietary scoring models.
@@ -301,19 +297,19 @@ rules:
   slug: bloom-credit-spectral-rules
 score:
   band: thin
-  composite: 32.0
+  composite: 30.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 26.5
+    contract_quality: 19.7
     developer_ergonomics: 44.0
     discoverability: 72.2
     operational_transparency: 10.5
@@ -326,7 +322,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

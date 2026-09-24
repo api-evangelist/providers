@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://app.land.tech/api
@@ -274,7 +274,7 @@ modified: '2026-07-19'
 name: Land Insight
 nav: Providers
 network: true
-overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Additional Opportunities API, Development Constraints API, Development Opportunities API, and 9 more. Tagged areas include Company, Real-Estate, Property, Land, and Planning.
+overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Additional Opportunities API, Development Constraints API, Development Opportunities API, and 9 more. Tagged areas include Company, Real Estate, Property, Land, and Planning.
 
 
   Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -316,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -338,7 +338,7 @@ security:
 slug: land-insight
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property
 - Land
 - Planning

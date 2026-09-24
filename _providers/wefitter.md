@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -47,47 +47,47 @@ apis:
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: The app API from WeFitter — 1 operation(s) for app.
-  name: WeFitter app API
+  name: WeFitter App API
   slug: wefitter-app-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: WeFitter API’s challenge engine will bring endless engagement to your platform. For more information about the possibilities in challenges please go to https://www.wefitter.com/en-us/features/gamifica
-  name: WeFitter challenge API
+  name: WeFitter Challenge API
   slug: wefitter-challenge-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: Connections are the links between profiles and their wearables.
-  name: WeFitter connection API
+  name: WeFitter Connection API
   slug: wefitter-connection-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: The insights API from WeFitter — 1 operation(s) for insights.
-  name: WeFitter insights API
+  name: WeFitter Insights API
   slug: wefitter-insights-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: The loyalty API from WeFitter — 2 operation(s) for loyalty.
-  name: WeFitter loyalty API
+  name: WeFitter Loyalty API
   slug: wefitter-loyalty-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: 'Send a notification to all devices for the specified profiles The data will be sent to the client in the following format: ``` { "app": <app public id>, "title": <title>, "body": <body>, "link": <opti'
-  name: WeFitter notification API
+  name: WeFitter Notification API
   slug: wefitter-notification-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: 'Profiles are containers for wearables data. The profiles can be seen as an extension of users in a different system. Profiles are anonymous objects which can participate in teams and challenges. Keep '
-  name: WeFitter profile API
+  name: WeFitter Profile API
   slug: wefitter-profile-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: The team API from WeFitter — 5 operation(s) for team.
-  name: WeFitter team API
+  name: WeFitter Team API
   slug: wefitter-team-api
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
   description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
-  name: WeFitter token API
+  name: WeFitter Token API
   slug: wefitter-token-api
 artifact_total: 23
 asyncapis:
@@ -276,7 +276,7 @@ modified: '2026-07-21'
 name: WeFitter
 nav: Providers
 network: true
-overview: 'WeFitter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including app API, challenge API, connection API, and 6 more. Tagged areas include Company, Health, Fitness, Wearables, and Health Data.
+overview: 'WeFitter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenge API, Connection API, and 6 more. Tagged areas include Company, Health, Fitness, Wearables, and Health Data.
 
 
   The WeFitter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,7 +294,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
@@ -302,7 +302,7 @@ score:
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,7 +324,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: Access user and company segments.
   name: Intercom Segments API
   slug: intercom-segments-api
-artifact_total: 58
+artifact_total: 57
 asyncapis:
 - description: AsyncAPI description of Intercom's outbound webhook surface. Intercom delivers workspace events to a single subscriber URL configured per app under the Developer Hub > Webhooks settings. Each delivery
   name: Intercom Webhooks
@@ -228,10 +228,6 @@ finops:
 - name: Intercom Finops
   service_category: Customer Support
   slug: intercom-finops
-graphqls:
-- description: Intercom does not publish a public GraphQL API. Its developer platform is built entirely on REST. The GraphQL schema in this directory is a conceptual data model derived from the official Intercom RES
-  name: Intercom GraphQL
-  slug: intercom-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intercom.png
 json_schemas:
 - name: Admin
@@ -270,7 +266,7 @@ modified: '2026-05-30'
 name: Intercom
 nav: Providers
 network: true
-overview: 'Intercom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Articles API, Companies API, and 6 more. Tagged areas include Artificial Intelligence, Customer Service, Customer-Support, and Messaging.
+overview: 'Intercom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Articles API, Companies API, and 6 more. Tagged areas include Artificial Intelligence, Customer Service, Customer Support, Messaging, and Conversational AI.
 
 
   The Intercom catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -313,21 +309,21 @@ rules:
   slug: intercom-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.3
+  composite: 53.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 63.5
+    artifact_dirs: 19
+    catalog_earned: 68.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.5
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 63.2
     contract_governance: 13.6
-    contract_quality: 64.1
+    contract_quality: 59.5
     developer_ergonomics: 38.1
-    discoverability: 66.7
+    discoverability: 75.9
     operational_transparency: 34.2
   previous_composite: 53.3
   provenance:
@@ -338,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -361,7 +357,10 @@ slug: intercom
 tags:
 - Artificial Intelligence
 - Customer Service
-- Customer-Support
+- Customer Support
 - Messaging
+- Conversational AI
+- Help Desk
+- Chatbots
 website: https://www.intercom.com/
 ---

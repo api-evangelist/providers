@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,7 +62,7 @@ modified: '2026-07-18'
 name: Datalogue
 nav: Providers
 network: true
-overview: Datalogue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, Data Preparation, Machine-Learning, and Analytics.
+overview: Datalogue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, Data Preparation, Machine Learning, and Analytics.
 random_paper: 4
 score:
   band: minimal
@@ -90,7 +90,7 @@ score:
       reason: never_enriched
   previous_composite: 6.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -101,7 +101,7 @@ tags:
 - Company
 - Data Integration
 - Data Preparation
-- Machine-Learning
+- Machine Learning
 - Analytics
 - Acquired
 - Bloomberg Beta

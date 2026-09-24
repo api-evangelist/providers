@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -401,7 +401,7 @@ modified: '2026-05-19'
 name: OpenAI APIs
 nav: Providers
 network: true
-overview: 'OpenAI APIs publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assistants API, Chat API, Completions API, and 9 more. Tagged areas include Artificial Intelligence, Embeddings, Image-Generation, Language Models, and Speech.
+overview: 'OpenAI APIs publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assistants API, Chat API, Completions API, and 9 more. Tagged areas include Artificial Intelligence, Embeddings, Image Generation, Language Models, and Speech.
 
 
   The OpenAI APIs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -455,7 +455,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -482,7 +482,7 @@ slug: openai-apis
 tags:
 - Artificial Intelligence
 - Embeddings
-- Image-Generation
+- Image Generation
 - Language Models
 - Speech
 website: https://www.openai.com/

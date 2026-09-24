@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,19 +51,13 @@ apis:
 - description: Discover pizzerias (shops) in the Slice network.
   name: Slice Shops API
   slug: slice-shops-api
-- description: Logical, modeled grouping for the pizzeria (shop) records that anchor the Slice platform - profile, address, hours, service areas, and pickup/delivery availability. Reflected in the Owner's Portal sho
-  name: Slice Shops API (Modeled)
-  slug: slice-shops-api
 - description: Logical, modeled grouping for a shop's menu - categories, items, sizes, toppings, and pricing (the Owner's Portal exposes shop menu items at owners.slicelife.com/shops/{id}/menu/items). No public endp
   name: Slice Menu API (Modeled)
   slug: slice-menu-api
-- description: Logical, modeled grouping for online orders placed for pickup or delivery - cart, checkout, order status, and fulfillment. Central to Slice's per-order commercial model (a flat per-order fee to the sh
-  name: Slice Orders API (Modeled)
-  slug: slice-orders-api
 - description: 'Logical, modeled grouping for the diner accounts, order history, and marketing/loyalty relationships that Slice manages on behalf of shops (consumer identity is handled via Auth0). No public endpoint '
   name: Slice Customers API (Modeled)
   slug: slice-customers-api
-artifact_total: 19
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -174,7 +168,7 @@ modified: '2026-06-03'
 name: Slice
 nav: Providers
 network: true
-overview: 'Slice publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Shops API, Shops API (Modeled), and 1 more. Tagged areas include Restaurant, Pizza, Online Ordering, Local Commerce, and Menus.
+overview: 'Slice publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Shops API. Tagged areas include Restaurant, Pizza, Online Ordering, Local Commerce, and Menus.
 
 
   The Slice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -203,8 +197,8 @@ rules:
     warn: 11
   slug: slice-rules
 score:
-  band: thin
-  composite: 33.0
+  band: developing
+  composite: 45.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 80.0
@@ -212,11 +206,11 @@ score:
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.6
   facets:
     access_clarity: 50.0
     contract_governance: 60.6
-    contract_quality: 6.8
+    contract_quality: 57.1
     developer_ergonomics: 28.6
     discoverability: 59.3
     operational_transparency: 23.7
@@ -229,8 +223,8 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

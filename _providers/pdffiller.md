@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-06-13'
 name: PDFfiller
 nav: Providers
 network: true
-overview: 'PDFfiller publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Callbacks API, and 8 more. Tagged areas include PDF, E-Signature, Document-Management, Form Builder, and PDF Editing.
+overview: 'PDFfiller publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Callbacks API, and 8 more. Tagged areas include PDF, E-Signature, Document Management, Form Builder, and PDF Editing.
 
 
   The PDFfiller catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -301,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +320,7 @@ slug: pdffiller
 tags:
 - PDF
 - E-Signature
-- Document-Management
+- Document Management
 - Form Builder
 - PDF Editing
 - Electronic Signature

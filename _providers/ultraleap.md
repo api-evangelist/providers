@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: LeapC is the native C API of the Ultraleap Hand Tracking Software. A client opens a connection to the locally running tracking service and polls it for tracking frames (hands, palms, digits, bones), d
@@ -172,7 +172,7 @@ modified: '2026-09-18'
 name: Ultraleap
 nav: Providers
 network: true
-overview: 'Ultraleap publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer-Vision, Spatial Computing, and Haptics.
+overview: 'Ultraleap publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hand Tracking, Computer Vision, Spatial Computing, and Haptics.
 
 
   Ultraleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 22 more developer resources.'
@@ -199,7 +199,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ slug: ultraleap
 tags:
 - Company
 - Hand Tracking
-- Computer-Vision
+- Computer Vision
 - Spatial Computing
 - Haptics
 - Augmented Reality

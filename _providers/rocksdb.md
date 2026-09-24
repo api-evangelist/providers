@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: RocksDB C++ library API providing key-value storage operations including Get, Put, Delete, Merge, iterators, snapshots, column families, transactions, compaction, and backup. The primary interface for
@@ -137,7 +137,7 @@ modified: '2026-05-02'
 name: RocksDB
 nav: Providers
 network: true
-overview: 'RocksDB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include RocksDB, Key-Value Store, Embedded Database, Storage Engine, and Open-Source.
+overview: 'RocksDB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include RocksDB, Key-Value Store, Embedded Database, Storage Engine, and Open Source.
 
 
   The RocksDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 24.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -202,6 +202,6 @@ tags:
 - Key-Value Store
 - Embedded Database
 - Storage Engine
-- Open-Source
+- Open Source
 website: https://rocksdb.org/
 ---

@@ -29,7 +29,7 @@ tags:
 - Predictive Analytics
 - Web Session Intelligence
 - Account Takeover
-- Financial-Services
+- Financial Services
 - Acquired
 - Defunct
 ---

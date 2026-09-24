@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-05-19'
 name: Apache Spark
 nav: Providers
 network: true
-overview: 'Apache Spark publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Version API. Tagged areas include Analytics, Big Data, Distributed Computing, Machine-Learning, and Open-Source.
+overview: 'Apache Spark publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Version API. Tagged areas include Analytics, Big Data, Distributed Computing, Machine Learning, and Open Source.
 
 
   Apache Spark''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, and 14 more developer resources.'
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -269,8 +269,8 @@ tags:
 - Analytics
 - Big Data
 - Distributed Computing
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Streaming
 use_cases:
 - description: Extract, transform, and load petabytes of data across distributed clusters.

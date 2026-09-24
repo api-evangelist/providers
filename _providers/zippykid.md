@@ -34,35 +34,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 93
+- acting_count: 92
   human_in_the_loop: 7
   name: Zippykid Agentic Access
   operation_count: 149
   slug: zippykid-agentic-access
-  summary_line: 149 operations · 93 acting · 7 human-in-the-loop
+  summary_line: 149 operations · 92 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The account API from ZippyKid — 4 operation(s) for account.
-  name: ZippyKid account API
+  name: ZippyKid Account API
   slug: zippykid-account-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The activity API from ZippyKid — 2 operation(s) for activity.
-  name: ZippyKid activity API
+  name: ZippyKid Activity API
   slug: zippykid-activity-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The auth API from ZippyKid — 2 operation(s) for auth.
-  name: ZippyKid auth API
+  name: ZippyKid Auth API
   slug: zippykid-auth-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The collaborators API from ZippyKid — 8 operation(s) for collaborators.
-  name: ZippyKid collaborators API
+  name: ZippyKid Collaborators API
   slug: zippykid-collaborators-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
@@ -72,17 +72,17 @@ apis:
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The mu-plugins API from ZippyKid — 2 operation(s) for mu-plugins.
-  name: ZippyKid mu-plugins API
+  name: ZippyKid Mu Plugins API
   slug: zippykid-mu-plugins-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The sites API from ZippyKid — 88 operation(s) for sites.
-  name: ZippyKid sites API
+  name: ZippyKid Sites API
   slug: zippykid-sites-api
 - baseURL: https://my.pressable.com/v1
   baseurl_source: declared
   description: The zones API from ZippyKid — 5 operation(s) for zones.
-  name: ZippyKid zones API
+  name: ZippyKid Zones API
   slug: zippykid-zones-api
 artifact_total: 23
 asyncapis:
@@ -267,7 +267,7 @@ modified: '2026-07-21'
 name: ZippyKid
 nav: Providers
 network: true
-overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network, including account API, activity API, auth API, and 5 more. Tagged areas include Company, WordPress, Managed Hosting, WordPress Hosting, and Web Hosting.
+overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Auth API, and 5 more. Tagged areas include Company, WordPress, Managed Hosting, WordPress Hosting, and Web Hosting.
 
 
   The ZippyKid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -290,7 +290,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
@@ -298,7 +298,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 31.6
-  previous_composite: 46.7
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,7 +310,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

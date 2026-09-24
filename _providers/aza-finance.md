@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ modified: '2026-07-18'
 name: AZA Finance
 nav: Providers
 network: true
-overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial-Services, Payments, Foreign Exchange, and Cross-Border Payments.
+overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Debits API, Account Validation API, Accounts API, and 13 more. Tagged areas include Company, Financial Services, Payments, Foreign Exchange, and Cross-Border Payments.
 
 
   The AZA Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -373,7 +373,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -391,7 +391,7 @@ security:
 slug: aza-finance
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Foreign Exchange
 - Cross-Border Payments

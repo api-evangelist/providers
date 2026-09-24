@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 64.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -47,27 +47,27 @@ apis:
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The agent API from AgentMail — 2 operation(s) for agent.
-  name: AgentMail agent API
+  name: AgentMail Agent API
   slug: agentmail-agent-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The api-keys API from AgentMail — 2 operation(s) for api-keys.
-  name: AgentMail api-keys API
+  name: AgentMail API Keys API
   slug: agentmail-api-keys-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The auth API from AgentMail — 1 operation(s) for auth.
-  name: AgentMail auth API
+  name: AgentMail Auth API
   slug: agentmail-auth-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The domains API from AgentMail — 4 operation(s) for domains.
-  name: AgentMail domains API
+  name: AgentMail Domains API
   slug: agentmail-domains-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The drafts API from AgentMail — 3 operation(s) for drafts.
-  name: AgentMail drafts API
+  name: AgentMail Drafts API
   slug: agentmail-drafts-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
@@ -77,7 +77,7 @@ apis:
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The inboxes API from AgentMail — 2 operation(s) for inboxes.
-  name: AgentMail inboxes API
+  name: AgentMail Inboxes API
   slug: agentmail-inboxes-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
@@ -117,17 +117,17 @@ apis:
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The lists API from AgentMail — 2 operation(s) for lists.
-  name: AgentMail lists API
+  name: AgentMail Lists API
   slug: agentmail-lists-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The metrics API from AgentMail — 2 operation(s) for metrics.
-  name: AgentMail metrics API
+  name: AgentMail Metrics API
   slug: agentmail-metrics-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The organizations API from AgentMail — 1 operation(s) for organizations.
-  name: AgentMail organizations API
+  name: AgentMail Organizations API
   slug: agentmail-organizations-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
@@ -137,7 +137,7 @@ apis:
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The pods API from AgentMail — 2 operation(s) for pods.
-  name: AgentMail pods API
+  name: AgentMail Pods API
   slug: agentmail-pods-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
@@ -177,12 +177,12 @@ apis:
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The threads API from AgentMail — 4 operation(s) for threads.
-  name: AgentMail threads API
+  name: AgentMail Threads API
   slug: agentmail-threads-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
   description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
-  name: AgentMail webhooks API
+  name: AgentMail Webhooks API
   slug: agentmail-webhooks-api
 - baseURL: https://api.agentmail.to
   baseurl_source: declared
@@ -472,7 +472,7 @@ modified: '2026-07-17'
 name: AgentMail
 nav: Providers
 network: true
-overview: 'AgentMail publishes 29 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 26 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
+overview: 'AgentMail publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Agent API, API Keys API, Auth API, and 26 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
 
 
   The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -521,7 +521,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -555,5 +555,6 @@ tags:
 - MCP
 - Agentic
 - Developer Tools
+- Real-Time
 website: https://www.agentmail.to/
 ---

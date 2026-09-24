@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-09-16'
 name: Imentiv AI
 nav: Providers
 network: true
-overview: 'Imentiv AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Insights API, Audio Emotion API, Image Emotion API, and 3 more. Tagged areas include Artificial Intelligence, Emotion Detection, Machine-Learning, and Video Analysis.
+overview: 'Imentiv AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Insights API, Audio Emotion API, Image Emotion API, and 3 more. Tagged areas include Artificial Intelligence, Emotion Detection, Machine Learning, and Video Analysis.
 
 
   Imentiv AI''s developer surface includes authentication and 4 more developer resources.'
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -196,7 +196,7 @@ slug: imentiv-ai
 tags:
 - Artificial Intelligence
 - Emotion Detection
-- Machine-Learning
+- Machine Learning
 - Video Analysis
 website: https://imentiv.ai/
 ---

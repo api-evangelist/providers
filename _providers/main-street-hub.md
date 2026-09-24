@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-20'
 name: Main Street Hub
 nav: Providers
 network: true
-overview: Main Street Hub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social-Media, Small Business, and Local Business.
+overview: Main Street Hub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Small Business, and Local Business.
 random_paper: 19
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -91,7 +91,7 @@ slug: main-street-hub
 tags:
 - Company
 - Marketing
-- Social-Media
+- Social Media
 - Small Business
 - Local Business
 - Reviews

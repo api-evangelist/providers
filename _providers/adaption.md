@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.prod.adaptionlabs.ai
@@ -114,7 +114,7 @@ modified: '2026-07-17'
 name: Adaption
 nav: Providers
 network: true
-overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Datasets.
+overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Upload API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Datasets.
 
 
   Adaption''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 6 more developer resources.'
@@ -145,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -160,7 +160,7 @@ slug: adaption
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Datasets
 - Data Augmentation

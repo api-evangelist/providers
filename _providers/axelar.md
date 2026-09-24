@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Axelar Agentic Access
   operation_count: 9
   slug: axelar-agentic-access
-  summary_line: 9 operations · 4 acting
+  summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
 - description: Retrieves information about the Axelar network and the AXL token. Provides access to metrics such as circulating supply, total supply, inflation, total value locked (TVL) across 80+ chains and 30+ ass
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

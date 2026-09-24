@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -134,7 +134,7 @@ modified: '2026-07-19'
 name: Flower
 nav: Providers
 network: true
-overview: 'Flower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Federated Learning, Federated AI, Machine-Learning, and Artificial Intelligence.
+overview: 'Flower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Federated Learning, Federated AI, Machine Learning, and Artificial Intelligence.
 
 
   Flower''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 13 more developer resources.'
@@ -159,7 +159,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 30.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,12 +184,12 @@ tags:
 - Company
 - Federated Learning
 - Federated AI
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Privacy
 - SDK
 - On-Device AI
 - Confidential Computing
-- Open-Source
+- Open Source
 website: https://flower.ai
 ---

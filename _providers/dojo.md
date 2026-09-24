@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 52
+- acting_count: 45
   human_in_the_loop: 0
   name: Dojo Agentic Access
   operation_count: 75
   slug: dojo-agentic-access
-  summary_line: 75 operations · 52 acting
+  summary_line: 75 operations · 45 acting
 api_count: 5
 apis:
 - baseURL: https://api.dojo.tech
@@ -396,7 +396,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -427,5 +427,6 @@ tags:
 - Terminal
 - Point-of-Sale
 - Webhook
+- Real-Time
 website: https://dojo.tech/
 ---

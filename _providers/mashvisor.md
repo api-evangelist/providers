@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ modified: '2026-07-20'
 name: Mashvisor
 nav: Providers
 network: true
-overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real-Estate, Property Data, Analytics, and Rentals.
+overview: 'Mashvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Investment Analysis API, Property Info API, Rental Rates API, and 2 more. Tagged areas include Company, Real Estate, Property Data, Analytics, and Rentals.
 
 
   Mashvisor''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
@@ -239,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -258,7 +258,7 @@ security:
 slug: mashvisor
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Data
 - Analytics
 - Rentals

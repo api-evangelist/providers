@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -391,7 +391,7 @@ modified: '2026-09-16'
 name: Neon
 nav: Providers
 network: true
-overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 8 more. Tagged areas include Database, Serverless, Postgres, Infrastructure, and Authentication.
+overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 8 more. Tagged areas include Database, Serverless, PostgreSQL, Infrastructure, and Authentication.
 
 
   The Neon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -456,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -503,7 +503,7 @@ slug: neon
 tags:
 - Database
 - Serverless
-- Postgres
+- PostgreSQL
 - Infrastructure
 - Authentication
 - Edge

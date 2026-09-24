@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/quicksight/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/agentic-access/amazon-quicksight-agentic-access.yml
   title: ''
@@ -379,7 +379,7 @@ modified: '2026-09-16'
 name: Amazon QuickSight
 nav: Providers
 network: true
-overview: 'Amazon QuickSight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dashboards API and Datasets API. Tagged areas include Analytics, Business Intelligence, Dashboards, Machine-Learning, and Reporting.
+overview: 'Amazon QuickSight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dashboards API and Datasets API. Tagged areas include Analytics, Business Intelligence, Dashboards, Machine Learning, and Reporting.
 
 
   The Amazon QuickSight catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -444,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -469,8 +469,8 @@ tags:
 - Analytics
 - Business Intelligence
 - Dashboards
-- Machine-Learning
+- Machine Learning
 - Reporting
 - Visualization
-website: https://amazon.com
+website: https://aws.amazon.com/quicksight/
 ---

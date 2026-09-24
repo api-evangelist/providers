@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -135,7 +135,7 @@ apis:
   description: Generate images that adopt the visual style of a reference image while following a text prompt for content direction.
   name: Stability AI Style API
   slug: stability-ai-style-api
-artifact_total: 117
+artifact_total: 116
 collections:
 - collection_type: postman
   name: Stability AI Stable Fast 3D 3D Generation API
@@ -374,10 +374,6 @@ finops:
 - name: Stability Ai Finops
   service_category: AI Image/Video Generation
   slug: stability-ai-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the Stability AI developer platform, which provides generative AI APIs for image generation, image editing, image upscaling, video generation, audio generatio
-  name: Stability AI GraphQL Schema
-  slug: stability-ai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stability-ai.png
 json_schemas:
 - name: AsyncGenerationResponse
@@ -478,7 +474,7 @@ modified: '2026-05-19'
 name: Stability AI
 nav: Providers
 network: true
-overview: 'Stability AI publishes 18 APIs on the [APIs.io](https://apis.io/) network, including 3D Generation API, Conservative Upscale API, Creative Upscale API, and 15 more. Tagged areas include 3D Generation, Artificial Intelligence, Generative AI, Image-Generation, and Image Editing.
+overview: 'Stability AI publishes 18 APIs on the [APIs.io](https://apis.io/) network, including 3D Generation API, Conservative Upscale API, Creative Upscale API, and 15 more. Tagged areas include 3D Generation, Artificial Intelligence, Generative AI, Image Generation, and Image Editing.
 
 
   The Stability AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -518,19 +514,19 @@ rules:
   slug: stability-ai-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 40.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 60.5
     catalog_earned_first_party: 0.0
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 65.1
+    contract_quality: 60.5
     developer_ergonomics: 25.0
     discoverability: 68.5
     operational_transparency: 13.2
@@ -543,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -563,9 +559,9 @@ tags:
 - 3D Generation
 - Artificial Intelligence
 - Generative AI
-- Image-Generation
+- Image Generation
 - Image Editing
-- Machine-Learning
+- Machine Learning
 - Stable Diffusion
 - Text-to-Image
 - Video Generation

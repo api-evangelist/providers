@@ -21,13 +21,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 54.8,
+      "contract_quality": 54.9,
       "contract_governance": 18.2,
       "operational_transparency": 60.5,
       "developer_ergonomics": 68.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -122,7 +122,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -158,15 +158,15 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "TravelPerk",
      "slug": "travelperk",
      "description": "TravelPerk is a business-travel management platform that lets companies book and manage flights, hotels, trains, and cars in one place. Its Open API gives partners and customers programmatic access to bookings and trips, invoices and expenses, travelers and members, cost centers, scheduled reports, and webhooks for real-time travel and finance data exchange with HR systems, ERPs, and expense tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/screenshots/travelperk-2026-09-02T164145.png",
-     "score": 37.7,
+     "score": 36.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -174,10 +174,10 @@
       "contract_quality": 56.7,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 25.0,
+      "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -221,7 +221,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -272,7 +272,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -299,24 +299,79 @@
      },
      "tier": "Airports & Infrastructure",
      "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
+    {
+     "name": "British Airways",
+     "slug": "british-airways",
+     "description": "British Airways Plc is the United Kingdom's flag carrier, headquartered at Waterside near London Heathrow and owned since 2011 by International Consolidated Airlines Group (IAG), which also owns Iberia, Aer Lingus, Vueling and LEVEL. In the distribution chain BA is a supplier of its own seat inventory, reached either through the three legacy GDSs, through IATA NDC connections it operates itself, or direct on ba.com. BA was one of the earliest and most aggressive NDC adopters: from 1 November 2017 IAG applied a per-fare-component Distribution Technology Charge to BA and Iberia marketed fares that are not booked through an NDC based connection or a low-cost channel such as ba.com, explicitly pricing GDS intermediation out of the stack. Its API posture is honest to state plainly - the NDC distribution API is real and is built on the IATA EDIST message set, but there is no public specification, no published base URL, no self-serve signup and no exit path. Access requires registration, a B1 or B2 certification form, acceptance of the British Airways API and Services Trial Use Agreement plus the Travel Agency Addendum for IATA accredited agents, and signed live API contracts. The older public consumer REST APIs (Flight Information, Flight Offers, Lowest Prices, In-Flight Entertainment, Hotel/Car/Flight packages) on the IAG Developer Programs portal are gone: as of 2026-07-28 developer.iairgroup.com returns HTTP 404 and api.ba.com returns HTTP 596 ERR_596_SERVICE_NOT_FOUND for every documented resource.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/british-airways/refs/heads/main/screenshots/british-airways-2026-08-07T162825.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 23.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Airlines",
+     "rank": 7
     },
     {
      "name": "Travelport",
      "slug": "travelport",
      "description": "A global travel technology company connecting travel providers with online and offline travel agencies. Operates a commerce platform facilitating airline, hotel, and car rental bookings through its Galileo, Apollo, and Worldspan systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
-     "score": 26.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.0,
+      "contract_quality": 50.3,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -349,61 +404,6 @@
       "agentic_commerce": false
      },
      "tier": "GDS & Distribution",
-     "rank": 7
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
-    {
-     "name": "British Airways",
-     "slug": "british-airways",
-     "description": "British Airways Plc is the United Kingdom's flag carrier, headquartered at Waterside near London Heathrow and owned since 2011 by International Consolidated Airlines Group (IAG), which also owns Iberia, Aer Lingus, Vueling and LEVEL. In the distribution chain BA is a supplier of its own seat inventory, reached either through the three legacy GDSs, through IATA NDC connections it operates itself, or direct on ba.com. BA was one of the earliest and most aggressive NDC adopters: from 1 November 2017 IAG applied a per-fare-component Distribution Technology Charge to BA and Iberia marketed fares that are not booked through an NDC based connection or a low-cost channel such as ba.com, explicitly pricing GDS intermediation out of the stack. Its API posture is honest to state plainly - the NDC distribution API is real and is built on the IATA EDIST message set, but there is no public specification, no published base URL, no self-serve signup and no exit path. Access requires registration, a B1 or B2 certification form, acceptance of the British Airways API and Services Trial Use Agreement plus the Travel Agency Addendum for IATA accredited agents, and signed live API contracts. The older public consumer REST APIs (Flight Information, Flight Offers, Lowest Prices, In-Flight Entertainment, Hotel/Car/Flight packages) on the IAG Developer Programs portal are gone: as of 2026-07-28 developer.iairgroup.com returns HTTP 404 and api.ba.com returns HTTP 596 ERR_596_SERVICE_NOT_FOUND for every documented resource.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/british-airways/refs/heads/main/screenshots/british-airways-2026-08-07T162825.png",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 23.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Airlines",
      "rank": 8
     },
     {
@@ -422,7 +422,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -465,7 +465,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -516,7 +516,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -570,7 +570,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -614,7 +614,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -665,7 +665,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

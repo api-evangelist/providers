@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 21
   human_in_the_loop: 0
   name: Lit Protocol Agentic Access
   operation_count: 37
   slug: lit-protocol-agentic-access
-  summary_line: 37 operations · 22 acting
+  summary_line: 37 operations · 21 acting
 api_count: 1
 apis:
 - description: 'Threshold-cryptography network of Lit nodes accessed via the Lit JS SDK for signing, encryption, decryption, and Lit Action execution. Direct REST access is via the Chipotle API; raw node JSON-RPC is '
@@ -323,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -89,7 +89,7 @@ apis:
 - description: 'Simple (or Streaming) Text Oriented Messaging Protocol. Lightweight, text-based wire protocol for message-oriented middleware. Widely used as an alternative front-end on brokers like Apache ActiveMQ, '
   name: STOMP
   slug: stomp
-artifact_total: 53
+artifact_total: 52
 common:
 - group: operate
   title: ''
@@ -171,10 +171,6 @@ features:
   name: CloudEvents Envelope
 - description: AsyncAPI documents describe the channels, operations, messages, and bindings of an event-driven API the way OpenAPI describes a REST API.
   name: AsyncAPI Description
-graphqls:
-- description: ''
-  name: Events GraphQL API
-  slug: events-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/events.png
 integrations:
 - description: Common envelope adopted across Azure Event Grid, Knative, GitHub Webhooks (via cloudevents-go binding), and most CNCF event-emitting projects.
@@ -230,7 +226,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -255,7 +251,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

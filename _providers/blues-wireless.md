@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -51,27 +51,27 @@ apis:
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: The alert API from Blues — 1 operation(s) for alert.
-  name: Blues alert API
+  name: Blues Alert API
   slug: blues-wireless-alert-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Authorization operations
-  name: Blues authorization API
+  name: Blues Authorization API
   slug: blues-wireless-authorization-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Billing Account operations
-  name: Blues billing_account API
+  name: Blues Billing Account API
   slug: blues-wireless-billing-account-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Device operations
-  name: Blues device API
+  name: Blues Device API
   slug: blues-wireless-device-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Event retrieval operations
-  name: Blues event API
+  name: Blues Event API
   slug: blues-wireless-event-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
@@ -81,37 +81,37 @@ apis:
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Batch job operations
-  name: Blues jobs API
+  name: Blues Jobs API
   slug: blues-wireless-jobs-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: The monitor API from Blues — 2 operation(s) for monitor.
-  name: Blues monitor API
+  name: Blues Monitor API
   slug: blues-wireless-monitor-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Organization operations
-  name: Blues organization API
+  name: Blues Organization API
   slug: blues-wireless-organization-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Project operations
-  name: Blues project API
+  name: Blues Project API
   slug: blues-wireless-project-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Route operations
-  name: Blues route API
+  name: Blues Route API
   slug: blues-wireless-route-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Project Usage information related to events, route logs, sessions, and data usage
-  name: Blues usage API
+  name: Blues Usage API
   slug: blues-wireless-usage-api
 - baseURL: https://api.notefile.net
   baseurl_source: declared
   description: Webhook APIs for non-notecard event ingestion
-  name: Blues webhook API
+  name: Blues Webhook API
   slug: blues-wireless-webhook-api
 artifact_total: 61
 collections:
@@ -335,7 +335,7 @@ modified: '2026-06-12'
 name: Blues
 nav: Providers
 network: true
-overview: 'Blues publishes 13 APIs on the [APIs.io](https://apis.io/) network, including alert API, authorization API, billing_account API, and 10 more. Tagged areas include IoT, Cellular, Connectivity, Device Management, and Fleet Management.
+overview: 'Blues publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Authorization API, Billing Account API, and 10 more. Tagged areas include IoT, Cellular, Connectivity, Device Management, and Fleet Management.
 
 
   The Blues catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -389,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

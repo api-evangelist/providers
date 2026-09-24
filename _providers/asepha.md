@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ modified: '2026-07-18'
 name: Asepha
 nav: Providers
 network: true
-overview: 'Asepha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Artificial Intelligence, and Workflow-Automation.
+overview: 'Asepha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Artificial Intelligence, and Workflow Automation.
 
 
   Asepha''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -139,7 +139,7 @@ tags:
 - Healthcare
 - Pharmacy
 - Artificial Intelligence
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Medication Management
 - Healthcare Compliance

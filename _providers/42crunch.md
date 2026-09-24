@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: Access job execution logs
   name: 42Crunch Logs API
   slug: 42crunch-logs-api
-artifact_total: 49
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -234,10 +234,6 @@ finops:
 - name: 42Crunch Finops
   service_category: API Security
   slug: 42crunch-finops
-graphqls:
-- description: ''
-  name: 42Crunch GraphQL API
-  slug: 42crunch-graphql
 image: /assets/icons/42crunch.png
 json_schemas:
 - name: Error
@@ -323,7 +319,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
@@ -346,7 +342,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

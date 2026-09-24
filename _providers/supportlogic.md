@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -121,7 +121,7 @@ modified: '2026-07-21'
 name: Supportlogic
 nav: Providers
 network: true
-overview: 'Supportlogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer-Support, Customer Experience, Artificial Intelligence, and Service Experience.
+overview: 'Supportlogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Support, Customer Experience, Artificial Intelligence, and Service Experience.
 
 
   Supportlogic''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 11 more developer resources.'
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ security:
 slug: supportlogic
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Customer Experience
 - Artificial Intelligence
 - Service Experience

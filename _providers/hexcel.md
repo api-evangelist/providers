@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: HexTow continuous carbon fiber product family — Hexcel is the world's largest producer of aerospace-grade carbon fiber. Fibers are qualified on most major commercial aircraft programs and used in prim
@@ -53,7 +53,7 @@ apis:
 - description: HexTool machinable composite tooling product family — bismaleimide and epoxy tooling prepreg systems used to fabricate dimensionally stable, autoclave-rated composite tools and molds for aerospace par
   name: Hexcel HexTool Tooling Materials
   slug: hextool-tooling
-artifact_total: 27
+artifact_total: 26
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hexcel/refs/heads/main/security/hexcel-domain-security.yml
@@ -107,10 +107,6 @@ features:
   name: Structural Adhesives
 - description: HexTool machinable BMI and epoxy tooling prepregs for autoclave-rated composite molds and production tools.
   name: Composite Tooling Materials
-graphqls:
-- description: ''
-  name: Hexcel GraphQL API
-  slug: hexcel-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hexcel.png
 integrations:
 - description: Long-running primary materials supplier into Boeing commercial aircraft programs including 787, 777X, and 737 platforms.
@@ -137,7 +133,7 @@ score:
   band: minimal
   composite: 8.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -158,7 +154,7 @@ score:
     - north-america
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

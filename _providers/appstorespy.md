@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 1
   human_in_the_loop: 0
   name: Appstorespy Agentic Access
-  operation_count: 33
+  operation_count: 36
   slug: appstorespy-agentic-access
-  summary_line: 33 operations · 7 acting
+  summary_line: 36 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://api.appstorespy.com/v1
@@ -239,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

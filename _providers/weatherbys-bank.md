@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-07-23'
 name: Weatherbys Bank
 nav: Providers
 network: true
-overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
@@ -236,7 +236,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 78.6
     contract_governance: 18.2
@@ -252,7 +252,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 49.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,7 +260,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 4
     mcp: derived
   regulatory:
     applies: true
@@ -273,7 +273,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -291,7 +291,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: weatherbys-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

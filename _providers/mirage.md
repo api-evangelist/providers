@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -52,12 +52,12 @@ apis:
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The health API from Mirage — 1 operation(s) for health.
-  name: Mirage health API
+  name: Mirage Health API
   slug: mirage-health-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The internal API from Mirage — 8 operation(s) for internal.
-  name: Mirage internal API
+  name: Mirage Internal API
   slug: mirage-internal-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://api.mirage.app
   baseurl_source: declared
   description: The root API from Mirage — 1 operation(s) for root.
-  name: Mirage root API
+  name: Mirage Root API
   slug: mirage-root-api
 - baseURL: https://api.mirage.app
   baseurl_source: declared
@@ -240,7 +240,7 @@ modified: '2026-07-20'
 name: Mirage
 nav: Providers
 network: true
-overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, health API, internal API, and 4 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Captions.
+overview: 'Mirage publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Health API, Internal API, and 4 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Captions.
 
 
   The Mirage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -308,6 +308,6 @@ tags:
 - Media
 - Content Creation
 - Text-to-Speech
-- Machine-Learning
+- Machine Learning
 website: https://www.captions.ai/
 ---

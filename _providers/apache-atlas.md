@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -411,7 +411,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -439,7 +439,8 @@ tags:
 - Data Lineage
 - Hadoop
 - Metadata
-- Open-Source
+- Open Source
+- Data Catalog
 use_cases:
 - description: Track data assets, apply classifications, and enforce policies for GDPR, HIPAA, and CCPA compliance.
   name: Data Governance and Compliance

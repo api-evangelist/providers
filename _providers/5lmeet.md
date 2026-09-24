@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-09-05'
 name: 5Lmeet
 nav: Providers
 network: true
-overview: 5Lmeet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Co-Working, Co-Living, and Workspace.
+overview: 5Lmeet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Co-Working, Co-Living, and Workspace.
 random_paper: 16
 score:
   band: minimal
@@ -97,7 +97,7 @@ score:
     - greater-china
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -111,11 +111,11 @@ security:
 slug: 5lmeet
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Co-Working
 - Co-Living
 - Workspace
-- Property Technology
+- PropTech
 - Hospitality
 - Urban Development
 - China

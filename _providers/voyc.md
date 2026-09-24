@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
@@ -224,7 +224,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ tags:
 - Call Monitoring
 - Speech Analytics
 - Contact Center
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 website: https://voyc.ai/
 ---

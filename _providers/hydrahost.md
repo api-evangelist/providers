@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The Brokkr REST API provisions, terminates, and manages Hydra Host GPU fleets programmatically across every data center and OEM hardware stack, and exposes real-time GPU inventory. Observed live: uri-'
@@ -130,7 +130,7 @@ modified: '2026-07-19'
 name: Hydrahost
 nav: Providers
 network: true
-overview: 'Hydrahost publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Cloud, Bare Metal, Artificial Intelligence, and Machine-Learning.
+overview: 'Hydrahost publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Cloud, Bare Metal, Artificial Intelligence, and Machine Learning.
 
 
   Hydrahost''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
@@ -155,7 +155,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,7 @@ tags:
 - GPU Cloud
 - Bare Metal
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cloud Infrastructure
 - Compute
 - Neocloud

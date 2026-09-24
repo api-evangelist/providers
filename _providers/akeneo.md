@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: The Workflows API from Akeneo — 2 operation(s) for workflows.
   name: Akeneo Workflows API
   slug: akeneo-workflows-api
-artifact_total: 39
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -241,10 +241,6 @@ common:
   url: https://www.akeneo.com/feed/
 created: '2026-05-11'
 description: Akeneo is a Product Information Management (PIM) platform that centralizes, enriches, and distributes product data across digital commerce channels, enabling brands, retailers, and manufacturers to deliver consistent product experiences. The Akeneo PIM SaaS exposes a REST API, GraphQL API, an Event Platform with webhooks, a Supplier Data Manager API, and an Activation API for retail use cases. Authentication uses OAuth 2.0 client credentials with per-tenant base URLs in the cloud edition.
-graphqls:
-- description: ''
-  name: Akeneo GraphQL API
-  slug: akeneo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akeneo.png
 layout: provider
 modified: '2026-05-11'
@@ -265,7 +261,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -288,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

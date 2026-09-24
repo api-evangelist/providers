@@ -35,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 294
+- acting_count: 293
   human_in_the_loop: 6
   name: Vivenu Agentic Access
   operation_count: 587
   slug: vivenu-agentic-access
-  summary_line: 587 operations · 294 acting · 6 human-in-the-loop
+  summary_line: 587 operations · 293 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://vivenu.com/api
   baseurl_source: declared
   description: The api API from vivenu — 449 operation(s) for api.
-  name: vivenu api
+  name: vivenu API
   slug: vivenu-api-api
 - baseURL: https://vivenu.com/api
   baseurl_source: declared
@@ -434,6 +434,11 @@ score:
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -442,7 +447,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 73
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -456,7 +461,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 106
+- acting_count: 105
   human_in_the_loop: 1
   name: Spotdraft Agentic Access
   operation_count: 182
   slug: spotdraft-agentic-access
-  summary_line: 182 operations · 106 acting · 1 human-in-the-loop
+  summary_line: 182 operations · 105 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.us.spotdraft.com
@@ -788,6 +788,8 @@ score:
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
@@ -800,7 +802,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -1,54 +1,9 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
-  trial: false
-  try_now: false
-api_count: 0
 artifact_total: 0
-common:
-- group: company
-  title: ''
-  type: Website
-  url: https://www.ietf.org/
-- group: docs
-  title: ''
-  type: Specification
-  url: https://www.ietf.org/rfc/rfc2131.txt
-- group: other
-  title: ''
-  type: BOOTP RFC
-  url: https://www.ietf.org/rfc/rfc951.txt
-- group: other
-  title: ''
-  type: DHCP Options RFC
-  url: https://www.ietf.org/rfc/rfc2132.txt
-created: '2025-01-01'
-description: Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks. DHCP dynamically assigns IP addresses and other network configuration parameters to each device on a network, enabling them to communicate with other IP networks. Defined in IETF RFC 2131, the protocol supports automatic, dynamic, and manual allocation modes and uses message types including DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK, DHCPNAK, DHCPDECLINE, DHCPRELEASE, and DHCPINFORM. DHCP builds on BOOTP (RFC 951) and is supplemented by RFCs covering options and clarifications.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dhcp.png
 layout: provider
-modified: '2026-04-28'
-name: DHCP
+name: dhcp
 nav: Providers
 network: true
-overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Address, and Lease Management.
 random_paper: 19
-screenshot: https://raw.githubusercontent.com/api-evangelist/dhcp/refs/heads/main/screenshots/dhcp-2026-06-20T175957.png
 slug: dhcp
-tags:
-- BOOTP
-- DHCP
-- IETF
-- IP Address
-- Lease Management
-- Network Configuration
-- Networking
-- Protocol
-- RFC 2131
-- TCP/IP
-website: https://www.ietf.org/
 ---

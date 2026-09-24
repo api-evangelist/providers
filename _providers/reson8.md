@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://api.reson8.dev/v1
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -263,7 +263,7 @@ tags:
 - Voice AI
 - Transcription
 - Diarization
-- Machine-Learning
+- Machine Learning
 - Developers
 website: https://www.reson8.dev/
 ---

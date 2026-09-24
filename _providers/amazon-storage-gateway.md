@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 95
+- acting_count: 81
   human_in_the_loop: 3
   name: Amazon Storage Gateway Agentic Access
   operation_count: 95
   slug: amazon-storage-gateway-agentic-access
-  summary_line: 95 operations · 95 acting · 3 human-in-the-loop
+  summary_line: 95 operations · 81 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://storagegateway.amazonaws.com
@@ -1107,7 +1107,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/storagegateway/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/capabilities/amazon-storage-gateway-capability-edges.yml
   title: ''
@@ -3261,7 +3261,7 @@ score:
       marker_coverage: 0.0
       total: 95
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -3300,5 +3300,5 @@ use_cases:
   name: Data Archiving
 - description: Share files between on-premises and cloud with NFS/SMB access.
   name: Hybrid File Storage
-website: https://amazon.com
+website: https://aws.amazon.com/storagegateway/
 ---

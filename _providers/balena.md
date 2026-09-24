@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,19 +48,9 @@ apis:
 - description: The balenaCloud REST API is the primary interface to the balena platform. It exposes resources for devices, fleets (applications), releases, environment variables, organizations, and user accounts wit
   name: Balena Cloud API
   slug: balena-cloud-api
-- baseURL: https://api.balena-cloud.com/v7
-  baseurl_source: declared
-  description: Provision, inspect, configure, and remove devices in balenaCloud, including environment variables, tags, status, and OS information.
-  name: Balena Devices API
-  slug: balena-devices-api
 - description: Manage balena fleets, formerly known as applications, that group devices and releases for deployment.
   name: Balena Fleets (Applications) API
   slug: balena-fleets-api
-- baseURL: https://api.balena-cloud.com/v7
-  baseurl_source: declared
-  description: Manage container-based releases and their assets, pinning, and rollout across a fleet.
-  name: Balena Releases API
-  slug: balena-releases-api
 - description: On-device REST API exposed by balena Supervisor for local control of containers, application state, host configuration, reboot, shutdown, and update checks.
   name: Balena Supervisor API
   slug: balena-supervisor-api
@@ -76,15 +66,15 @@ apis:
   slug: balena-device-tags-api
 - baseURL: https://api.balena-cloud.com/v7
   baseurl_source: declared
-  description: IoT devices managed by balena
+  description: Provision, inspect, configure, and remove devices in balenaCloud, including environment variables, tags, status, and OS information.
   name: Balena Devices API
   slug: balena-devices-api
 - baseURL: https://api.balena-cloud.com/v7
   baseurl_source: declared
-  description: Container image releases
+  description: Manage container-based releases and their assets, pinning, and rollout across a fleet.
   name: Balena Releases API
   slug: balena-releases-api
-artifact_total: 23
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -206,7 +196,7 @@ modified: '2026-05-23'
 name: Balena
 nav: Providers
 network: true
-overview: 'Balena publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Releases API, Applications API, and 3 more. Tagged areas include Containers, Device Management, Edge, Embedded Linux, and Fleet Management.
+overview: 'Balena publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Device Tags API, Devices API, and 1 more. Tagged areas include Containers, Device Management, Edge, Embedded Linux, and Fleet Management.
 
 
   Balena''s developer surface includes authentication, documentation, CLI, GitHub presence, engineering blog, pricing, support, and 14 more developer resources.'
@@ -246,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

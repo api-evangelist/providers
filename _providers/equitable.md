@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: An API capability that acts as a digital bridge between systems, enabling automatic creation and configuration of employee benefits plans for small and medium-sized businesses. Integrated with Employe
@@ -74,7 +74,7 @@ modified: '2026-07-25'
 name: Equitable
 nav: Providers
 network: true
-overview: Equitable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Benefits, Financial-Services, Insurance, Retirement, and Employee Benefits.
+overview: Equitable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Benefits, Financial Services, Insurance, Retirement, and Employee Benefits.
 plans:
 - name: Equitable Plans Pricing
   plan_count: 3
@@ -110,7 +110,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ security:
 slug: equitable
 tags:
 - Benefits
-- Financial-Services
+- Financial Services
 - Insurance
 - Retirement
 - Employee Benefits

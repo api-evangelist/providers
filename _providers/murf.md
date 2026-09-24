@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_auth API from Murf — 1 operation(s) for subpackage_auth.
-  name: Murf subpackage_auth API
+  name: Murf Subpackage Auth API
   slug: murf-subpackage-auth-api
 - baseURL: https://api.murf.ai
   baseurl_source: declared
@@ -56,27 +56,27 @@ apis:
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_dubbing.subpackage_dubbing/languages API from Murf — 2 operation(s) for subpackage_dubbing.subpackage_dubbing/languages.
-  name: Murf subpackage_dubbing.subpackage_dubbing/languages API
+  name: Murf Subpackage Dubbing.subpackage Dubbing/languages API
   slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_dubbing.subpackage_dubbing/projects API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/projects.
-  name: Murf subpackage_dubbing.subpackage_dubbing/projects API
+  name: Murf Subpackage Dubbing.subpackage Dubbing/projects API
   slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_text API from Murf — 1 operation(s) for subpackage_text.
-  name: Murf subpackage_text API
+  name: Murf Subpackage Text API
   slug: murf-subpackage-text-api
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_textToSpeech API from Murf — 3 operation(s) for subpackage_texttospeech.
-  name: Murf subpackage_textToSpeech API
+  name: Murf Subpackage Text To Speech API
   slug: murf-subpackage-texttospeech-api
 - baseURL: https://api.murf.ai
   baseurl_source: declared
   description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
-  name: Murf subpackage_voiceChanger API
+  name: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
 artifact_total: 22
 collections:
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: Murf
 nav: Providers
 network: true
-overview: 'Murf publishes 7 APIs on the [APIs.io](https://apis.io/) network, including subpackage_auth API, subpackage_dubbing.subpackage_dubbing/jobs API, subpackage_dubbing.subpackage_dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voiceover, and Dubbing.
+overview: 'Murf publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Auth API, subpackage_dubbing.subpackage_dubbing/jobs API, Subpackage Dubbing.subpackage Dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voiceover, and Dubbing.
 
 
   Murf''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

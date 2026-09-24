@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 60.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 73
+- acting_count: 75
   human_in_the_loop: 0
   name: Curlec Agentic Access
-  operation_count: 136
+  operation_count: 140
   slug: curlec-agentic-access
-  summary_line: 136 operations · 73 acting
+  summary_line: 140 operations · 75 acting
 api_count: 1
 apis:
 - baseURL: https://api.razorpay.com/v1
@@ -641,7 +641,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -670,5 +670,6 @@ tags:
 - FPX
 - Webhook
 - Razorpay
+- A2A
 website: https://curlec.com
 ---

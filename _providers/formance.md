@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 46
+- acting_count: 45
   human_in_the_loop: 0
   name: Formance Agentic Access
   operation_count: 95
   slug: formance-agentic-access
-  summary_line: 95 operations · 46 acting
+  summary_line: 95 operations · 45 acting
 api_count: 1
 apis:
 - baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
@@ -240,7 +240,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,7 @@ tags:
 - Payments
 - Orchestration
 - Money Movement
-- Open-Source
+- Open Source
 - Fintech
 website: https://www.formance.com
 ---

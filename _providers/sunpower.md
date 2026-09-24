@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: pvfactors is an open-source Python library for modeling diffuse shading and bifacial photovoltaic (PV) irradiance. It implements 2D geometry and view-factor mathematics to account for reflections betw
@@ -80,7 +80,7 @@ modified: '2026-05-02'
 name: SunPower
 nav: Providers
 network: true
-overview: 'SunPower publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solar Energy, Renewable Energy, Photovoltaics, Open-Source, and Python.
+overview: 'SunPower publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solar Energy, Renewable Energy, Photovoltaics, Open Source, and Python.
 
 
   SunPower''s developer surface includes engineering blog and 4 more developer resources.'
@@ -135,7 +135,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ tags:
 - Solar Energy
 - Renewable Energy
 - Photovoltaics
-- Open-Source
+- Open Source
 - Python
 website: https://www.sunpower.com
 ---

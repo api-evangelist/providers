@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 2
   human_in_the_loop: 0
   name: Ricoh Usa Agentic Access
   operation_count: 5
   slug: ricoh-usa-agentic-access
-  summary_line: 5 operations · 4 acting
+  summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
 - description: GATT-based Bluetooth Low Energy API for controlling RICOH THETA cameras (V, Z1, X, A1). Built on Bluetooth 4.2 Core Specifications with Ricoh-specific service and characteristic extensions for shutter
@@ -250,7 +250,7 @@ modified: '2026-07-25'
 name: Ricoh USA
 nav: Providers
 network: true
-overview: 'Ricoh USA publishes 1 API on the [APIs.io](https://apis.io/) network: Protocol API. Tagged areas include Printing, Document-Management, Workplace Services, Imaging, and 360 Cameras.
+overview: 'Ricoh USA publishes 1 API on the [APIs.io](https://apis.io/) network: Protocol API. Tagged areas include Printing, Document Management, Workplace Services, Imaging, and 360 Cameras.
 
 
   The Ricoh USA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -333,11 +333,11 @@ security:
 slug: ricoh-usa
 tags:
 - Printing
-- Document-Management
+- Document Management
 - Workplace Services
 - Imaging
 - 360 Cameras
-- Workflow-Automation
+- Workflow Automation
 use_cases:
 - description: Capture and publish 360-degree walkthroughs for real estate, construction, and retail
   name: Virtual Tours

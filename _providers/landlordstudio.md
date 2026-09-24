@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Landlord Studio provides a property management platform with capabilities for managing rental properties, tracking income and expenses, generating financial reports, collecting rent online, and managi
@@ -90,7 +90,7 @@ modified: '2026-09-16'
 name: Landlord Studio
 nav: Providers
 network: true
-overview: 'Landlord Studio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Rental Income, Expense Tracking, and Tenant Screening.
+overview: 'Landlord Studio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real Estate, Rental Income, Expense Tracking, and Tenant Screening.
 
 
   Landlord Studio''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
@@ -123,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -138,7 +138,7 @@ security:
 slug: landlordstudio
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rental Income
 - Expense Tracking
 - Tenant Screening

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ arazzos:
 - description: Fetch an existing chat to confirm it exists, then continue it with a refinement.
   name: Vercel v0 Resume And Refine Chat
   slug: vercel-resume-and-refine-chat-workflow
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: AsyncAPI definition for Vercel's webhook surface. Vercel webhooks are HTTP POST deliveries from Vercel to a subscriber-configured endpoint URL registered either as an Account Webhook (Team Settings ->
   name: Vercel Webhooks
@@ -379,10 +379,6 @@ finops:
 - name: Vercel Finops
   service_category: Edge Hosting
   slug: vercel-finops
-graphqls:
-- description: ''
-  name: Vercel GraphQL API
-  slug: vercel-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vercel.png
 json_schemas:
 - name: Vercel AI Gateway Chat Completion Request
@@ -457,20 +453,20 @@ rules:
   slug: vercel-rules
 score:
   band: strong
-  composite: 56.8
+  composite: 56.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 68.2
-    developer_ergonomics: 66.7
+    developer_ergonomics: 63.1
     discoverability: 50.0
     operational_transparency: 52.6
   previous_composite: 56.8
@@ -483,7 +479,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

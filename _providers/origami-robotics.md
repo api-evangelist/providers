@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Origami Robotics
 nav: Providers
 network: true
-overview: Origami Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robotic Hands, Machine-Learning, and Manipulation.
+overview: Origami Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Robotic Hands, Machine Learning, and Manipulation.
 random_paper: 8
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ tags:
 - Company
 - Robotics
 - Robotic Hands
-- Machine-Learning
+- Machine Learning
 - Manipulation
 - Physical AI
 - Hardware

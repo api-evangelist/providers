@@ -18,12 +18,12 @@ modified: '2026-07-21'
 name: SLM Software Company
 nav: Providers
 network: true
-overview: SLM Software Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Payments, Transaction Processing, and Banking.
+overview: SLM Software Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Transaction Processing, and Banking.
 random_paper: 10
 slug: slm-software-company
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Transaction Processing
 - Banking

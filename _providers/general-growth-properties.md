@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,7 +55,7 @@ modified: '2026-04-28'
 name: General Growth Properties
 nav: Providers
 network: true
-overview: General Growth Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Retail, Shopping Malls, Acquired, and Fortune 1000.
+overview: General Growth Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Retail, Shopping Malls, Acquired, and Fortune 1000.
 press:
 - date: ''
   title: 'General Growth Properties: To The Brink and Back | PDF'
@@ -91,6 +91,11 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -101,7 +106,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +115,7 @@ score:
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-growth-properties/refs/heads/main/screenshots/general-growth-properties-2026-06-20T181726.png
 slug: general-growth-properties
 tags:
-- Real-Estate
+- Real Estate
 - Retail
 - Shopping Malls
 - Acquired

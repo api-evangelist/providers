@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Official Model Context Protocol server for the PRISM biomarker-analysis engine. Hosted Streamable HTTP at https://philongevity.com/mcp (6 tools — analyze_biomarkers, list_supported_biomarkers, quick_c
@@ -252,7 +252,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

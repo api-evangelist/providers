@@ -40,6 +40,6 @@ tags:
 - Prefabrication
 - Modular Construction
 - Manufacturing
-- Real-Estate
+- Real Estate
 - Multifamily Housing
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
   description: Workgroup and organizational unit management
   name: UKG Ready Groups API
   slug: ukg-ready-groups-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -133,10 +133,6 @@ common:
   url: https://www.linkedin.com/company/ukg
 created: '2026-05-11'
 description: UKG Ready (formerly Kronos Workforce Ready) is UKG's unified Human Capital Management (HCM) suite for small and midmarket organizations, combining HR, payroll, talent management, benefits administration, time and attendance, scheduling, and compliance into a single cloud platform. UKG Ready exposes REST and GraphQL APIs (per-tenant host of the form https://{hostname}/api/...) using OAuth 2.0 authorization code flow with bearer tokens for managing employees, schedules, timekeeping, payroll, benefits, and workforce data.
-graphqls:
-- description: ''
-  name: UKG Ready GraphQL API
-  slug: ukg-ready-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ukg-ready.png
 layout: provider
 modified: '2026-05-11'
@@ -152,7 +148,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -175,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

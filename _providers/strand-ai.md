@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-07-21'
 name: Strand AI
 nav: Providers
 network: true
-overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Predict API, Samples API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Life Sciences, and Spatial Biology.
+overview: 'Strand AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Predict API, Samples API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Life Sciences, and Spatial Biology.
 
 
   Strand AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, changelog, and 17 more developer resources.'
@@ -243,7 +243,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -262,7 +262,7 @@ slug: strand-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Spatial Biology
 - Bioinformatics

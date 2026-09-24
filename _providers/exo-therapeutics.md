@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-19'
 name: Exo Therapeutics
 nav: Providers
 network: true
-overview: Exo Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Life Sciences, Drug Discovery, and Pharmaceuticals.
+overview: Exo Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Drug Discovery, and Pharmaceuticals.
 random_paper: 2
 score:
   band: minimal
@@ -81,7 +81,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -96,7 +96,7 @@ security:
 slug: exo-therapeutics
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Life Sciences
 - Drug Discovery
 - Pharmaceuticals

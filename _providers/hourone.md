@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -46,32 +46,32 @@ apis:
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The general API from Hourone — 3 operation(s) for general.
-  name: Hourone general API
+  name: Hourone General API
   slug: hourone-general-api
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The keys API from Hourone — 2 operation(s) for keys.
-  name: Hourone keys API
+  name: Hourone Keys API
   slug: hourone-keys-api
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The playground API from Hourone — 4 operation(s) for playground.
-  name: Hourone playground API
+  name: Hourone Playground API
   slug: hourone-playground-api
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The videos API from Hourone — 4 operation(s) for videos.
-  name: Hourone videos API
+  name: Hourone Videos API
   slug: hourone-videos-api
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The voice-preview API from Hourone — 2 operation(s) for voice-preview.
-  name: Hourone voice-preview API
+  name: Hourone Voice Preview API
   slug: hourone-voice-preview-api
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
   description: The webhook API from Hourone — 5 operation(s) for webhook.
-  name: Hourone webhook API
+  name: Hourone Webhook API
   slug: hourone-webhook-api
 artifact_total: 16
 asyncapis:
@@ -216,7 +216,7 @@ modified: '2026-08-08'
 name: Hourone
 nav: Providers
 network: true
-overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, including general API, keys API, playground API, and 3 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Generative AI.
+overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, including General API, Keys API, Playground API, and 3 more. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Generative AI.
 
 
   The Hourone catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -254,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

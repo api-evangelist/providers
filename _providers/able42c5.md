@@ -29,14 +29,14 @@ modified: '2026-09-15'
 name: Able
 nav: Providers
 network: true
-overview: Able is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Defunct, Financial-Services, and Fintech.
+overview: Able is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Defunct, Financial Services, and Fintech.
 random_paper: 20
 slug: able42c5
 tags:
 - Company
 - Acquired
 - Defunct
-- Financial-Services
+- Financial Services
 - Fintech
 - Lending
 - Commercial Lending

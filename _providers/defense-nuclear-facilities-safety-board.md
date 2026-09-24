@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Nuclear Facilities Safety Board providing organizational information, board members, hearings, and publications. The site does not expose a developer API.
@@ -92,7 +92,7 @@ modified: '2026-04-28'
 name: Defense Nuclear Facilities Safety Board
 nav: Providers
 network: true
-overview: 'Defense Nuclear Facilities Safety Board publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, DNFSB, Energy, Federal-Government, and Health.
+overview: 'Defense Nuclear Facilities Safety Board publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, DNFSB, Energy, Federal Government, and Health.
 
 
   Defense Nuclear Facilities Safety Board''s developer surface includes documentation, product news, and 6 more developer resources.'
@@ -131,7 +131,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ tags:
 - Defense
 - DNFSB
 - Energy
-- Federal-Government
+- Federal Government
 - Health
 - Independent Agency
 - Nuclear

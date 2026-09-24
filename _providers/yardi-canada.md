@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-07-26'
 name: Yardi Canada
 nav: Providers
 network: true
-overview: 'Yardi Canada publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Maintenance API, and 1 more. Tagged areas include Real-Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
+overview: 'Yardi Canada publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Maintenance API, and 1 more. Tagged areas include Real Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
@@ -300,7 +300,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
     mcp: first-party
     skills: derived
   regulatory:
@@ -314,7 +314,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -336,7 +336,7 @@ security:
   summary_line: SOC 2 (annual), SOC 1 (biannual), SSAE 18, PCI, HIPAA, Sarbanes-Oxley, CSA STAR Level 2, FIPS 140-2 (key management)
 slug: yardi-canada
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Property Management
 - Rentals

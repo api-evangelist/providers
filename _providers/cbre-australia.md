@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -142,7 +142,7 @@ modified: '2026-07-26'
 name: CBRE Australia
 nav: Providers
 network: true
-overview: 'CBRE Australia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Australia, Commercial Real Estate, Property Listings, and Valuation.
+overview: 'CBRE Australia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Australia, Commercial Real Estate, Property Listings, and Valuation.
 
 
   CBRE Australia''s developer surface includes privacy policy, engineering blog, support, and 20 more developer resources.'
@@ -174,7 +174,7 @@ score:
     - anz
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -192,7 +192,7 @@ security:
   summary_line: Hackerone · contact published
 slug: cbre-australia
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Commercial Real Estate
 - Property Listings

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ modified: '2026-09-16'
 name: Connells Group
 nav: Providers
 network: true
-overview: 'Connells Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Locations API, People API, and 1 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
+overview: 'Connells Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Locations API, People API, and 1 more. Tagged areas include Real Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
@@ -297,7 +297,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -315,7 +315,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: connells
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - Property Listings
 - Brokerage

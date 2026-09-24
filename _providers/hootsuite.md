@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 35
   human_in_the_loop: 0
   name: Hootsuite Agentic Access
   operation_count: 76
   slug: hootsuite-agentic-access
-  summary_line: 76 operations · 39 acting
+  summary_line: 76 operations · 35 acting
 api_count: 8
 apis:
 - description: A remote Model Context Protocol endpoint served from Hootsuite's own ReadMe-hosted developer documentation site. Reachable and real, but gated — initialize and tools/list both return HTTP 401 "Authori
@@ -408,7 +408,7 @@ modified: '2026-08-13'
 name: Hootsuite
 nav: Providers
 network: true
-overview: 'Hootsuite publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Comments API, and 17 more. Tagged areas include Social-Media, Social Media Management, Marketing, Content Scheduling, and Analytics.
+overview: 'Hootsuite publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Comments API, and 17 more. Tagged areas include Social Media, Social Media Management, Marketing, Content Scheduling, and Analytics.
 
 
   The Hootsuite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -459,7 +459,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -480,7 +480,7 @@ security:
   summary_line: Hackerone · security.txt
 slug: hootsuite
 tags:
-- Social-Media
+- Social Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -492,5 +492,6 @@ tags:
 - SCIM
 - Authentication
 - Webhook
+- Scheduling
 website: https://www.hootsuite.com
 ---

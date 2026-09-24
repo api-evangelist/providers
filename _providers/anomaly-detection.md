@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ modified: 2026-04-19 00:00:00+00:00
 name: Anomaly Detection
 nav: Providers
 network: true
-overview: 'Anomaly Detection publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChangePoint API, Multivariate API, and Univariate API. Tagged areas include Anomaly Detection, Artificial Intelligence, Data Science, Fraud Detection, and Machine-Learning.
+overview: 'Anomaly Detection publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChangePoint API, Multivariate API, and Univariate API. Tagged areas include Anomaly Detection, Artificial Intelligence, Data Science, Fraud Detection, and Machine Learning.
 
 
   The Anomaly Detection catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -289,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -314,7 +314,7 @@ tags:
 - Artificial Intelligence
 - Data Science
 - Fraud Detection
-- Machine-Learning
+- Machine Learning
 - Monitoring
 - Observability
 - Outlier Detection

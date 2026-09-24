@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
   description: The collections API from Airweave — 2 operation(s) for collections.
-  name: Airweave collections API
+  name: Airweave Collections API
   slug: airweave-collections-api
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
@@ -59,17 +59,17 @@ apis:
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
   description: The source-connections API from Airweave — 5 operation(s) for source-connections.
-  name: Airweave source-connections API
+  name: Airweave Source Connections API
   slug: airweave-source-connections-api
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
   description: The sources API from Airweave — 2 operation(s) for sources.
-  name: Airweave sources API
+  name: Airweave Sources API
   slug: airweave-sources-api
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
   description: The webhooks API from Airweave — 5 operation(s) for webhooks.
-  name: Airweave webhooks API
+  name: Airweave Webhooks API
   slug: airweave-webhooks-api
 artifact_total: 17
 asyncapis:
@@ -251,7 +251,7 @@ modified: '2026-07-17'
 name: Airweave
 nav: Providers
 network: true
-overview: 'Airweave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including collections API, collections > search API, source-connections API, and 2 more. Tagged areas include Company, Artificial Intelligence, Search, RAG, and Retrieval.
+overview: 'Airweave publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, collections > search API, Source Connections API, and 2 more. Tagged areas include Company, Artificial Intelligence, Search, RAG, and Retrieval.
 
 
   The Airweave catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -293,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

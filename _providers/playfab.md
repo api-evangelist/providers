@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -54,11 +54,9 @@ apis:
 - description: The PlayFab Admin API is the privileged REST surface for studio and ops tooling. It covers title configuration, virtual currency catalogs, catalog items, store configuration, content (CDN) uploads, se
   name: PlayFab Admin API
   slug: playfab-admin-api
-- baseURL: https://titleId.playfabapi.com/Authentication
-  baseurl_source: declared
-  description: The PlayFab Authentication API issues and validates entity tokens used by the Entity Programming Model that underlies CloudScript using Azure Functions, Groups, Data, Profiles, Events, and Multiplayer
+- description: The PlayFab Authentication API issues and validates entity tokens used by the Entity Programming Model that underlies CloudScript using Azure Functions, Groups, Data, Profiles, Events, and Multiplayer
   name: PlayFab Authentication API
-  slug: playfab-authentication-api
+  slug: playfab-entity-authentication-api
 - description: PlayFab CloudScript runs server-authoritative game logic in PlayFab. Modern CloudScript using Azure Functions registers Azure Function endpoints that can be invoked from clients or servers via Execute
   name: PlayFab CloudScript API
   slug: playfab-cloudscript-api
@@ -99,7 +97,7 @@ apis:
   description: Login, registration, and identity provider sign-in.
   name: PlayFab Authentication API
   slug: playfab-authentication-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -204,17 +202,13 @@ finops:
 - name: Playfab Finops
   service_category: API
   slug: playfab-finops
-graphqls:
-- description: 'This conceptual GraphQL schema models the Azure PlayFab game backend REST API surface across all major service areas: Client, Server, Admin, Authentication, CloudScript, Multiplayer, Economy v2, Match'
-  name: Azure PlayFab GraphQL Schema
-  slug: playfab-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/playfab.png
 layout: provider
 modified: '2026-05-30'
 name: PlayFab
 nav: Providers
 network: true
-overview: 'PlayFab publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Account API, and 1 more. Tagged areas include Authentication, Azure, Backend, Backend-as-a-Service, and CloudScript.
+overview: 'PlayFab publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account API and Authentication API. Tagged areas include Authentication, Azure, Backend, Backend-as-a-Service, and CloudScript.
 
 
   PlayFab''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, pricing, release notes, and 13 more developer resources.'
@@ -229,23 +223,23 @@ rate_limits:
   slug: playfab-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 47.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 56.9
+    contract_quality: 51.4
     developer_ergonomics: 52.4
     discoverability: 75.9
     operational_transparency: 42.1
-  previous_composite: 48.6
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -254,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

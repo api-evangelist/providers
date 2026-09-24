@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Quirrel provides a JavaScript and TypeScript SDK for enqueuing, scheduling, retrying, and managing background jobs in serverless and containerized applications. The Queue API exposes methods such as e
@@ -106,7 +106,7 @@ modified: '2026-04-28'
 name: Quirrel
 nav: Providers
 network: true
-overview: 'Quirrel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Job Queues, Workflow-Automation, Background Jobs, and Serverless.
+overview: 'Quirrel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Job Queues, Workflow Automation, Background Jobs, and Serverless.
 
 
   Quirrel''s developer surface includes documentation and 12 more developer resources.'
@@ -142,7 +142,7 @@ score:
     score: 100.0
   previous_composite: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ slug: quirrel
 tags:
 - Developer Tools
 - Job Queues
-- Workflow-Automation
+- Workflow Automation
 - Background Jobs
 - Serverless
 - Scheduling

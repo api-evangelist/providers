@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The OBIE Read/Write Account and Transaction Information (AISP) standard for reading account, balance and transaction data. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentica
@@ -153,7 +153,7 @@ modified: '2026-07-23'
 name: Principality Building Society
 nav: Providers
 network: true
-overview: 'Principality Building Society publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Building Society, Savings, and Mortgage.
+overview: 'Principality Building Society publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial Services, Banking, Building Society, Savings, and Mortgage.
 
 
   Principality Building Society''s developer surface includes authentication, product news, support, and 11 more developer resources.'
@@ -168,7 +168,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 57.1
     contract_governance: 4.5
@@ -184,14 +184,14 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 35.1
+  previous_composite: 35.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
@@ -199,7 +199,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +217,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: principality-building-society
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Building Society
 - Savings

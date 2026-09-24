@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: The connect API from Smithery — 12 operation(s) for connect.
-  name: Smithery connect API
+  name: Smithery Connect API
   slug: smithery-connect-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: The domains API from Smithery — 2 operation(s) for domains.
-  name: Smithery domains API
+  name: Smithery Domains API
   slug: smithery-domains-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
@@ -69,27 +69,27 @@ apis:
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: The namespaces API from Smithery — 3 operation(s) for namespaces.
-  name: Smithery namespaces API
+  name: Smithery Namespaces API
   slug: smithery-namespaces-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: The organizations API from Smithery — 2 operation(s) for organizations.
-  name: Smithery organizations API
+  name: Smithery Organizations API
   slug: smithery-organizations-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: Browse the MCP server registry, manage server configuration, and handle deployments
-  name: Smithery servers API
+  name: Smithery Servers API
   slug: smithery-servers-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: Discover and search reusable prompt-based skills for MCP servers
-  name: Smithery skills API
+  name: Smithery Skills API
   slug: smithery-skills-api
 - baseURL: https://api.smithery.ai
   baseurl_source: declared
   description: The tokens API from Smithery — 1 operation(s) for tokens.
-  name: Smithery tokens API
+  name: Smithery Tokens API
   slug: smithery-tokens-api
 artifact_total: 42
 collections:
@@ -310,7 +310,7 @@ modified: '2026-05-22'
 name: Smithery
 nav: Providers
 network: true
-overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including connect API, connect.mcp API, domains API, and 6 more. Tagged areas include Artificial Intelligence, LLM, MCP, AI Agents, and Developer Tools.
+overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Connect API, connect.mcp API, Domains API, and 6 more. Tagged areas include Artificial Intelligence, LLM, MCP, AI Agents, and Developer Tools.
 
 
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -376,7 +376,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

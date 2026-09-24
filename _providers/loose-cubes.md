@@ -18,13 +18,13 @@ modified: '2026-07-20'
 name: Loose Cubes
 nav: Providers
 network: true
-overview: Loose Cubes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Co-Working, Real-Estate, Marketplace, and Workspace.
+overview: Loose Cubes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Co-Working, Real Estate, Marketplace, and Workspace.
 random_paper: 21
 slug: loose-cubes
 tags:
 - Company
 - Co-Working
-- Real-Estate
+- Real Estate
 - Marketplace
 - Workspace
 - Defunct

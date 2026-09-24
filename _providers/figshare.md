@@ -34,60 +34,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 81
+- acting_count: 79
   human_in_the_loop: 2
   name: Figshare Agentic Access
   operation_count: 157
   slug: figshare-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
+  summary_line: 157 operations · 79 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The altmetric API from Figshare — 1 operation(s) for altmetric.
-  name: Figshare altmetric API
+  name: Figshare Altmetric API
   slug: figshare-altmetric-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The articles API from Figshare — 34 operation(s) for articles.
-  name: Figshare articles API
+  name: Figshare Articles API
   slug: figshare-articles-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The authors API from Figshare — 2 operation(s) for authors.
-  name: Figshare authors API
+  name: Figshare Authors API
   slug: figshare-authors-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The collections API from Figshare — 21 operation(s) for collections.
-  name: Figshare collections API
+  name: Figshare Collections API
   slug: figshare-collections-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The institutions API from Figshare — 20 operation(s) for institutions.
-  name: Figshare institutions API
+  name: Figshare Institutions API
   slug: figshare-institutions-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The other API from Figshare — 7 operation(s) for other.
-  name: Figshare other API
+  name: Figshare Other API
   slug: figshare-other-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The profiles API from Figshare — 2 operation(s) for profiles.
-  name: Figshare profiles API
+  name: Figshare Profiles API
   slug: figshare-profiles-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The projects API from Figshare — 17 operation(s) for projects.
-  name: Figshare projects API
+  name: Figshare Projects API
   slug: figshare-projects-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
   description: The symplectic API from Figshare — 5 operation(s) for symplectic.
-  name: Figshare symplectic API
+  name: Figshare Symplectic API
   slug: figshare-symplectic-api
 - baseURL: https://api.figshare.com/v2
   baseurl_source: declared
@@ -328,7 +328,7 @@ modified: '2026-06-12'
 name: Figshare
 nav: Providers
 network: true
-overview: 'Figshare publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Research Data, Data Repository, Open Science, DOI, and Datasets.
+overview: 'Figshare publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Altmetric API, Articles API, Authors API, and 7 more. Tagged areas include Research Data, Data Repository, Open Science, DOI, and Datasets.
 
 
   The Figshare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -393,7 +393,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

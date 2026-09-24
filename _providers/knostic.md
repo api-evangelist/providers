@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -49,22 +49,22 @@ apis:
 - baseURL: https://agentmesh.knostic.ai/api
   baseurl_source: declared
   description: VS Code / IDE marketplace extensions with risk assessment
-  name: Knostic extensions API
+  name: Knostic Extensions API
   slug: knostic-extensions-api
 - baseURL: https://agentmesh.knostic.ai/api
   baseurl_source: declared
   description: Model Context Protocol servers discovered and scanned by AgentMesh
-  name: Knostic mcp API
+  name: Knostic MCP API
   slug: knostic-mcp-api
 - baseURL: https://agentmesh.knostic.ai/api
   baseurl_source: declared
   description: On-demand security scans and scan history (API key required)
-  name: Knostic scans API
+  name: Knostic Scans API
   slug: knostic-scans-api
 - baseURL: https://agentmesh.knostic.ai/api
   baseurl_source: declared
   description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
-  name: Knostic skills API
+  name: Knostic Skills API
   slug: knostic-skills-api
 artifact_total: 17
 collections:
@@ -245,7 +245,7 @@ modified: '2026-07-19'
 name: Knostic
 nav: Providers
 network: true
-overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including extensions API, mcp API, scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
+overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Extensions API, MCP API, Scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
 
 
   Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
@@ -284,7 +284,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

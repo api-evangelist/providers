@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 19
   human_in_the_loop: 0
   name: Opensea Agentic Access
-  operation_count: 83
+  operation_count: 84
   slug: opensea-agentic-access
-  summary_line: 83 operations · 22 acting
+  summary_line: 84 operations · 19 acting
 api_count: 1
 apis:
 - description: Real-time WebSocket event streaming for NFT marketplace activity per collection, including item listed, item sold, item transferred, item metadata updates, item cancelled, item received offer, and ite
@@ -1250,7 +1250,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1277,5 +1277,7 @@ tags:
 - Blockchain
 - Trading
 - Digital Assets
+- A2A
+- Ethereum
 website: https://www.opensea.io/
 ---

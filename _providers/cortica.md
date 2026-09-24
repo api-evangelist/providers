@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ modified: '2026-08-11'
 name: Cortica
 nav: Providers
 network: true
-overview: Cortica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer-Vision, Machine-Learning, and Autonomous Systems.
+overview: Cortica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Machine Learning, and Autonomous Systems.
 random_paper: 15
 score:
   band: minimal
@@ -119,7 +119,7 @@ score:
     - middle-east
   previous_composite: 9.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -135,8 +135,8 @@ slug: cortica
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Autonomous Systems
 - Venture Builder
 - Israel

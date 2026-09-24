@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 106
+- acting_count: 103
   human_in_the_loop: 1
   name: Dust Identity Agentic Access
   operation_count: 177
   slug: dust-identity-agentic-access
-  summary_line: 177 operations · 106 acting · 1 human-in-the-loop
+  summary_line: 177 operations · 103 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: The DUST account service — organizations, users, sessions, Service Accounts and OpenID Connect. Issues the short-lived JWTs the DUST API consumes, via an API-key exchange (GET /api/auth/token with x-a
@@ -392,7 +392,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

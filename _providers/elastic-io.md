@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -155,7 +155,7 @@ apis:
   description: Manage workspaces within contracts
   name: Elastic.io Workspaces API
   slug: elastic-io-workspaces-api
-artifact_total: 432
+artifact_total: 431
 asyncapis:
 - description: The elastic.io Platform Events API describes the asynchronous event-driven interactions of the elastic.io iPaaS platform. This includes webhook triggers that initiate integration flows when external s
   name: elastic.io Platform Events API
@@ -436,10 +436,6 @@ finops:
 - name: Elastic Io Finops
   service_category: API
   slug: elastic-io-finops
-graphqls:
-- description: ''
-  name: Elastic.io GraphQL API
-  slug: elastic-io-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic-io.png
 integrations:
 - name: Akeneo
@@ -766,7 +762,7 @@ modified: '2026-05-19'
 name: Elastic.io
 nav: Providers
 network: true
-overview: 'Elastic.io publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Auth Clients API, Auth Secrets API, and 19 more. Tagged areas include Integration, iPaaS, and SaaS Integration.
+overview: 'Elastic.io publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Auth Clients API, Auth Secrets API, and 19 more. Tagged areas include Integration, iPaaS, SaaS Integration, and Real-Time.
 
 
   The Elastic.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -808,7 +804,7 @@ score:
   band: developing
   composite: 44.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
@@ -831,7 +827,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -851,6 +847,7 @@ tags:
 - Integration
 - iPaaS
 - SaaS Integration
+- Real-Time
 use_cases:
 - name: API Integration
 - name: B2B Integration

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/rds/aurora/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/overlays/amazon-aurora-openapi-overlay.yaml
   title: ''
@@ -682,7 +682,7 @@ modified: '2026-09-16'
 name: Amazon Aurora
 nav: Providers
 network: true
-overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) network, including DB Cluster Endpoints API, DB Cluster Parameter Groups API, DB Cluster Snapshots API, and 3 more. Tagged areas include Amazon Aurora, MySQL, PostgreSQL, and Relational Database.
+overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) network, including DB Cluster Endpoints API, DB Cluster Parameter Groups API, DB Cluster Snapshots API, and 3 more. Tagged areas include Amazon Aurora, MySQL, PostgreSQL, Relational Database, and Database.
 
 
   The Amazon Aurora catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -714,21 +714,21 @@ rules:
   slug: amazon-aurora-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 32.4
   coverage:
     artifact_dirs: 21
-    catalog_earned: 56.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 0.0
     contract_governance: 33.3
     contract_quality: 72.1
     developer_ergonomics: 11.9
-    discoverability: 77.8
+    discoverability: 87.0
     operational_transparency: 0.0
   previous_composite: 31.5
   provenance:
@@ -741,7 +741,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -766,6 +766,7 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
+- Database
 use_cases:
 - Enterprise applications requiring high availability and durability
 - SaaS applications needing scalable multi-tenant databases
@@ -773,5 +774,5 @@ use_cases:
 - Financial applications requiring ACID compliance
 - Global applications needing low-latency multi-region access
 - Development and testing with fast database cloning
-website: https://amazon.com
+website: https://aws.amazon.com/rds/aurora/
 ---

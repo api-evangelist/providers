@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'The agent-facing commerce API for the SUPER73 North American storefront. Implements the Universal Commerce Protocol (UCP) 2026-08-25 over MCP: a merchant profile at /.well-known/ucp declares the suppo'
@@ -211,7 +211,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

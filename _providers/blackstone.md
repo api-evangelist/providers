@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal, which is served '
@@ -223,7 +223,7 @@ modified: '2026-08-10'
 name: Blackstone
 nav: Providers
 network: true
-overview: 'Blackstone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Finance, Investment Management, Private Equity, and Real-Estate.
+overview: 'Blackstone publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Alternative Assets, Finance, Investment Management, Private Equity, and Real Estate.
 
 
   The Blackstone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -312,7 +312,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -338,7 +338,7 @@ tags:
 - Finance
 - Investment Management
 - Private Equity
-- Real-Estate
+- Real Estate
 - Fortune 500
 use_cases:
 - description: Institutional LPs access fund reporting, capital call and distribution notices, and tax documents through the investor portal or via data integrations.

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-07-20'
 name: Prior Labs
 nav: Providers
 network: true
-overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine-Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
+overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prediction API and Training API. Tagged areas include Company, Machine Learning, Artificial Intelligence, Tabular Data, and Foundation Models.
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -260,7 +260,7 @@ security:
 slug: priorlabs
 tags:
 - Company
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Tabular Data
 - Foundation Models

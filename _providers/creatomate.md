@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-06-20'
 name: Creatomate
 nav: Providers
 network: true
-overview: 'Creatomate publishes 2 APIs on the [APIs.io](https://apis.io/) network: Renders API and Templates API. Tagged areas include Media, Video Generation, Image-Generation, Automation, and Templates.
+overview: 'Creatomate publishes 2 APIs on the [APIs.io](https://apis.io/) network: Renders API and Templates API. Tagged areas include Media, Video Generation, Image Generation, Automation, and Templates.
 
 
   Creatomate''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -169,7 +169,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -188,7 +188,7 @@ slug: creatomate
 tags:
 - Media
 - Video Generation
-- Image-Generation
+- Image Generation
 - Automation
 - Templates
 - Rendering

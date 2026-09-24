@@ -18,13 +18,13 @@ modified: '2026-07-21'
 name: Socialcam
 nav: Providers
 network: true
-overview: Socialcam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social-Media, Mobile, and Y Combinator.
+overview: Socialcam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social Media, Mobile, and Y Combinator.
 random_paper: 16
 slug: socialcam
 tags:
 - Company
 - Video
-- Social-Media
+- Social Media
 - Mobile
 - Y Combinator
 - Defunct

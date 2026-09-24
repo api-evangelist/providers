@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -129,7 +129,7 @@ modified: '2026-08-22'
 name: HubSync
 nav: Providers
 network: true
-overview: 'HubSync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Accounting, Workflow-Automation, and Document-Management.
+overview: 'HubSync is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Accounting, Workflow Automation, and Document Management.
 
 
   HubSync''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -165,7 +165,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -182,8 +182,8 @@ tags:
 - Company
 - Tax
 - Accounting
-- Workflow-Automation
-- Document-Management
+- Workflow Automation
+- Document Management
 - Electronic Signature
 - Professional Services
 - Artificial Intelligence

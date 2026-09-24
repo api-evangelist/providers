@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 6
 common:
@@ -169,7 +169,7 @@ score:
     regime_id: telecommunications
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Wi-Fi
 - OSS BSS
 - Connectivity
-- Real-Estate
+- Real Estate
 - Cloud
 website: https://www.aervivo.com/
 ---

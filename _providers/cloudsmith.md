@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -48,112 +48,112 @@ apis:
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The audit-log API from Cloudsmith — 2 operation(s) for audit-log.
-  name: Cloudsmith audit-log API
+  name: Cloudsmith Audit Log API
   slug: cloudsmith-audit-log-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The badges API from Cloudsmith — 1 operation(s) for badges.
-  name: Cloudsmith badges API
+  name: Cloudsmith Badges API
   slug: cloudsmith-badges-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The broadcasts API from Cloudsmith — 1 operation(s) for broadcasts.
-  name: Cloudsmith broadcasts API
+  name: Cloudsmith Broadcasts API
   slug: cloudsmith-broadcasts-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The bulk-action API from Cloudsmith — 1 operation(s) for bulk-action.
-  name: Cloudsmith bulk-action API
+  name: Cloudsmith Bulk Action API
   slug: cloudsmith-bulk-action-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The distros API from Cloudsmith — 2 operation(s) for distros.
-  name: Cloudsmith distros API
+  name: Cloudsmith Distros API
   slug: cloudsmith-distros-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The entitlements API from Cloudsmith — 8 operation(s) for entitlements.
-  name: Cloudsmith entitlements API
+  name: Cloudsmith Entitlements API
   slug: cloudsmith-entitlements-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The files API from Cloudsmith — 5 operation(s) for files.
-  name: Cloudsmith files API
+  name: Cloudsmith Files API
   slug: cloudsmith-files-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The formats API from Cloudsmith — 2 operation(s) for formats.
-  name: Cloudsmith formats API
+  name: Cloudsmith Formats API
   slug: cloudsmith-formats-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The metrics API from Cloudsmith — 3 operation(s) for metrics.
-  name: Cloudsmith metrics API
+  name: Cloudsmith Metrics API
   slug: cloudsmith-metrics-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The namespaces API from Cloudsmith — 2 operation(s) for namespaces.
-  name: Cloudsmith namespaces API
+  name: Cloudsmith Namespaces API
   slug: cloudsmith-namespaces-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The orgs API from Cloudsmith — 40 operation(s) for orgs.
-  name: Cloudsmith orgs API
+  name: Cloudsmith Orgs API
   slug: cloudsmith-orgs-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The packages API from Cloudsmith — 70 operation(s) for packages.
-  name: Cloudsmith packages API
+  name: Cloudsmith Packages API
   slug: cloudsmith-packages-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The quota API from Cloudsmith — 4 operation(s) for quota.
-  name: Cloudsmith quota API
+  name: Cloudsmith Quota API
   slug: cloudsmith-quota-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The rates API from Cloudsmith — 1 operation(s) for rates.
-  name: Cloudsmith rates API
+  name: Cloudsmith Rates API
   slug: cloudsmith-rates-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The recycle-bin API from Cloudsmith — 2 operation(s) for recycle-bin.
-  name: Cloudsmith recycle-bin API
+  name: Cloudsmith Recycle Bin API
   slug: cloudsmith-recycle-bin-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The repos API from Cloudsmith — 59 operation(s) for repos.
-  name: Cloudsmith repos API
+  name: Cloudsmith Repos API
   slug: cloudsmith-repos-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The status API from Cloudsmith — 1 operation(s) for status.
-  name: Cloudsmith status API
+  name: Cloudsmith Status API
   slug: cloudsmith-status-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The storage-regions API from Cloudsmith — 2 operation(s) for storage-regions.
-  name: Cloudsmith storage-regions API
+  name: Cloudsmith Storage Regions API
   slug: cloudsmith-storage-regions-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The user API from Cloudsmith — 4 operation(s) for user.
-  name: Cloudsmith user API
+  name: Cloudsmith User API
   slug: cloudsmith-user-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The users API from Cloudsmith — 1 operation(s) for users.
-  name: Cloudsmith users API
+  name: Cloudsmith Users API
   slug: cloudsmith-users-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The vulnerabilities API from Cloudsmith — 4 operation(s) for vulnerabilities.
-  name: Cloudsmith vulnerabilities API
+  name: Cloudsmith Vulnerabilities API
   slug: cloudsmith-vulnerabilities-api
 - baseURL: https://api.cloudsmith.io
   baseurl_source: declared
   description: The webhooks API from Cloudsmith — 2 operation(s) for webhooks.
-  name: Cloudsmith webhooks API
+  name: Cloudsmith Webhooks API
   slug: cloudsmith-webhooks-api
 artifact_total: 54
 collections:
@@ -309,7 +309,7 @@ modified: '2026-05-19'
 name: Cloudsmith
 nav: Providers
 network: true
-overview: 'Cloudsmith publishes 22 APIs on the [APIs.io](https://apis.io/) network, including audit-log API, badges API, broadcasts API, and 19 more. Tagged areas include Artifact Management, Developer Tools, DevOps, DevSecOps, and Distribution.
+overview: 'Cloudsmith publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Audit Log API, Badges API, Broadcasts API, and 19 more. Tagged areas include Artifact Management, Developer Tools, DevOps, DevSecOps, and Distribution.
 
 
   The Cloudsmith catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

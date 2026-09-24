@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-06-13'
 name: Nuclino
 nav: Providers
 network: true
-overview: 'Nuclino publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Files API, Items API, and 3 more. Tagged areas include Knowledge-Management, Team Workspace, Documentation, Wiki, and Collaboration.
+overview: 'Nuclino publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Files API, Items API, and 3 more. Tagged areas include Knowledge Management, Team Workspace, Documentation, Wiki, and Collaboration.
 
 
   The Nuclino catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -289,7 +289,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27018, GDPR
 slug: nuclino
 tags:
-- Knowledge-Management
+- Knowledge Management
 - Team Workspace
 - Documentation
 - Wiki

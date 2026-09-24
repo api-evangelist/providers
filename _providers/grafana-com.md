@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 20
 apis:
 - description: The full Grafana HTTP API surface for self-managed Grafana and Grafana Enterprise. Covers dashboards, folders, data sources, organizations, users, teams, service accounts, API keys, access control (RB
@@ -462,7 +462,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 52.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -488,7 +488,7 @@ tags:
 - Traces
 - Profiling
 - Alerting
-- Open-Source
+- Open Source
 - Grafana Labs
 website: https://www.grafana.com/
 ---

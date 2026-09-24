@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://eu-west-1.api.silverflow.com/v1
@@ -469,7 +469,7 @@ modified: '2026-08-27'
 name: Silverflow
 nav: Providers
 network: true
-overview: 'Silverflow publishes 50 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Agents API, AMMF Submission Events API, and 47 more. Tagged areas include Payments, Card Processing, Acquiring, Financial-Services, and Tokenization.
+overview: 'Silverflow publishes 50 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Agents API, AMMF Submission Events API, and 47 more. Tagged areas include Payments, Card Processing, Acquiring, Financial Services, and Tokenization.
 
 
   The Silverflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -528,7 +528,7 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -552,7 +552,7 @@ tags:
 - Payments
 - Card Processing
 - Acquiring
-- Financial-Services
+- Financial Services
 - Tokenization
 - 3D Secure
 - Disputes

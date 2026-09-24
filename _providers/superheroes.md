@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ modified: '2026-05-29'
 name: Superhero API (akabab)
 nav: Providers
 network: true
-overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Games And Comics, Superheroes, Comic Books, Open-Source, and Static API.
+overview: 'Superhero API (akabab) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appearance API, Biography API, Characters API, and 4 more. Tagged areas include Games And Comics, Superheroes, Comic Books, Open Source, and Static API.
 
 
   The Superhero API (akabab) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -341,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -358,7 +358,7 @@ tags:
 - Games And Comics
 - Superheroes
 - Comic Books
-- Open-Source
+- Open Source
 - Static API
 - GitHub Pages
 - Public APIs

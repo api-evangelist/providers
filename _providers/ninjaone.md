@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 116
+- acting_count: 114
   human_in_the_loop: 6
   name: Ninjaone Agentic Access
   operation_count: 244
   slug: ninjaone-agentic-access
-  summary_line: 244 operations · 116 acting · 6 human-in-the-loop
+  summary_line: 244 operations · 114 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.ninjarmm.com/v2
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Devices
-  name: NinjaOne devices API
+  name: NinjaOne Devices API
   slug: ninjaone-devices-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
@@ -81,7 +81,7 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Groups/Search
-  name: NinjaOne groups API
+  name: NinjaOne Groups API
   slug: ninjaone-groups-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
@@ -96,12 +96,12 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Management
-  name: NinjaOne management API
+  name: NinjaOne Management API
   slug: ninjaone-management-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Organizations
-  name: NinjaOne organization API
+  name: NinjaOne Organization API
   slug: ninjaone-organization-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
@@ -116,7 +116,7 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Queries
-  name: NinjaOne queries API
+  name: NinjaOne Queries API
   slug: ninjaone-queries-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
@@ -126,12 +126,12 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Core system Entities and Resources
-  name: NinjaOne system API
+  name: NinjaOne System API
   slug: ninjaone-system-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: ticketing
-  name: NinjaOne ticketing API
+  name: NinjaOne Ticketing API
   slug: ninjaone-ticketing-api
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
@@ -151,7 +151,7 @@ apis:
 - baseURL: https://app.ninjarmm.com/v2
   baseurl_source: declared
   description: Webhook Endpoints
-  name: NinjaOne webhooks API
+  name: NinjaOne Webhooks API
   slug: ninjaone-webhooks-api
 artifact_total: 52
 asyncapis:
@@ -381,7 +381,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
@@ -389,7 +389,7 @@ score:
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 39.5
-  previous_composite: 47.1
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,7 +401,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

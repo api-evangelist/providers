@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 71
+- acting_count: 70
   human_in_the_loop: 5
   name: Deliverect Agentic Access
   operation_count: 104
   slug: deliverect-agentic-access
-  summary_line: 104 operations · 71 acting · 5 human-in-the-loop
+  summary_line: 104 operations · 70 acting · 5 human-in-the-loop
 api_count: 30
 apis:
 - baseURL: https://api.deliverect.com
@@ -983,7 +983,7 @@ score:
       marker_coverage: 100.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

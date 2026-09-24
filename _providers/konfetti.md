@@ -33,33 +33,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - baseURL: https://api.gokonfetti.com/v1
   baseurl_source: declared
   description: Authenticated customer profile and registration.
-  name: konfetti account API
+  name: konfetti Account API
   slug: konfetti-account-api
 - baseURL: https://api.gokonfetti.com/v1
   baseurl_source: declared
   description: OAuth 2.0 token issuance.
-  name: konfetti auth API
+  name: konfetti Auth API
   slug: konfetti-auth-api
 - baseURL: https://api.gokonfetti.com/v1
   baseurl_source: declared
   description: Public read access to experiences and categories.
-  name: konfetti catalog API
+  name: konfetti Catalog API
   slug: konfetti-catalog-api
 - baseURL: https://api.gokonfetti.com/v1
   baseurl_source: declared
   description: Cart validation, coupons and orders.
-  name: konfetti checkout API
+  name: konfetti Checkout API
   slug: konfetti-checkout-api
 - baseURL: https://api.gokonfetti.com/v1
   baseurl_source: declared
   description: Lead-capture endpoints for date and private-event requests.
-  name: konfetti requests API
+  name: konfetti Requests API
   slug: konfetti-requests-api
 artifact_total: 13
 collections:
@@ -229,7 +229,7 @@ modified: '2026-07-19'
 name: konfetti
 nav: Providers
 network: true
-overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, auth API, catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
+overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
@@ -277,7 +277,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -143,7 +143,7 @@ modified: '2026-07-19'
 name: Kubeark
 nav: Providers
 network: true
-overview: 'Kubeark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orchestration, Automation, Workflow-Automation, and Integration.
+overview: 'Kubeark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orchestration, Automation, Workflow Automation, and Integration.
 
 
   The Kubeark catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -173,7 +173,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Company
 - Orchestration
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Integration
 - Kubernetes
 - Infrastructure as Code

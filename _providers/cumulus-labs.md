@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: OpenAI-compatible HTTP inference gateway. One client works against every upstream provider; per-workflow routing rules pick the model, provider, and infrastructure, with a layered exact/prefix/semanti
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ tags:
 - LLM
 - AI Infrastructure
 - GPU
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - Fine-Tuning
 - API Gateway

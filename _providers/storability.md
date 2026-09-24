@@ -18,7 +18,7 @@ modified: '2026-07-21'
 name: Storability
 nav: Providers
 network: true
-overview: Storability is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Storage Resource Management, Enterprise Software, and Data-Center.
+overview: Storability is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Storage Resource Management, Enterprise Software, and Data Center.
 random_paper: 18
 slug: storability
 tags:
@@ -26,7 +26,7 @@ tags:
 - Storage
 - Storage Resource Management
 - Enterprise Software
-- Data-Center
+- Data Center
 - Infrastructure
 - Defunct
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The jclouds Compute API provides a unified Java interface for managing virtual machine instances, images, hardware profiles, and networking across 30+ cloud providers including AWS EC2, Azure Compute,
@@ -132,7 +132,7 @@ modified: '2026-04-19'
 name: Apache Jclouds
 nav: Providers
 network: true
-overview: 'Apache Jclouds publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Abstraction Layer, Cloud, Java, Multi-Cloud, and Open-Source.
+overview: 'Apache Jclouds publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Abstraction Layer, Cloud, Java, Multi-Cloud, and Open Source.
 
 
   Apache Jclouds'' developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
@@ -165,7 +165,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -187,7 +187,7 @@ tags:
 - Cloud
 - Java
 - Multi-Cloud
-- Open-Source
+- Open Source
 use_cases:
 - description: Deploy applications across multiple cloud providers with a single codebase.
   name: Multi-Cloud Deployments

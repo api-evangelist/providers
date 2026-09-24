@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 17
 apis:
 - description: RESTful JSON API returning Zillow property, rental and foreclosure Zestimates for approximately 100 million US properties. Zillow Group documents it on its own developer portal and routes the referenc
@@ -206,7 +206,7 @@ modified: '2026-08-28'
 name: Zillow Group
 nav: Providers
 network: true
-overview: 'Zillow Group publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Property Data, MLS, Mortgage, and Rentals.
+overview: 'Zillow Group publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Property Data, MLS, Mortgage, and Rentals.
 
 
   The Zillow Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,7 +245,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +267,7 @@ security:
   summary_line: Bugcrowd
 slug: zillow-group
 tags:
-- Real-Estate
+- Real Estate
 - Property Data
 - MLS
 - Mortgage

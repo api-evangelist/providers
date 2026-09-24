@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -98,7 +98,7 @@ apis:
 - description: Kin Lane's 2026-05-05 roundup at apievangelist.com indexes 211 U.S. federal agencies and their public-facing APIs, RSS feeds, open-data surfaces, and referenced internal systems. Each agency has its o
   name: API Evangelist Federal Agencies Roundup
   slug: api-evangelist-federal-agencies-roundup
-artifact_total: 34
+artifact_total: 33
 common:
 - group: operate
   title: ''
@@ -134,10 +134,6 @@ examples:
 - key_count: 22
   name: Public Sector Regulation Example
   slug: public-sector-regulation-example
-graphqls:
-- description: ''
-  name: Public Sector GraphQL API
-  slug: public-sector-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/public-sector.png
 json_schemas:
 - name: PublicSectorAgency
@@ -189,7 +185,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -211,7 +207,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
   name: Helius Agentic Access
-  operation_count: 31
+  operation_count: 33
   slug: helius-agentic-access
-  summary_line: 31 operations · 16 acting
+  summary_line: 33 operations · 16 acting
 api_count: 1
 apis:
 - baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -335,5 +335,7 @@ tags:
 - RPC
 - DAS
 - Streams
+- Real-Time
+- A2A
 website: https://www.helius.dev/
 ---

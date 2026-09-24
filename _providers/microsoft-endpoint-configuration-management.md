@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 25
   human_in_the_loop: 2
   name: Microsoft Endpoint Configuration Management Agentic Access
   operation_count: 71
   slug: microsoft-endpoint-configuration-management-agentic-access
-  summary_line: 71 operations · 31 acting · 2 human-in-the-loop
+  summary_line: 71 operations · 25 acting · 2 human-in-the-loop
 api_count: 4
 apis:
 - description: PowerShell module for Configuration Manager automation and scripting, providing over 1100 cmdlets for all major management tasks including device collections, software deployment, and compliance setti
@@ -679,7 +679,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

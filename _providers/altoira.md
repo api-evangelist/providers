@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ modified: '2026-08-06'
 name: AltoIRA
 nav: Providers
 network: true
-overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, Offering API, and 2 more. Tagged areas include Company, Financial-Services, Retirement, Self-Directed IRA, and Alternative Investments.
+overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, Offering API, and 2 more. Tagged areas include Company, Financial Services, Retirement, Self-Directed IRA, and Alternative Investments.
 
 
   The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -331,7 +331,7 @@ security:
 slug: altoira
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Retirement
 - Self-Directed IRA
 - Alternative Investments

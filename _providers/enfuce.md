@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -22,15 +22,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-23'
+  score: 30.0
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
   name: Enfuce Agentic Access
-  operation_count: 12
+  operation_count: 13
   slug: enfuce-agentic-access
-  summary_line: 12 operations · 9 acting · 2 human-in-the-loop
+  summary_line: 13 operations · 9 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.{{tenant}}.eu.live.prod.mycore.enfuce.com/issuer
@@ -249,7 +249,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -270,5 +270,6 @@ tags:
 - Card Issuing
 - Fintech
 - API Platform
+- A2A
 website: https://enfuce.com/
 ---

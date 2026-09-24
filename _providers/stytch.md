@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 188
+- acting_count: 179
   human_in_the_loop: 18
   name: Stytch Agentic Access
   operation_count: 244
   slug: stytch-agentic-access
-  summary_line: 244 operations · 188 acting · 18 human-in-the-loop
+  summary_line: 244 operations · 179 acting · 18 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://api.stytch.com
@@ -353,7 +353,7 @@ arazzos:
 - description: Send a WhatsApp one-time passcode and authenticate the code the user enters.
   name: Stytch WhatsApp One-Time Passcode Login
   slug: stytch-whatsapp-otp-login-workflow
-artifact_total: 1133
+artifact_total: 1132
 collections:
 - collection_type: postman
   name: Stytch B2B Authentication API
@@ -1774,10 +1774,6 @@ finops:
 - name: Stytch Finops
   service_category: B2B Identity
   slug: stytch-finops
-graphqls:
-- description: Stytch is a REST-only authentication and identity platform. No public GraphQL API is offered. This directory contains a **conceptual GraphQL schema** (`stytch-schema.graphql`) derived from Stytch's pu
-  name: Stytch GraphQL Schema
-  slug: stytch-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stytch.png
 json_schemas:
 - name: account_manager_project_v1_JWTTemplateType
@@ -3992,19 +3988,19 @@ rules:
   slug: stytch-rules
 score:
   band: strong
-  composite: 63.5
+  composite: 63.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 75.5
     catalog_earned_first_party: 12.0
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 63.2
     contract_governance: 28.8
-    contract_quality: 69.6
+    contract_quality: 68.4
     developer_ergonomics: 69.0
     discoverability: 68.5
     operational_transparency: 26.3
@@ -4017,7 +4013,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

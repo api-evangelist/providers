@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -227,7 +227,7 @@ modified: '2026-08-13'
 name: Counter
 nav: Providers
 network: true
-overview: 'Counter publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Stats API, and Tracking API. Tagged areas include Web Analytics, Privacy, Open-Source, Tracking, and Self-Hosted.
+overview: 'Counter publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Stats API, and Tracking API. Tagged areas include Web Analytics, Privacy, Open Source, Tracking, and Self-Hosted.
 
 
   The Counter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -273,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -292,7 +292,7 @@ slug: counter-dev
 tags:
 - Web Analytics
 - Privacy
-- Open-Source
+- Open Source
 - Tracking
 - Self-Hosted
 website: https://counter.dev/

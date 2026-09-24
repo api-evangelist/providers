@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -92,10 +92,6 @@ common:
   url: json-ld/graphql-context.jsonld
 created: '2025-01-01'
 description: GraphQL is a query language for APIs and a runtime for fulfilling those queries with existing data. Developed by Facebook in 2012 and open-sourced in 2015, GraphQL provides a complete and understandable description of the data in an API, gives clients the power to ask for exactly what they need, and enables powerful developer tools. It is maintained by the GraphQL Foundation under the Linux Foundation.
-graphqls:
-- description: ''
-  name: GraphQL GraphQL API
-  slug: graphql-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql.png
 json_schemas:
 - name: GraphQL Error
@@ -159,7 +155,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

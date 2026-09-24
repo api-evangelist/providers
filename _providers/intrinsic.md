@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Unified Trust & Safety API exposing ML classifiers, enrichments, account graph lineage, and real-time rule evaluation for anti-abuse workflows. Access is gated behind an issued API key; developer docu
@@ -111,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -134,7 +134,7 @@ tags:
 - Content Moderation
 - Anti-Abuse
 - Fraud Detection
-- Machine-Learning
+- Machine Learning
 - Risk Intelligence
 website: https://withintrinsic.com
 ---

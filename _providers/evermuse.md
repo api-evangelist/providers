@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.evermuse.com
   baseurl_source: declared
   description: Send data to Evermuse
-  name: Evermuse ingestion API
+  name: Evermuse Ingestion API
   slug: evermuse-ingestion-api
 artifact_total: 10
 collections:
@@ -200,7 +200,7 @@ modified: '2026-07-19'
 name: Evermuse
 nav: Providers
 network: true
-overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: ingestion API. Tagged areas include Company, Product Management, Customer Feedback, Voice of Customer, and Artificial Intelligence.
+overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: Ingestion API. Tagged areas include Company, Product Management, Customer Feedback, Voice of Customer, and Artificial Intelligence.
 
 
   Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
@@ -240,7 +240,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

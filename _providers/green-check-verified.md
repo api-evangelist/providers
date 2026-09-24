@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://prod-api.greencheckverified.com
@@ -284,7 +284,7 @@ modified: '2026-08-22'
 name: Green Check Verified
 nav: Providers
 network: true
-overview: 'Green Check Verified publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial-Services.
+overview: 'Green Check Verified publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial Services.
 
 
   Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
@@ -337,7 +337,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -358,9 +358,9 @@ tags:
 - Cannabis
 - Compliance
 - Banking
-- Financial-Services
+- Financial Services
 - BSA/AML
-- Regulatory Technology
+- RegTech
 - Point-of-Sale
 - Onboarding
 - Due Diligence

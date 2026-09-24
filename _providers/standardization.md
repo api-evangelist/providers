@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/standardization/refs/heads/main/security/standardization-domain-security.yml
@@ -79,10 +79,6 @@ examples:
 - key_count: 19
   name: Standardization Openapi Standard Example
   slug: standardization-openapi-standard-example
-graphqls:
-- description: ''
-  name: Standardization GraphQL API
-  slug: standardization-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standardization.png
 json_schemas:
 - name: Technical Standard
@@ -125,7 +121,7 @@ score:
   band: emerging
   composite: 13.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 38.3
     catalog_earned_first_party: 0.0
     catalog_gap: 76.8
@@ -141,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'REST + on-chain API for the Delphi information (prediction) market platform. REST endpoints cover market discovery, single-market lookup, wallet positions, and a public health check; on-chain methods '
@@ -118,7 +118,7 @@ modified: '2026-07-19'
 name: Gensyn
 nav: Providers
 network: true
-overview: 'Gensyn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Decentralized Compute, and Blockchain.
+overview: 'Gensyn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Decentralized Compute, and Blockchain.
 
 
   Gensyn''s developer surface includes documentation, engineering blog, support, authentication, and 11 more developer resources.'
@@ -145,7 +145,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ slug: gensyn
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Decentralized Compute
 - Blockchain
 - Prediction Markets

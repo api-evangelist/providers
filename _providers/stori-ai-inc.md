@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-08-13'
 name: STORI AI Inc.
 nav: Providers
 network: true
-overview: 'STORI AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Marketing, Social-Media, and Marketing.
+overview: 'STORI AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Marketing, Social Media, and Marketing.
 
 
   STORI AI Inc.''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Content Marketing
-- Social-Media
+- Social Media
 - Marketing
 - Branding
 - Content Creation

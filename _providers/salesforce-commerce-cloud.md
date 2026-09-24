@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
   description: The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
   name: Salesforce Commerce Cloud Shopper API
   slug: salesforce-commerce-cloud-shopper-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -145,10 +145,6 @@ common:
   url: https://developer.salesforce.com/blogs/feed
 created: '2026-05-11'
 description: 'Salesforce Commerce Cloud (formerly Demandware) is an enterprise commerce platform supporting B2C and B2B storefronts, order management, product content, and headless commerce experiences. Commerce Cloud exposes two REST API products: the legacy Open Commerce API (OCAPI) and the modern Salesforce Commerce API (SCAPI), a unified RAML-defined API family built for headless commerce. SCAPI uses OAuth 2.0 via Salesforce Account Manager and groups APIs into Shopper, Data, and Admin tiers.'
-graphqls:
-- description: This is a conceptual GraphQL schema for Salesforce Commerce Cloud (SFCC), derived from the
-  name: Salesforce Commerce Cloud GraphQL Schema
-  slug: salesforce-commerce-cloud-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesforce-commerce-cloud.png
 layout: provider
 modified: '2026-08-21'
@@ -162,19 +158,19 @@ overview: 'Salesforce Commerce Cloud publishes 1 API on the [APIs.io](https://ap
 random_paper: 1
 score:
   band: thin
-  composite: 34.1
+  composite: 33.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 53.6
+    contract_quality: 50.3
     developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 2.6
@@ -187,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

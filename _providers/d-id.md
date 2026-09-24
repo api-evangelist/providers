@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 32 operations · 16 acting
 api_count: 2
 apis:
-- baseURL: https://api.d-id.com
-  baseurl_source: declared
-  description: API for translating existing videos into 100+ languages using AI-driven speech translation, voice cloning, and lip-sync technology. Enables brands and content creators to localize video content at sca
-  name: D-ID Translations API
-  slug: d-id-translations-api
 - baseURL: https://api.d-id.com
   baseurl_source: declared
   description: Create and manage AI agent definitions
@@ -82,7 +77,7 @@ apis:
   slug: d-id-talks-api
 - baseURL: https://api.d-id.com
   baseurl_source: declared
-  description: Translate existing videos into 100+ languages with lip-sync
+  description: API for translating existing videos into 100+ languages using AI-driven speech translation, voice cloning, and lip-sync technology. Enables brands and content creators to localize video content at sca
   name: D-ID Translations API
   slug: d-id-translations-api
 - baseURL: https://api.d-id.com
@@ -95,7 +90,7 @@ apis:
   description: List available TTS voices
   name: D-ID Voices API
   slug: d-id-voices-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: postman
   name: D-ID Agents API
@@ -278,7 +273,7 @@ modified: '2026-06-12'
 name: D-ID
 nav: Providers
 network: true
-overview: 'D-ID publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Translations API, Agents API, Chat API, and 7 more. Tagged areas include Avatars, DID, AI Video, Digital Humans, and Talking Head.
+overview: 'D-ID publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Chat API, Credits API, and 6 more. Tagged areas include Avatars, DID, AI Video, Digital Humans, and Talking Head.
 
 
   The D-ID catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -332,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,118 +35,118 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to access rules
-  name: Opal Security access-rules API
+  name: Opal Security Access Rules API
   slug: opal-security-access-rules-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to apps
-  name: Opal Security apps API
+  name: Opal Security Apps API
   slug: opal-security-apps-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to bundles
-  name: Opal Security bundles API
+  name: Opal Security Bundles API
   slug: opal-security-bundles-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to configuration templates
-  name: Opal Security configuration-templates API
+  name: Opal Security Configuration Templates API
   slug: opal-security-configuration-templates-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to request reviewer delegations
-  name: Opal Security delegations API
+  name: Opal Security Delegations API
   slug: opal-security-delegations-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to event streaming connections
-  name: Opal Security event-streams API
+  name: Opal Security Event Streams API
   slug: opal-security-event-streams-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to events
-  name: Opal Security events API
+  name: Opal Security Events API
   slug: opal-security-events-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to group bindings
-  name: Opal Security group-bindings API
+  name: Opal Security Group Bindings API
   slug: opal-security-group-bindings-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to groups
-  name: Opal Security groups API
+  name: Opal Security Groups API
   slug: opal-security-groups-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to IDP group mappings
-  name: Opal Security idp-group-mappings API
+  name: Opal Security Idp Group Mappings API
   slug: opal-security-idp-group-mappings-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to message channels
-  name: Opal Security message-channels API
+  name: Opal Security Message Channels API
   slug: opal-security-message-channels-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to non-human identities
-  name: Opal Security non-human-identities API
+  name: Opal Security Non Human Identities API
   slug: opal-security-non-human-identities-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to on-call schedules
-  name: Opal Security on-call-schedules API
+  name: Opal Security On Call Schedules API
   slug: opal-security-on-call-schedules-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to OpalQuery
-  name: Opal Security opal-queries API
+  name: Opal Security Opal Queries API
   slug: opal-security-opal-queries-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to owners
-  name: Opal Security owners API
+  name: Opal Security Owners API
   slug: opal-security-owners-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to requests
-  name: Opal Security requests API
+  name: Opal Security Requests API
   slug: opal-security-requests-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to resources
-  name: Opal Security resources API
+  name: Opal Security Resources API
   slug: opal-security-resources-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to sessions
-  name: Opal Security sessions API
+  name: Opal Security Sessions API
   slug: opal-security-sessions-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to tags
-  name: Opal Security tags API
+  name: Opal Security Tags API
   slug: opal-security-tags-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to API tokens
-  name: Opal Security tokens API
+  name: Opal Security Tokens API
   slug: opal-security-tokens-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to UARs
-  name: Opal Security uars API
+  name: Opal Security Uars API
   slug: opal-security-uars-api
 - baseURL: https://api.opal.dev/v1
   baseurl_source: declared
   description: Operations related to users
-  name: Opal Security users API
+  name: Opal Security Users API
   slug: opal-security-users-api
 artifact_total: 51
 asyncapis:
@@ -368,7 +368,7 @@ modified: '2026-07-20'
 name: Opal Security
 nav: Providers
 network: true
-overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) network, including access-rules API, apps API, bundles API, and 19 more. Tagged areas include Company, Cybersecurity, Access Management, Identity and Access Management, and Least Privilege.
+overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access Rules API, Apps API, Bundles API, and 19 more. Tagged areas include Company, Cybersecurity, Access Management, Identity and Access Management, and Least Privilege.
 
 
   The Opal Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -386,7 +386,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
@@ -394,7 +394,7 @@ score:
     developer_ergonomics: 73.8
     discoverability: 75.9
     operational_transparency: 44.7
-  previous_composite: 50.7
+  previous_composite: 51.5
   provenance:
     conformance: derived
     contracts:
@@ -405,7 +405,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

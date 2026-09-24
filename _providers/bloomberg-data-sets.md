@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The Bloomberg Open API (BLPAPI) provides programmatic access to Bloomberg's market data, reference data, historical data and intraday tick data. It is an event-driven session protocol rather than an H
@@ -199,7 +199,7 @@ modified: '2026-09-16'
 name: Bloomberg Data Sets
 nav: Providers
 network: true
-overview: 'Bloomberg Data Sets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Datasets, Financial-Services, Market Data, and Reference Data.
+overview: 'Bloomberg Data Sets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Datasets, Financial Services, Market Data, and Reference Data.
 
 
   Bloomberg Data Sets'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 24 more developer resources.'
@@ -246,7 +246,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ slug: bloomberg-data-sets
 tags:
 - Analytics
 - Datasets
-- Financial-Services
+- Financial Services
 - Market Data
 - Reference Data
 - Historical Data

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Public, read-only, unauthenticated JSON API for the Loomly status page, exposing overall system state, the four service components (Publishing, Analytics, Interactions, Website) and paginated incident
@@ -197,7 +197,7 @@ modified: '2026-08-13'
 name: Loomly
 nav: Providers
 network: true
-overview: 'Loomly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Content Calendar, Scheduling, Approval Workflows, and Analytics.
+overview: 'Loomly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Content Calendar, Scheduling, Approval Workflows, and Analytics.
 
 
   Loomly''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
@@ -233,7 +233,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -259,7 +259,7 @@ security:
   summary_line: trust center published
 slug: loomly
 tags:
-- Social-Media
+- Social Media
 - Content Calendar
 - Scheduling
 - Approval Workflows

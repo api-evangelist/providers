@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Search car sharing trips
@@ -70,32 +70,32 @@ modified: '2026-05-28'
 name: BlaBlaCar
 nav: Providers
 network: true
-overview: 'BlaBlaCar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
+overview: 'BlaBlaCar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation, Public APIs, Mobility, Carpooling, and Car Sharing.
 
 
   BlaBlaCar''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 14
 score:
   band: minimal
-  composite: 6.2
+  composite: 7.2
   coverage:
     artifact_dirs: 4
-    catalog_earned: 27.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.4
+    discoverability: 66.7
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -115,5 +115,9 @@ slug: blablacar
 tags:
 - Transportation
 - Public APIs
+- Mobility
+- Carpooling
+- Car Sharing
+- Ridesharing
 website: https://dev.blablacar.com
 ---

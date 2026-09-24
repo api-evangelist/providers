@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.lufthansa-cargo.com
@@ -48,7 +48,7 @@ apis:
   name: Lufthansa Cargo Shipment Tracking Subscribe API
   slug: lufthansa-cargo-shipment-tracking-subscribe-api
 - description: 'Prior-agreement API. Lufthansa Cargo''s digital booking connect for forwarders wiring an in-house system to the carrier and for ePlatforms integrating LH Cargo offers and bookings. Documented services '
-  name: Lufthansa Cargo smartBooking API
+  name: Lufthansa Cargo Smart Booking API
   slug: lufthansa-cargo-smartbooking-api
 - description: Prior-agreement API. Manages advance notification of truck deliveries as an alternative to the Quick Drop-Off/Pick-Up page in the Lufthansa ePortal. Documented functions are Save (create Visit Declara
   name: Lufthansa Cargo TruckPreAdvice API
@@ -187,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -18,22 +18,22 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
-api_count: 4
+  score: 21.7
+  scored_at: '2026-09-24'
+api_count: 12
 apis:
 - description: Read-only HTTP API returning the latest stETH staking APR and a 7-day simple moving average APR. Used by integrators, dashboards, and DeFi protocols to display Lido's current annualized yield. The Lid
   name: Lido APR API
@@ -47,7 +47,45 @@ apis:
 - description: Service that exposes node operator validator keys from each Lido staking module (Curated, Simple DVT, CSM) for use by deposit security infrastructure, validator monitoring, and integrators. Open-sourc
   name: Lido Keys API
   slug: lido-keys-api
-artifact_total: 24
+- description: GraphQL subgraph deployed to The Graph Decentralized Network that indexes Lido smart-contract events — rewards distribution, oracle reports, stETH transfers and submissions, node operator keys — and e
+  name: Lido Subgraph (GraphQL)
+  slug: lido-subgraph
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The APR for Eth and stEth API from Lido Finance — 8 operation(s) for apr for eth and steth.
+  name: Lido Finance APR for Eth and stEth API
+  slug: lido-finance-apr-for-eth-and-steth-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Estimate API from Lido Finance — 1 operation(s) for estimate.
+  name: Lido Finance Estimate API
+  slug: lido-finance-estimate-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The NFT API from Lido Finance — 2 operation(s) for nft.
+  name: Lido Finance NFT API
+  slug: lido-finance-nft-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Request Time API from Lido Finance — 3 operation(s) for request time.
+  name: Lido Finance Request Time API
+  slug: lido-finance-request-time-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Rewards API from Lido Finance — 1 operation(s) for rewards.
+  name: Lido Finance Rewards API
+  slug: lido-finance-rewards-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Swap rate for stETH and wstETH API from Lido Finance — 2 operation(s) for swap rate for steth and wsteth.
+  name: Lido Finance Swap rate for stETH and wstETH API
+  slug: lido-finance-swap-rate-for-steth-and-wsteth-api
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Validators API from Lido Finance — 1 operation(s) for validators.
+  name: Lido Finance Validators API
+  slug: lido-finance-validators-api
+artifact_total: 32
 common:
 - group: operate
   title: ''
@@ -322,26 +360,26 @@ modified: '2026-05-24'
 name: Lido
 nav: Providers
 network: true
-overview: 'Lido publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Liquid Staking, Ethereum, Staking, DeFi, and stETH.
+overview: 'Lido publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Finance APR for Eth and stEth API, Finance Estimate API, Finance NFT API, and 4 more. Tagged areas include Liquid Staking, Ethereum, Staking, DeFi, and stETH.
 
 
   Lido''s developer surface includes documentation, developer portal, engineering blog, CLI, tooling, YouTube channel, and 54 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 27.9
+  composite: 29.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
-    catalog_max: 115.0
+    catalog_gap: 65.0
+    catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 43.4
     developer_ergonomics: 50.0
     discoverability: 64.8
     operational_transparency: 18.4
@@ -349,13 +387,19 @@ score:
     applies: true
     score: 25.0
   previous_composite: 27.9
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/screenshots/lido-2026-06-20T184507.png
 security:
 - kind: domain-security
@@ -380,7 +424,7 @@ tags:
 - Governance
 - LDO
 - Oracle
-- Open-Source
+- Open Source
 - Web3
 - Smart Contracts
 - Distributed Validator Technology

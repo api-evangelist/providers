@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 76
+- acting_count: 69
   human_in_the_loop: 2
   name: Apiman Agentic Access
-  operation_count: 177
+  operation_count: 199
   slug: apiman-agentic-access
-  summary_line: 177 operations · 76 acting · 2 human-in-the-loop
+  summary_line: 199 operations · 69 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: Apiman is an open source API management platform with a developer portal, API gateway, and management UI supporting policies, plans, organizations, multi-tenancy, and extensible Java-based plugin arch
@@ -384,7 +384,7 @@ modified: '2026-09-06'
 name: Apiman
 nav: Providers
 network: true
-overview: 'Apiman publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 12 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open-Source.
+overview: 'Apiman publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Blobs API, Developers API, and 12 more. Tagged areas include API Gateway, API Management, Developer Portal, Java, and Open Source.
 
 
   The Apiman catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -444,7 +444,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -476,7 +476,7 @@ tags:
 - API Management
 - Developer Portal
 - Java
-- Open-Source
+- Open Source
 use_cases:
 - description: Deploy Apiman on-premise to manage APIs across internal services with full control over infrastructure.
   name: On-Premise API Management

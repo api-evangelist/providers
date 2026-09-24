@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ modified: '2026-05-30'
 name: Cataas
 nav: Providers
 network: true
-overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Catalog API, Cats API, and 1 more. Tagged areas include Animals, Cats, Image, Open-Source, and Public APIs.
+overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Catalog API, Cats API, and 1 more. Tagged areas include Animals, Cats, Image, Open Source, and Public APIs.
 
 
   The Cataas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -285,7 +285,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -308,7 +308,7 @@ tags:
 - Animals
 - Cats
 - Image
-- Open-Source
+- Open Source
 - Public APIs
 use_cases:
 - description: Embed live cat images in API tutorials, learn-to-code lessons, and conference demos.

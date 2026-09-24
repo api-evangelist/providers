@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -48,77 +48,77 @@ apis:
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with the Fieldguide API platform
-  name: Fieldguide api
+  name: Fieldguide API
   slug: fieldguide-api-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Comments
-  name: Fieldguide comments API
+  name: Fieldguide Comments API
   slug: fieldguide-comments-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Companies
-  name: Fieldguide companies API
+  name: Fieldguide Companies API
   slug: fieldguide-companies-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Controls
-  name: Fieldguide controls API
+  name: Fieldguide Controls API
   slug: fieldguide-controls-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Engagements
-  name: Fieldguide engagements API
+  name: Fieldguide Engagements API
   slug: fieldguide-engagements-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Files
-  name: Fieldguide files API
+  name: Fieldguide Files API
   slug: fieldguide-files-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Insights
-  name: Fieldguide insights API
+  name: Fieldguide Insights API
   slug: fieldguide-insights-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with long-running processes (Jobs) in the Fieldguide API
-  name: Fieldguide jobs API
+  name: Fieldguide Jobs API
   slug: fieldguide-jobs-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Milestones
-  name: Fieldguide milestones API
+  name: Fieldguide Milestones API
   slug: fieldguide-milestones-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Requests
-  name: Fieldguide requests API
+  name: Fieldguide Requests API
   slug: fieldguide-requests-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Sheet Columns
-  name: Fieldguide sheet-columns API
+  name: Fieldguide Sheet Columns API
   slug: fieldguide-sheet-columns-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Sheet Rows
-  name: Fieldguide sheet-rows API
+  name: Fieldguide Sheet Rows API
   slug: fieldguide-sheet-rows-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Sheets
-  name: Fieldguide sheets API
+  name: Fieldguide Sheets API
   slug: fieldguide-sheets-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Users
-  name: Fieldguide users API
+  name: Fieldguide Users API
   slug: fieldguide-users-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with Fieldguide Webhooks
-  name: Fieldguide webhooks API
+  name: Fieldguide Webhooks API
   slug: fieldguide-webhooks-api
 artifact_total: 37
 asyncapis:
@@ -314,7 +314,7 @@ modified: '2026-09-16'
 name: Fieldguide
 nav: Providers
 network: true
-overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) network, including comments API, companies API, and 13 more. Tagged areas include Company, Audit, Advisory, Accounting, and Compliance.
+overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Companies API, and 13 more. Tagged areas include Company, Audit, Advisory, Accounting, and Compliance.
 
 
   The Fieldguide catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -357,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

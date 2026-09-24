@@ -35,18 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.seltz.ai
   baseurl_source: declared
   description: Answer operations
-  name: Seltz answer API
+  name: Seltz Answer API
   slug: seltz-answer-api
 - baseURL: https://api.seltz.ai
   baseurl_source: declared
   description: Search operations
-  name: Seltz search API
+  name: Seltz Search API
   slug: seltz-search-api
 artifact_total: 9
 collections:
@@ -188,7 +188,7 @@ modified: '2026-07-21'
 name: Seltz
 nav: Providers
 network: true
-overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: answer API and search API. Tagged areas include Company, Web Search, AI Infrastructure, Retrieval, and RAG.
+overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: Answer API and Search API. Tagged areas include Company, Web Search, AI Infrastructure, Retrieval, and RAG.
 
 
   Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 19 more developer resources.'
@@ -227,7 +227,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

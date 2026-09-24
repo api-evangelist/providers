@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.tastelabs.com
   baseurl_source: declared
   description: The health API from Taste — 2 operation(s) for health.
-  name: Taste health API
+  name: Taste Health API
   slug: taste-health-api
 - baseURL: https://api.tastelabs.com
   baseurl_source: declared
@@ -143,7 +143,7 @@ modified: '2026-09-16'
 name: Taste
 nav: Providers
 network: true
-overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: health API, Prompt Enhancement API, and Engine API. Tagged areas include Company, Artificial Intelligence, Design, Machine-Learning, and Developer Tools.
+overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Prompt Enhancement API, and Engine API. Tagged areas include Company, Artificial Intelligence, Design, Machine Learning, and Developer Tools.
 
 
   Taste''s developer surface includes engineering blog, authentication, and 12 more developer resources.'
@@ -177,7 +177,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -197,7 +197,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Design
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 - Prompt Engineering
 - Content Generation

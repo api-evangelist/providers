@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.novicap.com/v1
@@ -159,7 +159,7 @@ modified: '2026-07-20'
 name: Novicap
 nav: Providers
 network: true
-overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Confirming Standard API and Dynamic Discounting API. Tagged areas include Company, Financial-Services, Fintech, Working Capital, and Invoice Finance.
+overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Confirming Standard API and Dynamic Discounting API. Tagged areas include Company, Financial Services, Fintech, Working Capital, and Invoice Finance.
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
@@ -201,7 +201,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -219,7 +219,7 @@ security:
 slug: novicap
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Working Capital
 - Invoice Finance

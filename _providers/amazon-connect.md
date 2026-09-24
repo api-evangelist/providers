@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 21
   human_in_the_loop: 1
   name: Amazon Connect Agentic Access
   operation_count: 41
   slug: amazon-connect-agentic-access
-  summary_line: 41 operations · 24 acting · 1 human-in-the-loop
+  summary_line: 41 operations · 21 acting · 1 human-in-the-loop
 api_count: 22
 apis:
 - description: Amazon Connect Streams is a browser-based integration API and JavaScript SDK that enables embedding and controlling the Amazon Connect Contact Control Panel (CCP) within your web application or CRM sy
@@ -172,7 +172,7 @@ arazzos:
 - description: Read a user, update their identity information, then re-read to confirm the change.
   name: Amazon Connect Update User Identity Info
   slug: amazon-connect-update-user-identity-workflow
-artifact_total: 341
+artifact_total: 340
 collections:
 - collection_type: postman
   name: Amazon Connect Service API
@@ -223,7 +223,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/connect/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/agentic-access/amazon-connect-agentic-access.yml
   title: ''
@@ -701,10 +701,6 @@ finops:
 - name: Amazon Connect Finops
   service_category: Contact Center
   slug: amazon-connect-finops
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for the Amazon Connect cloud contact center platform, derived from the [Amazon Connect API Reference](https://docs.aws.amazon.com/connect/latest/API
-  name: Amazon Connect GraphQL Schema
-  slug: amazon-connect-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-connect.png
 json_schemas:
 - name: AgentStatusSummary
@@ -1279,20 +1275,20 @@ rules:
     warn: 23
   slug: amazon-connect-spectral-rules
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 53.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 75.5
     catalog_earned_first_party: 0.0
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 67.1
     contract_governance: 28.8
-    contract_quality: 36.7
+    contract_quality: 31.3
     developer_ergonomics: 89.3
     discoverability: 68.5
     operational_transparency: 36.8
@@ -1305,7 +1301,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1349,5 +1345,5 @@ use_cases:
   name: Fraud Prevention
 - description: Analyze 100% of customer interactions with Contact Lens for regulatory compliance and quality assurance.
   name: Compliance and Quality Monitoring
-website: https://amazon.com
+website: https://aws.amazon.com/connect/
 ---

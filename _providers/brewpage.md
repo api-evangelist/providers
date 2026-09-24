@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - baseURL: https://brewpage.app
   baseurl_source: declared
   description: OpenGraph metadata for social bots
-  name: BrewPage preview API
+  name: BrewPage Preview API
   slug: brewpage-preview-api
 - baseURL: https://brewpage.app
   baseurl_source: declared
@@ -394,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

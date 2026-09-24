@@ -35,755 +35,755 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 371
+- acting_count: 354
   human_in_the_loop: 3
   name: Commerce Layer Agentic Access
-  operation_count: 1334
+  operation_count: 1363
   slug: commerce-layer-agentic-access
-  summary_line: 1334 operations · 371 acting · 3 human-in-the-loop
+  summary_line: 1363 operations · 354 acting · 3 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer addresses API
+  name: Commerce Layer Addresses API
   slug: commerce-layer-addresses-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer adjustments API
+  name: Commerce Layer Adjustments API
   slug: commerce-layer-adjustments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer adyen_gateways API
+  name: Commerce Layer Adyen Gateways API
   slug: commerce-layer-adyen-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer adyen_payments API
+  name: Commerce Layer Adyen Payments API
   slug: commerce-layer-adyen-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: Operations with analysis resource
-  name: Commerce Layer analysis API
+  name: Commerce Layer Analysis API
   slug: commerce-layer-analysis-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer api_credentials API
+  name: Commerce Layer API Credentials API
   slug: commerce-layer-api-credentials-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer application API
+  name: Commerce Layer Application API
   slug: commerce-layer-application-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer application_memberships API
+  name: Commerce Layer Application Memberships API
   slug: commerce-layer-application-memberships-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer attachments API
+  name: Commerce Layer Attachments API
   slug: commerce-layer-attachments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer authorizations API
+  name: Commerce Layer Authorizations API
   slug: commerce-layer-authorizations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer avalara_accounts API
+  name: Commerce Layer Avalara Accounts API
   slug: commerce-layer-avalara-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer axerve_gateways API
+  name: Commerce Layer Axerve Gateways API
   slug: commerce-layer-axerve-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer axerve_payments API
+  name: Commerce Layer Axerve Payments API
   slug: commerce-layer-axerve-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer bing_geocoders API
+  name: Commerce Layer Bing Geocoders API
   slug: commerce-layer-bing-geocoders-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer braintree_gateways API
+  name: Commerce Layer Braintree Gateways API
   slug: commerce-layer-braintree-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer braintree_payments API
+  name: Commerce Layer Braintree Payments API
   slug: commerce-layer-braintree-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer bundles API
+  name: Commerce Layer Bundles API
   slug: commerce-layer-bundles-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer buy_x_pay_y_promotions API
+  name: Commerce Layer Buy X Pay Y Promotions API
   slug: commerce-layer-buy-x-pay-y-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer captures API
+  name: Commerce Layer Captures API
   slug: commerce-layer-captures-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer carrier_accounts API
+  name: Commerce Layer Carrier Accounts API
   slug: commerce-layer-carrier-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: Operations with carts resource
-  name: Commerce Layer carts API
+  name: Commerce Layer Carts API
   slug: commerce-layer-carts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer checkout_com_gateways API
+  name: Commerce Layer Checkout Com Gateways API
   slug: commerce-layer-checkout-com-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer checkout_com_payments API
+  name: Commerce Layer Checkout Com Payments API
   slug: commerce-layer-checkout-com-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer cleanups API
+  name: Commerce Layer Cleanups API
   slug: commerce-layer-cleanups-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer coupon_codes_promotion_rules API
+  name: Commerce Layer Coupon Codes Promotion Rules API
   slug: commerce-layer-coupon-codes-promotion-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer coupon_recipients API
+  name: Commerce Layer Coupon Recipients API
   slug: commerce-layer-coupon-recipients-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer coupons API
+  name: Commerce Layer Coupons API
   slug: commerce-layer-coupons-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer custom_promotion_rules API
+  name: Commerce Layer Custom Promotion Rules API
   slug: commerce-layer-custom-promotion-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customer_addresses API
+  name: Commerce Layer Customer Addresses API
   slug: commerce-layer-customer-addresses-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customer_groups API
+  name: Commerce Layer Customer Groups API
   slug: commerce-layer-customer-groups-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customer_password_resets API
+  name: Commerce Layer Customer Password Resets API
   slug: commerce-layer-customer-password-resets-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customer_payment_sources API
+  name: Commerce Layer Customer Payment Sources API
   slug: commerce-layer-customer-payment-sources-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customer_subscriptions API
+  name: Commerce Layer Customer Subscriptions API
   slug: commerce-layer-customer-subscriptions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer customers API
+  name: Commerce Layer Customers API
   slug: commerce-layer-customers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer delivery_lead_times API
+  name: Commerce Layer Delivery Lead Times API
   slug: commerce-layer-delivery-lead-times-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer discount_engine_items API
+  name: Commerce Layer Discount Engine Items API
   slug: commerce-layer-discount-engine-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer discount_engines API
+  name: Commerce Layer Discount Engines API
   slug: commerce-layer-discount-engines-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer easypost_pickups API
+  name: Commerce Layer Easypost Pickups API
   slug: commerce-layer-easypost-pickups-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer event_callbacks API
+  name: Commerce Layer Event Callbacks API
   slug: commerce-layer-event-callbacks-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer event_stores API
+  name: Commerce Layer Event Stores API
   slug: commerce-layer-event-stores-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer events API
+  name: Commerce Layer Events API
   slug: commerce-layer-events-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer exports API
+  name: Commerce Layer Exports API
   slug: commerce-layer-exports-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer external_gateways API
+  name: Commerce Layer External Gateways API
   slug: commerce-layer-external-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer external_payments API
+  name: Commerce Layer External Payments API
   slug: commerce-layer-external-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer external_promotions API
+  name: Commerce Layer External Promotions API
   slug: commerce-layer-external-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer external_tax_calculators API
+  name: Commerce Layer External Tax Calculators API
   slug: commerce-layer-external-tax-calculators-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer fixed_amount_promotions API
+  name: Commerce Layer Fixed Amount Promotions API
   slug: commerce-layer-fixed-amount-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer fixed_price_promotions API
+  name: Commerce Layer Fixed Price Promotions API
   slug: commerce-layer-fixed-price-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer flex_promotions API
+  name: Commerce Layer Flex Promotions API
   slug: commerce-layer-flex-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer free_gift_promotions API
+  name: Commerce Layer Free Gift Promotions API
   slug: commerce-layer-free-gift-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer free_shipping_promotions API
+  name: Commerce Layer Free Shipping Promotions API
   slug: commerce-layer-free-shipping-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer geocoders API
+  name: Commerce Layer Geocoders API
   slug: commerce-layer-geocoders-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer gift_card_recipients API
+  name: Commerce Layer Gift Card Recipients API
   slug: commerce-layer-gift-card-recipients-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer gift_cards API
+  name: Commerce Layer Gift Cards API
   slug: commerce-layer-gift-cards-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer google_geocoders API
+  name: Commerce Layer Google Geocoders API
   slug: commerce-layer-google-geocoders-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: relationship kind
-  name: Commerce Layer has_many API
+  name: Commerce Layer Has Many API
   slug: commerce-layer-has-many-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: relationship kind
-  name: Commerce Layer has_one API
+  name: Commerce Layer Has One API
   slug: commerce-layer-has-one-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer identity_providers API
+  name: Commerce Layer Identity Providers API
   slug: commerce-layer-identity-providers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer imports API
+  name: Commerce Layer Imports API
   slug: commerce-layer-imports-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer in_stock_subscriptions API
+  name: Commerce Layer In Stock Subscriptions API
   slug: commerce-layer-in-stock-subscriptions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer inventory_models API
+  name: Commerce Layer Inventory Models API
   slug: commerce-layer-inventory-models-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer inventory_return_locations API
+  name: Commerce Layer Inventory Return Locations API
   slug: commerce-layer-inventory-return-locations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer inventory_stock_locations API
+  name: Commerce Layer Inventory Stock Locations API
   slug: commerce-layer-inventory-stock-locations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer klarna_gateways API
+  name: Commerce Layer Klarna Gateways API
   slug: commerce-layer-klarna-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer klarna_payments API
+  name: Commerce Layer Klarna Payments API
   slug: commerce-layer-klarna-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer line_item_options API
+  name: Commerce Layer Line Item Options API
   slug: commerce-layer-line-item-options-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer line_items API
+  name: Commerce Layer Line Items API
   slug: commerce-layer-line-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer links API
+  name: Commerce Layer Links API
   slug: commerce-layer-links-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer manual_gateways API
+  name: Commerce Layer Manual Gateways API
   slug: commerce-layer-manual-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer manual_tax_calculators API
+  name: Commerce Layer Manual Tax Calculators API
   slug: commerce-layer-manual-tax-calculators-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer markets API
+  name: Commerce Layer Markets API
   slug: commerce-layer-markets-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer membership_profiles API
+  name: Commerce Layer Membership Profiles API
   slug: commerce-layer-membership-profiles-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer memberships API
+  name: Commerce Layer Memberships API
   slug: commerce-layer-memberships-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer merchants API
+  name: Commerce Layer Merchants API
   slug: commerce-layer-merchants-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer notifications API
+  name: Commerce Layer Notifications API
   slug: commerce-layer-notifications-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer order_amount_promotion_rules API
+  name: Commerce Layer Order Amount Promotion Rules API
   slug: commerce-layer-order-amount-promotion-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer order_copies API
+  name: Commerce Layer Order Copies API
   slug: commerce-layer-order-copies-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer order_factories API
+  name: Commerce Layer Order Factories API
   slug: commerce-layer-order-factories-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer order_subscription_items API
+  name: Commerce Layer Order Subscription Items API
   slug: commerce-layer-order-subscription-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer order_subscriptions API
+  name: Commerce Layer Order Subscriptions API
   slug: commerce-layer-order-subscriptions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer orders API
+  name: Commerce Layer Orders API
   slug: commerce-layer-orders-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer organization API
+  name: Commerce Layer Organization API
   slug: commerce-layer-organization-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer organizations API
+  name: Commerce Layer Organizations API
   slug: commerce-layer-organizations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer packages API
+  name: Commerce Layer Packages API
   slug: commerce-layer-packages-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer parcel_line_items API
+  name: Commerce Layer Parcel Line Items API
   slug: commerce-layer-parcel-line-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer parcels API
+  name: Commerce Layer Parcels API
   slug: commerce-layer-parcels-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer payment_gateways API
+  name: Commerce Layer Payment Gateways API
   slug: commerce-layer-payment-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer payment_methods API
+  name: Commerce Layer Payment Methods API
   slug: commerce-layer-payment-methods-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer payment_options API
+  name: Commerce Layer Payment Options API
   slug: commerce-layer-payment-options-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer paypal_gateways API
+  name: Commerce Layer Paypal Gateways API
   slug: commerce-layer-paypal-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer paypal_payments API
+  name: Commerce Layer Paypal Payments API
   slug: commerce-layer-paypal-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer percentage_discount_promotions API
+  name: Commerce Layer Percentage Discount Promotions API
   slug: commerce-layer-percentage-discount-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer permissions API
+  name: Commerce Layer Permissions API
   slug: commerce-layer-permissions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer pickups API
+  name: Commerce Layer Pickups API
   slug: commerce-layer-pickups-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer price_frequency_tiers API
+  name: Commerce Layer Price Frequency Tiers API
   slug: commerce-layer-price-frequency-tiers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer price_list_schedulers API
+  name: Commerce Layer Price List Schedulers API
   slug: commerce-layer-price-list-schedulers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer price_lists API
+  name: Commerce Layer Price Lists API
   slug: commerce-layer-price-lists-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer price_tiers API
+  name: Commerce Layer Price Tiers API
   slug: commerce-layer-price-tiers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer price_volume_tiers API
+  name: Commerce Layer Price Volume Tiers API
   slug: commerce-layer-price-volume-tiers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer prices API
+  name: Commerce Layer Prices API
   slug: commerce-layer-prices-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer promotion_rules API
+  name: Commerce Layer Promotion Rules API
   slug: commerce-layer-promotion-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer promotions API
+  name: Commerce Layer Promotions API
   slug: commerce-layer-promotions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer recurring_order_copies API
+  name: Commerce Layer Recurring Order Copies API
   slug: commerce-layer-recurring-order-copies-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer refunds API
+  name: Commerce Layer Refunds API
   slug: commerce-layer-refunds-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer reserved_stocks API
+  name: Commerce Layer Reserved Stocks API
   slug: commerce-layer-reserved-stocks-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer resource_errors API
+  name: Commerce Layer Resource Errors API
   slug: commerce-layer-resource-errors-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer return_line_items API
+  name: Commerce Layer Return Line Items API
   slug: commerce-layer-return-line-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer returns API
+  name: Commerce Layer Returns API
   slug: commerce-layer-returns-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer roles API
+  name: Commerce Layer Roles API
   slug: commerce-layer-roles-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer satispay_gateways API
+  name: Commerce Layer Satispay Gateways API
   slug: commerce-layer-satispay-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer satispay_payments API
+  name: Commerce Layer Satispay Payments API
   slug: commerce-layer-satispay-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipments API
+  name: Commerce Layer Shipments API
   slug: commerce-layer-shipments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipping_categories API
+  name: Commerce Layer Shipping Categories API
   slug: commerce-layer-shipping-categories-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipping_method_tiers API
+  name: Commerce Layer Shipping Method Tiers API
   slug: commerce-layer-shipping-method-tiers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipping_methods API
+  name: Commerce Layer Shipping Methods API
   slug: commerce-layer-shipping-methods-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipping_weight_tiers API
+  name: Commerce Layer Shipping Weight Tiers API
   slug: commerce-layer-shipping-weight-tiers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer shipping_zones API
+  name: Commerce Layer Shipping Zones API
   slug: commerce-layer-shipping-zones-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: singleton resource
-  name: Commerce Layer singleton API
+  name: Commerce Layer Singleton API
   slug: commerce-layer-singleton-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer sku_list_items API
+  name: Commerce Layer Sku List Items API
   slug: commerce-layer-sku-list-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer sku_list_promotion_rules API
+  name: Commerce Layer Sku List Promotion Rules API
   slug: commerce-layer-sku-list-promotion-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer sku_lists API
+  name: Commerce Layer Sku Lists API
   slug: commerce-layer-sku-lists-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer sku_options API
+  name: Commerce Layer Sku Options API
   slug: commerce-layer-sku-options-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer skus API
+  name: Commerce Layer Skus API
   slug: commerce-layer-skus-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stock_items API
+  name: Commerce Layer Stock Items API
   slug: commerce-layer-stock-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stock_line_items API
+  name: Commerce Layer Stock Line Items API
   slug: commerce-layer-stock-line-items-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stock_locations API
+  name: Commerce Layer Stock Locations API
   slug: commerce-layer-stock-locations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stock_reservations API
+  name: Commerce Layer Stock Reservations API
   slug: commerce-layer-stock-reservations-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stock_transfers API
+  name: Commerce Layer Stock Transfers API
   slug: commerce-layer-stock-transfers-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stores API
+  name: Commerce Layer Stores API
   slug: commerce-layer-stores-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stripe_gateways API
+  name: Commerce Layer Stripe Gateways API
   slug: commerce-layer-stripe-gateways-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stripe_payments API
+  name: Commerce Layer Stripe Payments API
   slug: commerce-layer-stripe-payments-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer stripe_tax_accounts API
+  name: Commerce Layer Stripe Tax Accounts API
   slug: commerce-layer-stripe-tax-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer subscription_models API
+  name: Commerce Layer Subscription Models API
   slug: commerce-layer-subscription-models-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer tags API
+  name: Commerce Layer Tags API
   slug: commerce-layer-tags-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer talon_one_accounts API
+  name: Commerce Layer Talon One Accounts API
   slug: commerce-layer-talon-one-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer tax_calculators API
+  name: Commerce Layer Tax Calculators API
   slug: commerce-layer-tax-calculators-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer tax_categories API
+  name: Commerce Layer Tax Categories API
   slug: commerce-layer-tax-categories-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer tax_rules API
+  name: Commerce Layer Tax Rules API
   slug: commerce-layer-tax-rules-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer taxjar_accounts API
+  name: Commerce Layer Taxjar Accounts API
   slug: commerce-layer-taxjar-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer transactions API
+  name: Commerce Layer Transactions API
   slug: commerce-layer-transactions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: Operations with usage resource
-  name: Commerce Layer usage API
+  name: Commerce Layer Usage API
   slug: commerce-layer-usage-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: The user API from Commerce Layer — 1 operation(s) for user.
-  name: Commerce Layer user API
+  name: Commerce Layer User API
   slug: commerce-layer-user-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer users API
+  name: Commerce Layer Users API
   slug: commerce-layer-users-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer versions API
+  name: Commerce Layer Versions API
   slug: commerce-layer-versions-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer vertex_accounts API
+  name: Commerce Layer Vertex Accounts API
   slug: commerce-layer-vertex-accounts-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer voids API
+  name: Commerce Layer Voids API
   slug: commerce-layer-voids-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer webhooks API
+  name: Commerce Layer Webhooks API
   slug: commerce-layer-webhooks-api
 - baseURL: https://{your-organization-slug}.commercelayer.io/api
   baseurl_source: declared
   description: resource type
-  name: Commerce Layer wire_transfers API
+  name: Commerce Layer Wire Transfers API
   slug: commerce-layer-wire-transfers-api
 arazzos:
 - description: Add a SKU line item to an existing order and retrieve the created line item.
@@ -837,7 +837,7 @@ arazzos:
 - description: Place an order, read its status, then capture payment only once it is placed.
   name: Commerce Layer Place and Capture an Order
   slug: commerce-layer-place-and-capture-order-workflow
-artifact_total: 358
+artifact_total: 357
 collections:
 - collection_type: postman
   name: Commerce Layer API
@@ -1750,10 +1750,6 @@ finops:
 - name: Commerce Layer Finops
   service_category: Composable Commerce
   slug: commerce-layer-finops
-graphqls:
-- description: Commerce Layer is a headless, multi-market commerce API built on a JSON:API-compliant REST surface. This document describes a conceptual GraphQL schema that maps the Commerce Layer data model to Graph
-  name: Commerce Layer GraphQL Schema
-  slug: commerce-layer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commerce-layer.png
 json_schemas:
 - name: Commerce Layer Order
@@ -1776,7 +1772,7 @@ modified: '2026-05-25'
 name: Commerce Layer
 nav: Providers
 network: true
-overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) network, including addresses API, adjustments API, adyen_gateways API, and 145 more. Tagged areas include Headless Commerce, Composable Commerce, API-First, E-Commerce, and JSON:API.
+overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Adjustments API, Adyen Gateways API, and 145 more. Tagged areas include Headless Commerce, Composable Commerce, API-First, E-Commerce, and JSON:API.
 
 
   The Commerce Layer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1805,19 +1801,19 @@ rules:
   slug: commerce-layer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 69.9
+  composite: 69.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 82.3
     catalog_earned_first_party: 0.0
     catalog_gap: 32.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 71.2
+    contract_quality: 67.5
     developer_ergonomics: 75.0
     discoverability: 68.5
     operational_transparency: 71.1
@@ -1836,7 +1832,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

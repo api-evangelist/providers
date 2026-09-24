@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -47,27 +47,27 @@ apis:
 - baseURL: https://api.notyfi.com/api/v1
   baseurl_source: declared
   description: The account API from Notyfi — 3 operation(s) for account.
-  name: Notyfi account API
+  name: Notyfi Account API
   slug: notyfi-account-api
 - baseURL: https://api.notyfi.com/api/v1
   baseurl_source: declared
   description: The billing API from Notyfi — 3 operation(s) for billing.
-  name: Notyfi billing API
+  name: Notyfi Billing API
   slug: notyfi-billing-api
 - baseURL: https://api.notyfi.com/api/v1
   baseurl_source: declared
   description: The keys API from Notyfi — 2 operation(s) for keys.
-  name: Notyfi keys API
+  name: Notyfi Keys API
   slug: notyfi-keys-api
 - baseURL: https://api.notyfi.com/api/v1
   baseurl_source: declared
   description: The trackers API from Notyfi — 6 operation(s) for trackers.
-  name: Notyfi trackers API
+  name: Notyfi Trackers API
   slug: notyfi-trackers-api
 - baseURL: https://api.notyfi.com/api/v1
   baseurl_source: declared
   description: The webhooks API from Notyfi — 4 operation(s) for webhooks.
-  name: Notyfi webhooks API
+  name: Notyfi Webhooks API
   slug: notyfi-webhooks-api
 artifact_total: 16
 asyncapis:
@@ -208,7 +208,7 @@ modified: '2026-09-16'
 name: Notyfi
 nav: Providers
 network: true
-overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including account API, billing API, keys API, and 2 more. Tagged areas include Company, Notification, Monitoring, Webhook, and Real-Time.
+overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Billing API, Keys API, and 2 more. Tagged areas include Company, Notification, Monitoring, Webhook, and Real-Time.
 
 
   The Notyfi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -246,7 +246,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

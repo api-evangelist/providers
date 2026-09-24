@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'DapperDox is an open-source API documentation generator that renders beautiful, customizable reference docs from OpenAPI specifications with support for themes, overlays, and cross-referencing across '
@@ -91,7 +91,7 @@ modified: '2026-04-28'
 name: DapperDox
 nav: Providers
 network: true
-overview: 'DapperDox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Reference, Documentation, Developer Tools, Open-Source, and OpenAPI.
+overview: 'DapperDox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Reference, Documentation, Developer Tools, Open Source, and OpenAPI.
 
 
   DapperDox''s developer surface includes documentation and 8 more developer resources.'
@@ -127,7 +127,7 @@ score:
     score: 25.0
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -144,7 +144,7 @@ tags:
 - API Reference
 - Documentation
 - Developer Tools
-- Open-Source
+- Open Source
 - OpenAPI
 - Static Sites
 website: https://dapperdox.io/

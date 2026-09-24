@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-18'
 name: Argus Software
 nav: Providers
 network: true
-overview: 'Argus Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Commercial Real Estate, PropTech, and Valuation.
+overview: 'Argus Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, PropTech, and Valuation.
 
 
   Argus Software''s developer surface includes developer portal, documentation, support, and 3 more developer resources.'
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 slug: argus-software
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Commercial Real Estate
 - PropTech
 - Valuation

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: '{scheme}://{host}/lakekeeper/v1'
@@ -263,7 +263,7 @@ modified: '2026-08-27'
 name: Lakekeeper
 nav: Providers
 network: true
-overview: 'Lakekeeper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Generic Table (Data) API, Authorization API, Catalog API, and 10 more. Tagged areas include Apache Iceberg, Data Catalog, Lakehouse, Open-Source, and Rust.
+overview: 'Lakekeeper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Generic Table (Data) API, Authorization API, Catalog API, and 10 more. Tagged areas include Apache Iceberg, Data Catalog, Lakehouse, Open Source, and Rust.
 
 
   The Lakekeeper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -313,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -333,7 +333,7 @@ tags:
 - Apache Iceberg
 - Data Catalog
 - Lakehouse
-- Open-Source
+- Open Source
 - Rust
 - Data Governance
 - Access Control

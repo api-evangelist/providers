@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-06-13'
 name: Tines
 nav: Providers
 network: true
-overview: 'Tines publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Audit Logs API, Credentials API, and 4 more. Tagged areas include Security Automation, No-Code, Workflow-Automation, Security Operations, and SOAR.
+overview: 'Tines publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Audit Logs API, Credentials API, and 4 more. Tagged areas include Security Automation, No-Code, Workflow Automation, Security Operations, and SOAR.
 
 
   The Tines catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -270,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -297,7 +297,7 @@ slug: tines
 tags:
 - Security Automation
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Security Operations
 - SOAR
 - Incident Response

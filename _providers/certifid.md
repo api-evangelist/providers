@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.certifid.com
@@ -308,7 +308,7 @@ modified: '2026-08-09'
 name: CertifID
 nav: Providers
 network: true
-overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real-Estate, Title Insurance, and Identity Verification.
+overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real Estate, Title Insurance, and Identity Verification.
 
 
   CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 23 more developer resources.'
@@ -353,7 +353,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -372,14 +372,14 @@ slug: certifid
 tags:
 - Company
 - Wire Fraud Prevention
-- Real-Estate
+- Real Estate
 - Title Insurance
 - Identity Verification
 - Business Verification
 - Payments
 - Fraud Prevention
 - Escrow and Settlement
-- Financial-Services
+- Financial Services
 - Security
 website: https://www.certifid.com/
 ---

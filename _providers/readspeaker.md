@@ -33,11 +33,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: A cloud-based text-to-speech API. When using the API from within your software or application, you simply send text to the ReadSpeaker speechCloud API servers and receive audio data in the file format
-  name: ReadSpeaker speechCloud API
+  name: ReadSpeaker Speech Cloud API
   slug: speechcloud-api
 artifact_total: 5
 common:
@@ -131,7 +131,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

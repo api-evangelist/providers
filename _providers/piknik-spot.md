@@ -24,14 +24,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 362
+- acting_count: 357
   human_in_the_loop: 4
   name: Piknik Spot Agentic Access
   operation_count: 683
   slug: piknik-spot-agentic-access
-  summary_line: 683 operations · 362 acting · 4 human-in-the-loop
+  summary_line: 683 operations · 357 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://piknik.spot/api
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

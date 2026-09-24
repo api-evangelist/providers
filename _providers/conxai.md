@@ -34,40 +34,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 63
+- acting_count: 59
   human_in_the_loop: 2
   name: Conxai Agentic Access
   operation_count: 114
   slug: conxai-agentic-access
-  summary_line: 114 operations · 63 acting · 2 human-in-the-loop
+  summary_line: 114 operations · 59 acting · 2 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The annotations API from Conxai — 1 operation(s) for annotations.
-  name: Conxai annotations API
+  name: Conxai Annotations API
   slug: conxai-annotations-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The camera API from Conxai — 4 operation(s) for camera.
-  name: Conxai camera API
+  name: Conxai Camera API
   slug: conxai-camera-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The document-types API from Conxai — 4 operation(s) for document-types.
-  name: Conxai document-types API
+  name: Conxai Document Types API
   slug: conxai-document-types-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The documents API from Conxai — 26 operation(s) for documents.
-  name: Conxai documents API
+  name: Conxai Documents API
   slug: conxai-documents-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The exports API from Conxai — 2 operation(s) for exports.
-  name: Conxai exports API
+  name: Conxai Exports API
   slug: conxai-exports-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
@@ -77,57 +77,57 @@ apis:
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The integrations API from Conxai — 5 operation(s) for integrations.
-  name: Conxai integrations API
+  name: Conxai Integrations API
   slug: conxai-integrations-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The production_tracking API from Conxai — 4 operation(s) for production_tracking.
-  name: Conxai production_tracking API
+  name: Conxai Production Tracking API
   slug: conxai-production-tracking-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The project API from Conxai — 5 operation(s) for project.
-  name: Conxai project API
+  name: Conxai Project API
   slug: conxai-project-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The projects API from Conxai — 2 operation(s) for projects.
-  name: Conxai projects API
+  name: Conxai Projects API
   slug: conxai-projects-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The samples API from Conxai — 16 operation(s) for samples.
-  name: Conxai samples API
+  name: Conxai Samples API
   slug: conxai-samples-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The schema API from Conxai — 1 operation(s) for schema.
-  name: Conxai schema API
+  name: Conxai Schema API
   slug: conxai-schema-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The summary-table API from Conxai — 12 operation(s) for summary-table.
-  name: Conxai summary-table API
+  name: Conxai Summary Table API
   slug: conxai-summary-table-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The use-cases API from Conxai — 6 operation(s) for use-cases.
-  name: Conxai use-cases API
+  name: Conxai Use Cases API
   slug: conxai-use-cases-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The users API from Conxai — 3 operation(s) for users.
-  name: Conxai users API
+  name: Conxai Users API
   slug: conxai-users-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The workflow API from Conxai — 3 operation(s) for workflow.
-  name: Conxai workflow API
+  name: Conxai Workflow API
   slug: conxai-workflow-api
 - baseURL: https://customer.conxai.ai
   baseurl_source: declared
   description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
-  name: Conxai workflow-table API
+  name: Conxai Workflow Table API
   slug: conxai-workflow-table-api
 artifact_total: 39
 collections:
@@ -311,7 +311,7 @@ modified: '2026-07-18'
 name: Conxai
 nav: Providers
 network: true
-overview: 'Conxai publishes 17 APIs on the [APIs.io](https://apis.io/) network, including annotations API, camera API, document-types API, and 14 more. Tagged areas include Company, Construction, AEC, Artificial Intelligence, and Document Processing.
+overview: 'Conxai publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Annotations API, Camera API, Document Types API, and 14 more. Tagged areas include Company, Construction, AEC, Artificial Intelligence, and Document Processing.
 
 
   Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 19 more developer resources.'
@@ -334,6 +334,11 @@ score:
     developer_ergonomics: 39.9
     discoverability: 81.5
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 40.5
   provenance:
     agentic_access: derived
@@ -346,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -372,8 +377,8 @@ tags:
 - AEC
 - Artificial Intelligence
 - Document Processing
-- Computer-Vision
+- Computer Vision
 - Agentic AI
-- Machine-Learning
+- Machine Learning
 website: https://www.conxai.com/
 ---

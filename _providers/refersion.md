@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 10
   human_in_the_loop: 0
   name: Refersion Agentic Access
   operation_count: 15
   slug: refersion-agentic-access
-  summary_line: 15 operations · 15 acting
+  summary_line: 15 operations · 10 acting
 api_count: 2
 apis:
 - description: GraphQL API providing an explorer interface for querying affiliate data, managing program configurations, and integrating with e-commerce platforms.
@@ -72,7 +72,7 @@ apis:
   description: Generate download links for saved reports.
   name: Refersion Reporting API
   slug: refersion-reporting-api
-artifact_total: 29
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Refersion Webhooks
@@ -277,10 +277,6 @@ finops:
 - name: Refersion Finops
   service_category: ''
   slug: refersion-finops
-graphqls:
-- description: Refersion provides a GraphQL API that supplements its REST API, enabling flexible, ad-hoc queries and data manipulation for affiliate marketing programs. The GraphQL API allows clients to request exac
-  name: Refersion GraphQL API
-  slug: refersion-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/refersion.png
 json_schemas:
 - name: Affiliate
@@ -331,19 +327,19 @@ rules:
   slug: refersion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
+  composite: 60.2
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 29
     catalog_earned: 83.3
     catalog_earned_first_party: 24.0
     catalog_gap: 31.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 84.2
     contract_governance: 29.5
-    contract_quality: 72.0
+    contract_quality: 68.5
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 60.5
@@ -359,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

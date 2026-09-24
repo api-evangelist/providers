@@ -29,7 +29,7 @@ tags:
 - Series A
 - Growth Equity
 - Fintech
-- Financial-Services
+- Financial Services
 - Payments
 - Lending
 - Insurtech

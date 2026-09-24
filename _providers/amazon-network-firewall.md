@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 31
   human_in_the_loop: 0
   name: Amazon Network Firewall Agentic Access
   operation_count: 36
   slug: amazon-network-firewall-agentic-access
-  summary_line: 36 operations · 36 acting
+  summary_line: 36 operations · 31 acting
 api_count: 1
 apis:
 - baseURL: https://network-firewall.amazonaws.com
@@ -2725,7 +2725,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

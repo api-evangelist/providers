@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Evernote Cloud API (EDAM) is a Thrift-based service exposing UserStore and NoteStore operations to create, read, update, search, share, and synchronize notes, notebooks, tags, and resources in a u
@@ -207,7 +207,7 @@ modified: '2026-07-19'
 name: evernote
 nav: Providers
 network: true
-overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Productivity, Knowledge-Management, and Notes.
+overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Productivity, Knowledge Management, and Notes.
 
 
   The evernote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +238,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +267,7 @@ tags:
 - Company
 - Note Taking
 - Productivity
-- Knowledge-Management
+- Knowledge Management
 - Notes
 - Content
 - Software-as-a-Service

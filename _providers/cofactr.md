@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,12 +52,12 @@ apis:
 - baseURL: https://graph.cofactr.com
   baseurl_source: declared
   description: Execute multiple product queries in a single request. Each batch member is an operation against the products API expressed as a relative URL; members are fulfilled concurrently and returned in order.
-  name: Cofactr batch API
+  name: Cofactr Batch API
   slug: cofactr-batch-api
 - baseURL: https://graph.cofactr.com
   baseurl_source: declared
   description: Search, view, and autocomplete electronic component products. Every product is a unique combination of manufacturer (`mfr`) and manufacturer part number (`mpn`), identified by a Cofactr ID (CPID). Pro
-  name: Cofactr products API
+  name: Cofactr Products API
   slug: cofactr-products-api
 arazzos:
 - description: Search the Cofactr Knowledge Graph for a part, then view its full detail.
@@ -231,7 +231,7 @@ modified: '2026-07-18'
 name: Cofactr
 nav: Providers
 network: true
-overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: batch API and products API. Tagged areas include Company, Physical AI, Component Intelligence, Electronics, and Supply Chain.
+overview: 'Cofactr publishes 2 APIs on the [APIs.io](https://apis.io/) network: Batch API and Products API. Tagged areas include Company, Physical AI, Component Intelligence, Electronics, and Supply Chain.
 
 
   The Cofactr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -273,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

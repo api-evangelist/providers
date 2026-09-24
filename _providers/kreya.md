@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Kreya is a GUI client for gRPC and REST APIs with innovative features for environments, authorizations, and more.
   name: Kreya
   slug: kreya
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/security/kreya-domain-security.yml
@@ -72,10 +72,6 @@ finops:
 - name: Kreya Finops
   service_category: API
   slug: kreya-finops
-graphqls:
-- description: ''
-  name: Kreya GraphQL API
-  slug: kreya-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kreya.png
 layout: provider
 modified: '2026-04-28'
@@ -99,7 +95,7 @@ score:
   band: emerging
   composite: 13.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -115,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

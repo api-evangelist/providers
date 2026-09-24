@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 7
   human_in_the_loop: 0
   name: Bandcamp Agentic Access
   operation_count: 12
   slug: bandcamp-agentic-access
-  summary_line: 12 operations · 12 acting
+  summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
 - description: Account API for retrieving the list of bands a user manages and basic account metadata. OAuth 2.0 client credentials with token endpoint at /oauth_token; access tokens expire after one hour.
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

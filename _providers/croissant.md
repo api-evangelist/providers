@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ modified: '2026-07-18'
 name: Croissant
 nav: Providers
 network: true
-overview: 'Croissant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Co-Working, Workspace Management, Distributed Teams, and Real-Estate.
+overview: 'Croissant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Co-Working, Workspace Management, Distributed Teams, and Real Estate.
 
 
   Croissant''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
@@ -105,7 +105,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ tags:
 - Co-Working
 - Workspace Management
 - Distributed Teams
-- Real-Estate
+- Real Estate
 - Spend Management
 - Booking
 - Software-as-a-Service

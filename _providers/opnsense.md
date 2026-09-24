@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Opnsense Agentic Access
   operation_count: 6
   slug: opnsense-agentic-access
-  summary_line: 6 operations · 2 acting
+  summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
 - description: REST API covering all core OPNsense modules including firewall, NAT, interfaces, VPN (IPsec, OpenVPN, WireGuard), routing, DHCP, DNS, users, and system administration. Authentication uses HTTP basic a
@@ -168,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -190,6 +190,6 @@ tags:
 - Security
 - VPN
 - Routing
-- Open-Source
+- Open Source
 website: https://opnsense.org
 ---

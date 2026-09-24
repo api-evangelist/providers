@@ -33,7 +33,7 @@ tags:
 - Disaster Recovery
 - Cloud
 - Enterprise IT
-- Data-Center
+- Data Center
 - Acquired
 - Defunct
 ---

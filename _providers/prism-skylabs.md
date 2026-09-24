@@ -23,12 +23,12 @@ modified: '2026-07-20'
 name: Prism Skylabs
 nav: Providers
 network: true
-overview: Prism Skylabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Video Analytics, Physical Security, and Retail Analytics.
+overview: Prism Skylabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Video Analytics, Physical Security, and Retail Analytics.
 random_paper: 19
 slug: prism-skylabs
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Physical Security
 - Retail Analytics

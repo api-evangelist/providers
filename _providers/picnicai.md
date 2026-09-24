@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: First-party R package for importing, transforming, and visualizing PicnicHealth real-world research data (cohorts, medications, labs, clinical codes). Distributed via PicnicHealth's Posit/RStudio Pack
@@ -130,7 +130,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -149,7 +149,7 @@ tags:
 - Healthcare Data
 - Clinical Research
 - Real-World Data
-- Machine-Learning
+- Machine Learning
 - Medical Records
 - Life Sciences
 website: https://picnic.ai/

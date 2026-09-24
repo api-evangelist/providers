@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -288,7 +288,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
@@ -304,7 +304,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 27.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -340,6 +340,7 @@ tags:
 - Anthropic
 - Standards
 - Topic
+- A2A
 use_cases:
 - description: MCP servers extend coding assistants like Cursor, VS Code Copilot, and Claude Code with project-aware tools, repository search, and terminal/build access.
   name: IDE Augmentation

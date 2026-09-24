@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-04-28'
 name: National Institute of Mental Health
 nav: Providers
 network: true
-overview: 'National Institute of Mental Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Health, Mental Health, and Research.
+overview: 'National Institute of Mental Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Health, Mental Health, and Research.
 
 
   National Institute of Mental Health''s developer surface includes developer portal and 4 more developer resources.'
@@ -96,7 +96,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-institute-of-mental-health
 tags:
-- Federal-Government
+- Federal Government
 - Health
 - Mental Health
 - Research

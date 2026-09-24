@@ -37,115 +37,115 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 44
+- acting_count: 42
   human_in_the_loop: 1
   name: Socket Agentic Access
-  operation_count: 96
+  operation_count: 101
   slug: socket-agentic-access
-  summary_line: 96 operations · 44 acting · 1 human-in-the-loop
+  summary_line: 101 operations · 42 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The alerts API from Socket — 6 operation(s) for alerts.
-  name: Socket alerts API
+  name: Socket Alerts API
   slug: socket-alerts-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The api-tokens API from Socket — 6 operation(s) for api-tokens.
-  name: Socket api-tokens API
+  name: Socket API Tokens API
   slug: socket-api-tokens-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The audit-log API from Socket — 1 operation(s) for audit-log.
-  name: Socket audit-log API
+  name: Socket Audit Log API
   slug: socket-audit-log-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The dependencies API from Socket — 2 operation(s) for dependencies.
-  name: Socket dependencies API
+  name: Socket Dependencies API
   slug: socket-dependencies-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The deprecated API from Socket — 17 operation(s) for deprecated.
-  name: Socket deprecated API
+  name: Socket Deprecated API
   slug: socket-deprecated-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The diff-scans API from Socket — 7 operation(s) for diff-scans.
-  name: Socket diff-scans API
+  name: Socket Diff Scans API
   slug: socket-diff-scans-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The fixes API from Socket — 1 operation(s) for fixes.
-  name: Socket fixes API
+  name: Socket Fixes API
   slug: socket-fixes-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The full-scans API from Socket — 13 operation(s) for full-scans.
-  name: Socket full-scans API
+  name: Socket Full Scans API
   slug: socket-full-scans-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The license-policy API from Socket — 4 operation(s) for license-policy.
-  name: Socket license-policy API
+  name: Socket License Policy API
   slug: socket-license-policy-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The metadata API from Socket — 5 operation(s) for metadata.
-  name: Socket metadata API
+  name: Socket Metadata API
   slug: socket-metadata-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The org-settings API from Socket — 2 operation(s) for org-settings.
-  name: Socket org-settings API
+  name: Socket Org Settings API
   slug: socket-org-settings-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The org-snapshots API from Socket — 1 operation(s) for org-snapshots.
-  name: Socket org-snapshots API
+  name: Socket Org Snapshots API
   slug: socket-org-snapshots-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The packages API from Socket — 2 operation(s) for packages.
-  name: Socket packages API
+  name: Socket Packages API
   slug: socket-packages-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The repo-labels API from Socket — 5 operation(s) for repo-labels.
-  name: Socket repo-labels API
+  name: Socket Repo Labels API
   slug: socket-repo-labels-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The repos API from Socket — 2 operation(s) for repos.
-  name: Socket repos API
+  name: Socket Repos API
   slug: socket-repos-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The security-policy API from Socket — 1 operation(s) for security-policy.
-  name: Socket security-policy API
+  name: Socket Security Policy API
   slug: socket-security-policy-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The telemetry API from Socket — 1 operation(s) for telemetry.
-  name: Socket telemetry API
+  name: Socket Telemetry API
   slug: socket-telemetry-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The threat-feed API from Socket — 1 operation(s) for threat-feed.
-  name: Socket threat-feed API
+  name: Socket Threat Feed API
   slug: socket-threat-feed-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The triage API from Socket — 2 operation(s) for triage.
-  name: Socket triage API
+  name: Socket Triage API
   slug: socket-triage-api
 - baseURL: https://api.socket.dev/v0
   baseurl_source: declared
   description: The webhooks API from Socket — 2 operation(s) for webhooks.
-  name: Socket webhooks API
+  name: Socket Webhooks API
   slug: socket-webhooks-api
 artifact_total: 49
 asyncapis:
@@ -390,7 +390,7 @@ modified: '2026-07-21'
 name: Socket
 nav: Providers
 network: true
-overview: 'Socket publishes 20 APIs on the [APIs.io](https://apis.io/) network, including alerts API, api-tokens API, audit-log API, and 17 more. Tagged areas include Company, Security, Software Supply Chain Security, Dependency Scanning, and Software Composition Analysis.
+overview: 'Socket publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Tokens API, Audit Log API, and 17 more. Tagged areas include Company, Security, Software Supply Chain Security, Dependency Scanning, and Software Composition Analysis.
 
 
   The Socket catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -437,7 +437,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

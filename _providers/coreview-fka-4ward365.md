@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
@@ -152,7 +152,7 @@ modified: '2026-07-18'
 name: CoreView (FKA 4ward365)
 nav: Providers
 network: true
-overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Microsoft-365, SaaS Management, Governance, and Security.
+overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Microsoft 365, SaaS Management, Governance, and Security.
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
@@ -185,7 +185,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +208,7 @@ security:
 slug: coreview-fka-4ward365
 tags:
 - Company
-- Microsoft-365
+- Microsoft 365
 - SaaS Management
 - Governance
 - Security

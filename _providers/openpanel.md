@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-05-19'
 name: OpenPanel
 nav: Providers
 network: true
-overview: 'OpenPanel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open-Source, Product Analytics, and Real-Time Analytics.
+overview: 'OpenPanel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Event API, Export API, Import API, and 4 more. Tagged areas include Event Tracking, Funnels, Open Source, Product Analytics, and Real-Time Analytics.
 
 
   OpenPanel''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, and 8 more developer resources.'
@@ -194,7 +194,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 22.4
     contract_governance: 0.0
@@ -202,7 +202,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 75.9
     operational_transparency: 13.2
-  previous_composite: 25.9
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -230,7 +230,7 @@ slug: openpanel
 tags:
 - Event Tracking
 - Funnels
-- Open-Source
+- Open Source
 - Product Analytics
 - Real-Time Analytics
 - User Analytics

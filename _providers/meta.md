@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ arazzos:
 - description: Read a user, branch on whether it exists, and apply an update when found.
   name: Meta Verify And Update User
   slug: meta-verify-and-update-user-workflow
-artifact_total: 67
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Meta Graph API - User
@@ -589,10 +589,6 @@ finops:
 - name: Meta Finops
   service_category: Social + Messaging + Ads
   slug: meta-finops
-graphqls:
-- description: Meta's Graph API is a graph-traversal API modeled around nodes (objects), edges (connections between objects), and fields (properties of objects). While it does not expose a strict GraphQL SDL endpoin
-  name: Meta Graph API — GraphQL Conceptual Schema
-  slug: meta-graphql
 image: https://about.meta.com/brand/resources/meta/our-logo/
 json_schemas:
 - name: Meta Marketing API Ad Campaign
@@ -661,19 +657,19 @@ scopes:
   summary_line: 15 scopes · implicit
 score:
   band: strong
-  composite: 56.7
+  composite: 56.0
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 46.3
     catalog_earned_first_party: 0.0
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 50.0
     contract_governance: 14.4
-    contract_quality: 54.8
+    contract_quality: 51.7
     developer_ergonomics: 89.3
     discoverability: 63.0
     operational_transparency: 60.5
@@ -685,10 +681,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -715,7 +711,7 @@ tags:
 - Artificial Intelligence
 - Messaging
 - Social
-- Social-Media
+- Social Media
 - Virtual Reality
 website: https://developers.facebook.com/?no_redirect=1
 ---

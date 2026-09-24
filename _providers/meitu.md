@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -115,7 +115,7 @@ modified: '2026-07-20'
 name: Meitu
 nav: Providers
 network: true
-overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Image Processing, Computer-Vision, and Video.
+overview: 'Meitu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Image Processing, Computer Vision, and Video.
 
 
   Meitu''s developer surface includes documentation, API reference, CLI, authentication, and 10 more developer resources.'
@@ -142,7 +142,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Image Processing
-- Computer-Vision
+- Computer Vision
 - Video
 - Generative AI
 - Photo Editing

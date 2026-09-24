@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 45
+- acting_count: 30
   human_in_the_loop: 2
   name: Amazon Codepipeline Agentic Access
   operation_count: 45
   slug: amazon-codepipeline-agentic-access
-  summary_line: 45 operations · 45 acting · 2 human-in-the-loop
+  summary_line: 45 operations · 30 acting · 2 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://codepipeline.us-east-1.amazonaws.com
@@ -381,7 +381,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/codepipeline/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/capabilities/amazon-codepipeline-capability-edges.yml
   title: ''
@@ -2945,7 +2945,7 @@ score:
       total: 41
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2988,5 +2988,5 @@ use_cases:
   name: Microservices Delivery
 - description: Use CodeDeploy actions in pipelines to implement zero-downtime blue/green deployments automatically.
   name: Blue/Green Deployments
-website: https://amazon.com
+website: https://aws.amazon.com/codepipeline/
 ---

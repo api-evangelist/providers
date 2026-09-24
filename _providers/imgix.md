@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
   description: The Sources API from Imgix — 4 operation(s) for sources.
   name: Imgix Sources API
   slug: imgix-sources-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -131,10 +131,6 @@ finops:
 - name: Imgix Finops
   service_category: Image CDN
   slug: imgix-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Imgix real-time image processing and CDN API. Imgix provides powerful on-the-fly image transformation and optimization through URL parameters, a management AP
-  name: Imgix GraphQL Schema
-  slug: imgix-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imgix.png
 layout: provider
 modified: '2026-05-04'
@@ -156,19 +152,19 @@ rate_limits:
   slug: imgix-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 30.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 56.4
+    contract_quality: 50.8
     developer_ergonomics: 40.5
     discoverability: 57.4
     operational_transparency: 10.5
@@ -181,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

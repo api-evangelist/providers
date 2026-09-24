@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
   description: The Cve API from Coalition — 7 operation(s) for cve.
   name: Coalition Cve API
   slug: coalition-inc-cve-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -191,10 +191,6 @@ finops:
 - name: Coalition Inc Finops
   service_category: Insurance / Developer API
   slug: coalition-inc-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Coalition Active Insurance API and Exploit Scoring System (ESS) API as a unified graph. Coalition is a cyber insurance and active risk management provider tha
-  name: Coalition GraphQL Schema
-  slug: coalition-inc-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coalition-inc.png
 json_schemas:
 - name: Coalition ESS CVE
@@ -254,19 +250,19 @@ rules:
   slug: coalition-inc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.2
+  composite: 49.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 91.0
     catalog_earned_first_party: 0.0
     catalog_gap: 24.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 52.6
     contract_governance: 54.5
-    contract_quality: 68.7
+    contract_quality: 64.6
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 42.1
@@ -285,7 +281,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

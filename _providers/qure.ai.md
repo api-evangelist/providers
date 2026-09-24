@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - baseURL: BASE_URL
@@ -211,7 +211,7 @@ modified: '2026-08-26'
 name: Qure.ai
 nav: Providers
 network: true
-overview: 'Qure.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Fetch Results API, Initiate Computation API, and Upload DICOMs API. Tagged areas include Artificial Intelligence, Healthcare, Medical Imaging, Radiology, and Machine-Learning.
+overview: 'Qure.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Fetch Results API, Initiate Computation API, and Upload DICOMs API. Tagged areas include Artificial Intelligence, Healthcare, Medical Imaging, Radiology, and Machine Learning.
 
 
   Qure.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
@@ -244,6 +244,8 @@ score:
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
@@ -254,7 +256,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -270,7 +272,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +293,7 @@ tags:
 - Healthcare
 - Medical Imaging
 - Radiology
-- Machine-Learning
+- Machine Learning
 - DICOM
 - Diagnostics
 - Clinical Decision Support

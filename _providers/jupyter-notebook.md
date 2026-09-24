@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -296,7 +296,7 @@ modified: '2026-09-16'
 name: Jupyter Notebook
 nav: Providers
 network: true
-overview: 'Jupyter Notebook publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Jupyter Kernel Messaging Protocol, Authorization API, Config API, and 11 more. Tagged areas include Data Science, Interactive Computing, Jupyter, Machine-Learning, and Notebooks.
+overview: 'Jupyter Notebook publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Jupyter Kernel Messaging Protocol, Authorization API, Config API, and 11 more. Tagged areas include Data Science, Interactive Computing, Jupyter, Machine Learning, and Notebooks.
 
 
   The Jupyter Notebook catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -388,8 +388,9 @@ tags:
 - Data Science
 - Interactive Computing
 - Jupyter
-- Machine-Learning
+- Machine Learning
 - Notebooks
 - Python
+- Real-Time
 website: https://jupyter.org
 ---

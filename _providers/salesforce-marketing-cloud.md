@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 14
+- acting_count: 12
   human_in_the_loop: 1
   name: Salesforce Marketing Cloud Agentic Access
   operation_count: 21
   slug: salesforce-marketing-cloud-agentic-access
-  summary_line: 21 operations · 14 acting · 1 human-in-the-loop
+  summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Legacy SOAP-based API for Marketing Cloud operations, including email sends, subscriber management, and data extension operations.
@@ -101,7 +101,7 @@ apis:
   description: Create, manage, and automate customer journeys across multiple channels and touchpoints. Journeys define the automated workflows that guide customers through marketing interactions.
   name: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
-artifact_total: 170
+artifact_total: 169
 asyncapis:
 - description: ''
   name: Salesforce Marketing Cloud Webhooks
@@ -484,10 +484,6 @@ finops:
 - name: Salesforce Marketing Cloud Finops
   service_category: Marketing Automation
   slug: salesforce-marketing-cloud-finops
-graphqls:
-- description: Salesforce Marketing Cloud API covers email sends, automation, contacts, data extensions, journey builder, content builder, tracking events, and transactional messaging for digital marketing campaigns
-  name: Salesforce Marketing Cloud GraphQL API
-  slug: salesforce-marketing-cloud-graphql
 integrations:
 - description: Bi-directional sync with Sales Cloud and Service Cloud for unified customer profiles and campaign attribution.
   name: Salesforce CRM
@@ -797,19 +793,19 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 82.6
+  composite: 82.5
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 34
     catalog_earned: 71.5
     catalog_earned_first_party: 24.0
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 74.5
+    contract_quality: 73.9
     developer_ergonomics: 76.8
     discoverability: 79.6
     operational_transparency: 84.2
@@ -831,7 +827,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

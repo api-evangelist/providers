@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Amazon Iam Access Analyzer Agentic Access
   operation_count: 28
   slug: amazon-iam-access-analyzer-agentic-access
-  summary_line: 28 operations · 17 acting
+  summary_line: 28 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://access-analyzer.amazonaws.com
@@ -1674,7 +1674,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

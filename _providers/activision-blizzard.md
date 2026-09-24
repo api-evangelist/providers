@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: World of Warcraft game data and profile APIs
   name: activision-blizzard World of Warcraft API
   slug: activision-blizzard-world-of-warcraft-api
-artifact_total: 74
+artifact_total: 73
 collections:
 - collection_type: open
   name: API Collection
@@ -120,7 +120,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.activision-blizzard.com
+  url: https://www.activisionblizzard.com/
 - group: start
   title: ''
   type: Portal
@@ -217,10 +217,6 @@ finops:
 - name: Activision Blizzard Finops
   service_category: Gaming / Game Data
   slug: activision-blizzard-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for the Activision Blizzard / Battle.net platform. It is derived from the publicly documented Battle.net REST API (https://develop.battle.net/documentation) and cov
-  name: Activision Blizzard GraphQL Schema
-  slug: activision-blizzard-graphql
 image: /assets/icons/activision-blizzard.png
 json_schemas:
 - name: BattleNetProfile
@@ -397,19 +393,19 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: emerging
-  composite: 21.8
+  composite: 20.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 34.1
+    contract_quality: 28.3
     developer_ergonomics: 9.5
     discoverability: 42.6
     operational_transparency: 7.9
@@ -422,7 +418,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -441,5 +437,5 @@ security:
 slug: activision-blizzard
 tags:
 - Fortune 1000
-website: https://www.activision-blizzard.com
+website: https://www.activisionblizzard.com/
 ---

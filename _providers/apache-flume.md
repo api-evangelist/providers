@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Apache Flume
 nav: Providers
 network: true
-overview: 'Apache Flume publishes 1 API on the [APIs.io](https://apis.io/) network: Monitoring API. Tagged areas include Apache, Data Collection, ETL, Log Aggregation, and Open-Source.
+overview: 'Apache Flume publishes 1 API on the [APIs.io](https://apis.io/) network: Monitoring API. Tagged areas include Apache, Data Collection, ETL, Log Aggregation, and Open Source.
 
 
   The Apache Flume catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -260,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -282,7 +282,7 @@ tags:
 - Data Collection
 - ETL
 - Log Aggregation
-- Open-Source
+- Open Source
 - Streaming
 use_cases:
 - description: Collect application logs from hundreds of servers and aggregate them into HDFS, Kafka, or Elasticsearch.

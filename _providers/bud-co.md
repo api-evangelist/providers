@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 66
+- acting_count: 61
   human_in_the_loop: 1
   name: Bud Co Agentic Access
-  operation_count: 153
+  operation_count: 154
   slug: bud-co-agentic-access
-  summary_line: 153 operations · 66 acting · 1 human-in-the-loop
+  summary_line: 154 operations · 61 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api-sandbox.thisisbud.com
@@ -477,7 +477,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -505,6 +505,6 @@ tags:
 - Fintech
 - United Kingdom
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 website: https://bud.co
 ---

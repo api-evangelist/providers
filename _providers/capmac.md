@@ -27,13 +27,13 @@ modified: '2026-07-20'
 name: CapMAC Holdings
 nav: Providers
 network: true
-overview: CapMAC Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Insurance, Financial Guaranty, and Structured Finance.
+overview: CapMAC Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Insurance, Financial Guaranty, and Structured Finance.
 random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmac/refs/heads/main/screenshots/capmac-2026-07-25T204425.png
 slug: capmac
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Insurance
 - Financial Guaranty
 - Structured Finance

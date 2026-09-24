@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -128,7 +128,7 @@ modified: '2026-08-28'
 name: Mutual of America Life Insurance Company
 nav: Providers
 network: true
-overview: 'Mutual of America Life Insurance Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Retirement, Financial-Services, and Pensions.
+overview: 'Mutual of America Life Insurance Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Retirement, Financial Services, and Pensions.
 
 
   Mutual of America Life Insurance Company''s developer surface includes authentication, support, engineering blog, and 12 more developer resources.'
@@ -195,7 +195,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -215,7 +215,7 @@ tags:
 - Insurance
 - Life Insurance
 - Retirement
-- Financial-Services
+- Financial Services
 - Pensions
 - Annuities
 - Wealth Management

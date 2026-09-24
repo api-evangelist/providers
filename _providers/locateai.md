@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-20'
 name: LocateAI
 nav: Providers
 network: true
-overview: 'LocateAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Location Intelligence, Site Selection, and Retail.
+overview: 'LocateAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Location Intelligence, Site Selection, and Retail.
 
 
   LocateAI''s developer surface includes support, engineering blog, and 8 more developer resources.'
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ security:
 slug: locateai
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Location Intelligence
 - Site Selection
 - Retail

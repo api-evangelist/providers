@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://johrh.com
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://johrh.com
   baseurl_source: declared
   description: The internal API from Johrh — 25 operation(s) for internal.
-  name: Johrh internal API
+  name: Johrh Internal API
   slug: johrh-internal-api
 - baseURL: https://johrh.com
   baseurl_source: declared
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://johrh.com
   baseurl_source: declared
   description: The redirects API from Johrh — 30 operation(s) for redirects.
-  name: Johrh redirects API
+  name: Johrh Redirects API
   slug: johrh-redirects-api
 - baseURL: https://johrh.com
   baseurl_source: declared
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

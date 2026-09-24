@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ arazzos:
 - description: Fetch a user, then merge nickname, profile, and metadata updates onto them.
   name: Sendbird Update User Metadata
   slug: sendbird-update-user-metadata-workflow
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Sendbird Platform API
@@ -399,10 +399,6 @@ finops:
 - name: Sendbird Finops
   service_category: Communications PaaS
   slug: sendbird-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Sendbird in-app messaging and chat platform. The schema is derived from the [Sendbird Platform API](https://sendbird.com/docs/chat/platform-
-  name: Sendbird GraphQL Schema
-  slug: sendbird-graphql
 image: https://sendbird.com/favicon.ico
 json_schemas:
 - name: Sendbird Group Channel
@@ -428,7 +424,7 @@ modified: '2026-09-16'
 name: Sendbird
 nav: Providers
 network: true
-overview: 'Sendbird publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Messages API, Moderation API, and 1 more. Tagged areas include Customer-Support, Voice, Video, Omnichannel, and WhatsApp.
+overview: 'Sendbird publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Messages API, Moderation API, and 1 more. Tagged areas include Customer Support, Voice, Video, Omnichannel, and WhatsApp.
 
 
   The Sendbird catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -468,19 +464,19 @@ rules:
   slug: sendbird-rules
 score:
   band: developing
-  composite: 50.2
+  composite: 49.3
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 44.7
     contract_governance: 33.3
-    contract_quality: 70.8
+    contract_quality: 67.1
     developer_ergonomics: 27.4
     discoverability: 83.3
     operational_transparency: 26.3
@@ -501,7 +497,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -526,7 +522,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: sendbird
 tags:
-- Customer-Support
+- Customer Support
 - Voice
 - Video
 - Omnichannel

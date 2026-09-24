@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-20'
 name: Placester
 nav: Providers
 network: true
-overview: Placester is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Marketing, Websites, and CRM.
+overview: Placester is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Marketing, Websites, and CRM.
 random_paper: 17
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -93,7 +93,7 @@ security:
 slug: placester
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Marketing
 - Websites
 - CRM

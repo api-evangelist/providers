@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Metal3 extends Kubernetes with the BareMetalHost custom resource for managing physical servers. The API supports hardware inventory discovery, firmware configuration, BIOS settings, RAID configuration
@@ -107,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

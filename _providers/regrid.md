@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Regrid Agentic Access
   operation_count: 22
   slug: regrid-agentic-access
-  summary_line: 22 operations · 4 acting
+  summary_line: 22 operations · 3 acting
 api_count: 1
 apis:
 - description: Tile Map Service (TMS) providing interactive vector and raster map layers of the full Regrid parcel dataset for embedding in web and mobile mapping applications. Supports both Standard and Premium sch
@@ -213,7 +213,7 @@ modified: 2026-06-12
 name: Regrid
 nav: Providers
 network: true
-overview: 'Regrid publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Parcel Query API, Parcel Search API, and 2 more. Tagged areas include Parcel, Land Data, Property Data, GeoJSON, and Real-Estate.
+overview: 'Regrid publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Parcel Query API, Parcel Search API, and 2 more. Tagged areas include Parcel, Land Data, Property Data, GeoJSON, and Real Estate.
 
 
   The Regrid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -267,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - Land Data
 - Property Data
 - GeoJSON
-- Real-Estate
+- Real Estate
 - Zoning
 - Ownership
 - Geospatial

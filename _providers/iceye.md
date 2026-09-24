@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 3
   human_in_the_loop: 0
   name: Iceye Agentic Access
   operation_count: 14
   slug: iceye-agentic-access
-  summary_line: 14 operations · 5 acting
+  summary_line: 14 operations · 3 acting
 api_count: 1
 apis:
 - description: Search, list, purchase, and retrieve products from ICEYE's archive of 60,000+ SAR scenes. Endpoints cover catalog item search, listing, purchase, and retrieval of purchased items for download.
@@ -226,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

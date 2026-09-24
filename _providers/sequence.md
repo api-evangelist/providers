@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - baseURL: https://mainnet-indexer.sequence.app
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
   description: Endpoints accessible by passing your project-access-key in the header. This is injected whenever you login automatically.
-  name: Sequence public API
+  name: Sequence Public API
   slug: sequence-public-api
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
@@ -61,7 +61,7 @@ apis:
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
   description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
-  name: Sequence secret API
+  name: Sequence Secret API
   slug: sequence-secret-api
 artifact_total: 14
 asyncapis:
@@ -236,7 +236,7 @@ modified: '2026-07-21'
 name: Sequence
 nav: Providers
 network: true
-overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Marketplace API, public API, and 2 more. Tagged areas include Company, Web3, Blockchain, Wallets, and Payments.
+overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Marketplace API, Public API, and 2 more. Tagged areas include Company, Web3, Blockchain, Wallets, and Payments.
 
 
   The Sequence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
@@ -262,7 +262,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 42.1
-  previous_composite: 39.7
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
@@ -279,7 +279,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

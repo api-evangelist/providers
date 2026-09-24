@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ rules:
   slug: watttime-spectral-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 35.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 74.5
@@ -389,12 +389,12 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 32.1
-    developer_ergonomics: 50.0
+    developer_ergonomics: 46.4
     discoverability: 64.8
     operational_transparency: 42.1
   previous_composite: 36.4
@@ -412,7 +412,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

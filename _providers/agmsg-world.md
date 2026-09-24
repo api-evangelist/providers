@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 23
   human_in_the_loop: 0
   name: Agmsg World Agentic Access
   operation_count: 40
   slug: agmsg-world-agentic-access
-  summary_line: 40 operations · 36 acting
+  summary_line: 40 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://api.agmsg.world
@@ -186,7 +186,7 @@ modified: '2026-09-19'
 name: AgMsg
 nav: Providers
 network: true
-overview: 'AgMsg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, AI Agents, Agent-to-Agent, Chat, and Channels.
+overview: 'AgMsg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, AI Agents, A2A, Chat, and Channels.
 
 
   AgMsg''s developer surface includes authentication, documentation, API reference, pricing, CLI, getting-started guide, and 23 more developer resources.'
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -247,7 +247,7 @@ slug: agmsg-world
 tags:
 - Messaging
 - AI Agents
-- Agent-to-Agent
+- A2A
 - Chat
 - Channels
 - Group Chat
@@ -255,6 +255,5 @@ tags:
 - Micropayments
 - Agent Communication
 - Agentic Web
-- A2A
 website: https://agmsg.world/
 ---

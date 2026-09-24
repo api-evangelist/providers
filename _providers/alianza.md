@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 417
-  human_in_the_loop: 14
+- acting_count: 232
+  human_in_the_loop: 7
   name: Alianza Agentic Access
-  operation_count: 854
+  operation_count: 476
   slug: alianza-agentic-access
-  summary_line: 854 operations · 417 acting · 14 human-in-the-loop
+  summary_line: 476 operations · 232 acting · 7 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.alianza.com
@@ -730,7 +730,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

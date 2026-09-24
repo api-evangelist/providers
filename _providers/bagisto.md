@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -144,7 +144,7 @@ modified: '2026-06-13'
 name: Bagisto
 nav: Providers
 network: true
-overview: 'Bagisto publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include E-Commerce, Laravel, Open-Source, Product, and Order.
+overview: 'Bagisto publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include E-Commerce, Laravel, Open Source, Product, and Order.
 
 
   Bagisto''s developer surface includes documentation, engineering blog, pricing, and 17 more developer resources.'
@@ -180,7 +180,7 @@ score:
     score: 100.0
   previous_composite: 46.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -196,7 +196,7 @@ slug: bagisto
 tags:
 - E-Commerce
 - Laravel
-- Open-Source
+- Open Source
 - Product
 - Order
 - Customers

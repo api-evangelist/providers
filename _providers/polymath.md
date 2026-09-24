@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://polyglot.polymathrobotics.dev/api
   baseurl_source: declared
   description: The filesystem API from Polymath Robotics — 3 operation(s) for filesystem.
-  name: Polymath Robotics filesystem API
+  name: Polymath Robotics Filesystem API
   slug: polymath-filesystem-api
 - baseURL: https://polyglot.polymathrobotics.dev/api
   baseurl_source: declared
@@ -71,12 +71,12 @@ apis:
 - baseURL: https://polyglot.polymathrobotics.dev/api
   baseurl_source: declared
   description: The ros API from Polymath Robotics — 1 operation(s) for ros.
-  name: Polymath Robotics ros API
+  name: Polymath Robotics Ros API
   slug: polymath-ros-api
 - baseURL: https://polyglot.polymathrobotics.dev/api
   baseurl_source: declared
   description: The systemd API from Polymath Robotics — 1 operation(s) for systemd.
-  name: Polymath Robotics systemd API
+  name: Polymath Robotics Systemd API
   slug: polymath-systemd-api
 - baseURL: https://polyglot.polymathrobotics.dev/api
   baseurl_source: declared
@@ -241,7 +241,7 @@ modified: '2026-07-20'
 name: Polymath Robotics
 nav: Providers
 network: true
-overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CANBus API, filesystem API, Health Check API, and 7 more. Tagged areas include Robotics, Autonomy, Industrial Vehicles, Off-Highway, and Machine-Learning.
+overview: 'Polymath Robotics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CANBus API, Filesystem API, Health Check API, and 7 more. Tagged areas include Robotics, Autonomy, Industrial Vehicles, Off-Highway, and Machine Learning.
 
 
   Polymath Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 16 more developer resources.'
@@ -276,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -297,7 +297,7 @@ tags:
 - Autonomy
 - Industrial Vehicles
 - Off-Highway
-- Machine-Learning
+- Machine Learning
 - Simulation
 - Teleoperation
 - Automation

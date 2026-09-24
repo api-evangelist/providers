@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: The Snap-on Electronic Parts Catalog (EPC) provides dealer management system (DMS) integration for parts lookup, pricing, and ordering. The EPC integration supports file-writer, Launch EPC, and advanc
@@ -104,7 +104,7 @@ modified: '2026-05-02'
 name: Snap-on
 nav: Providers
 network: true
-overview: 'Snap-on publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Diagnostics, Electronic Parts Catalog, Industrial Tools, and Manufacturing.
+overview: 'Snap-on publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Electronic Parts Catalog, Industrial Tools, Manufacturing, and Repair Information.
 
 
   The Snap-on catalog on APIs.io includes 1 JSON-LD context.
@@ -156,7 +156,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -171,12 +171,12 @@ security:
 slug: snap-on
 tags:
 - Automotive
-- Diagnostics
 - Electronic Parts Catalog
 - Industrial Tools
 - Manufacturing
 - Repair Information
 - Vehicle Repair
 - Fortune 1000
+- Vehicle Diagnostics
 website: https://www.snapon.com
 ---

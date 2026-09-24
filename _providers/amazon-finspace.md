@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ modified: '2026-05-19'
 name: Amazon FinSpace
 nav: Providers
 network: true
-overview: 'Amazon FinSpace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Kdb Clusters API, Kdb Databases API, and 3 more. Tagged areas include Capital Markets, Data Analytics, Data Management, and Financial-Services.
+overview: 'Amazon FinSpace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Kdb Clusters API, Kdb Databases API, and 3 more. Tagged areas include Capital Markets, Data Analytics, Data Management, and Financial Services.
 
 
   The Amazon FinSpace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -361,7 +361,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -389,7 +389,7 @@ tags:
 - Capital Markets
 - Data Analytics
 - Data Management
-- Financial-Services
+- Financial Services
 use_cases:
 - description: Ingest, store, and query high-frequency market tick data (trades, quotes, order books) using kdb+ clusters.
   name: Tick Data Management

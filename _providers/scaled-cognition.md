@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The stateless RESTful API behind the Scaled Cognition Agent Builder platform, used to author, simulate, deploy and monitor APT-1 agents. Scaled Cognition describes the interface publicly as an open, v
@@ -42,10 +42,6 @@ apis:
   slug: scaled-cognition-apt-agent-platform-api
 artifact_total: 5
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/microsoft/
 - group: company
   title: ''
   type: Website
@@ -155,7 +151,7 @@ network: true
 overview: 'Scaled Cognition publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Agents, LLM, Customer Experience, and Contact Center.
 
 
-  Scaled Cognition''s developer surface includes engineering blog and 19 more developer resources.'
+  Scaled Cognition''s developer surface includes engineering blog and 18 more developer resources.'
 plans:
 - name: Scaled Cognition Plans Pricing
   plan_count: 0
@@ -188,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +210,7 @@ tags:
 - Conversational AI
 - Voice
 - Enterprise Software
-- Machine-Learning
+- Machine Learning
 - Company
 website: https://www.scaledcognition.com
 ---

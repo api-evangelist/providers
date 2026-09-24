@@ -29,7 +29,7 @@ tags:
 - Early Stage
 - Artificial Intelligence
 - Defense
-- Biotech
+- Biotechnology
 - Space
 - Robotics
 - New York

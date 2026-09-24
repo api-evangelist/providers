@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The CSB does not currently offer a formal public API. However, it maintains public databases of investigations, recommendations, and incident reports accessible through its website. The CSB releases p
@@ -75,7 +75,7 @@ modified: '2026-05-03'
 name: US Chemical Safety and Hazard Investigation Board
 nav: Providers
 network: true
-overview: 'US Chemical Safety and Hazard Investigation Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Chemical Safety, Incident Investigation, Hazardous Materials, and Public Safety.
+overview: 'US Chemical Safety and Hazard Investigation Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Chemical Safety, Incident Investigation, Hazardous Materials, and Public Safety.
 
 
   The US Chemical Safety and Hazard Investigation Board catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -125,7 +125,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -139,7 +139,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: us-chemical-safety-and-hazard-investigation-board
 tags:
-- Federal-Government
+- Federal Government
 - Chemical Safety
 - Incident Investigation
 - Hazardous Materials

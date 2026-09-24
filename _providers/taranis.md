@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.taranis.com
@@ -113,7 +113,7 @@ modified: '2026-06-20'
 name: Taranis
 nav: Providers
 network: true
-overview: 'Taranis publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Crop Intelligence, Imagery and Insights, Ag Assistant, and 1 more. Tagged areas include Agriculture, AgTech, Crop Intelligence, Computer-Vision, and Aerial Scouting.
+overview: 'Taranis publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Crop Intelligence, Imagery and Insights, Ag Assistant, and 1 more. Tagged areas include Agriculture, AgTech, Crop Intelligence, Computer Vision, and Aerial Scouting.
 
 
   Taranis'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -146,7 +146,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ tags:
 - Agriculture
 - AgTech
 - Crop Intelligence
-- Computer-Vision
+- Computer Vision
 - Aerial Scouting
 - Precision Agriculture
 website: https://www.taranis.com/

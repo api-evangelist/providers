@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Realtor Agentic Access
   operation_count: 8
   slug: realtor-agentic-access
-  summary_line: 8 operations · 1 acting
+  summary_line: 8 operations
 api_count: 1
 apis:
 - baseURL: https://api.example.com
@@ -168,7 +168,7 @@ modified: '2026-09-16'
 name: Realtor
 nav: Providers
 network: true
-overview: 'Realtor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Realtor.com Connections Plus API, Realtor.com Lead Delivery API, Agents API, and 3 more. Tagged areas include Agents, Real-Estate, Brokers, CRM, and Delivery.
+overview: 'Realtor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Realtor.com Connections Plus API, Realtor.com Lead Delivery API, Agents API, and 3 more. Tagged areas include Agents, Real Estate, Brokers, CRM, and Delivery.
 
 
   The Realtor catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -239,7 +239,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -258,7 +258,7 @@ security:
 slug: realtor
 tags:
 - Agents
-- Real-Estate
+- Real Estate
 - Brokers
 - CRM
 - Delivery

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -51,42 +51,42 @@ apis:
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: Manage dist-tags for packages
-  name: Verdaccio dist-tags API
+  name: Verdaccio Dist Tags API
   slug: verdaccio-dist-tags-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: Retrieve package metadata and tarballs
-  name: Verdaccio packages API
+  name: Verdaccio Packages API
   slug: verdaccio-packages-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: User profile management
-  name: Verdaccio profile API
+  name: Verdaccio Profile API
   slug: verdaccio-profile-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: Publish, update, and unpublish packages
-  name: Verdaccio publish API
+  name: Verdaccio Publish API
   slug: verdaccio-publish-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: Search the registry
-  name: Verdaccio search API
+  name: Verdaccio Search API
   slug: verdaccio-search-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: API token management
-  name: Verdaccio tokens API
+  name: Verdaccio Tokens API
   slug: verdaccio-tokens-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: User authentication and management
-  name: Verdaccio user API
+  name: Verdaccio User API
   slug: verdaccio-user-api
 - baseURL: http://localhost:4873
   baseurl_source: declared
   description: Utility endpoints
-  name: Verdaccio utility API
+  name: Verdaccio Utility API
   slug: verdaccio-utility-api
 artifact_total: 32
 collections:
@@ -244,7 +244,7 @@ modified: 2026-06-13
 name: Verdaccio
 nav: Providers
 network: true
-overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including dist-tags API, packages API, profile API, and 5 more. Tagged areas include npm, Registry, Package Manager, private-registry, and Proxy.
+overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dist Tags API, Packages API, Profile API, and 5 more. Tagged areas include npm, Registry, Package Manager, private-registry, and Proxy.
 
 
   The Verdaccio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -297,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +320,7 @@ tags:
 - private-registry
 - Proxy
 - Node.js
-- Open-Source
+- Open Source
 - Self-Hosted
 - YARN
 - pnpm

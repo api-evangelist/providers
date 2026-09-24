@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Office of the Federal Register
 nav: Providers
 network: true
-overview: Office of the Federal Register publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Documents API, Documents.json API, and 5 more. Tagged areas include Federal-Government, Regulations, Federal Register, and Executive Orders.
+overview: Office of the Federal Register publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Documents API, Documents.json API, and 5 more. Tagged areas include Federal Government, Regulations, Federal Register, and Executive Orders.
 plans:
 - name: Office Of The Federal Register Plans Pricing
   plan_count: 3
@@ -203,7 +203,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ security:
   summary_line: security.txt · contact published
 slug: office-of-the-federal-register
 tags:
-- Federal-Government
+- Federal Government
 - Regulations
 - Federal Register
 - Executive Orders

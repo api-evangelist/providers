@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -498,7 +498,7 @@ modified: '2026-06-20'
 name: Microsoft Excel
 nav: Providers
 network: true
-overview: 'Microsoft Excel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 6 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft-365, and Office.
+overview: 'Microsoft Excel publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Named Items API, and 6 more. Tagged areas include Automation, Data Analysis, Microsoft, Microsoft 365, and Office.
 
 
   The Microsoft Excel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -570,7 +570,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -598,7 +598,7 @@ tags:
 - Automation
 - Data Analysis
 - Microsoft
-- Microsoft-365
+- Microsoft 365
 - Office
 - Spreadsheets
 use_cases:

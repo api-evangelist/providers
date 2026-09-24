@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
@@ -204,7 +204,7 @@ modified: '2026-07-24'
 name: Halifax
 nav: Providers
 network: true
-overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 19 more developer resources.'
@@ -263,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 57.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -281,7 +281,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: halifax
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

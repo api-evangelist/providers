@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ modified: '2026-07-21'
 name: Sekra
 nav: Providers
 network: true
-overview: Sekra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real-Estate, Community, and Residential.
+overview: Sekra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PropTech, Real Estate, Community, and Residential.
 random_paper: 6
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -96,7 +96,7 @@ slug: sekra
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Community
 - Residential
 - Housing

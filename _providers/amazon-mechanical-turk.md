@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 24
   human_in_the_loop: 0
   name: Amazon Mechanical Turk Agentic Access
   operation_count: 39
   slug: amazon-mechanical-turk-agentic-access
-  summary_line: 39 operations · 39 acting
+  summary_line: 39 operations · 24 acting
 api_count: 1
 apis:
 - baseURL: https://mturk-requester.amazonaws.com
@@ -1890,7 +1890,7 @@ modified: '2026-05-19'
 name: Amazon Mechanical Turk
 nav: Providers
 network: true
-overview: 'Amazon Mechanical Turk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API, #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API, #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API, and 36 more. Tagged areas include Crowdsourcing, Human Intelligence, Labor, Machine-Learning, and Task.
+overview: 'Amazon Mechanical Turk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API, #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API, #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API, and 36 more. Tagged areas include Crowdsourcing, Human Intelligence, Labor, Machine Learning, and Task.
 
 
   The Amazon Mechanical Turk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1955,7 +1955,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1975,7 +1975,7 @@ tags:
 - Crowdsourcing
 - Human Intelligence
 - Labor
-- Machine-Learning
+- Machine Learning
 - Task
 use_cases:
 - description: Label images, text, audio, and video to create training datasets for machine learning models.

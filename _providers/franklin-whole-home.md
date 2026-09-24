@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 14
   human_in_the_loop: 0
   name: Franklin Whole Home Agentic Access
   operation_count: 38
   slug: franklin-whole-home-agentic-access
-  summary_line: 38 operations · 19 acting
+  summary_line: 38 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://test-api.franklinwh.com
@@ -285,7 +285,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

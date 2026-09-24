@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -49,52 +49,52 @@ apis:
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The alignment API from Knownwell — 2 operation(s) for alignment. Returns the Red/Amber/Green alignment read a client team files by hand each week, alongside the machine-computed Knownwell score, so th
-  name: Knownwell alignment API
+  name: Knownwell Alignment API
   slug: knownwell-alignment-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The api-keys API from Knownwell — 2 operation(s) for api-keys.
-  name: Knownwell api-keys API
+  name: Knownwell API Keys API
   slug: knownwell-api-keys-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The clients API from Knownwell — 14 operation(s) for clients.
-  name: Knownwell clients API
+  name: Knownwell Clients API
   slug: knownwell-clients-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The documentation API from Knownwell — 1 operation(s) for documentation.
-  name: Knownwell documentation API
+  name: Knownwell Documentation API
   slug: knownwell-documentation-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The health API from Knownwell — 1 operation(s) for health.
-  name: Knownwell health API
+  name: Knownwell Health API
   slug: knownwell-health-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The portfolios API from Knownwell — 2 operation(s) for portfolios.
-  name: Knownwell portfolios API
+  name: Knownwell Portfolios API
   slug: knownwell-portfolios-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The root API from Knownwell — 1 operation(s) for root.
-  name: Knownwell root API
+  name: Knownwell Root API
   slug: knownwell-root-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The status API from Knownwell — 1 operation(s) for status.
-  name: Knownwell status API
+  name: Knownwell Status API
   slug: knownwell-status-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The streams API from Knownwell — 1 operation(s) for streams.
-  name: Knownwell streams API
+  name: Knownwell Streams API
   slug: knownwell-streams-api
 - baseURL: https://api.knownwell.com/ci/v1
   baseurl_source: declared
   description: The topics API from Knownwell — 1 operation(s) for topics.
-  name: Knownwell topics API
+  name: Knownwell Topics API
   slug: knownwell-topics-api
 artifact_total: 27
 collections:
@@ -292,7 +292,7 @@ modified: '2026-08-13'
 name: Knownwell
 nav: Providers
 network: true
-overview: 'Knownwell publishes 10 APIs on the [APIs.io](https://apis.io/) network, including alignment API, api-keys API, clients API, and 7 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
+overview: 'Knownwell publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alignment API, API Keys API, Clients API, and 7 more. Tagged areas include Company, Commercial Intelligence, Client Intelligence, Customer Success, and Revenue Operations.
 
 
   Knownwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
@@ -335,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

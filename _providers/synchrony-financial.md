@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ modified: '2026-05-19'
 name: Synchrony Financial
 nav: Providers
 network: true
-overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 5 more. Tagged areas include Financial-Services, Credit, Payments, Consumer Finance, and Retail Finance.
+overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Decisions API, Payments API, and 5 more. Tagged areas include Financial Services, Credit, Payments, Consumer Finance, and Retail Finance.
 
 
   The Synchrony Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -305,7 +305,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -326,7 +326,7 @@ security:
   summary_line: Bugcrowd
 slug: synchrony-financial
 tags:
-- Financial-Services
+- Financial Services
 - Credit
 - Payments
 - Consumer Finance

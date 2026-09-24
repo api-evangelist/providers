@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ modified: '2026-05-19'
 name: US Space Command
 nav: Providers
 network: true
-overview: 'US Space Command publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conjunction Data API, Decay and Reentry API, and 3 more. Tagged areas include Federal-Government, Space, Space Situational Awareness, Satellite Tracking, and Open Data.
+overview: 'US Space Command publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conjunction Data API, Decay and Reentry API, and 3 more. Tagged areas include Federal Government, Space, Space Situational Awareness, Satellite Tracking, and Open Data.
 
 
   The US Space Command catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -224,7 +224,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -241,7 +241,7 @@ security:
   summary_line: TLSv1.3
 slug: us-space-comman
 tags:
-- Federal-Government
+- Federal Government
 - Space
 - Space Situational Awareness
 - Satellite Tracking

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-29'
 name: Breaking Bad
 nav: Providers
 network: true
-overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Deaths API, Episodes API, and 1 more. Tagged areas include Video, Television, Public APIs, Open-Source, and Breaking Bad.
+overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Characters API, Deaths API, Episodes API, and 1 more. Tagged areas include Video, Television, Public APIs, Open Source, and Breaking Bad.
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -228,7 +228,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -240,7 +240,7 @@ tags:
 - Video
 - Television
 - Public APIs
-- Open-Source
+- Open Source
 - Breaking Bad
 - Better Call Saul
 - Pop Culture

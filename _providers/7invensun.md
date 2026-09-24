@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,7 +95,7 @@ modified: '2026-09-05'
 name: 7Invensun Technology
 nav: Providers
 network: true
-overview: '7Invensun Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Eye Tracking, Computer-Vision, Artificial Intelligence, and Hardware.
+overview: '7Invensun Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Eye Tracking, Computer Vision, Artificial Intelligence, and Hardware.
 
 
   7Invensun Technology''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -135,7 +135,7 @@ score:
     - greater-china
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -150,7 +150,7 @@ slug: 7invensun
 tags:
 - Company
 - Eye Tracking
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Hardware
 - Virtual Reality

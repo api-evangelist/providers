@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.unitary.ai/v1
@@ -55,7 +55,7 @@ apis:
 - baseURL: https://api.unitary.ai/v1
   baseurl_source: declared
   description: The moderation API from Unitary AI — 1 operation(s) for moderation.
-  name: Unitary AI moderation API
+  name: Unitary AI Moderation API
   slug: unitary-ai-moderation-api
 - baseURL: https://api.unitary.ai/v1
   baseurl_source: declared
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -271,8 +271,8 @@ tags:
 - Content Moderation
 - Trust and Safety
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Video
 - Virtual Agents
 website: https://www.unitary.ai/

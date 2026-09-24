@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ apis:
   description: OAuth 2.0 token authorization endpoints
   name: Red Hat 3scale O Auth API
   slug: red-hat-3scale-oauth-api
-artifact_total: 94
+artifact_total: 93
 collections:
 - collection_type: postman
   name: Red Hat 3scale Account Management Accounts API
@@ -394,10 +394,6 @@ finops:
 - name: Red Hat 3Scale Finops
   service_category: API Management
   slug: red-hat-3scale-finops
-graphqls:
-- description: ''
-  name: Red Hat 3scale GraphQL API
-  slug: red-hat-3scale-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-hat-3scale.png
 json_schemas:
 - name: Red Hat 3scale Account
@@ -552,7 +548,7 @@ score:
   band: developing
   composite: 49.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 59.5
     catalog_earned_first_party: 0.0
     catalog_gap: 55.5
@@ -578,7 +574,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

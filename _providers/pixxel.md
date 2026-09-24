@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.pixxel.space
@@ -75,7 +75,7 @@ apis:
 - baseURL: https://api.pixxel.space
   baseurl_source: declared
   description: The external API from Pixxel — 1 operation(s) for external.
-  name: Pixxel external API
+  name: Pixxel External API
   slug: pixxel-external-api
 - baseURL: https://api.pixxel.space
   baseurl_source: declared
@@ -342,7 +342,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'GNU Wget is a free command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS. It supports recursive downloading, resume of aborted downloads, website '
@@ -120,7 +120,7 @@ modified: '2026-05-03'
 name: Wget
 nav: Providers
 network: true
-overview: 'Wget publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Clients, HTTP Client, File Download, and Open-Source.
+overview: 'Wget publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CLI, Clients, HTTP Client, File Download, and Open Source.
 
 
   The Wget catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 24.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ tags:
 - Clients
 - HTTP Client
 - File Download
-- Open-Source
+- Open Source
 - GNU
 website: https://www.gnu.org/software/wget/
 ---

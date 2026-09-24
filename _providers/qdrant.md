@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 48
+- acting_count: 38
   human_in_the_loop: 0
   name: Qdrant Agentic Access
   operation_count: 73
   slug: qdrant-agentic-access
-  summary_line: 73 operations · 48 acting
+  summary_line: 73 operations · 38 acting
 api_count: 1
 apis:
 - baseURL_template: '{protocol}://{hostname}:{port}'
@@ -90,7 +90,7 @@ apis:
   description: Storage and collections snapshots.
   name: Qdrant Snapshots API
   slug: qdrant-snapshots-api
-artifact_total: 431
+artifact_total: 430
 collections:
 - collection_type: open
   name: API Collection
@@ -200,10 +200,6 @@ finops:
 - name: Qdrant Finops
   service_category: Vector Database
   slug: qdrant-finops
-graphqls:
-- description: Qdrant is an open-source vector database and similarity search engine. The API covers collection management, point upsert and search, payload filtering, vector quantization, snapshots, and cluster man
-  name: Qdrant GraphQL API
-  slug: qdrant-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qdrant.png
 json_schemas:
 - name: AbortResharding
@@ -1373,7 +1369,7 @@ modified: '2026-05-19'
 name: Qdrant
 nav: Providers
 network: true
-overview: 'Qdrant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Beta API, Collections API, and 6 more. Tagged areas include Artificial Intelligence and Vector Database.
+overview: 'Qdrant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Beta API, Collections API, and 6 more. Tagged areas include Artificial Intelligence, Vector Database, and Database.
 
 
   The Qdrant catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1402,23 +1398,23 @@ rules:
   slug: qdrant-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.2
+  composite: 36.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 39.3
     catalog_earned_first_party: 0.0
     catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: -1.4
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 59.4
+    contract_quality: 54.1
     developer_ergonomics: 35.7
     discoverability: 57.4
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1428,7 +1424,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1447,5 +1443,6 @@ slug: qdrant
 tags:
 - Artificial Intelligence
 - Vector Database
+- Database
 website: https://qdrant.tech
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: DuckDB ships as a library with first-class bindings for Python, R, Java (JDBC), Node.js, C/C++, Go, Rust, Swift, Julia, and the browser via DuckDB-Wasm. There is no network REST API; clients call Duck
@@ -125,7 +125,7 @@ modified: '2026-05-08'
 name: DuckDB
 nav: Providers
 network: true
-overview: 'DuckDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, OLAP, Embedded, and Open-Source.
+overview: 'DuckDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, OLAP, Embedded, and Open Source.
 
 
   DuckDB''s developer surface includes developer portal, engineering blog, and 15 more developer resources.'
@@ -158,7 +158,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 23.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,6 +176,6 @@ tags:
 - Analytics
 - OLAP
 - Embedded
-- Open-Source
+- Open Source
 website: https://duckdb.org/
 ---

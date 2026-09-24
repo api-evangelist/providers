@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Sysdig Agentic Access
   operation_count: 43
   slug: sysdig-agentic-access
-  summary_line: 43 operations · 21 acting
+  summary_line: 43 operations · 20 acting
 api_count: 2
 apis:
 - baseURL: https://api.us1.sysdig.com
@@ -150,7 +150,7 @@ arazzos:
 - description: List vulnerability results, drill into one image, and pull its SBOM.
   name: Sysdig Triage Image Vulnerabilities
   slug: sysdig-triage-image-vulnerabilities-workflow
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Sysdig Monitor Activity Audit API
@@ -417,10 +417,6 @@ finops:
 - name: Sysdig Finops
   service_category: API
   slug: sysdig-finops
-graphqls:
-- description: Sysdig provides cloud-native security and observability for Kubernetes, containers, and cloud. The API covers runtime threat detection, compliance posture management, vulnerability management, image s
-  name: Sysdig GraphQL API
-  slug: sysdig-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sysdig.png
 json_schemas:
 - name: Sysdig Alert
@@ -487,19 +483,19 @@ rules:
   slug: sysdig-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 48.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 63.5
     catalog_earned_first_party: 0.0
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 65.2
+    contract_quality: 63.5
     developer_ergonomics: 53.6
     discoverability: 68.5
     operational_transparency: 34.2
@@ -512,7 +508,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

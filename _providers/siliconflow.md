@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -181,7 +181,7 @@ modified: '2026-05-08'
 name: SiliconFlow
 nav: Providers
 network: true
-overview: 'SiliconFlow publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Open-Source, and OpenAI-Compatible.
+overview: 'SiliconFlow publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Open Source, and OpenAI-Compatible.
 
 
   SiliconFlow''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -236,10 +236,10 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - Anthropic Compatible
-- Image-Generation
+- Image Generation
 - Audio
 - Video
 website: https://siliconflow.com/

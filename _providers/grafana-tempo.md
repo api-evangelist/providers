@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-05-19'
 name: Grafana Tempo
 nav: Providers
 network: true
-overview: 'Grafana Tempo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Echo API, Metrics API, Ready API, and 3 more. Tagged areas include Distributed Tracing, Grafana, Microservices, Observability, and Open-Source.
+overview: 'Grafana Tempo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Echo API, Metrics API, Ready API, and 3 more. Tagged areas include Distributed Tracing, Grafana, Microservices, Observability, and Open Source.
 
 
   The Grafana Tempo catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -211,7 +211,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -233,6 +233,6 @@ tags:
 - Grafana
 - Microservices
 - Observability
-- Open-Source
+- Open Source
 website: https://grafana.com/oss/tempo/
 ---

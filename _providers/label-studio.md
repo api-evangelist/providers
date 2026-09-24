@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -48,192 +48,192 @@ apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_actions API from Label Studio — 1 operation(s) for subpackage_actions.
-  name: Label Studio subpackage_actions API
+  name: Label Studio Subpackage Actions API
   slug: label-studio-subpackage-actions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_activityLogs API from Label Studio — 1 operation(s) for subpackage_activitylogs.
-  name: Label Studio subpackage_activityLogs API
+  name: Label Studio Subpackage Activity Logs API
   slug: label-studio-subpackage-activitylogs-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_annotationHistory API from Label Studio — 3 operation(s) for subpackage_annotationhistory.
-  name: Label Studio subpackage_annotationHistory API
+  name: Label Studio Subpackage Annotation History API
   slug: label-studio-subpackage-annotationhistory-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_annotationReviews API from Label Studio — 2 operation(s) for subpackage_annotationreviews.
-  name: Label Studio subpackage_annotationReviews API
+  name: Label Studio Subpackage Annotation Reviews API
   slug: label-studio-subpackage-annotationreviews-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_annotations API from Label Studio — 4 operation(s) for subpackage_annotations.
-  name: Label Studio subpackage_annotations API
+  name: Label Studio Subpackage Annotations API
   slug: label-studio-subpackage-annotations-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_billing API from Label Studio — 1 operation(s) for subpackage_billing.
-  name: Label Studio subpackage_billing API
+  name: Label Studio Subpackage Billing API
   slug: label-studio-subpackage-billing-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_comments API from Label Studio — 3 operation(s) for subpackage_comments.
-  name: Label Studio subpackage_comments API
+  name: Label Studio Subpackage Comments API
   slug: label-studio-subpackage-comments-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_dimensions API from Label Studio — 5 operation(s) for subpackage_dimensions.
-  name: Label Studio subpackage_dimensions API
+  name: Label Studio Subpackage Dimensions API
   slug: label-studio-subpackage-dimensions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage API from Label Studio — 1 operation(s) for subpackage_exportstorage.
-  name: Label Studio subpackage_exportStorage API
+  name: Label Studio Subpackage Export Storage API
   slug: label-studio-subpackage-exportstorage-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/azure API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/azure.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/azure API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/azure API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-azure-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/azureSpi API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/azurespi.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/azureSpi API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/azure Spi API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-azurespi-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/databricks API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/databricks.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/databricks API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/databricks API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-databricks-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/gcs API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/gcs.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/gcs API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/gcs API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcs-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/gcsSa API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/gcssa.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/gcsSa API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/gcs Sa API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcssa-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/gcswif API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/gcswif.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/gcswif API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/gcswif API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-gcswif-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/local API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/local.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/local API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/local API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-local-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/redis API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/redis.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/redis API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/redis API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-redis-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/s3 API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/s3.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/s3 API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/s3 API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_exportStorage.subpackage_exportStorage/s3S API from Label Studio — 4 operation(s) for subpackage_exportstorage.subpackage_exportstorage/s3s.
-  name: Label Studio subpackage_exportStorage.subpackage_exportStorage/s3S API
+  name: Label Studio Subpackage Export Storage.subpackage Export Storage/s3 S API
   slug: label-studio-subpackage-exportstorage-subpackage-exportstorage-s3s-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_files API from Label Studio — 3 operation(s) for subpackage_files.
-  name: Label Studio subpackage_files API
+  name: Label Studio Subpackage Files API
   slug: label-studio-subpackage-files-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage API from Label Studio — 1 operation(s) for subpackage_importstorage.
-  name: Label Studio subpackage_importStorage API
+  name: Label Studio Subpackage Import Storage API
   slug: label-studio-subpackage-importstorage-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/azure API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/azure.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/azure API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/azure API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-azure-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/azureSpi API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/azurespi.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/azureSpi API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/azure Spi API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-azurespi-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/databricks API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/databricks.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/databricks API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/databricks API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-databricks-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/gcs API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/gcs.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/gcs API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/gcs API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcs-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/gcsSa API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/gcssa.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/gcsSa API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/gcs Sa API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcssa-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/gcswif API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/gcswif.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/gcswif API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/gcswif API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-gcswif-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/local API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/local.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/local API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/local API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-local-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/redis API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/redis.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/redis API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/redis API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-redis-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/s3 API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/s3.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/s3 API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/s3 API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-s3-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_importStorage.subpackage_importStorage/s3S API from Label Studio — 4 operation(s) for subpackage_importstorage.subpackage_importstorage/s3s.
-  name: Label Studio subpackage_importStorage.subpackage_importStorage/s3S API
+  name: Label Studio Subpackage Import Storage.subpackage Import Storage/s3 S API
   slug: label-studio-subpackage-importstorage-subpackage-importstorage-s3s-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_jwtSettings API from Label Studio — 1 operation(s) for subpackage_jwtsettings.
-  name: Label Studio subpackage_jwtSettings API
+  name: Label Studio Subpackage JWT Settings API
   slug: label-studio-subpackage-jwtsettings-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_ml API from Label Studio — 6 operation(s) for subpackage_ml.
-  name: Label Studio subpackage_ml API
+  name: Label Studio Subpackage Ml API
   slug: label-studio-subpackage-ml-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_modelProviders API from Label Studio — 3 operation(s) for subpackage_modelproviders.
-  name: Label Studio subpackage_modelProviders API
+  name: Label Studio Subpackage Model Providers API
   slug: label-studio-subpackage-modelproviders-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_organizations API from Label Studio — 4 operation(s) for subpackage_organizations.
-  name: Label Studio subpackage_organizations API
+  name: Label Studio Subpackage Organizations API
   slug: label-studio-subpackage-organizations-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_organizations.subpackage_organizations/invites API from Label Studio — 3 operation(s) for subpackage_organizations.subpackage_organizations/invites.
-  name: Label Studio subpackage_organizations.subpackage_organizations/invites API
+  name: Label Studio Subpackage Organizations.subpackage Organizations/invites API
   slug: label-studio-subpackage-organizations-subpackage-organizations-invites-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_organizations.subpackage_organizations/members API from Label Studio — 2 operation(s) for subpackage_organizations.subpackage_organizations/members.
-  name: Label Studio subpackage_organizations.subpackage_organizations/members API
+  name: Label Studio Subpackage Organizations.subpackage Organizations/members API
   slug: label-studio-subpackage-organizations-subpackage-organizations-members-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_organizations.subpackage_organizations/memberTags API from Label Studio — 5 operation(s) for subpackage_organizations.subpackage_organizations/membertags.
-  name: Label Studio subpackage_organizations.subpackage_organizations/memberTags API
+  name: Label Studio Subpackage Organizations.subpackage Organizations/member Tags API
   slug: label-studio-subpackage-organizations-subpackage-organizations-membertags-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
@@ -243,32 +243,32 @@ apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_organizations.subpackage_organizations/permissions API from Label Studio — 3 operation(s) for subpackage_organizations.subpackage_organizations/permissions.
-  name: Label Studio subpackage_organizations.subpackage_organizations/permissions API
+  name: Label Studio Subpackage Organizations.subpackage Organizations/permissions API
   slug: label-studio-subpackage-organizations-subpackage-organizations-permissions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_predictions API from Label Studio — 2 operation(s) for subpackage_predictions.
-  name: Label Studio subpackage_predictions API
+  name: Label Studio Subpackage Predictions API
   slug: label-studio-subpackage-predictions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects API from Label Studio — 8 operation(s) for subpackage_projects.
-  name: Label Studio subpackage_projects API
+  name: Label Studio Subpackage Projects API
   slug: label-studio-subpackage-projects-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/assignments API from Label Studio — 2 operation(s) for subpackage_projects.subpackage_projects/assignments.
-  name: Label Studio subpackage_projects.subpackage_projects/assignments API
+  name: Label Studio Subpackage Projects.subpackage Projects/assignments API
   slug: label-studio-subpackage-projects-subpackage-projects-assignments-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/exports API from Label Studio — 6 operation(s) for subpackage_projects.subpackage_projects/exports.
-  name: Label Studio subpackage_projects.subpackage_projects/exports API
+  name: Label Studio Subpackage Projects.subpackage Projects/exports API
   slug: label-studio-subpackage-projects-subpackage-projects-exports-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/members API from Label Studio — 1 operation(s) for subpackage_projects.subpackage_projects/members.
-  name: Label Studio subpackage_projects.subpackage_projects/members API
+  name: Label Studio Subpackage Projects.subpackage Projects/members API
   slug: label-studio-subpackage-projects-subpackage-projects-members-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
@@ -283,7 +283,7 @@ apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/metrics API from Label Studio — 1 operation(s) for subpackage_projects.subpackage_projects/metrics.
-  name: Label Studio subpackage_projects.subpackage_projects/metrics API
+  name: Label Studio Subpackage Projects.subpackage Projects/metrics API
   slug: label-studio-subpackage-projects-subpackage-projects-metrics-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
@@ -293,112 +293,112 @@ apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/pauses API from Label Studio — 2 operation(s) for subpackage_projects.subpackage_projects/pauses.
-  name: Label Studio subpackage_projects.subpackage_projects/pauses API
+  name: Label Studio Subpackage Projects.subpackage Projects/pauses API
   slug: label-studio-subpackage-projects-subpackage-projects-pauses-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/reviewRoutingRules API from Label Studio — 2 operation(s) for subpackage_projects.subpackage_projects/reviewroutingrules.
-  name: Label Studio subpackage_projects.subpackage_projects/reviewRoutingRules API
+  name: Label Studio Subpackage Projects.subpackage Projects/review Routing Rules API
   slug: label-studio-subpackage-projects-subpackage-projects-reviewroutingrules-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/roles API from Label Studio — 3 operation(s) for subpackage_projects.subpackage_projects/roles.
-  name: Label Studio subpackage_projects.subpackage_projects/roles API
+  name: Label Studio Subpackage Projects.subpackage Projects/roles API
   slug: label-studio-subpackage-projects-subpackage-projects-roles-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projects.subpackage_projects/stats API from Label Studio — 20 operation(s) for subpackage_projects.subpackage_projects/stats.
-  name: Label Studio subpackage_projects.subpackage_projects/stats API
+  name: Label Studio Subpackage Projects.subpackage Projects/stats API
   slug: label-studio-subpackage-projects-subpackage-projects-stats-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_projectTemplates API from Label Studio — 3 operation(s) for subpackage_projecttemplates.
-  name: Label Studio subpackage_projectTemplates API
+  name: Label Studio Subpackage Project Templates API
   slug: label-studio-subpackage-projecttemplates-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_prompts API from Label Studio — 7 operation(s) for subpackage_prompts.
-  name: Label Studio subpackage_prompts API
+  name: Label Studio Subpackage Prompts API
   slug: label-studio-subpackage-prompts-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_prompts.subpackage_prompts/indicators API from Label Studio — 2 operation(s) for subpackage_prompts.subpackage_prompts/indicators.
-  name: Label Studio subpackage_prompts.subpackage_prompts/indicators API
+  name: Label Studio Subpackage Prompts.subpackage Prompts/indicators API
   slug: label-studio-subpackage-prompts-subpackage-prompts-indicators-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_prompts.subpackage_prompts/runs API from Label Studio — 2 operation(s) for subpackage_prompts.subpackage_prompts/runs.
-  name: Label Studio subpackage_prompts.subpackage_prompts/runs API
+  name: Label Studio Subpackage Prompts.subpackage Prompts/runs API
   slug: label-studio-subpackage-prompts-subpackage-prompts-runs-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_prompts.subpackage_prompts/versions API from Label Studio — 5 operation(s) for subpackage_prompts.subpackage_prompts/versions.
-  name: Label Studio subpackage_prompts.subpackage_prompts/versions API
+  name: Label Studio Subpackage Prompts.subpackage Prompts/versions API
   slug: label-studio-subpackage-prompts-subpackage-prompts-versions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_sessionPolicy API from Label Studio — 1 operation(s) for subpackage_sessionpolicy.
-  name: Label Studio subpackage_sessionPolicy API
+  name: Label Studio Subpackage Session Policy API
   slug: label-studio-subpackage-sessionpolicy-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_sso.subpackage_sso/saml API from Label Studio — 2 operation(s) for subpackage_sso.subpackage_sso/saml.
-  name: Label Studio subpackage_sso.subpackage_sso/saml API
+  name: Label Studio Subpackage Sso.subpackage Sso/saml API
   slug: label-studio-subpackage-sso-subpackage-sso-saml-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_sso.subpackage_sso/scim API from Label Studio — 1 operation(s) for subpackage_sso.subpackage_sso/scim.
-  name: Label Studio subpackage_sso.subpackage_sso/scim API
+  name: Label Studio Subpackage Sso.subpackage Sso/scim API
   slug: label-studio-subpackage-sso-subpackage-sso-scim-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_states API from Label Studio — 5 operation(s) for subpackage_states.
-  name: Label Studio subpackage_states API
+  name: Label Studio Subpackage States API
   slug: label-studio-subpackage-states-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_tasks API from Label Studio — 5 operation(s) for subpackage_tasks.
-  name: Label Studio subpackage_tasks API
+  name: Label Studio Subpackage Tasks API
   slug: label-studio-subpackage-tasks-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_tasks.subpackage_tasks/agreementMatrix API from Label Studio — 1 operation(s) for subpackage_tasks.subpackage_tasks/agreementmatrix.
-  name: Label Studio subpackage_tasks.subpackage_tasks/agreementMatrix API
+  name: Label Studio Subpackage Tasks.subpackage Tasks/agreement Matrix API
   slug: label-studio-subpackage-tasks-subpackage-tasks-agreementmatrix-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_tokens API from Label Studio — 4 operation(s) for subpackage_tokens.
-  name: Label Studio subpackage_tokens API
+  name: Label Studio Subpackage Tokens API
   slug: label-studio-subpackage-tokens-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_users API from Label Studio — 7 operation(s) for subpackage_users.
-  name: Label Studio subpackage_users API
+  name: Label Studio Subpackage Users API
   slug: label-studio-subpackage-users-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_versions API from Label Studio — 1 operation(s) for subpackage_versions.
-  name: Label Studio subpackage_versions API
+  name: Label Studio Subpackage Versions API
   slug: label-studio-subpackage-versions-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_views API from Label Studio — 4 operation(s) for subpackage_views.
-  name: Label Studio subpackage_views API
+  name: Label Studio Subpackage Views API
   slug: label-studio-subpackage-views-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_webhooks API from Label Studio — 3 operation(s) for subpackage_webhooks.
-  name: Label Studio subpackage_webhooks API
+  name: Label Studio Subpackage Webhooks API
   slug: label-studio-subpackage-webhooks-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_workspaces API from Label Studio — 2 operation(s) for subpackage_workspaces.
-  name: Label Studio subpackage_workspaces API
+  name: Label Studio Subpackage Workspaces API
   slug: label-studio-subpackage-workspaces-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_workspaces.subpackage_workspaces/members API from Label Studio — 1 operation(s) for subpackage_workspaces.subpackage_workspaces/members.
-  name: Label Studio subpackage_workspaces.subpackage_workspaces/members API
+  name: Label Studio Subpackage Workspaces.subpackage Workspaces/members API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-members-api
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
@@ -413,7 +413,7 @@ apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
   description: The subpackage_workspaces.subpackage_workspaces/projects API from Label Studio — 1 operation(s) for subpackage_workspaces.subpackage_workspaces/projects.
-  name: Label Studio subpackage_workspaces.subpackage_workspaces/projects API
+  name: Label Studio Subpackage Workspaces.subpackage Workspaces/projects API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-projects-api
 artifact_total: 154
 collections:
@@ -728,7 +728,7 @@ modified: '2026-05-19'
 name: Label Studio
 nav: Providers
 network: true
-overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including subpackage_actions API, subpackage_activityLogs API, subpackage_annotationHistory API, and 71 more. Tagged areas include Artificial Intelligence, Annotation, Data Labeling, LLM, and Machine-Learning.
+overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Actions API, Subpackage Activity Logs API, Subpackage Annotation History API, and 71 more. Tagged areas include Artificial Intelligence, Annotation, Data Labeling, LLM, and Machine Learning.
 
 
   Label Studio''s developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
@@ -772,7 +772,7 @@ score:
       total: 74
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -793,7 +793,7 @@ tags:
 - Annotation
 - Data Labeling
 - LLM
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 website: https://labelstud.io/
 ---

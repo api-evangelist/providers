@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ modified: '2026-05-23'
 name: AbCellera
 nav: Providers
 network: true
-overview: AbCellera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Antibody Discovery, Biotech, Pharmaceuticals, Monoclonal Antibodies, and Bispecifics.
+overview: AbCellera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Antibody Discovery, Biotechnology, Pharmaceuticals, Monoclonal Antibodies, and Bispecifics.
 random_paper: 21
 score:
   band: minimal
@@ -120,7 +120,7 @@ score:
     - north-america
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ security:
 slug: abcellera
 tags:
 - Antibody Discovery
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Monoclonal Antibodies
 - Bispecifics

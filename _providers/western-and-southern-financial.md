@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Life insurance, annuities, and retirement products offered by Western & Southern Life Insurance Company. Customers can access account information, policy details, and manage their coverage through dig
@@ -110,7 +110,7 @@ modified: '2026-09-16'
 name: Western And Southern Financial
 nav: Providers
 network: true
-overview: 'Western And Southern Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Life Insurance, Asset Management, Annuities, and Retirement.
+overview: 'Western And Southern Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Life Insurance, Asset Management, Annuities, and Retirement.
 
 
   The Western And Southern Financial catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -168,7 +168,7 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: western-and-southern-financial
 tags:
-- Financial-Services
+- Financial Services
 - Life Insurance
 - Asset Management
 - Annuities

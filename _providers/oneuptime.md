@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ modified: '2026-05-19'
 name: OneUptime
 nav: Providers
 network: true
-overview: 'OneUptime publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Observability and Open-Source.
+overview: 'OneUptime publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Observability and Open Source.
 
 
   OneUptime''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -172,9 +172,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -192,6 +192,6 @@ security:
 slug: oneuptime
 tags:
 - Observability
-- Open-Source
+- Open Source
 website: https://oneuptime.com
 ---

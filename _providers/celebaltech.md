@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-18'
 name: Celebal Technologies
 nav: Providers
 network: true
-overview: 'Celebal Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Artificial Intelligence, Data Engineering, and Machine-Learning.
+overview: 'Celebal Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Artificial Intelligence, Data Engineering, and Machine Learning.
 
 
   Celebal Technologies'' developer surface includes engineering blog and 4 more developer resources.'
@@ -90,12 +90,14 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,7 +115,7 @@ tags:
 - Consulting
 - Artificial Intelligence
 - Data Engineering
-- Machine-Learning
+- Machine Learning
 - Cloud
 - Generative AI
 - Databricks

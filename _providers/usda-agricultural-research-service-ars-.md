@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Usda Agricultural Research Service Ars  Agentic Access
   operation_count: 12
   slug: usda-agricultural-research-service-ars--agentic-access
-  summary_line: 12 operations · 3 acting
+  summary_line: 12 operations
 api_count: 2
 apis:
 - baseURL: https://data.nal.usda.gov
@@ -140,7 +140,7 @@ modified: '2026-09-16'
 name: USDA Agricultural Research Service (ARS)
 nav: Providers
 network: true
-overview: 'USDA Agricultural Research Service (ARS) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Food Search API, and Foods API. Tagged areas include Federal-Government, Agriculture, Food Safety, Nutrition, and Open Data.
+overview: 'USDA Agricultural Research Service (ARS) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Food Search API, and Foods API. Tagged areas include Federal Government, Agriculture, Food Safety, Nutrition, and Open Data.
 
 
   The USDA Agricultural Research Service (ARS) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -211,7 +211,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -228,7 +228,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: usda-agricultural-research-service-ars-
 tags:
-- Federal-Government
+- Federal Government
 - Agriculture
 - Food Safety
 - Nutrition

@@ -34,38 +34,38 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
-  name: Channable order_attachments API
+  name: Channable Order Attachments API
   slug: channable-order-attachments-api
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The orders API from Channable — 10 operation(s) for orders.
-  name: Channable orders API
+  name: Channable Orders API
   slug: channable-orders-api
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The returns API from Channable — 5 operation(s) for returns.
-  name: Channable returns API
+  name: Channable Returns API
   slug: channable-returns-api
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The statistics API from Channable — 2 operation(s) for statistics.
-  name: Channable statistics API
+  name: Channable Statistics API
   slug: channable-statistics-api
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The stock_updates API from Channable — 2 operation(s) for stock_updates.
-  name: Channable stock_updates API
+  name: Channable Stock Updates API
   slug: channable-stock-updates-api
 - baseURL: https://api.channable.com/v1
   baseurl_source: declared
   description: The transporters API from Channable — 3 operation(s) for transporters.
-  name: Channable transporters API
+  name: Channable Transporters API
   slug: channable-transporters-api
 artifact_total: 17
 collections:
@@ -257,7 +257,7 @@ modified: '2026-08-13'
 name: Channable
 nav: Providers
 network: true
-overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including order_attachments API, orders API, returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplace, and E-Commerce.
+overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Order Attachments API, Orders API, Returns API, and 3 more. Tagged areas include Company, Applicative Saas, Feed Management, Marketplace, and E-Commerce.
 
 
   Channable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 28 more developer resources.'
@@ -299,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -278,7 +278,7 @@ modified: '2026-05-23'
 name: OpenHands
 nav: Providers
 network: true
-overview: 'OpenHands publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 7 more. Tagged areas include Artificial Intelligence, Agents, Autonomous, Open-Source, and Developer Tools.
+overview: 'OpenHands publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Add Git Providers API, Alive API, Conversations API, and 7 more. Tagged areas include Artificial Intelligence, Agents, Autonomous, Open Source, and Developer Tools.
 
 
   OpenHands'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
@@ -318,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -342,7 +342,7 @@ tags:
 - Artificial Intelligence
 - Agents
 - Autonomous
-- Open-Source
+- Open Source
 - Developer Tools
 - Software Engineering
 - Code Generation

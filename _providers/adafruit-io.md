@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ arazzos:
 - description: Create a feed, push an initial data point to it, then read the last value back.
   name: Adafruit IO Provision Feed and Seed Data
   slug: adafruit-io-provision-feed-and-seed-data-workflow
-artifact_total: 72
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Adafruit IO REST API
@@ -439,10 +439,6 @@ finops:
 - name: Adafruit Io Finops
   service_category: ''
   slug: adafruit-io-finops
-graphqls:
-- description: Conceptual GraphQL schema for the Adafruit IO IoT cloud platform. Adafruit IO provides feed-based time-series storage, drag-and-drop dashboards, reactive and scheduled triggers, MQTT and REST APIs, an
-  name: Adafruit IO GraphQL Schema
-  slug: adafruit-io-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adafruit-io.png
 json_schemas:
 - name: Adafruit IO Dashboard
@@ -511,19 +507,19 @@ rules:
   slug: adafruit-io-rules
 score:
   band: strong
-  composite: 61.3
+  composite: 60.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 86.5
     catalog_earned_first_party: 0.0
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 84.2
     contract_governance: 13.6
-    contract_quality: 65.1
+    contract_quality: 63.3
     developer_ergonomics: 67.9
     discoverability: 68.5
     operational_transparency: 52.6
@@ -536,7 +532,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

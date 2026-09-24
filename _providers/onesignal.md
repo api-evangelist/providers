@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 75.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.onesignal.com
@@ -90,7 +90,7 @@ apis:
   description: The Templates?app Id={app Id}&limit={limit}&offset={offset} API from OneSignal — 1 operation(s) for templates?app id={app id}&limit={limit}&offset={offset}.
   name: OneSignal Templates?app Id={app Id}&limit={limit}&offset={offset} API
   slug: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api
-artifact_total: 27
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Onesignal Webhooks
@@ -339,10 +339,6 @@ finops:
 - name: Onesignal Finops
   service_category: Notifications
   slug: onesignal-finops
-graphqls:
-- description: Conceptual GraphQL schema for the OneSignal multi-channel customer engagement platform, derived from the OneSignal REST API v1 (https://documentation.onesignal.com/reference).
-  name: OneSignal GraphQL Schema
-  slug: onesignal-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onesignal.png
 layout: provider
 mcp_servers:
@@ -371,19 +367,19 @@ rate_limits:
   slug: onesignal-rate-limits
 score:
   band: exemplar
-  composite: 80.0
+  composite: 79.1
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 93.4
     contract_governance: 4.5
-    contract_quality: 70.4
+    contract_quality: 66.7
     developer_ergonomics: 81.0
     discoverability: 75.9
     operational_transparency: 84.2
@@ -404,7 +400,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -445,5 +441,6 @@ tags:
 - Lifecycle Marketing
 - MCP
 - Agent Ready
+- A2A
 website: https://onesignal.com/
 ---

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 256
+- acting_count: 233
   human_in_the_loop: 4
   name: Akeyless Agentic Access
   operation_count: 256
   slug: akeyless-agentic-access
-  summary_line: 256 operations · 256 acting · 4 human-in-the-loop
+  summary_line: 256 operations · 233 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.akeyless.io
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

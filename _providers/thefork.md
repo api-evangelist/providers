@@ -11,37 +11,37 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-09-23'
+  score: 30.9
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
-  human_in_the_loop: 0
+- acting_count: 14
+  human_in_the_loop: 1
   name: Thefork Agentic Access
-  operation_count: 8
+  operation_count: 29
   slug: thefork-agentic-access
-  summary_line: 8 operations · 4 acting
+  summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.thefork.io
@@ -64,7 +64,32 @@ apis:
   description: Retrieve guest review details.
   name: TheFork Reviews API
   slug: thefork-reviews-api
-artifact_total: 66
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Booking flow API from TheFork — 8 operation(s) for booking flow.
+  name: TheFork Booking flow API
+  slug: lafourchette-booking-flow-api
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Data API from TheFork — 4 operation(s) for data.
+  name: TheFork Data API
+  slug: lafourchette-data-api
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Phone API from TheFork — 3 operation(s) for phone.
+  name: TheFork Phone API
+  slug: lafourchette-phone-api
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Review flow API from TheFork — 3 operation(s) for review flow.
+  name: TheFork Review flow API
+  slug: lafourchette-review-flow-api
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The v1 API from TheFork — 3 operation(s) for v1.
+  name: TheFork V1 API
+  slug: lafourchette-v1-api
+artifact_total: 71
 collections:
 - collection_type: postman
   name: TheFork B2B Customers API
@@ -183,6 +208,10 @@ common:
   title: ''
   type: FinOps
   url: finops/thefork-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.thefork.io/B2B-API/API%20specifications/get-v-1-customers
 created: '2026-06-02'
 description: TheFork is a leading European restaurant reservations marketplace, part of Tripadvisor, connecting diners with tens of thousands of restaurants across Europe and beyond. Through its developers portal, TheFork exposes a public REST API surface for restaurants, point-of-sale systems, and third-party partners to integrate with TheFork Management platform. The API enables partners to build custom booking flows, create and manage reservations with full detail such as meal date, party size, and customer data, surface preset menus and curated dining experiences, and access personalized guest data including allergies, dietary restrictions, and seating preferences. Offerings include a B2B API for restaurants and a POS API for point-of-sale providers.
 examples:
@@ -301,13 +330,13 @@ modified: '2026-06-03'
 name: TheFork
 nav: Providers
 network: true
-overview: 'TheFork publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Orders API, Reservations API, and 1 more. Tagged areas include Restaurant, Reservations, Booking, Dining, and Point-of-Sale.
+overview: 'TheFork publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Orders API, Reservations API, and 6 more. Tagged areas include Restaurant, Reservations, Booking, Dining, and Point-of-Sale.
 
 
   The TheFork catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  TheFork''s developer surface includes authentication, documentation, developer portal, getting-started guide, signup flow, engineering blog, and 13 more developer resources.'
+  TheFork''s developer surface includes authentication, documentation, developer portal, getting-started guide, signup flow, engineering blog, API reference, and 13 more developer resources.'
 plans:
 - name: Thefork Plans Pricing
   plan_count: 1
@@ -344,8 +373,8 @@ scopes:
   slug: thefork-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 46.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 85.3
@@ -353,25 +382,25 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.2
   facets:
     access_clarity: 52.6
     contract_governance: 25.0
-    contract_quality: 17.0
-    developer_ergonomics: 57.1
+    contract_quality: 48.4
+    developer_ergonomics: 53.6
     discoverability: 68.5
-    operational_transparency: 23.7
+    operational_transparency: 31.6
   previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
+      derived: 5
+      marker_coverage: 55.6
+      total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

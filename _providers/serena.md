@@ -33,7 +33,7 @@ tags:
 - Data
 - Software-as-a-Service
 - Climate Tech
-- Open-Source
+- Open Source
 - Fintech
 - Infrastructure
 - Impact

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 66
+- acting_count: 86
   human_in_the_loop: 0
   name: Dixa Agentic Access
-  operation_count: 123
+  operation_count: 157
   slug: dixa-agentic-access
-  summary_line: 123 operations · 66 acting
+  summary_line: 157 operations · 86 acting
 api_count: 1
 apis:
 - baseURL: https://dev.dixa.io/v1
@@ -346,7 +346,7 @@ modified: '2026-06-13'
 name: Dixa
 nav: Providers
 network: true
-overview: 'Dixa publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Anonymization API, and 17 more. Tagged areas include Customer Service, Conversational, Omnichannel, CX, and Help Desk.
+overview: 'Dixa publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Anonymization API, and 17 more. Tagged areas include Customer Service, Conversational AI, Omnichannel, CX, and Help Desk.
 
 
   The Dixa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -403,7 +403,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -421,7 +421,7 @@ security:
 slug: dixa
 tags:
 - Customer Service
-- Conversational
+- Conversational AI
 - Omnichannel
 - CX
 - Help Desk

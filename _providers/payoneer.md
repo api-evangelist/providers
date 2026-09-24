@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -48,7 +48,7 @@ apis:
 - description: PSD2-compliant banking APIs for European financial services integration, available via the Payoneer PSD2 developer portal with sandbox and live environments.
   name: Payoneer PSD2 API
   slug: payoneer-psd2-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: operate
   title: ''
@@ -134,10 +134,6 @@ finops:
 - name: Payoneer Finops
   service_category: ''
   slug: payoneer-finops
-graphqls:
-- description: Payoneer is a global payment and commerce platform for cross-border B2B payments. The API covers payee management, payments, balance accounts, currency exchange, and tax compliance for marketplaces an
-  name: Payoneer GraphQL API
-  slug: payoneer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payoneer.png
 jsonld:
 - class_count: 27
@@ -167,19 +163,19 @@ rate_limits:
   slug: payoneer-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 28.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.7
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 45.7
+    contract_quality: 10.7
     developer_ergonomics: 19.0
     discoverability: 81.5
     operational_transparency: 39.5
@@ -191,8 +187,8 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -211,7 +207,7 @@ tags:
 - Currency Conversion
 - Marketplace Payments
 - Fintech
-- Financial-Services
+- Financial Services
 - Mass Payouts
 - Checkout
 - REST

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Manage mock server instances.
   name: Insomnia Mock Servers API
   slug: insomnia-mock-servers-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -134,10 +134,6 @@ finops:
 - name: Insomnia Finops
   service_category: API
   slug: insomnia-finops
-graphqls:
-- description: ''
-  name: Insomnia GraphQL API
-  slug: insomnia-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insomnia.png
 json_schemas:
 - name: Insomnia Environment
@@ -190,7 +186,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 59.3
     catalog_earned_first_party: 0.0
     catalog_gap: 55.8
@@ -213,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

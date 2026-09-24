@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,9 +46,9 @@ apis:
 - baseURL: https://api.apis.guru/v2
   baseurl_source: declared
   description: Actions relating to APIs in the collection
-  name: APIs.guru AP Is API
+  name: APIs.guru APIs API
   slug: apis-guru-apis-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -183,10 +183,6 @@ finops:
 - name: Apis Guru Finops
   service_category: API
   slug: apis-guru-finops
-graphqls:
-- description: ''
-  name: APIs.guru GraphQL API
-  slug: apis-guru-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apis-guru.png
 integrations:
 - description: HTTP debugging and testing platform that integrates with API definitions from the APIs.guru directory for request interception.
@@ -235,7 +231,7 @@ modified: '2026-05-19'
 name: APIs.guru
 nav: Providers
 network: true
-overview: 'APIs.guru publishes 1 API on the [APIs.io](https://apis.io/) network: AP Is API. Tagged areas include API Catalog, API Directory, API Discovery, Community, and GraphQL.
+overview: 'APIs.guru publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include API Catalog, API Directory, API Discovery, Community, and GraphQL.
 
 
   The APIs.guru catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -277,7 +273,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 29.5
@@ -300,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -319,7 +315,7 @@ tags:
 - API Discovery
 - Community
 - GraphQL
-- Open-Source
+- Open Source
 - OpenAPI
 use_cases:
 - description: Developers can search and browse the directory to discover public APIs across thousands of providers by category, provider, or keyword.

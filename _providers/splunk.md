@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -112,7 +112,7 @@ arazzos:
 - description: Run an SPL search, wait for it to finish, then pull the untransformed events.
   name: Splunk Search and Retrieve Raw Events
   slug: splunk-search-events-workflow
-artifact_total: 180
+artifact_total: 179
 collections:
 - collection_type: postman
   name: Splunk Enterprise REST API
@@ -531,10 +531,6 @@ finops:
 - name: Splunk Finops
   service_category: Observability + SIEM
   slug: splunk-finops
-graphqls:
-- description: Conceptual GraphQL schema for the Splunk platform, covering search, indexing, data inputs, access control, dashboards, saved searches, metrics, clustering, licensing, and diagnostics.
-  name: Splunk GraphQL Schema
-  slug: splunk-graphql
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
 integrations:
 - description: Ingest and analyze AWS CloudTrail, CloudWatch, VPC Flow Logs, and other AWS service data.
@@ -829,19 +825,19 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 53.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 57.5
     catalog_earned_first_party: 0.0
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.6
   facets:
     access_clarity: 68.4
     contract_governance: 13.6
-    contract_quality: 35.4
+    contract_quality: 73.4
     developer_ergonomics: 65.5
     discoverability: 50.0
     operational_transparency: 34.2
@@ -853,12 +849,12 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 3
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

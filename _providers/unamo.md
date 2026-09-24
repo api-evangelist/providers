@@ -44,13 +44,13 @@ modified: '2026-09-16'
 name: Unamo
 nav: Providers
 network: true
-overview: Unamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SEO, Social-Media, Analytics, and Monitoring.
+overview: Unamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SEO, Social Media, Analytics, and Monitoring.
 random_paper: 16
 slug: unamo
 tags:
 - Company
 - SEO
-- Social-Media
+- Social Media
 - Analytics
 - Monitoring
 - Marketing

@@ -23,9 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 1
+artifact_total: 0
 common:
 - group: company
   title: ''
@@ -33,10 +33,6 @@ common:
   url: https://www.linkedin.com/company/api-evangelist
 created: '2026-02-27'
 description: A network index of all APIs.json files maintained by the API Evangelist organization, providing a comprehensive directory of API definitions across the network.
-graphqls:
-- description: ''
-  name: API Evangelist Network GraphQL API
-  slug: api-evangelist-network-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-02'
@@ -49,7 +45,7 @@ score:
   band: minimal
   composite: 2.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 14.0
     catalog_earned_first_party: 0.0
     catalog_gap: 101.0
@@ -73,7 +69,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

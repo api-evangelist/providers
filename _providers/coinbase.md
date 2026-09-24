@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ apis:
   description: Manage crypto withdrawals from exchange accounts to external addresses or Coinbase accounts.
   name: Coinbase Withdrawals API
   slug: coinbase-withdrawals-api
-artifact_total: 146
+artifact_total: 145
 asyncapis:
 - description: The Coinbase Advanced Trade WebSocket API provides real-time market data streaming including heartbeats, ticker updates, candle data, market trades, level2 order book updates, and user order status ch
   name: Coinbase Advanced Trade WebSocket
@@ -475,10 +475,6 @@ finops:
 - name: Coinbase Finops
   service_category: Financial Services
   slug: coinbase-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Coinbase Developer Platform. Coinbase exposes its capabilities through REST APIs (Advanced Trade, Exchange, Prime, Commerce, Onramp) and Web
-  name: Coinbase GraphQL Schema
-  slug: coinbase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinbase.png
 json_schemas:
 - name: Account
@@ -675,19 +671,19 @@ rules:
   slug: coinbase-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 45.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 32.9
     contract_governance: 13.6
-    contract_quality: 70.9
+    contract_quality: 67.2
     developer_ergonomics: 39.3
     discoverability: 66.7
     operational_transparency: 13.2
@@ -707,7 +703,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -739,5 +735,6 @@ tags:
 - Web3
 - Agentic Commerce
 - x402
+- Real-Time
 website: https://www.coinbase.com/
 ---

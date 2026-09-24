@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ modified: '2026-07-19'
 name: GPTZero
 nav: Providers
 network: true
-overview: 'GPTZero publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Artificial Intelligence, AI Detection, Content Moderation, and Machine-Learning.
+overview: 'GPTZero publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch API, Detection API, and Documents API. Tagged areas include Company, Artificial Intelligence, AI Detection, Content Moderation, and Machine Learning.
 
 
   GPTZero''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -271,7 +271,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -292,7 +292,7 @@ tags:
 - Artificial Intelligence
 - AI Detection
 - Content Moderation
-- Machine-Learning
+- Machine Learning
 - Text Analysis
 - Natural Language Processing
 - Education

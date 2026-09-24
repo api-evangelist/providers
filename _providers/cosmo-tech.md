@@ -33,50 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 56
+- acting_count: 54
   human_in_the_loop: 16
   name: Cosmo Tech Agentic Access
   operation_count: 101
   slug: cosmo-tech-agentic-access
-  summary_line: 101 operations · 56 acting · 16 human-in-the-loop
+  summary_line: 101 operations · 54 acting · 16 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Dataset Management
-  name: Cosmo Tech dataset API
+  name: Cosmo Tech Dataset API
   slug: cosmo-tech-dataset-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Meta Management
-  name: Cosmo Tech meta API
+  name: Cosmo Tech Meta API
   slug: cosmo-tech-meta-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Organization Management
-  name: Cosmo Tech organization API
+  name: Cosmo Tech Organization API
   slug: cosmo-tech-organization-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Run Management
-  name: Cosmo Tech run API
+  name: Cosmo Tech Run API
   slug: cosmo-tech-run-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Runner Management
-  name: Cosmo Tech runner API
+  name: Cosmo Tech Runner API
   slug: cosmo-tech-runner-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Solution Management
-  name: Cosmo Tech solution API
+  name: Cosmo Tech Solution API
   slug: cosmo-tech-solution-api
 - baseURL: https://dev.api.cosmotech.com
   baseurl_source: declared
   description: Workspace Management
-  name: Cosmo Tech workspace API
+  name: Cosmo Tech Workspace API
   slug: cosmo-tech-workspace-api
 artifact_total: 19
 collections:
@@ -238,7 +238,7 @@ modified: '2026-07-18'
 name: Cosmo Tech
 nav: Providers
 network: true
-overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) network, including dataset API, meta API, organization API, and 4 more. Tagged areas include Company, Simulation, Digital Twin, Artificial Intelligence, and Supply Chain.
+overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dataset API, Meta API, Organization API, and 4 more. Tagged areas include Company, Simulation, Digital Twin, Artificial Intelligence, and Supply Chain.
 
 
   Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
@@ -268,6 +268,8 @@ score:
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
@@ -284,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

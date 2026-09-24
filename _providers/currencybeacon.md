@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,17 +48,17 @@ apis:
 - baseURL: https://api.currencybeacon.com/v1
   baseurl_source: declared
   description: Currency conversion operations
-  name: CurrencyBeacon conversion API
+  name: CurrencyBeacon Conversion API
   slug: currencybeacon-conversion-api
 - baseURL: https://api.currencybeacon.com/v1
   baseurl_source: declared
   description: Supported currencies information
-  name: CurrencyBeacon currencies API
+  name: CurrencyBeacon Currencies API
   slug: currencybeacon-currencies-api
 - baseURL: https://api.currencybeacon.com/v1
   baseurl_source: declared
   description: Currency exchange rate operations
-  name: CurrencyBeacon rates API
+  name: CurrencyBeacon Rates API
   slug: currencybeacon-rates-api
 artifact_total: 21
 collections:
@@ -164,7 +164,7 @@ modified: '2026-06-13'
 name: CurrencyBeacon
 nav: Providers
 network: true
-overview: 'CurrencyBeacon publishes 3 APIs on the [APIs.io](https://apis.io/) network: conversion API, currencies API, and rates API. Tagged areas include Currency, Exchange Rates, Forex, Cryptocurrency, and Financial Data.
+overview: 'CurrencyBeacon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, Currencies API, and Rates API. Tagged areas include Currency, Exchange Rates, Forex, Cryptocurrency, and Financial Data.
 
 
   The CurrencyBeacon catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

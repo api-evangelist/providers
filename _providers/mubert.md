@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 18
+- acting_count: 23
   human_in_the_loop: 0
   name: Mubert Agentic Access
-  operation_count: 37
+  operation_count: 50
   slug: mubert-agentic-access
-  summary_line: 37 operations · 18 acting
+  summary_line: 50 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://music-api.mubert.com
@@ -340,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

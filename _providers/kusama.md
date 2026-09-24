@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://kusama-rpc.polkadot.io/
@@ -44,42 +44,42 @@ apis:
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The accounts API from Kusama — 11 operation(s) for accounts.
-  name: Kusama accounts API
+  name: Kusama Accounts API
   slug: kusama-accounts-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: Asset Hub Migration information
-  name: Kusama ahm API
+  name: Kusama Ahm API
   slug: kusama-ahm-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The blocks API from Kusama — 8 operation(s) for blocks.
-  name: Kusama blocks API
+  name: Kusama Blocks API
   slug: kusama-blocks-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The contracts API from Kusama — 1 operation(s) for contracts.
-  name: Kusama contracts API
+  name: Kusama Contracts API
   slug: kusama-contracts-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The coretime API from Kusama — 6 operation(s) for coretime.
-  name: Kusama coretime API
+  name: Kusama Coretime API
   slug: kusama-coretime-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: node connected to sidecar
-  name: Kusama node API
+  name: Kusama Node API
   slug: kusama-node-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: pallets employed in the runtime
-  name: Kusama pallets API
+  name: Kusama Pallets API
   slug: kusama-pallets-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The paras API from Kusama — 9 operation(s) for paras.
-  name: Kusama paras API
+  name: Kusama Paras API
   slug: kusama-paras-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
@@ -89,7 +89,7 @@ apis:
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: relay chain specific endpoints for asset hub
-  name: Kusama rc API
+  name: Kusama Rc API
   slug: kusama-rc-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
@@ -124,22 +124,22 @@ apis:
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The runtime API from Kusama — 5 operation(s) for runtime.
-  name: Kusama runtime API
+  name: Kusama Runtime API
   slug: kusama-runtime-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The staking API from Kusama — 4 operation(s) for staking.
-  name: Kusama staking API
+  name: Kusama Staking API
   slug: kusama-staking-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The trace API from Kusama — 4 operation(s) for trace.
-  name: Kusama trace API
+  name: Kusama Trace API
   slug: kusama-trace-api
 - baseURL: https://kusama-rpc.polkadot.io/
   baseurl_source: declared
   description: The transaction API from Kusama — 6 operation(s) for transaction.
-  name: Kusama transaction API
+  name: Kusama Transaction API
   slug: kusama-transaction-api
 artifact_total: 48
 asyncapis:
@@ -367,7 +367,7 @@ modified: '2026-07-19'
 name: Kusama
 nav: Providers
 network: true
-overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, including JSON-RPC API, accounts API, ahm API, and 18 more. Tagged areas include Company, Crypto, Blockchain, Web3, and Polkadot.
+overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, including JSON-RPC API, Accounts API, Ahm API, and 18 more. Tagged areas include Company, Crypto, Blockchain, Web3, and Polkadot.
 
 
   The Kusama catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,7 +404,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -435,5 +435,6 @@ tags:
 - Blockchain Data
 - Staking
 - Governance
+- Real-Time
 website: https://kusama.network/
 ---

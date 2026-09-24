@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 6
 apis:
 - description: Mirantis enterprise Kubernetes and container platform overview, indexing product, documentation, and developer resources.
@@ -43,7 +43,7 @@ apis:
   name: Mirantis Kubernetes Engine
   slug: mke
 - description: k0rdent is a composable Kubernetes management platform for centrally provisioning, observing, and securing fleets of clusters across clouds and edge.
-  name: Mirantis k0rdent
+  name: Mirantis K0rdent API
   slug: k0rdent
 - description: k0s is a single-binary, lightweight, certified Kubernetes distribution that runs on any infrastructure from cloud to edge.
   name: k0s
@@ -151,7 +151,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

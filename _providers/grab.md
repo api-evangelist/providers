@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Grab Agentic Access
   operation_count: 12
   slug: grab-agentic-access
-  summary_line: 12 operations · 8 acting
+  summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
 - description: Grab ID is Grab's OAuth 2.0 / OpenID Connect identity provider. Partner applications use the Login With Grab flow to authenticate Grab consumers and obtain ID and access tokens scoped to a specific Gr
@@ -266,7 +266,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -297,5 +297,6 @@ tags:
 - Loyalty
 - QR Payments
 - Authentication
+- Mobility
 website: https://www.grab.com/
 ---

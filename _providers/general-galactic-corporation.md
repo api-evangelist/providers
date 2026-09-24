@@ -42,7 +42,7 @@ tags:
 - Ethereum
 - Blockchain
 - Developer Tools
-- Open-Source
+- Open Source
 - NFT
 - Authentication
 - Defunct

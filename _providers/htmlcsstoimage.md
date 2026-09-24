@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ modified: '2026-09-16'
 name: HTML/CSS to Image
 nav: Providers
 network: true
-overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Signed URLs API, and Templates API. Tagged areas include Image-Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
+overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Signed URLs API, and Templates API. Tagged areas include Image Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
 
 
   HTML/CSS to Image''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -192,7 +192,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: htmlcsstoimage
 tags:
-- Image-Generation
+- Image Generation
 - HTML to Image
 - CSS to Image
 - Rendering

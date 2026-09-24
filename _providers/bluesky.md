@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 5
@@ -385,7 +385,7 @@ modified: '2026-05-29'
 name: Bluesky
 nav: Providers
 network: true
-overview: 'Bluesky publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Jetstream, Actor Profiles API, Administration API, and 21 more. Tagged areas include At-Protocol, Decentralized, Federated, Open-Source, and Social Network.
+overview: 'Bluesky publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Jetstream, Actor Profiles API, Administration API, and 21 more. Tagged areas include At-Protocol, Decentralized, Federated, Open Source, and Social Network.
 
 
   The Bluesky catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -440,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -464,7 +464,8 @@ tags:
 - At-Protocol
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Social Network
-- Social-Media
+- Social Media
+- Real-Time
 ---

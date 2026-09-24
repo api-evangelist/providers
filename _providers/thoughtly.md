@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,22 +49,22 @@ apis:
 - baseURL: https://api.thoughtly.com
   baseurl_source: declared
   description: Voice and chat agent operations. Agents are referenced as "interviews" in URLs.
-  name: Thoughtly agent API
+  name: Thoughtly Agent API
   slug: thoughtly-agent-api
 - baseURL: https://api.thoughtly.com
   baseurl_source: declared
   description: Contact management — create, retrieve, update, and call contacts.
-  name: Thoughtly contact API
+  name: Thoughtly Contact API
   slug: thoughtly-contact-api
 - baseURL: https://api.thoughtly.com
   baseurl_source: declared
   description: Authenticated user details.
-  name: Thoughtly user API
+  name: Thoughtly User API
   slug: thoughtly-user-api
 - baseURL: https://api.thoughtly.com
   baseurl_source: declared
   description: Webhook subscription, unsubscription, and automation triggers.
-  name: Thoughtly webhooks API
+  name: Thoughtly Webhooks API
   slug: thoughtly-webhooks-api
 artifact_total: 50
 collections:
@@ -318,7 +318,7 @@ modified: '2026-05-24'
 name: Thoughtly
 nav: Providers
 network: true
-overview: 'Thoughtly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including agent API, contact API, user API, and 1 more. Tagged areas include Voice AI, Chat AI, Conversational AI, AI Agents, and Outbound Calling.
+overview: 'Thoughtly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Contact API, User API, and 1 more. Tagged areas include Voice AI, Chat AI, Conversational AI, AI Agents, and Outbound Calling.
 
 
   The Thoughtly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -358,7 +358,7 @@ rules:
   slug: thoughtly-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 54.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 84.5
@@ -366,12 +366,12 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 64.5
     contract_governance: 28.8
     contract_quality: 65.8
-    developer_ergonomics: 52.4
+    developer_ergonomics: 48.8
     discoverability: 68.5
     operational_transparency: 44.7
   previous_composite: 55.4
@@ -390,7 +390,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

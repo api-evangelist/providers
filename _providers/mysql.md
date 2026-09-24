@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ modified: '2026-09-16'
 name: MySQL
 nav: Providers
 network: true
-overview: 'MySQL publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Database, Open-Source, RDBMS, Relational Database, and SQL.
+overview: 'MySQL publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Database, Open Source, RDBMS, Relational Database, and SQL.
 
 
   MySQL''s developer surface includes authentication, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 8 more developer resources.'
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -196,7 +196,7 @@ security:
 slug: mysql
 tags:
 - Database
-- Open-Source
+- Open Source
 - RDBMS
 - Relational Database
 - SQL

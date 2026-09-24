@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-18'
 name: Axionorbital Space
 nav: Providers
 network: true
-overview: Axionorbital Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Earth Observation, Satellite Imagery, Artificial Intelligence, and Computer-Vision.
+overview: Axionorbital Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Earth Observation, Satellite Imagery, Artificial Intelligence, and Computer Vision.
 random_paper: 13
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -97,11 +97,11 @@ tags:
 - Earth Observation
 - Satellite Imagery
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Space Technology
 - SAR
 - Remote Sensing
-- Machine-Learning
+- Machine Learning
 - Defense and Intelligence
 - Geospatial
 website: https://axionorbital.space/

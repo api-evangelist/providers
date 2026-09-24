@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 14
   human_in_the_loop: 2
   name: Databricks Agentic Access
   operation_count: 25
   slug: databricks-agentic-access
-  summary_line: 25 operations · 15 acting · 2 human-in-the-loop
+  summary_line: 25 operations · 14 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - description: Databricks is a cloud-based data platform that simplifies and accelerates the process of preparing and analyzing large volumes of data. The platform integrates with popular data sources and tools, all
@@ -293,7 +293,7 @@ arazzos:
 - description: Read a job, partially update its settings, then trigger a fresh run.
   name: Databricks Update Job Settings and Re-Run
   slug: databricks-update-job-and-rerun-workflow
-artifact_total: 267
+artifact_total: 266
 collections:
 - collection_type: postman
   name: Databricks REST API
@@ -818,10 +818,6 @@ finops:
 - name: Databricks Finops
   service_category: Data Lakehouse
   slug: databricks-finops
-graphqls:
-- description: Databricks does not currently offer a native GraphQL API. Its public surface area is entirely REST-based, documented at [https://docs.databricks.com/api/workspace/introduction](https://docs.databricks
-  name: Databricks GraphQL Schema
-  slug: databricks-graphql
 image: https://www.databricks.com/en-website-assets/static/f9f2b15ae456c41f7d2e5b303c8c6c6e/databricks-logo.svg
 json_schemas:
 - name: AccessControlRequest
@@ -1101,19 +1097,19 @@ rules:
   slug: databricks-spectral-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 56.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 39.5
     catalog_earned_first_party: 0.0
     catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 52.6
     contract_governance: 13.6
-    contract_quality: 63.3
+    contract_quality: 61.2
     developer_ergonomics: 79.8
     discoverability: 51.9
     operational_transparency: 55.3
@@ -1126,7 +1122,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1213,7 +1209,7 @@ tags:
 - ETL
 - Identity Management
 - Lakehouse
-- Machine-Learning
+- Machine Learning
 - MLflow
 - Model Serving
 - Security
@@ -1221,6 +1217,7 @@ tags:
 - Unity Catalog
 - Vector Search
 - Visualize
+- Data Catalog
 use_cases:
 - description: Build and orchestrate ETL pipelines with Delta Live Tables and multi-task workflows.
   name: Data Engineering

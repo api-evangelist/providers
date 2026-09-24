@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 81
+- acting_count: 82
   human_in_the_loop: 0
   name: Liveramp Agentic Access
-  operation_count: 179
+  operation_count: 188
   slug: liveramp-agentic-access
-  summary_line: 179 operations · 81 acting
+  summary_line: 188 operations · 82 acting
 api_count: 5
 apis:
 - description: Privacy-first, PII-based authentication API enabling programmatic addressability without third-party cookies via RampID envelopes. Publishes no OpenAPI. LiveRamp has deprecated the ATS Mobile SDK with
@@ -278,7 +278,7 @@ apis:
   description: The View Segments API from LiveRamp — 2 operation(s) for view segments.
   name: LiveRamp View Segments API
   slug: liveramp-view-segments-api
-artifact_total: 74
+artifact_total: 73
 collections:
 - collection_type: open
   name: API Collection
@@ -570,10 +570,6 @@ finops:
 - name: Liveramp Finops
   service_category: API
   slug: liveramp-finops
-graphqls:
-- description: '> **Provenance correction, 2026-08-13.** LiveRamp publishes **no GraphQL endpoint** for any of its'
-  name: LiveRamp GraphQL — NOT A REAL SURFACE
-  slug: liveramp-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liveramp.png
 layout: provider
 mcp_servers:
@@ -604,19 +600,19 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 58.0
+  composite: 57.4
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 59.3
+    contract_quality: 56.8
     developer_ergonomics: 45.8
     discoverability: 77.8
     operational_transparency: 68.4
@@ -632,7 +628,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

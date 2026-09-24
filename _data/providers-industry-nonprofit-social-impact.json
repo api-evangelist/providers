@@ -1,6 +1,6 @@
 {
- "total": 131,
- "shown": 131,
+ "total": 133,
+ "shown": 133,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -281,7 +281,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -331,7 +331,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 38.4,
      "agent_band": "agent-ready",
@@ -374,7 +374,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -428,7 +428,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -478,7 +478,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -513,56 +513,6 @@
      "rank": 10
     },
     {
-     "name": "MusicBrainz",
-     "slug": "musicbrainz",
-     "description": "MusicBrainz is an open-source, community-maintained music encyclopedia operated by the MetaBrainz Foundation, a US 501(c)(3) non-profit. It collects metadata about artists, releases, recordings, works, labels, places, areas, events, instruments, series, URLs, and the relationships between them, then exposes the catalog through a free public REST web service at https://musicbrainz.org/ws/2/. The dataset itself is released under CC0 (core data) and CC-BY-NC-SA (supplemental tables), the schema is open, and full database dumps and a live replication feed are available. The web service is read-mostly with authenticated submission endpoints for tags, ratings, collections, barcodes, and ISRCs, and is rate-limited to one request per IP per second with a mandatory descriptive User-Agent header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png",
-     "score": 51.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 37.4,
-      "contract_governance": 28.8,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 53.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 64.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "Chariot",
      "slug": "chariot",
      "description": "Chariot is the leading payments platform for charitable giving, best known for DAFpay — the first donor-advised fund (DAF) payment option, named one of TIME's Best Inventions of 2025. Its REST API lets nonprofits, fundraising platforms, and grantmakers connect donor-advised funds, accept DAF donations through the embeddable Chariot Connect flow, move grant money via disbursements and inbound transfers, subscribe to webhook events, and read connected bank-account data through a Financial Data Exchange (FDX) v6 open-banking API. Chariot is building financial infrastructure for the multi-hundred-billion-dollar donor-advised fund market, the fastest-growing segment of philanthropy.",
@@ -578,7 +528,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -610,7 +560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Move Home Organisation CIC",
@@ -627,7 +577,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -652,7 +602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Wikipedia / MediaWiki",
@@ -670,7 +620,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -702,7 +652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "LeO",
@@ -720,7 +670,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -759,6 +709,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 14
+    },
+    {
+     "name": "MusicBrainz",
+     "slug": "musicbrainz",
+     "description": "MusicBrainz is an open-source, community-maintained music encyclopedia operated by the MetaBrainz Foundation, a US 501(c)(3) non-profit. It collects metadata about artists, releases, recordings, works, labels, places, areas, events, instruments, series, URLs, and the relationships between them, then exposes the catalog through a free public REST web service at https://musicbrainz.org/ws/2/. The dataset itself is released under CC0 (core data) and CC-BY-NC-SA (supplemental tables), the schema is open, and full database dumps and a live replication feed are available. The web service is read-mostly with authenticated submission endpoints for tags, ratings, collections, barcodes, and ISRCs, and is rate-limited to one request per IP per second with a mandatory descriptive User-Agent header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png",
+     "score": 49.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 29.3,
+      "contract_governance": 28.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 53.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 64.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 15
     },
     {
@@ -776,7 +776,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -818,7 +818,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -868,7 +868,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -918,7 +918,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -961,7 +961,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1011,7 +1011,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1061,7 +1061,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -1104,7 +1104,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1147,7 +1147,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1190,7 +1190,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1240,7 +1240,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1290,7 +1290,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -1333,7 +1333,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -1367,8 +1367,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 26,
-   "shown": 26,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "RunSignup",
@@ -1386,7 +1386,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1429,7 +1429,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -1515,7 +1515,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 51.7,
      "agent_band": "agent-ready",
@@ -1558,7 +1558,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -1601,7 +1601,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1651,7 +1651,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1701,7 +1701,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1736,11 +1736,104 @@
      "rank": 36
     },
     {
+     "name": "Breeze ChMS",
+     "slug": "breeze-chms",
+     "description": "Breeze ChMS is church management software (breezechms.com) for small and mid-sized churches, covering people/membership, tags and groups, events and calendars, check-ins and attendance, online and text giving, funds, pledge campaigns, custom forms, and volunteer scheduling. Breeze publishes a documented REST API scoped to each church subdomain (https://{subdomain}.breezechms.com/api), authenticated with an account API key sent in the Api-Key HTTP header. All API operations are HTTP GET requests with query-string parameters, and the API is rate limited to roughly 20 requests per minute.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 50.1,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 32.1,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
+    },
+    {
+     "name": "Tithe.ly",
+     "slug": "tithely",
+     "description": "Tithe.ly is a church technology platform for online and mobile giving, church management (ChMS), branded church apps, websites, events, and messaging. Its developer API lets churches and approved partners create donations, tokenize cards and bank accounts for PCI-safe payments, charge one-time and recurring gifts, manage giving funds (payment categories), and look up organizations. API access is gated - it is granted by request to organizations that use (or are moving to) Tithe.ly, and approved requesters receive public and private API keys by email. There are two documented generations - a V1 payments/tokenization API (Tithely.js plus charge endpoints) and a V2 REST API (organizations, transactions, funds, and mail).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/screenshots/tithely-2026-09-02T163821.png",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.1,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 27.4,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 38
+    },
+    {
      "name": "WildApricot",
      "slug": "wildapricot",
      "description": "WildApricot is a cloud-based membership management software platform designed for associations, nonprofits, and clubs. It provides tools for managing members, events, email communications, online payments, and websites. The WildApricot Admin API provides programmatic access to all platform features including contacts, events, event registrations, membership levels, invoices, payments, donations, email campaigns, and store orders via a REST API secured with OAuth2.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png",
-     "score": 36.1,
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1748,10 +1841,10 @@
       "contract_quality": 21.3,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 32.1,
+      "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1783,50 +1876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
-    },
-    {
-     "name": "Breeze ChMS",
-     "slug": "breeze-chms",
-     "description": "Breeze ChMS is church management software (breezechms.com) for small and mid-sized churches, covering people/membership, tags and groups, events and calendars, check-ins and attendance, online and text giving, funds, pledge campaigns, custom forms, and volunteer scheduling. Breeze publishes a documented REST API scoped to each church subdomain (https://{subdomain}.breezechms.com/api), authenticated with an account API key sent in the Api-Key HTTP header. All API operations are HTTP GET requests with query-string parameters, and the API is rate limited to roughly 20 requests per minute.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png",
-     "score": 35.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 50.1,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 32.1,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Codeberg",
@@ -1844,7 +1894,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1869,7 +1919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "YourMembership",
@@ -1887,7 +1937,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1912,7 +1962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Classy",
@@ -1930,7 +1980,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1962,7 +2012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Fundraise Up",
@@ -1980,7 +2030,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2012,7 +2062,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Goodera",
@@ -2030,7 +2080,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -2055,7 +2105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Donately",
@@ -2073,7 +2123,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2105,7 +2155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Candid",
@@ -2123,50 +2173,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
-     "name": "Fourthwall",
-     "slug": "fourthwall",
-     "description": "Fourthwall is a creator commerce platform for building a branded online shop and storefront, selling physical merch, digital products, memberships, and accepting donations and gifts. It exposes a public Storefront API (storefront token) for headless product/collection/cart experiences and a Platform / Open API (Basic Auth API key or OAuth) for managing orders, products, promotions, gifting, memberships, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 49.8,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 22.6,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -2194,6 +2201,49 @@
      "rank": 46
     },
     {
+     "name": "Fourthwall",
+     "slug": "fourthwall",
+     "description": "Fourthwall is a creator commerce platform for building a branded online shop and storefront, selling physical merch, digital products, memberships, and accepting donations and gifts. It exposes a public Storefront API (storefront token) for headless product/collection/cart experiences and a Platform / Open API (Basic Auth API key or OAuth) for managing orders, products, promotions, gifting, memberships, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 49.8,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 44.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
      "name": "Buy Me a Coffee",
      "slug": "buymeacoffee",
      "description": "Buy Me a Coffee is a creator-support platform that lets fans tip creators (\"buy a coffee\"), subscribe to recurring memberships, and buy extras from a creator's shop. Its developer API is a read-only REST interface (base https://developers.buymeacoffee.com/api/v1) authenticated with a personal access Bearer token created self-serve in the Developer Dashboard. The API exposes a creator's own one-time supporters, memberships/subscriptions, and extra purchases, and the platform also delivers server-push webhooks for donation, membership, and shop events. Buy Me a Coffee charges a flat 5% platform fee on transactions with no monthly fee.",
@@ -2209,7 +2259,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2241,7 +2291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Koko",
@@ -2259,7 +2309,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2291,7 +2341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Common Sense Media",
@@ -2309,7 +2359,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2334,7 +2384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Lightning Social Ventures",
@@ -2352,7 +2402,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2384,7 +2434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Giveffect",
@@ -2402,7 +2452,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2427,7 +2477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Omaze",
@@ -2445,7 +2495,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -2470,7 +2520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Blink Ledger Systems",
@@ -2488,7 +2538,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2520,7 +2570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Ko-fi",
@@ -2538,7 +2588,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2570,7 +2620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     }
    ]
   },
@@ -2598,7 +2648,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2623,7 +2673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "US African Development Foundation",
@@ -2641,7 +2691,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2673,7 +2723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "KOA Labs",
@@ -2690,7 +2740,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2722,7 +2772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Benevity",
@@ -2740,7 +2790,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2753,56 +2803,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Tithe.ly",
-     "slug": "tithely",
-     "description": "Tithe.ly is a church technology platform for online and mobile giving, church management (ChMS), branded church apps, websites, events, and messaging. Its developer API lets churches and approved partners create donations, tokenize cards and bank accounts for PCI-safe payments, charge one-time and recurring gifts, manage giving funds (payment categories), and look up organizations. API access is gated - it is granted by request to organizations that use (or are moving to) Tithe.ly, and approved requesters receive public and private API keys by email. There are two documented generations - a V1 payments/tokenization API (Tithely.js plus charge endpoints) and a V2 REST API (organizations, transactions, funds, and mail).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/screenshots/tithely-2026-09-02T163821.png",
-     "score": 22.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -2833,7 +2833,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2883,7 +2883,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -2926,7 +2926,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2975,7 +2975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3025,7 +3025,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3075,7 +3075,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -3118,7 +3118,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3168,7 +3168,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3218,7 +3218,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3268,7 +3268,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3311,7 +3311,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3361,7 +3361,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3411,7 +3411,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3454,7 +3454,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3482,56 +3482,6 @@
      "rank": 73
     },
     {
-     "name": "Khan Academy",
-     "slug": "khan-academy",
-     "description": "Khan Academy is a non-profit providing free online educational content. The legacy Khan Academy API (v1) is deprecated/limited and the public api-explorer.khanacademy.org redirects to the main site. Some endpoints under www.khanacademy.org/api/v1/ remain in use for internal apps and historical integrations, but Khan Academy no longer maintains a publicly supported developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/screenshots/khan-academy-2026-06-20T184025.png",
-     "score": 16.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
-    },
-    {
      "name": "Bstow",
      "slug": "bstow",
      "description": "Bstow is a fintech-for-good startup whose flagship product, Cheerful Giving, lets nonprofits and their supporters raise money through spare-change round-up donations, recurring gifts, and branded campaign pages. Backed by 500 Global, Bstow's Cheerful Giving product now operates as part of the Goodworld social-impact platform (goodworldnow.com), which layers on giving forms, events, peer-to-peer and workplace/payroll giving, text engagement, and an impact CRM. The platform documents webhooks and partner integrations (Salesforce, Stripe, PayPal, Klaviyo, Zapier, Fundraise Up) but does not publish a public, self-serve API reference or OpenAPI specification; API access is arranged directly with the vendor through a sales-gated developer portal. This profile was surfaced from the 500 Global portfolio and enriched by the pipeline.",
@@ -3547,7 +3497,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3579,7 +3529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "CommitChange",
@@ -3597,7 +3547,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3629,7 +3579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "OEN",
@@ -3647,7 +3597,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3656,6 +3606,48 @@
       "score": 39.1,
       "matched_via": "tags"
      },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "SoundExchange",
+     "slug": "soundexchange",
+     "description": "SoundExchange is a non‑profit collective rights organization that collects and distributes digital performance royalties on behalf of sound recording owners and performers. It ensures that artists, record labels, and rights holders receive fair compensation when their music is streamed, broadcast, or otherwise publicly performed across digital platforms. By operating a transparent and efficient royalty distribution system, SoundExchange supports the sustainability of the music ecosystem and promotes the value of creative works in the modern digital landscape.",
+     "score": 15.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3697,7 +3689,7 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3740,7 +3732,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3775,6 +3767,48 @@
      "rank": 79
     },
     {
+     "name": "ASCAP",
+     "slug": "ascap",
+     "description": "The American Society of Composers, Authors and Publishers (ASCAP) is a not‑for‑profit performance‑rights organization representing over 1.1 million songwriters, composers and music publishers. It licenses public performances of music, collects royalties, and distributes them to creators. ASCAP also advocates for creators’ rights, offers educational resources, and provides tools such as a repertory search, licensing portals, and support services for members and music users.",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 15.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
      "name": "Daffy",
      "slug": "daffy",
      "description": "Daffy (the Daffy Charitable Fund) is a modern donor-advised fund (DAF) platform that helps people be more generous, more often. Co-founded by Adam Nash, Daffy lets members set aside money for charity, invest it tax-free across ETFs, individual stocks, and 300+ crypto assets, and then recommend grants to any of 1.7M+ eligible US charities on their own timeline. It offers flat-rate membership pricing starting at $3/month, family funds for up to 24 members, advisor integration, and Daffy for Work employer giving. Daffy Charitable Fund is a tax-exempt public charity under IRC 501(c)(3). Backed by Ribbit Capital, it operates as a consumer fintech app with no public developer API surface as of this profile.",
@@ -3790,7 +3824,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -3815,7 +3849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "FreeWill",
@@ -3833,50 +3867,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 81
-    },
-    {
-     "name": "80,000 Hours",
-     "slug": "80-000-hours",
-     "description": "80,000 Hours is an independent nonprofit, founded in 2011 by Benjamin Todd and William MacAskill out of Oxford, that provides free research and support to help people use their careers to help solve the world's most pressing problems. The name refers to the roughly 80,000 hours a typical person works over their lifetime. It publishes an evidence-based career guide, in-depth problem profiles, a long-form podcast, and one-on-one advising, and runs a curated high-impact job board at jobs.80000hours.org. Since 2016 it has ranked helping navigate the transition to advanced AI as its top priority. It is a content and career-advice organization rather than an API producer; no public developer API is published, though it does serve a machine-readable llms.txt index of its content.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/80-000-hours/refs/heads/main/screenshots/80-000-hours-2026-07-25T181235.png",
-     "score": 14.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3904,22 +3895,22 @@
      "rank": 82
     },
     {
-     "name": "Humanitru",
-     "slug": "humanitru",
-     "description": "Humanitru is an integration-first CRM and fundraising platform built for nonprofits, museums, zoos, aquariums, botanic gardens, and food banks. Rather than forcing organizations into an all-in-one ecosystem, Humanitru consolidates donor, membership, ticketing, email marketing, accounting, and volunteer data from more than 40 partner tools into a single 360-degree view, then layers automated insights, reporting, and donor-engagement workflows on top. The company positions itself around data consolidation and retention, citing customer outcomes such as increased active donors and improved donor retention, and pairs the platform with one-on-one support staffed by former fundraisers and database managers. Humanitru (formerly operating as Totem Insights) is a Techstars portfolio company. It exposes no public developer API, developer portal, or documentation; all connectivity is delivered through its curated native integration catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humanitru/refs/heads/main/screenshots/humanitru-2026-07-25T221657.png",
-     "score": 13.8,
+     "name": "80,000 Hours",
+     "slug": "80-000-hours",
+     "description": "80,000 Hours is an independent nonprofit, founded in 2011 by Benjamin Todd and William MacAskill out of Oxford, that provides free research and support to help people use their careers to help solve the world's most pressing problems. The name refers to the roughly 80,000 hours a typical person works over their lifetime. It publishes an evidence-based career guide, in-depth problem profiles, a long-form podcast, and one-on-one advising, and runs a curated high-impact job board at jobs.80000hours.org. Since 2016 it has ranked helping navigate the transition to advanced AI as its top priority. It is a content and career-advice organization rather than an API producer; no public developer API is published, though it does serve a machine-readable llms.txt index of its content.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/80-000-hours/refs/heads/main/screenshots/80-000-hours-2026-07-25T181235.png",
+     "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 31.6
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3947,6 +3938,49 @@
      "rank": 83
     },
     {
+     "name": "Humanitru",
+     "slug": "humanitru",
+     "description": "Humanitru is an integration-first CRM and fundraising platform built for nonprofits, museums, zoos, aquariums, botanic gardens, and food banks. Rather than forcing organizations into an all-in-one ecosystem, Humanitru consolidates donor, membership, ticketing, email marketing, accounting, and volunteer data from more than 40 partner tools into a single 360-degree view, then layers automated insights, reporting, and donor-engagement workflows on top. The company positions itself around data consolidation and retention, citing customer outcomes such as increased active donors and improved donor retention, and pairs the platform with one-on-one support staffed by former fundraisers and database managers. Humanitru (formerly operating as Totem Insights) is a Techstars portfolio company. It exposes no public developer API, developer portal, or documentation; all connectivity is delivered through its curated native integration catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humanitru/refs/heads/main/screenshots/humanitru-2026-07-25T221657.png",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 84
+    },
+    {
      "name": "EcoMap Technologies",
      "slug": "ecomap-technologies",
      "description": "EcoMap Technologies is an ecosystem intelligence software company (Baltimore, MD) that helps economic development organizations, chambers of commerce, universities, arts agencies, bioscience associations, and state and local governments map, connect, and measure their entrepreneurial ecosystems. Its platform turns scattered regional resource directories, referrals, and stakeholder relationships into a measurable, reportable network. Products span EcoMap Discover (resource hub and navigation), the Ecosystem Relationship Manager, an AI-powered Ecosystem ChatBot, the Economic Intelligence Monitor for regional benchmarking, and a Nonprofit Intelligence Dashboard. EcoMap reports 250,000+ resources mapped across 100+ ecosystems nationwide.",
@@ -3962,7 +3996,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3994,7 +4028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Kita Bisa",
@@ -4012,7 +4046,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4044,7 +4078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Boardable",
@@ -4062,7 +4096,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4087,7 +4121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Countable",
@@ -4105,7 +4139,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4137,7 +4171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "EverTrue",
@@ -4155,7 +4189,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4187,7 +4221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Linux Foundation",
@@ -4205,7 +4239,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4230,7 +4264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Caremessage",
@@ -4248,7 +4282,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4280,7 +4314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Instil",
@@ -4298,50 +4332,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 91
-    },
-    {
-     "name": "Numero",
-     "slug": "numero",
-     "description": "Numero is an all-in-one donor database and call-time platform built for political campaigns at the federal, state, and local levels. It combines a fast, filterable donor CRM with auto-deduplication and pledge tracking, a mobile call-time dialer with one-click SMS, email, and voicemail follow-up plus virtual local numbers, prefilled one-click contribution forms with access to a large 1-click donor network, event and RSVP fundraising tools, and a deliverability-focused email platform. Campaigns use Numero to identify prospect donors, run efficient candidate call time, and raise money faster. Numero is backed by Initialized Capital. It currently exposes no public developer API surface; api.numero.ai serves the web application backend only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numero/refs/heads/main/screenshots/numero-2026-08-07T185738.png",
-     "score": 12.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4369,6 +4360,49 @@
      "rank": 92
     },
     {
+     "name": "Numero",
+     "slug": "numero",
+     "description": "Numero is an all-in-one donor database and call-time platform built for political campaigns at the federal, state, and local levels. It combines a fast, filterable donor CRM with auto-deduplication and pledge tracking, a mobile call-time dialer with one-click SMS, email, and voicemail follow-up plus virtual local numbers, prefilled one-click contribution forms with access to a large 1-click donor network, event and RSVP fundraising tools, and a deliverability-focused email platform. Campaigns use Numero to identify prospect donors, run efficient candidate call time, and raise money faster. Numero is backed by Initialized Capital. It currently exposes no public developer API surface; api.numero.ai serves the web application backend only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numero/refs/heads/main/screenshots/numero-2026-08-07T185738.png",
+     "score": 12.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 93
+    },
+    {
      "name": "Kickstarter",
      "slug": "kickstarter",
      "description": "Kickstarter is a public-benefit crowdfunding platform where creators launch funding campaigns for creative projects — film, music, art, design, games, technology, publishing, and more — and backers pledge money to help bring them to life on an all-or-nothing funding model. Founded in 2009 and headquartered in Brooklyn, New York, it has channeled billions of dollars in pledges to hundreds of thousands of successfully funded projects. Kickstarter does not currently operate a public developer API program or developer portal; its GraphQL and REST endpoints power its own web and mobile clients and are not documented for third-party integration. The company does maintain an active open-source GitHub organization (including its iOS and Android app source), a help center, and a company blog. This API Evangelist profile tracks Kickstarter's public developer, security, and platform surface for discovery and enrichment.",
@@ -4384,7 +4418,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4416,7 +4450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Watsi",
@@ -4434,7 +4468,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4466,7 +4500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Fluxx",
@@ -4484,50 +4518,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 95
-    },
-    {
-     "name": "Web3 Foundation",
-     "slug": "web3-foundation",
-     "description": "Web3 Foundation is a Swiss nonprofit founded in 2017 by Gavin Wood that funds research and development teams building the foundation of a decentralized web (Web3). It stewards and supports the Polkadot and Kusama networks, operates a research hub and an education/wiki program, and historically ran the Web3 Foundation Grants Program (now discontinued) to seed open-source software and protocol research. It is a funding and research organization rather than a traditional API provider: it publishes no public REST/OpenAPI surface, but does maintain an RFC 9116 security.txt and a coordinated vulnerability-disclosure program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/web3-foundation/refs/heads/main/screenshots/web3-foundation-2026-09-02T170525.png",
-     "score": 11.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4553,6 +4544,49 @@
       "agentic_commerce": false
      },
      "rank": 96
+    },
+    {
+     "name": "Web3 Foundation",
+     "slug": "web3-foundation",
+     "description": "Web3 Foundation is a Swiss nonprofit founded in 2017 by Gavin Wood that funds research and development teams building the foundation of a decentralized web (Web3). It stewards and supports the Polkadot and Kusama networks, operates a research hub and an education/wiki program, and historically ran the Web3 Foundation Grants Program (now discontinued) to seed open-source software and protocol research. It is a funding and research organization rather than a traditional API provider: it publishes no public REST/OpenAPI surface, but does maintain an RFC 9116 security.txt and a coordinated vulnerability-disclosure program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/web3-foundation/refs/heads/main/screenshots/web3-foundation-2026-09-02T170525.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 97
     }
    ]
   },
@@ -4561,8 +4595,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 35,
-   "shown": 35,
+   "count": 36,
+   "shown": 36,
    "providers": [
     {
      "name": "FundMiner",
@@ -4580,7 +4614,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4612,7 +4646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "CourtListener",
@@ -4629,7 +4663,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4661,7 +4695,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Acts Retirement-Life Communities",
@@ -4679,7 +4713,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4711,7 +4745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Personify",
@@ -4729,7 +4763,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4754,7 +4788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Prizeo",
@@ -4772,7 +4806,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4804,7 +4838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "BoardEffect",
@@ -4822,50 +4856,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 102
-    },
-    {
-     "name": "New Story",
-     "slug": "new-story",
-     "description": "New Story is a US 501(c)(3) nonprofit building a housing market that helps vulnerable families in Latin America become homeowners. It develops underused land into affordable communities, enables families to own land, and connects them to credit and home financing. Founded in 2014 (Y Combinator W15), New Story has housed thousands of people across Haiti, Bolivia, Mexico, and El Salvador, partnered with ICON to build the first community of 3D-printed homes, and reports outcomes like 60% of land titles going to women and a 100% portfolio repayment rate. Its impact-investing arm operates as New Story Capital. This is a company profile in the API Evangelist network; New Story publishes no public developer or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/screenshots/new-story-2026-08-07T185057.png",
-     "score": 8.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4893,6 +4884,49 @@
      "rank": 103
     },
     {
+     "name": "New Story",
+     "slug": "new-story",
+     "description": "New Story is a US 501(c)(3) nonprofit building a housing market that helps vulnerable families in Latin America become homeowners. It develops underused land into affordable communities, enables families to own land, and connects them to credit and home financing. Founded in 2014 (Y Combinator W15), New Story has housed thousands of people across Haiti, Bolivia, Mexico, and El Salvador, partnered with ICON to build the first community of 3D-printed homes, and reports outcomes like 60% of land titles going to women and a 100% portfolio repayment rate. Its impact-investing arm operates as New Story Capital. This is a company profile in the API Evangelist network; New Story publishes no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-story/refs/heads/main/screenshots/new-story-2026-08-07T185057.png",
+     "score": 8.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
+    },
+    {
      "name": "Open mHealth",
      "slug": "open-mhealth",
      "description": "Open mHealth is a nonprofit, community-driven initiative that develops open standards and open-source software for making patient-generated health data interoperable across mobile apps, wearables, clinical systems, and electronic health records. Its core contribution is a library of clinically validated JSON Schema data point schemas — covering physical activity, sleep, heart rate, blood pressure, body weight, blood glucose, and other vital signs — with the sleep, physical-activity, and metadata schemas now superseded by IEEE 1752.1, the IEEE standard for Mobile Health Data co-shepherded by the Open mHealth community. Around the schemas Open mHealth ships a stack of Apache-2.0 reference implementations: Shimmer (a Java/Spring server that pulls health data from Fitbit, Google Fit, iHealth, Misfit, RunKeeper, and Withings APIs and normalizes it into Open mHealth or IEEE 1752.1 data points), omh-dsu-ri (a Data Storage Unit reference implementation exposing an OAuth 2.0-secured Data Point REST API on top of MongoDB and PostgreSQL), Granola (an Objective-C library that serializes Apple HealthKit samples into Open mHealth JSON), a web visualizations library built on D3 and Plottable.js, the OMH-on-FHIR mapping that aligns Open mHealth data points to HL7 FHIR resources, and a sample-data-generator. Open mHealth operates as the steward of the standard, the schema and unit registry at registry.openmhealth.org, and a developer community of thousands of developers and health organizations including Cornell Tech, Kaiser Permanente, Stanford School of Medicine, UC Davis, and UCSF. The project has no commercial API, no paid tier, and no hosted SaaS — all artifacts are open source under Apache 2.0 and the standard itself is openly published.",
@@ -4908,7 +4942,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4940,7 +4974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Forward Platform",
@@ -4958,7 +4992,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4990,7 +5024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Pennsylvania Academy of the Fine Arts (PAFA)",
@@ -5008,7 +5042,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5040,7 +5074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Democracy Earth",
@@ -5058,50 +5092,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
-    },
-    {
-     "name": "Grassroots Unwired",
-     "slug": "grassroots-unwired",
-     "description": "Grassroots Unwired is a mobile-first platform for face-to-face (F2F) outreach, advocacy, and fundraising, purpose-built for political campaigns, nonprofits, labor unions, and community organizations. Its offline-capable mobile apps let field teams run GPS-enabled door-to-door canvassing, capture in-person and peer-to-peer donations, send SMS and digital content from the field, and manage event check-in, registration, and merchandise operations for 4EventDay. The platform keeps collecting data, donations, and check-ins even when Wi-Fi and cell coverage are spotty, then syncs in real time with major CRM, donor, and payment systems (EveryAction, NGP VAN, Blackbaud Luminate, NeonCRM, Stripe, and others).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grassroots-unwired/refs/heads/main/screenshots/grassroots-unwired-2026-07-25T220248.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5129,6 +5120,99 @@
      "rank": 108
     },
     {
+     "name": "Grassroots Unwired",
+     "slug": "grassroots-unwired",
+     "description": "Grassroots Unwired is a mobile-first platform for face-to-face (F2F) outreach, advocacy, and fundraising, purpose-built for political campaigns, nonprofits, labor unions, and community organizations. Its offline-capable mobile apps let field teams run GPS-enabled door-to-door canvassing, capture in-person and peer-to-peer donations, send SMS and digital content from the field, and manage event check-in, registration, and merchandise operations for 4EventDay. The platform keeps collecting data, donations, and check-ins even when Wi-Fi and cell coverage are spotty, then syncs in real time with major CRM, donor, and payment systems (EveryAction, NGP VAN, Blackbaud Luminate, NeonCRM, Stripe, and others).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grassroots-unwired/refs/heads/main/screenshots/grassroots-unwired-2026-07-25T220248.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
+    },
+    {
+     "name": "Khan Academy",
+     "slug": "khan-academy",
+     "description": "Khan Academy is a non-profit providing free online educational content. The legacy Khan Academy API (v1) is deprecated/limited and the public api-explorer.khanacademy.org redirects to the main site. Some endpoints under www.khanacademy.org/api/v1/ remain in use for internal apps and historical integrations, but Khan Academy no longer maintains a publicly supported developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/screenshots/khan-academy-2026-06-20T184025.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
      "name": "The Human Utility",
      "slug": "the-human-utility",
      "description": "The Human Utility (formerly the Detroit Water Project) is a Y Combinator-backed not-for-profit organization founded in 2014 by Tiffani Ashley Bell whose mission is to preserve human dignity by increasing water affordability for families across the United States. It matches families who are behind on their water bills with donors who want to help, paying utility companies directly on their behalf through crowdfunded donations, community-building, and policy action. Operating in Detroit, Baltimore, and dozens of other cities, it has helped thousands of households avoid water shutoffs. The Human Utility runs a public-facing web application for donors and recipients rather than a developer-facing API product; its source code lives in the humanutility GitHub organization. This profile was surfaced as a Y Combinator portfolio company and enriched with identity and link details; no public API surface was found.",
@@ -5144,7 +5228,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5176,7 +5260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "Monell Chemical Senses Center",
@@ -5194,7 +5278,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5219,7 +5303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Noora Health",
@@ -5237,7 +5321,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5269,7 +5353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "ChurchTrac",
@@ -5286,93 +5370,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 112
-    },
-    {
-     "name": "Arc Institute",
-     "slug": "arc-institute",
-     "description": "Arc Institute is an independent nonprofit biomedical research organization headquartered in Palo Alto, California, co-founded in 2021 by Silvana Konermann (Executive Director), Patrick Hsu (Core Investigator), and Stripe co-founder Patrick Collison. With 300+ staff (\"Arconauts\") across 9 core laboratories and 5 technology centers, Arc develops AI foundation models for biology that span DNA, RNA, proteins, and single cells. Its flagship releases include Evo (Science, 2024) and Evo 2 (Nature, 2026) — DNA foundation models trained on trillions of nucleotides at single-nucleotide resolution with up to a 1-megabase context; STATE and Stack single-cell foundation models for cellular perturbation and in-context learning; the Arc Virtual Cell Atlas; the SRAgent LLM agents for bioinformatics; and the BINSEQ binary sequencing format. Models are released under Apache 2.0 on GitHub and Hugging Face, with hosted inference for Evo 2 available through NVIDIA BioNeMo and the NVIDIA build.nvidia.com API. Arc is funded by philanthropic donations from Patrick and John Collison, Vitalik Buterin, the Ron Conway family, Dustin Moskovitz, Daniel Gross, Elad Gil, and other technology benefactors; it does not sell APIs, SaaS, or models commercially.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arc-institute/refs/heads/main/screenshots/arc-institute-2026-06-20T172354.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 113
-    },
-    {
-     "name": "OpenCola",
-     "slug": "opencola",
-     "description": "OpenCola is a non-profit organization building free, open-source, local-first software as an alternative to corporate social media and cloud platforms. Its application keeps a user's data on their own device by default, offering personal search, offline content archives, multiple personas, trust-based connections via tokens, information-centric collaboration, and community moderation. The project is grounded in four principles: transparency, accountability, personal control, and security (cryptographic verification). It is a revival of the original OpenCola (1999), and the current release is a local desktop application rather than a hosted service. OpenCola publishes no public web API, developer portal, SDK, or OpenAPI at this time; this profile captures its identity and open-source posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opencola/refs/heads/main/screenshots/opencola-2026-08-07T190539.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5400,22 +5398,22 @@
      "rank": 114
     },
     {
-     "name": "Go Deed",
-     "slug": "go-deed",
-     "description": "Go Deed (legally Deed Inc.) is a workplace-giving and corporate social responsibility platform founded in 2016 that helps enterprises engage employees around volunteering, charitable giving, donation matching, and everyday social-impact actions. With teams in New York, San Francisco, and Berlin, Deed served Fortune 500 and mid-market employers before being acquired into Bonterra, where it now ships as the \"Deed\" employee-engagement product. The joindeed.com domain 301-redirects to bonterratech.com/product/deed. Deed was surfaced as an Earlybird Venture Capital portfolio company (investment 2021) and added to the API Evangelist network as a lead. Enrichment found no independent public developer portal, API reference, or machine-readable API specification for the standalone Go Deed / Deed brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/go-deed/refs/heads/main/screenshots/go-deed-2026-07-25T215953.png",
-     "score": 5.0,
+     "name": "Arc Institute",
+     "slug": "arc-institute",
+     "description": "Arc Institute is an independent nonprofit biomedical research organization headquartered in Palo Alto, California, co-founded in 2021 by Silvana Konermann (Executive Director), Patrick Hsu (Core Investigator), and Stripe co-founder Patrick Collison. With 300+ staff (\"Arconauts\") across 9 core laboratories and 5 technology centers, Arc develops AI foundation models for biology that span DNA, RNA, proteins, and single cells. Its flagship releases include Evo (Science, 2024) and Evo 2 (Nature, 2026) — DNA foundation models trained on trillions of nucleotides at single-nucleotide resolution with up to a 1-megabase context; STATE and Stack single-cell foundation models for cellular perturbation and in-context learning; the Arc Virtual Cell Atlas; the SRAgent LLM agents for bioinformatics; and the BINSEQ binary sequencing format. Models are released under Apache 2.0 on GitHub and Hugging Face, with hosted inference for Evo 2 available through NVIDIA BioNeMo and the NVIDIA build.nvidia.com API. Arc is funded by philanthropic donations from Patrick and John Collison, Vitalik Buterin, the Ron Conway family, Dustin Moskovitz, Daniel Gross, Elad Gil, and other technology benefactors; it does not sell APIs, SaaS, or models commercially.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arc-institute/refs/heads/main/screenshots/arc-institute-2026-06-20T172354.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5441,6 +5439,92 @@
       "agentic_commerce": false
      },
      "rank": 115
+    },
+    {
+     "name": "OpenCola",
+     "slug": "opencola",
+     "description": "OpenCola is a non-profit organization building free, open-source, local-first software as an alternative to corporate social media and cloud platforms. Its application keeps a user's data on their own device by default, offering personal search, offline content archives, multiple personas, trust-based connections via tokens, information-centric collaboration, and community moderation. The project is grounded in four principles: transparency, accountability, personal control, and security (cryptographic verification). It is a revival of the original OpenCola (1999), and the current release is a local desktop application rather than a hosted service. OpenCola publishes no public web API, developer portal, SDK, or OpenAPI at this time; this profile captures its identity and open-source posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opencola/refs/heads/main/screenshots/opencola-2026-08-07T190539.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 116
+    },
+    {
+     "name": "Go Deed",
+     "slug": "go-deed",
+     "description": "Go Deed (legally Deed Inc.) is a workplace-giving and corporate social responsibility platform founded in 2016 that helps enterprises engage employees around volunteering, charitable giving, donation matching, and everyday social-impact actions. With teams in New York, San Francisco, and Berlin, Deed served Fortune 500 and mid-market employers before being acquired into Bonterra, where it now ships as the \"Deed\" employee-engagement product. The joindeed.com domain 301-redirects to bonterratech.com/product/deed. Deed was surfaced as an Earlybird Venture Capital portfolio company (investment 2021) and added to the API Evangelist network as a lead. Enrichment found no independent public developer portal, API reference, or machine-readable API specification for the standalone Go Deed / Deed brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/go-deed/refs/heads/main/screenshots/go-deed-2026-07-25T215953.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 117
     },
     {
      "name": "OpenToken",
@@ -5484,7 +5568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "WeDidIt",
@@ -5501,7 +5585,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5526,7 +5610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Win-Win",
@@ -5544,7 +5628,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5569,7 +5653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Mentor Spaces",
@@ -5587,7 +5671,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5619,7 +5703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "Givecampus",
@@ -5637,7 +5721,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5669,7 +5753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "Verra",
@@ -5687,7 +5771,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5719,7 +5803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "Elwyn",
@@ -5737,7 +5821,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5769,7 +5853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "GetCalFresh",
@@ -5787,7 +5871,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5819,7 +5903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Sirum",
@@ -5837,7 +5921,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5869,7 +5953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "Human DX",
@@ -5887,7 +5971,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5919,7 +6003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Immunity Project",
@@ -5970,7 +6054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Opencurriculum",
@@ -5988,105 +6072,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 127
-    },
-    {
-     "name": "CrowdRise",
-     "slug": "crowdrise",
-     "description": "CrowdRise was an online fundraising platform for charities, nonprofits, and personal causes, founded around 2010 by Edward Norton and Robert Wolfe. It let individuals, event participants, and organizations create fundraising pages, run peer-to-peer campaigns, and collect donations for good. CrowdRise was acquired by GoFundMe in 2017 and subsequently merged into the GoFundMe platform; the crowdrise.com domain now 301-redirects to gofundme.com/c/crowdrise. This profile originated as a Union Square Ventures portfolio lead; no independent developer portal, documented API, SDKs, or discovery surface remains, so the record is retained for provenance only.",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 128
-    },
-    {
-     "name": "Funderful",
-     "slug": "funderful",
-     "description": "Funderful was an alumni fundraising software platform for universities and higher-education advancement teams, founded in 2013 by Raimonds Kulbergs and headquartered in Riga, Latvia. It helped advancement offices run donation campaigns, track donors, and pioneer conversational chatbots to re-engage alumni, with clients including UC Berkeley, Georgetown, London Business School, and Oxford and Cambridge colleges. Funderful joined 500 Startups (Batch 20) and raised seed funding before being acquired by Ruffalo Noel Levitz (RNL) in February 2019. The company is defunct as an independent entity and its domain (funderful.com) no longer resolves; enrichment found no live developer portal, documentation, or public API surface.",
-     "score": 0.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6121,10 +6107,58 @@
      "rank": 129
     },
     {
-     "name": "Make School",
-     "slug": "make-school",
-     "description": "Make School was a San Francisco-based computer science college and coding bootcamp, backed by a16z, that offered an applied computer science bachelor's program. As of August 2021 the degree program moved to Dominican University of California, and Make School.org now operates as a 501(c)(3) nonprofit running a scholarship program for former Bachelor in Applied Computer Science students. The organization publishes no public API, developer portal, or technical documentation. It was added to the API Evangelist network as a portfolio-lead stub and this enrichment pass confirmed there is no API surface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/make-school/refs/heads/main/screenshots/make-school-2026-07-25T225930.png",
+     "name": "CrowdRise",
+     "slug": "crowdrise",
+     "description": "CrowdRise was an online fundraising platform for charities, nonprofits, and personal causes, founded around 2010 by Edward Norton and Robert Wolfe. It let individuals, event participants, and organizations create fundraising pages, run peer-to-peer campaigns, and collect donations for good. CrowdRise was acquired by GoFundMe in 2017 and subsequently merged into the GoFundMe platform; the crowdrise.com domain now 301-redirects to gofundme.com/c/crowdrise. This profile originated as a Union Square Ventures portfolio lead; no independent developer portal, documented API, SDKs, or discovery surface remains, so the record is retained for provenance only.",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 130
+    },
+    {
+     "name": "Funderful",
+     "slug": "funderful",
+     "description": "Funderful was an alumni fundraising software platform for universities and higher-education advancement teams, founded in 2013 by Raimonds Kulbergs and headquartered in Riga, Latvia. It helped advancement offices run donation campaigns, track donors, and pioneer conversational chatbots to re-engage alumni, with clients including UC Berkeley, Georgetown, London Business School, and Oxford and Cambridge colleges. Funderful joined 500 Startups (Batch 20) and raised seed funding before being acquired by Ruffalo Noel Levitz (RNL) in February 2019. The company is defunct as an independent entity and its domain (funderful.com) no longer resolves; enrichment found no live developer portal, documentation, or public API surface.",
      "score": 0.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6136,7 +6170,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6168,7 +6202,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
+    },
+    {
+     "name": "Make School",
+     "slug": "make-school",
+     "description": "Make School was a San Francisco-based computer science college and coding bootcamp, backed by a16z, that offered an applied computer science bachelor's program. As of August 2021 the degree program moved to Dominican University of California, and Make School.org now operates as a 501(c)(3) nonprofit running a scholarship program for former Bachelor in Applied Computer Science students. The organization publishes no public API, developer portal, or technical documentation. It was added to the API Evangelist network as a portfolio-lead stub and this enrichment pass confirmed there is no API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/make-school/refs/heads/main/screenshots/make-school-2026-07-25T225930.png",
+     "score": 0.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 132
     },
     {
      "name": "Capital.xyz",
@@ -6186,7 +6270,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6218,7 +6302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 133
     }
    ]
   }

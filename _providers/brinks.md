@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -133,7 +133,7 @@ modified: '2026-09-04'
 name: Brinks
 nav: Providers
 network: true
-overview: 'Brinks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial-Services, and Armored Transport.
+overview: 'Brinks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial Services, and Armored Transport.
 
 
   Brinks'' developer surface includes pricing, support, engineering blog, and 12 more developer resources.'
@@ -182,7 +182,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +199,7 @@ tags:
 - Cash Management
 - Security
 - ATM Services
-- Financial-Services
+- Financial Services
 - Armored Transport
 website: https://us.brinks.com
 ---

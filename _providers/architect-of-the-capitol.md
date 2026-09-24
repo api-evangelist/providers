@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ modified: '2026-09-06'
 name: Architect of the Capitol
 nav: Providers
 network: true
-overview: 'Architect of the Capitol publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accessibility API, Art Collection API, Buildings API, and 2 more. Tagged areas include Federal-Government, Capitol Hill, Congress, Historic Preservation, and Government Services.
+overview: 'Architect of the Capitol publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accessibility API, Art Collection API, Buildings API, and 2 more. Tagged areas include Federal Government, Capitol Hill, Congress, Historic Preservation, and Government Services.
 
 
   The Architect of the Capitol catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -352,7 +352,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -366,7 +366,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: architect-of-the-capitol
 tags:
-- Federal-Government
+- Federal Government
 - Capitol Hill
 - Congress
 - Historic Preservation

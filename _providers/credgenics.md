@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-07-18'
 name: Credgenics
 nav: Providers
 network: true
-overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial-Services, Debt Collection, and Loan Recovery.
+overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Credit Line API, and Lending API. Tagged areas include Company, Enterprise, Financial Services, Debt Collection, and Loan Recovery.
 
 
   The Credgenics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -273,7 +273,7 @@ slug: credgenics
 tags:
 - Company
 - Enterprise
-- Financial-Services
+- Financial Services
 - Debt Collection
 - Loan Recovery
 - Lending

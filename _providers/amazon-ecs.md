@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 28
+- acting_count: 25
   human_in_the_loop: 1
   name: Amazon Ecs Agentic Access
-  operation_count: 28
+  operation_count: 34
   slug: amazon-ecs-agentic-access
-  summary_line: 28 operations · 28 acting · 1 human-in-the-loop
+  summary_line: 34 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Amazon ECS Service Connect provides management of service-to-service communication as Amazon ECS configuration, building both service discovery and a service mesh for connecting services within and ac
@@ -181,7 +181,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/ecs/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/capabilities/amazon-ecs-capability-edges.yml
   title: ''
@@ -847,7 +847,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -888,5 +888,5 @@ use_cases:
   name: Hybrid Cloud Workloads
 - description: Deploy ML models as containerized inference endpoints with auto-scaling based on demand.
   name: Machine Learning Inference
-website: https://amazon.com
+website: https://aws.amazon.com/ecs/
 ---

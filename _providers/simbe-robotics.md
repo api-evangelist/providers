@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Simbe's cloud platform API, which feeds Tally-captured shelf, inventory, pricing and out-of-stock data into a retailer's existing systems. Its existence is confirmed by Simbe's own public status page,
@@ -129,7 +129,7 @@ modified: '2026-08-27'
 name: Simbe Robotics
 nav: Providers
 network: true
-overview: 'Simbe Robotics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Retail, Inventory, and Computer-Vision.
+overview: 'Simbe Robotics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Retail, Inventory, and Computer Vision.
 
 
   Simbe Robotics'' developer surface includes support, engineering blog, and 12 more developer resources.'
@@ -162,7 +162,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 15.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ tags:
 - Robotics
 - Retail
 - Inventory
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Store Intelligence
 - RFID

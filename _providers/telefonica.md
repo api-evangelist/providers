@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 6
   human_in_the_loop: 0
   name: Telefonica Agentic Access
   operation_count: 11
   slug: telefonica-agentic-access
-  summary_line: 11 operations · 9 acting
+  summary_line: 11 operations · 6 acting
 api_count: 6
 apis:
 - description: The Scam Signal API enables companies to protect their customers from phishing scams and voice fraud by detecting active scam calls in real time using Telefónica's network intelligence. Available in S
@@ -349,7 +349,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

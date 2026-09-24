@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 11
   human_in_the_loop: 0
   name: Tmt Id Agentic Access
   operation_count: 17
   slug: tmt-id-agentic-access
-  summary_line: 17 operations · 12 acting
+  summary_line: 17 operations · 11 acting
 api_count: 7
 apis:
 - baseURL: https://api.tmtverify.com
@@ -338,7 +338,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
@@ -354,7 +354,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.9
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,7 +362,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -372,7 +372,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

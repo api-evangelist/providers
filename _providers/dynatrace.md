@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 64
+- acting_count: 62
   human_in_the_loop: 21
   name: Dynatrace Agentic Access
   operation_count: 133
   slug: dynatrace-agentic-access
-  summary_line: 133 operations · 64 acting · 21 human-in-the-loop
+  summary_line: 133 operations · 62 acting · 21 human-in-the-loop
 api_count: 6
 apis:
 - description: The Dynatrace Environment API provides access to monitoring data and configuration settings for a specific Dynatrace environment. It includes endpoints for metrics, problems, events, logs, entities, s
@@ -281,7 +281,7 @@ arazzos:
 - description: Resolve a service by name, read its details, and list problems impacting it.
   name: Dynatrace Find Problems Affecting a Named Service
   slug: dynatrace-service-problem-lookup-workflow
-artifact_total: 544
+artifact_total: 543
 asyncapis:
 - description: Dynatrace delivers problem lifecycle notifications to client-provided webhook endpoints via HTTP POST. When a problem is opened, updated, merged, or resolved, Dynatrace sends a notification payload to
   name: Dynatrace Problem Notifications API
@@ -1320,10 +1320,6 @@ finops:
 - name: Dynatrace Finops
   service_category: Observability
   slug: dynatrace-finops
-graphqls:
-- description: This conceptual GraphQL schema models the Dynatrace observability and AIOps platform, covering the full surface of the Dynatrace Environment API v2 and related platform APIs. Dynatrace provides full-s
-  name: Dynatrace GraphQL Schema
-  slug: dynatrace-graphql
 image: https://www.dynatrace.com/logo.png
 integrations:
 - description: Native integration with AWS services for monitoring EC2, Lambda, RDS, and other AWS resources with automatic tagging and topology mapping.
@@ -2254,19 +2250,19 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 84.4
+  composite: 83.7
   coverage:
-    artifact_dirs: 38
+    artifact_dirs: 37
     catalog_earned: 94.5
     catalog_earned_first_party: 24.0
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 78.3
+    contract_quality: 75.5
     developer_ergonomics: 88.7
     discoverability: 75.9
     operational_transparency: 94.7
@@ -2282,7 +2278,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2353,6 +2349,7 @@ tags:
 - Digital Experience Management
 - Intelligence
 - Observability
+- Monitoring
 use_cases:
 - description: Monitor hosts, containers, and cloud infrastructure with automatic discovery, health metrics, and capacity planning across hybrid and multi-cloud environments.
   name: Infrastructure Monitoring

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 56
+- acting_count: 44
   human_in_the_loop: 4
   name: Amazon Iam Identity Center Agentic Access
   operation_count: 56
   slug: amazon-iam-identity-center-agentic-access
-  summary_line: 56 operations · 56 acting · 4 human-in-the-loop
+  summary_line: 56 operations · 44 acting · 4 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://sso.amazonaws.com
@@ -2387,7 +2387,7 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

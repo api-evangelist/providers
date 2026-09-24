@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-09-16'
 name: Clojars
 nav: Providers
 network: true
-overview: 'Clojars publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Feeds API, Groups API, and 2 more. Tagged areas include Clojure, Package Registry, Artifact Repository, and Open-Source.
+overview: 'Clojars publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Feeds API, Groups API, and 2 more. Tagged areas include Clojure, Package Registry, Artifact Repository, and Open Source.
 
 
   The Clojars catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -235,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -256,6 +256,6 @@ tags:
 - Clojure
 - Package Registry
 - Artifact Repository
-- Open-Source
+- Open Source
 website: https://clojars.org
 ---

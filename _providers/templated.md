@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ modified: '2026-06-25'
 name: Templated
 nav: Providers
 network: true
-overview: 'Templated publishes 2 APIs on the [APIs.io](https://apis.io/) network: Renders API and Templates API. Tagged areas include Image-Generation, PDF Generation, Templates, Rendering, and Automation.
+overview: 'Templated publishes 2 APIs on the [APIs.io](https://apis.io/) network: Renders API and Templates API. Tagged areas include Image Generation, PDF Generation, Templates, Rendering, and Automation.
 
 
   Templated''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -173,7 +173,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -189,7 +189,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: templated
 tags:
-- Image-Generation
+- Image Generation
 - PDF Generation
 - Templates
 - Rendering

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Humans
 nav: Providers
 network: true
-overview: 'Humans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Frontier AI, and AI Lab.
+overview: 'Humans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Frontier AI, and AI Lab.
 
 
   Humans'' developer surface includes engineering blog and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -106,7 +106,7 @@ slug: humans
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Frontier AI
 - AI Lab
 - Reinforcement Learning

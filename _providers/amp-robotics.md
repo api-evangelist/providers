@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ modified: '2026-07-17'
 name: AMP Robotics
 nav: Providers
 network: true
-overview: 'AMP Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Computer-Vision, and Robotics.
+overview: 'AMP Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Robotics.
 
 
   AMP Robotics'' developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -119,8 +119,8 @@ slug: amp-robotics
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Robotics
 - Waste Management
 - Recycling

@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.6
-  scored_at: '2026-09-23'
+  score: 8.6
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: REST Affiliate API exposing the Udemy course catalog for course discovery and search by category, subcategory, price, language, and keyword. Authentication uses a base64-encoded HTTP Basic header deri
@@ -44,7 +44,7 @@ apis:
 - description: REST API for Udemy Business customers to programmatically manage users, groups, course assignments, learning activity, and reporting for their enterprise learning environment.
   name: Udemy Business API
   slug: business-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/udemy/refs/heads/main/security/udemy-trust-center.yml
@@ -98,10 +98,6 @@ common:
   url: https://medium.com/feed/udemy-engineering
 created: '2026-05-11'
 description: Udemy is a global online learning marketplace offering tens of thousands of on-demand video courses across business, technology, design, and personal development, alongside Udemy Business, an enterprise learning subscription for workforce skills development. Udemy exposes REST APIs including the Affiliate API for course discovery and the Instructor API for instructor resources, both using bearer token authentication over HTTPS with JSON-formatted responses.
-graphqls:
-- description: This conceptual GraphQL schema models the Udemy online learning platform, covering the full lifecycle of courses, instructors, students, enrollment, learning progress, purchases, and enterprise learni
-  name: Udemy GraphQL Schema
-  slug: udemy-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/udemy.png
 layout: provider
 modified: '2026-05-11'
@@ -114,20 +110,20 @@ overview: 'Udemy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
   Udemy''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
 random_paper: 20
 score:
-  band: thin
-  composite: 29.9
+  band: emerging
+  composite: 19.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 74.1
     operational_transparency: 2.6
@@ -141,8 +137,8 @@ score:
     regime_id: education
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

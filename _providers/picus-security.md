@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 25
+- acting_count: 24
   human_in_the_loop: 0
   name: Picus Security Agentic Access
   operation_count: 84
   slug: picus-security-agentic-access
-  summary_line: 84 operations · 25 acting
+  summary_line: 84 operations · 24 acting
 api_count: 15
 apis:
 - baseURL: https://api.picussecurity.com/
@@ -363,7 +363,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

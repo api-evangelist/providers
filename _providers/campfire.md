@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 233
+- acting_count: 236
   human_in_the_loop: 2
   name: Campfire Agentic Access
-  operation_count: 362
+  operation_count: 368
   slug: campfire-agentic-access
-  summary_line: 362 operations · 233 acting · 2 human-in-the-loop
+  summary_line: 368 operations · 236 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.meetcampfire.com
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://api.meetcampfire.com
   baseurl_source: declared
   description: The coa API from Campfire — 1 operation(s) for coa.
-  name: Campfire coa API
+  name: Campfire Coa API
   slug: campfire-coa-api
 - baseURL: https://api.meetcampfire.com
   baseurl_source: declared
@@ -341,7 +341,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,37 +47,37 @@ apis:
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test cases stored in a project repository.
-  name: Qase cases API
+  name: Qase Cases API
   slug: qase-cases-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Defects raised against failed test results.
-  name: Qase defects API
+  name: Qase Defects API
   slug: qase-defects-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test plans - reusable selections of test cases.
-  name: Qase plans API
+  name: Qase Plans API
   slug: qase-plans-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test projects that contain cases, suites, runs, and results.
-  name: Qase projects API
+  name: Qase Projects API
   slug: qase-projects-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test run results, including bulk publishing from CI/automation.
-  name: Qase results API
+  name: Qase Results API
   slug: qase-results-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test runs - executions of selected test cases in a project.
-  name: Qase runs API
+  name: Qase Runs API
   slug: qase-runs-api
 - baseURL: https://api.qase.io/v1
   baseurl_source: declared
   description: Test suites that group and organize test cases.
-  name: Qase suites API
+  name: Qase Suites API
   slug: qase-suites-api
 artifact_total: 21
 collections:
@@ -182,7 +182,7 @@ modified: '2026-07-11'
 name: Qase
 nav: Providers
 network: true
-overview: 'Qase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including cases API, defects API, plans API, and 4 more. Tagged areas include Test Runs, Test Management, Test Cases, QA, and Testing.
+overview: 'Qase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cases API, Defects API, Plans API, and 4 more. Tagged areas include Test Runs, Test Management, Test Cases, QA, and Testing.
 
 
   Qase''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -225,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-19'
 name: Habana Labs
 nav: Providers
 network: true
-overview: 'Habana Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, AI Accelerators, and Deep Learning.
+overview: 'Habana Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Accelerators, and Deep Learning.
 
 
   Habana Labs'' developer surface includes documentation and 3 more developer resources.'
@@ -86,7 +86,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -102,7 +102,7 @@ slug: habana-labs
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Accelerators
 - Deep Learning
 - Hardware

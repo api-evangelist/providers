@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: whylogs is an open-source data logging library that creates approximate statistical profiles of datasets, enabling drift detection, data quality monitoring, and bias analysis for ML pipelines. Support
@@ -138,7 +138,7 @@ modified: '2026-05-23'
 name: WhyLabs
 nav: Providers
 network: true
-overview: WhyLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Observability, ML Monitoring, LLM Monitoring, Open-Source, and whylogs.
+overview: WhyLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Observability, ML Monitoring, LLM Monitoring, Open Source, and whylogs.
 plans:
 - name: Whylabs Plans Pricing
   plan_count: 1
@@ -171,7 +171,7 @@ score:
     score: 65.0
   previous_composite: 25.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ tags:
 - AI Observability
 - ML Monitoring
 - LLM Monitoring
-- Open-Source
+- Open Source
 - whylogs
 - LangKit
 - Discontinued

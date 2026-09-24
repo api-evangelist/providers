@@ -36,7 +36,7 @@ modified: '2026-04-19'
 name: ACKNOWLEDGMENTS.md
 nav: Providers
 network: true
-overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Attribution, Documentation, Licensing, Open-Source, and Repository.
+overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Attribution, Documentation, Licensing, Open Source, and Repository.
 
 
   ACKNOWLEDGMENTS.md''s developer surface includes documentation and getting-started guide.'
@@ -47,7 +47,7 @@ tags:
 - Attribution
 - Documentation
 - Licensing
-- Open-Source
+- Open Source
 - Repository
 - Standards
 use_cases:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: http://localhost:1234
@@ -202,7 +202,7 @@ modified: '2026-07-20'
 name: LM Studio
 nav: Providers
 network: true
-overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Local LLM, Machine-Learning, and Inference.
+overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatibility API, Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Local LLM, Machine Learning, and Inference.
 
 
   LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -260,7 +260,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Local LLM
-- Machine-Learning
+- Machine Learning
 - Inference
 - Developer Tools
 - LLM

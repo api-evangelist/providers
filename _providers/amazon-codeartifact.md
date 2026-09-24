@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 29
+- acting_count: 21
   human_in_the_loop: 0
   name: Amazon Codeartifact Agentic Access
   operation_count: 38
   slug: amazon-codeartifact-agentic-access
-  summary_line: 38 operations · 29 acting
+  summary_line: 38 operations · 21 acting
 api_count: 1
 apis:
 - baseURL: https://codeartifact.us-east-1.amazonaws.com
@@ -196,7 +196,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/codeartifact/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/mcp/amazon-codeartifact-mcp.yml
   title: ''
@@ -1717,7 +1717,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1763,5 +1763,5 @@ use_cases:
   name: Multi-Team Package Governance
 - description: Integrate with CI/CD systems using native package manager support (npm, Maven, pip, NuGet) to fetch and publish packages as part of automated build and release workflows.
   name: CI/CD Pipeline Integration
-website: https://amazon.com
+website: https://aws.amazon.com/codeartifact/
 ---

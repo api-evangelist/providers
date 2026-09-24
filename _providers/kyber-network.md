@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://aggregator-api.kyberswap.com
@@ -55,7 +55,7 @@ apis:
 - baseURL: https://aggregator-api.kyberswap.com
   baseurl_source: declared
   description: The swap API from Kyber Network — 3 operation(s) for swap.
-  name: Kyber Network swap API
+  name: Kyber Network Swap API
   slug: kyber-network-swap-api
 - baseURL: https://aggregator-api.kyberswap.com
   baseurl_source: declared
@@ -284,7 +284,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

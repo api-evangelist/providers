@@ -97,7 +97,7 @@ modified: '2026-09-15'
 name: BlockFi
 nav: Providers
 network: true
-overview: 'BlockFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, Crypto Lending, and Financial-Services.
+overview: 'BlockFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, Crypto Lending, and Financial Services.
 
 
   BlockFi''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -114,7 +114,7 @@ tags:
 - Cryptocurrency
 - Digital Assets
 - Crypto Lending
-- Financial-Services
+- Financial Services
 - Fintech
 - Blockchain
 - Bankruptcy Estate

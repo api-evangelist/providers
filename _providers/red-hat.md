@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1525,7 +1525,7 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1557,6 +1557,6 @@ tags:
 - Hybrid Cloud
 - Kubernetes
 - Linux
-- Open-Source
+- Open Source
 website: https://www.redhat.com
 ---

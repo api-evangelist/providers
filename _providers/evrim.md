@@ -35,98 +35,98 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The answers API from Evrim — 2 operation(s) for answers.
-  name: Evrim answers API
+  name: Evrim Answers API
   slug: evrim-answers-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The blank API from Evrim — 2 operation(s) for blank.
-  name: Evrim blank API
+  name: Evrim Blank API
   slug: evrim-blank-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The bulk API from Evrim — 3 operation(s) for bulk.
-  name: Evrim bulk API
+  name: Evrim Bulk API
   slug: evrim-bulk-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The collections API from Evrim — 2 operation(s) for collections.
-  name: Evrim collections API
+  name: Evrim Collections API
   slug: evrim-collections-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The compose API from Evrim — 1 operation(s) for compose.
-  name: Evrim compose API
+  name: Evrim Compose API
   slug: evrim-compose-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The costs API from Evrim — 8 operation(s) for costs.
-  name: Evrim costs API
+  name: Evrim Costs API
   slug: evrim-costs-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The created-fields API from Evrim — 3 operation(s) for created-fields.
-  name: Evrim created-fields API
+  name: Evrim Created Fields API
   slug: evrim-created-fields-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The extract API from Evrim — 8 operation(s) for extract.
-  name: Evrim extract API
+  name: Evrim Extract API
   slug: evrim-extract-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The fields API from Evrim — 3 operation(s) for fields.
-  name: Evrim fields API
+  name: Evrim Fields API
   slug: evrim-fields-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The health API from Evrim — 2 operation(s) for health.
-  name: Evrim health API
+  name: Evrim Health API
   slug: evrim-health-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The prod API from Evrim — 1 operation(s) for prod.
-  name: Evrim prod API
+  name: Evrim Prod API
   slug: evrim-prod-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The profiles API from Evrim — 10 operation(s) for profiles.
-  name: Evrim profiles API
+  name: Evrim Profiles API
   slug: evrim-profiles-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The prompt-templates API from Evrim — 2 operation(s) for prompt-templates.
-  name: Evrim prompt-templates API
+  name: Evrim Prompt Templates API
   slug: evrim-prompt-templates-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The questions API from Evrim — 1 operation(s) for questions.
-  name: Evrim questions API
+  name: Evrim Questions API
   slug: evrim-questions-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The snapshots API from Evrim — 2 operation(s) for snapshots.
-  name: Evrim snapshots API
+  name: Evrim Snapshots API
   slug: evrim-snapshots-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The tags API from Evrim — 4 operation(s) for tags.
-  name: Evrim tags API
+  name: Evrim Tags API
   slug: evrim-tags-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The templates API from Evrim — 3 operation(s) for templates.
-  name: Evrim templates API
+  name: Evrim Templates API
   slug: evrim-templates-api
 - baseURL: https://api.evrim.ai
   baseurl_source: declared
   description: The transform API from Evrim — 1 operation(s) for transform.
-  name: Evrim transform API
+  name: Evrim Transform API
   slug: evrim-transform-api
 artifact_total: 42
 collections:
@@ -305,7 +305,7 @@ modified: '2026-08-14'
 name: Evrim
 nav: Providers
 network: true
-overview: 'Evrim publishes 18 APIs on the [APIs.io](https://apis.io/) network, including answers API, blank API, bulk API, and 15 more. Tagged areas include Company, Intelligence, Signals, Data Enrichment, and Profiles.
+overview: 'Evrim publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Blank API, Bulk API, and 15 more. Tagged areas include Company, Intelligence, Signals, Data Enrichment, and Profiles.
 
 
   Evrim''s developer surface includes documentation, engineering blog, authentication, changelog, and 18 more developer resources.'
@@ -353,7 +353,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ tags:
 - Profiles
 - Entity Resolution
 - Defense
-- Financial-Services
+- Financial Services
 - Government
 website: https://www.evrim.ai/
 ---

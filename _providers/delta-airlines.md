@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Delta API Suite is a partner-facing collection of APIs covering flight search, flight offers and order management, customer journey events, and operational data. Access is restricted to approved p
   name: Delta API Suite
   slug: delta-api-suite
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/delta-airlines/refs/heads/main/security/delta-airlines-domain-security.yml
@@ -84,10 +84,6 @@ finops:
 - name: Delta Airlines Finops
   service_category: Travel / Airline Distribution
   slug: delta-airlines-finops
-graphqls:
-- description: This GraphQL schema represents the conceptual data model for Delta Air Lines' flight and travel APIs, covering the full passenger journey from flight search and booking through check-in, boarding, and
-  name: Delta Airlines GraphQL Schema
-  slug: delta-airlines-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delta-airlines.png
 layout: provider
 modified: '2026-08-08'
@@ -125,26 +121,26 @@ rate_limits:
   slug: delta-airlines-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 14.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 59.3
     operational_transparency: 5.3
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

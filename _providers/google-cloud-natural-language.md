@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,17 +56,17 @@ apis:
 - baseURL: https://language.googleapis.com
   baseurl_source: declared
   description: The documents:analyzeSyntax API from Google Cloud Natural Language — 1 operation(s) for documents:analyzesyntax.
-  name: Google Cloud Natural Language documents:analyzeSyntax API
+  name: Google Cloud Natural Language Documents:analyze Syntax API
   slug: google-cloud-natural-language-documents-analyzesyntax-api
 - baseURL: https://language.googleapis.com
   baseurl_source: declared
   description: The documents:annotateText API from Google Cloud Natural Language — 1 operation(s) for documents:annotatetext.
-  name: Google Cloud Natural Language documents:annotateText API
+  name: Google Cloud Natural Language Documents:annotate Text API
   slug: google-cloud-natural-language-documents-annotatetext-api
 - baseURL: https://language.googleapis.com
   baseurl_source: declared
   description: The documents:classifyText API from Google Cloud Natural Language — 1 operation(s) for documents:classifytext.
-  name: Google Cloud Natural Language documents:classifyText API
+  name: Google Cloud Natural Language Documents:classify Text API
   slug: google-cloud-natural-language-documents-classifytext-api
 artifact_total: 26
 collections:
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: Google Cloud Natural Language
 nav: Providers
 network: true
-overview: 'Google Cloud Natural Language publishes 5 APIs on the [APIs.io](https://apis.io/) network, including documents:analyzeEntities API, documents:analyzeSentiment API, documents:analyzeSyntax API, and 2 more. Tagged areas include Entity Recognition, Google Cloud, Machine-Learning, Natural Language Processing, and Sentiment Analysis.
+overview: 'Google Cloud Natural Language publishes 5 APIs on the [APIs.io](https://apis.io/) network, including documents:analyzeEntities API, documents:analyzeSentiment API, Documents:analyze Syntax API, and 2 more. Tagged areas include Entity Recognition, Google Cloud, Machine Learning, Natural Language Processing, and Sentiment Analysis.
 
 
   The Google Cloud Natural Language catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -269,7 +269,7 @@ slug: google-cloud-natural-language
 tags:
 - Entity Recognition
 - Google Cloud
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Sentiment Analysis
 - Text Analysis

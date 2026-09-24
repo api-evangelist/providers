@@ -33,88 +33,88 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Authorization operations for OAuth 2.0 Grants
-  name: Bokio authorization API
+  name: Bokio Authorization API
   slug: bokio-authorization-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for creating and reading bank payments
-  name: Bokio bank-payments API
+  name: Bokio Bank Payments API
   slug: bokio-bank-payments-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing chart of accounts
-  name: Bokio chart-of-accounts API
+  name: Bokio Chart Of Accounts API
   slug: bokio-chart-of-accounts-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing company information
-  name: Bokio company-information API
+  name: Bokio Company Information API
   slug: bokio-company-information-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Connections operations
-  name: Bokio connections API
+  name: Bokio Connections API
   slug: bokio-connections-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing credit notes
-  name: Bokio credit-notes API
+  name: Bokio Credit Notes API
   slug: bokio-credit-notes-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing customer data
-  name: Bokio customers API
+  name: Bokio Customers API
   slug: bokio-customers-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing fiscal years
-  name: Bokio fiscal-years API
+  name: Bokio Fiscal Years API
   slug: bokio-fiscal-years-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing invoices
-  name: Bokio invoices API
+  name: Bokio Invoices API
   slug: bokio-invoices-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing inventory items
-  name: Bokio items API
+  name: Bokio Items API
   slug: bokio-items-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing accounting journal entries
-  name: Bokio journal-entries API
+  name: Bokio Journal Entries API
   slug: bokio-journal-entries-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing SIE files
-  name: Bokio sie-files API
+  name: Bokio Sie Files API
   slug: bokio-sie-files-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing supplier invoices
-  name: Bokio supplier-invoices API
+  name: Bokio Supplier Invoices API
   slug: bokio-supplier-invoices-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing suppliers
-  name: Bokio suppliers API
+  name: Bokio Suppliers API
   slug: bokio-suppliers-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing tag groups and tags
-  name: Bokio tag-groups API
+  name: Bokio Tag Groups API
   slug: bokio-tag-groups-api
 - baseURL: https://api.bokio.se/v1
   baseurl_source: declared
   description: Operations for managing file uploads
-  name: Bokio uploads API
+  name: Bokio Uploads API
   slug: bokio-uploads-api
 artifact_total: 54
 collections:
@@ -384,7 +384,7 @@ modified: '2026-07-18'
 name: Bokio
 nav: Providers
 network: true
-overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including authorization API, bank-payments API, chart-of-accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
+overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Bank Payments API, Chart Of Accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
 
 
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -437,7 +437,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

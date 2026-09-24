@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ modified: '2026-05-19'
 name: Regions Financial Corporation
 nav: Providers
 network: true
-overview: 'Regions Financial Corporation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regions-financial Account Information API, regions-financial Consent API, regions-financial Customer API, and 2 more. Tagged areas include Banking, Financial-Services, Open Banking, FDX, and Consumer Banking.
+overview: 'Regions Financial Corporation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regions-financial Account Information API, regions-financial Consent API, regions-financial Customer API, and 2 more. Tagged areas include Banking, Financial Services, Open Banking, FDX, and Consumer Banking.
 
 
   The Regions Financial Corporation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -271,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ security:
 slug: regions-financial
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - FDX
 - Consumer Banking

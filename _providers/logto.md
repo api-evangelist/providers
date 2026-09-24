@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 223
+- acting_count: 222
   human_in_the_loop: 6
   name: Logto Agentic Access
   operation_count: 335
   slug: logto-agentic-access
-  summary_line: 335 operations · 223 acting · 6 human-in-the-loop
+  summary_line: 335 operations · 222 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://[tenant_id].logto.app/
@@ -512,7 +512,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -534,7 +534,7 @@ tags:
 - Identity
 - OIDC
 - SAML
-- Open-Source
+- Open Source
 - Identity Federation
 website: https://logto.io
 ---

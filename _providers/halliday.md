@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 7
   human_in_the_loop: 0
   name: Halliday Agentic Access
   operation_count: 16
   slug: halliday-agentic-access
-  summary_line: 16 operations · 9 acting
+  summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://v2.prod.halliday.xyz
@@ -275,7 +275,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

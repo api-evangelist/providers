@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 89
+- acting_count: 76
   human_in_the_loop: 6
   name: Opkey Agentic Access
   operation_count: 90
   slug: opkey-agentic-access
-  summary_line: 90 operations · 89 acting · 6 human-in-the-loop
+  summary_line: 90 operations · 76 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - description: The official pCloudy MCP server, published by pCloudy as the Python package pcloudy-mcp and run over stdio with uvx. It exposes 36 tools across four groups — device booking, browser booking, app manag
@@ -340,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

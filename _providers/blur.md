@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/blur/refs/heads/main/security/blur-vulnerability-disclosure.yml
@@ -109,10 +109,6 @@ common:
 created: '2026-05-24'
 description: Blur is a New York-based NFT marketplace and aggregator built for professional traders on Ethereum, founded by the pseudonymous "Pacman" (Tieshun Roquerre) in October 2022 and backed by Paradigm and Standard Crypto. The flagship product, blur.io, offers zero marketplace fees, multi-marketplace sweeping, bulk listing/bidding, real-time mempool reveal sniping, and a portfolio-grade analytics surface that aggregates liquidity from OpenSea, X2Y2, LooksRare, and other Seaport-compatible venues. Blur also operates Blend, a peer-to-peer perpetual NFT lending protocol designed by Paradigm researchers that powers ETH-against-NFT borrowing and Buy-Now-Pay-Later flows without oracles or fixed expiries — Blend has captured the dominant share of NFT lending volume on Ethereum. The BLUR token, distributed via multi-season airdrop campaigns, governs the Blur DAO through the Blur Foundation. The same team launched Blast, an Ethereum L2 with native yield, which now hosts its own NFT activity.
   Blur does not publish an official public developer API or SDK; on-chain integration happens via the deployed marketplace and Blend smart contracts (Seaport-compatible), and marketplace data is reached through third-party indexers such as Bitquery, SimpleHash, and Alchemy rather than a Blur-operated REST or GraphQL endpoint.
-graphqls:
-- description: ''
-  name: Blur GraphQL API
-  slug: blur-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blur.png
 layout: provider
 modified: '2026-05-24'
@@ -128,7 +124,7 @@ score:
   band: minimal
   composite: 10.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -149,7 +145,7 @@ score:
     - north-america
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

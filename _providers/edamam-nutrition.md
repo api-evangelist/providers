@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Nutrition Analysis
@@ -61,7 +61,7 @@ modified: '2026-05-28'
 name: Edamam nutrition
 nav: Providers
 network: true
-overview: Edamam nutrition publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food And Drink and Public APIs.
+overview: Edamam nutrition publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Food and Beverage and Public APIs.
 random_paper: 12
 score:
   band: minimal
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: edamam-nutrition
 tags:
-- Food And Drink
+- Food and Beverage
 - Public APIs
 website: https://developer.edamam.com/edamam-docs-nutrition-api
 ---

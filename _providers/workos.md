@@ -36,222 +36,222 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 98
-  human_in_the_loop: 98
+- acting_count: 96
+  human_in_the_loop: 96
   name: Workos Agentic Access
   operation_count: 172
   slug: workos-agentic-access
-  summary_line: 172 operations · 98 acting · 98 human-in-the-loop
+  summary_line: 172 operations · 96 acting · 96 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Endpoints for the Admin Portal API.
-  name: WorkOS admin-portal API
+  name: WorkOS Admin Portal API
   slug: workos-admin-portal-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage API keys for environments.
-  name: WorkOS api_keys API
+  name: WorkOS API Keys API
   slug: workos-api-keys-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage client secrets for Connect Applications.
-  name: WorkOS application.client-secrets API
+  name: WorkOS Application.client Secrets API
   slug: workos-application-client-secrets-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage Connect Applications.
-  name: WorkOS applications API
+  name: WorkOS Applications API
   slug: workos-applications-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Create and query audit log events.
-  name: WorkOS audit-logs API
+  name: WorkOS Audit Logs API
   slug: workos-audit-logs-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Authorization and access control.
-  name: WorkOS authorization API
+  name: WorkOS Authorization API
   slug: workos-authorization-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage SSO connections.
-  name: WorkOS connections API
+  name: WorkOS Connections API
   slug: workos-connections-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage directories.
-  name: WorkOS directories API
+  name: WorkOS Directories API
   slug: workos-directories-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage directory groups.
-  name: WorkOS directory-groups API
+  name: WorkOS Directory Groups API
   slug: workos-directory-groups-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage directory users.
-  name: WorkOS directory-users API
+  name: WorkOS Directory Users API
   slug: workos-directory-users-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Query events and event streams.
-  name: WorkOS events API
+  name: WorkOS Events API
   slug: workos-events-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage feature flags.
-  name: WorkOS feature-flags API
+  name: WorkOS Feature Flags API
   slug: workos-feature-flags-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage feature flag targets.
-  name: WorkOS feature-flags.targets API
+  name: WorkOS Feature Flags.targets API
   slug: workos-feature-flags-targets-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Organize and manage user groups within organizations.
-  name: WorkOS groups API
+  name: WorkOS Groups API
   slug: workos-groups-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Multi-factor authentication factor management.
-  name: WorkOS multi-factor-auth API
+  name: WorkOS Multi Factor Auth API
   slug: workos-multi-factor-auth-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Multi-factor authentication challenge verification.
-  name: WorkOS multi-factor-auth.challenges API
+  name: WorkOS Multi Factor Auth.challenges API
   slug: workos-multi-factor-auth-challenges-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage organization domains.
-  name: WorkOS organization-domains API
+  name: WorkOS Organization Domains API
   slug: workos-organization-domains-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage organization-scoped API keys.
-  name: WorkOS organizations.api_keys API
+  name: WorkOS Organizations.api Keys API
   slug: workos-organizations-api-keys-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage organizations.
-  name: WorkOS organizations API
+  name: WorkOS Organizations API
   slug: workos-organizations-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage organization-scoped feature flags.
-  name: WorkOS organizations.feature-flags API
+  name: WorkOS Organizations.feature Flags API
   slug: workos-organizations-feature-flags-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage permissions.
-  name: WorkOS permissions API
+  name: WorkOS Permissions API
   slug: workos-permissions-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Data integration endpoints.
-  name: WorkOS pipes API
+  name: WorkOS Pipes API
   slug: workos-pipes-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Radar fraud detection.
-  name: WorkOS radar API
+  name: WorkOS Radar API
   slug: workos-radar-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Single Sign-On endpoints.
-  name: WorkOS sso API
+  name: WorkOS SSO API
   slug: workos-sso-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: User authentication endpoints.
-  name: WorkOS user-management.authentication API
+  name: WorkOS User Management.authentication API
   slug: workos-user-management-authentication-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage CORS origins for user management.
-  name: WorkOS user-management.cors-origins API
+  name: WorkOS User Management.cors Origins API
   slug: workos-user-management-cors-origins-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage data providers.
-  name: WorkOS user-management.data-providers API
+  name: WorkOS User Management.data Providers API
   slug: workos-user-management-data-providers-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage user invitations.
-  name: WorkOS user-management.invitations API
+  name: WorkOS User Management.invitations API
   slug: workos-user-management-invitations-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage JWT templates.
-  name: WorkOS user-management.jwt-template API
+  name: WorkOS User Management.jwt Template API
   slug: workos-user-management-jwt-template-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Magic auth endpoints.
-  name: WorkOS user-management.magic-auth API
+  name: WorkOS User Management.magic Auth API
   slug: workos-user-management-magic-auth-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Multi-factor authentication endpoints.
-  name: WorkOS user-management.multi-factor-authentication API
+  name: WorkOS User Management.multi Factor Authentication API
   slug: workos-user-management-multi-factor-authentication-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage user organization memberships.
-  name: WorkOS user-management.organization-membership API
+  name: WorkOS User Management.organization Membership API
   slug: workos-user-management-organization-membership-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage groups for a user organization membership.
-  name: WorkOS user-management.organization-membership.groups API
+  name: WorkOS User Management.organization Membership.groups API
   slug: workos-user-management-organization-membership-groups-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage redirect URIs.
-  name: WorkOS user-management.redirect-uris API
+  name: WorkOS User Management.redirect Uris API
   slug: workos-user-management-redirect-uris-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Session token verification keys.
-  name: WorkOS user-management.session-tokens API
+  name: WorkOS User Management.session Tokens API
   slug: workos-user-management-session-tokens-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage users.
-  name: WorkOS user-management.users API
+  name: WorkOS User Management.users API
   slug: workos-user-management-users-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage authorized applications for users.
-  name: WorkOS user-management.users.authorized-applications API
+  name: WorkOS User Management.users.authorized Applications API
   slug: workos-user-management-users-authorized-applications-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage user-scoped feature flags.
-  name: WorkOS user-management.users.feature-flags API
+  name: WorkOS User Management.users.feature Flags API
   slug: workos-user-management-users-feature-flags-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Manage webhooks.
-  name: WorkOS webhooks API
+  name: WorkOS Webhooks API
   slug: workos-webhooks-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: Widget endpoints.
-  name: WorkOS widgets API
+  name: WorkOS Widgets API
   slug: workos-widgets-api
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: A unified interface that simplifies authentication and authorization across customers, partners, and external SaaS tools.
   name: WorkOS-connect API
   slug: workos-workos-connect-api
-artifact_total: 349
+artifact_total: 348
 collections:
 - collection_type: postman
   name: WorkOS admin-portal API
@@ -912,10 +912,6 @@ finops:
 - name: Workos Finops
   service_category: B2B Identity
   slug: workos-finops
-graphqls:
-- description: WorkOS exposes a **REST-only** public API (`https://api.workos.com`). This directory contains a **conceptual GraphQL schema** (`workos-schema.graphql`) derived from WorkOS's published REST types, thei
-  name: WorkOS GraphQL Schema
-  slug: workos-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workos.png
 json_schemas:
 - name: AddRolePermissionDto
@@ -1431,7 +1427,7 @@ modified: '2026-09-16'
 name: WorkOS
 nav: Providers
 network: true
-overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, including admin-portal API, api_keys API, application.client-secrets API, and 38 more. Tagged areas include Authentication, Identity Provider, SSO, SAML, and OIDC.
+overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Admin Portal API, API Keys API, Application.client Secrets API, and 38 more. Tagged areas include Authentication, Identity Provider, SSO, SAML, and OIDC.
 
 
   The WorkOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1474,20 +1470,20 @@ rules:
   slug: workos-rules
 score:
   band: strong
-  composite: 60.3
+  composite: 59.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 78.5
     catalog_earned_first_party: 24.0
     catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 69.8
-    developer_ergonomics: 66.7
+    contract_quality: 68.6
+    developer_ergonomics: 63.1
     discoverability: 63.0
     operational_transparency: 65.8
   open_source:
@@ -1503,7 +1499,7 @@ score:
       total: 41
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

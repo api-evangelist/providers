@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -60,87 +60,87 @@ apis:
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: The account API from Kalshi — 2 operation(s) for account.
-  name: Kalshi account API
+  name: Kalshi Account API
   slug: kalshi-account-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: API key management endpoints
-  name: Kalshi api-keys API
+  name: Kalshi API Keys API
   slug: kalshi-api-keys-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Request-for-quote (RFQ) endpoints
-  name: Kalshi communications API
+  name: Kalshi Communications API
   slug: kalshi-communications-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Event endpoints
-  name: Kalshi events API
+  name: Kalshi Events API
   slug: kalshi-events-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Exchange status and information endpoints
-  name: Kalshi exchange API
+  name: Kalshi Exchange API
   slug: kalshi-exchange-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: FCM member specific endpoints
-  name: Kalshi fcm API
+  name: Kalshi Fcm API
   slug: kalshi-fcm-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: The historical API from Kalshi — 7 operation(s) for historical.
-  name: Kalshi historical API
+  name: Kalshi Historical API
   slug: kalshi-historical-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Incentive program endpoints
-  name: Kalshi incentive-programs API
+  name: Kalshi Incentive Programs API
   slug: kalshi-incentive-programs-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Live data endpoints
-  name: Kalshi live-data API
+  name: Kalshi Live Data API
   slug: kalshi-live-data-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: The market API from Kalshi — 9 operation(s) for market.
-  name: Kalshi market API
+  name: Kalshi Market API
   slug: kalshi-market-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Milestone endpoints
-  name: Kalshi milestone API
+  name: Kalshi Milestone API
   slug: kalshi-milestone-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Multivariate event collection endpoints
-  name: Kalshi multivariate API
+  name: Kalshi Multivariate API
   slug: kalshi-multivariate-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Order group management endpoints
-  name: Kalshi order-groups API
+  name: Kalshi Order Groups API
   slug: kalshi-order-groups-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Order management endpoints
-  name: Kalshi orders API
+  name: Kalshi Orders API
   slug: kalshi-orders-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Portfolio and balance information endpoints
-  name: Kalshi portfolio API
+  name: Kalshi Portfolio API
   slug: kalshi-portfolio-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Search and filtering endpoints
-  name: Kalshi search API
+  name: Kalshi Search API
   slug: kalshi-search-api
 - baseURL: https://api.elections.kalshi.com/trade-api/v2
   baseurl_source: declared
   description: Structured targets endpoints
-  name: Kalshi structured-targets API
+  name: Kalshi Structured Targets API
   slug: kalshi-structured-targets-api
 artifact_total: 48
 asyncapis:
@@ -265,7 +265,7 @@ modified: '2026-05-29'
 name: Kalshi
 nav: Providers
 network: true
-overview: 'Kalshi publishes 19 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, AsyncAPI Specification, account API, and 16 more. Tagged areas include Prediction Markets, Event Contracts, Exchange, CFTC, and Trading.
+overview: 'Kalshi publishes 19 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, AsyncAPI Specification, Account API, and 16 more. Tagged areas include Prediction Markets, Event Contracts, Exchange, CFTC, and Trading.
 
 
   The Kalshi catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -326,7 +326,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -349,5 +349,6 @@ tags:
 - CFTC
 - Trading
 - Markets
+- Real-Time
 website: https://kalshi.com/
 ---

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 93
-  human_in_the_loop: 2
+- acting_count: 41
+  human_in_the_loop: 1
   name: Asapp Agentic Access
-  operation_count: 137
+  operation_count: 81
   slug: asapp-agentic-access
-  summary_line: 137 operations · 93 acting · 2 human-in-the-loop
+  summary_line: 81 operations · 41 acting · 1 human-in-the-loop
 api_count: 13
 apis:
 - baseURL: https://api.asapp.com
@@ -366,7 +366,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

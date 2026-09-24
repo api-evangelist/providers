@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ modified: '2026-05-19'
 name: Consumer Financial Protection Bureau
 nav: Providers
 network: true
-overview: 'Consumer Financial Protection Bureau publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Aggregations API, CSV API, Filers API, and 4 more. Tagged areas include Banking, Complaints, Consumer Protection, Federal-Government, and Financial-Services.
+overview: 'Consumer Financial Protection Bureau publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Aggregations API, CSV API, Filers API, and 4 more. Tagged areas include Banking, Complaints, Consumer Protection, Federal Government, and Financial Services.
 
 
   The Consumer Financial Protection Bureau catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -295,7 +295,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -312,8 +312,8 @@ tags:
 - Banking
 - Complaints
 - Consumer Protection
-- Federal-Government
-- Financial-Services
+- Federal Government
+- Financial Services
 - HMDA
 - Mortgage
 - Open Data

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 17
   human_in_the_loop: 1
   name: Brainfish Agentic Access
   operation_count: 27
   slug: brainfish-agentic-access
-  summary_line: 27 operations · 19 acting · 1 human-in-the-loop
+  summary_line: 27 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.brainfi.sh
@@ -261,7 +261,7 @@ modified: '2026-07-18'
 name: Brainfish
 nav: Providers
 network: true
-overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, Artificial Intelligence, Customer-Support, Knowledge Base, and Help Desk.
+overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, Artificial Intelligence, Customer Support, Knowledge Base, and Help Desk.
 
 
   Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 19 more developer resources.'
@@ -300,7 +300,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -323,7 +323,7 @@ slug: brainfish
 tags:
 - Company
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Knowledge Base
 - Help Desk
 - Agents

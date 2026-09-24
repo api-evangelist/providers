@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
   description: Generate text embedding vectors for semantic search, classification, clustering, and retrieval tasks using Gemini embedding models.
   name: Google Gemini Embeddings API
   slug: google-gemini-embeddings-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: 'AsyncAPI specification describing Google Gemini''s real-time and streaming surface area: * The Live API bidirectional WebSocket service (BidiGenerateContent) used for low-latency multimodal voice, vide'
   name: Google Gemini Streaming and Live API
@@ -194,10 +194,6 @@ finops:
 - name: Google Gemini Finops
   service_category: AI Infrastructure / LLM
   slug: google-gemini-finops
-graphqls:
-- description: Google Gemini is a family of multimodal AI models (Gemini 1.5 Pro, Flash, Ultra). The Gemini API covers text generation, vision, audio, code generation, embeddings, function calling, system instructio
-  name: Google Gemini GraphQL API
-  slug: google-gemini-graphql
 image: https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg
 json_schemas:
 - name: Blob
@@ -329,19 +325,19 @@ rules:
   slug: google-gemini-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.2
+  composite: 51.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 76.8
+    contract_quality: 73.8
     developer_ergonomics: 57.1
     discoverability: 57.4
     operational_transparency: 42.1
@@ -354,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -384,9 +380,10 @@ tags:
 - Code Generation
 - Embeddings
 - Generative AI
-- Image-Generation
+- Image Generation
 - LLM
-- Machine-Learning
+- Machine Learning
 - Multi-Modal
+- Real-Time
 website: https://google.dev
 ---

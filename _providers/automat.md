@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://studio.runautomat.com
   baseurl_source: declared
   description: The extract API from Automat — 1 operation(s) for extract.
-  name: Automat extract API
+  name: Automat Extract API
   slug: automat-extract-api
 artifact_total: 8
 collections:
@@ -145,7 +145,7 @@ modified: '2026-07-18'
 name: Automat
 nav: Providers
 network: true
-overview: 'Automat publishes 1 API on the [APIs.io](https://apis.io/) network: extract API. Tagged areas include Company, Enterprise Saas, Automation, RPA, and Robotic Process Automation.
+overview: 'Automat publishes 1 API on the [APIs.io](https://apis.io/) network: Extract API. Tagged areas include Company, Enterprise Saas, Automation, RPA, and Document Extraction.
 
 
   Automat''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 11 more developer resources.'
@@ -180,7 +180,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -205,7 +205,6 @@ tags:
 - Enterprise Saas
 - Automation
 - RPA
-- Robotic Process Automation
 - Document Extraction
 - IDP
 - iPaaS

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -151,7 +151,7 @@ modified: '2026-09-12'
 name: Aerwave
 nav: Providers
 network: true
-overview: 'Aerwave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Managed WiFi, Multifamily, Real-Estate, and Telecommunications.
+overview: 'Aerwave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Managed WiFi, Multifamily, Real Estate, and Telecommunications.
 
 
   Aerwave''s developer surface includes engineering blog, support, signup flow, and 19 more developer resources.'
@@ -193,7 +193,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +209,7 @@ tags:
 - Company
 - Managed WiFi
 - Multifamily
-- Real-Estate
+- Real Estate
 - Telecommunications
 - Internet Service Provider
 - Connectivity

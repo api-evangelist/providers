@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 10
   human_in_the_loop: 0
   name: Amazon Data Pipeline Agentic Access
   operation_count: 13
   slug: amazon-data-pipeline-agentic-access
-  summary_line: 13 operations · 13 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://datapipeline.amazonaws.com
@@ -120,7 +120,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/agentic-access/amazon-data-pipeline-agentic-access.yml
   title: ''
@@ -497,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -538,5 +538,5 @@ use_cases:
   name: Data Lake Ingestion
 - description: Replicate DynamoDB tables or S3 data across AWS regions using scheduled pipeline copy activities for disaster recovery.
   name: Cross-Region Data Replication
-website: https://amazon.com
+website: https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html
 ---

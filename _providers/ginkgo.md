@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Async, job-polling REST API for running inference on public and Ginkgo-proprietary biological foundation models — protein/DNA masked language modeling and mean-embedding generation. Authenticated with
@@ -124,7 +124,7 @@ modified: '2026-07-19'
 name: Ginkgo Bioworks
 nav: Providers
 network: true
-overview: 'Ginkgo Bioworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Artificial Intelligence, and Machine-Learning.
+overview: 'Ginkgo Bioworks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Artificial Intelligence, and Machine Learning.
 
 
   Ginkgo Bioworks'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
@@ -151,7 +151,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ tags:
 - Synthetic Biology
 - Biotechnology
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Protein Models
 - Bioinformatics
 - Inference API

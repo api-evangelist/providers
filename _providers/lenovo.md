@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-05-16'
 name: Lenovo
 nav: Providers
 network: true
-overview: 'Lenovo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Sessions API. Tagged areas include Data-Center, Hardware, Infrastructure, Personal Computers, and Servers.
+overview: 'Lenovo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Sessions API. Tagged areas include Data Center, Hardware, Infrastructure, Personal Computers, and Servers.
 
 
   Lenovo''s developer surface includes authentication, product news, engineering blog, and 11 more developer resources.'
@@ -171,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -188,7 +188,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lenovo
 tags:
-- Data-Center
+- Data Center
 - Hardware
 - Infrastructure
 - Personal Computers

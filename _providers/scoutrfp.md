@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -58,222 +58,222 @@ apis:
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the Awards API to query the Awards in Workday Strategic Sourcing. Awards are used for procurement. ## Award Object <SchemaDefinition schemaRef="#/components/schemas/Award" showReadOnly={true} show'
-  name: Scout RFP (Workday Strategic Sourcing) awards API
+  name: Scout RFP (Workday Strategic Sourcing) Awards API
   slug: scoutrfp-awards-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the bid line items API to query the bid line items in Workday Strategic Sourcing. ## Bid Line Item Object <SchemaDefinition schemaRef="#/components/schemas/BidLineItem" exampleRef="#/components/ex'
-  name: Scout RFP (Workday Strategic Sourcing) bid_line_items API
+  name: Scout RFP (Workday Strategic Sourcing) Bid Line Items API
   slug: scoutrfp-bid-line-items-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the bids API to query the bids in Workday Strategic Sourcing. Only bids for events of type `RFP` are supported. ## Bid Object <SchemaDefinition schemaRef="#/components/schemas/Bid" exampleRef="#/c'
-  name: Scout RFP (Workday Strategic Sourcing) bids API
+  name: Scout RFP (Workday Strategic Sourcing) Bids API
   slug: scoutrfp-bids-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the contact types API to create, update, and query the contact types in Workday Strategic Sourcing. ## ContactType Object <SchemaDefinition schemaRef="#/components/schemas/ContactType" showReadOnl'
-  name: Scout RFP (Workday Strategic Sourcing) contact_types API
+  name: Scout RFP (Workday Strategic Sourcing) Contact Types API
   slug: scoutrfp-contact-types-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of contract milestone report entries.
-  name: Scout RFP (Workday Strategic Sourcing) contract_milestone_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Contract Milestone Reports API
   slug: scoutrfp-contract-milestone-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of contract report entries.
-  name: Scout RFP (Workday Strategic Sourcing) contract_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Contract Reports API
   slug: scoutrfp-contract-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the contract types API to query the contract types in Workday Strategic Sourcing. Contract Types are used in the contract resource. On POST and PATCH related endpoints for this resource a contract
-  name: Scout RFP (Workday Strategic Sourcing) contract_types API
+  name: Scout RFP (Workday Strategic Sourcing) Contract Types API
   slug: scoutrfp-contract-types-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the contracts API to create, update, and query the contracts in Workday Strategic Sourcing. ## Contract Object <SchemaDefinition schemaRef="#/components/schemas/Contract" exampleRef="#/components/'
-  name: Scout RFP (Workday Strategic Sourcing) contracts API
+  name: Scout RFP (Workday Strategic Sourcing) Contracts API
   slug: scoutrfp-contracts-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Endpoints to facilitate discovery of SCIM service provider features
-  name: Scout RFP (Workday Strategic Sourcing) discovery API
+  name: Scout RFP (Workday Strategic Sourcing) Discovery API
   slug: scoutrfp-discovery-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of event report entries.
-  name: Scout RFP (Workday Strategic Sourcing) event_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Event Reports API
   slug: scoutrfp-event-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the event supplier companies API to manage event suppliers.
-  name: Scout RFP (Workday Strategic Sourcing) event_supplier_companies API
+  name: Scout RFP (Workday Strategic Sourcing) Event Supplier Companies API
   slug: scoutrfp-event-supplier-companies-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the event supplier contacts API to manage event suppliers. This API provides 2 advantages over the event supplier companies APIs: - It allows specifying the supplier contact to be associated/remov'
-  name: Scout RFP (Workday Strategic Sourcing) event_supplier_contacts API
+  name: Scout RFP (Workday Strategic Sourcing) Event Supplier Contacts API
   slug: scoutrfp-event-supplier-contacts-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the contract types API to query the event templates in Workday Strategic Sourcing. Event Templates are used as a blueprint for newly created events. ## Event Template Object <SchemaDefinition sche'
-  name: Scout RFP (Workday Strategic Sourcing) event_templates API
+  name: Scout RFP (Workday Strategic Sourcing) Event Templates API
   slug: scoutrfp-event-templates-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the events API to create, update, and query the events in Workday Strategic Sourcing. ## Event Object <SchemaDefinition schemaRef="#/components/schemas/Event" exampleRef="#/components/examples/Eve'
-  name: Scout RFP (Workday Strategic Sourcing) events API
+  name: Scout RFP (Workday Strategic Sourcing) Events API
   slug: scoutrfp-events-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the fields API to create, update, and query the custom fields groups in Workday Strategic Sourcing. Custom field groups act as a collection of custom fields. Every newly made custom field with req
-  name: Scout RFP (Workday Strategic Sourcing) field_groups API
+  name: Scout RFP (Workday Strategic Sourcing) Field Groups API
   slug: scoutrfp-field-groups-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the fields API to create, update, and query the custom fields options in Workday Strategic Sourcing. Custom field options exist for single select and multiple select field types. ## Field Option O'
-  name: Scout RFP (Workday Strategic Sourcing) field_options API
+  name: Scout RFP (Workday Strategic Sourcing) Field Options API
   slug: scoutrfp-field-options-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the fields API to create, update, and query the custom fields in Workday Strategic Sourcing. ## Field Object <SchemaDefinition schemaRef="#/components/schemas/Field" showReadOnly={true} showWriteO'
-  name: Scout RFP (Workday Strategic Sourcing) fields API
+  name: Scout RFP (Workday Strategic Sourcing) Fields API
   slug: scoutrfp-fields-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the line items API to create, update, and query the worksheet line items in Workday Strategic Sourcing. ## Line Item Object <SchemaDefinition schemaRef="#/components/schemas/LineItem" showReadOnly'
-  name: Scout RFP (Workday Strategic Sourcing) line_items API
+  name: Scout RFP (Workday Strategic Sourcing) Line Items API
   slug: scoutrfp-line-items-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the payment currencies API to create, update, and query the payment currencies in Workday Strategic Sourcing. ## Payment Currency Object <SchemaDefinition schemaRef="#/components/schemas/PaymentCu'
-  name: Scout RFP (Workday Strategic Sourcing) payment_currencies API
+  name: Scout RFP (Workday Strategic Sourcing) Payment Currencies API
   slug: scoutrfp-payment-currencies-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the payment terms API to create, update, and query the payment terms in Workday Strategic Sourcing. ## Payment Term Object <SchemaDefinition schemaRef="#/components/schemas/PaymentTerm" showReadOn'
-  name: Scout RFP (Workday Strategic Sourcing) payment_terms API
+  name: Scout RFP (Workday Strategic Sourcing) Payment Terms API
   slug: scoutrfp-payment-terms-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the payment types API to create, update, and query the payment types in Workday Strategic Sourcing. ## Payment Type Object <SchemaDefinition schemaRef="#/components/schemas/PaymentType" showReadOn'
-  name: Scout RFP (Workday Strategic Sourcing) payment_types API
+  name: Scout RFP (Workday Strategic Sourcing) Payment Types API
   slug: scoutrfp-payment-types-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Performance Review Answer report entries.
-  name: Scout RFP (Workday Strategic Sourcing) performance_review_answer_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Performance Review Answer Reports API
   slug: scoutrfp-performance-review-answer-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Performance Review report entries.
-  name: Scout RFP (Workday Strategic Sourcing) performance_review_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Performance Review Reports API
   slug: scoutrfp-performance-review-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Project Milestone report entries.
-  name: Scout RFP (Workday Strategic Sourcing) project_milestone_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Project Milestone Reports API
   slug: scoutrfp-project-milestone-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Project report entries.
-  name: Scout RFP (Workday Strategic Sourcing) project_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Project Reports API
   slug: scoutrfp-project-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the project supplier companies API to manage project suppliers.
-  name: Scout RFP (Workday Strategic Sourcing) project_supplier_companies API
+  name: Scout RFP (Workday Strategic Sourcing) Project Supplier Companies API
   slug: scoutrfp-project-supplier-companies-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the project supplier contacts API to manage project suppliers. This API provides 2 advantages over the project supplier companies APIs: - It allows specifying the supplier contact to be associated'
-  name: Scout RFP (Workday Strategic Sourcing) project_supplier_contacts API
+  name: Scout RFP (Workday Strategic Sourcing) Project Supplier Contacts API
   slug: scoutrfp-project-supplier-contacts-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the project types API to query the project types in Workday Strategic Sourcing. Project Types are used in the project resource. On POST and PATCH related endpoints for this resource a project_type
-  name: Scout RFP (Workday Strategic Sourcing) project_types API
+  name: Scout RFP (Workday Strategic Sourcing) Project Types API
   slug: scoutrfp-project-types-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the projects API to create, update, and query the projects in Workday Strategic Sourcing. ## Project Object <SchemaDefinition schemaRef="#/components/schemas/Project" exampleRef="#/components/exam'
-  name: Scout RFP (Workday Strategic Sourcing) projects API
+  name: Scout RFP (Workday Strategic Sourcing) Projects API
   slug: scoutrfp-projects-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Savings report entries.
-  name: Scout RFP (Workday Strategic Sourcing) savings_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Savings Reports API
   slug: scoutrfp-savings-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: Use the Spend Categories API to create, update, and query the Spend Categories in Workday Strategic Sourcing. Spend Categories are used in both the project and contract resources. On POST and PATCH re
-  name: Scout RFP (Workday Strategic Sourcing) spend_categories API
+  name: Scout RFP (Workday Strategic Sourcing) Spend Categories API
   slug: scoutrfp-spend-categories-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier categories API to create, update, and query the supplier categories in Workday Strategic Sourcing. ## Supplier Category Object <SchemaDefinition schemaRef="#/components/schemas/Suppli'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_categories API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Categories API
   slug: scoutrfp-supplier-categories-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: '## Supplier Classification Object <SchemaDefinition schemaRef="#/components/schemas/SupplierClassification" exampleRef="#/components/examples/SupplierClassification" showReadOnly={true} showWriteOnly='
-  name: Scout RFP (Workday Strategic Sourcing) supplier_classifications API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Classifications API
   slug: scoutrfp-supplier-classifications-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier companies API to create, update, and query the suppliers in Workday Strategic Sourcing. ## Supplier Company Object <SchemaDefinition schemaRef="#/components/schemas/SupplierCompany" e'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_companies API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Companies API
   slug: scoutrfp-supplier-companies-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier company risks API to create, update, and query the supplier company risks in Workday Strategic Sourcing. ## Supplier Company Risk Object <SchemaDefinition schemaRef="#/components/sche'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_company_risks API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Company Risks API
   slug: scoutrfp-supplier-company-risks-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier company segmentation statuses API to create, update, and query the supplier company segmentation statuses in Workday Strategic Sourcing. ## Supplier Company Segmentation Status Object'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_company_segmentation_statuses API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Company Segmentation Statuses API
   slug: scoutrfp-supplier-company-segmentation-statuses-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier company segmentations API to create, update, and query the supplier company segmentations in Workday Strategic Sourcing. ## Supplier Company Segmentation Object <SchemaDefinition sche'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_company_segmentations API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Company Segmentations API
   slug: scoutrfp-supplier-company-segmentations-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: '## Supplier Contact Object <SchemaDefinition schemaRef="#/components/schemas/SupplierContact" exampleRef="#/components/examples/SupplierContact" showReadOnly={true} showWriteOnly={true} />'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_contacts API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Contacts API
   slug: scoutrfp-supplier-contacts-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the supplier groups API to create, update, and query the supplier groups in Workday Strategic Sourcing. ## Supplier Group Object <SchemaDefinition schemaRef="#/components/schemas/SupplierGroup" sh'
-  name: Scout RFP (Workday Strategic Sourcing) supplier_groups API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Groups API
   slug: scoutrfp-supplier-groups-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Supplier report entries.
-  name: Scout RFP (Workday Strategic Sourcing) supplier_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Reports API
   slug: scoutrfp-supplier-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Supplier Review report entries.
-  name: Scout RFP (Workday Strategic Sourcing) supplier_review_reports API
+  name: Scout RFP (Workday Strategic Sourcing) Supplier Review Reports API
   slug: scoutrfp-supplier-review-reports-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: This report returns a list of Suppliers.
-  name: Scout RFP (Workday Strategic Sourcing) suppliers API
+  name: Scout RFP (Workday Strategic Sourcing) Suppliers API
   slug: scoutrfp-suppliers-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the users API to create, update, and query the users in Workday Strategic Sourcing. ## User Object <SchemaDefinition schemaRef="#/components/schemas/UserResource" exampleRef="#/components/examples'
-  name: Scout RFP (Workday Strategic Sourcing) user API
+  name: Scout RFP (Workday Strategic Sourcing) User API
   slug: scoutrfp-user-api
 - baseURL: https://api.us.workdayspend.com/services/suppliers/v1
   baseurl_source: declared
   description: 'Use the worksheets API to create, update, and query the worksheets in Workday Strategic Sourcing. ## Worksheet Object <SchemaDefinition schemaRef="#/components/schemas/WorksheetModel" showReadOnly={tr'
-  name: Scout RFP (Workday Strategic Sourcing) worksheets API
+  name: Scout RFP (Workday Strategic Sourcing) Worksheets API
   slug: scoutrfp-worksheets-api
 - description: Manage sourcing events including RFPs, RFIs, and reverse auctions. Supports creating events from templates, updating event details, managing supplier invitations, worksheets, line items, and bid colle
   name: Events API
@@ -619,7 +619,7 @@ modified: '2026-07-21'
 name: Scout RFP (Workday Strategic Sourcing)
 nav: Providers
 network: true
-overview: 'Scout RFP (Workday Strategic Sourcing) publishes 52 APIs on the [APIs.io](https://apis.io/) network, including attachments API, award_line_items API, awards API, and 49 more. Tagged areas include Company, Enterprise, Procurement, Strategic Sourcing, and Supplier Management.
+overview: 'Scout RFP (Workday Strategic Sourcing) publishes 52 APIs on the [APIs.io](https://apis.io/) network, including attachments API, award_line_items API, Awards API, and 49 more. Tagged areas include Company, Enterprise, Procurement, Strategic Sourcing, and Supplier Management.
 
 
   Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 28 more developer resources.'
@@ -658,7 +658,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

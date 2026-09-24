@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Arlula Agentic Access
   operation_count: 16
   slug: arlula-agentic-access
-  summary_line: 16 operations · 8 acting
+  summary_line: 16 operations · 5 acting
 api_count: 4
 apis:
 - baseURL: https://api.arlula.com
@@ -424,7 +424,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

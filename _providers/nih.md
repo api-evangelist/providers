@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 41
+- acting_count: 5
   human_in_the_loop: 0
   name: Nih Agentic Access
-  operation_count: 116
+  operation_count: 115
   slug: nih-agentic-access
-  summary_line: 116 operations · 41 acting
+  summary_line: 115 operations · 5 acting
 api_count: 2
 apis:
 - description: The public API to the NCBI Entrez system providing programmatic access to all Entrez databases including PubMed, PMC, Gene, Nuccore, and Protein. Supports searching, fetching, linking, and summarizing
@@ -356,7 +356,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

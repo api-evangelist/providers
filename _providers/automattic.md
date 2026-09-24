@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1218
+- acting_count: 1210
   human_in_the_loop: 20
   name: Automattic Agentic Access
-  operation_count: 2384
+  operation_count: 2351
   slug: automattic-agentic-access
-  summary_line: 2384 operations · 1218 acting · 20 human-in-the-loop
+  summary_line: 2351 operations · 1210 acting · 20 human-in-the-loop
 api_count: 2
 apis:
 - description: Automattic's hosted Model Context Protocol server for WordPress.com. Streamable HTTP transport secured with OAuth 2.1 (PKCE S256, dynamic client registration, token rotation, no client secret). Twelve
@@ -2293,7 +2293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2331,7 +2331,7 @@ tags:
 - Analytics
 - Domains
 - E-Commerce
-- Open-Source
+- Open Source
 - Developer Tools
 - MCP
 website: https://automattic.com/

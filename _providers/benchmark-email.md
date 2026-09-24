@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 130
+- acting_count: 146
   human_in_the_loop: 3
   name: Benchmark Email Agentic Access
-  operation_count: 296
+  operation_count: 336
   slug: benchmark-email-agentic-access
-  summary_line: 296 operations · 130 acting · 3 human-in-the-loop
+  summary_line: 336 operations · 146 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://clientapi.benchmarkemail.com
@@ -595,7 +595,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -626,5 +626,6 @@ tags:
 - Email Templates
 - Webhook
 - Agent Ready
+- A2A
 website: https://www.benchmarkemail.com/
 ---

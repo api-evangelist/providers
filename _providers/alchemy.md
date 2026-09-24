@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Alchemy Agentic Access
   operation_count: 7
   slug: alchemy-agentic-access
-  summary_line: 7 operations · 5 acting
+  summary_line: 7 operations · 4 acting
 api_count: 12
 apis:
 - baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
@@ -94,7 +94,7 @@ apis:
   description: Retrieve metadata for ERC-20 tokens.
   name: Alchemy Token Metadata API
   slug: alchemy-token-metadata-api
-artifact_total: 81
+artifact_total: 80
 asyncapis:
 - description: AsyncAPI definition for Alchemy's JSON-RPC WebSocket subscription API. Clients open a `wss://` connection to a per-network Alchemy endpoint and use the standard Ethereum `eth_subscribe` / `eth_unsubsc
   name: Alchemy WebSocket Subscription API
@@ -241,10 +241,6 @@ finops:
 - name: Alchemy Finops
   service_category: Web3
   slug: alchemy-finops
-graphqls:
-- description: 'This conceptual GraphQL schema models the Alchemy Web3 developer platform, covering the full surface of Alchemy''s blockchain APIs: Node RPC (JSON-RPC over HTTPS/WebSockets), NFT API, Token API, Transf'
-  name: Alchemy GraphQL Schema
-  slug: alchemy-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alchemy.png
 json_schemas:
 - name: Create Policy Request
@@ -407,19 +403,19 @@ rules:
   slug: alchemy-spectral-rules
 score:
   band: thin
-  composite: 30.1
+  composite: 28.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 40.8
+    contract_quality: 34.1
     developer_ergonomics: 23.8
     discoverability: 81.5
     operational_transparency: 10.5
@@ -433,7 +429,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -464,5 +460,7 @@ tags:
 - NFT
 - Indexing
 - Account Abstraction
+- Real-Time
+- Ethereum
 website: https://www.alchemy.com/
 ---

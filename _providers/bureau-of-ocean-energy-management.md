@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: MarineCadastre.gov is the authoritative source for marine cadastre data and services. It provides an interactive map viewer with integrated submerged lands information including legal, property owners
@@ -182,7 +182,7 @@ modified: '2026-09-05'
 name: Bureau of Ocean Energy Management
 nav: Providers
 network: true
-overview: 'Bureau of Ocean Energy Management publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal-Government, Marine, Ocean, and GIS.
+overview: 'Bureau of Ocean Energy Management publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal Government, Marine, Ocean, and GIS.
 
 
   Bureau of Ocean Energy Management''s developer surface includes developer portal, engineering blog, documentation, support, authentication, and 21 more developer resources.'
@@ -224,7 +224,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +247,7 @@ security:
 slug: bureau-of-ocean-energy-management
 tags:
 - Energy
-- Federal-Government
+- Federal Government
 - Marine
 - Ocean
 - GIS

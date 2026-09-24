@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,12 +51,12 @@ apis:
 - baseURL: https://api.ionq.co/v0.4
   baseurl_source: declared
   description: The backends API from IonQ — 2 operation(s) for backends.
-  name: IonQ backends API
+  name: IonQ Backends API
   slug: ionq-backends-api
 - baseURL: https://api.ionq.co/v0.4
   baseurl_source: declared
   description: The characterizations API from IonQ — 2 operation(s) for characterizations.
-  name: IonQ characterizations API
+  name: IonQ Characterizations API
   slug: ionq-characterizations-api
 - baseURL: https://api.ionq.co/v0.4
   baseurl_source: declared
@@ -71,12 +71,12 @@ apis:
 - baseURL: https://api.ionq.co/v0.4
   baseurl_source: declared
   description: The usage API from IonQ — 1 operation(s) for usage.
-  name: IonQ usage API
+  name: IonQ Usage API
   slug: ionq-usage-api
 - baseURL: https://api.ionq.co/v0.4
   baseurl_source: declared
   description: The whoami API from IonQ — 1 operation(s) for whoami.
-  name: IonQ whoami API
+  name: IonQ Whoami API
   slug: ionq-whoami-api
 artifact_total: 55
 collections:
@@ -467,7 +467,7 @@ modified: '2026-05-24'
 name: IonQ
 nav: Providers
 network: true
-overview: 'IonQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, including backends API, characterizations API, Jobs API, and 3 more. Tagged areas include Quantum Computing, Trapped Ion, QPU, ARIA, and Forte.
+overview: 'IonQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Backends API, Characterizations API, Jobs API, and 3 more. Tagged areas include Quantum Computing, Trapped Ion, QPU, ARIA, and Forte.
 
 
   The IonQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -537,7 +537,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Pandora GraphQL API provides access to Pandora's music catalog and listener data, enabling developers to build applications with playback controls, search, user collection management, feedback (th
   name: Pandora GraphQL API
   slug: pandora-graphql-api
-artifact_total: 7
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -92,10 +92,6 @@ finops:
 - name: Finops
   service_category: ''
   slug: finops
-graphqls:
-- description: Pandora ERC-404 is an experimental mixed ERC-20/ERC-721 token standard developed by Pandora Labs Org. It enables native liquidity and fractionalization of NFTs by combining both standards into a singl
-  name: Pandora ERC-404 GraphQL
-  slug: pandora-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pandora.png
 jsonld:
 - class_count: 0
@@ -125,25 +121,25 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 38.5
+  composite: 36.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 33.3
     developer_ergonomics: 42.9
     discoverability: 68.5
     operational_transparency: 21.1
   previous_composite: 38.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
@@ -138,7 +138,7 @@ modified: '2026-08-13'
 name: Sendible
 nav: Providers
 network: true
-overview: 'Sendible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Social Media Management, Agencies, Scheduling, and Analytics.
+overview: 'Sendible publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Agencies, Scheduling, and Analytics.
 
 
   Sendible''s developer surface includes engineering blog, pricing, support, signup flow, changelog, and 15 more developer resources.'
@@ -173,7 +173,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -195,7 +195,7 @@ security:
   summary_line: contact published
 slug: sendible
 tags:
-- Social-Media
+- Social Media
 - Social Media Management
 - Agencies
 - Scheduling

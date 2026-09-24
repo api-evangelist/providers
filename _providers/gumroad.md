@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for managing products, variants, offer codes, custom fields, sales, subscribers, license keys, resource subscriptions (webhooks), and the authenticated user account on Gumroad. Authentication
   name: Gumroad v2 API
   slug: v2-api
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gumroad/refs/heads/main/security/gumroad-domain-security.yml
@@ -83,10 +83,6 @@ common:
   url: https://github.com/gumroad
 created: '2026-05-11'
 description: Gumroad is a digital commerce platform that lets creators sell e-books, courses, software, memberships, music, and physical goods directly to their audience without needing a storefront, with built-in checkout, licensing, affiliate management, and analytics. The Gumroad v2 REST API provides programmatic access to products, sales, subscribers, offer codes, license keys, customers, and the authenticated user account. Authentication uses OAuth 2.0 access tokens passed in the Authorization header.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Gumroad digital commerce and creator economy platform. Gumroad enables creators to sell digital products, memberships, courses, software, mu
-  name: Gumroad GraphQL Schema
-  slug: gumroad-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gumroad.png
 layout: provider
 modified: '2026-05-30'
@@ -99,26 +95,26 @@ overview: 'Gumroad publishes 1 API on the [APIs.io](https://apis.io/) network: v
   Gumroad''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 28.4
+  band: emerging
+  composite: 25.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 54.3
+    contract_quality: 42.7
     developer_ergonomics: 14.3
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

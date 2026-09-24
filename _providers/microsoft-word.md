@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 23
   human_in_the_loop: 0
   name: Microsoft Word Agentic Access
-  operation_count: 55
+  operation_count: 46
   slug: microsoft-word-agentic-access
-  summary_line: 55 operations · 27 acting
+  summary_line: 46 operations · 23 acting
 api_count: 21
 apis:
 - description: Server-side document conversion and automation service for SharePoint. Supports batch conversion of Word documents to PDF, XPS, and other formats without user interaction.
@@ -654,7 +654,7 @@ modified: '2026-06-20'
 name: Microsoft Word
 nav: Providers
 network: true
-overview: 'Microsoft Word publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Body API, Checkout API, Comments API, and 15 more. Tagged areas include Documents, Microsoft-365, Office, Productivity, and Word Processing.
+overview: 'Microsoft Word publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Body API, Checkout API, Comments API, and 15 more. Tagged areas include Documents, Microsoft 365, Office, Productivity, and Word Processing.
 
 
   The Microsoft Word catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -729,7 +729,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -755,7 +755,7 @@ security:
 slug: microsoft-word
 tags:
 - Documents
-- Microsoft-365
+- Microsoft 365
 - Office
 - Productivity
 - Word Processing

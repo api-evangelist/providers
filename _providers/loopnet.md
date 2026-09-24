@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Access commercial real estate property listings including office, retail, industrial, multifamily, land, and hospitality properties for sale and lease across the US, Canada, and UK. Data includes prop
@@ -105,7 +105,7 @@ modified: '2026-06-13'
 name: LoopNet
 nav: Providers
 network: true
-overview: 'LoopNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Property Listings, CRE, Real-Estate, and Market Analytics.
+overview: 'LoopNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Property Listings, CRE, Real Estate, and Market Analytics.
 
 
   LoopNet''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -138,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ tags:
 - Commercial Real Estate
 - Property Listings
 - CRE
-- Real-Estate
+- Real Estate
 - Market Analytics
 - CoStar
 - Lease Rates

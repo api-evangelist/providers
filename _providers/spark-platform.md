@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -235,7 +235,7 @@ modified: '2026-07-26'
 name: Spark Platform
 nav: Providers
 network: true
-overview: 'Spark Platform publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United States, MLS, RESO, and Property Listings.
+overview: 'Spark Platform publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, MLS, RESO, and Property Listings.
 
 
   The Spark Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,7 +281,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -299,7 +299,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: spark-platform
 tags:
-- Real-Estate
+- Real Estate
 - United States
 - MLS
 - RESO

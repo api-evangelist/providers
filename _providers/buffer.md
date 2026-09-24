@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
@@ -257,7 +257,7 @@ modified: '2026-08-13'
 name: Buffer
 nav: Providers
 network: true
-overview: 'Buffer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Scheduling, Analytics, Publishing, and Content Management.
+overview: 'Buffer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Scheduling, Analytics, Publishing, and Content Management.
 
 
   Buffer''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 36 more developer resources.'
@@ -299,7 +299,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -321,7 +321,7 @@ security:
   summary_line: Hackerone · contact published
 slug: buffer
 tags:
-- Social-Media
+- Social Media
 - Scheduling
 - Analytics
 - Publishing

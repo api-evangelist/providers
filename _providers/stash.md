@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Stash provides a mobile-first investing and banking platform enabling fractional share purchases, automated smart portfolio management, retirement accounts, and a Stock-Back debit card. The platform i
@@ -107,7 +107,7 @@ modified: '2026-09-16'
 name: Stash
 nav: Providers
 network: true
-overview: 'Stash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Investing, Banking, Fractional Shares, and Portfolio-Management.
+overview: 'Stash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Investing, Banking, Fractional Shares, and Portfolio Management.
 
 
   Stash''s developer surface includes status page, engineering blog, and 11 more developer resources.'
@@ -146,7 +146,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +168,7 @@ tags:
 - Investing
 - Banking
 - Fractional Shares
-- Portfolio-Management
+- Portfolio Management
 - Financial Education
 - Robo-Advisor
 - Stock-Back

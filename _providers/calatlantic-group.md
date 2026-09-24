@@ -35,7 +35,7 @@ modified: '2026-09-15'
 name: CalAtlantic Group
 nav: Providers
 network: true
-overview: CalAtlantic Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Defunct, Home Builders, Real-Estate, and Residential.
+overview: CalAtlantic Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Defunct, Home Builders, Real Estate, and Residential.
 press:
 - date: ''
   title: Lennar acquires Irvine's CalAtlantic in $5.7 billion merger
@@ -58,7 +58,7 @@ tags:
 - Construction
 - Defunct
 - Home Builders
-- Real-Estate
+- Real Estate
 - Residential
 website: https://www.calatlantic-group.com
 ---

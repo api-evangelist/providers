@@ -24,14 +24,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 105
+- acting_count: 102
   human_in_the_loop: 2
   name: 2S Io Agentic Access
   operation_count: 575
   slug: 2s-io-agentic-access
-  summary_line: 575 operations · 105 acting · 2 human-in-the-loop
+  summary_line: 575 operations · 102 acting · 2 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://2s.io
@@ -269,7 +269,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

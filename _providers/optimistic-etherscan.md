@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Optimistic Etherscan Agentic Access
-  operation_count: 7
+  operation_count: 1
   slug: optimistic-etherscan-agentic-access
-  summary_line: 7 operations
+  summary_line: 1 operation
 api_count: 1
 apis:
 - baseURL: https://api-optimistic.etherscan.io/api
@@ -79,7 +79,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.etherscan.io/
+  url: https://optimistic.etherscan.io/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/agentic-access/optimistic-etherscan-agentic-access.yml
   title: ''
@@ -190,9 +190,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,5 +221,5 @@ tags:
 - EVM
 - Web3
 - Cryptocurrency
-website: https://www.etherscan.io/
+website: https://optimistic.etherscan.io/
 ---

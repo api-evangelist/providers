@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 50
+- acting_count: 33
   human_in_the_loop: 1
   name: Amazon Codedeploy Agentic Access
   operation_count: 54
   slug: amazon-codedeploy-agentic-access
-  summary_line: 54 operations · 50 acting · 1 human-in-the-loop
+  summary_line: 54 operations · 33 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://codedeploy.us-east-1.amazonaws.com
@@ -592,7 +592,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/codedeploy/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/capabilities/amazon-codedeploy-capability-edges.yml
   title: ''
@@ -3677,7 +3677,7 @@ score:
       total: 49
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -3720,5 +3720,5 @@ use_cases:
   name: On-Premises Application Deployment
 - description: Use CodeDeploy as the deployment stage in an AWS CodePipeline for fully automated continuous delivery from source code to production.
   name: Multi-Stage CD Pipeline
-website: https://amazon.com
+website: https://aws.amazon.com/codedeploy/
 ---

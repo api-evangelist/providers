@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Nocion Therapeutics
 nav: Providers
 network: true
-overview: Nocion Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotech, Therapeutics, and Life Sciences.
+overview: Nocion Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Therapeutics, and Life Sciences.
 random_paper: 8
 score:
   band: minimal
@@ -81,7 +81,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ slug: nocion
 tags:
 - Company
 - Biopharmaceutical
-- Biotech
+- Biotechnology
 - Therapeutics
 - Life Sciences
 - Chronic Cough

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 40
+- acting_count: 16
   human_in_the_loop: 0
   name: Uniswap Agentic Access
-  operation_count: 48
+  operation_count: 24
   slug: uniswap-agentic-access
-  summary_line: 48 operations · 40 acting
+  summary_line: 24 operations · 16 acting
 api_count: 2
 apis:
 - description: The Uniswap Subgraph API provides GraphQL endpoints for querying on-chain data across Uniswap protocol versions v1, v2, v3, and v4. Powered by The Graph Protocol decentralized network, it supports que
@@ -488,7 +488,7 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 46.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 67.5
@@ -496,12 +496,12 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 71.1
-    developer_ergonomics: 59.5
+    developer_ergonomics: 56.0
     discoverability: 66.7
     operational_transparency: 10.5
   previous_composite: 46.7
@@ -519,7 +519,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -542,6 +542,7 @@ tags:
 - Decentralized Exchange
 - Liquidity
 - Swap
+- Ethereum
 use_cases:
 - description: Embed token swap functionality in wallets, DApps, and portfolio managers using the Trading API's quote and swap endpoints.
   name: Token Swap Integration

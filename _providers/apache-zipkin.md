@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,22 +46,22 @@ apis:
 - baseURL_template: http://{host}:{port}/api/v2
   baseurl_source: spec_template
   description: Tag key/value autocompletion
-  name: Apache Zipkin autocomplete API
+  name: Apache Zipkin Autocomplete API
   slug: apache-zipkin-autocomplete-api
 - baseURL_template: http://{host}:{port}/api/v2
   baseurl_source: spec_template
   description: Service discovery and dependency links
-  name: Apache Zipkin services API
+  name: Apache Zipkin Services API
   slug: apache-zipkin-services-api
 - baseURL_template: http://{host}:{port}/api/v2
   baseurl_source: spec_template
   description: Ingest spans and query span names
-  name: Apache Zipkin spans API
+  name: Apache Zipkin Spans API
   slug: apache-zipkin-spans-api
 - baseURL_template: http://{host}:{port}/api/v2
   baseurl_source: spec_template
   description: Query trace data
-  name: Apache Zipkin traces API
+  name: Apache Zipkin Traces API
   slug: apache-zipkin-traces-api
 artifact_total: 31
 collections:
@@ -184,7 +184,7 @@ modified: '2026-04-19'
 name: Apache Zipkin
 nav: Providers
 network: true
-overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including autocomplete API, services API, spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open-Source.
+overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Services API, Spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open Source.
 
 
   Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
@@ -227,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +244,7 @@ tags:
 - Microservices
 - Monitoring
 - Observability
-- Open-Source
+- Open Source
 use_cases:
 - description: Identify bottlenecks and slow service calls in distributed architectures.
   name: Microservices Latency Troubleshooting

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
@@ -116,7 +116,7 @@ modified: '2026-07-17'
 name: Alkymi
 nav: Providers
 network: true
-overview: 'Alkymi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Private Markets, Document Processing, and Data Extraction.
+overview: 'Alkymi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Private Markets, Document Processing, and Data Extraction.
 
 
   The Alkymi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ security:
 slug: alkymi
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Private Markets
 - Document Processing
 - Data Extraction

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The 1up MCP Server is a cloud-hosted Model Context Protocol server that lets an AI assistant work directly against a 1up workspace — query the knowledge base, search and edit the Q&A library, upload a
@@ -191,7 +191,7 @@ modified: '2026-09-05'
 name: 1up
 nav: Providers
 network: true
-overview: '1up publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales Enablement, Knowledge-Management, and RFP Automation.
+overview: '1up publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Sales Enablement, Knowledge Management, and RFP Automation.
 
 
   1up''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -257,7 +257,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Sales Enablement
-- Knowledge-Management
+- Knowledge Management
 - RFP Automation
 - Security Questionnaires
 - MCP

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Pinnacle Agentic Access
   operation_count: 18
   slug: pinnacle-agentic-access
-  summary_line: 18 operations · 2 acting
+  summary_line: 18 operations
 api_count: 12
 apis:
 - description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
@@ -217,12 +217,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 90.9
+      callable: 91.7
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 551
+- acting_count: 478
   human_in_the_loop: 13
   name: Coveo Agentic Access
-  operation_count: 1018
+  operation_count: 1009
   slug: coveo-agentic-access
-  summary_line: 1018 operations · 551 acting · 13 human-in-the-loop
+  summary_line: 1009 operations · 478 acting · 13 human-in-the-loop
 api_count: 31
 apis:
 - baseURL: https://platform.cloud.coveo.com
@@ -2102,7 +2102,7 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2129,7 +2129,7 @@ tags:
 - Commerce
 - Customers
 - Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 - Search

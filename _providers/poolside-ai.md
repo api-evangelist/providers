@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,12 +54,12 @@ apis:
 - baseURL: https://<api-domain>/openai/v1
   baseurl_source: declared
   description: The chat API from Poolside — 2 operation(s) for chat.
-  name: Poolside chat API
+  name: Poolside Chat API
   slug: poolside-ai-chat-api
 - baseURL: https://<api-domain>/openai/v1
   baseurl_source: declared
   description: The models API from Poolside — 1 operation(s) for models.
-  name: Poolside models API
+  name: Poolside Models API
   slug: poolside-ai-models-api
 artifact_total: 14
 collections:
@@ -140,7 +140,7 @@ modified: '2026-07-02'
 name: Poolside
 nav: Providers
 network: true
-overview: 'Poolside publishes 2 APIs on the [APIs.io](https://apis.io/) network: chat API and models API. Tagged areas include Artificial Intelligence, LLM, Foundation Models, Agentic Coding, and Software Engineering.
+overview: 'Poolside publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Artificial Intelligence, LLM, Foundation Models, Agentic Coding, and Software Engineering.
 
 
   Poolside''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -180,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

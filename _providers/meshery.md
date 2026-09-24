@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: operate
   title: ''
@@ -107,10 +107,6 @@ common:
   url: https://layer5.io/company/legal/privacy
 created: '2026-04-28'
 description: Meshery is the cloud native manager for Kubernetes and cloud native infrastructure. It is an extensible, self-service engineering platform that enables collaborative design, lifecycle and performance management of cloud native applications and infrastructure. Meshery exposes REST and GraphQL APIs for automating multi-cluster operations, design management, performance profiling, and integration with hundreds of CNCF and ecosystem projects.
-graphqls:
-- description: ''
-  name: Meshery GraphQL API
-  slug: meshery-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meshery.png
 layout: provider
 modified: '2026-04-28'
@@ -126,7 +122,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -145,7 +141,7 @@ score:
     score: 100.0
   previous_composite: 28.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

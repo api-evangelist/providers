@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints that the developer mounts under their own do
@@ -123,7 +123,7 @@ modified: '2026-09-16'
 name: Better Auth
 nav: Providers
 network: true
-overview: 'Better Auth publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Authorization, TypeScript, Library, and Open-Source.
+overview: 'Better Auth publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Authorization, TypeScript, Library, and Open Source.
 
 
   Better Auth''s developer surface includes documentation, GitHub presence, engineering blog, and 12 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ tags:
 - Authorization
 - TypeScript
 - Library
-- Open-Source
+- Open Source
 - SSO
 - Passkeys
 - Identity Federation

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: The ARGUS API is a cloud-based integration gateway that provides programmatic access to data in ARGUS Enterprise and other cloud-enabled ARGUS solutions. It enables users to extract and ingest data, t
@@ -199,7 +199,7 @@ modified: '2026-09-14'
 name: ARGUS
 nav: Providers
 network: true
-overview: 'ARGUS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Altus Group, Asset Management, Commercial Real Estate, Fund Management, and Portfolio-Management.
+overview: 'ARGUS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Altus Group, Asset Management, Commercial Real Estate, Fund Management, and Portfolio Management.
 
 
   ARGUS''s developer surface includes engineering blog, documentation, getting-started guide, developer portal, support, training material, release notes, and 17 more developer resources.'
@@ -234,7 +234,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -260,7 +260,7 @@ tags:
 - Asset Management
 - Commercial Real Estate
 - Fund Management
-- Portfolio-Management
+- Portfolio Management
 - Real Estate Software
 - Valuation
 use_cases:

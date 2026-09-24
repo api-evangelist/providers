@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://services-catalog.melorra.com/api
@@ -178,13 +178,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 5
+      derived: 4
       marker_coverage: 100.0
-      total: 5
+      total: 4
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

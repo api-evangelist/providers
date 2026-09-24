@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -89,7 +89,7 @@ modified: '2026-05-02'
 name: Stifel Financial
 nav: Providers
 network: true
-overview: 'Stifel Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Wealth Management, Investment Banking, Open Banking, and Financial-Services.
+overview: 'Stifel Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Wealth Management, Investment Banking, Open Banking, and Financial Services.
 
 
   The Stifel Financial catalog on APIs.io includes 1 JSON-LD context.
@@ -147,7 +147,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ tags:
 - Wealth Management
 - Investment Banking
 - Open Banking
-- Financial-Services
+- Financial Services
 - Fortune 1000
 website: https://www.stifel.com
 ---

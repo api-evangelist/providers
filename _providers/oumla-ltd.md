@@ -35,68 +35,68 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
-  name: Oumla Ltd addresses API
+  name: Oumla Ltd Addresses API
   slug: oumla-ltd-addresses-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The assets API from Oumla Ltd — 2 operation(s) for assets.
-  name: Oumla Ltd assets API
+  name: Oumla Ltd Assets API
   slug: oumla-ltd-assets-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The contract-interactions API from Oumla Ltd — 4 operation(s) for contract-interactions.
-  name: Oumla Ltd contract-interactions API
+  name: Oumla Ltd Contract Interactions API
   slug: oumla-ltd-contract-interactions-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The contract-templates API from Oumla Ltd — 5 operation(s) for contract-templates.
-  name: Oumla Ltd contract-templates API
+  name: Oumla Ltd Contract Templates API
   slug: oumla-ltd-contract-templates-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The deployed-contracts API from Oumla Ltd — 5 operation(s) for deployed-contracts.
-  name: Oumla Ltd deployed-contracts API
+  name: Oumla Ltd Deployed Contracts API
   slug: oumla-ltd-deployed-contracts-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The networks API from Oumla Ltd — 2 operation(s) for networks.
-  name: Oumla Ltd networks API
+  name: Oumla Ltd Networks API
   slug: oumla-ltd-networks-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The profiles API from Oumla Ltd — 1 operation(s) for profiles.
-  name: Oumla Ltd profiles API
+  name: Oumla Ltd Profiles API
   slug: oumla-ltd-profiles-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The tokenization API from Oumla Ltd — 9 operation(s) for tokenization.
-  name: Oumla Ltd tokenization API
+  name: Oumla Ltd Tokenization API
   slug: oumla-ltd-tokenization-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The transactions API from Oumla Ltd — 4 operation(s) for transactions.
-  name: Oumla Ltd transactions API
+  name: Oumla Ltd Transactions API
   slug: oumla-ltd-transactions-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The wallets API from Oumla Ltd — 3 operation(s) for wallets.
-  name: Oumla Ltd wallets API
+  name: Oumla Ltd Wallets API
   slug: oumla-ltd-wallets-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The withdraw API from Oumla Ltd — 1 operation(s) for withdraw.
-  name: Oumla Ltd withdraw API
+  name: Oumla Ltd Withdraw API
   slug: oumla-ltd-withdraw-api
 - baseURL: https://sandbox.oumla.com
   baseurl_source: declared
   description: The workflows API from Oumla Ltd — 1 operation(s) for workflows.
-  name: Oumla Ltd workflows API
+  name: Oumla Ltd Workflows API
   slug: oumla-ltd-workflows-api
 artifact_total: 27
 collections:
@@ -266,7 +266,7 @@ modified: '2026-07-20'
 name: Oumla Ltd
 nav: Providers
 network: true
-overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) network, including addresses API, assets API, contract-interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
+overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Assets API, Contract Interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
 
 
   Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
@@ -313,7 +313,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

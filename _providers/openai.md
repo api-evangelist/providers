@@ -39,76 +39,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 183
+- acting_count: 154
   human_in_the_loop: 6
   name: Openai Agentic Access
-  operation_count: 307
+  operation_count: 265
   slug: openai-agentic-access
-  summary_line: 307 operations · 183 acting · 6 human-in-the-loop
+  summary_line: 265 operations · 154 acting · 6 human-in-the-loop
 api_count: 15
 apis:
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Responses API is OpenAI's most advanced interface for generating model responses. It combines the strengths of the Chat Completions and Assistants APIs into a single streamlined interface, support
-  name: OpenAI Responses API
-  slug: openai-responses-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Moderations API can be used to check whether text or images are potentially harmful. It classifies content across several categories including harassment, hate speech, sexual content, self-harm, v
-  name: OpenAI Moderations API
-  slug: openai-moderations-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Batch API enables asynchronous processing of requests with 50% cost discount, higher rate limits, and completion within 24 hours. It supports /v1/responses, /v1/chat/completions, /v1/embeddings, /
-  name: OpenAI Batch API
-  slug: openai-batch-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: Vector stores are collections of processed files that power semantic search for the file_search tool in the Responses and Assistants APIs. When you add a file to a vector store it is automatically chu
-  name: OpenAI Vector Stores API
-  slug: openai-vector-stores-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Uploads API creates an intermediate Upload object that you can add Parts to, enabling large file uploads. Currently an Upload can accept at most 8 GB in total and expires after an hour. Once you c
-  name: OpenAI Uploads API
-  slug: openai-uploads-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Realtime API enables low-latency, bidirectional communication with models that natively support speech-to-speech interactions as well as multimodal inputs (audio, images, and text) and outputs (au
-  name: OpenAI Realtime API
-  slug: openai-realtime-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Evals API allows you to programmatically configure and run evaluations to test model outputs against your expectations. Evaluations ensure model responses meet style and content criteria you speci
-  name: OpenAI Evals API
-  slug: openai-evals-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Videos API enables programmatic creation, extension, and remixing of videos using Sora models. It provides endpoints for creating a new render job from a text prompt, checking video status, downlo
-  name: OpenAI Videos API
-  slug: openai-videos-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Conversations API allows you to create and manage stateful conversations for use with the Responses API. A conversation object contains an id, a created_at timestamp, and metadata. Because convers
-  name: OpenAI Conversations API
-  slug: openai-conversations-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: 'The Containers API manages sandboxed containers used by Code Interpreter for running Python, data work, file transforms, and iterative debugging. Containers can be created explicitly or auto-managed, '
-  name: OpenAI Containers API
-  slug: openai-containers-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: ChatKit is the best way to build agentic chat experiences. It provides session and thread management for building internal knowledge base assistants, research companions, support agents, and more. Cha
-  name: OpenAI ChatKit API
-  slug: openai-chatkit-api
-- baseURL: https://api.openai.com
-  baseurl_source: declared
-  description: The Skills API surfaces OpenAI's Agent Skills — discoverable folders of instructions, scripts, and resources that agents (notably Codex) can use to perform specific tasks. Operations cover creating, r
-  name: OpenAI Skills API
-  slug: openai-skills-api
 - description: The OpenAI Agents SDK is a lightweight framework for building multi-agent workflows in Python and TypeScript. Primitives include agents (LLMs with instructions, tools, guardrails), handoffs between sp
   name: OpenAI Agents SDK
   slug: openai-agents-sdk
@@ -132,7 +72,7 @@ apis:
   slug: openai-audit-logs-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: Create large batches of API requests to run asynchronously.
+  description: The Batch API enables asynchronous processing of requests with 50% cost discount, higher rate limits, and completion within 24 hours. It supports /v1/responses, /v1/chat/completions, /v1/embeddings, /
   name: OpenAI Batch API
   slug: openai-batch-api
 - baseURL: https://api.openai.com
@@ -147,8 +87,8 @@ apis:
   slug: openai-chat-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Chatkit API from OpenAI — 5 operation(s) for chatkit.
-  name: OpenAI Chatkit API
+  description: ChatKit is the best way to build agentic chat experiences. It provides session and thread management for building internal knowledge base assistants, research companions, support agents, and more. Cha
+  name: OpenAI ChatKit API
   slug: openai-chatkit-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
@@ -157,12 +97,12 @@ apis:
   slug: openai-completions-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Containers API from OpenAI — 5 operation(s) for containers.
+  description: 'The Containers API manages sandboxed containers used by Code Interpreter for running Python, data work, file transforms, and iterative debugging. Containers can be created explicitly or auto-managed, '
   name: OpenAI Containers API
   slug: openai-containers-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: Manage conversations and conversation items.
+  description: The Conversations API allows you to create and manage stateful conversations for use with the Responses API. A conversation object contains an id, a created_at timestamp, and metadata. Because convers
   name: OpenAI Conversations API
   slug: openai-conversations-api
 - baseURL: https://api.openai.com
@@ -172,7 +112,7 @@ apis:
   slug: openai-embeddings-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: Manage and run evals in the OpenAI platform.
+  description: The Evals API allows you to programmatically configure and run evaluations to test model outputs against your expectations. Evaluations ensure model responses meet style and content criteria you speci
   name: OpenAI Evals API
   slug: openai-evals-api
 - baseURL: https://api.openai.com
@@ -217,7 +157,7 @@ apis:
   slug: openai-models-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: Given text and/or image inputs, classifies if those inputs are potentially harmful.
+  description: The Moderations API can be used to check whether text or images are potentially harmful. It classifies content across several categories including harassment, hate speech, sexual content, self-harm, v
   name: OpenAI Moderations API
   slug: openai-moderations-api
 - baseURL: https://api.openai.com
@@ -247,12 +187,12 @@ apis:
   slug: openai-projects-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Realtime API from OpenAI — 9 operation(s) for realtime.
+  description: The Realtime API enables low-latency, bidirectional communication with models that natively support speech-to-speech interactions as well as multimodal inputs (audio, images, and text) and outputs (au
   name: OpenAI Realtime API
   slug: openai-realtime-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Responses API from OpenAI — 6 operation(s) for responses.
+  description: The Responses API is OpenAI's most advanced interface for generating model responses. It combines the strengths of the Chat Completions and Assistants APIs into a single streamlined interface, support
   name: OpenAI Responses API
   slug: openai-responses-api
 - baseURL: https://api.openai.com
@@ -262,7 +202,7 @@ apis:
   slug: openai-roles-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Skills API from OpenAI — 6 operation(s) for skills.
+  description: The Skills API surfaces OpenAI's Agent Skills — discoverable folders of instructions, scripts, and resources that agents (notably Codex) can use to perform specific tasks. Operations cover creating, r
   name: OpenAI Skills API
   slug: openai-skills-api
 - baseURL: https://api.openai.com
@@ -272,7 +212,7 @@ apis:
   slug: openai-threads-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: Use Uploads to upload large files in multiple parts.
+  description: The Uploads API creates an intermediate Upload object that you can add Parts to, enabling large file uploads. Currently an Upload can accept at most 8 GB in total and expires after an hour. Once you c
   name: OpenAI Uploads API
   slug: openai-uploads-api
 - baseURL: https://api.openai.com
@@ -292,12 +232,12 @@ apis:
   slug: openai-users-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Vector stores API from OpenAI — 10 operation(s) for vector stores.
-  name: OpenAI Vector stores API
+  description: Vector stores are collections of processed files that power semantic search for the file_search tool in the Responses and Assistants APIs. When you add a file to a vector store it is automatically chu
+  name: OpenAI Vector Stores API
   slug: openai-vector-stores-api
 - baseURL: https://api.openai.com
   baseurl_source: declared
-  description: The Videos API from OpenAI — 8 operation(s) for videos.
+  description: The Videos API enables programmatic creation, extension, and remixing of videos using Sora models. It provides endpoints for creating a new render job from a text prompt, checking video status, downlo
   name: OpenAI Videos API
   slug: openai-videos-api
 - baseURL: https://api.openai.com
@@ -357,7 +297,7 @@ arazzos:
 - description: Attach a file to a vector store, wait until it is indexed, then run a semantic search.
   name: OpenAI Vector Store Search
   slug: openai-vector-store-search-workflow
-artifact_total: 268
+artifact_total: 255
 asyncapis:
 - description: The OpenAI Realtime API provides low-latency, bidirectional, event-driven communication with multimodal models that natively support speech-to-speech, text, and audio in a single conversation. This As
   name: OpenAI Realtime API
@@ -1229,10 +1169,6 @@ finops:
 - name: Openai Finops
   service_category: AI and Machine Learning
   slug: openai-finops
-graphqls:
-- description: OpenAI does not offer a native public GraphQL endpoint. All official API access is provided through the OpenAI REST API at `https://api.openai.com/v1`. This schema is a comprehensive conceptual GraphQ
-  name: OpenAI GraphQL
-  slug: openai-graphql
 image: https://openai.com/favicon.ico
 integrations:
 - description: Official Python client library for accessing all OpenAI API endpoints with async support and streaming.
@@ -1417,7 +1353,7 @@ modified: '2026-09-16'
 name: OpenAI
 nav: Providers
 network: true
-overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include LLM, OpenAI, Artificial Intelligence, T1, and Agentic Commerce.
+overview: 'OpenAI publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Assistants API, Audio API, Audit Logs API, and 35 more. Tagged areas include LLM, OpenAI, Artificial Intelligence, T1, and Agentic Commerce.
 
 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1473,34 +1409,36 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 76.1
+  composite: 83.9
   coverage:
-    artifact_dirs: 40
-    catalog_earned: 73.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
+    artifact_dirs: 39
+    catalog_earned: 91.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 23.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.2
+  delta: 7.8
   facets:
-    access_clarity: 76.3
+    access_clarity: 100.0
     contract_governance: 47.0
     contract_quality: 79.0
     developer_ergonomics: 96.4
     discoverability: 75.9
-    operational_transparency: 71.1
-  previous_composite: 72.9
+    operational_transparency: 94.7
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 38
     mcp: first-party
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

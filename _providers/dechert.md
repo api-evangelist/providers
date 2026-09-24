@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/security/dechert-domain-security.yml
@@ -84,10 +84,6 @@ common:
 created: '2026-05-23'
 description: Dechert LLP is a global law firm founded in 1875 and headquartered in Philadelphia, Pennsylvania, with "more than 900 lawyers" across 22 offices in the United States, Europe, the Middle East, and Asia (Wikipedia cites roughly 1,000 attorneys in 20 offices; the firm itself emphasizes a global footprint spanning the U.S., Europe, Asia, and the Middle East). The firm is known for market-leading practices in financial services and investment management, private equity, private credit, mergers and acquisitions, international arbitration, intellectual property, life sciences, white collar enforcement, and antitrust. Dechert publishes deep thought-leadership through its OnPoint series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates proprietary information platforms including DAMITT (Dechert Antitrust Merger Investigation Timing Tracker), World Compass, World Passport, Dechert Direct, and a
   Box Portal. Despite these data-driven products, Dechert does not expose any public developer API, SDK, OpenAPI specification, GraphQL endpoint, webhook surface, status page, changelog, or developer portal, and does not publish an RSS feed for OnPoint or any blog series — its only public-facing subscription mechanism is an email preference form.
-graphqls:
-- description: ''
-  name: Dechert GraphQL API
-  slug: dechert-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dechert.png
 layout: provider
 modified: '2026-05-23'
@@ -100,7 +96,7 @@ score:
   band: minimal
   composite: 1.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -127,7 +123,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +153,7 @@ tags:
 - Enforcement
 - ESG
 - Financial Restructuring
-- Financial-Services
+- Financial Services
 - Fintech
 - Global Finance
 - Government Contracts
@@ -179,7 +175,7 @@ tags:
 - Private Credit
 - Private Equity
 - Product Liability
-- Real-Estate
+- Real Estate
 - Regulatory
 - Sovereign Wealth Funds
 - Sustainability

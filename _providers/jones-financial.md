@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Jones Financial Companies
 nav: Providers
 network: true
-overview: Jones Financial Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Investment Management, and Wealth Management.
+overview: Jones Financial Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Investment Management, and Wealth Management.
 press:
 - date: ''
   title: 'Investing in AI: What you should know'
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: jones-financial
 tags:
-- Financial-Services
+- Financial Services
 - Investment Management
 - Wealth Management
 website: https://www.edwardjones.com

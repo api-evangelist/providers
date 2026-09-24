@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-17'
 name: Amparo
 nav: Providers
 network: true
-overview: 'Amparo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Brazil, Financial-Services, and Insurance.
+overview: 'Amparo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Brazil, Financial Services, and Insurance.
 
 
   Amparo''s developer surface includes support and 3 more developer resources.'
@@ -99,7 +99,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ tags:
 - Company
 - Fintech
 - Brazil
-- Financial-Services
+- Financial Services
 - Insurance
 - Lending
 - Bereavement

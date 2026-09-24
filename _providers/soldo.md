@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 152
+- acting_count: 151
   human_in_the_loop: 6
   name: Soldo Agentic Access
   operation_count: 235
   slug: soldo-agentic-access
-  summary_line: 235 operations · 152 acting · 6 human-in-the-loop
+  summary_line: 235 operations · 151 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.soldo.com/business/v2
@@ -568,7 +568,7 @@ modified: '2026-07-21'
 name: Soldo
 nav: Providers
 network: true
-overview: 'Soldo publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Accounting Classification API, Addresses API, Authentication API, and 44 more. Tagged areas include Company, Consumer, Fintech, Financial-Services, and Spend Management.
+overview: 'Soldo publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Accounting Classification API, Addresses API, Authentication API, and 44 more. Tagged areas include Company, Consumer, Fintech, Financial Services, and Spend Management.
 
 
   The Soldo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -632,7 +632,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -652,7 +652,7 @@ tags:
 - Company
 - Consumer
 - Fintech
-- Financial-Services
+- Financial Services
 - Spend Management
 - Expense Management
 - Business Cards

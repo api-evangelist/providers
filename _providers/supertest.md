@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Supports GET, POST, PUT, DELETE, PATCH HTTP met
@@ -156,7 +156,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,7 @@ tags:
 - HTTP Testing
 - Node.js
 - JavaScript
-- Open-Source
+- Open Source
 - API Testing
 - Integration Testing
 - SuperAgent

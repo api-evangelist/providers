@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: JSON over HTTPS REST API for the M-Files information management platform. Served per M-Files Server / Cloud vault under a /REST/ base path; supports objects, files, vaults, views, value lists, and sea
@@ -160,7 +160,7 @@ modified: '2026-07-20'
 name: M-Files
 nav: Providers
 network: true
-overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Document-Management, Information Management, and Content Services.
+overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Saas, Document Management, Information Management, and Content Services.
 
 
   M-Files'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
@@ -187,7 +187,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -215,10 +215,10 @@ slug: m-files
 tags:
 - Company
 - Infrastructure Saas
-- Document-Management
+- Document Management
 - Information Management
 - Content Services
-- Workflow-Automation
+- Workflow Automation
 - Compliance
 - Enterprise Content Management
 website: https://www.m-files.com/

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
+- acting_count: 30
   human_in_the_loop: 0
   name: Vellum Agentic Access
   operation_count: 59
   slug: vellum-agentic-access
-  summary_line: 59 operations · 32 acting
+  summary_line: 59 operations · 30 acting
 api_count: 1
 apis:
 - description: 'The Vellum REST API exposes prompts, workflows, evaluations, datasets, document indexes, deployments, and execution endpoints so developers can run versioned LLM pipelines from their own backends and '
@@ -56,72 +56,72 @@ apis:
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_deployments API from Vellum AI — 7 operation(s) for subpackage_deployments.
-  name: Vellum AI subpackage_deployments API
+  name: Vellum AI Subpackage Deployments API
   slug: vellum-subpackage-deployments-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_documentIndexes API from Vellum AI — 3 operation(s) for subpackage_documentindexes.
-  name: Vellum AI subpackage_documentIndexes API
+  name: Vellum AI Subpackage Document Indexes API
   slug: vellum-subpackage-documentindexes-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_documents API from Vellum AI — 3 operation(s) for subpackage_documents.
-  name: Vellum AI subpackage_documents API
+  name: Vellum AI Subpackage Documents API
   slug: vellum-subpackage-documents-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_events API from Vellum AI — 1 operation(s) for subpackage_events.
-  name: Vellum AI subpackage_events API
+  name: Vellum AI Subpackage Events API
   slug: vellum-subpackage-events-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_folderEntities API from Vellum AI — 2 operation(s) for subpackage_folderentities.
-  name: Vellum AI subpackage_folderEntities API
+  name: Vellum AI Subpackage Folder Entities API
   slug: vellum-subpackage-folderentities-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_sandboxes API from Vellum AI — 3 operation(s) for subpackage_sandboxes.
-  name: Vellum AI subpackage_sandboxes API
+  name: Vellum AI Subpackage Sandboxes API
   slug: vellum-subpackage-sandboxes-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_testSuiteRuns API from Vellum AI — 3 operation(s) for subpackage_testsuiteruns.
-  name: Vellum AI subpackage_testSuiteRuns API
+  name: Vellum AI Subpackage Test Suite Runs API
   slug: vellum-subpackage-testsuiteruns-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_testSuites API from Vellum AI — 3 operation(s) for subpackage_testsuites.
-  name: Vellum AI subpackage_testSuites API
+  name: Vellum AI Subpackage Test Suites API
   slug: vellum-subpackage-testsuites-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_uploadedFiles API from Vellum AI — 1 operation(s) for subpackage_uploadedfiles.
-  name: Vellum AI subpackage_uploadedFiles API
+  name: Vellum AI Subpackage Uploaded Files API
   slug: vellum-subpackage-uploadedfiles-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_workflowDeployments API from Vellum AI — 10 operation(s) for subpackage_workflowdeployments.
-  name: Vellum AI subpackage_workflowDeployments API
+  name: Vellum AI Subpackage Workflow Deployments API
   slug: vellum-subpackage-workflowdeployments-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_workflowExecutions API from Vellum AI — 1 operation(s) for subpackage_workflowexecutions.
-  name: Vellum AI subpackage_workflowExecutions API
+  name: Vellum AI Subpackage Workflow Executions API
   slug: vellum-subpackage-workflowexecutions-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_workflows API from Vellum AI — 1 operation(s) for subpackage_workflows.
-  name: Vellum AI subpackage_workflows API
+  name: Vellum AI Subpackage Workflows API
   slug: vellum-subpackage-workflows-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_workflowSandboxes API from Vellum AI — 1 operation(s) for subpackage_workflowsandboxes.
-  name: Vellum AI subpackage_workflowSandboxes API
+  name: Vellum AI Subpackage Workflow Sandboxes API
   slug: vellum-subpackage-workflowsandboxes-api
 - baseURL: https://api.vellum.ai
   baseurl_source: declared
   description: The subpackage_workspaceSecrets API from Vellum AI — 1 operation(s) for subpackage_workspacesecrets.
-  name: Vellum AI subpackage_workspaceSecrets API
+  name: Vellum AI Subpackage Workspace Secrets API
   slug: vellum-subpackage-workspacesecrets-api
 artifact_total: 39
 collections:
@@ -252,7 +252,7 @@ modified: '2026-05-23'
 name: Vellum AI
 nav: Providers
 network: true
-overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluation, and LLMOps.
+overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, Subpackage Deployments API, Subpackage Document Indexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluation, and LLMOps.
 
 
   Vellum AI''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 8
 apis:
 - description: 'The flagship luxury fitness club brand. Operates more than 300 clubs across major U.S. cities, plus London, Toronto, and Vancouver. Offers signature group fitness, personal training (EFTI-certified), '
@@ -153,7 +153,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

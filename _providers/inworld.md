@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-08'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Router API, and 3 more. Tagged areas include Artificial Intelligence, Voice, Characters, Games, and Conversational.
+overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Router API, and 3 more. Tagged areas include Artificial Intelligence, Voice, Characters, Games, and Conversational AI.
 
 
   Inworld AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -226,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -251,6 +251,7 @@ tags:
 - Voice
 - Characters
 - Games
-- Conversational
+- Conversational AI
+- A2A
 website: https://inworld.ai/
 ---

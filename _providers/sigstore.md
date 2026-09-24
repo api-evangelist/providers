@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 2
   human_in_the_loop: 0
   name: Sigstore Agentic Access
   operation_count: 11
   slug: sigstore-agentic-access
-  summary_line: 11 operations · 4 acting
+  summary_line: 11 operations · 2 acting
 api_count: 2
 apis:
 - description: Cosign is the Sigstore tool for signing and verifying container images and other OCI artifacts. It enables keyless signing using OIDC identity, hardware token signing, and policy enforcement for conta
@@ -54,22 +54,22 @@ apis:
 - baseURL: https://rekor.sigstore.dev
   baseurl_source: declared
   description: The entries API from Sigstore — 3 operation(s) for entries.
-  name: Sigstore entries API
+  name: Sigstore Entries API
   slug: sigstore-entries-api
 - baseURL: https://rekor.sigstore.dev
   baseurl_source: declared
   description: The index API from Sigstore — 1 operation(s) for index.
-  name: Sigstore index API
+  name: Sigstore Index API
   slug: sigstore-index-api
 - baseURL: https://rekor.sigstore.dev
   baseurl_source: declared
   description: The pubkey API from Sigstore — 1 operation(s) for pubkey.
-  name: Sigstore pubkey API
+  name: Sigstore Pubkey API
   slug: sigstore-pubkey-api
 - baseURL: https://rekor.sigstore.dev
   baseurl_source: declared
   description: The tlog API from Sigstore — 2 operation(s) for tlog.
-  name: Sigstore tlog API
+  name: Sigstore Tlog API
   slug: sigstore-tlog-api
 artifact_total: 27
 collections:
@@ -203,7 +203,7 @@ modified: '2026-05-19'
 name: Sigstore
 nav: Providers
 network: true
-overview: 'Sigstore publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CA API, entries API, index API, and 2 more. Tagged areas include Certificate Authority, Code Signing, Containers, Cryptography, and Open-Source.
+overview: 'Sigstore publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CA API, Entries API, Index API, and 2 more. Tagged areas include Certificate Authority, Code Signing, Containers, Cryptography, and Open Source.
 
 
   The Sigstore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -245,7 +245,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -271,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - Code Signing
 - Containers
 - Cryptography
-- Open-Source
+- Open Source
 - PKI
 - Security
 - Software Supply Chain

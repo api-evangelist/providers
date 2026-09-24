@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ modified: '2026-07-19'
 name: Exactly Ai
 nav: Providers
 network: true
-overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Images v1 API and Models v1 API. Tagged areas include Company, Artificial Intelligence, Image-Generation, Generative AI, and Creative Tools.
+overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Images v1 API and Models v1 API. Tagged areas include Company, Artificial Intelligence, Image Generation, Generative AI, and Creative Tools.
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 23 more developer resources.'
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -280,11 +280,11 @@ slug: exactly-ai
 tags:
 - Company
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Generative AI
 - Creative Tools
 - Brands
-- Machine-Learning
+- Machine Learning
 - Media
 website: https://www.exactly.ai/
 ---

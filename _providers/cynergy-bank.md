@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ modified: '2026-07-24'
 name: Cynergy Bank
 nav: Providers
 network: true
-overview: 'Cynergy Bank publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cynergy Bank publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   Cynergy Bank''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
@@ -380,7 +380,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -397,7 +397,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cynergy-bank
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

@@ -61,5 +61,5 @@ tags:
 - E-Commerce
 - Retail
 - Consumer
-- Open-Source
+- Open Source
 ---

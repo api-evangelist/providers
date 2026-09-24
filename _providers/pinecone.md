@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -26,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-09-23'
+  score: 42.4
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 34
   human_in_the_loop: 0
   name: Pinecone Agentic Access
   operation_count: 66
   slug: pinecone-agentic-access
-  summary_line: 66 operations · 39 acting
+  summary_line: 66 operations · 34 acting
 api_count: 6
 apis:
 - baseURL: https://api.pinecone.io
@@ -90,7 +91,7 @@ apis:
   description: The Vector Operations API from Pinecone — 10 operation(s) for vector operations.
   name: Pinecone Vector Operations API
   slug: pinecone-vector-operations-api
-artifact_total: 237
+artifact_total: 236
 collections:
 - collection_type: postman
   name: Pinecone Admin API Keys API
@@ -424,10 +425,6 @@ finops:
 - name: Pinecone Finops
   service_category: Vector Database
   slug: pinecone-finops
-graphqls:
-- description: Pinecone is a managed vector database for AI applications. The API covers index management, upsert and query of vector embeddings, metadata filtering, sparse-dense hybrid search, namespaces, and colle
-  name: Pinecone GraphQL API
-  slug: pinecone-graphql
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/introduction-pinecone-docs.png
 json_schemas:
 - name: APIKey
@@ -847,7 +844,7 @@ modified: '2026-05-19'
 name: Pinecone
 nav: Providers
 network: true
-overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Bulk Operations API, Inference API, and 6 more. Tagged areas include Vector Database, Artificial Intelligence, Embeddings, and RAG.
+overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Bulk Operations API, Inference API, and 6 more. Tagged areas include Vector Database, Artificial Intelligence, Embeddings, RAG, and Database.
 
 
   The Pinecone catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -876,21 +873,21 @@ rules:
   slug: pinecone-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 56.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 47.3
+    catalog_earned: 52.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 61.8
     contract_governance: 9.8
-    contract_quality: 68.5
+    contract_quality: 64.5
     developer_ergonomics: 44.0
-    discoverability: 72.2
+    discoverability: 81.5
     operational_transparency: 55.3
   previous_composite: 56.5
   provenance:
@@ -900,8 +897,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -926,5 +924,7 @@ tags:
 - Artificial Intelligence
 - Embeddings
 - RAG
+- Database
+- A2A
 website: https://www.pinecone.io/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 9
@@ -295,7 +295,7 @@ arazzos:
 - description: Upload a file, read back its metadata, and download its content when it is downloadable.
   name: Anthropic Upload, Verify, and Download a File
   slug: anthropic-upload-verify-download-file-workflow
-artifact_total: 136
+artifact_total: 135
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Content-Typ'
   name: Anthropic Messages Streaming API
@@ -1064,10 +1064,6 @@ finops:
 - name: Anthropic Finops
   service_category: AI and Machine Learning
   slug: anthropic-finops
-graphqls:
-- description: This GraphQL schema is a conceptual representation of the Anthropic Claude API derived from the REST API surface. The Anthropic API provides access to Claude large language models for text generation,
-  name: Anthropic GraphQL Schema
-  slug: anthropic-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anthropic.png
 json_schemas:
 - name: Anthropic Message
@@ -1126,19 +1122,19 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 77.8
+  composite: 77.0
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 68.5
     catalog_earned_first_party: 0.0
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 77.6
+    contract_quality: 74.7
     developer_ergonomics: 96.4
     discoverability: 75.9
     operational_transparency: 71.1
@@ -1154,7 +1150,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1184,7 +1180,7 @@ tags:
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - MCP
 - Agents
 website: https://www.anthropic.com/

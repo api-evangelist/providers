@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.laminar.run
   baseurl_source: declared
   description: The external API from Minicor — 7 operation(s) for external.
-  name: Minicor external API
+  name: Minicor External API
   slug: minicor-external-api
 artifact_total: 15
 asyncapis:
@@ -249,7 +249,7 @@ modified: '2026-07-20'
 name: Minicor
 nav: Providers
 network: true
-overview: 'Minicor publishes 1 API on the [APIs.io](https://apis.io/) network: external API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow-Automation.
+overview: 'Minicor publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow Automation.
 
 
   The Minicor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,7 +283,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 3
+      total: 1
     mcp: first-party
     skills: derived
   regulatory:
@@ -297,7 +297,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -326,7 +326,7 @@ tags:
 - Desktop Automation
 - RPA
 - Computer Use Agents
-- Workflow-Automation
+- Workflow Automation
 - Healthcare
 - Legacy Systems
 - AI Agents

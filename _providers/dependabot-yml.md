@@ -90,5 +90,5 @@ tags:
 - Dependency Management
 - GitHub
 - Security
-- Open-Source
+- Open Source
 ---

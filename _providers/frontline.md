@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 115
+- acting_count: 145
   human_in_the_loop: 0
   name: Frontline Agentic Access
-  operation_count: 188
+  operation_count: 271
   slug: frontline-agentic-access
-  summary_line: 188 operations · 115 acting
+  summary_line: 271 operations · 145 acting
 api_count: 1
 apis:
 - baseURL: https://prod-api.getfrontline.ai/public/v1
@@ -511,7 +511,7 @@ modified: '2026-08-14'
 name: Frontline
 nav: Providers
 network: true
-overview: 'Frontline publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 40 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer-Support.
+overview: 'Frontline publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 40 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer Support.
 
 
   Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 23 more developer resources.'
@@ -554,7 +554,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -629,7 +629,7 @@ tags:
 - CRM
 - AI Agents
 - Sales Automation
-- Customer-Support
+- Customer Support
 - Workflows
 - Conversational AI
 website: https://getfrontline.ai

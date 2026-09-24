@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -57,132 +57,132 @@ apis:
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_applicationTokens API from emnify — 2 operation(s) for subpackage_applicationtokens.
-  name: emnify subpackage_applicationTokens API
+  name: emnify Subpackage Application Tokens API
   slug: emnify-subpackage-applicationtokens-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_authentication API from emnify — 8 operation(s) for subpackage_authentication.
-  name: emnify subpackage_authentication API
+  name: emnify Subpackage Authentication API
   slug: emnify-subpackage-authentication-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_automations API from emnify — 6 operation(s) for subpackage_automations.
-  name: emnify subpackage_automations API
+  name: emnify Subpackage Automations API
   slug: emnify-subpackage-automations-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_cloudConnect API from emnify — 7 operation(s) for subpackage_cloudconnect.
-  name: emnify subpackage_cloudConnect API
+  name: emnify Subpackage Cloud Connect API
   slug: emnify-subpackage-cloudconnect-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_customEvents API from emnify — 4 operation(s) for subpackage_customevents.
-  name: emnify subpackage_customEvents API
+  name: emnify Subpackage Custom Events API
   slug: emnify-subpackage-customevents-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_endpoint API from emnify — 16 operation(s) for subpackage_endpoint.
-  name: emnify subpackage_endpoint API
+  name: emnify Subpackage Endpoint API
   slug: emnify-subpackage-endpoint-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_euicc API from emnify — 5 operation(s) for subpackage_euicc.
-  name: emnify subpackage_euicc API
+  name: emnify Subpackage Euicc API
   slug: emnify-subpackage-euicc-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_euiccOperation API from emnify — 4 operation(s) for subpackage_euiccoperation.
-  name: emnify subpackage_euiccOperation API
+  name: emnify Subpackage Euicc Operation API
   slug: emnify-subpackage-euiccoperation-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_events API from emnify — 2 operation(s) for subpackage_events.
-  name: emnify subpackage_events API
+  name: emnify Subpackage Events API
   slug: emnify-subpackage-events-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_integrations API from emnify — 10 operation(s) for subpackage_integrations.
-  name: emnify subpackage_integrations API
+  name: emnify Subpackage Integrations API
   slug: emnify-subpackage-integrations-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_ipAddressSpaces API from emnify — 3 operation(s) for subpackage_ipaddressspaces.
-  name: emnify subpackage_ipAddressSpaces API
+  name: emnify Subpackage Ip Address Spaces API
   slug: emnify-subpackage-ipaddressspaces-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_lookups API from emnify — 8 operation(s) for subpackage_lookups.
-  name: emnify subpackage_lookups API
+  name: emnify Subpackage Lookups API
   slug: emnify-subpackage-lookups-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_operator API from emnify — 1 operation(s) for subpackage_operator.
-  name: emnify subpackage_operator API
+  name: emnify Subpackage Operator API
   slug: emnify-subpackage-operator-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_organization API from emnify — 9 operation(s) for subpackage_organization.
-  name: emnify subpackage_organization API
+  name: emnify Subpackage Organization API
   slug: emnify-subpackage-organization-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_passwordManagementAndActivation API from emnify — 4 operation(s) for subpackage_passwordmanagementandactivation.
-  name: emnify subpackage_passwordManagementAndActivation API
+  name: emnify Subpackage Password Management And Activation API
   slug: emnify-subpackage-passwordmanagementandactivation-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_serviceLookupsAndConfiguration API from emnify — 5 operation(s) for subpackage_servicelookupsandconfiguration.
-  name: emnify subpackage_serviceLookupsAndConfiguration API
+  name: emnify Subpackage Service Lookups And Configuration API
   slug: emnify-subpackage-servicelookupsandconfiguration-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_serviceProfiles API from emnify — 7 operation(s) for subpackage_serviceprofiles.
-  name: emnify subpackage_serviceProfiles API
+  name: emnify Subpackage Service Profiles API
   slug: emnify-subpackage-serviceprofiles-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_sim API from emnify — 9 operation(s) for subpackage_sim.
-  name: emnify subpackage_sim API
+  name: emnify Subpackage Sim API
   slug: emnify-subpackage-sim-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_simOperation API from emnify — 4 operation(s) for subpackage_simoperation.
-  name: emnify subpackage_simOperation API
+  name: emnify Subpackage Sim Operation API
   slug: emnify-subpackage-simoperation-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_simUnlinkedProductStatistics API from emnify — 1 operation(s) for subpackage_simunlinkedproductstatistics.
-  name: emnify subpackage_simUnlinkedProductStatistics API
+  name: emnify Subpackage Sim Unlinked Product Statistics API
   slug: emnify-subpackage-simunlinkedproductstatistics-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_systemEvents API from emnify — 2 operation(s) for subpackage_systemevents.
-  name: emnify subpackage_systemEvents API
+  name: emnify Subpackage System Events API
   slug: emnify-subpackage-systemevents-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_tagManagement API from emnify — 8 operation(s) for subpackage_tagmanagement.
-  name: emnify subpackage_tagManagement API
+  name: emnify Subpackage Tag Management API
   slug: emnify-subpackage-tagmanagement-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_tariffPlans API from emnify — 3 operation(s) for subpackage_tariffplans.
-  name: emnify subpackage_tariffPlans API
+  name: emnify Subpackage Tariff Plans API
   slug: emnify-subpackage-tariffplans-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_tariffProfiles API from emnify — 9 operation(s) for subpackage_tariffprofiles.
-  name: emnify subpackage_tariffProfiles API
+  name: emnify Subpackage Tariff Profiles API
   slug: emnify-subpackage-tariffprofiles-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_userManagement API from emnify — 8 operation(s) for subpackage_usermanagement.
-  name: emnify subpackage_userManagement API
+  name: emnify Subpackage User Management API
   slug: emnify-subpackage-usermanagement-api
 - baseURL: https://cdn.emnify.net
   baseurl_source: spec
   description: The subpackage_workspaces API from emnify — 7 operation(s) for subpackage_workspaces.
-  name: emnify subpackage_workspaces API
+  name: emnify Subpackage Workspaces API
   slug: emnify-subpackage-workspaces-api
 arazzos:
 - description: Authenticate, list available operators, then add one to an endpoint's blacklist.
@@ -236,7 +236,7 @@ arazzos:
 - description: Authenticate, read a SIM, and suspend it only when it is currently Activated.
   name: emnify Suspend SIM When Active
   slug: emnify-suspend-sim-when-active-workflow
-artifact_total: 123
+artifact_total: 122
 collections:
 - collection_type: postman
   name: emnify REST API
@@ -639,10 +639,6 @@ finops:
 - name: Emnify Finops
   service_category: Networking
   slug: emnify-finops
-graphqls:
-- description: emnify provides a GraphQL API alongside its REST API, enabling flexible single-request queries against the emnify IoT connectivity data model. Clients can select exactly the fields they need, traverse
-  name: emnify GraphQL API
-  slug: emnify-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emnify.png
 json_schemas:
 - name: emnify Endpoint
@@ -671,7 +667,7 @@ modified: '2026-09-16'
 name: emnify
 nav: Providers
 network: true
-overview: 'emnify publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_applicationTokens API, subpackage_authentication API, subpackage_automations API, and 23 more. Tagged areas include IoT, Cellular Connectivity, IoT SIM, eSIM, and Consumer eSIM.
+overview: 'emnify publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Application Tokens API, Subpackage Authentication API, Subpackage Automations API, and 23 more. Tagged areas include IoT, Cellular Connectivity, IoT SIM, eSIM, and Consumer eSIM.
 
 
   The emnify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -711,19 +707,19 @@ rules:
   slug: emnify-rules
 score:
   band: strong
-  composite: 59.4
+  composite: 58.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 80.5
     catalog_earned_first_party: 0.0
     catalog_gap: 34.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 77.2
+    contract_quality: 74.2
     developer_ergonomics: 65.5
     discoverability: 53.7
     operational_transparency: 34.2
@@ -742,7 +738,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

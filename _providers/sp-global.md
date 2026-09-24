@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 66.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 13
   human_in_the_loop: 0
   name: Sp Global Agentic Access
   operation_count: 79
   slug: sp-global-agentic-access
-  summary_line: 79 operations · 17 acting
+  summary_line: 79 operations · 13 acting
 api_count: 5
 apis:
 - baseURL: https://kfinance.kensho.com
@@ -975,7 +975,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 67.1
     contract_governance: 47.0
@@ -983,7 +983,7 @@ score:
     developer_ergonomics: 89.3
     discoverability: 72.2
     operational_transparency: 36.8
-  previous_composite: 65.8
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -995,7 +995,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1025,6 +1025,7 @@ tags:
 - Mobility
 - Named Entity Recognition
 - Speech-to-Text
+- Real-Time
 use_cases:
 - description: Ground LLM-generated investment notes, tearsheets, and earnings previews in live S&P Capital IQ data via the LLM-ready API and the S&P Global Claude Cowork plugin.
   name: AI Equity Research

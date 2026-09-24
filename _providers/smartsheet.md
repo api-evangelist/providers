@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: Manage webhook subscriptions.
   name: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -163,17 +163,13 @@ common:
   url: https://www.smartsheet.com/blog
 created: '2026-05-11'
 description: Smartsheet is a SaaS work management and collaboration platform that combines spreadsheet-style sheets, project plans, Gantt charts, dashboards, forms, and workflow automation for teams and enterprises. The Smartsheet REST API provides programmatic access to sheets, rows, columns, reports, workspaces, users, attachments, and webhooks using OAuth 2.0 or API access tokens.
-graphqls:
-- description: 'This document describes a conceptual GraphQL schema for the Smartsheet REST API. Smartsheet is a SaaS work management and collaboration platform that combines spreadsheet-style sheets, project plans, '
-  name: Smartsheet GraphQL Schema
-  slug: smartsheet-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartsheet.png
 layout: provider
 modified: '2026-05-11'
 name: Smartsheet
 nav: Providers
 network: true
-overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Columns API, Reports API, Rows API, and 2 more. Tagged areas include Work Management, Project Management, Collaboration, Productivity, and Workflow-Automation.
+overview: 'Smartsheet publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Columns API, Reports API, Rows API, and 2 more. Tagged areas include Work Management, Project Management, Collaboration, Productivity, and Workflow Automation.
 
 
   Smartsheet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
@@ -185,19 +181,19 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.9
+  composite: 37.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 59.6
+    contract_quality: 54.4
     developer_ergonomics: 52.4
     discoverability: 75.9
     operational_transparency: 2.6
@@ -210,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -239,7 +235,7 @@ tags:
 - Project Management
 - Collaboration
 - Productivity
-- Workflow-Automation
+- Workflow Automation
 - Spreadsheets
 website: https://www.smartsheet.com
 ---

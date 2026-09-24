@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Amazon Location Service Agentic Access
   operation_count: 8
   slug: amazon-location-service-agentic-access
-  summary_line: 8 operations · 5 acting
+  summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://geo.amazonaws.com
@@ -96,7 +96,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/location/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/agentic-access/amazon-location-service-agentic-access.yml
   title: ''
@@ -375,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -414,5 +414,5 @@ use_cases:
   name: Geofence Alerts
 - description: Embed interactive maps in web and mobile applications.
   name: Map Visualization
-website: https://amazon.com
+website: https://aws.amazon.com/location/
 ---

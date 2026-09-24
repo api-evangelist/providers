@@ -32,7 +32,7 @@ modified: '2026-07-19'
 name: Engine ML
 nav: Providers
 network: true
-overview: Engine ML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Experiment Tracking.
+overview: Engine ML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Experiment Tracking.
 random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/engine-ml/refs/heads/main/screenshots/engine-ml-2026-07-25T213354.png
 security:
@@ -44,7 +44,7 @@ slug: engine-ml
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Experiment Tracking
 - Distributed Training

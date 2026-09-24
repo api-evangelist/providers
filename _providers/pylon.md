@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 44
+- acting_count: 38
   human_in_the_loop: 0
   name: Pylon Agentic Access
   operation_count: 68
   slug: pylon-agentic-access
-  summary_line: 68 operations · 44 acting
+  summary_line: 68 operations · 38 acting
 api_count: 1
 apis:
 - baseURL: https://api.usepylon.com
@@ -189,7 +189,7 @@ modified: '2026-06-20'
 name: Pylon
 nav: Providers
 network: true
-overview: 'Pylon publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Custom Fields API, and 6 more. Tagged areas include Customer-Support, Customer Operations, Ticketing, Knowledge Base, and B2B.
+overview: 'Pylon publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Contacts API, Custom Fields API, and 6 more. Tagged areas include Customer Support, Customer Operations, Ticketing, Knowledge Base, and B2B.
 
 
   Pylon''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -250,7 +250,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: pylon
 tags:
-- Customer-Support
+- Customer Support
 - Customer Operations
 - Ticketing
 - Knowledge Base

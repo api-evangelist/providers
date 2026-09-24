@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 34
+- acting_count: 29
   human_in_the_loop: 0
   name: Prezent Agentic Access
   operation_count: 48
   slug: prezent-agentic-access
-  summary_line: 48 operations · 34 acting
+  summary_line: 48 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: https://api.prezent.ai
@@ -383,7 +383,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integ
@@ -133,7 +133,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

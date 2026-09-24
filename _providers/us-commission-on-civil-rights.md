@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The US Commission on Civil Rights is an independent, bipartisan federal agency established in 1957 that investigates, reports on, and issues public service announcements about discrimination or denial
@@ -141,7 +141,7 @@ modified: '2026-05-03'
 name: US Commission on Civil Rights
 nav: Providers
 network: true
-overview: 'US Commission on Civil Rights publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Civil Rights, Federal-Government, Equal Protection, and Discrimination.
+overview: 'US Commission on Civil Rights publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Civil Rights, Federal Government, Equal Protection, and Discrimination.
 
 
   The US Commission on Civil Rights catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -194,7 +194,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -213,7 +213,7 @@ security:
 slug: us-commission-on-civil-rights
 tags:
 - Civil Rights
-- Federal-Government
+- Federal Government
 - Equal Protection
 - Discrimination
 use_cases:

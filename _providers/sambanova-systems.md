@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ modified: '2026-07-21'
 name: SambaNova Systems
 nav: Providers
 network: true
-overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
+overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
 
 
   SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -361,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -384,7 +384,7 @@ slug: sambanova-systems
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Generative AI

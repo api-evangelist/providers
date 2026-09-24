@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ arazzos:
 - description: Resolve a zip or postal code to coordinates, then return five day and sixteen day forecasts.
   name: OpenWeatherMap Zip To Forecast
   slug: openweathermap-zip-to-forecast-workflow
-artifact_total: 121
+artifact_total: 120
 collections:
 - collection_type: postman
   name: OpenWeatherMap Accumulated Parameters API
@@ -539,10 +539,6 @@ finops:
 - name: Openweathermap Finops
   service_category: API
   slug: openweathermap-finops
-graphqls:
-- description: 'This is a conceptual GraphQL schema for the OpenWeatherMap API surface. OpenWeatherMap does not publish a native GraphQL endpoint; this schema is a structured representation of the REST API resources '
-  name: OpenWeatherMap GraphQL Schema
-  slug: openweathermap-graphql
 image: https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png
 integrations:
 - description: Weather Maps 1.0 tile layers render directly inside Leaflet maps.
@@ -637,19 +633,19 @@ rules:
   slug: openweathermap-rules
 score:
   band: strong
-  composite: 64.9
+  composite: 64.2
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 94.5
     catalog_earned_first_party: 0.0
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 67.1
     contract_governance: 33.3
-    contract_quality: 78.1
+    contract_quality: 75.3
     developer_ergonomics: 65.5
     discoverability: 83.3
     operational_transparency: 34.2
@@ -664,7 +660,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

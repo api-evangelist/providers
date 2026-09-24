@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ modified: '2026-05-19'
 name: Intralinks
 nav: Providers
 network: true
-overview: 'Intralinks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Custom Fields API, Documents API, and 5 more. Tagged areas include Document-Management, Secure File Sharing, and Virtual Data Room.
+overview: 'Intralinks publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Custom Fields API, Documents API, and 5 more. Tagged areas include Document Management, Secure File Sharing, and Virtual Data Room.
 
 
   The Intralinks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -258,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -275,7 +275,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: intralinks
 tags:
-- Document-Management
+- Document Management
 - Secure File Sharing
 - Virtual Data Room
 website: https://www.intralinks.com/

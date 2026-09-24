@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Memory Store Model Context Protocol (MCP) server exposes shared team memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents record and recall organizational context, search memory
@@ -119,7 +119,7 @@ modified: '2026-07-20'
 name: Memory Store
 nav: Providers
 network: true
-overview: 'Memory Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Memory, AI Agents, MCP, and Knowledge-Management.
+overview: 'Memory Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Memory, AI Agents, MCP, and Knowledge Management.
 
 
   Memory Store''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, and 10 more developer resources.'
@@ -146,7 +146,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ tags:
 - Memory
 - AI Agents
 - MCP
-- Knowledge-Management
+- Knowledge Management
 - Context
 - Productivity
 - Y Combinator

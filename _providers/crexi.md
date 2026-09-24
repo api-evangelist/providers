@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Crexi Exchange API is Crexi's partner-facing REST API, documented in a Theneo-published portal at api-docs.crexi.com (password protected) and fronted by a Swagger UI gateway at exchange.crexi.com.
@@ -175,7 +175,7 @@ modified: '2026-08-01'
 name: CREXi
 nav: Providers
 network: true
-overview: 'CREXi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Commercial Real Estate, Marketplace, Property Data, and Listings.
+overview: 'CREXi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Commercial Real Estate, Marketplace, Property Data, and Listings.
 
 
   CREXi''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -231,7 +231,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: crexi
 tags:
-- Real-Estate
+- Real Estate
 - Commercial Real Estate
 - Marketplace
 - Property Data

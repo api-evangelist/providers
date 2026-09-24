@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -120,7 +120,7 @@ modified: '2026-06-12'
 name: Inscribe
 nav: Providers
 network: true
-overview: 'Inscribe publishes 1 API on the [APIs.io](https://apis.io/) network: Document Fraud Detection API. Tagged areas include Fraud Detection, Document Verification, Financial-Services, KYC, and KYB.
+overview: 'Inscribe publishes 1 API on the [APIs.io](https://apis.io/) network: Document Fraud Detection API. Tagged areas include Fraud Detection, Document Verification, Financial Services, KYC, and KYB.
 
 
   The Inscribe catalog on APIs.io includes 1 JSON-LD context.
@@ -162,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ slug: inscribe
 tags:
 - Fraud Detection
 - Document Verification
-- Financial-Services
+- Financial Services
 - KYC
 - KYB
 - Bank Statements
@@ -191,6 +191,6 @@ tags:
 - Risk Management
 - Fintech
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 website: https://www.inscribe.ai/
 ---

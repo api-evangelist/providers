@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - description: REST and WebSocket endpoints for order book trading, algo orders, block trading, spread trading, and copy trading across spot, futures, options, and perpetual swap instruments.
@@ -57,7 +57,7 @@ apis:
 - description: Developer APIs for OKX Web3 wallet integration, including multi-chain transaction signing, DEX aggregation across 500+ DEXs on 20+ networks, and on-chain account management.
   name: OKX Wallet API (Onchain OS)
   slug: okx-wallet-api-onchain-os
-artifact_total: 13
+artifact_total: 12
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/okx/refs/heads/main/security/okx-domain-security.yml
@@ -125,10 +125,6 @@ finops:
 - name: Okx Finops
   service_category: ''
   slug: okx-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the OKX cryptocurrency exchange and Web3 platform. OKX provides a comprehensive REST and WebSocket API covering spot and derivatives trading, ac
-  name: OKX Exchange GraphQL Schema
-  slug: okx-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/okx.png
 jsonld:
 - class_count: 14
@@ -158,19 +154,19 @@ rate_limits:
   slug: okx-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 41.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 78.0
     catalog_earned_first_party: 0.0
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 53.2
+    contract_quality: 41.3
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 68.4
@@ -182,7 +178,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

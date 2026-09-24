@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://farmer.vuestorefront.cloud
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The flush_cache API from Alokai (formerly Vue Storefront) — 1 operation(s) for flush_cache.
-  name: Alokai (formerly Vue Storefront) flush_cache API
+  name: Alokai (formerly Vue Storefront) Flush Cache API
   slug: alokai-formerly-vue-storefront-flush-cache-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
@@ -65,37 +65,37 @@ apis:
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}.
-  name: Alokai (formerly Vue Storefront) instance/{namespace} API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace} API
   slug: alokai-formerly-vue-storefront-instance-namespace-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/exists API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/exists.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/exists API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/exists API
   slug: alokai-formerly-vue-storefront-instance-namespace-exists-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/ingresses API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/ingresses.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/ingresses API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/ingresses API
   slug: alokai-formerly-vue-storefront-instance-namespace-ingresses-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/kube_config API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/kube_config.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/kube_config API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/kube Config API
   slug: alokai-formerly-vue-storefront-instance-namespace-kube-config-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/pod API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/pod API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/pod API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/pod/{pod} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod} API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/pod/{pod} API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
   description: The instance/{namespace}/pod/{pod}/log API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}/log.
-  name: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod}/log API
+  name: Alokai (formerly Vue Storefront) Instance/{namespace}/pod/{pod}/log API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api
 - baseURL: https://farmer.vuestorefront.cloud
   baseurl_source: declared
@@ -321,7 +321,7 @@ modified: '2026-07-17'
 name: Alokai (formerly Vue Storefront)
 nav: Providers
 network: true
-overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, flush_cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
+overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, Flush Cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
@@ -355,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

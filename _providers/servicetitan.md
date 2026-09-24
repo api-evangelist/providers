@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 38
+- acting_count: 37
   human_in_the_loop: 0
   name: Servicetitan Agentic Access
   operation_count: 90
   slug: servicetitan-agentic-access
-  summary_line: 90 operations · 38 acting
+  summary_line: 90 operations · 37 acting
 api_count: 8
 apis:
 - description: Manage marketing campaigns, campaign categories, suppression lists, and attribution data that powers cost-per-lead and cost-per-booked-job reporting. Underpins Marketing Pro email and SMS campaigns.
@@ -892,7 +892,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -922,5 +922,6 @@ tags:
 - Marketing
 - Membership
 - Webhook
+- Scheduling
 website: https://www.servicetitan.com/
 ---

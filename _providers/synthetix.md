@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,27 +58,27 @@ apis:
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The escrowed-balance API from Synthetix — 4 operation(s) for escrowed-balance.
-  name: Synthetix escrowed-balance API
+  name: Synthetix Escrowed Balance API
   slug: synthetix-escrowed-balance-api
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The health-check API from Synthetix — 2 operation(s) for health-check.
-  name: Synthetix health-check API
+  name: Synthetix Health Check API
   slug: synthetix-health-check-api
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The staking API from Synthetix — 2 operation(s) for staking.
-  name: Synthetix staking API
+  name: Synthetix Staking API
   slug: synthetix-staking-api
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The stats API from Synthetix — 1 operation(s) for stats.
-  name: Synthetix stats API
+  name: Synthetix Stats API
   slug: synthetix-stats-api
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The supply API from Synthetix — 2 operation(s) for supply.
-  name: Synthetix supply API
+  name: Synthetix Supply API
   slug: synthetix-supply-api
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
@@ -88,7 +88,7 @@ apis:
 - baseURL: https://papi.synthetix.io/v1/info
   baseurl_source: declared
   description: The vested-balance API from Synthetix — 1 operation(s) for vested-balance.
-  name: Synthetix vested-balance API
+  name: Synthetix Vested Balance API
   slug: synthetix-vested-balance-api
 artifact_total: 28
 collections:
@@ -206,7 +206,7 @@ modified: '2026-06-14'
 name: Synthetix
 nav: Providers
 network: true
-overview: 'Synthetix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including escrowed-balance API, health-check API, staking API, and 4 more. Tagged areas include DeFi, Derivatives, Perpetuals, Synthetic Assets, and Liquidity Protocol.
+overview: 'Synthetix publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Escrowed Balance API, Health Check API, Staking API, and 4 more. Tagged areas include DeFi, Derivatives, Perpetuals, Synthetic Assets, and Liquidity Protocol.
 
 
   The Synthetix catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -243,7 +243,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
@@ -251,7 +251,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 70.4
     operational_transparency: 36.8
-  previous_composite: 29.9
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -266,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

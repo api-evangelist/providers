@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 8
   human_in_the_loop: 0
   name: Ratehawk Agentic Access
   operation_count: 13
   slug: ratehawk-agentic-access
-  summary_line: 13 operations · 12 acting
+  summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.worldota.net/api/b2b/v3
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

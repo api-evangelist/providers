@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The private HTTP API behind the Micro Connect Open Platform (滴灌通开放平台), the enterprise console brands and merchants use to register, submit daily revenue and order detail reports, review data, manage a
@@ -154,7 +154,7 @@ modified: '2026-08-25'
 name: Micro Connect
 nav: Providers
 network: true
-overview: 'Micro Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Exchange, and Revenue-Based Financing.
+overview: 'Micro Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Exchange, and Revenue-Based Financing.
 
 
   Micro Connect''s developer surface includes engineering blog, support, pricing, authentication, and 14 more developer resources.'
@@ -208,7 +208,7 @@ score:
     regime_id: securities_market_data
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -227,7 +227,7 @@ security:
 slug: micro-connect
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Exchange
 - Revenue-Based Financing

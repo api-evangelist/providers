@@ -35,140 +35,140 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 343
-  human_in_the_loop: 14
+- acting_count: 335
+  human_in_the_loop: 16
   name: Langsmith Agentic Access
   operation_count: 556
   slug: langsmith-agentic-access
-  summary_line: 556 operations · 343 acting · 14 human-in-the-loop
+  summary_line: 556 operations · 335 acting · 16 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The access_policies API from LangSmith — 3 operation(s) for access_policies.
-  name: LangSmith access_policies API
+  name: LangSmith Access Policies API
   slug: langsmith-access-policies-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The ace API from LangSmith — 1 operation(s) for ace.
-  name: LangSmith ace API
+  name: LangSmith Ace API
   slug: langsmith-ace-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The agents API from LangSmith — 2 operation(s) for agents.
-  name: LangSmith agents API
+  name: LangSmith Agents API
   slug: langsmith-agents-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The alert_rules API from LangSmith — 3 operation(s) for alert_rules.
-  name: LangSmith alert_rules API
+  name: LangSmith Alert Rules API
   slug: langsmith-alert-rules-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The annotation-queues API from LangSmith — 17 operation(s) for annotation-queues.
-  name: LangSmith annotation-queues API
+  name: LangSmith Annotation Queues API
   slug: langsmith-annotation-queues-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The api-key API from LangSmith — 4 operation(s) for api-key.
-  name: LangSmith api-key API
+  name: LangSmith API Key API
   slug: langsmith-api-key-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The audit-logs API from LangSmith — 1 operation(s) for audit-logs.
-  name: LangSmith audit-logs API
+  name: LangSmith Audit Logs API
   slug: langsmith-audit-logs-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The auth API from LangSmith — 7 operation(s) for auth.
-  name: LangSmith auth API
+  name: LangSmith Auth API
   slug: langsmith-auth-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The aws_marketplace API from LangSmith — 1 operation(s) for aws_marketplace.
-  name: LangSmith aws_marketplace API
+  name: LangSmith Aws Marketplace API
   slug: langsmith-aws-marketplace-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The backfills API from LangSmith — 1 operation(s) for backfills.
-  name: LangSmith backfills API
+  name: LangSmith Backfills API
   slug: langsmith-backfills-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The beacon API from LangSmith — 1 operation(s) for beacon.
-  name: LangSmith beacon API
+  name: LangSmith Beacon API
   slug: langsmith-beacon-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The bulk-exports API from LangSmith — 7 operation(s) for bulk-exports.
-  name: LangSmith bulk-exports API
+  name: LangSmith Bulk Exports API
   slug: langsmith-bulk-exports-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The charts API from LangSmith — 13 operation(s) for charts.
-  name: LangSmith charts API
+  name: LangSmith Charts API
   slug: langsmith-charts-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The comments API from LangSmith — 3 operation(s) for comments.
-  name: LangSmith comments API
+  name: LangSmith Comments API
   slug: langsmith-comments-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The commits API from LangSmith — 2 operation(s) for commits.
-  name: LangSmith commits API
+  name: LangSmith Commits API
   slug: langsmith-commits-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The data_planes API from LangSmith — 1 operation(s) for data_planes.
-  name: LangSmith data_planes API
+  name: LangSmith Data Planes API
   slug: langsmith-data-planes-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The datasets API from LangSmith — 28 operation(s) for datasets.
-  name: LangSmith datasets API
+  name: LangSmith Datasets API
   slug: langsmith-datasets-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The directories API from LangSmith — 2 operation(s) for directories.
-  name: LangSmith directories API
+  name: LangSmith Directories API
   slug: langsmith-directories-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The evaluators API from LangSmith — 2 operation(s) for evaluators.
-  name: LangSmith evaluators API
+  name: LangSmith Evaluators API
   slug: langsmith-evaluators-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The examples API from LangSmith — 9 operation(s) for examples.
-  name: LangSmith examples API
+  name: LangSmith Examples API
   slug: langsmith-examples-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The experiment-view-overrides API from LangSmith — 2 operation(s) for experiment-view-overrides.
-  name: LangSmith experiment-view-overrides API
+  name: LangSmith Experiment View Overrides API
   slug: langsmith-experiment-view-overrides-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The experiments API from LangSmith — 1 operation(s) for experiments.
-  name: LangSmith experiments API
+  name: LangSmith Experiments API
   slug: langsmith-experiments-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The features API from LangSmith — 4 operation(s) for features.
-  name: LangSmith features API
+  name: LangSmith Features API
   slug: langsmith-features-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The feedback API from LangSmith — 7 operation(s) for feedback.
-  name: LangSmith feedback API
+  name: LangSmith Feedback API
   slug: langsmith-feedback-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The feedback-configs API from LangSmith — 1 operation(s) for feedback-configs.
-  name: LangSmith feedback-configs API
+  name: LangSmith Feedback Configs API
   slug: langsmith-feedback-configs-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -203,67 +203,67 @@ apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The fleet_webhooks API from LangSmith — 1 operation(s) for fleet_webhooks.
-  name: LangSmith fleet_webhooks API
+  name: LangSmith Fleet Webhooks API
   slug: langsmith-fleet-webhooks-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The gateway API from LangSmith — 4 operation(s) for gateway.
-  name: LangSmith gateway API
+  name: LangSmith Gateway API
   slug: langsmith-gateway-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The gateway-policies API from LangSmith — 2 operation(s) for gateway-policies.
-  name: LangSmith gateway-policies API
+  name: LangSmith Gateway Policies API
   slug: langsmith-gateway-policies-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The hub_environments API from LangSmith — 2 operation(s) for hub_environments.
-  name: LangSmith hub_environments API
+  name: LangSmith Hub Environments API
   slug: langsmith-hub-environments-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The info API from LangSmith — 2 operation(s) for info.
-  name: LangSmith info API
+  name: LangSmith Info API
   slug: langsmith-info-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The integrations API from LangSmith — 1 operation(s) for integrations.
-  name: LangSmith integrations API
+  name: LangSmith Integrations API
   slug: langsmith-integrations-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The likes API from LangSmith — 1 operation(s) for likes.
-  name: LangSmith likes API
+  name: LangSmith Likes API
   slug: langsmith-likes-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The mcp API from LangSmith — 2 operation(s) for mcp.
-  name: LangSmith mcp API
+  name: LangSmith MCP API
   slug: langsmith-mcp-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The mcp_vendors API from LangSmith — 6 operation(s) for mcp_vendors.
-  name: LangSmith mcp_vendors API
+  name: LangSmith MCP Vendors API
   slug: langsmith-mcp-vendors-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The me API from LangSmith — 4 operation(s) for me.
-  name: LangSmith me API
+  name: LangSmith Me API
   slug: langsmith-me-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The metrics API from LangSmith — 1 operation(s) for metrics.
-  name: LangSmith metrics API
+  name: LangSmith Metrics API
   slug: langsmith-metrics-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The model-price-map API from LangSmith — 2 operation(s) for model-price-map.
-  name: LangSmith model-price-map API
+  name: LangSmith Model Price Map API
   slug: langsmith-model-price-map-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The nps API from LangSmith — 1 operation(s) for nps.
-  name: LangSmith nps API
+  name: LangSmith Nps API
   slug: langsmith-nps-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -273,7 +273,7 @@ apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The optimization-jobs API from LangSmith — 4 operation(s) for optimization-jobs.
-  name: LangSmith optimization-jobs API
+  name: LangSmith Optimization Jobs API
   slug: langsmith-optimization-jobs-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -283,57 +283,57 @@ apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The orgs API from LangSmith — 39 operation(s) for orgs.
-  name: LangSmith orgs API
+  name: LangSmith Orgs API
   slug: langsmith-orgs-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The ownerships API from LangSmith — 1 operation(s) for ownerships.
-  name: LangSmith ownerships API
+  name: LangSmith Ownerships API
   slug: langsmith-ownerships-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The playground-settings API from LangSmith — 2 operation(s) for playground-settings.
-  name: LangSmith playground-settings API
+  name: LangSmith Playground Settings API
   slug: langsmith-playground-settings-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The prompt-webhooks API from LangSmith — 3 operation(s) for prompt-webhooks.
-  name: LangSmith prompt-webhooks API
+  name: LangSmith Prompt Webhooks API
   slug: langsmith-prompt-webhooks-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The prompts API from LangSmith — 2 operation(s) for prompts.
-  name: LangSmith prompts API
+  name: LangSmith Prompts API
   slug: langsmith-prompts-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The public API from LangSmith — 20 operation(s) for public.
-  name: LangSmith public API
+  name: LangSmith Public API
   slug: langsmith-public-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The repos API from LangSmith — 5 operation(s) for repos.
-  name: LangSmith repos API
+  name: LangSmith Repos API
   slug: langsmith-repos-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The run API from LangSmith — 19 operation(s) for run.
-  name: LangSmith run API
+  name: LangSmith Run API
   slug: langsmith-run-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The runs API from LangSmith — 7 operation(s) for runs.
-  name: LangSmith runs API
+  name: LangSmith Runs API
   slug: langsmith-runs-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The sandboxes API from LangSmith — 12 operation(s) for sandboxes.
-  name: LangSmith sandboxes API
+  name: LangSmith Sandboxes API
   slug: langsmith-sandboxes-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The sandboxes-internal API from LangSmith — 1 operation(s) for sandboxes-internal.
-  name: LangSmith sandboxes-internal API
+  name: LangSmith Sandboxes Internal API
   slug: langsmith-sandboxes-internal-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -343,52 +343,52 @@ apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The service-accounts API from LangSmith — 2 operation(s) for service-accounts.
-  name: LangSmith service-accounts API
+  name: LangSmith Service Accounts API
   slug: langsmith-service-accounts-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The sessions API from LangSmith — 1 operation(s) for sessions.
-  name: LangSmith sessions API
+  name: LangSmith Sessions API
   slug: langsmith-sessions-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The settings API from LangSmith — 2 operation(s) for settings.
-  name: LangSmith settings API
+  name: LangSmith Settings API
   slug: langsmith-settings-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The skills API from LangSmith — 2 operation(s) for skills.
-  name: LangSmith skills API
+  name: LangSmith Skills API
   slug: langsmith-skills-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The tag-transitions API from LangSmith — 1 operation(s) for tag-transitions.
-  name: LangSmith tag-transitions API
+  name: LangSmith Tag Transitions API
   slug: langsmith-tag-transitions-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The tags API from LangSmith — 2 operation(s) for tags.
-  name: LangSmith tags API
+  name: LangSmith Tags API
   slug: langsmith-tags-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The tenant API from LangSmith — 1 operation(s) for tenant.
-  name: LangSmith tenant API
+  name: LangSmith Tenant API
   slug: langsmith-tenant-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The threads API from LangSmith — 2 operation(s) for threads.
-  name: LangSmith threads API
+  name: LangSmith Threads API
   slug: langsmith-threads-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The tools API from LangSmith — 3 operation(s) for tools.
-  name: LangSmith tools API
+  name: LangSmith Tools API
   slug: langsmith-tools-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The tracer-sessions API from LangSmith — 14 operation(s) for tracer-sessions.
-  name: LangSmith tracer-sessions API
+  name: LangSmith Tracer Sessions API
   slug: langsmith-tracer-sessions-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -398,12 +398,12 @@ apis:
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The usage-limits API from LangSmith — 3 operation(s) for usage-limits.
-  name: LangSmith usage-limits API
+  name: LangSmith Usage Limits API
   slug: langsmith-usage-limits-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
   description: The workspaces API from LangSmith — 25 operation(s) for workspaces.
-  name: LangSmith workspaces API
+  name: LangSmith Workspaces API
   slug: langsmith-workspaces-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
@@ -701,7 +701,7 @@ modified: '2026-05-19'
 name: LangSmith
 nav: Providers
 network: true
-overview: 'LangSmith publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, agents API, and 70 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and LangChain.
+overview: 'LangSmith publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Ace API, Agents API, and 70 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and LangChain.
 
 
   LangSmith''s developer surface includes authentication, documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -744,7 +744,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -766,5 +766,6 @@ tags:
 - Observability
 - Evaluation
 - LangChain
+- A2A
 website: https://smith.langchain.com/
 ---

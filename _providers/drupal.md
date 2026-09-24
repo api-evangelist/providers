@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -341,7 +341,7 @@ modified: '2026-09-17'
 name: Drupal
 nav: Providers
 network: true
-overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more. Tagged areas include Content Management, CMS, Open-Source, JSON:API, and GraphQL.
+overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more. Tagged areas include Content Management, CMS, Open Source, JSON:API, and GraphQL.
 
 
   The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -403,7 +403,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -426,7 +426,7 @@ slug: drupal
 tags:
 - Content Management
 - CMS
-- Open-Source
+- Open Source
 - JSON:API
 - GraphQL
 - Headless

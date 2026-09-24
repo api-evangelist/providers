@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 97
-  human_in_the_loop: 7
+- acting_count: 95
+  human_in_the_loop: 6
   name: Anaconda Agentic Access
-  operation_count: 223
+  operation_count: 235
   slug: anaconda-agentic-access
-  summary_line: 223 operations · 97 acting · 7 human-in-the-loop
+  summary_line: 235 operations · 95 acting · 6 human-in-the-loop
 api_count: 5
 apis:
 - description: The public REST API behind anaconda.org — the community package repository that serves conda and PyPI artifacts. Exposes user/organization profiles, packages, releases, files, labels and channels, and
@@ -466,7 +466,7 @@ modified: '2026-09-16'
 name: Anaconda
 nav: Providers
 network: true
-overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine-Learning, Artificial Intelligence, and Package Management.
+overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine Learning, Artificial Intelligence, and Package Management.
 
 
   The Anaconda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -509,7 +509,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -536,7 +536,7 @@ slug: anaconda
 tags:
 - Company
 - Data Science
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Package Management
 - Python

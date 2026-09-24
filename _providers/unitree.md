@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 24
+artifact_total: 23
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unitree/refs/heads/main/security/unitree-domain-security.yml
@@ -311,10 +311,6 @@ features:
 - Unitree App Store + unitree-app-templates for on-robot app distribution
 - DDS-based on-device communication (no public cloud API)
 - 46+ public repositories under github.com/unitreerobotics with active commits
-graphqls:
-- description: ''
-  name: Unitree Robotics GraphQL API
-  slug: unitree-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unitree.png
 layout: provider
 modified: '2026-05-24'
@@ -330,7 +326,7 @@ score:
   band: minimal
   composite: 10.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -344,6 +340,11 @@ score:
     developer_ergonomics: 28.6
     discoverability: 50.0
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 10.3
   regulatory:
     applies: true
@@ -352,7 +353,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -35,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Harmony Agentic Access
   operation_count: 9
   slug: harmony-agentic-access
-  summary_line: 9 operations · 5 acting
+  summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://api.harmony.io/service-desk
   baseurl_source: declared
   description: The tickets API from Harmony — 6 operation(s) for tickets.
-  name: Harmony tickets API
+  name: Harmony Tickets API
   slug: harmony-tickets-api
 arazzos:
 - description: Create a service-desk ticket, read it back, triage it, and audit the change.
@@ -164,7 +164,7 @@ modified: '2026-07-19'
 name: Harmony
 nav: Providers
 network: true
-overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
+overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: Tickets API. Tagged areas include ITSM, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 15 more developer resources.'
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

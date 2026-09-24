@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/fidelity-investments/refs/heads/main/security/fidelity-investments-domain-security.yml
@@ -89,43 +89,34 @@ common:
   title: ''
   type: Login
   url: https://login.fidelity.com/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fidelity-investments/refs/heads/main/graphql/fidelity-investments-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/fidelity-investments-graphql.md
 created: '2026-05-05'
 description: One of the largest financial services companies in the world providing investment management, retirement planning, brokerage, and wealth management services. Manages trillions of dollars in assets and serves tens of millions of individual investors and institutions. Fidelity does not run a public developer portal; partner integrations are delivered through curated marketplace relationships and through Fidelity Institutional / Wealthscape for advisors.
-graphqls:
-- description: Fidelity Investments is one of the largest financial services companies in the world, providing investment management, retirement planning, brokerage, and wealth management services. This conceptual G
-  name: Fidelity Investments GraphQL Schema
-  slug: fidelity-investments-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fidelity-investments.png
 layout: provider
 modified: '2026-05-16'
 name: Fidelity Investments
 nav: Providers
 network: true
-overview: 'Fidelity Investments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Asset Management, Brokerage, Wealth Management, and Retirement.
+overview: 'Fidelity Investments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Asset Management, Brokerage, Wealth Management, and Retirement.
 
 
-  Fidelity Investments'' developer surface includes product news and 13 more developer resources.'
+  Fidelity Investments'' developer surface includes product news and 12 more developer resources.'
 random_paper: 7
 score:
-  band: emerging
-  composite: 16.3
+  band: minimal
+  composite: 7.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 22.4
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 44.4
     operational_transparency: 2.6
@@ -137,8 +128,8 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -151,7 +142,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: fidelity-investments
 tags:
-- Financial-Services
+- Financial Services
 - Asset Management
 - Brokerage
 - Wealth Management

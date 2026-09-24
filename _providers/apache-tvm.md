@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -174,7 +174,7 @@ score:
     score: 40.0
   previous_composite: 25.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -197,7 +197,7 @@ tags:
 - Deep Learning
 - Edge Computing
 - Model Optimization
-- Open-Source
+- Open Source
 use_cases:
 - description: Deploy optimized deep learning models on edge devices and microcontrollers.
   name: Edge AI Deployment

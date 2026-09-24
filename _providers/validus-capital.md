@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -124,7 +124,7 @@ modified: '2026-09-02'
 name: Validus Capital
 nav: Providers
 network: true
-overview: 'Validus Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, SME Finance, and Fintech.
+overview: 'Validus Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, SME Finance, and Fintech.
 
 
   Validus Capital''s developer surface includes engineering blog and 14 more developer resources.'
@@ -166,7 +166,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ security:
 slug: validus-capital
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - SME Finance
 - Fintech

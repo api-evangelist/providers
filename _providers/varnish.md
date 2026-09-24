@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Varnish Cache CLI management interface provides programmatic control over a running Varnish instance. It is accessible via varnishadm or TCP socket and supports configuration management (VCL load/
@@ -147,7 +147,7 @@ modified: '2026-05-03'
 name: Varnish Cache
 nav: Providers
 network: true
-overview: 'Varnish Cache publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Caching, Caching Proxy, Content Delivery, HTTP Accelerator, and Open-Source.
+overview: 'Varnish Cache publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Caching, Caching Proxy, Content Delivery, HTTP Accelerator, and Open Source.
 
 
   Varnish Cache''s developer surface includes documentation, release notes, engineering blog, Stack Overflow tag, and 8 more developer resources.'
@@ -180,7 +180,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +198,7 @@ tags:
 - Caching Proxy
 - Content Delivery
 - HTTP Accelerator
-- Open-Source
+- Open Source
 - Proxy
 - Reverse Proxy
 use_cases:

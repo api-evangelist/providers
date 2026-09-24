@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 18
   human_in_the_loop: 0
   name: Rabbitmq Agentic Access
   operation_count: 45
   slug: rabbitmq-agentic-access
-  summary_line: 45 operations · 19 acting
+  summary_line: 45 operations · 18 acting
 api_count: 1
 apis:
 - description: AMQP 0-9-1 messaging protocol for producing and consuming messages via exchanges, queues, and bindings with support for multiple exchange types, message acknowledgment, and consumer groups.
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -309,5 +309,6 @@ tags:
 - Event Streaming
 - Message Broker
 - Messaging
+- Real-Time
 website: https://www.rabbitmq.com/
 ---

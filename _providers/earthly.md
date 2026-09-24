@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: operate
   title: ''
@@ -116,10 +116,6 @@ common:
   url: https://docs.earthly.dev/llms.txt
 created: '2026-03-26'
 description: Earthly is an open source build automation tool that combines the best of Dockerfiles and Makefiles into a single, consistent build system, providing reproducible builds that run the same way on a developer laptop as they do in CI. Earthly Cloud and Earthly Lunar extend the open source CLI with hosted runners and code governance guardrails. No public REST or GraphQL API has been published; integration is via the Earthly CLI and Earthfile build definitions.
-graphqls:
-- description: ''
-  name: Earthly GraphQL API
-  slug: earthly-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/earthly.png
 layout: provider
 modified: '2026-04-28'
@@ -135,7 +131,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -154,7 +150,7 @@ score:
     score: 65.0
   previous_composite: 23.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +173,7 @@ tags:
 - Containers
 - Docker
 - Reproducible Builds
-- Open-Source
+- Open Source
 - Developer Tools
 website: https://earthly.dev/
 ---

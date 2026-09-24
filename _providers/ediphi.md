@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Private application API powering the Ediphi preconstruction platform and its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger specification or developer documentation i
@@ -40,10 +40,6 @@ apis:
   slug: ediphi-api
 artifact_total: 3
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/autodesk/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/security/ediphi-domain-security.yml
   title: ''
@@ -102,7 +98,7 @@ network: true
 overview: 'Ediphi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Preconstruction, Cost Estimating, and Construction Technology.
 
 
-  Ediphi''s developer surface includes support, engineering blog, signup flow, and 9 more developer resources.'
+  Ediphi''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
 random_paper: 11
 score:
   band: emerging
@@ -124,7 +120,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

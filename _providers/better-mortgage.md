@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Better's OpenID Connect / OAuth 2.0 identity provider for partner single sign-on, backed by AWS Cognito. Endpoints and metadata are published via the standard OIDC and OAuth authorization-server disco
@@ -94,7 +94,7 @@ modified: '2026-07-18'
 name: Better Mortgage
 nav: Providers
 network: true
-overview: 'Better Mortgage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Real-Estate.
+overview: 'Better Mortgage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Real Estate.
 
 
   Better Mortgage''s developer surface includes engineering blog, support, pricing, authentication, and 6 more developer resources.'
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ tags:
 - Fintech
 - Mortgage
 - Lending
-- Real-Estate
+- Real Estate
 - Home Finance
 - HELOC
 - OpenID Connect

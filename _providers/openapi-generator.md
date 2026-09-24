@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.openapi-generator.tech
@@ -209,7 +209,7 @@ modified: '2026-08-06'
 name: OpenAPI Generator
 nav: Providers
 network: true
-overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open-Source, OpenAPI, and SDK.
+overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
 
 
   OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -270,7 +270,7 @@ slug: openapi-generator
 tags:
 - Code Generation
 - Documentation
-- Open-Source
+- Open Source
 - OpenAPI
 - SDK
 - API Tooling
@@ -278,5 +278,6 @@ tags:
 - Swagger
 - Server Stubs
 - Codegen
+- SDK Generation
 website: https://openapi-generator.tech
 ---

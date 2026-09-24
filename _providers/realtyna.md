@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The WPL API Plugin is a RESTful HTTP/JSON interface for the Realtyna WPL WordPress platform. It supports user account registration and management, authentication, retrieving active listing types, load
@@ -88,7 +88,7 @@ modified: '2026-04-28'
 name: Realtyna
 nav: Providers
 network: true
-overview: 'Realtyna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, MLS, IDX, RESO, and WordPress.
+overview: 'Realtyna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, MLS, IDX, RESO, and WordPress.
 
 
   Realtyna''s developer surface includes engineering blog, documentation, and 5 more developer resources.'
@@ -121,7 +121,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: realtyna
 tags:
-- Real-Estate
+- Real Estate
 - MLS
 - IDX
 - RESO

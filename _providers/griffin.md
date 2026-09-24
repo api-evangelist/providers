@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 42
+- acting_count: 39
   human_in_the_loop: 1
   name: Griffin Agentic Access
   operation_count: 97
   slug: griffin-agentic-access
-  summary_line: 97 operations · 42 acting · 1 human-in-the-loop
+  summary_line: 97 operations · 39 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.griffin.com/v0
@@ -506,7 +506,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -531,6 +531,6 @@ tags:
 - KYC
 - Open Banking
 - Bank Accounts
-- Financial-Services
+- Financial Services
 website: https://griffin.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Software Engineering Daily provides RSS podcast feeds for its main episode stream as well as topic-specific feeds. These standard podcast RSS feeds are compatible with all major podcast clients includ
@@ -153,7 +153,7 @@ modified: '2026-05-02'
 name: Software Engineering Daily
 nav: Providers
 network: true
-overview: 'Software Engineering Daily publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Podcasts, Software Engineering, Technical Content, and Open-Source.
+overview: 'Software Engineering Daily publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Podcasts, Software Engineering, Technical Content, and Open Source.
 
 
   The Software Engineering Daily catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -203,7 +203,7 @@ score:
     score: 50.0
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,6 +221,6 @@ tags:
 - Podcasts
 - Software Engineering
 - Technical Content
-- Open-Source
+- Open Source
 website: https://softwareengineeringdaily.com/
 ---

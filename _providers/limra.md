@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-11'
 name: LIMRA
 nav: Providers
 network: true
-overview: 'LIMRA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Life Insurance, Insurance Research, Benchmarking, Financial-Services, and Employee Benefits.
+overview: 'LIMRA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Life Insurance, Insurance Research, Benchmarking, Financial Services, and Employee Benefits.
 
 
   LIMRA''s developer surface includes documentation and 6 more developer resources.'
@@ -111,7 +111,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -128,7 +128,7 @@ tags:
 - Life Insurance
 - Insurance Research
 - Benchmarking
-- Financial-Services
+- Financial Services
 - Employee Benefits
 - Data Exchange Standards
 - Trade Association

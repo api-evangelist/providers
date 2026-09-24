@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -190,7 +190,7 @@ modified: '2026-05-19'
 name: Node-RED
 nav: Providers
 network: true
-overview: 'Node-RED publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow-Automation, Flow-Based Programming, and IoT.
+overview: 'Node-RED publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Diagnostics API, Flow API, and 3 more. Tagged areas include Self-Hosted, Workflow Automation, Flow-Based Programming, and IoT.
 
 
   The Node-RED catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -247,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -265,7 +265,7 @@ security:
 slug: node-red
 tags:
 - Self-Hosted
-- Workflow-Automation
+- Workflow Automation
 - Flow-Based Programming
 - IoT
 website: https://nodered.org

@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,76 +35,76 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-09-23'
+  score: 34.5
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 174
+- acting_count: 169
   human_in_the_loop: 7
   name: Structify Agentic Access
   operation_count: 281
   slug: structify-agentic-access
-  summary_line: 281 operations · 174 acting · 7 human-in-the-loop
+  summary_line: 281 operations · 169 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: All the accessible information about your account through our API
-  name: Structify account API
+  name: Structify Account API
   slug: structify-account-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Admin endpoints
-  name: Structify admin API
+  name: Structify Admin API
   slug: structify-admin-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Chat session management endpoints
-  name: Structify chat API
+  name: Structify Chat API
   slug: structify-chat-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The chat_templates API from Structify — 2 operation(s) for chat_templates.
-  name: Structify chat_templates API
+  name: Structify Chat Templates API
   slug: structify-chat-templates-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Code generation endpoints
-  name: Structify code API
+  name: Structify Code API
   slug: structify-code-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The connector_catalog API from Structify — 3 operation(s) for connector_catalog.
-  name: Structify connector_catalog API
+  name: Structify Connector Catalog API
   slug: structify-connector-catalog-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The connectors API from Structify — 24 operation(s) for connectors.
-  name: Structify connectors API
+  name: Structify Connectors API
   slug: structify-connectors-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Dataset management endpoints
-  name: Structify dataset API
+  name: Structify Dataset API
   slug: structify-dataset-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The documents API from Structify — 4 operation(s) for documents.
-  name: Structify documents API
+  name: Structify Documents API
   slug: structify-documents-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The entity API from Structify — 21 operation(s) for entity.
-  name: Structify entity API
+  name: Structify Entity API
   slug: structify-entity-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The jobs API from Structify — 5 operation(s) for jobs.
-  name: Structify jobs API
+  name: Structify Jobs API
   slug: structify-jobs-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The match API from Structify — 2 operation(s) for match.
-  name: Structify match API
+  name: Structify Match API
   slug: structify-match-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
@@ -114,97 +114,97 @@ apis:
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Project management endpoints
-  name: Structify project API
+  name: Structify Project API
   slug: structify-project-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The public_sessions API from Structify — 2 operation(s) for public_sessions.
-  name: Structify public_sessions API
+  name: Structify Public Sessions API
   slug: structify-public-sessions-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Sandbox management endpoints
-  name: Structify sandbox API
+  name: Structify Sandbox API
   slug: structify-sandbox-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The scrape API from Structify — 2 operation(s) for scrape.
-  name: Structify scrape API
+  name: Structify Scrape API
   slug: structify-scrape-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The server API from Structify — 1 operation(s) for server.
-  name: Structify server API
+  name: Structify Server API
   slug: structify-server-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The sessions API from Structify — 16 operation(s) for sessions.
-  name: Structify sessions API
+  name: Structify Sessions API
   slug: structify-sessions-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The slack API from Structify — 1 operation(s) for slack.
-  name: Structify slack API
+  name: Structify Slack API
   slug: structify-slack-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The source API from Structify — 3 operation(s) for source.
-  name: Structify source API
+  name: Structify Source API
   slug: structify-source-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The structure API from Structify — 8 operation(s) for structure.
-  name: Structify structure API
+  name: Structify Structure API
   slug: structify-structure-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Team management endpoints
-  name: Structify team API
+  name: Structify Team API
   slug: structify-team-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The teams API from Structify — 2 operation(s) for teams.
-  name: Structify teams API
+  name: Structify Teams API
   slug: structify-teams-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The transactions API from Structify — 3 operation(s) for transactions.
-  name: Structify transactions API
+  name: Structify Transactions API
   slug: structify-transactions-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The usage API from Structify — 2 operation(s) for usage.
-  name: Structify usage API
+  name: Structify Usage API
   slug: structify-usage-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The user API from Structify — 2 operation(s) for user.
-  name: Structify user API
+  name: Structify User API
   slug: structify-user-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The webhook API from Structify — 1 operation(s) for webhook.
-  name: Structify webhook API
+  name: Structify Webhook API
   slug: structify-webhook-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Whitelabeled service proxy endpoints
-  name: Structify whitelabel API
+  name: Structify Whitelabel API
   slug: structify-whitelabel-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: Team wiki page management endpoints
-  name: Structify wiki API
+  name: Structify Wiki API
   slug: structify-wiki-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The workflow API from Structify — 3 operation(s) for workflow.
-  name: Structify workflow API
+  name: Structify Workflow API
   slug: structify-workflow-api
 - baseURL: https://api.structify.ai
   baseurl_source: declared
   description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
-  name: Structify workflow_schedule API
+  name: Structify Workflow Schedule API
   slug: structify-workflow-schedule-api
 artifact_total: 72
 asyncapis:
@@ -486,7 +486,7 @@ modified: '2026-08-14'
 name: Structify
 nav: Providers
 network: true
-overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) network, including account API, admin API, chat API, and 29 more. Tagged areas include Company, Artificial Intelligence, Data, Web Scraping, and Data Extraction.
+overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Chat API, and 29 more. Tagged areas include Company, Artificial Intelligence, Data, Web Scraping, and Data Extraction.
 
 
   The Structify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -504,7 +504,7 @@ rate_limits:
   slug: structify-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 64.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 57.0
@@ -512,7 +512,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 2.3
   facets:
     access_clarity: 75.0
     contract_governance: 18.2
@@ -520,7 +520,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 75.9
     operational_transparency: 63.2
-  previous_composite: 60.8
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -532,11 +532,11 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
-    score: 11.1
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:
 - kind: authentication
@@ -561,5 +561,6 @@ tags:
 - Knowledge Graph
 - ETL
 - Data Enrichment
+- A2A
 website: https://structify.ai
 ---

@@ -23,13 +23,13 @@ modified: '2026-09-16'
 name: edisn.ai
 nav: Providers
 network: true
-overview: edisn.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Fan Engagement, and Sports.
+overview: edisn.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Fan Engagement, and Sports.
 random_paper: 7
 slug: edisnai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Fan Engagement
 - Sports
 - Media

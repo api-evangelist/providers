@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Neva''s agent-to-agent surface: an anonymous A2A 0.3.0 JSON-RPC endpoint at the root of neva.dt-agent.co.uk (POST only; GET returns 405) implementing the a2a-sdk method set. message/send takes a full M'
@@ -127,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

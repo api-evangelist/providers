@@ -34,35 +34,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 348
+- acting_count: 398
   human_in_the_loop: 16
   name: Reclaim Ai Agentic Access
-  operation_count: 616
+  operation_count: 726
   slug: reclaim-ai-agentic-access
-  summary_line: 616 operations · 348 acting · 16 human-in-the-loop
+  summary_line: 726 operations · 398 acting · 16 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The account-time-schemes API from Reclaim.ai — 2 operation(s) for account-time-schemes.
-  name: Reclaim.ai account-time-schemes API
+  name: Reclaim.ai Account Time Schemes API
   slug: reclaim-ai-account-time-schemes-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The accounts API from Reclaim.ai — 9 operation(s) for accounts.
-  name: Reclaim.ai accounts API
+  name: Reclaim.ai Accounts API
   slug: reclaim-ai-accounts-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The action-items API from Reclaim.ai — 1 operation(s) for action-items.
-  name: Reclaim.ai action-items API
+  name: Reclaim.ai Action Items API
   slug: reclaim-ai-action-items-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The actions API from Reclaim.ai — 41 operation(s) for actions.
-  name: Reclaim.ai actions API
+  name: Reclaim.ai Actions API
   slug: reclaim-ai-actions-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -72,7 +72,7 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The analytics API from Reclaim.ai — 10 operation(s) for analytics.
-  name: Reclaim.ai analytics API
+  name: Reclaim.ai Analytics API
   slug: reclaim-ai-analytics-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -82,17 +82,17 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The api-management API from Reclaim.ai — 4 operation(s) for api-management.
-  name: Reclaim.ai api-management API
+  name: Reclaim.ai API Management API
   slug: reclaim-ai-api-management-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The asana API from Reclaim.ai — 6 operation(s) for asana.
-  name: Reclaim.ai asana API
+  name: Reclaim.ai Asana API
   slug: reclaim-ai-asana-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The assist API from Reclaim.ai — 7 operation(s) for assist.
-  name: Reclaim.ai assist API
+  name: Reclaim.ai Assist API
   slug: reclaim-ai-assist-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -107,57 +107,57 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The aws-ses API from Reclaim.ai — 1 operation(s) for aws-ses.
-  name: Reclaim.ai aws-ses API
+  name: Reclaim.ai Aws Ses API
   slug: reclaim-ai-aws-ses-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The buildings API from Reclaim.ai — 10 operation(s) for buildings.
-  name: Reclaim.ai buildings API
+  name: Reclaim.ai Buildings API
   slug: reclaim-ai-buildings-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The calendars API from Reclaim.ai — 20 operation(s) for calendars.
-  name: Reclaim.ai calendars API
+  name: Reclaim.ai Calendars API
   slug: reclaim-ai-calendars-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The calendarSyncPolicy API from Reclaim.ai — 4 operation(s) for calendarsyncpolicy.
-  name: Reclaim.ai calendarSyncPolicy API
+  name: Reclaim.ai Calendar Sync Policy API
   slug: reclaim-ai-calendarsyncpolicy-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The changelog API from Reclaim.ai — 6 operation(s) for changelog.
-  name: Reclaim.ai changelog API
+  name: Reclaim.ai Changelog API
   slug: reclaim-ai-changelog-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The clickup API from Reclaim.ai — 5 operation(s) for clickup.
-  name: Reclaim.ai clickup API
+  name: Reclaim.ai Clickup API
   slug: reclaim-ai-clickup-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The clockwise API from Reclaim.ai — 6 operation(s) for clockwise.
-  name: Reclaim.ai clockwise API
+  name: Reclaim.ai Clockwise API
   slug: reclaim-ai-clockwise-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The contacts API from Reclaim.ai — 7 operation(s) for contacts.
-  name: Reclaim.ai contacts API
+  name: Reclaim.ai Contacts API
   slug: reclaim-ai-contacts-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The credentials API from Reclaim.ai — 4 operation(s) for credentials.
-  name: Reclaim.ai credentials API
+  name: Reclaim.ai Credentials API
   slug: reclaim-ai-credentials-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The delegated-access API from Reclaim.ai — 4 operation(s) for delegated-access.
-  name: Reclaim.ai delegated-access API
+  name: Reclaim.ai Delegated Access API
   slug: reclaim-ai-delegated-access-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The effective-time-policy API from Reclaim.ai — 1 operation(s) for effective-time-policy.
-  name: Reclaim.ai effective-time-policy API
+  name: Reclaim.ai Effective Time Policy API
   slug: reclaim-ai-effective-time-policy-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -172,37 +172,37 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The events API from Reclaim.ai — 18 operation(s) for events.
-  name: Reclaim.ai events API
+  name: Reclaim.ai Events API
   slug: reclaim-ai-events-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The extra-types API from Reclaim.ai — 7 operation(s) for extra-types.
-  name: Reclaim.ai extra-types API
+  name: Reclaim.ai Extra Types API
   slug: reclaim-ai-extra-types-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The focus-planner-actions API from Reclaim.ai — 4 operation(s) for focus-planner-actions.
-  name: Reclaim.ai focus-planner-actions API
+  name: Reclaim.ai Focus Planner Actions API
   slug: reclaim-ai-focus-planner-actions-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The focus-settings API from Reclaim.ai — 7 operation(s) for focus-settings.
-  name: Reclaim.ai focus-settings API
+  name: Reclaim.ai Focus Settings API
   slug: reclaim-ai-focus-settings-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The google-add-on API from Reclaim.ai — 2 operation(s) for google-add-on.
-  name: Reclaim.ai google-add-on API
+  name: Reclaim.ai Google Add On API
   slug: reclaim-ai-google-add-on-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The google-groups API from Reclaim.ai — 1 operation(s) for google-groups.
-  name: Reclaim.ai google-groups API
+  name: Reclaim.ai Google Groups API
   slug: reclaim-ai-google-groups-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The integration API from Reclaim.ai — 42 operation(s) for integration.
-  name: Reclaim.ai integration API
+  name: Reclaim.ai Integration API
   slug: reclaim-ai-integration-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -212,7 +212,7 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The interactions API from Reclaim.ai — 25 operation(s) for interactions.
-  name: Reclaim.ai interactions API
+  name: Reclaim.ai Interactions API
   slug: reclaim-ai-interactions-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -222,22 +222,22 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The invite API from Reclaim.ai — 1 operation(s) for invite.
-  name: Reclaim.ai invite API
+  name: Reclaim.ai Invite API
   slug: reclaim-ai-invite-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The jira API from Reclaim.ai — 3 operation(s) for jira.
-  name: Reclaim.ai jira API
+  name: Reclaim.ai Jira API
   slug: reclaim-ai-jira-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The jira-v2 API from Reclaim.ai — 2 operation(s) for jira-v2.
-  name: Reclaim.ai jira-v2 API
+  name: Reclaim.ai Jira V2 API
   slug: reclaim-ai-jira-v2-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The linear API from Reclaim.ai — 4 operation(s) for linear.
-  name: Reclaim.ai linear API
+  name: Reclaim.ai Linear API
   slug: reclaim-ai-linear-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -247,7 +247,7 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The matcher API from Reclaim.ai — 2 operation(s) for matcher.
-  name: Reclaim.ai matcher API
+  name: Reclaim.ai Matcher API
   slug: reclaim-ai-matcher-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -257,17 +257,17 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The memories API from Reclaim.ai — 2 operation(s) for memories.
-  name: Reclaim.ai memories API
+  name: Reclaim.ai Memories API
   slug: reclaim-ai-memories-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The moment API from Reclaim.ai — 2 operation(s) for moment.
-  name: Reclaim.ai moment API
+  name: Reclaim.ai Moment API
   slug: reclaim-ai-moment-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The notion API from Reclaim.ai — 2 operation(s) for notion.
-  name: Reclaim.ai notion API
+  name: Reclaim.ai Notion API
   slug: reclaim-ai-notion-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -287,67 +287,67 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The oneOnOnes API from Reclaim.ai — 13 operation(s) for oneonones.
-  name: Reclaim.ai oneOnOnes API
+  name: Reclaim.ai One On Ones API
   slug: reclaim-ai-oneonones-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The ooo-calendars API from Reclaim.ai — 5 operation(s) for ooo-calendars.
-  name: Reclaim.ai ooo-calendars API
+  name: Reclaim.ai Ooo Calendars API
   slug: reclaim-ai-ooo-calendars-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The participant-resolution API from Reclaim.ai — 2 operation(s) for participant-resolution.
-  name: Reclaim.ai participant-resolution API
+  name: Reclaim.ai Participant Resolution API
   slug: reclaim-ai-participant-resolution-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The partnerstack API from Reclaim.ai — 1 operation(s) for partnerstack.
-  name: Reclaim.ai partnerstack API
+  name: Reclaim.ai Partnerstack API
   slug: reclaim-ai-partnerstack-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The people API from Reclaim.ai — 3 operation(s) for people.
-  name: Reclaim.ai people API
+  name: Reclaim.ai People API
   slug: reclaim-ai-people-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The private API from Reclaim.ai — 45 operation(s) for private.
-  name: Reclaim.ai private API
+  name: Reclaim.ai Private API
   slug: reclaim-ai-private-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The quest API from Reclaim.ai — 1 operation(s) for quest.
-  name: Reclaim.ai quest API
+  name: Reclaim.ai Quest API
   slug: reclaim-ai-quest-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The reclaim-tasks API from Reclaim.ai — 3 operation(s) for reclaim-tasks.
-  name: Reclaim.ai reclaim-tasks API
+  name: Reclaim.ai Reclaim Tasks API
   slug: reclaim-ai-reclaim-tasks-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The recommended-tasks API from Reclaim.ai — 4 operation(s) for recommended-tasks.
-  name: Reclaim.ai recommended-tasks API
+  name: Reclaim.ai Recommended Tasks API
   slug: reclaim-ai-recommended-tasks-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The resources API from Reclaim.ai — 1 operation(s) for resources.
-  name: Reclaim.ai resources API
+  name: Reclaim.ai Resources API
   slug: reclaim-ai-resources-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The schedule-actions API from Reclaim.ai — 12 operation(s) for schedule-actions.
-  name: Reclaim.ai schedule-actions API
+  name: Reclaim.ai Schedule Actions API
   slug: reclaim-ai-schedule-actions-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The schedule-availability API from Reclaim.ai — 4 operation(s) for schedule-availability.
-  name: Reclaim.ai schedule-availability API
+  name: Reclaim.ai Schedule Availability API
   slug: reclaim-ai-schedule-availability-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The schedule-policy API from Reclaim.ai — 12 operation(s) for schedule-policy.
-  name: Reclaim.ai schedule-policy API
+  name: Reclaim.ai Schedule Policy API
   slug: reclaim-ai-schedule-policy-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -357,27 +357,27 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The scoring API from Reclaim.ai — 1 operation(s) for scoring.
-  name: Reclaim.ai scoring API
+  name: Reclaim.ai Scoring API
   slug: reclaim-ai-scoring-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The slack API from Reclaim.ai — 10 operation(s) for slack.
-  name: Reclaim.ai slack API
+  name: Reclaim.ai Slack API
   slug: reclaim-ai-slack-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The smart-habit-custom-templates API from Reclaim.ai — 4 operation(s) for smart-habit-custom-templates.
-  name: Reclaim.ai smart-habit-custom-templates API
+  name: Reclaim.ai Smart Habit Custom Templates API
   slug: reclaim-ai-smart-habit-custom-templates-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The smart-habits API from Reclaim.ai — 29 operation(s) for smart-habits.
-  name: Reclaim.ai smart-habits API
+  name: Reclaim.ai Smart Habits API
   slug: reclaim-ai-smart-habits-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The smart-meetings API from Reclaim.ai — 22 operation(s) for smart-meetings.
-  name: Reclaim.ai smart-meetings API
+  name: Reclaim.ai Smart Meetings API
   slug: reclaim-ai-smart-meetings-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -387,17 +387,17 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The tasks API from Reclaim.ai — 11 operation(s) for tasks.
-  name: Reclaim.ai tasks API
+  name: Reclaim.ai Tasks API
   slug: reclaim-ai-tasks-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The time-scheme API from Reclaim.ai — 4 operation(s) for time-scheme.
-  name: Reclaim.ai time-scheme API
+  name: Reclaim.ai Time Scheme API
   slug: reclaim-ai-time-scheme-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The time-scheme-rules API from Reclaim.ai — 3 operation(s) for time-scheme-rules.
-  name: Reclaim.ai time-scheme-rules API
+  name: Reclaim.ai Time Scheme Rules API
   slug: reclaim-ai-time-scheme-rules-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -407,42 +407,42 @@ apis:
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The timePolicies API from Reclaim.ai — 1 operation(s) for timepolicies.
-  name: Reclaim.ai timePolicies API
+  name: Reclaim.ai Time Policies API
   slug: reclaim-ai-timepolicies-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The todoist API from Reclaim.ai — 6 operation(s) for todoist.
-  name: Reclaim.ai todoist API
+  name: Reclaim.ai Todoist API
   slug: reclaim-ai-todoist-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The user-notification-settings API from Reclaim.ai — 1 operation(s) for user-notification-settings.
-  name: Reclaim.ai user-notification-settings API
+  name: Reclaim.ai User Notification Settings API
   slug: reclaim-ai-user-notification-settings-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The user-notifications API from Reclaim.ai — 1 operation(s) for user-notifications.
-  name: Reclaim.ai user-notifications API
+  name: Reclaim.ai User Notifications API
   slug: reclaim-ai-user-notifications-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The users API from Reclaim.ai — 45 operation(s) for users.
-  name: Reclaim.ai users API
+  name: Reclaim.ai Users API
   slug: reclaim-ai-users-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The webhooks API from Reclaim.ai — 7 operation(s) for webhooks.
-  name: Reclaim.ai webhooks API
+  name: Reclaim.ai Webhooks API
   slug: reclaim-ai-webhooks-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The websocket API from Reclaim.ai — 7 operation(s) for websocket.
-  name: Reclaim.ai websocket API
+  name: Reclaim.ai Websocket API
   slug: reclaim-ai-websocket-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
   description: The weekly-report API from Reclaim.ai — 4 operation(s) for weekly-report.
-  name: Reclaim.ai weekly-report API
+  name: Reclaim.ai Weekly Report API
   slug: reclaim-ai-weekly-report-api
 - baseURL: https://api.app.reclaim.ai
   baseurl_source: declared
@@ -878,7 +878,7 @@ modified: '2026-06-13'
 name: Reclaim.ai
 nav: Providers
 network: true
-overview: 'Reclaim.ai publishes 83 APIs on the [APIs.io](https://apis.io/) network, including account-time-schemes API, accounts API, action-items API, and 80 more. Tagged areas include Artificial Intelligence, Scheduling, Calendar, Productivity, and Task.
+overview: 'Reclaim.ai publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Account Time Schemes API, Accounts API, Action Items API, and 80 more. Tagged areas include Artificial Intelligence, Scheduling, Calendar, Productivity, and Task.
 
 
   The Reclaim.ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -923,7 +923,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 9.8
@@ -931,7 +931,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 63.0
     operational_transparency: 21.1
-  previous_composite: 39.8
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -940,7 +940,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

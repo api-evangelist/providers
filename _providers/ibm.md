@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -137,8 +137,8 @@ apis:
   name: IBM Cloud Projects
   slug: ibm-cloud-projects
 - description: Collect, store, query, and analyze structured and unstructured enterprise data with a unified data lakehouse platform optimized for price and performance.
-  name: IBM watsonx.data
-  slug: ibm-watsonxdata
+  name: IBM Watsonx.data API
+  slug: ibm-watsonxdata-api
 - description: Create, secure, manage, share, monetize, and analyze APIs across clouds with a comprehensive end-to-end API management solution.
   name: IBM API Connect
   slug: ibm-api-connect
@@ -265,7 +265,7 @@ arazzos:
 - description: Create a trusted profile, attach a SAML claim rule, and verify the trust took effect.
   name: IBM Cloud IAM Set Up a Trusted Profile for Federated Access
   slug: ibm-trusted-profile-federation-workflow
-artifact_total: 113
+artifact_total: 112
 collections:
 - collection_type: postman
   name: IBM Cloud IAM API Keys API
@@ -689,10 +689,6 @@ finops:
 - name: Ibm Finops
   service_category: Cloud + AI + Enterprise Software
   slug: ibm-finops
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for IBM Cloud and Watson AI services. The schema models the key entities, relationships, and operations exposed across IBM's REST APIs and translate
-  name: IBM GraphQL Schema
-  slug: ibm-graphql
 image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
 json_schemas:
 - name: IBM Cloud Resource Schema
@@ -758,19 +754,19 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 62.6
+  composite: 62.4
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 59.3
     catalog_earned_first_party: 8.0
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 81.6
     contract_governance: 14.4
-    contract_quality: 72.6
+    contract_quality: 71.8
     developer_ergonomics: 72.6
     discoverability: 61.1
     operational_transparency: 50.0
@@ -785,7 +781,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -823,7 +819,7 @@ tags:
 - Generative AI
 - Hybrid Cloud
 - Infrastructure
-- Machine-Learning
+- Machine Learning
 - Networking
 - Observability
 - Security
@@ -832,5 +828,6 @@ tags:
 - Watson
 - Watsonx
 - Fortune 100
+- A2A
 website: https://www.ibm.com/
 ---

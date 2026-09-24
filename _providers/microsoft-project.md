@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -473,7 +473,7 @@ modified: '2026-05-19'
 name: Microsoft Project
 nav: Providers
 network: true
-overview: 'Microsoft Project publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendars API, Custom Fields API, and 10 more. Tagged areas include Budgeting, Gantt Charts, Microsoft, Portfolio-Management, and Project Management.
+overview: 'Microsoft Project publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendars API, Custom Fields API, and 10 more. Tagged areas include Budgeting, Gantt Charts, Microsoft, Portfolio Management, and Project Management.
 
 
   The Microsoft Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -543,7 +543,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -567,7 +567,7 @@ tags:
 - Budgeting
 - Gantt Charts
 - Microsoft
-- Portfolio-Management
+- Portfolio Management
 - Project Management
 - Resource Management
 - Scheduling

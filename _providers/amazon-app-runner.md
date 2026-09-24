@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 71
-  human_in_the_loop: 2
+- acting_count: 28
+  human_in_the_loop: 0
   name: Amazon App Runner Agentic Access
-  operation_count: 71
+  operation_count: 36
   slug: amazon-app-runner-agentic-access
-  summary_line: 71 operations · 71 acting · 2 human-in-the-loop
+  summary_line: 36 operations · 28 acting
 api_count: 3
 apis:
 - baseURL: https://apprunner.amazonaws.com
@@ -2203,7 +2203,7 @@ score:
       total: 36
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

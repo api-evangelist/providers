@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -148,7 +148,7 @@ modified: '2026-07-20'
 name: RapidCanvas
 nav: Providers
 network: true
-overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Agentic AI, and Data Science.
+overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Agentic AI, and Data Science.
 
 
   RapidCanvas'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, changelog, and 15 more developer resources.'
@@ -178,7 +178,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 27.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -202,7 +202,7 @@ slug: rapidcanvas
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Agentic AI
 - Data Science
 - MLOps

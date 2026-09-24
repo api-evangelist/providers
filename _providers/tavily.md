@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Tavily Agentic Access
   operation_count: 5
   slug: tavily-agentic-access
-  summary_line: 5 operations · 5 acting
+  summary_line: 5 operations · 4 acting
 api_count: 1
 apis:
 - description: The Tavily Web API offers a unified set of endpoints for AI agents to search the web, extract page content, crawl sites, map sitemaps, and run AI research tasks. Endpoints are REST-based and authentic
@@ -228,7 +228,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -261,5 +261,6 @@ tags:
 - LangChain
 - LlamaIndex
 - Real-Time
+- A2A
 website: https://www.tavily.com
 ---

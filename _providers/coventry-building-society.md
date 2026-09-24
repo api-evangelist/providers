@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -360,7 +360,7 @@ modified: '2026-07-23'
 name: Coventry Building Society
 nav: Providers
 network: true
-overview: 'Coventry Building Society publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Coventry Building Society publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial Services, Banking, Building Society, Open Banking, and PSD2.
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 25 more developer resources.'
@@ -420,7 +420,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -437,7 +437,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: coventry-building-society
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Building Society
 - Open Banking

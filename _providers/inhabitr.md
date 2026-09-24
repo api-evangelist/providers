@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,7 +110,7 @@ modified: '2026-08-23'
 name: Inhabitr
 nav: Providers
 network: true
-overview: 'Inhabitr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture Rental, Commercial Real Estate, Property Technology, and Hospitality.
+overview: 'Inhabitr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture Rental, Commercial Real Estate, PropTech, and Hospitality.
 
 
   Inhabitr''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
@@ -143,7 +143,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,7 @@ tags:
 - Company
 - Furniture Rental
 - Commercial Real Estate
-- Property Technology
+- PropTech
 - Hospitality
 - Multifamily
 - Interior Design

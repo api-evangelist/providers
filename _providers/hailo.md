@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: HailoRT is Hailo's production runtime library for the Hailo-8, Hailo-10 and Hailo-15 device families. It is a host-side, user-space C/C++ library with a Python binding (pyHailoRT), a hailortcli comman
@@ -166,7 +166,7 @@ modified: '2026-08-22'
 name: Hailo
 nav: Providers
 network: true
-overview: 'Hailo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Semiconductors, Edge Computing, and Computer-Vision.
+overview: 'Hailo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Semiconductors, Edge Computing, and Computer Vision.
 
 
   Hailo''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, authentication, and 17 more developer resources.'
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -226,10 +226,10 @@ security:
 slug: hailo
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 - Edge Computing
-- Computer-Vision
+- Computer Vision
 - Inference
 - Embedded Systems
 - Video Analytics

@@ -36,45 +36,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 60
+- acting_count: 53
   human_in_the_loop: 1
   name: Mixedbread Ai Agentic Access
   operation_count: 93
   slug: mixedbread-ai-agentic-access
-  summary_line: 93 operations · 60 acting · 1 human-in-the-loop
+  summary_line: 93 operations · 53 acting · 1 human-in-the-loop
 api_count: 12
 apis:
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The admin API from Mixedbread — 1 operation(s) for admin.
-  name: Mixedbread admin API
+  name: Mixedbread Admin API
   slug: mixedbread-ai-admin-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The api_keys API from Mixedbread — 4 operation(s) for api_keys.
-  name: Mixedbread api_keys API
+  name: Mixedbread API Keys API
   slug: mixedbread-ai-api-keys-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The billing API from Mixedbread — 4 operation(s) for billing.
-  name: Mixedbread billing API
+  name: Mixedbread Billing API
   slug: mixedbread-ai-billing-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The completions API from Mixedbread — 1 operation(s) for completions.
-  name: Mixedbread completions API
+  name: Mixedbread Completions API
   slug: mixedbread-ai-completions-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The data_sources API from Mixedbread — 6 operation(s) for data_sources.
-  name: Mixedbread data_sources API
+  name: Mixedbread Data Sources API
   slug: mixedbread-ai-data-sources-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The deprecated_vector_stores API from Mixedbread — 10 operation(s) for deprecated_vector_stores.
-  name: Mixedbread deprecated_vector_stores API
+  name: Mixedbread Deprecated Vector Stores API
   slug: mixedbread-ai-deprecated-vector-stores-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
@@ -84,12 +84,12 @@ apis:
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The extractions API from Mixedbread — 6 operation(s) for extractions.
-  name: Mixedbread extractions API
+  name: Mixedbread Extractions API
   slug: mixedbread-ai-extractions-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The files API from Mixedbread — 7 operation(s) for files.
-  name: Mixedbread files API
+  name: Mixedbread Files API
   slug: mixedbread-ai-files-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
@@ -99,7 +99,7 @@ apis:
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The parsing API from Mixedbread — 2 operation(s) for parsing.
-  name: Mixedbread parsing API
+  name: Mixedbread Parsing API
   slug: mixedbread-ai-parsing-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
@@ -109,12 +109,12 @@ apis:
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The schemas API from Mixedbread — 1 operation(s) for schemas.
-  name: Mixedbread schemas API
+  name: Mixedbread Schemas API
   slug: mixedbread-ai-schemas-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The stores API from Mixedbread — 17 operation(s) for stores.
-  name: Mixedbread stores API
+  name: Mixedbread Stores API
   slug: mixedbread-ai-stores-api
 artifact_total: 70
 collections:
@@ -409,7 +409,7 @@ modified: '2026-09-16'
 name: Mixedbread
 nav: Providers
 network: true
-overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_keys API, billing API, and 11 more. Tagged areas include Artificial Intelligence, Embeddings, Reranking, Search, and Retrieval.
+overview: 'Mixedbread publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Billing API, and 11 more. Tagged areas include Artificial Intelligence, Embeddings, Reranking, Search, and Retrieval.
 
 
   The Mixedbread catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -481,7 +481,7 @@ score:
       total: 14
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

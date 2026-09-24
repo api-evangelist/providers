@@ -10,37 +10,37 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: documented
+    idempotency: false
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.7
-  scored_at: '2026-09-23'
+  score: 29.0
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 48
+- acting_count: 46
   human_in_the_loop: 0
   name: Open Food Facts Agentic Access
   operation_count: 136
   slug: open-food-facts-agentic-access
-  summary_line: 136 operations · 48 acting
+  summary_line: 136 operations · 46 acting
 api_count: 1
 apis:
 - baseURL: https://world.openfoodfacts.org
@@ -339,31 +339,34 @@ scopes:
   slug: open-food-facts-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 63.3
+  band: exemplar
+  composite: 66.6
   coverage:
     artifact_dirs: 27
-    catalog_earned: 48.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    catalog_earned: 57.0
+    catalog_earned_first_party: 17.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.4
+  delta: 3.3
   facets:
     access_clarity: 42.1
-    contract_governance: 33.3
-    contract_quality: 49.2
-    developer_ergonomics: 78.6
+    contract_governance: 19.7
+    contract_quality: 50.6
+    developer_ergonomics: 73.2
     discoverability: 68.5
-    operational_transparency: 60.5
-  previous_composite: 59.9
+    operational_transparency: 84.2
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 87.5
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 8
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -371,12 +374,11 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/screenshots/open-food-facts-2026-06-20T190753.png
 security:
 - kind: authentication
@@ -401,5 +403,6 @@ tags:
 - Taxonomy
 - Prices
 - Search
+- Food and Beverage
 website: https://world.openfoodfacts.org/
 ---

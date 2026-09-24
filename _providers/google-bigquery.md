@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 16
   human_in_the_loop: 0
   name: Google Bigquery Agentic Access
   operation_count: 30
   slug: google-bigquery-agentic-access
-  summary_line: 30 operations · 17 acting
+  summary_line: 30 operations · 16 acting
 api_count: 1
 apis:
 - description: The BigQuery Connection API enables developers to create and manage connections between BigQuery and external data sources such as Cloud SQL, Cloud Spanner, and other databases. These connections allo
@@ -375,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

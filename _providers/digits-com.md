@@ -34,21 +34,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Digits Com Agentic Access
-  operation_count: 24
+  operation_count: 28
   slug: digits-com-agentic-access
-  summary_line: 24 operations · 8 acting
+  summary_line: 28 operations · 7 acting
 api_count: 2
 apis:
-- baseURL: https://connect.digits.com/v1
-  baseurl_source: declared
-  description: Receive event notifications from Digits at a configured webhook endpoint; Digits POSTs a JSON event body and expects a 2xx acknowledgment (WebhookService.receiveWebhookEvent).
-  name: Digits Webhooks API
-  slug: digits-com-webhooks-api
 - description: Model Context Protocol server that lets AI clients like ChatGPT and Claude connect directly to Digits to query the ledger in natural language. Discovery is published as an MCP Server Card at /.well-kn
   name: Digits MCP Server
   slug: digits-com-mcp-server
@@ -89,7 +84,7 @@ apis:
   slug: digits-com-transactions-api
 - baseURL: https://connect.digits.com/v1
   baseurl_source: declared
-  description: Event delivery to partner-configured endpoints.
+  description: Receive event notifications from Digits at a configured webhook endpoint; Digits POSTs a JSON event body and expects a 2xx acknowledgment (WebhookService.receiveWebhookEvent).
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
 - baseURL: https://connect.digits.com/v1
@@ -107,7 +102,7 @@ apis:
   description: The .well Known API from Digits — 2 operation(s) for .well known.
   name: Digits .well Known API
   slug: digits-com-well-known-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Digits Com Webhooks
@@ -349,7 +344,7 @@ modified: '2026-08-08'
 name: Digits
 nav: Providers
 network: true
-overview: 'Digits publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 9 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and Artificial Intelligence.
+overview: 'Digits publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Chart of Accounts API, Connections API, Financial Statements API, and 8 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and Artificial Intelligence.
 
 
   The Digits catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -400,7 +395,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

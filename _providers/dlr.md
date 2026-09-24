@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Dlr Agentic Access
   operation_count: 13
   slug: dlr-agentic-access
-  summary_line: 13 operations · 1 acting
+  summary_line: 13 operations
 api_count: 1
 apis:
 - description: OGC Web Map Service providing visualization layers for DLR Earth observation imagery products including optical satellite data, hyperspectral imagery, and derived remote sensing products.
@@ -241,7 +241,7 @@ score:
     regime_id: government
     score: 34.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

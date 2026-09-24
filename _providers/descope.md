@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 375
+- acting_count: 350
   human_in_the_loop: 8
   name: Descope Agentic Access
   operation_count: 459
   slug: descope-agentic-access
-  summary_line: 459 operations · 375 acting · 8 human-in-the-loop
+  summary_line: 459 operations · 350 acting · 8 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.descope.com
@@ -185,10 +185,6 @@ common:
   title: ''
   type: Website
   url: https://www.descope.com/
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/palo-alto-networks/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/agentic-access/descope-agentic-access.yml
   title: ''
@@ -489,7 +485,7 @@ network: true
 overview: 'Descope publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Auth API, Custom Attributes API, and 13 more. Tagged areas include Authentication, Identity, CIAM, Passwordless, and Passkeys.
 
 
-  Descope''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 55 more developer resources.'
+  Descope''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 54 more developer resources.'
 random_paper: 13
 score:
   band: strong
@@ -519,7 +515,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

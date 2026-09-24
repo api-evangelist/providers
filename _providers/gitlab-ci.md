@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 627
-  human_in_the_loop: 22
+- acting_count: 633
+  human_in_the_loop: 25
   name: Gitlab Ci Agentic Access
-  operation_count: 1125
+  operation_count: 1140
   slug: gitlab-ci-agentic-access
-  summary_line: 1125 operations · 627 acting · 22 human-in-the-loop
+  summary_line: 1140 operations · 633 acting · 25 human-in-the-loop
 api_count: 1
 apis:
 - description: GitLab's GraphQL API at /api/graphql. Many CI/CD entities (Pipeline, CiJob, CiRunner, MergeRequest pipelines) are exposed via GraphQL queries and mutations.
@@ -62,477 +62,477 @@ apis:
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about agents
-  name: GitLab CI/CD agents API
+  name: GitLab CI/CD Agents API
   slug: gitlab-ci-agents-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about alert_managements
-  name: GitLab CI/CD alert_management API
+  name: GitLab CI/CD Alert Management API
   slug: gitlab-ci-alert-management-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about applications
-  name: GitLab CI/CD applications API
+  name: GitLab CI/CD Applications API
   slug: gitlab-ci-applications-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about attestations
-  name: GitLab CI/CD attestations API
+  name: GitLab CI/CD Attestations API
   slug: gitlab-ci-attestations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about audit_events
-  name: GitLab CI/CD audit_events API
+  name: GitLab CI/CD Audit Events API
   slug: gitlab-ci-audit-events-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about avatars
-  name: GitLab CI/CD avatars API
+  name: GitLab CI/CD Avatars API
   slug: gitlab-ci-avatars-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about award_emoji
-  name: GitLab CI/CD award_emoji API
+  name: GitLab CI/CD Award Emoji API
   slug: gitlab-ci-award-emoji-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about badges
-  name: GitLab CI/CD badges API
+  name: GitLab CI/CD Badges API
   slug: gitlab-ci-badges-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about batched_background_migrations
-  name: GitLab CI/CD batched_background_migrations API
+  name: GitLab CI/CD Batched Background Migrations API
   slug: gitlab-ci-batched-background-migrations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about branches
-  name: GitLab CI/CD branches API
+  name: GitLab CI/CD Branches API
   slug: gitlab-ci-branches-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about broadcast_messages
-  name: GitLab CI/CD broadcast_messages API
+  name: GitLab CI/CD Broadcast Messages API
   slug: gitlab-ci-broadcast-messages-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about chaos
-  name: GitLab CI/CD chaos API
+  name: GitLab CI/CD Chaos API
   slug: gitlab-ci-chaos-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about ci_catalogs
-  name: GitLab CI/CD ci_catalog API
+  name: GitLab CI/CD Ci Catalog API
   slug: gitlab-ci-ci-catalog-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about ci_jobs
-  name: GitLab CI/CD ci_jobs API
+  name: GitLab CI/CD Ci Jobs API
   slug: gitlab-ci-ci-jobs-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to linting a CI config file
-  name: GitLab CI/CD ci_lint API
+  name: GitLab CI/CD Ci Lint API
   slug: gitlab-ci-ci-lint-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations to manage job concurrency with resource groups
-  name: GitLab CI/CD ci_resource_groups API
+  name: GitLab CI/CD Ci Resource Groups API
   slug: gitlab-ci-ci-resource-groups-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about ci_runners
-  name: GitLab CI/CD ci_runners API
+  name: GitLab CI/CD Ci Runners API
   slug: gitlab-ci-ci-runners-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about ci_triggers
-  name: GitLab CI/CD ci_triggers API
+  name: GitLab CI/CD Ci Triggers API
   slug: gitlab-ci-ci-triggers-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to CI/CD variables
-  name: GitLab CI/CD ci_variables API
+  name: GitLab CI/CD Ci Variables API
   slug: gitlab-ci-ci-variables-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to the GitLab agent for Kubernetes
-  name: GitLab CI/CD cluster_agents API
+  name: GitLab CI/CD Cluster Agents API
   slug: gitlab-ci-cluster-agents-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to clusters
-  name: GitLab CI/CD clusters API
+  name: GitLab CI/CD Clusters API
   slug: gitlab-ci-clusters-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about commit_statuses
-  name: GitLab CI/CD commit_statuses API
+  name: GitLab CI/CD Commit Statuses API
   slug: gitlab-ci-commit-statuses-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about commits
-  name: GitLab CI/CD commits API
+  name: GitLab CI/CD Commits API
   slug: gitlab-ci-commits-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to container registry
-  name: GitLab CI/CD container_registry API
+  name: GitLab CI/CD Container Registry API
   slug: gitlab-ci-container-registry-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about custom_attributes
-  name: GitLab CI/CD custom_attributes API
+  name: GitLab CI/CD Custom Attributes API
   slug: gitlab-ci-custom-attributes-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about database_dictionaries
-  name: GitLab CI/CD database_dictionary API
+  name: GitLab CI/CD Database Dictionary API
   slug: gitlab-ci-database-dictionary-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations to manage dependency proxy for a groups
-  name: GitLab CI/CD dependency_proxy API
+  name: GitLab CI/CD Dependency Proxy API
   slug: gitlab-ci-dependency-proxy-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about deploy_resources
-  name: GitLab CI/CD deploy_resources API
+  name: GitLab CI/CD Deploy Resources API
   slug: gitlab-ci-deploy-resources-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about draft_notes
-  name: GitLab CI/CD draft_notes API
+  name: GitLab CI/CD Draft Notes API
   slug: gitlab-ci-draft-notes-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to environments
-  name: GitLab CI/CD environments API
+  name: GitLab CI/CD Environments API
   slug: gitlab-ci-environments-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about error_trackings
-  name: GitLab CI/CD error_tracking API
+  name: GitLab CI/CD Error Tracking API
   slug: gitlab-ci-error-tracking-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about events
-  name: GitLab CI/CD events API
+  name: GitLab CI/CD Events API
   slug: gitlab-ci-events-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to feature flags
-  name: GitLab CI/CD feature_flags API
+  name: GitLab CI/CD Feature Flags API
   slug: gitlab-ci-feature-flags-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to managing Flipper-based feature flags
-  name: GitLab CI/CD features API
+  name: GitLab CI/CD Features API
   slug: gitlab-ci-features-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about files
-  name: GitLab CI/CD files API
+  name: GitLab CI/CD Files API
   slug: gitlab-ci-files-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to deploy freeze periods
-  name: GitLab CI/CD freeze_periods API
+  name: GitLab CI/CD Freeze Periods API
   slug: gitlab-ci-freeze-periods-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to Geo
-  name: GitLab CI/CD geo API
+  name: GitLab CI/CD Geo API
   slug: gitlab-ci-geo-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about gitlab_pages
-  name: GitLab CI/CD gitlab_pages API
+  name: GitLab CI/CD Gitlab Pages API
   slug: gitlab-ci-gitlab-pages-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about glqls
-  name: GitLab CI/CD glql API
+  name: GitLab CI/CD Glql API
   slug: gitlab-ci-glql-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about group_import_and_exports
-  name: GitLab CI/CD group_import_and_export API
+  name: GitLab CI/CD Group Import And Export API
   slug: gitlab-ci-group-import-and-export-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about groups
-  name: GitLab CI/CD groups API
+  name: GitLab CI/CD Groups API
   slug: gitlab-ci-groups-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about hooks
-  name: GitLab CI/CD hooks API
+  name: GitLab CI/CD Hooks API
   slug: gitlab-ci-hooks-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about imports
-  name: GitLab CI/CD imports API
+  name: GitLab CI/CD Imports API
   slug: gitlab-ci-imports-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about instances
-  name: GitLab CI/CD instance API
+  name: GitLab CI/CD Instance API
   slug: gitlab-ci-instance-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to integrations
-  name: GitLab CI/CD integrations API
+  name: GitLab CI/CD Integrations API
   slug: gitlab-ci-integrations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about internal_operations
-  name: GitLab CI/CD internal_operations API
+  name: GitLab CI/CD Internal Operations API
   slug: gitlab-ci-internal-operations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about invitations
-  name: GitLab CI/CD invitations API
+  name: GitLab CI/CD Invitations API
   slug: gitlab-ci-invitations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about issues
-  name: GitLab CI/CD issues API
+  name: GitLab CI/CD Issues API
   slug: gitlab-ci-issues-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to JiraConnect subscriptions
-  name: GitLab CI/CD jira_connect_subscriptions API
+  name: GitLab CI/CD Jira Connect Subscriptions API
   slug: gitlab-ci-jira-connect-subscriptions-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about job_artifacts
-  name: GitLab CI/CD job_artifacts API
+  name: GitLab CI/CD Job Artifacts API
   slug: gitlab-ci-job-artifacts-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about jobs
-  name: GitLab CI/CD jobs API
+  name: GitLab CI/CD Jobs API
   slug: gitlab-ci-jobs-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about keys
-  name: GitLab CI/CD keys API
+  name: GitLab CI/CD Keys API
   slug: gitlab-ci-keys-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about ldaps
-  name: GitLab CI/CD ldap API
+  name: GitLab CI/CD Ldap API
   slug: gitlab-ci-ldap-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about markdowns
-  name: GitLab CI/CD markdown API
+  name: GitLab CI/CD Markdown API
   slug: gitlab-ci-markdown-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about members
-  name: GitLab CI/CD members API
+  name: GitLab CI/CD Members API
   slug: gitlab-ci-members-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about merge_request_approvals
-  name: GitLab CI/CD merge_request_approvals API
+  name: GitLab CI/CD Merge Request Approvals API
   slug: gitlab-ci-merge-request-approvals-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to merge requests
-  name: GitLab CI/CD merge_requests API
+  name: GitLab CI/CD Merge Requests API
   slug: gitlab-ci-merge-requests-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to metadata of the GitLab instance
-  name: GitLab CI/CD metadata API
+  name: GitLab CI/CD Metadata API
   slug: gitlab-ci-metadata-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about metric_images
-  name: GitLab CI/CD metric_images API
+  name: GitLab CI/CD Metric Images API
   slug: gitlab-ci-metric-images-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about metrics
-  name: GitLab CI/CD metrics API
+  name: GitLab CI/CD Metrics API
   slug: gitlab-ci-metrics-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about migrations
-  name: GitLab CI/CD migrations API
+  name: GitLab CI/CD Migrations API
   slug: gitlab-ci-migrations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to Model registry
-  name: GitLab CI/CD ml_model_registry API
+  name: GitLab CI/CD Ml Model Registry API
   slug: gitlab-ci-ml-model-registry-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about namespaces
-  name: GitLab CI/CD namespaces API
+  name: GitLab CI/CD Namespaces API
   slug: gitlab-ci-namespaces-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about offline_transfers
-  name: GitLab CI/CD offline_transfers API
+  name: GitLab CI/CD Offline Transfers API
   slug: gitlab-ci-offline-transfers-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about organizations
-  name: GitLab CI/CD organizations API
+  name: GitLab CI/CD Organizations API
   slug: gitlab-ci-organizations-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about packages
-  name: GitLab CI/CD packages API
+  name: GitLab CI/CD Packages API
   slug: gitlab-ci-packages-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about pipeline_schedules
-  name: GitLab CI/CD pipeline_schedules API
+  name: GitLab CI/CD Pipeline Schedules API
   slug: gitlab-ci-pipeline-schedules-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about pipelines
-  name: GitLab CI/CD pipelines API
+  name: GitLab CI/CD Pipelines API
   slug: gitlab-ci-pipelines-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to plan limits
-  name: GitLab CI/CD plan_limits API
+  name: GitLab CI/CD Plan Limits API
   slug: gitlab-ci-plan-limits-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to importing projects
-  name: GitLab CI/CD project_import API
+  name: GitLab CI/CD Project Import API
   slug: gitlab-ci-project-import-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about project_snapshots
-  name: GitLab CI/CD project_snapshots API
+  name: GitLab CI/CD Project Snapshots API
   slug: gitlab-ci-project-snapshots-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about project_templates
-  name: GitLab CI/CD project_templates API
+  name: GitLab CI/CD Project Templates API
   slug: gitlab-ci-project-templates-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about project_topics
-  name: GitLab CI/CD project_topics API
+  name: GitLab CI/CD Project Topics API
   slug: gitlab-ci-project-topics-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to projects
-  name: GitLab CI/CD projects API
+  name: GitLab CI/CD Projects API
   slug: gitlab-ci-projects-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about projects_job_token_scopes
-  name: GitLab CI/CD projects_job_token_scope API
+  name: GitLab CI/CD Projects Job Token Scope API
   slug: gitlab-ci-projects-job-token-scope-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about protected_branches
-  name: GitLab CI/CD protected_branches API
+  name: GitLab CI/CD Protected Branches API
   slug: gitlab-ci-protected-branches-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about protected_tags
-  name: GitLab CI/CD protected_tags API
+  name: GitLab CI/CD Protected Tags API
   slug: gitlab-ci-protected-tags-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to PyPI packages
-  name: GitLab CI/CD pypi_packages API
+  name: GitLab CI/CD Pypi Packages API
   slug: gitlab-ci-pypi-packages-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to releases
-  name: GitLab CI/CD releases API
+  name: GitLab CI/CD Releases API
   slug: gitlab-ci-releases-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about remote_mirrors
-  name: GitLab CI/CD remote_mirrors API
+  name: GitLab CI/CD Remote Mirrors API
   slug: gitlab-ci-remote-mirrors-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about repositories
-  name: GitLab CI/CD repositories API
+  name: GitLab CI/CD Repositories API
   slug: gitlab-ci-repositories-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about resource_events
-  name: GitLab CI/CD resource_events API
+  name: GitLab CI/CD Resource Events API
   slug: gitlab-ci-resource-events-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about runners
-  name: GitLab CI/CD runners API
+  name: GitLab CI/CD Runners API
   slug: gitlab-ci-runners-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about searches
-  name: GitLab CI/CD search API
+  name: GitLab CI/CD Search API
   slug: gitlab-ci-search-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about secure_files
-  name: GitLab CI/CD secure_files API
+  name: GitLab CI/CD Secure Files API
   slug: gitlab-ci-secure-files-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about snippets
-  name: GitLab CI/CD snippets API
+  name: GitLab CI/CD Snippets API
   slug: gitlab-ci-snippets-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about submodules
-  name: GitLab CI/CD submodules API
+  name: GitLab CI/CD Submodules API
   slug: gitlab-ci-submodules-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations related to suggestions
-  name: GitLab CI/CD suggestions API
+  name: GitLab CI/CD Suggestions API
   slug: gitlab-ci-suggestions-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about tags
-  name: GitLab CI/CD tags API
+  name: GitLab CI/CD Tags API
   slug: gitlab-ci-tags-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about terraforms
-  name: GitLab CI/CD terraform API
+  name: GitLab CI/CD Terraform API
   slug: gitlab-ci-terraform-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about unleashes
-  name: GitLab CI/CD unleash API
+  name: GitLab CI/CD Unleash API
   slug: gitlab-ci-unleash-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about usage_data
-  name: GitLab CI/CD usage_data API
+  name: GitLab CI/CD Usage Data API
   slug: gitlab-ci-usage-data-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about users
-  name: GitLab CI/CD users API
+  name: GitLab CI/CD Users API
   slug: gitlab-ci-users-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about web_commits
-  name: GitLab CI/CD web_commits API
+  name: GitLab CI/CD Web Commits API
   slug: gitlab-ci-web-commits-api
 - baseURL: https://gitlab.com/api/v4
   baseurl_source: declared
   description: Operations about wikis
-  name: GitLab CI/CD wikis API
+  name: GitLab CI/CD Wikis API
   slug: gitlab-ci-wikis-api
 artifact_total: 208
 collections:
@@ -927,7 +927,7 @@ modified: '2026-05-19'
 name: GitLab CI/CD
 nav: Providers
 network: true
-overview: 'GitLab CI/CD publishes 97 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, access_tokens API, agents API, and 94 more. Tagged areas include DevOps, CI/CD, Pipelines, GitLab, and DevSecOps.
+overview: 'GitLab CI/CD publishes 97 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, access_tokens API, Agents API, and 94 more. Tagged areas include DevOps, CI/CD, Pipelines, GitLab, and DevSecOps.
 
 
   GitLab CI/CD''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
@@ -971,7 +971,7 @@ score:
       total: 97
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

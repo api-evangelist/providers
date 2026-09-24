@@ -35,21 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 42
+- acting_count: 47
   human_in_the_loop: 0
   name: Zenodo Agentic Access
-  operation_count: 99
+  operation_count: 111
   slug: zenodo-agentic-access
-  summary_line: 99 operations · 42 acting
+  summary_line: 111 operations · 47 acting
 api_count: 1
 apis:
-- baseURL: https://zenodo.org/oai2d
-  baseurl_source: declared
-  description: Open Archives Initiative Protocol for Metadata Harvesting endpoint that allows bulk harvesting of Zenodo metadata in formats including oai_dc, marcxml, and oai_datacite4. Supports selective harvesting
-  name: Zenodo OAI-PMH API
-  slug: zenodo-oai-pmh-api
 - baseURL: https://zenodo.org/api
   baseurl_source: declared
   description: Access control and sharing
@@ -115,9 +110,9 @@ apis:
   description: Group management endpoints
   name: Zenodo Groups API
   slug: zenodo-groups-api
-- baseURL: https://zenodo.org/api
+- baseURL: https://zenodo.org/oai2d
   baseurl_source: declared
-  description: OAI-PMH protocol endpoints
+  description: Open Archives Initiative Protocol for Metadata Harvesting endpoint that allows bulk harvesting of Zenodo metadata in formats including oai_dc, marcxml, and oai_datacite4. Supports selective harvesting
   name: Zenodo OAI-PMH API
   slug: zenodo-oai-pmh-api
 - baseURL: https://zenodo.org/api
@@ -170,7 +165,7 @@ apis:
   description: Vocabulary and controlled terms endpoints
   name: Zenodo Vocabularies API
   slug: zenodo-vocabularies-api
-artifact_total: 60
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -364,7 +359,7 @@ modified: '2026-06-12'
 name: Zenodo
 nav: Providers
 network: true
-overview: 'Zenodo publishes 25 APIs on the [APIs.io](https://apis.io/) network, including OAI-PMH API, Access API, Audit Logs API, and 22 more. Tagged areas include Research, Open Data, Repository, DOI, and Datasets.
+overview: 'Zenodo publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Access API, Audit Logs API, Avatars API, and 21 more. Tagged areas include Research, Open Data, Repository, DOI, and Datasets.
 
 
   The Zenodo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -424,7 +419,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -454,5 +449,6 @@ tags:
 - Metadata
 - Harvesting
 - Research Data
+- Data Catalog
 website: https://zenodo.org/
 ---

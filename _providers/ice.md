@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,7 +90,7 @@ modified: '2026-07-25'
 name: U.S. Immigration and Customs Enforcement (ICE)
 nav: Providers
 network: true
-overview: 'U.S. Immigration and Customs Enforcement (ICE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Customs Enforcement, DHS, Federal-Government, Government, and Immigration.
+overview: 'U.S. Immigration and Customs Enforcement (ICE) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Customs Enforcement, DHS, Federal Government, Government, and Immigration.
 
 
   U.S. Immigration and Customs Enforcement (ICE)''s developer surface includes product news and 9 more developer resources.'
@@ -129,7 +129,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ slug: ice
 tags:
 - Customs Enforcement
 - DHS
-- Federal-Government
+- Federal Government
 - Government
 - Immigration
 - Law Enforcement

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ modified: '2026-05-19'
 name: Microsoft OneNote
 nav: Providers
 network: true
-overview: 'Microsoft OneNote publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Notebooks API, Pages API, SectionGroups API, and 1 more. Tagged areas include Microsoft, Microsoft-365, Notebooks, Notes, and Productivity.
+overview: 'Microsoft OneNote publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Notebooks API, Pages API, SectionGroups API, and 1 more. Tagged areas include Microsoft, Microsoft 365, Notebooks, Notes, and Productivity.
 
 
   Microsoft OneNote''s developer surface includes authentication, developer portal, documentation, changelog, support, and 9 more developer resources.'
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -215,7 +215,7 @@ security:
 slug: microsoft-onenote
 tags:
 - Microsoft
-- Microsoft-365
+- Microsoft 365
 - Notebooks
 - Notes
 - Productivity

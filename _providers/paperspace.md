@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -586,7 +586,7 @@ modified: '2026-05-25'
 name: Paperspace
 nav: Providers
 network: true
-overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, Artificial Intelligence, Machine-Learning, and Deep Learning.
+overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Machines API, Deployments API, Projects API, and 22 more. Tagged areas include GPU, Cloud, Artificial Intelligence, Machine Learning, and Deep Learning.
 
 
   The Paperspace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -654,7 +654,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -678,7 +678,7 @@ tags:
 - GPU
 - Cloud
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Deep Learning
 - Compute
 - DigitalOcean

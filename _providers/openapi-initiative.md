@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: API for accessing OpenAPI Initiative resources, specifications, and tooling ecosystem documentation for defining standard interfaces to RESTful APIs.
@@ -87,7 +87,7 @@ score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

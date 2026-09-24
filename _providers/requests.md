@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Requests is a simple and elegant HTTP library for Python, designed for human beings. It provides a clean, human-friendly API for all standard HTTP methods with automatic content handling, authenticati
@@ -129,7 +129,7 @@ modified: '2026-05-02'
 name: Requests
 nav: Providers
 network: true
-overview: 'Requests publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, HTTP Library, Open-Source, and Python.
+overview: 'Requests publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, HTTP Library, Open Source, and Python.
 
 
   The Requests catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +199,7 @@ tags:
 - Clients
 - HTTP Client
 - HTTP Library
-- Open-Source
+- Open Source
 - Python
 - Python Software Foundation
 website: https://requests.readthedocs.io

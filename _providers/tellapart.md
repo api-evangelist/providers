@@ -33,7 +33,7 @@ tags:
 - Advertising
 - Marketing
 - Retargeting
-- Machine-Learning
+- Machine Learning
 - Customer Data Platform
 - Acquired
 - Defunct

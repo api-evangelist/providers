@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ modified: '2026-07-21'
 name: Valence Discovery
 nav: Providers
 network: true
-overview: 'Valence Discovery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drug Discovery, Machine-Learning, Cheminformatics, and Molecular Design.
+overview: 'Valence Discovery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drug Discovery, Machine Learning, Cheminformatics, and Molecular Design.
 
 
   Valence Discovery''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -126,12 +126,12 @@ slug: valence-discovery
 tags:
 - Company
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Cheminformatics
 - Molecular Design
 - Artificial Intelligence
 - Life Sciences
-- Open-Source
+- Open Source
 - Python
 website: https://www.valencelabs.com/
 ---

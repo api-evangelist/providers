@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Pay-per-search web agent (version 0.1.0-alpha) served from a2a-browser.digiant.nz: a JSON-RPC 2.0 POST endpoint at the host root, an A2A agent card at the legacy /.well-known/agent.json path (the cano'
@@ -110,7 +110,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

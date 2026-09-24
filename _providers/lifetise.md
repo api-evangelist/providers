@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -143,7 +143,7 @@ modified: '2026-07-26'
 name: Coadjute
 nav: Providers
 network: true
-overview: 'Coadjute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Transactions, and Conveyancing.
+overview: 'Coadjute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United Kingdom, PropTech, Property Transactions, and Conveyancing.
 
 
   Coadjute''s developer surface includes authentication, support, pricing, engineering blog, and 18 more developer resources.'
@@ -183,7 +183,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -201,7 +201,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lifetise
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Transactions

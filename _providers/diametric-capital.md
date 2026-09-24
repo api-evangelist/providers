@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-18'
 name: Diametric Capital
 nav: Providers
 network: true
-overview: Diametric Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investment Management, Hedge Funds, and Asset Management.
+overview: Diametric Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Management, Hedge Funds, and Asset Management.
 random_paper: 9
 score:
   band: minimal
@@ -88,7 +88,7 @@ score:
     - north-america
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -103,7 +103,7 @@ security:
 slug: diametric-capital
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investment Management
 - Hedge Funds
 - Asset Management

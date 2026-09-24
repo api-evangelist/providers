@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ modified: '2026-05-30'
 name: jService
 nav: Providers
 network: true
-overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Games And Comics, Trivia, Jeopardy, Open-Source, and Ruby.
+overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network: Categories API, Clues API, and Moderation API. Tagged areas include Games And Comics, Trivia, Jeopardy, Open Source, and Ruby.
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -225,7 +225,7 @@ tags:
 - Games And Comics
 - Trivia
 - Jeopardy
-- Open-Source
+- Open Source
 - Ruby
 - Rail
 - Public APIs

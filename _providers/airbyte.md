@@ -35,135 +35,135 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 53
+- acting_count: 52
   human_in_the_loop: 4
   name: Airbyte Agentic Access
   operation_count: 91
   slug: airbyte-agentic-access
-  summary_line: 91 operations · 53 acting · 4 human-in-the-loop
+  summary_line: 91 operations · 52 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public API from Airbyte — 47 operation(s) for public.
-  name: Airbyte public API
+  name: Airbyte Public API
   slug: airbyte-public-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_applications API from Airbyte — 3 operation(s) for public_applications.
-  name: Airbyte public_applications API
+  name: Airbyte Public Applications API
   slug: airbyte-public-applications-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_connections API from Airbyte — 2 operation(s) for public_connections.
-  name: Airbyte public_connections API
+  name: Airbyte Public Connections API
   slug: airbyte-public-connections-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_connector_definitions API from Airbyte — 1 operation(s) for public_connector_definitions.
-  name: Airbyte public_connector_definitions API
+  name: Airbyte Public Connector Definitions API
   slug: airbyte-public-connector-definitions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_dataplanes API from Airbyte — 2 operation(s) for public_dataplanes.
-  name: Airbyte public_dataplanes API
+  name: Airbyte Public Dataplanes API
   slug: airbyte-public-dataplanes-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_declarative_source_definitions API from Airbyte — 2 operation(s) for public_declarative_source_definitions.
-  name: Airbyte public_declarative_source_definitions API
+  name: Airbyte Public Declarative Source Definitions API
   slug: airbyte-public-declarative-source-definitions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_destination_definitions API from Airbyte — 2 operation(s) for public_destination_definitions.
-  name: Airbyte public_destination_definitions API
+  name: Airbyte Public Destination Definitions API
   slug: airbyte-public-destination-definitions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_destinations API from Airbyte — 2 operation(s) for public_destinations.
-  name: Airbyte public_destinations API
+  name: Airbyte Public Destinations API
   slug: airbyte-public-destinations-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_group_members API from Airbyte — 2 operation(s) for public_group_members.
-  name: Airbyte public_group_members API
+  name: Airbyte Public Group Members API
   slug: airbyte-public-group-members-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_group_permissions API from Airbyte — 2 operation(s) for public_group_permissions.
-  name: Airbyte public_group_permissions API
+  name: Airbyte Public Group Permissions API
   slug: airbyte-public-group-permissions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_groups API from Airbyte — 2 operation(s) for public_groups.
-  name: Airbyte public_groups API
+  name: Airbyte Public Groups API
   slug: airbyte-public-groups-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_health API from Airbyte — 1 operation(s) for public_health.
-  name: Airbyte public_health API
+  name: Airbyte Public Health API
   slug: airbyte-public-health-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_jobs API from Airbyte — 2 operation(s) for public_jobs.
-  name: Airbyte public_jobs API
+  name: Airbyte Public Jobs API
   slug: airbyte-public-jobs-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_oauth API from Airbyte — 1 operation(s) for public_oauth.
-  name: Airbyte public_oauth API
+  name: Airbyte Public OAUTH API
   slug: airbyte-public-oauth-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_organizations API from Airbyte — 3 operation(s) for public_organizations.
-  name: Airbyte public_organizations API
+  name: Airbyte Public Organizations API
   slug: airbyte-public-organizations-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_permissions API from Airbyte — 2 operation(s) for public_permissions.
-  name: Airbyte public_permissions API
+  name: Airbyte Public Permissions API
   slug: airbyte-public-permissions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_regions API from Airbyte — 2 operation(s) for public_regions.
-  name: Airbyte public_regions API
+  name: Airbyte Public Regions API
   slug: airbyte-public-regions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_root API from Airbyte — 1 operation(s) for public_root.
-  name: Airbyte public_root API
+  name: Airbyte Public Root API
   slug: airbyte-public-root-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_source_definitions API from Airbyte — 2 operation(s) for public_source_definitions.
-  name: Airbyte public_source_definitions API
+  name: Airbyte Public Source Definitions API
   slug: airbyte-public-source-definitions-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_sources API from Airbyte — 3 operation(s) for public_sources.
-  name: Airbyte public_sources API
+  name: Airbyte Public Sources API
   slug: airbyte-public-sources-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_streams API from Airbyte — 1 operation(s) for public_streams.
-  name: Airbyte public_streams API
+  name: Airbyte Public Streams API
   slug: airbyte-public-streams-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_tags API from Airbyte — 2 operation(s) for public_tags.
-  name: Airbyte public_tags API
+  name: Airbyte Public Tags API
   slug: airbyte-public-tags-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_users API from Airbyte — 1 operation(s) for public_users.
-  name: Airbyte public_users API
+  name: Airbyte Public Users API
   slug: airbyte-public-users-api
 - baseURL: https://api.airbyte.com/v1
   baseurl_source: declared
   description: The public_workspaces API from Airbyte — 3 operation(s) for public_workspaces.
-  name: Airbyte public_workspaces API
+  name: Airbyte Public Workspaces API
   slug: airbyte-public-workspaces-api
 arazzos:
 - description: Create an API application to mint client credentials, read it back, then exchange those credentials for a bearer access token.
@@ -2705,7 +2705,7 @@ modified: '2026-06-20'
 name: Airbyte
 nav: Providers
 network: true
-overview: 'Airbyte publishes 24 APIs on the [APIs.io](https://apis.io/) network, including public API, public_applications API, public_connections API, and 21 more. Tagged areas include Data Integration, ETL, ELT, Open-Source, and Data Pipeline.
+overview: 'Airbyte publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Public API, Public Applications API, Public Connections API, and 21 more. Tagged areas include Data Integration, ETL, ELT, Open Source, and Data Pipeline.
 
 
   The Airbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2777,7 +2777,7 @@ score:
       total: 24
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2805,7 +2805,7 @@ tags:
 - Data Integration
 - ETL
 - ELT
-- Open-Source
+- Open Source
 - Data Pipeline
 - Connectors
 - Data

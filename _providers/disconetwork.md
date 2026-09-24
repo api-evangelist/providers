@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Disconetwork Agentic Access
   operation_count: 6
   slug: disconetwork-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations · 2 acting
 api_count: 3
 apis:
 - description: The channel-partner management API behind DiscoBeat. Lists ad categories and subcategories, reads channel details, manages channel-wide and publisher-specific subcategory exclusions, and lists, inspec
@@ -299,7 +299,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

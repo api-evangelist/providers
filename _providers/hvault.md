@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 76
+- acting_count: 74
   human_in_the_loop: 5
   name: Hvault Agentic Access
   operation_count: 116
   slug: hvault-agentic-access
-  summary_line: 116 operations · 76 acting · 5 human-in-the-loop
+  summary_line: 116 operations · 74 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://vault.example.com/v1/sys
@@ -480,7 +480,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

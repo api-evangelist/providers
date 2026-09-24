@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ modified: '2026-07-18'
 name: Defined.ai (DefinedCrowd)
 nav: Providers
 network: true
-overview: 'Defined.ai (DefinedCrowd) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Deliverables API, Input Units API, Jobs API, and 5 more. Tagged areas include Company, AI Training Data, Data Marketplace, Machine-Learning, and Data Annotation.
+overview: 'Defined.ai (DefinedCrowd) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Deliverables API, Input Units API, Jobs API, and 5 more. Tagged areas include Company, AI Training Data, Data Marketplace, Machine Learning, and Data Annotation.
 
 
   Defined.ai (DefinedCrowd)''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -278,7 +278,7 @@ tags:
 - Company
 - AI Training Data
 - Data Marketplace
-- Machine-Learning
+- Machine Learning
 - Data Annotation
 - Speech Data
 - Natural Language Processing

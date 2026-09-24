@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Membrane is an AI-first integration platform that enables building product integrations using natural language. It offers 282+ pre-built packages and is compatible with AI coding assistants via MCP pr
   name: Membrane Integration Platform
   slug: membrane-platform
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/membrane/refs/heads/main/security/membrane-trust-center.yml
@@ -81,10 +81,6 @@ finops:
 - name: Membrane Finops
   service_category: API
   slug: membrane-finops
-graphqls:
-- description: ''
-  name: Membrane GraphQL API
-  slug: membrane-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/membrane.png
 layout: provider
 modified: '2026-04-28'
@@ -108,7 +104,7 @@ score:
   band: emerging
   composite: 21.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -124,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

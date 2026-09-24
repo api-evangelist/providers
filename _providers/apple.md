@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
   description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
   name: Apple Builds API
   slug: apple-builds-api
-artifact_total: 166
+artifact_total: 165
 collections:
 - collection_type: postman
   name: Apple App Store Connect Apps API
@@ -373,10 +373,6 @@ finops:
 - name: Apple Finops
   service_category: Consumer Cloud + Developer
   slug: apple-finops
-graphqls:
-- description: 'This conceptual GraphQL schema represents the Apple App Store Connect API and related Apple developer APIs. Apple''s public APIs are REST-based (App Store Connect API, Apple Music API, MapKit, Sign in '
-  name: Apple GraphQL Schema
-  slug: apple-graphql
 image: https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png
 integrations:
 - description: Full IDE integration for building, testing, and deploying apps across all Apple platforms.
@@ -672,7 +668,7 @@ score:
   band: strong
   composite: 55.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
@@ -682,7 +678,7 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 78.2
+    contract_quality: 78.1
     developer_ergonomics: 58.3
     discoverability: 57.4
     operational_transparency: 39.5
@@ -695,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

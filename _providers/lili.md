@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -243,7 +243,7 @@ modified: '2026-09-16'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial-Services, Fintech, and Embedded Finance.
+overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
 
 
   The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -299,7 +299,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -318,7 +318,7 @@ slug: lili
 tags:
 - Banking
 - Business Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Onboarding

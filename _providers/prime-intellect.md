@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -63,12 +63,12 @@ apis:
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The admin-clusters API from Prime Intellect — 4 operation(s) for admin-clusters.
-  name: Prime Intellect admin-clusters API
+  name: Prime Intellect Admin Clusters API
   slug: prime-intellect-admin-clusters-api
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The admin-users API from Prime Intellect — 1 operation(s) for admin-users.
-  name: Prime Intellect admin-users API
+  name: Prime Intellect Admin Users API
   slug: prime-intellect-admin-users-api
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
@@ -88,7 +88,7 @@ apis:
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The evals API from Prime Intellect — 5 operation(s) for evals.
-  name: Prime Intellect evals API
+  name: Prime Intellect Evals API
   slug: prime-intellect-evals-api
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
@@ -103,7 +103,7 @@ apis:
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The hosted-evaluations API from Prime Intellect — 4 operation(s) for hosted-evaluations.
-  name: Prime Intellect hosted-evaluations API
+  name: Prime Intellect Hosted Evaluations API
   slug: prime-intellect-hosted-evaluations-api
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
@@ -128,7 +128,7 @@ apis:
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The teams API from Prime Intellect — 1 operation(s) for teams.
-  name: Prime Intellect teams API
+  name: Prime Intellect Teams API
   slug: prime-intellect-teams-api
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
@@ -143,7 +143,7 @@ apis:
 - baseURL: https://api.primeintellect.ai
   baseurl_source: declared
   description: The user API from Prime Intellect — 3 operation(s) for user.
-  name: Prime Intellect user API
+  name: Prime Intellect User API
   slug: prime-intellect-user-api
 artifact_total: 77
 collections:
@@ -509,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -541,7 +541,7 @@ tags:
 - Environment
 - Evaluation
 - LoRA
-- Open-Source
+- Open Source
 - Agents
 website: https://www.primeintellect.ai
 ---

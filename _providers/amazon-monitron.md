@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/monitron/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -247,7 +247,7 @@ modified: '2026-09-16'
 name: Amazon Monitron
 nav: Providers
 network: true
-overview: 'Amazon Monitron publishes 3 APIs on the [APIs.io](https://apis.io/) network: ProjectAdmins API, Projects API, and Tags API. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon Monitron publishes 3 APIs on the [APIs.io](https://apis.io/) network: ProjectAdmins API, Projects API, and Tags API. Tagged areas include Industrial IoT, Predictive Maintenance, Monitoring, and Machine Learning.
 
 
   The Amazon Monitron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -312,7 +312,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -337,9 +337,10 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-monitron
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Industrial IoT
+- Predictive Maintenance
+- Monitoring
+- Machine Learning
 use_cases:
 - description: Monitor motors, pumps, fans, and compressors for early signs of failure.
   name: Industrial Equipment Monitoring
@@ -349,5 +350,5 @@ use_cases:
   name: Downtime Reduction
 - description: Deploy sensors across entire manufacturing facilities for comprehensive asset health.
   name: Plant-Wide Monitoring
-website: https://amazon.com
+website: https://aws.amazon.com/monitron/
 ---

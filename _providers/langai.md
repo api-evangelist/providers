@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ modified: '2026-08-14'
 name: Lang.ai
 nav: Providers
 network: true
-overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Natural Language Processing, and Conversation Intelligence.
+overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Conversation Intelligence.
 
 
   Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -316,10 +316,10 @@ slug: langai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer-Support
+- Customer Support
 - Text Classification
 - Analytics
 - Customer Experience

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 15
   human_in_the_loop: 0
   name: Contextual Ai Agentic Access
   operation_count: 25
   slug: contextual-ai-agentic-access
-  summary_line: 25 operations · 16 acting
+  summary_line: 25 operations · 15 acting
 api_count: 1
 apis:
 - baseURL: https://api.contextual.ai/v1
@@ -257,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -287,5 +287,6 @@ tags:
 - LLM
 - Grounded Language Model
 - Enterprise
+- Real-Time
 website: https://contextual.ai/
 ---

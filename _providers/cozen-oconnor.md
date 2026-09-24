@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'The Cozen O''Connor public website at cozen.com is the firm''s primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, news and publications, '
@@ -44,7 +44,7 @@ apis:
 - description: Cozen O'Connor publishes an unusually broad network of practice-area blogs and podcasts hosted on LexBlog / WordPress infrastructure. Each blog is reachable at its own domain and exposes a standard Wo
   name: Cozen O'Connor LexBlog / WordPress Blog Network
   slug: blog-network
-artifact_total: 5
+artifact_total: 4
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/security/cozen-oconnor-domain-security.yml
@@ -110,10 +110,6 @@ common:
 created: '2026-05-23'
 description: Cozen O'Connor is a full-service U.S. law firm founded in 1970 and headquartered in Philadelphia, with more than 1,000 attorneys across 33+ offices in the United States, Canada, and the United Kingdom. The firm is ranked among the top 100 law firms in America and is best known for its nationally recognized subrogation, insurance, labor and employment, global corporate, intellectual property, and government relations practices. Cozen O'Connor Public Strategies, the firm's bipartisan federal, state, and local government affairs and lobbying arm, operates from Washington, D.C. and major state capitals. The firm operates an unusually broad thought-leadership network of LexBlog/WordPress-powered blogs and podcasts (subrogation, cyber law, health law, state AGs, transformative AI, OSHA, employment law, family law, property insurance, casualty coverage, real estate / land use, professional responsibility, and a Public Strategies feed), each of which exposes a standard `/feed/` RSS
   endpoint. Cozen O'Connor does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization. This profile catalogs the firm's public-facing knowledge surface — practice and industry pages, attorney directory, ancillary businesses, lobbying arm, and the blog/podcast RSS network — rather than a developer platform.
-graphqls:
-- description: ''
-  name: Cozen O'Connor GraphQL API
-  slug: cozen-oconnor-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cozen-oconnor.png
 layout: provider
 modified: '2026-05-23'
@@ -126,7 +122,7 @@ score:
   band: minimal
   composite: 3.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -153,7 +149,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +176,7 @@ tags:
 - Lobbying
 - Professional Services
 - Public Strategies
-- Real-Estate
+- Real Estate
 - Subrogation
 - Thought Leadership
 website: https://www.cozen.com

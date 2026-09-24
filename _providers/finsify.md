@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: RESTful bank-aggregation API for accessing consumer banking data — accounts, balances, and categorized transaction history — plus customer, connection token, and login lifecycle management, with webho
@@ -120,7 +120,7 @@ modified: '2026-07-19'
 name: Finsify
 nav: Providers
 network: true
-overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Open Banking, Bank Aggregation, and Financial Data.
+overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Open Banking, Bank Aggregation, and Financial Data.
 
 
   The Finsify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -161,7 +161,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ security:
 slug: finsify
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Open Banking
 - Bank Aggregation
 - Financial Data

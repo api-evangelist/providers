@@ -1,6 +1,6 @@
 {
- "total": 17,
- "shown": 17,
+ "total": 18,
+ "shown": 18,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -186,7 +186,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -228,7 +228,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -278,7 +278,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
@@ -321,7 +321,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -378,7 +378,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -438,7 +438,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -488,7 +488,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -531,7 +531,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -572,8 +572,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Funcom",
@@ -591,7 +591,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -634,7 +634,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -662,11 +662,10 @@
      "rank": 13
     },
     {
-     "name": "Dimeq",
-     "slug": "dimeq",
-     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
-     "score": 5.0,
+     "name": "KSAT",
+     "slug": "ksat",
+     "description": "KSAT (Kongsberg Satellite Services) provides high‑reliability satellite ground station services, data acquisition, TT&C solutions, and hosted infrastructure for a wide range of customers including small‑sat constellations, lunar missions, and launch vehicle telemetry. Operating a global network of ground stations, KSAT enables secure, low‑latency communications between space assets and ground operators, supporting both commercial and governmental space initiatives.",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -675,9 +674,9 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
+      "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -705,10 +704,10 @@
      "rank": 14
     },
     {
-     "name": "Energy Micro",
-     "slug": "energy-micro",
-     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
+     "name": "Dimeq",
+     "slug": "dimeq",
+     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -720,7 +719,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -748,9 +747,10 @@
      "rank": 15
     },
     {
-     "name": "Mamut",
-     "slug": "mamut",
-     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "name": "Energy Micro",
+     "slug": "energy-micro",
+     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -762,7 +762,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -790,6 +790,48 @@
      "rank": 16
     },
     {
+     "name": "Mamut",
+     "slug": "mamut",
+     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Nextgentel",
      "slug": "nextgentel",
      "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
@@ -805,7 +847,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -837,7 +879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     }
    ]
   }

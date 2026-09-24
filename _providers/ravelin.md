@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 19
   human_in_the_loop: 0
   name: Ravelin Agentic Access
-  operation_count: 24
+  operation_count: 21
   slug: ravelin-agentic-access
-  summary_line: 24 operations · 24 acting
+  summary_line: 21 operations · 19 acting
 api_count: 2
 apis:
 - description: A purpose-built API surface for Payment Service Providers (PSPs) embedding Ravelin's risk scoring and dispute capture into their own merchant-facing product. Exposes Score, Transaction, Dispute, and t
@@ -362,7 +362,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -401,7 +401,7 @@ tags:
 - 3D Secure
 - Risk Scoring
 - Payments
-- Machine-Learning
+- Machine Learning
 use_cases:
 - description: Scoring checkout and transaction events to block fraudulent orders before they ship and reduce card scheme chargebacks.
   name: Online Payment Fraud and Chargeback Prevention

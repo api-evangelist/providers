@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -84,10 +84,6 @@ common:
   url: https://support.smartbear.com/
 created: '2026-03-16'
 description: ReadyAPI is SmartBear's enterprise-grade automated API testing platform. It unifies functional, security, performance, and virtualization testing for REST, SOAP, GraphQL, Kafka, JDBC, and JMS APIs. ReadyAPI is delivered as a desktop and CI/CD tool rather than as a public REST API, integrating with Jenkins, Azure DevOps, Git, and other automation platforms via TestEngine.
-graphqls:
-- description: ''
-  name: ReadyAPI GraphQL API
-  slug: readyapi-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/readyapi.png
 layout: provider
 modified: '2026-04-28'
@@ -103,7 +99,7 @@ score:
   band: emerging
   composite: 12.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,7 +115,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

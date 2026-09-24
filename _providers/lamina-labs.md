@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-07-19'
 name: Lamina Labs
 nav: Providers
 network: true
-overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Machine-Learning.
+overview: 'Lamina Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Video Generation, and Machine Learning.
 
 
   Lamina Labs'' developer surface includes documentation, signup flow, support, authentication, and 15 more developer resources.'
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Artificial Intelligence
 - Video
 - Video Generation
-- Machine-Learning
+- Machine Learning
 - Education
 - Media
 - MCP

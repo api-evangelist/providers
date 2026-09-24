@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ modified: '2026-07-19'
 name: Haladir
 nav: Providers
 network: true
-overview: 'Haladir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Artificial Intelligence, and Machine-Learning.
+overview: 'Haladir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Artificial Intelligence, and Machine Learning.
 
 
   Haladir''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -104,7 +104,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ tags:
 - Logistics
 - Supply Chain
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Optimization
 - Warehouse Management
 - Y Combinator

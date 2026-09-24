@@ -34,65 +34,65 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 3
+- acting_count: 7
+  human_in_the_loop: 2
   name: Method Security Agentic Access
   operation_count: 18
   slug: method-security-agentic-access
-  summary_line: 18 operations · 10 acting · 3 human-in-the-loop
+  summary_line: 18 operations · 7 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The audit API from Method Security — 1 operation(s) for audit.
-  name: Method Security audit API
+  name: Method Security Audit API
   slug: method-security-audit-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The auth API from Method Security — 1 operation(s) for auth.
-  name: Method Security auth API
+  name: Method Security Auth API
   slug: method-security-auth-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The blueprints API from Method Security — 2 operation(s) for blueprints.
-  name: Method Security blueprints API
+  name: Method Security Blueprints API
   slug: method-security-blueprints-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The environments API from Method Security — 2 operation(s) for environments.
-  name: Method Security environments API
+  name: Method Security Environments API
   slug: method-security-environments-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The issues API from Method Security — 2 operation(s) for issues.
-  name: Method Security issues API
+  name: Method Security Issues API
   slug: method-security-issues-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The reports API from Method Security — 1 operation(s) for reports.
-  name: Method Security reports API
+  name: Method Security Reports API
   slug: method-security-reports-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The signals API from Method Security — 1 operation(s) for signals.
-  name: Method Security signals API
+  name: Method Security Signals API
   slug: method-security-signals-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The skills API from Method Security — 3 operation(s) for skills.
-  name: Method Security skills API
+  name: Method Security Skills API
   slug: method-security-skills-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The system API from Method Security — 1 operation(s) for system.
-  name: Method Security system API
+  name: Method Security System API
   slug: method-security-system-api
 - baseURL: https://your-instance.method.delivery/method-api-gateway/api
   baseurl_source: declared
   description: The targets API from Method Security — 3 operation(s) for targets.
-  name: Method Security targets API
+  name: Method Security Targets API
   slug: method-security-targets-api
 artifact_total: 28
 asyncapis:
@@ -297,7 +297,7 @@ modified: '2026-07-20'
 name: Method Security
 nav: Providers
 network: true
-overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) network, including audit API, auth API, blueprints API, and 7 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
+overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Auth API, Blueprints API, and 7 more. Tagged areas include Company, Security, Cybersecurity, Offensive Security, and Exposure Management.
 
 
   The Method Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,7 +315,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
@@ -323,7 +323,7 @@ score:
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 36.8
-  previous_composite: 54.5
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,7 +341,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

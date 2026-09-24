@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Extensis Agentic Access
   operation_count: 4
   slug: extensis-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 4 operations
 api_count: 1
 apis:
 - baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

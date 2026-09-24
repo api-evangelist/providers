@@ -35,18 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: General system endpoints for the API.
-  name: Leo1 api
+  name: Leo1 API
   slug: leo1-api-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The auth API from Leo1 — 4 operation(s) for auth.
-  name: Leo1 auth API
+  name: Leo1 Auth API
   slug: leo1-auth-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -61,7 +61,7 @@ apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The documents API from Leo1 — 4 operation(s) for documents.
-  name: Leo1 documents API
+  name: Leo1 Documents API
   slug: leo1-documents-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -71,17 +71,17 @@ apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The fee_collections API from Leo1 — 7 operation(s) for fee_collections.
-  name: Leo1 fee_collections API
+  name: Leo1 Fee Collections API
   slug: leo1-fee-collections-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The fee_dues API from Leo1 — 2 operation(s) for fee_dues.
-  name: Leo1 fee_dues API
+  name: Leo1 Fee Dues API
   slug: leo1-fee-dues-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The institute API from Leo1 — 3 operation(s) for institute.
-  name: Leo1 institute API
+  name: Leo1 Institute API
   slug: leo1-institute-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -131,17 +131,17 @@ apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The payment API from Leo1 — 12 operation(s) for payment.
-  name: Leo1 payment API
+  name: Leo1 Payment API
   slug: leo1-payment-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The penalty API from Leo1 — 1 operation(s) for penalty.
-  name: Leo1 penalty API
+  name: Leo1 Penalty API
   slug: leo1-penalty-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The refund API from Leo1 — 1 operation(s) for refund.
-  name: Leo1 refund API
+  name: Leo1 Refund API
   slug: leo1-refund-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -161,7 +161,7 @@ apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The student API from Leo1 — 13 operation(s) for student.
-  name: Leo1 student API
+  name: Leo1 Student API
   slug: leo1-student-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -186,17 +186,17 @@ apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The transactions API from Leo1 — 10 operation(s) for transactions.
-  name: Leo1 transactions API
+  name: Leo1 Transactions API
   slug: leo1-transactions-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The user API from Leo1 — 2 operation(s) for user.
-  name: Leo1 user API
+  name: Leo1 User API
   slug: leo1-user-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: The waiver API from Leo1 — 1 operation(s) for waiver.
-  name: Leo1 waiver API
+  name: Leo1 Waiver API
   slug: leo1-waiver-api
 artifact_total: 68
 asyncapis:
@@ -437,7 +437,7 @@ modified: '2026-09-16'
 name: Leo1
 nav: Providers
 network: true
-overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, including auth API, Common Fee Type API, and 30 more. Tagged areas include Company, Fintech, Education, Payments, and Student Loans.
+overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Common Fee Type API, and 30 more. Tagged areas include Company, Fintech, Education, Payments, and Student Loans.
 
 
   The Leo1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -487,7 +487,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

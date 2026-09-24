@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: The Authologic Identity API enables businesses to initiate identity verification processes and receive results programmatically. Supports document verification, eID, Bank ID, and biometric liveness ch
   name: Authologic Identity API
   slug: authologic-identity-api
-- baseURL: https://api.authologic.com
-  baseurl_source: declared
-  description: The Authologic AML API enables Anti-Money Laundering screening combined with identity verification in a single integrated flow for KYC/AML compliance.
-  name: Authologic AML API
-  slug: authologic-aml-api
 - description: The Authologic Data Verification API enables verification of personal data against authoritative sources including government databases and credit bureaus.
   name: Authologic Data Verification API
   slug: authologic-data-verification-api
@@ -70,7 +65,7 @@ apis:
   slug: authologic-affordability-assessment-api
 - baseURL: https://api.authologic.com
   baseurl_source: declared
-  description: '3. Product: AML'
+  description: The Authologic AML API enables Anti-Money Laundering screening combined with identity verification in a single integrated flow for KYC/AML compliance.
   name: Authologic AML API
   slug: authologic-aml-api
 - baseURL: https://api.authologic.com
@@ -98,7 +93,7 @@ apis:
   description: '5. Advanced: Metadata'
   name: Authologic Metadata API
   slug: authologic-metadata-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Authologic Callbacks Webhooks
@@ -310,7 +305,7 @@ modified: '2026-09-14'
 name: Authologic
 nav: Providers
 network: true
-overview: 'Authologic publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AML API, Advanced API, Affordability assessment API, and 6 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
+overview: 'Authologic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Affordability assessment API, AML API, and 5 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
 
 
   The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -361,7 +356,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

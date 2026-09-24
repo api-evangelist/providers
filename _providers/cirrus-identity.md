@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.cirrusidentity.com/logs/v1
   baseurl_source: declared
   description: The endpoints API from Cirrus Identity — 2 operation(s) for endpoints.
-  name: Cirrus Identity endpoints API
+  name: Cirrus Identity Endpoints API
   slug: cirrus-identity-endpoints-api
 artifact_total: 8
 collections:
@@ -197,7 +197,7 @@ modified: '2026-09-16'
 name: Cirrus Identity
 nav: Providers
 network: true
-overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) network: endpoints API. Tagged areas include Company, Identity, Authentication, SSO, and SAML.
+overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Company, Identity, Authentication, SSO, and SAML.
 
 
   Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
@@ -238,7 +238,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

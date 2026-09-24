@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
+- acting_count: 15
   human_in_the_loop: 0
   name: Kareo Agentic Access
   operation_count: 32
   slug: kareo-agentic-access
-  summary_line: 32 operations · 32 acting
+  summary_line: 32 operations · 15 acting
 api_count: 1
 apis:
 - description: The Kareo Integration SOAP API provides a web services interface for integrating third-party applications with practice management data. Supports read access to patients, providers, appointments, tran
@@ -267,7 +267,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ modified: '2026-05-19'
 name: Apache Kylin
 nav: Providers
 network: true
-overview: 'Apache Kylin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Jobs API, Models API, and 3 more. Tagged areas include Analytics, Big Data, cube, OLAP, and Open-Source.
+overview: 'Apache Kylin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Jobs API, Models API, and 3 more. Tagged areas include Analytics, Big Data, cube, OLAP, and Open Source.
 
 
   The Apache Kylin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -362,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -387,7 +387,7 @@ tags:
 - Big Data
 - cube
 - OLAP
-- Open-Source
+- Open Source
 - SQL
 use_cases:
 - description: Accelerate slow Hive or Spark queries with Kylin cube pre-computation.

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Ezee Agentic Access
   operation_count: 2
   slug: ezee-agentic-access
-  summary_line: 2 operations · 2 acting
+  summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://live.ipms247.com/pmsinterface/
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

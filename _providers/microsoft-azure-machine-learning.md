@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Azure Machine Learning
 nav: Providers
 network: true
-overview: 'Azure Machine Learning publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, Azure, Machine-Learning, MLOps, and Model Deployment.
+overview: 'Azure Machine Learning publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Workspaces API. Tagged areas include Artificial Intelligence, Azure, Machine Learning, MLOps, and Model Deployment.
 
 
   Azure Machine Learning''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 9 more developer resources.'
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -233,7 +233,7 @@ slug: microsoft-azure-machine-learning
 tags:
 - Artificial Intelligence
 - Azure
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Deployment
 - Model Training

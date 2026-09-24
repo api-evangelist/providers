@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 12
 common:
@@ -144,7 +144,7 @@ modified: '2026-04-19'
 name: Bootc
 nav: Providers
 network: true
-overview: 'Bootc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CNCF, Container Images, Infrastructure, OCI, and Open-Source.
+overview: 'Bootc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CNCF, Container Images, Infrastructure, OCI, and Open Source.
 
 
   Bootc''s developer surface includes documentation, release notes, engineering blog, and 9 more developer resources.'
@@ -169,7 +169,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -187,7 +187,7 @@ tags:
 - Container Images
 - Infrastructure
 - OCI
-- Open-Source
+- Open Source
 - Operating System
 - System Updates
 use_cases:

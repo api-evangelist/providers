@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 47
+- acting_count: 38
   human_in_the_loop: 0
   name: Lancedb Agentic Access
   operation_count: 50
   slug: lancedb-agentic-access
-  summary_line: 50 operations · 47 acting
+  summary_line: 50 operations · 38 acting
 api_count: 1
 apis:
 - description: Distributed, multi-tenant multimodal lakehouse. Adds curation and deduplication, Python UDF feature engineering, materialized views, GPU-accelerated index build via cuVS, distributed query, and direct
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -347,7 +347,7 @@ tags:
 - Lakehouse
 - RAG
 - Agent Memory
-- Open-Source
+- Open Source
 - Embeddings
 - Full-Text Search
 - Hybrid Search

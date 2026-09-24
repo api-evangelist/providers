@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://backend.blockadelabs.com/api/v1
@@ -216,7 +216,7 @@ modified: '2026-07-18'
 name: Blockade Games
 nav: Providers
 network: true
-overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image-Generation, 3D, and Gaming.
+overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) network: Skybox Exports API and Skyboxes API. Tagged areas include Company, Artificial Intelligence, Image Generation, 3D, and Gaming.
 
 
   The Blockade Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -272,7 +272,7 @@ slug: blockade-games
 tags:
 - Company
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - 3D
 - Gaming
 - Virtual Reality

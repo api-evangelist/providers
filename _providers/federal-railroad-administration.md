@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-05-19'
 name: Federal Railroad Administration
 nav: Providers
 network: true
-overview: 'Federal Railroad Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accidents API, Crossings API, Incidents API, and 2 more. Tagged areas include Federal-Government, Railroads, Safety, and Transportation.
+overview: 'Federal Railroad Administration publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accidents API, Crossings API, Incidents API, and 2 more. Tagged areas include Federal Government, Railroads, Safety, and Transportation.
 
 
   Federal Railroad Administration''s developer surface includes documentation and 4 more developer resources.'
@@ -172,7 +172,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -186,7 +186,7 @@ security:
   summary_line: DNSSEC · DMARC
 slug: federal-railroad-administration
 tags:
-- Federal-Government
+- Federal Government
 - Railroads
 - Safety
 - Transportation

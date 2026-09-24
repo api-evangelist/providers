@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://fieldstone.bungalow.com/api/v1/
@@ -207,7 +207,7 @@ modified: '2026-09-16'
 name: Bungalow
 nav: Providers
 network: true
-overview: 'Bungalow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Listings API, Markets API, and 1 more. Tagged areas include Company, Real-Estate, Residential Real Estate, Rental Listings, and Property Management.
+overview: 'Bungalow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Listings API, Markets API, and 1 more. Tagged areas include Company, Real Estate, Residential Real Estate, Rental Listings, and Property Management.
 
 
   The Bungalow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,7 @@ security:
 slug: bungalow
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Residential Real Estate
 - Rental Listings
 - Property Management

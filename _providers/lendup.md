@@ -49,7 +49,7 @@ modified: '2026-07-19'
 name: LendUp
 nav: Providers
 network: true
-overview: 'LendUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Lending, Fintech, and Financial-Services.
+overview: 'LendUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Lending, Fintech, and Financial Services.
 
 
   LendUp''s developer surface includes support and 6 more developer resources.'
@@ -66,7 +66,7 @@ tags:
 - Consumer
 - Consumer Lending
 - Fintech
-- Financial-Services
+- Financial Services
 - Personal Loans
 - Lead Generation
 - Defunct

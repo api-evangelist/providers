@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ modified: '2026-07-20'
 name: nexos.ai
 nav: Providers
 network: true
-overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Assistant Management API, Audio API, and 13 more. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Machine-Learning.
+overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Assistant Management API, Audio API, and 13 more. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Machine Learning.
 
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
@@ -328,7 +328,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -353,7 +353,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - AI Gateway
-- Machine-Learning
+- Machine Learning
 - Embeddings
 - Agents
 - Developer Tools

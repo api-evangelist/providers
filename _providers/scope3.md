@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -32,15 +32,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 69.3
-  scored_at: '2026-09-23'
+  score: 65.8
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 263
+- acting_count: 261
   human_in_the_loop: 5
   name: Scope3 Agentic Access
   operation_count: 466
   slug: scope3-agentic-access
-  summary_line: 466 operations · 263 acting · 5 human-in-the-loop
+  summary_line: 466 operations · 261 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://aiapi.scope3.com
@@ -625,7 +625,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -656,5 +656,6 @@ tags:
 - Programmatic
 - Media Buying
 - Publishing
+- A2A
 website: https://scope3.com
 ---

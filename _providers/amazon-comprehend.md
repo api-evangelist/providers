@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 84
+- acting_count: 66
   human_in_the_loop: 9
   name: Amazon Comprehend Agentic Access
   operation_count: 84
   slug: amazon-comprehend-agentic-access
-  summary_line: 84 operations · 84 acting · 9 human-in-the-loop
+  summary_line: 84 operations · 66 acting · 9 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://comprehend.amazonaws.com
@@ -4134,7 +4134,7 @@ modified: '2026-06-20'
 name: Amazon Comprehend
 nav: Providers
 network: true
-overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API, #X Amz Target=Comprehend 20171127.BatchDetectEntities API, #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API, and 81 more. Tagged areas include Machine-Learning, Natural Language Processing, NLP, and Text Analysis.
+overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API, #X Amz Target=Comprehend 20171127.BatchDetectEntities API, #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API, and 81 more. Tagged areas include Machine Learning, Natural Language Processing, NLP, and Text Analysis.
 
 
   The Amazon Comprehend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -4200,7 +4200,7 @@ score:
       total: 84
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -4225,7 +4225,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-comprehend
 tags:
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - NLP
 - Text Analysis

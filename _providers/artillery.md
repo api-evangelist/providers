@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Artillery Cloud is the hosted platform behind the open source Artillery CLI: it runs distributed load and Playwright E2E tests at scale across AWS Lambda, AWS Fargate and Azure ACI, stores and retains'
@@ -251,7 +251,7 @@ modified: '2026-09-07'
 name: Artillery
 nav: Providers
 network: true
-overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open-Source, Testing, and DevOps.
+overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open Source, Testing, and DevOps.
 
 
   Artillery''s developer surface includes engineering blog, developer portal, documentation, changelog, pricing, API reference, getting-started guide, and 33 more developer resources.'
@@ -291,7 +291,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -319,7 +319,7 @@ slug: artillery
 tags:
 - Load Testing
 - Performance Testing
-- Open-Source
+- Open Source
 - Testing
 - DevOps
 - Node.js

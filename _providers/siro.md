@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-09-23'
+  score: 31.6
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 116
+- acting_count: 110
   human_in_the_loop: 1
   name: Siro Agentic Access
   operation_count: 213
   slug: siro-agentic-access
-  summary_line: 213 operations · 116 acting · 1 human-in-the-loop
+  summary_line: 213 operations · 110 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://functions.siro.ai/api-externalApi
@@ -340,7 +340,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
@@ -348,7 +348,7 @@ score:
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 31.6
-  previous_composite: 55.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -360,7 +360,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -391,5 +391,6 @@ tags:
 - Speech-to-Text
 - Webhook
 - Integration
+- A2A
 website: https://siro.ai/
 ---

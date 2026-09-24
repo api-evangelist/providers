@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -46,52 +46,52 @@ apis:
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A backup is a complete, standalone image of a specific virtual machine, taken at a specific point in time.
-  name: SimpliVity backups API
+  name: SimpliVity Backups API
   slug: simplivity-backups-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A set of omnistack_clusters that are able to perform backup and restore operations between each other
-  name: SimpliVity cluster_groups API
+  name: SimpliVity Cluster Groups API
   slug: simplivity-cluster-groups-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A datastore is a data repository of files that constitute virtual machines.
-  name: SimpliVity datastores API
+  name: SimpliVity Datastores API
   slug: simplivity-datastores-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: An external (non HPE SimpliVity) destination for storing backups, such as an HPE StoreOnce Catalyst store
-  name: SimpliVity external_stores API
+  name: SimpliVity External Stores API
   slug: simplivity-external-stores-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A host is a virtual object that uses HPE OmniStack software in a federation.
-  name: SimpliVity hosts API
+  name: SimpliVity Hosts API
   slug: simplivity-hosts-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: An omnistack_cluster is a logical grouping of systems that run the HPE OmniStack software. The user defines an omnistack_cluster to efficiently share resources across the systems.
-  name: SimpliVity omnistack_clusters API
+  name: SimpliVity Omnistack Clusters API
   slug: simplivity-omnistack-clusters-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A policy contains backup rules that can be applied to an individual datastore or virtual_machine.
-  name: SimpliVity policies API
+  name: SimpliVity Policies API
   slug: simplivity-policies-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: Includes the REST APIs that support security operations for HPE SimpliVity objects
-  name: SimpliVity security API
+  name: SimpliVity Security API
   slug: simplivity-security-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A task is created by the system to enable a client to track state changes where a managed object moves when it is created or modified.
-  name: SimpliVity tasks API
+  name: SimpliVity Tasks API
   slug: simplivity-tasks-api
 - baseURL: https://management-virtual-appliance/api
   baseurl_source: declared
   description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
-  name: SimpliVity virtual_machines API
+  name: SimpliVity Virtual Machines API
   slug: simplivity-virtual-machines-api
 artifact_total: 25
 collections:
@@ -247,7 +247,7 @@ modified: '2026-07-21'
 name: SimpliVity
 nav: Providers
 network: true
-overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including backups API, cluster_groups API, datastores API, and 7 more. Tagged areas include Company, Big Data, Hyperconverged Infrastructure, Virtualization, and Backup.
+overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Cluster Groups API, Datastores API, and 7 more. Tagged areas include Company, Big Data, Hyperconverged Infrastructure, Virtualization, and Backup.
 
 
   SimpliVity''s developer surface includes documentation, API reference, and 22 more developer resources.'
@@ -290,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +313,7 @@ tags:
 - Virtualization
 - Backup
 - Disaster Recovery
-- Data-Center
+- Data Center
 - Storage
 - Cloud Infrastructure
 - HPE

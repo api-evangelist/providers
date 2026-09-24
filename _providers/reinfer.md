@@ -23,7 +23,7 @@ modified: '2026-07-21'
 name: Reinfer
 nav: Providers
 network: true
-overview: Reinfer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, Communications Intelligence, Conversational Data, and Machine-Learning.
+overview: Reinfer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, Communications Intelligence, Conversational Data, and Machine Learning.
 random_paper: 21
 slug: reinfer
 tags:
@@ -31,7 +31,7 @@ tags:
 - Natural Language Processing
 - Communications Intelligence
 - Conversational Data
-- Machine-Learning
+- Machine Learning
 - Acquired
 - Defunct
 website: http://reinfer.io

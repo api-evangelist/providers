@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ modified: '2026-07-26'
 name: TwentyCi
 nav: Providers
 network: true
-overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Address Match API, Agent Performance API, Authorisation API, and 6 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Valuation.
+overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Address Match API, Agent Performance API, Authorisation API, and 6 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Data, and Valuation.
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
@@ -306,13 +306,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 9
       marker_coverage: 100.0
-      total: 11
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -329,7 +329,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: twentyci
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Data

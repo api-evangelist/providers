@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -151,7 +151,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,6 +173,6 @@ tags:
 - Multi-Chain
 - GraphQL
 - Smart Order Router
-- Open-Source
+- Open Source
 website: https://balancer.fi
 ---

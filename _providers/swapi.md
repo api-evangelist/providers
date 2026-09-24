@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: Non-hyperdrive vehicles (AT-ATs, snowspeeders, sand crawlers).
   name: SWAPI - Star Wars API Vehicles API
   slug: swapi-vehicles-api
-artifact_total: 43
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -224,10 +224,6 @@ examples:
 - key_count: 5
   name: Swapi Listpeople Example
   slug: swapi-listpeople-example
-graphqls:
-- description: ''
-  name: SWAPI - Star Wars API GraphQL API
-  slug: swapi-graphql
 image: https://avatars.githubusercontent.com/u/2014472?s=200
 json_schemas:
 - name: SWAPI Film
@@ -277,7 +273,7 @@ modified: '2026-05-29'
 name: SWAPI - Star Wars API
 nav: Providers
 network: true
-overview: 'SWAPI - Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Open-Source, Teaching API, Public APIs, and REST.
+overview: 'SWAPI - Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Open Source, Teaching API, Public APIs, and REST.
 
 
   The SWAPI - Star Wars API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -319,7 +315,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
@@ -342,7 +338,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -357,7 +353,7 @@ security:
 slug: swapi
 tags:
 - Star Wars
-- Open-Source
+- Open Source
 - Teaching API
 - Public APIs
 - REST

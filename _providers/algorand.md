@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 37
+- acting_count: 34
   human_in_the_loop: 1
   name: Algorand Agentic Access
   operation_count: 100
   slug: algorand-agentic-access
-  summary_line: 100 operations · 37 acting · 1 human-in-the-loop
+  summary_line: 100 operations · 34 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: The Key Management Daemon (KMD) REST API provides local key storage and transaction signing for Algorand nodes. It exposes wallet management, key generation, and signing endpoints through a locally-ru
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
   description: The common API from Algorand — 6 operation(s) for common.
-  name: Algorand common API
+  name: Algorand Common API
   slug: algorand-common-api
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
@@ -60,7 +60,7 @@ apis:
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
   description: The lookup API from Algorand — 14 operation(s) for lookup.
-  name: Algorand lookup API
+  name: Algorand Lookup API
   slug: algorand-lookup-api
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
@@ -75,7 +75,7 @@ apis:
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
   description: The private API from Algorand — 7 operation(s) for private.
-  name: Algorand private API
+  name: Algorand Private API
   slug: algorand-private-api
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
@@ -85,12 +85,12 @@ apis:
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
   description: The public API from Algorand — 43 operation(s) for public.
-  name: Algorand public API
+  name: Algorand Public API
   slug: algorand-public-api
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
   description: The search API from Algorand — 6 operation(s) for search.
-  name: Algorand search API
+  name: Algorand Search API
   slug: algorand-search-api
 - baseURL: https://mainnet-api.4160.nodely.dev
   baseurl_source: declared
@@ -399,7 +399,7 @@ modified: '2026-06-13'
 name: Algorand
 nav: Providers
 network: true
-overview: 'Algorand publishes 14 APIs on the [APIs.io](https://apis.io/) network, including common API, Key API, lookup API, and 11 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, DeFi, and Smart Contracts.
+overview: 'Algorand publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Common API, Key API, Lookup API, and 11 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, DeFi, and Smart Contracts.
 
 
   The Algorand catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -453,7 +453,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

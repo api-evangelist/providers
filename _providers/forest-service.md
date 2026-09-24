@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: The Forest Inventory and Analysis Database API, the machine surface behind the EVALIDator web application. A single GET or POST to /fullreport returns population estimates with standard errors, varian
@@ -157,7 +157,7 @@ modified: '2026-09-10'
 name: Forest Service
 nav: Providers
 network: true
-overview: 'Forest Service publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Federal-Government, Forests, Geospatial, and Open Data.
+overview: 'Forest Service publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Federal Government, Forests, Geospatial, and Open Data.
 
 
   Forest Service''s developer surface includes support, authentication, changelog, and 17 more developer resources.'
@@ -200,7 +200,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +219,7 @@ security:
 slug: forest-service
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Forests
 - Geospatial
 - Open Data

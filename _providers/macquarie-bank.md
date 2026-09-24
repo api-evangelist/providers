@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Macquarie Bank Agentic Access
   operation_count: 19
   slug: macquarie-bank-agentic-access
-  summary_line: 19 operations · 3 acting
+  summary_line: 19 operations
 api_count: 1
 apis:
 - description: Macquarie's connectivity / data APIs for business, documented through the registered Macquarie developer portal, let approved businesses and software partners automate account information retrieval an
@@ -309,7 +309,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

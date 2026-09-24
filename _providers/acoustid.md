@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for audio fingerprint lookup and submission. Accepts Chromaprint-generated fingerprints and returns AcoustID track identifiers along with linked MusicBrainz metadata including recordings, art
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: AcoustID
 nav: Providers
 network: true
-overview: 'AcoustID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Fingerprinting, Music, MusicBrainz, and Open-Source.
+overview: 'AcoustID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Fingerprinting, Music, MusicBrainz, and Open Source.
 
 
   AcoustID''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
@@ -130,7 +130,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ tags:
 - Fingerprinting
 - Music
 - MusicBrainz
-- Open-Source
+- Open Source
 - Identification
 website: https://acoustid.org/
 ---

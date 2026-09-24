@@ -55,7 +55,7 @@ tags:
 - Wiki
 - Real-Time Editing
 - Productivity
-- Open-Source
+- Open Source
 - Defunct
 website: https://hackpad.com
 ---

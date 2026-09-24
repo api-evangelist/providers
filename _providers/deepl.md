@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ modified: '2026-05-30'
 name: DeepL
 nav: Providers
 network: true
-overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossary, Localization, and Machine-Learning.
+overview: 'DeepL publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Voice API, Documents API, Glossaries API, and 4 more. Tagged areas include Artificial Intelligence, Deep Learning, Glossary, Localization, and Machine Learning.
 
 
   The DeepL catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -323,7 +323,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -352,8 +352,9 @@ tags:
 - Deep Learning
 - Glossary
 - Localization
-- Machine-Learning
+- Machine Learning
 - Machine Translation
 - Translation
+- Real-Time
 website: https://www.deepl.com/
 ---

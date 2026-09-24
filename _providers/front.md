@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -487,7 +487,7 @@ modified: '2026-05-30'
 name: Front
 nav: Providers
 network: true
-overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer-Support, Email, Inbox, Customer Operations, and Collaboration.
+overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer Support, Email, Inbox, Customer Operations, and Collaboration.
 
 
   Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
@@ -530,7 +530,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -555,7 +555,7 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: front
 tags:
-- Customer-Support
+- Customer Support
 - Email
 - Inbox
 - Customer Operations

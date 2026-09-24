@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: Cucumber is the world's most popular BDD framework, supporting Java, JavaScript, Ruby, Python, and C#. It uses Gherkin syntax for writing human-readable test scenarios and provides integrations with a
@@ -51,7 +51,7 @@ apis:
 - description: JBehave is a pioneering BDD framework for Java and JVM languages. It supports web, REST API, and microservices testing with integration for JUnit, Spring, Maven, and Gradle. JBehave Web extends the fr
   name: JBehave
   slug: jbehave
-artifact_total: 24
+artifact_total: 23
 common:
 - group: operate
   title: ''
@@ -111,10 +111,6 @@ finops:
 - name: Bdd Finops
   service_category: API
   slug: bdd-finops
-graphqls:
-- description: ''
-  name: BDD (Behavior-Driven Development) GraphQL API
-  slug: bdd-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bdd.png
 integrations:
 - description: Java test runner integration for executing Cucumber and JBehave scenarios in Java projects.
@@ -149,7 +145,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -168,7 +164,7 @@ score:
     score: 65.0
   previous_composite: 22.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

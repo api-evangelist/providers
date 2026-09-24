@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.oneconcern.com
@@ -183,7 +183,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -218,8 +218,8 @@ tags:
 - Risk Analytics
 - Geospatial
 - Business Interruption
-- Real-Estate
-- Financial-Services
+- Real Estate
+- Financial Services
 - Artificial Intelligence
 website: https://oneconcern.com/en/
 ---

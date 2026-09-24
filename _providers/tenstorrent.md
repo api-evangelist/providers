@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -133,7 +133,7 @@ modified: '2026-05-23'
 name: Tenstorrent
 nav: Providers
 network: true
-overview: 'Tenstorrent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, Accelerator, Open-Source, and Compilers.
+overview: 'Tenstorrent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, Accelerator, Open Source, and Compilers.
 
 
   Tenstorrent''s developer surface includes documentation, engineering blog, and 20 more developer resources.'
@@ -158,7 +158,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -175,12 +175,12 @@ tags:
 - AI Hardware
 - RISC-V
 - Accelerator
-- Open-Source
+- Open Source
 - Compilers
 - MLIR
 - PyTorch
 - JAX
 - SDK
-- Data-Center
+- Data Center
 website: https://tenstorrent.com
 ---

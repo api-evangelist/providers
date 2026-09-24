@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -46,97 +46,97 @@ apis:
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The binaries_v2 API from Arduino — 1 operation(s) for binaries_v2.
-  name: Arduino binaries_v2 API
+  name: Arduino Binaries V2 API
   slug: arduino-binaries-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The cleanup API from Arduino — 1 operation(s) for cleanup.
-  name: Arduino cleanup API
+  name: Arduino Cleanup API
   slug: arduino-cleanup-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The clients_v1 API from Arduino — 4 operation(s) for clients_v1.
-  name: Arduino clients_v1 API
+  name: Arduino Clients V1 API
   slug: arduino-clients-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The compact_dashboards_v2 API from Arduino — 1 operation(s) for compact_dashboards_v2.
-  name: Arduino compact_dashboards_v2 API
+  name: Arduino Compact Dashboards V2 API
   slug: arduino-compact-dashboards-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The compact_devices_v2 API from Arduino — 1 operation(s) for compact_devices_v2.
-  name: Arduino compact_devices_v2 API
+  name: Arduino Compact Devices V2 API
   slug: arduino-compact-devices-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The compact_things_v2 API from Arduino — 1 operation(s) for compact_things_v2.
-  name: Arduino compact_things_v2 API
+  name: Arduino Compact Things V2 API
   slug: arduino-compact-things-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The compact_triggers_v1 API from Arduino — 1 operation(s) for compact_triggers_v1.
-  name: Arduino compact_triggers_v1 API
+  name: Arduino Compact Triggers V1 API
   slug: arduino-compact-triggers-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The dashboard_shares_v1 API from Arduino — 1 operation(s) for dashboard_shares_v1.
-  name: Arduino dashboard_shares_v1 API
+  name: Arduino Dashboard Shares V1 API
   slug: arduino-dashboard-shares-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The dashboards_v2 API from Arduino — 8 operation(s) for dashboards_v2.
-  name: Arduino dashboards_v2 API
+  name: Arduino Dashboards V2 API
   slug: arduino-dashboards-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The dashboards_v3 API from Arduino — 4 operation(s) for dashboards_v3.
-  name: Arduino dashboards_v3 API
+  name: Arduino Dashboards V3 API
   slug: arduino-dashboards-v3-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The devices_tags_v2 API from Arduino — 1 operation(s) for devices_tags_v2.
-  name: Arduino devices_tags_v2 API
+  name: Arduino Devices Tags V2 API
   slug: arduino-devices-tags-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage user devices
-  name: Arduino devices_v2 API
+  name: Arduino Devices V2 API
   slug: arduino-devices-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the certs of a device
-  name: Arduino devices_v2_certs API
+  name: Arduino Devices V2 Certs API
   slug: arduino-devices-v2-certs-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the metadata of a device
-  name: Arduino devices_v2_metadata API
+  name: Arduino Devices V2 Metadata API
   slug: arduino-devices-v2-metadata-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The devices_v2_ota API from Arduino — 2 operation(s) for devices_v2_ota.
-  name: Arduino devices_v2_ota API
+  name: Arduino Devices V2 Ota API
   slug: arduino-devices-v2-ota-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the password of a device
-  name: Arduino devices_v2_pass API
+  name: Arduino Devices V2 Pass API
   slug: arduino-devices-v2-pass-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the pubkeys of a device
-  name: Arduino devices_v2_pubkeys API
+  name: Arduino Devices V2 Pubkeys API
   slug: arduino-devices-v2-pubkeys-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The devices_v2_tags API from Arduino — 2 operation(s) for devices_v2_tags.
-  name: Arduino devices_v2_tags API
+  name: Arduino Devices V2 Tags API
   slug: arduino-devices-v2-tags-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The devices_v2_webhooks API from Arduino — 2 operation(s) for devices_v2_webhooks.
-  name: Arduino devices_v2_webhooks API
+  name: Arduino Devices V2 Webhooks API
   slug: arduino-devices-v2-webhooks-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
@@ -146,137 +146,137 @@ apis:
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The lora_app_v1 API from Arduino — 2 operation(s) for lora_app_v1.
-  name: Arduino lora_app_v1 API
+  name: Arduino Lora App V1 API
   slug: arduino-lora-app-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The lora_apps_v1 API from Arduino — 1 operation(s) for lora_apps_v1.
-  name: Arduino lora_apps_v1 API
+  name: Arduino Lora Apps V1 API
   slug: arduino-lora-apps-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The lora_devices_v1 API from Arduino — 1 operation(s) for lora_devices_v1.
-  name: Arduino lora_devices_v1 API
+  name: Arduino Lora Devices V1 API
   slug: arduino-lora-devices-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The lora_freq_plan_v1 API from Arduino — 1 operation(s) for lora_freq_plan_v1.
-  name: Arduino lora_freq_plan_v1 API
+  name: Arduino Lora Freq Plan V1 API
   slug: arduino-lora-freq-plan-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The lora_gw_v1 API from Arduino — 4 operation(s) for lora_gw_v1.
-  name: Arduino lora_gw_v1 API
+  name: Arduino Lora Gw V1 API
   slug: arduino-lora-gw-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: A set of api to manage resources externally
-  name: Arduino manage API
+  name: Arduino Manage API
   slug: arduino-manage-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The network_credentials_v1 API from Arduino — 2 operation(s) for network_credentials_v1.
-  name: Arduino network_credentials_v1 API
+  name: Arduino Network Credentials V1 API
   slug: arduino-network-credentials-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The ota API from Arduino — 1 operation(s) for ota.
-  name: Arduino ota API
+  name: Arduino Ota API
   slug: arduino-ota-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The properties API from Arduino — 1 operation(s) for properties.
-  name: Arduino properties API
+  name: Arduino Properties API
   slug: arduino-properties-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The properties_v2 API from Arduino — 7 operation(s) for properties_v2.
-  name: Arduino properties_v2 API
+  name: Arduino Properties V2 API
   slug: arduino-properties-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The property_types_v1 API from Arduino — 1 operation(s) for property_types_v1.
-  name: Arduino property_types_v1 API
+  name: Arduino Property Types V1 API
   slug: arduino-property-types-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The series_v1 API from Arduino — 5 operation(s) for series_v1.
-  name: Arduino series_v1 API
+  name: Arduino Series V1 API
   slug: arduino-series-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The series_v2 API from Arduino — 5 operation(s) for series_v2.
-  name: Arduino series_v2 API
+  name: Arduino Series V2 API
   slug: arduino-series-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The supported_v1 API from Arduino — 1 operation(s) for supported_v1.
-  name: Arduino supported_v1 API
+  name: Arduino Supported V1 API
   slug: arduino-supported-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The sync_v1 API from Arduino — 2 operation(s) for sync_v1.
-  name: Arduino sync_v1 API
+  name: Arduino Sync V1 API
   slug: arduino-sync-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The templates API from Arduino — 1 operation(s) for templates.
-  name: Arduino templates API
+  name: Arduino Templates API
   slug: arduino-templates-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The thing_properties_v1 API from Arduino — 6 operation(s) for thing_properties_v1.
-  name: Arduino thing_properties_v1 API
+  name: Arduino Thing Properties V1 API
   slug: arduino-thing-properties-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The things_tags_v2 API from Arduino — 1 operation(s) for things_tags_v2.
-  name: Arduino things_tags_v2 API
+  name: Arduino Things Tags V2 API
   slug: arduino-things-tags-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the things of a user
-  name: Arduino things_v1 API
+  name: Arduino Things V1 API
   slug: arduino-things-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The things_v1_tags API from Arduino — 2 operation(s) for things_v1_tags.
-  name: Arduino things_v1_tags API
+  name: Arduino Things V1 Tags API
   slug: arduino-things-v1-tags-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The things_v2 API from Arduino — 7 operation(s) for things_v2.
-  name: Arduino things_v2 API
+  name: Arduino Things V2 API
   slug: arduino-things-v2-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The things_v2_tags API from Arduino — 2 operation(s) for things_v2_tags.
-  name: Arduino things_v2_tags API
+  name: Arduino Things V2 Tags API
   slug: arduino-things-v2-tags-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The timezones API from Arduino — 1 operation(s) for timezones.
-  name: Arduino timezones API
+  name: Arduino Timezones API
   slug: arduino-timezones-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: Provides a set of endpoints to manage the triggers of a user
-  name: Arduino triggers_v1 API
+  name: Arduino Triggers V1 API
   slug: arduino-triggers-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The usage_internal API from Arduino — 1 operation(s) for usage_internal.
-  name: Arduino usage_internal API
+  name: Arduino Usage Internal API
   slug: arduino-usage-internal-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The usage_v1 API from Arduino — 4 operation(s) for usage_v1.
-  name: Arduino usage_v1 API
+  name: Arduino Usage V1 API
   slug: arduino-usage-v1-api
 - baseURL: https://api2.arduino.cc/iot/v1
   baseurl_source: declared
   description: The users_v1 API from Arduino — 3 operation(s) for users_v1.
-  name: Arduino users_v1 API
+  name: Arduino Users V1 API
   slug: arduino-users-v1-api
 artifact_total: 105
 collections:
@@ -521,7 +521,7 @@ modified: '2026-06-12'
 name: Arduino
 nav: Providers
 network: true
-overview: 'Arduino publishes 47 APIs on the [APIs.io](https://apis.io/) network, including binaries_v2 API, cleanup API, clients_v1 API, and 44 more. Tagged areas include IoT, Electronics, Open-Source, Devices, and Dashboards.
+overview: 'Arduino publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Binaries V2 API, Cleanup API, Clients V1 API, and 44 more. Tagged areas include IoT, Electronics, Open Source, Devices, and Dashboards.
 
 
   The Arduino catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -578,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -593,7 +593,7 @@ slug: arduino
 tags:
 - IoT
 - Electronics
-- Open-Source
+- Open Source
 - Devices
 - Dashboards
 - Time Series

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -119,7 +119,7 @@ modified: '2026-08-14'
 name: Avenue
 nav: Providers
 network: true
-overview: 'Avenue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Observability, Workflow-Automation, and Alerting.
+overview: 'Avenue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Observability, Workflow Automation, and Alerting.
 
 
   The Avenue catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -155,7 +155,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ tags:
 - Company
 - Cloud Saas
 - Observability
-- Workflow-Automation
+- Workflow Automation
 - Alerting
 - Revenue Operations
 - Task Queue

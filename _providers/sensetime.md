@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The SenseNova LLM API service platform exposes SenseTime's large multimodal foundation models (chat completions, embeddings, image and video generation, and fine-tuning) over an HTTP API, authenticate
@@ -118,7 +118,7 @@ modified: '2026-07-21'
 name: SenseTime
 nav: Providers
 network: true
-overview: 'SenseTime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Foundation Models, and LLM.
+overview: 'SenseTime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Foundation Models, and LLM.
 
 
   SenseTime''s developer surface includes documentation, pricing, authentication, CLI, and 11 more developer resources.'
@@ -153,7 +153,7 @@ score:
     - greater-china
   previous_composite: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,11 +173,11 @@ slug: sensetime
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - Generative AI
-- Computer-Vision
+- Computer Vision
 - LLM API
 website: https://www.sensetime.com
 ---

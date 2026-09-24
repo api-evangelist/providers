@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 136
+- acting_count: 141
   human_in_the_loop: 0
   name: Candid Health Agentic Access
-  operation_count: 238
+  operation_count: 251
   slug: candid-health-agentic-access
-  summary_line: 238 operations · 136 acting
+  summary_line: 251 operations · 141 acting
 api_count: 1
 apis:
 - description: Manage patient invoicing, payments, refunds, and accounts receivable. Automates patient billing workflows and tracks outstanding balances.
@@ -626,7 +626,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

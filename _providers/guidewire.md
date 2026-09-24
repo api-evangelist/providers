@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -87,7 +87,7 @@ apis:
   description: Policy quoting and rating
   name: Guidewire Quotes API
   slug: guidewire-quotes-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: Guidewire Integration Gateway AsyncAPI specification for event-driven integrations. The gateway publishes webhook events when key policy, claim, and billing lifecycle events occur in Guidewire Cloud a
   name: Guidewire Integration Gateway Events
@@ -323,10 +323,6 @@ finops:
 - name: Guidewire Finops
   service_category: Insurance Platform / SaaS
   slug: guidewire-finops
-graphqls:
-- description: Guidewire is a cloud platform for property and casualty insurance covering policy administration, billing, and claims management. The API covers policies, quotes, billing accounts, claims, payments, a
-  name: Guidewire GraphQL API
-  slug: guidewire-graphql
 image: screenshots/guidewire-2026-06-20T182433.png
 json_schemas:
 - name: Guidewire Policy
@@ -387,19 +383,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.4
+  composite: 70.2
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 71.5
     catalog_earned_first_party: 16.0
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 78.9
     contract_governance: 31.8
-    contract_quality: 70.2
+    contract_quality: 69.2
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 65.8
@@ -421,7 +417,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

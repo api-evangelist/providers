@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-07-19'
 name: Gradient
 nav: Providers
 network: true
-overview: 'Gradient publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Completions API, and Models API. Tagged areas include Company, Crypto Web3, Artificial Intelligence, Machine-Learning, and LLM Inference.
+overview: 'Gradient publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Completions API, and Models API. Tagged areas include Company, Crypto Web3, Artificial Intelligence, Machine Learning, and LLM Inference.
 
 
   Gradient''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, CLI, and 15 more developer resources.'
@@ -220,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -240,7 +240,7 @@ tags:
 - Company
 - Crypto Web3
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM Inference
 - Decentralized Infrastructure
 - Distributed Computing

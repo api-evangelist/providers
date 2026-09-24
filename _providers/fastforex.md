@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,22 +49,22 @@ apis:
 - baseURL: https://api.fastforex.io
   baseurl_source: declared
   description: Account admin
-  name: FastForex admin API
+  name: FastForex Admin API
   slug: fastforex-admin-api
 - baseURL: https://api.fastforex.io
   baseurl_source: declared
   description: Digital currencies, pairs & prices
-  name: FastForex crypto API
+  name: FastForex Crypto API
   slug: fastforex-crypto-api
 - baseURL: https://api.fastforex.io
   baseurl_source: declared
   description: Physical currencies, rates and conversions
-  name: FastForex currency API
+  name: FastForex Currency API
   slug: fastforex-currency-api
 - baseURL: https://api.fastforex.io
   baseurl_source: declared
   description: Realtime FX trading pairs - instruments, prices and history
-  name: FastForex fx API
+  name: FastForex Fx API
   slug: fastforex-fx-api
 artifact_total: 32
 collections:
@@ -202,7 +202,7 @@ modified: '2026-06-13'
 name: FastForex
 nav: Providers
 network: true
-overview: 'FastForex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including admin API, crypto API, currency API, and 1 more. Tagged areas include Currency Exchange, Forex, Financial Data, Exchange Rates, and Cryptocurrency.
+overview: 'FastForex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Crypto API, Currency API, and 1 more. Tagged areas include Currency Exchange, Forex, Financial Data, Exchange Rates, and Cryptocurrency.
 
 
   The FastForex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -263,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ modified: '2026-07-18'
 name: Arvist
 nav: Providers
 network: true
-overview: 'Arvist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Artificial Intelligence, Warehouse, and Supply Chain.
+overview: 'Arvist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Artificial Intelligence, Warehouse, and Supply Chain.
 
 
   Arvist''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
@@ -131,7 +131,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -146,7 +146,7 @@ security:
 slug: arvist
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Warehouse
 - Supply Chain

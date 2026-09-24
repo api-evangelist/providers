@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -119,7 +119,7 @@ modified: '2026-09-10'
 name: Foreign Claims Settlement Commission
 nav: Providers
 network: true
-overview: Foreign Claims Settlement Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Adjudication, Claims, Federal-Government, International Claims, and Justice.
+overview: Foreign Claims Settlement Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Adjudication, Claims, Federal Government, International Claims, and Justice.
 random_paper: 0
 score:
   band: emerging
@@ -147,7 +147,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -167,7 +167,7 @@ slug: foreign-claims-settlement-commission
 tags:
 - Adjudication
 - Claims
-- Federal-Government
+- Federal Government
 - International Claims
 - Justice
 - Legal

@@ -27,7 +27,7 @@ tags:
 - Genomics
 - Bioinformatics
 - Healthcare
-- Machine-Learning
+- Machine Learning
 - Clinical Diagnostics
 - Defunct
 - Acquired

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ modified: '2026-09-16'
 name: Triton Inference Server
 nav: Providers
 network: true
-overview: 'Triton Inference Server publishes 11 APIs on the [APIs.io](https://apis.io/) network, including CUDA Shared Memory API, Health API, Inference API, and 8 more. Tagged areas include Artificial Intelligence, Deep Learning, Inference, Machine-Learning, and Model Serving.
+overview: 'Triton Inference Server publishes 11 APIs on the [APIs.io](https://apis.io/) network, including CUDA Shared Memory API, Health API, Inference API, and 8 more. Tagged areas include Artificial Intelligence, Deep Learning, Inference, Machine Learning, and Model Serving.
 
 
   The Triton Inference Server catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -375,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -386,9 +386,9 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - Inference
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - NVIDIA
-- Open-Source
+- Open Source
 website: https://www.nvidia.com/
 ---

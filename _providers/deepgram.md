@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ arazzos:
 - description: Locate a project member, read their current scopes, update them, and confirm the new scopes took effect.
   name: Deepgram Update a Member's Scopes
   slug: deepgram-update-member-scopes-workflow
-artifact_total: 120
+artifact_total: 119
 asyncapis:
 - description: The Deepgram Speech-to-Text streaming API provides real-time transcription of audio using a WebSocket connection. Audio data is sent as binary WebSocket messages and transcription results are returned
   name: Deepgram Speech-to-Text Streaming Events
@@ -358,10 +358,6 @@ finops:
 - name: Deepgram Finops
   service_category: Speech AI
   slug: deepgram-finops
-graphqls:
-- description: 'This document describes the conceptual GraphQL schema for the Deepgram AI voice platform, covering speech-to-text transcription, text-to-speech synthesis, voice agent capabilities, audio intelligence '
-  name: Deepgram GraphQL Schema
-  slug: deepgram-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deepgram.png
 json_schemas:
 - name: Alternative
@@ -592,19 +588,19 @@ rules:
   slug: deepgram-text-to-speech-api-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 46.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 72.6
+    contract_quality: 69.5
     developer_ergonomics: 29.8
     discoverability: 81.5
     operational_transparency: 23.7
@@ -617,7 +613,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -639,5 +635,7 @@ tags:
 - Text-to-Speech
 - Transcription
 - Voice AI
+- Voice
+- Real-Time
 website: https://deepgram.com/
 ---

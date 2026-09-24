@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 50
+- acting_count: 48
   human_in_the_loop: 0
   name: Navision Agentic Access
-  operation_count: 109
+  operation_count: 108
   slug: navision-agentic-access
-  summary_line: 109 operations · 50 acting
+  summary_line: 108 operations · 48 acting
 api_count: 3
 apis:
 - description: SOAP-based web services for legacy integrations and business logic operations in Dynamics NAV. Exposes pages and codeunits with built-in CRUD operations and supports extension codeunits for custom ope
@@ -1954,7 +1954,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

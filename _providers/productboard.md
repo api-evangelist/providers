@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
@@ -89,7 +89,7 @@ apis:
   description: The Webhooks API from Productboard — 2 operation(s) for webhooks.
   name: Productboard Webhooks API
   slug: productboard-webhooks-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -182,10 +182,6 @@ common:
   url: https://developer.productboard.com/llms.txt
 created: '2026-05-11'
 description: Productboard is a product management platform that helps product teams capture user feedback, prioritize features, build product roadmaps, and align engineering, design, and go-to-market stakeholders around what to build next. The Productboard Public REST API (v1 and v2) provides programmatic access to features, components, products, notes, users, companies, objectives, releases, and webhooks at https://api.productboard.com, with authentication via a Public API Access token (Bearer) or OAuth2.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Productboard product management platform. Productboard provides a Public REST API at https://api.productboard.com (v1 and v2), and this sche
-  name: Productboard GraphQL Schema
-  slug: productboard-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/productboard.png
 layout: provider
 modified: '2026-05-11'
@@ -199,23 +195,23 @@ overview: 'Productboard publishes 11 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 13
 score:
   band: thin
-  composite: 36.5
+  composite: 35.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 56.6
+    contract_quality: 51.0
     developer_ergonomics: 22.6
     discoverability: 75.9
     operational_transparency: 18.4
-  previous_composite: 35.9
+  previous_composite: 36.5
   provenance:
     contracts:
       callable: 100.0
@@ -224,7 +220,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

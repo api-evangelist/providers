@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Terra Api Agentic Access
   operation_count: 16
   slug: terra-api-agentic-access
-  summary_line: 16 operations · 5 acting
+  summary_line: 16 operations · 4 acting
 api_count: 1
 apis:
 - description: Terra's primary data-delivery mechanism. Rather than a polling or WebSocket transport, Terra streams normalized health data and lifecycle events - auth, deauth, connection errors, and activity/body/da
@@ -245,7 +245,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

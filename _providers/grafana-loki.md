@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -309,7 +309,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -341,7 +341,7 @@ tags:
 - Log Aggregation
 - Observability
 - Monitoring
-- Open-Source
+- Open Source
 - LogQL
 - OpenTelemetry
 - Telemetry

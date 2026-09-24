@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ modified: '2026-05-19'
 name: Food Safety and Inspection Service
 nav: Providers
 network: true
-overview: 'Food Safety and Inspection Service publishes 1 API on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Federal-Government, Food, Food Safety, Inspection, and Recalls.
+overview: 'Food Safety and Inspection Service publishes 1 API on the [APIs.io](https://apis.io/) network: Recalls API. Tagged areas include Federal Government, Food, Food Safety, Inspection, and Recalls.
 
 
   The Food Safety and Inspection Service catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -158,7 +158,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: food-safety-and-inspection-service
 tags:
-- Federal-Government
+- Federal Government
 - Food
 - Food Safety
 - Inspection

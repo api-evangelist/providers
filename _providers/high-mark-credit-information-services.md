@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-19'
 name: High Mark Credit Information Services
 nav: Providers
 network: true
-overview: 'High Mark Credit Information Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Bureau, Credit Information, Credit Scoring, and Financial-Services.
+overview: 'High Mark Credit Information Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit Bureau, Credit Information, Credit Scoring, and Financial Services.
 
 
   High Mark Credit Information Services'' developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -101,7 +101,7 @@ score:
     - india-south-asia
   previous_composite: 9.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,7 @@ tags:
 - Credit Bureau
 - Credit Information
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Risk Analytics
 - Microfinance
 - Lending

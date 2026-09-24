@@ -33,7 +33,7 @@ tags:
 - Hardware
 - Servers
 - ARM
-- Data-Center
+- Data Center
 - Defunct
 - System on a Chip
 - Infrastructure

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 2
   human_in_the_loop: 0
   name: Lakera Agentic Access
   operation_count: 7
   slug: lakera-agentic-access
-  summary_line: 7 operations · 3 acting
+  summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
 - description: 'Lakera Guard is a low-latency screening API that inspects text content sent to or from LLMs and flags threats including prompt injection, jailbreaks, PII, profanity, and policy violations. The /guard '
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

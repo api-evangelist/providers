@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rivian-automotive/refs/heads/main/security/rivian-automotive-domain-security.yml
@@ -75,10 +75,6 @@ common:
   url: https://www.linkedin.com/company/rivian
 created: '2026-05-04'
 description: Rivian Automotive is an American electric vehicle manufacturer that designs and builds adventure-oriented electric trucks, SUVs, and commercial delivery vans, along with the charging infrastructure and connected-vehicle software that supports them. While Rivian does not publish a public developer API portal, an unofficial GraphQL API powers the Rivian mobile app and has been reverse-engineered by community projects for vehicle telemetry and control.
-graphqls:
-- description: ''
-  name: Rivian Automotive GraphQL API
-  slug: rivian-automotive-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rivian-automotive.png
 layout: provider
 modified: '2026-05-04'
@@ -94,7 +90,7 @@ score:
   band: minimal
   composite: 10.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -110,7 +106,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

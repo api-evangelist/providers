@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The VitePress Runtime API provides Vue composition functions and helper utilities for use in custom themes, Vue components, and Markdown pages. Key composables include useData() for accessing site and
@@ -125,7 +125,7 @@ modified: '2026-05-03'
 name: VitePress
 nav: Providers
 network: true
-overview: 'VitePress publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Markdown, Open-Source, Static Site Generator, and Vite.
+overview: 'VitePress publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Markdown, Open Source, Static Site Generator, and Vite.
 
 
   The VitePress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,7 +172,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 20.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ slug: vitepress
 tags:
 - Documentation
 - Markdown
-- Open-Source
+- Open Source
 - Static Site Generator
 - Vite
 - Vue

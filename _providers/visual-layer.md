@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for dataset management, visual and semantic search, enrichment, export, saved views, snapshots, and task management. Cloud calls require a JWT bearer token; on-premises calls require no authe
@@ -166,7 +166,7 @@ modified: '2026-07-21'
 name: Visual Layer
 nav: Providers
 network: true
-overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Machine-Learning, Data Management, and Dataset Curation.
+overview: 'Visual Layer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer Vision, Machine Learning, Data Management, and Dataset Curation.
 
 
   Visual Layer''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, signup flow, and 19 more developer resources.'
@@ -194,7 +194,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -213,8 +213,8 @@ security:
 slug: visual-layer
 tags:
 - Company
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Data Management
 - Dataset Curation
 - Unstructured Data

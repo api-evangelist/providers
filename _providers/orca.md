@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,17 +46,17 @@ apis:
 - baseURL: https://api.orca.so/v2/solana
   baseurl_source: declared
   description: Orca protocol information endpoints
-  name: Orca protocol API
+  name: Orca Protocol API
   slug: orca-protocol-api
 - baseURL: https://api.orca.so/v2/solana
   baseurl_source: declared
   description: Token information endpoints
-  name: Orca tokens API
+  name: Orca Tokens API
   slug: orca-tokens-api
 - baseURL: https://api.orca.so/v2/solana
   baseurl_source: declared
   description: Whirlpool information endpoints
-  name: Orca whirlpools API
+  name: Orca Whirlpools API
   slug: orca-whirlpools-api
 arazzos:
 - description: Search Orca Whirlpools for a token pair, then fetch full state for the top-matching pool. Read-only; runs against the open Orca Public REST API.
@@ -207,7 +207,7 @@ modified: '2026-07-20'
 name: Orca
 nav: Providers
 network: true
-overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: protocol API, tokens API, and whirlpools API. Tagged areas include Company, Defi Dex, DeFi, DEX, and Solana.
+overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: Protocol API, Tokens API, and Whirlpools API. Tagged areas include Company, Defi Dex, DeFi, DEX, and Solana.
 
 
   Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Microsoft Azure Blob Storage Agentic Access
   operation_count: 45
   slug: microsoft-azure-blob-storage-agentic-access
-  summary_line: 45 operations · 30 acting
+  summary_line: 45 operations · 29 acting
 api_count: 1
 apis:
 - description: The Azure Data Lake Storage Gen2 REST APIs allow interaction with Azure Blob Storage through a file system interface. They enable creation and management of file systems, directories, and files on sto
@@ -399,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

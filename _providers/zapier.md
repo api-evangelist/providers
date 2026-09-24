@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 65.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 5
   human_in_the_loop: 0
   name: Zapier Agentic Access
-  operation_count: 21
+  operation_count: 27
   slug: zapier-agentic-access
-  summary_line: 21 operations · 8 acting
+  summary_line: 27 operations · 5 acting
 api_count: 1
 apis:
 - description: Build and ship AI workflows in minutesno IT bottlenecks, no complexity. Just results.
@@ -123,7 +123,7 @@ arazzos:
 - description: Discover an action on an app, resolve its input fields, run it, and poll for the result.
   name: Zapier Run an AI Action
   slug: zapier-run-ai-action-workflow
-artifact_total: 388
+artifact_total: 387
 collections:
 - collection_type: open
   name: API Collection
@@ -708,10 +708,6 @@ finops:
 - name: Zapier Finops
   service_category: Workflow Automation
   slug: zapier-finops
-graphqls:
-- description: 'Zapier is an integration automation platform connecting 8,000+ apps through a workflow engine built around Zaps — automated workflows that watch for triggers in one app and execute actions in others. '
-  name: Zapier GraphQL Schema
-  slug: zapier-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zapier.png
 json_schemas:
 - name: _ActionRunResponseError
@@ -1429,7 +1425,7 @@ modified: '2026-06-20'
 name: Zapier
 nav: Providers
 network: true
-overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Zapier, Integration, and iPaaS.
+overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Zapier, Integration, iPaaS, and Workflow Automation.
 
 
   The Zapier catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1473,20 +1469,20 @@ scopes:
   summary_line: 10 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 61.1
+  composite: 59.5
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 61.3
     catalog_earned_first_party: 0.0
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 68.4
     contract_governance: 29.5
-    contract_quality: 72.8
-    developer_ergonomics: 69.0
+    contract_quality: 69.3
+    developer_ergonomics: 65.5
     discoverability: 57.4
     operational_transparency: 52.6
   previous_composite: 61.1
@@ -1500,7 +1496,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1524,6 +1520,7 @@ tags:
 - Zapier
 - Integration
 - iPaaS
+- Workflow Automation
 use_cases:
 - name: Customer support
 - name: Data management

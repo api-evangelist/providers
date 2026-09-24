@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api-civ.djamo.com
@@ -94,7 +94,7 @@ modified: '2026-07-18'
 name: Djamo
 nav: Providers
 network: true
-overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Company, Financial-Services, Fintech, Payments, and Banking.
+overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Company, Financial Services, Fintech, Payments, and Banking.
 
 
   The Djamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -137,7 +137,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ security:
 slug: djamo
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Banking

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Reno
 nav: Providers
 network: true
-overview: 'Reno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Home Renovation, Interior Design, and Construction.
+overview: 'Reno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Home Renovation, Interior Design, and Construction.
 
 
   Reno''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -97,7 +97,7 @@ score:
     - middle-east
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -112,7 +112,7 @@ security:
 slug: reno
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Home Renovation
 - Interior Design
 - Construction

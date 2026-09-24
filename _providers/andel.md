@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,12 +46,12 @@ apis:
 - baseURL: https://api.andel.org/exchange/v1
   baseurl_source: declared
   description: The purchases API from Andel — 2 operation(s) for purchases.
-  name: Andel purchases API
+  name: Andel Purchases API
   slug: andel-purchases-api
 - baseURL: https://api.andel.org/exchange/v1
   baseurl_source: declared
   description: The webhooks API from Andel — 2 operation(s) for webhooks.
-  name: Andel webhooks API
+  name: Andel Webhooks API
   slug: andel-webhooks-api
 artifact_total: 11
 asyncapis:
@@ -200,7 +200,7 @@ modified: '2026-07-17'
 name: Andel
 nav: Providers
 network: true
-overview: 'Andel publishes 2 APIs on the [APIs.io](https://apis.io/) network: purchases API and webhooks API. Tagged areas include Company, Healthcare, Pharmacy, Pharmacy Benefits, and Drug Pricing.
+overview: 'Andel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Purchases API and Webhooks API. Tagged areas include Company, Healthcare, Pharmacy, Pharmacy Benefits, and Drug Pricing.
 
 
   The Andel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -249,7 +249,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

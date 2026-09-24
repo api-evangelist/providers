@@ -43,6 +43,6 @@ tags:
 - Modular Construction
 - Prefabrication
 - Manufacturing
-- Real-Estate
+- Real Estate
 - Supply Chain
 ---

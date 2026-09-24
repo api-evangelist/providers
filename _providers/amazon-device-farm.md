@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 77
+- acting_count: 43
   human_in_the_loop: 3
   name: Amazon Device Farm Agentic Access
   operation_count: 77
   slug: amazon-device-farm-agentic-access
-  summary_line: 77 operations · 77 acting · 3 human-in-the-loop
+  summary_line: 77 operations · 43 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://devicefarm.amazonaws.com
@@ -1330,7 +1330,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages.
@@ -51,7 +51,7 @@ apis:
 - description: The official ODBC driver for PostgreSQL providing Open Database Connectivity for Windows, Linux, and macOS applications including Microsoft Office, Tableau, Power BI, and other BI/ETL tools that consu
   name: PostgreSQL ODBC Driver (psqlODBC)
   slug: odbc
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/security/postgresql-domain-security.yml
@@ -84,17 +84,13 @@ finops:
 - name: Postgresql Finops
   service_category: API
   slug: postgresql-finops
-graphqls:
-- description: ''
-  name: PostgreSQL GraphQL API
-  slug: postgres-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postgresql.png
 layout: provider
 modified: '2026-04-28'
 name: PostgreSQL
 nav: Providers
 network: true
-overview: 'PostgreSQL publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Open-Source, Relational Database, and SQL.
+overview: 'PostgreSQL publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Open Source, Relational Database, and SQL.
 
 
   PostgreSQL''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
@@ -111,7 +107,7 @@ score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -127,7 +123,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +138,7 @@ security:
 slug: postgresql
 tags:
 - Database
-- Open-Source
+- Open Source
 - Relational Database
 - SQL
 website: https://www.postgresql.org/

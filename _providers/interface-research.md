@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 created: '2026-03-16'
@@ -43,7 +43,7 @@ modified: '2026-04-28'
 name: Interface Research
 nav: Providers
 network: true
-overview: Interface Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Research, Interface Specifications, JSON-Schema, and Vocabulary.
+overview: Interface Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Research, Interface Specifications, JSON Schema, and Vocabulary.
 random_paper: 9
 score:
   band: minimal
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -83,6 +83,6 @@ slug: interface-research
 tags:
 - API Research
 - Interface Specifications
-- JSON-Schema
+- JSON Schema
 - Vocabulary
 ---

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Evidently Agentic Access
   operation_count: 26
   slug: evidently-agentic-access
-  summary_line: 26 operations · 10 acting
+  summary_line: 26 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://app.evidently.cloud
@@ -230,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -253,7 +253,7 @@ tags:
 - Model Performance
 - AI Evaluation
 - Data Quality
-- Open-Source
+- Open Source
 - MLOps
 - LLMOps
 - Generative AI

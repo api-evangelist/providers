@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 16
   human_in_the_loop: 0
   name: Cobalt Agentic Access
   operation_count: 31
   slug: cobalt-agentic-access
-  summary_line: 31 operations · 17 acting
+  summary_line: 31 operations · 16 acting
 api_count: 1
 apis:
 - baseURL: https://api.gocobalt.io/api/v2
@@ -1447,7 +1447,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

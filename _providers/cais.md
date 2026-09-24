@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -169,7 +169,7 @@ modified: '2026-08-01'
 name: CAIS
 nav: Providers
 network: true
-overview: 'CAIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Alternative Investments, Wealth Management, Financial-Services, and Fintech.
+overview: 'CAIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Alternative Investments, Wealth Management, Financial Services, and Fintech.
 
 
   CAIS''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 21 more developer resources.'
@@ -207,7 +207,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -228,7 +228,7 @@ tags:
 - Company
 - Alternative Investments
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Fintech
 - Private Markets
 - Asset Management

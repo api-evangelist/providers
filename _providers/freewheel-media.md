@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 111
+- acting_count: 108
   human_in_the_loop: 0
   name: Freewheel Media Agentic Access
   operation_count: 171
   slug: freewheel-media-agentic-access
-  summary_line: 171 operations · 111 acting
+  summary_line: 171 operations · 108 acting
 api_count: 4
 apis:
 - description: FreeWheel's sell-side APIs for publishers and programmers running on MRM — advertiser and agency management, insertion orders and campaigns, placement operations, forecasting, analytics and reporting.
@@ -602,7 +602,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

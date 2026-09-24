@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,7 +132,7 @@ modified: '2026-08-10'
 name: Acretrader
 nav: Providers
 network: true
-overview: 'Acretrader is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Farmland, Investing, Alternative Investments, and Real-Estate.
+overview: 'Acretrader is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Farmland, Investing, Alternative Investments, and Real Estate.
 
 
   Acretrader''s developer surface includes signup flow, support, engineering blog, FAQ, and 12 more developer resources.'
@@ -170,7 +170,7 @@ score:
     - north-america
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ tags:
 - Farmland
 - Investing
 - Alternative Investments
-- Real-Estate
+- Real Estate
 - Fintech
 - Agriculture
 - Marketplace

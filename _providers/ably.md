@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The apps API from Ably — 3 operation(s) for apps.
-  name: Ably apps API
+  name: Ably Apps API
   slug: ably-apps-api
 - baseURL: https://rest.ably.io
   baseurl_source: declared
@@ -63,12 +63,12 @@ apis:
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The keys API from Ably — 3 operation(s) for keys.
-  name: Ably keys API
+  name: Ably Keys API
   slug: ably-keys-api
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The namespaces API from Ably — 2 operation(s) for namespaces.
-  name: Ably namespaces API
+  name: Ably Namespaces API
   slug: ably-namespaces-api
 - baseURL: https://rest.ably.io
   baseurl_source: declared
@@ -83,12 +83,12 @@ apis:
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The queues API from Ably — 2 operation(s) for queues.
-  name: Ably queues API
+  name: Ably Queues API
   slug: ably-queues-api
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The rules API from Ably — 2 operation(s) for rules.
-  name: Ably rules API
+  name: Ably Rules API
   slug: ably-rules-api
 - baseURL: https://rest.ably.io
   baseurl_source: declared
@@ -103,9 +103,9 @@ apis:
 - baseURL: https://rest.ably.io
   baseurl_source: declared
   description: The tokens API from Ably — 1 operation(s) for tokens.
-  name: Ably tokens API
+  name: Ably Tokens API
   slug: ably-tokens-api
-artifact_total: 121
+artifact_total: 120
 asyncapis:
 - description: AsyncAPI 3.0 description of the Ably realtime messaging surface. Ably exposes pub/sub channels, presence, push notifications, and history over a native WebSocket-based protocol, with additional access
   name: Ably Realtime Protocol
@@ -246,10 +246,6 @@ finops:
 - name: Ably Finops
   service_category: Realtime Infrastructure
   slug: ably-finops
-graphqls:
-- description: Conceptual GraphQL schema for the [Ably](https://ably.com/) realtime messaging platform.
-  name: Ably GraphQL Schema
-  slug: ably-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ably.png
 json_schemas:
 - name: amqp_external_rule_patch
@@ -498,7 +494,7 @@ modified: '2026-05-29'
 name: Ably
 nav: Providers
 network: true
-overview: 'Ably publishes 12 APIs on the [APIs.io](https://apis.io/) network, including apps API, Authentication API, History API, and 9 more. Tagged areas include Real-Time, WebSocket, Pub-Sub, Messaging, and Streaming.
+overview: 'Ably publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Authentication API, History API, and 9 more. Tagged areas include Real-Time, WebSocket, Pub-Sub, Messaging, and Streaming.
 
 
   The Ably catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -538,19 +534,19 @@ rules:
   slug: ably-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.1
+  composite: 42.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 64.8
+    contract_quality: 63.0
     developer_ergonomics: 33.3
     discoverability: 75.9
     operational_transparency: 28.9
@@ -563,7 +559,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

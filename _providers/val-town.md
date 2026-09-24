@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -53,57 +53,57 @@ apis:
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: Many API endpoints accept IDs instead of user-facing names. The alias endpoints let you convert between the user-facing name of a val or another object into an ID that can be used with other API endpo
-  name: Val Town alias API
+  name: Val Town Alias API
   slug: val-town-alias-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: Blobs
-  name: Val Town blobs API
+  name: Val Town Blobs API
   slug: val-town-blobs-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: The connections API from Val Town — 2 operation(s) for connections.
-  name: Val Town connections API
+  name: Val Town Connections API
   slug: val-town-connections-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: Emails
-  name: Val Town emails API
+  name: Val Town Emails API
   slug: val-town-emails-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: The files API from Val Town — 1 operation(s) for files.
-  name: Val Town files API
+  name: Val Town Files API
   slug: val-town-files-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: These endpoints give access to details and data from the requesting user.
-  name: Val Town me API
+  name: Val Town Me API
   slug: val-town-me-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: The orgs API from Val Town — 2 operation(s) for orgs.
-  name: Val Town orgs API
+  name: Val Town Orgs API
   slug: val-town-orgs-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: SQLite
-  name: Val Town sqlite API
+  name: Val Town Sqlite API
   slug: val-town-sqlite-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: The telemetry API from Val Town — 2 operation(s) for telemetry.
-  name: Val Town telemetry API
+  name: Val Town Telemetry API
   slug: val-town-telemetry-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: Users
-  name: Val Town users API
+  name: Val Town Users API
   slug: val-town-users-api
 - baseURL: https://api.val.town
   baseurl_source: declared
   description: These endpoints let you get, create, and run vals.
-  name: Val Town vals API
+  name: Val Town Vals API
   slug: val-town-vals-api
 artifact_total: 44
 collections:
@@ -284,7 +284,7 @@ modified: '2026-06-12'
 name: Val Town
 nav: Providers
 network: true
-overview: 'Val Town publishes 11 APIs on the [APIs.io](https://apis.io/) network, including alias API, blobs API, connections API, and 8 more. Tagged areas include Developer Tools, Serverless, JavaScript, TypeScript, and Social Coding.
+overview: 'Val Town publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Alias API, Blobs API, Connections API, and 8 more. Tagged areas include Developer Tools, Serverless, JavaScript, TypeScript, and Social Coding.
 
 
   The Val Town catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -321,7 +321,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
@@ -332,7 +332,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 47.4
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -341,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

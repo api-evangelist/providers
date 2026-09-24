@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 128
+- acting_count: 123
   human_in_the_loop: 1
   name: Bluejay Agentic Access
   operation_count: 174
   slug: bluejay-agentic-access
-  summary_line: 174 operations · 128 acting · 1 human-in-the-loop
+  summary_line: 174 operations · 123 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.getbluejay.ai
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
   description: The bland API from Bluejay — 1 operation(s) for bland.
-  name: Bluejay bland API
+  name: Bluejay Bland API
   slug: bluejay-bland-api
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
@@ -262,7 +262,7 @@ apis:
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
   description: The retell API from Bluejay — 1 operation(s) for retell.
-  name: Bluejay retell API
+  name: Bluejay Retell API
   slug: bluejay-retell-api
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
@@ -327,7 +327,7 @@ apis:
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
   description: The vapi API from Bluejay — 3 operation(s) for vapi.
-  name: Bluejay vapi API
+  name: Bluejay Vapi API
   slug: bluejay-vapi-api
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
@@ -727,7 +727,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

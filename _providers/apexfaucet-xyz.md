@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Agent-facing API of APEX on the X1 blockchain, served from apexfaucet.xyz: a remote MCP server at /api/mcp (Streamable HTTP, MCP 2024-11-05; 87 tools per the provider on 2026-09-17, free read tools pl'
@@ -116,7 +116,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

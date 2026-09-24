@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-19'
 name: Inphi
 nav: Providers
 network: true
-overview: Inphi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Data-Center, and Networking.
+overview: Inphi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Data Center, and Networking.
 random_paper: 8
 score:
   band: minimal
@@ -78,7 +78,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -89,7 +89,7 @@ tags:
 - Company
 - Semiconductors
 - Hardware
-- Data-Center
+- Data Center
 - Networking
 - Connectivity
 - Optical Networking

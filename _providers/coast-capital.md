@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ modified: '2026-07-23'
 name: Coast Capital Savings
 nav: Providers
 network: true
-overview: 'Coast Capital Savings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Credit Union, and Cooperative.
+overview: 'Coast Capital Savings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Credit Union, and Cooperative.
 
 
   Coast Capital Savings'' developer surface includes authentication and 8 more developer resources.'
@@ -134,7 +134,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: coast-capital
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Canada
 - Credit Union

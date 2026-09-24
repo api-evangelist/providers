@@ -35,120 +35,120 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 71
+- acting_count: 67
   human_in_the_loop: 0
   name: Inthegame Agentic Access
   operation_count: 108
   slug: inthegame-agentic-access
-  summary_line: 108 operations · 71 acting
+  summary_line: 108 operations · 67 acting
 api_count: 1
 apis:
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The admin API from Inthegame — 1 operation(s) for admin.
-  name: Inthegame admin API
+  name: Inthegame Admin API
   slug: inthegame-admin-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The analytics API from Inthegame — 3 operation(s) for analytics.
-  name: Inthegame analytics API
+  name: Inthegame Analytics API
   slug: inthegame-analytics-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The category API from Inthegame — 5 operation(s) for category.
-  name: Inthegame category API
+  name: Inthegame Category API
   slug: inthegame-category-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The chat API from Inthegame — 3 operation(s) for chat.
-  name: Inthegame chat API
+  name: Inthegame Chat API
   slug: inthegame-chat-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The entity API from Inthegame — 7 operation(s) for entity.
-  name: Inthegame entity API
+  name: Inthegame Entity API
   slug: inthegame-entity-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The general API from Inthegame — 1 operation(s) for general.
-  name: Inthegame general API
+  name: Inthegame General API
   slug: inthegame-general-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The item API from Inthegame — 6 operation(s) for item.
-  name: Inthegame item API
+  name: Inthegame Item API
   slug: inthegame-item-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The leaderboard API from Inthegame — 1 operation(s) for leaderboard.
-  name: Inthegame leaderboard API
+  name: Inthegame Leaderboard API
   slug: inthegame-leaderboard-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The moderationData API from Inthegame — 3 operation(s) for moderationdata.
-  name: Inthegame moderationData API
+  name: Inthegame Moderation Data API
   slug: inthegame-moderationdata-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The poll API from Inthegame — 7 operation(s) for poll.
-  name: Inthegame poll API
+  name: Inthegame Poll API
   slug: inthegame-poll-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The promotion API from Inthegame — 5 operation(s) for promotion.
-  name: Inthegame promotion API
+  name: Inthegame Promotion API
   slug: inthegame-promotion-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The rating API from Inthegame — 6 operation(s) for rating.
-  name: Inthegame rating API
+  name: Inthegame Rating API
   slug: inthegame-rating-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The shop API from Inthegame — 7 operation(s) for shop.
-  name: Inthegame shop API
+  name: Inthegame Shop API
   slug: inthegame-shop-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The socket API from Inthegame — 1 operation(s) for socket.
-  name: Inthegame socket API
+  name: Inthegame Socket API
   slug: inthegame-socket-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The sponsor API from Inthegame — 5 operation(s) for sponsor.
-  name: Inthegame sponsor API
+  name: Inthegame Sponsor API
   slug: inthegame-sponsor-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The streamer API from Inthegame — 16 operation(s) for streamer.
-  name: Inthegame streamer API
+  name: Inthegame Streamer API
   slug: inthegame-streamer-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The translations API from Inthegame — 6 operation(s) for translations.
-  name: Inthegame translations API
+  name: Inthegame Translations API
   slug: inthegame-translations-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The trivia API from Inthegame — 6 operation(s) for trivia.
-  name: Inthegame trivia API
+  name: Inthegame Trivia API
   slug: inthegame-trivia-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The uploads API from Inthegame — 3 operation(s) for uploads.
-  name: Inthegame uploads API
+  name: Inthegame Uploads API
   slug: inthegame-uploads-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The user API from Inthegame — 11 operation(s) for user.
-  name: Inthegame user API
+  name: Inthegame User API
   slug: inthegame-user-api
 - baseURL: https://api-dev.inthegame.io
   baseurl_source: declared
   description: The wiki API from Inthegame — 5 operation(s) for wiki.
-  name: Inthegame wiki API
+  name: Inthegame Wiki API
   slug: inthegame-wiki-api
 artifact_total: 48
 asyncapis:
@@ -347,7 +347,7 @@ modified: '2026-07-19'
 name: Inthegame
 nav: Providers
 network: true
-overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) network, including admin API, analytics API, category API, and 18 more. Tagged areas include Company, Streaming, CTV, OTT, and Video.
+overview: 'Inthegame publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Analytics API, Category API, and 18 more. Tagged areas include Company, Streaming, CTV, OTT, and Video.
 
 
   The Inthegame catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -385,7 +385,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

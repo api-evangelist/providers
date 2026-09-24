@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: wss://api.sanaslt.com/v3/stream
@@ -206,7 +206,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -238,5 +238,6 @@ tags:
 - SDK
 - WebSocket
 - Contact Center
+- Real-Time
 website: https://sanas.ai
 ---

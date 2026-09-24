@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 10
   human_in_the_loop: 0
   name: Aws Healthlake Agentic Access
   operation_count: 13
   slug: aws-healthlake-agentic-access
-  summary_line: 13 operations · 13 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - description: Asynchronous bulk import API for loading FHIR R4 resources from Amazon S3 into a HealthLake data store. Supports starting, describing, and listing import jobs with up to 1 million files and 5 TB total
@@ -77,7 +77,7 @@ apis:
   description: Resource tagging operations for cost allocation and resource management
   name: AWS HealthLake Tags API
   slug: aws-healthlake-tags-api
-artifact_total: 77
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Amazon HealthLake Datastore API
@@ -266,10 +266,6 @@ finops:
 - name: Aws Healthlake Finops
   service_category: ''
   slug: aws-healthlake-finops
-graphqls:
-- description: 'AWS HealthLake is a HIPAA-eligible, FHIR R4-compliant managed service for importing, transforming, storing, and querying health data from patients and clinical systems. This conceptual GraphQL schema '
-  name: AWS HealthLake GraphQL Schema
-  slug: aws-healthlake-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-healthlake.png
 json_schemas:
 - name: CreateFHIRDatastoreRequest
@@ -419,19 +415,19 @@ rules:
   slug: aws-healthlake-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.4
+  composite: 58.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 71.3
     catalog_earned_first_party: 0.0
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 55.3
     contract_governance: 9.8
-    contract_quality: 65.1
+    contract_quality: 63.3
     developer_ergonomics: 70.2
     discoverability: 68.5
     operational_transparency: 63.2
@@ -450,7 +446,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

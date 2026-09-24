@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 39
+- acting_count: 38
   human_in_the_loop: 1
   name: Nhost Agentic Access
-  operation_count: 54
+  operation_count: 58
   slug: nhost-agentic-access
-  summary_line: 54 operations · 39 acting · 1 human-in-the-loop
+  summary_line: 58 operations · 38 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: Instant, real-time GraphQL API auto-generated from PostgreSQL database schemas via Hasura. Supports queries, mutations, and live subscriptions with row- and column-level role-based access control.
@@ -58,57 +58,57 @@ apis:
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: User authentication operations including sign-in, sign-up, and various authentication methods (email/password, passwordless, OAuth, WebAuthn, MFA)
-  name: Nhost authentication API
+  name: Nhost Authentication API
   slug: nhost-authentication-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: API documentation
-  name: Nhost documentation API
+  name: Nhost Documentation API
   slug: nhost-documentation-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: These operations are not intended to be used directly by clients and should be excluded from client SDKs
-  name: Nhost excludeme API
+  name: Nhost Excludeme API
   slug: nhost-excludeme-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: File management operations
-  name: Nhost files API
+  name: Nhost Files API
   slug: nhost-files-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: Administrative operations
-  name: Nhost operations API
+  name: Nhost Operations API
   slug: nhost-operations-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: Security-related operations including Personal Access Tokens, WebAuthn management, account elevation, and account linking
-  name: Nhost security API
+  name: Nhost Security API
   slug: nhost-security-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: Session management operations including token refresh, verification, and sign-out
-  name: Nhost session API
+  name: Nhost Session API
   slug: nhost-session-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: Storage operations and presigned URLs
-  name: Nhost storage API
+  name: Nhost Storage API
   slug: nhost-storage-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: System operations including health checks, service version, and public key endpoints
-  name: Nhost system API
+  name: Nhost System API
   slug: nhost-system-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: User profile and account management operations including email/password changes, MFA configuration, and profile updates
-  name: Nhost user API
+  name: Nhost User API
   slug: nhost-user-api
 - baseURL: https://{subdomain}.nhost.run/v1/graphql
   baseurl_source: declared
   description: Email and ticket verification operations for confirming user actions
-  name: Nhost verification API
+  name: Nhost Verification API
   slug: nhost-verification-api
 artifact_total: 43
 collections:
@@ -272,7 +272,7 @@ modified: '2026-06-12'
 name: Nhost
 nav: Providers
 network: true
-overview: 'Nhost publishes 11 APIs on the [APIs.io](https://apis.io/) network, including authentication API, documentation API, excludeme API, and 8 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
+overview: 'Nhost publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documentation API, Excludeme API, and 8 more. Tagged areas include GraphQL, PostgreSQL, Authentication, File Storage, and Serverless Functions.
 
 
   The Nhost catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -309,7 +309,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 13.6
@@ -317,7 +317,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 13.2
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -327,7 +327,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -358,7 +358,7 @@ tags:
 - File Storage
 - Serverless Functions
 - Real-Time
-- Open-Source
+- Open Source
 - Firebase Alternative
 - Backend-as-a-Service
 website: https://nhost.io/

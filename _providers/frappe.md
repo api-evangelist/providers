@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-19'
 name: Frappe
 nav: Providers
 network: true
-overview: 'Frappe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Method API and Resource API. Tagged areas include Open-Source, ERP, Accounting, Inventory, and Payroll.
+overview: 'Frappe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Method API and Resource API. Tagged areas include Open Source, ERP, Accounting, Inventory, and Payroll.
 
 
   The Frappe catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -240,7 +240,7 @@ security:
   summary_line: security.txt · contact published
 slug: frappe
 tags:
-- Open-Source
+- Open Source
 - ERP
 - Accounting
 - Inventory

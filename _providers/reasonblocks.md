@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 18
+- acting_count: 22
   human_in_the_loop: 0
   name: Reasonblocks Agentic Access
-  operation_count: 32
+  operation_count: 47
   slug: reasonblocks-agentic-access
-  summary_line: 32 operations · 18 acting
+  summary_line: 47 operations · 22 acting
 api_count: 1
 apis:
 - baseURL: https://rb-api.reasonblocks.com
@@ -63,7 +63,7 @@ apis:
 - baseURL: https://rb-api.reasonblocks.com
   baseurl_source: declared
   description: The monitor API from ReasonBlocks — 11 operation(s) for monitor.
-  name: ReasonBlocks monitor API
+  name: ReasonBlocks Monitor API
   slug: reasonblocks-monitor-api
 - baseURL: https://rb-api.reasonblocks.com
   baseurl_source: declared
@@ -269,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -293,7 +293,7 @@ tags:
 - Developer Tools
 - Token Optimization
 - Agent Steering
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - SDK
 website: https://reasonblocks.com

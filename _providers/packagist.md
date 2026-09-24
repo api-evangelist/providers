@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ modified: '2026-09-16'
 name: Packagist
 nav: Providers
 network: true
-overview: 'Packagist publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Packages API, Search API, and 2 more. Tagged areas include Composer, PHP, Package Registry, Dependency Management, and Open-Source.
+overview: 'Packagist publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Packages API, Search API, and 2 more. Tagged areas include Composer, PHP, Package Registry, Dependency Management, and Open Source.
 
 
   The Packagist catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -375,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -396,7 +396,7 @@ tags:
 - PHP
 - Package Registry
 - Dependency Management
-- Open-Source
+- Open Source
 - Developer Tools
 - Software Supply Chain
 - Security Advisories

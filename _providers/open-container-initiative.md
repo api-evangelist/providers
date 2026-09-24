@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ modified: '2026-05-19'
 name: Open Container Initiative
 nav: Providers
 network: true
-overview: 'Open Container Initiative publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, OCI Distribution Specification API, and 2 more. Tagged areas include Cloud-Native, Containers, OCI, Open-Source, and Standards.
+overview: 'Open Container Initiative publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, OCI Distribution Specification API, and 2 more. Tagged areas include Cloud-Native, Containers, OCI, Open Source, and Standards.
 
 
   Open Container Initiative''s developer surface includes engineering blog, FAQ, and 6 more developer resources.'
@@ -155,7 +155,7 @@ score:
   band: emerging
   composite: 25.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -194,7 +194,7 @@ tags:
 - Cloud-Native
 - Containers
 - OCI
-- Open-Source
+- Open Source
 - Standards
 website: https://opencontainers.org/
 ---

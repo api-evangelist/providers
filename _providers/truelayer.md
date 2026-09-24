@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: Refund payments back to users
   name: TrueLayer Refunds API
   slug: truelayer-refunds-api
-artifact_total: 35
+artifact_total: 34
 collections:
 - collection_type: postman
   name: TrueLayer Payments Mandates API
@@ -211,10 +211,6 @@ finops:
 - name: Truelayer Finops
   service_category: API
   slug: truelayer-finops
-graphqls:
-- description: This conceptual GraphQL schema represents the TrueLayer open banking platform, covering unified access to bank data, payments, payouts, variable recurring payments (VRP), identity verification, and co
-  name: TrueLayer GraphQL Schema
-  slug: truelayer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truelayer.png
 json_schemas:
 - name: Payment
@@ -238,7 +234,7 @@ modified: '2026-05-19'
 name: TrueLayer
 nav: Providers
 network: true
-overview: 'TrueLayer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Mandates API, Merchant Accounts API, Payments API, and 2 more. Tagged areas include Data API, Financial-Services, Open Banking, Payments, and PSD2.
+overview: 'TrueLayer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Mandates API, Merchant Accounts API, Payments API, and 2 more. Tagged areas include Data API, Financial Services, Open Banking, Payments, and PSD2.
 
 
   The TrueLayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -278,20 +274,20 @@ rules:
   slug: truelayer-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 45.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 69.5
     catalog_earned_first_party: 0.0
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 66.1
-    developer_ergonomics: 54.8
+    contract_quality: 64.4
+    developer_ergonomics: 51.2
     discoverability: 75.9
     operational_transparency: 22.4
   previous_composite: 46.9
@@ -309,7 +305,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -335,7 +331,7 @@ security:
 slug: truelayer
 tags:
 - Data API
-- Financial-Services
+- Financial Services
 - Open Banking
 - Payments
 - PSD2

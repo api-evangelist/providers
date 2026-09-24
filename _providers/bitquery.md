@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -172,7 +172,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,5 +194,7 @@ tags:
 - NFT
 - Crypto
 - Web3
+- Real-Time
+- Ethereum
 website: https://bitquery.io/
 ---

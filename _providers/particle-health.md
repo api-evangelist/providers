@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 18
   human_in_the_loop: 0
   name: Particle Health Agentic Access
-  operation_count: 59
+  operation_count: 67
   slug: particle-health-agentic-access
-  summary_line: 59 operations · 17 acting
+  summary_line: 67 operations · 18 acting
 api_count: 1
 apis:
 - baseURL: https://api.particlehealth.com
@@ -599,7 +599,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

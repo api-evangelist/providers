@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ modified: '2026-08-21'
 name: convergence
 nav: Providers
 network: true
-overview: 'convergence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine-Learning, and Web Automation.
+overview: 'convergence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine Learning, and Web Automation.
 
 
   convergence''s developer surface includes documentation and 6 more developer resources.'
@@ -106,7 +106,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Machine-Learning
+- Machine Learning
 - Web Automation
 - Open Weights
 - Developer Tools

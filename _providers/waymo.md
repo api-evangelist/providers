@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -144,7 +144,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -164,8 +164,9 @@ tags:
 - Ride Hailing
 - Alphabet
 - LiDAR
-- Computer-Vision
+- Computer Vision
 - Open Dataset
 - Simulation
+- Mobility
 website: https://waymo.com
 ---

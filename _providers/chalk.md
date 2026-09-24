@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
@@ -184,7 +184,7 @@ modified: '2026-07-18'
 name: Chalk
 nav: Providers
 network: true
-overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Feature Store, Artificial Intelligence, and Data Platform.
+overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Feature Store, Artificial Intelligence, and Data Platform.
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
@@ -217,7 +217,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -240,7 +240,7 @@ security:
 slug: chalk
 tags:
 - Company
-- Machine-Learning
+- Machine Learning
 - Feature Store
 - Artificial Intelligence
 - Data Platform

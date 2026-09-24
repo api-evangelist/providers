@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -50,104 +50,104 @@ apis:
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Challenge related operations
-  name: Audius challenges API
+  name: Audius Challenges API
   slug: audius-challenges-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The cid_data API from Audius — 1 operation(s) for cid_data.
-  name: Audius cid_data API
+  name: Audius Cid Data API
   slug: audius-cid-data-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The coins API from Audius — 9 operation(s) for coins.
-  name: Audius coins API
+  name: Audius Coins API
   slug: audius-coins-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Comment related operations
-  name: Audius comments API
+  name: Audius Comments API
   slug: audius-comments-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Protocol dashboard wallet users related operations
-  name: Audius dashboard_wallet_users API
+  name: Audius Dashboard Wallet Users API
   slug: audius-dashboard-wallet-users-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Developer app related operations
-  name: Audius developer_apps API
+  name: Audius Developer Apps API
   slug: audius-developer-apps-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Events related operations
-  name: Audius events API
+  name: Audius Events API
   slug: audius-events-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Explore related operations
-  name: Audius explore API
+  name: Audius Explore API
   slug: audius-explore-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The notifications API from Audius — 2 operation(s) for notifications.
-  name: Audius notifications API
+  name: Audius Notifications API
   slug: audius-notifications-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Playlist related operations
-  name: Audius playlists API
+  name: Audius Playlists API
   slug: audius-playlists-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Prize claiming related operations
-  name: Audius prizes API
+  name: Audius Prizes API
   slug: audius-prizes-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The reactions API from Audius — 1 operation(s) for reactions.
-  name: Audius reactions API
+  name: Audius Reactions API
   slug: audius-reactions-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Audius Canonical URL resolver
-  name: Audius resolve API
+  name: Audius Resolve API
   slug: audius-resolve-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Rewards related operations
-  name: Audius rewards API
+  name: Audius Rewards API
   slug: audius-rewards-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The search API from Audius — 3 operation(s) for search.
-  name: Audius search API
+  name: Audius Search API
   slug: audius-search-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Tip related operations
-  name: Audius tips API
+  name: Audius Tips API
   slug: audius-tips-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: Track related operations
-  name: Audius tracks API
+  name: Audius Tracks API
   slug: audius-tracks-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The transactions API from Audius — 2 operation(s) for transactions.
-  name: Audius transactions API
+  name: Audius Transactions API
   slug: audius-transactions-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: User related operations
-  name: Audius users API
+  name: Audius Users API
   slug: audius-users-api
 - baseURL: https://api.audius.co
   baseurl_source: declared
   description: The wallet API from Audius — 1 operation(s) for wallet.
-  name: Audius wallet API
+  name: Audius Wallet API
   slug: audius-wallet-api
-artifact_total: 51
+artifact_total: 50
 collections:
 - collection_type: open
   name: API Collection
@@ -278,17 +278,13 @@ finops:
 - name: Audius Finops
   service_category: Music Streaming
   slug: audius-finops
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for the [Audius](https://audius.co/) decentralized music streaming platform, derived from the [Audius REST API](https://docs.audius.org/developers/a
-  name: Audius GraphQL Schema
-  slug: audius-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/audius.png
 layout: provider
 modified: '2026-05-08'
 name: Audius
 nav: Providers
 network: true
-overview: 'Audius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including challenges API, cid_data API, coins API, and 17 more. Tagged areas include Music, Streaming, Decentralized, Web3, and Open-Source.
+overview: 'Audius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Challenges API, Cid Data API, Coins API, and 17 more. Tagged areas include Music, Streaming, Decentralized, Web3, and Open Source.
 
 
   Audius'' developer surface includes authentication and 11 more developer resources.'
@@ -308,19 +304,19 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.2
+  composite: 28.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 60.6
+    contract_quality: 58.2
     developer_ergonomics: 19.0
     discoverability: 75.9
     operational_transparency: 5.3
@@ -333,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -354,7 +350,7 @@ tags:
 - Streaming
 - Decentralized
 - Web3
-- Open-Source
+- Open Source
 - Blockchain
 website: https://audius.co/
 ---

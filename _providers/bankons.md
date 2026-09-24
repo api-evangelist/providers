@@ -28,7 +28,7 @@ modified: '2026-07-20'
 name: BankOns
 nav: Providers
 network: true
-overview: BankOns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Financial-Services, and Fintech.
+overview: BankOns is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Financial Services, and Fintech.
 random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankons/refs/heads/main/screenshots/bankons-2026-07-25T202348.png
 security:
@@ -41,7 +41,7 @@ tags:
 - Company
 - Defunct
 - Acquired
-- Financial-Services
+- Financial Services
 - Fintech
 - Mobile
 - Personal Finance

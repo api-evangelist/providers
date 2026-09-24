@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 8
   human_in_the_loop: 0
   name: Secure Code Warrior Agentic Access
   operation_count: 31
   slug: secure-code-warrior-agentic-access
-  summary_line: 31 operations · 10 acting
+  summary_line: 31 operations · 8 acting
 api_count: 1
 apis:
 - description: 'The Secure Code Warrior Direct Linking API is a RESTful JSON service that allows partners to retrieve application security training material including links to explainer videos and training exercises '
@@ -323,7 +323,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

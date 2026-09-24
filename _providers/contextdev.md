@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 32
+- acting_count: 13
   human_in_the_loop: 0
   name: Contextdev Agentic Access
-  operation_count: 84
+  operation_count: 42
   slug: contextdev-agentic-access
-  summary_line: 84 operations · 32 acting
+  summary_line: 42 operations · 13 acting
 api_count: 1
 apis:
 - baseURL: https://api.context.dev/v1
@@ -376,7 +376,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -406,5 +406,6 @@ tags:
 - Website Monitoring
 - Company Data
 - Developer Tools
+- A2A
 website: https://www.context.dev/
 ---

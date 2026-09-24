@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 43
+- acting_count: 46
   human_in_the_loop: 0
   name: Browserless Agentic Access
-  operation_count: 76
+  operation_count: 81
   slug: browserless-agentic-access
-  summary_line: 76 operations · 43 acting
+  summary_line: 81 operations · 46 acting
 api_count: 1
 apis:
 - baseURL: https://production-sfo.browserless.io
@@ -84,7 +84,7 @@ arazzos:
 - description: Bypass bot detection on a protected URL, then re-render its HTML content and a PDF using the unblocked content.
   name: Browserless Unblock Then Render
   slug: browserless-unblock-then-render-workflow
-artifact_total: 38
+artifact_total: 37
 collections:
 - collection_type: postman
   name: Browserless
@@ -250,10 +250,6 @@ finops:
 - name: Browserless Finops
   service_category: API
   slug: browserless-finops
-graphqls:
-- description: ''
-  name: Browserless GraphQL API
-  slug: browserless-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/browserless.png
 json_schemas:
 - name: Browserless Profile
@@ -328,7 +324,7 @@ score:
   band: strong
   composite: 55.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 84.5
     catalog_earned_first_party: 0.0
     catalog_gap: 30.5
@@ -352,7 +348,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The OpenID Connect issuer Glacier Bank serves at connect.glacierbank.com for its Jack Henry Banno Digital Toolkit tenant. Issuer https://connect.glacierbank.com/a/consumer/api/v0/oidc; the base URL fo
@@ -121,7 +121,7 @@ modified: '2026-09-14'
 name: Glacier Bancorp
 nav: Providers
 network: true
-overview: 'Glacier Bancorp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Digital Banking, OpenID Connect, and Authentication.
+overview: 'Glacier Bancorp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Digital Banking, OpenID Connect, and Authentication.
 
 
   Glacier Bancorp''s developer surface includes authentication, signup flow, support, and 12 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ security:
 slug: glacier-bancorp
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - OpenID Connect
 - Authentication

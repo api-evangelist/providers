@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: Aylien Agentic Access
   operation_count: 20
   slug: aylien-agentic-access
-  summary_line: 20 operations · 2 acting
+  summary_line: 20 operations
 api_count: 2
 apis:
 - baseURL: https://api.aylien.com
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The autocomplete API from AYLIEN — 1 operation(s) for autocomplete.
-  name: AYLIEN autocomplete API
+  name: AYLIEN Autocomplete API
   slug: aylien-autocomplete-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
@@ -63,7 +63,7 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The cluster API from AYLIEN — 1 operation(s) for cluster.
-  name: AYLIEN cluster API
+  name: AYLIEN Cluster API
   slug: aylien-cluster-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
@@ -93,7 +93,7 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The histogram API from AYLIEN — 1 operation(s) for histogram.
-  name: AYLIEN histogram API
+  name: AYLIEN Histogram API
   slug: aylien-histogram-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
@@ -103,7 +103,7 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The related_story API from AYLIEN — 1 operation(s) for related_story.
-  name: AYLIEN related_story API
+  name: AYLIEN Related Story API
   slug: aylien-related-story-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
@@ -113,7 +113,7 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The story API from AYLIEN — 1 operation(s) for story.
-  name: AYLIEN story API
+  name: AYLIEN Story API
   slug: aylien-story-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
@@ -123,12 +123,12 @@ apis:
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The time_series API from AYLIEN — 1 operation(s) for time_series.
-  name: AYLIEN time_series API
+  name: AYLIEN Time Series API
   slug: aylien-time-series-api
 - baseURL: https://api.aylien.com
   baseurl_source: declared
   description: The trends API from AYLIEN — 1 operation(s) for trends.
-  name: AYLIEN trends API
+  name: AYLIEN Trends API
   slug: aylien-trends-api
 artifact_total: 125
 collections:
@@ -511,7 +511,7 @@ modified: '2026-06-13'
 name: AYLIEN
 nav: Providers
 network: true
-overview: 'AYLIEN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Absa API, autocomplete API, Classify API, and 14 more. Tagged areas include News Intelligence, Text Analysis, NLP, Sentiment Analysis, and Entity Recognition.
+overview: 'AYLIEN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Absa API, Autocomplete API, Classify API, and 14 more. Tagged areas include News Intelligence, Text Analysis, NLP, Sentiment Analysis, and Entity Recognition.
 
 
   The AYLIEN catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -565,7 +565,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

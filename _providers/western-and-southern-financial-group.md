@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 15
 common:
@@ -91,7 +91,7 @@ modified: '2026-05-03'
 name: Western & Southern Financial Group
 nav: Providers
 network: true
-overview: 'Western & Southern Financial Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial-Services, Annuities, Life Insurance, and Retirement.
+overview: 'Western & Southern Financial Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, Annuities, Life Insurance, and Retirement.
 
 
   Western & Southern Financial Group''s developer surface includes developer portal, documentation, and 4 more developer resources.'
@@ -143,7 +143,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ security:
 slug: western-and-southern-financial-group
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Annuities
 - Life Insurance
 - Retirement

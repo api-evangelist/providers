@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -50,82 +50,82 @@ apis:
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The billing_request_flows API from GoCardless — 2 operation(s) for billing_request_flows.
-  name: GoCardless billing_request_flows API
+  name: GoCardless Billing Request Flows API
   slug: gocardless-billing-request-flows-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The billing_requests API from GoCardless — 2 operation(s) for billing_requests.
-  name: GoCardless billing_requests API
+  name: GoCardless Billing Requests API
   slug: gocardless-billing-requests-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The blocks API from GoCardless — 2 operation(s) for blocks.
-  name: GoCardless blocks API
+  name: GoCardless Blocks API
   slug: gocardless-blocks-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The creditor_bank_accounts API from GoCardless — 1 operation(s) for creditor_bank_accounts.
-  name: GoCardless creditor_bank_accounts API
+  name: GoCardless Creditor Bank Accounts API
   slug: gocardless-creditor-bank-accounts-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The creditors API from GoCardless — 2 operation(s) for creditors.
-  name: GoCardless creditors API
+  name: GoCardless Creditors API
   slug: gocardless-creditors-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The customer_bank_accounts API from GoCardless — 2 operation(s) for customer_bank_accounts.
-  name: GoCardless customer_bank_accounts API
+  name: GoCardless Customer Bank Accounts API
   slug: gocardless-customer-bank-accounts-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The customers API from GoCardless — 2 operation(s) for customers.
-  name: GoCardless customers API
+  name: GoCardless Customers API
   slug: gocardless-customers-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The events API from GoCardless — 2 operation(s) for events.
-  name: GoCardless events API
+  name: GoCardless Events API
   slug: gocardless-events-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The instalment_schedules API from GoCardless — 2 operation(s) for instalment_schedules.
-  name: GoCardless instalment_schedules API
+  name: GoCardless Instalment Schedules API
   slug: gocardless-instalment-schedules-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The institutions API from GoCardless — 1 operation(s) for institutions.
-  name: GoCardless institutions API
+  name: GoCardless Institutions API
   slug: gocardless-institutions-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The mandates API from GoCardless — 3 operation(s) for mandates.
-  name: GoCardless mandates API
+  name: GoCardless Mandates API
   slug: gocardless-mandates-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The payer_authorisations API from GoCardless — 2 operation(s) for payer_authorisations.
-  name: GoCardless payer_authorisations API
+  name: GoCardless Payer Authorisations API
   slug: gocardless-payer-authorisations-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The payments API from GoCardless — 3 operation(s) for payments.
-  name: GoCardless payments API
+  name: GoCardless Payments API
   slug: gocardless-payments-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The payouts API from GoCardless — 2 operation(s) for payouts.
-  name: GoCardless payouts API
+  name: GoCardless Payouts API
   slug: gocardless-payouts-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The refunds API from GoCardless — 2 operation(s) for refunds.
-  name: GoCardless refunds API
+  name: GoCardless Refunds API
   slug: gocardless-refunds-api
 - baseURL: https://api.gocardless.com
   baseurl_source: declared
   description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
-  name: GoCardless subscriptions API
+  name: GoCardless Subscriptions API
   slug: gocardless-subscriptions-api
 artifact_total: 45
 asyncapis:
@@ -311,7 +311,7 @@ modified: '2026-05-30'
 name: GoCardless
 nav: Providers
 network: true
-overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) network, including billing_request_flows API, billing_requests API, blocks API, and 13 more. Tagged areas include Payments, Direct Debit, Bank Debit, Recurring Payments, and Subscription.
+overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Billing Request Flows API, Billing Requests API, Blocks API, and 13 more. Tagged areas include Payments, Direct Debit, Bank Debit, Recurring Payments, and Subscription.
 
 
   The GoCardless catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -381,7 +381,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

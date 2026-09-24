@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-07-21'
 name: Tenyks
 nav: Providers
 network: true
-overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer-Vision, Machine-Learning, MLOps, and Data Quality.
+overview: 'Tenyks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data Upload API, and Datasets API. Tagged areas include Company, Computer Vision, Machine Learning, MLOps, and Data Quality.
 
 
   Tenyks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -271,8 +271,8 @@ security:
 slug: tenyks
 tags:
 - Company
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - MLOps
 - Data Quality
 - Model Validation

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: S3-compatible REST API exposed by every Alluxio worker (HTTP port 29998, HTTPS 29996) that lets applications built for Amazon S3 read and write cached data without code changes. Path-style requests on
@@ -130,7 +130,7 @@ modified: '2026-07-17'
 name: Alluxio
 nav: Providers
 network: true
-overview: 'Alluxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Orchestration, Data Caching, AI Infrastructure, and Machine-Learning.
+overview: 'Alluxio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Orchestration, Data Caching, AI Infrastructure, and Machine Learning.
 
 
   Alluxio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
@@ -155,7 +155,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 26.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -177,11 +177,11 @@ tags:
 - Data Orchestration
 - Data Caching
 - AI Infrastructure
-- Machine-Learning
+- Machine Learning
 - Analytics
 - Distributed Storage
 - Object Storage
 - S3
-- Open-Source
+- Open Source
 website: https://www.alluxio.io
 ---

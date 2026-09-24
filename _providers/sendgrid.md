@@ -30,7 +30,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -38,15 +38,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.9
-  scored_at: '2026-09-23'
+  score: 39.5
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 209
+- acting_count: 203
   human_in_the_loop: 5
   name: Sendgrid Agentic Access
   operation_count: 389
   slug: sendgrid-agentic-access
-  summary_line: 389 operations · 209 acting · 5 human-in-the-loop
+  summary_line: 389 operations · 203 acting · 5 human-in-the-loop
 api_count: 44
 apis:
 - baseURL: https://api.sendgrid.com
@@ -422,7 +422,7 @@ arazzos:
 - description: Upsert contacts asynchronously and branch on whether they can be confirmed yet.
   name: SendGrid Upsert Contacts and Confirm
   slug: sendgrid-upsert-contacts-confirm-workflow
-artifact_total: 220
+artifact_total: 219
 asyncapis:
 - description: The SendGrid Event Webhook delivers near real-time event data about your email activity via HTTP POST requests. SendGrid batches events into arrays and sends them to your configured webhook URL. Event
   name: SendGrid Event Webhook
@@ -845,11 +845,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/sendgrid-authentication.yml
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/graphql/sendgrid-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/sendgrid-graphql.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1211,10 +1206,6 @@ finops:
 - name: Sendgrid Finops
   service_category: Email Delivery
   slug: sendgrid-finops
-graphqls:
-- description: SendGrid Conceptual GraphQL Schema
-  name: SendGrid GraphQL
-  slug: sendgrid-graphql
 image: https://sendgrid.com/brand/sg-logo-300.png
 layout: provider
 modified: '2026-09-16'
@@ -1227,7 +1218,7 @@ overview: 'SendGrid publishes 63 APIs on the [APIs.io](https://apis.io/) network
   The SendGrid catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 2 Spectral governance rulesets.
 
 
-  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 86 more developer resources.'
+  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 85 more developer resources.'
 plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
@@ -1267,19 +1258,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 80.0
+  composite: 79.7
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 29
     catalog_earned: 55.8
     catalog_earned_first_party: 12.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 100.0
     contract_governance: 29.5
-    contract_quality: 70.8
+    contract_quality: 69.8
     developer_ergonomics: 89.3
     discoverability: 75.9
     operational_transparency: 60.5
@@ -1295,7 +1286,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ arazzos:
 - description: Read a payment for its SyncToken and then void it.
   name: Intuit Void Payment Safely
   slug: intuit-void-payment-safely-workflow
-artifact_total: 130
+artifact_total: 129
 asyncapis:
 - description: QuickBooks Online Webhooks provide near real-time notifications when data changes in a QuickBooks Online company. When an entity is created, updated, merged, deleted, or voided, Intuit sends an HTTP P
   name: QuickBooks Online Webhooks
@@ -474,10 +474,6 @@ finops:
 - name: Intuit Finops
   service_category: Accounting and Financial Software
   slug: intuit-finops
-graphqls:
-- description: Intuit does not offer a native public GraphQL API. Its developer platform exposes REST APIs for QuickBooks Online (Accounting, Payments, Payroll/Time, Projects, Custom Fields, Sales Tax), QuickBooks D
-  name: Intuit GraphQL Schema
-  slug: intuit-graphql
 image: https://developer.intuit.com/app/developer/common/imgs/IntuitDev_Logo.svg
 integrations:
 - description: Sync e-commerce orders, inventory, and payments between Shopify stores and QuickBooks for automated bookkeeping.
@@ -642,7 +638,7 @@ modified: '2026-09-16'
 name: Intuit
 nav: Providers
 network: true
-overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Finance, Financial-Services, and Invoicing.
+overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Finance, Financial Services, and Invoicing.
 
 
   The Intuit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -716,7 +712,7 @@ score:
   band: strong
   composite: 62.7
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 25
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
@@ -745,7 +741,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -765,7 +761,7 @@ tags:
 - Accounting
 - Custom Fields
 - Finance
-- Financial-Services
+- Financial Services
 - Invoicing
 - Payments
 - Payroll

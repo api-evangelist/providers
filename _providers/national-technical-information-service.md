@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The NTIS National Technical Reports Library (NTRL) offers online, free and open access to authenticated government technical reports and documents.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: National Technical Information Service
 nav: Providers
 network: true
-overview: 'National Technical Information Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Information, and Technical.
+overview: 'National Technical Information Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Information, and Technical.
 
 
   National Technical Information Service''s developer surface includes developer portal and 3 more developer resources.'
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-technical-information-service
 tags:
-- Federal-Government
+- Federal Government
 - Information
 - Technical
 website: https://www.ntis.gov/

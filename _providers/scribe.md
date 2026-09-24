@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Scribe Agentic Access
   operation_count: 4
   slug: scribe-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 4 operations
 api_count: 1
 apis:
 - baseURL: https://public-api.scribehow.com
@@ -206,7 +206,7 @@ modified: '2026-07-21'
 name: Scribe
 nav: Providers
 network: true
-overview: 'Scribe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Documents API, Search API, and Teams API. Tagged areas include Company, Ai Ml, Documentation, Knowledge-Management, and Search.
+overview: 'Scribe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Documents API, Search API, and Teams API. Tagged areas include Company, Ai Ml, Documentation, Knowledge Management, and Search.
 
 
   Scribe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ tags:
 - Company
 - Ai Ml
 - Documentation
-- Knowledge-Management
+- Knowledge Management
 - Search
 - Workflows
 - Process Documentation

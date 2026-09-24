@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based. It supports HTTP, WebSocket, and GraphQL protocols, with features including environ
@@ -110,7 +110,7 @@ modified: '2026-05-02'
 name: Restfox
 nav: Providers
 network: true
-overview: 'Restfox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Client, Browser, Desktop, and Open-Source.
+overview: 'Restfox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Client, Browser, Desktop, and Open Source.
 
 
   The Restfox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -160,7 +160,7 @@ score:
     score: 25.0
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ tags:
 - HTTP Client
 - Browser
 - Desktop
-- Open-Source
+- Open Source
 - GraphQL
 - WebSocket
 website: https://restfox.dev/

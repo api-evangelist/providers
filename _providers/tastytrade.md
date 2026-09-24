@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -52,12 +52,12 @@ apis:
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about accounts
-  name: tastytrade accounts API
+  name: tastytrade Accounts API
   slug: tastytrade-accounts-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about api-quote-tokens
-  name: tastytrade api-quote-tokens API
+  name: tastytrade API Quote Tokens API
   slug: tastytrade-api-quote-tokens-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
@@ -72,42 +72,42 @@ apis:
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about balance-snapshots
-  name: tastytrade balance-snapshots API
+  name: tastytrade Balance Snapshots API
   slug: tastytrade-balance-snapshots-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to retreive information about complex orders on a per account basis.
-  name: tastytrade complex-orders API
+  name: tastytrade Complex Orders API
   slug: tastytrade-complex-orders-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about customers
-  name: tastytrade customers API
+  name: tastytrade Customers API
   slug: tastytrade-customers-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about futures-option-chains
-  name: tastytrade futures-option-chains API
+  name: tastytrade Futures Option Chains API
   slug: tastytrade-futures-option-chains-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about instruments
-  name: tastytrade instruments API
+  name: tastytrade Instruments API
   slug: tastytrade-instruments-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: allows a client to fetch margin-requirements for positions and orders
-  name: tastytrade margin-requirements API
+  name: tastytrade Margin Requirements API
   slug: tastytrade-margin-requirements-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about margin-requirements-public-configurations
-  name: tastytrade margin-requirements-public-configuration API
+  name: tastytrade Margin Requirements Public Configuration API
   slug: tastytrade-margin-requirements-public-configuration-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: The market-data-controller API from tastytrade — 1 operation(s) for market-data-controller.
-  name: tastytrade market-data-controller API
+  name: tastytrade Market Data Controller API
   slug: tastytrade-market-data-controller-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
@@ -117,42 +117,42 @@ apis:
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about market-times
-  name: tastytrade market-time API
+  name: tastytrade Market Time API
   slug: tastytrade-market-time-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: The net-liq-controller API from tastytrade — 1 operation(s) for net-liq-controller.
-  name: tastytrade net-liq-controller API
+  name: tastytrade Net Liq Controller API
   slug: tastytrade-net-liq-controller-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about option-chains
-  name: tastytrade option-chains API
+  name: tastytrade Option Chains API
   slug: tastytrade-option-chains-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to view, filter, create, cancel and replace orders.
-  name: tastytrade orders API
+  name: tastytrade Orders API
   slug: tastytrade-orders-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to fetch pairs watchlists.
-  name: tastytrade pairs-watchlists API
+  name: tastytrade Pairs Watchlists API
   slug: tastytrade-pairs-watchlists-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about positions
-  name: tastytrade positions API
+  name: tastytrade Positions API
   slug: tastytrade-positions-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to fetch tastyworks watchlists.
-  name: tastytrade public-watchlists API
+  name: tastytrade Public Watchlists API
   slug: tastytrade-public-watchlists-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about quote-alerts
-  name: tastytrade quote-alerts API
+  name: tastytrade Quote Alerts API
   slug: tastytrade-quote-alerts-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
@@ -162,7 +162,7 @@ apis:
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about spans
-  name: tastytrade span API
+  name: tastytrade Span API
   slug: tastytrade-span-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
@@ -172,17 +172,17 @@ apis:
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to request information about the basic trade status of an account. \ This includes information about the strategies an account can trade.
-  name: tastytrade trading-status API
+  name: tastytrade Trading Status API
   slug: tastytrade-trading-status-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Operations about transactions
-  name: tastytrade transactions API
+  name: tastytrade Transactions API
   slug: tastytrade-transactions-api
 - baseURL: https://api.tastyworks.com
   baseurl_source: declared
   description: Allows an API client to fetch a user's watchlists.
-  name: tastytrade user-watchlists API
+  name: tastytrade User Watchlists API
   slug: tastytrade-user-watchlists-api
 artifact_total: 169
 collections:
@@ -679,7 +679,7 @@ modified: '2026-06-13'
 name: tastytrade
 nav: Providers
 network: true
-overview: 'tastytrade publishes 27 APIs on the [APIs.io](https://apis.io/) network, including accounts API, api-quote-tokens API, Available Dates API, and 24 more. Tagged areas include Finance, Brokerage, Trading, Options, and Futures.
+overview: 'tastytrade publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Quote Tokens API, Available Dates API, and 24 more. Tagged areas include Finance, Brokerage, Trading, Options, and Futures.
 
 
   The tastytrade catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -716,7 +716,7 @@ score:
     catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 25.0
@@ -724,7 +724,7 @@ score:
     developer_ergonomics: 54.8
     discoverability: 68.5
     operational_transparency: 50.0
-  previous_composite: 48.6
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -739,7 +739,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

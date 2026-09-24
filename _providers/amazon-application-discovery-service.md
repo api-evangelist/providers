@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 26
+- acting_count: 23
   human_in_the_loop: 2
   name: Amazon Application Discovery Service Agentic Access
   operation_count: 26
   slug: amazon-application-discovery-service-agentic-access
-  summary_line: 26 operations · 26 acting · 2 human-in-the-loop
+  summary_line: 26 operations · 23 acting · 2 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://discovery.us-east-1.amazonaws.com
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/mcp/amazon-application-discovery-service-mcp.yml
   title: ''
@@ -843,7 +843,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -875,5 +875,5 @@ use_cases:
 - Import existing server inventory from CMDBs or spreadsheets without installing agents
 - Track migration readiness across thousands of servers in a single dashboard
 - Identify unknown servers and shadow IT in large enterprise environments
-website: https://amazon.com
+website: https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html
 ---

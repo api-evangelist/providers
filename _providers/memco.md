@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Memco enables AI agents to share knowledge across a platform while maintaining security and privacy controls, providing collective memory capabilities for AI-powered applications.
@@ -66,7 +66,7 @@ modified: '2026-04-28'
 name: Memco
 nav: Providers
 network: true
-overview: 'Memco publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Knowledge-Management, and Memory.
+overview: 'Memco publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Artificial Intelligence, Knowledge Management, and Memory.
 
 
   Memco''s developer surface includes engineering blog and 2 more developer resources.'
@@ -99,7 +99,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ slug: memco
 tags:
 - Agents
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - Memory
 website: https://www.memco.ai/
 ---

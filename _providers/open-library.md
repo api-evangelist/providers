@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,42 +43,12 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Search Open Library's catalog of books, authors, lists, and subjects. Returns JSON results for full-text and faceted queries, with options for pagination, field selection, and language filtering.
-  name: Open Library Search API
-  slug: open-library-search-api
 - description: Full-text search across the millions of digitized books in the Internet Archive's collection, returning matching passages and book identifiers.
   name: Open Library Search Inside API
   slug: open-library-search-inside-api
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Retrieve work-level records (the abstract concept of a book independent of edition) by Open Library Work ID. Returns JSON, YAML, or RDF/XML.
-  name: Open Library Works API
-  slug: open-library-works-api
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Retrieve edition-level records (specific printings, ISBNs, formats) by Open Library Edition ID, ISBN-10, ISBN-13, OCLC, or LCCN.
-  name: Open Library Editions API
-  slug: open-library-editions-api
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Fetch author records and their works by Open Library Author ID. Supports JSON, YAML, and RDF/XML representations.
-  name: Open Library Authors API
-  slug: open-library-authors-api
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Retrieve books, works, and metadata grouped by subject (genre, topic, place, time, person) with paging and faceting.
-  name: Open Library Subjects API
-  slug: open-library-subjects-api
 - description: Retrieve book and author cover images by Open Library ID, ISBN, OCLC, LCCN, or Goodreads ID, in small, medium, and large sizes.
   name: Open Library Covers API
   slug: open-library-covers-api
-- baseURL: https://openlibrary.org
-  baseurl_source: spec
-  description: Read and manage user-curated reading lists. Authenticated patrons can create lists and add or remove works, editions, and subjects.
-  name: Open Library Lists API
-  slug: open-library-lists-api
 - description: 'Access a patron''s public reading log: Want to Read, Currently Reading, and Already Read shelves for a given Open Library account.'
   name: Open Library My Books API
   slug: open-library-mybooks-api
@@ -90,17 +60,17 @@ apis:
   slug: open-library-read-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Authors API from Open Library — 1 operation(s) for authors.
+  description: Fetch author records and their works by Open Library Author ID. Supports JSON, YAML, and RDF/XML representations.
   name: Open Library Authors API
   slug: open-library-authors-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Editions API from Open Library — 1 operation(s) for editions.
+  description: Retrieve edition-level records (specific printings, ISBNs, formats) by Open Library Edition ID, ISBN-10, ISBN-13, OCLC, or LCCN.
   name: Open Library Editions API
   slug: open-library-editions-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Lists API from Open Library — 1 operation(s) for lists.
+  description: Read and manage user-curated reading lists. Authenticated patrons can create lists and add or remove works, editions, and subjects.
   name: Open Library Lists API
   slug: open-library-lists-api
 - baseURL: https://openlibrary.org
@@ -110,7 +80,7 @@ apis:
   slug: open-library-recentchanges-json-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Search API from Open Library — 2 operation(s) for search.
+  description: Search Open Library's catalog of books, authors, lists, and subjects. Returns JSON results for full-text and faceted queries, with options for pagination, field selection, and language filtering.
   name: Open Library Search API
   slug: open-library-search-api
 - baseURL: https://openlibrary.org
@@ -120,15 +90,15 @@ apis:
   slug: open-library-search-json-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Subjects API from Open Library — 1 operation(s) for subjects.
+  description: Retrieve books, works, and metadata grouped by subject (genre, topic, place, time, person) with paging and faceting.
   name: Open Library Subjects API
   slug: open-library-subjects-api
 - baseURL: https://openlibrary.org
   baseurl_source: spec
-  description: The Works API from Open Library — 1 operation(s) for works.
+  description: Retrieve work-level records (the abstract concept of a book independent of edition) by Open Library Work ID. Returns JSON, YAML, or RDF/XML.
   name: Open Library Works API
   slug: open-library-works-api
-artifact_total: 34
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -216,7 +186,7 @@ modified: '2026-04-28'
 name: Open Library
 nav: Providers
 network: true
-overview: 'Open Library publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Search API, Works API, Editions API, and 11 more. Tagged areas include Authors, Books, Catalog, Covers, and Libraries.
+overview: 'Open Library publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Editions API, Lists API, and 5 more. Tagged areas include Authors, Books, Catalog, Covers, and Libraries.
 
 
   Open Library''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -239,7 +209,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 28.6
     contract_governance: 0.0
@@ -247,7 +217,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 59.3
     operational_transparency: 10.5
-  previous_composite: 25.8
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -262,7 +232,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

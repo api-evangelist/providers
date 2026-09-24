@@ -18,13 +18,13 @@ modified: '2026-07-20'
 name: Nervana Systems
 nav: Providers
 network: true
-overview: Nervana Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Deep Learning, and AI Hardware.
+overview: Nervana Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Deep Learning, and AI Hardware.
 random_paper: 0
 slug: nervana-systems
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Deep Learning
 - AI Hardware
 - Semiconductors

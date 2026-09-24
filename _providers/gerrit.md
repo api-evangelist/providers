@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,7 +63,7 @@ modified: '2026-09-21'
 name: Gerrit Code Review
 nav: Providers
 network: true
-overview: 'Gerrit Code Review is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Review, Open-Source, Git, and Collaboration.
+overview: 'Gerrit Code Review is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Review, Open Source, Git, and Collaboration.
 
 
   Gerrit Code Review''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
@@ -90,7 +90,7 @@ score:
   provenance:
     mcp: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -105,7 +105,7 @@ slug: gerrit
 tags:
 - Company
 - Code Review
-- Open-Source
+- Open Source
 - Git
 - Collaboration
 - CI/CD

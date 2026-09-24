@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-17'
 name: Amplication
 nav: Providers
 network: true
-overview: 'Amplication is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend, Code Generation, Developer Tools, and Open-Source.
+overview: 'Amplication is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend, Code Generation, Developer Tools, and Open Source.
 
 
   Amplication''s developer surface includes CLI, changelog, documentation, support, and 5 more developer resources.'
@@ -111,7 +111,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 10.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,7 @@ tags:
 - Backend
 - Code Generation
 - Developer Tools
-- Open-Source
+- Open Source
 - Platform Engineering
 - Microservices
 - API Development

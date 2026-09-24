@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/rds/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/agentic-access/amazon-rds-agentic-access.yml
   title: ''
@@ -710,7 +710,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -741,5 +741,6 @@ tags:
 - Database-as-a-Service
 - Managed Database
 - Relational Databases
-website: https://amazon.com
+- Database
+website: https://aws.amazon.com/rds/
 ---

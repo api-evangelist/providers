@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: The Public API of the Digital Enterprise Suite — 129 operations across 30 resource groups covering modeling places and their content, model promotion change requests, execution environments and deploy
@@ -222,7 +222,7 @@ modified: '2026-09-02'
 name: Trisotech
 nav: Providers
 network: true
-overview: 'Trisotech publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process Management, Decision Management, Workflow-Automation, Low-Code, and BPMN.
+overview: 'Trisotech publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process Management, Decision Management, Workflow Automation, Low-Code, and BPMN.
 
 
   The Trisotech catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -273,7 +273,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -300,7 +300,7 @@ slug: trisotech
 tags:
 - Business Process Management
 - Decision Management
-- Workflow-Automation
+- Workflow Automation
 - Low-Code
 - BPMN
 - DMN

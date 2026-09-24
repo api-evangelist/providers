@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 104
+- acting_count: 93
   human_in_the_loop: 3
   name: Amazon Gamelift Agentic Access
   operation_count: 104
   slug: amazon-gamelift-agentic-access
-  summary_line: 104 operations · 104 acting · 3 human-in-the-loop
+  summary_line: 104 operations · 93 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://gamelift.amazonaws.com
@@ -1243,7 +1243,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/gamelift/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/capabilities/amazon-gamelift-capability-edges.yml
   title: ''
@@ -5128,7 +5128,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -5171,5 +5171,5 @@ use_cases:
   name: Cost-Optimized Hosting
 - description: Deploy game servers across multiple AWS regions to minimize player latency worldwide.
   name: Global Game Distribution
-website: https://amazon.com
+website: https://aws.amazon.com/gamelift/
 ---

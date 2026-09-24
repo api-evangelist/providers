@@ -26,7 +26,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -76,18 +76,18 @@
      "slug": "swisscom",
      "description": "Swisscom is Switzerland's largest telecommunications provider and the incumbent mobile network operator, fixed-line carrier and IT services company for the Swiss market, majority-owned by the Swiss Confederation and also operating Fastweb in Italy. In the telecom value chain it is a facilities-based MNO that owns the radio access and core network, sells mobile, broadband, TV and enterprise IT, and monetises network-derived data. Its API posture is unusual for a European incumbent: alongside the expected partner-gated enterprise surface it runs a genuine first-party API marketplace at digital.swisscom.com listing ten productive API products (SMS, SMS token 2FA, inbound SMS, mobility heatmaps, dwell times, origin-destination, NATEL go smart catalogs, AI inference endpoints and a business identity validator) served from a live api.swisscom.com gateway, plus a separately maintained, actively released Swisscom Sign Integration API with a downloadable OpenAPI 3.1 document. The catch is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png",
-     "score": 64.7,
+     "score": 64.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 66.4,
+      "contract_quality": 67.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
       "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -136,8 +136,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "SIX",
@@ -149,13 +149,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 59.8,
+      "contract_quality": 59.6,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -205,7 +205,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -255,7 +255,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.1,
      "agent_band": "agent-aware",
@@ -283,122 +283,22 @@
      "rank": 5
     },
     {
-     "name": "Coorpacademy",
-     "slug": "coorpacademy",
-     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
-     "score": 46.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 56.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 55.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "ETH Zurich – Swiss Federal Institute of Technology",
-     "slug": "eth-zurich",
-     "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is Switzerland's federal institute of technology, founded in 1855 and part of the ETH Domain. Unlike most of the university cohort, ETH operates a genuinely first-party programmable footprint rather than a set of vendor contracts running under its name. The ETH Library API Platform (api.library.ethz.ch) publishes seven documented OpenAPI 3.0 REST APIs — Discovery, ETHorama, Geo, Persons, Research Collection v1 and v2, and Vector — written and operated by ETH Library and specified in ETH's own eth-library/opendata-apis repository. The Swiss National Supercomputing Centre (CSCS), an autonomous unit of ETH Zurich, operates FirecREST v2, an OAuth2-secured OpenAPI 3.1 REST interface to national HPC systems at api.cscs.ch. ETH also runs two live OAI-PMH endpoints on its own hosts (the Research Collection and e-rara), a Shibboleth SAML 2.0 Identity Provider whose metadata is published through SWITCHaai and eduGAIN, and 308 federated service-provider entities — more than any other Swiss institution. What ETH does NOT publish is equally part of the record: there is no public API for the VVZ course catalogue (the widely used vvzapi.ch is a student project that states plainly it is not affiliated with or endorsed by ETH), no campus-life or facilities API, and no central institution-wide developer portal — the developer portal that exists belongs to ETH Library alone. Library discovery and open data reach the public through tenant relationships on platforms ETH does not operate: swisscovery (Ex Libris Alma/Primo via SLSP) and opendata.swiss (the Swiss federal CKAN).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 60.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 7
-    },
-    {
      "name": "University of Lausanne",
      "slug": "university-of-lausanne",
      "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, founded in 1537, with roughly 17,000 students across seven faculties and ROR identifier https://ror.org/019whta54. UNIL publishes no developer portal, no API key programme, no API terms and no changelog, and no central catalogue of its own interfaces exists — but unlike most of this cohort its small programmable footprint is genuinely its own rather than a vendor's contract wearing its name. Three surfaces answer anonymously on UNIL's own registrable domain: the SPICA single-cell / spatial atlas JSON API at spica.unil.ch; the IRIS institutional research repository's DSpace-CRIS REST API at api.unil.ch/iris/server/api, behind a Kong gateway, with 253,799 indexed objects reachable through Discovery search while /core/items and /core/bitstreams answer 401; and two anonymous OAI-PMH 2.0 harvesting contexts on the same host, one of them declaring OpenAIRE Guidelines for CRIS Managers v1.1. Beyond the contracts, UNIL operates its own Shibboleth identity provider (entityID https://aai.unil.ch/idp/shibboleth, scope unil.ch) registered in SWITCHaai and exported to eduGAIN, and holds a DataCite repository registration minting DOIs under prefix 10.48657. Everything else — student information, timetables, course registration — sits behind the my.unil.ch SSO gateway and is not documented as an API anywhere. No OpenAPI, AsyncAPI or MCP server is published by UNIL itself; every contract in this repository was written by API Evangelist from live probes and is marked as such.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
-     "score": 44.5,
+     "score": 49.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 11.8,
-      "contract_governance": 47.0,
-      "operational_transparency": 23.7,
+      "contract_quality": 58.4,
+      "contract_governance": 35.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
-      "access_clarity": 63.2
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -430,35 +330,85 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 6
     },
     {
-     "name": "University of Geneva",
-     "slug": "university-of-geneva",
-     "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559 and ranked #93 in the QS World University Rankings 2025. Like almost every university it is a federation of buyers rather than an API producer, and it operates no central developer portal, no API gateway, no public key issuance and no self-service onboarding of any kind. What it does operate is unusually real for this cohort, and all of it sits under unige.ch: the Archive ouverte UNIGE institutional repository runs on the University's OWN software (the Identify response reports \"AoU v2.3.5\", not DSpace, EPrints or Figshare) and serves a live OAI-PMH 2.0 endpoint anonymously; Yareta, the e-Research long-term research-data preservation platform built on the Swiss DLCM/Solidify stack that UNIGE itself leads, exposes access and ingest REST modules on its own hosts with one genuinely public configuration endpoint and everything else behind a bearer token; a self-hosted GitLab serves an anonymous REST API over 1,146 public projects; and the Terminus protein-prediction service offers a small anonymous research API. UNIGE's strongest machine-readable surface is one universities are rarely credited for: its own Shibboleth SAML 2.0 Identity Provider, registered in the SWITCHaai national federation alongside 122 other unige.ch entities. Its library is a tenancy, not an asset — Ex Libris Alma/Primo operated by the SLSP consortium — and its DOI, publication and organization identifiers are registry memberships at DataCite, Crossref and ROR. There is no open-data portal, no course-catalog API (pgc.unige.ch soft-404s every /api path back to its own HTML) and no teaching-and-learning interoperability surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
-     "score": 44.0,
+     "name": "Coorpacademy",
+     "slug": "coorpacademy",
+     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
+     "score": 46.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 69.7,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 28.9
+      "discoverability": 68.5,
+      "contract_quality": 56.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 31.5,
+      "score": 55.6,
       "matched_via": "tags"
      },
-     "agent_score": 28.5,
-     "agent_band": "agent-aware",
+     "agent_score": 33.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "ETH Zurich – Swiss Federal Institute of Technology",
+     "slug": "eth-zurich",
+     "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is Switzerland's federal institute of technology, founded in 1855 and part of the ETH Domain. Unlike most of the university cohort, ETH operates a genuinely first-party programmable footprint rather than a set of vendor contracts running under its name. The ETH Library API Platform (api.library.ethz.ch) publishes seven documented OpenAPI 3.0 REST APIs — Discovery, ETHorama, Geo, Persons, Research Collection v1 and v2, and Vector — written and operated by ETH Library and specified in ETH's own eth-library/opendata-apis repository. The Swiss National Supercomputing Centre (CSCS), an autonomous unit of ETH Zurich, operates FirecREST v2, an OAuth2-secured OpenAPI 3.1 REST interface to national HPC systems at api.cscs.ch. ETH also runs two live OAI-PMH endpoints on its own hosts (the Research Collection and e-rara), a Shibboleth SAML 2.0 Identity Provider whose metadata is published through SWITCHaai and eduGAIN, and 308 federated service-provider entities — more than any other Swiss institution. What ETH does NOT publish is equally part of the record: there is no public API for the VVZ course catalogue (the widely used vvzapi.ch is a student project that states plainly it is not affiliated with or endorsed by ETH), no campus-life or facilities API, and no central institution-wide developer portal — the developer portal that exists belongs to ETH Library alone. Library discovery and open data reach the public through tenant relationships on platforms ETH does not operate: swisscovery (Ex Libris Alma/Primo via SLSP) and opendata.swiss (the Swiss federal CKAN).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 60.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -467,7 +417,7 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "documented",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -480,7 +430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "bexio",
@@ -498,7 +448,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -523,7 +473,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "EPFL",
@@ -541,7 +491,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -573,7 +523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Wingtra",
@@ -590,7 +540,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -615,7 +565,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Swiss Food Composition Database",
@@ -633,7 +583,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -665,7 +615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     }
    ]
   },
@@ -674,8 +624,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "University of Basel",
@@ -693,7 +643,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -725,6 +675,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 13
+    },
+    {
+     "name": "University of Geneva",
+     "slug": "university-of-geneva",
+     "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559 and ranked #93 in the QS World University Rankings 2025. Like almost every university it is a federation of buyers rather than an API producer, and it operates no central developer portal, no API gateway, no public key issuance and no self-service onboarding of any kind. What it does operate is unusually real for this cohort, and all of it sits under unige.ch: the Archive ouverte UNIGE institutional repository runs on the University's OWN software (the Identify response reports \"AoU v2.3.5\", not DSpace, EPrints or Figshare) and serves a live OAI-PMH 2.0 endpoint anonymously; Yareta, the e-Research long-term research-data preservation platform built on the Swiss DLCM/Solidify stack that UNIGE itself leads, exposes access and ingest REST modules on its own hosts with one genuinely public configuration endpoint and everything else behind a bearer token; a self-hosted GitLab serves an anonymous REST API over 1,146 public projects; and the Terminus protein-prediction service offers a small anonymous research API. UNIGE's strongest machine-readable surface is one universities are rarely credited for: its own Shibboleth SAML 2.0 Identity Provider, registered in the SWITCHaai national federation alongside 122 other unige.ch entities. Its library is a tenancy, not an asset — Ex Libris Alma/Primo operated by the SLSP consortium — and its DOI, publication and organization identifiers are registry memberships at DataCite, Crossref and ROR. There is no open-data portal, no course-catalog API (pgc.unige.ch soft-404s every /api path back to its own HTML) and no teaching-and-learning interoperability surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 32.4,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 39.3,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -743,7 +743,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -786,7 +786,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -836,7 +836,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -895,7 +895,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -938,7 +938,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -988,7 +988,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1016,6 +1016,63 @@
      "rank": 20
     },
     {
+     "name": "MindMaze",
+     "slug": "mindmaze",
+     "description": "MindMaze Therapeutics Holding SA (SIX: MMTX) is a Swiss precision-neurotherapeutics company headquartered in Lausanne, with a Geneva holding entity and a US base in Charlotte, North Carolina. Founded in 2012 by Tej Tadi as an EPFL spin-off, MindMaze became Switzerland's first unicorn and in December 2025 its successor entity NeuroX completed a business combination with Relief Therapeutics to form the SIX-listed MindMaze Therapeutics. The company builds digital neurotherapeutics that pair gamified therapy software with proprietary sensors and AI-driven analytics across the continuum of care - in-hospital, outpatient and at home - for stroke, Parkinson's disease and at-risk aging. Its FDA-listed and CE-marked portfolio includes Companion, MindMotion GO, MindPod, the Izar smart hand peripheral, the Physilog 3D motion-analytics platform and TOAP Run, deployed in more than 250 clinics and rehabilitation centers globally. MindMaze is a regulated medical-device and digital-therapeutics vendor rather than a software platform business: as of 2026-08-01 it publishes no developer portal, no API documentation, no SDKs, no CLI and no product API contract, and no API, docs or developer subdomain resolves on its domains. The one machine-readable surface it does serve is the anonymous WordPress REST API behind its corporate site, which carries 450 posts - 309 of them EQS regulatory and investor-relations disclosure for the SIX-listed issuer - 49 pages and 1,070 media records.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png",
+     "score": 23.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 57.5,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
      "name": "Clicks",
      "slug": "clicks",
      "description": "Clicks (Clicks Health) is an AI-native operations company that deploys AI agents to run complete healthcare back-office workflows. Its agents handle revenue cycle management (eligibility and insurance verification, prior authorization, claim status checking, denials management, and patient refunds), patient access, and other repetitive tasks by working inside a customer's existing EHR, practice-management, and payer systems either through APIs or the same screens staff use. Clicks integrates with major health IT platforms including Epic, Cerner, athenahealth, eClinicalWorks, ModMed, NextGen Healthcare, and MEDITECH, and states it is SOC 2 Type II audited and HIPAA compliant with end-to-end encryption for PHI. Founded in 2025, headquartered in Switzerland, and backed by Y Combinator (F2025).",
@@ -1031,7 +1088,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1074,64 +1131,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
-     "name": "MindMaze",
-     "slug": "mindmaze",
-     "description": "MindMaze Therapeutics Holding SA (SIX: MMTX) is a Swiss precision-neurotherapeutics company headquartered in Lausanne, with a Geneva holding entity and a US base in Charlotte, North Carolina. Founded in 2012 by Tej Tadi as an EPFL spin-off, MindMaze became Switzerland's first unicorn and in December 2025 its successor entity NeuroX completed a business combination with Relief Therapeutics to form the SIX-listed MindMaze Therapeutics. The company builds digital neurotherapeutics that pair gamified therapy software with proprietary sensors and AI-driven analytics across the continuum of care - in-hospital, outpatient and at home - for stroke, Parkinson's disease and at-risk aging. Its FDA-listed and CE-marked portfolio includes Companion, MindMotion GO, MindPod, the Izar smart hand peripheral, the Physilog 3D motion-analytics platform and TOAP Run, deployed in more than 250 clinics and rehabilitation centers globally. MindMaze is a regulated medical-device and digital-therapeutics vendor rather than a software platform business: as of 2026-08-01 it publishes no developer portal, no API documentation, no SDKs, no CLI and no product API contract, and no API, docs or developer subdomain resolves on its domains. The one machine-readable surface it does serve is the anonymous WordPress REST API behind its corporate site, which carries 450 posts - 309 of them EQS regulatory and investor-relations disclosure for the SIX-listed issuer - 49 pages and 1,070 media records.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png",
+     "name": "Memo Therapeutics",
+     "slug": "memo-therapeutics",
+     "description": "Memo Therapeutics AG (\"MTx\"), an Ipsen company, is a late-stage biotechnology company headquartered at Wagistrasse 27 in Schlieren / Zurich, Switzerland, with a US office as Memo Therapeutics US, Inc. in Wilson, North Carolina. It develops best-in-class therapeutic antibodies to transform the lives of patients with viral infections and cancer, built on DROPZYLLA, a microfluidic single-cell platform that makes a recombinant in vitro copy of an individual donor's B-cell antibody repertoire, banks it as a library, and screens it functionally at high throughput. Its lead program, potravitug, is a first-in-class monoclonal antibody against BK polyomavirus (BKPyV) reactivation in kidney transplant recipients; the Phase II SAFE KIDNEY II trial reported biopsy-proven resolution of BKPyV-associated nephropathy with sustained viral-load reduction to week 38, and the asset holds EU orphan designation. In February 2026 the company entered a collaboration and option agreement with CSL for its recombinant polyclonal IgG technology carrying milestones of up to CHF 265 million, and it has run an oncology antibody-discovery collaboration with Ono Pharmaceutical since 2022 alongside nephrology collaborations with the University Hospital of Zurich and the University Hospital of Bern. Ipsen completed its acquisition of Memo Therapeutics AG on 22 July 2026, adding potravitug to Ipsen's rare-disease pipeline. Memo Therapeutics runs no developer program and publishes no product API, developer portal, SDK or API documentation. The only machine-readable surface reachable without credentials is the WordPress REST content API behind memo-therapeutics.com, catalogued here, together with an llms.txt the site's SEO plugin publishes.",
      "score": 21.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
+      "developer_ergonomics": 23.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 47.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "score": 31.3,
+      "matched_via": "tags"
      },
-     "agent_score": 10.3,
+     "agent_score": 10.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
+      "agentic_access": false,
+      "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "na",
       "error_semantics": "documented",
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "CUTISS",
@@ -1149,7 +1198,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1181,55 +1230,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
-    },
-    {
-     "name": "Memo Therapeutics",
-     "slug": "memo-therapeutics",
-     "description": "Memo Therapeutics AG (\"MTx\"), an Ipsen company, is a late-stage biotechnology company headquartered at Wagistrasse 27 in Schlieren / Zurich, Switzerland, with a US office as Memo Therapeutics US, Inc. in Wilson, North Carolina. It develops best-in-class therapeutic antibodies to transform the lives of patients with viral infections and cancer, built on DROPZYLLA, a microfluidic single-cell platform that makes a recombinant in vitro copy of an individual donor's B-cell antibody repertoire, banks it as a library, and screens it functionally at high throughput. Its lead program, potravitug, is a first-in-class monoclonal antibody against BK polyomavirus (BKPyV) reactivation in kidney transplant recipients; the Phase II SAFE KIDNEY II trial reported biopsy-proven resolution of BKPyV-associated nephropathy with sustained viral-load reduction to week 38, and the asset holds EU orphan designation. In February 2026 the company entered a collaboration and option agreement with CSL for its recombinant polyclonal IgG technology carrying milestones of up to CHF 265 million, and it has run an oncology antibody-discovery collaboration with Ono Pharmaceutical since 2022 alongside nephrology collaborations with the University Hospital of Zurich and the University Hospital of Bern. Ipsen completed its acquisition of Memo Therapeutics AG on 22 July 2026, adding potravitug to Ipsen's rare-disease pipeline. Memo Therapeutics runs no developer program and publishes no product API, developer portal, SDK or API documentation. The only machine-readable surface reachable without credentials is the WordPress REST content API behind memo-therapeutics.com, catalogued here, together with an llms.txt the site's SEO plugin publishes.",
-     "score": 19.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 24
     },
     {
@@ -1248,7 +1248,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1298,7 +1298,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1347,7 +1347,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1390,7 +1390,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1433,7 +1433,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1475,7 +1475,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1577,7 +1577,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1626,7 +1626,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1676,7 +1676,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1725,7 +1725,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1775,7 +1775,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1825,7 +1825,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1874,7 +1874,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

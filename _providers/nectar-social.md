@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'Remote Model Context Protocol server exposing Nectar Social''s social content and analytics to AI agents over JSON-RPC 2.0 (Streamable HTTP). OAuth-protected: an anonymous tools/list returns HTTP 401 w'
@@ -162,7 +162,7 @@ modified: '2026-08-13'
 name: Nectar Social
 nav: Providers
 network: true
-overview: 'Nectar Social publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Social-Media, Community Management, and Social Listening.
+overview: 'Nectar Social publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Social Media, Community Management, and Social Listening.
 
 
   The Nectar Social catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,7 +211,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -234,7 +234,7 @@ slug: nectar-social
 tags:
 - Company
 - Artificial Intelligence
-- Social-Media
+- Social Media
 - Community Management
 - Social Listening
 - Influencer Marketing

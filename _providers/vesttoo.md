@@ -46,6 +46,6 @@ tags:
 - Insurance-Linked Securities
 - Alternative Risk Transfer
 - Capital Markets
-- Financial-Services
+- Financial Services
 - Defunct
 ---

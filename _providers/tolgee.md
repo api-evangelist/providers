@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-09-16'
 name: Tolgee
 nav: Providers
 network: true
-overview: 'Tolgee publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Import/Export API, Keys API, and 4 more. Tagged areas include Localization, i18n, Translation, Open-Source, and Developer Tools.
+overview: 'Tolgee publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Import/Export API, Keys API, and 4 more. Tagged areas include Localization, i18n, Translation, Open Source, and Developer Tools.
 
 
   Tolgee''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -211,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -231,7 +231,7 @@ tags:
 - Localization
 - i18n
 - Translation
-- Open-Source
+- Open Source
 - Developer Tools
 - Internationalization
 website: https://tolgee.io

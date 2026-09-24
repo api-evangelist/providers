@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: SQL-over-HTTP query engine plus RESTful resources for projects, databases, knowledge bases, tables, views, files, jobs, and AI agents. Self-hosted by default (http://127.0.0.1:47334); MindsDB Cloud is
@@ -155,7 +155,7 @@ modified: '2026-07-20'
 name: MindsDB
 nav: Providers
 network: true
-overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, AI Agents, and Data.
+overview: 'MindsDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Agents, and Data.
 
 
   MindsDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
@@ -183,7 +183,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -203,13 +203,13 @@ slug: mindsdb
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Agents
 - Data
 - Database
 - SQL
 - Knowledge Base
 - MCP
-- Open-Source
+- Open Source
 website: https://mindshub.ai
 ---

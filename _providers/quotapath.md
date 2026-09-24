@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,37 +49,37 @@ apis:
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The data API from QuotaPath — 1 operation(s) for data.
-  name: QuotaPath data API
+  name: QuotaPath Data API
   slug: quotapath-data-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The deal API from QuotaPath — 3 operation(s) for deal.
-  name: QuotaPath deal API
+  name: QuotaPath Deal API
   slug: quotapath-deal-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The path API from QuotaPath — 2 operation(s) for path.
-  name: QuotaPath path API
+  name: QuotaPath Path API
   slug: quotapath-path-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The payout API from QuotaPath — 3 operation(s) for payout.
-  name: QuotaPath payout API
+  name: QuotaPath Payout API
   slug: quotapath-payout-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The plan API from QuotaPath — 1 operation(s) for plan.
-  name: QuotaPath plan API
+  name: QuotaPath Plan API
   slug: quotapath-plan-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The team API from QuotaPath — 1 operation(s) for team.
-  name: QuotaPath team API
+  name: QuotaPath Team API
   slug: quotapath-team-api
 - baseURL: https://api.quotapath.com/v1
   baseurl_source: declared
   description: The user API from QuotaPath — 1 operation(s) for user.
-  name: QuotaPath user API
+  name: QuotaPath User API
   slug: quotapath-user-api
 artifact_total: 21
 collections:
@@ -256,7 +256,7 @@ modified: '2026-08-14'
 name: QuotaPath
 nav: Providers
 network: true
-overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network, including data API, deal API, path API, and 4 more. Tagged areas include Company, Sales Commissions, Compensation Management, Sales Operations, and Revenue Operations.
+overview: 'QuotaPath publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Data API, Deal API, Path API, and 4 more. Tagged areas include Company, Sales Commissions, Compensation Management, Sales Operations, and Revenue Operations.
 
 
   QuotaPath''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -279,7 +279,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -287,7 +287,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 2.6
-  previous_composite: 51.4
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

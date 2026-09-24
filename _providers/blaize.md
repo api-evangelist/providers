@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -124,7 +124,7 @@ modified: '2026-08-07'
 name: Blaize
 nav: Providers
 network: true
-overview: 'Blaize is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Edge Computing, Machine-Learning, and Inference.
+overview: 'Blaize is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Edge Computing, Machine Learning, and Inference.
 
 
   Blaize''s developer surface includes support, engineering blog, legal docs, and 12 more developer resources.'
@@ -154,7 +154,7 @@ score:
     - north-america
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -171,10 +171,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Edge Computing
-- Machine-Learning
+- Machine Learning
 - Inference
 - Semiconductors
-- Computer-Vision
+- Computer Vision
 - MLOps
 - Hardware
 website: https://www.blaize.com/

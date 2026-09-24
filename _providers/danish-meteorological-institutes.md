@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,22 +48,22 @@ apis:
 - baseURL: https://opendataapi.dmi.dk/v2
   baseurl_source: declared
   description: Quality-checked climate data at multiple aggregation levels.
-  name: Danish Meteorological Institutes climateData API
+  name: Danish Meteorological Institutes Climate Data API
   slug: danish-meteorological-institutes-climatedata-api
 - baseURL: https://opendataapi.dmi.dk/v2
   baseurl_source: declared
   description: Lightning strike observations.
-  name: Danish Meteorological Institutes lightningData API
+  name: Danish Meteorological Institutes Lightning Data API
   slug: danish-meteorological-institutes-lightningdata-api
 - baseURL: https://opendataapi.dmi.dk/v2
   baseurl_source: declared
   description: Raw weather observations from Danish and Greenlandic stations.
-  name: Danish Meteorological Institutes metObs API
+  name: Danish Meteorological Institutes Met Obs API
   slug: danish-meteorological-institutes-metobs-api
 - baseURL: https://opendataapi.dmi.dk/v2
   baseurl_source: declared
   description: Sea-level and water-temperature observations.
-  name: Danish Meteorological Institutes oceanObs API
+  name: Danish Meteorological Institutes Ocean Obs API
   slug: danish-meteorological-institutes-oceanobs-api
 artifact_total: 22
 collections:
@@ -164,7 +164,7 @@ modified: '2026-05-19'
 name: Danish Meteorological Institutes
 nav: Providers
 network: true
-overview: 'Danish Meteorological Institutes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including climateData API, lightningData API, metObs API, and 1 more. Tagged areas include Climate, Environment, Lightning, Meteorological, and Ocean.
+overview: 'Danish Meteorological Institutes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Climate Data API, Lightning Data API, Met Obs API, and 1 more. Tagged areas include Climate, Environment, Lightning, Meteorological, and Ocean.
 
 
   The Danish Meteorological Institutes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -241,7 +241,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

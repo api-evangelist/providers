@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Us African Development Foundation Agentic Access
   operation_count: 7
   slug: us-african-development-foundation-agentic-access
-  summary_line: 7 operations · 3 acting
+  summary_line: 7 operations
 api_count: 5
 apis:
 - baseURL: https://api.usaspending.gov
@@ -310,7 +310,7 @@ modified: '2026-05-19'
 name: US African Development Foundation
 nav: Providers
 network: true
-overview: 'US African Development Foundation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards API, Opportunities API, and 2 more. Tagged areas include Federal-Government, International Development, Africa, Grants, and Non-Profit.
+overview: 'US African Development Foundation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards API, Opportunities API, and 2 more. Tagged areas include Federal Government, International Development, Africa, Grants, and Non-Profit.
 
 
   The US African Development Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -386,7 +386,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -399,7 +399,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: us-african-development-foundation
 tags:
-- Federal-Government
+- Federal Government
 - International Development
 - Africa
 - Grants

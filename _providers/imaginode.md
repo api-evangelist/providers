@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'REST API to list models and launch/track image and video generations. Endpoints: GET /api/models (unauthenticated catalog & pricing), POST /api/generate, GET /api/generate/status. Uses imk_ bearer-key'
@@ -117,7 +117,7 @@ modified: '2026-09-03'
 name: Imaginode
 nav: Providers
 network: true
-overview: 'Imaginode publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Text-to-Speech, and MCP.
+overview: 'Imaginode publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Image Generation, Video Generation, Text-to-Speech, and MCP.
 
 
   Imaginode''s developer surface includes authentication, documentation, pricing, engineering blog, and 11 more developer resources.'
@@ -152,7 +152,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,7 @@ security:
 slug: imaginode
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Text-to-Speech
 - MCP

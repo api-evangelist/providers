@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -43,6 +43,12 @@ agentic_access:
   operation_count: 43
   slug: maxar-technologies-agentic-access
   summary_line: 43 operations · 18 acting · 2 human-in-the-loop
+- acting_count: 24
+  human_in_the_loop: 2
+  name: Vantor Agentic Access
+  operation_count: 59
+  slug: vantor-agentic-access
+  summary_line: 59 operations · 24 acting · 2 human-in-the-loop
 api_count: 7
 apis:
 - description: Vivid is Maxar's cloud-free, color-balanced basemap product — a global mosaic refreshed from the WorldView archive. The Vivid Basemap API exposes the basemap as OGC tile and feature services through t
@@ -553,10 +559,6 @@ finops:
 - name: Maxar Technologies Finops
   service_category: ''
   slug: maxar-technologies-finops
-graphqls:
-- description: Maxar Technologies provides high-resolution satellite imagery and geospatial intelligence. The API covers image discovery, ordering, streaming imagery, change detection analytics, 3D surface data, and
-  name: Maxar Technologies GraphQL API
-  slug: maxar-technologies-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maxar-technologies.png
 json_schemas:
 - name: Maxar Monitor
@@ -631,21 +633,21 @@ rules:
   slug: maxar-technologies-rules
 score:
   band: developing
-  composite: 53.5
+  composite: 52.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 81.5
+    artifact_dirs: 18
+    catalog_earned: 84.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 33.5
+    catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 59.0
+    contract_quality: 53.7
     developer_ergonomics: 48.8
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 68.4
   previous_composite: 53.5
   provenance:
@@ -654,9 +656,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

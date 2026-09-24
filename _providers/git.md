@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -109,7 +109,7 @@ modified: '2026-06-20'
 name: Git
 nav: Providers
 network: true
-overview: 'Git publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitHub API, GitLab API, and Gitea API. Tagged areas include Distributed, Git, Open-Source, Source Code Management, and Version Control.
+overview: 'Git publishes 3 APIs on the [APIs.io](https://apis.io/) network: GitHub API, GitLab API, and Gitea API. Tagged areas include Distributed, Git, Open Source, Source Code Management, and Version Control.
 
 
   Git''s developer surface includes documentation and 8 more developer resources.'
@@ -145,7 +145,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -169,7 +169,7 @@ slug: git
 tags:
 - Distributed
 - Git
-- Open-Source
+- Open Source
 - Source Code Management
 - Version Control
 website: https://git-scm.com/

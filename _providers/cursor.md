@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
+- acting_count: 9
   human_in_the_loop: 0
   name: Cursor Agentic Access
   operation_count: 17
   slug: cursor-agentic-access
-  summary_line: 17 operations · 12 acting
+  summary_line: 17 operations · 9 acting
 api_count: 1
 apis:
 - description: 'Programmatic access to team data: members, usage metrics, spending, repository blocklists, daily/filtered usage events. Available to Enterprise teams. Uses HTTP Basic auth with API key as username.'
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

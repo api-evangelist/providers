@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for AI-powered document search and Q&A across building documentation, plus management of buildings, documents, building owners, reports, and building categories. Supports SSE streaming on the
@@ -176,7 +176,7 @@ modified: '2026-07-19'
 name: Findable
 nav: Providers
 network: true
-overview: 'Findable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Building Intelligence, Property Technology, PropTech, and Facilities Management.
+overview: 'Findable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Building Intelligence, PropTech, Facilities Management, and Building Documentation.
 
 
   Findable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
@@ -204,7 +204,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -228,7 +228,6 @@ slug: findable
 tags:
 - Company
 - Building Intelligence
-- Property Technology
 - PropTech
 - Facilities Management
 - Building Documentation

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 553
+- acting_count: 550
   human_in_the_loop: 61
   name: Telnyx Agentic Access
   operation_count: 1038
   slug: telnyx-agentic-access
-  summary_line: 1038 operations · 553 acting · 61 human-in-the-loop
+  summary_line: 1038 operations · 550 acting · 61 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.telnyx.com/v2
@@ -1543,7 +1543,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

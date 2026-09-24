@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: The Changelog podcast RSS feed provides access to all episodes of The Changelog, a weekly podcast covering software development, open source, and the people and projects behind the code. The feed retu
@@ -162,7 +162,7 @@ modified: '2026-04-23'
 name: Changelog
 nav: Providers
 network: true
-overview: 'Changelog publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Community, Media, Open-Source, and Podcasts.
+overview: 'Changelog publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Community, Media, Open Source, and Podcasts.
 
 
   Changelog''s developer surface includes GitHub presence and 17 more developer resources.'
@@ -195,7 +195,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ slug: changelog
 tags:
 - Developer Community
 - Media
-- Open-Source
+- Open Source
 - Podcasts
 use_cases:
 - name: Developer Education

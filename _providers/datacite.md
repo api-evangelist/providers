@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -54,67 +54,67 @@ apis:
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Activities
-  name: DataCite activities API
+  name: DataCite Activities API
   slug: datacite-activities-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Client Prefixes
-  name: DataCite client-prefixes API
+  name: DataCite Client Prefixes API
   slug: datacite-client-prefixes-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Clients
-  name: DataCite clients API
+  name: DataCite Clients API
   slug: datacite-clients-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Events
-  name: DataCite events API
+  name: DataCite Events API
   slug: datacite-events-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Heartbeat
-  name: DataCite heartbeat API
+  name: DataCite Heartbeat API
   slug: datacite-heartbeat-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Prefixes
-  name: DataCite prefixes API
+  name: DataCite Prefixes API
   slug: datacite-prefixes-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Provider Prefixes
-  name: DataCite provider-prefixes API
+  name: DataCite Provider Prefixes API
   slug: datacite-provider-prefixes-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Providers
-  name: DataCite providers API
+  name: DataCite Providers API
   slug: datacite-providers-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: The publishers API from DataCite — 2 operation(s) for publishers.
-  name: DataCite publishers API
+  name: DataCite Publishers API
   slug: datacite-publishers-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: The report_types API from DataCite — 1 operation(s) for report_types.
-  name: DataCite report_types API
+  name: DataCite Report Types API
   slug: datacite-report-types-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: Reports
-  name: DataCite reports API
+  name: DataCite Reports API
   slug: datacite-reports-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: The repositories API from DataCite — 2 operation(s) for repositories.
-  name: DataCite repositories API
+  name: DataCite Repositories API
   slug: datacite-repositories-api
 - baseURL: https://api.datacite.org
   baseurl_source: declared
   description: The status API from DataCite — 1 operation(s) for status.
-  name: DataCite status API
+  name: DataCite Status API
   slug: datacite-status-api
 - baseURL: https://api.datacite.org/graphql
   baseurl_source: declared
@@ -270,7 +270,7 @@ modified: '2026-06-12'
 name: DataCite
 nav: Providers
 network: true
-overview: 'DataCite publishes 14 APIs on the [APIs.io](https://apis.io/) network, including activities API, client-prefixes API, clients API, and 11 more. Tagged areas include DOI, Persistent Identifiers, Scholarly Metadata, Research Data, and Open Science.
+overview: 'DataCite publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Client Prefixes API, Clients API, and 11 more. Tagged areas include DOI, Persistent Identifiers, Scholarly Metadata, Research Data, and Open Science.
 
 
   The DataCite catalog on APIs.io includes 1 JSON-LD context.
@@ -319,7 +319,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

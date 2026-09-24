@@ -23,14 +23,14 @@ modified: '2026-07-19'
 name: Flutter
 nav: Providers
 network: true
-overview: Flutter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gesture Recognition, Computer-Vision, Consumer Software, and Media Control.
+overview: Flutter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gesture Recognition, Computer Vision, Consumer Software, and Media Control.
 random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutter/refs/heads/main/screenshots/flutter-2026-07-25T214846.png
 slug: flutter
 tags:
 - Company
 - Gesture Recognition
-- Computer-Vision
+- Computer Vision
 - Consumer Software
 - Media Control
 - Acquired

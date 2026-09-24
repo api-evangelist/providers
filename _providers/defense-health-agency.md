@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'MHS Genesis, the Department of Defense electronic health record built on Oracle Health (Cerner), exposes a SMART on FHIR interface for authorized clinical applications to read and write patient data. '
@@ -139,7 +139,7 @@ modified: '2026-09-07'
 name: Defense Health Agency
 nav: Providers
 network: true
-overview: 'Defense Health Agency publishes 1 API on the [APIs.io](https://apis.io/) network: MHS Genesis SMART on FHIR API. Tagged areas include Federal-Government, Defense, Department of Defense, Health, and Military Health System.
+overview: 'Defense Health Agency publishes 1 API on the [APIs.io](https://apis.io/) network: MHS Genesis SMART on FHIR API. Tagged areas include Federal Government, Defense, Department of Defense, Health, and Military Health System.
 
 
   Defense Health Agency''s developer surface includes engineering blog and 14 more developer resources.'
@@ -180,7 +180,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: defense-health-agency
 tags:
-- Federal-Government
+- Federal Government
 - Defense
 - Department of Defense
 - Health

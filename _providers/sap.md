@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -167,7 +167,7 @@ apis:
   description: Business partner tax identification numbers
   name: SAP Tax Numbers API
   slug: sap-tax-numbers-api
-artifact_total: 176
+artifact_total: 175
 asyncapis:
 - description: Event-driven messaging API for SAP Business Technology Platform supporting AMQP, MQTT, and REST protocols. Enables publish/subscribe patterns for business events across SAP and third-party application
   name: SAP Event Mesh Events
@@ -562,10 +562,6 @@ finops:
 - name: Sap Finops
   service_category: Enterprise Software / Cloud Platform
   slug: sap-finops
-graphqls:
-- description: SAP's public APIs are built on REST and OData (both v2 and v4), surfaced primarily through the [SAP Business Accelerator Hub](https://api.sap.com). There is no unified public GraphQL endpoint. This sc
-  name: SAP GraphQL Schema
-  slug: sap-graphql
 integrations:
 - SAP S/4HANA Cloud with CRM and e-commerce platforms
 - SAP AI Core with machine learning frameworks and model registries
@@ -812,21 +808,21 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.8
+  composite: 49.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 36.5
+    artifact_dirs: 22
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 40.8
     contract_governance: 13.6
-    contract_quality: 68.1
+    contract_quality: 66.9
     developer_ergonomics: 65.5
-    discoverability: 44.4
+    discoverability: 50.0
     operational_transparency: 39.5
   previous_composite: 48.8
   provenance:
@@ -837,7 +833,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -871,6 +867,8 @@ tags:
 - Enterprise
 - ERP
 - Integration
+- Real-Time
+- A2A
 use_cases:
 - Automating order-to-cash and procure-to-pay business processes
 - Deploying and serving AI models for intelligent enterprise workflows

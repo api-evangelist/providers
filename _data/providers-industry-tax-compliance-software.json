@@ -1,6 +1,6 @@
 {
- "total": 126,
- "shown": 126,
+ "total": 124,
+ "shown": 124,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 69.1,
+     "score": 68.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 72.3,
+      "contract_quality": 71.4,
       "contract_governance": 47.0,
       "operational_transparency": 42.1,
       "developer_ergonomics": 69.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
@@ -80,7 +80,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -130,7 +130,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -169,7 +169,7 @@
      "slug": "wingspan",
      "description": "Wingspan is a contractor payments and payroll platform built for the independent workforce, giving enterprises a single system to onboard 1099 contractors, collect W-9 and compliance documents, run approval-based payroll, pay collaborators by ACH or instant payout, and file 1099 tax forms. Its REST Payments API (OpenAPI 3.1) covers payables, invoicing, collaborators and groups, payable/invoice/1099 batches, deductions, eligibility requirements, custom fields, reporting, and webhooks, with embeddable onboarding and payout-settings UIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png",
-     "score": 59.8,
+     "score": 59.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -177,10 +177,10 @@
       "contract_quality": 64.0,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
-      "developer_ergonomics": 58.9,
+      "developer_ergonomics": 55.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.2,
      "agent_band": "agent-aware",
@@ -279,7 +279,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -314,15 +314,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 23,
-   "shown": 23,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "TaxJar",
      "slug": "taxjar",
      "description": "TaxJar is a sales tax automation platform, now a Stripe company, providing APIs for real-time sales tax calculations, rooftop-level rate lookups, transaction recording, and automated filing across US states and international jurisdictions. The platform supports e-commerce businesses of all sizes with sub-20ms response times, 99.999% historical uptime, and AI-powered product tax classification. TaxJar handles nexus tracking, exemption certificate management, and AutoFile returns so merchants can stay compliant without manual effort. Official client libraries are available for Ruby, Python, PHP, Node.js, C#/.NET, Java, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png",
-     "score": 53.1,
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -330,10 +330,10 @@
       "contract_quality": 74.6,
       "contract_governance": 25.0,
       "operational_transparency": 39.5,
-      "developer_ergonomics": 40.5,
+      "developer_ergonomics": 36.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -376,7 +376,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -425,7 +425,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 51.3,
      "agent_band": "agent-native",
@@ -468,7 +468,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -529,7 +529,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 56.5,
      "agent_band": "agent-ready",
@@ -571,7 +571,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -614,7 +614,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -657,7 +657,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -706,7 +706,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -715,12 +715,12 @@
       "score": 48.1,
       "matched_via": "tags"
      },
-     "agent_score": 29.7,
+     "agent_score": 31.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -756,7 +756,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 39.8,
      "agent_band": "agent-native",
@@ -784,49 +784,6 @@
      "rank": 16
     },
     {
-     "name": "Workday Payroll",
-     "slug": "workday-payroll",
-     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
-     "score": 44.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 81.4,
-      "contract_governance": 28.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
      "name": "Fonoa",
      "slug": "fonoa",
      "description": "Fonoa is a global indirect tax automation platform that connects the full indirect tax lifecycle on one platform, serving enterprises across 100+ countries and jurisdictions. The platform provides APIs for real-time tax ID validation across 120+ countries, VAT/GST and sales tax calculation, e-invoicing compliance with local mandates, transaction reporting, and automated multi-country tax return filing. Companies such as Zoom, Uber, Booking.com, and Remote.com rely on Fonoa to automate and manage their global indirect tax obligations through a single API integration.",
@@ -842,7 +799,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -855,6 +812,49 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Workday Payroll",
+     "slug": "workday-payroll",
+     "description": "Workday Payroll provides comprehensive APIs for managing payroll operations, employee compensation, tax calculations, and payment processing within the Workday platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png",
+     "score": 43.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 81.4,
+      "contract_governance": 28.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 22.6,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -885,7 +885,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -928,7 +928,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -978,7 +978,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1021,7 +1021,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -1049,56 +1049,6 @@
      "rank": 22
     },
     {
-     "name": "PrestaShop",
-     "slug": "prestashop",
-     "description": "PrestaShop is an open-source e-commerce platform with a REST API for managing products, categories, orders, customers, carriers, stock, and tax rules for online stores. The Webservice API provides full CRUD access to 60+ shop resources using HTTP Basic authentication, while the newer Admin API supports OAuth 2.0 client credentials for programmatic store management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prestashop/refs/heads/main/screenshots/prestashop-2026-06-20T192052.png",
-     "score": 41.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 16.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 18.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Aibidia",
      "slug": "aibidia",
      "description": "Aibidia is a Helsinki-based transfer pricing technology company whose cloud platform lets multinational enterprises manage transfer pricing policy, intercompany transaction data, documentation and country-by-country reporting in one place. The platform is delivered as a set of solution modules — TPDoc (documentation), CbCR, OTP Management, Strategic TP Management, Value Chain Analysis, Data Studio, Horizon and TP AI — behind a single Azure AD B2C sign-in at platform.aibidia.com, each backed by its own first-party API service on an aibidia.com subdomain. Aibidia publishes a small deliberately-public integration surface: the Public OTP Management API, which accepts automated multi-level segmentation data injections from a customer's ERP or finance stack using an X-DATAINGESTION-API-KEY header. There is no open developer portal, no public API reference and no self-serve signup; the platform is sold to enterprise tax teams and the help centre and release notes sit behind client-rendered portals.",
@@ -1113,7 +1063,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -1138,7 +1088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Planomy Tax Data",
@@ -1156,7 +1106,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1188,57 +1138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
-    },
-    {
-     "name": "Tipalti",
-     "slug": "tipalti",
-     "description": "Tipalti is a global accounts payable and mass payments automation platform that enables businesses to onboard suppliers, process payments across 196 countries in 120 currencies using 50+ payment methods, and automate invoice processing and tax compliance. The platform exposes a modern REST API for programmatic payee management, payment processing, invoice creation, and procurement workflows, alongside a legacy SOAP API for payer and payee functions that remains in use for existing integrations. Authentication uses OAuth 2.0 client credentials for the REST API and HMAC-based request signing for the SOAP API. Tipalti operates dedicated sandbox and production environments, with documentation and developer resources available through the Tipalti Developer Hub at developer.tipalti.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png",
-     "score": 40.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 48.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 32.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 18.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
+     "rank": 24
     },
     {
      "name": "Column Tax",
@@ -1256,7 +1156,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1288,7 +1188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 25
     },
     {
      "name": "TaxBit",
@@ -1306,7 +1206,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.4,
      "agent_band": "agent-aware",
@@ -1331,7 +1231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "Gigstack",
@@ -1349,7 +1249,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1381,7 +1281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 27
     }
    ]
   },
@@ -1409,7 +1309,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -1434,7 +1334,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 28
     },
     {
      "name": "Quaderno",
@@ -1452,7 +1352,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1477,7 +1377,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 29
+    },
+    {
+     "name": "Tipalti",
+     "slug": "tipalti",
+     "description": "Tipalti is a global accounts payable and mass payments automation platform that enables businesses to onboard suppliers, process payments across 196 countries in 120 currencies using 50+ payment methods, and automate invoice processing and tax compliance. The platform exposes a modern REST API for programmatic payee management, payment processing, invoice creation, and procurement workflows, alongside a legacy SOAP API for payer and payee functions that remains in use for existing integrations. Authentication uses OAuth 2.0 client credentials for the REST API and HMAC-based request signing for the SOAP API. Tipalti operates dedicated sandbox and production environments, with documentation and developer resources available through the Tipalti Developer Hub at developer.tipalti.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png",
+     "score": 38.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 41.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 32.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 30
     },
     {
      "name": "CharityAPI",
@@ -1495,7 +1445,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 51.7,
      "agent_band": "agent-ready",
@@ -1520,7 +1470,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "FreeAgent",
@@ -1538,7 +1488,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1563,50 +1513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
-    },
-    {
-     "name": "Zeal",
-     "slug": "zeal-hq",
-     "description": "Zeal is an embedded, payroll-as-a-service platform. Its API lets software companies build their own payroll products - onboarding companies, employees, and 1099 contractors, running pay runs, disbursing pay, and handling tax calculation, filing, and compliance across all US jurisdictions - without becoming a payroll company themselves.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/screenshots/zeal-hq-2026-09-02T171511.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 50.9,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
+     "rank": 32
     },
     {
      "name": "Casey's General Stores",
@@ -1624,7 +1531,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1649,7 +1556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "Outpost",
@@ -1667,7 +1574,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1699,7 +1606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "Hnry",
@@ -1717,7 +1624,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1749,7 +1656,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 35
+    },
+    {
+     "name": "Zeal",
+     "slug": "zeal-hq",
+     "description": "Zeal is an embedded, payroll-as-a-service platform. Its API lets software companies build their own payroll products - onboarding companies, employees, and 1099 contractors, running pay runs, disbursing pay, and handling tax calculation, filing, and compliance across all US jurisdictions - without becoming a payroll company themselves.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/screenshots/zeal-hq-2026-09-02T171511.png",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 50.9,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 32.1,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 36
     },
     {
      "name": "Co-Legal B.V.",
@@ -1766,7 +1716,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1791,7 +1741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "QuickBooks",
@@ -1809,7 +1759,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -1834,7 +1784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Cleartax",
@@ -1852,7 +1802,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1884,7 +1834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Sphere",
@@ -1902,7 +1852,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1927,7 +1877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "FastSpring",
@@ -1945,7 +1895,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1977,7 +1927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Numeral",
@@ -1995,7 +1945,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2020,7 +1970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Mosey",
@@ -2038,7 +1988,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -2063,7 +2013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Octobat",
@@ -2081,7 +2031,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2113,7 +2063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "MYOB",
@@ -2131,7 +2081,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -2156,7 +2106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Salsa",
@@ -2174,7 +2124,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2206,7 +2156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "TAXO",
@@ -2224,7 +2174,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2249,7 +2199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Filed",
@@ -2267,7 +2217,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -2292,7 +2242,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Facturama",
@@ -2310,7 +2260,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2335,7 +2285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Remitian",
@@ -2353,7 +2303,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2385,7 +2335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "DDD Invoices",
@@ -2403,7 +2353,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2428,31 +2378,38 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
-     "name": "Tax Reporting Templates",
-     "slug": "tax-reporting-templates",
-     "description": "Pre-built templates and frameworks for generating tax reports, compliance documents, and financial summaries required for tax filing and regulatory purposes. Covers IRS Modernized e-File (MeF) schemas, sales tax compliance APIs (TaxJar, Avalara, TaxCloud), payroll tax forms, and corporate tax reporting standards. Helps organizations meet regulatory requirements and demonstrate accountability to stakeholders.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/screenshots/tax-reporting-templates-2026-06-20T194932.png",
-     "score": 31.1,
+     "name": "PrestaShop",
+     "slug": "prestashop",
+     "description": "PrestaShop is an open-source e-commerce platform with a REST API for managing products, categories, orders, customers, carriers, stock, and tax rules for online stores. The Webservice API provides full CRUD access to 60+ shop resources using HTTP Basic authentication, while the newer Admin API supports OAuth 2.0 client credentials for programmatic store management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prestashop/refs/heads/main/screenshots/prestashop-2026-06-20T192052.png",
+     "score": 31.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 59.9,
-      "contract_governance": 25.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 15.8
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-22",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
@@ -2471,7 +2428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Abound",
@@ -2488,7 +2445,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2520,49 +2477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
-    },
-    {
-     "name": "Sage Accounting",
-     "slug": "sage-accounting",
-     "description": "Sage Accounting (formerly Sage Business Cloud Accounting and Sage One) is Sage's cloud-based accounting software for UK and international small and medium businesses, covering invoicing, expenses, banking, VAT, payroll integration, and financial reporting. Its REST API at https://api.accounting.sage.com/v3.1 provides programmatic access to contacts, sales and purchase invoices, ledger accounts, journals, tax rates, bank accounts, and attachments. Authentication uses OAuth 2.0 with the authorization endpoint at https://www.sageone.com/oauth2/auth/central and the token endpoint at https://oauth.accounting.sage.com/token; access tokens expire after five minutes and refresh tokens after 31 days, and the X-Business header selects the target business.",
-     "score": 30.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 38.1,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Clear Books",
@@ -2580,7 +2495,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2605,7 +2520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "MainStreet",
@@ -2623,7 +2538,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -2648,7 +2563,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "Taina",
@@ -2666,7 +2581,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -2691,7 +2606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "Ernst & Young (EY)",
@@ -2709,7 +2624,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2734,7 +2649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     }
    ]
   },
@@ -2762,7 +2677,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2787,7 +2702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "IRS",
@@ -2805,7 +2720,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2837,7 +2752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "VAT API",
@@ -2855,7 +2770,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2880,7 +2795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "H&R Block",
@@ -2898,7 +2813,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -2923,7 +2838,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Earnipay",
@@ -2941,7 +2856,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2973,7 +2888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "Black Ore Technologies",
@@ -2991,7 +2906,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -3016,7 +2931,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Everlance",
@@ -3034,7 +2949,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3059,7 +2974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Found",
@@ -3077,7 +2992,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3109,7 +3024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "TaxNexus",
@@ -3126,7 +3041,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3151,7 +3066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Firstbase",
@@ -3169,7 +3084,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3194,7 +3109,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
+    },
+    {
+     "name": "Sage Accounting",
+     "slug": "sage-accounting",
+     "description": "Sage Accounting (formerly Sage Business Cloud Accounting and Sage One) is Sage's cloud-based accounting software for UK and international small and medium businesses, covering invoicing, expenses, banking, VAT, payroll integration, and financial reporting. Its REST API at https://api.accounting.sage.com/v3.1 provides programmatic access to contacts, sales and purchase invoices, ledger accounts, journals, tax rates, bank accounts, and attachments. Authentication uses OAuth 2.0 with the authorization endpoint at https://www.sageone.com/oauth2/auth/central and the token endpoint at https://oauth.accounting.sage.com/token; access tokens expire after five minutes and refresh tokens after 31 days, and the X-Business header selects the target business.",
+     "score": 20.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 68
     },
     {
      "name": "Wealthsimple",
@@ -3212,7 +3169,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3244,7 +3201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "IVIX",
@@ -3262,7 +3219,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3294,7 +3251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Rates and Limits",
@@ -3311,7 +3268,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3343,7 +3300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Bloomberg Tax (BTAX)",
@@ -3361,7 +3318,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3393,7 +3350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Blue J",
@@ -3411,7 +3368,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 73
+    },
+    {
+     "name": "Accordance Ai",
+     "slug": "accordance-ai",
+     "description": "Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations, complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations. Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures, Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates. The product surface is the Accordance application (app.accordance.ai); no public developer API is currently documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png",
+     "score": 18.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3439,22 +3439,22 @@
      "rank": 74
     },
     {
-     "name": "Accordance Ai",
-     "slug": "accordance-ai",
-     "description": "Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations, complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations. Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures, Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates. The product surface is the Accordance application (app.accordance.ai); no public developer API is currently documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png",
-     "score": 18.1,
+     "name": "Neo.Tax",
+     "slug": "neotax",
+     "description": "Neo.Tax is an AI-powered tax automation platform that helps enterprises and their accounting teams generate audit-ready R&D tax credit studies, software capitalization (ASC 350-40), and R&D capitalization (IRC Section 174) documentation. The platform ingests engineering and financial data from tools like Jira, GitHub, payroll systems, and Workday and uses large language models and agentic AI to qualify projects under IRC Section 41, eliminating the manual surveys and interviews that traditionally drive R&D tax credit work. Neo.Tax is backed by GV and Uncork Capital and delivered as a closed enterprise SaaS product; it operates a customer application, a help center, a public status page, and a trust center (SOC 2 Type II, ISO/IEC 27001:2022, GDPR) but does not publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neotax/refs/heads/main/screenshots/neotax-2026-08-07T184855.png",
+     "score": 17.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 50.0
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3482,22 +3482,22 @@
      "rank": 75
     },
     {
-     "name": "Neo.Tax",
-     "slug": "neotax",
-     "description": "Neo.Tax is an AI-powered tax automation platform that helps enterprises and their accounting teams generate audit-ready R&D tax credit studies, software capitalization (ASC 350-40), and R&D capitalization (IRC Section 174) documentation. The platform ingests engineering and financial data from tools like Jira, GitHub, payroll systems, and Workday and uses large language models and agentic AI to qualify projects under IRC Section 41, eliminating the manual surveys and interviews that traditionally drive R&D tax credit work. Neo.Tax is backed by GV and Uncork Capital and delivered as a closed enterprise SaaS product; it operates a customer application, a help center, a public status page, and a trust center (SOC 2 Type II, ISO/IEC 27001:2022, GDPR) but does not publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neotax/refs/heads/main/screenshots/neotax-2026-08-07T184855.png",
-     "score": 17.9,
+     "name": "DataSnipper",
+     "slug": "datasnipper",
+     "description": "DataSnipper is an AI-powered, agentic productivity platform built specifically for audit, tax, and finance teams. It automates repetitive testing and analysis work - extracting, matching, and analyzing data across documents and systems - while keeping human professionals in control of final decisions. Capabilities include AI Agents for end-to-end workflows (revenue testing, tests of detail, royalty calculations), Excel Agents that run analysis directly inside spreadsheets, and document intelligence that collects and cross-references evidence. The platform serves external audit, internal audit, tax, financial control, government audit, and advisory teams, with a security-first posture (no training on customer data, encryption, and 24-hour document deletion). Backed by Index Ventures and Insight Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datasnipper/refs/heads/main/screenshots/datasnipper-2026-07-25T211401.png",
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "access_clarity": 36.8
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3525,65 +3525,22 @@
      "rank": 76
     },
     {
-     "name": "Tax Templates",
-     "slug": "tax-templates",
-     "description": "Pre-designed templates for organizing and filing tax documents and returns. Financial institutions and enterprises use these templates to streamline tax operations and manage fiscal responsibilities. Covers tax document collection, structured data formats for financial disclosures, corporate tax returns, and regulatory compliance frameworks across jurisdictions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tax-templates/refs/heads/main/screenshots/tax-templates-2026-06-20T194933.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "contract_governance": 25.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-22",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "DataSnipper",
-     "slug": "datasnipper",
-     "description": "DataSnipper is an AI-powered, agentic productivity platform built specifically for audit, tax, and finance teams. It automates repetitive testing and analysis work - extracting, matching, and analyzing data across documents and systems - while keeping human professionals in control of final decisions. Capabilities include AI Agents for end-to-end workflows (revenue testing, tests of detail, royalty calculations), Excel Agents that run analysis directly inside spreadsheets, and document intelligence that collects and cross-references evidence. The platform serves external audit, internal audit, tax, financial control, government audit, and advisory teams, with a security-first posture (no training on customer data, encryption, and 24-hour document deletion). Backed by Index Ventures and Insight Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datasnipper/refs/heads/main/screenshots/datasnipper-2026-07-25T211401.png",
-     "score": 16.2,
+     "name": "Fifteenth",
+     "slug": "fifteenth",
+     "description": "Fifteenth is a San Francisco-based fintech company operating an AI-powered personal tax platform for ambitious earners — founders, investors, executives, and technology professionals with complex financial situations such as equity compensation (ISOs, RSOs, RSUs, NSOs), liquidity events (IPOs and acquisitions), partnership income (K-1s), and active stock and crypto trading. The service pairs dedicated human CPAs with AI-driven automation: users link their banking, payroll, and investment accounts via one-click integrations (Workday, Rippling, Robinhood, Wealthfront, Carta, Charles Schwab, AngelList, Coinbase and more), and the platform automatically detects tax-relevant transactions, organizes documents, models scenarios, and delivers proactive quarterly planning plus unlimited year-round advice at flat-fee pricing starting around $1,000 per year. Fifteenth raised $8.25M in seed funding (February 2025) led by A* and General Catalyst. It is a consumer-facing product with no public developer API surface; this profile captures its identity and public web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifteenth/refs/heads/main/screenshots/fifteenth-2026-07-25T214427.png",
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3608,14 +3565,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 77
+    },
+    {
+     "name": "HubSync",
+     "slug": "hubsync",
+     "description": "HubSync is an AI-powered, end-to-end tax and accounting workflow platform built for CPA firms, founded in 2019 by John McGowan and headquartered in Franklin, Tennessee. The SaaS platform unifies the engagement lifecycle in one interface: engagement letter generation and tracking, tax organizers and prepared-by-client data collection, document management, e-signature (including IRS Form 8879), batch federal and state extensions, tax return breakup and delivery, e-file status tracking, web-based tax workpapers, firm analytics dashboards, and integrated bill-and-pay. Its HubSync Halo layer adds agentic AI orchestration across those stages. HubSync publishes an llms.txt and states that it ships a Model Context Protocol (MCP) server and bi-directional API integrations with CCH Axcess/ProSystem fx, Thomson Reuters GoSystem/UltraTax and SurePrep, but it publishes no public developer portal, API reference, OpenAPI description or endpoint documentation — the entire integration surface is provisioned per customer firm.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubsync/refs/heads/main/screenshots/hubsync-2026-09-02T145749.png",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 6.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 78
     },
     {
-     "name": "Fifteenth",
-     "slug": "fifteenth",
-     "description": "Fifteenth is a San Francisco-based fintech company operating an AI-powered personal tax platform for ambitious earners — founders, investors, executives, and technology professionals with complex financial situations such as equity compensation (ISOs, RSOs, RSUs, NSOs), liquidity events (IPOs and acquisitions), partnership income (K-1s), and active stock and crypto trading. The service pairs dedicated human CPAs with AI-driven automation: users link their banking, payroll, and investment accounts via one-click integrations (Workday, Rippling, Robinhood, Wealthfront, Carta, Charles Schwab, AngelList, Coinbase and more), and the platform automatically detects tax-relevant transactions, organizes documents, models scenarios, and delivers proactive quarterly planning plus unlimited year-round advice at flat-fee pricing starting around $1,000 per year. Fifteenth raised $8.25M in seed funding (February 2025) led by A* and General Catalyst. It is a consumer-facing product with no public developer API surface; this profile captures its identity and public web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifteenth/refs/heads/main/screenshots/fifteenth-2026-07-25T214427.png",
-     "score": 15.9,
+     "name": "BossTax",
+     "slug": "bosstax",
+     "description": "BossTax is a mobile bookkeeping and tax-filing app for 1099 workers, freelancers, and independent contractors. Founded in 2022 and based in Stamford, Connecticut, BossTax lets self-employed users track expenses by photographing receipts, automatically categorize deductions, log expenses hands-free by voice, manage separate business banking, and file federal, state, and local taxes with a licensed tax professional for a single flat fee with no subscriptions. BossTax is an IRS-authorized Electronic Return Originator (ERO) and is backed by Bloomberg Beta and Boyd Street Ventures. The company ships iOS and Android consumer apps; it publishes no public developer API, documentation, or SDK surface at this time, so this profile tracks the company identity and public web properties in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bosstax/refs/heads/main/screenshots/bosstax-2026-07-25T203637.png",
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -3624,9 +3624,9 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 47.4
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3654,92 +3654,6 @@
      "rank": 79
     },
     {
-     "name": "HubSync",
-     "slug": "hubsync",
-     "description": "HubSync is an AI-powered, end-to-end tax and accounting workflow platform built for CPA firms, founded in 2019 by John McGowan and headquartered in Franklin, Tennessee. The SaaS platform unifies the engagement lifecycle in one interface: engagement letter generation and tracking, tax organizers and prepared-by-client data collection, document management, e-signature (including IRS Form 8879), batch federal and state extensions, tax return breakup and delivery, e-file status tracking, web-based tax workpapers, firm analytics dashboards, and integrated bill-and-pay. Its HubSync Halo layer adds agentic AI orchestration across those stages. HubSync publishes an llms.txt and states that it ships a Model Context Protocol (MCP) server and bi-directional API integrations with CCH Axcess/ProSystem fx, Thomson Reuters GoSystem/UltraTax and SurePrep, but it publishes no public developer portal, API reference, OpenAPI description or endpoint documentation — the entire integration surface is provisioned per customer firm.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubsync/refs/heads/main/screenshots/hubsync-2026-09-02T145749.png",
-     "score": 15.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 6.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "BossTax",
-     "slug": "bosstax",
-     "description": "BossTax is a mobile bookkeeping and tax-filing app for 1099 workers, freelancers, and independent contractors. Founded in 2022 and based in Stamford, Connecticut, BossTax lets self-employed users track expenses by photographing receipts, automatically categorize deductions, log expenses hands-free by voice, manage separate business banking, and file federal, state, and local taxes with a licensed tax professional for a single flat fee with no subscriptions. BossTax is an IRS-authorized Electronic Return Originator (ERO) and is backed by Bloomberg Beta and Boyd Street Ventures. The company ships iOS and Android consumer apps; it publishes no public developer API, documentation, or SDK surface at this time, so this profile tracks the company identity and public web properties in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bosstax/refs/heads/main/screenshots/bosstax-2026-07-25T203637.png",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 81
-    },
-    {
      "name": "Collective",
      "slug": "collective",
      "description": "Collective is an all-in-one financial back-office platform built for self-employed entrepreneurs, solopreneurs, and businesses-of-one. It bundles S Corp formation and election, bookkeeping, payroll (as a Gusto partner), business and personal tax preparation and filing, quarterly tax planning, and a dedicated accounting team into a single membership. Roughly 12,000 members use Collective to optimize self-employment taxes, with members reporting average annual business-tax savings around $10,000. Collective is a private fintech company backed by General Catalyst, Kindred Ventures, and QED Investors. It currently exposes no public developer API, SDK, or documentation surface; this profile captures its public web, security, and compliance footprint for the API Evangelist network.",
@@ -3755,7 +3669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3780,7 +3694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 80
     },
     {
      "name": "PayPro Global",
@@ -3798,7 +3712,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3830,7 +3744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "Pilot",
@@ -3848,7 +3762,93 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 82
+    },
+    {
+     "name": "Finaloop",
+     "slug": "finaloop",
+     "description": "Finaloop is a real-time, ecommerce-native bookkeeping and accounting platform for direct-to-consumer (DTC) and multichannel brands. It replaces QuickBooks/Xero, human bookkeepers, and integration tooling with automation plus a team of ecommerce accounting experts, delivering always-current financials. Finaloop continuously syncs sales, returns, fees, reimbursements, inventory movements, COGS, and banking across 60+ ecommerce, marketplace, payment, banking, lending, and 3PL integrations (Shopify, Amazon, TikTok Shop, Walmart, PayPal, Stripe, Chase, ShipBob, and more) to produce real-time P&L, balance sheet, and cash-flow statements, inventory analytics, and tax services. Finaloop exposes no public developer API; its APIs are internal connectors to source platforms, so this profile is identity- and posture-focused rather than spec-bearing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finaloop/refs/heads/main/screenshots/finaloop-2026-07-25T214458.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "Getbasis",
+     "slug": "getbasis",
+     "description": "Basis (getbasis.ai) is an AI-powered accounting platform that builds autonomous agents purpose-built for accountants. Its agents execute accounting workflows end-to-end across tax, audit, advisory, and client accounting services (CAS), shifting accounting professionals from doing the work to reviewing it. The company emphasizes enterprise-grade security and compliance for accounting firms — SOC 2 Type II, ISO 27001, and ISO 42001 certifications, AES-256 encryption, strict tenant isolation, and US-only hosting. Basis is backed by Khosla Ventures and was added to the API Evangelist network as a portfolio lead. It is a product company with no public developer API, SDK, or API reference at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getbasis/refs/heads/main/screenshots/getbasis-2026-07-25T215722.png",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3876,65 +3876,22 @@
      "rank": 84
     },
     {
-     "name": "Finaloop",
-     "slug": "finaloop",
-     "description": "Finaloop is a real-time, ecommerce-native bookkeeping and accounting platform for direct-to-consumer (DTC) and multichannel brands. It replaces QuickBooks/Xero, human bookkeepers, and integration tooling with automation plus a team of ecommerce accounting experts, delivering always-current financials. Finaloop continuously syncs sales, returns, fees, reimbursements, inventory movements, COGS, and banking across 60+ ecommerce, marketplace, payment, banking, lending, and 3PL integrations (Shopify, Amazon, TikTok Shop, Walmart, PayPal, Stripe, Chase, ShipBob, and more) to produce real-time P&L, balance sheet, and cash-flow statements, inventory analytics, and tax services. Finaloop exposes no public developer API; its APIs are internal connectors to source platforms, so this profile is identity- and posture-focused rather than spec-bearing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finaloop/refs/heads/main/screenshots/finaloop-2026-07-25T214458.png",
-     "score": 15.1,
+     "name": "Indinero",
+     "slug": "indinero",
+     "description": "Indinero is a Finance-as-a-Service (FaaS) provider that combines professional accountants, tax experts, and fractional CFOs with AI-accelerated workflows to deliver outsourced accounting, bookkeeping, business tax preparation, payroll, 409A valuations, and on-demand financial support. Founded in 2009 and backed by 500 Global, the company serves startups through $500M+ revenue businesses across technology, SaaS, ecommerce, healthcare, construction, crypto, professional services, and non-profits, integrating primarily with QuickBooks Online and NetSuite. Indinero is SOC 2 compliant and delivers its services through a client portal (the indinero Exchange) rather than a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indinero/refs/heads/main/screenshots/indinero-2026-07-25T222323.png",
+     "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Getbasis",
-     "slug": "getbasis",
-     "description": "Basis (getbasis.ai) is an AI-powered accounting platform that builds autonomous agents purpose-built for accountants. Its agents execute accounting workflows end-to-end across tax, audit, advisory, and client accounting services (CAS), shifting accounting professionals from doing the work to reviewing it. The company emphasizes enterprise-grade security and compliance for accounting firms — SOC 2 Type II, ISO 27001, and ISO 42001 certifications, AES-256 encryption, strict tenant isolation, and US-only hosting. Basis is backed by Khosla Ventures and was added to the API Evangelist network as a portfolio lead. It is a product company with no public developer API, SDK, or API reference at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/getbasis/refs/heads/main/screenshots/getbasis-2026-07-25T215722.png",
-     "score": 14.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3959,25 +3916,68 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
-     "name": "Indinero",
-     "slug": "indinero",
-     "description": "Indinero is a Finance-as-a-Service (FaaS) provider that combines professional accountants, tax experts, and fractional CFOs with AI-accelerated workflows to deliver outsourced accounting, bookkeeping, business tax preparation, payroll, 409A valuations, and on-demand financial support. Founded in 2009 and backed by 500 Global, the company serves startups through $500M+ revenue businesses across technology, SaaS, ecommerce, healthcare, construction, crypto, professional services, and non-profits, integrating primarily with QuickBooks Online and NetSuite. Indinero is SOC 2 compliant and delivers its services through a client portal (the indinero Exchange) rather than a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/indinero/refs/heads/main/screenshots/indinero-2026-07-25T222323.png",
+     "name": "Thomson Reuters",
+     "slug": "thomson-reuters",
+     "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
      "score": 14.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 72.2,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "Accrual",
+     "slug": "accrual",
+     "description": "Accrual is an augmented accounting intelligence platform for accounting firms and growing service businesses, offering what it calls the complete accounting workspace spanning engagement management, document intake, data processing, tax return generation, assurance workflows, and client collaboration. Backed by General Catalyst, the company emphasizes secure, US-hosted infrastructure with AES-256 encryption at rest, TLS in transit, data isolation, and SOC 2 Type II attestation, and states that customer data is not used to train AI models. Accrual does not publish a public API or developer program at this time; this profile captures the company identity and its published security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accrual/refs/heads/main/screenshots/accrual-2026-08-07T160849.png",
+     "score": 13.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4005,92 +4005,6 @@
      "rank": 87
     },
     {
-     "name": "Thomson Reuters",
-     "slug": "thomson-reuters",
-     "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
-     "score": 14.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 10.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Accrual",
-     "slug": "accrual",
-     "description": "Accrual is an augmented accounting intelligence platform for accounting firms and growing service businesses, offering what it calls the complete accounting workspace spanning engagement management, document intake, data processing, tax return generation, assurance workflows, and client collaboration. Backed by General Catalyst, the company emphasizes secure, US-hosted infrastructure with AES-256 encryption at rest, TLS in transit, data isolation, and SOC 2 Type II attestation, and states that customer data is not used to train AI models. Accrual does not publish a public API or developer program at this time; this profile captures the company identity and its published security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accrual/refs/heads/main/screenshots/accrual-2026-08-07T160849.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 89
-    },
-    {
      "name": "Every",
      "slug": "every",
      "description": "Every is an AI-native, all-in-one back-office and finance platform built for startups, unifying incorporation, business banking and cards, treasury and cash management, global payroll, HR and benefits, AI-assisted bookkeeping, and startup tax preparation (including R&D tax credits) into a single system. It offers free Delaware C-corp formation, business checking with cashback debit cards, treasury-bill and money-market investing, and bundled per-stage plans for new founders through established startups. Backed by Redpoint Ventures. Every does not currently publish a public developer API, SDKs, or developer documentation; this profile captures its identity, commercial, and domain-security surface.",
@@ -4106,7 +4020,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4138,7 +4052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "Harness Wealth",
@@ -4156,7 +4070,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4181,7 +4095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Aiwyn",
@@ -4199,7 +4113,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4231,7 +4145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "Bhub",
@@ -4249,7 +4163,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4274,7 +4188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "Heard",
@@ -4292,7 +4206,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4324,7 +4238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "Taxfix",
@@ -4341,7 +4255,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4366,7 +4280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 93
     },
     {
      "name": "Topia",
@@ -4384,7 +4298,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4409,7 +4323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 94
     },
     {
      "name": "LedgiFi",
@@ -4427,7 +4341,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -4452,7 +4366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 95
     },
     {
      "name": "Internal Revenue Service",
@@ -4470,7 +4384,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4502,7 +4416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 96
     },
     {
      "name": "Aerial Partners",
@@ -4519,7 +4433,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4544,7 +4458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 97
     },
     {
      "name": "Exactera",
@@ -4562,7 +4476,92 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
+     "name": "Loctax",
+     "slug": "loctax",
+     "description": "Loctax is a collaborative tax compliance, risk, and governance platform built for global in-house tax teams. Founded in 2020 and based in Gent, Belgium, its Global Tax Intelligence Platform lets teams ask any tax question grounded in their own company data and IBFD's authoritative tax content spanning 220+ jurisdictions, then act on the answer with workflow, compliance-monitoring, risk, and controversy-management tooling. Loctax is backed by Index Ventures, Cavalry Ventures, and Seedcamp, and in 2026 was acquired by Tax Systems to build a combined EMEA tax-technology platform. Loctax is a closed enterprise SaaS product with no public developer API, portal, or specification at the time of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loctax/refs/heads/main/screenshots/loctax-2026-07-25T225443.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 99
+    },
+    {
+     "name": "Alvarez & Marsal",
+     "slug": "alvarez-and-marsal",
+     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4590,22 +4589,22 @@
      "rank": 100
     },
     {
-     "name": "Loctax",
-     "slug": "loctax",
-     "description": "Loctax is a collaborative tax compliance, risk, and governance platform built for global in-house tax teams. Founded in 2020 and based in Gent, Belgium, its Global Tax Intelligence Platform lets teams ask any tax question grounded in their own company data and IBFD's authoritative tax content spanning 220+ jurisdictions, then act on the answer with workflow, compliance-monitoring, risk, and controversy-management tooling. Loctax is backed by Index Ventures, Cavalry Ventures, and Seedcamp, and in 2026 was acquired by Tax Systems to build a combined EMEA tax-technology platform. Loctax is a closed enterprise SaaS product with no public developer API, portal, or specification at the time of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loctax/refs/heads/main/screenshots/loctax-2026-07-25T225443.png",
-     "score": 11.3,
+     "name": "Numbi",
+     "slug": "numbi",
+     "description": "Numbi is a tech-enabled accounting and payroll firm for Colombian companies — especially SAS entities, SMBs, and startups. It pairs expert accountants with automation and AI to run monthly bookkeeping, taxes, payroll, and DIAN electronic-invoicing compliance. Numbi is a service rather than software or an ERP: it operates on top of a company's existing accounting systems (Siigo and Alegra) instead of replacing them, ingesting documents (PDFs, XMLs, images) and keeping tax calendars and filings current. Founded in Bogotá and backed by Homebrew and Newtopia VC. No public developer API surface is published as of this pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numbi/refs/heads/main/screenshots/numbi-2026-08-07T185727.png",
+     "score": 11.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.4,
-      "access_clarity": 28.9
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4631,91 +4630,6 @@
       "agentic_commerce": false
      },
      "rank": 101
-    },
-    {
-     "name": "Alvarez & Marsal",
-     "slug": "alvarez-and-marsal",
-     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
-     "score": 11.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 102
-    },
-    {
-     "name": "Numbi",
-     "slug": "numbi",
-     "description": "Numbi is a tech-enabled accounting and payroll firm for Colombian companies — especially SAS entities, SMBs, and startups. It pairs expert accountants with automation and AI to run monthly bookkeeping, taxes, payroll, and DIAN electronic-invoicing compliance. Numbi is a service rather than software or an ERP: it operates on top of a company's existing accounting systems (Siigo and Alegra) instead of replacing them, ingesting documents (PDFs, XMLs, images) and keeping tax calendars and filings current. Founded in Bogotá and backed by Homebrew and Newtopia VC. No public developer API surface is published as of this pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numbi/refs/heads/main/screenshots/numbi-2026-08-07T185727.png",
-     "score": 11.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 103
     }
    ]
   },
@@ -4743,7 +4657,93 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 102
+    },
+    {
+     "name": "Taxdoo",
+     "slug": "taxdoo",
+     "description": "Taxdoo is a Hamburg-based fintech providing real-time e-commerce accounting software for online retailers and tax advisors. The platform automatically captures sales, fees, payments, invoices, and contracts across 50+ marketplaces, shop systems, and payment providers (Amazon, eBay, Kaufland, Shopify, JTL, PayPal, Stripe, Klarna, Mollie), reconciles them into GoBD-compliant, audit-ready financial data, performs AI-based invoice verification, and exports daily to DATEV. Integrations are delivered as managed no-code connectors; Taxdoo does not publish a public developer API, developer portal, or API reference. Backed by Accel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taxdoo/refs/heads/main/screenshots/taxdoo-2026-09-02T162626.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 103
+    },
+    {
+     "name": "Prime Meridian",
+     "slug": "prime-meridian",
+     "description": "Prime Meridian (Prime Meridian Labs) is an AI-powered consumer tax preparation and e-filing service that files federal and state income tax returns for free. Users upload their tax documents, answer a few clarifying questions, and the platform's AI generates a plain-language return covering W-2 employment, self-employment (Schedule C), K-1 partnership income, and multi-state situations, then e-files it with the IRS and state authorities in roughly fifteen minutes. The company is backed by General Catalyst and counts former IRS Commissioner Daniel Werfel among its strategic advisors. It is a consumer web application with no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-meridian/refs/heads/main/screenshots/prime-meridian-2026-09-02T152014.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4771,22 +4771,22 @@
      "rank": 104
     },
     {
-     "name": "Taxdoo",
-     "slug": "taxdoo",
-     "description": "Taxdoo is a Hamburg-based fintech providing real-time e-commerce accounting software for online retailers and tax advisors. The platform automatically captures sales, fees, payments, invoices, and contracts across 50+ marketplaces, shop systems, and payment providers (Amazon, eBay, Kaufland, Shopify, JTL, PayPal, Stripe, Klarna, Mollie), reconciles them into GoBD-compliant, audit-ready financial data, performs AI-based invoice verification, and exports daily to DATEV. Integrations are delivered as managed no-code connectors; Taxdoo does not publish a public developer API, developer portal, or API reference. Backed by Accel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taxdoo/refs/heads/main/screenshots/taxdoo-2026-09-02T162626.png",
-     "score": 10.6,
+     "name": "Velotax",
+     "slug": "velotax",
+     "description": "Velotax is a Brazilian digital-credit fintech (mobile app plus velotax.com.br), operating 100% online, that offers unsecured personal loans and income-tax (IRPF) refund advances, disbursed via Pix within 30 minutes of approval — approving even \"negativado\" (poor-credit) customers because the anticipated tax refund secures repayment. Founded in 2020 by ex-J.P. Morgan bankers Eduardo Esmanhotto and Victor Savioli, it operates as a banking correspondent in partnership with VIA CAPITAL (a Brazilian Central Bank SCD), holds Reclame Aqui's top RA1000 reputation seal, has 3M+ app downloads, and raised a R$125M Series A in 2025 from QED Investors, Valor Capital and Picus Capital. Velotax is a consumer product and publishes no public developer API or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/velotax/refs/heads/main/screenshots/velotax-2026-09-02T165618.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4814,92 +4814,6 @@
      "rank": 105
     },
     {
-     "name": "Prime Meridian",
-     "slug": "prime-meridian",
-     "description": "Prime Meridian (Prime Meridian Labs) is an AI-powered consumer tax preparation and e-filing service that files federal and state income tax returns for free. Users upload their tax documents, answer a few clarifying questions, and the platform's AI generates a plain-language return covering W-2 employment, self-employment (Schedule C), K-1 partnership income, and multi-state situations, then e-files it with the IRS and state authorities in roughly fifteen minutes. The company is backed by General Catalyst and counts former IRS Commissioner Daniel Werfel among its strategic advisors. It is a consumer web application with no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-meridian/refs/heads/main/screenshots/prime-meridian-2026-09-02T152014.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "Velotax",
-     "slug": "velotax",
-     "description": "Velotax is a Brazilian digital-credit fintech (mobile app plus velotax.com.br), operating 100% online, that offers unsecured personal loans and income-tax (IRPF) refund advances, disbursed via Pix within 30 minutes of approval — approving even \"negativado\" (poor-credit) customers because the anticipated tax refund secures repayment. Founded in 2020 by ex-J.P. Morgan bankers Eduardo Esmanhotto and Victor Savioli, it operates as a banking correspondent in partnership with VIA CAPITAL (a Brazilian Central Bank SCD), holds Reclame Aqui's top RA1000 reputation seal, has 3M+ app downloads, and raised a R$125M Series A in 2025 from QED Investors, Valor Capital and Picus Capital. Velotax is a consumer product and publishes no public developer API or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/velotax/refs/heads/main/screenshots/velotax-2026-09-02T165618.png",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
-    },
-    {
      "name": "Stride Health",
      "slug": "stride-health",
      "description": "Stride Health is a benefits platform that helps independent, gig, and part-time workers access portable benefits that stay with the individual regardless of where or how they work. Stride connects people to affordable health, dental, vision, and life insurance, and provides tax tools, mileage/expense tracking, and savings features for the self-employed. The company reports 4.6 million independent workers served, $8+ billion saved on insurance and taxes, and 130+ partner companies. Stride operates a private B2B partner integration (embedded in partner apps such as gig-work platforms) but publishes no public developer API, API documentation, or developer portal.",
@@ -4915,7 +4829,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4947,7 +4861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "Taxscouts",
@@ -4964,7 +4878,93 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 107
+    },
+    {
+     "name": "CoinTracker",
+     "slug": "cointracker",
+     "description": "CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that connects a user's exchange accounts and blockchain wallets to automatically track holdings, calculate cost basis and capital gains, and generate tax reports and IRS forms. It supports a large catalog of exchanges, wallets, and cryptocurrencies, and offers tax-loss harvesting, performance tracking, and integrations with consumer tax-filing products. For developers and partners, CoinTracker publishes a first-party JavaScript SDK (@cointracker/tax-kit) for supplying cost-basis data; its core HTTP API is offered through enterprise and partner integrations rather than a self-serve public developer program. This profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cointracker/refs/heads/main/screenshots/cointracker-2026-07-25T210039.png",
+     "score": 9.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Solomon",
+     "slug": "solomon",
+     "description": "Solomon (Solomon AI, solomontax.ai) is an agentic AI platform for tax preparation aimed at accounting firms, automating the preparation of review-ready individual 1040 returns for high-net-worth and ultra-high-net-worth clients. The system interprets K-1/K-3 footnotes, applies multi-state SALT rules to K-1s, reconciles rental and real estate investments, analyzes brokerage statements for foreign income, and produces workpapers and audit trails, positioning itself to replace legacy tools such as SurePrep and K1x. Backed by Bessemer Venture Partners. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the company publishes no public developer/API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solomon/refs/heads/main/screenshots/solomon-2026-09-02T160125.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4992,92 +4992,6 @@
      "rank": 109
     },
     {
-     "name": "CoinTracker",
-     "slug": "cointracker",
-     "description": "CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that connects a user's exchange accounts and blockchain wallets to automatically track holdings, calculate cost basis and capital gains, and generate tax reports and IRS forms. It supports a large catalog of exchanges, wallets, and cryptocurrencies, and offers tax-loss harvesting, performance tracking, and integrations with consumer tax-filing products. For developers and partners, CoinTracker publishes a first-party JavaScript SDK (@cointracker/tax-kit) for supplying cost-basis data; its core HTTP API is offered through enterprise and partner integrations rather than a self-serve public developer program. This profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cointracker/refs/heads/main/screenshots/cointracker-2026-07-25T210039.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "Solomon",
-     "slug": "solomon",
-     "description": "Solomon (Solomon AI, solomontax.ai) is an agentic AI platform for tax preparation aimed at accounting firms, automating the preparation of review-ready individual 1040 returns for high-net-worth and ultra-high-net-worth clients. The system interprets K-1/K-3 footnotes, applies multi-state SALT rules to K-1s, reconciles rental and real estate investments, analyzes brokerage statements for foreign income, and produces workpapers and audit trails, positioning itself to replace legacy tools such as SurePrep and K1x. Backed by Bessemer Venture Partners. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the company publishes no public developer/API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solomon/refs/heads/main/screenshots/solomon-2026-09-02T160125.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
      "name": "CohnReznick",
      "slug": "cohnreznick",
      "description": "CohnReznick is a top-25 US accounting, tax, and advisory firm formed in 2012 by the merger of J.H. Cohn LLP and Reznick Group, P.C. The firm serves clients across more than 30 industries from offices throughout the United States and four offshore subsidiaries, with its global reach extended through membership in the Nexia International network (operating in more than 128 countries). In May 2024 CohnReznick became the first US accounting firm of its scale to receive a strategic growth investment from a private equity sponsor when funds advised by Apax Partners acquired a majority stake. As part of that transaction the firm operates under an alternative-practice structure: audit and attest services are delivered by CohnReznick LLP (a licensed CPA firm) while tax and advisory services are delivered through CohnReznick Advisory LLC. Largest practice areas include Real Estate, Renewable Energy, Government Contracting, Asset Management (private equity, hedge funds, private credit, REITs), Financial Services, Healthcare, Life Sciences, Consumer & Industrial, Technology & Media, Public Sector, and Private Clients (family offices, high net worth individuals, professional sports). CohnReznick does not publish a public software developer API; this repository documents the firm's organizational profile, practice taxonomy, and linked-data context for API catalog purposes.",
@@ -5093,7 +5007,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5125,7 +5039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "ExpressSteuer (fka Express Group)",
@@ -5143,7 +5057,93 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 111
+    },
+    {
+     "name": "Crete Professionals Alliance",
+     "slug": "crete-professionals-alliance",
+     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 112
+    },
+    {
+     "name": "EY",
+     "slug": "ey",
+     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
+     "score": 7.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5171,11 +5171,11 @@
      "rank": 113
     },
     {
-     "name": "Crete Professionals Alliance",
-     "slug": "crete-professionals-alliance",
-     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
-     "score": 7.6,
+     "name": "PwC (PricewaterhouseCoopers)",
+     "slug": "pricewaterhousecoopers",
+     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
+     "score": 6.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5183,10 +5183,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5214,22 +5214,22 @@
      "rank": 114
     },
     {
-     "name": "EY",
-     "slug": "ey",
-     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
-     "score": 7.0,
+     "name": "Carr, Riggs & Ingram (CRI)",
+     "slug": "cri",
+     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5257,11 +5257,10 @@
      "rank": 115
     },
     {
-     "name": "PwC (PricewaterhouseCoopers)",
-     "slug": "pricewaterhousecoopers",
-     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
-     "score": 6.6,
+     "name": "Folhamatic",
+     "slug": "folhamatic",
+     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5270,9 +5269,9 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 7.9
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5300,10 +5299,10 @@
      "rank": 116
     },
     {
-     "name": "Carr, Riggs & Ingram (CRI)",
-     "slug": "cri",
-     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
+     "name": "LumaTax",
+     "slug": "lumatax",
+     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5315,7 +5314,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5343,9 +5342,10 @@
      "rank": 117
     },
     {
-     "name": "Folhamatic",
-     "slug": "folhamatic",
-     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
+     "name": "Sabrix",
+     "slug": "sabrix",
+     "description": "Sabrix was a transaction (indirect / sales & use) tax determination and compliance software company whose engine calculated sales, use, VAT and GST taxes for enterprise ERP and billing systems. Sabrix was acquired by Thomson Reuters in 2009 and folded into the Thomson Reuters ONESOURCE Indirect Tax product line. As an independent brand Sabrix no longer operates: the sabrix.com domain is now owned by Thomson Reuters (Thomson Reuters nameservers) and issues a 301 redirect to tax.thomsonreuters.com/en/onesource/indirect-tax. This profile is retained in the API Evangelist network as a historical fintech / tax-tech lead; there is no independent Sabrix developer portal, API reference, OpenAPI definition, SDK, or well-known surface to enrich. Any live tax API surface lives under the Thomson Reuters ONESOURCE brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabrix/refs/heads/main/screenshots/sabrix-2026-09-02T154244.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5357,7 +5357,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5385,10 +5385,9 @@
      "rank": 118
     },
     {
-     "name": "LumaTax",
-     "slug": "lumatax",
-     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
+     "name": "TrustWeaver",
+     "slug": "trustweaver",
+     "description": "TrustWeaver was a Stockholm-based provider of on-demand e-invoicing and e-signature compliance services, giving multinational enterprises legally compliant electronic invoicing (VAT/tax compliance, authenticity and integrity via digital signatures) across dozens of countries. Backed by Creandum, the company was acquired by Pagero in 2018; Pagero was subsequently absorbed into Sovos (2024). The trustweaver.com domain now issues a 301 redirect to Sovos's e-invoicing compliance solution, so no independent TrustWeaver developer portal, public API, or API documentation remains online. This profile is retained as a historical/acquisition lead in the API Evangelist network; there is no standalone API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5400,7 +5399,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5428,10 +5427,9 @@
      "rank": 119
     },
     {
-     "name": "Sabrix",
-     "slug": "sabrix",
-     "description": "Sabrix was a transaction (indirect / sales & use) tax determination and compliance software company whose engine calculated sales, use, VAT and GST taxes for enterprise ERP and billing systems. Sabrix was acquired by Thomson Reuters in 2009 and folded into the Thomson Reuters ONESOURCE Indirect Tax product line. As an independent brand Sabrix no longer operates: the sabrix.com domain is now owned by Thomson Reuters (Thomson Reuters nameservers) and issues a 301 redirect to tax.thomsonreuters.com/en/onesource/indirect-tax. This profile is retained in the API Evangelist network as a historical fintech / tax-tech lead; there is no independent Sabrix developer portal, API reference, OpenAPI definition, SDK, or well-known surface to enrich. Any live tax API surface lives under the Thomson Reuters ONESOURCE brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabrix/refs/heads/main/screenshots/sabrix-2026-09-02T154244.png",
+     "name": "WISECRICKET HOLDING KY",
+     "slug": "wisecricket-holding-ky",
+     "description": "WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting audit software for businesses (\"Software de Auditoria Fiscal y Contable con IA para Empresas\"). The Spanish-language platform applies artificial intelligence to tax and accounting compliance, helping companies automate financial and tax audits and surface issues. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub; enrichment found a marketing landing page but no public developer API, documentation, developer portal, or well-known discovery surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5443,7 +5441,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5471,90 +5469,6 @@
      "rank": 120
     },
     {
-     "name": "TrustWeaver",
-     "slug": "trustweaver",
-     "description": "TrustWeaver was a Stockholm-based provider of on-demand e-invoicing and e-signature compliance services, giving multinational enterprises legally compliant electronic invoicing (VAT/tax compliance, authenticity and integrity via digital signatures) across dozens of countries. Backed by Creandum, the company was acquired by Pagero in 2018; Pagero was subsequently absorbed into Sovos (2024). The trustweaver.com domain now issues a 301 redirect to Sovos's e-invoicing compliance solution, so no independent TrustWeaver developer portal, public API, or API documentation remains online. This profile is retained as a historical/acquisition lead in the API Evangelist network; there is no standalone API surface to enrich.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
-    },
-    {
-     "name": "WISECRICKET HOLDING KY",
-     "slug": "wisecricket-holding-ky",
-     "description": "WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting audit software for businesses (\"Software de Auditoria Fiscal y Contable con IA para Empresas\"). The Spanish-language platform applies artificial intelligence to tax and accounting compliance, helping companies automate financial and tax audits and surface issues. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub; enrichment found a marketing landing page but no public developer API, documentation, developer portal, or well-known discovery surface.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 122
-    },
-    {
      "name": "Duane Morris",
      "slug": "duane-morris",
      "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
@@ -5570,7 +5484,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5602,7 +5516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 121
     },
     {
      "name": "Blank Rome LLP",
@@ -5619,7 +5533,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5651,7 +5565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 122
     },
     {
      "name": "Ballard Spahr",
@@ -5669,7 +5583,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5701,7 +5615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 123
     },
     {
      "name": "Dechert",
@@ -5719,7 +5633,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5751,7 +5665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 124
     }
    ]
   }

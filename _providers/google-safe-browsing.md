@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 1
   human_in_the_loop: 0
   name: Google Safe Browsing Agentic Access
   operation_count: 4
   slug: google-safe-browsing-agentic-access
-  summary_line: 4 operations · 3 acting
+  summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
 - baseURL: https://safebrowsing.googleapis.com/v4
@@ -53,17 +53,17 @@ apis:
 - baseURL: https://safebrowsing.googleapis.com/v4
   baseurl_source: declared
   description: The threatLists API from Google Safe Browsing — 1 operation(s) for threatlists.
-  name: Google Safe Browsing threatLists API
+  name: Google Safe Browsing Threat Lists API
   slug: google-safe-browsing-threatlists-api
 - baseURL: https://safebrowsing.googleapis.com/v4
   baseurl_source: declared
   description: The threatListUpdates:fetch API from Google Safe Browsing — 1 operation(s) for threatlistupdates:fetch.
-  name: Google Safe Browsing threatListUpdates:fetch API
+  name: Google Safe Browsing Threat List Updates:fetch API
   slug: google-safe-browsing-threatlistupdates-fetch-api
 - baseURL: https://safebrowsing.googleapis.com/v4
   baseurl_source: declared
   description: The threatMatches:find API from Google Safe Browsing — 1 operation(s) for threatmatches:find.
-  name: Google Safe Browsing threatMatches:find API
+  name: Google Safe Browsing Threat Matches:find API
   slug: google-safe-browsing-threatmatches-find-api
 artifact_total: 24
 collections:
@@ -188,7 +188,7 @@ modified: '2026-05-19'
 name: Google Safe Browsing
 nav: Providers
 network: true
-overview: 'Google Safe Browsing publishes 4 APIs on the [APIs.io](https://apis.io/) network, including fullHashes:find API, threatLists API, threatListUpdates:fetch API, and 1 more. Tagged areas include Google, Malware, Safe Browsing, Security, and Threats.
+overview: 'Google Safe Browsing publishes 4 APIs on the [APIs.io](https://apis.io/) network, including fullHashes:find API, Threat Lists API, Threat List Updates:fetch API, and 1 more. Tagged areas include Google, Malware, Safe Browsing, Security, and Threats.
 
 
   The Google Safe Browsing catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -242,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

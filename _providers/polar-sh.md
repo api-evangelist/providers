@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -49,57 +49,57 @@ apis:
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Benefits (entitlements) attached to products.
-  name: Polar benefits API
+  name: Polar Benefits API
   slug: polar-sh-benefits-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Hosted checkout sessions and reusable checkout links.
-  name: Polar checkouts API
+  name: Polar Checkouts API
   slug: polar-sh-checkouts-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Customer-facing portal endpoints (Customer Session token).
-  name: Polar customer_portal API
+  name: Polar Customer Portal API
   slug: polar-sh-customer-portal-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Customers, external IDs, and aggregated customer state.
-  name: Polar customers API
+  name: Polar Customers API
   slug: polar-sh-customers-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Usage event ingestion for metered billing.
-  name: Polar events API
+  name: Polar Events API
   slug: polar-sh-events-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: License key issuance, validation, and activation.
-  name: Polar license_keys API
+  name: Polar License Keys API
   slug: polar-sh-license-keys-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Usage meters aggregating ingested events.
-  name: Polar meters API
+  name: Polar Meters API
   slug: polar-sh-meters-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Orders, invoices, and receipts.
-  name: Polar orders API
+  name: Polar Orders API
   slug: polar-sh-orders-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Product catalog and embedded pricing.
-  name: Polar products API
+  name: Polar Products API
   slug: polar-sh-products-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Recurring subscriptions.
-  name: Polar subscriptions API
+  name: Polar Subscriptions API
   slug: polar-sh-subscriptions-api
 - baseURL: https://api.polar.sh/v1
   baseurl_source: declared
   description: Webhook endpoint management and deliveries.
-  name: Polar webhooks API
+  name: Polar Webhooks API
   slug: polar-sh-webhooks-api
 artifact_total: 30
 collections:
@@ -205,7 +205,7 @@ modified: '2026-06-21'
 name: Polar
 nav: Providers
 network: true
-overview: 'Polar publishes 11 APIs on the [APIs.io](https://apis.io/) network, including benefits API, checkouts API, customer_portal API, and 8 more. Tagged areas include Billing, Payments, Merchant of Record, Monetization, and Subscription.
+overview: 'Polar publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Checkouts API, Customer Portal API, and 8 more. Tagged areas include Billing, Payments, Merchant of Record, Monetization, and Subscription.
 
 
   Polar''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -252,7 +252,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

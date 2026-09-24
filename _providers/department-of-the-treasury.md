@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Department Of The Treasury Agentic Access
   operation_count: 10
   slug: department-of-the-treasury-agentic-access
-  summary_line: 10 operations · 1 acting
+  summary_line: 10 operations
 api_count: 2
 apis:
 - description: Public reference data on marketable Treasury securities (auctions, results, security details) published via TreasuryDirect.
@@ -202,7 +202,7 @@ modified: '2026-09-16'
 name: Department of the Treasury
 nav: Providers
 network: true
-overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 5 more. Tagged areas include Federal-Government, Finance, Debt, and Sanctions.
+overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auctions API, Debt API, Exchange Rates API, and 5 more. Tagged areas include Federal Government, Finance, Debt, and Sanctions.
 
 
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -272,7 +272,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -286,7 +286,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: department-of-the-treasury
 tags:
-- Federal-Government
+- Federal Government
 - Finance
 - Debt
 - Sanctions

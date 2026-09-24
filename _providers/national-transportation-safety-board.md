@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The NTSB provides transportation accident investigation data and safety recommendations for aviation, rail, highway, marine, and pipeline transportation.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: National Transportation Safety Board
 nav: Providers
 network: true
-overview: 'National Transportation Safety Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Safety, and Transportation.
+overview: 'National Transportation Safety Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Safety, and Transportation.
 
 
   National Transportation Safety Board''s developer surface includes engineering blog and 3 more developer resources.'
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: national-transportation-safety-board
 tags:
-- Federal-Government
+- Federal Government
 - Safety
 - Transportation
 website: https://www.ntsb.gov/

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-07-17'
 name: Aikito
 nav: Providers
 network: true
-overview: Aikito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Commercial Real Estate, Construction, and Financing.
+overview: Aikito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, Construction, and Financing.
 random_paper: 3
 score:
   band: minimal
@@ -85,7 +85,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -94,11 +94,11 @@ score:
 slug: aikito
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Commercial Real Estate
 - Construction
 - Financing
 - Artificial Intelligence
-- Property Technology
+- PropTech
 website: https://www.aikito.co/
 ---

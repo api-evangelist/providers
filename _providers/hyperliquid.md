@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Hyperliquid Agentic Access
   operation_count: 1
   slug: hyperliquid-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 1 operation
 api_count: 1
 apis:
 - description: Public REST API for the Hyperliquid exchange. Read endpoints expose market metadata, order books, candles, trades, funding rates, user state, open orders, fills, and historical data. Write endpoints (
@@ -216,7 +216,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -236,5 +236,6 @@ tags:
 - Trading
 - Order Book
 - HyperEVM
+- Real-Time
 website: https://hyperliquid.xyz
 ---

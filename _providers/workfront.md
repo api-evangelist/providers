@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 34
   human_in_the_loop: 1
   name: Workfront Agentic Access
   operation_count: 59
   slug: workfront-agentic-access
-  summary_line: 59 operations · 36 acting · 1 human-in-the-loop
+  summary_line: 59 operations · 34 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: The core Workfront REST API. Every object in the system has a URI of the form /attask/api/v22.0/{objCode}/{id}; GET retrieves or searches, POST inserts, PUT edits and DELETE removes. Adobe does not pu
@@ -328,7 +328,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     contract_governance: 4.5
@@ -336,7 +336,7 @@ score:
     developer_ergonomics: 83.3
     discoverability: 75.9
     operational_transparency: 78.9
-  previous_composite: 66.4
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,11 +344,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 6
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -381,7 +381,7 @@ tags:
 - Collaboration
 - Approvals
 - Resource Management
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Adobe
 - MCP

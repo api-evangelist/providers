@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,42 +50,42 @@ apis:
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Actor (user) profile, search, and preference operations
-  name: AT Protocol actor API
+  name: AT Protocol Actor API
   slug: atproto-actor-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Feed, post, timeline, and content operations
-  name: AT Protocol feed API
+  name: AT Protocol Feed API
   slug: atproto-feed-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Graph operations — follows, blocks, lists, and mutes
-  name: AT Protocol graph API
+  name: AT Protocol Graph API
   slug: atproto-graph-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: DID and handle resolution, identity management
-  name: AT Protocol identity API
+  name: AT Protocol Identity API
   slug: atproto-identity-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Notification management
-  name: AT Protocol notification API
+  name: AT Protocol Notification API
   slug: atproto-notification-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Repository management, record CRUD operations
-  name: AT Protocol repo API
+  name: AT Protocol Repo API
   slug: atproto-repo-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Server management, session creation, account administration
-  name: AT Protocol server API
+  name: AT Protocol Server API
   slug: atproto-server-api
 - baseURL: https://bsky.social/xrpc
   baseurl_source: declared
   description: Data synchronization, firehose, blob access
-  name: AT Protocol sync API
+  name: AT Protocol Sync API
   slug: atproto-sync-api
 - description: XRPC is the AT Protocol's HTTP-based remote procedure call layer. All protocol interactions — querying records, writing records, subscribing to streams, resolving identity, moderating content — are ex
   name: AT Protocol XRPC API
@@ -241,7 +241,7 @@ modified: '2026-06-12'
 name: AT Protocol
 nav: Providers
 network: true
-overview: 'AT Protocol publishes 9 APIs on the [APIs.io](https://apis.io/) network, including actor API, feed API, graph API, and 6 more. Tagged areas include Social Networking, Decentralized, Federated, Open-Source, and Bluesky.
+overview: 'AT Protocol publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actor API, Feed API, Graph API, and 6 more. Tagged areas include Social Networking, Decentralized, Federated, Open Source, and Bluesky.
 
 
   The AT Protocol catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -295,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -315,7 +315,7 @@ tags:
 - Social Networking
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Bluesky
 - Fediverse
 - Identity

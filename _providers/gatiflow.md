@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-09-21'
 name: GatiFlow
 nav: Providers
 network: true
-overview: 'GatiFlow publishes 1 API on the [APIs.io](https://apis.io/) network: Intelligence API. Tagged areas include Market Intelligence, Developer Signals, Trends, Hiring, and Open-Source.
+overview: 'GatiFlow publishes 1 API on the [APIs.io](https://apis.io/) network: Intelligence API. Tagged areas include Market Intelligence, Developer Signals, Trends, Hiring, and Open Source.
 
 
   The GatiFlow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -262,7 +262,7 @@ tags:
 - Developer Signals
 - Trends
 - Hiring
-- Open-Source
+- Open Source
 - Research
 - B2B SaaS
 - Artificial Intelligence

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 136
+- acting_count: 138
   human_in_the_loop: 4
   name: Modulr Agentic Access
-  operation_count: 207
+  operation_count: 212
   slug: modulr-agentic-access
-  summary_line: 207 operations · 136 acting · 4 human-in-the-loop
+  summary_line: 212 operations · 138 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.modulrfinance.com
@@ -438,7 +438,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

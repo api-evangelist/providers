@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 364
+- acting_count: 338
   human_in_the_loop: 21
   name: Extreme Networks Agentic Access
   operation_count: 628
   slug: extreme-networks-agentic-access
-  summary_line: 628 operations · 364 acting · 21 human-in-the-loop
+  summary_line: 628 operations · 338 acting · 21 human-in-the-loop
 api_count: 1
 apis:
 - description: On-premises REST API gateway exposed by the ExtremeCloud IQ Controller (the wired and wireless campus controller). Provides programmatic access to controller configuration, sites, RF management, AP an
@@ -587,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 45
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

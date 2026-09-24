@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 15
+- acting_count: 12
   human_in_the_loop: 0
   name: Amazon Dynamodb Agentic Access
   operation_count: 15
   slug: amazon-dynamodb-agentic-access
-  summary_line: 15 operations · 15 acting
+  summary_line: 15 operations · 12 acting
 api_count: 1
 apis:
 - baseURL: https://dynamodb.{region}.amazonaws.com
@@ -753,7 +753,7 @@ modified: '2026-09-18'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 2 more. Tagged areas include Database, Document Store, Key-Value, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 2 more. Tagged areas include Database, Document Store, Key-Value Store, NoSQL, and Serverless.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -821,7 +821,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -848,7 +848,7 @@ slug: amazon-dynamodb
 tags:
 - Database
 - Document Store
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 use_cases:

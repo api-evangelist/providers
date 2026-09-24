@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 11
+- acting_count: 10
   human_in_the_loop: 0
   name: Apache Couchdb Agentic Access
   operation_count: 21
   slug: apache-couchdb-agentic-access
-  summary_line: 21 operations · 11 acting
+  summary_line: 21 operations · 10 acting
 api_count: 9
 apis:
 - baseURL: http://localhost:5984
@@ -583,7 +583,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -609,7 +609,7 @@ tags:
 - Document Store
 - JSON
 - NoSQL
-- Open-Source
+- Open Source
 - Replication
 - REST
 use_cases:

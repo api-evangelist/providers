@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: QPLIX
 nav: Providers
 network: true
-overview: 'QPLIX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Wealth Management, Portfolio-Management, and Asset Management.
+overview: 'QPLIX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Wealth Management, Portfolio Management, and Asset Management.
 
 
   QPLIX''s developer surface includes support, signup flow, and 3 more developer resources.'
@@ -98,7 +98,7 @@ score:
     - europe
   previous_composite: 10.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,9 +113,9 @@ security:
 slug: qplix
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Wealth Management
-- Portfolio-Management
+- Portfolio Management
 - Asset Management
 - Family Office
 - WealthTech

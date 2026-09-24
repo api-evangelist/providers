@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -66,7 +66,7 @@ modified: '2026-07-25'
 name: Linux Foundation Europe
 nav: Providers
 network: true
-overview: 'Linux Foundation Europe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Europe, Governance, Linux Foundation, and Open-Source.
+overview: 'Linux Foundation Europe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Europe, Governance, Linux Foundation, and Open Source.
 
 
   Linux Foundation Europe''s developer surface includes documentation and 3 more developer resources.'
@@ -104,7 +104,7 @@ score:
     - europe
   previous_composite: 10.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -121,5 +121,5 @@ tags:
 - Europe
 - Governance
 - Linux Foundation
-- Open-Source
+- Open Source
 ---

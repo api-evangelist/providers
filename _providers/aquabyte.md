@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Aquabyte Agentic Access
   operation_count: 19
   slug: aquabyte-agentic-access
-  summary_line: 19 operations · 1 acting
+  summary_line: 19 operations
 api_count: 2
 apis:
 - baseURL: https://api.aquabyte.ai/v3
@@ -186,7 +186,7 @@ modified: '2026-08-06'
 name: Aquabyte
 nav: Providers
 network: true
-overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer-Vision, Machine-Learning, and Biomass Estimation.
+overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer Vision, Machine Learning, and Biomass Estimation.
 
 
   Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
@@ -232,7 +232,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -251,8 +251,8 @@ slug: aquabyte
 tags:
 - Aquaculture
 - Fish Farming
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Biomass Estimation
 - Sea Lice
 - Fish Welfare

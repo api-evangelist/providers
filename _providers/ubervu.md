@@ -42,7 +42,7 @@ modified: '2026-09-15'
 name: uberVU
 nav: Providers
 network: true
-overview: uberVU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Analytics, Monitoring, and Acquired.
+overview: uberVU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Monitoring, and Acquired.
 random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubervu/refs/heads/main/screenshots/ubervu-2026-09-02T164710.png
 security:
@@ -53,7 +53,7 @@ security:
 slug: ubervu
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Monitoring
 - Acquired

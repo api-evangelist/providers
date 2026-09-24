@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ modified: '2026-07-21'
 name: True Link
 nav: Providers
 network: true
-overview: True Link is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Fintech, Financial-Services, and Prepaid Cards.
+overview: True Link is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Fintech, Financial Services, and Prepaid Cards.
 random_paper: 21
 score:
   band: minimal
@@ -81,7 +81,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ tags:
 - Company
 - Insurtech
 - Fintech
-- Financial-Services
+- Financial Services
 - Prepaid Cards
 - Investment Management
 - Trust Services

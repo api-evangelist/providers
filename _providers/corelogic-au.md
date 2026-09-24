@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 26
 apis:
 - baseURL: https://access.api.cotality.com.au
@@ -380,7 +380,7 @@ modified: '2026-07-26'
 name: CoreLogic Australia
 nav: Providers
 network: true
-overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access API, Property Details API, Property Services API, and 7 more. Tagged areas include Real-Estate, Australia, Property Data, Valuation, and AVM.
+overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access API, Property Details API, Property Services API, and 7 more. Tagged areas include Real Estate, Australia, Property Data, Valuation, and AVM.
 
 
   The CoreLogic Australia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -428,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -450,7 +450,7 @@ security:
   summary_line: Hackerone
 slug: corelogic-au
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Property Data
 - Valuation

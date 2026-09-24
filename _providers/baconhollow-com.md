@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Anonymous A2A 0.3.0 agent at https://baconhollow.com (JSON-RPC, POST only). Four skills: portfolio-status, weather-forecast-edge, market-scan and oracle-picks. message/send and tasks/get are implement'
@@ -132,7 +132,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

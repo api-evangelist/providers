@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 14
-  human_in_the_loop: 5
+- acting_count: 11
+  human_in_the_loop: 0
   name: Prometeo Agentic Access
-  operation_count: 26
+  operation_count: 28
   slug: prometeo-agentic-access
-  summary_line: 26 operations · 14 acting · 5 human-in-the-loop
+  summary_line: 28 operations · 11 acting
 api_count: 1
 apis:
 - description: Government / fiscal data access - Colombia DIAN, Mexico SAT and CEP (payment receipt), and Uruguay BCU (central bank) filings and statements. Sandbox host fiscal.sandbox.prometeoapi.com.
@@ -377,7 +377,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

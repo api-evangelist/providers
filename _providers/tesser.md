@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.tesser.xyz
@@ -65,7 +65,7 @@ apis:
 - baseURL: https://api.tesser.xyz
   baseurl_source: declared
   description: The health API from Tesser — 2 operation(s) for health.
-  name: Tesser health API
+  name: Tesser Health API
   slug: tesser-health-api
 - baseURL: https://api.tesser.xyz
   baseurl_source: declared
@@ -105,7 +105,7 @@ apis:
 - baseURL: https://api.tesser.xyz
   baseurl_source: declared
   description: The webhooks API from Tesser — 6 operation(s) for webhooks.
-  name: Tesser webhooks API
+  name: Tesser Webhooks API
   slug: tesser-webhooks-api
 artifact_total: 33
 asyncapis:
@@ -357,7 +357,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

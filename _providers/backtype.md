@@ -23,13 +23,13 @@ modified: '2026-07-18'
 name: Backtype
 nav: Providers
 network: true
-overview: Backtype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social-Media, Analytics, Social Analytics, and Stream Processing.
+overview: Backtype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Analytics, Social Analytics, and Stream Processing.
 random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/backtype/refs/heads/main/screenshots/backtype-2026-07-25T202235.png
 slug: backtype
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Social Analytics
 - Stream Processing

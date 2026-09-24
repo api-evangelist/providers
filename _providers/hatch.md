@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.usehatchapp.com
   baseurl_source: declared
   description: The contacts API from Hatch — 1 operation(s) for contacts.
-  name: Hatch contacts API
+  name: Hatch Contacts API
   slug: hatch-contacts-api
 artifact_total: 8
 asyncapis:
@@ -196,7 +196,7 @@ modified: '2026-07-19'
 name: Hatch
 nav: Providers
 network: true
-overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: contacts API. Tagged areas include Company, Vertical Software, Customer Communication, Conversational AI, and SMS.
+overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: Contacts API. Tagged areas include Company, Vertical Software, Customer Communication, Conversational AI, and SMS.
 
 
   The Hatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,7 +247,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

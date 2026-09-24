@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -302,7 +302,7 @@ modified: '2026-07-23'
 name: C. Hoare & Co.
 nav: Providers
 network: true
-overview: 'C. Hoare & Co. publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 17 more. Tagged areas include Financial-Services, Banking, Private Bank, Open Banking, and PSD2.
+overview: 'C. Hoare & Co. publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 17 more. Tagged areas include Financial Services, Banking, Private Bank, Open Banking, and PSD2.
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 26 more developer resources.'
@@ -356,7 +356,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -373,7 +373,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: c-hoare-and-co
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Private Bank
 - Open Banking

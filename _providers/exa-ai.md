@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 34
   human_in_the_loop: 1
   name: Exa Ai Agentic Access
   operation_count: 66
   slug: exa-ai-agentic-access
-  summary_line: 66 operations · 36 acting · 1 human-in-the-loop
+  summary_line: 66 operations · 34 acting · 1 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.exa.ai
@@ -701,7 +701,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

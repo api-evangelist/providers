@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: JSON-based "A-REST" API for SUSE Manager (SUMA), used to manage systems, channels, configuration, errata, and users across Linux infrastructure. Calls use GET for retrievals, POST for changes, and POS
@@ -69,7 +69,7 @@ modified: '2026-09-16'
 name: SUSE
 nav: Providers
 network: true
-overview: 'SUSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Linux, Kubernetes, Enterprise Linux, Systems Management, and Open-Source.
+overview: 'SUSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Linux, Kubernetes, Enterprise Linux, Systems Management, and Open Source.
 
 
   SUSE''s developer surface includes engineering blog and 3 more developer resources.'
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ tags:
 - Kubernetes
 - Enterprise Linux
 - Systems Management
-- Open-Source
+- Open Source
 - Container Management
 website: https://suse.com
 ---

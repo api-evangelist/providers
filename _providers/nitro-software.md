@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -298,7 +298,7 @@ tags:
 - Documents
 - E-Signature
 - Electronic Signature
-- Document-Management
+- Document Management
 - Document Intelligence
 - OCR
 - Data Extraction

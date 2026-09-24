@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-20'
 name: Easel AI
 nav: Providers
 network: true
-overview: 'Easel AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Image-Generation, and Avatars.
+overview: 'Easel AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Image Generation, and Avatars.
 
 
   Easel AI''s developer surface includes support and 9 more developer resources.'
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -130,12 +130,12 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Image-Generation
+- Image Generation
 - Avatars
 - Fashion
 - Virtual Try-On
 - Advertising
-- Computer-Vision
+- Computer Vision
 - Consumer Applications
 website: https://easelapps.ai/
 ---

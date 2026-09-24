@@ -32,130 +32,130 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 7
   human_in_the_loop: 0
   name: Reactome Agentic Access
   operation_count: 122
   slug: reactome-agentic-access
-  summary_line: 122 operations · 31 acting
+  summary_line: 122 operations · 7 acting
 api_count: 2
 apis:
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Database info queries
-  name: Reactome database API
+  name: Reactome Database API
   slug: reactome-database-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Search engines discovery schema'
-  name: Reactome discover API
+  name: Reactome Discover API
   slug: reactome-discover-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Disease related queries'
-  name: Reactome diseases API
+  name: Reactome Diseases API
   slug: reactome-diseases-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Methods to download different views of a result
-  name: Reactome download API
+  name: Reactome Download API
   slug: reactome-download-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: PhysicalEntity queries'
-  name: Reactome entities API
+  name: Reactome Entities API
   slug: reactome-entities-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Queries related to events'
-  name: Reactome events API
+  name: Reactome Events API
   slug: reactome-events-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Format Exporter'
-  name: Reactome exporter API
+  name: Reactome Exporter API
   slug: reactome-exporter-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Queries for only one identifier
-  name: Reactome identifier API
+  name: Reactome Identifier API
   slug: reactome-identifier-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Queries for multiple identifiers
-  name: Reactome identifiers API
+  name: Reactome Identifiers API
   slug: reactome-identifiers-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Imports an external result
-  name: Reactome import API
+  name: Reactome Import API
   slug: reactome-import-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Molecule interactors
-  name: Reactome interactors API
+  name: Reactome Interactors API
   slug: reactome-interactors-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Identifiers mapping methods
-  name: Reactome mapping API
+  name: Reactome Mapping API
   slug: reactome-mapping-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Orthology related queries'
-  name: Reactome orthology API
+  name: Reactome Orthology API
   slug: reactome-orthology-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Queries related to participants'
-  name: Reactome participants API
+  name: Reactome Participants API
   slug: reactome-participants-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Pathway related queries'
-  name: Reactome pathways API
+  name: Reactome Pathways API
   slug: reactome-pathways-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Person queries'
-  name: Reactome person API
+  name: Reactome Person API
   slug: reactome-person-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Common data retrieval'
-  name: Reactome query API
+  name: Reactome Query API
   slug: reactome-query-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome xRefs: ReferenceEntity queries'
-  name: Reactome references API
+  name: Reactome References API
   slug: reactome-references-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Retrieves report files in PDF format
-  name: Reactome report API
+  name: Reactome Report API
   slug: reactome-report-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: 'Reactome Data: Schema class queries'
-  name: Reactome schema API
+  name: Reactome Schema API
   slug: reactome-schema-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Reactome Search
-  name: Reactome search API
+  name: Reactome Search API
   slug: reactome-search-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Species comparison
-  name: Reactome species API
+  name: Reactome Species API
   slug: reactome-species-api
 - baseURL: https://reactome.org/ContentService
   baseurl_source: declared
   description: Previous queries filter
-  name: Reactome token API
+  name: Reactome Token API
   slug: reactome-token-api
 artifact_total: 122
 collections:
@@ -509,7 +509,7 @@ modified: '2026-06-13'
 name: Reactome
 nav: Providers
 network: true
-overview: 'Reactome publishes 23 APIs on the [APIs.io](https://apis.io/) network, including database API, discover API, diseases API, and 20 more. Tagged areas include Biological Pathways, Bioinformatics, Life Sciences, Pathway Analysis, and Gene Enrichment.
+overview: 'Reactome publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Database API, Discover API, Diseases API, and 20 more. Tagged areas include Biological Pathways, Bioinformatics, Life Sciences, Pathway Analysis, and Gene Enrichment.
 
 
   The Reactome catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -538,7 +538,7 @@ score:
     catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 9.8
@@ -546,7 +546,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 5.3
-  previous_composite: 24.3
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -561,7 +561,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

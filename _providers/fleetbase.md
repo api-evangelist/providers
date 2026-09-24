@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -201,7 +201,7 @@ modified: '2026-06-21'
 name: Fleetbase
 nav: Providers
 network: true
-overview: 'Fleetbase publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Drivers API, Fleets API, and 7 more. Tagged areas include Logistics, Fleet Management, Supply Chain, Last Mile Delivery, and Open-Source.
+overview: 'Fleetbase publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Drivers API, Fleets API, and 7 more. Tagged areas include Logistics, Fleet Management, Supply Chain, Last Mile Delivery, and Open Source.
 
 
   Fleetbase''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -241,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -262,6 +262,6 @@ tags:
 - Fleet Management
 - Supply Chain
 - Last Mile Delivery
-- Open-Source
+- Open Source
 website: https://www.fleetbase.io
 ---

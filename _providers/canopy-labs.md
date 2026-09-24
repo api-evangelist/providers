@@ -18,7 +18,7 @@ modified: '2026-07-18'
 name: Canopy Labs
 nav: Providers
 network: true
-overview: Canopy Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Customer Analytics, Predictive Analytics, and Machine-Learning.
+overview: Canopy Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Customer Analytics, Predictive Analytics, and Machine Learning.
 random_paper: 13
 slug: canopy-labs
 tags:
@@ -26,7 +26,7 @@ tags:
 - Analytics
 - Customer Analytics
 - Predictive Analytics
-- Machine-Learning
+- Machine Learning
 - Marketing
 - Software-as-a-Service
 - Acquired

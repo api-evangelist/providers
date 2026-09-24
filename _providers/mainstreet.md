@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization surface behind MainStreet sign-in, served from login.mainstreet.com on an Auth0 tenant. It publishes a complete OIDC Discovery 1.0 document and an RFC 8414
@@ -144,7 +144,7 @@ modified: '2026-08-04'
 name: MainStreet
 nav: Providers
 network: true
-overview: 'MainStreet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Tax Credits, Accounting, and Financial-Services.
+overview: 'MainStreet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Tax Credits, Accounting, and Financial Services.
 
 
   MainStreet''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 14 more developer resources.'
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +198,7 @@ tags:
 - Tax
 - Tax Credits
 - Accounting
-- Financial-Services
+- Financial Services
 - Small Business
 - Fintech
 - Bookkeeping

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -356,7 +356,7 @@ modified: '2026-07-26'
 name: Apex27
 nav: Providers
 network: true
-overview: 'Apex27 publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Branches API, Call Logs API, and 30 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
+overview: 'Apex27 publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Branches API, Call Logs API, and 30 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Listings, and CRM.
 
 
   The Apex27 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -402,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -419,7 +419,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: apex27
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Listings

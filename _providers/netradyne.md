@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Netradyne partner/developer API, documented on a Stoplight-hosted developer portal (sign-in required). Exposes fleet, driver, vehicle, safety-event, and video-access data for integrating Driver·i tele
@@ -138,7 +138,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ tags:
 - Fleet Safety
 - Fleet Management
 - Telematics
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Dash Cameras
 - Driver Coaching

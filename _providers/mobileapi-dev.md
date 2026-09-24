@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,47 +48,47 @@ apis:
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The api API from MobileAPI.dev — 2 operation(s) for api.
-  name: MobileAPI.dev api
+  name: MobileAPI.dev API
   slug: mobileapi-dev-api-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The api-token-auth API from MobileAPI.dev — 1 operation(s) for api-token-auth.
-  name: MobileAPI.dev api-token-auth API
+  name: MobileAPI.dev API Token Auth API
   slug: mobileapi-dev-api-token-auth-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The demo-x7k9m2p4 API from MobileAPI.dev — 23 operation(s) for demo-x7k9m2p4.
-  name: MobileAPI.dev demo-x7k9m2p4 API
+  name: MobileAPI.dev Demo X7k9m2p4 API
   slug: mobileapi-dev-demo-x7k9m2p4-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The devices API from MobileAPI.dev — 24 operation(s) for devices.
-  name: MobileAPI.dev devices API
+  name: MobileAPI.dev Devices API
   slug: mobileapi-dev-devices-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The images API from MobileAPI.dev — 1 operation(s) for images.
-  name: MobileAPI.dev images API
+  name: MobileAPI.dev Images API
   slug: mobileapi-dev-images-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The manufacturers API from MobileAPI.dev — 2 operation(s) for manufacturers.
-  name: MobileAPI.dev manufacturers API
+  name: MobileAPI.dev Manufacturers API
   slug: mobileapi-dev-manufacturers-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The me API from MobileAPI.dev — 1 operation(s) for me.
-  name: MobileAPI.dev me API
+  name: MobileAPI.dev Me API
   slug: mobileapi-dev-me-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The payment_successful API from MobileAPI.dev — 2 operation(s) for payment_successful.
-  name: MobileAPI.dev payment_successful API
+  name: MobileAPI.dev Payment Successful API
   slug: mobileapi-dev-payment-successful-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The status API from MobileAPI.dev — 1 operation(s) for status.
-  name: MobileAPI.dev status API
+  name: MobileAPI.dev Status API
   slug: mobileapi-dev-status-api
 arazzos:
 - description: Confirm the account, run a natural-language device query, and load the top result's detail.
@@ -470,7 +470,7 @@ modified: '2026-09-16'
 name: MobileAPI.dev
 nav: Providers
 network: true
-overview: 'MobileAPI.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including api-token-auth API, demo-x7k9m2p4 API, and 7 more. Tagged areas include Data API, Developer Tools, Device Specifications, Mobile Data, and Phone Specs.
+overview: 'MobileAPI.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Token Auth API, Demo X7k9m2p4 API, and 7 more. Tagged areas include Data API, Developer Tools, Device Specifications, Mobile Data, and Phone Specs.
 
 
   The MobileAPI.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -518,7 +518,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 72.4
     contract_governance: 13.6
@@ -526,7 +526,7 @@ score:
     developer_ergonomics: 58.3
     discoverability: 70.4
     operational_transparency: 50.0
-  previous_composite: 56.8
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     contracts:
@@ -535,7 +535,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

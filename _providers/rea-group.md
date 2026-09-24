@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ modified: '2026-07-27T12:00:00Z'
 name: REA Group
 nav: Providers
 network: true
-overview: 'REA Group publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Auction Results API, AVM API, and 20 more. Tagged areas include Real-Estate, Property Data, Valuation, AVM, and Market Insights.
+overview: 'REA Group publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Auction Results API, AVM API, and 20 more. Tagged areas include Real Estate, Property Data, Valuation, AVM, and Market Insights.
 
 
   REA Group''s developer surface includes documentation, API reference, getting-started guide, YouTube channel, engineering blog, support, FAQ, and 32 more developer resources.'
@@ -427,11 +427,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 23
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -452,7 +452,7 @@ security:
   summary_line: security.txt · contact published
 slug: rea-group
 tags:
-- Real-Estate
+- Real Estate
 - Property Data
 - Valuation
 - AVM

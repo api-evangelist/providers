@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: 'Jargonic automatic speech recognition. Batch file transcription over HTTP (POST /api/speech-to-text/file, 50 MB maximum file size) and real-time streaming transcription over a Socket.IO connection at '
@@ -194,7 +194,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -225,7 +225,7 @@ tags:
 - Voice AI
 - Conversational AI
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Audio
 - Transcription
 - Enterprise

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -463,7 +463,7 @@ apis:
   description: Webhooks are a way of detecting events in Clio without the need for polling. A webhook can be subscribed to a number of `events` on a model. Some events will be different depending on the chosen model
   name: Clio Webhooks API
   slug: clio-webhooks-api
-artifact_total: 180
+artifact_total: 179
 collections:
 - collection_type: open
   name: API Collection
@@ -832,10 +832,6 @@ common:
   url: rules/clio-rules.yml
 created: '2026-05-11'
 description: Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring, time and billing, trust accounting, document management, tasks, and client communications. The Clio Manage API is a REST/JSON API at app.clio.com/api/v4 that uses OAuth 2.0 (authorization code flow) for authentication and exposes the full data model behind Clio Manage, with regional endpoints for the U.S., Canada, EU/UK, and Australia. Webhooks deliver near real-time event notifications, and the Clio App Directory hosts certified third-party integrations.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Clio Manage API v4. Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring,
-  name: Clio GraphQL Schema
-  slug: clio-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clio.png
 jsonld:
 - class_count: 0
@@ -847,7 +843,7 @@ modified: '2026-09-16'
 name: Clio
 nav: Providers
 network: true
-overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Activity Descriptions API, Activity Rates API, and 80 more. Tagged areas include Billing, Calendaring, Document-Management, Law Firms, and Legal.
+overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Activity Descriptions API, Activity Rates API, and 80 more. Tagged areas include Billing, Calendaring, Document Management, Law Firms, and Legal.
 
 
   The Clio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -880,19 +876,19 @@ rules:
   slug: clio-rules
 score:
   band: developing
-  composite: 54.2
+  composite: 53.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 72.0
     catalog_earned_first_party: 20.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 67.1
     contract_governance: 54.5
-    contract_quality: 64.2
+    contract_quality: 59.6
     developer_ergonomics: 40.5
     discoverability: 53.7
     operational_transparency: 42.1
@@ -905,7 +901,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -928,7 +924,7 @@ slug: clio
 tags:
 - Billing
 - Calendaring
-- Document-Management
+- Document Management
 - Law Firms
 - Legal
 - Matter Management

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-05-19'
 name: Substance Abuse and Mental Health Services Administration
 nav: Providers
 network: true
-overview: 'Substance Abuse and Mental Health Services Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Treatment Facilities API. Tagged areas include Federal-Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
+overview: 'Substance Abuse and Mental Health Services Administration publishes 1 API on the [APIs.io](https://apis.io/) network: Treatment Facilities API. Tagged areas include Federal Government, Public Health, Behavioral Health, Substance Use Disorders, and Mental Health.
 
 
   The Substance Abuse and Mental Health Services Administration catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +250,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -264,7 +264,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: substance-abuse-and-mental-health-services-administration
 tags:
-- Federal-Government
+- Federal Government
 - Public Health
 - Behavioral Health
 - Substance Use Disorders

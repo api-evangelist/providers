@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gr
@@ -94,7 +94,7 @@ modified: '2026-04-28'
 name: Mockito
 nav: Providers
 network: true
-overview: 'Mockito publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Mocking, Testing, Unit Testing, and Open-Source.
+overview: 'Mockito publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Mocking, Testing, Unit Testing, and Open Source.
 
 
   Mockito''s developer surface includes getting-started guide, release notes, and 8 more developer resources.'
@@ -127,7 +127,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 17.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ tags:
 - Mocking
 - Testing
 - Unit Testing
-- Open-Source
+- Open Source
 - Framework
 website: https://site.mockito.org
 ---

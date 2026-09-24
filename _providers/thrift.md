@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Apache Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation. It provides abstractions for data transport, serialization, and application-level processing '
@@ -123,7 +123,7 @@ modified: '2026-05-03'
 name: Apache Thrift
 nav: Providers
 network: true
-overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross-Language, Open-Source, and RPC.
+overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross-Language, Open Source, and RPC.
 
 
   The Apache Thrift catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -170,7 +170,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -191,7 +191,7 @@ tags:
 - Apache
 - Code Generation
 - Cross-Language
-- Open-Source
+- Open Source
 - RPC
 - SDK
 - Serialization

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 36
+- acting_count: 34
   human_in_the_loop: 1
   name: Guru Agentic Access
   operation_count: 77
   slug: guru-agentic-access
-  summary_line: 77 operations · 36 acting · 1 human-in-the-loop
+  summary_line: 77 operations · 34 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: REST API for managing cards, collections, boards, board sections, folders, users, groups, tags, webhooks, analytics, and card verifications in Guru. Authentication uses HTTP Basic Auth with a user tok
@@ -255,7 +255,7 @@ modified: '2026-05-11'
 name: Guru
 nav: Providers
 network: true
-overview: 'Guru publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Announcements API, Answers API, and 14 more. Tagged areas include Knowledge-Management, Enterprise Search, AI Knowledge Base, Internal Wiki, and Verified Knowledge.
+overview: 'Guru publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Announcements API, Answers API, and 14 more. Tagged areas include Knowledge Management, Enterprise Search, AI Knowledge Base, Internal Wiki, and Verified Knowledge.
 
 
   Guru''s developer surface includes authentication, documentation, pricing, signup flow, support, and 8 more developer resources.'
@@ -288,7 +288,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -305,7 +305,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: guru
 tags:
-- Knowledge-Management
+- Knowledge Management
 - Enterprise Search
 - AI Knowledge Base
 - Internal Wiki

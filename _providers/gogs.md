@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ modified: '2026-09-21'
 name: Gogs
 nav: Providers
 network: true
-overview: 'Gogs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Collaborators and Deploy Keys API, Issues API, and 6 more. Tagged areas include Company, Git, Self-Hosted, Open-Source, and Go.
+overview: 'Gogs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Collaborators and Deploy Keys API, Issues API, and 6 more. Tagged areas include Company, Git, Self-Hosted, Open Source, and Go.
 
 
   The Gogs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -243,7 +243,7 @@ score:
     mcp: unknown
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -262,7 +262,8 @@ tags:
 - Company
 - Git
 - Self-Hosted
-- Open-Source
+- Open Source
 - Go
+- A2A
 website: https://gogs.io/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Limehome
 nav: Providers
 network: true
-overview: 'Limehome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Hospitality, Travel, and Real-Estate.
+overview: 'Limehome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Hospitality, Travel, and Real Estate.
 
 
   Limehome''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -141,7 +141,7 @@ score:
     - europe
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ tags:
 - Consumer
 - Hospitality
 - Travel
-- Real-Estate
+- Real Estate
 - PropTech
 - Short-Term Rental
 - Aparthotel

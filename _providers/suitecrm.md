@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'SuiteCRM API as documented publicly: 19 operations. Contract generated from the documentation by API Evangelist (2026-09-22); not the provider''s own document.'
@@ -157,7 +157,7 @@ modified: '2026-09-21'
 name: SuiteCRM
 nav: Providers
 network: true
-overview: 'SuiteCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Open-Source, Software-as-a-Service, Self-Hosted, and Enterprise.
+overview: 'SuiteCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Open Source, Software-as-a-Service, Self-Hosted, and Enterprise.
 
 
   The SuiteCRM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -205,7 +205,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +219,7 @@ security:
 slug: suitecrm
 tags:
 - CRM
-- Open-Source
+- Open Source
 - Software-as-a-Service
 - Self-Hosted
 - Enterprise

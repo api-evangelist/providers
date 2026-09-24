@@ -59,6 +59,6 @@ tags:
 - Linter
 - Formatter
 - CLI
-- Open-Source
+- Open Source
 - Defunct
 ---

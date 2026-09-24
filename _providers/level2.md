@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
-  human_in_the_loop: 1
+- acting_count: 116
+  human_in_the_loop: 6
   name: Level2 Agentic Access
-  operation_count: 15
+  operation_count: 316
   slug: level2-agentic-access
-  summary_line: 15 operations · 7 acting · 1 human-in-the-loop
+  summary_line: 316 operations · 116 acting · 6 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://hub2.trylevel2.com
@@ -311,7 +311,7 @@ modified: '2026-09-17'
 name: Level2
 nav: Providers
 network: true
-overview: 'Level2 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Hub API, Backtesting API, Discovery API, and 4 more. Tagged areas include Trading, Fintech, Financial-Services, Automation, and No-Code.
+overview: 'Level2 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Hub API, Backtesting API, Discovery API, and 4 more. Tagged areas include Trading, Fintech, Financial Services, Automation, and No-Code.
 
 
   The Level2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -374,7 +374,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -397,7 +397,7 @@ slug: level2
 tags:
 - Trading
 - Fintech
-- Financial-Services
+- Financial Services
 - Automation
 - No-Code
 - Backtesting

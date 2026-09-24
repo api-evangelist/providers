@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Amazon Shield Agentic Access
   operation_count: 7
   slug: amazon-shield-agentic-access
-  summary_line: 7 operations · 7 acting
+  summary_line: 7 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://shield.amazonaws.com
@@ -134,7 +134,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/shield/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/capabilities/amazon-shield-capability-edges.yml
   title: ''
@@ -691,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -719,5 +719,5 @@ tags:
 - DDoS Protection
 - Networking
 - Security
-website: https://amazon.com
+website: https://aws.amazon.com/shield/
 ---

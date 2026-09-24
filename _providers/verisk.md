@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 3
+- acting_count: 0
   human_in_the_loop: 0
   name: Verisk Agentic Access
   operation_count: 6
   slug: verisk-agentic-access
-  summary_line: 6 operations · 3 acting
+  summary_line: 6 operations
 api_count: 1
 apis:
 - description: Verisk UnderWriting API provides personal and commercial lines insurance underwriting data including homeowner data, motor vehicle reports, A-PLUS auto and property reports, LightSpeed prefill, geocod
@@ -384,7 +384,7 @@ rules:
   slug: verisk-spectral-rules
 score:
   band: developing
-  composite: 41.4
+  composite: 40.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 69.5
@@ -392,12 +392,12 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 73.1
-    developer_ergonomics: 54.8
+    developer_ergonomics: 51.2
     discoverability: 59.3
     operational_transparency: 7.9
   previous_composite: 41.4
@@ -415,7 +415,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

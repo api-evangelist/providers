@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 100
+- acting_count: 111
   human_in_the_loop: 0
   name: Bringg Agentic Access
-  operation_count: 136
+  operation_count: 151
   slug: bringg-agentic-access
-  summary_line: 136 operations · 100 acting
+  summary_line: 151 operations · 111 acting
 api_count: 3
 apis:
 - baseURL: https://us2-admin-api.bringg.com
@@ -194,7 +194,7 @@ apis:
   description: The Webhooks API from Bringg — 7 operation(s) for webhooks.
   name: Bringg Webhooks API
   slug: bringg-webhooks-api
-artifact_total: 141
+artifact_total: 140
 asyncapis:
 - description: Bringg sends server-to-server webhook callbacks to subscriber URLs when events occur on orders, drivers, runs, customers, and waypoints. Bringg retries failed deliveries three times before recording t
   name: Bringg Webhooks
@@ -588,10 +588,6 @@ finops:
 - name: Bringg Finops
   service_category: ''
   slug: bringg-finops
-graphqls:
-- description: 'Conceptual GraphQL schema for the [Bringg Delivery Hub API](https://developers.bringg.com/reference/welcome-to-bringgs-api-reference), derived from Bringg''s REST API surface: the Delivery Hub API, Dri'
-  name: Bringg GraphQL Schema
-  slug: bringg-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bringg.png
 integrations:
 - category: Carriers and crowdsourced fleets
@@ -694,19 +690,19 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.6
+  composite: 59.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 82.5
     catalog_earned_first_party: 0.0
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 55.3
     contract_governance: 13.6
-    contract_quality: 76.1
+    contract_quality: 75.7
     developer_ergonomics: 36.9
     discoverability: 68.5
     operational_transparency: 61.8
@@ -730,7 +726,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

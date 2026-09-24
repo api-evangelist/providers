@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ modified: '2026-09-07'
 name: Express Gateway
 nav: Providers
 network: true
-overview: 'Express Gateway publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Credentials API, Scopes API, and 1 more. Tagged areas include API Composition, API Gateway, BFF, Open-Source, and Microservices.
+overview: 'Express Gateway publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Credentials API, Scopes API, and 1 more. Tagged areas include API Composition, API Gateway, BFF, Open Source, and Microservices.
 
 
   Express Gateway''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 19 more developer resources.'
@@ -271,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +291,7 @@ tags:
 - API Composition
 - API Gateway
 - BFF
-- Open-Source
+- Open Source
 - Microservices
 - Authentication
 - Node.js

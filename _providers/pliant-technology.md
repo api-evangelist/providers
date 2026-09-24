@@ -33,6 +33,6 @@ tags:
 - Enterprise Storage
 - Semiconductors
 - Hardware
-- Data-Center
+- Data Center
 - Defunct
 ---

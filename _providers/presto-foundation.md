@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ modified: '2026-04-28'
 name: Presto Foundation
 nav: Providers
 network: true
-overview: 'Presto Foundation publishes 1 API on the [APIs.io](https://apis.io/) network: Statement API. Tagged areas include Analytics, Big Data, Distributed SQL, Linux Foundation, and Open-Source.
+overview: 'Presto Foundation publishes 1 API on the [APIs.io](https://apis.io/) network: Statement API. Tagged areas include Analytics, Big Data, Distributed SQL, Linux Foundation, and Open Source.
 
 
   Presto Foundation''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, and 18 more developer resources.'
@@ -223,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +244,7 @@ tags:
 - Big Data
 - Distributed SQL
 - Linux Foundation
-- Open-Source
+- Open Source
 - Query Engine
 - SQL
 website: https://www.prestodb.io/

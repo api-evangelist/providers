@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Port Io Agentic Access
   operation_count: 8
   slug: port-io-agentic-access
-  summary_line: 8 operations · 5 acting
+  summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
 - description: Public REST API for the Port platform. Bearer-token authenticated (3-hour tokens minted from Port credentials), with regional base URLs for EU and US tenants. Body size capped at 1 MiB and every respo
@@ -247,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

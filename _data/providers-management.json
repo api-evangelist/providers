@@ -27,7 +27,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -60,7 +60,7 @@
      "slug": "wso2",
      "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
-     "score": 68.5,
+     "score": 67.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -68,10 +68,10 @@
       "contract_quality": 56.7,
       "contract_governance": 9.8,
       "operational_transparency": 78.9,
-      "developer_ergonomics": 52.4,
+      "developer_ergonomics": 48.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -104,18 +104,18 @@
      "slug": "microsoft-azure-api-management",
      "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs for external, partner, and internal developers. It now includes an AI gateway for governing OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, Microsoft Foundry models, Amazon Bedrock, MCP servers exposed from REST APIs or proxied from external MCP backends, and A2A agent APIs - with token rate limiting, semantic caching, content safety, backend load balancing, circuit breakers, and token emission to Application Insights. It pairs with Azure API Center for design-time inventory, governance, and discovery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png",
-     "score": 67.0,
+     "score": 67.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 57.0,
+      "contract_quality": 59.9,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 89.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
@@ -159,18 +159,18 @@
      "slug": "apigee",
      "description": "Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png",
-     "score": 65.8,
+     "score": 65.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 74.2,
+      "contract_quality": 73.6,
       "contract_governance": 13.6,
       "operational_transparency": 44.7,
       "developer_ergonomics": 82.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -379,18 +379,18 @@
      "slug": "zuplo",
      "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
-     "score": 60.1,
+     "score": 58.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 72.7,
+      "contract_quality": 69.2,
       "contract_governance": 28.8,
       "operational_transparency": 60.5,
-      "developer_ergonomics": 59.5,
+      "developer_ergonomics": 56.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -423,7 +423,7 @@
      "slug": "tyk",
      "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
-     "score": 58.1,
+     "score": 57.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -431,10 +431,10 @@
       "contract_quality": 65.7,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
-      "developer_ergonomics": 69.0,
+      "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -470,8 +470,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Apidog",
@@ -489,7 +489,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -522,18 +522,18 @@
      "slug": "mulesoft",
      "description": "MuleSoft Anypoint Platform is an enterprise integration and API management platform offering an API gateway, design center, exchange marketplace, and monitoring for hybrid deployments connecting applications and data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png",
-     "score": 51.3,
+     "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 74.9,
+      "contract_quality": 71.7,
       "contract_governance": 28.8,
       "operational_transparency": 34.2,
       "developer_ergonomics": 65.5,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -577,7 +577,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -621,7 +621,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -665,7 +665,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -797,7 +797,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -841,7 +841,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -885,7 +885,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -929,7 +929,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -973,7 +973,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -1002,50 +1002,6 @@
      "rank": 22
     },
     {
-     "name": "IBM API Connect",
-     "slug": "ibm-api-connect",
-     "description": "IBM API Connect is a comprehensive end-to-end API management solution that enables organizations to create, secure, manage, share, monetize, and analyze APIs across clouds. It provides an API gateway, developer portal, and lifecycle management capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 21.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 23
-    },
-    {
      "name": "Envoy Gateway",
      "slug": "envoy-gateway",
      "description": "Envoy Gateway is a CNCF project that manages Envoy Proxy as a standalone or Kubernetes-based application gateway. It implements the Kubernetes Gateway API and extends it with its own API group, gateway.envoyproxy.io, whose eight Custom Resource Definitions cover infrastructure shape, client and backend traffic behaviour, security policy, extensibility and direct xDS patching. There is no REST API and no hosted endpoint: the machine-readable contract is the CRD structural schemas plus two first-party gRPC services — an extension server hook and a remote infrastructure provider — that Envoy Gateway calls out to. Apache-2.0 licensed and free, with a published compatibility matrix giving every release a dated end of life, and Gateway API v1.6.1 core and extended conformance certified by report in the standard body's own repository.",
@@ -1061,7 +1017,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1087,7 +1043,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Traefik Labs",
@@ -1105,7 +1061,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1131,7 +1087,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 25
+     "rank": 24
     }
    ]
   },
@@ -1140,8 +1096,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "KrakenD",
@@ -1159,7 +1115,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -1185,7 +1141,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "SAP API Management",
@@ -1203,7 +1159,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1229,7 +1185,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Spring Cloud Gateway",
@@ -1247,7 +1203,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1273,7 +1229,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "APIIDA",
@@ -1291,7 +1247,51 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 28
+    },
+    {
+     "name": "Software AG",
+     "slug": "software-ag",
+     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 63.8,
+      "contract_governance": 25.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1320,24 +1320,24 @@
      "rank": 29
     },
     {
-     "name": "Software AG",
-     "slug": "software-ag",
-     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
-     "score": 34.0,
+     "name": "APIPark",
+     "slug": "apipark",
+     "description": "APIPark is an open-source, cloud-native AI gateway and API developer portal that helps developers and enterprises manage, integrate, and deploy AI and API services. It supports 100+ AI models from all major AI providers, provides API lifecycle management, authentication, rate limiting, and cluster deployment for large-scale traffic. Teams can combine AI models with custom prompts to create new AI-powered services such as sentiment analysis, translation, or data analysis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/screenshots/apipark-2026-06-20T172255.png",
+     "score": 33.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 63.8,
-      "contract_governance": 25.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 33.3,
-      "access_clarity": 26.3
+      "discoverability": 68.5,
+      "contract_quality": 64.6,
+      "contract_governance": 9.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 19.8,
+     "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1347,7 +1347,7 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1364,34 +1364,34 @@
      "rank": 30
     },
     {
-     "name": "APIPark",
-     "slug": "apipark",
-     "description": "APIPark is an open-source, cloud-native AI gateway and API developer portal that helps developers and enterprises manage, integrate, and deploy AI and API services. It supports 100+ AI models from all major AI providers, provides API lifecycle management, authentication, rate limiting, and cluster deployment for large-scale traffic. Teams can combine AI models with custom prompts to create new AI-powered services such as sentiment analysis, translation, or data analysis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/screenshots/apipark-2026-06-20T172255.png",
-     "score": 33.8,
+     "name": "IBM API Connect",
+     "slug": "ibm-api-connect",
+     "description": "IBM API Connect is a comprehensive end-to-end API management solution that enables organizations to create, secure, manage, share, monetize, and analyze APIs across clouds. It provides an API gateway, developer portal, and lifecycle management capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png",
+     "score": 33.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 64.6,
-      "contract_governance": 9.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 15.8
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 24.8,
+     "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "verified",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1423,7 +1423,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1467,7 +1467,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1521,7 +1521,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1609,7 +1609,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

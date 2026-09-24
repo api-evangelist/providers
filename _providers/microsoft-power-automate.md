@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 1
   name: Microsoft Power Automate Agentic Access
   operation_count: 18
   slug: microsoft-power-automate-agentic-access
-  summary_line: 18 operations · 9 acting · 1 human-in-the-loop
+  summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 api_count: 10
 apis:
 - baseURL: https://api.flow.microsoft.com
@@ -564,7 +564,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -604,6 +604,7 @@ tags:
 - Power Platform
 - RPA
 - Workflows
+- Workflow Automation
 use_cases:
 - description: Automatically process, route, and respond to emails based on content or sender.
   name: Email Automation

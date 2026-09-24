@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://api.curve.finance/api
   baseurl_source: declared
   description: The crvUSD API from Curve Finance — 6 operation(s) for crvusd.
-  name: Curve Finance crvUSD API
+  name: Curve Finance Crv USD API
   slug: curve-finance-crvusd-api
 - baseURL: https://api.curve.finance/api
   baseurl_source: declared
@@ -196,7 +196,7 @@ modified: '2026-05-08'
 name: Curve Finance
 nav: Providers
 network: true
-overview: 'Curve Finance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including crvUSD API, Deprecated API, Gauges API, and 5 more. Tagged areas include Web3, DeFi, DEX, AMM, and Stablecoins.
+overview: 'Curve Finance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Crv USD API, Deprecated API, Gauges API, and 5 more. Tagged areas include Web3, DeFi, DEX, AMM, and Stablecoins.
 
 
   Curve Finance''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -261,6 +261,6 @@ tags:
 - Stablecoins
 - Pegged Assets
 - Multi-Chain
-- Open-Source
+- Open Source
 website: https://www.curve.finance/
 ---

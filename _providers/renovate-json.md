@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,7 +112,7 @@ modified: '2026-05-02'
 name: Renovate
 nav: Providers
 network: true
-overview: 'Renovate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, Configuration, Dependency Management, and Open-Source.
+overview: 'Renovate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, Configuration, Dependency Management, and Open Source.
 
 
   The Renovate catalog on APIs.io includes 1 JSON-LD context.
@@ -146,7 +146,7 @@ score:
       reason: never_enriched
   previous_composite: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ tags:
 - CI/CD
 - Configuration
 - Dependency Management
-- Open-Source
+- Open Source
 - DevOps
 website: https://www.mend.io/renovate/
 ---

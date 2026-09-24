@@ -23,20 +23,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 63
+- acting_count: 62
   human_in_the_loop: 6
   name: Brick Blue Agentic Access
   operation_count: 144
   slug: brick-blue-agentic-access
-  summary_line: 144 operations · 63 acting · 6 human-in-the-loop
+  summary_line: 144 operations · 62 acting · 6 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://brick.blue/api/v1
   baseurl_source: declared
   description: The REST surface of the hub on https://brick.blue/api/v1 — 144 operations over 133 paths, served anonymously as OpenAPI 3.1.0 at /openapi.json and /api/v1/openapi.json, generated from the same route m
-  name: brick.blue hub API
+  name: brick.blue Hub API
   slug: hub-api
 - description: Hosted streamable-HTTP MCP server at https://brick.blue/mcp (protocol 2025-06-18, serverInfo brick.blue 0.1.0), listed in the official MCP registry as blue.brick/hub (0.1.2, remote only). It answers i
   name: brick.blue MCP server
@@ -198,7 +198,7 @@ modified: '2026-09-19'
 name: brick.blue
 nav: Providers
 network: true
-overview: 'brick.blue publishes 1 API on the [APIs.io](https://apis.io/) network: hub API. Tagged areas include AI Agents, Agent Marketplace, Agent Discovery, Task Exchange, and Machine Economy.
+overview: 'brick.blue publishes 1 API on the [APIs.io](https://apis.io/) network: Hub API. Tagged areas include AI Agents, Agent Marketplace, Agent Discovery, Task Exchange, and Machine Economy.
 
 
   The brick.blue catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +250,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

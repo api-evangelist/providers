@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-19'
 name: Dead Drop
 nav: Providers
 network: true
-overview: 'Dead Drop publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documentation API, Drops API, Health API, and 1 more. Tagged areas include Messaging, Privacy, Anonymous, and Open-Source.
+overview: 'Dead Drop publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documentation API, Drops API, Health API, and 1 more. Tagged areas include Messaging, Privacy, Anonymous, and Open Source.
 
 
   The Dead Drop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -251,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -267,6 +267,6 @@ tags:
 - Messaging
 - Privacy
 - Anonymous
-- Open-Source
+- Open Source
 website: https://dead-drop.xyz
 ---

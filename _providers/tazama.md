@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
   description: ISO 20022 transaction message evaluation for fraud and AML detection
   name: Tazama Transaction Evaluation API
   slug: tazama-transaction-evaluation-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -167,10 +167,6 @@ finops:
 - name: Tazama Finops
   service_category: API
   slug: tazama-finops
-graphqls:
-- description: ''
-  name: Tazama GraphQL API
-  slug: tazama-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tazama.png
 json_schemas:
 - name: ISO 20022 pain.001.001.11 Customer Credit Transfer Initiation
@@ -193,7 +189,7 @@ modified: '2026-09-16'
 name: Tazama
 nav: Providers
 network: true
-overview: 'Tazama publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Transaction Evaluation API. Tagged areas include Financial Technology, Fraud Detection, Anti-Money Laundering, Linux Foundation, and Open-Source.
+overview: 'Tazama publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Transaction Evaluation API. Tagged areas include Financial Technology, Fraud Detection, Anti-Money Laundering, Linux Foundation, and Open Source.
 
 
   The Tazama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -235,7 +231,7 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
@@ -261,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -278,7 +274,7 @@ tags:
 - Fraud Detection
 - Anti-Money Laundering
 - Linux Foundation
-- Open-Source
+- Open Source
 - Transaction Monitoring
 - ISO 20022
 - Real-Time

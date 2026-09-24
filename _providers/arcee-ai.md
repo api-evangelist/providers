@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -392,7 +392,7 @@ modified: '2026-09-16'
 name: Arcee AI
 nav: Providers
 network: true
-overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Small Language Models.
+overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Small Language Models.
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
@@ -427,7 +427,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -446,12 +446,12 @@ slug: arcee-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Small Language Models
 - Inference
 - MCP
-- Open-Source
+- Open Source
 - Developer Platform
 website: https://www.arcee.ai
 ---

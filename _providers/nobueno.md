@@ -34,153 +34,153 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The admin API from NoBueno — 51 operation(s) for admin.
-  name: NoBueno admin API
+  name: NoBueno Admin API
   slug: nobueno-admin-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The bitcoin API from NoBueno — 1 operation(s) for bitcoin.
-  name: NoBueno bitcoin API
+  name: NoBueno Bitcoin API
   slug: nobueno-bitcoin-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The categories API from NoBueno — 2 operation(s) for categories.
-  name: NoBueno categories API
+  name: NoBueno Categories API
   slug: nobueno-categories-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The cities API from NoBueno — 4 operation(s) for cities.
-  name: NoBueno cities API
+  name: NoBueno Cities API
   slug: nobueno-cities-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The companies API from NoBueno — 7 operation(s) for companies.
-  name: NoBueno companies API
+  name: NoBueno Companies API
   slug: nobueno-companies-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The countries API from NoBueno — 2 operation(s) for countries.
-  name: NoBueno countries API
+  name: NoBueno Countries API
   slug: nobueno-countries-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The credits API from NoBueno — 2 operation(s) for credits.
-  name: NoBueno credits API
+  name: NoBueno Credits API
   slug: nobueno-credits-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The currencies API from NoBueno — 2 operation(s) for currencies.
-  name: NoBueno currencies API
+  name: NoBueno Currencies API
   slug: nobueno-currencies-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The devices API from NoBueno — 2 operation(s) for devices.
-  name: NoBueno devices API
+  name: NoBueno Devices API
   slug: nobueno-devices-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The fields API from NoBueno — 1 operation(s) for fields.
-  name: NoBueno fields API
+  name: NoBueno Fields API
   slug: nobueno-fields-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The forgot API from NoBueno — 3 operation(s) for forgot.
-  name: NoBueno forgot API
+  name: NoBueno Forgot API
   slug: nobueno-forgot-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The jobs API from NoBueno — 18 operation(s) for jobs.
-  name: NoBueno jobs API
+  name: NoBueno Jobs API
   slug: nobueno-jobs-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The languages API from NoBueno — 1 operation(s) for languages.
-  name: NoBueno languages API
+  name: NoBueno Languages API
   slug: nobueno-languages-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The login API from NoBueno — 1 operation(s) for login.
-  name: NoBueno login API
+  name: NoBueno Login API
   slug: nobueno-login-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The matches API from NoBueno — 2 operation(s) for matches.
-  name: NoBueno matches API
+  name: NoBueno Matches API
   slug: nobueno-matches-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The me API from NoBueno — 2 operation(s) for me.
-  name: NoBueno me API
+  name: NoBueno Me API
   slug: nobueno-me-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The messages API from NoBueno — 6 operation(s) for messages.
-  name: NoBueno messages API
+  name: NoBueno Messages API
   slug: nobueno-messages-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The notifications API from NoBueno — 2 operation(s) for notifications.
-  name: NoBueno notifications API
+  name: NoBueno Notifications API
   slug: nobueno-notifications-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The profile API from NoBueno — 2 operation(s) for profile.
-  name: NoBueno profile API
+  name: NoBueno Profile API
   slug: nobueno-profile-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The public API from NoBueno — 2 operation(s) for public.
-  name: NoBueno public API
+  name: NoBueno Public API
   slug: nobueno-public-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The refresh API from NoBueno — 1 operation(s) for refresh.
-  name: NoBueno refresh API
+  name: NoBueno Refresh API
   slug: nobueno-refresh-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The register API from NoBueno — 1 operation(s) for register.
-  name: NoBueno register API
+  name: NoBueno Register API
   slug: nobueno-register-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The review API from NoBueno — 2 operation(s) for review.
-  name: NoBueno review API
+  name: NoBueno Review API
   slug: nobueno-review-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The roles API from NoBueno — 2 operation(s) for roles.
-  name: NoBueno roles API
+  name: NoBueno Roles API
   slug: nobueno-roles-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The skill-categories API from NoBueno — 3 operation(s) for skill-categories.
-  name: NoBueno skill-categories API
+  name: NoBueno Skill Categories API
   slug: nobueno-skill-categories-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The skills API from NoBueno — 3 operation(s) for skills.
-  name: NoBueno skills API
+  name: NoBueno Skills API
   slug: nobueno-skills-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The user_block API from NoBueno — 2 operation(s) for user_block.
-  name: NoBueno user_block API
+  name: NoBueno User Block API
   slug: nobueno-user-block-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The user_report API from NoBueno — 1 operation(s) for user_report.
-  name: NoBueno user_report API
+  name: NoBueno User Report API
   slug: nobueno-user-report-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The users API from NoBueno — 13 operation(s) for users.
-  name: NoBueno users API
+  name: NoBueno Users API
   slug: nobueno-users-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
@@ -190,12 +190,12 @@ apis:
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The webrtc-configs API from NoBueno — 1 operation(s) for webrtc-configs.
-  name: NoBueno webrtc-configs API
+  name: NoBueno Webrtc Configs API
   slug: nobueno-webrtc-configs-api
 - baseURL: https://api.nobueno.com/api
   baseurl_source: declared
   description: The work-experience API from NoBueno — 2 operation(s) for work-experience.
-  name: NoBueno work-experience API
+  name: NoBueno Work Experience API
   slug: nobueno-work-experience-api
 artifact_total: 66
 collections:
@@ -363,7 +363,7 @@ modified: '2026-07-20'
 name: NoBueno
 nav: Providers
 network: true
-overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network, including admin API, bitcoin API, categories API, and 29 more. Tagged areas include Company, Job, Recruiting, Hiring, and Talent.
+overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Bitcoin API, Categories API, and 29 more. Tagged areas include Company, Job, Recruiting, Hiring, and Talent.
 
 
   NoBueno''s developer surface includes authentication and 11 more developer resources.'
@@ -378,7 +378,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
@@ -386,7 +386,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 0.0
-  previous_composite: 24.5
+  previous_composite: 25.5
   provenance:
     conformance: derived
     contracts:
@@ -397,7 +397,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

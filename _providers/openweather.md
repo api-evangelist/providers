@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,15 +52,10 @@ apis:
   slug: openweather-air-pollution-api
 - baseURL: https://api.openweathermap.org/data/3.0
   baseurl_source: spec
-  description: Current, forecast, and historical air pollution data.
-  name: OpenWeather Air Pollution API
-  slug: openweather-air-pollution-api
-- baseURL: https://api.openweathermap.org/data/3.0
-  baseurl_source: spec
   description: Combined current weather, forecast, and historical weather data.
   name: OpenWeather One Call API
   slug: openweather-one-call-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -150,7 +145,7 @@ modified: '2026-05-19'
 name: OpenWeather
 nav: Providers
 network: true
-overview: 'OpenWeather publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Air Pollution API, One Call API, and 1 more. Tagged areas include Air Pollution, Air Quality, Climate, Forecasting, and Weather.
+overview: 'OpenWeather publishes 2 APIs on the [APIs.io](https://apis.io/) network: Air Pollution API and One Call API. Tagged areas include Air Pollution, Air Quality, Climate, Forecasting, and Weather.
 
 
   OpenWeather''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, FAQ, support, and 8 more developer resources.'
@@ -191,7 +186,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

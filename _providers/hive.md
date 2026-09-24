@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ modified: '2026-05-11'
 name: Hive
 nav: Providers
 network: true
-overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agile Sprints API, Dashboard Widgets API, and 9 more. Tagged areas include Project Management, Task Management, Team Collaboration, Productivity, and Workflow-Automation.
+overview: 'Hive publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Agile Sprints API, Dashboard Widgets API, and 9 more. Tagged areas include Project Management, Task Management, Team Collaboration, Productivity, and Workflow Automation.
 
 
   Hive''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, pricing, support, and 5 more developer resources.'
@@ -243,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -264,7 +264,7 @@ tags:
 - Task Management
 - Team Collaboration
 - Productivity
-- Workflow-Automation
+- Workflow Automation
 - Time Tracking
 website: https://hive.com/
 ---

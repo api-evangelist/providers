@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -148,7 +148,7 @@ modified: '2026-07-21'
 name: Unsloth
 nav: Providers
 network: true
-overview: 'Unsloth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, LLM Fine-Tuning, Machine-Learning, and Open-Source.
+overview: 'Unsloth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, LLM Fine-Tuning, Machine Learning, and Open Source.
 
 
   Unsloth''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, CLI, and 16 more developer resources.'
@@ -175,7 +175,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -196,8 +196,8 @@ tags:
 - Company
 - Artificial Intelligence
 - LLM Fine-Tuning
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - Reinforcement Learning
 - Quantization
 - Local AI

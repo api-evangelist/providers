@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 17
 common:
@@ -143,7 +143,7 @@ modified: '2026-09-02'
 name: American Equity Investment Life Holding
 nav: Providers
 network: true
-overview: 'American Equity Investment Life Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Insurance, Annuities, Fixed Indexed Annuity, and Retirement.
+overview: 'American Equity Investment Life Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Insurance, Annuities, Fixed Indexed Annuity, and Retirement.
 
 
   American Equity Investment Life Holding''s developer surface includes developer portal, signup flow, support, engineering blog, and 11 more developer resources.'
@@ -203,7 +203,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ security:
   summary_line: Hackerone
 slug: american-equity-investment-life-holding
 tags:
-- Financial-Services
+- Financial Services
 - Insurance
 - Annuities
 - Fixed Indexed Annuity

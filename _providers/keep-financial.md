@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: Keep Financial
 nav: Providers
 network: true
-overview: 'Keep Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Compensation, and Human Resources.
+overview: 'Keep Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Compensation, and Human Resources.
 
 
   Keep Financial''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
@@ -103,7 +103,7 @@ score:
       reason: never_enriched
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,7 +113,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/keep-financial/refs
 slug: keep-financial
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Compensation
 - Human Resources

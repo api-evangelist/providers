@@ -34,25 +34,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 11
+- acting_count: 7
   human_in_the_loop: 0
   name: Ex Human Agentic Access
   operation_count: 12
   slug: ex-human-agentic-access
-  summary_line: 12 operations · 11 acting
+  summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
 - baseURL: https://api.exh.ai
   baseurl_source: declared
   description: The animations API from Ex-Human — 6 operation(s) for animations.
-  name: Ex-Human animations API
+  name: Ex-Human Animations API
   slug: ex-human-animations-api
 - baseURL: https://api.exh.ai
   baseurl_source: declared
   description: The chatbot API from Ex-Human — 3 operation(s) for chatbot.
-  name: Ex-Human chatbot API
+  name: Ex-Human Chatbot API
   slug: ex-human-chatbot-api
 - baseURL: https://api.exh.ai
   baseurl_source: declared
@@ -207,7 +207,7 @@ modified: '2026-07-19'
 name: Ex-Human
 nav: Providers
 network: true
-overview: 'Ex-Human publishes 4 APIs on the [APIs.io](https://apis.io/) network, including animations API, chatbot API, Image Generation API, and 1 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Companions, and Generative AI.
+overview: 'Ex-Human publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Animations API, Chatbot API, Image Generation API, and 1 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Companion, and Generative AI.
 
 
   Ex-Human''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, signup flow, and 19 more developer resources.'
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -262,10 +262,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- AI Companions
+- AI Companion
 - Generative AI
 - Text-to-Speech
-- Image-Generation
+- Image Generation
 - Video Generation
 - Avatars
 - Multi-Modal

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ modified: '2026-09-16'
 name: Apache Tika
 nav: Providers
 network: true
-overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open-Source.
+overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open Source.
 
 
   Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +320,7 @@ tags:
 - Document Processing
 - Metadata
 - Text Extraction
-- Open-Source
+- Open Source
 use_cases:
 - description: Extract text from documents for indexing in Apache Solr or Elasticsearch.
   name: Search Indexing

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -79,7 +79,7 @@ modified: '2026-07-19'
 name: Infera
 nav: Providers
 network: true
-overview: Infera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laboratory Automation, Biotech, Life Sciences, and Artificial Intelligence.
+overview: Infera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Laboratory Automation, Biotechnology, Life Sciences, and Artificial Intelligence.
 random_paper: 13
 score:
   band: emerging
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ slug: infera
 tags:
 - Company
 - Laboratory Automation
-- Biotech
+- Biotechnology
 - Life Sciences
 - Artificial Intelligence
 - Protocol

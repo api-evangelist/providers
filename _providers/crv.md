@@ -31,6 +31,6 @@ tags:
 - Artificial Intelligence
 - Enterprise
 - Consumer
-- Biotech
+- Biotechnology
 - North America
 ---

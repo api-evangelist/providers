@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 29
+- acting_count: 22
   human_in_the_loop: 1
   name: Codeproject Agentic Access
   operation_count: 42
   slug: codeproject-agentic-access
-  summary_line: 42 operations · 29 acting · 1 human-in-the-loop
+  summary_line: 42 operations · 22 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.codeproject.com
@@ -263,7 +263,7 @@ modified: '2026-05-19'
 name: CodeProject
 nav: Providers
 network: true
-overview: 'CodeProject publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Audio API, ForumMessages API, and 10 more. Tagged areas include Artificial Intelligence, Articles, Community, Computer-Vision, and Developer Community.
+overview: 'CodeProject publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Audio API, ForumMessages API, and 10 more. Tagged areas include Artificial Intelligence, Articles, Community, Computer Vision, and Developer Community.
 
 
   The CodeProject catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -323,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -343,7 +343,7 @@ tags:
 - Artificial Intelligence
 - Articles
 - Community
-- Computer-Vision
+- Computer Vision
 - Developer Community
 - Face Recognition
 - Forums

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -158,7 +158,10 @@ apis:
   description: Endpoints relating to retrieving, managing webhooks and webhook configs — 8 operation(s) in the X-published contract.
   name: X Webhooks API
   slug: x-webhooks-api
-artifact_total: 38
+- description: 'The X Ads API enables programmatic management of advertising campaigns on the X platform including campaign creation and scheduling, custom audience building, creative management (draft posts, cards, '
+  name: X Ads API
+  slug: x-ads-api
+artifact_total: 39
 asyncapis:
 - description: ''
   name: X Webhooks
@@ -412,7 +415,7 @@ modified: '2026-08-28'
 name: X
 nav: Providers
 network: true
-overview: 'X publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Account API, Activity API, and 20 more. Tagged areas include Space, Conversations, X, Social, and Social-Media.
+overview: 'X publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Account API, Activity API, and 20 more. Tagged areas include Space, Conversations, X, Social, and Social Media.
 
 
   The X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -463,7 +466,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -488,7 +491,7 @@ tags:
 - Conversations
 - X
 - Social
-- Social-Media
+- Social Media
 - Posts
 - User
 - Direct Messages

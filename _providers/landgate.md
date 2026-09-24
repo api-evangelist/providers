@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: '2026-07-26'
 name: Landgate
 nav: Providers
 network: true
-overview: 'Landgate publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Discovery API, Organizations API, and 6 more. Tagged areas include Real-Estate, Australia, Land Registry, Title, and Valuation.
+overview: 'Landgate publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Discovery API, Organizations API, and 6 more. Tagged areas include Real Estate, Australia, Land Registry, Title, and Valuation.
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 26 more developer resources.'
@@ -326,7 +326,7 @@ score:
     regime_id: government
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -344,7 +344,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: landgate
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Land Registry
 - Title

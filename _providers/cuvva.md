@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Cuvva''s fleet of public single-purpose service APIs — auth (OAuth 2.0), vehicle lookup, MOT status, motor-coverage quotes/policies, billing, promo, profile, upload, terms, notification and more. Most '
@@ -149,7 +149,7 @@ modified: '2026-07-18'
 name: Cuvva
 nav: Providers
 network: true
-overview: 'Cuvva publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Car Insurance, and Financial-Services.
+overview: 'Cuvva publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Car Insurance, and Financial Services.
 
 
   Cuvva''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
@@ -195,7 +195,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ tags:
 - Insurance
 - Insurtech
 - Car Insurance
-- Financial-Services
+- Financial Services
 - Mobile
 - Authentication
 - United Kingdom

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 9
+- acting_count: 8
   human_in_the_loop: 0
   name: Rotessa Agentic Access
   operation_count: 13
   slug: rotessa-agentic-access
-  summary_line: 13 operations · 9 acting
+  summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
 - baseURL: https://api.rotessa.com/v1
@@ -52,30 +52,15 @@ apis:
   slug: rotessa-customers-api
 - baseURL: https://api.rotessa.com/v1
   baseurl_source: declared
-  description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
-  name: Rotessa Transaction Schedules API
-  slug: rotessa-transaction-schedules-api
-- baseURL: https://api.rotessa.com/v1
-  baseurl_source: declared
   description: Retrieve financial transaction records and their status (and status reasons) for reconciliation and reporting via the transaction report endpoint. Base URL https://api.rotessa.com/v1; API-key authenti
   name: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
 - baseURL: https://api.rotessa.com/v1
   baseurl_source: declared
-  description: Create, retrieve, and update the bank-account holders Rotessa withdraws from.
-  name: Rotessa Customers API
-  slug: rotessa-customers-api
-- baseURL: https://api.rotessa.com/v1
-  baseurl_source: declared
-  description: Retrieve financial transaction records and their status for reconciliation.
-  name: Rotessa Transaction Report API
-  slug: rotessa-transaction-report-api
-- baseURL: https://api.rotessa.com/v1
-  baseurl_source: declared
-  description: Create and manage one-time and recurring PAD/ACH transaction schedules.
+  description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
-artifact_total: 12
+artifact_total: 9
 collections:
 - collection_type: open
   name: Rotessa API
@@ -241,7 +226,7 @@ modified: '2026-09-16'
 name: Rotessa
 nav: Providers
 network: true
-overview: 'Rotessa publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Transaction Schedules API, Transaction Report API, and 3 more. Tagged areas include Payments, Canada, Pre-Authorized Debit, ACH, and Account-to-Account.
+overview: 'Rotessa publishes 3 APIs on the [APIs.io](https://apis.io/) network: Customers API, Transaction Report API, and Transaction Schedules API. Tagged areas include Payments, Canada, Pre-Authorized Debit, ACH, and Account-to-Account.
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
@@ -286,7 +271,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -296,7 +281,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-04-28'
 name: Mine Health and Safety Administration
 nav: Providers
 network: true
-overview: Mine Health and Safety Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Mining, Safety, and Health.
+overview: Mine Health and Safety Administration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Mining, Safety, and Health.
 random_paper: 8
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -93,7 +93,7 @@ score:
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine-health-and-safety-administration/refs/heads/main/screenshots/mine-health-and-safety-administration-2026-06-20T185604.png
 slug: mine-health-and-safety-administration
 tags:
-- Federal-Government
+- Federal Government
 - Mining
 - Safety
 - Health

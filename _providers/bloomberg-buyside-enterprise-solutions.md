@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 14
   human_in_the_loop: 0
   name: Bloomberg Buyside Enterprise Solutions Agentic Access
   operation_count: 40
   slug: bloomberg-buyside-enterprise-solutions-agentic-access
-  summary_line: 40 operations · 19 acting
+  summary_line: 40 operations · 14 acting
 api_count: 4
 apis:
 - description: Programmatic access to Bloomberg's financial data including reference data, historical pricing, corporate actions, and market data for portfolio management and analytics.
@@ -321,7 +321,7 @@ modified: '2026-09-16'
 name: Bloomberg Buyside Enterprise Solutions
 nav: Providers
 network: true
-overview: 'Bloomberg Buyside Enterprise Solutions publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Benchmarks API, Blotters API, and 19 more. Tagged areas include Analytics, Asset Management, Buy-Side, Enterprise Solutions, and Financial-Services.
+overview: 'Bloomberg Buyside Enterprise Solutions publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Benchmarks API, Blotters API, and 19 more. Tagged areas include Analytics, Asset Management, Buy-Side, Enterprise Solutions, and Financial Services.
 
 
   The Bloomberg Buyside Enterprise Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -381,7 +381,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -406,9 +406,9 @@ tags:
 - Asset Management
 - Buy-Side
 - Enterprise Solutions
-- Financial-Services
+- Financial Services
 - Market Data
-- Portfolio-Management
+- Portfolio Management
 - Trading
 website: https://bloomberg.com
 ---

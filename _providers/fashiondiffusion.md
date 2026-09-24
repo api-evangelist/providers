@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'REST API for asynchronous AI fashion generation tasks. Authenticates with a single long-lived bearer API key (Authorization: Bearer fd_live_xxx); the secret is shown only once at creation and a key ma'
@@ -108,7 +108,7 @@ modified: '2026-08-31'
 name: Fashion Diffusion
 nav: Providers
 network: true
-overview: 'Fashion Diffusion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, E-Commerce, Retail, Generative AI, and Image-Generation.
+overview: 'Fashion Diffusion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, E-Commerce, Retail, Generative AI, and Image Generation.
 
 
   Fashion Diffusion''s developer surface includes pricing, signup flow, engineering blog, support, and 9 more developer resources.'
@@ -144,7 +144,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -166,9 +166,9 @@ tags:
 - E-Commerce
 - Retail
 - Generative AI
-- Image-Generation
+- Image Generation
 - Virtual Try-On
-- Computer-Vision
+- Computer Vision
 - Video Generation
 - Product Photography
 - Creative / Design Tools

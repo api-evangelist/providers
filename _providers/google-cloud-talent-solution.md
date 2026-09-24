@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Google Cloud Talent Solution Agentic Access
   operation_count: 12
   slug: google-cloud-talent-solution-agentic-access
-  summary_line: 12 operations · 7 acting
+  summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
 - baseURL: https://jobs.googleapis.com
@@ -148,7 +148,7 @@ modified: '2026-05-19'
 name: Google Cloud Talent Solution
 nav: Providers
 network: true
-overview: 'Google Cloud Talent Solution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Jobs API, and Tenants API. Tagged areas include Google Cloud, Job, Machine-Learning, Recruitment, and Search.
+overview: 'Google Cloud Talent Solution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Jobs API, and Tenants API. Tagged areas include Google Cloud, Job, Machine Learning, Recruitment, and Search.
 
 
   The Google Cloud Talent Solution catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -230,7 +230,7 @@ slug: google-cloud-talent-solution
 tags:
 - Google Cloud
 - Job
-- Machine-Learning
+- Machine Learning
 - Recruitment
 - Search
 - Talent

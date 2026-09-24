@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
@@ -84,7 +84,7 @@ apis:
   description: Global Cloudflare WARP override state.
   name: Zero Trust Network Access WARP Override API
   slug: zero-trust-network-access-warp-override-api
-artifact_total: 47
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -236,10 +236,6 @@ finops:
 - name: Zero Trust Network Access Finops
   service_category: API
   slug: zero-trust-network-access-finops
-graphqls:
-- description: ''
-  name: Zero Trust Network Access GraphQL API
-  slug: zero-trust-network-access-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zero-trust-network-access.png
 json_schemas:
 - name: ZTNA Protected Application
@@ -296,7 +292,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -318,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://gbfs.api.ridedott.com/public/v2
@@ -62,7 +62,10 @@ apis:
   description: Geofencing / operating zones
   name: Dott Zones API
   slug: dott-zones-api
-artifact_total: 18
+- description: Partner-facing data API from Dott (formerly TIER), providing vehicle and availability data (GBFS-style) to authorized partners. Access requires a per-partner API Key issued through Dott's registration
+  name: Dott Partner API
+  slug: dott-partner-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -189,6 +192,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/dott-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://ridedott.com/feed
 created: '2026-07-17'
 description: 'Dott is a European shared micromobility operator running fleets of electric scooters and e-bikes across 250+ cities in Europe and the Middle East. Formed from the 2024 merger of Dott and TIER (the TIER brand was retired into the Dott app that year), the company is headquartered in Amsterdam, Berlin and Paris. For developers and mobility-data partners, Dott publishes its fleet data through the open GBFS 2.3 standard: real-time vehicle locations, vehicle types, per-city pricing plans, geofencing zones and station data are served from gbfs.api.ridedott.com, with an authenticated partner variant carrying stable (non-rotating) vehicle IDs. Originally added to the API Evangelist network as a SoftBank Vision Fund portfolio lead, enriched from its live public developer surface.'
 examples:
@@ -216,7 +223,7 @@ network: true
 overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Stations API, System API, and 2 more. Tagged areas include Company, Transportation, Micromobility, Mobility, and E-Scooter.
 
 
-  Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 17 more developer resources.'
+  Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 18 more developer resources.'
 random_paper: 3
 score:
   band: developing
@@ -253,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -265,6 +272,10 @@ security:
   name: Dott Authentication
   slug: dott-authentication
   summary_line: none/apiKey · 2 schemes
+- kind: authentication
+  name: Tier Mobility Authentication
+  slug: tier-mobility-authentication
+  summary_line: none/http · 2 schemes
 - kind: domain-security
   name: Dott Domain Security
   slug: dott-domain-security

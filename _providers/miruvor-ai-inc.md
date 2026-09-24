@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: Miruvor AI Inc.
 nav: Providers
 network: true
-overview: 'Miruvor AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Neuromorphic Computing, and Continual Learning.
+overview: 'Miruvor AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Neuromorphic Computing, and Continual Learning.
 
 
   Miruvor AI Inc.''s developer surface includes support and 3 more developer resources.'
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -102,7 +102,7 @@ slug: miruvor-ai-inc
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Neuromorphic Computing
 - Continual Learning
 - Spiking Neural Networks

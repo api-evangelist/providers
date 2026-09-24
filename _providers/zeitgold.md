@@ -23,7 +23,7 @@ modified: '2026-09-16'
 name: Zeitgold
 nav: Providers
 network: true
-overview: Zeitgold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bookkeeping, Accounting, and Financial-Services.
+overview: Zeitgold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Bookkeeping, Accounting, and Financial Services.
 random_paper: 8
 slug: zeitgold
 tags:
@@ -31,7 +31,7 @@ tags:
 - Fintech
 - Bookkeeping
 - Accounting
-- Financial-Services
+- Financial Services
 - SMB
 - Germany
 - Defunct

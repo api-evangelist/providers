@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -48,97 +48,97 @@ apis:
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The ai-chat API from Remberg — 2 operation(s) for ai-chat.
-  name: Remberg ai-chat API
+  name: Remberg AI Chat API
   slug: remberg-ai-chat-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The asset-status-signals API from Remberg — 5 operation(s) for asset-status-signals.
-  name: Remberg asset-status-signals API
+  name: Remberg Asset Status Signals API
   slug: remberg-asset-status-signals-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The asset-types API from Remberg — 3 operation(s) for asset-types.
-  name: Remberg asset-types API
+  name: Remberg Asset Types API
   slug: remberg-asset-types-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The assets API from Remberg — 5 operation(s) for assets.
-  name: Remberg assets API
+  name: Remberg Assets API
   slug: remberg-assets-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The contacts API from Remberg — 2 operation(s) for contacts.
-  name: Remberg contacts API
+  name: Remberg Contacts API
   slug: remberg-contacts-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The failure-types API from Remberg — 2 operation(s) for failure-types.
-  name: Remberg failure-types API
+  name: Remberg Failure Types API
   slug: remberg-failure-types-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The files API from Remberg — 6 operation(s) for files.
-  name: Remberg files API
+  name: Remberg Files API
   slug: remberg-files-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The forms API from Remberg — 2 operation(s) for forms.
-  name: Remberg forms API
+  name: Remberg Forms API
   slug: remberg-forms-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The inventories API from Remberg — 4 operation(s) for inventories.
-  name: Remberg inventories API
+  name: Remberg Inventories API
   slug: remberg-inventories-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The organizations API from Remberg — 4 operation(s) for organizations.
-  name: Remberg organizations API
+  name: Remberg Organizations API
   slug: remberg-organizations-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The part-stock-changes API from Remberg — 2 operation(s) for part-stock-changes.
-  name: Remberg part-stock-changes API
+  name: Remberg Part Stock Changes API
   slug: remberg-part-stock-changes-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The parts API from Remberg — 3 operation(s) for parts.
-  name: Remberg parts API
+  name: Remberg Parts API
   slug: remberg-parts-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The procedure-templates API from Remberg — 1 operation(s) for procedure-templates.
-  name: Remberg procedure-templates API
+  name: Remberg Procedure Templates API
   slug: remberg-procedure-templates-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The tickets API from Remberg — 4 operation(s) for tickets.
-  name: Remberg tickets API
+  name: Remberg Tickets API
   slug: remberg-tickets-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The user-groups API from Remberg — 1 operation(s) for user-groups.
-  name: Remberg user-groups API
+  name: Remberg User Groups API
   slug: remberg-user-groups-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The user-roles API from Remberg — 1 operation(s) for user-roles.
-  name: Remberg user-roles API
+  name: Remberg User Roles API
   slug: remberg-user-roles-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The users API from Remberg — 3 operation(s) for users.
-  name: Remberg users API
+  name: Remberg Users API
   slug: remberg-users-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The work-orders API from Remberg — 12 operation(s) for work-orders.
-  name: Remberg work-orders API
+  name: Remberg Work Orders API
   slug: remberg-work-orders-api
 - baseURL: https://api.remberg.de
   baseurl_source: declared
   description: The work-requests API from Remberg — 7 operation(s) for work-requests.
-  name: Remberg work-requests API
+  name: Remberg Work Requests API
   slug: remberg-work-requests-api
 artifact_total: 47
 asyncapis:
@@ -359,7 +359,7 @@ modified: '2026-07-21'
 name: Remberg
 nav: Providers
 network: true
-overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network, including ai-chat API, asset-status-signals API, asset-types API, and 16 more. Tagged areas include Maintenance, Asset Management, CMMS, EAM, and Field Service.
+overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network, including AI Chat API, Asset Status Signals API, Asset Types API, and 16 more. Tagged areas include Maintenance, Asset Management, CMMS, EAM, and Field Service.
 
 
   The Remberg catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -388,7 +388,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 4.5
@@ -404,7 +404,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 48.5
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -416,7 +416,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

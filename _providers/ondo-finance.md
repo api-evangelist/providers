@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 59
+- acting_count: 55
   human_in_the_loop: 3
   name: Ondo Finance Agentic Access
   operation_count: 130
   slug: ondo-finance-agentic-access
-  summary_line: 130 operations · 59 acting · 3 human-in-the-loop
+  summary_line: 130 operations · 55 acting · 3 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://api.gm.ondo.finance
@@ -465,7 +465,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -496,6 +496,6 @@ tags:
 - Perpetual Futures
 - Market Data
 - Blockchain
-- Financial-Services
+- Financial Services
 website: https://ondo.finance/
 ---

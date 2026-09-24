@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ modified: '2026-09-09'
 name: Federal Mine Safety and Health Review Commission
 nav: Providers
 network: true
-overview: 'Federal Mine Safety and Health Review Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Mine Safety, Adjudication, Occupational Safety, and Legal.
+overview: 'Federal Mine Safety and Health Review Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Mine Safety, Adjudication, Occupational Safety, and Legal.
 
 
   Federal Mine Safety and Health Review Commission''s developer surface includes support, engineering blog, and 7 more developer resources.'
@@ -130,7 +130,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: federal-mine-safety-and-health-review-commission
 tags:
-- Federal-Government
+- Federal Government
 - Mine Safety
 - Adjudication
 - Occupational Safety

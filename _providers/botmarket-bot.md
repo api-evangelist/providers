@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'Anonymous JSON read surface for the BotMarket directory at https://botmarket.bot/v1 — documented in llms.txt rather than in a contract: GET /v1/mcps?q=, /v1/agents, /v1/protocols, /v1/quests, /v1/skil'
@@ -171,7 +171,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

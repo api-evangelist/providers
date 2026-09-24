@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 37
-  human_in_the_loop: 2
+- acting_count: 26
+  human_in_the_loop: 1
   name: Amazon Swf Agentic Access
   operation_count: 37
   slug: amazon-swf-agentic-access
-  summary_line: 37 operations · 37 acting · 2 human-in-the-loop
+  summary_line: 37 operations · 26 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://swf.amazonaws.com
@@ -2000,7 +2000,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

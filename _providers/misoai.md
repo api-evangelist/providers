@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.askmiso.com
@@ -266,7 +266,7 @@ modified: '2026-09-16'
 name: miso.ai
 nav: Providers
 network: true
-overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Search, and Recommendations.
+overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Search, and Recommendations.
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 23 more developer resources.'
@@ -300,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -319,7 +319,7 @@ slug: misoai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Search
 - Recommendations
 - Personalization

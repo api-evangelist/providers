@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: CKAN Action API for Open Data Schleswig-Holstein, a consistent JSON-over-HTTP interface over a catalog of 32,414 datasets. Standard actions include package_search, package_show, package_list, organiza
@@ -138,7 +138,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ tags:
 - Data Catalog
 - DCAT
 - Government Data
-- State-Government
+- State Government
 - Germany
 website: https://opendata.schleswig-holstein.de
 ---

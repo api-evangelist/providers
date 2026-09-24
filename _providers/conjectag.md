@@ -33,7 +33,7 @@ tags:
 - Software-as-a-Service
 - Project Management
 - Collaboration
-- Document-Management
+- Document Management
 - Defunct
 - Germany
 ---

@@ -35,80 +35,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Flowise Agentic Access
   operation_count: 46
   slug: flowise-agentic-access
-  summary_line: 46 operations · 30 acting
+  summary_line: 46 operations · 29 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The assistants API from Flowise — 2 operation(s) for assistants.
-  name: Flowise assistants API
+  name: Flowise Assistants API
   slug: flowise-assistants-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The attachments API from Flowise — 1 operation(s) for attachments.
-  name: Flowise attachments API
+  name: Flowise Attachments API
   slug: flowise-attachments-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The chatflows API from Flowise — 3 operation(s) for chatflows.
-  name: Flowise chatflows API
+  name: Flowise Chatflows API
   slug: flowise-chatflows-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The chatmessage API from Flowise — 1 operation(s) for chatmessage.
-  name: Flowise chatmessage API
+  name: Flowise Chatmessage API
   slug: flowise-chatmessage-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The document-store API from Flowise — 9 operation(s) for document-store.
-  name: Flowise document-store API
+  name: Flowise Document Store API
   slug: flowise-document-store-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The feedback API from Flowise — 2 operation(s) for feedback.
-  name: Flowise feedback API
+  name: Flowise Feedback API
   slug: flowise-feedback-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The leads API from Flowise — 2 operation(s) for leads.
-  name: Flowise leads API
+  name: Flowise Leads API
   slug: flowise-leads-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The ping API from Flowise — 1 operation(s) for ping.
-  name: Flowise ping API
+  name: Flowise Ping API
   slug: flowise-ping-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The prediction API from Flowise — 1 operation(s) for prediction.
-  name: Flowise prediction API
+  name: Flowise Prediction API
   slug: flowise-prediction-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The tools API from Flowise — 2 operation(s) for tools.
-  name: Flowise tools API
+  name: Flowise Tools API
   slug: flowise-tools-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The upsert-history API from Flowise — 1 operation(s) for upsert-history.
-  name: Flowise upsert-history API
+  name: Flowise Upsert History API
   slug: flowise-upsert-history-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The variables API from Flowise — 2 operation(s) for variables.
-  name: Flowise variables API
+  name: Flowise Variables API
   slug: flowise-variables-api
 - baseURL: http://localhost:3000/api/v1
   baseurl_source: declared
   description: The vector API from Flowise — 1 operation(s) for vector.
-  name: Flowise vector API
+  name: Flowise Vector API
   slug: flowise-vector-api
 artifact_total: 50
 collections:
@@ -323,7 +323,7 @@ modified: '2026-05-24'
 name: Flowise
 nav: Providers
 network: true
-overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including assistants API, attachments API, chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, LLM, and Low-Code.
+overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assistants API, Attachments API, Chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, LLM, and Low-Code.
 
 
   The Flowise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -388,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -414,7 +414,7 @@ tags:
 - LangChain
 - RAG
 - Chatbots
-- Open-Source
+- Open Source
 - Node.js
 - TypeScript
 website: https://flowiseai.com/

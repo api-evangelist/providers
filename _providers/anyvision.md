@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served from the customer's own OnWatch server under th
@@ -159,7 +159,7 @@ modified: '2026-08-06'
 name: AnyVision
 nav: Providers
 network: true
-overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Facial Recognition, Computer-Vision, Video Analytics, Physical Security, and Access Control.
+overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Facial Recognition, Computer Vision, Video Analytics, Physical Security, and Access Control.
 
 
   The AnyVision catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -196,7 +196,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -215,7 +215,7 @@ security:
 slug: anyvision
 tags:
 - Facial Recognition
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Physical Security
 - Access Control

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ modified: '2026-05-19'
 name: Acadia
 nav: Providers
 network: true
-overview: 'Acadia publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Employees API, Quizzes API, Roles API, and 2 more. Tagged areas include Connected Worker, Knowledge-Management, Manufacturing, Skills Management, and Training.
+overview: 'Acadia publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Employees API, Quizzes API, Roles API, and 2 more. Tagged areas include Connected Worker, Knowledge Management, Manufacturing, Skills Management, and Training.
 
 
   The Acadia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -356,7 +356,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -374,7 +374,7 @@ security:
 slug: acadia
 tags:
 - Connected Worker
-- Knowledge-Management
+- Knowledge Management
 - Manufacturing
 - Skills Management
 - Training

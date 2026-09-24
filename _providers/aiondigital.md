@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -112,7 +112,7 @@ modified: '2026-09-14'
 name: Aion Digital
 nav: Providers
 network: true
-overview: 'Aion Digital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Digital Banking, and Fintech.
+overview: 'Aion Digital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Digital Banking, and Fintech.
 
 
   Aion Digital''s developer surface includes support, engineering blog, and 12 more developer resources.'
@@ -158,7 +158,7 @@ score:
     regime_id: banking_open_finance
     score: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ slug: aiondigital
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - Fintech
 - Open Banking

@@ -89,7 +89,7 @@ tags:
 - Mobile
 - SDK
 - Credit Cards
-- Computer-Vision
+- Computer Vision
 - Card Scanning
 - Defunct
 website: https://www.card.io

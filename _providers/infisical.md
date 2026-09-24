@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1172
+- acting_count: 1166
   human_in_the_loop: 7
   name: Infisical Agentic Access
   operation_count: 1996
   slug: infisical-agentic-access
-  summary_line: 1996 operations · 1172 acting · 7 human-in-the-loop
+  summary_line: 1996 operations · 1166 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.infisical.com
@@ -800,7 +800,7 @@ modified: 2026-06-13
 name: Infisical
 nav: Providers
 network: true
-overview: 'Infisical publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Alibaba Cloud Auth API, App Connections API, and 70 more. Tagged areas include Secrets Management, Security, DevOps, Developer Tools, and Open-Source.
+overview: 'Infisical publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Alibaba Cloud Auth API, App Connections API, and 70 more. Tagged areas include Secrets Management, Security, DevOps, Developer Tools, and Open Source.
 
 
   The Infisical catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -857,7 +857,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -882,7 +882,7 @@ tags:
 - Security
 - DevOps
 - Developer Tools
-- Open-Source
+- Open Source
 - PKI
 - Certificates
 - Privileged Access Management

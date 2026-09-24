@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'A conceptual, API-Evangelist-derived domain model of Ally Financial''s consumer platform spanning deposit accounts (checking, savings, money market, CDs, IRAs), lending (auto, personal, mortgage, home '
@@ -41,7 +41,7 @@ apis:
 - description: The legacy Ally Invest brokerage REST API, inherited from Ally's 2016 acquisition of TradeKing. It offered OAuth 1.0a authenticated access (consumer key/secret plus OAuth token/secret) over documented
   name: Ally Invest API (Legacy / Retired)
   slug: ally-invest-api-legacy-retired
-artifact_total: 14
+artifact_total: 13
 common:
 - group: operate
   title: ''
@@ -79,10 +79,6 @@ features:
   name: Corporate Finance API
 - description: API integration with dealer management systems for Ally's automotive dealer network covering vehicle financing, floorplan, and insurance products.
   name: Dealer Management Integration
-graphqls:
-- description: Ally Financial is an online bank and auto finance company offering a broad range of financial products including checking and savings accounts, money market accounts, CDs, IRAs, investment and brokera
-  name: Ally Financial GraphQL Schema
-  slug: ally-financial-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ally-financial.png
 integrations:
 - description: Account connectivity and transaction data access through Plaid's open banking network for consumer-permissioned fintech applications.
@@ -118,20 +114,20 @@ press:
   url: https://media.ally.com/multimedia
 random_paper: 4
 score:
-  band: emerging
-  composite: 18.8
+  band: minimal
+  composite: 8.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 59.3
     operational_transparency: 2.6
@@ -150,8 +146,8 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

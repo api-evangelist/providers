@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -276,7 +276,7 @@ modified: '2026-05-19'
 name: TimescaleDB / Tiger Data
 nav: Providers
 network: true
-overview: 'TimescaleDB / Tiger Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Read Replica Sets API, and 2 more. Tagged areas include Database, Time Series, PostgreSQL, Open-Source, and Cloud.
+overview: 'TimescaleDB / Tiger Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth API, Read Replica Sets API, and 2 more. Tagged areas include Database, Time Series, PostgreSQL, Open Source, and Cloud.
 
 
   The TimescaleDB / Tiger Data catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -330,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -354,7 +354,7 @@ tags:
 - Database
 - Time Series
 - PostgreSQL
-- Open-Source
+- Open Source
 - Cloud
 - Hypertables
 - Continuous Aggregates

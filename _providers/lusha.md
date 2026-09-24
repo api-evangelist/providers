@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 38
+- acting_count: 28
   human_in_the_loop: 0
   name: Lusha Agentic Access
-  operation_count: 58
+  operation_count: 88
   slug: lusha-agentic-access
-  summary_line: 58 operations · 38 acting
+  summary_line: 88 operations · 28 acting
 api_count: 2
 apis:
 - baseURL: https://api.lusha.com
@@ -54,7 +54,7 @@ apis:
   baseurl_source: declared
   description: 'Reveal full contact and company profiles by Lusha id, with an explicit `reveal` list controlling which fields are unlocked and charged, and optional waterfall fall-through to enabled third-party data '
   name: Lusha Enrich API
-  slug: lusha-enrichment-api
+  slug: lusha-enrich-api
 - baseURL: https://api.lusha.com
   baseurl_source: declared
   description: Resolve an identifier and return the fully revealed contact or company record in a single call, collapsing the two-phase search-then-enrich pattern where the caller has already decided to spend credit
@@ -458,7 +458,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

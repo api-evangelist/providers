@@ -33,5 +33,5 @@ tags:
 - Acquired
 - News Summarization
 - Natural Language Processing
-- Machine-Learning
+- Machine Learning
 ---

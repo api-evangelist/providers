@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 45
+- acting_count: 41
   human_in_the_loop: 1
   name: Breeze Agentic Access
   operation_count: 89
   slug: breeze-agentic-access
-  summary_line: 89 operations · 45 acting · 1 human-in-the-loop
+  summary_line: 89 operations · 41 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.breeze.baby
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://api.breeze.baby
   baseurl_source: declared
   description: The fund API from Breeze — 1 operation(s) for fund.
-  name: Breeze fund API
+  name: Breeze Fund API
   slug: breeze-fund-api
 - baseURL: https://api.breeze.baby
   baseurl_source: declared
@@ -294,7 +294,7 @@ modified: '2026-07-18'
 name: Breeze
 nav: Providers
 network: true
-overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Deposits API, fund API, and 12 more. Tagged areas include Company, Crypto Web3, Solana, Yield, and DeFi.
+overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Deposits API, Fund API, and 12 more. Tagged areas include Company, Crypto Web3, Solana, Yield, and DeFi.
 
 
   Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
@@ -335,7 +335,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 48
+- acting_count: 39
   human_in_the_loop: 2
   name: Amazon Guardduty Agentic Access
   operation_count: 67
   slug: amazon-guardduty-agentic-access
-  summary_line: 67 operations · 48 acting · 2 human-in-the-loop
+  summary_line: 67 operations · 39 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://guardduty.amazonaws.com
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/guardduty/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3772,7 +3772,7 @@ modified: '2026-09-16'
 name: Amazon GuardDuty
 nav: Providers
 network: true
-overview: 'Amazon GuardDuty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine-Learning, Monitoring, and Security.
+overview: 'Amazon GuardDuty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Detector API, Invitation API, and 1 more. Tagged areas include Anomaly Detection, Compliance, Machine Learning, Monitoring, and Security.
 
 
   The Amazon GuardDuty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3837,7 +3837,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -3864,7 +3864,7 @@ slug: amazon-guardduty
 tags:
 - Anomaly Detection
 - Compliance
-- Machine-Learning
+- Machine Learning
 - Monitoring
 - Security
 - Threat Detection
@@ -3879,5 +3879,5 @@ use_cases:
   name: Malware Detection
 - description: Identify unusual data access patterns and potential exfiltration from S3 buckets.
   name: Data Exfiltration Prevention
-website: https://amazon.com
+website: https://aws.amazon.com/guardduty/
 ---

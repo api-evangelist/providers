@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: A first-party API host AgotoZ operates on its own registrable domain at openapi.agotoz.com, named for an open API surface and serving a valid wildcard *.agotoz.com TLS certificate. It is not reachable
@@ -140,7 +140,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ tags:
 - SASE
 - DDoS Protection
 - Cloud Connectivity
-- Data-Center
+- Data Center
 - Telecommunications
 website: https://www.agotoz.com/
 ---

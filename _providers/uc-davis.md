@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 31
   human_in_the_loop: 4
   name: Uc Davis Agentic Access
-  operation_count: 81
+  operation_count: 100
   slug: uc-davis-agentic-access
-  summary_line: 81 operations · 30 acting · 4 human-in-the-loop
+  summary_line: 100 operations · 31 acting · 4 human-in-the-loop
 api_count: 5
 apis:
 - description: UC Davis operates its own SAML 2.0 identity provider and publishes signed federation metadata as entityID urn:mace:incommon:ucdavis.edu. This is machine-readable, institution-operated by definition, a
@@ -487,7 +487,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 9.8
@@ -502,9 +502,10 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.1
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -517,7 +518,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -547,6 +548,6 @@ tags:
 - Digital Collections
 - Library
 - Health
-- Open-Source
+- Open Source
 website: https://www.ucdavis.edu/
 ---

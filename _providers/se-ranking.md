@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 28
+- acting_count: 27
   human_in_the_loop: 0
   name: Se Ranking Agentic Access
   operation_count: 86
   slug: se-ranking-agentic-access
-  summary_line: 86 operations · 28 acting
+  summary_line: 86 operations · 27 acting
 api_count: 1
 apis:
 - description: REST API providing access to SE Ranking's SEO datasets including keyword research, backlink analysis, domain analysis, SERP data, website audits, and AI search visibility tracking. Uses a credit-based
@@ -63,7 +63,7 @@ apis:
 - baseURL: https://api.seranking.com
   baseurl_source: declared
   description: '# Backlinks API This collection of requests allows you to conduct a comprehensive analysis of the backlink profile for any given target, whether it''s a root domain, a specific host (subdomain), or a p'
-  name: SE Ranking backlinks API
+  name: SE Ranking Backlinks API
   slug: se-ranking-backlinks-api
 - baseURL: https://api.seranking.com
   baseurl_source: declared
@@ -403,7 +403,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

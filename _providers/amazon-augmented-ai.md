@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -61,7 +61,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/augmented-ai/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/mcp/amazon-augmented-ai-mcp.yml
   title: ''
@@ -253,7 +253,7 @@ modified: '2026-09-16'
 name: Amazon Augmented AI
 nav: Providers
 network: true
-overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human-in-the-Loop, Machine-Learning, and AI Review.
+overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/) network: Human Loops API. Tagged areas include Amazon Augmented AI, Human-in-the-Loop, Machine Learning, and AI Review.
 
 
   The Amazon Augmented AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -312,7 +312,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -335,7 +335,7 @@ slug: amazon-augmented-ai
 tags:
 - Amazon Augmented AI
 - Human-in-the-Loop
-- Machine-Learning
+- Machine Learning
 - AI Review
 use_cases:
 - Review low-confidence document text extraction results
@@ -344,5 +344,5 @@ use_cases:
 - Ensure accuracy of medical record processing
 - Verify identity document data extraction results
 - Build training datasets with human-verified labels
-website: https://amazon.com
+website: https://aws.amazon.com/augmented-ai/
 ---

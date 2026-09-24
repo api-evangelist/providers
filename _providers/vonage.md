@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -84,7 +84,7 @@ apis:
   description: Create and control voice calls
   name: Vonage Voice API
   slug: vonage-voice-api
-artifact_total: 75
+artifact_total: 74
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Vonage''s publicly-documented WebSocket surface. The only Vonage product whose realtime protocol is publicly specified frame-by-frame is the Voice API WebSocket endpoint: th'
   name: Vonage Voice WebSocket API
@@ -290,10 +290,6 @@ finops:
 - name: Vonage Finops
   service_category: Communications
   slug: vonage-finops
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Vonage Communications API platform (part of Ericsson). Vonage provides cloud communications APIs spanning Voice, SMS, multi-channel Messagin
-  name: Vonage GraphQL Schema
-  slug: vonage-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vonage.png
 json_schemas:
 - name: Application
@@ -416,20 +412,20 @@ rules:
   slug: vonage-rules
 score:
   band: developing
-  composite: 51.7
+  composite: 50.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 57.5
     catalog_earned_first_party: 0.0
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 44.7
     contract_governance: 13.6
-    contract_quality: 68.6
-    developer_ergonomics: 66.7
+    contract_quality: 67.2
+    developer_ergonomics: 63.1
     discoverability: 75.9
     operational_transparency: 13.2
   previous_composite: 51.7
@@ -447,7 +443,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -475,5 +471,6 @@ tags:
 - Voice
 - SMS
 - Verification
+- Real-Time
 website: https://www.vonage.com/
 ---

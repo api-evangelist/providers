@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -67,7 +67,7 @@ apis:
 - description: Schema Stitching is a GraphQL technique for combining multiple GraphQL schemas into a single unified API gateway. The @graphql-tools/stitch package creates a combined proxy layer that delegates reques
   name: Schema Stitching
   slug: schema-stitching
-artifact_total: 53
+artifact_total: 43
 common:
 - group: operate
   title: ''
@@ -447,11 +447,6 @@ common:
   title: ''
   type: LlmsText
   url: https://graphql-hive.com/llms.txt
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/graphql/the-guild-dev-hive-console.graphql
-  title: ''
-  type: GraphQL
-  url: graphql/the-guild-dev-hive-console.graphql
 created: '2026-08-03'
 description: The Guild is an open-source software group building much of the GraphQL ecosystem's tooling, published together at the-guild.dev. Its portfolio spans GraphQL Hive (schema registry, usage observability and breaking-change detection), GraphQL Mesh (composing many APIs into one graph), GraphQL Yoga (server), Envelop (plugin runtime), GraphQL Tools and Schema Stitching (schema composition), GraphQL Code Generator (typed clients and servers), GraphQL Inspector (schema diffing and CI checks) and GraphQL Scalars. Every product listed here shares the-guild.dev as its home, which is why they are profiled as one provider with many APIs rather than as separate companies.
 examples:
@@ -474,37 +469,6 @@ finops:
 - name: Schema Stitching Finops
   service_category: API
   slug: schema-stitching-finops
-graphqls:
-- description: Envelop is a lightweight JavaScript/TypeScript plugin system for wrapping the GraphQL execution pipeline. Developed by The Guild, it exposes composable lifecycle hooks that intercept and extend the pa
-  name: Envelop GraphQL Plugin API
-  slug: envelop-graphql
-- description: GraphQL Code Generator is a CLI tool from The Guild that generates TypeScript types, React hooks, resolvers, and SDKs from GraphQL schemas and operations. It has a plugin-based architecture with 50+ c
-  name: GraphQL Code Generator – GraphQL Schema
-  slug: graphql-code-generator-graphql
-- description: GraphQL Code Generator generates typed code from GraphQL schemas and operations, supporting TypeScript, React Query, Apollo Client, and many other frameworks through its plugin system.
-  name: GraphQL Code Generator GraphQL API
-  slug: graphql-codegen-graphql
-- description: GraphQL Hive exposes a public GraphQL API for programmatic management of organizations, projects, targets, and schema registries. Developers use this API to automate schema publishing workflows, retri
-  name: GraphQL Hive GraphQL API
-  slug: graphql-hive-graphql
-- description: GraphQL Inspector is a CLI tool and GitHub Action for schema change detection and validation — it consumes GraphQL schemas rather than exposing a live GraphQL endpoint. There is no public hosted Graph
-  name: GraphQL Inspector GraphQL API
-  slug: graphql-inspector-graphql
-- description: GraphQL Mesh is a framework by The Guild that unifies REST, gRPC, SOAP, OData, Thrift, GraphQL, and database sources into a single GraphQL schema. When deployed as a gateway using `mesh start` or `mes
-  name: GraphQL Mesh GraphQL API
-  slug: graphql-mesh-graphql
-- description: GraphQL Scalars provides custom scalar type definitions that can be added to any GraphQL schema. The scalars are defined using the standard `scalar` keyword and are fully compatible with the GraphQL s
-  name: GraphQL Scalars — GraphQL Reference
-  slug: graphql-scalars-graphql
-- description: GraphQL Tools is a modular toolkit from The Guild for building, merging, stitching, transforming, and mocking GraphQL schemas. It is a library — not a hosted API — distributed as a set of npm packages
-  name: GraphQL Tools - GraphQL Schema Documentation
-  slug: graphql-tools-graphql
-- description: 'GraphQL Yoga is a fully-featured, cross-platform GraphQL server from The Guild, built on top of graphql-js with an Envelop plugin system. It runs anywhere JavaScript runs — Node.js (Express, Fastify, '
-  name: GraphQL Yoga
-  slug: graphql-yoga-graphql
-- description: Schema Stitching is a GraphQL technique for combining multiple GraphQL schemas into a single unified API gateway. The @graphql-tools/stitch package creates a combined proxy layer that delegates reques
-  name: Schema Stitching GraphQL API
-  slug: schema-stitching-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql-hive.png
 json_schemas:
 - name: Report
@@ -540,7 +504,7 @@ overview: 'The Guild publishes 1 API on the [APIs.io](https://apis.io/) network:
   The The Guild catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  The Guild''s developer surface includes documentation, engineering blog, pricing, getting-started guide, GitHub presence, code examples, and 81 more developer resources.'
+  The Guild''s developer surface includes documentation, engineering blog, pricing, getting-started guide, GitHub presence, code examples, and 80 more developer resources.'
 plans:
 - name: Graphql Codegen Plans Pricing
   plan_count: 3
@@ -600,20 +564,20 @@ rules:
     warn: 4
   slug: schema-stitching-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 38.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 69.3
     catalog_earned_first_party: 0.0
     catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.0
   facets:
     access_clarity: 26.3
     contract_governance: 25.0
-    contract_quality: 64.9
+    contract_quality: 56.0
     developer_ergonomics: 31.0
     discoverability: 72.2
     operational_transparency: 34.2
@@ -622,7 +586,7 @@ score:
     score: 25.0
   previous_composite: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -687,7 +651,7 @@ tags:
 - Microservices
 - Middleware
 - Mocking
-- Open-Source
+- Open Source
 - Plugins
 - REST
 - SDK

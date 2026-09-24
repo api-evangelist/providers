@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -48,12 +48,12 @@ apis:
 - baseURL: https://ndi-api.nace.ai/api/v1
   baseurl_source: declared
   description: The health API from Nace Ai — 1 operation(s) for health.
-  name: Nace Ai health API
+  name: Nace Ai Health API
   slug: nace-ai-health-api
 - baseURL: https://ndi-api.nace.ai/api/v1
   baseurl_source: declared
   description: The public-api API from Nace Ai — 12 operation(s) for public-api.
-  name: Nace Ai public-api
+  name: Nace Ai Public API
   slug: nace-ai-public-api-api
 artifact_total: 10
 collections:
@@ -169,7 +169,7 @@ modified: '2026-09-16'
 name: Nace Ai
 nav: Providers
 network: true
-overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: health API and public-api. Tagged areas include Company, Artificial Intelligence, Document Intelligence, Document Processing, and Data Extraction.
+overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Public API. Tagged areas include Company, Artificial Intelligence, Document Intelligence, Document Processing, and Data Extraction.
 
 
   Nace Ai''s developer surface includes authentication, engineering blog, signup flow, and 16 more developer resources.'
@@ -208,7 +208,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -231,7 +231,7 @@ tags:
 - Document Processing
 - Data Extraction
 - OCR
-- Machine-Learning
+- Machine Learning
 - Enterprise Automation
 - MCP
 website: https://nace.ai

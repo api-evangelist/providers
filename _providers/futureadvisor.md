@@ -23,12 +23,12 @@ modified: '2026-09-16'
 name: Futureadvisor
 nav: Providers
 network: true
-overview: Futureadvisor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Wealth Management, Robo-Advisor, and Investment Management.
+overview: Futureadvisor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Wealth Management, Robo-Advisor, and Investment Management.
 random_paper: 19
 slug: futureadvisor
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Robo-Advisor
 - Investment Management

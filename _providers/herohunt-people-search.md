@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing
@@ -74,7 +74,7 @@ modified: '2026-05-28'
 name: HeroHunt People Search
 nav: Providers
 network: true
-overview: 'HeroHunt People Search publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job and Public APIs.
+overview: 'HeroHunt People Search publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Public APIs, and A2A.
 
 
   HeroHunt People Search''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -115,5 +115,6 @@ slug: herohunt-people-search
 tags:
 - Job
 - Public APIs
+- A2A
 website: https://www.herohunt.ai/people-search-api
 ---

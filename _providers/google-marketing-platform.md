@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
   description: The V1alpha API from Google Marketing Platform Admin — 4 operation(s) for v1alpha.
   name: Google Marketing Platform Admin V1alpha API
   slug: google-marketing-platform-v1alpha-api
-artifact_total: 46
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Google Marketing Platform Admin V1alpha API
@@ -297,10 +297,6 @@ finops:
 - name: Google Marketing Platform Finops
   service_category: API
   slug: google-marketing-platform-finops
-graphqls:
-- description: Google Marketing Platform Admin API covers organization management, accounts, user links, property access, and integration between GMP products including Analytics, Campaign Manager, and Display & Vid
-  name: Google Marketing Platform GraphQL API
-  slug: google-marketing-platform-graphql
 image: /assets/icons/google-marketing-platform.png
 integrations:
 - description: Direct linking and service level management for Google Analytics accounts within Marketing Platform organizations.
@@ -404,19 +400,19 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 55.9
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 67.5
     catalog_earned_first_party: 12.0
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 68.1
+    contract_quality: 63.9
     developer_ergonomics: 62.5
     discoverability: 68.5
     operational_transparency: 76.3
@@ -432,7 +428,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

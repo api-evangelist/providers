@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,12 +46,12 @@ apis:
 - baseURL: https://www.wine-searcher.com/ws_api.php
   baseurl_source: declared
   description: Merchant price listings
-  name: Wine-Searcher market-price API
+  name: Wine-Searcher Market Price API
   slug: wine-searcher-market-price-api
 - baseURL: https://www.wine-searcher.com/ws_api.php
   baseurl_source: declared
   description: Wine price check and data lookup
-  name: Wine-Searcher wine-check API
+  name: Wine-Searcher Wine Check API
   slug: wine-searcher-wine-check-api
 artifact_total: 18
 collections:
@@ -149,7 +149,7 @@ modified: '2026-05-19'
 name: Wine-Searcher
 nav: Providers
 network: true
-overview: 'Wine-Searcher publishes 2 APIs on the [APIs.io](https://apis.io/) network: market-price API and wine-check API. Tagged areas include Data, Marketplace, Wine, Prices, and Merchants.
+overview: 'Wine-Searcher publishes 2 APIs on the [APIs.io](https://apis.io/) network: Market Price API and Wine Check API. Tagged areas include Data, Marketplace, Wine, Prices, and Merchants.
 
 
   The Wine-Searcher catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -220,7 +220,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

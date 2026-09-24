@@ -33,7 +33,7 @@ modified: '2026-07-20'
 name: Bluefin Labs
 nav: Providers
 network: true
-overview: Bluefin Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Analytics, and Social-Media.
+overview: Bluefin Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Analytics, and Social Media.
 random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluefin-labs/refs/heads/main/screenshots/bluefin-labs-2026-07-25T203447.png
 slug: bluefin-labs
@@ -42,10 +42,10 @@ tags:
 - Defunct
 - Acquired
 - Analytics
-- Social-Media
+- Social Media
 - Television
 - Media Measurement
 - Advertising
-- Machine-Learning
+- Machine Learning
 website: http://bluefinlabs.com/
 ---

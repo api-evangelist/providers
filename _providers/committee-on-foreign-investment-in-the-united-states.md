@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: CFIUS publishes an annual report to Congress summarizing covered transactions reviewed during the prior calendar year, statistics on notices, declarations, withdrawn cases, and presidential decisions.
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Committee on Foreign Investment in the United States
 nav: Providers
 network: true
-overview: 'Committee on Foreign Investment in the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CFIUS, Federal-Government, Foreign Investment, National Security, and Regulations.
+overview: 'Committee on Foreign Investment in the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CFIUS, Federal Government, Foreign Investment, National Security, and Regulations.
 
 
   Committee on Foreign Investment in the United States'' developer surface includes documentation, FAQ, and 4 more developer resources.'
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -139,7 +139,7 @@ security:
 slug: committee-on-foreign-investment-in-the-united-states
 tags:
 - CFIUS
-- Federal-Government
+- Federal Government
 - Foreign Investment
 - National Security
 - Regulations

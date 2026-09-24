@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 259
+- acting_count: 255
   human_in_the_loop: 15
   name: H2O Ai Agentic Access
   operation_count: 429
   slug: h2o-ai-agentic-access
-  summary_line: 429 operations · 259 acting · 15 human-in-the-loop
+  summary_line: 429 operations · 255 acting · 15 human-in-the-loop
 api_count: 2
 apis:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It runs locally over stdio and proxies traffic to the h2oGPTe REST API, generating one MCP tool per RES
@@ -422,7 +422,7 @@ modified: '2026-08-04'
 name: H2O.ai
 nav: Providers
 network: true
-overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 22 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Generative AI.
+overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 22 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
@@ -457,7 +457,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -484,7 +484,7 @@ slug: h2o-ai
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Generative AI
 - LLM

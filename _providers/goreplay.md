@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'GoReplay captures live HTTP traffic with libpcap and replays it against a test target, letting teams validate deploys, configuration changes and infrastructure changes against real production traffic '
@@ -136,7 +136,7 @@ modified: '2026-09-13'
 name: GoReplay
 nav: Providers
 network: true
-overview: 'GoReplay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Traffic, Load Testing, Network Capture, and Open-Source.
+overview: 'GoReplay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, HTTP Traffic, Load Testing, Network Capture, and Open Source.
 
 
   GoReplay''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, CLI, changelog, and 11 more developer resources.'
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +190,7 @@ tags:
 - HTTP Traffic
 - Load Testing
 - Network Capture
-- Open-Source
+- Open Source
 - Traffic Replay
 website: https://goreplay.org
 ---

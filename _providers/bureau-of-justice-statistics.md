@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-05-19'
 name: Bureau of Justice Statistics
 nav: Providers
 network: true
-overview: 'Bureau of Justice Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Property Crime API, Victimization API, and Violent Crime API. Tagged areas include Crime, Federal-Government, Justice, Statistics, and Victimization.
+overview: 'Bureau of Justice Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Property Crime API, Victimization API, and Violent Crime API. Tagged areas include Crime, Federal Government, Justice, Statistics, and Victimization.
 
 
   Bureau of Justice Statistics'' developer surface includes developer portal and 7 more developer resources.'
@@ -174,7 +174,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -189,7 +189,7 @@ security:
 slug: bureau-of-justice-statistics
 tags:
 - Crime
-- Federal-Government
+- Federal Government
 - Justice
 - Statistics
 - Victimization

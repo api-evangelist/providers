@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ modified: '2026-07-18'
 name: Converge Bio
 nav: Providers
 network: true
-overview: 'Converge Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Drug Discovery, Generative AI, and Biotech.
+overview: 'Converge Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Drug Discovery, Generative AI, and Biotechnology.
 
 
   Converge Bio''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -127,11 +127,11 @@ tags:
 - Ai Ml
 - Drug Discovery
 - Generative AI
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Antibody Design
 - Genomics
 - Life Sciences
-- Machine-Learning
+- Machine Learning
 website: https://converge-bio.com/
 ---

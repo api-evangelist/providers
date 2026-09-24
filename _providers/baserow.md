@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 238
+- acting_count: 237
   human_in_the_loop: 10
   name: Baserow Agentic Access
   operation_count: 385
   slug: baserow-agentic-access
-  summary_line: 385 operations · 238 acting · 10 human-in-the-loop
+  summary_line: 385 operations · 237 acting · 10 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.baserow.io
@@ -644,7 +644,7 @@ modified: '2026-06-12'
 name: Baserow
 nav: Providers
 network: true
-overview: 'Baserow publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin data scanner API, AI Assistant API, and 55 more. Tagged areas include No-Code, Database, Open-Source, REST API, and Self-Hosted.
+overview: 'Baserow publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin data scanner API, AI Assistant API, and 55 more. Tagged areas include No-Code, Database, Open Source, REST API, and Self-Hosted.
 
 
   The Baserow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -701,7 +701,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -720,7 +720,7 @@ slug: baserow
 tags:
 - No-Code
 - Database
-- Open-Source
+- Open Source
 - REST API
 - Self-Hosted
 - Tables

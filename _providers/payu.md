@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 30
+- acting_count: 29
   human_in_the_loop: 0
   name: Payu Agentic Access
   operation_count: 47
   slug: payu-agentic-access
-  summary_line: 47 operations · 30 acting
+  summary_line: 47 operations · 29 acting
 api_count: 1
 apis:
 - description: REST API for payment processing in India. Supports hosted checkout, payment links, recurring payments, subscription management, save cards / vault, split settlements, wallet operations, cross-border p
@@ -277,7 +277,7 @@ modified: '2026-06-13'
 name: PayU
 nav: Providers
 network: true
-overview: 'PayU publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authorize API, Card Installments API, FX-Reference API, and 12 more. Tagged areas include Payments, Payment Processing, Fintech, Financial-Services, and Subscription.
+overview: 'PayU publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authorize API, Card Installments API, FX-Reference API, and 12 more. Tagged areas include Payments, Payment Processing, Fintech, Financial Services, and Subscription.
 
 
   The PayU catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -337,7 +337,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -365,7 +365,7 @@ tags:
 - Payments
 - Payment Processing
 - Fintech
-- Financial-Services
+- Financial Services
 - Subscription
 - Fraud Detection
 - Checkout

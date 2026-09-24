@@ -41,13 +41,13 @@ modified: '2026-07-21'
 name: SigOpt
 nav: Providers
 network: true
-overview: SigOpt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine-Learning, Optimization, Hyperparameter Tuning, and Experimentation.
+overview: SigOpt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Optimization, Hyperparameter Tuning, and Experimentation.
 random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigopt/refs/heads/main/screenshots/sigopt-2026-09-02T155440.png
 slug: sigopt
 tags:
 - Company
-- Machine-Learning
+- Machine Learning
 - Optimization
 - Hyperparameter Tuning
 - Experimentation

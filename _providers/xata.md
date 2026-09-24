@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 32
   human_in_the_loop: 0
   name: Xata Agentic Access
-  operation_count: 64
+  operation_count: 66
   slug: xata-agentic-access
-  summary_line: 64 operations · 35 acting
+  summary_line: 66 operations · 32 acting
 api_count: 1
 apis:
 - baseURL: https://api.xata.tech
@@ -294,7 +294,7 @@ modified: '2026-06-12'
 name: Xata
 nav: Providers
 network: true
-overview: 'Xata publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Billing API, Branches API, and 9 more. Tagged areas include Database, Postgres, Serverless, Developer Tools, and Branching.
+overview: 'Xata publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Billing API, Branches API, and 9 more. Tagged areas include Database, PostgreSQL, Serverless, Developer Tools, and Branching.
 
 
   The Xata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -353,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -379,7 +379,7 @@ security:
 slug: xata
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - Serverless
 - Developer Tools
 - Branching

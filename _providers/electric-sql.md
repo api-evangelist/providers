@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 1
   human_in_the_loop: 0
   name: Electric Sql Agentic Access
   operation_count: 3
   slug: electric-sql-agentic-access
-  summary_line: 3 operations · 2 acting
+  summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
 - description: 'The official @electric-sql/client NPM package that wraps the HTTP Sync API with two high-level primitives: ShapeStream (low-level message stream) and Shape (materialized view). Supports SSE, long-poll'
@@ -178,7 +178,7 @@ modified: '2026-06-12'
 name: ElectricSQL
 nav: Providers
 network: true
-overview: 'ElectricSQL publishes 1 API on the [APIs.io](https://apis.io/) network: Shape API. Tagged areas include Developer Tools, Database, Sync, Local-First, and Postgres.
+overview: 'ElectricSQL publishes 1 API on the [APIs.io](https://apis.io/) network: Shape API. Tagged areas include Developer Tools, Database, Sync, Local-First, and PostgreSQL.
 
 
   The ElectricSQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -249,8 +249,8 @@ tags:
 - Database
 - Sync
 - Local-First
-- Postgres
+- PostgreSQL
 - Real-Time
-- Open-Source
+- Open Source
 website: https://electric.ax
 ---

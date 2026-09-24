@@ -18,13 +18,13 @@ modified: '2026-07-21'
 name: Tracksby
 nav: Providers
 network: true
-overview: Tracksby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Marketing, Social-Media, and Defunct.
+overview: Tracksby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Marketing, Social Media, and Defunct.
 random_paper: 9
 slug: tracksby
 tags:
 - Company
 - Music
 - Marketing
-- Social-Media
+- Social Media
 - Defunct
 ---

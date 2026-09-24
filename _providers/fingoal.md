@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - baseURL: https://findmoney.fingoal.com/v3
@@ -247,7 +247,7 @@ modified: '2026-08-14'
 name: FinGoal
 nav: Providers
 network: true
-overview: 'FinGoal publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 4 more. Tagged areas include Financial-Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
+overview: 'FinGoal publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 4 more. Tagged areas include Financial Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
 
 
   The FinGoal catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -307,7 +307,7 @@ score:
     regime_id: banking_open_finance
     score: 69.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -328,7 +328,7 @@ security:
   summary_line: SOC 2 Type II, GDPR
 slug: fingoal
 tags:
-- Financial-Services
+- Financial Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment

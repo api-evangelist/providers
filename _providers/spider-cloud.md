@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 0
   name: Spider Cloud Agentic Access
   operation_count: 11
   slug: spider-cloud-agentic-access
-  summary_line: 11 operations · 8 acting
+  summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
 - description: 'Spider''s hosted Model Context Protocol server exposes 22 tools — eight core operations (crawl, scrape, search, links, screenshot, unblocker, transform, get_credits), five AI-routed variants, and nine '
@@ -288,7 +288,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

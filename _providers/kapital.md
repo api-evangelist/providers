@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,7 +130,7 @@ modified: '2026-08-23'
 name: Kapital
 nav: Providers
 network: true
-overview: 'Kapital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Fintech, Small and Medium Businesses, and Payments.
+overview: 'Kapital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Fintech, Small and Medium Businesses, and Payments.
 
 
   Kapital''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
@@ -179,7 +179,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +193,7 @@ security:
 slug: kapital
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Small and Medium Businesses
 - Payments

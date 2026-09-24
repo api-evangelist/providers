@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 294
+- acting_count: 290
   human_in_the_loop: 3
   name: Elastic Path Agentic Access
-  operation_count: 541
+  operation_count: 534
   slug: elastic-path-agentic-access
-  summary_line: 541 operations · 294 acting · 3 human-in-the-loop
+  summary_line: 534 operations · 290 acting · 3 human-in-the-loop
 api_count: 27
 apis:
 - description: GraphQL abstraction over a subset of the Elastic Path Commerce Cloud APIs, providing a flexible query interface optimized for shopper-facing experiences including product browsing and catalog queries.
@@ -1053,7 +1053,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

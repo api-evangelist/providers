@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as Flipboard Magazines, enabling content distribut
@@ -162,7 +162,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -182,6 +182,6 @@ tags:
 - Fediverse
 - News
 - RSS
-- Social-Media
+- Social Media
 website: https://flipboard.com/
 ---

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 156
+- acting_count: 150
   human_in_the_loop: 3
   name: Mend Agentic Access
-  operation_count: 291
+  operation_count: 293
   slug: mend-agentic-access
-  summary_line: 291 operations · 156 acting · 3 human-in-the-loop
+  summary_line: 293 operations · 150 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api-saas.mend.io
@@ -117,7 +117,7 @@ apis:
 - baseURL: https://api-saas.mend.io
   baseurl_source: declared
   description: The domain-controller API from Mend — 1 operation(s) for domain-controller.
-  name: Mend domain-controller API
+  name: Mend Domain Controller API
   slug: mend-domain-controller-api
 - baseURL: https://api-saas.mend.io
   baseurl_source: declared
@@ -202,12 +202,12 @@ apis:
 - baseURL: https://api-saas.mend.io
   baseurl_source: declared
   description: The product-attribution-report-controller API from Mend — 1 operation(s) for product-attribution-report-controller.
-  name: Mend product-attribution-report-controller API
+  name: Mend Product Attribution Report Controller API
   slug: mend-product-attribution-report-controller-api
 - baseURL: https://api-saas.mend.io
   baseurl_source: declared
   description: The project-attribution-report-controller API from Mend — 1 operation(s) for project-attribution-report-controller.
-  name: Mend project-attribution-report-controller API
+  name: Mend Project Attribution Report Controller API
   slug: mend-project-attribution-report-controller-api
 - baseURL: https://api-saas.mend.io
   baseurl_source: declared
@@ -595,7 +595,7 @@ plans:
 random_paper: 2
 score:
   band: developing
-  composite: 52.4
+  composite: 53.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -603,11 +603,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 50.9
+    contract_quality: 53.3
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 36.8
@@ -616,14 +616,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 70.2
       derived: 0
       marker_coverage: 0.0
       total: 47
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

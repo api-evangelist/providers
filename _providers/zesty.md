@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 2
@@ -110,7 +110,7 @@ apis:
   description: Manage webhook subscriptions.
   name: Zesty Webhooks API
   slug: zesty-webhooks-api
-artifact_total: 62
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -261,10 +261,6 @@ finops:
 - name: Zesty Finops
   service_category: Headless CMS
   slug: zesty-finops
-graphqls:
-- description: ''
-  name: Zesty GraphQL API
-  slug: zesty-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zesty.png
 json_schemas:
 - name: Zesty Content Item
@@ -341,7 +337,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -364,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

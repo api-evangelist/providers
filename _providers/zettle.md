@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,12 +66,12 @@ apis:
 - baseURL: https://oauth.zettle.com
   baseurl_source: declared
   description: The accounts API from Zettle — 2 operation(s) for accounts.
-  name: Zettle accounts API
+  name: Zettle Accounts API
   slug: zettle-accounts-api
 - baseURL: https://oauth.zettle.com
   baseurl_source: declared
   description: The payout API from Zettle — 1 operation(s) for payout.
-  name: Zettle payout API
+  name: Zettle Payout API
   slug: zettle-payout-api
 artifact_total: 26
 collections:
@@ -189,7 +189,7 @@ modified: 2026-06-13
 name: Zettle
 nav: Providers
 network: true
-overview: 'Zettle publishes 2 APIs on the [APIs.io](https://apis.io/) network: accounts API and payout API. Tagged areas include Point-of-Sale, Payments, Inventory, Finance, and PayPal.
+overview: 'Zettle publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Payout API. Tagged areas include Point-of-Sale, Payments, Inventory, Finance, and PayPal.
 
 
   The Zettle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -254,7 +254,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

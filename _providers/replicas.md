@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 57
+- acting_count: 56
   human_in_the_loop: 5
   name: Replicas Agentic Access
   operation_count: 99
   slug: replicas-agentic-access
-  summary_line: 99 operations · 57 acting · 5 human-in-the-loop
+  summary_line: 99 operations · 56 acting · 5 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.tryreplicas.com
@@ -343,7 +343,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

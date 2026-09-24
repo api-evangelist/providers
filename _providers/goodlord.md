@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -331,7 +331,7 @@ modified: '2026-07-26'
 name: Goodlord
 nav: Providers
 network: true
-overview: 'Goodlord publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Application API, Authentication API, and 12 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Management, and Rentals.
+overview: 'Goodlord publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Application API, Authentication API, and 12 more. Tagged areas include Real Estate, United Kingdom, PropTech, Property Management, and Rentals.
 
 
   The Goodlord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -396,7 +396,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -417,7 +417,7 @@ security:
   summary_line: ISO 27001, GDPR
 slug: goodlord
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Management

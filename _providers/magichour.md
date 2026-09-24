@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - baseURL: https://api.magichour.ai
@@ -206,7 +206,7 @@ modified: '2026-09-03'
 name: Magic Hour
 nav: Providers
 network: true
-overview: 'Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio Projects API, Files API, Image Projects API, and 1 more. Tagged areas include AI Video, Image-Generation, Audio, Generative AI, and Voice Cloning.
+overview: 'Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio Projects API, Files API, Image Projects API, and 1 more. Tagged areas include AI Video, Image Generation, Audio, Generative AI, and Voice Cloning.
 
 
   The Magic Hour catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -251,7 +251,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -269,10 +269,11 @@ security:
 slug: magichour
 tags:
 - AI Video
-- Image-Generation
+- Image Generation
 - Audio
 - Generative AI
 - Voice Cloning
 - Text-to-Video
+- A2A
 website: https://magichour.ai
 ---

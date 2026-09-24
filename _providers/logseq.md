@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ modified: '2026-07-20'
 name: Logseq
 nav: Providers
 network: true
-overview: 'Logseq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Knowledge-Management, Note Taking, Productivity, and Open-Source.
+overview: 'Logseq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Knowledge Management, Note Taking, Productivity, and Open Source.
 
 
   Logseq''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 9 more developer resources.'
@@ -134,7 +134,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 21.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -149,10 +149,10 @@ security:
 slug: logseq
 tags:
 - Company
-- Knowledge-Management
+- Knowledge Management
 - Note Taking
 - Productivity
-- Open-Source
+- Open Source
 - Plugins
 - SDK
 - Knowledge Graph

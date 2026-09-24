@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ modified: '2026-08-13'
 name: Linktree
 nav: Providers
 network: true
-overview: 'Linktree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social-Media.
+overview: 'Linktree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
 
 
   Linktree''s developer surface includes documentation, API reference, authentication, CLI, changelog, getting-started guide, support, and 34 more developer resources.'
@@ -291,7 +291,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -321,12 +321,13 @@ tags:
 - Media
 - Link in Bio
 - Creator Economy
-- Social-Media
+- Social Media
 - Marketing
 - Analytics
 - MCP
 - Agents
 - Design Systems
 - Developer Tools
+- Australia
 website: https://linktr.ee/
 ---

@@ -27,7 +27,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -122,7 +122,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -217,7 +217,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -261,7 +261,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
@@ -305,7 +305,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -349,7 +349,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -389,18 +389,18 @@
      "slug": "redfin",
      "description": "Redfin is a technology-powered real estate brokerage that provides property search, home value estimates, listing details, neighborhood statistics, commute data, and downloadable housing market data across the United States. Their platform exposes a Stingray REST API used by the Redfin website and mobile apps, a GIS CSV Export endpoint for bulk property downloads, and the Redfin Data Center for time-series housing market statistics at national, metro, state, county, city, ZIP code, and neighborhood levels.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/screenshots/redfin-2026-08-17T125152.png",
-     "score": 41.2,
+     "score": 40.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 62.3,
+      "contract_quality": 60.2,
       "contract_governance": 25.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 16.7,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -444,7 +444,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -480,8 +480,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 17,
-   "shown": 17,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Keller Williams",
@@ -499,7 +499,7 @@
       "developer_ergonomics": 19.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -535,50 +535,6 @@
      "rank": 11
     },
     {
-     "name": "Yardi",
-     "slug": "yardi",
-     "description": "Yardi Systems, Inc. (Goleta, California) builds the investment and property management software that residential, commercial, affordable housing, public housing, military housing, self-storage, coworking and senior living operators run as their system of record — Voyager, Breeze, RentCafe, Elevate, Investment Suite, Matrix, Kube and Virtuoso. It sits on the systems-of-record rung of the real estate value chain: the ledger and operating platform a landlord or asset manager runs on, not a listing portal and not a registry operator. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal — developer., developers., api. and docs. hosts do not resolve on yardi.com, and the /platform/ and /platform/api/ paths previously catalogued here return HTTP 404. Real interfaces exist in volume, but only behind the Voyager Standard Interface Partnership Program (SIPP): an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual license fee per interface that is in some cases charged per transaction. A development sandbox is provided only after acceptance. The public \"find an interface partner\" page is a directory of 450+ already-accepted vendors across twelve interface categories, not documentation — its only calls to action are \"Talk to sales\" and \"Contact us\". Three public, machine-readable or anonymously readable surfaces do exist, and none of them is the Voyager API. Yardi ships a first-party MCP server, the Virtuoso Connector, whose OAuth 2.1 authorization contract is published anonymously on mcp.virtuoso.ai even though its tool list is not. status.yardi.com runs a full Atlassian Statuspage with an unauthenticated JSON API across 134 components in 16 product groups. And centershiftdevx.com, the legacy CenterShift developer site carried forward into Yardi Store, still serves genuine SWS2 endpoint documentation to anonymous readers — the only Yardi property that does. Every OpenAPI, JSON Schema, GraphQL schema, Postman collection and derived governance artifact in this repository was written by API Evangelist from Yardi's own interface naming and public partner documentation. Yardi publishes no OpenAPI, no WSDL, no OData $metadata and no machine-readable contract of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 26.7,
-      "contract_governance": 9.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 52.4,
-      "access_clarity": 48.7
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Property Management",
-     "rank": 12
-    },
-    {
      "name": "dotloop",
      "slug": "dotloop",
      "description": "dotloop is a real estate transaction management platform (owned by Zillow Group) that lets agents, teams, and brokerages create and manage transactions - called \"loops\" - end to end, including documents, e-signatures, tasks, participants, and compliance workflows. The dotloop Public API v2 is a documented, OAuth2-secured JSON REST API at https://api-gateway.dotloop.com/public/v2 that exposes accounts, profiles, loops and loop details, folders, documents, participants, tasks, activities, contacts, loop templates, and webhook subscriptions, plus a Loop-It facade for one-call loop creation.",
@@ -594,7 +550,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -620,7 +576,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Reonomy",
@@ -638,7 +594,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -664,58 +620,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 14
-    },
-    {
-     "name": "Zillow",
-     "slug": "zillow",
-     "description": "Zillow is the largest U.S. real-estate marketplace, offering home and rental listings, Zestimate home value estimates, mortgage tools, and a connected agent and lender ecosystem. Zillow Group owns Trulia, StreetEasy, HotPads, Out East, Bridge Interactive, Mortech, Showcase, and ShowingTime+. Zillow sunset its legacy public consumer APIs (Zillow Web Services, the GetSearchResults / GetZestimate / Property Details APIs and the Mortgage APIs) on September 30, 2021. Programmatic access to Zillow Group listing, broker, and lender data is now delivered through Bridge Interactive (bridgedataoutput.com) for licensed real-estate professionals and MLSs, the Zillow Tech Connect partner program for vendors, Mortech for mortgage pricing, and the Showcase listing enhancement product. This profile documents what is publicly findable on each surviving API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/screenshots/zillow-2026-06-20T201903.png",
-     "score": 36.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 41.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 43.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 26.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Portals & Marketplaces",
-     "rank": 15
+     "rank": 13
     },
     {
      "name": "HouseCanary",
@@ -733,7 +638,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -759,7 +664,51 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
-     "rank": 16
+     "rank": 14
+    },
+    {
+     "name": "Yardi",
+     "slug": "yardi",
+     "description": "Yardi Systems, Inc. (Goleta, California) builds the investment and property management software that residential, commercial, affordable housing, public housing, military housing, self-storage, coworking and senior living operators run as their system of record — Voyager, Breeze, RentCafe, Elevate, Investment Suite, Matrix, Kube and Virtuoso. It sits on the systems-of-record rung of the real estate value chain: the ledger and operating platform a landlord or asset manager runs on, not a listing portal and not a registry operator. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal — developer., developers., api. and docs. hosts do not resolve on yardi.com, and the /platform/ and /platform/api/ paths previously catalogued here return HTTP 404. Real interfaces exist in volume, but only behind the Voyager Standard Interface Partnership Program (SIPP): an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual license fee per interface that is in some cases charged per transaction. A development sandbox is provided only after acceptance. The public \"find an interface partner\" page is a directory of 450+ already-accepted vendors across twelve interface categories, not documentation — its only calls to action are \"Talk to sales\" and \"Contact us\". Three public, machine-readable or anonymously readable surfaces do exist, and none of them is the Voyager API. Yardi ships a first-party MCP server, the Virtuoso Connector, whose OAuth 2.1 authorization contract is published anonymously on mcp.virtuoso.ai even though its tool list is not. status.yardi.com runs a full Atlassian Statuspage with an unauthenticated JSON API across 134 components in 16 product groups. And centershiftdevx.com, the legacy CenterShift developer site carried forward into Yardi Store, still serves genuine SWS2 endpoint documentation to anonymous readers — the only Yardi property that does. Every OpenAPI, JSON Schema, GraphQL schema, Postman collection and derived governance artifact in this repository was written by API Evangelist from Yardi's own interface naming and public partner documentation. Yardi publishes no OpenAPI, no WSDL, no OData $metadata and no machine-readable contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png",
+     "score": 35.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 19.9,
+      "contract_governance": 9.8,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 48.8,
+      "access_clarity": 48.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 26.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Property Management",
+     "rank": 15
     },
     {
      "name": "Bridge Interactive",
@@ -777,7 +726,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -803,7 +752,7 @@
       "agentic_commerce": false
      },
      "tier": "Listing Data Infrastructure",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "SkySlope",
@@ -821,7 +770,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -847,7 +796,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "CBRE",
@@ -865,7 +814,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -891,7 +840,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Qualia",
@@ -909,7 +858,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -942,7 +891,7 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Encompass",
@@ -960,7 +909,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -986,7 +935,7 @@
       "agentic_commerce": false
      },
      "tier": "Mortgage Proptech",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "National Association of REALTORS",
@@ -1004,7 +953,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1030,120 +979,25 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 22
-    },
-    {
-     "name": "Entrata",
-     "slug": "entrata",
-     "description": "Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its REST API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time. API access requires a signed Developer Interface Agreement and is available only to approved partners with shared clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/screenshots/entrata-2026-06-20T180733.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 15.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Property Management",
-     "rank": 23
-    },
-    {
-     "name": "Clear Capital",
-     "slug": "clear-capital",
-     "description": "Clear Capital is a real-estate valuation and property data platform serving mortgage lenders, investors, and capital markets. Its developer surface is exposed through two sales-led REST products - the Property Analytics API (ClearAVM automated valuations, comparables ranked by ClearRank, property characteristics, and market trends) and the Property Valuation API (ordering and fulfillment of appraisal and valuation products such as Hybrid/Desktop appraisal, BPO, CDA, and UDC). Access is gated behind a commercial agreement; full reference docs live at docs.api.clearcapital.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png",
-     "score": 30.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 32.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 18.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Valuation & AVM",
-     "rank": 24
+     "rank": 21
     },
     {
      "name": "Offerpad",
      "slug": "offerpad",
      "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
-     "score": 29.3,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 0.0,
+      "contract_quality": 8.3,
       "contract_governance": 18.2,
       "operational_transparency": 5.3,
       "developer_ergonomics": 39.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1176,34 +1030,34 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 25
+     "rank": 22
     },
     {
-     "name": "RealPage",
-     "slug": "realpage",
-     "description": "RealPage is a multifamily and rental-housing software company offering property management, marketing, leasing, resident experience, accounting, facilities, utility, spend, revenue management, and AI workforce tooling across a large portfolio of products including OneSite, Knock CRM, G5 Marketing, Online Leasing, LOFT Resident Portal, AI Revenue Management, Lumina AI Workforce, and the RealPage Exchange (RPX) integration platform. RealPage is enterprise sales-led; partner integrations are exposed through the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/screenshots/realpage-2026-06-20T192646.png",
-     "score": 28.6,
+     "name": "Clear Capital",
+     "slug": "clear-capital",
+     "description": "Clear Capital is a real-estate valuation and property data platform serving mortgage lenders, investors, and capital markets. Its developer surface is exposed through two sales-led REST products - the Property Analytics API (ClearAVM automated valuations, comparables ranked by ClearRank, property characteristics, and market trends) and the Property Valuation API (ordering and fulfillment of appraisal and valuation products such as Hybrid/Desktop appraisal, BPO, CDA, and UDC). Access is gated behind a commercial agreement; full reference docs live at docs.api.clearcapital.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png",
+     "score": 30.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 37.2,
+      "discoverability": 68.5,
+      "contract_quality": 32.7,
       "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 28.9
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 15.5,
+     "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -1219,8 +1073,8 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Property Management",
-     "rank": 26
+     "tier": "Valuation & AVM",
+     "rank": 23
     },
     {
      "name": "Opendoor",
@@ -1238,7 +1092,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1264,7 +1118,7 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 27
+     "rank": 24
     }
    ],
    "open": true
@@ -1274,9 +1128,60 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 10,
-   "shown": 10,
+   "count": 12,
+   "shown": 12,
    "providers": [
+    {
+     "name": "Zillow",
+     "slug": "zillow",
+     "description": "Zillow is the largest U.S. real-estate marketplace, offering home and rental listings, Zestimate home value estimates, mortgage tools, and a connected agent and lender ecosystem. Zillow Group owns Trulia, StreetEasy, HotPads, Out East, Bridge Interactive, Mortech, Showcase, and ShowingTime+. Zillow sunset its legacy public consumer APIs (Zillow Web Services, the GetSearchResults / GetZestimate / Property Details APIs and the Mortgage APIs) on September 30, 2021. Programmatic access to Zillow Group listing, broker, and lender data is now delivered through Bridge Interactive (bridgedataoutput.com) for licensed real-estate professionals and MLSs, the Zillow Tech Connect partner program for vendors, Mortech for mortgage pricing, and the Showcase listing enhancement product. This profile documents what is publicly findable on each surviving API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/screenshots/zillow-2026-06-20T201903.png",
+     "score": 26.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 43.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 13.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Portals & Marketplaces",
+     "rank": 25
+    },
     {
      "name": "Jones Lang LaSalle",
      "slug": "jones-lang-lasalle",
@@ -1292,7 +1197,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1318,7 +1223,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "Homes.com",
@@ -1336,7 +1241,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1369,7 +1274,58 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 29
+     "rank": 27
+    },
+    {
+     "name": "Entrata",
+     "slug": "entrata",
+     "description": "Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its REST API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time. API access requires a signed Developer Interface Agreement and is available only to approved partners with shared clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/screenshots/entrata-2026-06-20T180733.png",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 15.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Property Management",
+     "rank": 28
     },
     {
      "name": "Zumper",
@@ -1387,7 +1343,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1413,7 +1369,7 @@
       "agentic_commerce": false
      },
      "tier": "Rentals & Listings",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "CoStar Group",
@@ -1431,7 +1387,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1457,6 +1413,50 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
+     "rank": 30
+    },
+    {
+     "name": "RealPage",
+     "slug": "realpage",
+     "description": "RealPage is a multifamily and rental-housing software company offering property management, marketing, leasing, resident experience, accounting, facilities, utility, spend, revenue management, and AI workforce tooling across a large portfolio of products including OneSite, Knock CRM, G5 Marketing, Online Leasing, LOFT Resident Portal, AI Revenue Management, Lumina AI Workforce, and the RealPage Exchange (RPX) integration platform. RealPage is enterprise sales-led; partner integrations are exposed through the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/screenshots/realpage-2026-06-20T192646.png",
+     "score": 19.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Property Management",
      "rank": 31
     },
     {
@@ -1475,7 +1475,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1526,7 +1526,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1570,7 +1570,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1599,57 +1599,6 @@
      "rank": 34
     },
     {
-     "name": "AppFolio",
-     "slug": "appfolio",
-     "description": "AppFolio is a Santa Barbara, California cloud-based real estate technology company providing property management software to residential, commercial, community association (HOA), student housing, single-family, and affordable housing operators, plus investment management tooling for sponsors and funds. Its flagship AppFolio Performance Platform unifies workflow automation, accounting and reporting, marketing and leasing, maintenance, resident communication, and resident services on a single multi-tenant SaaS. AppFolio embeds Realm-X, an in-house agentic AI layer (Realm-X Assistant, Performers, Flows) directly into the platform rather than as an add-on. Integrations are delivered through the AppFolio Stack marketplace, where certified partners (ButterflyMX, Conservice, HappyCo, Knock, Lowe's, Property Meld, and many more) connect via the AppFolio Stack API. The Stack API is gated behind a partner application, security-compliance questionnaire, and terms-of-service signing; OAuth 2.0, a sandbox environment, webhooks, and an OpenAPI/Swagger reference are made available only to approved partners through the developer.appfolio.com portal, so no public specification is reachable for catalog inclusion. AppFolio's revenue model is per-unit SaaS subscription plus value-added services (payments, screening, insurance, marketing). The AppFolio GitHub organization publishes internal Ruby on Rails, React, and tooling libraries (react-gears, ae_page_objects, store_base_sti_class) but no public API SDK, CLI, or OpenAPI artifact.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appfolio/refs/heads/main/screenshots/appfolio-2026-06-20T172316.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 37.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Property Management",
-     "rank": 35
-    },
-    {
      "name": "Buildium",
      "slug": "buildium",
      "description": "Buildium, part of RealPage, is a cloud property-management platform aimed at small and mid-sized residential, association, and community-association property managers. The platform covers accounting, leasing, applicant and tenant management, rent collection, maintenance, communications, owner and resident portals, and association management. Buildium publishes a Public API used by certified partners and customers for property, lease, tenant, owner, vendor, rental application, financial, and webhook integration with the Buildium platform.",
@@ -1665,7 +1614,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1691,7 +1640,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Douglas Elliman",
@@ -1709,7 +1658,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1742,7 +1691,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 37
+     "rank": 36
     }
    ]
   },
@@ -1751,8 +1700,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Doma",
@@ -1770,7 +1719,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1803,6 +1752,57 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
+     "rank": 37
+    },
+    {
+     "name": "AppFolio",
+     "slug": "appfolio",
+     "description": "AppFolio is a Santa Barbara, California cloud-based real estate technology company providing property management software to residential, commercial, community association (HOA), student housing, single-family, and affordable housing operators, plus investment management tooling for sponsors and funds. Its flagship AppFolio Performance Platform unifies workflow automation, accounting and reporting, marketing and leasing, maintenance, resident communication, and resident services on a single multi-tenant SaaS. AppFolio embeds Realm-X, an in-house agentic AI layer (Realm-X Assistant, Performers, Flows) directly into the platform rather than as an add-on. Integrations are delivered through the AppFolio Stack marketplace, where certified partners (ButterflyMX, Conservice, HappyCo, Knock, Lowe's, Property Meld, and many more) connect via the AppFolio Stack API. The Stack API is gated behind a partner application, security-compliance questionnaire, and terms-of-service signing; OAuth 2.0, a sandbox environment, webhooks, and an OpenAPI/Swagger reference are made available only to approved partners through the developer.appfolio.com portal, so no public specification is reachable for catalog inclusion. AppFolio's revenue model is per-unit SaaS subscription plus value-added services (payments, screening, insurance, marketing). The AppFolio GitHub organization publishes internal Ruby on Rails, React, and tooling libraries (react-gears, ae_page_objects, store_base_sti_class) but no public API SDK, CLI, or OpenAPI artifact.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appfolio/refs/heads/main/screenshots/appfolio-2026-06-20T172316.png",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Property Management",
      "rank": 38
     },
     {
@@ -1820,7 +1820,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1871,7 +1871,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1921,7 +1921,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1972,7 +1972,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: API Harmony was an intelligent API matchmaking service that used graph technology and machine learning to search public APIs, reveal relationships between them, make recommendations, and identify gaps
@@ -129,7 +129,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ tags:
 - API Recommendation
 - Graph Technology
 - IBM
-- Machine-Learning
+- Machine Learning
 use_cases:
 - description: Help developers find the right APIs for cloud-based application development on IBM Bluemix.
   name: Cloud API Discovery

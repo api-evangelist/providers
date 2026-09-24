@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 28
   human_in_the_loop: 0
   name: Salesforce Einstein Agentic Access
-  operation_count: 70
+  operation_count: 58
   slug: salesforce-einstein-agentic-access
-  summary_line: 70 operations · 35 acting
+  summary_line: 58 operations · 28 acting
 api_count: 6
 apis:
 - baseURL: https://api.einstein.ai/v2/vision
@@ -526,7 +526,7 @@ modified: '2026-05-19'
 name: Salesforce Einstein
 nav: Providers
 network: true
-overview: 'Salesforce Einstein publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer-Vision, CRM, Machine-Learning, and Natural Language Processing.
+overview: 'Salesforce Einstein publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AI Record Insights API, API Usage API, Bot Definitions API, and 14 more. Tagged areas include Artificial Intelligence, Computer Vision, CRM, Machine Learning, and Natural Language Processing.
 
 
   The Salesforce Einstein catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -596,7 +596,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -614,9 +614,9 @@ security:
 slug: salesforce-einstein
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - CRM
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Predictive Analytics
 - Salesforce

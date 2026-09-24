@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ apis:
   description: The Platform API API from Codat — 0 operation(s) for platform api.
   name: Codat Platform API
   slug: codat-platform-api-api
-artifact_total: 387
+artifact_total: 386
 collections:
 - collection_type: open
   name: API Collection
@@ -808,10 +808,6 @@ finops:
 - name: Codat Finops
   service_category: Unified API
   slug: codat-finops
-graphqls:
-- description: Codat is a unified API platform providing standardized access to SMB financial data from 30+ accounting, banking, commerce, and ERP systems. This conceptual GraphQL schema represents the Codat data mo
-  name: Codat GraphQL Schema
-  slug: codat-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codat.png
 json_schemas:
 - name: Account categories updated webhook
@@ -1375,7 +1371,7 @@ modified: '2026-05-19'
 name: Codat
 nav: Providers
 network: true
-overview: 'Codat publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 32 more. Tagged areas include Unified-API and Accounting.
+overview: 'Codat publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 32 more. Tagged areas include Unified API and Accounting.
 
 
   The Codat catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1404,19 +1400,19 @@ rules:
   slug: codat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 44.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 33.3
     catalog_earned_first_party: 0.0
     catalog_gap: 81.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 64.7
+    contract_quality: 60.2
     developer_ergonomics: 69.0
     discoverability: 48.1
     operational_transparency: 42.1
@@ -1429,7 +1425,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1446,7 +1442,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: codat
 tags:
-- Unified-API
+- Unified API
 - Accounting
 website: https://www.codat.io/
 ---

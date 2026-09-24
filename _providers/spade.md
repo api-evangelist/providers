@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -300,7 +300,7 @@ modified: '2026-08-14'
 name: Spade
 nav: Providers
 network: true
-overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Card Enrichment API, Category Action Triggers API, Category Personalization API, and 5 more. Tagged areas include Company, Financial-Services, Transaction Enrichment, Merchant Intelligence, and Payments.
+overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Card Enrichment API, Category Action Triggers API, Category Personalization API, and 5 more. Tagged areas include Company, Financial Services, Transaction Enrichment, Merchant Intelligence, and Payments.
 
 
   The Spade catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -356,7 +356,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -382,12 +382,13 @@ security:
 slug: spade
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Transaction Enrichment
 - Merchant Intelligence
 - Payments
 - Data Enrichment
 - Fraud and Risk
 - Fintech
+- A2A
 website: https://www.spade.com/
 ---

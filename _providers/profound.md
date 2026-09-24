@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 90
+- acting_count: 67
   human_in_the_loop: 0
   name: Profound Agentic Access
-  operation_count: 125
+  operation_count: 145
   slug: profound-agentic-access
-  summary_line: 125 operations · 90 acting
+  summary_line: 145 operations · 67 acting
 api_count: 2
 apis:
 - description: The inbound log-ingestion endpoint for Profound Agent Analytics. Customers POST batches of up to 1,000 web-request log entries as JSON (timestamp, method, host, path, status_code, ip, user_agent, plus
@@ -386,7 +386,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -423,5 +423,6 @@ tags:
 - Brand Visibility
 - Citations
 - MCP
+- A2A
 website: https://www.tryprofound.com
 ---

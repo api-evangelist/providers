@@ -36,7 +36,7 @@ tags:
 - Scientific Literature
 - Patents
 - Search
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Key Opinion Leaders
 - Defunct

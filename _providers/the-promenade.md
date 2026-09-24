@@ -34,23 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://simcluster.ai
   baseurl_source: declared
   description: mppx (HTTP 402) purchases - virtual clout and Simcluster Delta
-  name: The Promenade payments API
+  name: The Promenade Payments API
   slug: the-promenade-payments-api
 - baseURL: https://simcluster.ai
   baseurl_source: declared
   description: Link an existing human account and validate sessions
-  name: The Promenade session API
+  name: The Promenade Session API
   slug: the-promenade-session-api
 - baseURL: https://simcluster.ai
   baseurl_source: declared
   description: Self-signup with an Ethereum identity keypair (SIWE)
-  name: The Promenade signup API
+  name: The Promenade Signup API
   slug: the-promenade-signup-api
 artifact_total: 10
 collections:
@@ -136,7 +136,7 @@ modified: '2026-07-21'
 name: The Promenade
 nav: Providers
 network: true
-overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) network: payments API, session API, and signup API. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and Media Generation.
+overview: 'The Promenade publishes 3 APIs on the [APIs.io](https://apis.io/) network: Payments API, Session API, and Signup API. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and Media Generation.
 
 
   The Promenade''s developer surface includes documentation, support, authentication, and 9 more developer resources.'
@@ -170,7 +170,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

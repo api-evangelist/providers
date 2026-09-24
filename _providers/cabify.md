@@ -33,20 +33,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 20
   human_in_the_loop: 0
   name: Cabify Agentic Access
   operation_count: 46
   slug: cabify-agentic-access
-  summary_line: 46 operations · 21 acting
+  summary_line: 46 operations · 20 acting
 api_count: 2
 apis:
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: Operations for managing the delivery lifecycle. Use these endpoints to trigger a shipment, cancel an active delivery, or check whether a pickup location falls within an operating area.
-  name: Cabify delivery API
+  name: Cabify Delivery API
   slug: cabify-delivery-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: A hub is a physical location (such as a warehouse or store) where parcels are stored until they are ready to be picked up by a driver. You can reference a hub in pickup or drop-off information using i
-  name: Cabify hubs API
+  name: Cabify Hubs API
   slug: cabify-hubs-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: The label API from Cabify — 1 operation(s) for label.
-  name: Cabify label API
+  name: Cabify Label API
   slug: cabify-label-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
@@ -76,7 +76,7 @@ apis:
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: A parcel is the package you need to ship. Each parcel is identified by a unique ID and contains a pickup point (where the driver collects the package) and a drop-off point (the destination). Parcels m
-  name: Cabify parcels API
+  name: Cabify Parcels API
   slug: cabify-parcels-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
@@ -86,27 +86,27 @@ apis:
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: The shipment API from Cabify — 2 operation(s) for shipment.
-  name: Cabify shipment API
+  name: Cabify Shipment API
   slug: cabify-shipment-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: The shipping_types API from Cabify — 1 operation(s) for shipping_types.
-  name: Cabify shipping_types API
+  name: Cabify Shipping Types API
   slug: cabify-shipping-types-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: Track the real-time status and location of your parcels at any point during their delivery.
-  name: Cabify status API
+  name: Cabify Status API
   slug: cabify-status-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: The users API from Cabify — 4 operation(s) for users.
-  name: Cabify users API
+  name: Cabify Users API
   slug: cabify-users-api
 - baseURL: https://cabify.com/api/v4
   baseurl_source: declared
   description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
-  name: Cabify webhooks API
+  name: Cabify Webhooks API
   slug: cabify-webhooks-api
 artifact_total: 32
 asyncapis:
@@ -313,7 +313,7 @@ modified: '2026-07-18'
 name: Cabify
 nav: Providers
 network: true
-overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, including delivery API, Estimates API, hubs API, and 10 more. Tagged areas include Company, Transportation, Ride Hailing, Mobility, and Logistics.
+overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Estimates API, Hubs API, and 10 more. Tagged areas include Company, Transportation, Ride Hailing, Mobility, and Logistics.
 
 
   The Cabify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -357,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

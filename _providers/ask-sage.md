@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 188
+- acting_count: 135
   human_in_the_loop: 6
   name: Ask Sage Agentic Access
   operation_count: 219
   slug: ask-sage-agentic-access
-  summary_line: 219 operations · 188 acting · 6 human-in-the-loop
+  summary_line: 219 operations · 135 acting · 6 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.asksage.ai/server
@@ -505,7 +505,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

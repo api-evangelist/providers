@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 12
   human_in_the_loop: 1
   name: Triplit Agentic Access
   operation_count: 18
   slug: triplit-agentic-access
-  summary_line: 18 operations · 16 acting · 1 human-in-the-loop
+  summary_line: 18 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: RESTful HTTP API for interacting with a Triplit sync server, supporting fetch, insert, bulk-insert, update, delete, delete-all, and healthcheck operations. Authenticated via JWT Bearer tokens (Service
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -307,6 +307,6 @@ tags:
 - Local-First
 - Developer Tools
 - TypeScript
-- Open-Source
+- Open Source
 website: https://www.triplit.dev
 ---

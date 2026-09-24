@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 43
+- acting_count: 47
   human_in_the_loop: 0
   name: Microsoft Azure Devops Agentic Access
-  operation_count: 93
+  operation_count: 105
   slug: microsoft-azure-devops-agentic-access
-  summary_line: 93 operations · 43 acting
+  summary_line: 105 operations · 47 acting
 api_count: 11
 apis:
 - description: API for managing users, groups, and memberships within an Azure DevOps organization. Enables programmatic administration of identities and group membership.
@@ -1274,9 +1274,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

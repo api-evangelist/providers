@@ -129,7 +129,7 @@ modified: '2026-09-15'
 name: Pathmind
 nav: Providers
 network: true
-overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Upload API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Reinforcement Learning, and Simulation.
+overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Upload API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Simulation.
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 16 more developer resources.'
@@ -148,7 +148,7 @@ slug: skymind
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Reinforcement Learning
 - Simulation
 - Optimization

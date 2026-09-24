@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ modified: '2026-05-19'
 name: United States National Library of Medicine
 nav: Providers
 network: true
-overview: 'United States National Library of Medicine publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BLAST API, Fetch API, Gene API, and 7 more. Tagged areas include Federal-Government, Biomedical Research, Healthcare, Genomics, and Literature.
+overview: 'United States National Library of Medicine publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BLAST API, Fetch API, Gene API, and 7 more. Tagged areas include Federal Government, Biomedical Research, Healthcare, Genomics, and Literature.
 
 
   The United States National Library of Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -291,7 +291,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -308,7 +308,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: united-states-national-library-of-medicine
 tags:
-- Federal-Government
+- Federal Government
 - Biomedical Research
 - Healthcare
 - Genomics

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-07-18'
 name: dottxt
 nav: Providers
 network: true
-overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON-Schema.
+overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Models API. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON Schema.
 
 
   dottxt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, and 18 more developer resources.'
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -240,8 +240,8 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON-Schema
-- Machine-Learning
+- JSON Schema
+- Machine Learning
 - Developer Tools
 - Constrained Decoding
 website: https://dottxt.ai/

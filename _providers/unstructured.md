@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -48,47 +48,47 @@ apis:
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The channels API from Unstructured — 3 operation(s) for channels.
-  name: Unstructured channels API
+  name: Unstructured Channels API
   slug: unstructured-channels-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The destinations API from Unstructured — 3 operation(s) for destinations.
-  name: Unstructured destinations API
+  name: Unstructured Destinations API
   slug: unstructured-destinations-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The general API from Unstructured — 1 operation(s) for general.
-  name: Unstructured general API
+  name: Unstructured General API
   slug: unstructured-general-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The jobs API from Unstructured — 6 operation(s) for jobs.
-  name: Unstructured jobs API
+  name: Unstructured Jobs API
   slug: unstructured-jobs-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The notifications API from Unstructured — 4 operation(s) for notifications.
-  name: Unstructured notifications API
+  name: Unstructured Notifications API
   slug: unstructured-notifications-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The sources API from Unstructured — 3 operation(s) for sources.
-  name: Unstructured sources API
+  name: Unstructured Sources API
   slug: unstructured-sources-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The templates API from Unstructured — 2 operation(s) for templates.
-  name: Unstructured templates API
+  name: Unstructured Templates API
   slug: unstructured-templates-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The workflow-channels API from Unstructured — 3 operation(s) for workflow-channels.
-  name: Unstructured workflow-channels API
+  name: Unstructured Workflow Channels API
   slug: unstructured-workflow-channels-api
 - baseURL: https://platform.unstructuredapp.io/api/v1
   baseurl_source: declared
   description: The workflows API from Unstructured — 6 operation(s) for workflows.
-  name: Unstructured workflows API
+  name: Unstructured Workflows API
   slug: unstructured-workflows-api
 artifact_total: 30
 collections:
@@ -239,7 +239,7 @@ modified: '2026-06-12'
 name: Unstructured
 nav: Providers
 network: true
-overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including channels API, destinations API, general API, and 6 more. Tagged areas include Document Processing, ETL, RAG, LLM, and PDF.
+overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Destinations API, General API, and 6 more. Tagged areas include Document Processing, ETL, RAG, LLM, and PDF.
 
 
   The Unstructured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -293,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

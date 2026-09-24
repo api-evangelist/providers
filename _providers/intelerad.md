@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 14
+- acting_count: 10
   human_in_the_loop: 0
   name: Intelerad Agentic Access
   operation_count: 15
   slug: intelerad-agentic-access
-  summary_line: 15 operations · 14 acting
+  summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://access.dicomgrid.com/api/v3
@@ -232,7 +232,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: Debezium
 nav: Providers
 network: true
-overview: 'Debezium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Connectors API, Offsets API, and 2 more. Tagged areas include Apache Kafka, Change Data Capture, Database, Event Streaming, and Open-Source.
+overview: 'Debezium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Connectors API, Offsets API, and 2 more. Tagged areas include Apache Kafka, Change Data Capture, Database, Event Streaming, and Open Source.
 
 
   The Debezium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -230,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -247,6 +247,6 @@ tags:
 - Change Data Capture
 - Database
 - Event Streaming
-- Open-Source
+- Open Source
 website: https://debezium.io/
 ---

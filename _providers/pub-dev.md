@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Search for packages, retrieve package metadata, version details, publisher information, and scoring data from the official Dart and Flutter package registry.
@@ -115,7 +115,7 @@ modified: '2026-09-16'
 name: pub.dev
 nav: Providers
 network: true
-overview: 'pub.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dart, Flutter, Package Registry, Package Management, and Open-Source.
+overview: 'pub.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dart, Flutter, Package Registry, Package Management, and Open Source.
 
 
   pub.dev''s developer surface includes documentation and 14 more developer resources.'
@@ -151,7 +151,7 @@ score:
     score: 65.0
   previous_composite: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -173,6 +173,6 @@ tags:
 - Flutter
 - Package Registry
 - Package Management
-- Open-Source
+- Open Source
 website: https://pub.dev
 ---

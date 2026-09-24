@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: Admin-level organization, domain, group, user, and policy management
   name: Zoho Mail Organization API
   slug: zoho-mail-organization-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -170,10 +170,6 @@ finops:
 - name: Zoho Mail Finops
   service_category: ''
   slug: zoho-mail-finops
-graphqls:
-- description: This document describes the conceptual GraphQL schema for the Zoho Mail API. Zoho Mail provides a comprehensive REST API for managing email accounts, folders, messages, contacts, calendars, tasks, and
-  name: Zoho Mail GraphQL Schema
-  slug: zoho-mail-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-mail.png
 layout: provider
 modified: '2026-06-13'
@@ -200,19 +196,19 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.8
+  composite: 39.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 58.9
+    contract_quality: 53.6
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 21.1
@@ -225,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

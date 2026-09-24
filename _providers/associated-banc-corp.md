@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Associated Bank surfaces core-banking integration through its core provider, Jack Henry, via the jXchange SOAP API platform. Documented services for this institution include Account History Search, Ac
@@ -88,7 +88,7 @@ modified: '2026-07-24'
 name: Associated Bank
 nav: Providers
 network: true
-overview: 'Associated Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Regional Bank, and Commercial Banking.
+overview: 'Associated Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Commercial Banking.
 
 
   Associated Bank''s developer surface includes changelog, engineering blog, support, and 6 more developer resources.'
@@ -126,7 +126,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: associated-banc-corp
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - United States
 - Regional Bank

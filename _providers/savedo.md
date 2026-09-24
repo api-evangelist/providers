@@ -48,7 +48,7 @@ tags:
 - Banking
 - Savings
 - Deposits
-- Financial-Services
+- Financial Services
 - Germany
 - Defunct
 website: https://www.savedo.de

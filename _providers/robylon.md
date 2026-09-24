@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Lets external systems interact with Robylon and trigger workflows, including voice and outbound automation. Operations are not enumerated here: no OpenAPI or other machine-readable contract is served,'
@@ -70,7 +70,7 @@ modified: '2026-08-20'
 name: Robylon AI
 nav: Providers
 network: true
-overview: 'Robylon AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer-Support, AI Agents, Conversational AI, Voice, and WhatsApp.
+overview: 'Robylon AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Support, AI Agents, Conversational AI, Voice, and WhatsApp.
 
 
   Robylon AI''s developer surface includes documentation, API reference, getting-started guide, and 4 more developer resources.'
@@ -97,7 +97,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -106,7 +106,7 @@ score:
 screenshot: https://raw.githubusercontent.com/api-evangelist/robylon/refs/heads/main/screenshots/robylon-2026-09-02T154026.png
 slug: robylon
 tags:
-- Customer-Support
+- Customer Support
 - AI Agents
 - Conversational AI
 - Voice
@@ -115,6 +115,6 @@ tags:
 - Email
 - Ticketing
 - Contact Center
-- Workflow-Automation
+- Workflow Automation
 website: https://www.robylon.ai
 ---

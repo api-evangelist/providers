@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-04-28'
 name: Public Storage
 nav: Providers
 network: true
-overview: 'Public Storage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Self Storage, REIT, Real-Estate, Consumer Services, and Fortune 1000.
+overview: 'Public Storage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Self Storage, REIT, Real Estate, Consumer Services, and Fortune 1000.
 
 
   Public Storage''s developer surface includes engineering blog and 6 more developer resources.'
@@ -119,7 +119,7 @@ score:
     - north-america
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ slug: public-storage
 tags:
 - Self Storage
 - REIT
-- Real-Estate
+- Real Estate
 - Consumer Services
 - Fortune 1000
 website: https://www.publicstorage.com

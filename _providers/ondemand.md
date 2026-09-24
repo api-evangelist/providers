@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -223,7 +223,7 @@ modified: '2026-07-20'
 name: Ondemand
 nav: Providers
 network: true
-overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, RAG, and Agents.
+overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Config API, Execute API, and 3 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, RAG, and Agents.
 
 
   The Ondemand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -265,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -284,13 +284,13 @@ slug: ondemand
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - RAG
 - Agents
 - LLM
 - Platform-as-a-Service
 - Chat
-- Workflow-Automation
+- Workflow Automation
 - Vector Search
 website: https://www.on-demand.io/
 ---

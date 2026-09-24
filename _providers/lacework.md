@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for managing alerts, events, policies, queries, resources, datasources, integrations, and compliance reports in a Lacework FortiCNAPP tenant. Authentication uses bearer access tokens obtained
   name: Lacework FortiCNAPP API v2
   slug: rest-api-v2
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lacework/refs/heads/main/security/lacework-domain-security.yml
@@ -91,10 +91,6 @@ common:
   url: https://github.com/lacework/go-sdk
 created: '2026-05-11'
 description: Lacework (now Lacework FortiCNAPP under Fortinet) is a cloud-native application protection platform (CNAPP) that delivers vulnerability management, compliance, threat detection, posture management, and workload protection across AWS, Azure, GCP, Kubernetes, and containers. The platform uses behavioral analytics and machine learning on telemetry to surface anomalies without per-rule tuning. The Lacework FortiCNAPP REST API uses bearer-token authentication to manage policies, events, alerts, resources, queries, and integrations programmatically.
-graphqls:
-- description: This document describes a conceptual GraphQL schema for the Lacework FortiCNAPP platform. Lacework (now Lacework FortiCNAPP under Fortinet) is a cloud-native application protection platform (CNAPP) th
-  name: Lacework FortiCNAPP GraphQL Schema
-  slug: lacework-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lacework.png
 layout: provider
 modified: '2026-05-11'
@@ -107,26 +103,26 @@ overview: 'Lacework FortiCNAPP publishes 1 API on the [APIs.io](https://apis.io/
   Lacework FortiCNAPP''s developer surface includes documentation, pricing, signup flow, support, engineering blog, CLI, and 6 more developer resources.'
 random_paper: 20
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 24.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 11.8
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 26.7
     developer_ergonomics: 39.3
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 26.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

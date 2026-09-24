@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 9
 common:
@@ -127,7 +127,7 @@ modified: '2026-05-23'
 name: Sea Group (Sea Limited)
 nav: Providers
 network: true
-overview: 'Sea Group (Sea Limited) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Holding Company, Southeast Asia, E-Commerce, Digital Entertainment, and Financial-Services.
+overview: 'Sea Group (Sea Limited) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Holding Company, Southeast Asia, E-Commerce, Digital Entertainment, and Financial Services.
 
 
   Sea Group (Sea Limited)''s developer surface includes product news, authentication, and 13 more developer resources.'
@@ -152,12 +152,14 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +181,7 @@ tags:
 - Southeast Asia
 - E-Commerce
 - Digital Entertainment
-- Financial-Services
+- Financial Services
 - Shopee
 - Garena
 - SeaMoney

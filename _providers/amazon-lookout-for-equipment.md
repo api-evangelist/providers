@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/lookout-for-equipment/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -209,7 +209,7 @@ modified: '2026-09-16'
 name: Amazon Lookout for Equipment
 nav: Providers
 network: true
-overview: 'Amazon Lookout for Equipment publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include Equipment Monitoring, Industrial IoT, Machine-Learning, and Predictive Maintenance.
+overview: 'Amazon Lookout for Equipment publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include Equipment Monitoring, Industrial IoT, Machine Learning, and Predictive Maintenance.
 
 
   The Amazon Lookout for Equipment catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -274,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -301,7 +301,7 @@ slug: amazon-lookout-for-equipment
 tags:
 - Equipment Monitoring
 - Industrial IoT
-- Machine-Learning
+- Machine Learning
 - Predictive Maintenance
 use_cases:
 - description: Detect early warning signs of equipment failures in manufacturing machinery.
@@ -312,5 +312,5 @@ use_cases:
   name: Mining Equipment Health
 - description: Detect anomalies in HVAC systems to prevent equipment failures in buildings.
   name: HVAC System Monitoring
-website: https://amazon.com
+website: https://aws.amazon.com/lookout-for-equipment/
 ---

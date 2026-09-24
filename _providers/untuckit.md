@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'Live MCP endpoint implementing the Universal Commerce Protocol shopping service for the UNTUCKit store: catalog search, cart, checkout, fulfillment, discounts, and orders, with Shop Pay / Google Pay /'
@@ -164,7 +164,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

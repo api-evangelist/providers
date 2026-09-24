@@ -34,40 +34,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 23
   human_in_the_loop: 0
   name: Rekki Agentic Access
   operation_count: 32
   slug: rekki-agentic-access
-  summary_line: 32 operations · 27 acting
+  summary_line: 32 operations · 23 acting
 api_count: 1
 apis:
 - baseURL: https://api.rekki.com
   baseurl_source: declared
   description: The catalog API from REKKI — 12 operation(s) for catalog.
-  name: REKKI catalog API
+  name: REKKI Catalog API
   slug: rekki-catalog-api
 - baseURL: https://api.rekki.com
   baseurl_source: declared
   description: The connect_customers API from REKKI — 2 operation(s) for connect_customers.
-  name: REKKI connect_customers API
+  name: REKKI Connect Customers API
   slug: rekki-connect-customers-api
 - baseURL: https://api.rekki.com
   baseurl_source: declared
   description: The general API from REKKI — 2 operation(s) for general.
-  name: REKKI general API
+  name: REKKI General API
   slug: rekki-general-api
 - baseURL: https://api.rekki.com
   baseurl_source: declared
   description: The order-guide API from REKKI — 1 operation(s) for order-guide.
-  name: REKKI order-guide API
+  name: REKKI Order Guide API
   slug: rekki-order-guide-api
 - baseURL: https://api.rekki.com
   baseurl_source: declared
   description: The orders API from REKKI — 11 operation(s) for orders.
-  name: REKKI orders API
+  name: REKKI Orders API
   slug: rekki-orders-api
 artifact_total: 14
 collections:
@@ -205,14 +205,14 @@ modified: '2026-07-21'
 name: REKKI
 nav: Providers
 network: true
-overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, connect_customers API, general API, and 2 more. Tagged areas include Company, Food, Wholesale, Ordering, and Restaurant.
+overview: 'REKKI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Connect Customers API, General API, and 2 more. Tagged areas include Company, Food, Wholesale, Ordering, and Restaurant.
 
 
   REKKI''s developer surface includes getting-started guide, support, documentation, API reference, authentication, and 18 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 36.1
+  composite: 38.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -220,7 +220,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 2.8
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -228,7 +228,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 2.6
-  previous_composite: 36.8
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,11 +240,11 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
-    score: 11.1
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/screenshots/rekki-2026-09-02T153301.png
 security:
 - kind: authentication

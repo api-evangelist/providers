@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -126,7 +126,7 @@ modified: '2026-05-25'
 name: Sportlogiq
 nav: Providers
 network: true
-overview: 'Sportlogiq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Sports Analytics, Computer-Vision, Machine-Learning, and Artificial Intelligence.
+overview: 'Sportlogiq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Sports Analytics, Computer Vision, Machine Learning, and Artificial Intelligence.
 
 
   Sportlogiq''s developer surface includes GitHub presence, engineering blog, and 18 more developer resources.'
@@ -156,7 +156,7 @@ score:
     - north-america
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -172,8 +172,8 @@ slug: sportlogiq
 tags:
 - Sports
 - Sports Analytics
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Artificial Intelligence
 - Player Tracking
 - Event Data

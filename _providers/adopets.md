@@ -35,30 +35,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 6
   human_in_the_loop: 0
   name: Adopets Agentic Access
   operation_count: 8
   slug: adopets-agentic-access
-  summary_line: 8 operations · 8 acting
+  summary_line: 8 operations · 6 acting
 api_count: 3
 apis:
 - baseURL: https://service.api.dev.adopets.app
   baseurl_source: declared
   description: Create and manage adoption payment requests
-  name: Adopets payment-request API
+  name: Adopets Payment Request API
   slug: adopets-payment-request-api
 - baseURL: https://service.api.dev.adopets.app
   baseurl_source: declared
   description: Retrieve and refund payment transactions
-  name: Adopets payment-transaction API
+  name: Adopets Payment Transaction API
   slug: adopets-payment-transaction-api
 - baseURL: https://service.api.dev.adopets.app
   baseurl_source: declared
   description: Connect/disconnect an external system user and obtain a session token
-  name: Adopets system-auth API
+  name: Adopets System Auth API
   slug: adopets-system-auth-api
 arazzos:
 - description: Connect an external system user, create an adoption payment request with line items, then retrieve it to confirm status. Grounded in real operationIds from the Adopets External API.
@@ -184,7 +184,7 @@ modified: '2026-07-17'
 name: Adopets
 nav: Providers
 network: true
-overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: payment-request API, payment-transaction API, and system-auth API. Tagged areas include Pet Adoption, Animal Welfare, Shelters and Rescues, Adoption Management, and Payments.
+overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: Payment Request API, Payment Transaction API, and System Auth API. Tagged areas include Pet Adoption, Animal Welfare, Shelters and Rescues, Adoption Management, and Payments.
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 16 more developer resources.'
@@ -225,7 +225,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

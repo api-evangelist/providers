@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -292,7 +292,7 @@ modified: '2026-05-19'
 name: Robocorp
 nav: Providers
 network: true
-overview: 'Robocorp publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Assistants API, Process Runs API, and 9 more. Tagged areas include RPA, Workflow-Automation, Python, Open-Source, and Automation.
+overview: 'Robocorp publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Assistants API, Process Runs API, and 9 more. Tagged areas include RPA, Workflow Automation, Python, Open Source, and Automation.
 
 
   The Robocorp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -357,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -375,9 +375,9 @@ security:
 slug: robocorp
 tags:
 - RPA
-- Workflow-Automation
+- Workflow Automation
 - Python
-- Open-Source
+- Open Source
 - Automation
 website: https://robocorp.com
 ---

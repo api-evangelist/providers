@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -102,17 +102,17 @@ apis:
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Query the numbers you have bought over time.
-  name: BICS inventory API
+  name: BICS Inventory API
   slug: bics-network-inventory-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: The number API from BICS — 1 operation(s) for number.
-  name: BICS number API
+  name: BICS Number API
   slug: bics-network-number-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Purchase a number from the stock.
-  name: BICS order API
+  name: BICS Order API
   slug: bics-network-order-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
@@ -122,7 +122,7 @@ apis:
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: The porting API from BICS — 4 operation(s) for porting.
-  name: BICS porting API
+  name: BICS Porting API
   slug: bics-network-porting-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
@@ -132,12 +132,12 @@ apis:
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Query your pricelist.
-  name: BICS pricelist API
+  name: BICS Pricelist API
   slug: bics-network-pricelist-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Query BICS reference data.
-  name: BICS reference API
+  name: BICS Reference API
   slug: bics-network-reference-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
@@ -147,17 +147,17 @@ apis:
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Modify routing details for customer numbers.
-  name: BICS routing API
+  name: BICS Routing API
   slug: bics-network-routing-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: The specification API from BICS — 1 operation(s) for specification.
-  name: BICS specification API
+  name: BICS Specification API
   slug: bics-network-specification-api
 - baseURL: https://api.bics.com/sms/v3
   baseurl_source: declared
   description: Query the available stock.
-  name: BICS stock API
+  name: BICS Stock API
   slug: bics-network-stock-api
 artifact_total: 52
 collections:
@@ -331,7 +331,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

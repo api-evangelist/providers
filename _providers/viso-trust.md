@@ -34,68 +34,68 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-assessment-rest-resource API from VISO Trust — 7 operation(s) for client-api-assessment-rest-resource.
-  name: VISO Trust client-api-assessment-rest-resource API
+  name: VISO Trust Client API Assessment Rest Resource API
   slug: viso-trust-client-api-assessment-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-audit-log-rest-resource API from VISO Trust — 2 operation(s) for client-api-audit-log-rest-resource.
-  name: VISO Trust client-api-audit-log-rest-resource API
+  name: VISO Trust Client API Audit Log Rest Resource API
   slug: viso-trust-client-api-audit-log-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-chat-rest-resource API from VISO Trust — 1 operation(s) for client-api-chat-rest-resource.
-  name: VISO Trust client-api-chat-rest-resource API
+  name: VISO Trust Client API Chat Rest Resource API
   slug: viso-trust-client-api-chat-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-context-type-rest-resource API from VISO Trust — 1 operation(s) for client-api-context-type-rest-resource.
-  name: VISO Trust client-api-context-type-rest-resource API
+  name: VISO Trust Client API Context Type Rest Resource API
   slug: viso-trust-client-api-context-type-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-data-type-rest-resource API from VISO Trust — 1 operation(s) for client-api-data-type-rest-resource.
-  name: VISO Trust client-api-data-type-rest-resource API
+  name: VISO Trust Client API Data Type Rest Resource API
   slug: viso-trust-client-api-data-type-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-external-intelligence-report-rest-resource API from VISO Trust — 8 operation(s) for client-api-external-intelligence-report-rest-resource.
-  name: VISO Trust client-api-external-intelligence-report-rest-resource API
+  name: VISO Trust Client API External Intelligence Report Rest Resource API
   slug: viso-trust-client-api-external-intelligence-report-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-questionnaire-rest-resource API from VISO Trust — 2 operation(s) for client-api-questionnaire-rest-resource.
-  name: VISO Trust client-api-questionnaire-rest-resource API
+  name: VISO Trust Client API Questionnaire Rest Resource API
   slug: viso-trust-client-api-questionnaire-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-relationship-rest-resource API from VISO Trust — 11 operation(s) for client-api-relationship-rest-resource.
-  name: VISO Trust client-api-relationship-rest-resource API
+  name: VISO Trust Client API Relationship Rest Resource API
   slug: viso-trust-client-api-relationship-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-user-rest-resource API from VISO Trust — 2 operation(s) for client-api-user-rest-resource.
-  name: VISO Trust client-api-user-rest-resource API
+  name: VISO Trust Client API User Rest Resource API
   slug: viso-trust-client-api-user-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-vendor-directory-rest-resource API from VISO Trust — 1 operation(s) for client-api-vendor-directory-rest-resource.
-  name: VISO Trust client-api-vendor-directory-rest-resource API
+  name: VISO Trust Client API Vendor Directory Rest Resource API
   slug: viso-trust-client-api-vendor-directory-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-vendor-risk-summary-rest-resource API from VISO Trust — 2 operation(s) for client-api-vendor-risk-summary-rest-resource.
-  name: VISO Trust client-api-vendor-risk-summary-rest-resource API
+  name: VISO Trust Client API Vendor Risk Summary Rest Resource API
   slug: viso-trust-client-api-vendor-risk-summary-rest-resource-api
 - baseURL: https://app.visotrust.com/api/v1
   baseurl_source: declared
   description: The client-api-webhook-rest-resource API from VISO Trust — 2 operation(s) for client-api-webhook-rest-resource.
-  name: VISO Trust client-api-webhook-rest-resource API
+  name: VISO Trust Client API Webhook Rest Resource API
   slug: viso-trust-client-api-webhook-rest-resource-api
 artifact_total: 29
 asyncapis:
@@ -272,7 +272,7 @@ modified: '2026-07-21'
 name: VISO Trust
 nav: Providers
 network: true
-overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, client-api-chat-rest-resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, TPRM, and Vendor Risk.
+overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Client API Assessment Rest Resource API, Client API Audit Log Rest Resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, TPRM, and Vendor Risk.
 
 
   The VISO Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -290,7 +290,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     contract_governance: 4.5
@@ -298,7 +298,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 52.6
-  previous_composite: 49.0
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

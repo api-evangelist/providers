@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
-  human_in_the_loop: 0
+- acting_count: 14
+  human_in_the_loop: 1
   name: Tiktok Agentic Access
-  operation_count: 19
+  operation_count: 37
   slug: tiktok-agentic-access
-  summary_line: 19 operations · 8 acting
+  summary_line: 37 operations · 14 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://business-api.tiktok.com
@@ -135,7 +135,7 @@ apis:
   description: OAuth 2.0 authorization and token management
   name: TikTok O Auth API
   slug: tiktok-for-developers-oauth-api
-artifact_total: 58
+artifact_total: 56
 collections:
 - collection_type: postman
   name: TikTok API for Business Ad Groups API
@@ -319,13 +319,6 @@ finops:
 - name: Tiktok Finops
   service_category: Social Platform APIs
   slug: tiktok-finops
-graphqls:
-- description: TikTok for Developers API covers login kit, share kit, content posting API, display API for creator content, business account management, and TikTok Shop integration.
-  name: TikTok for Developers GraphQL API
-  slug: tiktok-for-developers-graphql
-- description: 'This conceptual GraphQL schema models the TikTok platform''s APIs as a unified graph. It is derived from three primary REST API surfaces offered by TikTok for Developers:'
-  name: TikTok GraphQL Schema
-  slug: tiktok-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiktok.png
 json_schemas:
 - name: TikTok Campaign
@@ -388,32 +381,32 @@ rules:
   slug: tiktok-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 44.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -1.8
   facets:
     access_clarity: 22.4
     contract_governance: 13.6
-    contract_quality: 66.5
-    developer_ergonomics: 59.5
+    contract_quality: 62.1
+    developer_ergonomics: 56.0
     discoverability: 74.1
     operational_transparency: 34.2
-  previous_composite: 45.6
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -435,7 +428,7 @@ tags:
 - Commerce
 - Content
 - E-Commerce
-- Social-Media
+- Social Media
 - Video
 website: https://www.tiktok.com/
 ---

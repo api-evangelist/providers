@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Wintrust's commercial "API banking" for treasury clients. Rather than a documented REST API, Wintrust connects business customers directly to its secure file transfer protocol (SFTP) for account balan
@@ -91,7 +91,7 @@ modified: '2026-07-25'
 name: Wintrust Financial
 nav: Providers
 network: true
-overview: 'Wintrust Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Treasury Management, Commercial Banking, and Open Banking.
+overview: 'Wintrust Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Treasury Management, Commercial Banking, and Open Banking.
 
 
   Wintrust Financial''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -139,7 +139,7 @@ score:
     regime_id: banking_open_finance
     score: 16.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ security:
 slug: wintrust-financial
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Treasury Management
 - Commercial Banking
 - Open Banking

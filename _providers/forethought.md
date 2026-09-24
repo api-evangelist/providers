@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ modified: '2026-05-24'
 name: Forethought
 nav: Providers
 network: true
-overview: 'Forethought publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversations API, Metadata API, and Predictions API. Tagged areas include Artificial Intelligence, Customer-Support, Customer Service, Generative AI, and SupportGPT.
+overview: 'Forethought publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversations API, Metadata API, and Predictions API. Tagged areas include Artificial Intelligence, Customer Support, Customer Service, Generative AI, and SupportGPT.
 
 
   The Forethought catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -359,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -381,7 +381,7 @@ security:
 slug: forethought
 tags:
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Customer Service
 - Generative AI
 - SupportGPT

@@ -32,11 +32,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 5
 apis:
 - description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms, rates, availab
-  name: SiteMinder pmsXchange API
+  name: SiteMinder Pms Xchange API
   slug: pmsxchange-api
 - description: SiteConnect is SiteMinder's integration API for booking channels such as online travel agencies, wholesalers, global distribution systems, and metasearch partners that contract directly with hotels. T
   name: SiteMinder SiteConnect API
@@ -203,7 +203,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

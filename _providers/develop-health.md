@@ -35,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Develop Health Agentic Access
   operation_count: 15
   slug: develop-health-agentic-access
-  summary_line: 15 operations · 10 acting
+  summary_line: 15 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://api.develophealth.io
   baseurl_source: declared
   description: The public-api API from Develop Health — 15 operation(s) for public-api.
-  name: Develop Health public-api
+  name: Develop Health Public API
   slug: develop-health-public-api-api
 artifact_total: 8
 asyncapis:
@@ -183,7 +183,7 @@ modified: '2026-09-16'
 name: Develop Health
 nav: Providers
 network: true
-overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) network: public-api. Tagged areas include Company, Healthcare, Prior Authorization, Benefit Verification, and Medication Access.
+overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Healthcare, Prior Authorization, Benefit Verification, and Medication Access.
 
 
   The Develop Health catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -232,7 +232,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

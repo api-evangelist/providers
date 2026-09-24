@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/security/geico-vulnerability-disclosure.yml
@@ -94,17 +94,8 @@ common:
   title: ''
   type: Login
   url: https://ecams.geico.com/login
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/geico/refs/heads/main/graphql/geico-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/geico-graphql.md
 created: '2026-05-05'
 description: The second-largest private passenger auto insurance company in the United States and a subsidiary of Berkshire Hathaway. Known for its direct-to-consumer model, competitive rates, and iconic advertising campaigns. GEICO serves customers through its website, GEICO Mobile app, and call centers rather than through a public API.
-graphqls:
-- description: GEICO (Government Employees Insurance Company) is the second-largest private passenger auto insurer in the United States, operating as a subsidiary of Berkshire Hathaway. GEICO serves customers direct
-  name: GEICO Insurance GraphQL Schema
-  slug: geico-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geico.png
 layout: provider
 modified: '2026-05-16'
@@ -114,20 +105,20 @@ network: true
 overview: GEICO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Property and Casualty, and Direct to Consumer.
 random_paper: 13
 score:
-  band: emerging
-  composite: 20.2
+  band: minimal
+  composite: 9.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 19.0
     catalog_earned_first_party: 0.0
     catalog_gap: 96.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 35.2
     operational_transparency: 2.6
@@ -139,8 +130,8 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

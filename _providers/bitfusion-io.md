@@ -18,14 +18,14 @@ modified: '2026-07-18'
 name: Bitfusion Io
 nav: Providers
 network: true
-overview: Bitfusion Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Virtualization, Artificial Intelligence, Machine-Learning, and Infrastructure.
+overview: Bitfusion Io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU Virtualization, Artificial Intelligence, Machine Learning, and Infrastructure.
 random_paper: 8
 slug: bitfusion-io
 tags:
 - Company
 - GPU Virtualization
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infrastructure
 - Acquired
 - Defunct

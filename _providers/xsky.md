@@ -34,628 +34,628 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AccessPathController Operations able access paths
-  name: XSKY access-paths API
+  name: XSKY Access Paths API
   slug: xsky-access-paths-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AccessTokenController Manage users
-  name: XSKY access-tokens API
+  name: XSKY Access Tokens API
   slug: xsky-access-tokens-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ActionLogController Operations about ActionLog
-  name: XSKY action-logs API
+  name: XSKY Action Logs API
   slug: xsky-action-logs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AlertGroupController Operations about alert group
-  name: XSKY alert-groups API
+  name: XSKY Alert Groups API
   slug: xsky-alert-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AlertRuleController Operations about alert rule
-  name: XSKY alert-rules API
+  name: XSKY Alert Rules API
   slug: xsky-alert-rules-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AlertController Operations about alert
-  name: XSKY alerts API
+  name: XSKY Alerts API
   slug: xsky-alerts-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: AuthController Manage authentication and authorization
-  name: XSKY auth API
+  name: XSKY Auth API
   slug: xsky-auth-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: BlockSnapshotController Operations about Block Snapshot
-  name: XSKY block-snapshots API
+  name: XSKY Block Snapshots API
   slug: xsky-block-snapshots-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VolumeGroupSnapshotController Operations about volume group snapshot
-  name: XSKY block-volume-group-snapshots API
+  name: XSKY Block Volume Group Snapshots API
   slug: xsky-block-volume-group-snapshots-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VolumeGroupController Operations about volume group
-  name: XSKY block-volume-groups API
+  name: XSKY Block Volume Groups API
   slug: xsky-block-volume-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: BlockVolumeMigrationJobController Operations about block volume migration job
-  name: XSKY block-volume-migration-jobs API
+  name: XSKY Block Volume Migration Jobs API
   slug: xsky-block-volume-migration-jobs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: BlockVolumeController Operations about Block
-  name: XSKY block-volumes API
+  name: XSKY Block Volumes API
   slug: xsky-block-volumes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ChunkController Chunk Management
-  name: XSKY chunks API
+  name: XSKY Chunks API
   slug: xsky-chunks-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ClientCodeController Operations about client code
-  name: XSKY client-codes API
+  name: XSKY Client Codes API
   slug: xsky-client-codes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ClientGroupController Operations about client group
-  name: XSKY client-groups API
+  name: XSKY Client Groups API
   slug: xsky-client-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ClientLunMappingController API /client-lun-mappings
-  name: XSKY client-lun-mappings API
+  name: XSKY Client Lun Mappings API
   slug: xsky-client-lun-mappings-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ClientController API /clients
-  name: XSKY clients API
+  name: XSKY Clients API
   slug: xsky-clients-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: CloudInstanceController Cloud Instance Management
-  name: XSKY cloud-instances API
+  name: XSKY Cloud Instances API
   slug: xsky-cloud-instances-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: CloudPlatformController Cloud Platform Management
-  name: XSKY cloud-platforms API
+  name: XSKY Cloud Platforms API
   slug: xsky-cloud-platforms-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: CloudVolumeAttachmentController Cloud Volume Attachment Management
-  name: XSKY cloud-volume-attachments API
+  name: XSKY Cloud Volume Attachments API
   slug: xsky-cloud-volume-attachments-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: CloudVolumeController Cloud Volume Management
-  name: XSKY cloud-volumes API
+  name: XSKY Cloud Volumes API
   slug: xsky-cloud-volumes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ClusterController API /cluster
-  name: XSKY cluster API
+  name: XSKY Cluster API
   slug: xsky-cluster-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ConfController Operations about Config
-  name: XSKY confs API
+  name: XSKY Confs API
   slug: xsky-confs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: CryptoKeyController API /crypto-keys/
-  name: XSKY crypto-keys API
+  name: XSKY Crypto Keys API
   slug: xsky-crypto-keys-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DiskController Disk Management
-  name: XSKY disks API
+  name: XSKY Disks API
   slug: xsky-disks-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DomainUserValidatorController Domain User Validator Management
-  name: XSKY domain-user-validators API
+  name: XSKY Domain User Validators API
   slug: xsky-domain-user-validators-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockBackupJobController API /dp-block-backup-jobs/
-  name: XSKY dp-block-backup-jobs API
+  name: XSKY Dp Block Backup Jobs API
   slug: xsky-dp-block-backup-jobs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockBackupPolicyController API /dp-block-backup-policies
-  name: XSKY dp-block-backup-policies API
+  name: XSKY Dp Block Backup Policies API
   slug: xsky-dp-block-backup-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockReplicationPolicyController API /dp-block-replication-policies
-  name: XSKY dp-block-replication-policies API
+  name: XSKY Dp Block Replication Policies API
   slug: xsky-dp-block-replication-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockSnapshotJobController API /dp-block-snapshot-jobs/
-  name: XSKY dp-block-snapshot-jobs API
+  name: XSKY Dp Block Snapshot Jobs API
   slug: xsky-dp-block-snapshot-jobs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockSnapshotPolicyController API /dp-block-snapshot-policies
-  name: XSKY dp-block-snapshot-policies API
+  name: XSKY Dp Block Snapshot Policies API
   slug: xsky-dp-block-snapshot-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpBlockSnapshotRecoveryJobController API /dp-block-snapshot-recovery-jobs
-  name: XSKY dp-block-snapshot-recovery-jobs API
+  name: XSKY Dp Block Snapshot Recovery Jobs API
   slug: xsky-dp-block-snapshot-recovery-jobs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpFSSnapshotJobController API /dp-fs-snapshot-jobs/
-  name: XSKY dp-fs-snapshot-jobs API
+  name: XSKY Dp Fs Snapshot Jobs API
   slug: xsky-dp-fs-snapshot-jobs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpFSSnapshotPolicyController API /dp-fs-snapshot-policies
-  name: XSKY dp-fs-snapshot-policies API
+  name: XSKY Dp Fs Snapshot Policies API
   slug: xsky-dp-fs-snapshot-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpGatewayController API /dp-gateways/
-  name: XSKY dp-gateways API
+  name: XSKY Dp Gateways API
   slug: xsky-dp-gateways-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: DpSiteController API /dp-sites/
-  name: XSKY dp-sites API
+  name: XSKY Dp Sites API
   slug: xsky-dp-sites-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: EmailGroupController Operations about Email
-  name: XSKY email-groups API
+  name: XSKY Email Groups API
   slug: xsky-email-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: EmailController Operations about Email
-  name: XSKY emails API
+  name: XSKY Emails API
   slug: xsky-emails-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: EventLogController Operations about EventLog
-  name: XSKY event-logs API
+  name: XSKY Event Logs API
   slug: xsky-event-logs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSActiveDirectoryController File Storage Active Directory Management
-  name: XSKY fs-active-directories API
+  name: XSKY Fs Active Directories API
   slug: xsky-fs-active-directories-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSArbitrationPoolController File Storage Arbitration Pool Management
-  name: XSKY fs-arbitration-pools API
+  name: XSKY Fs Arbitration Pools API
   slug: xsky-fs-arbitration-pools-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSClientGroupController provides APIs for file storage client group
-  name: XSKY fs-client-groups API
+  name: XSKY Fs Client Groups API
   slug: xsky-fs-client-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSClientController provides APIs for file storage client
-  name: XSKY fs-clients API
+  name: XSKY Fs Clients API
   slug: xsky-fs-clients-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSFolderController provides API for file storage folder
-  name: XSKY fs-folders API
+  name: XSKY Fs Folders API
   slug: xsky-fs-folders-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSFTPSessionController provides API for fs FTP session
-  name: XSKY fs-ftp-sessions API
+  name: XSKY Fs Ftp Sessions API
   slug: xsky-fs-ftp-sessions-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSFTPShareACLController provides API for fs ftp share acl
-  name: XSKY fs-ftp-share-acls API
+  name: XSKY Fs Ftp Share Acls API
   slug: xsky-fs-ftp-share-acls-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSFTPShareController provides API for fs ftp share
-  name: XSKY fs-ftp-shares API
+  name: XSKY Fs Ftp Shares API
   slug: xsky-fs-ftp-shares-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSGatewayGroupController provides APIs for file storage gateway group
-  name: XSKY fs-gateway-groups API
+  name: XSKY Fs Gateway Groups API
   slug: xsky-fs-gateway-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSGatewayController provides APIs for file storage gateway
-  name: XSKY fs-gateways API
+  name: XSKY Fs Gateways API
   slug: xsky-fs-gateways-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSLdapController File Storage LDAP Management
-  name: XSKY fs-ldaps API
+  name: XSKY Fs Ldaps API
   slug: xsky-fs-ldaps-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSNFSConnectionController provides API for fs NFS connection
-  name: XSKY fs-nfs-connections API
+  name: XSKY Fs Nfs Connections API
   slug: xsky-fs-nfs-connections-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSNFSShareACLController provides API for fs nfs shares acl
-  name: XSKY fs-nfs-share-acls API
+  name: XSKY Fs Nfs Share Acls API
   slug: xsky-fs-nfs-share-acls-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSNFSShareController provides API for fs nfs shares
-  name: XSKY fs-nfs-shares API
+  name: XSKY Fs Nfs Shares API
   slug: xsky-fs-nfs-shares-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSQuotaTreeController provides API for file storage quota tree
-  name: XSKY fs-quota-trees API
+  name: XSKY Fs Quota Trees API
   slug: xsky-fs-quota-trees-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSSMBSessionController provides API for fs SMB session
-  name: XSKY fs-smb-sessions API
+  name: XSKY Fs Smb Sessions API
   slug: xsky-fs-smb-sessions-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSSMBShareACLController provides API for fs smb share acl
-  name: XSKY fs-smb-share-acls API
+  name: XSKY Fs Smb Share Acls API
   slug: xsky-fs-smb-share-acls-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSSMBShareController provides API for fs smb share
-  name: XSKY fs-smb-shares API
+  name: XSKY Fs Smb Shares API
   slug: xsky-fs-smb-shares-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSSnapshotController provides APIs for file storage snapshot
-  name: XSKY fs-snapshots API
+  name: XSKY Fs Snapshots API
   slug: xsky-fs-snapshots-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSUserGroupController provides APIs for file storage user group
-  name: XSKY fs-user-groups API
+  name: XSKY Fs User Groups API
   slug: xsky-fs-user-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: FSUserController provides API for file storage user
-  name: XSKY fs-users API
+  name: XSKY Fs Users API
   slug: xsky-fs-users-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: HostEncSpecController API /host-enc-specs/
-  name: XSKY host-enc-specs API
+  name: XSKY Host Enc Specs API
   slug: xsky-host-enc-specs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: HostInfoController Host Info Management
-  name: XSKY host-info API
+  name: XSKY Host Info API
   slug: xsky-host-info-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: HostInitializationController provides API for host initialization
-  name: XSKY host-initializations API
+  name: XSKY Host Initializations API
   slug: xsky-host-initializations-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: HostValidatorController Host Validator Management
-  name: XSKY host-validators API
+  name: XSKY Host Validators API
   slug: xsky-host-validators-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: HostController Host Management
-  name: XSKY hosts API
+  name: XSKY Hosts API
   slug: xsky-hosts-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: IdentityPlatformController Identity Platform Management
-  name: XSKY identity-platforms API
+  name: XSKY Identity Platforms API
   slug: xsky-identity-platforms-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: LicenseController Operations about Install
-  name: XSKY licenses API
+  name: XSKY Licenses API
   slug: xsky-licenses-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: LunController Operations on luns
-  name: XSKY luns API
+  name: XSKY Luns API
   slug: xsky-luns-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: MappingGroupController Operations able mapping groups
-  name: XSKY mapping-groups API
+  name: XSKY Mapping Groups API
   slug: xsky-mapping-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NetworkAddressController Network Address Management
-  name: XSKY network-addresses API
+  name: XSKY Network Addresses API
   slug: xsky-network-addresses-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NetworkDiagnosisController provides API for network diagnosis
-  name: XSKY network-diagnoses API
+  name: XSKY Network Diagnoses API
   slug: xsky-network-diagnoses-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NetworkDiagnosisItemController provides API for network diagnosis item
-  name: XSKY network-diagnosis-items API
+  name: XSKY Network Diagnosis Items API
   slug: xsky-network-diagnosis-items-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NetworkInterfaceController Network Interface Management
-  name: XSKY network-interfaces API
+  name: XSKY Network Interfaces API
   slug: xsky-network-interfaces-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NFSGatewayBucketMapController provides API for object storage nfs gateway s3 bucket map
-  name: XSKY nfs-gateway-bucket-maps API
+  name: XSKY Nfs Gateway Bucket Maps API
   slug: xsky-nfs-gateway-bucket-maps-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: NFSGatewayController provides API for object storage nfs gateway
-  name: XSKY nfs-gateways API
+  name: XSKY Nfs Gateways API
   slug: xsky-nfs-gateways-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSBucketLoggingController API /os-bucket-loggings.
-  name: XSKY os-bucket-loggings API
+  name: XSKY Os Bucket Loggings API
   slug: xsky-os-bucket-loggings-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageBucketController provides API for object storage bucket
-  name: XSKY os-buckets API
+  name: XSKY Os Buckets API
   slug: xsky-os-buckets-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSCustomLabelController provides API for object storage custom label
-  name: XSKY os-custom-labels API
+  name: XSKY Os Custom Labels API
   slug: xsky-os-custom-labels-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSExternalStorageClassController API /os-extertal-storage-classes.
-  name: XSKY os-external-storage-classes API
+  name: XSKY Os External Storage Classes API
   slug: xsky-os-external-storage-classes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageGatewayController provides API for s3 gateway
-  name: XSKY os-gateways API
+  name: XSKY Os Gateways API
   slug: xsky-os-gateways-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageKeyController provides API for object storage key
-  name: XSKY os-keys API
+  name: XSKY Os Keys API
   slug: xsky-os-keys-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageLifecycleController provides API for object storage lifecycle
-  name: XSKY os-lifecycles API
+  name: XSKY Os Lifecycles API
   slug: xsky-os-lifecycles-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSObjectController Object Storage Object Management
-  name: XSKY os-objects API
+  name: XSKY Os Objects API
   slug: xsky-os-objects-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStoragePolicyController provides API for object storage policy
-  name: XSKY os-policies API
+  name: XSKY Os Policies API
   slug: xsky-os-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSRemotePolicyController API /os-remote-policies
-  name: XSKY os-remote-policies API
+  name: XSKY Os Remote Policies API
   slug: xsky-os-remote-policies-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSReplicationPathController API /os-replication-paths.
-  name: XSKY os-replication-paths API
+  name: XSKY Os Replication Paths API
   slug: xsky-os-replication-paths-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSReplicationZoneController API /os-replication-zones.
-  name: XSKY os-replication-zones API
+  name: XSKY Os Replication Zones API
   slug: xsky-os-replication-zones-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSSampleController API /os-samples
-  name: XSKY os-samples API
+  name: XSKY Os Samples API
   slug: xsky-os-samples-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSSearchEngineController provides APIs for OS search engine
-  name: XSKY os-search-engines API
+  name: XSKY Os Search Engines API
   slug: xsky-os-search-engines-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSSearchGatewayController provides API for os search gateways
-  name: XSKY os-search-gateways API
+  name: XSKY Os Search Gateways API
   slug: xsky-os-search-gateways-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSStorageClassController API /os-storage-classes.
-  name: XSKY os-storage-classes API
+  name: XSKY Os Storage Classes API
   slug: xsky-os-storage-classes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageUserController provides API for object storage user
-  name: XSKY os-users API
+  name: XSKY Os Users API
   slug: xsky-os-users-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSZoneLockController API /os-zone-locks
-  name: XSKY os-zone-locks API
+  name: XSKY Os Zone Locks API
   slug: xsky-os-zone-locks-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSZonePairsController API /os-zone-pairs
-  name: XSKY os-zone-pairs API
+  name: XSKY Os Zone Pairs API
   slug: xsky-os-zone-pairs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSZonePeriodController API /os-zone-periods
-  name: XSKY os-zone-periods API
+  name: XSKY Os Zone Periods API
   slug: xsky-os-zone-periods-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OSZoneTranslogController API /os-zone-translogs
-  name: XSKY os-zone-translogs API
+  name: XSKY Os Zone Translogs API
   slug: xsky-os-zone-translogs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ObjectStorageZoneController API /os-zones
-  name: XSKY os-zones API
+  name: XSKY Os Zones API
   slug: xsky-os-zones-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OsdGroupController API /osd-groups
-  name: XSKY osd-groups API
+  name: XSKY Osd Groups API
   slug: xsky-osd-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: OsdController Osd Management
-  name: XSKY osds API
+  name: XSKY Osds API
   slug: xsky-osds-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: PartitionController API /partitions.
-  name: XSKY partitions API
+  name: XSKY Partitions API
   slug: xsky-partitions-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: PlacementNodeController provides API for placement node
-  name: XSKY placement-nodes API
+  name: XSKY Placement Nodes API
   slug: xsky-placement-nodes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: PoolController Operations about Pools
-  name: XSKY pools API
+  name: XSKY Pools API
   slug: xsky-pools-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ProtectionDomainController Protection Domain Management
-  name: XSKY protection-domains API
+  name: XSKY Protection Domains API
   slug: xsky-protection-domains-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: RemoteClusterController API /remote-clusters
-  name: XSKY remote-clusters API
+  name: XSKY Remote Clusters API
   slug: xsky-remote-clusters-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: RoleMappingController Role Mapping Management
-  name: XSKY role-mappings API
+  name: XSKY Role Mappings API
   slug: xsky-role-mappings-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: S3LoadBalancerGroupController API
-  name: XSKY s3-load-balancer-groups API
+  name: XSKY S3 Load Balancer Groups API
   slug: xsky-s3-load-balancer-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: S3LoadBalancerController API
-  name: XSKY s3-load-balancers API
+  name: XSKY S3 Load Balancers API
   slug: xsky-s3-load-balancers-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: SearchController defines search apis
-  name: XSKY search API
+  name: XSKY Search API
   slug: xsky-search-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: SearchCapabilityController defines search capability apis
-  name: XSKY search-capabilities API
+  name: XSKY Search Capabilities API
   slug: xsky-search-capabilities-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: ServiceController Disk Management
-  name: XSKY services API
+  name: XSKY Services API
   slug: xsky-services-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: SnmpController Operations able snmp
-  name: XSKY snmp API
+  name: XSKY Snmp API
   slug: xsky-snmp-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: SSLCertificateController API
-  name: XSKY ssl-certificates API
+  name: XSKY Ssl Certificates API
   slug: xsky-ssl-certificates-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: SystemLogController provides API for system logs
-  name: XSKY system-logs API
+  name: XSKY System Logs API
   slug: xsky-system-logs-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: TargetController Operations able targets
-  name: XSKY targets API
+  name: XSKY Targets API
   slug: xsky-targets-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: TaskController Task Management
-  name: XSKY tasks API
+  name: XSKY Tasks API
   slug: xsky-tasks-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: TrashResourceController Operations about Trash
-  name: XSKY trash-resources API
+  name: XSKY Trash Resources API
   slug: xsky-trash-resources-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: TrashController Operations about Trash
-  name: XSKY trashes API
+  name: XSKY Trashes API
   slug: xsky-trashes-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: UserController Manage users
-  name: XSKY users API
+  name: XSKY Users API
   slug: xsky-users-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VersionController Operations about Version
-  name: XSKY version API
+  name: XSKY Version API
   slug: xsky-version-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VIPGroupController API /vip-groups
-  name: XSKY vip-groups API
+  name: XSKY Vip Groups API
   slug: xsky-vip-groups-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VIPInstanceController API /vip-instances
-  name: XSKY vip-instances API
+  name: XSKY Vip Instances API
   slug: xsky-vip-instances-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VIPController API /vips
-  name: XSKY vips API
+  name: XSKY Vips API
   slug: xsky-vips-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VMFlavorController API /vm-flavors
-  name: XSKY vm-flavors API
+  name: XSKY Vm Flavors API
   slug: xsky-vm-flavors-api
 - baseURL: https://{xms-controller}/v1
   baseurl_source: declared
   description: VolumeDpBlockBackupPolicyMappingController API /volume-dp-block-backup-policy-mappings
-  name: XSKY volume-dp-block-backup-policy-mappings API
+  name: XSKY Volume Dp Block Backup Policy Mappings API
   slug: xsky-volume-dp-block-backup-policy-mappings-api
 artifact_total: 251
 collections:
@@ -1151,7 +1151,7 @@ modified: '2026-07-21'
 name: XSKY
 nav: Providers
 network: true
-overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, including access-paths API, access-tokens API, action-logs API, and 121 more. Tagged areas include Storage, Software-Defined Storage, Object Storage, Block Storage, and File Storage.
+overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, including Access Paths API, Access Tokens API, Action Logs API, and 121 more. Tagged areas include Storage, Software-Defined Storage, Object Storage, Block Storage, and File Storage.
 
 
   XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 18 more developer resources.'
@@ -1166,7 +1166,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
@@ -1181,7 +1181,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 31.0
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -1192,7 +1192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -303,7 +303,7 @@ modified: '2026-09-16'
 name: Courier
 nav: Providers
 network: true
-overview: 'Courier publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Inbox Real-Time API, Audiences API, Audit Events API, and 19 more. Tagged areas include Notification, Email, SMS, and Push.
+overview: 'Courier publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Inbox Real-Time API, Audiences API, Audit Events API, and 19 more. Tagged areas include Notification, Email, SMS, Push, and Real-Time.
 
 
   The Courier catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -333,21 +333,21 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.4
+  composite: 36.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 38.5
+    catalog_earned: 43.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.5
+    catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 68.0
     developer_ergonomics: 23.8
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 7.9
   previous_composite: 35.4
   provenance:
@@ -364,7 +364,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -389,5 +389,6 @@ tags:
 - Email
 - SMS
 - Push
+- Real-Time
 website: https://www.courier.com/
 ---

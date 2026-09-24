@@ -35,45 +35,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1
+- acting_count: 0
   human_in_the_loop: 0
   name: Web Of Science Apis Agentic Access
   operation_count: 14
   slug: web-of-science-apis-agentic-access
-  summary_line: 14 operations · 1 acting
+  summary_line: 14 operations
 api_count: 2
 apis:
 - baseURL: https://api.clarivate.com/api/wos
   baseurl_source: spec
   description: The citations API from Web of Science APIs — 3 operation(s) for citations.
-  name: Web of Science APIs citations API
+  name: Web of Science APIs Citations API
   slug: web-of-science-apis-citations-api
 - baseURL: https://api.clarivate.com/apis/wos-starter/v1
   baseurl_source: spec
   description: The documents API from Web of Science APIs — 2 operation(s) for documents.
-  name: Web of Science APIs documents API
+  name: Web of Science APIs Documents API
   slug: web-of-science-apis-documents-api
 - baseURL: https://api.clarivate.com/apis/wos-starter/v1
   baseurl_source: spec
   description: The journals API from Web of Science APIs — 2 operation(s) for journals.
-  name: Web of Science APIs journals API
+  name: Web of Science APIs Journals API
   slug: web-of-science-apis-journals-api
 - baseURL: https://api.clarivate.com/api/wos
   baseurl_source: spec
   description: The records API from Web of Science APIs — 1 operation(s) for records.
-  name: Web of Science APIs records API
+  name: Web of Science APIs Records API
   slug: web-of-science-apis-records-api
 - baseURL: https://api.clarivate.com/api/wos
   baseurl_source: spec
   description: The reports API from Web of Science APIs — 2 operation(s) for reports.
-  name: Web of Science APIs reports API
+  name: Web of Science APIs Reports API
   slug: web-of-science-apis-reports-api
 - baseURL: https://api.clarivate.com/api/wos
   baseurl_source: spec
   description: The search API from Web of Science APIs — 3 operation(s) for search.
-  name: Web of Science APIs search API
+  name: Web of Science APIs Search API
   slug: web-of-science-apis-search-api
 artifact_total: 129
 collections:
@@ -489,7 +489,7 @@ modified: '2026-05-19'
 name: Web of Science APIs
 nav: Providers
 network: true
-overview: 'Web of Science APIs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including citations API, documents API, journals API, and 3 more. Tagged areas include Research, Academic, Bibliometrics, Citations, and Science.
+overview: 'Web of Science APIs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Citations API, Documents API, Journals API, and 3 more. Tagged areas include Research, Academic, Bibliometrics, Citations, and Science.
 
 
   The Web of Science APIs catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -570,7 +570,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-09-16'
 name: Pixelfed
 nav: Providers
 network: true
-overview: 'Pixelfed publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks and Mutes API, Bookmarks API, and 14 more. Tagged areas include Fediverse, ActivityPub, Photo Sharing, Social-Media, and Open-Source.
+overview: 'Pixelfed publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks and Mutes API, Bookmarks API, and 14 more. Tagged areas include Fediverse, ActivityPub, Photo Sharing, Social Media, and Open Source.
 
 
   The Pixelfed catalog on APIs.io includes 1 JSON-LD context.
@@ -302,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -322,8 +322,8 @@ tags:
 - Fediverse
 - ActivityPub
 - Photo Sharing
-- Social-Media
-- Open-Source
+- Social Media
+- Open Source
 - Decentralized
 - Mastodon Compatible
 - Federation

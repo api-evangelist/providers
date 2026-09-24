@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 14
   human_in_the_loop: 0
   name: Amazon Kendra Agentic Access
   operation_count: 26
   slug: amazon-kendra-agentic-access
-  summary_line: 26 operations · 17 acting
+  summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
 - baseURL: https://kendra.amazonaws.com
@@ -161,7 +161,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/kendra/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/agentic-access/amazon-kendra-agentic-access.yml
   title: ''
@@ -398,7 +398,7 @@ modified: '2026-09-16'
 name: Amazon Kendra
 nav: Providers
 network: true
-overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge-Management, Machine-Learning, and Natural-Language.
+overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge Management, Machine Learning, and Natural-Language.
 
 
   The Amazon Kendra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -463,7 +463,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -490,9 +490,10 @@ slug: amazon-kendra
 tags:
 - Artificial Intelligence
 - Enterprise Search
-- Knowledge-Management
-- Machine-Learning
+- Knowledge Management
+- Machine Learning
 - Natural-Language
+- Search
 use_cases:
 - description: Help employees find accurate answers and data-driven insights across internal knowledge bases and document repositories.
   name: Employee Productivity
@@ -504,5 +505,5 @@ use_cases:
   name: Generative AI Applications
 - description: Index and search across multiple heterogeneous data sources to create a unified knowledge search experience.
   name: Enterprise Knowledge Management
-website: https://amazon.com
+website: https://aws.amazon.com/kendra/
 ---

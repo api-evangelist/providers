@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The U.S. Cyber Command Cyber National Mission Force (CNMF) shares unclassified malware samples on VirusTotal via the CYBERCOM_Malware_Alert account. This public threat intelligence sharing program pos
@@ -144,7 +144,7 @@ modified: '2026-05-03'
 name: US Cyber Command
 nav: Providers
 network: true
-overview: 'US Cyber Command publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Federal-Government, Military, Threat Intelligence, and Defense.
+overview: 'US Cyber Command publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, Federal Government, Military, Threat Intelligence, and Defense.
 
 
   The US Cyber Command catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,7 +197,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ security:
 slug: us-cyber-command
 tags:
 - Cybersecurity
-- Federal-Government
+- Federal Government
 - Military
 - Threat Intelligence
 - Defense

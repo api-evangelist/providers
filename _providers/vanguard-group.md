@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/vanguard-group/refs/heads/main/security/vanguard-group-domain-security.yml
@@ -201,11 +201,6 @@ common:
   title: ''
   type: Absences
   url: ''
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vanguard-group/refs/heads/main/graphql/vanguard-group-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/vanguard-group-graphql.md
 created: '2026-05-23'
 description: 'The Vanguard Group is an American investor-owned asset manager headquartered in Malvern, Pennsylvania, and is "the largest provider of mutual funds in the world" and the second-largest exchange-traded fund (ETF) provider after BlackRock''s iShares. Vanguard manages approximately $12 trillion in assets as of 2025 and employs roughly 20,000 people (the "crew") as of December 31, 2024. The firm was founded on May 1, 1975 by John C. ("Jack") Bogle and is structured as a mutual: "Vanguard is owned by the funds managed by the company and is therefore owned by its customers." Salim Ramji was appointed Chief Executive Officer in July 2024. Vanguard''s business spans index and active mutual funds, ETFs, personal advisor services, retirement plan recordkeeping (Vanguard Retirement Plan Services), institutional asset management, fixed income, and a financial-advisor channel served through Vanguard Financial Advisor Services. Vanguard operates across the Americas, Europe, and Asia Pacific.
   Despite that scale, Vanguard does not publish a public developer API program — there is no public OpenAPI specification, no SDKs, no CLI, no public webhooks, and no Vanguard-published public RSS feed. Investor, advisor, recordkeeping, and distribution-platform integrations are delivered through authentication-gated portals (investor.vanguard.com, advisors.vanguard.com, institutional.vanguard.com), PDF reporting, brokerage/custodian rails, fund-administrator data feeds, and industry recordkeeping interfaces.'
@@ -220,10 +215,6 @@ features:
   name: Research and Commentary
 - description: Authenticated retirement and goals planning tools for Personal Advisor clients (digital, hybrid, and wealth-management tiers).
   name: Personal Advisor Tools
-graphqls:
-- description: The Vanguard Group does not publish a native public GraphQL API. All investor, advisor, recordkeeping, and institutional integrations are delivered through authentication-gated portals (investor.vangu
-  name: Vanguard Group GraphQL
-  slug: vanguard-group-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vanguard-group.png
 layout: provider
 modified: '2026-05-23'
@@ -233,23 +224,23 @@ network: true
 overview: 'The Vanguard Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Active Management, Advisor Services, Asset Management, Brokerage, and ETFs.
 
 
-  The Vanguard Group''s developer surface includes YouTube channel, GitHub presence, and 33 more developer resources.'
+  The Vanguard Group''s developer surface includes YouTube channel, GitHub presence, and 32 more developer resources.'
 random_paper: 6
 score:
-  band: emerging
-  composite: 15.4
+  band: minimal
+  composite: 5.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 5.3
@@ -266,8 +257,8 @@ score:
     regime_id: securities_market_data
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -286,7 +277,7 @@ tags:
 - Brokerage
 - ETFs
 - Finance
-- Financial-Services
+- Financial Services
 - Fixed Income
 - Index Investing
 - Institutional Investment

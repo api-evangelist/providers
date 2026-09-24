@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.typesafe.ai
@@ -249,7 +249,7 @@ modified: '2026-09-19'
 name: TypeSafe AI
 nav: Providers
 network: true
-overview: 'TypeSafe AI publishes 1 API on the [APIs.io](https://apis.io/) network: TypeSafe System One API. Tagged areas include Artificial Intelligence, Machine-Learning, Classification, Content Moderation, and Decision Support.
+overview: 'TypeSafe AI publishes 1 API on the [APIs.io](https://apis.io/) network: TypeSafe System One API. Tagged areas include Artificial Intelligence, Machine Learning, Classification, Content Moderation, and Decision Support.
 
 
   TypeSafe AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, changelog, and 36 more developer resources.'
@@ -291,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -316,7 +316,7 @@ security:
 slug: typesafe-ai
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Classification
 - Content Moderation
 - Decision Support
@@ -327,5 +327,6 @@ tags:
 - MCP
 - Agent-Native
 - Developer Tools
+- A2A
 website: https://typesafe.ai/
 ---

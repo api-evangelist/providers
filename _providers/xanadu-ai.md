@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 14
 apis:
 - description: 'PennyLane is the flagship open-source Python framework for quantum differentiable programming — train and optimize variational quantum circuits with the same automatic differentiation engines used in '
@@ -285,7 +285,7 @@ score:
     score: 65.0
   previous_composite: 31.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -305,7 +305,7 @@ tags:
 - Quantum Chemistry
 - Differentiable Programming
 - PennyLane
-- Open-Source
+- Open Source
 - Compilers
 - Simulator
 - Continuous Variable

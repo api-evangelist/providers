@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 100
+- acting_count: 99
   human_in_the_loop: 2
   name: Narmi Agentic Access
   operation_count: 189
   slug: narmi-agentic-access
-  summary_line: 189 operations · 100 acting · 2 human-in-the-loop
+  summary_line: 189 operations · 99 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.sandbox.narmi.dev/
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The accounts API from Narmi — 10 operation(s) for accounts.
-  name: Narmi accounts API
+  name: Narmi Accounts API
   slug: narmi-accounts-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -81,7 +81,7 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The alerts API from Narmi — 6 operation(s) for alerts.
-  name: Narmi alerts API
+  name: Narmi Alerts API
   slug: narmi-alerts-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -96,7 +96,7 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The cards API from Narmi — 10 operation(s) for cards.
-  name: Narmi cards API
+  name: Narmi Cards API
   slug: narmi-cards-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -106,22 +106,22 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The deposits API from Narmi — 2 operation(s) for deposits.
-  name: Narmi deposits API
+  name: Narmi Deposits API
   slug: narmi-deposits-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The documents API from Narmi — 3 operation(s) for documents.
-  name: Narmi documents API
+  name: Narmi Documents API
   slug: narmi-documents-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The enrollments API from Narmi — 5 operation(s) for enrollments.
-  name: Narmi enrollments API
+  name: Narmi Enrollments API
   slug: narmi-enrollments-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The express-checkout API from Narmi — 2 operation(s) for express-checkout.
-  name: Narmi express-checkout API
+  name: Narmi Express Checkout API
   slug: narmi-express-checkout-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -146,7 +146,7 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The institution API from Narmi — 2 operation(s) for institution.
-  name: Narmi institution API
+  name: Narmi Institution API
   slug: narmi-institution-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -156,42 +156,42 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The me API from Narmi — 1 operation(s) for me.
-  name: Narmi me API
+  name: Narmi Me API
   slug: narmi-me-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The merchants API from Narmi — 1 operation(s) for merchants.
-  name: Narmi merchants API
+  name: Narmi Merchants API
   slug: narmi-merchants-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The mfa API from Narmi — 3 operation(s) for mfa.
-  name: Narmi mfa API
+  name: Narmi Mfa API
   slug: narmi-mfa-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The payees API from Narmi — 2 operation(s) for payees.
-  name: Narmi payees API
+  name: Narmi Payees API
   slug: narmi-payees-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The payments API from Narmi — 2 operation(s) for payments.
-  name: Narmi payments API
+  name: Narmi Payments API
   slug: narmi-payments-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The ping API from Narmi — 1 operation(s) for ping.
-  name: Narmi ping API
+  name: Narmi Ping API
   slug: narmi-ping-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The recipients API from Narmi — 2 operation(s) for recipients.
-  name: Narmi recipients API
+  name: Narmi Recipients API
   slug: narmi-recipients-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The reports API from Narmi — 3 operation(s) for reports.
-  name: Narmi reports API
+  name: Narmi Reports API
   slug: narmi-reports-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -206,17 +206,17 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The subscriptions API from Narmi — 2 operation(s) for subscriptions.
-  name: Narmi subscriptions API
+  name: Narmi Subscriptions API
   slug: narmi-subscriptions-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The support API from Narmi — 1 operation(s) for support.
-  name: Narmi support API
+  name: Narmi Support API
   slug: narmi-support-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The surveys API from Narmi — 3 operation(s) for surveys.
-  name: Narmi surveys API
+  name: Narmi Surveys API
   slug: narmi-surveys-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -226,17 +226,17 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The teams API from Narmi — 1 operation(s) for teams.
-  name: Narmi teams API
+  name: Narmi Teams API
   slug: narmi-teams-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The threads API from Narmi — 6 operation(s) for threads.
-  name: Narmi threads API
+  name: Narmi Threads API
   slug: narmi-threads-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The transactions API from Narmi — 3 operation(s) for transactions.
-  name: Narmi transactions API
+  name: Narmi Transactions API
   slug: narmi-transactions-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -246,12 +246,12 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The users API from Narmi — 3 operation(s) for users.
-  name: Narmi users API
+  name: Narmi Users API
   slug: narmi-users-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The whatismyip API from Narmi — 1 operation(s) for whatismyip.
-  name: Narmi whatismyip API
+  name: Narmi Whatismyip API
   slug: narmi-whatismyip-api
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
@@ -261,7 +261,7 @@ apis:
 - baseURL: https://api.sandbox.narmi.dev/
   baseurl_source: declared
   description: The wires API from Narmi — 3 operation(s) for wires.
-  name: Narmi wires API
+  name: Narmi Wires API
   slug: narmi-wires-api
 arazzos:
 - description: Pick a funding account and create an ACH payment idempotently, then read it back.
@@ -737,7 +737,7 @@ modified: '2026-07-20'
 name: Narmi
 nav: Providers
 network: true
-overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, including account balances API, accounts API, ach companies API, and 41 more. Tagged areas include Company, Fintech, Digital Banking, Banking, and Payments.
+overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, including account balances API, Accounts API, ach companies API, and 41 more. Tagged areas include Company, Fintech, Digital Banking, Banking, and Payments.
 
 
   The Narmi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -790,7 +790,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -820,6 +820,6 @@ tags:
 - Wires
 - FedNow
 - Cards
-- Financial-Services
+- Financial Services
 website: https://www.narmi.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -86,102 +86,102 @@ apis:
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The aca API from Axway — 2 operation(s) for aca.
-  name: Axway aca API
+  name: Axway Aca API
   slug: axway-aca-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The activity API from Axway — 2 operation(s) for activity.
-  name: Axway activity API
+  name: Axway Activity API
   slug: axway-activity-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The analytics API from Axway — 6 operation(s) for analytics.
-  name: Axway analytics API
+  name: Axway Analytics API
   slug: axway-analytics-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The app API from Axway — 2 operation(s) for app.
-  name: Axway app API
+  name: Axway App API
   slug: axway-app-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The auth API from Axway — 26 operation(s) for auth.
-  name: Axway auth API
+  name: Axway Auth API
   slug: axway-auth-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The client API from Axway — 3 operation(s) for client.
-  name: Axway client API
+  name: Axway Client API
   slug: axway-client-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The domain API from Axway — 8 operation(s) for domain.
-  name: Axway domain API
+  name: Axway Domain API
   slug: axway-domain-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The entitlement API from Axway — 1 operation(s) for entitlement.
-  name: Axway entitlement API
+  name: Axway Entitlement API
   slug: axway-entitlement-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The env API from Axway — 2 operation(s) for env.
-  name: Axway env API
+  name: Axway Env API
   slug: axway-env-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The export API from Axway — 3 operation(s) for export.
-  name: Axway export API
+  name: Axway Export API
   slug: axway-export-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The idp API from Axway — 10 operation(s) for idp.
-  name: Axway idp API
+  name: Axway Idp API
   slug: axway-idp-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The org API from Axway — 6 operation(s) for org.
-  name: Axway org API
+  name: Axway Org API
   slug: axway-org-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The provider API from Axway — 13 operation(s) for provider.
-  name: Axway provider API
+  name: Axway Provider API
   slug: axway-provider-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The role API from Axway — 2 operation(s) for role.
-  name: Axway role API
+  name: Axway Role API
   slug: axway-role-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The session API from Axway — 3 operation(s) for session.
-  name: Axway session API
+  name: Axway Session API
   slug: axway-session-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The subscription API from Axway — 2 operation(s) for subscription.
-  name: Axway subscription API
+  name: Axway Subscription API
   slug: axway-subscription-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The team API from Axway — 4 operation(s) for team.
-  name: Axway team API
+  name: Axway Team API
   slug: axway-team-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The telemetry API from Axway — 1 operation(s) for telemetry.
-  name: Axway telemetry API
+  name: Axway Telemetry API
   slug: axway-telemetry-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The usage API from Axway — 4 operation(s) for usage.
-  name: Axway usage API
+  name: Axway Usage API
   slug: axway-usage-api
 - baseURL: https://platform.axway.com/api/v1
   baseurl_source: declared
   description: The user API from Axway — 7 operation(s) for user.
-  name: Axway user API
+  name: Axway User API
   slug: axway-user-api
 artifact_total: 895
 collections:
@@ -2833,7 +2833,7 @@ modified: '2026-05-30'
 name: Axway
 nav: Providers
 network: true
-overview: 'Axway publishes 20 APIs on the [APIs.io](https://apis.io/) network, including aca API, activity API, analytics API, and 17 more. Tagged areas include API Management, Enterprise, Integration, and Security.
+overview: 'Axway publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Aca API, Activity API, Analytics API, and 17 more. Tagged areas include API Management, Enterprise, Integration, and Security.
 
 
   The Axway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2903,7 +2903,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

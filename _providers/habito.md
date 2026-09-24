@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-19'
 name: Habito
 nav: Providers
 network: true
-overview: 'Habito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Financial-Services.
+overview: 'Habito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Mortgage, Lending, and Financial Services.
 
 
   Habito''s developer surface includes engineering blog and 4 more developer resources.'
@@ -98,7 +98,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -116,8 +116,8 @@ tags:
 - Fintech
 - Mortgage
 - Lending
-- Financial-Services
-- Real-Estate
+- Financial Services
+- Real Estate
 - Home Buying
 - United Kingdom
 website: https://www.habito.com

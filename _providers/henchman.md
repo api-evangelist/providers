@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.henchman.io
@@ -108,7 +108,7 @@ modified: '2026-06-21'
 name: Henchman
 nav: Providers
 network: true
-overview: 'Henchman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clause and Definition Search, Knowledge Base, and Integrations. Tagged areas include Legal, Legal Tech, Contract Drafting, Clause Search, and Knowledge-Management.
+overview: 'Henchman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clause and Definition Search, Knowledge Base, and Integrations. Tagged areas include Legal, Legal Tech, Contract Drafting, Clause Search, and Knowledge Management.
 
 
   Henchman''s developer surface includes documentation and 7 more developer resources.'
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ tags:
 - Legal Tech
 - Contract Drafting
 - Clause Search
-- Knowledge-Management
+- Knowledge Management
 - Artificial Intelligence
 website: https://www.henchman.io
 ---

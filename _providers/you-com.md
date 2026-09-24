@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-09-23'
+  score: 13.7
+  scored_at: '2026-09-24'
 api_count: 4
 apis:
 - description: The You.com Search API returns real-time web search results tailored for AI agents and LLMs, with controls for freshness, category, and result shape.
@@ -48,7 +48,7 @@ apis:
 - description: The Finance Research API specializes in financial intelligence, returning sourced answers to investment and markets questions. Ranked first on FinSearchComp.
   name: You.com Finance Research API
   slug: finance-research-api
-artifact_total: 10
+artifact_total: 9
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/you-com/refs/heads/main/security/you-com-vulnerability-disclosure.yml
@@ -102,10 +102,6 @@ finops:
 - name: You Com Finops
   service_category: API
   slug: you-com-finops
-graphqls:
-- description: You.com provides AI search and chat APIs. Their Smart API covers web search with AI-generated answers, custom AI assistants, code generation, summarization, and real-time news with citations.
-  name: You.com GraphQL API
-  slug: you-com-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/you-com.png
 layout: provider
 modified: '2026-05-23'
@@ -127,19 +123,19 @@ rate_limits:
   slug: you-com-rate-limits
 score:
   band: thin
-  composite: 36.9
+  composite: 26.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 74.1
     operational_transparency: 23.7
@@ -147,8 +143,8 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

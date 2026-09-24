@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -101,7 +101,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/audit-manager/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/mcp/amazon-audit-manager-mcp.yml
   title: ''
@@ -795,7 +795,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -827,5 +827,5 @@ use_cases:
 - Delegate control reviews to business process owners
 - Generate audit-ready reports for external auditors
 - Monitor compliance posture across multiple AWS accounts
-website: https://amazon.com
+website: https://aws.amazon.com/audit-manager/
 ---

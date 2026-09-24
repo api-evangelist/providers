@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 29
   human_in_the_loop: 0
   name: Livechat Agentic Access
   operation_count: 35
   slug: livechat-agentic-access
-  summary_line: 35 operations · 35 acting
+  summary_line: 35 operations · 29 acting
 api_count: 1
 apis:
 - description: REST and RTM APIs for agents to manage chats, send messages, transfer conversations, and update statuses. Authenticated with OAuth 2.1 bearer tokens or Personal Access Tokens.
@@ -188,7 +188,7 @@ modified: '2026-05-30'
 name: LiveChat
 nav: Providers
 network: true
-overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and RTM API, Chats API, Customers API, and 5 more. Tagged areas include Live Chat, Customer Service, Customer-Support, Messaging, and Sales.
+overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and RTM API, Chats API, Customers API, and 5 more. Tagged areas include Live Chat, Customer Service, Customer Support, Messaging, and Sales.
 
 
   LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 6 more developer resources.'
@@ -221,7 +221,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -240,7 +240,7 @@ slug: livechat
 tags:
 - Live Chat
 - Customer Service
-- Customer-Support
+- Customer Support
 - Messaging
 - Sales
 - Help Desk

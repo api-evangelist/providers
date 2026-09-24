@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ modified: '2026-07-21'
 name: Sahara AI
 nav: Providers
 network: true
-overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Crypto, Artificial Intelligence, Machine-Learning, and Agents.
+overview: 'Sahara AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Inference API. Tagged areas include Company, Crypto, Artificial Intelligence, Machine Learning, and Agents.
 
 
   Sahara AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -227,7 +227,7 @@ tags:
 - Company
 - Crypto
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Agents
 - Compute
 - Blockchain

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://{oxide-control-plane-host}
@@ -384,11 +384,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 31
+      total: 30
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -418,6 +418,6 @@ tags:
 - Hardware
 - On-Premises
 - Private Cloud
-- Open-Source
+- Open Source
 website: https://oxide.computer
 ---

@@ -34,30 +34,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 187
+- acting_count: 154
   human_in_the_loop: 1
   name: Kubeshop Agentic Access
-  operation_count: 371
+  operation_count: 311
   slug: kubeshop-agentic-access
-  summary_line: 371 operations · 187 acting · 1 human-in-the-loop
+  summary_line: 311 operations · 154 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Testkube API operations
-  name: Kubeshop api
+  name: Kubeshop API
   slug: kubeshop-api-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Artifact operations
-  name: Kubeshop artifacts API
+  name: Kubeshop Artifacts API
   slug: kubeshop-artifacts-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The cluster-resources API from Kubeshop — 1 operation(s) for cluster-resources.
-  name: Kubeshop cluster-resources API
+  name: Kubeshop Cluster Resources API
   slug: kubeshop-cluster-resources-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -67,22 +67,22 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Executor operations
-  name: Kubeshop executor API
+  name: Kubeshop Executor API
   slug: kubeshop-executor-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Keymap for fields in a form
-  name: Kubeshop keymap API
+  name: Kubeshop Keymap API
   slug: kubeshop-keymap-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Listing all available labels
-  name: Kubeshop labels API
+  name: Kubeshop Labels API
   slug: kubeshop-labels-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Log operations
-  name: Kubeshop logs API
+  name: Kubeshop Logs API
   slug: kubeshop-logs-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -92,12 +92,12 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The repository API from Kubeshop — 1 operation(s) for repository.
-  name: Kubeshop repository API
+  name: Kubeshop Repository API
   slug: kubeshop-repository-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The secrets API from Kubeshop — 2 operation(s) for secrets.
-  name: Kubeshop secrets API
+  name: Kubeshop Secrets API
   slug: kubeshop-secrets-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -107,32 +107,32 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The tags API from Kubeshop — 1 operation(s) for tags.
-  name: Kubeshop tags API
+  name: Kubeshop Tags API
   slug: kubeshop-tags-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The template API from Kubeshop — 2 operation(s) for template.
-  name: Kubeshop template API
+  name: Kubeshop Template API
   slug: kubeshop-template-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The templates API from Kubeshop — 1 operation(s) for templates.
-  name: Kubeshop templates API
+  name: Kubeshop Templates API
   slug: kubeshop-templates-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The test-sources API from Kubeshop — 2 operation(s) for test-sources.
-  name: Kubeshop test-sources API
+  name: Kubeshop Test Sources API
   slug: kubeshop-test-sources-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Test suites orchestration operations
-  name: Kubeshop test-suites API
+  name: Kubeshop Test Suites API
   slug: kubeshop-test-suites-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Test Triggers CRUD operations
-  name: Kubeshop test-triggers API
+  name: Kubeshop Test Triggers API
   slug: kubeshop-test-triggers-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -142,7 +142,7 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Tests operations
-  name: Kubeshop tests API
+  name: Kubeshop Tests API
   slug: kubeshop-tests-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -152,12 +152,12 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Webhook operations
-  name: Kubeshop webhook API
+  name: Kubeshop Webhook API
   slug: kubeshop-webhook-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: The webhook-template API from Kubeshop — 2 operation(s) for webhook-template.
-  name: Kubeshop webhook-template API
+  name: Kubeshop Webhook Template API
   slug: kubeshop-webhook-template-api
 artifact_total: 61
 asyncapis:
@@ -452,7 +452,7 @@ modified: '2026-09-16'
 name: Kubeshop
 nav: Providers
 network: true
-overview: 'Kubeshop publishes 23 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, cluster-resources API, and 21 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
+overview: 'Kubeshop publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Cluster Resources API, and 21 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
 
 
   The Kubeshop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -499,7 +499,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -526,7 +526,7 @@ tags:
 - DevOps
 - Cloud-Native
 - Quality Assurance
-- Open-Source
+- Open Source
 - MCP
 website: https://testkube.io/
 ---

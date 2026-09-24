@@ -34,23 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://www.tindie.com/api/v1
   baseurl_source: declared
   description: A seller's orders (authenticated).
-  name: Tindie order API
+  name: Tindie Order API
   slug: tindie-order-api
 - baseURL: https://www.tindie.com/api/v1
   baseurl_source: declared
   description: Line items within a seller's orders (authenticated).
-  name: Tindie orderitem API
+  name: Tindie Orderitem API
   slug: tindie-orderitem-api
 - baseURL: https://www.tindie.com/api/v1
   baseurl_source: declared
   description: Store product listings (public read).
-  name: Tindie product API
+  name: Tindie Product API
   slug: tindie-product-api
 artifact_total: 10
 collections:
@@ -162,7 +162,7 @@ modified: '2026-07-21'
 name: Tindie
 nav: Providers
 network: true
-overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: order API, orderitem API, and product API. Tagged areas include Company, Marketplace, Hardware, Electronics, and Maker.
+overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: Order API, Orderitem API, and Product API. Tagged areas include Company, Marketplace, Hardware, Electronics, and Maker.
 
 
   Tindie''s developer surface includes API reference, support, engineering blog, authentication, and 14 more developer resources.'
@@ -196,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

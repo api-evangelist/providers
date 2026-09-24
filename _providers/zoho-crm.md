@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 249
+- acting_count: 247
   human_in_the_loop: 1
   name: Zoho Crm Agentic Access
   operation_count: 405
   slug: zoho-crm-agentic-access
-  summary_line: 405 operations · 249 acting · 1 human-in-the-loop
+  summary_line: 405 operations · 247 acting · 1 human-in-the-loop
 api_count: 105
 apis:
 - baseURL: https://www.zohoapis.com/crm/v2
@@ -226,7 +226,7 @@ apis:
   description: The Apis API from Zoho CRM — 1 operation(s) for apis.
   name: Zoho CRM APIS API
   slug: zoho-crm-apis-api
-artifact_total: 48
+artifact_total: 47
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Zoho CRM Notifications (Instant Notifications) API surface. Subscribers register a notify_url (channel) with Zoho CRM via the REST "actions/watch" endpoint and recei
   name: Zoho CRM Notifications API
@@ -977,11 +977,6 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/zoho-crm-notifications-asyncapi.yml
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/graphql/zoho-crm-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/zoho-crm-graphql.md
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/rules/zoho-crm-asyncapi-spectral-rules.yml
   title: ''
@@ -990,10 +985,6 @@ common:
 created: '2026-05-11'
 description: Zoho CRM is Zoho Corporation's AI-powered sales and customer relationship management platform, used to manage leads, contacts, accounts, deals, activities and customer engagement across channels. Its REST API is currently at v8 and is published as first-party OpenAPI 3.1.0 — 105 specification files covering 405 operations, hosted by Zoho at github.com/zoho/crm-oas and linked from the developer documentation. Authentication is OAuth 2.0 authorization-code against accounts.zoho.com with 458 distinct scopes, and every specification templates both the data centre and the API version into the server URL (https://zohoapis.{dc}/crm/{version}, dc one of com, eu, in, cn, au). Usage is metered in API credits on a rolling 24-hour window rather than in requests, alongside an org-level concurrency cap. Zoho additionally ships server-side SDKs for Node.js, TypeScript, Python, PHP, C#, Java, Ruby and Scala, a widget/extension CLI (ZET), a documented webhook surface (Instant Notifications),
   and a hosted MCP product that names Zoho CRM as a supported app.
-graphqls:
-- description: This is a conceptual GraphQL schema for Zoho CRM, derived from the Zoho CRM REST API v8. Zoho CRM is an AI-powered sales and customer relationship management platform that helps businesses manage lead
-  name: Zoho CRM GraphQL Schema
-  slug: zoho-crm-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-crm.png
 layout: provider
 mcp_servers:
@@ -1010,7 +1001,7 @@ overview: 'Zoho CRM publishes 36 APIs on the [APIs.io](https://apis.io/) network
   The Zoho CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Zoho CRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 148 more developer resources.'
+  Zoho CRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 147 more developer resources.'
 plans:
 - name: Zoho Crm Plans Pricing
   plan_count: 5
@@ -1039,23 +1030,23 @@ scopes:
   summary_line: 458 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.7
+  composite: 75.3
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 28
     catalog_earned: 64.8
     catalog_earned_first_party: 24.0
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: -0.4
   facets:
     access_clarity: 92.1
     contract_governance: 29.5
-    contract_quality: 67.2
+    contract_quality: 65.7
     developer_ergonomics: 82.7
     discoverability: 68.5
     operational_transparency: 84.2
-  previous_composite: 75.8
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1067,7 +1058,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

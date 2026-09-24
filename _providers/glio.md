@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-07-19'
 name: Glio
 nav: Providers
 network: true
-overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and LLM API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Media Generation, and Video Generation.
+overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and LLM API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Media Generation, and Video Generation.
 
 
   Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 16 more developer resources.'
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,10 +237,10 @@ slug: glio
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Media Generation
 - Video Generation
-- Image-Generation
+- Image Generation
 - Audio Generation
 - Text-to-Speech
 - LLM

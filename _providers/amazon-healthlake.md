@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 10
   human_in_the_loop: 0
   name: Amazon Healthlake Agentic Access
   operation_count: 13
   slug: amazon-healthlake-agentic-access
-  summary_line: 13 operations · 13 acting
+  summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
 - baseURL: https://healthlake.amazonaws.com
@@ -222,7 +222,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/healthlake/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/agentic-access/amazon-healthlake-agentic-access.yml
   title: ''
@@ -1025,7 +1025,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1066,5 +1066,5 @@ use_cases:
   name: AI-Powered Clinical Insights
 - description: Create de-identified research datasets from FHIR health records for clinical studies.
   name: Research Data Platform
-website: https://amazon.com
+website: https://aws.amazon.com/healthlake/
 ---

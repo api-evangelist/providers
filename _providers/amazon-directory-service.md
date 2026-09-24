@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 67
+- acting_count: 60
   human_in_the_loop: 7
   name: Amazon Directory Service Agentic Access
   operation_count: 67
   slug: amazon-directory-service-agentic-access
-  summary_line: 67 operations · 67 acting · 7 human-in-the-loop
+  summary_line: 67 operations · 60 acting · 7 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://ds.amazonaws.com
@@ -1220,7 +1220,7 @@ score:
       marker_coverage: 0.0
       total: 67
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -49,22 +49,22 @@ apis:
 - baseURL: https://api.ideogram.ai
   baseurl_source: declared
   description: The subpackage_datasets API from Ideogram — 3 operation(s) for subpackage_datasets.
-  name: Ideogram subpackage_datasets API
+  name: Ideogram Subpackage Datasets API
   slug: ideogram-subpackage-datasets-api
 - baseURL: https://api.ideogram.ai
   baseurl_source: declared
   description: The subpackage_generate API from Ideogram — 15 operation(s) for subpackage_generate.
-  name: Ideogram subpackage_generate API
+  name: Ideogram Subpackage Generate API
   slug: ideogram-subpackage-generate-api
 - baseURL: https://api.ideogram.ai
   baseurl_source: declared
   description: The subpackage_models API from Ideogram — 3 operation(s) for subpackage_models.
-  name: Ideogram subpackage_models API
+  name: Ideogram Subpackage Models API
   slug: ideogram-subpackage-models-api
 - baseURL: https://api.ideogram.ai
   baseurl_source: declared
   description: The subpackage_vision API from Ideogram — 1 operation(s) for subpackage_vision.
-  name: Ideogram subpackage_vision API
+  name: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
 artifact_total: 16
 collections:
@@ -154,7 +154,7 @@ modified: '2026-05-30'
 name: Ideogram
 nav: Providers
 network: true
-overview: 'Ideogram publishes 4 APIs on the [APIs.io](https://apis.io/) network, including subpackage_datasets API, subpackage_generate API, subpackage_models API, and 1 more. Tagged areas include Artificial Intelligence, Image-Generation, Text, Realistic, and Editing.
+overview: 'Ideogram publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Datasets API, Subpackage Generate API, Subpackage Models API, and 1 more. Tagged areas include Artificial Intelligence, Image Generation, Text, Realistic, and Editing.
 
 
   Ideogram''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -195,7 +195,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -213,7 +213,7 @@ security:
 slug: ideogram
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Text
 - Realistic
 - Editing

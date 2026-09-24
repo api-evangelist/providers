@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://testnet-1.seismictest.net/rpc
   baseurl_source: declared
   description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
-  name: Seismic Systems tokens API
+  name: Seismic Systems Tokens API
   slug: seismic-systems-tokens-api
 artifact_total: 6
 collections:
@@ -166,7 +166,7 @@ modified: '2026-07-21'
 name: Seismic Systems
 nav: Providers
 network: true
-overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) network: tokens API. Tagged areas include Company, Blockchain, Privacy, Encryption, and Stablecoins.
+overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) network: Tokens API. Tagged areas include Company, Blockchain, Privacy, Encryption, and Stablecoins.
 
 
   Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 15 more developer resources.'
@@ -201,7 +201,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -49,17 +49,17 @@ apis:
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The coverage API from 99 Minutos — 1 operation(s) for coverage.
-  name: 99 Minutos coverage API
+  name: 99 Minutos Coverage API
   slug: 99-minutos-coverage-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The documents API from 99 Minutos — 2 operation(s) for documents.
-  name: 99 Minutos documents API
+  name: 99 Minutos Documents API
   slug: 99-minutos-documents-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The locations API from 99 Minutos — 3 operation(s) for locations.
-  name: 99 Minutos locations API
+  name: 99 Minutos Locations API
   slug: 99-minutos-locations-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
@@ -69,22 +69,22 @@ apis:
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The shipments API from 99 Minutos — 3 operation(s) for shipments.
-  name: 99 Minutos shipments API
+  name: 99 Minutos Shipments API
   slug: 99-minutos-shipments-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The shipping-rates API from 99 Minutos — 5 operation(s) for shipping-rates.
-  name: 99 Minutos shipping-rates API
+  name: 99 Minutos Shipping Rates API
   slug: 99-minutos-shipping-rates-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The super-geocoding API from 99 Minutos — 1 operation(s) for super-geocoding.
-  name: 99 Minutos super-geocoding API
+  name: 99 Minutos Super Geocoding API
   slug: 99-minutos-super-geocoding-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
   description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
-  name: 99 Minutos webhooks API
+  name: 99 Minutos Webhooks API
   slug: 99-minutos-webhooks-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
@@ -287,7 +287,7 @@ modified: '2026-08-08'
 name: 99 Minutos
 nav: Providers
 network: true
-overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including coverage API, documents API, locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and E-Commerce.
+overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Documents API, Locations API, and 6 more. Tagged areas include Company, Logistics, Last Mile Delivery, Shipping, and E-Commerce.
 
 
   The 99 Minutos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -336,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

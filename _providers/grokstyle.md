@@ -18,13 +18,13 @@ modified: '2026-07-19'
 name: Grokstyle
 nav: Providers
 network: true
-overview: Grokstyle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Search, Computer-Vision, Artificial Intelligence, and Image Recognition.
+overview: Grokstyle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Search, Computer Vision, Artificial Intelligence, and Image Recognition.
 random_paper: 6
 slug: grokstyle
 tags:
 - Company
 - Visual Search
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Image Recognition
 - Defunct

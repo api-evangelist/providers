@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 21
+- acting_count: 9
   human_in_the_loop: 0
   name: Amazon Compute Optimizer Agentic Access
   operation_count: 21
   slug: amazon-compute-optimizer-agentic-access
-  summary_line: 21 operations · 21 acting
+  summary_line: 21 operations · 9 acting
 api_count: 1
 apis:
 - baseURL: https://compute-optimizer.amazonaws.com
@@ -2301,7 +2301,7 @@ modified: '2026-06-20'
 name: Amazon Compute Optimizer
 nav: Providers
 network: true
-overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API, #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API, #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API, and 18 more. Tagged areas include Cost Optimization, FinOps, Machine-Learning, and Resource Recommendations.
+overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API, #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API, #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API, and 18 more. Tagged areas include Cost Optimization, FinOps, Machine Learning, and Resource Recommendations.
 
 
   The Amazon Compute Optimizer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2360,7 +2360,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2387,7 +2387,7 @@ slug: amazon-compute-optimizer
 tags:
 - Cost Optimization
 - FinOps
-- Machine-Learning
+- Machine Learning
 - Resource Recommendations
 use_cases:
 - description: Identify and eliminate over-provisioned AWS resources to reduce monthly cloud spending.

@@ -18,7 +18,7 @@ modified: '2026-09-15'
 name: Capriza
 nav: Providers
 network: true
-overview: Capriza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Mobility, Legacy Modernization, No-Code, and Workflow-Automation.
+overview: Capriza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Mobility, Legacy Modernization, No-Code, and Workflow Automation.
 random_paper: 20
 slug: capriza
 tags:
@@ -26,6 +26,6 @@ tags:
 - Enterprise Mobility
 - Legacy Modernization
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Defunct
 ---

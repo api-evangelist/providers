@@ -18,17 +18,17 @@ modified: '2026-09-16'
 name: Immunity Project
 nav: Providers
 network: true
-overview: Immunity Project is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Profit, Health Tech, Biotech, and HIV.
+overview: Immunity Project is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Profit, Health Tech, Biotechnology, and HIV.
 random_paper: 2
 slug: immunity-project
 tags:
 - Company
 - Non-Profit
 - Health Tech
-- Biotech
+- Biotechnology
 - HIV
 - Vaccines
-- Machine-Learning
+- Machine Learning
 - Y Combinator
 - Defunct
 ---

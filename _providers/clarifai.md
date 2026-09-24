@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 247
-  human_in_the_loop: 6
+- acting_count: 240
+  human_in_the_loop: 2
   name: Clarifai Agentic Access
   operation_count: 466
   slug: clarifai-agentic-access
-  summary_line: 466 operations · 247 acting · 6 human-in-the-loop
+  summary_line: 466 operations · 240 acting · 2 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.clarifai.com/v2
@@ -232,7 +232,7 @@ modified: '2026-06-13'
 name: Clarifai
 nav: Providers
 network: true
-overview: 'Clarifai publishes 1 API on the [APIs.io](https://apis.io/) network: V2 API. Tagged areas include Artificial Intelligence, Computer-Vision, NLP, Image Recognition, and Object Detection.
+overview: 'Clarifai publishes 1 API on the [APIs.io](https://apis.io/) network: V2 API. Tagged areas include Artificial Intelligence, Computer Vision, NLP, Image Recognition, and Object Detection.
 
 
   The Clarifai catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -286,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -304,13 +304,13 @@ security:
 slug: clarifai
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - NLP
 - Image Recognition
 - Object Detection
 - Text Analysis
 - Visual Search
-- Machine-Learning
+- Machine Learning
 - Custom Model Training
 - gRPC
 website: https://www.clarifai.com

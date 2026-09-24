@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ modified: '2026-09-16'
 name: Liferay
 nav: Providers
 network: true
-overview: 'Liferay publishes 1 API on the [APIs.io](https://apis.io/) network: Roles API. Tagged areas include Open-Source, Digital Experience, DXP, Roles, and User.
+overview: 'Liferay publishes 1 API on the [APIs.io](https://apis.io/) network: Roles API. Tagged areas include Open Source, Digital Experience, DXP, Roles, and User.
 
 
   Liferay''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
@@ -150,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -171,7 +171,7 @@ security:
   summary_line: security.txt · contact published
 slug: liferay
 tags:
-- Open-Source
+- Open Source
 - Digital Experience
 - DXP
 - Roles

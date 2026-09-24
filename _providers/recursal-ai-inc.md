@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-07-21'
 name: Recursal AI, Inc.
 nav: Providers
 network: true
-overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Chat API, and Models API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
+overview: 'Recursal AI, Inc. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Chat API, and Models API. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Inference.
 
 
   Recursal AI, Inc.''s developer surface includes documentation, API reference, getting-started guide, quickstart, pricing, signup flow, engineering blog, and 22 more developer resources.'
@@ -251,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -270,7 +270,7 @@ slug: recursal-ai-inc
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Serverless

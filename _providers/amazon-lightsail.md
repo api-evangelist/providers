@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 151
+- acting_count: 97
   human_in_the_loop: 13
   name: Amazon Lightsail Agentic Access
   operation_count: 162
   slug: amazon-lightsail-agentic-access
-  summary_line: 162 operations · 151 acting · 13 human-in-the-loop
+  summary_line: 162 operations · 97 acting · 13 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://lightsail.us-east-1.amazonaws.com
@@ -426,7 +426,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

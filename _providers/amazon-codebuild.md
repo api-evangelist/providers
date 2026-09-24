@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 50
+- acting_count: 37
   human_in_the_loop: 3
   name: Amazon Codebuild Agentic Access
   operation_count: 51
   slug: amazon-codebuild-agentic-access
-  summary_line: 51 operations · 50 acting · 3 human-in-the-loop
+  summary_line: 51 operations · 37 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://codebuild.us-east-1.amazonaws.com
@@ -429,7 +429,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/codebuild/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/capabilities/amazon-codebuild-capability-edges.yml
   title: ''
@@ -2639,7 +2639,7 @@ score:
       total: 47
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -2681,5 +2681,5 @@ use_cases:
   name: Multi-Environment Build Matrix
 - description: Use CodeBuild as the build and test stage in an AWS CodePipeline CD pipeline for fully automated code delivery from commit to deployment.
   name: AWS CodePipeline Integration
-website: https://amazon.com
+website: https://aws.amazon.com/codebuild/
 ---

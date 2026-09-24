@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: Manage webhook subscriptions
   name: Shippo Webhooks API
   slug: shippo-webhooks-api
-artifact_total: 78
+artifact_total: 77
 asyncapis:
 - description: AsyncAPI 2.6 description of the Shippo Webhooks surface. Shippo delivers webhook events over HTTPS as POST requests to a subscriber-registered URL. Each delivery carries a JSON body with an envelope o
   name: Shippo Webhooks
@@ -229,10 +229,6 @@ finops:
 - name: Shippo Finops
   service_category: Shipping API
   slug: shippo-finops
-graphqls:
-- description: Shippo is a multi-carrier shipping API that provides complete shipping functionality including address validation, rate shopping across 80+ carriers, label generation, package tracking, returns manage
-  name: Shippo GraphQL
-  slug: shippo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shippo.png
 json_schemas:
 - name: Address
@@ -377,7 +373,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 69.5
     catalog_earned_first_party: 0.0
     catalog_gap: 45.5
@@ -387,7 +383,7 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 28.8
-    contract_quality: 77.7
+    contract_quality: 77.6
     developer_ergonomics: 73.8
     discoverability: 66.7
     operational_transparency: 10.5
@@ -400,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

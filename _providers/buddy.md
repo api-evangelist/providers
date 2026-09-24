@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The fastest continuous integration and continuous delivery platform
@@ -79,7 +79,7 @@ modified: '2026-05-28'
 name: Buddy
 nav: Providers
 network: true
-overview: 'Buddy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, and Public APIs.
+overview: 'Buddy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Continuous Integration, Developer Tools, Public APIs, and A2A.
 
 
   Buddy''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -106,7 +106,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -127,5 +127,6 @@ tags:
 - Continuous Integration
 - Developer Tools
 - Public APIs
+- A2A
 website: https://buddy.works/docs/api/getting-started/overview
 ---

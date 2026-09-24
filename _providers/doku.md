@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 11
-  human_in_the_loop: 5
+- acting_count: 18
+  human_in_the_loop: 0
   name: Doku Agentic Access
   operation_count: 19
   slug: doku-agentic-access
-  summary_line: 19 operations · 11 acting · 5 human-in-the-loop
+  summary_line: 19 operations · 18 acting
 api_count: 1
 apis:
 - baseURL: https://api.doku.com
@@ -372,7 +372,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

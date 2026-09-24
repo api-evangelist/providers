@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ modified: '2026-09-16'
 name: KServe
 nav: Providers
 network: true
-overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine-Learning, MLOps, and Model Serving.
+overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine Learning, MLOps, and Model Serving.
 
 
   KServe''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 4 more developer resources.'
@@ -166,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -181,7 +181,7 @@ slug: kserve
 tags:
 - Inference
 - Kubernetes
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Serving
 website: https://kserve.github.io/website/

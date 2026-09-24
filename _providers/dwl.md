@@ -31,6 +31,6 @@ tags:
 - Data Integration
 - Middleware
 - Enterprise Software
-- Financial-Services
+- Financial Services
 - Insurance
 ---

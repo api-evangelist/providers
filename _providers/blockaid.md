@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 76
+- acting_count: 69
   human_in_the_loop: 0
   name: Blockaid Agentic Access
   operation_count: 93
   slug: blockaid-agentic-access
-  summary_line: 93 operations · 76 acting
+  summary_line: 93 operations · 69 acting
 api_count: 1
 apis:
 - baseURL: https://api.blockaid.io
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://api.blockaid.io
   baseurl_source: declared
   description: The cosigner API from Blockaid — 6 operation(s) for cosigner.
-  name: Blockaid cosigner API
+  name: Blockaid Cosigner API
   slug: blockaid-cosigner-api
 - baseURL: https://api.blockaid.io
   baseurl_source: declared
@@ -92,7 +92,7 @@ apis:
 - baseURL: https://api.blockaid.io
   baseurl_source: declared
   description: The external API from Blockaid — 1 operation(s) for external.
-  name: Blockaid external API
+  name: Blockaid External API
   slug: blockaid-external-api
 - baseURL: https://api.blockaid.io
   baseurl_source: declared
@@ -406,7 +406,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

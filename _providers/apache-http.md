@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ modified: '2026-05-19'
 name: Apache HttpComponents
 nav: Providers
 network: true
-overview: 'Apache HttpComponents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Configuration API and Requests API. Tagged areas include Apache, HTTP Client, Java, Open-Source, and SDK.
+overview: 'Apache HttpComponents publishes 2 APIs on the [APIs.io](https://apis.io/) network: Configuration API and Requests API. Tagged areas include Apache, HTTP Client, Java, Open Source, and SDK.
 
 
   The Apache HttpComponents catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -282,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -302,7 +302,7 @@ tags:
 - Apache
 - HTTP Client
 - Java
-- Open-Source
+- Open Source
 - SDK
 use_cases:
 - description: Consume REST APIs from Java applications with connection pooling and retry logic.

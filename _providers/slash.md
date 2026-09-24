@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 48
+- acting_count: 47
   human_in_the_loop: 0
   name: Slash Agentic Access
   operation_count: 105
   slug: slash-agentic-access
-  summary_line: 105 operations · 48 acting
+  summary_line: 105 operations · 47 acting
 api_count: 1
 apis:
 - baseURL: https://api.slash.com
@@ -541,7 +541,7 @@ modified: '2026-07-21'
 name: Slash
 nav: Providers
 network: true
-overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial-Services, and Fintech.
+overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Requests API, Analytics API, and 23 more. Tagged areas include Company, Banking, Payments, Financial Services, and Fintech.
 
 
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -575,7 +575,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 67.1
     contract_governance: 18.2
@@ -583,7 +583,7 @@ score:
     developer_ergonomics: 67.3
     discoverability: 75.9
     operational_transparency: 36.8
-  previous_composite: 64.3
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -605,7 +605,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -629,7 +629,7 @@ tags:
 - Company
 - Banking
 - Payments
-- Financial-Services
+- Financial Services
 - Fintech
 - Corporate Cards
 - Business Banking

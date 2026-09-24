@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-07-18'
 name: Attotude
 nav: Providers
 network: true
-overview: 'Attotude is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Data-Center, Interconnect, and Terahertz.
+overview: 'Attotude is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Data Center, Interconnect, and Terahertz.
 
 
   Attotude''s developer surface includes engineering blog and 2 more developer resources.'
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ slug: attotude
 tags:
 - Company
 - Semiconductors
-- Data-Center
+- Data Center
 - Interconnect
 - Terahertz
 - AI Infrastructure

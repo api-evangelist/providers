@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for managing Reolink cameras through the Neolink bridge, providing RTSP streaming, camera control, and motion detection integration.
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Neolink
 nav: Providers
 network: true
-overview: Neolink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Camera, IoT, Open-Source, RTSP, and Smart Home.
+overview: Neolink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Camera, IoT, Open Source, RTSP, and Smart Home.
 plans:
 - name: Neolink Plans Pricing
   plan_count: 3
@@ -87,7 +87,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ slug: neolink
 tags:
 - Camera
 - IoT
-- Open-Source
+- Open Source
 - RTSP
 - Smart Home
 ---

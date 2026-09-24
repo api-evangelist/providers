@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 46
+- acting_count: 36
   human_in_the_loop: 0
   name: Clarifeye Agentic Access
-  operation_count: 75
+  operation_count: 62
   slug: clarifeye-agentic-access
-  summary_line: 75 operations · 46 acting
+  summary_line: 62 operations · 36 acting
 api_count: 2
 apis:
 - baseURL: https://eu.app.clarifeye.ai/api/v1
@@ -296,7 +296,7 @@ modified: '2026-07-18'
 name: Clarifeye
 nav: Providers
 network: true
-overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Settings API, Conversations API, Documents API, and 10 more. Tagged areas include Company, Artificial Intelligence, Knowledge-Management, MCP, and Document Intelligence.
+overview: 'Clarifeye publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agent Settings API, Conversations API, Documents API, and 10 more. Tagged areas include Company, Artificial Intelligence, Knowledge Management, MCP, and Document Intelligence.
 
 
   Clarifeye''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 22 more developer resources.'
@@ -336,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -355,7 +355,7 @@ slug: clarifeye
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - MCP
 - Document Intelligence
 - Agents

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 41
+- acting_count: 5
   human_in_the_loop: 0
   name: Ncbi Agentic Access
   operation_count: 107
   slug: ncbi-agentic-access
-  summary_line: 107 operations · 41 acting
+  summary_line: 107 operations · 5 acting
 api_count: 1
 apis:
 - description: The Entrez Programming Utilities (E-utilities) are the public API to the NCBI Entrez system, providing access to over 38 Entrez databases including PubMed, GenBank (Nuccore), Gene, Taxonomy, and Prote
@@ -345,7 +345,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

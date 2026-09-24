@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: RESTful JSON API to manage the TrojAI platform programmatically (users, groups, roles/permissions, datasets, models, firewall policies/configs, firewall events, red team jobs and results, and secrets)
@@ -144,7 +144,7 @@ modified: '2026-07-21'
 name: TrojAI
 nav: Providers
 network: true
-overview: 'TrojAI publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, AI Security, Machine-Learning, LLM Security, and Red Teaming.
+overview: 'TrojAI publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, AI Security, Machine Learning, LLM Security, and Red Teaming.
 
 
   TrojAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 14 more developer resources.'
@@ -171,7 +171,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -195,7 +195,7 @@ slug: trojai
 tags:
 - Company
 - AI Security
-- Machine-Learning
+- Machine Learning
 - LLM Security
 - Red Teaming
 - AI Firewall

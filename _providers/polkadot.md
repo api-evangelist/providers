@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 269
+- acting_count: 146
   human_in_the_loop: 0
   name: Polkadot Agentic Access
   operation_count: 496
   slug: polkadot-agentic-access
-  summary_line: 496 operations · 269 acting
+  summary_line: 496 operations · 146 acting
 api_count: 3
 apis:
 - baseURL: https://polkadot.api.subscan.io
@@ -51,12 +51,12 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Account balance, staking, and proxy information
-  name: Polkadot accounts API
+  name: Polkadot Accounts API
   slug: polkadot-accounts-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Asset Hub Migration information
-  name: Polkadot ahm API
+  name: Polkadot Ahm API
   slug: polkadot-ahm-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -81,12 +81,12 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Block queries and extrinsic data
-  name: Polkadot blocks API
+  name: Polkadot Blocks API
   slug: polkadot-blocks-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: API capabilities and chain pallets
-  name: Polkadot capabilities API
+  name: Polkadot Capabilities API
   slug: polkadot-capabilities-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -106,7 +106,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Coretime system information
-  name: Polkadot coretime API
+  name: Polkadot Coretime API
   slug: polkadot-coretime-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -151,7 +151,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Health check
-  name: Polkadot health API
+  name: Polkadot Health API
   slug: polkadot-health-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -186,7 +186,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Connected node information
-  name: Polkadot node API
+  name: Polkadot Node API
   slug: polkadot-node-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -196,7 +196,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Runtime pallet metadata, storage, constants, events, errors
-  name: Polkadot pallets API
+  name: Polkadot Pallets API
   slug: polkadot-pallets-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -206,7 +206,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Parachain inclusion data
-  name: Polkadot paras API
+  name: Polkadot Paras API
   slug: polkadot-paras-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -226,7 +226,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Relay chain endpoints (available on parachains only)
-  name: Polkadot rc API
+  name: Polkadot Rc API
   slug: polkadot-rc-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -261,7 +261,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Runtime specification, metadata, and code
-  name: Polkadot runtime API
+  name: Polkadot Runtime API
   slug: polkadot-runtime-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -296,12 +296,12 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: The trace API from Polkadot — 4 operation(s) for trace.
-  name: Polkadot trace API
+  name: Polkadot Trace API
   slug: polkadot-trace-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: Transaction submission, fee estimation, and construction material
-  name: Polkadot transaction API
+  name: Polkadot Transaction API
   slug: polkadot-transaction-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -311,7 +311,7 @@ apis:
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
   description: API version
-  name: Polkadot version API
+  name: Polkadot Version API
   slug: polkadot-version-api
 - baseURL: https://polkadot.api.subscan.io
   baseurl_source: declared
@@ -572,7 +572,7 @@ modified: '2026-06-13'
 name: Polkadot
 nav: Providers
 network: true
-overview: 'Polkadot publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Account API, accounts API, ahm API, and 54 more. Tagged areas include Blockchain, Polkadot, Parachain, Substrate, and Crypto.
+overview: 'Polkadot publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Ahm API, and 54 more. Tagged areas include Blockchain, Polkadot, Parachain, Substrate, and Crypto.
 
 
   The Polkadot catalog on APIs.io includes 1 JSON-LD context.
@@ -598,7 +598,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
@@ -609,7 +609,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 36.9
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -618,7 +618,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

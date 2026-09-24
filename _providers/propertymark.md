@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 2
 common:
@@ -208,7 +208,7 @@ modified: '2026-07-26'
 name: Propertymark
 nav: Providers
 network: true
-overview: 'Propertymark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, United Kingdom, Industry Body, Estate Agents, and Rentals.
+overview: 'Propertymark is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United Kingdom, Industry Body, Estate Agents, and Rentals.
 
 
   Propertymark''s developer surface includes signup flow, developer portal, engineering blog, support, YouTube channel, and 34 more developer resources.'
@@ -243,7 +243,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -261,7 +261,7 @@ security:
   summary_line: security.txt · contact published
 slug: propertymark
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - Industry Body
 - Estate Agents

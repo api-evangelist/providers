@@ -32,7 +32,7 @@ tags:
 - Discovery
 - Topic Pages
 - Content Aggregation
-- Social-Media
+- Social Media
 - Defunct
 - Acquired
 ---

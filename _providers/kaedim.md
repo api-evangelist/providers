@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.kaedim3d.com/api/v1
@@ -250,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -275,6 +275,6 @@ tags:
 - 3D Models
 - Asset Generation
 - Content Generation
-- Machine-Learning
+- Machine Learning
 website: https://www.kaedim3d.com
 ---

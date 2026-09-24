@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ apis:
   description: Multi-tenancy support for OpenSearch Dashboards.
   name: OpenSearch Tenants API
   slug: opensearch-tenants-api
-artifact_total: 52
+artifact_total: 51
 collections:
 - collection_type: open
   name: API Collection
@@ -248,21 +248,12 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/opensearch-project/opensearch-agent-skills
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/graphql/opensearch-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/opensearch-graphql.md
 created: '2025-01-08'
 description: OpenSearch is the open source, community-driven search, analytics, and observability suite (forked from Elasticsearch and Kibana) maintained under the Linux Foundation's OpenSearch Software Foundation. The platform exposes REST APIs across the search engine, the OpenSearch Dashboards UI, and a set of plugins. The Security plugin REST API lets administrators programmatically create and manage internal users, roles, role mappings, action groups, tenants, security configuration, audit log configuration, and SSL certificates.
 finops:
 - name: Opensearch Finops
   service_category: API
   slug: opensearch-finops
-graphqls:
-- description: 'This directory contains a conceptual GraphQL schema for the OpenSearch search, analytics, and observability platform — the open-source, community-driven suite forked from Elasticsearch and Kibana and '
-  name: OpenSearch GraphQL Schema
-  slug: opensearch-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensearch.png
 json_schemas:
 - name: OpenSearch Security Role
@@ -282,13 +273,13 @@ modified: '2026-05-19'
 name: OpenSearch
 nav: Providers
 network: true
-overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include OpenSearch, Search, Analytics, Observability, and Open-Source.
+overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include OpenSearch, Search, Analytics, Observability, and Open Source.
 
 
   The OpenSearch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSearch''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 15 more developer resources.'
+  OpenSearch''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Opensearch Plans Pricing
   plan_count: 3
@@ -311,19 +302,19 @@ rules:
   slug: opensearch-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 40.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 57.2
+    contract_quality: 54.4
     developer_ergonomics: 54.8
     discoverability: 68.5
     operational_transparency: 23.7
@@ -336,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -379,7 +370,7 @@ tags:
 - Search
 - Analytics
 - Observability
-- Open-Source
+- Open Source
 - Security
 website: https://opensearch.org/
 ---

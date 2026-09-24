@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 35
+- acting_count: 34
   human_in_the_loop: 0
   name: Clear Street Agentic Access
   operation_count: 98
   slug: clear-street-agentic-access
-  summary_line: 98 operations · 35 acting
+  summary_line: 98 operations · 34 acting
 api_count: 3
 apis:
 - description: Clear Street's official remote Model Context Protocol server, exposing the Clear Street Trading API to AI assistants such as Claude and Gemini. OAuth-protected per RFC 9728 — an anonymous request retu
@@ -424,7 +424,7 @@ modified: '2026-08-02'
 name: Clear Street
 nav: Providers
 network: true
-overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 19 more. Tagged areas include Company, Financial-Services, Capital Markets, Prime Brokerage, and Trading.
+overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API (Trades and Uploads), Accounts API, API version API, and 19 more. Tagged areas include Company, Financial Services, Capital Markets, Prime Brokerage, and Trading.
 
 
   The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -473,7 +473,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -499,7 +499,7 @@ security:
 slug: clear-street
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Prime Brokerage
 - Trading

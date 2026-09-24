@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 132
+- acting_count: 114
   human_in_the_loop: 4
   name: Criteo Agentic Access
   operation_count: 219
   slug: criteo-agentic-access
-  summary_line: 219 operations · 132 acting · 4 human-in-the-loop
+  summary_line: 219 operations · 114 acting · 4 human-in-the-loop
 api_count: 6
 apis:
 - description: 'Criteo operates two remote Model Context Protocol servers. The documentation server at developers.criteo.com/mcp is anonymous and was introspected live: three tools (search_criteo_docs, query_docs_fil'
@@ -108,7 +108,7 @@ apis:
   description: The Segment API from Criteo — 7 operation(s) for segment.
   name: Criteo Segment API
   slug: criteo-segment-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -339,10 +339,6 @@ finops:
 - name: Criteo Finops
   service_category: API
   slug: criteo-finops
-graphqls:
-- description: '> **Read this first.** Criteo publishes **no GraphQL endpoint.** The schema in'
-  name: Criteo GraphQL — NOT A CRITEO CONTRACT
-  slug: criteo-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/criteo.png
 layout: provider
 mcp_servers:
@@ -373,19 +369,19 @@ scopes:
   summary_line: 22 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.4
+  composite: 57.6
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 51.3
     contract_governance: 18.2
-    contract_quality: 53.3
+    contract_quality: 50.0
     developer_ergonomics: 63.7
     discoverability: 81.5
     operational_transparency: 78.9
@@ -401,7 +397,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -444,5 +440,6 @@ tags:
 - Retail
 - Retail Media
 - Sponsored Products
+- A2A
 website: https://www.criteo.com/
 ---

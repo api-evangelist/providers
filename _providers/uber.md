@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 27
+- acting_count: 25
   human_in_the_loop: 0
   name: Uber Agentic Access
   operation_count: 57
   slug: uber-agentic-access
-  summary_line: 57 operations · 27 acting
+  summary_line: 57 operations · 25 acting
 api_count: 6
 apis:
 - description: The Uber Guest Rides API enables businesses to allow their users to request rides from Uber without requiring an Uber account. Uses OAuth 2.0 with the guest.rides scope for authentication.
@@ -143,7 +143,7 @@ apis:
   description: Business trip receipts and invoices
   name: Uber Trips API
   slug: uber-trips-api
-artifact_total: 132
+artifact_total: 131
 collections:
 - collection_type: postman
   name: Uber for Business Codes API
@@ -423,10 +423,6 @@ finops:
 - name: Uber Finops
   service_category: Mobility / Logistics
   slug: uber-finops
-graphqls:
-- description: This conceptual GraphQL schema covers the full breadth of the Uber developer platform, spanning ride-sharing (Riders API, Drivers API, Guest Rides), food delivery (Uber Eats), on-demand courier logist
-  name: Uber GraphQL Schema
-  slug: uber-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uber.png
 integrations:
 - description: Uber Eats integrates with restaurant POS platforms for automated order injection and menu management.
@@ -610,20 +606,20 @@ rules:
   slug: uber-rules
 score:
   band: developing
-  composite: 50.1
+  composite: 48.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 69.5
     catalog_earned_first_party: 0.0
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 76.1
-    developer_ergonomics: 73.8
+    contract_quality: 73.0
+    developer_ergonomics: 70.2
     discoverability: 68.5
     operational_transparency: 23.7
   open_source:
@@ -638,7 +634,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -662,6 +658,7 @@ tags:
 - Food Delivery
 - Delivery
 - Logistics
+- Mobility
 use_cases:
 - description: Restaurants and food brands use Uber Direct to dispatch couriers for delivery of orders placed on their own websites and apps, bypassing the Uber Eats marketplace fee structure.
   name: Restaurant Delivery Fulfillment

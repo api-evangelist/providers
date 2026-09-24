@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -684,7 +684,7 @@ modified: '2026-05-24'
 name: Assembled
 nav: Providers
 network: true
-overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer-Support, Workforce Management, WFM, AI Agents, and AI Copilot.
+overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) network, including People API, Agent State API, Activities API, and 24 more. Tagged areas include Customer Support, Workforce Management, WFM, AI Agents, and AI Copilot.
 
 
   The Assembled catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -754,7 +754,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -779,7 +779,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: assembled
 tags:
-- Customer-Support
+- Customer Support
 - Workforce Management
 - WFM
 - AI Agents

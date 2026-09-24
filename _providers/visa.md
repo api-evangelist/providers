@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 92
-  human_in_the_loop: 11
+- acting_count: 86
+  human_in_the_loop: 9
   name: Visa Agentic Access
-  operation_count: 106
+  operation_count: 129
   slug: visa-agentic-access
-  summary_line: 106 operations · 92 acting · 11 human-in-the-loop
+  summary_line: 129 operations · 86 acting · 9 human-in-the-loop
 api_count: 22
 apis:
 - description: The Visa Government Insights Hub is a platform that provides government agencies with valuable information and resources to help them make informed decisions and improve their operations. Through data
@@ -393,7 +393,7 @@ apis:
   description: Workflows
   name: Visa Workflows API
   slug: visa-workflows-api
-artifact_total: 179
+artifact_total: 178
 collections:
 - collection_type: open
   name: API Collection
@@ -728,10 +728,6 @@ finops:
 - name: Visa Finops
   service_category: Payment Network
   slug: visa-finops
-graphqls:
-- description: Visa does not offer a native public GraphQL API. The Visa Developer Platform exposes its capabilities through REST APIs secured via mutual TLS (mTLS) and OAuth 2.0, available to certified partners and
-  name: Visa GraphQL Schema
-  slug: visa-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visa.png
 json_schemas:
 - name: Visa Payment Account
@@ -819,19 +815,19 @@ rules:
   slug: visa-rules
 score:
   band: developing
-  composite: 48.2
+  composite: 47.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 63.5
     catalog_earned_first_party: 12.0
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 63.6
+    contract_quality: 58.8
     developer_ergonomics: 47.6
     discoverability: 59.3
     operational_transparency: 7.9
@@ -850,7 +846,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

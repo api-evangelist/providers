@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 8
+- acting_count: 7
   human_in_the_loop: 0
   name: Loki Agentic Access
   operation_count: 27
   slug: loki-agentic-access
-  summary_line: 27 operations · 8 acting
+  summary_line: 27 operations · 7 acting
 api_count: 5
 apis:
 - baseURL: http://localhost:3100
@@ -155,7 +155,7 @@ modified: '2026-09-16'
 name: Loki
 nav: Providers
 network: true
-overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Open-Source, and Grafana.
+overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Open Source, and Grafana.
 
 
   Loki''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -217,7 +217,7 @@ slug: loki
 tags:
 - Logging
 - Observability
-- Open-Source
+- Open Source
 - Grafana
 website: https://grafana.com/oss/loki/
 ---

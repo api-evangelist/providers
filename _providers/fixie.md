@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -47,72 +47,72 @@ apis:
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The accounts API from Fixie — 9 operation(s) for accounts.
-  name: Fixie accounts API
+  name: Fixie Accounts API
   slug: fixie-accounts-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The agents API from Fixie — 9 operation(s) for agents.
-  name: Fixie agents API
+  name: Fixie Agents API
   slug: fixie-agents-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The api_keys API from Fixie — 2 operation(s) for api_keys.
-  name: Fixie api_keys API
+  name: Fixie API Keys API
   slug: fixie-api-keys-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The call_throttles API from Fixie — 2 operation(s) for call_throttles.
-  name: Fixie call_throttles API
+  name: Fixie Call Throttles API
   slug: fixie-call-throttles-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The calls API from Fixie — 13 operation(s) for calls.
-  name: Fixie calls API
+  name: Fixie Calls API
   slug: fixie-calls-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The corpora API from Fixie — 8 operation(s) for corpora.
-  name: Fixie corpora API
+  name: Fixie Corpora API
   slug: fixie-corpora-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The deleted_calls API from Fixie — 2 operation(s) for deleted_calls.
-  name: Fixie deleted_calls API
+  name: Fixie Deleted Calls API
   slug: fixie-deleted-calls-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The models API from Fixie — 1 operation(s) for models.
-  name: Fixie models API
+  name: Fixie Models API
   slug: fixie-models-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The schema API from Fixie — 1 operation(s) for schema.
-  name: Fixie schema API
+  name: Fixie Schema API
   slug: fixie-schema-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The sip API from Fixie — 3 operation(s) for sip.
-  name: Fixie sip API
+  name: Fixie Sip API
   slug: fixie-sip-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The telephony_configs API from Fixie — 3 operation(s) for telephony_configs.
-  name: Fixie telephony_configs API
+  name: Fixie Telephony Configs API
   slug: fixie-telephony-configs-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The tools API from Fixie — 4 operation(s) for tools.
-  name: Fixie tools API
+  name: Fixie Tools API
   slug: fixie-tools-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The voices API from Fixie — 4 operation(s) for voices.
-  name: Fixie voices API
+  name: Fixie Voices API
   slug: fixie-voices-api
 - baseURL: https://api.ultravox.ai/api
   baseurl_source: declared
   description: The webhooks API from Fixie — 2 operation(s) for webhooks.
-  name: Fixie webhooks API
+  name: Fixie Webhooks API
   slug: fixie-webhooks-api
 artifact_total: 36
 asyncapis:
@@ -294,7 +294,7 @@ modified: '2026-07-19'
 name: Fixie
 nav: Providers
 network: true
-overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, agents API, api_keys API, and 11 more. Tagged areas include Company, Voice AI, Conversational AI, Real-Time, and Speech.
+overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agents API, API Keys API, and 11 more. Tagged areas include Company, Voice AI, Conversational AI, Real-Time, and Speech.
 
 
   The Fixie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,7 +339,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -367,7 +367,7 @@ tags:
 - Speech
 - Agents
 - Telephony
-- Machine-Learning
+- Machine Learning
 - SIP
 - Webhook
 website: https://ultravox.ai/

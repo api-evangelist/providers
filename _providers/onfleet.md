@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ arazzos:
 - description: Look up a recipient by phone, create one if missing, then create a task for them.
   name: Onfleet Upsert Recipient and Create Task
   slug: onfleet-upsert-recipient-and-create-task-workflow
-artifact_total: 89
+artifact_total: 88
 asyncapis:
 - description: Real-time event stream delivered as HTTPS POST callbacks from Onfleet to a URL you register via the Webhooks API. Each webhook is bound to a single triggerId; payloads share a common envelope with `ti
   name: Onfleet Webhooks
@@ -461,10 +461,6 @@ finops:
 - name: Onfleet Finops
   service_category: ''
   slug: onfleet-finops
-graphqls:
-- description: Conceptual GraphQL schema for the [Onfleet](https://onfleet.com) last-mile delivery management platform. Derived from the [Onfleet REST API v2.7](https://docs.onfleet.com/reference/introduction).
-  name: Onfleet GraphQL Schema
-  slug: onfleet-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onfleet.png
 integrations:
 - Shopify
@@ -557,23 +553,23 @@ rules:
   slug: onfleet-rules
 score:
   band: strong
-  composite: 61.0
+  composite: 60.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 81.5
     catalog_earned_first_party: 12.0
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: -0.7
   facets:
     access_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 78.6
+    contract_quality: 75.8
     developer_ergonomics: 57.1
     discoverability: 74.1
     operational_transparency: 26.3
-  previous_composite: 60.7
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -583,7 +579,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

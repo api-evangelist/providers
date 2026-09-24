@@ -35,36 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 1
   name: Forex Com Agentic Access
   operation_count: 17
   slug: forex-com-agentic-access
-  summary_line: 17 operations · 5 acting · 1 human-in-the-loop
+  summary_line: 17 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://ciapi.cityindex.com/TradingAPI
-  baseurl_source: spec
-  description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
-  name: FOREX.com Session API
-  slug: forex-com-session-api
-- baseURL: https://ciapi.cityindex.com/TradingAPI
-  baseurl_source: spec
-  description: Retrieve client and trading account details including account IDs, balance, available margin, and personal account information. The /useraccount/ClientAndTradingAccount endpoint returns the Trading Ac
-  name: FOREX.com Account API
-  slug: forex-com-account-api
-- baseURL: https://ciapi.cityindex.com/TradingAPI
-  baseurl_source: spec
-  description: Search and retrieve market details for tradeable instruments across 80+ forex and CFD markets. Supports full market search by name or tag to resolve Market IDs used in order placement and price subscr
-  name: FOREX.com Market API
-  slug: forex-com-market-api
-- baseURL: https://ciapi.cityindex.com/TradingAPI
-  baseurl_source: spec
-  description: Access real-time and historical price data for forex and CFD markets. Real-time bid/ask/offer prices are delivered via Lightstreamer streaming subscriptions using MERGE mode. Historical OHLC price dat
-  name: FOREX.com Pricing API
-  slug: forex-com-pricing-api
 - description: 'Place and manage trade orders on the FOREX.com platform against live streaming prices. Supports market price orders with configurable direction (Buy/Sell), quantity, stop-loss, take-profit, and price '
   name: FOREX.com Order API
   slug: forex-com-order-api
@@ -73,7 +53,7 @@ apis:
   slug: forex-com-position-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
   baseurl_source: spec
-  description: Client and trading account information
+  description: Retrieve client and trading account details including account IDs, balance, available margin, and personal account information. The /useraccount/ClientAndTradingAccount endpoint returns the Trading Ac
   name: FOREX.com Account API
   slug: forex-com-account-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
@@ -83,7 +63,7 @@ apis:
   slug: forex-com-margin-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
   baseurl_source: spec
-  description: Market search and instrument lookup
+  description: Search and retrieve market details for tradeable instruments across 80+ forex and CFD markets. Supports full market search by name or tag to resolve Market IDs used in order placement and price subscr
   name: FOREX.com Market API
   slug: forex-com-market-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
@@ -98,15 +78,15 @@ apis:
   slug: forex-com-positions-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
   baseurl_source: spec
-  description: Real-time tick history and OHLC bar history
+  description: Access real-time and historical price data for forex and CFD markets. Real-time bid/ask/offer prices are delivered via Lightstreamer streaming subscriptions using MERGE mode. Historical OHLC price dat
   name: FOREX.com Pricing API
   slug: forex-com-pricing-api
 - baseURL: https://ciapi.cityindex.com/TradingAPI
   baseurl_source: spec
-  description: Authentication and session management
+  description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
   name: FOREX.com Session API
   slug: forex-com-session-api
-artifact_total: 45
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -240,7 +220,7 @@ modified: '2026-06-13'
 name: FOREX.com
 nav: Providers
 network: true
-overview: 'FOREX.com publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Session API, Account API, Market API, and 8 more. Tagged areas include Forex, FX Trading, CFD Trading, Algorithmic Trading, and Financial-Services.
+overview: 'FOREX.com publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Margin API, Market API, and 4 more. Tagged areas include Forex, FX Trading, CFD Trading, Algorithmic Trading, and Financial Services.
 
 
   The FOREX.com catalog on APIs.io includes 1 JSON-LD context.
@@ -289,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -314,7 +294,7 @@ tags:
 - FX Trading
 - CFD Trading
 - Algorithmic Trading
-- Financial-Services
+- Financial Services
 - Trading APIs
 - Currency Exchange
 website: https://www.forex.com/

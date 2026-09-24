@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1717
   human_in_the_loop: 47
@@ -90,11 +90,6 @@ apis:
   description: The GitHub Users API (part of the REST API) lets applications read and, for the authenticated account, manage user-related data on GitHub. It can fetch public profiles for any user or the authenticate
   name: GitHub User API
   slug: github-user-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: 'The GitHub Checks API lets you create and manage check runs and check suites that report detailed status, annotations, and results for commits. It enables CI/CD tools and integrations to report build '
-  name: GitHub Checks API
-  slug: github-checks-api
 - description: 'The GitHub Deployments API lets you create and manage deployments and deployment statuses for repositories. Deployments are requests to deploy a specific ref (branch, SHA, tag) to an environment, and '
   name: GitHub Deployments API
   slug: github-deployments-api
@@ -104,11 +99,6 @@ apis:
 - description: The GitHub Pages API lets you manage GitHub Pages sites for repositories, including creating, updating, and deleting sites, configuring custom domains and HTTPS enforcement, and triggering and monitor
   name: GitHub Pages API
   slug: github-pages-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: The GitHub Packages API lets you manage packages and package versions in GitHub Packages, a software package hosting service that supports npm, Maven, Gradle, RubyGems, NuGet, Docker, and other packag
-  name: GitHub Packages API
-  slug: github-packages-api
 - description: The GitHub Git Database API provides low-level access to Git objects (blobs, commits, refs, tags, and trees) in a repository. It lets you read and write raw Git data directly, enabling operations like
   name: GitHub Git Database API
   slug: github-git-database-api
@@ -118,40 +108,15 @@ apis:
 - description: The GitHub Copilot API lets organization and enterprise owners manage GitHub Copilot seat assignments, retrieve usage metrics and billing information, and configure Copilot policies. It provides endpo
   name: GitHub Copilot API
   slug: github-copilot-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: The GitHub Billing API lets you view billing and usage information for organizations and enterprises, including Actions minutes, Packages storage and data transfer, Codespaces usage, and shared storag
-  name: GitHub Billing API
-  slug: github-billing-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: The GitHub Migrations API lets you migrate data to and from GitHub. It supports organization migrations that export repositories and metadata as downloadable archives, source imports that convert repo
-  name: GitHub Migrations API
-  slug: github-migrations-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: The GitHub Secret Scanning API lets you retrieve and manage secret scanning alerts for repositories, organizations, and enterprises. Secret scanning detects tokens, keys, and other credentials acciden
-  name: GitHub Secret Scanning API
-  slug: github-secret-scanning-api
 - description: The GitHub Security Advisories API lets you view and manage security advisories for repositories and access the GitHub Advisory Database. It provides endpoints to create, update, and list repository s
   name: GitHub Security Advisories API
   slug: github-security-advisories-api
 - description: The GitHub Commits API lets you list, retrieve, and compare commits in a repository, as well as manage commit comments and commit statuses. It provides endpoints for viewing commit details, listing pu
   name: GitHub Commits API
   slug: github-commits-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: 'The GitHub Reactions API lets you create, list, and delete emoji reactions on issues, pull requests, issue comments, pull request review comments, commit comments, release assets, and team discussion '
-  name: GitHub Reactions API
-  slug: github-reactions-api
 - description: The GitHub Deploy Keys API lets you manage deploy keys for repositories. Deploy keys are SSH keys that grant read-only or read-write access to a single repository, commonly used for automated deployme
   name: GitHub Deploy Keys API
   slug: github-deploy-keys-api
-- baseURL: https://api.github.com
-  baseurl_source: declared
-  description: The GitHub Dependency Graph API lets you view and submit dependency information for a repository. It provides endpoints to export the software bill of materials (SBOM) for a repository and to submit d
-  name: GitHub Dependency Graph API
-  slug: github-dependency-graph-api
 - description: The GitHub Metrics API lets you access community profile and repository statistics, including contributor activity, commit frequency, code frequency, participation data, punch card data, and community
   name: GitHub Metrics API
   slug: github-metrics-api
@@ -205,12 +170,12 @@ apis:
   slug: github-apps-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: Monitor charges and usage from Actions and Packages.
+  description: The GitHub Billing API lets you view billing and usage information for organizations and enterprises, including Actions minutes, Packages storage and data transfer, Codespaces usage, and shared storag
   name: GitHub Billing API
   slug: github-billing-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: The Checks API from GitHub — 28 operation(s) for checks.
+  description: 'The GitHub Checks API lets you create and manage check runs and check suites that report detailed status, annotations, and results for commits. It enables CI/CD tools and integrations to report build '
   name: GitHub Checks API
   slug: github-checks-api
 - baseURL: https://api.github.com
@@ -230,8 +195,8 @@ apis:
   slug: github-dependabot-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: Endpoints to access Dependency Graph features.
-  name: GitHub Dependency-Graph API
+  description: The GitHub Dependency Graph API lets you view and submit dependency information for a repository. It provides endpoints to export the software bill of materials (SBOM) for a repository and to submit d
+  name: GitHub Dependency Graph API
   slug: github-dependency-graph-api
 - baseURL: https://api.github.com
   baseurl_source: declared
@@ -260,7 +225,7 @@ apis:
   slug: github-gitignore-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: Move projects to or from GitHub.
+  description: The GitHub Migrations API lets you migrate data to and from GitHub. It supports organization migrations that export repositories and metadata as downloadable archives, source imports that convert repo
   name: GitHub Migrations API
   slug: github-migrations-api
 - baseURL: https://api.github.com
@@ -280,7 +245,7 @@ apis:
   slug: github-orgs-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: Manage packages for authenticated users and organizations.
+  description: The GitHub Packages API lets you manage packages and package versions in GitHub Packages, a software package hosting service that supports npm, Maven, Gradle, RubyGems, NuGet, Docker, and other packag
   name: GitHub Packages API
   slug: github-packages-api
 - baseURL: https://api.github.com
@@ -295,13 +260,13 @@ apis:
   slug: github-rate-limit-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: The Reactions API from GitHub — 16 operation(s) for reactions.
+  description: 'The GitHub Reactions API lets you create, list, and delete emoji reactions on issues, pull requests, issue comments, pull request review comments, commit comments, release assets, and team discussion '
   name: GitHub Reactions API
   slug: github-reactions-api
 - baseURL: https://api.github.com
   baseurl_source: declared
-  description: Retrieve secret scanning alerts from a repository.
-  name: GitHub Secret-Scanning API
+  description: The GitHub Secret Scanning API lets you retrieve and manage secret scanning alerts for repositories, organizations, and enterprises. Secret scanning detects tokens, keys, and other credentials acciden
+  name: GitHub Secret Scanning API
   slug: github-secret-scanning-api
 - baseURL: https://api.github.com
   baseurl_source: declared
@@ -379,7 +344,7 @@ arazzos:
 - description: Confirm a head branch exists, then merge it into a base branch.
   name: GitHub Verify a Branch and Merge It
   slug: github-verify-and-merge-branch-workflow
-artifact_total: 1282
+artifact_total: 1275
 asyncapis:
 - description: GitHub Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur on GitHub, such as pushes, pull requests, issues, releases, and more. Webhooks can be configured at the r
   name: GitHub Webhooks
@@ -4232,7 +4197,7 @@ modified: '2026-09-16'
 name: GitHub
 nav: Providers
 network: true
-overview: 'GitHub publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 39 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
+overview: 'GitHub publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 32 more. Tagged areas include Code, Developer Tools, Pipelines, Platform, and Software Development.
 
 
   The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -4293,7 +4258,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 13.6
@@ -4301,17 +4266,17 @@ score:
     developer_ergonomics: 79.8
     discoverability: 66.7
     operational_transparency: 92.1
-  previous_composite: 77.8
+  previous_composite: 77.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 322
+      total: 35
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

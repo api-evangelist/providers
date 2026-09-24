@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -51,37 +51,37 @@ apis:
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: The airports API from Rockwell Collins — 17 operation(s) for airports.
-  name: Rockwell Collins airports API
+  name: Rockwell Collins Airports API
   slug: rockwell-collins-airports-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: AeroAPI alerting can be used to configure and receive real-time alerts on key flight events. With customizable alerting offered by our alert endpoints, AeroAPI empowers users to selectively pick vario
-  name: Rockwell Collins alerts API
+  name: Rockwell Collins Alerts API
   slug: rockwell-collins-alerts-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: The flights API from Rockwell Collins — 11 operation(s) for flights.
-  name: Rockwell Collins flights API
+  name: Rockwell Collins Flights API
   slug: rockwell-collins-flights-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: 'Foresight endpoints provide access to FlightAware''s Foresight predictive models and predictions for key events. Our advanced machine learning (ML) models identify key influencing factors for a flight '
-  name: Rockwell Collins foresight API
+  name: Rockwell Collins Foresight API
   slug: rockwell-collins-foresight-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: The history API from Rockwell Collins — 5 operation(s) for history.
-  name: Rockwell Collins history API
+  name: Rockwell Collins History API
   slug: rockwell-collins-history-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: The miscellaneous API from Rockwell Collins — 6 operation(s) for miscellaneous.
-  name: Rockwell Collins miscellaneous API
+  name: Rockwell Collins Miscellaneous API
   slug: rockwell-collins-miscellaneous-api
 - baseURL: https://aeroapi.flightaware.com/aeroapi
   baseurl_source: declared
   description: The operators API from Rockwell Collins — 8 operation(s) for operators.
-  name: Rockwell Collins operators API
+  name: Rockwell Collins Operators API
   slug: rockwell-collins-operators-api
 artifact_total: 29
 collections:
@@ -235,7 +235,7 @@ modified: '2026-05-19'
 name: Rockwell Collins
 nav: Providers
 network: true
-overview: 'Rockwell Collins publishes 7 APIs on the [APIs.io](https://apis.io/) network, including airports API, alerts API, flights API, and 4 more. Tagged areas include Avionics, Aerospace, Defense, Aviation, and Flight Deck.
+overview: 'Rockwell Collins publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Airports API, Alerts API, Flights API, and 4 more. Tagged areas include Avionics, Aerospace, Defense, Aviation, and Flight Deck.
 
 
   The Rockwell Collins catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

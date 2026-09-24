@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: DataRobot's public REST API (v2) for projects, modeling, predictions, deployments, MLOps monitoring, governance, and agentic workflows. Personal API keys are sent as bearer tokens against regional bas
@@ -180,7 +180,7 @@ modified: '2026-07-18'
 name: DataRobot
 nav: Providers
 network: true
-overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, MLOps, and Data Science.
+overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Data Science.
 
 
   DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 21 more developer resources.'
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -237,7 +237,7 @@ slug: datarobot
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Science
 - Agentic AI

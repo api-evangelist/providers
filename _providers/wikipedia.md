@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -62,12 +62,12 @@ apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: Metadata
-  name: Wikipedia / MediaWiki codes API
+  name: Wikipedia / MediaWiki Codes API
   slug: wikipedia-codes-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: Metadata
-  name: Wikipedia / MediaWiki languages API
+  name: Wikipedia / MediaWiki Languages API
   slug: wikipedia-languages-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -82,12 +82,12 @@ apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: Metadata
-  name: Wikipedia / MediaWiki namespaces API
+  name: Wikipedia / MediaWiki Namespaces API
   slug: wikipedia-namespaces-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: The offline API from Wikipedia / MediaWiki — 2 operation(s) for offline.
-  name: Wikipedia / MediaWiki offline API
+  name: Wikipedia / MediaWiki Offline API
   slug: wikipedia-offline-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -97,7 +97,7 @@ apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: Metadata
-  name: Wikipedia / MediaWiki projects API
+  name: Wikipedia / MediaWiki Projects API
   slug: wikipedia-projects-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -112,17 +112,17 @@ apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: Snapshot API
-  name: Wikipedia / MediaWiki snapshots API
+  name: Wikipedia / MediaWiki Snapshots API
   slug: wikipedia-snapshots-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: (Beta) Structured Contents On-demand API
-  name: Wikipedia / MediaWiki structured-contents API
+  name: Wikipedia / MediaWiki Structured Contents API
   slug: wikipedia-structured-contents-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: (BETA) Structured Contents Snapshot API
-  name: Wikipedia / MediaWiki structured-snapshots API
+  name: Wikipedia / MediaWiki Structured Snapshots API
   slug: wikipedia-structured-snapshots-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -137,7 +137,7 @@ apis:
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
   description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
-  name: Wikipedia / MediaWiki wikidata API
+  name: Wikipedia / MediaWiki Wikidata API
   slug: wikipedia-wikidata-api
 - baseURL: https://en.wikipedia.org/w/api.php
   baseurl_source: declared
@@ -1262,7 +1262,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
@@ -1270,7 +1270,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 81.5
     operational_transparency: 34.2
-  previous_composite: 49.9
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1285,7 +1285,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1311,7 +1311,7 @@ tags:
 - Open Knowledge
 - Encyclopedia
 - Knowledge Graph
-- Open-Source
+- Open Source
 - Non-Profit
 website: https://www.wikipedia.org
 ---

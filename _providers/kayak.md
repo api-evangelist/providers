@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -169,10 +169,6 @@ common:
   url: https://www.youtube.com/user/KAYAK
 created: '2026-07-17'
 description: KAYAK is a free travel metasearch engine that searches hundreds of travel sites at once so travelers can compare and find the lowest available prices on flights, hotels, rental cars, and vacation packages, with an extensive filtering system for narrowing results. Founded in 2004 and part of Booking Holdings, KAYAK operates a family of global travel brands (including momondo, Cheapflights, HotelsCombined, SWOODOO, checkfelix and Mundi) across 60+ international sites in 25+ languages. Beyond consumer metasearch it offers KAYAK for Business, a Flight Tracker, an Explore destination-discovery tool, and KAYAK AI trip-planning. KAYAK is a metasearch and price-comparison engine rather than an online travel agency — bookings are completed with the airline, hotel, car-rental company, or travel agency. This profile documents KAYAK's public discovery, AI, and security surface; KAYAK does not currently operate a public self-serve developer API program.
-graphqls:
-- description: ''
-  name: KAYAK GraphQL API
-  slug: kayak-graphql
 image: https://content.r9cdn.net/rimg/provider-logos/common/socialmedia/kayak-logo.png
 layout: provider
 modified: '2026-08-08'
@@ -188,7 +184,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -206,7 +202,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

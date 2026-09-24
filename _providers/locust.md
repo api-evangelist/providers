@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Open source distributed load testing tool. Tests are written in Python by defining User classes and tasks; tests can be run from a web UI, the command line, or embedded as a library.
@@ -98,7 +98,7 @@ modified: '2026-04-28'
 name: Locust
 nav: Providers
 network: true
-overview: 'Locust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open-Source, Python, and Testing.
+overview: 'Locust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open Source, Python, and Testing.
 
 
   Locust''s developer surface includes documentation and 10 more developer resources.'
@@ -131,7 +131,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ slug: locust
 tags:
 - Load Testing
 - Performance Testing
-- Open-Source
+- Open Source
 - Python
 - Testing
 website: https://locust.io

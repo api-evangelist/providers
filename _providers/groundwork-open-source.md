@@ -33,26 +33,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
-  name: Groundwork Open Source agent API
+  name: Groundwork Open Source Agent API
   slug: groundwork-open-source-agent-api
 - description: The alert API from Groundwork Open Source — 3 operation(s) for alert.
-  name: Groundwork Open Source alert API
+  name: Groundwork Open Source Alert API
   slug: groundwork-open-source-alert-api
 - description: The downtimes API from Groundwork Open Source — 2 operation(s) for downtimes.
-  name: Groundwork Open Source downtimes API
+  name: Groundwork Open Source Downtimes API
   slug: groundwork-open-source-downtimes-api
 - description: The inventory API from Groundwork Open Source — 1 operation(s) for inventory.
-  name: Groundwork Open Source inventory API
+  name: Groundwork Open Source Inventory API
   slug: groundwork-open-source-inventory-api
 - description: The metric API from Groundwork Open Source — 1 operation(s) for metric.
-  name: Groundwork Open Source metric API
+  name: Groundwork Open Source Metric API
   slug: groundwork-open-source-metric-api
 - description: The metrics API from Groundwork Open Source — 1 operation(s) for metrics.
-  name: Groundwork Open Source metrics API
+  name: Groundwork Open Source Metrics API
   slug: groundwork-open-source-metrics-api
 artifact_total: 16
 collections:
@@ -181,7 +181,7 @@ modified: '2026-07-19'
 name: Groundwork Open Source
 nav: Providers
 network: true
-overview: 'Groundwork Open Source publishes 6 APIs on the [APIs.io](https://apis.io/) network, including agent API, alert API, downtimes API, and 3 more. Tagged areas include Company, Monitoring, Network Monitoring, IT Infrastructure, and Observability.
+overview: 'Groundwork Open Source publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Alert API, Downtimes API, and 3 more. Tagged areas include Company, Monitoring, Network Monitoring, IT Infrastructure, and Observability.
 
 
   Groundwork Open Source''s developer surface includes authentication, documentation, API reference, and 16 more developer resources.'
@@ -215,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -235,6 +235,6 @@ tags:
 - Observability
 - Metrics
 - Event
-- Open-Source
+- Open Source
 - Nagios
 ---

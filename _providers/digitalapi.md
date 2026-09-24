@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: DigitalAPI is an API catalog, marketplace, and management platform that unifies APIs across multiple gateways into a single searchable catalog with governance, discovery, access control, and analytics
@@ -115,7 +115,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

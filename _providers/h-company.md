@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -65,7 +65,7 @@ apis:
 - baseURL: https://agp.eu.hcompany.ai/api/v2
   baseurl_source: declared
   description: The quota API from H Company — 1 operation(s) for quota.
-  name: H Company quota API
+  name: H Company Quota API
   slug: h-company-quota-api
 - baseURL: https://agp.eu.hcompany.ai/api/v2
   baseurl_source: declared
@@ -283,7 +283,7 @@ modified: '2026-07-19'
 name: H Company
 nav: Providers
 network: true
-overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 6 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine-Learning.
+overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Browser Profiles API, Environments API, and 6 more. Tagged areas include Artificial Intelligence, Agents, Computer Use, Automation, and Machine Learning.
 
 
   The H Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -327,7 +327,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -348,7 +348,7 @@ tags:
 - Agents
 - Computer Use
 - Automation
-- Machine-Learning
+- Machine Learning
 - Browser Automation
 - LLM
 - MCP

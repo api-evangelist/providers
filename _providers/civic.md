@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 1
   name: Civic Agentic Access
   operation_count: 7
   slug: civic-agentic-access
-  summary_line: 7 operations · 5 acting · 1 human-in-the-loop
+  summary_line: 7 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Civic Hub is a Model Context Protocol gateway that provides AI agents with secure, audited access to 80+ external tools and services through a single Streamable HTTP endpoint. Authentication uses 30-d
@@ -53,12 +53,12 @@ apis:
 - baseURL: https://app.civic.com/hub/mcp
   baseurl_source: declared
   description: Issue and manage Civic Passes
-  name: Civic pass API
+  name: Civic Pass API
   slug: civic-pass-api
 - baseURL: https://app.civic.com/hub/mcp
   baseurl_source: declared
   description: Get user PII and approve / reject receipt of PII
-  name: Civic piirequest API
+  name: Civic Piirequest API
   slug: civic-piirequest-api
 artifact_total: 24
 collections:
@@ -202,7 +202,7 @@ modified: '2026-06-14'
 name: Civic
 nav: Providers
 network: true
-overview: 'Civic publishes 2 APIs on the [APIs.io](https://apis.io/) network: pass API and piirequest API. Tagged areas include AI Agents, Authentication, Digital Identity, Identity Verification, and KYC.
+overview: 'Civic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pass API and Piirequest API. Tagged areas include AI Agents, Authentication, Digital Identity, Identity Verification, and KYC.
 
 
   The Civic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -267,7 +267,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

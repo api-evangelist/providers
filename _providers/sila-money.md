@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 19
+- acting_count: 13
   human_in_the_loop: 0
   name: Sila Money Agentic Access
   operation_count: 19
   slug: sila-money-agentic-access
-  summary_line: 19 operations · 19 acting
+  summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
 - description: Sila's Virtual Accounts product issues each user a dedicated account and routing number, giving a program a real bank-account surface for receiving and settling funds. Virtual accounts appear as a pay
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

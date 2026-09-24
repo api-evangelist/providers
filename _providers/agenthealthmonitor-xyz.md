@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 14
   human_in_the_loop: 0
   name: Agenthealthmonitor Xyz Agentic Access
   operation_count: 80
   slug: agenthealthmonitor-xyz-agentic-access
-  summary_line: 80 operations · 16 acting
+  summary_line: 80 operations · 14 acting
 api_count: 2
 apis:
 - baseURL: https://agenthealthmonitor.xyz
@@ -269,7 +269,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -299,5 +299,6 @@ tags:
 - Verifiable Credentials
 - Developer Tools
 - Agent-Native
+- A2A
 website: https://agenthealthmonitor.xyz/
 ---

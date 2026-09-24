@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ modified: '2026-05-19'
 name: National Institute of Standards and Technology
 nav: Providers
 network: true
-overview: 'National Institute of Standards and Technology publishes 3 APIs on the [APIs.io](https://apis.io/) network: CPE API, CVE API, and CVE History API. Tagged areas include Cybersecurity, Federal-Government, Standards, Technology, and Vulnerabilities.
+overview: 'National Institute of Standards and Technology publishes 3 APIs on the [APIs.io](https://apis.io/) network: CPE API, CVE API, and CVE History API. Tagged areas include Cybersecurity, Federal Government, Standards, Technology, and Vulnerabilities.
 
 
   National Institute of Standards and Technology''s developer surface includes developer portal, documentation, engineering blog, and 7 more developer resources.'
@@ -178,7 +178,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -197,7 +197,7 @@ security:
 slug: national-institute-of-standards-and-technology
 tags:
 - Cybersecurity
-- Federal-Government
+- Federal Government
 - Standards
 - Technology
 - Vulnerabilities

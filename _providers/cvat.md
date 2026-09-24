@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -48,42 +48,42 @@ apis:
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Shapes, tracks, and tags attached to tasks and jobs.
-  name: CVAT annotations API
+  name: CVAT Annotations API
   slug: cvat-annotations-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: External object-storage connections used as data sources.
-  name: CVAT cloudstorages API
+  name: CVAT Cloudstorages API
   slug: cvat-cloudstorages-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Assignable annotation units that subdivide a task.
-  name: CVAT jobs API
+  name: CVAT Jobs API
   slug: cvat-jobs-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Label taxonomy shared across projects, tasks, and jobs.
-  name: CVAT labels API
+  name: CVAT Labels API
   slug: cvat-labels-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Membership of users within organizations.
-  name: CVAT memberships API
+  name: CVAT Memberships API
   slug: cvat-memberships-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Organizations scoping resources for teams.
-  name: CVAT organizations API
+  name: CVAT Organizations API
   slug: cvat-organizations-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Annotation projects that group tasks and share a label set.
-  name: CVAT projects API
+  name: CVAT Projects API
   slug: cvat-projects-api
 - baseURL: https://app.cvat.ai/api
   baseurl_source: declared
   description: Annotation tasks holding media data and annotations.
-  name: CVAT tasks API
+  name: CVAT Tasks API
   slug: cvat-tasks-api
 artifact_total: 24
 collections:
@@ -180,7 +180,7 @@ modified: '2026-06-21'
 name: CVAT
 nav: Providers
 network: true
-overview: 'CVAT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including annotations API, cloudstorages API, jobs API, and 5 more. Tagged areas include Computer-Vision, Data Annotation, Labeling, Datasets, and Open-Source.
+overview: 'CVAT publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Annotations API, Cloudstorages API, Jobs API, and 5 more. Tagged areas include Computer Vision, Data Annotation, Labeling, Datasets, and Open Source.
 
 
   CVAT''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -237,10 +237,10 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cvat
 tags:
-- Computer-Vision
+- Computer Vision
 - Data Annotation
 - Labeling
 - Datasets
-- Open-Source
+- Open Source
 website: https://www.cvat.ai
 ---

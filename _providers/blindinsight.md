@@ -35,110 +35,110 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 83
+- acting_count: 82
   human_in_the_loop: 4
   name: Blindinsight Agentic Access
   operation_count: 127
   slug: blindinsight-agentic-access
-  summary_line: 127 operations · 83 acting · 4 human-in-the-loop
+  summary_line: 127 operations · 82 acting · 4 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The accounts API from BlindInsight — 10 operation(s) for accounts.
-  name: BlindInsight accounts API
+  name: BlindInsight Accounts API
   slug: blindinsight-accounts-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The blindllm API from BlindInsight — 4 operation(s) for blindllm.
-  name: BlindInsight blindllm API
+  name: BlindInsight Blindllm API
   slug: blindinsight-blindllm-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The blindllm-queries API from BlindInsight — 2 operation(s) for blindllm-queries.
-  name: BlindInsight blindllm-queries API
+  name: BlindInsight Blindllm Queries API
   slug: blindinsight-blindllm-queries-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The csrf API from BlindInsight — 1 operation(s) for csrf.
-  name: BlindInsight csrf API
+  name: BlindInsight Csrf API
   slug: blindinsight-csrf-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The datasets API from BlindInsight — 3 operation(s) for datasets.
-  name: BlindInsight datasets API
+  name: BlindInsight Datasets API
   slug: blindinsight-datasets-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The delete-jobs API from BlindInsight — 1 operation(s) for delete-jobs.
-  name: BlindInsight delete-jobs API
+  name: BlindInsight Delete Jobs API
   slug: blindinsight-delete-jobs-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The files API from BlindInsight — 2 operation(s) for files.
-  name: BlindInsight files API
+  name: BlindInsight Files API
   slug: blindinsight-files-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The grants API from BlindInsight — 2 operation(s) for grants.
-  name: BlindInsight grants API
+  name: BlindInsight Grants API
   slug: blindinsight-grants-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The identities API from BlindInsight — 2 operation(s) for identities.
-  name: BlindInsight identities API
+  name: BlindInsight Identities API
   slug: blindinsight-identities-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The jobs API from BlindInsight — 2 operation(s) for jobs.
-  name: BlindInsight jobs API
+  name: BlindInsight Jobs API
   slug: blindinsight-jobs-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The materials API from BlindInsight — 8 operation(s) for materials.
-  name: BlindInsight materials API
+  name: BlindInsight Materials API
   slug: blindinsight-materials-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The organizations API from BlindInsight — 15 operation(s) for organizations.
-  name: BlindInsight organizations API
+  name: BlindInsight Organizations API
   slug: blindinsight-organizations-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The records API from BlindInsight — 5 operation(s) for records.
-  name: BlindInsight records API
+  name: BlindInsight Records API
   slug: blindinsight-records-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The requests API from BlindInsight — 4 operation(s) for requests.
-  name: BlindInsight requests API
+  name: BlindInsight Requests API
   slug: blindinsight-requests-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The schemas API from BlindInsight — 4 operation(s) for schemas.
-  name: BlindInsight schemas API
+  name: BlindInsight Schemas API
   slug: blindinsight-schemas-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The status API from BlindInsight — 1 operation(s) for status.
-  name: BlindInsight status API
+  name: BlindInsight Status API
   slug: blindinsight-status-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The token API from BlindInsight — 3 operation(s) for token.
-  name: BlindInsight token API
+  name: BlindInsight Token API
   slug: blindinsight-token-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The users API from BlindInsight — 4 operation(s) for users.
-  name: BlindInsight users API
+  name: BlindInsight Users API
   slug: blindinsight-users-api
 - baseURL: https://api.app.blindinsight.io
   baseurl_source: declared
   description: The ws API from BlindInsight — 1 operation(s) for ws.
-  name: BlindInsight ws API
+  name: BlindInsight Ws API
   slug: blindinsight-ws-api
 artifact_total: 43
 asyncapis:
@@ -332,7 +332,7 @@ modified: '2026-07-18'
 name: BlindInsight
 nav: Providers
 network: true
-overview: 'BlindInsight publishes 19 APIs on the [APIs.io](https://apis.io/) network, including accounts API, blindllm API, blindllm-queries API, and 16 more. Tagged areas include Company, Security, Encryption, Privacy, and Confidential Computing.
+overview: 'BlindInsight publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blindllm API, Blindllm Queries API, and 16 more. Tagged areas include Company, Security, Encryption, Privacy, and Confidential Computing.
 
 
   The BlindInsight catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -370,7 +370,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -393,8 +393,9 @@ tags:
 - Privacy
 - Confidential Computing
 - Data
-- Machine-Learning
+- Machine Learning
 - Compliance
 - Cryptography
+- Real-Time
 website: https://blindinsight.io
 ---

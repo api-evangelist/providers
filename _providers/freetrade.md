@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -149,7 +149,7 @@ modified: '2026-08-04'
 name: Freetrade
 nav: Providers
 network: true
-overview: 'Freetrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investing, Stock Trading, Brokerage, and Financial-Services.
+overview: 'Freetrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investing, Stock Trading, Brokerage, and Financial Services.
 
 
   Freetrade''s developer surface includes engineering blog, product news, changelog, pricing, signup flow, support, and 18 more developer resources.'
@@ -194,7 +194,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ tags:
 - Investing
 - Stock Trading
 - Brokerage
-- Financial-Services
+- Financial Services
 - Fintech
 - Pensions
 - ISA

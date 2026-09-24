@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 118
-  human_in_the_loop: 77
+- acting_count: 117
+  human_in_the_loop: 76
   name: Emburse Agentic Access
   operation_count: 213
   slug: emburse-agentic-access
-  summary_line: 213 operations · 118 acting · 77 human-in-the-loop
+  summary_line: 213 operations · 117 acting · 76 human-in-the-loop
 api_count: 13
 apis:
 - description: REST API for Emburse Professional (formerly Certify) supporting push/pull of users, departments, categories, expense reports, expense lines, receipt data, and invoices. Base URL is https://api.certify
@@ -59,17 +59,17 @@ apis:
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The allocation-api-controller-v-1 API from Emburse — 1 operation(s) for allocation-api-controller-v-1.
-  name: Emburse allocation-api-controller-v-1 API
+  name: Emburse Allocation API Controller V 1 API
   slug: emburse-allocation-api-controller-v-1-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The allocation-api-controller-v-2 API from Emburse — 1 operation(s) for allocation-api-controller-v-2.
-  name: Emburse allocation-api-controller-v-2 API
+  name: Emburse Allocation API Controller V 2 API
   slug: emburse-allocation-api-controller-v-2-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: V3 endpoints include better support and error handling for allocation user defined attributes (UDA).
-  name: Emburse allocation-api-controller-v-3 API
+  name: Emburse Allocation API Controller V 3 API
   slug: emburse-allocation-api-controller-v-3-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
@@ -114,57 +114,57 @@ apis:
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Approve, return and reassign expense reports.
-  name: Emburse expense-approval-controller-v1 API
+  name: Emburse Expense Approval Controller V1 API
   slug: emburse-expense-approval-controller-v1-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Approve, return and reassign expense reports using username or email of approver.
-  name: Emburse expense-approval-controller-v2 API
+  name: Emburse Expense Approval Controller V2 API
   slug: emburse-expense-approval-controller-v2-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve expense report information and create draft expense reports
-  name: Emburse expense-controller-v1 API
+  name: Emburse Expense Controller V1 API
   slug: emburse-expense-controller-v1-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve expense reports by filter(s)
-  name: Emburse expense-controller-v3 API
+  name: Emburse Expense Controller V3 API
   slug: emburse-expense-controller-v3-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Get and post expense export information.
-  name: Emburse expense-export-controller-v1 API
+  name: Emburse Expense Export Controller V1 API
   slug: emburse-expense-export-controller-v1-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Get and post expense or invoice export information.
-  name: Emburse expense-export-controller-v2 API
+  name: Emburse Expense Export Controller V2 API
   slug: emburse-expense-export-controller-v2-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve Expense Report Receipts / Images
-  name: Emburse expense-image-api
+  name: Emburse Expense Image API
   slug: emburse-expense-image-api-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve expense receipt PDF
-  name: Emburse expense-receipts-controller API
+  name: Emburse Expense Receipts Controller API
   slug: emburse-expense-receipts-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve expense report line items
-  name: Emburse expense-report-line-item-controller API
+  name: Emburse Expense Report Line Item Controller API
   slug: emburse-expense-report-line-item-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve expense type information
-  name: Emburse expense-types-controller API
+  name: Emburse Expense Types Controller API
   slug: emburse-expense-types-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Operations in Invoice Api
-  name: Emburse invoice-api-external-controller API
+  name: Emburse Invoice API External Controller API
   slug: emburse-invoice-api-external-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
@@ -189,52 +189,52 @@ apis:
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Post payments
-  name: Emburse paid-expense-controller API
+  name: Emburse Paid Expense Controller API
   slug: emburse-paid-expense-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Person Controller v2
-  name: Emburse person-controller-v2 API
+  name: Emburse Person Controller V2 API
   slug: emburse-person-controller-v2-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Person Controller v3
-  name: Emburse person-controller-v3 API
+  name: Emburse Person Controller V3 API
   slug: emburse-person-controller-v3-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Person Web Services
-  name: Emburse person-controller-v4 API
+  name: Emburse Person Controller V4 API
   slug: emburse-person-controller-v4-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Operations in PO APIs
-  name: Emburse po-api-controller API
+  name: Emburse Po API Controller API
   slug: emburse-po-api-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Operations in PO Receipts APIs
-  name: Emburse po-api-receipt-controller API
+  name: Emburse Po API Receipt Controller API
   slug: emburse-po-api-receipt-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The pre-approval-api-controller API from Emburse — 9 operation(s) for pre-approval-api-controller.
-  name: Emburse pre-approval-api-controller API
+  name: Emburse Pre Approval API Controller API
   slug: emburse-pre-approval-api-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The pre-approval-api-controller-v-2 API from Emburse — 3 operation(s) for pre-approval-api-controller-v-2.
-  name: Emburse pre-approval-api-controller-v-2 API
+  name: Emburse Pre Approval API Controller V 2 API
   slug: emburse-pre-approval-api-controller-v-2-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The pre-approval-api-export-controller API from Emburse — 4 operation(s) for pre-approval-api-export-controller.
-  name: Emburse pre-approval-api-export-controller API
+  name: Emburse Pre Approval API Export Controller API
   slug: emburse-pre-approval-api-export-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: The pre-approval-import-controller API from Emburse — 1 operation(s) for pre-approval-import-controller.
-  name: Emburse pre-approval-import-controller API
+  name: Emburse Pre Approval Import Controller API
   slug: emburse-pre-approval-import-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
@@ -244,12 +244,12 @@ apis:
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Retrieve information concerning returned payments
-  name: Emburse returned-payments-controller API
+  name: Emburse Returned Payments Controller API
   slug: emburse-returned-payments-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Sap Person Controller
-  name: Emburse sap-person-controller API
+  name: Emburse Sap Person Controller API
   slug: emburse-sap-person-controller-api
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
@@ -274,7 +274,7 @@ apis:
 - baseURL: https://api.emburse.com/v1/
   baseurl_source: declared
   description: Operations in Vendor API application service
-  name: Emburse vendor-api-controller API
+  name: Emburse Vendor API Controller API
   slug: emburse-vendor-api-controller-api
 - baseURL: https://api.certify.com/v1/
   baseurl_source: declared
@@ -543,7 +543,7 @@ modified: '2026-09-16'
 name: Emburse
 nav: Providers
 network: true
-overview: 'Emburse publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, allocation-api-controller-v-1 API, allocation-api-controller-v-2 API, and 43 more. Tagged areas include Expense Management, AP Automation, Corporate Cards, Virtual Cards, and Receipt Capture.
+overview: 'Emburse publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Allocation API Controller V 1 API, Allocation API Controller V 2 API, and 43 more. Tagged areas include Expense Management, AP Automation, Corporate Cards, Virtual Cards, and Receipt Capture.
 
 
   The Emburse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -603,7 +603,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for the LegalOn contract platform. Documented capabilities cover contract file operations (upload, retrieve, update, delete), contract information management (register and update metadata suc
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -223,7 +223,7 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Artificial Intelligence
-- Document-Management
+- Document Management
 - Compliance
 - Governance
 - Software-as-a-Service

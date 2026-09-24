@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,7 +49,7 @@ modified: '2026-07-17'
 name: Light Anchor
 nav: Providers
 network: true
-overview: Light Anchor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Light Anchor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and A2A.
 random_paper: 6
 score:
   band: minimal
@@ -77,7 +77,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 3.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -92,4 +92,5 @@ security:
 slug: light-anchor
 tags:
 - Company
+- A2A
 ---

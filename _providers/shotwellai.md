@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-21'
 name: Shotwellai
 nav: Providers
 network: true
-overview: 'Shotwellai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Data Annotation, Training Data, and Machine-Learning.
+overview: 'Shotwellai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Data Annotation, Training Data, and Machine Learning.
 
 
   Shotwellai''s developer surface includes support and 2 more developer resources.'
@@ -87,7 +87,7 @@ score:
       reason: never_enriched
   previous_composite: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -100,8 +100,8 @@ tags:
 - Robotics
 - Data Annotation
 - Training Data
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Artificial Intelligence
 - Y Combinator
 website: https://shotwell.ai

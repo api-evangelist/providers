@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-09-23'
+  score: 34.1
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -124,7 +124,14 @@ apis:
   description: User administration operations
   name: JAGGAER Users API
   slug: jaggaer-users-api
-artifact_total: 49
+- description: 'REST/JSON API surface for the JAGGAER (formerly SciQuest) Advanced Sourcing Optimizer, secured with OAuth 2.0 client-credentials. Grouped into the Customer Host Entity Service (query ASO events for a '
+  name: JAGGAER Advanced Sourcing Optimizer (ASO) API
+  slug: jaggaer-advanced-sourcing-optimizer-aso-api
+artifact_total: 51
+asyncapis:
+- description: ''
+  name: Sciquest Webhooks
+  slug: sciquest-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -263,10 +270,6 @@ finops:
 - name: Jaggaer Finops
   service_category: ''
   slug: jaggaer-finops
-graphqls:
-- description: JAGGAER is a direct and indirect spend management platform covering procurement, sourcing, contract management, supplier management, and accounts payable. The API covers RFx events, PO lifecycle, supp
-  name: JAGGAER GraphQL API
-  slug: jaggaer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jaggaer.png
 json_schemas:
 - name: JAGGAER Quay Optimization Job
@@ -288,7 +291,7 @@ network: true
 overview: 'JAGGAER publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Async API, Attributes API, Awards API, and 13 more. Tagged areas include Procurement, Sourcing, Supplier Management, Contracts, and Spend Analytics.
 
 
-  The JAGGAER catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The JAGGAER catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   JAGGAER''s developer surface includes authentication, documentation, engineering blog, support, and 10 more developer resources.'
@@ -313,33 +316,34 @@ rules:
     warn: 3
   slug: jaggaer-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 42.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 66.3
     catalog_earned_first_party: 0.0
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 39.5
-    contract_governance: 9.8
-    contract_quality: 64.0
+    contract_governance: 28.0
+    contract_quality: 69.3
     developer_ergonomics: 28.6
     discoverability: 74.1
-    operational_transparency: 5.3
+    operational_transparency: 13.2
   previous_composite: 38.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -350,6 +354,10 @@ security:
   name: Jaggaer Authentication
   slug: jaggaer-authentication
   summary_line: apiKey/http · 2 schemes
+- kind: authentication
+  name: Sciquest Authentication
+  slug: sciquest-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Jaggaer Domain Security
   slug: jaggaer-domain-security

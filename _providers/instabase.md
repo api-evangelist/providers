@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
+- acting_count: 15
   human_in_the_loop: 0
   name: Instabase Agentic Access
   operation_count: 27
   slug: instabase-agentic-access
-  summary_line: 27 operations · 16 acting
+  summary_line: 27 operations · 15 acting
 api_count: 1
 apis:
 - baseURL: https://aihub.instabase.com/api
@@ -250,7 +250,7 @@ modified: '2026-07-19'
 name: Instabase
 nav: Providers
 network: true
-overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Batches API, Files API, and 3 more. Tagged areas include Company, Intelligent Document Processing, Document AI, Artificial Intelligence, and Machine-Learning.
+overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Batches API, Files API, and 3 more. Tagged areas include Company, Intelligent Document Processing, Document AI, Artificial Intelligence, and Machine Learning.
 
 
   The Instabase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -306,7 +306,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -335,11 +335,11 @@ tags:
 - Intelligent Document Processing
 - Document AI
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Automation
 - Data Extraction
 - LLM
-- Financial-Services
+- Financial Services
 - Insurance
 website: https://www.instabase.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.parseur.com
   baseurl_source: declared
   description: The async API from Parseur — 7 operation(s) for async.
-  name: Parseur async API
+  name: Parseur Async API
   slug: parseur-async-api
 - baseURL: https://api.parseur.com
   baseurl_source: declared
@@ -226,7 +226,7 @@ modified: '2026-05-25'
 name: Parseur
 nav: Providers
 network: true
-overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, including async API, Bootstrap API, Document API, and 3 more. Tagged areas include Artificial Intelligence, Document Parsing, Document Processing, Document Extraction, and Email Parsing.
+overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Async API, Bootstrap API, Document API, and 3 more. Tagged areas include Artificial Intelligence, Document Parsing, Document Processing, Document Extraction, and Email Parsing.
 
 
   Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
@@ -241,7 +241,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     contract_governance: 0.0
@@ -249,7 +249,12 @@ score:
     developer_ergonomics: 40.5
     discoverability: 68.5
     operational_transparency: 39.5
-  previous_composite: 40.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -258,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

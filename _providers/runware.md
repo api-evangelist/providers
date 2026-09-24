@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
@@ -192,7 +192,7 @@ modified: '2026-07-21'
 name: Runware
 nav: Providers
 network: true
-overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and Image-Generation.
+overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Inference, and Image Generation.
 
 
   Runware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
@@ -221,7 +221,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -249,9 +249,9 @@ slug: runware
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
-- Image-Generation
+- Image Generation
 - Video Generation
 - Audio Generation
 - Text Generation

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: InvestCloud's developer platform, branded "Wealthsqope Digital Developer". Its own public landing page advertises getting-started guides, "full API docs for web services and embedded widgets", video t
@@ -140,7 +140,7 @@ modified: '2026-08-23'
 name: InvestCloud
 nav: Providers
 network: true
-overview: 'InvestCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Financial-Services, Investment Management, and WealthTech.
+overview: 'InvestCloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Financial Services, Investment Management, and WealthTech.
 
 
   InvestCloud''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
@@ -175,7 +175,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -195,10 +195,10 @@ slug: investcloud
 tags:
 - Company
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Investment Management
 - WealthTech
-- Portfolio-Management
+- Portfolio Management
 - Financial Planning
 - Managed Accounts
 - Advisor Technology

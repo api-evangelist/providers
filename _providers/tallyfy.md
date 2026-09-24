@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for Tallyfy workflow automation. Organization-scoped resources (/organizations/{org_id}/checklists, /runs, /tasks, ...) with Bearer-token auth (personal, application, or OAuth 2.0 access toke
@@ -190,7 +190,7 @@ modified: '2026-07-21'
 name: Tallyfy
 nav: Providers
 network: true
-overview: 'Tallyfy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow-Automation, Business Process Management, SOPs, and Task.
+overview: 'Tallyfy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workflow Automation, Business Process Management, SOPs, and Task.
 
 
   The Tallyfy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -225,7 +225,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -248,7 +248,7 @@ security:
 slug: tallyfy
 tags:
 - Company
-- Workflow-Automation
+- Workflow Automation
 - Business Process Management
 - SOPs
 - Task

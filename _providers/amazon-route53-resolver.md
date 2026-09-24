@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 63
+- acting_count: 34
   human_in_the_loop: 0
   name: Amazon Route53 Resolver Agentic Access
   operation_count: 63
   slug: amazon-route53-resolver-agentic-access
-  summary_line: 63 operations · 63 acting
+  summary_line: 63 operations · 34 acting
 api_count: 1
 apis:
 - baseURL: https://route53resolver.amazonaws.com
@@ -755,7 +755,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/route53/resolver/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/capabilities/amazon-route53-resolver-capability-edges.yml
   title: ''
@@ -6109,7 +6109,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -6137,5 +6137,5 @@ tags:
 - DNS
 - Hybrid Cloud
 - Networking
-website: https://amazon.com
+website: https://aws.amazon.com/route53/resolver/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.1
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Agent-to-Agent (A2A 0.3.0) JSON-RPC surface for Aurelius Agent, WunderCorp's strategic planning and orchestration agent for BuilderStudio. Three published skills (strategic-planning, implementation-co
@@ -239,7 +239,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

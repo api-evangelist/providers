@@ -35,93 +35,93 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The csv API from Canal — 3 operation(s) for csv.
-  name: Canal csv API
+  name: Canal CSV API
   slug: canal-csv-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The fulfillments API from Canal — 2 operation(s) for fulfillments.
-  name: Canal fulfillments API
+  name: Canal Fulfillments API
   slug: canal-fulfillments-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The markets API from Canal — 1 operation(s) for markets.
-  name: Canal markets API
+  name: Canal Markets API
   slug: canal-markets-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The max-shipping-rates API from Canal — 1 operation(s) for max-shipping-rates.
-  name: Canal max-shipping-rates API
+  name: Canal Max Shipping Rates API
   slug: canal-max-shipping-rates-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The orders API from Canal — 6 operation(s) for orders.
-  name: Canal orders API
+  name: Canal Orders API
   slug: canal-orders-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The product_sets API from Canal — 2 operation(s) for product_sets.
-  name: Canal product_sets API
+  name: Canal Product Sets API
   slug: canal-product-sets-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The products API from Canal — 5 operation(s) for products.
-  name: Canal products API
+  name: Canal Products API
   slug: canal-products-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The refunds API from Canal — 2 operation(s) for refunds.
-  name: Canal refunds API
+  name: Canal Refunds API
   slug: canal-refunds-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The returns API from Canal — 4 operation(s) for returns.
-  name: Canal returns API
+  name: Canal Returns API
   slug: canal-returns-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The selection API from Canal — 1 operation(s) for selection.
-  name: Canal selection API
+  name: Canal Selection API
   slug: canal-selection-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The shipping API from Canal — 1 operation(s) for shipping.
-  name: Canal shipping API
+  name: Canal Shipping API
   slug: canal-shipping-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The shipping-rates API from Canal — 1 operation(s) for shipping-rates.
-  name: Canal shipping-rates API
+  name: Canal Shipping Rates API
   slug: canal-shipping-rates-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The shops API from Canal — 2 operation(s) for shops.
-  name: Canal shops API
+  name: Canal Shops API
   slug: canal-shops-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The tax-and-shipping API from Canal — 2 operation(s) for tax-and-shipping.
-  name: Canal tax-and-shipping API
+  name: Canal Tax And Shipping API
   slug: canal-tax-and-shipping-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The tax API from Canal — 1 operation(s) for tax.
-  name: Canal tax API
+  name: Canal Tax API
   slug: canal-tax-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The variants API from Canal — 2 operation(s) for variants.
-  name: Canal variants API
+  name: Canal Variants API
   slug: canal-variants-api
 - baseURL: https://api.shopcanal.com/platform
   baseurl_source: declared
   description: The webhooks API from Canal — 2 operation(s) for webhooks.
-  name: Canal webhooks API
+  name: Canal Webhooks API
   slug: canal-webhooks-api
 artifact_total: 38
 asyncapis:
@@ -316,7 +316,7 @@ modified: '2026-07-18'
 name: Canal
 nav: Providers
 network: true
-overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, including csv API, fulfillments API, markets API, and 14 more. Tagged areas include Company, E-Commerce, Dropshipping, Marketplace, and Commerce.
+overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CSV API, Fulfillments API, Markets API, and 14 more. Tagged areas include Company, E-Commerce, Dropshipping, Marketplace, and Commerce.
 
 
   The Canal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -353,7 +353,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

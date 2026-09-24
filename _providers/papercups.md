@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ modified: '2026-06-20'
 name: Papercups
 nav: Providers
 network: true
-overview: 'Papercups publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Realtime Chat API (WebSocket / Phoenix Channels), Conversations API, Customers API, and 2 more. Tagged areas include Customer Messaging, Live Chat, Open-Source, Support, and Intercom Alternative.
+overview: 'Papercups publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Realtime Chat API (WebSocket / Phoenix Channels), Conversations API, Customers API, and 2 more. Tagged areas include Customer Messaging, Live Chat, Open Source, Support, and Intercom Alternative.
 
 
   The Papercups catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -233,8 +233,9 @@ slug: papercups
 tags:
 - Customer Messaging
 - Live Chat
-- Open-Source
+- Open Source
 - Support
 - Intercom Alternative
+- Real-Time
 website: https://papercups.io
 ---

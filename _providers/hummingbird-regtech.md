@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Login-gated REST API for the Hummingbird financial-crime compliance platform — used to create and manage investigations, cases, customer profiles, and regulatory-reporting workflow data programmatical
@@ -133,7 +133,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

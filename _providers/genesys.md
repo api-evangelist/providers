@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 1702
-  human_in_the_loop: 67
+- acting_count: 1609
+  human_in_the_loop: 71
   name: Genesys Agentic Access
-  operation_count: 3180
+  operation_count: 3324
   slug: genesys-agentic-access
-  summary_line: 3180 operations · 1702 acting · 67 human-in-the-loop
+  summary_line: 3324 operations · 1609 acting · 71 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.mypurecloud.com
@@ -978,7 +978,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

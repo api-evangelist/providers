@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 6
+- acting_count: 5
   human_in_the_loop: 0
   name: Verizon Agentic Access
   operation_count: 8
   slug: verizon-agentic-access
-  summary_line: 8 operations · 6 acting
+  summary_line: 8 operations · 5 acting
 api_count: 18
 apis:
 - description: Software Management Services API lets customers manage, schedule and distribute software updates to eligible 4G and 5G Internet of Things devices.
@@ -108,7 +108,7 @@ apis:
   description: SMS messaging to devices
   name: Verizon SMS API
   slug: verizon-sms-api
-artifact_total: 97
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Verizon Thingspace Callbacks Webhooks
@@ -389,10 +389,6 @@ finops:
 - name: Verizon Finops
   service_category: Telecommunications
   slug: verizon-finops
-graphqls:
-- description: This conceptual GraphQL schema models Verizon's telecom, network, and connectivity services as exposed through the ThingSpace IoT platform, 5G Edge computing infrastructure, TM Forum service managemen
-  name: Verizon GraphQL Schema
-  slug: verizon-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verizon.png
 integrations:
 - description: Deploy 5G Edge applications on Verizon MEC nodes through AWS Wavelength partnership.
@@ -572,19 +568,19 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.2
+  composite: 61.4
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 34
     catalog_earned: 74.5
     catalog_earned_first_party: 0.0
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 47.4
     contract_governance: 33.3
-    contract_quality: 44.1
+    contract_quality: 37.0
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 60.5
@@ -606,7 +602,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

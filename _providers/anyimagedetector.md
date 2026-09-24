@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://imagedetector.online/v1
@@ -175,7 +175,7 @@ modified: '2026-08-11'
 name: AnyImageDetector
 nav: Providers
 network: true
-overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: Detection API. Tagged areas include AI image detection, Image Analysis, Computer-Vision, Content Moderation, and Trust and Safety.
+overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: Detection API. Tagged areas include AI image detection, Image Analysis, Computer Vision, Content Moderation, and Trust and Safety.
 
 
   AnyImageDetector''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
@@ -217,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +236,7 @@ slug: anyimagedetector
 tags:
 - AI image detection
 - Image Analysis
-- Computer-Vision
+- Computer Vision
 - Content Moderation
 - Trust and Safety
 - Fact Checking

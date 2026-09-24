@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 27
   human_in_the_loop: 1
   name: Amazon Managed Apache Flink Agentic Access
   operation_count: 31
   slug: amazon-managed-apache-flink-agentic-access
-  summary_line: 31 operations · 31 acting · 1 human-in-the-loop
+  summary_line: 31 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://kinesisanalytics.amazonaws.com
@@ -395,7 +395,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/managed-service-apache-flink/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3261,7 +3261,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -3299,5 +3299,5 @@ use_cases:
   name: Anomaly Detection
 - description: Build real-time ETL pipelines to transform and enrich streaming data before loading to destinations.
   name: ETL Pipelines
-website: https://amazon.com
+website: https://aws.amazon.com/managed-service-apache-flink/
 ---

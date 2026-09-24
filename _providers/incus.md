@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -44,70 +44,70 @@ agentic_access:
 api_count: 1
 apis:
 - description: The certificates API from Incus — 4 operation(s) for certificates.
-  name: Incus certificates API
+  name: Incus Certificates API
   slug: incus-certificates-api
 - description: The cluster API from Incus — 7 operation(s) for cluster.
-  name: Incus cluster API
+  name: Incus Cluster API
   slug: incus-cluster-api
 - description: The cluster-groups API from Incus — 3 operation(s) for cluster-groups.
-  name: Incus cluster-groups API
+  name: Incus Cluster Groups API
   slug: incus-cluster-groups-api
 - description: The images API from Incus — 14 operation(s) for images.
-  name: Incus images API
+  name: Incus Images API
   slug: incus-images-api
 - description: The instances API from Incus — 28 operation(s) for instances.
-  name: Incus instances API
+  name: Incus Instances API
   slug: incus-instances-api
 - description: The Metadata API from Incus — 1 operation(s) for metadata.
   name: Incus Metadata API
   slug: incus-metadata-api
 - description: The metrics API from Incus — 1 operation(s) for metrics.
-  name: Incus metrics API
+  name: Incus Metrics API
   slug: incus-metrics-api
 - description: The network-acls API from Incus — 4 operation(s) for network-acls.
-  name: Incus network-acls API
+  name: Incus Network Acls API
   slug: incus-network-acls-api
 - description: The network-address-sets API from Incus — 3 operation(s) for network-address-sets.
-  name: Incus network-address-sets API
+  name: Incus Network Address Sets API
   slug: incus-network-address-sets-api
 - description: The network-allocations API from Incus — 1 operation(s) for network-allocations.
-  name: Incus network-allocations API
+  name: Incus Network Allocations API
   slug: incus-network-allocations-api
 - description: The network-forwards API from Incus — 3 operation(s) for network-forwards.
-  name: Incus network-forwards API
+  name: Incus Network Forwards API
   slug: incus-network-forwards-api
 - description: The network-integrations API from Incus — 3 operation(s) for network-integrations.
-  name: Incus network-integrations API
+  name: Incus Network Integrations API
   slug: incus-network-integrations-api
 - description: The network-load-balancers API from Incus — 4 operation(s) for network-load-balancers.
-  name: Incus network-load-balancers API
+  name: Incus Network Load Balancers API
   slug: incus-network-load-balancers-api
 - description: The network-peers API from Incus — 3 operation(s) for network-peers.
-  name: Incus network-peers API
+  name: Incus Network Peers API
   slug: incus-network-peers-api
 - description: The network-zones API from Incus — 6 operation(s) for network-zones.
-  name: Incus network-zones API
+  name: Incus Network Zones API
   slug: incus-network-zones-api
 - description: The networks API from Incus — 5 operation(s) for networks.
-  name: Incus networks API
+  name: Incus Networks API
   slug: incus-networks-api
 - description: The operations API from Incus — 7 operation(s) for operations.
-  name: Incus operations API
+  name: Incus Operations API
   slug: incus-operations-api
 - description: The profiles API from Incus — 3 operation(s) for profiles.
-  name: Incus profiles API
+  name: Incus Profiles API
   slug: incus-profiles-api
 - description: The projects API from Incus — 5 operation(s) for projects.
-  name: Incus projects API
+  name: Incus Projects API
   slug: incus-projects-api
 - description: The server API from Incus — 5 operation(s) for server.
-  name: Incus server API
+  name: Incus Server API
   slug: incus-server-api
 - description: The storage API from Incus — 39 operation(s) for storage.
-  name: Incus storage API
+  name: Incus Storage API
   slug: incus-storage-api
 - description: The warnings API from Incus — 3 operation(s) for warnings.
-  name: Incus warnings API
+  name: Incus Warnings API
   slug: incus-warnings-api
 artifact_total: 52
 collections:
@@ -254,7 +254,7 @@ modified: '2026-05-19'
 name: Incus
 nav: Providers
 network: true
-overview: 'Incus publishes 22 APIs on the [APIs.io](https://apis.io/) network, including certificates API, cluster API, cluster-groups API, and 19 more. Tagged areas include Containers, Virtual Machines, Virtualization, Linux, and Open-Source.
+overview: 'Incus publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Cluster API, Cluster Groups API, and 19 more. Tagged areas include Containers, Virtual Machines, Virtualization, Linux, and Open Source.
 
 
   The Incus catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -311,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -328,6 +328,6 @@ tags:
 - Virtual Machines
 - Virtualization
 - Linux
-- Open-Source
+- Open Source
 website: https://linuxcontainers.org/incus/
 ---

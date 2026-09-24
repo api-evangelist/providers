@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: The HTTP server started by `furiosa-llm serve <ARTIFACT_PATH>`. It hosts a single model on RNGD NPUs and exposes an OpenAI-compatible surface - /v1/completions, /v1/chat/completions, /v1/responses (Op
@@ -228,7 +228,7 @@ modified: '2026-08-16'
 name: FuriosaAI
 nav: Providers
 network: true
-overview: 'FuriosaAI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Models API, Predict API, and 1 more. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Semiconductors, and NPU.
+overview: 'FuriosaAI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Models API, Predict API, and 1 more. Tagged areas include Artificial Intelligence, Machine Learning, Inference, Semiconductors, and NPU.
 
 
   FuriosaAI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 27 more developer resources.'
@@ -270,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ security:
 slug: furiosa
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - Semiconductors
 - NPU

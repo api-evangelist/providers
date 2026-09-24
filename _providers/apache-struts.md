@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL_template: http://{host}/{context}
   baseurl_source: spec_template
   description: Generic RESTful resource exposed by the Struts REST plugin
-  name: Apache Struts resource API
+  name: Apache Struts Resource API
   slug: apache-struts-resource-api
 artifact_total: 27
 collections:
@@ -179,7 +179,7 @@ modified: '2026-04-19'
 name: Apache Struts
 nav: Providers
 network: true
-overview: 'Apache Struts publishes 1 API on the [APIs.io](https://apis.io/) network: resource API. Tagged areas include Java, MVC, Web Applications, Web Framework, and Open-Source.
+overview: 'Apache Struts publishes 1 API on the [APIs.io](https://apis.io/) network: Resource API. Tagged areas include Java, MVC, Web Applications, Web Framework, and Open Source.
 
 
   Apache Struts'' developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, FAQ, and 11 more developer resources.'
@@ -222,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -247,7 +247,7 @@ tags:
 - MVC
 - Web Applications
 - Web Framework
-- Open-Source
+- Open Source
 use_cases:
 - description: Build large-scale Java web applications with clean MVC separation.
   name: Enterprise Java Web Applications

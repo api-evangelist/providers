@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 10
+- acting_count: 9
   human_in_the_loop: 0
   name: Alation Agentic Access
   operation_count: 30
   slug: alation-agentic-access
-  summary_line: 30 operations · 10 acting
+  summary_line: 30 operations · 9 acting
 api_count: 4
 apis:
 - baseURL: https://your-instance.alation.com/integration/v2
@@ -105,7 +105,7 @@ apis:
   description: Retrieve table metadata
   name: Alation Tables API
   slug: alation-tables-api
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: open
   name: API Collection
@@ -283,10 +283,6 @@ finops:
 - name: Alation Finops
   service_category: Data Intelligence Platform
   slug: alation-finops
-graphqls:
-- description: Alation is a data intelligence platform for data search and discovery. The API covers data source management, data objects (tables, columns, queries), catalog articles, lineage, governance policies, u
-  name: Alation GraphQL API
-  slug: alation-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alation.png
 json_schemas:
 - name: Column
@@ -430,19 +426,19 @@ rules:
   slug: alation-spectral-rules
 score:
   band: developing
-  composite: 40.8
+  composite: 40.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 70.5
+    contract_quality: 69.4
     developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 10.5
@@ -455,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

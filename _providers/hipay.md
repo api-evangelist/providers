@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,17 +47,17 @@ apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage the balance of a HiPay account
-  name: HiPay balance API
+  name: HiPay Balance API
   slug: hipay-balance-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage bank informations of a HiPay account
-  name: HiPay bank-info API
+  name: HiPay Bank Info API
   slug: hipay-bank-info-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Generate captcha
-  name: HiPay captcha-generation API
+  name: HiPay Captcha Generation API
   slug: hipay-captcha-generation-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
@@ -67,27 +67,27 @@ apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage your account with our API tools
-  name: HiPay constants API
+  name: HiPay Constants API
   slug: hipay-constants-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage your identification documents
-  name: HiPay identification API
+  name: HiPay Identification API
   slug: hipay-identification-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage marketplace invoices
-  name: HiPay invoice API
+  name: HiPay Invoice API
   slug: hipay-invoice-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Perform operations (capture, refund) on transactions
-  name: HiPay maintenance API
+  name: HiPay Maintenance API
   slug: hipay-maintenance-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage merchant groups
-  name: HiPay merchant-group API
+  name: HiPay Merchant Group API
   slug: hipay-merchant-group-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
@@ -97,7 +97,7 @@ apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Everything you need to create orders and transactions
-  name: HiPay payments API
+  name: HiPay Payments API
   slug: hipay-payments-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
@@ -112,12 +112,12 @@ apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Everything you need to get all settlement details
-  name: HiPay settlement API
+  name: HiPay Settlement API
   slug: hipay-settlement-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Everything you need to tokenize payment cards
-  name: HiPay tokenization API
+  name: HiPay Tokenization API
   slug: hipay-tokenization-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
@@ -127,22 +127,22 @@ apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Transfer funds between HiPay accounts
-  name: HiPay transfer API
+  name: HiPay Transfer API
   slug: hipay-transfer-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage your Ultimate Beneficial Ownerships (UBO)
-  name: HiPay ubo API
+  name: HiPay Ubo API
   slug: hipay-ubo-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Manage your HiPay account
-  name: HiPay user-account API
+  name: HiPay User Account API
   slug: hipay-user-account-api
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
   description: Request a withdrawal from a HiPay account
-  name: HiPay withdrawal API
+  name: HiPay Withdrawal API
   slug: hipay-withdrawal-api
 artifact_total: 47
 collections:
@@ -281,7 +281,7 @@ modified: '2026-06-13'
 name: HiPay
 nav: Providers
 network: true
-overview: 'HiPay publishes 20 APIs on the [APIs.io](https://apis.io/) network, including balance API, bank-info API, captcha-generation API, and 17 more. Tagged areas include Payments, Fintech, Europe, Omnichannel, and Point-of-Sale.
+overview: 'HiPay publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Bank Info API, Captcha Generation API, and 17 more. Tagged areas include Payments, Fintech, Europe, Omnichannel, and Point-of-Sale.
 
 
   HiPay''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
@@ -314,6 +314,8 @@ score:
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
@@ -332,7 +334,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

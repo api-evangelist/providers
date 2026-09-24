@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.curatedforyou.io
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://api.curatedforyou.io
   baseurl_source: declared
   description: The shopify API from Curated for You — 14 operation(s) for shopify.
-  name: Curated for You shopify API
+  name: Curated for You Shopify API
   slug: curated-for-you-shopify-api
 - baseURL: https://api.curatedforyou.io
   baseurl_source: declared
@@ -224,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

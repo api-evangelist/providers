@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 146
+- acting_count: 81
   human_in_the_loop: 0
   name: Affinda Agentic Access
-  operation_count: 244
+  operation_count: 141
   slug: affinda-agentic-access
-  summary_line: 244 operations · 146 acting
+  summary_line: 141 operations · 81 acting
 api_count: 4
 apis:
 - baseURL_template: https://{region}.affinda.com
@@ -770,7 +770,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

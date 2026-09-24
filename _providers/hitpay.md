@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 50
+- acting_count: 49
   human_in_the_loop: 0
   name: Hitpay Agentic Access
   operation_count: 92
   slug: hitpay-agentic-access
-  summary_line: 92 operations · 50 acting
+  summary_line: 92 operations · 49 acting
 api_count: 2
 apis:
 - baseURL: https://api.hit-pay.com/v1
@@ -549,6 +549,8 @@ score:
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
@@ -570,7 +572,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

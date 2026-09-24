@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ modified: '2026-05-30'
 name: Groove
 nav: Providers
 network: true
-overview: 'Groove publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Agents API, Attachments API, and 7 more. Tagged areas include Customer-Support, Help Desk, Shared Inbox, Knowledge Base, and Conversations.
+overview: 'Groove publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Agents API, Attachments API, and 7 more. Tagged areas include Customer Support, Help Desk, Shared Inbox, Knowledge Base, and Conversations.
 
 
   The Groove catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -247,7 +247,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -264,7 +264,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: groove
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - Shared Inbox
 - Knowledge Base

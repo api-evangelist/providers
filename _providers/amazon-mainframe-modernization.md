@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -109,7 +109,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://amazon.com
+  url: https://aws.amazon.com/mainframe-modernization/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1805,7 +1805,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1844,5 +1844,5 @@ use_cases:
   name: Batch Job Migration
 - description: Decommission on-premises mainframe hardware by migrating all workloads to AWS.
   name: Mainframe Retirement
-website: https://amazon.com
+website: https://aws.amazon.com/mainframe-modernization/
 ---

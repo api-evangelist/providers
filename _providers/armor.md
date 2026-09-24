@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 172
-  human_in_the_loop: 5
+- acting_count: 166
+  human_in_the_loop: 4
   name: Armor Agentic Access
-  operation_count: 427
+  operation_count: 426
   slug: armor-agentic-access
-  summary_line: 427 operations · 172 acting · 5 human-in-the-loop
+  summary_line: 426 operations · 166 acting · 4 human-in-the-loop
 api_count: 16
 apis:
 - baseURL: https://api.armor.com
@@ -822,7 +822,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Greynoise Agentic Access
   operation_count: 27
   slug: greynoise-agentic-access
-  summary_line: 27 operations · 5 acting
+  summary_line: 27 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://api.greynoise.io
@@ -125,7 +125,7 @@ arazzos:
 - description: Resolve an activity tag, hunt IPs carrying it, then context the top hit.
   name: GreyNoise Tag Hunt To Context
   slug: greynoise-tag-hunt-to-context-workflow
-artifact_total: 283
+artifact_total: 282
 collections:
 - collection_type: postman
   name: GreyNoise API
@@ -617,10 +617,6 @@ finops:
 - name: Greynoise Finops
   service_category: ''
   slug: greynoise-finops
-graphqls:
-- description: ''
-  name: GreyNoise Intelligence GraphQL API
-  slug: greynoise-graphql
 image: https://www.greynoise.io/hubfs/Greynoise%20Logo.svg
 integrations:
 - description: SIEM enrichment via the GreyNoise Splunk app (SA-GreyNoise).
@@ -1111,7 +1107,7 @@ score:
   band: strong
   composite: 59.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 72.5
     catalog_earned_first_party: 0.0
     catalog_gap: 42.5
@@ -1134,7 +1130,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

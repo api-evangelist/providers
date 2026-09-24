@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: The Monitors and Alerts API from Associated Press — 10 operation(s) for monitors and alerts.
   name: Associated Press Monitors and Alerts API
   slug: associated-press-monitors-and-alerts-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -137,10 +137,6 @@ finops:
 - name: Associated Press Finops
   service_category: API
   slug: associated-press-finops
-graphqls:
-- description: This GraphQL schema represents the conceptual data model for the Associated Press (AP) content and media APIs. The AP provides developer APIs for accessing news content, photos, video, audio, graphics
-  name: Associated Press GraphQL Schema
-  slug: associated-press-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/associated-press.png
 integrations:
 - description: AP content APIs integrate with major content management systems used by newspapers, broadcasters, and digital media publishers.
@@ -167,19 +163,19 @@ rate_limits:
   slug: associated-press-rate-limits
 score:
   band: thin
-  composite: 33.8
+  composite: 32.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 58.4
+    contract_quality: 53.1
     developer_ergonomics: 42.9
     discoverability: 68.5
     operational_transparency: 10.5
@@ -192,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

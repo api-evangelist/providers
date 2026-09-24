@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,17 +28,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for the Gatekeeper contract and vendor management platform. Exposes vendors, contracts, employees, custom data, files, events, and workflows. The base URL and interactive docume
   name: Gatekeeper REST API
   slug: rest-api
-artifact_total: 3
+artifact_total: 2
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/gatekeeper/refs/heads/main/security/gatekeeper-domain-security.yml
@@ -79,10 +79,6 @@ common:
   url: https://www.gatekeeperhq.com/blog/rss.xml
 created: '2026-05-11'
 description: Gatekeeper is a SaaS contract lifecycle management (CLM) and vendor management platform that helps procurement, legal, and finance teams capture, approve, store, and renew supplier contracts with workflow automation, e-signature, spend analytics, and risk monitoring. The Gatekeeper REST API exposes vendors, contracts, employees, custom data records, files, workflows, and events so customers can integrate Gatekeeper with ERP, HRIS, and finance systems. API access is per-tenant and authenticated with a tenant-specific API key.
-graphqls:
-- description: This conceptual GraphQL schema models the Gatekeeper contract lifecycle management (CLM) and vendor management platform. Gatekeeper provides procurement, legal, and finance teams with tools to capture
-  name: Gatekeeper GraphQL Schema
-  slug: gatekeeper-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gatekeeper.png
 layout: provider
 modified: '2026-05-11'
@@ -96,26 +92,26 @@ overview: 'Gatekeeper publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 19
 score:
   band: emerging
-  composite: 25.3
+  composite: 14.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 68.5
     operational_transparency: 0.0
   previous_composite: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

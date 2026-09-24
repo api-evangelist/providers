@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Formality REST API exposes the workspace contract repository so external tools and AI agents can retrieve documents and the AI-extracted metadata layer. Every path is namespaced to a workspace — /
@@ -190,7 +190,7 @@ modified: '2026-08-17'
 name: Formality
 nav: Providers
 network: true
-overview: 'Formality publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Legal, Contract Management, and Document-Management.
+overview: 'Formality publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Legal, Contract Management, and Document Management.
 
 
   The Formality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -235,7 +235,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -265,7 +265,7 @@ tags:
 - Ai Ml
 - Legal
 - Contract Management
-- Document-Management
+- Document Management
 - Asset Intelligence
 - Compliance
 - Software-as-a-Service

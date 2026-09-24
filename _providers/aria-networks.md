@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Aria API is the REST control surface for the Aria Networks Deep Networking platform. Its unauthenticated root index at https://api.arianetworks.com/ advertises version 1.0.0 and sixteen resource g
@@ -42,10 +42,6 @@ apis:
   slug: aria-api
 artifact_total: 3
 common:
-- group: other
-  title: ''
-  type: ParentCompany
-  url: https://apis.io/providers/juniper-networks/
 - group: company
   title: ''
   type: Website
@@ -121,10 +117,10 @@ modified: '2026-08-06'
 name: Aria Networks
 nav: Providers
 network: true
-overview: 'Aria Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Data-Center, Artificial Intelligence, and Infrastructure.
+overview: 'Aria Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Data Center, Artificial Intelligence, and Infrastructure.
 
 
-  Aria Networks'' developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
+  Aria Networks'' developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -149,7 +145,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +164,7 @@ slug: aria-networks
 tags:
 - Company
 - Networking
-- Data-Center
+- Data Center
 - Artificial Intelligence
 - Infrastructure
 - Telemetry

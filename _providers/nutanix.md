@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 31
+- acting_count: 23
   human_in_the_loop: 0
   name: Nutanix Agentic Access
   operation_count: 54
   slug: nutanix-agentic-access
-  summary_line: 54 operations · 31 acting
+  summary_line: 54 operations · 23 acting
 api_count: 2
 apis:
 - description: The next-generation v4 API for managing the Nutanix Cloud Platform through Prism Central with GA SDKs for Python, Java, Go, and JavaScript. The v4 API is now the recommended version for production env
@@ -493,7 +493,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

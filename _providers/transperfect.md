@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,11 +28,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-09-23'
+  score: 4.3
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'REST API (formerly Applanga) for mobile app and software string localization, supporting upload/download of source and translated entries, tags, screenshots, projects, branches, orders, and webhooks, '
@@ -41,7 +41,7 @@ apis:
 - description: Open-source PHP Drupal module exposing GlobalLink translation submission and retrieval inside Drupal sites, with sub-modules for blocks, entities, menus, taxonomy, and webforms, configured via GlobalL
   name: GlobalLink Drupal Connector
   slug: globallink-drupal
-artifact_total: 8
+artifact_total: 7
 common:
 - group: operate
   title: ''
@@ -134,10 +134,6 @@ common:
   url: json-structure/transperfect-translation-entry-structure.json
 created: '2026-05-23'
 description: TransPerfect is the world's largest privately held provider of language and AI services, delivering translation, localization, interpretation, AI training data, and content technology through the GlobalLink platform suite, DataForce data services, and a global production network spanning 200+ languages and 160+ offices, with 2025 billed revenues of $1.32 billion serving over 6,000 organizations including 90% of the Fortune 500.
-graphqls:
-- description: TransPerfect does not currently publish a native GraphQL API. Their public-facing API surface consists of the GlobalLink Strings REST API (formerly Applanga) at `https://api.globallinkstrings.com/v1/a
-  name: TransPerfect GraphQL
-  slug: transperfect-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transperfect.png
 json_schemas:
 - name: GlobalLink Translation Entry
@@ -177,27 +173,27 @@ rules:
     warn: 3
   slug: transperfect-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.0
+  band: emerging
+  composite: 23.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.7
   facets:
     access_clarity: 0.0
     contract_governance: 25.0
-    contract_quality: 49.0
+    contract_quality: 10.4
     developer_ergonomics: 42.9
     discoverability: 53.7
     operational_transparency: 28.9
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -47,147 +47,147 @@ apis:
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'Endpoints for managing your activated services and assigning them to cameras. A service must first be activated (purchased) for your account, then assigned to a specific camera before it takes effect '
-  name: AngelCam active-service API
+  name: AngelCam Active Service API
   slug: angelcam-active-service-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: The angelcameras API from AngelCam — 1 operation(s) for angelcameras.
-  name: AngelCam angelcameras API
+  name: AngelCam Angelcameras API
   slug: angelcam-angelcameras-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Manage [Arrow clients](https://github.com/angelcam/arrow-client) — pair them with your account, inspect exposed services, and send commands. **Pairing:** restart the device (pairing mode is active for
-  name: AngelCam arrow-clients API
+  name: AngelCam Arrow Clients API
   slug: angelcam-arrow-clients-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for managing audio messages. Audio messages are pre-recorded audio clips that can be played through [speakers](#tag/speakers). Audio files are uploaded as Base64-encoded content. Supported f
-  name: AngelCam audio-message API
+  name: AngelCam Audio Message API
   slug: angelcam-audio-message-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for managing broadcasting settings and retrieving broadcasting streams. If a camera doesn't have the Broadcasting service activated, all camera broadcasting endpoints will return HTTP 404. T
-  name: AngelCam broadcasting API
+  name: AngelCam Broadcasting API
   slug: angelcam-broadcasting-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'Manage your cameras and access live streams, snapshots, and recordings. Supported codecs: H.264, H.265 (experimental), MJPEG. Live streams are limited to 10 concurrent consumers per camera — use the ['
-  name: AngelCam camera API
+  name: AngelCam Camera API
   slug: angelcam-camera-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: You can share your camera with a guest, this means, you allow guests to view stream from your camera. There is also an option to share also recordings together with live stream. When you adding new gu
-  name: AngelCam camera-guest API
+  name: AngelCam Camera Guest API
   slug: angelcam-camera-guest-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Using these endpoints you can verify if there are camera streams available on specified network address. Detection is asynchronous. For this reason there is one endpoint for initializing stream detect
-  name: AngelCam camera-stream-detection API
+  name: AngelCam Camera Stream Detection API
   slug: angelcam-camera-stream-detection-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'Endpoints for reseller users to manage their clients. A reseller can create two types of client accounts: * **Full account** — the client has full control over their cameras and services. * **Limited '
-  name: AngelCam client API
+  name: AngelCam Client API
   slug: angelcam-client-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: A clip is a permanent, downloadable excerpt of recorded footage. Unlike a recording stream — which is a temporary playback session — a clip is processed into a file that can be downloaded or shared wi
-  name: AngelCam clip API
+  name: AngelCam Clip API
   slug: angelcam-clip-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Events represent detections reported by cameras or sensors — typically motion detected by a camera or a trigger from an external sensor. Events are the building blocks for [RTS incidents](#tag/inciden
-  name: AngelCam event API
+  name: AngelCam Event API
   slug: angelcam-event-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for managing Real Time Security (RTS) incidents. An incident is a security event that has been detected and may require attention. Incidents are created automatically when sensor events or c
-  name: AngelCam incidents API
+  name: AngelCam Incidents API
   slug: angelcam-incidents-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for accessing and managing locations. Locations are used to organize cameras into groups. Every camera belongs to exactly one location, and every user has a root location whose ID is availab
-  name: AngelCam location API
+  name: AngelCam Location API
   slug: angelcam-location-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: The order API from AngelCam — 3 operation(s) for order.
-  name: AngelCam order API
+  name: AngelCam Order API
   slug: angelcam-order-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for browsing cameras that are publicly accessible. A camera appears here if it has the Broadcasting service active and has been marked as public — either because it uses free public broadcas
-  name: AngelCam public-camera API
+  name: AngelCam Public Camera API
   slug: angelcam-public-camera-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Cloud Recording endpoints. Requires the Cloud Recording service to be active on the camera — otherwise all endpoints return 404. A camera can have multiple simultaneous recordings (e.g. continuous + e
-  name: AngelCam recording API
+  name: AngelCam Recording API
   slug: angelcam-recording-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Endpoints for managing notifications. Base object is message. We create a message when something important happens. For example, when a camera goes offline, when a sensor detects motion, etc. When a m
-  name: AngelCam rts_messages API
+  name: AngelCam Rts Messages API
   slug: angelcam-rts-messages-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Manage notification methods — email and HTTP webhook. HTTP methods send a signed POST to your URL with a JSON payload on each notification. See the [Webhooks guide](/guides/webhooks/) for payload fiel
-  name: AngelCam rts_notification_methods API
+  name: AngelCam Rts Notification Methods API
   slug: angelcam-rts-notification-methods-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'Endpoints for managing notification rules. Notification rule is a rule that defines when and how we should send message to user. For example, we can create rule that says: "When camera goes offline, s'
-  name: AngelCam rts_notification_rules API
+  name: AngelCam Rts Notification Rules API
   slug: angelcam-rts-notification-rules-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'Global Real Time Security (RTS) settings for your account. The main setting is `incident_ttl`, which controls how long (in [ISO 8601 duration format](#section/Angelcam-API/Time-and-duration-formats)) '
-  name: AngelCam rts_settings API
+  name: AngelCam Rts Settings API
   slug: angelcam-rts-settings-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: With sensor endpoints you can view, manage and connect sensors to the user account. Sensor can be bind to one particular already connected [camera](#tag/camera) to mark received [events](#tag/event) o
-  name: AngelCam sensor API
+  name: AngelCam Sensor API
   slug: angelcam-sensor-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: A catalog of services available for purchase. Use these endpoints to discover service `code` values before activating a service via the [My services](#tag/active-service) endpoints. Services fall into
-  name: AngelCam service API
+  name: AngelCam Service API
   slug: angelcam-service-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'For access to cameras which somebody shared with you. In general everything is same as in my cameras section, see above, there is only one difference. Together with cameras information you get also a '
-  name: AngelCam shared-camera API
+  name: AngelCam Shared Camera API
   slug: angelcam-shared-camera-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Recording clips on cameras shared with you. Everything works the same as [My recording clips](#tag/clip) — just replace `cameras` with `shared-cameras` in the endpoint URLs.
-  name: AngelCam shared-camera-clip API
+  name: AngelCam Shared Camera Clip API
   slug: angelcam-shared-camera-clip-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Everything is same as in recording for my own cameras. Just replace `cameras` by `shared-cameras` in every endpoints url.
-  name: AngelCam shared-camera-recording API
+  name: AngelCam Shared Camera Recording API
   slug: angelcam-shared-camera-recording-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'A **space** is the organisational unit in Angelcam — it owns all resources: cameras, locations, recordings, services, and billing. Every API request operates within a space context — by default the us'
-  name: AngelCam space API
+  name: AngelCam Space API
   slug: angelcam-space-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: Manage speakers and trigger audio playback. See the [Speakers guide](/guides/speakers/) for setup instructions, including how to configure an AngelBox as a speaker.
-  name: AngelCam speakers API
+  name: AngelCam Speakers API
   slug: angelcam-speakers-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: 'You normally don''t have to know the `streamer_domain` and `stream_id` path parameter, but use the generated endpoint URLs as reported by the `stream_controls` field in a create-stream response. Those '
-  name: AngelCam stream-controls API
+  name: AngelCam Stream Controls API
   slug: angelcam-stream-controls-api
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
   description: The user API from AngelCam — 1 operation(s) for user.
-  name: AngelCam user API
+  name: AngelCam User API
   slug: angelcam-user-api
 arazzos:
 - description: From a camera, list recordings, read a timeline, create a clip, and share it by email.
@@ -434,7 +434,7 @@ modified: '2026-07-17'
 name: AngelCam
 nav: Providers
 network: true
-overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network, including active-service API, angelcameras API, arrow-clients API, and 26 more. Tagged areas include Company, Video Surveillance, Camera, IP Camera, and Cloud Recording.
+overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Active Service API, Angelcameras API, Arrow Clients API, and 26 more. Tagged areas include Company, Video Surveillance, Camera, IP Camera, and Cloud Recording.
 
 
   The AngelCam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -481,7 +481,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

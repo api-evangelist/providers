@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,7 +60,7 @@ modified: '2026-07-21'
 name: Spacee
 nav: Providers
 network: true
-overview: 'Spacee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Co-Working, Space Rental, and Marketplace.
+overview: 'Spacee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Co-Working, Space Rental, and Marketplace.
 
 
   Spacee''s developer surface includes support, engineering blog, and 2 more developer resources.'
@@ -98,7 +98,7 @@ score:
       reason: never_enriched
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +108,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/spacee/refs/heads/m
 slug: spacee
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Co-Working
 - Space Rental
 - Marketplace

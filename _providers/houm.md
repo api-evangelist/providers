@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -140,7 +140,7 @@ modified: '2026-08-22'
 name: Houm
 nav: Providers
 network: true
-overview: 'Houm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Property Management, and Rentals.
+overview: 'Houm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Property Management, and Rentals.
 
 
   Houm''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
@@ -189,7 +189,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +208,7 @@ security:
 slug: houm
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Property Management
 - Rentals

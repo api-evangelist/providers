@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 97
+- acting_count: 44
   human_in_the_loop: 0
   name: Nano Agentic Access
   operation_count: 97
   slug: nano-agentic-access
-  summary_line: 97 operations · 97 acting
+  summary_line: 97 operations · 44 acting
 api_count: 1
 apis:
 - baseURL: http://localhost:7076
@@ -256,7 +256,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

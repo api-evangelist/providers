@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-05-19'
 name: Grapes Knowledge Base
 nav: Providers
 network: true
-overview: 'Grapes Knowledge Base publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Datasets API, and Projects API. Tagged areas include Knowledge-Management, Knowledge Base, Data Management, Automation, and HATEOAS.
+overview: 'Grapes Knowledge Base publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Datasets API, and Projects API. Tagged areas include Knowledge Management, Knowledge Base, Data Management, Automation, and HATEOAS.
 
 
   The Grapes Knowledge Base catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -225,7 +225,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: grapes-knowledge-base
 tags:
-- Knowledge-Management
+- Knowledge Management
 - Knowledge Base
 - Data Management
 - Automation

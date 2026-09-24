@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-05-04'
 name: Sun Communities
 nav: Providers
 network: true
-overview: Sun Communities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Manufactured Housing, RV Resorts, Marinas, and REIT.
+overview: Sun Communities is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Manufactured Housing, RV Resorts, Marinas, and REIT.
 random_paper: 0
 score:
   band: minimal
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -93,7 +93,7 @@ security:
   summary_line: TLSv1.2 · DNSSEC · DMARC
 slug: sun-communities
 tags:
-- Real-Estate
+- Real Estate
 - Manufactured Housing
 - RV Resorts
 - Marinas

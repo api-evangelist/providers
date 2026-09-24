@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ modified: '2026-07-23'
 name: Danske Bank (UK)
 nav: Providers
 network: true
-overview: 'Danske Bank (UK) publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Information Service (AIS) API, Accounts API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Danske Bank (UK) publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Information Service (AIS) API, Accounts API, and 31 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Danske Bank (UK) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -459,7 +459,7 @@ score:
     regime_id: banking_open_finance
     score: 82.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -476,7 +476,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: danske-bank-uk
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

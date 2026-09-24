@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
   description: To view and maintain Agent Definitions with the Agent System of Record.
-  name: Workday Report Writer agentDefinition API
+  name: Workday Report Writer Agent Definition API
   slug: workday-report-writer-agentdefinition-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
@@ -303,7 +303,7 @@ modified: '2026-05-19'
 name: Workday Report Writer
 nav: Providers
 network: true
-overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, ERP, Finance, and HRMS.
+overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent Definition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, ERP, Finance, and HRMS.
 
 
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -332,7 +332,7 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 53.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.3
@@ -340,27 +340,27 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 55.3
     contract_governance: 9.8
-    contract_quality: 59.1
-    developer_ergonomics: 59.5
+    contract_quality: 62.5
+    developer_ergonomics: 56.0
     discoverability: 64.8
     operational_transparency: 42.1
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

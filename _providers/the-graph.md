@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 2
+- acting_count: 0
   human_in_the_loop: 0
   name: The Graph Agentic Access
   operation_count: 2
   slug: the-graph-agentic-access
-  summary_line: 2 operations · 2 acting
+  summary_line: 2 operations
 api_count: 1
 apis:
 - description: Per-subgraph GraphQL endpoints served by the decentralized network of Indexers. Each subgraph defines its own schema; queries are billed in GRT or via a hosted gateway in USD.
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -210,5 +210,6 @@ tags:
 - GraphQL
 - Subgraph
 - Multi-Chain
+- Ethereum
 website: https://thegraph.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ modified: '2026-07-20'
 name: Perfectbit Inc
 nav: Providers
 network: true
-overview: Perfectbit Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Data Verification.
+overview: Perfectbit Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Data Verification.
 random_paper: 15
 score:
   band: minimal
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -96,7 +96,7 @@ slug: perfectbit-inc
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Data Verification
 - Y Combinator

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Pluralis
 nav: Providers
 network: true
-overview: 'Pluralis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Distributed Training, and Decentralized AI.
+overview: 'Pluralis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Distributed Training, and Decentralized AI.
 
 
   Pluralis'' developer surface includes documentation, engineering blog, and 3 more developer resources.'
@@ -90,7 +90,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -106,11 +106,11 @@ slug: pluralis
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Distributed Training
 - Decentralized AI
 - Model Parallelism
 - Research
-- Open-Source
+- Open Source
 website: https://pluralis.ai
 ---

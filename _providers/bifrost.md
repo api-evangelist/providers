@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ modified: '2026-05-19'
 name: Bifrost
 nav: Providers
 network: true
-overview: 'Bifrost publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Health API. Tagged areas include AI Gateway, LLM, Load Balancing, Open-Source, and OpenAI-Compatible.
+overview: 'Bifrost publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Health API. Tagged areas include AI Gateway, LLM, Load Balancing, Open Source, and OpenAI-Compatible.
 
 
   The Bifrost catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -366,7 +366,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -390,7 +390,7 @@ tags:
 - AI Gateway
 - LLM
 - Load Balancing
-- Open-Source
+- Open Source
 - OpenAI-Compatible
 - MCP
 use_cases:

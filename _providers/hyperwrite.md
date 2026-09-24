@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 17
+artifact_total: 16
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hyperwrite/refs/heads/main/security/hyperwrite-domain-security.yml
@@ -131,10 +131,6 @@ features:
 - Ultra $44.99/mo (unlimited messages, 10 personas, experimental features)
 - Annual plans with 20% discount
 - Built by OthersideAI
-graphqls:
-- description: ''
-  name: HyperWrite GraphQL API
-  slug: hyperwrite-graphql
 image: https://www.hyperwriteai.com/images/og-image.png
 layout: provider
 modified: '2026-05-23'
@@ -150,7 +146,7 @@ score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -166,7 +162,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

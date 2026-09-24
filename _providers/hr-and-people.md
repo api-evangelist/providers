@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 27
 apis:
 - description: Workday is a cloud HCM, payroll, and finance suite with a Web Services / REST API catalog spanning Human Capital Management, Payroll, Recruiting, Talent, and Time Tracking.
@@ -259,7 +259,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -286,7 +286,7 @@ tags:
 - Employee Engagement
 - People Data
 - Workforce Management
-- Unified-API
+- Unified API
 use_cases:
 - description: Map a customer's HRIS data into a normalized Employee record for downstream consumers (provisioning, analytics, compensation, security)
   name: HRIS Integration Mapping

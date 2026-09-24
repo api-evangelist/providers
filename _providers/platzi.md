@@ -35,23 +35,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
   description: The auth API from Platzi — 3 operation(s) for auth.
-  name: Platzi auth API
+  name: Platzi Auth API
   slug: platzi-auth-api
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
   description: The categories API from Platzi — 4 operation(s) for categories.
-  name: Platzi categories API
+  name: Platzi Categories API
   slug: platzi-categories-api
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
   description: The files API from Platzi — 2 operation(s) for files.
-  name: Platzi files API
+  name: Platzi Files API
   slug: platzi-files-api
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
@@ -61,12 +61,12 @@ apis:
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
   description: The products API from Platzi — 5 operation(s) for products.
-  name: Platzi products API
+  name: Platzi Products API
   slug: platzi-products-api
 - baseURL: https://api.escuelajs.co/api/v1
   baseurl_source: declared
   description: The users API from Platzi — 3 operation(s) for users.
-  name: Platzi users API
+  name: Platzi Users API
   slug: platzi-users-api
 artifact_total: 15
 collections:
@@ -209,7 +209,7 @@ modified: '2026-07-20'
 name: Platzi
 nav: Providers
 network: true
-overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including auth API, categories API, files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Product, and Mock API.
+overview: 'Platzi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Categories API, Files API, and 3 more. Tagged areas include Company, Education, E-Commerce, Product, and Mock API.
 
 
   Platzi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, sandbox, and 17 more developer resources.'
@@ -224,7 +224,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
@@ -232,7 +232,7 @@ score:
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 18.4
-  previous_composite: 40.1
+  previous_composite: 41.1
   provenance:
     conformance: derived
     contracts:
@@ -249,7 +249,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

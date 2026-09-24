@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 24
+- acting_count: 22
   human_in_the_loop: 0
   name: Aptly Agentic Access
   operation_count: 51
   slug: aptly-agentic-access
-  summary_line: 51 operations · 24 acting
+  summary_line: 51 operations · 22 acting
 api_count: 1
 apis:
 - baseURL: https://core-api.getaptly.com
@@ -312,7 +312,7 @@ modified: '2026-07-18'
 name: Aptly
 nav: Providers
 network: true
-overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 12 more. Tagged areas include Company, Cloud Saas, Property Management, Real-Estate, and PropTech.
+overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, including App API, Board API, Boards API, and 12 more. Tagged areas include Company, Cloud Saas, Property Management, Real Estate, and PropTech.
 
 
   Aptly''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -347,7 +347,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -367,10 +367,10 @@ tags:
 - Company
 - Cloud Saas
 - Property Management
-- Real-Estate
+- Real Estate
 - PropTech
 - CRM
-- Workflow-Automation
+- Workflow Automation
 - AI Agents
 - Communications
 - MCP

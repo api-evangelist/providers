@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 126
+- acting_count: 122
   human_in_the_loop: 13
   name: Cubist Agentic Access
   operation_count: 173
   slug: cubist-agentic-access
-  summary_line: 173 operations · 126 acting · 13 human-in-the-loop
+  summary_line: 173 operations · 122 acting · 13 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://prod.signer.cubist.dev
@@ -483,7 +483,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

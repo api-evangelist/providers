@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ modified: '2026-07-23'
 name: KOHO
 nav: Providers
 network: true
-overview: 'KOHO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Fintech, and Neobank.
+overview: 'KOHO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Fintech, and Neobank.
 
 
   KOHO''s developer surface includes support, signup flow, and 12 more developer resources.'
@@ -144,7 +144,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS
 slug: koho
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Canada
 - Fintech

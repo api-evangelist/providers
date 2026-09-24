@@ -35,18 +35,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://api.leolabs.space/v1
   baseurl_source: declared
   description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
-  name: LeoLabs catalog API
+  name: LeoLabs Catalog API
   slug: leo-labs-catalog-api
 - baseURL: https://api.leolabs.space/v1
   baseurl_source: declared
   description: LeoLabs radar instruments and their tasking.
-  name: LeoLabs instruments API
+  name: LeoLabs Instruments API
   slug: leo-labs-instruments-api
 artifact_total: 9
 collections:
@@ -178,7 +178,7 @@ modified: '2026-07-19'
 name: LeoLabs
 nav: Providers
 network: true
-overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: catalog API and instruments API. Tagged areas include Company, Space, Satellite, Space Situational Awareness, and Space Traffic Management.
+overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Instruments API. Tagged areas include Company, Space, Satellite, Space Situational Awareness, and Space Traffic Management.
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 18 more developer resources.'
@@ -217,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

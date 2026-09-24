@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: TTB's open data surface is a set of static, anonymously downloadable files rather than a request/response API. Production and operations reports for beer, wine, distilled spirits and tobacco are publi
@@ -183,7 +183,7 @@ modified: '2026-09-01'
 name: Alcohol and Tobacco Tax and Trade Bureau
 nav: Providers
 network: true
-overview: 'Alcohol and Tobacco Tax and Trade Bureau publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Tobacco, Federal-Government, Excise Tax, and Regulations.
+overview: 'Alcohol and Tobacco Tax and Trade Bureau publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Alcohol, Tobacco, Federal Government, Excise Tax, and Regulations.
 
 
   The Alcohol and Tobacco Tax and Trade Bureau catalog on APIs.io includes 1 JSON-LD context.
@@ -228,7 +228,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -248,7 +248,7 @@ slug: alcohol-and-tobacco-tax-and-trade-bureau
 tags:
 - Alcohol
 - Tobacco
-- Federal-Government
+- Federal Government
 - Excise Tax
 - Regulations
 - Treasury

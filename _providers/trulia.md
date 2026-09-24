@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: 'The Trulia API was a suite of public XML/JSON endpoints that exposed listings, property details, location lookups, neighborhood statistics, and school data. The full suite was deprecated after Trulia '
@@ -42,7 +42,7 @@ apis:
 - description: 'Programmatic access to data that historically lived behind the Trulia API is now delivered through Zillow Group''s Bridge Interactive RESO-compliant data platform for MLSs and brokers, the Zillow Tech '
   name: Zillow Group APIs (Successor)
   slug: zillow-group-successor
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/trulia/refs/heads/main/security/trulia-domain-security.yml
@@ -111,17 +111,13 @@ finops:
 - name: Trulia Finops
   service_category: API
   slug: trulia-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for Trulia, the U.S. home and rental search portal owned by Zillow Group. Trulia's historical public REST APIs (Property, Stats, Schools, Locations) were deprecated
-  name: Trulia GraphQL Schema
-  slug: trulia-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trulia.png
 layout: provider
 modified: '2026-05-23'
 name: Trulia
 nav: Providers
 network: true
-overview: 'Trulia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Historical, Listings, Neighborhoods, and Real-Estate.
+overview: 'Trulia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Historical, Listings, Neighborhoods, and Real Estate.
 
 
   Trulia''s developer surface includes developer portal, engineering blog, support, and 12 more developer resources.'
@@ -135,20 +131,20 @@ rate_limits:
   name: Trulia Rate Limits
   slug: trulia-rate-limits
 score:
-  band: thin
-  composite: 33.8
+  band: emerging
+  composite: 23.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 75.9
     operational_transparency: 21.1
@@ -160,8 +156,8 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -178,7 +174,7 @@ tags:
 - Historical
 - Listings
 - Neighborhoods
-- Real-Estate
+- Real Estate
 - Rentals
 - Schools
 - Sunset

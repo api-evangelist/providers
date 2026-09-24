@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 54
+- acting_count: 46
   human_in_the_loop: 1
   name: Apollo Api Documentation Agentic Access
   operation_count: 80
   slug: apollo-api-documentation-agentic-access
-  summary_line: 80 operations · 54 acting · 1 human-in-the-loop
+  summary_line: 80 operations · 46 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.apollo.io/api/v1
@@ -466,7 +466,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

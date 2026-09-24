@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -228,7 +228,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -259,7 +259,7 @@ tags:
 - Employee Onboarding
 - Employee Experience
 - HR Technology
-- Workflow-Automation
+- Workflow Automation
 - SCIM
 - Identity Provisioning
 - Webhook

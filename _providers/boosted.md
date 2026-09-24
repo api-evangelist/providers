@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'The Boosted.ai (Alfa) API delivers personalized, autonomous market insights and conversational investment research to platforms via API, SDK, or embedded UI. Documented endpoints let a client execute '
@@ -142,7 +142,7 @@ modified: '2026-07-18'
 name: Boosted.ai
 nav: Providers
 network: true
-overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Finance, Investment Management, and Financial-Services.
+overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Finance, Investment Management, and Financial Services.
 
 
   Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 16 more developer resources.'
@@ -175,7 +175,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -205,9 +205,9 @@ tags:
 - Artificial Intelligence
 - Finance
 - Investment Management
-- Financial-Services
+- Financial Services
 - Agents
-- Machine-Learning
+- Machine Learning
 - Research
 - Fintech
 website: https://www.boosted.ai/

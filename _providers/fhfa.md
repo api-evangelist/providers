@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 7
 apis:
 - description: The FHFA House Price Index (HPI) is a comprehensive, publicly available dataset measuring changes in single-family home values across all 50 states and over 400 American cities, with data extending ba
@@ -190,7 +190,7 @@ modified: '2026-06-13'
 name: Federal Housing Finance Agency (FHFA)
 nav: Providers
 network: true
-overview: 'Federal Housing Finance Agency (FHFA) publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Housing Finance, House Price Index, Mortgage, Government, and GSE.
+overview: 'Federal Housing Finance Agency (FHFA) publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Housing Finance, House Price Index, Mortgage, Government, and Government-Sponsored Enterprise.
 
 
   The Federal Housing Finance Agency (FHFA) catalog on APIs.io includes 1 JSON-LD context.
@@ -234,7 +234,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ tags:
 - House Price Index
 - Mortgage
 - Government
-- GSE
+- Government-Sponsored Enterprise
 - Fannie Mae
 - Freddie Mac
 - Federal

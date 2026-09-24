@@ -27,7 +27,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -76,7 +76,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -119,7 +119,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -154,26 +154,68 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
+    {
+     "name": "Ab180",
+     "slug": "ab180",
+     "description": "AB180 Inc. is a Seoul, South Korea based marketing technology company and the maker of Airbridge, a mobile measurement partner (MMP) and people-based attribution platform that measures paid and organic acquisition across mobile apps, web, PC, console and CTV in one dashboard. Airbridge exposes a public REST API at api.airbridge.io covering tracking-link creation and management, server-to-server in-app and in-web event ingestion, asynchronous Actuals / Revenue / Active Users / Retention report queries, raw data export, attribution result lookup, self-serve ad-spend and metric upload, and SKAdNetwork conversion-value schema retrieval, alongside eleven first-party SDKs and a hosted, OAuth 2.1 protected Model Context Protocol server at mcp.airbridge.io for agent access to attribution data.",
+     "score": 51.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 81.0,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 37.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
     {
      "name": "Seoul National University",
      "slug": "snu",
      "description": "Seoul National University (SNU) is South Korea's flagship national research university, a national university corporation in Seoul ranked in the QS World top 40 and identified by ROR as https://ror.org/04h9pn542. Like most universities it is a federation of buyers rather than a producer of APIs: it operates no developer portal, no open-data portal, no API gateway, no official GitHub organization, and no OAuth or OIDC authorization server. It publishes no API documentation of any kind, and every contract in this repository was written from live probing rather than from something SNU wrote. What it does operate — verified on its own hosts and its own address block on 2026-08-19 — is four machine-readable surfaces. Two OAI-PMH 2.0 data providers: S-Space, the SNU Open Repository and Archive (DSpace 5.5, content from 2008, twelve metadata formats, 100+ sets, three harvesting contexts including OpenAIRE and DRIVER), and KOSSDA, the Korea Social Science Data Archive (DSpace 5.6, content from 2017). An OpenSearch 1.1 search interface over S-Space. And a SAML 2.0 Identity Provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered in the KAFE national federation and exported into eduGAIN with REFEDS Research & Scholarship support and a Sirtfi assurance assertion — the single most consequential programmable surface the institution runs, and one no catalog had recorded. Two honest limits belong in the same breath. The repository hosts front everything except OAI-PMH with a JavaScript bot challenge that returns HTTP 200 and an HTML shell to any machine client, so the OpenSearch interface is gated rather than open. And SNU's library discovery runs on Ex Libris Alma and Primo under institution code 82SNU — real, but a tenancy, recorded below as such and never scored as SNU's engineering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png",
-     "score": 52.1,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 62.2,
-      "contract_governance": 78.8,
+      "contract_governance": 67.4,
       "operational_transparency": 21.1,
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -205,48 +247,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
-    },
-    {
-     "name": "Ab180",
-     "slug": "ab180",
-     "description": "AB180 Inc. is a Seoul, South Korea based marketing technology company and the maker of Airbridge, a mobile measurement partner (MMP) and people-based attribution platform that measures paid and organic acquisition across mobile apps, web, PC, console and CTV in one dashboard. Airbridge exposes a public REST API at api.airbridge.io covering tracking-link creation and management, server-to-server in-app and in-web event ingestion, asynchronous Actuals / Revenue / Active Users / Retention report queries, raw data export, attribution result lookup, self-serve ad-spend and metric upload, and SKAdNetwork conversion-value schema retrieval, alongside eleven first-party SDKs and a hosted, OAuth 2.1 protected Model Context Protocol server at mcp.airbridge.io for agent access to attribution data.",
-     "score": 51.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 81.0,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "agent_score": 37.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 5
     },
     {
@@ -264,7 +264,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -313,7 +313,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -356,7 +356,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -399,7 +399,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -434,56 +434,6 @@
      "rank": 9
     },
     {
-     "name": "Pohang University of Science and Technology",
-     "slug": "postech",
-     "description": "Pohang University of Science and Technology (POSTECH) is a private research university in Pohang, North Gyeongsang, South Korea, founded in 1986 by the steelmaker POSCO and consistently ranked inside the QS world top 100. POSTECH operates no developer portal, no open-data program and no API it authored itself — but it is not empty, and three genuinely institution-operated machine-readable surfaces were verified live on 2026-08-30, all of them on POSTECH's own network (141.223.0.0/16). The OASIS institutional repository serves a fully anonymous OAI-PMH 2.0 harvesting endpoint over a corpus of 106,805 records in twelve metadata formats across 163 sets, reaching back to 2014. POSTECH runs its own SAML 2.0 identity provider at idpass.postech.ac.kr, registered in the KAFE federation since 2017 and resolvable through eduGAIN, supporting the REFEDS Research and Scholarship entity category and asserting SIRTFI — machine-readable institutional infrastructure that almost nothing in this cohort catalogues. And POSTECH's LMS publishes a live, public LTI 1.3 Advantage platform keyset and OAuth 2.0 token endpoint, which most institution-hosted Moodles keep unreachable. Everything else is a login wall or someone else's platform: the PODIUM portal, admissions and certificate systems are gated; the DSpace REST interface sits behind a JavaScript bot challenge that returns 200 with a challenge shell; and the thesis pipeline runs through postech.dcollection.net, a tenancy on the KERIS-operated national dCollection platform, recorded here as a relationship rather than as POSTECH's engineering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png",
-     "score": 42.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 33.3,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "Payple",
      "slug": "payple",
      "description": "Payple (페이플) is a South Korean payment gateway (PG) and fintech provider that lets merchants accept online payments across domestic and international cards, real-time bank-account payments, recurring / billing-key charges, link payments, identity verification, and settlement / payout (Hub) services. Integration is offered through a hosted payment window initialized in the browser with a public client key, plus a server-side REST API (v2) authorized with partner credentials (PCD_CST_ID / PCD_CUST_KEY). Payple is a registered Korean electronic financial business with an Innovative Financial Service (혁신금융서비스) designation, and it publishes official language sample source, policy documents, and a developer center. This profile was enriched by the API Evangelist pipeline from the Payple developer center and the PAYPLECORP GitHub organization.",
@@ -499,7 +449,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     }
    ],
    "open": true
@@ -541,8 +491,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Korbit",
@@ -560,7 +510,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -592,7 +542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Barogo",
@@ -610,7 +560,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -635,6 +585,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 12
+    },
+    {
+     "name": "Sungkyunkwan University",
+     "slug": "skku",
+     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, founded in 1398 and operated since 1996 under the Samsung Foundation of Education. Like almost every university it is a federation of buyers rather than an API producer, and this profile is deliberate about which of that federation's surfaces are actually SKKU's engineering. SKKU operates no central developer portal and no API gateway — api.skku.edu, developer.skku.edu, data.skku.edu and status.skku.edu do not resolve — and publishes no OpenAPI for anything. What it does operate, and what almost no university catalog records, is a SAML 2.0 identity provider at kafe.skku.edu registered in eduGAIN through KAFE, the Korea Access Federation: entityID https://kafe.skku.edu/idp/simplesamlphp, scope skku.edu, supporting the REFEDS Research and Scholarship entity category and asserting the REFEDS Sirtfi assurance profile. That machine-readable metadata document is the strongest programmable surface SKKU runs. Its research information portal at pure.skku.edu looks institutional and is not: it CNAMEs to skku.elsevierpure.com and its OAI-PMH provider self-identifies as \"Pure OAI Repository\" with adminEmail purehosted@elsevier.com, so the live, conformant OAI-PMH 2.0 endpoint there is recorded as an Elsevier Pure TENANCY — SKKU's data on Elsevier's contract — and no Pure specification is saved in this repository. The thesis repository at skku.dcollection.net is likewise a KERIS dCollection tenancy whose robots.txt disallows all crawling and whose OAI paths return an HTML shell. Two SKKU units are Crossref members in their own right (School of Medicine, prefix 10.23838; Institute of Legal Studies, prefix 10.17008) and the institution is registered in ROR as 04q78tk20; no DataCite provider or client exists. Everything else — Kingo Portal SSO, iCampus, course registration at sugang.skku.edu, the library discovery layer — is enrolment-gated with no public API, no developer registration and no published rate limits.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 20.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 61.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 13
     },
     {
@@ -642,7 +642,7 @@
      "slug": "toss-payments",
      "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva Republica, the company behind the Toss super-app. Its REST API lets merchants accept and manage online payments across cards, Korean easy-pay wallets (Toss Pay, KakaoPay, Naver Pay), virtual accounts, bank transfer, and mobile-phone billing. The Core API (base https://api.tosspayments.com) covers payment confirmation and cancellation, recurring billing keys, virtual account issuance, cash receipts, transaction and settlement queries, and seller payouts, with asynchronous results delivered by webhooks. Authentication is HTTP Basic using a secret API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/screenshots/toss-payments-2026-09-02T163941.png",
-     "score": 37.4,
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -650,10 +650,10 @@
       "contract_quality": 56.7,
       "contract_governance": 0.0,
       "operational_transparency": 31.6,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -688,56 +688,6 @@
      "rank": 14
     },
     {
-     "name": "Sungkyunkwan University",
-     "slug": "skku",
-     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, founded in 1398 and operated since 1996 under the Samsung Foundation of Education. Like almost every university it is a federation of buyers rather than an API producer, and this profile is deliberate about which of that federation's surfaces are actually SKKU's engineering. SKKU operates no central developer portal and no API gateway — api.skku.edu, developer.skku.edu, data.skku.edu and status.skku.edu do not resolve — and publishes no OpenAPI for anything. What it does operate, and what almost no university catalog records, is a SAML 2.0 identity provider at kafe.skku.edu registered in eduGAIN through KAFE, the Korea Access Federation: entityID https://kafe.skku.edu/idp/simplesamlphp, scope skku.edu, supporting the REFEDS Research and Scholarship entity category and asserting the REFEDS Sirtfi assurance profile. That machine-readable metadata document is the strongest programmable surface SKKU runs. Its research information portal at pure.skku.edu looks institutional and is not: it CNAMEs to skku.elsevierpure.com and its OAI-PMH provider self-identifies as \"Pure OAI Repository\" with adminEmail purehosted@elsevier.com, so the live, conformant OAI-PMH 2.0 endpoint there is recorded as an Elsevier Pure TENANCY — SKKU's data on Elsevier's contract — and no Pure specification is saved in this repository. The thesis repository at skku.dcollection.net is likewise a KERIS dCollection tenancy whose robots.txt disallows all crawling and whose OAI paths return an HTML shell. Two SKKU units are Crossref members in their own right (School of Medicine, prefix 10.23838; Institute of Legal Studies, prefix 10.17008) and the institution is registered in ROR as 04q78tk20; no DataCite provider or client exists. Everything else — Kingo Portal SSO, iCampus, course registration at sugang.skku.edu, the library discovery layer — is enrolment-gated with no public API, no developer registration and no published rate limits.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
-     "score": 36.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 20.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-23",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 61.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Mindlogic",
      "slug": "mindlogic",
      "description": "Mindlogic is a South Korean generative-AI company whose products include FactChat (a multi-LLM enterprise chat platform with Studio chatbot building, deep research, meeting notes, and image/video generation), Bliss (a persona chatbot that learns a person's voice and personality for fan engagement), and Informe (a multilingual document-grounded website chatbot). For developers, Mindlogic operates the FactChat API Gateway — a unified, OpenAI- and Anthropic-compatible LLM proxy that fronts models from OpenAI, Anthropic, Google Gemini, xAI and Perplexity behind a single API key, metered in credits, with chat completions, an OpenAI Responses pass-through, an Anthropic Messages pass-through, text-to-speech, and image/video generation.",
@@ -753,7 +703,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -778,6 +728,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Pohang University of Science and Technology",
+     "slug": "postech",
+     "description": "Pohang University of Science and Technology (POSTECH) is a private research university in Pohang, North Gyeongsang, South Korea, founded in 1986 by the steelmaker POSCO and consistently ranked inside the QS world top 100. POSTECH operates no developer portal, no open-data program and no API it authored itself — but it is not empty, and three genuinely institution-operated machine-readable surfaces were verified live on 2026-08-30, all of them on POSTECH's own network (141.223.0.0/16). The OASIS institutional repository serves a fully anonymous OAI-PMH 2.0 harvesting endpoint over a corpus of 106,805 records in twelve metadata formats across 163 sets, reaching back to 2014. POSTECH runs its own SAML 2.0 identity provider at idpass.postech.ac.kr, registered in the KAFE federation since 2017 and resolvable through eduGAIN, supporting the REFEDS Research and Scholarship entity category and asserting SIRTFI — machine-readable institutional infrastructure that almost nothing in this cohort catalogues. And POSTECH's LMS publishes a live, public LTI 1.3 Advantage platform keyset and OAuth 2.0 token endpoint, which most institution-hosted Moodles keep unreachable. Everything else is a login wall or someone else's platform: the PODIUM portal, admissions and certificate systems are gated; the DSpace REST interface sits behind a JavaScript bot challenge that returns 200 with a challenge shell; and the thesis pipeline runs through postech.dcollection.net, a tenancy on the KERIS-operated national dCollection platform, recorded here as a relationship rather than as POSTECH's engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 22.3,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 33.3,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -796,7 +796,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -846,7 +846,7 @@
       "developer_ergonomics": 31.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -889,7 +889,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -938,7 +938,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -981,7 +981,7 @@
       "developer_ergonomics": 53.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1031,7 +1031,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1080,7 +1080,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 39.7,
      "agent_band": "agent-ready",
@@ -1133,7 +1133,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -1176,7 +1176,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1225,7 +1225,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1275,7 +1275,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1318,7 +1318,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1367,7 +1367,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -1409,7 +1409,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1459,7 +1459,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1502,7 +1502,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1552,7 +1552,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1602,7 +1602,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1652,7 +1652,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1702,7 +1702,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -1745,7 +1745,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1787,7 +1787,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1837,7 +1837,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1879,7 +1879,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1929,7 +1929,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1971,7 +1971,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2014,7 +2014,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2057,7 +2057,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2100,7 +2100,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2150,7 +2150,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2203,7 +2203,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2245,7 +2245,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2295,7 +2295,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2338,7 +2338,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2381,7 +2381,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2430,7 +2430,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2473,7 +2473,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2516,7 +2516,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2559,7 +2559,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2601,7 +2601,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2643,7 +2643,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -2685,7 +2685,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2728,7 +2728,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2770,7 +2770,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2819,7 +2819,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2862,7 +2862,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2911,7 +2911,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2961,7 +2961,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3004,7 +3004,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3046,7 +3046,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3096,7 +3096,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3139,7 +3139,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -3181,7 +3181,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3231,7 +3231,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3273,7 +3273,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3316,7 +3316,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3358,7 +3358,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -3401,7 +3401,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3444,7 +3444,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3531,7 +3531,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3574,7 +3574,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3617,7 +3617,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3660,7 +3660,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3703,7 +3703,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3745,7 +3745,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3787,7 +3787,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3830,7 +3830,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3873,7 +3873,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3916,7 +3916,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3959,7 +3959,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4008,7 +4008,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4057,7 +4057,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4106,7 +4106,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4155,7 +4155,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4205,7 +4205,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4254,7 +4254,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4304,7 +4304,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4353,7 +4353,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-23",
+     "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

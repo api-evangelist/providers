@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Generate a website from a prompt, upload custom code, list/get/update/delete websites, deploy to a .chilledsites.com subdomain, generate images, videos and ad creative, check the token balance and tri
@@ -208,7 +208,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Artificial Intelligence
 - No-Code
 - Web Hosting
-- Image-Generation
+- Image Generation
 - Video Generation
 - Advertising
 - MCP

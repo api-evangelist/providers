@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,7 +48,7 @@ modified: '2026-05-05'
 name: Cheesecake Factory
 nav: Providers
 network: true
-overview: Cheesecake Factory is profiled on the [APIs.io](https://apis.io/) network.
+overview: Cheesecake Factory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Casual Dining, Dining, and Fortune 1000.
 random_paper: 4
 score:
   band: minimal
@@ -77,11 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 2.6
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -89,4 +86,9 @@ score:
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheesecake-factory/refs/heads/main/screenshots/cheesecake-factory-2026-06-20T174247.png
 slug: cheesecake-factory
+tags:
+- Restaurant
+- Casual Dining
+- Dining
+- Fortune 1000
 ---

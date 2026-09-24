@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 5
 common:
@@ -156,7 +156,7 @@ modified: '2026-08-25'
 name: Leap Finance
 nav: Providers
 network: true
-overview: 'Leap Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, Student Loans, and Education Finance.
+overview: 'Leap Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Student Loans, and Education Finance.
 
 
   Leap Finance''s developer surface includes support, signup flow, engineering blog, authentication, and 16 more developer resources.'
@@ -209,7 +209,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -228,7 +228,7 @@ security:
 slug: leap-finance
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Student Loans
 - Education Finance

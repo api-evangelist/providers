@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -151,7 +151,7 @@ modified: '2026-08-26'
 name: Renew Financial
 nav: Providers
 network: true
-overview: 'Renew Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Lending, Consumer Finance, and PACE Financing.
+overview: 'Renew Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, Consumer Finance, and PACE Financing.
 
 
   Renew Financial''s developer surface includes engineering blog, support, signup flow, and 18 more developer resources.'
@@ -195,7 +195,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +209,7 @@ security:
 slug: renew-financial
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - Consumer Finance
 - PACE Financing
@@ -217,6 +217,6 @@ tags:
 - Clean Energy
 - Energy Efficiency
 - Solar
-- Real-Estate
+- Real Estate
 website: https://renewfinancial.com/
 ---

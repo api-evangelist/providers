@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ apis:
   description: Post-authorization transaction management operations including capture, void, and refund.
   name: Affirm Transactions API
   slug: affirm-transactions-api
-artifact_total: 124
+artifact_total: 123
 asyncapis:
 - description: Affirm uses webhooks to notify merchant endpoints in real time when events occur during the customer checkout and prequalification flows. Webhooks are available to Key and Enterprise merchants. Affirm
   name: Affirm Webhooks
@@ -292,10 +292,6 @@ finops:
 - name: Affirm Finops
   service_category: Fintech
   slug: affirm-finops
-graphqls:
-- description: This document describes the conceptual GraphQL schema for the Affirm Buy Now Pay Later (BNPL) platform. Affirm's production API is REST-based; this schema models the same domain objects and operations
-  name: Affirm GraphQL Schema
-  slug: affirm-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affirm.png
 json_schemas:
 - name: Affirm Checkout
@@ -542,19 +538,19 @@ rules:
   slug: affirm-spectral-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 36.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 57.5
     catalog_earned_first_party: 0.0
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 77.5
+    contract_quality: 74.7
     developer_ergonomics: 21.4
     discoverability: 72.2
     operational_transparency: 7.9
@@ -573,7 +569,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

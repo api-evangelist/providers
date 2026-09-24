@@ -34,590 +34,590 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 318
+- acting_count: 311
   human_in_the_loop: 10
   name: Small Improvements Agentic Access
   operation_count: 575
   slug: small-improvements-agentic-access
-  summary_line: 575 operations · 318 acting · 10 human-in-the-loop
+  summary_line: 575 operations · 311 acting · 10 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Action Item Resource
-  name: Small Improvements action-item-resource API
+  name: Small Improvements Action Item Resource API
   slug: small-improvements-action-item-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Activity Stream Resource
-  name: Small Improvements activity-stream-resource API
+  name: Small Improvements Activity Stream Resource API
   slug: small-improvements-activity-stream-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Admin Overview Link Resource
-  name: Small Improvements admin-overview-link-resource API
+  name: Small Improvements Admin Overview Link Resource API
   slug: small-improvements-admin-overview-link-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Anytime Feedback Default Resource
-  name: Small Improvements anytime-feedback-default-resource API
+  name: Small Improvements Anytime Feedback Default Resource API
   slug: small-improvements-anytime-feedback-default-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Anytime Feedback Export Resource
-  name: Small Improvements anytime-feedback-export-resource API
+  name: Small Improvements Anytime Feedback Export Resource API
   slug: small-improvements-anytime-feedback-export-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Anytime Feedback Resource
-  name: Small Improvements anytime-feedback-resource API
+  name: Small Improvements Anytime Feedback Resource API
   slug: small-improvements-anytime-feedback-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Assessment Admin Resource
-  name: Small Improvements assessment-admin-resource API
+  name: Small Improvements Assessment Admin Resource API
   slug: small-improvements-assessment-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Assessment Resource
-  name: Small Improvements assessment-resource API
+  name: Small Improvements Assessment Resource API
   slug: small-improvements-assessment-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Audit Record Resource
-  name: Small Improvements audit-record-resource API
+  name: Small Improvements Audit Record Resource API
   slug: small-improvements-audit-record-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Automations Options Resource
-  name: Small Improvements automations-options-resource API
+  name: Small Improvements Automations Options Resource API
   slug: small-improvements-automations-options-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Automations Resource
-  name: Small Improvements automations-resource API
+  name: Small Improvements Automations Resource API
   slug: small-improvements-automations-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Automations Settings Resource
-  name: Small Improvements automations-settings-resource API
+  name: Small Improvements Automations Settings Resource API
   slug: small-improvements-automations-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Badges Resource
-  name: Small Improvements badges-resource API
+  name: Small Improvements Badges Resource API
   slug: small-improvements-badges-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Bounced Email Resource
-  name: Small Improvements bounced-email-resource API
+  name: Small Improvements Bounced Email Resource API
   slug: small-improvements-bounced-email-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Calendar Integration Admin Resource
-  name: Small Improvements calendar-integration-admin-resource API
+  name: Small Improvements Calendar Integration Admin Resource API
   slug: small-improvements-calendar-integration-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Calendar Resource
-  name: Small Improvements calendar-resource API
+  name: Small Improvements Calendar Resource API
   slug: small-improvements-calendar-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Companies Design Settings Resource
-  name: Small Improvements companies-design-settings-resource API
+  name: Small Improvements Companies Design Settings Resource API
   slug: small-improvements-companies-design-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Companies Email Templates Resource
-  name: Small Improvements companies-email-templates-resource API
+  name: Small Improvements Companies Email Templates Resource API
   slug: small-improvements-companies-email-templates-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Companies Resource
-  name: Small Improvements companies-resource API
+  name: Small Improvements Companies Resource API
   slug: small-improvements-companies-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Company Analytics Resource
-  name: Small Improvements company-analytics-resource API
+  name: Small Improvements Company Analytics Resource API
   slug: small-improvements-company-analytics-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Company Date Time Settings Resource
-  name: Small Improvements company-date-time-settings-resource API
+  name: Small Improvements Company Date Time Settings Resource API
   slug: small-improvements-company-date-time-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Company Visibility Settings Resource
-  name: Small Improvements company-visibility-settings-resource API
+  name: Small Improvements Company Visibility Settings Resource API
   slug: small-improvements-company-visibility-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Cycle Resource
-  name: Small Improvements cycle-resource API
+  name: Small Improvements Cycle Resource API
   slug: small-improvements-cycle-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Downloadable File Resource
-  name: Small Improvements downloadable-file-resource API
+  name: Small Improvements Downloadable File Resource API
   slug: small-improvements-downloadable-file-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Drafts Resource
-  name: Small Improvements drafts-resource API
+  name: Small Improvements Drafts Resource API
   slug: small-improvements-drafts-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Email Configuration Resource
-  name: Small Improvements email-configuration-resource API
+  name: Small Improvements Email Configuration Resource API
   slug: small-improvements-email-configuration-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Email Event Resource
-  name: Small Improvements email-event-resource API
+  name: Small Improvements Email Event Resource API
   slug: small-improvements-email-event-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Email Template Mini Resource
-  name: Small Improvements email-template-mini-resource API
+  name: Small Improvements Email Template Mini Resource API
   slug: small-improvements-email-template-mini-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Email Templates Resource
-  name: Small Improvements email-templates-resource API
+  name: Small Improvements Email Templates Resource API
   slug: small-improvements-email-templates-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Email Verifications Resource
-  name: Small Improvements email-verifications-resource API
+  name: Small Improvements Email Verifications Resource API
   slug: small-improvements-email-verifications-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Events Resource
-  name: Small Improvements events-resource API
+  name: Small Improvements Events Resource API
   slug: small-improvements-events-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feature Selection Resource
-  name: Small Improvements feature-selection-resource API
+  name: Small Improvements Feature Selection Resource API
   slug: small-improvements-feature-selection-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Features Resource
-  name: Small Improvements features-resource API
+  name: Small Improvements Features Resource API
   slug: small-improvements-features-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Cycle Admin Resource
-  name: Small Improvements feedback-cycle-admin-resource API
+  name: Small Improvements Feedback Cycle Admin Resource API
   slug: small-improvements-feedback-cycle-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Cycles Resource
-  name: Small Improvements feedback-cycles-resource API
+  name: Small Improvements Feedback Cycles Resource API
   slug: small-improvements-feedback-cycles-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Export Resource
-  name: Small Improvements feedback-export-resource API
+  name: Small Improvements Feedback Export Resource API
   slug: small-improvements-feedback-export-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Participants Resource
-  name: Small Improvements feedback-participants-resource API
+  name: Small Improvements Feedback Participants Resource API
   slug: small-improvements-feedback-participants-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Provide Resource
-  name: Small Improvements feedback-provide-resource API
+  name: Small Improvements Feedback Provide Resource API
   slug: small-improvements-feedback-provide-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Requests Resource
-  name: Small Improvements feedback-requests-resource API
+  name: Small Improvements Feedback Requests Resource API
   slug: small-improvements-feedback-requests-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Reviewers Resource
-  name: Small Improvements feedback-reviewers-resource API
+  name: Small Improvements Feedback Reviewers Resource API
   slug: small-improvements-feedback-reviewers-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Statistics Resource
-  name: Small Improvements feedback-statistics-resource API
+  name: Small Improvements Feedback Statistics Resource API
   slug: small-improvements-feedback-statistics-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Feedback Template Resource
-  name: Small Improvements feedback-template-resource API
+  name: Small Improvements Feedback Template Resource API
   slug: small-improvements-feedback-template-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Helpful Resources Attachments Resource
-  name: Small Improvements helpful-resources-attachments-resource API
+  name: Small Improvements Helpful Resources Attachments Resource API
   slug: small-improvements-helpful-resources-attachments-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Insights Resource
-  name: Small Improvements insights-resource API
+  name: Small Improvements Insights Resource API
   slug: small-improvements-insights-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Logout Resource
-  name: Small Improvements logout-resource API
+  name: Small Improvements Logout Resource API
   slug: small-improvements-logout-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Actions Resource
-  name: Small Improvements meeting-actions-resource API
+  name: Small Improvements Meeting Actions Resource API
   slug: small-improvements-meeting-actions-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Attachment Resource
-  name: Small Improvements meeting-attachment-resource API
+  name: Small Improvements Meeting Attachment Resource API
   slug: small-improvements-meeting-attachment-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Calendar Company Observer Resource
-  name: Small Improvements meeting-calendar-company-observer-resource API
+  name: Small Improvements Meeting Calendar Company Observer Resource API
   slug: small-improvements-meeting-calendar-company-observer-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Calendar Configuration Resource
-  name: Small Improvements meeting-calendar-configuration-resource API
+  name: Small Improvements Meeting Calendar Configuration Resource API
   slug: small-improvements-meeting-calendar-configuration-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Calendar Settings Resource
-  name: Small Improvements meeting-calendar-settings-resource API
+  name: Small Improvements Meeting Calendar Settings Resource API
   slug: small-improvements-meeting-calendar-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Note Resource
-  name: Small Improvements meeting-note-resource API
+  name: Small Improvements Meeting Note Resource API
   slug: small-improvements-meeting-note-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Resource
-  name: Small Improvements meeting-resource API
+  name: Small Improvements Meeting Resource API
   slug: small-improvements-meeting-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Space Resource
-  name: Small Improvements meeting-space-resource API
+  name: Small Improvements Meeting Space Resource API
   slug: small-improvements-meeting-space-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Meeting Template Resource
-  name: Small Improvements meeting-template-resource API
+  name: Small Improvements Meeting Template Resource API
   slug: small-improvements-meeting-template-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Message Settings Resource
-  name: Small Improvements message-settings-resource API
+  name: Small Improvements Message Settings Resource API
   slug: small-improvements-message-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Messages Peer Feedback Resource
-  name: Small Improvements messages-peer-feedback-resource API
+  name: Small Improvements Messages Peer Feedback Resource API
   slug: small-improvements-messages-peer-feedback-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Messages Resource
-  name: Small Improvements messages-resource API
+  name: Small Improvements Messages Resource API
   slug: small-improvements-messages-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Notification Log Resource
-  name: Small Improvements notification-log-resource API
+  name: Small Improvements Notification Log Resource API
   slug: small-improvements-notification-log-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Nudge Resource
-  name: Small Improvements nudge-resource API
+  name: Small Improvements Nudge Resource API
   slug: small-improvements-nudge-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Categories Resource
-  name: Small Improvements objective-categories-resource API
+  name: Small Improvements Objective Categories Resource API
   slug: small-improvements-objective-categories-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Clone Resource
-  name: Small Improvements objective-clone-resource API
+  name: Small Improvements Objective Clone Resource API
   slug: small-improvements-objective-clone-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Cycle Admin Resource
-  name: Small Improvements objective-cycle-admin-resource API
+  name: Small Improvements Objective Cycle Admin Resource API
   slug: small-improvements-objective-cycle-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Cycles Export Resource
-  name: Small Improvements objective-cycles-export-resource API
+  name: Small Improvements Objective Cycles Export Resource API
   slug: small-improvements-objective-cycles-export-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Cycles Resource
-  name: Small Improvements objective-cycles-resource API
+  name: Small Improvements Objective Cycles Resource API
   slug: small-improvements-objective-cycles-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Pdf Resource
-  name: Small Improvements objective-pdf-resource API
+  name: Small Improvements Objective PDF Resource API
   slug: small-improvements-objective-pdf-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Ratings Resource
-  name: Small Improvements objective-ratings-resource API
+  name: Small Improvements Objective Ratings Resource API
   slug: small-improvements-objective-ratings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objective Summaries Resource
-  name: Small Improvements objective-summaries-resource API
+  name: Small Improvements Objective Summaries Resource API
   slug: small-improvements-objective-summaries-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Objectives Resource
-  name: Small Improvements objectives-resource API
+  name: Small Improvements Objectives Resource API
   slug: small-improvements-objectives-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Outlook O Auth Resource
-  name: Small Improvements outlook-o-auth-resource API
+  name: Small Improvements Outlook O Auth Resource API
   slug: small-improvements-outlook-o-auth-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Personal Access Token Resource
-  name: Small Improvements personal-access-token-resource API
+  name: Small Improvements Personal Access Token Resource API
   slug: small-improvements-personal-access-token-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Praise Resource
-  name: Small Improvements praise-resource API
+  name: Small Improvements Praise Resource API
   slug: small-improvements-praise-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Praise Wall Open Resource
-  name: Small Improvements praise-wall-open-resource API
+  name: Small Improvements Praise Wall Open Resource API
   slug: small-improvements-praise-wall-open-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Praise Wall Resource
-  name: Small Improvements praise-wall-resource API
+  name: Small Improvements Praise Wall Resource API
   slug: small-improvements-praise-wall-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Profile Pictures Resource
-  name: Small Improvements profile-pictures-resource API
+  name: Small Improvements Profile Pictures Resource API
   slug: small-improvements-profile-pictures-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Public Calendar Resource
-  name: Small Improvements public-calendar-resource API
+  name: Small Improvements Public Calendar Resource API
   slug: small-improvements-public-calendar-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Public Images Resource
-  name: Small Improvements public-images-resource API
+  name: Small Improvements Public Images Resource API
   slug: small-improvements-public-images-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Public Me Resource
-  name: Small Improvements public-me-resource API
+  name: Small Improvements Public Me Resource API
   slug: small-improvements-public-me-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Reaction Resource
-  name: Small Improvements reaction-resource API
+  name: Small Improvements Reaction Resource API
   slug: small-improvements-reaction-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Release Notes Resource
-  name: Small Improvements release-notes-resource API
+  name: Small Improvements Release Notes Resource API
   slug: small-improvements-release-notes-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Replacements Resource
-  name: Small Improvements replacements-resource API
+  name: Small Improvements Replacements Resource API
   slug: small-improvements-replacements-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Report Resource
-  name: Small Improvements report-resource API
+  name: Small Improvements Report Resource API
   slug: small-improvements-report-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Request Feedback Resource
-  name: Small Improvements request-feedback-resource API
+  name: Small Improvements Request Feedback Resource API
   slug: small-improvements-request-feedback-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Attachment Resource
-  name: Small Improvements review-attachment-resource API
+  name: Small Improvements Review Attachment Resource API
   slug: small-improvements-review-attachment-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Cycle Admin Resource
-  name: Small Improvements review-cycle-admin-resource API
+  name: Small Improvements Review Cycle Admin Resource API
   slug: small-improvements-review-cycle-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Cycle Import Resource
-  name: Small Improvements review-cycle-import-resource API
+  name: Small Improvements Review Cycle Import Resource API
   slug: small-improvements-review-cycle-import-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Cycle Resource
-  name: Small Improvements review-cycle-resource API
+  name: Small Improvements Review Cycle Resource API
   slug: small-improvements-review-cycle-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Cycles Resource
-  name: Small Improvements review-cycles-resource API
+  name: Small Improvements Review Cycles Resource API
   slug: small-improvements-review-cycles-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Export Resource
-  name: Small Improvements review-export-resource API
+  name: Small Improvements Review Export Resource API
   slug: small-improvements-review-export-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Graph Resource
-  name: Small Improvements review-graph-resource API
+  name: Small Improvements Review Graph Resource API
   slug: small-improvements-review-graph-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Questionnaire Resource
-  name: Small Improvements review-questionnaire-resource API
+  name: Small Improvements Review Questionnaire Resource API
   slug: small-improvements-review-questionnaire-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Resource
-  name: Small Improvements review-resource API
+  name: Small Improvements Review Resource API
   slug: small-improvements-review-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Review Statistics Resource
-  name: Small Improvements review-statistics-resource API
+  name: Small Improvements Review Statistics Resource API
   slug: small-improvements-review-statistics-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Reviewees Resource
-  name: Small Improvements reviewees-resource API
+  name: Small Improvements Reviewees Resource API
   slug: small-improvements-reviewees-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Reviews Resource
-  name: Small Improvements reviews-resource API
+  name: Small Improvements Reviews Resource API
   slug: small-improvements-reviews-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Sample Content Resource
-  name: Small Improvements sample-content-resource API
+  name: Small Improvements Sample Content Resource API
   slug: small-improvements-sample-content-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Slack Configuration Resource
-  name: Small Improvements slack-configuration-resource API
+  name: Small Improvements Slack Configuration Resource API
   slug: small-improvements-slack-configuration-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Subdomain Resource
-  name: Small Improvements subdomain-resource API
+  name: Small Improvements Subdomain Resource API
   slug: small-improvements-subdomain-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Summary Assistant Resource
-  name: Small Improvements summary-assistant-resource API
+  name: Small Improvements Summary Assistant Resource API
   slug: small-improvements-summary-assistant-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Survey Admin Resource
-  name: Small Improvements survey-admin-resource API
+  name: Small Improvements Survey Admin Resource API
   slug: small-improvements-survey-admin-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Survey Analytics Resource
-  name: Small Improvements survey-analytics-resource API
+  name: Small Improvements Survey Analytics Resource API
   slug: small-improvements-survey-analytics-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Survey Observer Resource
-  name: Small Improvements survey-observer-resource API
+  name: Small Improvements Survey Observer Resource API
   slug: small-improvements-survey-observer-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Survey Templates Resource
-  name: Small Improvements survey-templates-resource API
+  name: Small Improvements Survey Templates Resource API
   slug: small-improvements-survey-templates-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Survey Viewer Resource
-  name: Small Improvements survey-viewer-resource API
+  name: Small Improvements Survey Viewer Resource API
   slug: small-improvements-survey-viewer-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Talking Point Resource
-  name: Small Improvements talking-point-resource API
+  name: Small Improvements Talking Point Resource API
   slug: small-improvements-talking-point-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Unified Feedback Resource
-  name: Small Improvements unified-feedback-resource API
+  name: Small Improvements Unified Feedback Resource API
   slug: small-improvements-unified-feedback-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Attachment Resource
-  name: Small Improvements user-attachment-resource API
+  name: Small Improvements User Attachment Resource API
   slug: small-improvements-user-attachment-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Import Configuration Resource
-  name: Small Improvements user-import-configuration-resource API
+  name: Small Improvements User Import Configuration Resource API
   slug: small-improvements-user-import-configuration-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Import Resource
-  name: Small Improvements user-import-resource API
+  name: Small Improvements User Import Resource API
   slug: small-improvements-user-import-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Merge Resource
-  name: Small Improvements user-merge-resource API
+  name: Small Improvements User Merge Resource API
   slug: small-improvements-user-merge-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Settings Resource
-  name: Small Improvements user-settings-resource API
+  name: Small Improvements User Settings Resource API
   slug: small-improvements-user-settings-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: User Stats Resource
-  name: Small Improvements user-stats-resource API
+  name: Small Improvements User Stats Resource API
   slug: small-improvements-user-stats-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Users Change Resource
-  name: Small Improvements users-change-resource API
+  name: Small Improvements Users Change Resource API
   slug: small-improvements-users-change-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Users Resource
-  name: Small Improvements users-resource API
+  name: Small Improvements Users Resource API
   slug: small-improvements-users-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Writing Assistant Resource
-  name: Small Improvements writing-assistant-resource API
+  name: Small Improvements Writing Assistant Resource API
   slug: small-improvements-writing-assistant-resource-api
 - baseURL: https://app.small-improvements.com/api/v2
   baseurl_source: declared
   description: Your Surveys Resource
-  name: Small Improvements your-surveys-resource API
+  name: Small Improvements Your Surveys Resource API
   slug: small-improvements-your-surveys-resource-api
 artifact_total: 1044
 collections:
@@ -3481,7 +3481,7 @@ modified: 2026-06-13
 name: Small Improvements
 nav: Providers
 network: true
-overview: 'Small Improvements publishes 115 APIs on the [APIs.io](https://apis.io/) network, including action-item-resource API, activity-stream-resource API, admin-overview-link-resource API, and 112 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, OKRs, and 1:1 Meetings.
+overview: 'Small Improvements publishes 115 APIs on the [APIs.io](https://apis.io/) network, including Action Item Resource API, Activity Stream Resource API, Admin Overview Link Resource API, and 112 more. Tagged areas include Performance Management, Human Resources, Employee Feedback, OKRs, and 1:1 Meetings.
 
 
   The Small Improvements catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -3535,7 +3535,7 @@ score:
       marker_coverage: 0.0
       total: 115
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

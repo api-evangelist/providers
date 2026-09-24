@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
   description: The authorized firm of the current API user.
   name: MyCase Firm API
   slug: mycase-firm-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -252,10 +252,6 @@ common:
   url: rules/mycase-rules.yml
 created: '2026-05-25'
 description: MyCase is a cloud-based legal practice and case management platform used by more than 18,000 law firms for matter management, contacts and companies, calendaring, events, tasks, documents, time tracking, billing and invoicing, payments via LawPay, lead intake, eSignature, and client communications through a secure portal. MyCase was acquired by AffiniPay (now 8am, LLC — which also owns LawPay, CasePeer, and Docketwise) in 2022. In late 2023 MyCase released a public Open API available exclusively on its Advanced tier, with documentation hosted at mycaseapi.stoplight.io. The Open API exposes the firm, cases, contacts, companies, case stages, events, tasks, documents, client relationships, and webhook subscriptions, and is positioned as the integration surface for third-party software vendors building on MyCase.
-graphqls:
-- description: MyCase is a cloud-based legal practice management platform. The API covers cases/matters, contacts, time entries, invoices, payments, documents, calendar events, tasks, and communication threads for l
-  name: MyCase GraphQL API
-  slug: mycase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mycase.png
 jsonld:
 - class_count: 0
@@ -267,7 +263,7 @@ modified: '2026-05-25'
 name: MyCase
 nav: Providers
 network: true
-overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Case Stages API, Cases API, Companies API, and 4 more. Tagged areas include Billing, Calendaring, Case Management, Client Portal, and Document-Management.
+overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Case Stages API, Cases API, Companies API, and 4 more. Tagged areas include Billing, Calendaring, Case Management, Client Portal, and Document Management.
 
 
   The MyCase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -289,19 +285,19 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 40.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 27.6
     contract_governance: 45.5
-    contract_quality: 61.4
+    contract_quality: 59.2
     developer_ergonomics: 45.2
     discoverability: 59.3
     operational_transparency: 5.3
@@ -320,7 +316,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -341,7 +337,7 @@ tags:
 - Calendaring
 - Case Management
 - Client Portal
-- Document-Management
+- Document Management
 - Invoicing
 - Law Firms
 - Legal

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 3
 apis:
 - description: Public REST API endpoints for querying market data, instruments, tickers, options boards, implied volatility, settlement history, and liquidity pool analytics without authentication.
@@ -151,7 +151,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

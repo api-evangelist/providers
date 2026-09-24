@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -113,7 +113,7 @@ modified: '2026-09-12'
 name: AgileSoDA
 nav: Providers
 network: true
-overview: 'AgileSoDA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine-Learning, and Enterprise Software.
+overview: 'AgileSoDA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Machine Learning, and Enterprise Software.
 
 
   AgileSoDA''s developer surface includes documentation, support, product news, and 11 more developer resources.'
@@ -159,7 +159,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Machine-Learning
+- Machine Learning
 - Enterprise Software
 - Document Processing
 - Optical Character Recognition

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ modified: '2026-05-19'
 name: Agricultural Statistics Service
 nav: Providers
 network: true
-overview: 'Agricultural Statistics Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Parameters API and Statistics API. Tagged areas include Agriculture, Federal-Government, Statistics, Open Data, and Geospatial.
+overview: 'Agricultural Statistics Service publishes 2 APIs on the [APIs.io](https://apis.io/) network: Parameters API and Statistics API. Tagged areas include Agriculture, Federal Government, Statistics, Open Data, and Geospatial.
 
 
   The Agricultural Statistics Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -293,7 +293,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -312,7 +312,7 @@ security:
 slug: agricultural-statistics-service
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Statistics
 - Open Data
 - Geospatial

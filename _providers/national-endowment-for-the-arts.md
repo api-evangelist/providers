@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: National Endowment for the Arts
 nav: Providers
 network: true
-overview: 'National Endowment for the Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Arts, Federal-Government, Culture, and Grants.
+overview: 'National Endowment for the Arts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Arts, Federal Government, Culture, and Grants.
 
 
   National Endowment for the Arts'' developer surface includes engineering blog and 7 more developer resources.'
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ security:
 slug: national-endowment-for-the-arts
 tags:
 - Arts
-- Federal-Government
+- Federal Government
 - Culture
 - Grants
 website: https://www.arts.gov/

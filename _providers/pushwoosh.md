@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 4
+- acting_count: 3
   human_in_the_loop: 0
   name: Pushwoosh Agentic Access
   operation_count: 4
   slug: pushwoosh-agentic-access
-  summary_line: 4 operations · 4 acting
+  summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
 - description: Send push notifications, email, SMS and in-app messages to user audiences.
@@ -180,7 +180,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

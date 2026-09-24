@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
   description: Pre-qualified sales prospects.
   name: Zendesk Sell Leads API
   slug: zendesk-sell-leads-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -266,10 +266,6 @@ common:
   url: skills/_index.yml
 created: '2026-05-11'
 description: Zendesk Sell (formerly Base CRM) is a sales CRM platform that helps sales teams manage leads, contacts, deals, and pipelines while integrating with the broader Zendesk customer experience suite. The platform offers pipeline analytics, email and call tracking, mobile apps, and territory management for high-velocity sales organizations. The Sell API is a RESTful API authenticated via OAuth 2.0 (authorization code, implicit, password, and refresh token grants) at the api.getbase.com host that provides full CRUD access to leads, contacts, deals, accounts, notes, tasks, calls, and custom fields, alongside a premium Sync API, a client-pulled Firehose change stream and a Search API. Zendesk announced on 2025-09-09 that Sell is being retired on 2027-08-31 and is no longer sold as a standalone plan, so the API carries a hard end date.
-graphqls:
-- description: This directory contains a conceptual GraphQL schema for the Zendesk Sell (formerly Base CRM) Sales CRM API. The schema is derived from the [Zendesk Sell REST API reference](https://developer.zendesk.c
-  name: Zendesk Sell GraphQL Schema
-  slug: zendesk-sell-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zendesk-sell.png
 layout: provider
 modified: '2026-08-13'
@@ -296,19 +292,19 @@ scopes:
   summary_line: 3 scopes · authorizationCode/implicit/password
 score:
   band: strong
-  composite: 58.9
+  composite: 57.6
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 59.0
+    contract_quality: 53.7
     developer_ergonomics: 74.4
     discoverability: 68.5
     operational_transparency: 73.7
@@ -324,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

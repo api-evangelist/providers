@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -684,7 +684,7 @@ modified: '2026-05-19'
 name: Temenos Transact
 nav: Providers
 network: true
-overview: 'Temenos Transact publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 7 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial-Services.
+overview: 'Temenos Transact publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Cards API, and 7 more. Tagged areas include Banking, Core Banking, Digital Banking, Enterprise, and Financial Services.
 
 
   The Temenos Transact catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -755,7 +755,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -776,7 +776,7 @@ tags:
 - Core Banking
 - Digital Banking
 - Enterprise
-- Financial-Services
+- Financial Services
 - Fintech
 use_cases:
 - description: Build digital banking apps with account management, transaction history, and payment initiation APIs.

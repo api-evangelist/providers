@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Hypercore's production GraphQL API for private-credit loan management — a single GraphQL endpoint covering loans, equities, clients, funding sources, documents, statements, data tables, deal onboardin
@@ -175,6 +175,8 @@ score:
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
@@ -184,7 +186,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +220,7 @@ tags:
 - Commercial Real Estate
 - Loan Servicing
 - Fintech
-- Financial-Services
+- Financial Services
 - GraphQL
 website: https://www.hypercore.ai/
 ---

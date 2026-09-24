@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 4
 common:
@@ -131,7 +131,7 @@ modified: '2026-08-26'
 name: OSARO
 nav: Providers
 network: true
-overview: 'OSARO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine-Learning, and Warehouse Automation.
+overview: 'OSARO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine Learning, and Warehouse Automation.
 
 
   OSARO''s developer surface includes engineering blog, FAQ, YouTube channel, and 13 more developer resources.'
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -192,11 +192,11 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Warehouse Automation
 - Logistics
 - Supply Chain
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 website: https://www.osaro.com/
 ---

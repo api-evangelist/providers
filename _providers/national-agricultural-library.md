@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ modified: '2026-05-19'
 name: National Agricultural Library
 nav: Providers
 network: true
-overview: 'National Agricultural Library publishes 1 API on the [APIs.io](https://apis.io/) network: FDC API. Tagged areas include Agriculture, Federal-Government, Library, Food, and Nutrition.
+overview: 'National Agricultural Library publishes 1 API on the [APIs.io](https://apis.io/) network: FDC API. Tagged areas include Agriculture, Federal Government, Library, Food, and Nutrition.
 
 
   National Agricultural Library''s developer surface includes authentication, developer portal, and 4 more developer resources.'
@@ -147,7 +147,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -165,7 +165,7 @@ security:
 slug: national-agricultural-library
 tags:
 - Agriculture
-- Federal-Government
+- Federal Government
 - Library
 - Food
 - Nutrition

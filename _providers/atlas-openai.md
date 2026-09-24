@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 12
+artifact_total: 11
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/atlas-openai/refs/heads/main/security/atlas-openai-trust-center.yml
@@ -122,10 +122,6 @@ features:
 - Agent Mode (Plus/Pro paid tiers) for autonomous task execution
 - Tab organization with vertical tabs (added Nov 2025)
 - Freemium model tied to existing ChatGPT subscriptions
-graphqls:
-- description: ''
-  name: ChatGPT Atlas GraphQL API
-  slug: atlas-openai-graphql
 image: https://openai.com/images/atlas-og.png
 layout: provider
 modified: '2026-05-23'
@@ -141,7 +137,7 @@ score:
   band: emerging
   composite: 17.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -157,7 +153,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

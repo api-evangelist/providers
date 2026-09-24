@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ modified: '2026-08-21'
 name: Regrello
 nav: Providers
 network: true
-overview: 'Regrello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Supply Chain, Workflow-Automation, and Artificial Intelligence.
+overview: 'Regrello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Supply Chain, Workflow Automation, and Artificial Intelligence.
 
 
   Regrello''s developer surface includes support and 10 more developer resources.'
@@ -117,7 +117,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ tags:
 - Company
 - Manufacturing
 - Supply Chain
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 - Agentic AI
 - Process Orchestration

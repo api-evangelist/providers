@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 2
 apis:
 - description: Hosted remote MCP server (streamable HTTP) exposing board read/write, cockpit supervision, agent runtime, and auto-registered plugin tools. Bearer-authenticated. Listed in the official MCP registry as
@@ -241,7 +241,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false

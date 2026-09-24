@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: REST API for programmatic access to Logikcull's eDiscovery platform, enabling document upload, project management, tagging, redactions, and production set generation for legal review workflows.
   name: Logikcull API
   slug: logikcull-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -101,10 +101,6 @@ finops:
 - name: Logikcull Finops
   service_category: ''
   slug: logikcull-finops
-graphqls:
-- description: Logikcull is a cloud-based e-discovery platform. The API covers upload management, processing status, project management, search queries, document review workflows, tag management, production, and ana
-  name: Logikcull GraphQL API
-  slug: logikcull-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logikcull.png
 jsonld:
 - class_count: 28
@@ -116,7 +112,7 @@ modified: '2026-06-13'
 name: Logikcull
 nav: Providers
 network: true
-overview: 'Logikcull publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include eDiscovery, Legal, Document-Management, Legal Hold, and Redaction.
+overview: 'Logikcull publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include eDiscovery, Legal, Document Management, Legal Hold, and Redaction.
 
 
   The Logikcull catalog on APIs.io includes 1 JSON-LD context.
@@ -134,25 +130,25 @@ rate_limits:
   slug: logikcull-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 33.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 45.7
+    contract_quality: 37.3
     developer_ergonomics: 16.7
     discoverability: 68.5
     operational_transparency: 31.6
   previous_composite: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +172,7 @@ slug: logikcull
 tags:
 - eDiscovery
 - Legal
-- Document-Management
+- Document Management
 - Legal Hold
 - Redaction
 - Production Sets

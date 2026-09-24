@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ modified: '2026-07-18'
 name: ArrePath
 nav: Providers
 network: true
-overview: 'ArrePath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech Therapeutics, Drug Discovery, Artificial Intelligence, and Machine-Learning.
+overview: 'ArrePath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech Therapeutics, Drug Discovery, Artificial Intelligence, and Machine Learning.
 
 
   ArrePath''s developer surface includes engineering blog, support, and 2 more developer resources.'
@@ -91,7 +91,7 @@ score:
     - north-america
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ tags:
 - Biotech Therapeutics
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infectious Disease
 - Antibacterials
 - Pharmaceuticals

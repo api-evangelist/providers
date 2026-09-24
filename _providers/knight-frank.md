@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ modified: '2026-07-26'
 name: Knight Frank
 nav: Providers
 network: true
-overview: 'Knight Frank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CMS Page API, Intelligence Lab API, Office API, and 4 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
+overview: 'Knight Frank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CMS Page API, Intelligence Lab API, Office API, and 4 more. Tagged areas include Real Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
@@ -296,7 +296,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -313,7 +313,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: knight-frank
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - Property Listings
 - Commercial Real Estate

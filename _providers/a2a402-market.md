@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-09-19'
 name: A2A402
 nav: Providers
 network: true
-overview: 'A2A402 publishes 1 API on the [APIs.io](https://apis.io/) network: Production Agent Economy API. Tagged areas include Company, Agent Marketplace, Agent-to-Agent, A2A, and MCP.
+overview: 'A2A402 publishes 1 API on the [APIs.io](https://apis.io/) network: Production Agent Economy API. Tagged areas include Company, Agent Marketplace, A2A, MCP, and Autonomous Agents.
 
 
   A2A402''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 26 more developer resources.'
@@ -254,7 +254,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -272,7 +272,6 @@ slug: a2a402-market
 tags:
 - Company
 - Agent Marketplace
-- Agent-to-Agent
 - A2A
 - MCP
 - Autonomous Agents

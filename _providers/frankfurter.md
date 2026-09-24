@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,17 +51,17 @@ apis:
 - baseURL: https://api.frankfurter.dev/v2
   baseurl_source: declared
   description: Latest foreign exchange rates
-  name: Frankfurter current-rates API
+  name: Frankfurter Current Rates API
   slug: frankfurter-current-rates-api
 - baseURL: https://api.frankfurter.dev/v2
   baseurl_source: declared
   description: Historical exchange rates for specific dates and periods
-  name: Frankfurter historical-rates API
+  name: Frankfurter Historical Rates API
   slug: frankfurter-historical-rates-api
 - baseURL: https://api.frankfurter.dev/v2
   baseurl_source: declared
   description: API reference data like available currencies
-  name: Frankfurter metadata API
+  name: Frankfurter Metadata API
   slug: frankfurter-metadata-api
 - baseURL: https://api.frankfurter.dev/v2
   baseurl_source: declared
@@ -355,7 +355,7 @@ modified: '2026-05-29'
 name: Frankfurter
 nav: Providers
 network: true
-overview: 'Frankfurter publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Currencies API, current-rates API, historical-rates API, and 3 more. Tagged areas include Currency Exchange, Foreign Exchange, FX, Open-Source, and MIT.
+overview: 'Frankfurter publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Currencies API, Current Rates API, Historical Rates API, and 3 more. Tagged areas include Currency Exchange, Foreign Exchange, FX, Open Source, and MIT.
 
 
   The Frankfurter catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -421,7 +421,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -445,7 +445,7 @@ tags:
 - Currency Exchange
 - Foreign Exchange
 - FX
-- Open-Source
+- Open Source
 - MIT
 - Self-Hosted
 - Public APIs

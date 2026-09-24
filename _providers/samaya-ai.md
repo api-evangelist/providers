@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -207,7 +207,7 @@ modified: '2026-08-26'
 name: Samaya AI
 nav: Providers
 network: true
-overview: 'Samaya AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organizations API, Teams API, and Users API. Tagged areas include Artificial Intelligence, Financial-Services, Investment Research, AI Agents, and MCP.
+overview: 'Samaya AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organizations API, Teams API, and Users API. Tagged areas include Artificial Intelligence, Financial Services, Investment Research, AI Agents, and MCP.
 
 
   Samaya AI''s developer surface includes API reference, engineering blog, signup flow, support, authentication, and 23 more developer resources.'
@@ -235,7 +235,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
@@ -243,7 +243,7 @@ score:
     developer_ergonomics: 28.0
     discoverability: 75.9
     operational_transparency: 18.4
-  previous_composite: 34.0
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     contracts:
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -275,7 +275,7 @@ security:
 slug: samaya-ai
 tags:
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - Investment Research
 - AI Agents
 - MCP

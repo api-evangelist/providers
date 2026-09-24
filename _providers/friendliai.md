@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 67
+- acting_count: 66
   human_in_the_loop: 1
   name: Friendliai Agentic Access
   operation_count: 84
   slug: friendliai-agentic-access
-  summary_line: 84 operations · 67 acting · 1 human-in-the-loop
+  summary_line: 84 operations · 66 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://api.friendli.ai
@@ -503,7 +503,7 @@ modified: '2026-07-19'
 name: FriendliAI
 nav: Providers
 network: true
-overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Container.Audio API, Container.Chat API, Container.Classification API, and 30 more. Tagged areas include Company, Infrastructure, Artificial Intelligence, Machine-Learning, and LLM.
+overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Container.Audio API, Container.Chat API, Container.Classification API, and 30 more. Tagged areas include Company, Infrastructure, Artificial Intelligence, Machine Learning, and LLM.
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
@@ -546,7 +546,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -570,7 +570,7 @@ tags:
 - Company
 - Infrastructure
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Inference
 - Generative AI

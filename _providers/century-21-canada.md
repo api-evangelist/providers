@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,7 +129,7 @@ modified: '2026-07-26'
 name: Century 21 Canada
 nav: Providers
 network: true
-overview: 'Century 21 Canada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Canada, Brokerage, Franchising, and Property Listings.
+overview: 'Century 21 Canada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Canada, Brokerage, Franchising, and Property Listings.
 
 
   Century 21 Canada''s developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
@@ -167,7 +167,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: century-21-canada
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Brokerage
 - Franchising

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -339,7 +339,7 @@ modified: '2026-05-23'
 name: Nagios
 nav: Providers
 network: true
-overview: 'Nagios publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, CPU API, Disk API, and 8 more. Tagged areas include Monitoring, Infrastructure Monitoring, Network Monitoring, Open-Source, and IT Operations.
+overview: 'Nagios publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, CPU API, Disk API, and 8 more. Tagged areas include Monitoring, Infrastructure Monitoring, Network Monitoring, Open Source, and IT Operations.
 
 
   The Nagios catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -411,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -431,7 +431,7 @@ tags:
 - Monitoring
 - Infrastructure Monitoring
 - Network Monitoring
-- Open-Source
+- Open Source
 - IT Operations
 - Alerting
 - Observability

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 13
+- acting_count: 0
   human_in_the_loop: 0
   name: Spacex Agentic Access
   operation_count: 43
   slug: spacex-agentic-access
-  summary_line: 43 operations · 13 acting
+  summary_line: 43 operations
 api_count: 15
 apis:
 - description: Community-maintained GraphQL gateways over the SpaceX REST data, providing typed schema access and nested-field selection across launches, rockets, missions, payloads, ships, and crew. Multiple commun
@@ -510,7 +510,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -536,7 +536,7 @@ tags:
 - Falcon Heavy
 - Dragon
 - Rockets
-- Open-Source
+- Open Source
 - Community
 - REST
 - GraphQL

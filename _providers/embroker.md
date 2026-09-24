@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,13 +28,13 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-09-23'
+  score: 0.0
+  scored_at: '2026-09-24'
 api_count: 0
-artifact_total: 2
+artifact_total: 1
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/embroker/refs/heads/main/security/embroker-domain-security.yml
@@ -185,18 +185,9 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/embroker
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/embroker/refs/heads/main/graphql/embroker-graphql.md
-  title: ''
-  type: GraphQL
-  url: graphql/embroker-graphql.md
 created: '2026-05-25'
 description: Embroker is a San Francisco-based digital business insurance broker and insurtech platform founded in 2015 by Matt Miller, on a mission to make commercial insurance simple, clear, and tailored to each industry. Embroker operates a digital-first online platform where businesses can compare, quote, purchase, and manage commercial insurance policies directly, with industry-specific programs for funded startups, tech companies, law firms, venture capital and private equity firms, financial services professionals, consultants, real estate agents, and small businesses. Its coverage portfolio includes Business Owners Policy (BOP), commercial general liability, professional liability, technology errors and omissions, cyber insurance, directors and officers, employment practices liability, commercial crime, key person, workers compensation, and lawyers professional liability, often bundled into industry packages such as the Startup Bundle, Law Bundle, and MPL Bundle. In 2017 Embroker
   partnered with Munich Re to underwrite its own digital insurance products; in 2020 it launched Embroker Access for retail and wholesale brokers; and in 2023 it launched Embroker One, an AI- and machine-learning-driven platform for real-time risk assessment and policy recommendations. The company has protected 9,500+ businesses across 16,000+ policies and raised a $100M round in 2021 led by FTV Capital. Embroker's revenue model is brokerage commissions, managing general agent (MGA) underwriting fees on its own products, and platform access for partner brokers; there is no public developer API, SDK, or open-source release — its GitHub organization contains only archived forks of third-party libraries and a small number of internal tooling repositories.
-graphqls:
-- description: Embroker is a San Francisco-based digital business insurance broker and insurtech platform that enables businesses to compare, quote, purchase, and manage commercial insurance policies. This conceptua
-  name: Embroker GraphQL Schema
-  slug: embroker-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/embroker.png
 layout: provider
 modified: '2026-05-25'
@@ -206,23 +197,23 @@ network: true
 overview: 'Embroker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Business Insurance, Commercial Insurance, Insurtech, and Digital Insurance.
 
 
-  Embroker''s developer surface includes signup flow, engineering blog, tooling, privacy policy, terms of service, GitHub presence, and 32 more developer resources.'
+  Embroker''s developer surface includes signup flow, engineering blog, tooling, privacy policy, terms of service, GitHub presence, and 31 more developer resources.'
 random_paper: 19
 score:
-  band: emerging
-  composite: 18.2
+  band: minimal
+  composite: 7.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.4
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
-    contract_quality: 41.5
+    contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 50.0
     operational_transparency: 5.3
@@ -239,8 +230,8 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

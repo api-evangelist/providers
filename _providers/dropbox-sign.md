@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: The Fax API from Dropbox Sign — 2 operation(s) for fax.
   name: Dropbox Sign Fax API
   slug: dropbox-sign-fax-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: 'AsyncAPI description of the Dropbox Sign (formerly HelloSign) outbound event / callback surface. Dropbox Sign delivers event notifications by issuing HTTP POST requests to a subscriber-configured URL '
   name: Dropbox Sign Events and Callbacks
@@ -162,17 +162,13 @@ common:
   url: https://sign.dropbox.com/blog
 created: '2026-05-11'
 description: Dropbox Sign (formerly HelloSign) is an eSignature platform that lets developers and businesses embed legally binding electronic signature workflows into their applications and websites. The product supports embedded signing and requesting, reusable templates, custom signer fields, branded signing flows, audit trails, and tamper-proof document delivery. The Dropbox Sign API is documented with an official OpenAPI specification and authenticated via HTTP Basic Auth with an API key or OAuth 2.0 Bearer tokens.
-graphqls:
-- description: This conceptual GraphQL schema represents the Dropbox Sign (formerly HelloSign) eSignature REST API v3. Dropbox Sign provides legally binding electronic signature workflows including embedded signing,
-  name: Dropbox Sign (HelloSign) GraphQL Schema
-  slug: dropbox-sign-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dropbox-sign.png
 layout: provider
 modified: '2026-05-30'
 name: Dropbox Sign
 nav: Providers
 network: true
-overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include E-Signature, Electronic Signature, Document Signing, Workflow-Automation, and Documents.
+overview: 'Dropbox Sign publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events and Callbacks API, Account API, API App API, and 3 more. Tagged areas include E-Signature, Electronic Signature, Document Signing, Workflow Automation, and Documents.
 
 
   The Dropbox Sign catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -199,19 +195,19 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.7
+  composite: 33.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 35.8
     catalog_earned_first_party: 0.0
     catalog_gap: 79.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 11.4
-    contract_quality: 62.5
+    contract_quality: 60.6
     developer_ergonomics: 31.0
     discoverability: 66.7
     operational_transparency: 2.6
@@ -224,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -248,7 +244,7 @@ tags:
 - E-Signature
 - Electronic Signature
 - Document Signing
-- Workflow-Automation
+- Workflow Automation
 - Documents
 website: https://sign.dropbox.com
 ---

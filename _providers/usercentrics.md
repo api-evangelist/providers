@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 17
+- acting_count: 16
   human_in_the_loop: 1
   name: Usercentrics Agentic Access
   operation_count: 29
   slug: usercentrics-agentic-access
-  summary_line: 29 operations · 17 acting · 1 human-in-the-loop
+  summary_line: 29 operations · 16 acting · 1 human-in-the-loop
 api_count: 3
 apis:
 - description: Hosted server-side Google Tag Manager service for first-party data collection, consent enforcement, and tag execution off the browser. Includes Meta Signals Gateway for the Meta Conversions API and co
@@ -333,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

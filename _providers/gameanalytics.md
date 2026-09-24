@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 7
+- acting_count: 6
   human_in_the_loop: 0
   name: Gameanalytics Agentic Access
   operation_count: 12
   slug: gameanalytics-agentic-access
-  summary_line: 12 operations · 7 acting
+  summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
 - description: PipelineIQ raw data export streams every gameplay event as JSON objects (a metadata wrapper plus an event data object) in real time, with historical backfill, into a customer's own cloud environment -
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

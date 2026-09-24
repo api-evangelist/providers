@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 68
+- acting_count: 64
   human_in_the_loop: 0
   name: Eve Online Agentic Access
   operation_count: 411
   slug: eve-online-agentic-access
-  summary_line: 411 operations · 68 acting
+  summary_line: 411 operations · 64 acting
 api_count: 7
 apis:
 - description: EVE Single Sign-On (SSO) is the OAuth 2.0 authorization service for EVE Online third-party applications, hosted at login.eveonline.com. It supports the Authorization Code flow for confidential (server
@@ -767,7 +767,7 @@ score:
       marker_coverage: 0.0
       total: 67
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

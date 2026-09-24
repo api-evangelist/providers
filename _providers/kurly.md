@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 22
+- acting_count: 14
   human_in_the_loop: 0
   name: Kurly Agentic Access
   operation_count: 33
   slug: kurly-agentic-access
-  summary_line: 33 operations · 22 acting
+  summary_line: 33 operations · 14 acting
 api_count: 4
 apis:
 - baseURL: https://kls.kurly.com
@@ -294,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

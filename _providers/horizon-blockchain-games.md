@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 302
+- acting_count: 272
   human_in_the_loop: 1
   name: Horizon Blockchain Games Agentic Access
   operation_count: 302
   slug: horizon-blockchain-games-agentic-access
-  summary_line: 302 operations · 302 acting · 1 human-in-the-loop
+  summary_line: 302 operations · 272 acting · 1 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://mainnet-indexer.sequence.app
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
   description: Endpoints accessible by passing your project-access-key in the header. This is injected whenever you login automatically.
-  name: Horizon Blockchain Games public API
+  name: Horizon Blockchain Games Public API
   slug: horizon-blockchain-games-public-api
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
@@ -69,7 +69,7 @@ apis:
 - baseURL: https://mainnet-indexer.sequence.app
   baseurl_source: declared
   description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
-  name: Horizon Blockchain Games secret API
+  name: Horizon Blockchain Games Secret API
   slug: horizon-blockchain-games-secret-api
 artifact_total: 15
 asyncapis:
@@ -251,7 +251,7 @@ modified: '2026-07-19'
 name: Horizon Blockchain Games
 nav: Providers
 network: true
-overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Marketplace API, public API, and 2 more. Tagged areas include Company, Consumer, Blockchain, Web3, and Gaming.
+overview: 'Horizon Blockchain Games publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Marketplace API, Public API, and 2 more. Tagged areas include Company, Consumer, Blockchain, Web3, and Gaming.
 
 
   The Horizon Blockchain Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -295,7 +295,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

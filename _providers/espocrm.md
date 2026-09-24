@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: API reference for EspoCRM, providing CRUD operations for CRM entities.
@@ -88,7 +88,7 @@ modified: '2026-09-21'
 name: EspoCRM
 nav: Providers
 network: true
-overview: 'EspoCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Open-Source, Sales, and Marketing.
+overview: 'EspoCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Open Source, Sales, and Marketing.
 
 
   EspoCRM''s developer surface includes pricing, changelog, documentation, API reference, support, engineering blog, and 4 more developer resources.'
@@ -115,7 +115,7 @@ score:
   provenance:
     mcp: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ slug: espocrm
 tags:
 - Company
 - CRM
-- Open-Source
+- Open Source
 - Sales
 - Marketing
 website: https://www.espocrm.com/

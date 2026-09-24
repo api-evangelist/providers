@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 11
 common:
@@ -108,7 +108,7 @@ modified: '2026-05-16'
 name: AXA
 nav: Providers
 network: true
-overview: AXA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial-Services, and Asset Management.
+overview: AXA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, and Asset Management.
 random_paper: 6
 score:
   band: minimal
@@ -136,7 +136,7 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,7 @@ security:
 slug: axa
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Asset Management
 use_cases:
 - description: Brokers issue quotes, bind policies, and service customers through AXA's country-specific portals and ACORD-aligned channels.

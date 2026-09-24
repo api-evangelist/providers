@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 53
+- acting_count: 51
   human_in_the_loop: 0
   name: Hanko Agentic Access
-  operation_count: 84
+  operation_count: 82
   slug: hanko-agentic-access
-  summary_line: 84 operations · 53 acting
+  summary_line: 82 operations · 51 acting
 api_count: 3
 apis:
 - baseURL: https://{tenant_id}.hanko.io
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://{tenant_id}.hanko.io
   baseurl_source: declared
   description: Represents all objects which are related to MFA in common
-  name: Hanko mfa API
+  name: Hanko Mfa API
   slug: hanko-mfa-api
 - baseURL: https://{tenant_id}.hanko.io
   baseurl_source: declared
@@ -138,7 +138,7 @@ apis:
 - baseURL: https://{tenant_id}.hanko.io
   baseurl_source: declared
   description: Represents all objects which are related to WebAuthn in common
-  name: Hanko webauthn API
+  name: Hanko Webauthn API
   slug: hanko-webauthn-api
 - baseURL: https://{tenant_id}.hanko.io
   baseurl_source: declared
@@ -376,6 +376,11 @@ score:
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -385,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -409,7 +414,7 @@ tags:
 - Identity
 - SAML
 - Passwordless
-- Open-Source
+- Open Source
 - Identity Federation
 website: https://www.hanko.io
 ---

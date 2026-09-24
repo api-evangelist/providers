@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: 'An A2A 1.0 agent (JSON-RPC 2.0 over HTTP POST, streaming declared) exposing ten skills: get_company_profile, get_services, get_portfolio_projects, get_development_process, estimate_project_timeline_an'
@@ -167,7 +167,7 @@ modified: '2026-09-19'
 name: SursaTech
 nav: Providers
 network: true
-overview: 'SursaTech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, Agent-to-Agent, AI Consulting, and Product Engineering.
+overview: 'SursaTech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, A2A, AI Consulting, Product Engineering, and Software Development.
 
 
   SursaTech''s developer surface includes pricing, documentation, authentication, and 24 more developer resources.'
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -233,7 +233,6 @@ slug: sursatech-com
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - AI Consulting
 - Product Engineering
 - Software Development

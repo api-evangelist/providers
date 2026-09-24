@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 34
+- acting_count: 33
   human_in_the_loop: 1
   name: Canva Agentic Access
   operation_count: 81
   slug: canva-agentic-access
-  summary_line: 81 operations · 34 acting · 1 human-in-the-loop
+  summary_line: 81 operations · 33 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Build apps that extend Canva's editor with custom functionality, content, and integrations.
@@ -1188,7 +1188,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -1239,6 +1239,7 @@ tags:
 - Print
 - Templates
 - Visual Content
+- Australia
 use_cases:
 - description: Generate branded marketing materials at scale by autofilling templates with campaign-specific data.
   name: Marketing Automation

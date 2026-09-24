@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-21'
 name: Seismic Therapeutic
 nav: Providers
 network: true
-overview: 'Seismic Therapeutic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Biopharmaceutical, Immunology, and Drug Discovery.
+overview: 'Seismic Therapeutic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Immunology, and Drug Discovery.
 
 
   Seismic Therapeutic''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -103,7 +103,7 @@ score:
       reason: never_enriched
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -113,11 +113,11 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/seismic-therapeutic
 slug: seismic-therapeutic
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Biopharmaceutical
 - Immunology
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Autoimmune
 - Therapeutics
 website: https://seismictx.com/

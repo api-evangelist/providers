@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ modified: '2026-08-27'
 name: Segmind
 nav: Providers
 network: true
-overview: 'Segmind publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inference API, Account API, Storage API, and 1 more. Tagged areas include Artificial Intelligence, Machine-Learning, Generative AI, Inference, and Image-Generation.
+overview: 'Segmind publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inference API, Account API, Storage API, and 1 more. Tagged areas include Artificial Intelligence, Machine Learning, Generative AI, Inference, and Image Generation.
 
 
   The Segmind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -331,7 +331,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -349,10 +349,10 @@ security:
 slug: segmind
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Inference
-- Image-Generation
+- Image Generation
 - Video Generation
 - Text-to-Image
 - Text-to-Video

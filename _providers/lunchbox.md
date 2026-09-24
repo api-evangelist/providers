@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 55
+- acting_count: 53
   human_in_the_loop: 1
   name: Lunchbox Agentic Access
   operation_count: 102
   slug: lunchbox-agentic-access
-  summary_line: 102 operations · 55 acting · 1 human-in-the-loop
+  summary_line: 102 operations · 53 acting · 1 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://{chain_name}.lunchbox.io/api/v2
@@ -577,7 +577,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - baseURL: https://sea-machines.com
@@ -112,7 +112,7 @@ modified: '2026-06-20'
 name: Sea Machines Robotics
 nav: Providers
 network: true
-overview: 'Sea Machines Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network: SMLink Streaming-API and SMLink Control-API. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer-Vision.
+overview: 'Sea Machines Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network: SMLink Streaming-API and SMLink Control-API. Tagged areas include Marine, Autonomy, Robotics, Maritime, and Computer Vision.
 
 
   Sea Machines Robotics'' developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -145,7 +145,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: false
@@ -163,7 +163,7 @@ tags:
 - Autonomy
 - Robotics
 - Maritime
-- Computer-Vision
+- Computer Vision
 - Telemetry
 website: https://sea-machines.com/
 ---

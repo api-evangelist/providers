@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-23'
+  score: 2.5
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: Legacy REST API previously documented at api-explorer.khanacademy.org (now redirects). Some endpoints under https://www.khanacademy.org/api/v1/ remain accessible for content topic trees and exercise d
   name: Khan Academy API v1 (Legacy / Internal)
   slug: api-v1-legacy
-artifact_total: 6
+artifact_total: 5
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/security/khan-academy-domain-security.yml
@@ -87,10 +87,6 @@ finops:
 - name: Khan Academy Finops
   service_category: Education & Training
   slug: khan-academy-finops
-graphqls:
-- description: This is a conceptual GraphQL schema for Khan Academy, the non-profit providing free online educational content. Khan Academy's public-facing API is a legacy REST API (v1) available under `https://www.
-  name: Khan Academy GraphQL Schema
-  slug: khan-academy-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/khan-academy.png
 layout: provider
 modified: '2026-05-08'
@@ -111,20 +107,20 @@ rate_limits:
   name: Khan Academy Rate Limits
   slug: khan-academy-rate-limits
 score:
-  band: emerging
-  composite: 16.9
+  band: minimal
+  composite: 7.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -9.3
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 37.2
+    contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 59.3
     operational_transparency: 7.9
@@ -136,8 +132,8 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-09-23'
+  score: 16.2
+  scored_at: '2026-09-24'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
   name: Sprout Social API
   slug: sprout-social-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/security/sprout-social-trust-center.yml
@@ -210,10 +210,6 @@ finops:
 - name: Sprout Social Finops
   service_category: ''
   slug: sprout-social-finops
-graphqls:
-- description: '> **Provenance warning (2026-08-13).** Sprout Social does **not** publish a GraphQL API.'
-  name: Sprout Social GraphQL Schema
-  slug: sprout-social-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sprout-social.png
 jsonld:
 - class_count: 0
@@ -225,7 +221,7 @@ modified: '2026-08-13'
 name: Sprout Social
 nav: Providers
 network: true
-overview: 'Sprout Social publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Social Media Management, Publishing, Analytics, and Reporting.
+overview: 'Sprout Social publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social Media, Social Media Management, Publishing, Analytics, and Reporting.
 
 
   The Sprout Social catalog on APIs.io includes 1 JSON-LD context.
@@ -247,20 +243,20 @@ scopes:
   slug: sprout-social-scopes
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 62.0
+  band: developing
+  composite: 52.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 70.0
     catalog_earned_first_party: 20.0
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.0
   facets:
     access_clarity: 92.1
     contract_governance: 33.3
-    contract_quality: 46.8
+    contract_quality: 6.7
     developer_ergonomics: 57.1
     discoverability: 75.9
     operational_transparency: 68.4
@@ -269,8 +265,8 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
-  trend: flat
+  scored_at: '2026-09-24'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -295,7 +291,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 slug: sprout-social
 tags:
-- Social-Media
+- Social Media
 - Social Media Management
 - Publishing
 - Analytics

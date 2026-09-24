@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 5
+- acting_count: 4
   human_in_the_loop: 0
   name: Google Cloud Operations Suite Agentic Access
   operation_count: 9
   slug: google-cloud-operations-suite-agentic-access
-  summary_line: 9 operations · 5 acting
+  summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://monitoring.googleapis.com
@@ -88,7 +88,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://cloud.google.com/products/observability
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -153,6 +153,22 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/json-ld.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://cloud.google.com/stackdriver/docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://cloud.google.com/stackdriver/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cloud.google.com/monitoring/api/ref_v3/rest
+- group: company
+  title: ''
+  type: Blog
+  url: https://cloud.google.com/blog/products/management-tools
 created: '2026-03-13'
 description: Google Cloud Operations Suite (formerly Stackdriver) provides integrated monitoring, logging, and diagnostics for applications and infrastructure running on Google Cloud. It encompasses Cloud Monitoring, Cloud Logging, Cloud Trace, Cloud Profiler, and Error Reporting to deliver comprehensive observability, real-time visibility, alerting, log analysis, distributed tracing, and performance profiling across cloud environments.
 finops:
@@ -162,16 +178,16 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-operations-suite.png
 layout: provider
 modified: '2026-05-19'
-name: Google Cloud Operations Suite
+name: Google Cloud Observability
 nav: Providers
 network: true
-overview: 'Google Cloud Operations Suite publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entries:list API, Entries:write API, and Projects API. Tagged areas include Error Reporting, Google Cloud, Logging, Monitoring, and Observability.
+overview: 'Google Cloud Observability publishes 3 APIs on the [APIs.io](https://apis.io/) network: Google Cloud Operations Suite Entries:list API, Google Cloud Operations Suite Entries:write API, and Google Cloud Operations Suite Projects API. Tagged areas include Error Reporting, Google Cloud, Logging, Monitoring, and Observability.
 
 
-  The Google Cloud Operations Suite catalog on APIs.io includes 1 Spectral governance ruleset.
+  The Google Cloud Observability catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Operations Suite''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, and 10 more developer resources.'
+  Google Cloud Observability''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, API reference, and 13 more developer resources.'
 plans:
 - name: Google Cloud Operations Suite Plans Pricing
   plan_count: 3
@@ -184,7 +200,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: Google Cloud Operations Suite API Rules
+  name: Google Cloud Observability API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -194,7 +210,7 @@ rules:
   slug: google-cloud-operations-suite-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 45.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 55.3
@@ -202,12 +218,12 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 54.4
-    developer_ergonomics: 48.8
+    developer_ergonomics: 58.3
     discoverability: 68.5
     operational_transparency: 26.3
   previous_composite: 43.6
@@ -219,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -244,5 +260,5 @@ tags:
 - Profiling
 - Stackdriver
 - Tracing
-website: https://www.google.com/
+website: https://cloud.google.com/products/observability
 ---

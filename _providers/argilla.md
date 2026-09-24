@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 44
+- acting_count: 42
   human_in_the_loop: 0
   name: Argilla Agentic Access
   operation_count: 73
   slug: argilla-agentic-access
-  summary_line: 73 operations · 44 acting
+  summary_line: 73 operations · 42 acting
 api_count: 1
 apis:
 - baseURL: https://argilla.io
@@ -53,22 +53,22 @@ apis:
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The datasets API from Argilla — 19 operation(s) for datasets.
-  name: Argilla datasets API
+  name: Argilla Datasets API
   slug: argilla-datasets-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The fields API from Argilla — 1 operation(s) for fields.
-  name: Argilla fields API
+  name: Argilla Fields API
   slug: argilla-fields-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The info API from Argilla — 2 operation(s) for info.
-  name: Argilla info API
+  name: Argilla Info API
   slug: argilla-info-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The jobs API from Argilla — 1 operation(s) for jobs.
-  name: Argilla jobs API
+  name: Argilla Jobs API
   slug: argilla-jobs-api
 - baseURL: https://argilla.io
   baseurl_source: declared
@@ -78,47 +78,47 @@ apis:
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The questions API from Argilla — 1 operation(s) for questions.
-  name: Argilla questions API
+  name: Argilla Questions API
   slug: argilla-questions-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The records API from Argilla — 3 operation(s) for records.
-  name: Argilla records API
+  name: Argilla Records API
   slug: argilla-records-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The responses API from Argilla — 2 operation(s) for responses.
-  name: Argilla responses API
+  name: Argilla Responses API
   slug: argilla-responses-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The settings API from Argilla — 1 operation(s) for settings.
-  name: Argilla settings API
+  name: Argilla Settings API
   slug: argilla-settings-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The suggestions API from Argilla — 1 operation(s) for suggestions.
-  name: Argilla suggestions API
+  name: Argilla Suggestions API
   slug: argilla-suggestions-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The users API from Argilla — 4 operation(s) for users.
-  name: Argilla users API
+  name: Argilla Users API
   slug: argilla-users-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The vectors-settings API from Argilla — 1 operation(s) for vectors-settings.
-  name: Argilla vectors-settings API
+  name: Argilla Vectors Settings API
   slug: argilla-vectors-settings-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The webhooks API from Argilla — 3 operation(s) for webhooks.
-  name: Argilla webhooks API
+  name: Argilla Webhooks API
   slug: argilla-webhooks-api
 - baseURL: https://argilla.io
   baseurl_source: declared
   description: The workspaces API from Argilla — 5 operation(s) for workspaces.
-  name: Argilla workspaces API
+  name: Argilla Workspaces API
   slug: argilla-workspaces-api
 artifact_total: 53
 collections:
@@ -300,7 +300,7 @@ modified: 2026-06-12
 name: Argilla
 nav: Providers
 network: true
-overview: 'Argilla publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, datasets API, fields API, and 12 more. Tagged areas include Data Annotation, LLM, NLP, RLHF, and Machine-Learning.
+overview: 'Argilla publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Datasets API, Fields API, and 12 more. Tagged areas include Data Annotation, LLM, NLP, RLHF, and Machine Learning.
 
 
   The Argilla catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
@@ -375,9 +375,9 @@ tags:
 - LLM
 - NLP
 - RLHF
-- Machine-Learning
+- Machine Learning
 - Datasets
-- Open-Source
+- Open Source
 - Human Feedback
 - Fine-Tuning
 - Hugging Face

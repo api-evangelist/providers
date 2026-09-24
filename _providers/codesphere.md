@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -47,52 +47,52 @@ apis:
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The clusters API from Codesphere — 2 operation(s) for clusters.
-  name: Codesphere clusters API
+  name: Codesphere Clusters API
   slug: codesphere-clusters-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The domains API from Codesphere — 4 operation(s) for domains.
-  name: Codesphere domains API
+  name: Codesphere Domains API
   slug: codesphere-domains-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The managed-services API from Codesphere — 5 operation(s) for managed-services.
-  name: Codesphere managed-services API
+  name: Codesphere Managed Services API
   slug: codesphere-managed-services-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The metadata API from Codesphere — 3 operation(s) for metadata.
-  name: Codesphere metadata API
+  name: Codesphere Metadata API
   slug: codesphere-metadata-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The organizations API from Codesphere — 5 operation(s) for organizations.
-  name: Codesphere organizations API
+  name: Codesphere Organizations API
   slug: codesphere-organizations-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The ssh API from Codesphere — 1 operation(s) for ssh.
-  name: Codesphere ssh API
+  name: Codesphere Ssh API
   slug: codesphere-ssh-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The teams API from Codesphere — 6 operation(s) for teams.
-  name: Codesphere teams API
+  name: Codesphere Teams API
   slug: codesphere-teams-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The usage API from Codesphere — 2 operation(s) for usage.
-  name: Codesphere usage API
+  name: Codesphere Usage API
   slug: codesphere-usage-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The vault API from Codesphere — 8 operation(s) for vault.
-  name: Codesphere vault API
+  name: Codesphere Vault API
   slug: codesphere-vault-api
 - baseURL: https://cloud.codesphere.com/api
   baseurl_source: declared
   description: The workspaces API from Codesphere — 21 operation(s) for workspaces.
-  name: Codesphere workspaces API
+  name: Codesphere Workspaces API
   slug: codesphere-workspaces-api
 arazzos:
 - description: Create a workspace, run the prepare and run pipeline stages, and confirm it is live.
@@ -312,7 +312,7 @@ modified: '2026-07-18'
 name: Codesphere
 nav: Providers
 network: true
-overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) network, including clusters API, domains API, managed-services API, and 7 more. Tagged areas include Company, Software-as-a-Service, Cloud, Deployment, and Developer Tools.
+overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Domains API, Managed Services API, and 7 more. Tagged areas include Company, Software-as-a-Service, Cloud, Deployment, and Developer Tools.
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 29 more developer resources.'
@@ -347,7 +347,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-23'
+  scored_at: '2026-09-24'
   trend: flat
   upsert:
     applies: true
