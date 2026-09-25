@@ -258,7 +258,7 @@ modified: '2026-08-14'
 name: 1Lookup
 nav: Providers
 network: true
-overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Phone Validation, Email Validation, IP Intelligence, Fraud and Risk, and Data Enrichment.
+overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Phone Validation, Email Verification, IP Intelligence, Fraud and Risk, and Data Enrichment.
 
 
   The 1Lookup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -330,7 +330,7 @@ security:
 slug: 1lookup
 tags:
 - Phone Validation
-- Email Validation
+- Email Verification
 - IP Intelligence
 - Fraud and Risk
 - Data Enrichment

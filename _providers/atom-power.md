@@ -106,7 +106,7 @@ modified: '2026-08-06'
 name: Atom Power
 nav: Providers
 network: true
-overview: 'Atom Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electric Vehicle Charging, EV Charging, and Circuit Protection.
+overview: 'Atom Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, EV Charging, Circuit Protection, and Solid State Circuit Breaker.
 
 
   Atom Power''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -155,7 +155,6 @@ slug: atom-power
 tags:
 - Company
 - Energy
-- Electric Vehicle Charging
 - EV Charging
 - Circuit Protection
 - Solid State Circuit Breaker

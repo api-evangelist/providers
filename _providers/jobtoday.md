@@ -73,7 +73,7 @@ modified: '2026-07-19'
 name: JobToday
 nav: Providers
 network: true
-overview: 'JobToday is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Job, Recruitment, and Hiring.
+overview: 'JobToday is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Job, Recruiting, and Hiring.
 
 
   JobToday''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
@@ -114,7 +114,7 @@ tags:
 - Company
 - Consumer
 - Job
-- Recruitment
+- Recruiting
 - Hiring
 - Marketplace
 - Employment

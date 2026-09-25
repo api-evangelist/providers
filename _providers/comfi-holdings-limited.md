@@ -75,13 +75,13 @@ description: Comfi (Comfi Holdings Limited) is a UAE-based financial technology 
 image: https://cdn.prod.website-files.com/68e5ae1f4cc044a7c41c7cb9/69de3c00499a1e8c59f62b5c_Image%20Wrapper%20(1).png
 layout: provider
 modified: '2026-07-18'
-name: Comfi Holdings Limited
+name: Comfi
 nav: Providers
 network: true
-overview: 'Comfi Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Working Capital, Invoice Discounting, and Buy Now Pay Later.
+overview: 'Comfi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Working Capital, Invoice Discounting, and Buy Now Pay Later.
 
 
-  Comfi Holdings Limited''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
+  Comfi''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
 random_paper: 16
 score:
   band: emerging

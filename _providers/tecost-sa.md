@@ -94,13 +94,13 @@ description: Tecost SA is a Swiss health-information-technology company, founded
 image: https://www.tecost.ch/images/logo-tecost.svg
 layout: provider
 modified: '2026-09-02'
-name: Tecost SA
+name: Tecost
 nav: Providers
 network: true
-overview: 'Tecost SA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Electronic Health Records, and Clinical Information Systems.
+overview: 'Tecost is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Electronic Health Records, and Clinical Information Systems.
 
 
-  Tecost SA''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Tecost''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Tecost Sa Plans Pricing
   plan_count: 0

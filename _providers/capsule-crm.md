@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
@@ -33,7 +33,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
+  score: 25.0
   scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 15
@@ -72,7 +72,22 @@ apis:
   description: The Tasks API from Capsule CRM — 2 operation(s) for tasks.
   name: Capsule CRM Tasks API
   slug: capsule-crm-tasks-api
-artifact_total: 17
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: declared
+  description: The Opportunities API from Capsule — 7 operation(s) for opportunities.
+  name: Capsule CRM Opportunities API (v2 reference)
+  slug: capsule-opportunities-api
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: declared
+  description: The Parties API from Capsule — 5 operation(s) for parties.
+  name: Capsule CRM Parties API (v2 reference)
+  slug: capsule-parties-api
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: declared
+  description: The Projects API from Capsule — 5 operation(s) for projects.
+  name: Capsule CRM Projects (Kases) API
+  slug: capsule-projects-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -159,29 +174,29 @@ modified: '2026-07-12'
 name: Capsule CRM
 nav: Providers
 network: true
-overview: 'Capsule CRM publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Opportunities API, Parties API, and 2 more. Tagged areas include CRM, Sales, Contacts, Pipeline Management, and Task.
+overview: 'Capsule CRM publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Opportunities API, Parties API, and 5 more. Tagged areas include CRM, Sales, Contacts, Pipeline Management, and Task.
 
 
   Capsule CRM''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 31.9
+  composite: 32.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 53.7
+    contract_quality: 53.0
     developer_ergonomics: 38.1
     discoverability: 68.5
-    operational_transparency: 0.0
+    operational_transparency: 7.9
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -189,7 +204,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 8
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat

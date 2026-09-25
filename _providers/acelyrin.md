@@ -56,10 +56,10 @@ created: '2026-09-06'
 description: 'ACELYRIN, Inc. (Nasdaq: SLRN) was a late-stage clinical biopharmaceutical company headquartered in Agoura Hills, California, focused on accelerating the development and commercialization of medicines in immunology. Its lead candidates were izokibep, an anti-IL-17A small protein therapeutic, and lonigutamab, a humanized IgG1 monoclonal antibody against IGF-1R. It completed a $540M IPO in May 2023, and on May 21, 2025 it merged with a subsidiary of Alumis, Inc. and survives as a wholly owned Alumis subsidiary. Its corporate domain acelyrin.com now 301-redirects to alumis.com. The company is a drug developer, not a software vendor: it published no developer program, public API, SDK, webhook surface, or machine-readable specification, and no GitHub organization exists under the ACELYRIN name.'
 layout: provider
 modified: '2026-09-06'
-name: ACELYRIN, Inc.
+name: ACELYRIN
 nav: Providers
 network: true
-overview: ACELYRIN, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Pharmaceuticals, and Immunology.
+overview: ACELYRIN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Biotechnology, Pharmaceuticals, and Immunology.
 random_paper: 19
 score:
   band: minimal

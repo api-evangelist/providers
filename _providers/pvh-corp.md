@@ -94,13 +94,13 @@ description: PVH Corp, formerly known as the Phillips-Van Heusen Corporation, is
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pvh-corp.png
 layout: provider
 modified: '2026-05-23'
-name: PVH Corp
+name: PVH
 nav: Providers
 network: true
-overview: 'PVH Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Brand Portfolio, Fashion, Lifestyle, and Public Company.
+overview: 'PVH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Brand Portfolio, Fashion, Lifestyle, and Public Company.
 
 
-  PVH Corp''s developer surface includes product news and 12 more developer resources.'
+  PVH''s developer surface includes product news and 12 more developer resources.'
 random_paper: 1
 score:
   band: minimal

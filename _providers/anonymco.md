@@ -132,7 +132,7 @@ modified: '2026-08-12'
 name: Anonym
 nav: Providers
 network: true
-overview: 'Anonym is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Advertising Technology, Privacy, and Ad Measurement.
+overview: 'Anonym is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Privacy, and Ad Measurement.
 
 
   Anonym''s developer surface includes engineering blog and 14 more developer resources.'
@@ -187,7 +187,7 @@ slug: anonymco
 tags:
 - Company
 - Advertising
-- Advertising Technology
+- AdTech
 - Privacy
 - Ad Measurement
 - Confidential Computing

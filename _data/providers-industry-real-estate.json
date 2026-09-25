@@ -1175,6 +1175,62 @@
      "rank": 24
     },
     {
+     "name": "Agora Real Estate",
+     "slug": "agora-real-estate",
+     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 42.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
+    },
+    {
      "name": "ATTOM",
      "slug": "attomdata",
      "description": "ATTOM is a property-data provider. Its API covers assessments, automated valuation models, sales and transaction history, building permits, foreclosures, owner and boundary data, school and community attributes, and property events.",
@@ -1222,7 +1278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "PlanRadar",
@@ -1265,7 +1321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Landmark Information Group",
@@ -1306,62 +1362,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Agora Real Estate",
-     "slug": "agora-real-estate",
-     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 28
@@ -5518,56 +5518,6 @@
      "rank": 120
     },
     {
-     "name": "Flashparking",
-     "slug": "flashparking",
-     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
-     "score": 32.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
-    },
-    {
      "name": "Taylor Morrison Home",
      "slug": "taylor-morrison-home",
      "description": "Taylor Morrison Home Corporation (NYSE: TMHC) is a leading national homebuilder and developer recognized as America's Most Trusted Home Builder for eleven consecutive years. Taylor Morrison designs and constructs single-family homes, communities, and lifestyle developments across the US. Their digital platform enables fully online home purchase, customization, and reservation — including floor plan selection, lot choice, interior design, and digital closing. They integrate with Offerpad for trade-ins, Taylor Morrison Home Funding (TMHF) for mortgages, and multiple proptech partners.",
@@ -5608,7 +5558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Apex27",
@@ -5651,7 +5601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "CREXi",
@@ -5694,7 +5644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Venn",
@@ -5734,6 +5684,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 124
+    },
+    {
+     "name": "Flashparking",
+     "slug": "flashparking",
+     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
+     "score": 32.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 32.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5967,56 +5967,6 @@
      "rank": 130
     },
     {
-     "name": "Offerpad",
-     "slug": "offerpad",
-     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
-     "score": 30.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 68.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 16.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 131
-    },
-    {
      "name": "Navigate",
      "slug": "navigate",
      "description": "Navigate (NavigateAI) is a proptech company building an AI copilot for the physical world, helping field teams across construction, commercial real estate, homebuilding, data centers, and the trades complete projects faster, at higher quality, and lower cost. Its platform combines AI Capture for mobile visual documentation of project features and quality, AI Insights for on-demand expert coaching and upskilling, and AI Workflows for automating documentation and communication. Co-founded by Eric Wu and David Sinsky, Navigate is backed by Khosla Ventures, Affinity Partners, and Fifth Wall, with strategic investors including Tishman Speyer, Lennar, and Helix Electric. Navigate publishes a real external REST API (OpenAPI 3.1, bearer API-key auth) at https://api.navigateai.co for programmatically managing locations, visits, video captures, scopes, line items, work orders, and vendors.",
@@ -6057,7 +6007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "AlterEstate",
@@ -6100,7 +6050,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "MRI Software",
@@ -6143,7 +6093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Clear Capital",
@@ -6186,7 +6136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Flueid",
@@ -6243,7 +6193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Level Home",
@@ -6286,49 +6236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
-    },
-    {
-     "name": "1000 Satellites",
-     "slug": "1000satellitescoworking",
-     "description": "1000 Satellites GmbH is a German flex-office and coworking operator founded in 2019 in Mannheim by Caro Windlin, Markus Hummelsberger and Gregory von Abendroth as a spin-off of BASF's innovation unit Chemovator. It converts underused office space from corporate real-estate portfolios into professionally operated, decentralised \"satellite\" workspaces across the Rhein-Neckar region, Munich, Hamburg and Berlin, selling day passes, monthly memberships, team tickets, fixed desks, meeting rooms and event space rather than a software product. It is not a software vendor and publishes no product or developer API. Its machine-readable surface is what the company's WordPress estate exposes on 1000satellites.de: an anonymously readable WordPress REST content API (wp/v2) serving news posts, location and marketing pages, media and site search; and — notably for a business of this kind — a live remote Model Context Protocol server published through the WordPress MCP Adapter, advertised by real RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata, with tools/list authentication-gated.",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 138
+     "rank": 136
     },
     {
      "name": "Yuhu",
@@ -6378,7 +6286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 137
     },
     {
      "name": "TwentyCi",
@@ -6421,7 +6329,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 138
+    },
+    {
+     "name": "1000 Satellites",
+     "slug": "1000satellitescoworking",
+     "description": "1000 Satellites GmbH is a German flex-office and coworking operator founded in 2019 in Mannheim by Caro Windlin, Markus Hummelsberger and Gregory von Abendroth as a spin-off of BASF's innovation unit Chemovator. It converts underused office space from corporate real-estate portfolios into professionally operated, decentralised \"satellite\" workspaces across the Rhein-Neckar region, Munich, Hamburg and Berlin, selling day passes, monthly memberships, team tickets, fixed desks, meeting rooms and event space rather than a software product. It is not a software vendor and publishes no product or developer API. Its machine-readable surface is what the company's WordPress estate exposes on 1000satellites.de: an anonymously readable WordPress REST content API (wp/v2) serving news posts, location and marketing pages, media and site search; and — notably for a business of this kind — a live remote Model Context Protocol server published through the WordPress MCP Adapter, advertised by real RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata, with tools/list authentication-gated.",
+     "score": 29.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 139
     },
     {
      "name": "Knight Frank",
@@ -6471,7 +6421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "CoworkingView API",
@@ -6510,6 +6460,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 141
+    },
+    {
+     "name": "Offerpad",
+     "slug": "offerpad",
+     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
+     "score": 28.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 68.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 16.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7983,6 +7983,49 @@
      "rank": 174
     },
     {
+     "name": "Boston Properties (BXP)",
+     "slug": "boston-properties",
+     "description": "BXP (formerly Boston Properties) is the largest publicly traded developer, owner, and manager of premier workplaces in the United States. The company develops, owns, and manages Class A office properties across six major U.S. markets: Boston, Los Angeles, New York, San Francisco, Seattle, and Washington DC. BXP is a self-administered and self-managed REIT focused on premier urban workspace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/screenshots/boston-properties-2026-06-20T173614.png",
+     "score": 22.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 26.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 175
+    },
+    {
      "name": "TenantCloud",
      "slug": "tenantcloud",
      "description": "Cloud-based property management platform with a REST API for managing rentals, tenants, leases, maintenance, accounting, and online rent payment processing. The API enables landlords, property managers, and developers to automate daily tasks and build integrations on top of the TenantCloud platform.",
@@ -8025,48 +8068,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 175
-    },
-    {
-     "name": "Unlock",
-     "slug": "unlock",
-     "description": "Unlock Technologies, Inc. is a Tempe, Arizona fintech founded in 2020 by Jim Riccitelli, Dan Foster and Ryan Craft, with a branch office in Troy, Michigan. Its flagship product is the home equity agreement (HEA) — a homeowner receives a lump sum today, from $15,000 up to $500,000, in exchange for a share of the home's future value, with no monthly payments and no interest, settled when the home is sold or refinanced or at the end of the ten-year term. Unlock charges an origination fee of up to 4.9% of the amount advanced, takes a share of the property capped at 49.9%, and caps its own return at 19.9% per year. The company is licensed in 26 US states and has raised roughly $52.6M in equity; its Series B included a $30M equity investment from D2 Asset Management, with Saluda Grade, Second Century Ventures and REACH also participating. Unlock sells to homeowners, not to developers: it publishes no developer program, no API reference, no SDKs, no key issuance and no partner API. The only machine-readable interfaces it exposes are the first-party WordPress REST namespaces behind www.unlock.com — `unlock/v1`, `unlock/v2` and `unlk/v1`, custom endpoints written for Unlock rather than WordPress core routes — plus the core `wp/v2` editorial content API. Both are captured here for discovery, are anonymously readable, and are read-only without credentials.",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -8296,6 +8297,48 @@
      "rank": 181
     },
     {
+     "name": "Unlock",
+     "slug": "unlock",
+     "description": "Unlock Technologies, Inc. is a Tempe, Arizona fintech founded in 2020 by Jim Riccitelli, Dan Foster and Ryan Craft, with a branch office in Troy, Michigan. Its flagship product is the home equity agreement (HEA) — a homeowner receives a lump sum today, from $15,000 up to $500,000, in exchange for a share of the home's future value, with no monthly payments and no interest, settled when the home is sold or refinanced or at the end of the ten-year term. Unlock charges an origination fee of up to 4.9% of the amount advanced, takes a share of the property capped at 49.9%, and caps its own return at 19.9% per year. The company is licensed in 26 US states and has raised roughly $52.6M in equity; its Series B included a $30M equity investment from D2 Asset Management, with Saluda Grade, Second Century Ventures and REACH also participating. Unlock sells to homeowners, not to developers: it publishes no developer program, no API reference, no SDKs, no key issuance and no partner API. The only machine-readable interfaces it exposes are the first-party WordPress REST namespaces behind www.unlock.com — `unlock/v1`, `unlock/v2` and `unlk/v1`, custom endpoints written for Unlock rather than WordPress core routes — plus the core `wp/v2` editorial content API. Both are captured here for discovery, are anonymously readable, and are read-only without credentials.",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 182
+    },
+    {
      "name": "Zumper",
      "slug": "zumper",
      "description": "Zumper is a rental listing marketplace that connects renters with landlords and property managers across the United States and Canada. The platform provides access to apartment listings, property data, rental price insights, and tenant application management. Zumper offers a REST API and syndication feeds enabling property management software providers and partners to publish listings, retrieve rental market data, and integrate tenant screening and leasing workflows. The platform processes over 76 million site visits annually and syndicates listings across PadMapper, ChatGPT, Microsoft Bing, and Realtor.com.",
@@ -8336,7 +8379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Console Group",
@@ -8386,7 +8429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "LoopNet",
@@ -8428,93 +8471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
-    },
-    {
-     "name": "NeueHouse",
-     "slug": "neuehouse",
-     "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 35.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 185
-    },
-    {
-     "name": "HouseSigma",
-     "slug": "housesigma",
-     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations (SigmaEstimate) across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page; developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The listing, sold-history and valuation backend at housesigma.com/bkv2/api/ is private, keyless, undocumented, and explicitly disallowed to all crawlers in robots.txt. The one genuinely public, anonymously callable, machine-readable HTTP surface the company operates is the WordPress REST API behind housesigma.com/blog-en, which serves its Canadian housing-market analysis blog as JSON across 157 advertised routes; API Evangelist derived an OpenAPI for the 22 operations verified to answer anonymously. HouseSigma also publishes a real llms.txt and mobile deep-link association documents. RESO is absent: HouseSigma is not among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png",
-     "score": 21.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 186
     },
     {
      "name": "Landis",
@@ -8557,7 +8514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Better",
@@ -8607,7 +8564,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "EliseAI",
@@ -8654,6 +8611,49 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 188
+    },
+    {
+     "name": "NeueHouse",
+     "slug": "neuehouse",
+     "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 189
@@ -9066,6 +9066,49 @@
      "rank": 198
     },
     {
+     "name": "HouseSigma",
+     "slug": "housesigma",
+     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations (SigmaEstimate) across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page; developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The listing, sold-history and valuation backend at housesigma.com/bkv2/api/ is private, keyless, undocumented, and explicitly disallowed to all crawlers in robots.txt. The one genuinely public, anonymously callable, machine-readable HTTP surface the company operates is the WordPress REST API behind housesigma.com/blog-en, which serves its Canadian housing-market analysis blog as JSON across 157 advertised routes; API Evangelist derived an OpenAPI for the 22 operations verified to answer anonymously. HouseSigma also publishes a real llms.txt and mobile deep-link association documents. RESO is absent: HouseSigma is not among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png",
+     "score": 19.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 199
+    },
+    {
      "name": "Kleio",
      "slug": "kleio",
      "description": "Kleio is a Paris-headquartered agentic commerce platform for complex, high-value enterprise sales, founded in 2024 by Adrien Mathieu, Philippe Wellens and Louis Poirier and backed by a EUR 3M seed round. The platform pairs a domain-specific Knowledge Engine — a continuously updated representation of a company's catalog, pricing, business rules and ontologies — with a stack of orchestrated AI agents tuned for each stage of the sales funnel: discovery agents for intent qualification, product-guidance agents that reason over the catalog, quoting agents wired to configurators and pricing, and a Live Sales Copilot that augments human advisors in real time. Kleio deploys across web widgets, advisor desktops and third-party AI surfaces such as ChatGPT and Gemini via MCP/UCP integrations, with CRM and catalog write-back to Salesforce, HubSpot and custom systems. Named customers include Selectour, Havas Voyages, Showroomprive, Altarea Cogedim, Orpi and Emil Frey, across travel, real estate, automotive, wholesale, insurance, manufacturing and energy. Kleio publishes no public developer portal, API reference or OpenAPI: the platform API at api.kleio.ai is an OAuth-protected Google Cloud API Gateway reachable only to customers, and access begins with a sales conversation.",
@@ -9106,7 +9149,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "TheGuarantors",
@@ -9147,49 +9190,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 200
-    },
-    {
-     "name": "Boston Properties (BXP)",
-     "slug": "boston-properties",
-     "description": "BXP (formerly Boston Properties) is the largest publicly traded developer, owner, and manager of premier workplaces in the United States. The company develops, owns, and manages Class A office properties across six major U.S. markets: Boston, Los Angeles, New York, San Francisco, Seattle, and Washington DC. BXP is a self-administered and self-managed REIT focused on premier urban workspace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/screenshots/boston-properties-2026-06-20T173614.png",
-     "score": 19.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -10225,49 +10225,6 @@
      "rank": 224
     },
     {
-     "name": "Habiteo",
-     "slug": "habiteo",
-     "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png",
-     "score": 17.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 225
-    },
-    {
      "name": "Apartments.com",
      "slug": "apartments-com",
      "description": "Apartments.com is the largest United States rental-listings marketplace, owned by CoStar Group since its 2014 acquisition and operated from Arlington, Virginia as the anchor of the Apartments.com Network — a group of consumer rental sites that also includes ApartmentFinder.com, ApartmentHomeLiving.com, ForRent.com, ForRentUniversity.com, WestsideRentals.com, Apartamentos.com, After55.com and CorporateHousing.com. It sits on the demand side of the US residential value chain as an Internet Listing Service (ILS): apartment owners and property managers buy advertising, and their inventory, availability, pricing, media, concessions and fee data flows in from property management systems (Yardi, RealPage, Entrata, MRI, AppFolio, ResMan, Rent Manager, Funnel, EliseAI and others) rather than from any public API, while leads flow back out to the advertiser's CRM. Its API posture is closed. Apartments.com publishes no developer portal, no OpenAPI or OData $metadata contract, no SDK, no webhooks and no Postman collection; developer.apartments.com, developers.apartments.com and docs.apartments.com do not resolve in DNS, and api.apartments.com resolves only to the same Akamai edge that returns HTTP 403 Access Denied to every non-browser request, including robots.txt. The one documented machine-to-machine seam is the Digital Feeds Program — an approval-and-contract path in which an approved third-party feed vendor syndicates a paying advertiser's listings into Apartments.com over FTP using an XML listings feed whose specification guide is available only on request to Feeds@apartments.com. A second inbound seam lets licensed agents opt in to rental-listing syndication through their own MLS (Bright MLS, ARMLS, REcolorado, OneKey MLS, SmartMLS, NorthstarMLS, MLS PIN, Garden State MLS, New Jersey MLS and Aspen Glenwood MLS are documented), which requires MLS membership. On RESO, the honest reading is absence rather than \"certified but unreachable\": Apartments.com does not appear anywhere in the RESO certificates list, and its own property-manager help centre returns zero results for \"RESO\". It is a consumer of MLS rental feeds, not a certified RESO endpoint, and no unlicensed open dataset is published.",
@@ -10308,7 +10265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Nuvolo",
@@ -10358,7 +10315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "RealScout",
@@ -10401,49 +10358,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 228
-    },
-    {
-     "name": "91Squarefeet",
-     "slug": "91squarefeet",
-     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 229
+     "rank": 227
     },
     {
      "name": "Better Mortgage",
@@ -10486,7 +10401,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 228
     },
     {
      "name": "Greenlite",
@@ -10536,7 +10451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 229
     },
     {
      "name": "Standard Industries",
@@ -10579,7 +10494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 230
     },
     {
      "name": "CrowdStreet",
@@ -10622,7 +10537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 231
     },
     {
      "name": "LendingPad",
@@ -10665,7 +10580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 232
     },
     {
      "name": "Pretto",
@@ -10715,7 +10630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 233
     },
     {
      "name": "Summer 2",
@@ -10758,7 +10673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 234
     },
     {
      "name": "Blueground",
@@ -10801,7 +10716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 235
     },
     {
      "name": "Buildium",
@@ -10844,7 +10759,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 236
+    },
+    {
+     "name": "Habiteo",
+     "slug": "habiteo",
+     "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png",
+     "score": 16.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 237
     },
     {
      "name": "Aceable",
@@ -10894,7 +10852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Build",
@@ -10937,7 +10895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Real Estate Institute of Australia",
@@ -10980,7 +10938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Rentals.ca",
@@ -11030,7 +10988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "OnTheMarket",
@@ -11073,7 +11031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Realtyna",
@@ -11116,7 +11074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Simon Property Group",
@@ -11159,7 +11117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "VendorPM",
@@ -11202,7 +11160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Roofstock",
@@ -11245,7 +11203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "OLX",
@@ -11288,7 +11246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Northspyre",
@@ -11331,7 +11289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Aerwave",
@@ -11380,7 +11338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Staircase",
@@ -11423,7 +11381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "Storefront",
@@ -11463,6 +11421,48 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 251
+    },
+    {
+     "name": "91Squarefeet",
+     "slug": "91squarefeet",
+     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -13093,7 +13093,7 @@
      "rank": 289
     },
     {
-     "name": "Safqah Holdings Limited",
+     "name": "Safqah",
      "slug": "safqah-holdings-limited",
      "description": "Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh and regulated by the Saudi Capital Market Authority (CMA). Safqah provides Sharia-compliant, debt-based real estate investment opportunities that let qualified individual and institutional investors fund real estate development deals starting from 1,000 SAR, alongside a financing arm that offers land acquisition, residential development, commercial development, raw land, and bridge financing to real estate developers. Investors track deal performance through periodic reporting and live project camera feeds. The platform is a consumer- and investor-facing web application with no publicly documented developer API, SDK, or integration surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/screenshots/safqah-holdings-limited-2026-09-02T154254.png",
@@ -13843,7 +13843,7 @@
      "rank": 306
     },
     {
-     "name": "Aino World Inc.",
+     "name": "Aino World",
      "slug": "aino-world-inc",
      "description": "Aino World Inc. builds Aino, an AI-powered spatial analytics platform for architecture, urban planning, and real estate development teams. Aino automates site research by pulling zoning, parcel, transit, demographic, and environmental data from 10+ sources (Google Maps, Regrid, Rentcast, OpenStreetMap, Overture Maps, Microsoft Planetary Computer, Kontur.io, and the US Census), runs GIS-free spatial analysis, and generates presentation-ready maps and dashboards inside a shared, collaborative workspace. Coverage spans 400+ cities with thousands of reusable data layers and CAD/GeoJSON (DXF) exports. Backed by 500 Global. Programmatic API access is offered on the enterprise Business tier.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aino-world-inc/refs/heads/main/screenshots/aino-world-inc-2026-07-25T195359.png",
@@ -14416,7 +14416,7 @@
      "rank": 319
     },
     {
-     "name": "Smart Bricks Holdings Limited",
+     "name": "Smart Bricks",
      "slug": "smart-bricks-holdings-limited",
      "description": "Smart Bricks Holdings Limited operates Smart Bricks, an AI-powered real estate investment platform that uses proprietary foundational models and autonomous agents to help retail and institutional investors discover, underwrite, execute, and monitor property deals globally. Backed by a16z, Google, NVIDIA, Microsoft, Techstars, and 500 Global, the company automates deal sourcing, risk modeling across 1,000+ variables per opportunity, diligence, documentation, and portfolio intelligence. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment; Smart Bricks currently publishes a consumer and institutional web application but no public API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/smart-bricks-holdings-limited/refs/heads/main/screenshots/smart-bricks-holdings-limited-2026-09-02T155904.png",
@@ -18784,7 +18784,7 @@
      "rank": 418
     },
     {
-     "name": "Leadstate Incorporated",
+     "name": "Leadstate",
      "slug": "leadstate-incorporated",
      "description": "Leadstate Incorporated is a New York City based real estate and design technology company, founded in 2021 and backed by 500 Global, that builds AI and AR tooling for how spaces are planned, developed, designed, and marketed. Its consumer-facing products are ReelProp, which turns static property photography and interior design sketches into marketing video reels, and RealMe In, which generates and manipulates 3D assets. The published product surface covers Photo-to-Video and Sketch-to-Video generation, CADgpt text-to-3D model generation, Image-to-3D asset conversion, and FloorPlan-to-3D visualization. As of this enrichment pass the company publishes no public developer portal, API reference, OpenAPI definition, SDK, or machine-readable developer surface of any kind, so this profile records verified company identity and web properties only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leadstate-incorporated/refs/heads/main/screenshots/leadstate-incorporated-2026-07-25T224719.png",
@@ -20947,7 +20947,7 @@
      "rank": 466
     },
     {
-     "name": "Workplaced Technologies Ltd",
+     "name": "Workplaced Technologies",
      "slug": "workplaced-technologies-ltd",
      "description": "Workplaced (Workplaced Technologies Ltd) is a workplace-strategy and hybrid-work SaaS platform that helps companies create workplaces that work. Its products cover workplace experience surveys (Dynamics), office occupancy measurement beyond sensor data (Occupancy), space taxonomy and office planning (Taxonomy), desk and meeting-room booking (Booking), and hybrid work policy modelling (Balance), alongside a pricing calculator, free planning tools, research reports, and a partner program. Workplaced is a 500 Global portfolio company. It publishes no public developer program - the api.workplaced.com backend is fully authentication-gated with no public documentation or specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workplaced-technologies-ltd/refs/heads/main/screenshots/workplaced-technologies-ltd-2026-09-02T170943.png",
@@ -21319,7 +21319,7 @@
      "rank": 474
     },
     {
-     "name": "SL Green Realty Corp.",
+     "name": "SL Green",
      "slug": "sl-green-realty",
      "description": "SL Green Realty Corp. (NYSE: SLG) is \"Manhattan's largest office landlord, a fully integrated real estate investment trust, or REIT, that is focused primarily on acquiring, managing and maximizing the value of Manhattan commercial properties.\" Founded in 1997 by Stephen L. Green (as successor to S.L. Green Properties, established 1980) and headquartered in New York City, SL Green is led by Chairman & CEO Marc Holliday. As of fiscal year-end 2024 the company reported 39 properties totaling approximately 25.3 million square feet, US$886M in revenue, US$10.47B in total assets, and 1,221 employees. The portfolio includes flagship trophy assets One Vanderbilt (1,401 ft, 1.75M sq ft, 62 stories, fully leased; home to Summit One Vanderbilt observation deck) and One Madison Avenue (2026 ULI Award for Excellence in Office Development), plus 420 Lexington Avenue, 1185 Avenue of the Americas, 1350 Avenue of the Americas, 800 Third Avenue, 825 Eighth Avenue, Worldwide Plaza, the Pershing Square Building, and 15 Laight Street in Tribeca. The company is the New York joint-venture partner for Caesars Palace Times Square, the proposed casino/entertainment complex at 1515 Broadway (and adjacent 1185 Avenue of the Americas redevelopment), pending issuance of one of three New York State downstate gaming licenses. Business divisions span leasing, finance, investments, construction, development, hospitality, property management, security & life safety, sustainability, and technology. SL Green publishes no public developer APIs, no OpenAPI/AsyncAPI specs, no SDKs, no developer portal, no public GitHub organization, and no public sandbox. Its tenant-facing technology surface is delivered through third-party platforms — the \"My Building\" tenant portal, RequestCom for building services, and ADP Workforce for recruitment — none of which expose a programmable interface attributable to SL Green. This profile documents the REIT, its portfolio, leadership, and verified absence of a public API footprint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sl-green-realty/refs/heads/main/screenshots/sl-green-realty-2026-06-20T194019.png",
@@ -27465,7 +27465,7 @@
      "rank": 614
     },
     {
-     "name": "Saul Ewing LLP",
+     "name": "Saul Ewing",
      "slug": "saul-ewing",
      "description": "Saul Ewing LLP is a U.S.-based law firm founded in 1921 as Saul, Ewing, Remick & Saul, with more than 450 attorneys across 17 U.S. offices spanning the Mid-Atlantic, Northeast, Midwest, Florida, and California. The firm serves clients across 40+ industries with practice strengths in litigation, corporate and M&A, bankruptcy and restructuring, real estate, public finance, life sciences, financial services, intellectual property, labor and employment, and cybersecurity and privacy. Saul Ewing does not publish a public developer API, SDK, OpenAPI specification, or machine-readable data product; its public technology surface is limited to its corporate website, a HighQ-powered client portal, the SEquel Alumni Portal at alumni.saul.com, employee remote-access tooling, and a small set of practice-specific blogs (Construction Industry Counselor, OZ and EB-5 Investments, Legacy Matters, The Friday Five). Two empty GitHub organizations (Saul-Ewing and saulewing) exist with zero public repositories.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png",

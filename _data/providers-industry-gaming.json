@@ -1,6 +1,6 @@
 {
- "total": 719,
- "shown": 719,
+ "total": 718,
+ "shown": 718,
  "limit": 1000,
  "bands": [
   {
@@ -7694,8 +7694,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 151,
-   "shown": 151,
+   "count": 150,
+   "shown": 150,
    "providers": [
     {
      "name": "GDevelop",
@@ -8530,7 +8530,7 @@
      "rank": 191
     },
     {
-     "name": "Nexon Inc",
+     "name": "Nexon",
      "slug": "nexon-inc",
      "description": "Nexon (operated by Nexon Korea Co., Ltd.) is a global video game publisher whose NEXON Open API platform at openapi.nexon.com gives developers programmatic access to per-game data such as character, ranking, and match information. Requests are authenticated with a per-application API key sent in the x-nxopen-api-key HTTP header and served from open.api.nexon.com; the developer portal provides application registration, usage analytics, per-game API references, and integration guides.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexon-inc/refs/heads/main/screenshots/nexon-inc-2026-08-07T185157.png",
@@ -10134,15 +10134,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -10151,7 +10151,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -10160,7 +10160,7 @@
      "rank": 228
     },
     {
-     "name": "String Technology Inc",
+     "name": "String Technology",
      "slug": "string-technology-inc",
      "description": "String (string.xyz) is a fiat interoperability platform for Web3 gaming, operated by String Technology Inc and backed by 500 Global. String lets game developers accept credit-card and bank payments natively inside their games, acting as the merchant of record and counterparty for fiat on/off ramps, NFT purchases, and cross-chain payments. A player pays fiat on traditional rails and String delivers the digital asset on-chain — either by interacting with the game's smart contract to mint/send an NFT or by sending a token from its treasury to the player's wallet. String ships three integration surfaces — String Checkout (drop-in payment app), a Unity SDK, and String Direct (custom web SDK) — all wrapping a REST API at string-api.xyz that covers API keys, contracts, platforms (games), members, organizations, users (players), saved cards, wallet-signature login, quotes, and transactions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/screenshots/string-technology-inc-2026-09-02T161015.png",
@@ -10511,49 +10511,6 @@
      "rank": 236
     },
     {
-     "name": "Skydance Media",
-     "slug": "skydance-media",
-     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 237
-    },
-    {
      "name": "Forte Labs",
      "slug": "forte-labs",
      "description": "Forte builds on-chain compliance and economic tooling for games and Web3 applications. Its flagship developer product, the Forte Rules Engine, is an open-source EVM protocol that lets developers define powerful, flexible, and composable on-chain policies — for regulatory compliance, risk management, and token-economy design — without hardcoding rules into their smart contracts. The engine centers on policies, rules, trackers, and calling/foreign contracts, ships client contracts for the ERC20/721/1155/721A token standards, and is consumed through a TypeScript SDK. Forte was founded in 2019 and is backed by Andreessen Horowitz, Battery Ventures, Griffin Gaming Partners, and Canaan. This profile catalogs Forte's public developer surface — Rules Engine documentation, SDK, and GitHub organization.",
@@ -10594,7 +10551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Zed",
@@ -10637,7 +10594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Babylon.js",
@@ -10680,7 +10637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "NAVER Z",
@@ -10723,7 +10680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Supercell",
@@ -10766,7 +10723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Spline",
@@ -10800,6 +10757,49 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 242
+    },
+    {
+     "name": "Skydance Media",
+     "slug": "skydance-media",
+     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -10855,7 +10855,7 @@
      "rank": 244
     },
     {
-     "name": "Primodium Inc.",
+     "name": "Primodium",
      "slug": "primodium-inc",
      "description": "Primodium Inc. (primodiumxyz) is a developer-focused studio building fully on-chain applications and games on Ethereum and Solana. It ships two on-chain games — Primodium, a space-based factory-building game, and Primodium: Empires, a turn-based prediction-market game — both built with MUD and Phaser, alongside a suite of open-source developer libraries and infrastructure: Reactive Tables (a strictly-typed reactive table library for MUD apps), a Solana DEX Indexer Stack exposing a GraphQL API over Hasura/Timescale, a tRPC transaction-sponsoring DEX server, an off-chain MUD indexer, and gasless-transaction relayers. All tooling is published open-source under the MIT license via the primodiumxyz GitHub organization and the @primodiumxyz npm scope.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/primodium-inc/refs/heads/main/screenshots/primodium-inc-2026-09-02T152027.png",
@@ -12479,49 +12479,6 @@
      "rank": 281
     },
     {
-     "name": "NeonRain, Inc.",
-     "slug": "neonrain-inc",
-     "description": "NeonRain, Inc. is a 500 Global portfolio company whose public product surface resolves to Playabl (playabl.ai), an AI-powered, no-code platform that lets anyone create web games and interactive experiences by chatting with AI. Users describe a game idea in plain English and Playabl's generative AI produces a playable prototype instantly, which can be refined conversationally and published to the web. Founded in 2025 and headquartered in the United States, the product targets educators, indie developers, marketers, and hobbyists. As of this enrichment pass the company publishes a consumer web application with no developer-facing API, SDK, documentation, or developer portal surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neonrain-inc/refs/heads/main/screenshots/neonrain-inc-2026-08-07T184849.png",
-     "score": 12.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 282
-    },
-    {
      "name": "Playabl",
      "slug": "playablai",
      "description": "Playabl is a no-code, conversational game creation platform that lets anyone build games and interactive experiences by chatting with AI. Operated by Replkt, Inc. and backed by Y Combinator, Playabl turns natural-language prompts into playable games across genres including sports, idle, brainrot, dopamine, and think/puzzle categories, with no coding required. The product is a consumer-facing web application (playabl.ai); as of this profile Playabl does not publish a public developer API, SDK, or technical documentation surface. This profile was surfaced as a Y Combinator portfolio company and enriched by the API Evangelist pipeline from the company's public web presence.",
@@ -12562,7 +12519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "ThriveFantasy",
@@ -12605,7 +12562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Hyperpad",
@@ -12655,7 +12612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Machinations",
@@ -12698,7 +12655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Track Titan",
@@ -12748,7 +12705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "RACE Protocol",
@@ -12791,7 +12748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Zynga",
@@ -12833,7 +12790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Open 3D Foundation",
@@ -12876,7 +12833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Players Lounge",
@@ -12918,7 +12875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Spacetime Studios",
@@ -12960,7 +12917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Play Versus",
@@ -13010,7 +12967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Brelyon",
@@ -13053,7 +13010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Improbable",
@@ -13096,7 +13053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Loft Dynamics",
@@ -13139,7 +13096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Loftia",
@@ -13182,7 +13139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Lumosity",
@@ -13232,7 +13189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Pop.in",
@@ -13275,7 +13232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Sira Medical",
@@ -13325,7 +13282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Underdog Fantasy",
@@ -13368,7 +13325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "L'Oréal",
@@ -13410,7 +13367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Gen.G",
@@ -13453,7 +13410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Health Scholars",
@@ -13503,7 +13460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Draxon",
@@ -13546,7 +13503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "EyeLights",
@@ -13589,7 +13546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "8th Wall",
@@ -13632,7 +13589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Lil Snack",
@@ -13675,7 +13632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Saphlux",
@@ -13718,7 +13675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "World Golf Tour",
@@ -13761,7 +13718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Pocket Gems",
@@ -13804,7 +13761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Wooga",
@@ -13847,7 +13804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Upsight",
@@ -13892,7 +13849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Poker Skill",
@@ -13942,7 +13899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "The Meta",
@@ -13985,7 +13942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Tripledot",
@@ -14028,7 +13985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Alta VR",
@@ -14071,7 +14028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Draftea",
@@ -14114,7 +14071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Gankster",
@@ -14157,7 +14114,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "InfiniGods",
@@ -14200,7 +14157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Kidas",
@@ -14243,7 +14200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "Squint",
@@ -14286,7 +14243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Statespace",
@@ -14329,7 +14286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     }
    ]
   },
@@ -14382,7 +14339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "B612",
@@ -14425,7 +14382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "dreamgames",
@@ -14468,7 +14425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Playsome",
@@ -14511,7 +14468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Red 6",
@@ -14554,7 +14511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "AltspaceVR",
@@ -14597,7 +14554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Lilith Games",
@@ -14640,7 +14597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Ubiquity6",
@@ -14683,7 +14640,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Prisms VR",
@@ -14733,7 +14690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Crystal Dynamics",
@@ -14776,7 +14733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Ergatta",
@@ -14819,7 +14776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Hutch Games",
@@ -14862,7 +14819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Jam City",
@@ -14905,7 +14862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Kabam",
@@ -14947,7 +14904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "Mobile Premier League",
@@ -14990,7 +14947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Odyssey Interactive",
@@ -15033,7 +14990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Pokelabo",
@@ -15076,7 +15033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "PortalOne",
@@ -15119,7 +15076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Resolution Games",
@@ -15162,7 +15119,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Rosebud AI",
@@ -15205,7 +15162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Sandbox VR",
@@ -15248,7 +15205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Splash",
@@ -15291,7 +15248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Super Evil Megacorp",
@@ -15334,7 +15291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Tactile Games",
@@ -15376,7 +15333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Voldex",
@@ -15419,7 +15376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Volley",
@@ -15462,7 +15419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "ForeVR",
@@ -15505,7 +15462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Maya",
@@ -15548,7 +15505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "Playco",
@@ -15591,7 +15548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "ProbablyMonsters",
@@ -15634,7 +15591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Sanlo",
@@ -15684,7 +15641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Animoca Brands",
@@ -15727,7 +15684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Antimatter Systems",
@@ -15777,7 +15734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Peak",
@@ -15827,7 +15784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Sett AI",
@@ -15869,7 +15826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Tyffon",
@@ -15912,7 +15869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "WayRay",
@@ -15954,7 +15911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Tap",
@@ -16004,7 +15961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "1047 Games",
@@ -16047,7 +16004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "End Game Interactive",
@@ -16090,7 +16047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Funcom",
@@ -16133,7 +16090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Futureplay",
@@ -16176,7 +16133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Gym Class VR",
@@ -16219,7 +16176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Immersive Gamebox",
@@ -16262,7 +16219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Jackpocket",
@@ -16304,7 +16261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Junglee Games",
@@ -16347,7 +16304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "mojiworks",
@@ -16390,7 +16347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Onibi",
@@ -16433,7 +16390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Phoenix Labs",
@@ -16476,7 +16433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "PlayQ",
@@ -16519,7 +16476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Pops",
@@ -16562,7 +16519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Supersolid",
@@ -16605,7 +16562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "TaleMonster Games",
@@ -16648,7 +16605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "videogame.ai",
@@ -16691,7 +16648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Live Aware Labs",
@@ -16734,7 +16691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Mojo Vision",
@@ -16777,7 +16734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "ID Planet",
@@ -16827,7 +16784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Osmo",
@@ -16877,7 +16834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "AppliedVR",
@@ -16927,7 +16884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Azra Games",
@@ -16970,7 +16927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Harmonix",
@@ -17013,7 +16970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Rovio Entertainment",
@@ -17056,7 +17013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "Wildlife Studios",
@@ -17099,7 +17056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Dare Drop",
@@ -17142,7 +17099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "FanDuel",
@@ -17185,7 +17142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "RealNetworks",
@@ -17235,7 +17192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "Geopipe",
@@ -17278,7 +17235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "6 Waves",
@@ -17321,7 +17278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "AlmostApps",
@@ -17364,7 +17321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "AutoLotto",
@@ -17407,7 +17364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "BIT ODD",
@@ -17449,7 +17406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Closing Theory Studios",
@@ -17492,7 +17449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Everyrealm",
@@ -17535,7 +17492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "Flickplay",
@@ -17578,7 +17535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "FreshPlanet",
@@ -17621,7 +17578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Good Job Games",
@@ -17664,7 +17621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Grand Games",
@@ -17707,7 +17664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Mission Control Games",
@@ -17750,7 +17707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Mother Games",
@@ -17793,7 +17750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "PLAYSTUDIOS",
@@ -17836,7 +17793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Powder",
@@ -17879,7 +17836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Roboto Games",
@@ -17922,7 +17879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "SuperGaming",
@@ -17965,7 +17922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "Yuga Labs",
@@ -18007,7 +17964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Incite Interactive",
@@ -18050,7 +18007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "tagSpace",
@@ -18092,7 +18049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "Medivis",
@@ -18142,7 +18099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Vivid Vision",
@@ -18199,7 +18156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "FanCraze",
@@ -18249,7 +18206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Five Jack",
@@ -18292,7 +18249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Matcherino",
@@ -18342,7 +18299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "PrizePicks",
@@ -18384,7 +18341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "Zwift",
@@ -18427,7 +18384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "E-Pal",
@@ -18470,7 +18427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "Future Trash",
@@ -18513,7 +18470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "ThatGameCompany",
@@ -18556,7 +18513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Cartwheel",
@@ -18599,7 +18556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Riiico",
@@ -18642,7 +18599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Yield Guild Games",
@@ -18685,7 +18642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "2bytes",
@@ -18727,10 +18684,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
-     "name": "ELKROOM CO., LTD.",
+     "name": "ELKROOM",
      "slug": "elkroom-co-ltd",
      "description": "ELKROOM CO., LTD. is a consumer mobile-gaming studio and 500 Global portfolio company behind the OXO product family. Its flagship OXO Game Launcher is an Android game launcher and optimization tool that organizes a player's games and automatically tracks play history, journals, monthly reports, rankings, and community activity, and has surpassed five million downloads on Google Play. The company also builds OXO Gameplay, an AI-powered gaming content and social platform for Android and iOS, and Stricer, a cloud-based AI video analysis and highlight-editing tool on the web. ELKROOM operates consumer applications rather than a public developer API; this profile captures its public identity, product surface, and legal/policy pages. Tagline: \"You Chase Glory. We Make It Legendary.\"",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elkroom-co-ltd/refs/heads/main/screenshots/elkroom-co-ltd-2026-07-25T213146.png",
@@ -18770,7 +18727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "Jam.gg",
@@ -18812,7 +18769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "Comic Vine",
@@ -18855,7 +18812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "Guild Wars 2",
@@ -18898,7 +18855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "Hytale",
@@ -18940,7 +18897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "MMO Games",
@@ -18983,7 +18940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "Pinscreen",
@@ -19026,7 +18983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 429
     },
     {
      "name": "Raider",
@@ -19069,7 +19026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "Touchten",
@@ -19112,7 +19069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "Rangers Protocol",
@@ -19154,7 +19111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "7Invensun Technology",
@@ -19196,7 +19153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Community Gaming",
@@ -19239,7 +19196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "One More Game",
@@ -19282,7 +19239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Drone Racing League",
@@ -19324,7 +19281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "ironSource",
@@ -19367,7 +19324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "Xiudan (Showball)",
@@ -19410,7 +19367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "3D Medivision",
@@ -19459,7 +19416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 439
     },
     {
      "name": "AmiiboAPI",
@@ -19502,7 +19459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 440
     },
     {
      "name": "Board Game Geek",
@@ -19545,7 +19502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 441
     },
     {
      "name": "CheapShark",
@@ -19588,7 +19545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 442
     },
     {
      "name": "Cross Universe",
@@ -19631,7 +19588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 443
     },
     {
      "name": "Deck of Cards",
@@ -19674,7 +19631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 444
     },
     {
      "name": "Destiny The Game",
@@ -19717,7 +19674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 445
     },
     {
      "name": "Digimon Information",
@@ -19760,7 +19717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 446
     },
     {
      "name": "Digimon TCG",
@@ -19803,7 +19760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 447
     },
     {
      "name": "Distance",
@@ -19846,7 +19803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 448
     },
     {
      "name": "Dota 2",
@@ -19889,7 +19846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 449
     },
     {
      "name": "Dungeons and Dragons",
@@ -19932,7 +19889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 450
     },
     {
      "name": "Dungeons and Dragons (Alternate)",
@@ -19975,7 +19932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 451
     },
     {
      "name": "Final Fantasy XIV",
@@ -20018,7 +19975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 452
     },
     {
      "name": "FunTranslations",
@@ -20061,7 +20018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 453
     },
     {
      "name": "Gardens",
@@ -20104,7 +20061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 454
     },
     {
      "name": "GDBrowser",
@@ -20147,7 +20104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 455
     },
     {
      "name": "GuildFi",
@@ -20190,7 +20147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 456
     },
     {
      "name": "Halo",
@@ -20233,7 +20190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 457
     },
     {
      "name": "Jokes One",
@@ -20276,7 +20233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 458
     },
     {
      "name": "Magic The Gathering",
@@ -20319,7 +20276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 459
     },
     {
      "name": "Minecraft Server Status",
@@ -20362,7 +20319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 460
     },
     {
      "name": "mod.io",
@@ -20405,7 +20362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 461
     },
     {
      "name": "Monster Hunter World",
@@ -20448,7 +20405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 462
     },
     {
      "name": "Path of Exile",
@@ -20491,7 +20448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 463
     },
     {
      "name": "PlayerDB",
@@ -20534,7 +20491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 464
     },
     {
      "name": "PUBG",
@@ -20577,7 +20534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 465
     },
     {
      "name": "Raid Base",
@@ -20620,7 +20577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 466
     },
     {
      "name": "RuneScape",
@@ -20663,7 +20620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 467
     },
     {
      "name": "Tebex",
@@ -20706,7 +20663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 468
     },
     {
      "name": "TETR.IO",
@@ -20749,7 +20706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 469
     },
     {
      "name": "Third Dimension AI",
@@ -20792,7 +20749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 470
     },
     {
      "name": "Those Beyond",
@@ -20835,7 +20792,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 471
     },
     {
      "name": "Universalis",
@@ -20878,7 +20835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 472
     },
     {
      "name": "Valorant (non-official)",
@@ -20921,7 +20878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 473
     },
     {
      "name": "Wargaming.net",
@@ -20964,7 +20921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 474
     },
     {
      "name": "xkcd",
@@ -21007,7 +20964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 475
     },
     {
      "name": "Pax Historia",
@@ -21049,7 +21006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 476
     },
     {
      "name": "Light & Wonder",
@@ -21092,7 +21049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 477
     },
     {
      "name": "Psychonauts",
@@ -21135,7 +21092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 478
     },
     {
      "name": "Createra",
@@ -21177,7 +21134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 479
     },
     {
      "name": "YoloRekt",
@@ -21220,7 +21177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 480
     },
     {
      "name": "agavegames",
@@ -21263,7 +21220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 481
     },
     {
      "name": "BLAST",
@@ -21306,7 +21263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 482
     },
     {
      "name": "Brain Jar Games",
@@ -21349,7 +21306,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 483
     },
     {
      "name": "Drill Creative",
@@ -21392,10 +21349,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 484
     },
     {
-     "name": "Endless Studios LLC",
+     "name": "Endless Studios",
      "slug": "endless-studios-llc",
      "description": "Endless Studios LLC is a game development learning platform where aspiring creators learn to build video games through real, pro-studio projects. Its Endstar game engine lets creators code and collaborate in real time, while structured programs (Launchpad for beginners, Capstone for advanced participants) pair learners with 30+ game-industry mentors, expert playtesting, and collaborator matching across design, art, and programming. Learners build portfolios of shipped games to show potential employers. The company runs university, government, and partner programs (including a UAE national game-making competition) and is a 500 Global portfolio company. It was added to the API Evangelist network as a portfolio lead; no public developer/API surface was found during enrichment (consumer/creator-facing product on the studio.endlessstudios.com app).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/endless-studios-llc/refs/heads/main/screenshots/endless-studios-llc-2026-07-25T213312.png",
@@ -21442,7 +21399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 485
     },
     {
      "name": "GlamSt",
@@ -21485,7 +21442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 486
     },
     {
      "name": "Puzzlium",
@@ -21528,7 +21485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 487
     },
     {
      "name": "Synthesis AI",
@@ -21571,7 +21528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 488
     },
     {
      "name": "Autochess VNG",
@@ -21614,7 +21571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 489
     },
     {
      "name": "Barter.VG",
@@ -21657,7 +21614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 490
     },
     {
      "name": "Caesars Entertainment",
@@ -21699,7 +21656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 491
     },
     {
      "name": "Downjoy (当乐网)",
@@ -21742,7 +21699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 492
     },
     {
      "name": "DraftKings",
@@ -21784,7 +21741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 493
     },
     {
      "name": "Geek-Jokes",
@@ -21827,7 +21784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 494
     },
     {
      "name": "GraphQL Pokemon",
@@ -21870,7 +21827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 495
     },
     {
      "name": "GW2Spidy",
@@ -21913,7 +21870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 496
     },
     {
      "name": "Hyrule Compendium",
@@ -21956,7 +21913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 497
     },
     {
      "name": "Matchday",
@@ -21999,7 +21956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 498
     },
     {
      "name": "PokéAPI (GraphQL)",
@@ -22042,7 +21999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 499
     },
     {
      "name": "Puyo Nexus",
@@ -22085,7 +22042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 500
     },
     {
      "name": "Sakura CardCaptor",
@@ -22128,7 +22085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 501
     },
     {
      "name": "When is next MCU film",
@@ -22171,7 +22128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 502
     },
     {
      "name": "Heyzap",
@@ -22216,7 +22173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 503
     },
     {
      "name": "Placenote",
@@ -22260,7 +22217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 504
     },
     {
      "name": "Bugsnax",
@@ -22302,7 +22259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 505
     },
     {
      "name": "Crafatar",
@@ -22344,7 +22301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 506
     },
     {
      "name": "Crater Studios",
@@ -22387,7 +22344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 507
     },
     {
      "name": "Drop",
@@ -22430,7 +22387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 508
     },
     {
      "name": "FIFA Ultimate Team",
@@ -22473,7 +22430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 509
     },
     {
      "name": "Forza",
@@ -22515,7 +22472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 510
     },
     {
      "name": "Unleashed Games",
@@ -22558,7 +22515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 511
     },
     {
      "name": "AcadArena",
@@ -22607,7 +22564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "Airborne Entertainment",
@@ -22652,7 +22609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "Blue Vision Labs",
@@ -22695,7 +22652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Metafy",
@@ -22738,7 +22695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "MoonActive",
@@ -22781,7 +22738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "Singularity6",
@@ -22824,7 +22781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "Summoners Arena",
@@ -22866,7 +22823,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "Fantasmo",
@@ -22909,10 +22866,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 519
     },
     {
-     "name": "Surglasses Inc.",
+     "name": "Surglasses",
      "slug": "surglasses-inc",
      "description": "Surglasses Inc. (SURGLASSES) is a medical technology manufacturer of augmented reality surgical guidance systems and medical education products. Its portfolio includes AR-guided surgical navigation for orthopedic, spine, and neurosurgery procedures (the Foresee-X AR surgical glasses), 3D computer surgical navigation and planning software, and the Asclepius AI Table and Virtual Dissection Table for anatomy, radiology, and histopathology education. Backed by 500 Global. The company operates as a B2B medical-device manufacturer and publishes no public developer, API, or SDK surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/surglasses-inc/refs/heads/main/screenshots/surglasses-inc-2026-09-02T161320.png",
@@ -22959,7 +22916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 520
     },
     {
      "name": "Darewise",
@@ -23002,7 +22959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Elsewhere",
@@ -23045,7 +23002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "First Day Entertainment",
@@ -23088,7 +23045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "Hike",
@@ -23130,7 +23087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "Second Dinner",
@@ -23180,7 +23137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "TrueFlip",
@@ -23224,7 +23181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "Unikrn",
@@ -23269,7 +23226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "Cryptoys",
@@ -23312,7 +23269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "forgame",
@@ -23354,7 +23311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "Jetapult",
@@ -23397,7 +23354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 530
     },
     {
      "name": "Metatheory",
@@ -23440,7 +23397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Mira",
@@ -23483,7 +23440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "Theorycraft Games",
@@ -23525,7 +23482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "Dream11",
@@ -23568,7 +23525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "All3D",
@@ -23611,7 +23568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "Animal Crossing: New Horizons",
@@ -23654,7 +23611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "Brawl Stars",
@@ -23697,7 +23654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "Chuck Norris Database",
@@ -23740,7 +23697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 538
     },
     {
      "name": "Clash of Clans",
@@ -23783,7 +23740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 539
     },
     {
      "name": "Clash Royale",
@@ -23826,7 +23783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "Coolso",
@@ -23869,7 +23826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "FFXIV Collect",
@@ -23912,7 +23869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "Fun Facts",
@@ -23954,7 +23911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "Genshin Impact",
@@ -23997,7 +23954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "Hearthstone",
@@ -24040,7 +23997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "Humor",
@@ -24083,7 +24040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Level Headed Games",
@@ -24126,7 +24083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Mario Kart Tour",
@@ -24168,7 +24125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "MoonFrost",
@@ -24218,10 +24175,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 549
     },
     {
-     "name": "PKO Inc.",
+     "name": "PKO",
      "slug": "pko-inc",
      "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
@@ -24261,7 +24218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "RPS 101",
@@ -24303,7 +24260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "SpaceTradersAPI",
@@ -24346,7 +24303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "TCGdex",
@@ -24388,7 +24345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "VeeR VR",
@@ -24431,7 +24388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Warface (non-official)",
@@ -24474,7 +24431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "Wildcard",
@@ -24524,7 +24481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Dots",
@@ -24566,7 +24523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "Elodie",
@@ -24609,7 +24566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Iconic",
@@ -24652,7 +24609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Iconicgames",
@@ -24695,7 +24652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Instaplay",
@@ -24738,7 +24695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "Methodical Games",
@@ -24780,7 +24737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "Odyssey Ai",
@@ -24823,7 +24780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Altera",
@@ -24865,7 +24822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "bash.gg",
@@ -24910,7 +24867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "BrainTripping",
@@ -24953,7 +24910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "Caffeine",
@@ -24996,7 +24953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "CTRL-labs *",
@@ -25038,7 +24995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Emergent VR *",
@@ -25081,7 +25038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "GGFolks",
@@ -25124,7 +25081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Hasbro",
@@ -25167,7 +25124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "Lego",
@@ -25217,7 +25174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Mobcrush",
@@ -25261,7 +25218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "Omni Creator Products",
@@ -25303,7 +25260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "Pahdo Labs",
@@ -25346,7 +25303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "12 Gigs",
@@ -25389,7 +25346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "13th Lab",
@@ -25432,7 +25389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "7k7k",
@@ -25475,7 +25432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "8sec",
@@ -25517,7 +25474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "AFUN Interactive",
@@ -25559,7 +25516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Angelic",
@@ -25602,7 +25559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "Appionics",
@@ -25644,7 +25601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "Ares Interactive",
@@ -25687,7 +25644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "Artillery Games",
@@ -25731,7 +25688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "Avegant",
@@ -25774,7 +25731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Azarus",
@@ -25816,7 +25773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "baoyugame",
@@ -25859,7 +25816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Battlebound",
@@ -25903,7 +25860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "BeBop Sensors",
@@ -25945,7 +25902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "Believer",
@@ -25988,7 +25945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 590
     },
     {
      "name": "Big Fish Games",
@@ -26031,7 +25988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "Bigger Games",
@@ -26074,7 +26031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "BigScreen",
@@ -26117,7 +26074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "Bionic Panda Games",
@@ -26160,7 +26117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "Blue Frog Gaming",
@@ -26203,7 +26160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Bonfire Studios",
@@ -26246,7 +26203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "Born",
@@ -26289,7 +26246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "Boyd Gaming",
@@ -26332,7 +26289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "budcreate",
@@ -26375,7 +26332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "Buffd",
@@ -26418,7 +26375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Carbonated",
@@ -26461,10 +26418,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 601
     },
     {
-     "name": "CardMonster Inc.",
+     "name": "CardMonster",
      "slug": "cardmonster-inc",
      "description": "CardMonster turns ideas and brands into games. The company designs and publishes premium IP-based tabletop titles with global partners such as Disney and Krafton, and builds CardMonster Forge, an AI-powered tool that helps creators turn their own ideas into playable digital prototypes. From physical board games to an online playtesting platform, CardMonster connects creativity and technology to make game creation faster, smarter, and more accessible. Backed by 500 Global. As of this enrichment pass CardMonster publishes no public API, developer portal, or machine-readable specification; this profile captures company identity and domain-security posture only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardmonster-inc/refs/heads/main/screenshots/cardmonster-inc-2026-07-25T204517.png",
@@ -26504,7 +26461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 602
     },
     {
      "name": "chushou",
@@ -26546,7 +26503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 603
     },
     {
      "name": "Core Loop",
@@ -26589,7 +26546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 604
     },
     {
      "name": "CrowdMob",
@@ -26633,7 +26590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 605
     },
     {
      "name": "Cult of the North",
@@ -26675,7 +26632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 606
     },
     {
      "name": "Datost",
@@ -26717,7 +26674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 607
     },
     {
      "name": "DNA Games",
@@ -26759,7 +26716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 608
     },
     {
      "name": "Donnerwood Media",
@@ -26803,7 +26760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 609
     },
     {
      "name": "Doodle Mobile",
@@ -26846,7 +26803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 610
     },
     {
      "name": "Drivetime",
@@ -26888,7 +26845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 611
     },
     {
      "name": "Edge Markets",
@@ -26938,7 +26895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 612
     },
     {
      "name": "Encore Music Technologies",
@@ -26980,7 +26937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 613
     },
     {
      "name": "EQL Games",
@@ -27023,7 +26980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 614
     },
     {
      "name": "Escher Reality",
@@ -27065,12 +27022,55 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 615
     },
     {
      "name": "ESPL",
      "slug": "espl",
      "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports tournament network and platform, founded in 2019, building an open, grassroots-focused ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside PC and console titles, operated from its Singapore headquarters with regional offices in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500 Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company identity record in the API Evangelist network.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 616
+    },
+    {
+     "name": "fanZ",
+     "slug": "teamup-inc",
+     "description": "TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of teams, leagues and players, prediction challenges and mini-games, a rewards system of points, badges and digital collectibles, an official merchandise store, and global leaderboards, plus news, match highlights and video content. The product is a consumer-facing mobile application operated by Wathbah for Information Technology and backed by 500 Global; no public developer API, documentation, or developer portal was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamup-inc/refs/heads/main/screenshots/teamup-inc-2026-09-02T162655.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -28839,7 +28839,7 @@
      "rank": 657
     },
     {
-     "name": "Quago Technologies LTD",
+     "name": "Quago Technologies",
      "slug": "quago-technologies-ltd",
      "description": "Quago Technologies is a gaming analytics and fraud-detection company that uses machine learning and mobile device sensor data to protect and optimize mobile games. Its platform analyzes in-game behavioral and device-sensor patterns - without collecting personally identifiable information - to detect and manage cheating, identify user-acquisition (CPA) fraud, predict player churn, and optimize monetization and lifetime value. Quago is delivered to mobile game studios as an embedded SDK plus a backend analytics service rather than a public developer API; it was surfaced as an a16z portfolio company and added to the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/quago-technologies-ltd/refs/heads/main/screenshots/quago-technologies-ltd-2026-09-02T152554.png",
@@ -29660,49 +29660,6 @@
      "rank": 676
     },
     {
-     "name": "TeamUp Inc.",
-     "slug": "teamup-inc",
-     "description": "TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of teams, leagues and players, prediction challenges and mini-games, a rewards system of points, badges and digital collectibles, an official merchandise store, and global leaderboards, plus news, match highlights and video content. The product is a consumer-facing mobile application operated by Wathbah for Information Technology and backed by 500 Global; no public developer API, documentation, or developer portal was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamup-inc/refs/heads/main/screenshots/teamup-inc-2026-09-02T162655.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 677
-    },
-    {
      "name": "Tipp24",
      "slug": "tipp24",
      "description": "Tipp24 is a German consumer online-lottery brand — a business-to-consumer service where players place bets on the outcomes of state and international lottery draws (secondary lottery / lottery brokerage) over the web and mobile apps. The brand is operated by ZEAL Network SE, a publicly listed company headquartered in Hamburg, Germany, whose email infrastructure (SPF/DMARC) still resolves to zealnetwork.de. Tipp24 is a regulated consumer gambling product; it exposes no public developer API, developer portal, or SDKs, and its web properties (tipp24.de, tipp24.com) sit behind Cloudflare bot protection. This profile originated as an Earlybird VC portfolio lead and was processed by the API Evangelist enrichment pipeline, which confirmed the absence of an API surface and captured the domain security posture of the brand.",
@@ -29742,7 +29699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 677
     },
     {
      "name": "Trendy Entertainment",
@@ -29785,7 +29742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 678
     },
     {
      "name": "Trion Worlds",
@@ -29828,7 +29785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 679
     },
     {
      "name": "TSM",
@@ -29871,7 +29828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 680
     },
     {
      "name": "Ursula",
@@ -29913,7 +29870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 681
     },
     {
      "name": "Virtualtech Frontier",
@@ -29956,7 +29913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 682
     },
     {
      "name": "VR Motion",
@@ -29999,7 +29956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 683
     },
     {
      "name": "Wave",
@@ -30041,7 +29998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 684
     },
     {
      "name": "Weeby",
@@ -30084,7 +30041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 685
     },
     {
      "name": "Win-Win",
@@ -30127,7 +30084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 686
     },
     {
      "name": "Windwalk Games",
@@ -30170,7 +30127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 687
     },
     {
      "name": "WiTag",
@@ -30212,7 +30169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 688
     },
     {
      "name": "Within",
@@ -30254,7 +30211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 689
     },
     {
      "name": "Yoom (fka Tetavi)",
@@ -30296,7 +30253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 690
     },
     {
      "name": "YouStake",
@@ -30339,7 +30296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 691
     },
     {
      "name": "Zed.run",
@@ -30381,7 +30338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 692
     },
     {
      "name": "Zengaming",
@@ -30424,7 +30381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 693
     },
     {
      "name": "VICI Properties",
@@ -30467,7 +30424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 694
     },
     {
      "name": "Duane Morris",
@@ -30517,7 +30474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 695
     },
     {
      "name": "Gaming and Leisure Properties",
@@ -30560,7 +30517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 696
     },
     {
      "name": "Playtika Holding",
@@ -30603,7 +30560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 697
     },
     {
      "name": "Talofa Games",
@@ -30653,7 +30610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 698
     },
     {
      "name": "Tripp",
@@ -30703,7 +30660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 699
     },
     {
      "name": "National Indian Gaming Commission",
@@ -30753,7 +30710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 700
     },
     {
      "name": "PlayFirst",
@@ -30795,7 +30752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 701
     },
     {
      "name": "Dreamscape Immersive",
@@ -30845,7 +30802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 702
     },
     {
      "name": "Funway",
@@ -30888,7 +30845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 703
     },
     {
      "name": "GameStop",
@@ -30930,7 +30887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 704
     },
     {
      "name": "Streamloots",
@@ -30980,7 +30937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 705
     },
     {
      "name": "Playcurio",
@@ -31029,7 +30986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 706
     },
     {
      "name": "Millennial Fox",
@@ -31078,10 +31035,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 707
     },
     {
-     "name": "Dream Voyage Inc.",
+     "name": "Dream Voyage",
      "slug": "dream-voyage-inc",
      "description": "Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 and backed by Andreessen Horowitz through its Speedrun accelerator alongside Soma Capital. Led by co-founder and CEO Coco Chen, a former TikTok founding product manager and Tinder PM, the studio builds viral AI-powered consumer applications spanning spiritual wellness, dream interpretation, gaming, and social payments. Its products include SINE Daily Manifest (an AI spiritual-health app offering daily affirmations, astrology, birth-chart analysis, and tarot readings that went viral on TikTok), Dreamore (AI-powered dream interpretation), Vdrop (turning social media into a payment network), and RPS (a Solana-based social game). Dream Voyage ships consumer mobile apps rather than a public developer platform; as of this profile it publishes no developer portal, OpenAPI, SDKs, or documented API surface. This record is a network stub retained for discovery and future enrichment.",
      "score": 1.5,
@@ -31127,7 +31084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 708
     },
     {
      "name": "Tamatem",
@@ -31177,7 +31134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 709
     },
     {
      "name": "TrialPay",
@@ -31226,7 +31183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 710
     },
     {
      "name": "GamerzClass",
@@ -31275,7 +31232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 711
     },
     {
      "name": "Motion Math",
@@ -31327,7 +31284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 712
     },
     {
      "name": "Tiny Comet",
@@ -31376,7 +31333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 713
     },
     {
      "name": "In-Fusio",
@@ -31428,7 +31385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 715
+     "rank": 714
     },
     {
      "name": "Beryllium",
@@ -31480,7 +31437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 716
+     "rank": 715
     },
     {
      "name": "Rixty",
@@ -31531,7 +31488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 716
     }
    ]
   },
@@ -31547,13 +31504,13 @@
      "name": "ActEvolve",
      "slug": "actevolve",
      "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
-     "rank": 718
+     "rank": 717
     },
     {
      "name": "Against Gravity",
      "slug": "againstgravity",
      "description": "Against Gravity Corp was the Seattle software company founded in April 2016 by Nick Fajt, Cameron Brown, Dan Kroymann, Bilal Orhan, Josh Wehrly and John Bevis that built Rec Room, a cross-platform social gaming and user-generated-content world for PC, PlayStation, Xbox, Meta Quest, iOS and Android. The company later renamed itself Rec Room Inc. and is tracked in this network under the rec-room record. Rec Room announced on 2026-03-30 that it could not reach profitability, took its game servers offline on 2026-06-01 and shut the rec.net community site down on 2026-06-09. It did run a real developer program: an Azure API Management developer portal at devportal.rec.net issuing subscription keys against api.rec.net. Both are gone — devportal.rec.net is a dangling CNAME to a deleted APIM instance and rec.net / api.rec.net answer TLS handshake_failure with no certificate. Only the legacy Squarespace marketing site at recroom.com is still served, so no live contract remains to harvest.",
-     "rank": 719
+     "rank": 718
     }
    ]
   }

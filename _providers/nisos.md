@@ -201,7 +201,7 @@ tags:
 - Cybersecurity
 - Adversary Attribution
 - Employment Fraud
-- Third-Party Risk
+- Third-Party Risk Management
 - Trust and Safety
 - Dark Web Monitoring
 - Managed Service

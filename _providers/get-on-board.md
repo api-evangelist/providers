@@ -364,7 +364,7 @@ modified: '2026-09-16'
 name: Get On Board
 nav: Providers
 network: true
-overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Get On Board+ API, and 19 more. Tagged areas include Company, Recruitment, Job, Hiring, and ATS.
+overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Get On Board+ API, and 19 more. Tagged areas include Company, Recruiting, Job, Hiring, and Applicant Tracking.
 
 
   The Get On Board catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -428,10 +428,10 @@ security:
 slug: get-on-board
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Job
 - Hiring
-- ATS
+- Applicant Tracking
 - Talent
 - Developers
 - Latin America

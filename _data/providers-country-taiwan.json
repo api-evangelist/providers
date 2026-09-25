@@ -808,7 +808,7 @@
      "rank": 16
     },
     {
-     "name": "500net Technology Co., Ltd.",
+     "name": "500net",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "score": 5.0,
@@ -986,7 +986,7 @@
      "rank": 20
     },
     {
-     "name": "WeGrow asia CO., LTD.",
+     "name": "WeGrow asia",
      "slug": "wegrow-asia-co-ltd",
      "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/screenshots/wegrow-asia-co-ltd-2026-09-02T170556.png",

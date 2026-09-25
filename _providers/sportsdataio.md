@@ -818,5 +818,6 @@ tags:
 - MLB
 - NHL
 - Soccer
+- Sports
 website: https://sportsdata.io/
 ---

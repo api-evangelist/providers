@@ -106,6 +106,6 @@ tags:
 - Preconstruction
 - Artificial Intelligence
 - Machine Learning
-- Agentic AI
+- AI Agents
 website: https://muro.ai/
 ---

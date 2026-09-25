@@ -2135,7 +2135,7 @@ modified: '2026-09-16'
 name: Kombo
 nav: Providers
 network: true
-overview: 'Kombo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AI Apply API, Custom Endpoints API, General API, and 6 more. Tagged areas include ATS, Embedded iPaaS, HRIS, LMS, and Payroll.
+overview: 'Kombo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AI Apply API, Custom Endpoints API, General API, and 6 more. Tagged areas include Applicant Tracking, Embedded iPaaS, HRIS, LMS, and Payroll.
 
 
   The Kombo catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2216,11 +2216,12 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: kombo
 tags:
-- ATS
+- Applicant Tracking
 - Embedded iPaaS
 - HRIS
 - LMS
 - Payroll
 - Unified API
+- Recruiting
 website: https://www.kombo.dev
 ---

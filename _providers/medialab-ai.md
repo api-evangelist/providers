@@ -303,7 +303,7 @@ tags:
 - Image
 - Music
 - Messaging
-- Communities
+- Community
 - Holding Company
 website: https://medialab.la/
 ---

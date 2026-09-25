@@ -129,7 +129,7 @@ modified: '2026-07-21'
 name: RiskRecon
 nav: Providers
 network: true
-overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Ratings, Third-Party Risk, and Supply Chain Risk.
+overview: 'RiskRecon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Ratings, Third-Party Risk Management, and Supply Chain Risk.
 
 
   RiskRecon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
@@ -175,7 +175,7 @@ tags:
 - Company
 - Cybersecurity
 - Security Ratings
-- Third-Party Risk
+- Third-Party Risk Management
 - Supply Chain Risk
 - Risk Management
 - GRC

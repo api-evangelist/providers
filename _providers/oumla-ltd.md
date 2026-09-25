@@ -263,13 +263,13 @@ description: Oumla is a Saudi-based provider of enterprise-grade digital asset i
 image: https://oumla.com/logo.png
 layout: provider
 modified: '2026-07-20'
-name: Oumla Ltd
+name: Oumla
 nav: Providers
 network: true
-overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Assets API, Contract Interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
+overview: 'Oumla publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Ltd Addresses API, Ltd Assets API, Ltd Contract Interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
 
 
-  Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
+  Oumla''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
 random_paper: 9
 score:
   band: developing

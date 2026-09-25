@@ -1733,6 +1733,56 @@
      "rank": 33
     },
     {
+     "name": "AmTrust Financial Services",
+     "slug": "amtrust-financial-services",
+     "description": "AmTrust Financial Services is a multinational specialty property and casualty insurer focused on small to mid-sized businesses, with more than 7,000 employees, 500,000+ small commercial policies in force and an AM Best rating of A- (Excellent). AmTrust runs a real, production API program on Azure API Management — nine externally exposed APIs at gateway.amtrustgroup.com spanning 387 operations, covering workers' compensation, Businessowners Policy, cyber, Excess & Surplus and commercial package quote-rate-bind, plus medical case management claims, surety bond documents and reinsurance contract entry. Authentication is two-factor at the edge — an Azure API Management subscription key (subscriber_id) alongside a four-hour OpenID Connect bearer token from AmTrust's own IdentityServer at auth.amtrustgroup.com. Access is partner-gated; there is no self-serve signup and no published pricing, and credentials follow a Digital Partner Vetting Questionnaire.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 51.6,
+      "contract_governance": 33.3,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 72.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
      "name": "TrustLayer",
      "slug": "trustlayer",
      "description": "TrustLayer is a vendor risk management and certificate of insurance (COI) tracking platform that automates the collection, verification, and ongoing monitoring of compliance documents. It uses AI-powered OCR field extraction, real-time carrier connections, and NIPR license verification to process COIs, W9s, and business licenses across a network of 500,000+ companies. The TrustLayer Platform API lets teams programmatically manage parties (vendors), contacts, projects, documents, and compliance profiles, request documents, and receive real-time webhook notifications as compliance status changes. Backed by Craft Ventures. Sector: insurtech / fintech.",
@@ -1776,56 +1826,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "AmTrust Financial Services",
-     "slug": "amtrust-financial-services",
-     "description": "AmTrust Financial Services is a multinational specialty property and casualty insurer focused on small to mid-sized businesses, with more than 7,000 employees, 500,000+ small commercial policies in force and an AM Best rating of A- (Excellent). AmTrust runs a real, production API program on Azure API Management — nine externally exposed APIs at gateway.amtrustgroup.com spanning 387 operations, covering workers' compensation, Businessowners Policy, cyber, Excess & Surplus and commercial package quote-rate-bind, plus medical case management claims, surety bond documents and reinsurance contract entry. Authentication is two-factor at the edge — an Azure API Management subscription key (subscriber_id) alongside a four-hour OpenID Connect bearer token from AmTrust's own IdentityServer at auth.amtrustgroup.com. Access is partner-gated; there is no self-serve signup and no published pricing, and credentials follow a Digital Partner Vetting Questionnaire.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png",
-     "score": 51.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 51.0,
-      "contract_governance": 33.3,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 72.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -2051,6 +2051,56 @@
      "rank": 39
     },
     {
+     "name": "CMS — Centers for Medicare & Medicaid Services",
+     "slug": "cms-gov",
+     "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png",
+     "score": 49.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 61.8,
+      "contract_governance": 13.6,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bound",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
      "name": "LeO",
      "slug": "leo",
      "description": "LeO is an AI-powered sales and prospecting platform for commercial insurance professionals, serving property & casualty (P&C) brokers, employee benefits advisors, and nonprofit insurance specialists. The platform pairs a commercial-lines prospect database of 25M+ US businesses and 200+ filters -- NAICS codes, revenue thresholds, workers' compensation, DOT/FMCSA records, OSHA compliance history, Form 5500 benefits and pension filings, and IRS 990 nonprofit data -- with a renewal-date (X-date) database carrying key contacts and AI-predicted renewal months. LeO generates AI-personalized email outreach, produces pre-meeting intelligence on incumbent carriers, brokers, coverage and risk gaps, and pushes qualified prospects to CRM or CSV export. Founded by CEO Liri Halperin Segal, LeO is a Techstars portfolio company and has been certified HIPAA compliant by an external auditing firm. Alongside the subscription web application it ships two programmatic surfaces: a REST \"Leo Public API\" at api.meetleo.com with a published OpenAPI 3.0.0 definition covering account, credits, prospect search and asynchronous contact enrichment, and a first-party, OAuth-protected MCP Connector at mcp.meetleo.com marketed for Claude, ChatGPT, Gemini and Copilot. Both are entitlement-gated to existing customers and metered in credits.",
@@ -2105,7 +2155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Duck Creek",
@@ -2155,7 +2205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Coalition",
@@ -2205,7 +2255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "PPL",
@@ -2255,7 +2305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Ascend",
@@ -2305,7 +2355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Luther Systems",
@@ -2354,7 +2404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Zinnia",
@@ -2403,7 +2453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Mireye",
@@ -2453,7 +2503,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "First American Financial",
@@ -2503,7 +2553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "HOVER",
@@ -2553,7 +2603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "WeFitter",
@@ -2610,7 +2660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Whitespace",
@@ -2660,7 +2710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "OSFI",
@@ -2710,7 +2760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Waniwani",
@@ -2760,7 +2810,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Root Insurance",
@@ -2810,7 +2860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "SuperDial",
@@ -2860,7 +2910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Sun Life",
@@ -2917,7 +2967,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Centene",
@@ -2967,7 +3017,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Convelio",
@@ -3017,7 +3067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Outdoorsy",
@@ -3067,7 +3117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Rhino",
@@ -3117,7 +3167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Solera",
@@ -3167,7 +3217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Develop Health",
@@ -3217,7 +3267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "GenLogs",
@@ -3267,7 +3317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "State Farm",
@@ -3317,7 +3367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Onsi",
@@ -3367,7 +3417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "American Financial Group",
@@ -3416,7 +3466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Ripe Insurance",
@@ -3466,7 +3516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Great-West Lifeco",
@@ -3516,7 +3566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Noyo",
@@ -3566,7 +3616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Open",
@@ -3616,7 +3666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Indico Data",
@@ -3666,7 +3716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Kasko",
@@ -3723,7 +3773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Majesco",
@@ -3769,56 +3819,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 73
-    },
-    {
-     "name": "CMS — Centers for Medicare & Medicaid Services",
-     "slug": "cms-gov",
-     "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.9,
-      "contract_governance": 13.6,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bound",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -9173,7 +9173,7 @@
      "rank": 179
     },
     {
-     "name": "Aviva plc",
+     "name": "Aviva",
      "slug": "aviva-plc",
      "description": "Aviva plc is the United Kingdom's largest insurer and one of the ten biggest insurance groups in Europe, listed on the London Stock Exchange and serving roughly 20 million UK customers across the UK, Ireland and Canada following completion of its acquisition of Direct Line Insurance Group on 1 July 2025. Aviva is a composite carrier rather than a single-line one: UK and Ireland general insurance (personal and commercial motor, property and liability), the UK's largest life insurance book, a growing corporate and individual health business, workplace pensions and wealth, and Aviva Investors as the asset-management arm. Aviva Canada is that market's second-largest property and casualty insurer. Aviva's API posture is that of a carrier, not a platform. It operates a real, modern developer portal at developer.aviva.co.uk — a Kong Konnect portal fronted by Aviva's own EV certificate — but the portal reports is_public false with RBAC and OIDC authentication enabled, and every content path returns HTTP 403 to an unauthenticated request. It is explicitly a partner surface: the portal's own copy describes Partners discovering, accessing and consuming Aviva Health APIs, with sandbox access granted on application and production consumption granted on approval. There is no self-serve signup, no public API reference, no downloadable OpenAPI, no public Postman workspace, no GraphQL surface and no published event catalogue. The far larger integration channel is not the portal at all: in the UK, Aviva trades with brokers through Polaris UK's imarket and its PL EDI message and code-list standards, reaching broker systems such as Acturis, Applied Systems, Open GI, Bravo and SSP, and in December 2024 Aviva became the first insurer to launch a claims API integrated directly into Acturis, pushing new and updated motor, property and liability claim records into brokers' management systems. No ACORD reference was found on any Aviva surface; the UK's standards seam here is Polaris, not ACORD. This record is therefore an honest stub: a real but partner-gated API programme with no public self-serve surface to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/screenshots/aviva-plc-2026-07-25T201951.png",
@@ -16318,7 +16318,7 @@
      "rank": 319
     },
     {
-     "name": "Prudential plc",
+     "name": "Prudential",
      "slug": "prudential-plc",
      "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/screenshots/prudential-plc-2026-09-02T152254.png",
@@ -17124,7 +17124,7 @@
      "rank": 335
     },
     {
-     "name": "Prescience Inc",
+     "name": "Prescience",
      "slug": "prescience-inc",
      "description": "Prescience, Inc. is a Y Combinator (Summer 2026) health benefits platform for employers, building \"healthcare for the age of abundant intelligence.\" It uses machine-learning underwriting to design custom, largely self-insured health plans that aim to cut employer healthcare spend 20-50% versus traditional PEO and insurer plans, pairing $0-deductible coverage, included GLP-1 medications, wearables, and a 24/7 AI Care Companion for members. The company sells to employers, private-equity portfolios, and providers, and publicly attests to SOC 2 and HIPAA compliance. As of this profile it exposes a marketing and member/employer web application only - no public API, developer portal, SDKs, MCP server, or machine-readable specification was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prescience-inc/refs/heads/main/screenshots/prescience-inc-2026-09-02T151940.png",
@@ -28783,7 +28783,7 @@
      "rank": 568
     },
     {
-     "name": "Bringy, Inc.",
+     "name": "Bringy",
      "slug": "bringy-inc",
      "description": "Bringy, Inc. is a digital insurance brokerage operating in Egypt, founded in 2019 and licensed by the Egyptian Financial Regulatory Authority (FRA License #100). Through its website and iOS/Android mobile apps, Bringy lets consumers compare, select, purchase, and manage insurance policies online, positioning itself as a digital insurance advisor that guides customers from policy selection through claims and compensation. Coverage lines include car, business, medical, personal-accident, and home insurance, with payment via Visa, Mastercard, Meeza, mobile wallets, and installment providers (ValU, Sympl, Souhoola). Bringy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It publishes a consumer marketing site and blog but no public developer API, SDKs, or developer documentation at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bringy-inc/refs/heads/main/screenshots/bringy-inc-2026-07-25T203910.png",
@@ -29230,7 +29230,7 @@
      "rank": 577
     },
     {
-     "name": "Alleghany Corporation",
+     "name": "Alleghany",
      "slug": "alleghany",
      "description": "Alleghany Corporation is a holding company engaged in property and casualty reinsurance and insurance through its subsidiaries, with additional investments in non-financial businesses held via Alleghany Capital. Founded in 1929 by railroad entrepreneurs Oris and Mantis Van Sweringen, the company transitioned over decades from rail holdings into specialty insurance and reinsurance, and is headquartered at One Rockefeller Plaza in New York City. Its principal insurance subsidiaries are Transatlantic Reinsurance Company (TransRe), a global reinsurer founded in 1977 with roughly 600 employees across 23 offices and more than $40 billion in claims paid to date; RSUI Group, a wholesale excess and surplus (E&S) underwriter spanning Property, Casualty, Professional Liability, Management Liability, and Binding Authority lines; and CapSpecialty, a specialty casualty and surety underwriter. Alleghany Capital holds non-insurance operating companies including toy and collectibles maker Jazwares (Squishmallows, Pokémon, Roblox, Fortnite licensed lines). On March 21, 2022, Berkshire Hathaway announced an $11.6 billion all-cash acquisition of Alleghany at $848.02 per share, which closed in October 2022. Alleghany now operates as a wholly-owned subsidiary of Berkshire Hathaway, contributing approximately $8.8 billion in 2025 gross premiums written and roughly $14 billion in insurance float to the parent. As a holding company whose operating units distribute exclusively through reinsurance intermediaries, wholesale brokers, and independent agents, Alleghany and its subsidiaries do not publish a developer portal, OpenAPI specifications, SDKs, or any other machine-readable API artifacts; the only digital surfaces exposed publicly are gated broker and agent login portals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alleghany/refs/heads/main/screenshots/alleghany-2026-07-25T195644.png",
@@ -30559,7 +30559,7 @@
      "rank": 604
     },
     {
-     "name": "Desaisiv Inc.",
+     "name": "Desaisiv",
      "slug": "desaisiv-inc",
      "description": "DESAISIV is a corporate InsurTech platform focused on health insurance in Saudi Arabia and the wider MENA region. Founded in 2022, the company builds AI and automation products for insurers and third-party administrators (TPAs), including smart underwriting automation, a real-time quotation engine, OCR-powered claims intelligence, a corporates insurance marketplace, and SME portals. Its platform bridges data, systems, insurers, and corporates to streamline underwriting, quoting, and claims. DESAISIV is backed by 500 Global, Terra VC, Oqal, and other MENA/UK/US investors via a US$2M pre-seed round. This profile is maintained in the API Evangelist network; the company does not currently publish a public developer portal or API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png",
@@ -31355,7 +31355,7 @@
      "rank": 620
     },
     {
-     "name": "Loews Corporation",
+     "name": "Loews",
      "slug": "loews",
      "description": "Loews Corporation is a diversified holding company with subsidiaries operating in commercial property and casualty insurance (CNA Financial), natural gas pipelines (Boardwalk Pipelines), packaging products (Altium Packaging), and hotels (Loews Hotels). Loews Corporation does not currently publish a public developer API or developer portal; this index tracks the company website and consumer-facing properties for reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loews/refs/heads/main/screenshots/loews-2026-06-20T184647.png",

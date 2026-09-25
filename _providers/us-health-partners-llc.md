@@ -84,13 +84,13 @@ description: US Health Partners (USHP) is a physician-led national cardiovascula
 image: https://cdn.prod.website-files.com/650945f38bc322ab5b6c0159/650a79163a58ca2491900530_logo%20(3).png
 layout: provider
 modified: '2026-07-21'
-name: US Health Partners, LLC
+name: US Health Partners
 nav: Providers
 network: true
-overview: 'US Health Partners, LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Cardiology, Cardiovascular Care, and Physician Network.
+overview: 'US Health Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Cardiology, Cardiovascular Care, and Physician Network.
 
 
-  US Health Partners, LLC''s developer surface includes support and 9 more developer resources.'
+  US Health Partners'' developer surface includes support and 9 more developer resources.'
 random_paper: 13
 score:
   band: minimal

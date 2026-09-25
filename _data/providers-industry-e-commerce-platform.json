@@ -3030,7 +3030,7 @@
      "rank": 61
     },
     {
-     "name": "א. ט. הפקות בע״מ / A.T. Hafakot Ltd.",
+     "name": "makeup.land",
      "slug": "makeup-land",
      "description": "makeup.land, operated by א. ט. הפקות בע״מ / A.T. Hafakot Ltd. (company no. 513942789, Zikhron Yaakov and Haifa, Israel), is a Hebrew-first professional cosmetics retailer carrying ~1,550 products from 34+ brands, with ℳ-credit loyalty wallet, M Club tiers, gift cards and a virtual try-on. It publishes a 21-operation OpenAPI 3.1 contract at makeup.land/openapi.json — product search with CIE ΔE 2000 shade matching and cross-lingual semantic search, customers and wallet, carts, orders, gift cards, payment links, partner registration and catalog proposals — every write idempotent via Idempotency-Key, bearer tokens issued by email with four scopes. Alongside it: a live remote MCP server at makeup.land/api/mcp (8 read-only tools, anonymous tools/list, Official MCP Registry land.makeup/v1), RFC 8414 and RFC 9728 OAuth metadata with a WorkOS-style auth.md, an A2A-shaped agent card, an ai-manifest and UCP merchant profile, llms.txt with markdown twins, and Google Merchant and OpenAI ACP product feeds.",
      "score": 61.0,
@@ -5005,8 +5005,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 191,
-   "shown": 191,
+   "count": 190,
+   "shown": 190,
    "providers": [
     {
      "name": "Nexscope Ecommerce Data and Creative APIs",
@@ -5852,56 +5852,6 @@
      "rank": 122
     },
     {
-     "name": "Amazon",
-     "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 52.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.2,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 46.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 123
-    },
-    {
      "name": "Emotive",
      "slug": "emotive",
      "description": "Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, RealLink branded short links, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a \"5X ROI guarantee\" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and was acquired by Privy. Emotive runs a real, publicly documented developer surface: an Open API for order tracking, manual opt-outs and custom events on api.emotiveapp.co; a Lists / Subscriber API documented in GitBook; and an API gateway at api-gw.emotiveapp.co that serves five OpenAPI 3.0.2 documents (Helpdesk, Sensus Webhooks, Auth Server, Segments, Experiences). Its Mintlify knowledge base publishes an llms.txt, an A2A agent card, a packaged Agent Skill and an anonymous remote MCP server.",
@@ -5946,6 +5896,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 123
+    },
+    {
+     "name": "Amazon",
+     "slug": "amazon",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 73.0,
+      "contract_governance": 33.3,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 46.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7692,49 +7692,6 @@
      "rank": 162
     },
     {
-     "name": "Amazon Selling Partner API",
-     "slug": "amazon-seller-central",
-     "description": "The Amazon Selling Partner API (SP-API) is the modern REST-based API that enables Amazon sellers, vendors, and third-party developers to programmatically access Seller Central data and operations including catalog management, orders, inventory, pricing, fulfillment, reports, finances, notifications, and advertising. SP-API uses Login with Amazon (LWA) OAuth 2.0 access tokens for authentication and replaces the legacy Amazon Marketplace Web Service (MWS). Since September 2026 Amazon also offers an agent surface: the Amazon Selling Partner Connector, a first-party remote MCP server at https://sellingpartner-ai.amazon.com/mcp (beta, US stores, Seller Central OAuth, write actions drafted for seller approval), and the Selling Partner Agentic Toolkit of provider-published Agent Skills.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png",
-     "score": 47.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 61.3,
-      "contract_governance": 87.9,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 63.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 163
-    },
-    {
      "name": "ShopBack",
      "slug": "shopback",
      "description": "ShopBack is a Singapore-headquartered shopping, rewards and payments platform founded in 2014, operating across 13 markets in Asia-Pacific, Europe and the United States with more than 20 million members and 20,000 merchant partners. Alongside its consumer cashback and discovery app, ShopBack runs a merchant-facing payments business — ShopBack Pay and ShopBack PayLater — and publishes a public developer hub at docs.shopback.com covering two REST APIs. The Online Payments API (v2.0, also called the Online Bespoke API) handles merchant login, order initiation, order status, refunds, and a tokenized-payments surface for account linking, pre-authorization hold/capture/void, immediate charge and cashback-balance lookup. The In-Store Payments API (v1.4) covers merchant-presented and customer-presented QR ordering, order status, refunds, cancellations, and a payment-notification webhook for point-of-sale and customer-facing app checkout. Both are HMAC- or JWT-authenticated over HTTPS/TLS 1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.",
@@ -7782,7 +7739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Cure Hydration",
@@ -7832,7 +7789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Tamara",
@@ -7882,7 +7839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Wayflyer",
@@ -7925,7 +7882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "Wish",
@@ -7975,7 +7932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "Apple Pay",
@@ -8025,7 +7982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Treez",
@@ -8075,7 +8032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Alokai (formerly Vue Storefront)",
@@ -8118,7 +8075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "BJ's Wholesale Club",
@@ -8160,7 +8117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "MikMak",
@@ -8203,7 +8160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Minubo",
@@ -8246,7 +8203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Sendle",
@@ -8289,7 +8246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Chord",
@@ -8332,7 +8289,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Bagisto",
@@ -8375,7 +8332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Convelio",
@@ -8425,7 +8382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Teya",
@@ -8475,7 +8432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Komerce",
@@ -8525,7 +8482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "TrackingMore",
@@ -8568,7 +8525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "UniUni",
@@ -8611,7 +8568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "99 Minutos",
@@ -8654,7 +8611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Australia Post",
@@ -8697,7 +8654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Disconetwork",
@@ -8740,7 +8697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Let's Enhance",
@@ -8783,7 +8740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Passport",
@@ -8833,7 +8790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Snipcart",
@@ -8883,7 +8840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "BuyWhere",
@@ -8926,7 +8883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "SnackMagic",
@@ -8969,7 +8926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Google Merchant Center",
@@ -9019,7 +8976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Apache OFBiz",
@@ -9062,7 +9019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Easyship",
@@ -9105,7 +9062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "LianLian Global",
@@ -9155,7 +9112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Amboras",
@@ -9205,7 +9162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Shoppable",
@@ -9255,7 +9212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "AgeChecker.Net",
@@ -9298,7 +9255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "fabric",
@@ -9348,7 +9305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Instant Commerce",
@@ -9391,7 +9348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Ankorstore",
@@ -9434,7 +9391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "ChargeAfter",
@@ -9484,7 +9441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Vendure",
@@ -9527,7 +9484,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "SkimBit",
@@ -9570,7 +9527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Logiwa",
@@ -9613,7 +9570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Block",
@@ -9663,7 +9620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Montonio",
@@ -9713,7 +9670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Phos Labs",
@@ -9755,7 +9712,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Ecwid by Lightspeed",
@@ -9798,7 +9755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "SiteJabber",
@@ -9841,7 +9798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Duda",
@@ -9884,7 +9841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "TikTok",
@@ -9927,7 +9884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "Famous",
@@ -9970,7 +9927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "eWAY",
@@ -10020,7 +9977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Newstore",
@@ -10063,7 +10020,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Poptin",
@@ -10106,7 +10063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "Przelewy24",
@@ -10156,7 +10113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Google Content API for Shopping",
@@ -10206,7 +10163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Kajabi",
@@ -10256,7 +10213,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Spreadshirt",
@@ -10299,7 +10256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Octane AI",
@@ -10342,7 +10299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Beacon Roofing Supply",
@@ -10385,7 +10342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "ColdSnap",
@@ -10428,7 +10385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Cubby",
@@ -10478,7 +10435,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Checkmate",
@@ -10528,7 +10485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Avify",
@@ -10578,7 +10535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Verifone",
@@ -10628,7 +10585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "commercetools",
@@ -10671,7 +10628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Florist One",
@@ -10713,7 +10670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Meero",
@@ -10756,7 +10713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Printful",
@@ -10799,7 +10756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "CRM Bonus",
@@ -10842,7 +10799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "MODIVO",
@@ -10892,7 +10849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Extend",
@@ -10942,7 +10899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "OpenCart",
@@ -10985,7 +10942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "SAP Commerce Cloud",
@@ -11028,7 +10985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "Under Armour",
@@ -11078,7 +11035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Advance Auto Parts",
@@ -11118,6 +11075,49 @@
       "dry_run_mode": false,
       "delegated_identity": "documented",
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 236
+    },
+    {
+     "name": "Amazon Selling Partner API",
+     "slug": "amazon-seller-central",
+     "description": "The Amazon Selling Partner API (SP-API) is the modern REST-based API that enables Amazon sellers, vendors, and third-party developers to programmatically access Seller Central data and operations including catalog management, orders, inventory, pricing, fulfillment, reports, finances, notifications, and advertising. SP-API uses Login with Amazon (LWA) OAuth 2.0 access tokens for authentication and replaces the legacy Amazon Marketplace Web Service (MWS). Since September 2026 Amazon also offers an agent surface: the Amazon Selling Partner Connector, a first-party remote MCP server at https://sellingpartner-ai.amazon.com/mcp (beta, US stores, Seller Central OAuth, write actions drafted for seller approval), and the Selling Partner Agentic Toolkit of provider-published Agent Skills.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 61.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 65.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -11267,49 +11267,6 @@
      "rank": 240
     },
     {
-     "name": "Also",
-     "slug": "also",
-     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
-     "score": 41.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 50.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 43.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 241
-    },
-    {
      "name": "Liquid Death",
      "slug": "liquid-death",
      "description": "Liquid Death is a Los Angeles beverage company founded in 2014 by Mike Cessario, Pat Cook and JonRyan Riggins, selling still and sparkling mountain water, iced tea, flavored sparkling water, the Death Dust electrolyte powder and a Sparkling Energy line, all in recyclable aluminum tallboys and marketed through a deliberately horror-comedy brand voice. It has raised roughly $264M and was valued at $1.4B in its 2024 Series F. Liquid Death publishes no conventional developer portal, yet it is one of the more agent-forward direct-to-consumer storefronts in the catalog: liquiddeath.com serves a first-party agents.md (mirrored at /llms.txt), a dedicated agentic-discovery sitemap, an agent policy block inside robots.txt, a Universal Commerce Protocol merchant profile at /.well-known/ucp, a live UCP shopping MCP endpoint, and both OpenID Connect and RFC 8414 OAuth discovery documents for its customer account. The storefront exposes an anonymous read-only product and collection JSON surface, while every cart, checkout and order capability is confined to the identity-gated, idempotency-keyed MCP transport that requires contemporaneous human approval before payment.",
@@ -11350,7 +11307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Yotpo",
@@ -11393,7 +11350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Mason",
@@ -11436,7 +11393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Order Desk",
@@ -11479,7 +11436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Platzi",
@@ -11529,7 +11486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Lemon Perfect",
@@ -11572,7 +11529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Shopify Storefront API",
@@ -11622,7 +11579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Bold Commerce",
@@ -11672,7 +11629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Whiplash",
@@ -11715,7 +11672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Session AI",
@@ -11758,7 +11715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "Canal",
@@ -11801,7 +11758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "Fermat",
@@ -11844,7 +11801,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Grin",
@@ -11887,7 +11844,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "ShopMy",
@@ -11930,7 +11887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "Payflex",
@@ -11980,7 +11937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "ShipHero",
@@ -12023,7 +11980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "Trend",
@@ -12073,7 +12030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Whiplash Merchandising",
@@ -12116,7 +12073,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "WorldFirst",
@@ -12166,10 +12123,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
-     "name": "Omniful, Inc.",
+     "name": "Omniful",
      "slug": "omniful-inc",
      "description": "Omniful is an AI-powered unified supply chain and fulfillment platform that consolidates order management (OMS), warehouse management (WMS), transportation management (TMS), inventory, point of sale, and returns into a single intelligent system for retailers, e-commerce businesses, logistics providers, and enterprises. The platform offers plug-and-play integrations with sales channels, marketplaces, and ERPs, multi-location and multi-brand operation support, and a set of public Integration APIs (seller/sales-channel, tenant, and TMS) with bearer-token authentication and webhook event subscriptions, documented as a public Postman collection at docs.omniful.tech. Omniful is a 500 Global portfolio company operating primarily across the MENA region.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png",
@@ -12209,7 +12166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Ordoro",
@@ -12252,7 +12209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Spree Commerce",
@@ -12295,7 +12252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "Arccos Golf",
@@ -12338,7 +12295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "Kate Farms",
@@ -12388,7 +12345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Quip NYC",
@@ -12438,7 +12395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "True Fit",
@@ -12481,7 +12438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "Epoint",
@@ -12531,7 +12488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "FinditParts",
@@ -12574,7 +12531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "GetYourGuide",
@@ -12617,7 +12574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Kive",
@@ -12660,7 +12617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "UrbanFox",
@@ -12710,7 +12667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Leafly",
@@ -12753,7 +12710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "POLICYANDPLAY LTD",
@@ -12795,7 +12752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "ShootProof",
@@ -12838,7 +12795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Smile.io",
@@ -12881,7 +12838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "EZR",
@@ -12924,7 +12881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Zalando",
@@ -12974,7 +12931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Booqable",
@@ -13017,7 +12974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Instamojo",
@@ -13067,7 +13024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "BlueCart",
@@ -13110,7 +13067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Bread Financial",
@@ -13160,7 +13117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Lily AI",
@@ -13203,7 +13160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Slingshot Biosciences",
@@ -13253,7 +13210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Rentle",
@@ -13296,7 +13253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Apurata",
@@ -13346,7 +13303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Cratejoy",
@@ -13396,7 +13353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Kroger",
@@ -13439,7 +13396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Saleor",
@@ -13482,7 +13439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Shopify Admin API",
@@ -13525,7 +13482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "ShipBob",
@@ -13568,7 +13525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Toys R Us",
@@ -13611,7 +13568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Tribute Technology",
@@ -13654,7 +13611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Wayfair",
@@ -13697,7 +13654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     }
    ]
   },
@@ -13706,8 +13663,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 219,
-   "shown": 219,
+   "count": 220,
+   "shown": 220,
    "providers": [
     {
      "name": "DecoNetwork",
@@ -13750,7 +13707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Instabee",
@@ -13793,7 +13750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "ScanSource",
@@ -13836,10 +13793,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
-     "name": "Maison Safqa Holdings Limited",
+     "name": "Maison Safqa",
      "slug": "maison-safqa-holdings-limited",
      "description": "Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Developer API — an API-key-authenticated REST interface for creating products (single and bulk) and updating inventory levels, which the platform then syncs into Shopify with brand data taking precedence on conflict and prices converted to SAR on ingestion. Surfaced originally as a 500 Global portfolio lead and enriched from the provider's public developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png",
@@ -13879,7 +13836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Ship24",
@@ -13922,7 +13879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Terminal",
@@ -13965,7 +13922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "REKKI",
@@ -14008,7 +13965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Bobbie",
@@ -14058,7 +14015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Fulfil",
@@ -14101,7 +14058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Real Gift Services",
@@ -14151,7 +14108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Scalable Press",
@@ -14194,7 +14151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Curie",
@@ -14237,7 +14194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "self"
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Gorgias",
@@ -14279,6 +14236,49 @@
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
+     },
+     "rank": 306
+    },
+    {
+     "name": "Also",
+     "slug": "also",
+     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 37.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
      },
      "rank": 307
     },
@@ -16705,56 +16705,6 @@
      "rank": 360
     },
     {
-     "name": "Brooklinen",
-     "slug": "brooklinen",
-     "description": "Brooklinen is a direct-to-consumer home essentials brand founded in Brooklyn, New York in 2014 by Rich and Vicki Fulop, selling sheets, duvet covers, comforters, pillows, towels, robes and loungewear direct from the mill to the customer. Brooklinen publishes no traditional developer API program, but its storefront runs on Shopify and exposes a substantial machine-readable agent surface: an agent instruction document at /agents.md (mirrored at /llms.txt), a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp declaring protocol versions 2026-04-08 and 2026-01-23, a live UCP/MCP JSON-RPC endpoint at /api/ucp/mcp for agent-driven catalog search, cart, checkout and order operations, OAuth 2.0 / OIDC customer-account authorization metadata at /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource, and the read-only Shopify storefront JSON endpoints for products, collections, search suggestions and cart. Checkout explicitly requires contemporaneous human buyer approval.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 13.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 54.8,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 361
-    },
-    {
      "name": "Poppi",
      "slug": "poppi",
      "description": "Poppi is an American prebiotic soda brand founded in Austin, Texas by Stephen and Allison Ellsworth, originally as Mother Beverage, rebranded to poppi in 2020 after a Shark Tank investment and acquired by PepsiCo in May 2025. Poppi sells direct to consumers from drinkpoppi.com, a Shopify storefront, and that storefront is where its machine-readable surface lives: poppi publishes agent instructions at /agents.md and /llms.txt, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, and an anonymous remote MCP endpoint at /api/ucp/mcp exposing 13 catalog, cart, checkout and order tools with full JSON Schema input contracts. Poppi is not a software vendor and ships no developer program, SDKs or OpenAPI — its API surface is the Shopify-native agentic-commerce stack served on and scoped to its own domain.",
@@ -16795,7 +16745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Elysium Health",
@@ -16845,7 +16795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Olipop",
@@ -16888,7 +16838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Ordergroove",
@@ -16931,7 +16881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Venzee",
@@ -16974,7 +16924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Vizit",
@@ -17017,7 +16967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Pagar.me",
@@ -17067,7 +17017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Wix",
@@ -17110,7 +17060,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Fevo",
@@ -17160,7 +17110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Lemon Squeezy",
@@ -17203,7 +17153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Riskified",
@@ -17253,7 +17203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Airmee",
@@ -17302,7 +17252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Octobat",
@@ -17352,7 +17302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "SamCart",
@@ -17402,7 +17352,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Flash Express",
@@ -17445,7 +17395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "Flipkart",
@@ -17488,7 +17438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Vectary",
@@ -17531,7 +17481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Kudobuzz",
@@ -17574,7 +17524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Locus",
@@ -17617,7 +17567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Supergoop!",
@@ -17660,7 +17610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "Kurly",
@@ -17703,7 +17653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "LoyaltyLion",
@@ -17746,7 +17696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Logik.io",
@@ -17789,7 +17739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Therabody",
@@ -17839,7 +17789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "Voyage Foods",
@@ -17882,7 +17832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "AG1",
@@ -17932,7 +17882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "Photoroom",
@@ -17975,7 +17925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "Teelaunch",
@@ -18018,7 +17968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "ICON Aircraft",
@@ -18061,7 +18011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Judge.me",
@@ -18103,7 +18053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "SPOD",
@@ -18146,7 +18096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "takepayments",
@@ -18196,7 +18146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Xiaoe (小鹅通)",
@@ -18246,7 +18196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "100 Thieves",
@@ -18289,7 +18239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Allianz Trade",
@@ -18339,7 +18289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "Cerebelly",
@@ -18382,7 +18332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Fnatic",
@@ -18425,7 +18375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Madeiramadeira",
@@ -18468,7 +18418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Fourthwall",
@@ -18511,7 +18461,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "IKEA",
@@ -18553,7 +18503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Payhip",
@@ -18603,7 +18553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "Salesforce Commerce Cloud",
@@ -18646,7 +18596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Kite Hill",
@@ -18689,7 +18639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Pixlee",
@@ -18732,7 +18682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "CarMD",
@@ -18775,7 +18725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "Price Lab",
@@ -18818,7 +18768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "SHEIN",
@@ -18861,7 +18811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "BestPrice Agent Commerce",
@@ -18904,7 +18854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "LayUp Technologies",
@@ -18954,7 +18904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Parsley Health",
@@ -19004,7 +18954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Black Buffalo",
@@ -19047,7 +18997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "ModifyHealth",
@@ -19097,7 +19047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "ZBiotics",
@@ -19146,7 +19096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "Shipper",
@@ -19189,7 +19139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "Boxc",
@@ -19232,7 +19182,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "Nacelle",
@@ -19275,7 +19225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "Nuvei",
@@ -19325,7 +19275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "Flipp (Wishabi)",
@@ -19368,7 +19318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "David Protein",
@@ -19418,7 +19368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Weebly",
@@ -19461,7 +19411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Rock The Bells",
@@ -19504,7 +19454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "Uncapped",
@@ -19547,7 +19497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "Byrd",
@@ -19590,7 +19540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "PBS Biotech",
@@ -19629,6 +19579,56 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 424
+    },
+    {
+     "name": "Brooklinen",
+     "slug": "brooklinen",
+     "description": "Brooklinen is a direct-to-consumer home essentials brand founded in Brooklyn, New York in 2014 by Rich and Vicki Fulop, selling sheets, duvet covers, comforters, pillows, towels, robes and loungewear direct from the mill to the customer. Brooklinen publishes no traditional developer API program, but its storefront runs on Shopify and exposes a substantial machine-readable agent surface: an agent instruction document at /agents.md (mirrored at /llms.txt), a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp declaring protocol versions 2026-04-08 and 2026-01-23, a live UCP/MCP JSON-RPC endpoint at /api/ucp/mcp for agent-driven catalog search, cart, checkout and order operations, OAuth 2.0 / OIDC customer-account authorization metadata at /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource, and the read-only Shopify storefront JSON endpoints for products, collections, search suggestions and cart. Checkout explicitly requires contemporaneous human buyer approval.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png",
+     "score": 31.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 1.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
@@ -21137,7 +21137,7 @@
      "rank": 458
     },
     {
-     "name": "AAR Corp",
+     "name": "AAR",
      "slug": "aar",
      "description": "AAR CORP. (NYSE: AIR) is a global aerospace and defense aftermarket solutions company and the number one aviation maintenance, repair and overhaul (MRO) provider in North America. It supplies new and used airframe and engine parts, performs airframe and component MRO, runs expeditionary and sustainment programs for government and defense customers on five continents, and operates four aviation software businesses — Trax (eMRO/eMobility aviation ERP), Aerostrat (Aerros maintenance scheduling), Airvoyant (AI-driven parts procurement, launched April 2026) and Airinmar (component repair and warranty management) — whose software covers more than 10,000 aircraft. AAR publishes no developer program, no API reference and no machine-readable contract; its only anonymously reachable API surface is the undocumented Adobe Commerce webapi behind the AAR PAARTS Store at shop.aarcorp.com/rest/V1/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png",
@@ -21752,7 +21752,7 @@
      "rank": 472
     },
     {
-     "name": "Quissly Inc.",
+     "name": "Quissly",
      "slug": "quissly-inc",
      "description": "Quissly, Inc. is a Delaware-based SaaS company building an AI-powered search and conversational commerce platform for online stores. Its two products, QSearch and QChat, replace keyword search with semantic AI that understands natural-language queries like \"something to wear to a beach wedding\" and maps them to relevant products. QSearch offers semantic and visual similarity search, synonym/typo handling, voice search, AI recommendations, custom merchandising rules and a real-time analytics dashboard across 40+ languages; QChat is a conversational shopping assistant with product Q&A, guided shopping, personalization, and omnichannel/live-chat human handoff. Quissly is a fully managed SaaS with sub-100ms search, a REST API, and native Shopify, WooCommerce and CS-Cart plugins, surfaced in the API Evangelist network as a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/quissly-inc/refs/heads/main/screenshots/quissly-inc-2026-09-02T152710.png",
@@ -22995,7 +22995,7 @@
      "rank": 500
     },
     {
-     "name": "Blassa Inc.",
+     "name": "Blassa",
      "slug": "blassa-inc",
      "description": "Blassa is an AI-powered location intelligence and geocoding platform built for the informal addressing systems common across the Middle East and Africa (MEA), where up to 40% of deliveries fail on the first attempt. The Blassa API turns ambiguous location descriptions and photos into precise coordinates and structured, verified addresses, offering forward and reverse geocoding, multi-language address autocomplete (Arabic, French, and local languages), address validation with deliverability scoring, and photo-to-location conversion. It targets logistics, e-commerce, and last-mile delivery companies looking to cut failed deliveries and improve checkout conversion. Founded in 2021 and backed by 500 Global and the Sanabil Accelerator, Blassa exposes its capabilities through a credit-metered REST API with free, Pro, and Enterprise plans, an API-key auth model, webhook support, and a hosted developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png",
@@ -24307,6 +24307,49 @@
      "rank": 529
     },
     {
+     "name": "Redefine Meat",
+     "slug": "redefine-meat",
+     "description": "Redefine Meat is an Israeli food-technology company, founded in 2018, that manufactures plant-based whole-cut meat alternatives it markets as New-Meat, using proprietary industrial 3D printing together with plant-protein formulations it calls Alt-Muscle, Alt-Fat and Alt-Blood. Its range spans steaks, burgers, shawarma, beef mince, lamb kofta, pulled beef and bratwurst across consumer (B2C) and foodservice (B2B / PRO) lines, sold through restaurants, hotels, caterers and retail in the United Kingdom, Germany, the Netherlands, France and Israel. Redefine Meat operates no developer program, but its own website at www.redefinemeat.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface: a WordPress REST API discovery index advertising 845 routes across 30 namespaces, an anonymously readable WooCommerce Store API for products, categories and cart, and two OAuth-gated Model Context Protocol endpoints advertised through RFC 8414 and RFC 9728 well-known metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/screenshots/redefine-meat-2026-09-02T153205.png",
+     "score": 25.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 530
+    },
+    {
      "name": "EasyPay",
      "slug": "easypay",
      "description": "EasyPay (Fawaterak) is an Egyptian digital payment gateway that lets businesses accept online payments and send invoices and payment links over WhatsApp or SMS without needing a website. It supports Visa, MasterCard, Meeza, Fawry, mobile wallets, and cash collection, and serves more than 20,000 businesses across retail and e-commerce, healthcare, education, real estate, logistics, and hospitality. The Fawaterak REST API (base https://app.fawaterk.com/api/v2/) is authenticated with a vendor Bearer token and exposes operations to list payment methods, create invoice/payment links, initiate payment on an invoice, and retrieve invoice data, with rate limiting signalled via X-RateLimit-* response headers.",
@@ -24354,7 +24397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Lightspeed",
@@ -24397,7 +24440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "SayDuck",
@@ -24440,7 +24483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "VIPShop",
@@ -24483,7 +24526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Ministry of Supply",
@@ -24526,7 +24569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "Nivoda",
@@ -24569,7 +24612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "Wuilt",
@@ -24612,7 +24655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "Bartesian",
@@ -24655,7 +24698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Because",
@@ -24705,7 +24748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "Everytable",
@@ -24748,7 +24791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "HVMN",
@@ -24798,7 +24841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "IM8 Health",
@@ -24848,7 +24891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Rad Power Bikes",
@@ -24891,7 +24934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "Crossing Minds",
@@ -24934,7 +24977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Groupon",
@@ -24977,7 +25020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Glowbar",
@@ -25020,7 +25063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Rosetta.ai",
@@ -25063,7 +25106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Takealot",
@@ -25105,7 +25148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Shipwire",
@@ -25155,7 +25198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "Remarkable AI",
@@ -25198,7 +25241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "BrewDog",
@@ -25241,7 +25284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "Volusion",
@@ -25284,7 +25327,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 552
+    },
+    {
+     "name": "Bond Pet Foods",
+     "slug": "bond-pet-foods",
+     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 41.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 553
     },
     {
      "name": "Rohlik",
@@ -25327,7 +25413,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 554
     },
     {
      "name": "Chill",
@@ -25377,7 +25463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 553
+     "rank": 555
     },
     {
      "name": "Cloud Commerce",
@@ -25420,7 +25506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 556
     },
     {
      "name": "Dripshop",
@@ -25470,7 +25556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 557
     },
     {
      "name": "Lucky Cart",
@@ -25513,7 +25599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 558
     },
     {
      "name": "Flying Embers",
@@ -25556,7 +25642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 557
+     "rank": 559
     },
     {
      "name": "Footway",
@@ -25599,7 +25685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 558
+     "rank": 560
     },
     {
      "name": "Mayan",
@@ -25642,7 +25728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 561
     },
     {
      "name": "True Botanicals",
@@ -25685,7 +25771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 560
+     "rank": 562
     },
     {
      "name": "Upway",
@@ -25727,7 +25813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 561
+     "rank": 563
     },
     {
      "name": "Ematic Solutions",
@@ -25770,7 +25856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 564
     },
     {
      "name": "La Ruche qui dit Oui!",
@@ -25812,7 +25898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 565
     },
     {
      "name": "MadeThis",
@@ -25855,7 +25941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 566
     },
     {
      "name": "Oishii",
@@ -25898,7 +25984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 565
+     "rank": 567
     },
     {
      "name": "Pair Eyewear",
@@ -25941,7 +26027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 566
+     "rank": 568
     },
     {
      "name": "Sambazon",
@@ -25984,7 +26070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 567
+     "rank": 569
     },
     {
      "name": "Super Coffee",
@@ -26027,7 +26113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 568
+     "rank": 570
     },
     {
      "name": "Qogita",
@@ -26077,7 +26163,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 571
     },
     {
      "name": "WareGo",
@@ -26119,7 +26205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 572
     },
     {
      "name": "Dutchie",
@@ -26168,7 +26254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 573
     },
     {
      "name": "Hero Bread",
@@ -26211,7 +26297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 572
+     "rank": 574
     },
     {
      "name": "Blurb",
@@ -26254,7 +26340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 575
     },
     {
      "name": "LTK",
@@ -26297,10 +26383,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 576
     },
     {
-     "name": "Piper Inc.",
+     "name": "Piper",
      "slug": "piper-inc",
      "description": "Piper (Piper Learning, Inc. / Piper LLC) is an educational-technology company that makes hands-on STEM learning kits — most notably the Piper Computer Kit, a buildable wooden computer that teaches circuitry and coding through Minecraft, and Piper Make, a browser-based platform for exploring electronics and Python. Its consumer storefront runs on Shopify and exposes an agent-commerce surface: a Universal Commerce Protocol (UCP) merchant profile with an MCP endpoint plus Shopify Customer Account OpenID Connect, letting AI shopping agents search the catalog, build carts, and check out with explicit buyer approval. Surfaced as a 500 Global portfolio company and enriched from its live public agent/discovery surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/screenshots/piper-inc-2026-09-02T151319.png",
@@ -26347,7 +26433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 575
+     "rank": 577
     },
     {
      "name": "Glife",
@@ -26390,7 +26476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 578
     },
     {
      "name": "Super73",
@@ -26433,7 +26519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 577
+     "rank": 579
     },
     {
      "name": "Oatside",
@@ -26476,7 +26562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 578
+     "rank": 580
     },
     {
      "name": "PanTheryx",
@@ -26526,7 +26612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 579
+     "rank": 581
     },
     {
      "name": "soona",
@@ -26569,7 +26655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 582
     },
     {
      "name": "Melorra",
@@ -26612,7 +26698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 583
     },
     {
      "name": "Namogoo",
@@ -26655,7 +26741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 584
     },
     {
      "name": "Flaviar",
@@ -26698,7 +26784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 583
+     "rank": 585
     },
     {
      "name": "Hodinkee",
@@ -26741,7 +26827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 584
+     "rank": 586
     },
     {
      "name": "Laurence",
@@ -26784,7 +26870,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 587
     },
     {
      "name": "UrbanStems",
@@ -26826,7 +26912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 586
+     "rank": 588
     },
     {
      "name": "Huuray",
@@ -26876,7 +26962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 589
     },
     {
      "name": "Agilitas Sports",
@@ -26918,7 +27004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 588
+     "rank": 590
     },
     {
      "name": "1MORE",
@@ -26960,7 +27046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 589
+     "rank": 591
     },
     {
      "name": "4th & Heart",
@@ -27002,7 +27088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 590
+     "rank": 592
     },
     {
      "name": "Hint",
@@ -27045,7 +27131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 591
+     "rank": 593
     },
     {
      "name": "Kizik",
@@ -27088,7 +27174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 592
+     "rank": 594
     },
     {
      "name": "Numi Tea",
@@ -27131,7 +27217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 593
+     "rank": 595
     },
     {
      "name": "Petstore.com",
@@ -27174,50 +27260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 594
-    },
-    {
-     "name": "Redefine Meat",
-     "slug": "redefine-meat",
-     "description": "Redefine Meat is an Israeli food-technology company, founded in 2018, that manufactures plant-based whole-cut meat alternatives it markets as New-Meat, using proprietary industrial 3D printing together with plant-protein formulations it calls Alt-Muscle, Alt-Fat and Alt-Blood. Its range spans steaks, burgers, shawarma, beef mince, lamb kofta, pulled beef and bratwurst across consumer (B2C) and foodservice (B2B / PRO) lines, sold through restaurants, hotels, caterers and retail in the United Kingdom, Germany, the Netherlands, France and Israel. Redefine Meat operates no developer program, but its own website at www.redefinemeat.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface: a WordPress REST API discovery index advertising 845 routes across 30 namespaces, an anonymously readable WooCommerce Store API for products, categories and cart, and two OAuth-gated Model Context Protocol endpoints advertised through RFC 8414 and RFC 9728 well-known metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/screenshots/redefine-meat-2026-09-02T153205.png",
-     "score": 22.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 30.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Bombas",
@@ -27260,7 +27303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "PostEx",
@@ -27310,7 +27353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Tiffany & Co.",
@@ -27353,7 +27396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Boosted Commerce",
@@ -27403,7 +27446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "ByHeart",
@@ -27453,7 +27496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "UNTUCKit",
@@ -27496,7 +27539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "Furniture API",
@@ -27539,7 +27582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "Soylent",
@@ -27582,7 +27625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "VNLIFE",
@@ -27632,7 +27675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Koala Health",
@@ -27682,7 +27725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "Maisonette",
@@ -27725,7 +27768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "EQL",
@@ -27768,7 +27811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Honest Company",
@@ -27811,7 +27854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Italist",
@@ -27854,7 +27897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Outer",
@@ -27897,7 +27940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "Coupang",
@@ -27940,7 +27983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Unmade",
@@ -27983,7 +28026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "51offer",
@@ -28032,7 +28075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "99 Counties",
@@ -28075,7 +28118,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 614
+     "rank": 615
+    },
+    {
+     "name": "AI model",
+     "slug": "aimodel",
+     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 616
     },
     {
      "name": "Feastables",
@@ -28118,7 +28203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 615
+     "rank": 617
     },
     {
      "name": "Outlier",
@@ -28168,50 +28253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 616
-    },
-    {
-     "name": "Bond Pet Foods",
-     "slug": "bond-pet-foods",
-     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 30.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Evolved By Nature",
@@ -28254,7 +28296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Revie",
@@ -28297,7 +28339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Athletic Brewing",
@@ -28340,7 +28382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "Prime Hydration",
@@ -28383,7 +28425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "SidelineSwap",
@@ -28426,7 +28468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "uScoop",
@@ -28469,7 +28511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Blume",
@@ -28512,7 +28554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "Vivoo",
@@ -28562,7 +28604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Vivrelle",
@@ -28604,7 +28646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "Linsy",
@@ -28647,7 +28689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "Mammoth Brands",
@@ -28690,7 +28732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "Premier Lacrosse League",
@@ -28733,7 +28775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "Willie's Reserve",
@@ -28775,7 +28817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Houzz",
@@ -28818,7 +28860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "Ubras",
@@ -28861,7 +28903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 632
+     "rank": 633
     },
     {
      "name": "Wyatt",
@@ -28903,7 +28945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 634
     },
     {
      "name": "Kin Euphorics",
@@ -28946,10 +28988,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 634
+     "rank": 635
     },
     {
-     "name": "ALLSALE Corp.",
+     "name": "ALLSALE",
      "slug": "allsale-corp",
      "description": "ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-marketing automation platform for consumer brands. It runs three AI agents — a Creator Discovery Agent that finds and engages relevant TikTok creators, a Budget Optimization Agent that recommends budget allocation and commission adjustments, and a Performance Analyst Agent that tracks GMV and predicts results — automating the full workflow from creator discovery and outreach through performance tracking and ROI analysis. The company is a 500 Global portfolio company and reports 100K+ creators engaged and $50M+ in customer revenue generated across its brand clients. Plans run from a $399/month Starter tier to a $599/month Pro tier, with custom Enterprise pricing offering unlimited messaging, multi-brand support, and white-label options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/screenshots/allsale-corp-2026-07-25T195716.png",
@@ -28989,7 +29031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 636
     },
     {
      "name": "Althea",
@@ -29032,7 +29074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 636
+     "rank": 637
     },
     {
      "name": "Kimba",
@@ -29082,7 +29124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 637
+     "rank": 638
     },
     {
      "name": "Urban Revivo",
@@ -29125,7 +29167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 638
+     "rank": 639
     },
     {
      "name": "American Eagle Outfitters",
@@ -29168,7 +29210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 639
+     "rank": 640
     },
     {
      "name": "Charles Co",
@@ -29211,7 +29253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 641
     },
     {
      "name": "EcoCart",
@@ -29261,7 +29303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 642
     },
     {
      "name": "Shogun",
@@ -29304,7 +29346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 643
     },
     {
      "name": "Siena",
@@ -29347,7 +29389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 644
     },
     {
      "name": "Meesho",
@@ -29390,7 +29432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 645
     },
     {
      "name": "StoreHub",
@@ -29440,7 +29482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 646
     },
     {
      "name": "Airmart",
@@ -29489,7 +29531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 647
     },
     {
      "name": "Appbrew",
@@ -29532,7 +29574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 648
     },
     {
      "name": "Binske",
@@ -29575,7 +29617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 648
+     "rank": 649
     },
     {
      "name": "Debut",
@@ -29618,7 +29660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 649
+     "rank": 650
     },
     {
      "name": "Ringly",
@@ -29661,7 +29703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 651
     },
     {
      "name": "52TOYS",
@@ -29704,7 +29746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 651
+     "rank": 652
     },
     {
      "name": "Meals In Minutes, MIM",
@@ -29747,7 +29789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 652
+     "rank": 653
     },
     {
      "name": "TO THE MARKET",
@@ -29790,7 +29832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 653
+     "rank": 654
     },
     {
      "name": "A-Bio Materials",
@@ -29839,7 +29881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 655
     },
     {
      "name": "Modcloth",
@@ -29882,7 +29924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 655
+     "rank": 656
     },
     {
      "name": "Mokker.ai",
@@ -29925,7 +29967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 657
     },
     {
      "name": "Grubbly Farms",
@@ -29968,7 +30010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 658
     },
     {
      "name": "Lazada",
@@ -30011,7 +30053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 659
     },
     {
      "name": "TRUFF",
@@ -30054,7 +30096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 659
+     "rank": 660
     },
     {
      "name": "Urtopia",
@@ -30097,7 +30139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 660
+     "rank": 661
     },
     {
      "name": "Glossier",
@@ -30140,7 +30182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 661
+     "rank": 662
     },
     {
      "name": "Adidas",
@@ -30182,7 +30224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 663
     },
     {
      "name": "Boat Lifestyle",
@@ -30225,7 +30267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 663
+     "rank": 664
     },
     {
      "name": "Huel",
@@ -30275,7 +30317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 665
     },
     {
      "name": "Skechers U.S.A.",
@@ -30318,7 +30360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 666
     },
     {
      "name": "PicPay",
@@ -30368,7 +30410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 667
     },
     {
      "name": "Reactiv",
@@ -30411,7 +30453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 668
     },
     {
      "name": "Gymshark",
@@ -30454,7 +30496,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 669
     },
     {
      "name": "NimaSensor",
@@ -30504,7 +30546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 670
     },
     {
      "name": "Away",
@@ -30547,7 +30589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 670
+     "rank": 671
     },
     {
      "name": "Board",
@@ -30590,7 +30632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 671
+     "rank": 672
     },
     {
      "name": "Rhone Apparel",
@@ -30633,7 +30675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "self"
      },
-     "rank": 672
+     "rank": 673
     },
     {
      "name": "Superfuel AI",
@@ -30676,7 +30718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 674
     },
     {
      "name": "Uppercase",
@@ -30719,7 +30761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 674
+     "rank": 675
     },
     {
      "name": "Skullcandy",
@@ -30762,7 +30804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 675
+     "rank": 676
     },
     {
      "name": "Ground AI",
@@ -30805,7 +30847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 677
     },
     {
      "name": "Bed Bath And Beyond",
@@ -30848,7 +30890,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 678
     },
     {
      "name": "KaBum!",
@@ -30891,7 +30933,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 679
     },
     {
      "name": "USPL Wrogn",
@@ -30934,7 +30976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 679
+     "rank": 680
     },
     {
      "name": "Webloyalty",
@@ -30977,7 +31019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 681
     },
     {
      "name": "CSC Generation",
@@ -31020,7 +31062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 681
+     "rank": 682
     },
     {
      "name": "GoAudience",
@@ -31063,7 +31105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 683
     },
     {
      "name": "The Beard Club",
@@ -31106,7 +31148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 683
+     "rank": 684
     },
     {
      "name": "Daily Harvest",
@@ -31156,7 +31198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 685
     },
     {
      "name": "Dukaan",
@@ -31199,7 +31241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 686
     },
     {
      "name": "Urban Remedy",
@@ -31242,7 +31284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 687
     },
     {
      "name": "Blue Origin",
@@ -31284,7 +31326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 687
+     "rank": 688
     },
     {
      "name": "Fly By Jing",
@@ -31327,7 +31369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Hopstack",
@@ -31370,7 +31412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "AramisAuto",
@@ -31413,7 +31455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "Beauty Pie",
@@ -31456,7 +31498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "Function of Beauty",
@@ -31499,7 +31541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "LAKRIDS BY BÜLOW",
@@ -31542,7 +31584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "Literati",
@@ -31592,7 +31634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "Revibe",
@@ -31635,7 +31677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 695
+     "rank": 696
     },
     {
      "name": "Tempur Sealy International",
@@ -31678,7 +31720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 697
     },
     {
      "name": "Branding Brand",
@@ -31721,7 +31763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 698
     },
     {
      "name": "everlane",
@@ -31764,7 +31806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 698
+     "rank": 699
     },
     {
      "name": "Keyboardio",
@@ -31807,7 +31849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 700
     },
     {
      "name": "Brava Home",
@@ -31850,7 +31892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 700
+     "rank": 701
     },
     {
      "name": "HOLY",
@@ -31893,7 +31935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 701
+     "rank": 702
     },
     {
      "name": "Table22",
@@ -31936,7 +31978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 703
     },
     {
      "name": "Allbirds",
@@ -31979,7 +32021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 703
+     "rank": 704
     },
     {
      "name": "Molekule",
@@ -32022,7 +32064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 704
+     "rank": 705
     },
     {
      "name": "Zulily",
@@ -32065,7 +32107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 705
+     "rank": 706
     },
     {
      "name": "HAMAMA",
@@ -32115,7 +32157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 707
     },
     {
      "name": "Johrh",
@@ -32158,7 +32200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 708
     },
     {
      "name": "Huice",
@@ -32201,7 +32243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 709
     },
     {
      "name": "Bespoke Post",
@@ -32244,7 +32286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 710
     },
     {
      "name": "IRIZ Platform",
@@ -32293,7 +32335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 711
     },
     {
      "name": "BaubleBar",
@@ -32336,7 +32378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 712
     },
     {
      "name": "Cotopaxi",
@@ -32379,7 +32421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 713
     },
     {
      "name": "Juni",
@@ -32439,7 +32481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 714
     },
     {
      "name": "Better Health",
@@ -32489,7 +32531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "Matchaful",
@@ -32532,7 +32574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 715
+     "rank": 716
     },
     {
      "name": "BloomThis",
@@ -32575,7 +32617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 716
+     "rank": 717
     },
     {
      "name": "Essendant",
@@ -32618,7 +32660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 718
     },
     {
      "name": "Feedvisor",
@@ -32661,7 +32703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 718
+     "rank": 719
     },
     {
      "name": "Adobe Commerce",
@@ -32704,7 +32746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 719
+     "rank": 720
     },
     {
      "name": "Zenline AI",
@@ -32747,7 +32789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 720
+     "rank": 721
     },
     {
      "name": "Chefaa",
@@ -32797,7 +32839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 721
+     "rank": 722
     },
     {
      "name": "Vetcove",
@@ -32847,7 +32889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 722
+     "rank": 723
     },
     {
      "name": "Face Reality Skincare",
@@ -32890,7 +32932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 723
+     "rank": 724
     },
     {
      "name": "Shopee",
@@ -32933,7 +32975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 724
+     "rank": 725
     },
     {
      "name": "Shoptiques",
@@ -32976,7 +33018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 725
+     "rank": 726
     },
     {
      "name": "Thamarah Al-Jill Co LLC",
@@ -33019,7 +33061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 726
+     "rank": 727
     },
     {
      "name": "Winc",
@@ -33062,7 +33104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 727
+     "rank": 728
     },
     {
      "name": "InkSoft",
@@ -33105,7 +33147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 728
+     "rank": 729
     },
     {
      "name": "JD.com (Jingdong)",
@@ -33148,7 +33190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 729
+     "rank": 730
     },
     {
      "name": "Little Spoon",
@@ -33191,7 +33233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 730
+     "rank": 731
     },
     {
      "name": "moodytiger",
@@ -33234,7 +33276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 731
+     "rank": 732
     },
     {
      "name": "Aiguang",
@@ -33276,7 +33318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 732
+     "rank": 733
     },
     {
      "name": "Archive",
@@ -33319,7 +33361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 733
+     "rank": 734
     },
     {
      "name": "Aventon",
@@ -33362,7 +33404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 734
+     "rank": 735
     },
     {
      "name": "Barn & Willow",
@@ -33405,7 +33447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 735
+     "rank": 736
     },
     {
      "name": "CRU Kafe",
@@ -33448,7 +33490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 736
+     "rank": 737
     },
     {
      "name": "EcoSoul Home",
@@ -33491,7 +33533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 737
+     "rank": 738
     },
     {
      "name": "Rouje",
@@ -33534,7 +33576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 738
+     "rank": 739
     },
     {
      "name": "wanelo",
@@ -33577,7 +33619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 739
+     "rank": 740
     },
     {
      "name": "MORI",
@@ -33620,7 +33662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 740
+     "rank": 741
     },
     {
      "name": "Pendulumlife",
@@ -33670,7 +33712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 742
     },
     {
      "name": "Arka",
@@ -33713,7 +33755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 742
+     "rank": 743
     },
     {
      "name": "Backerkit",
@@ -33763,7 +33805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 744
     },
     {
      "name": "Belk",
@@ -33806,7 +33848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 745
     },
     {
      "name": "RetainIQ",
@@ -33856,7 +33898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 746
     },
     {
      "name": "Simon Property Group",
@@ -33899,7 +33941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 747
     },
     {
      "name": "Abercrombie and Fitch",
@@ -33942,7 +33984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 748
     },
     {
      "name": "CrowdMade",
@@ -33985,7 +34027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 748
+     "rank": 749
     },
     {
      "name": "Level Frames",
@@ -34028,7 +34070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 750
     },
     {
      "name": "Pietra",
@@ -34071,7 +34113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 751
     },
     {
      "name": "Shopventory",
@@ -34114,7 +34156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 752
     },
     {
      "name": "Joor",
@@ -34164,7 +34206,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 753
     },
     {
      "name": "The Black Tux",
@@ -34207,7 +34249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 754
     },
     {
      "name": "The Lafz",
@@ -34250,7 +34292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 754
+     "rank": 755
     },
     {
      "name": "Universe",
@@ -34293,7 +34335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 756
     },
     {
      "name": "Agnikul Cosmos",
@@ -34335,7 +34377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 756
+     "rank": 757
     },
     {
      "name": "Coravin",
@@ -34378,7 +34420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 757
+     "rank": 758
     },
     {
      "name": "Foraged",
@@ -34421,7 +34463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 759
     },
     {
      "name": "MTN OPS",
@@ -34464,7 +34506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 760
     },
     {
      "name": "OLX",
@@ -34507,7 +34549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 761
     },
     {
      "name": "Pango",
@@ -34550,7 +34592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 762
     },
     {
      "name": "Valyuu",
@@ -34592,7 +34634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 763
     },
     {
      "name": "AMI Paris",
@@ -34635,7 +34677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 763
+     "rank": 764
     },
     {
      "name": "KiwiCo",
@@ -34685,7 +34727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 765
     },
     {
      "name": "MarqVision",
@@ -34728,7 +34770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 766
     },
     {
      "name": "Fairplay",
@@ -34771,7 +34813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 767
     },
     {
      "name": "HungryPanda",
@@ -34821,7 +34863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 768
     },
     {
      "name": "Settle",
@@ -34871,7 +34913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 769
     },
     {
      "name": "Teikametrics",
@@ -34914,7 +34956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 770
     },
     {
      "name": "Pricerunner",
@@ -34956,7 +34998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 771
     },
     {
      "name": "Storefront",
@@ -34999,7 +35041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 772
     },
     {
      "name": "Trass Games",
@@ -35042,7 +35084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 772
+     "rank": 773
     },
     {
      "name": "CandyClub",
@@ -35084,48 +35126,6 @@
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
-     },
-     "rank": 773
-    },
-    {
-     "name": "AI model",
-     "slug": "aimodel",
-     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
      },
      "rank": 774
     },
@@ -36839,7 +36839,7 @@
      "rank": 812
     },
     {
-     "name": "HNI Corporation",
+     "name": "HNI",
      "slug": "hni",
      "description": "HNI Corporation (NYSE: HNI) is a manufacturer founded in 1944 and headquartered in Muscatine, Iowa, built around two operating segments. Workplace Furnishings makes office seating, desks, storage, tables, panel systems and ancillary furnishings sold through independent dealers under the HON, Allsteel, Gunlocke, HBF and Kimball International brands. Residential Building Products is the hearth business, operated by Hearth & Home Technologies under the Heatilator, Heat & Glo, Majestic, Monessen, Quadra-Fire, Harman, SimpliFire and PelPro brands. HNI publishes no developer portal, REST API or OpenAPI for either segment. Its one public machine-readable surface is the agent-commerce stack on the Hearth & Home Technologies storefront at hearthnhome.com, which serves an llms.txt, a Universal Commerce Protocol merchant profile and an anonymous MCP endpoint exposing 13 catalog, cart and checkout tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/screenshots/hni-2026-06-20T182807.png",
@@ -44500,7 +44500,7 @@
      "rank": 986
     },
     {
-     "name": "CUUP, Inc.",
+     "name": "CUUP",
      "slug": "cuup-inc",
      "description": "CUUP, Inc. is a New York City-based direct-to-consumer intimates brand founded in 2018 by Abby Morgan and Kearnon O'Molony, offering precision-fit bras, underwear, loungewear, apparel, and swim across an extended range of cup and band sizes sold through its shopcuup.com online store. Backed by Insight Partners and Forerunner Ventures, CUUP was acquired by FULLBEAUTY Brands in July 2023 and now runs on the FULLBEAUTY commerce platform. As a consumer retail company it exposes no public developer API; this API Evangelist profile captures its public web presence, domain security posture, and commercial policy pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuup-inc/refs/heads/main/screenshots/cuup-inc-2026-07-25T211014.png",

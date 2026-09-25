@@ -133,7 +133,7 @@ modified: '2026-07-21'
 name: TAXO
 nav: Providers
 network: true
-overview: 'TAXO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Tax, Fintech, and Electronic Invoicing.
+overview: 'TAXO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Tax, Fintech, and E-Invoicing.
 
 
   The TAXO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,7 +193,7 @@ tags:
 - Accounting
 - Tax
 - Fintech
-- Electronic Invoicing
+- E-Invoicing
 - Facturación Electrónica
 - CFDI
 - SRI

@@ -77,7 +77,7 @@ modified: '2026-07-19'
 name: EXIGER
 nav: Providers
 network: true
-overview: 'EXIGER is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Risk Management, Third-Party Risk, and Compliance.
+overview: 'EXIGER is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Risk Management, Third-Party Risk Management, and Compliance.
 
 
   EXIGER''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -123,7 +123,7 @@ tags:
 - Company
 - Supply Chain
 - Risk Management
-- Third-Party Risk
+- Third-Party Risk Management
 - Compliance
 - Due Diligence
 - Software Supply Chain

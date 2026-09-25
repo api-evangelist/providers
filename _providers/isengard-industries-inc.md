@@ -73,10 +73,10 @@ description: 'Isengard Industries builds sovereign production capability for def
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/isengard-industries-inc.png
 layout: provider
 modified: '2026-07-19'
-name: Isengard Industries Inc
+name: Isengard Industries
 nav: Providers
 network: true
-overview: Isengard Industries Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-UAS, Counter-Drone, and Autonomous Systems.
+overview: Isengard Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-UAS, Counter-Drone, and Autonomous Systems.
 random_paper: 15
 score:
   band: minimal

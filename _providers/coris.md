@@ -101,7 +101,7 @@ modified: '2026-07-18'
 name: Coris
 nav: Providers
 network: true
-overview: 'Coris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Risk, Fraud, and Payments.
+overview: 'Coris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Risk Management, Fraud, and Payments.
 
 
   Coris'' developer surface includes documentation, engineering blog, signup flow, and 10 more developer resources.'
@@ -159,7 +159,7 @@ slug: coris
 tags:
 - Company
 - Fintech
-- Risk
+- Risk Management
 - Fraud
 - Payments
 - Merchant Onboarding

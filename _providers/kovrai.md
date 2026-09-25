@@ -112,6 +112,6 @@ tags:
 - Governance
 - Cloud
 - Artificial Intelligence
-- Risk
+- Risk Management
 website: https://kovr.ai
 ---

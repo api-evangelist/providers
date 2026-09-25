@@ -61,7 +61,7 @@ modified: '2026-07-19'
 name: JOBDOH
 nav: Providers
 network: true
-overview: 'JOBDOH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, On-Demand Staffing, Recruitment, Hiring, and Temporary Work.
+overview: 'JOBDOH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, On-Demand Staffing, Recruiting, Hiring, and Temporary Work.
 
 
   JOBDOH''s developer surface includes engineering blog and 3 more developer resources.'
@@ -107,7 +107,7 @@ slug: jobdoh
 tags:
 - Company
 - On-Demand Staffing
-- Recruitment
+- Recruiting
 - Hiring
 - Temporary Work
 - Human Resources

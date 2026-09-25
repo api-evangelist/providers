@@ -530,7 +530,7 @@ modified: '2026-05-24'
 name: Tomorrow.io
 nav: Providers
 network: true
-overview: 'Tomorrow.io publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Historical Weather API, Events API, Weather on Routes API, and 7 more. Tagged areas include Weather, Forecast, Climate, Risk, and Air Quality.
+overview: 'Tomorrow.io publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Historical Weather API, Events API, Weather on Routes API, and 7 more. Tagged areas include Weather, Forecast, Climate, Risk Management, and Air Quality.
 
 
   The Tomorrow.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -634,7 +634,7 @@ tags:
 - Weather
 - Forecast
 - Climate
-- Risk
+- Risk Management
 - Air Quality
 - Pollen
 - Lightning

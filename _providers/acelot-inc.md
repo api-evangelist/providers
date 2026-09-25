@@ -96,13 +96,13 @@ description: Acelot, Inc. is a clinical-stage biopharmaceutical company headquar
 image: https://static1.squarespace.com/static/6721bd430e24a6572ea4152a/t/6732691e70799e3f6a4e8b71/1731356958733/Acelot-Website-LogoKnockout-111124-v01.png?format=1500w
 layout: provider
 modified: '2026-09-06'
-name: Acelot, Inc.
+name: Acelot
 nav: Providers
 network: true
-overview: 'Acelot, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
+overview: 'Acelot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
 
 
-  Acelot, Inc.''s developer surface includes engineering blog and 8 more developer resources.'
+  Acelot''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 1
 score:
   band: minimal

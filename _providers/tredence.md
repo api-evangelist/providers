@@ -177,7 +177,7 @@ tags:
 - Consulting
 - Data Engineering
 - MLOps
-- Agentic AI
+- AI Agents
 - Supply Chain
 website: https://www.tredence.com/
 ---

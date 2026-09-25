@@ -378,6 +378,7 @@ tags:
 - Research
 - Open Source
 - Public APIs
+- Research Data
 use_cases:
 - description: Build search and recommendation interfaces over the arXiv corpus.
   name: Research Discovery Tools

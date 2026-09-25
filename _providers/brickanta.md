@@ -90,7 +90,7 @@ modified: '2026-07-18'
 name: Brickanta
 nav: Providers
 network: true
-overview: 'Brickanta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Construction, and Agentic AI.
+overview: 'Brickanta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Construction, and AI Agents.
 
 
   Brickanta''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
@@ -142,7 +142,7 @@ tags:
 - Enterprise
 - Artificial Intelligence
 - Construction
-- Agentic AI
+- AI Agents
 - Procurement
 - Compliance
 website: https://www.brickanta.com

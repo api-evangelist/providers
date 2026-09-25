@@ -148,7 +148,7 @@ modified: '2026-05-19'
 name: Google Cloud Talent Solution
 nav: Providers
 network: true
-overview: 'Google Cloud Talent Solution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Jobs API, and Tenants API. Tagged areas include Google Cloud, Job, Machine Learning, Recruitment, and Search.
+overview: 'Google Cloud Talent Solution publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Jobs API, and Tenants API. Tagged areas include Google Cloud, Job, Machine Learning, Recruiting, and Search.
 
 
   The Google Cloud Talent Solution catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,7 +231,7 @@ tags:
 - Google Cloud
 - Job
 - Machine Learning
-- Recruitment
+- Recruiting
 - Search
 - Talent
 website: https://www.google.com/

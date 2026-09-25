@@ -216,7 +216,7 @@ modified: '2026-08-29'
 name: Lindy
 nav: Providers
 network: true
-overview: 'Lindy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Automation, Agentic AI, MCP, and Workflow Automation.
+overview: 'Lindy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Automation, MCP, Workflow Automation, and Virtual Assistant.
 
 
   The Lindy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -284,7 +284,6 @@ slug: lindy
 tags:
 - AI Agents
 - AI Automation
-- Agentic AI
 - MCP
 - Workflow Automation
 - Virtual Assistant

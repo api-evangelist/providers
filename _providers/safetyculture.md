@@ -231,6 +231,13 @@ score:
     developer_ergonomics: 57.7
     discoverability: 75.9
     operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
   previous_composite: 50.1
   provenance:
     conformance: first-party

@@ -66,13 +66,13 @@ description: Smart Bricks Holdings Limited operates Smart Bricks, an AI-powered 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smart-bricks-holdings-limited.png
 layout: provider
 modified: '2026-07-21'
-name: Smart Bricks Holdings Limited
+name: Smart Bricks
 nav: Providers
 network: true
-overview: 'Smart Bricks Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Artificial Intelligence, and Investment.
+overview: 'Smart Bricks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Artificial Intelligence, and Investment.
 
 
-  Smart Bricks Holdings Limited''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
+  Smart Bricks'' developer surface includes signup flow, engineering blog, and 4 more developer resources.'
 random_paper: 20
 score:
   band: emerging

@@ -95,7 +95,7 @@ tags:
 - Finance
 - CFO
 - Fintech
-- Agentic AI
+- AI Agents
 - Software-as-a-Service
 website: http://freqens.com
 ---

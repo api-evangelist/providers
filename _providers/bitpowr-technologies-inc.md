@@ -253,16 +253,16 @@ description: BitPowr Technologies is an institutional digital-asset infrastructu
 image: https://bitpowr.com/static/img/bitpowr_banner.png
 layout: provider
 modified: '2026-07-18'
-name: BitPowr Technologies, Inc.
+name: BitPowr Technologies
 nav: Providers
 network: true
-overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Address API, Assets API, and 7 more. Tagged areas include Company, Cryptocurrency, Blockchain, Digital Assets, and Wallet Infrastructure.
+overview: 'BitPowr Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BitPowr Technologies, Inc. Account API, BitPowr Technologies, Inc. Address API, BitPowr Technologies, Inc. Assets API, and 7 more. Tagged areas include Company, Cryptocurrency, Blockchain, Digital Assets, and Wallet Infrastructure.
 
 
-  The BitPowr Technologies, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The BitPowr Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BitPowr Technologies, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
+  BitPowr Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
 random_paper: 21
 score:
   band: thin

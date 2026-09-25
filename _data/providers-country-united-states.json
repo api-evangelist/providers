@@ -126,7 +126,7 @@
      "rank": 2
     },
     {
-     "name": "Record Creative Co. LLC",
+     "name": "SCVD General Store",
      "slug": "scvd-store",
      "description": "Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — \"Sean-Claude Van Damme's General Store\", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts: a free preflight that checks whether any x402 door serves a well-formed, payable v2 challenge, a free conformance desk for any issuer's JWS-signed offers and receipts, a named 31-class defect vocabulary, and a weekly Bitcoin-anchored, hash-chained corpus of the public x402 web. Paid instruments (35 doors from $0.001 to $1,500) — settlement attestations, endpoint watches, launch checks, conformance audits, A2A repair kits, agent memory anchors and the labor of a named human — are bought per call in USDC over x402 v2 on Base, Polygon, Arbitrum, World or Solana with no account, key or signup; every purchase ends in an Ed25519-signed artifact verifiable free forever. One host publishes the whole surface: a 196-operation OpenAPI 3.1 contract, three remote MCP servers (20 tools, MCP Apps cards), an A2A 0.3.0 agent card, a UCP business profile, an RFC 9727 API catalog, RFC 9728 protected-resource metadata, llms.txt, agents.md, SKILL.md files, an official CLI and nine more open-source packages.",
      "score": 72.6,
@@ -3070,7 +3070,7 @@
      "rank": 60
     },
     {
-     "name": "AlphaLatitude Inc.",
+     "name": "OptionsAhoy",
      "slug": "optionsahoy-com",
      "description": "AlphaLatitude Inc. is a Sunnyvale, California C-corporation (founded March 2026) that builds OptionsAhoy, an equity-compensation optimization product for individual investors: multi-year, multi-state tax planning for incentive stock options and the alternative minimum tax, non-qualified stock options, restricted stock units, qualified small business stock, single-stock concentration, protective-put and collar hedging, and selling equity to fund a cash goal. The paid platform is an invite-only beta; the eight calculators behind it are published free and keyless as in-browser tools and as three agent surfaces on one host — an 11-operation OpenAPI 3.1.0 REST API at https://optionsahoy.com/api/v1, a remote MCP server at https://optionsahoy.com/mcp (eight annotated tools, also shipped as the optionsahoy-mcp npm stdio package and a Claude Desktop bundle), and an A2A 0.3.0 agent card at /.well-known/agent-card.json with eight skills. The engine is deterministic (no model inference) and the provider publishes a verification page reproducing its federal and state tax math against IRS Rev. Proc. 2025-32, PSL Tax-Calculator and OpenTaxSolver.",
      "score": 50.4,
@@ -5994,7 +5994,7 @@
      "rank": 119
     },
     {
-     "name": "Green Dot Corporation",
+     "name": "Green Dot",
      "slug": "green-dot",
      "description": "Green Dot Corporation (NYSE: GDOT) is a US fintech and bank holding company whose subsidiary Green Dot Bank is a chartered, FDIC-insured member bank. Its Green Dot Arc embedded-finance / Banking-as-a-Service (BaaS) platform lets brands and fintech partners embed banking and payments — account enrollment, KYC/KYB, DDA and prepaid accounts, ACH, transfers, bill pay, card issuing, cash deposits, mobile check deposit, disbursements, and P2P — through a REST API surface. The public developer portal (developer.greendot.com) documents 300+ JSON/OAuth2 endpoints; production access, credentials, and the full Swagger definition are provisioned per-partner after a commercial onboarding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png",
@@ -6961,156 +6961,6 @@
      "rank": 138
     },
     {
-     "name": "Harbinger Health",
-     "slug": "harbinger-health",
-     "description": "Harbinger Health is a Cambridge, Massachusetts biotechnology company founded out of Flagship Pioneering's Flagship Labs in 2018 that is building blood-based early cancer detection on the premise that the earliest phases of oncogenesis are marked by the reactivation of core developmental programs. Its proprietary Harbinger HX platform pairs cell-free DNA methylation assay chemistry tuned for low tumour fraction with machine learning operating under biologically informed constraints, and supports cancer signal detection, tumour content estimation and tissue-of-origin inference. RESOLVE, the company's clinical application of that platform, is positioned to generate clarity in the uncertain window between suspicion of cancer and diagnosis, across cancer types and clinical contexts, and is run out of a CLIA-certified and CAP-accredited high-complexity laboratory. The company raised a 100 million dollar round to expand its blood-based detection suite and is led by CEO Ajit Singh with Chief Innovation Officer Tony Shuber, a co-founder of Exact Sciences. Harbinger Health's API posture is minimal and clinical rather than commercial: there is no developer portal, no published documentation, no OpenAPI, no SDKs, no pricing and no self-serve API access, and the developer., docs., api., portal., status. and trust. subdomains do not resolve. What it does publish is unusual for a company with no developer programme - the corporate site serves a live, anonymously readable WordPress REST API (268 routes across 15 namespaces), an RFC 8414 OAuth 2.1 authorization-server metadata document, an RFC 9728 protected-resource document, and a real Model Context Protocol server namespace gated behind an mcp scope, alongside the WordPress Abilities API. That makes Harbinger Health machine-discoverable at the agent layer while none of its clinical, laboratory or diagnostic capability is exposed programmatically to third parties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png",
-     "score": 31.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 14.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 75.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "Boston University",
-     "slug": "boston",
-     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 17.9,
-      "contract_governance": 3.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 140
-    },
-    {
-     "name": "Offerpad",
-     "slug": "offerpad",
-     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
-     "score": 30.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 68.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 16.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 141
-    },
-    {
      "name": "River Financial",
      "slug": "river-financial",
      "description": "River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage and bank for long-term investors, operating under NMLS ID #1906809. Customers can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash balances paid in bitcoin. River holds 100% of customer bitcoin in full-reserve multisig cold storage, publishes monthly third-party Proof of Reserves attestations, and provides FDIC insurance on cash up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow with OpenID Connect discovery (balances, transactions, identity, and payment network read scopes). Surfaced as a polychain portfolio company and enriched from River's public well-known, OIDC, and security surfaces.",
@@ -7158,7 +7008,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 139
     },
     {
      "name": "Navy Federal Credit Union",
@@ -7208,7 +7058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 140
     },
     {
      "name": "Southern California Edison",
@@ -7258,7 +7108,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 141
     },
     {
      "name": "University of Rochester",
@@ -7308,7 +7158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 142
     },
     {
      "name": "Citigroup",
@@ -7358,7 +7208,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 143
+    },
+    {
+     "name": "Boston University",
+     "slug": "boston",
+     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
+     "score": 29.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.3,
+      "contract_governance": 3.8,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 144
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -7408,7 +7308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 145
     },
     {
      "name": "Case Western Reserve University",
@@ -7458,7 +7358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 146
     },
     {
      "name": "Morgan Stanley",
@@ -7508,7 +7408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 147
     },
     {
      "name": "Ohio State University",
@@ -7558,7 +7458,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 148
+    },
+    {
+     "name": "Offerpad",
+     "slug": "offerpad",
+     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
+     "score": 28.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 68.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 16.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 149
     },
     {
      "name": "University of North Carolina at Chapel Hill",
@@ -7608,7 +7558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Northern Trust",
@@ -7658,7 +7608,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Amwell",
@@ -7715,7 +7665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Enterprise Mobility",
@@ -7762,6 +7712,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 153
+    },
+    {
+     "name": "Harbinger Health",
+     "slug": "harbinger-health",
+     "description": "Harbinger Health is a Cambridge, Massachusetts biotechnology company founded out of Flagship Pioneering's Flagship Labs in 2018 that is building blood-based early cancer detection on the premise that the earliest phases of oncogenesis are marked by the reactivation of core developmental programs. Its proprietary Harbinger HX platform pairs cell-free DNA methylation assay chemistry tuned for low tumour fraction with machine learning operating under biologically informed constraints, and supports cancer signal detection, tumour content estimation and tissue-of-origin inference. RESOLVE, the company's clinical application of that platform, is positioned to generate clarity in the uncertain window between suspicion of cancer and diagnosis, across cancer types and clinical contexts, and is run out of a CLIA-certified and CAP-accredited high-complexity laboratory. The company raised a 100 million dollar round to expand its blood-based detection suite and is led by CEO Ajit Singh with Chief Innovation Officer Tony Shuber, a co-founder of Exact Sciences. Harbinger Health's API posture is minimal and clinical rather than commercial: there is no developer portal, no published documentation, no OpenAPI, no SDKs, no pricing and no self-serve API access, and the developer., docs., api., portal., status. and trust. subdomains do not resolve. What it does publish is unusual for a company with no developer programme - the corporate site serves a live, anonymously readable WordPress REST API (268 routes across 15 namespaces), an RFC 8414 OAuth 2.1 authorization-server metadata document, an RFC 9728 protected-resource document, and a real Model Context Protocol server namespace gated behind an mcp scope, alongside the WordPress Abilities API. That makes Harbinger Health machine-discoverable at the agent layer while none of its clinical, laboratory or diagnostic capability is exposed programmatically to third parties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png",
+     "score": 27.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 58.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -9146,7 +9146,7 @@
      "rank": 181
     },
     {
-     "name": "R.E. Merrill & Associates, Inc.",
+     "name": "R.E. Merrill & Associates",
      "slug": "remerrill-com",
      "description": "R.E. Merrill & Associates, Inc. is a Texas industrial pump distributor and manufacturers' representative (founded in Houston in 1987 by Ron Merrill Sr., led since 2020 by Ron Merrill Jr.; based in Wimberley, TX) that applies, quotes and supports 13 pump lines — Vanton thermoplastic pumps (exclusive Texas representative for 30+ years), Grundfos dosing and multistage pumps, Continental progressing cavity pumps, DP Pumps, Pinnacle-Flo, Vertiflo, Simtech, TF Seals, Garbarino, GreenPumps, Pemo, Victor and Walrus — for chemical processing, semiconductor, water/wastewater, boiler and petrochemical service. It publishes one machine-callable capability: a deterministic pump line finder that takes a pumping duty (fluid, flow, pressure or head, service) and returns which represented lines fit, citing the manufacturer catalog page for the smallest covering model, then hands off to a human engineer for quotation. The capability is exposed as an unauthenticated REST endpoint (POST https://www.remerrill.com/api/line-finder) and as an Agent2Agent v1.0 agent (JSON-RPC 2.0 at /api/a2a) with a JWS-signed agent card at /.well-known/agent-card.json, a published JWKS, and an llms.txt as its developer documentation. No pricing is returned by the API; quotes come from an engineer.",
      "score": 18.7,
@@ -9574,7 +9574,7 @@
      "rank": 190
     },
     {
-     "name": "Whirlpool Corporation",
+     "name": "Whirlpool",
      "slug": "whirlpool",
      "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
@@ -10896,7 +10896,7 @@
      "rank": 217
     },
     {
-     "name": "Vistra Corp",
+     "name": "Vistra",
      "slug": "vistra-energy",
      "description": "Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail electricity and power generation company and the largest competitive power generator in the United States, operating roughly 41,000-44,000 MW of natural gas, nuclear, coal, solar and battery storage capacity alongside a retail business serving nearly 5 million residential, commercial and industrial customers across 16 states and the District of Columbia through TXU Energy, Dynegy, Ambit Energy, Energy Harbor, Homefield Energy and U.S. Gas & Electric. Its home market is the United States, where it sits on both sides of the competitive value chain, a merchant generator selling into ERCOT, PJM, ISO-NE, NYISO, MISO and CAISO, and a retail electricity provider (REP) reselling that power to end customers. Its API posture is honestly none. No developer portal, no API subdomain and no machine-readable contract of any kind was found: developer., developers., docs., api. and data. on vistracorp.com do not resolve; /developers, /api, /docs, /data, /openapi.json, /swagger.json and /.well-known/openid-configuration all return 404; and TXU Energy's 758-URL sitemap contains no developer or API page. The United States has no consumer energy data mandate. Green Button is an NAESB/NIST ESPI standard adopted voluntarily, and TXU Energy appears on the US Department of Energy's list of \"Utilities Committed to Implementing Green Button\", a 2012-era commitment list and not evidence of a live endpoint. The only customer-data surface found is Download-My-Data-style export behind the TXU Energy MyAccount login, whose interval readings are themselves sourced from Smart Meter Texas, the shared ERCOT meter-data platform operated by the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) rather than by Vistra. Because Vistra is a retailer and generator and not a wires company, the third-party interval-data API in its home Texas market belongs to Smart Meter Texas and not to Vistra. Vistra likewise publishes no open market or grid data of its own; ERCOT, the other ISOs/RTOs and the EIA publish the market data about Vistra's fleet. Both sides are therefore closed at the company boundary. Not to be confused with Vistra Limited (vistra.com), the unrelated corporate-services and fund-administration firm that does run a real API developer portal at devportal.vistra.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra-energy/refs/heads/main/screenshots/vistra-energy-2026-09-02T170122.png",
@@ -15345,7 +15345,7 @@
      "rank": 309
     },
     {
-     "name": "Saul Ewing LLP",
+     "name": "Saul Ewing",
      "slug": "saul-ewing",
      "description": "Saul Ewing LLP is a U.S.-based law firm founded in 1921 as Saul, Ewing, Remick & Saul, with more than 450 attorneys across 17 U.S. offices spanning the Mid-Atlantic, Northeast, Midwest, Florida, and California. The firm serves clients across 40+ industries with practice strengths in litigation, corporate and M&A, bankruptcy and restructuring, real estate, public finance, life sciences, financial services, intellectual property, labor and employment, and cybersecurity and privacy. Saul Ewing does not publish a public developer API, SDK, OpenAPI specification, or machine-readable data product; its public technology surface is limited to its corporate website, a HighQ-powered client portal, the SEquel Alumni Portal at alumni.saul.com, employee remote-access tooling, and a small set of practice-specific blogs (Construction Industry Counselor, OZ and EB-5 Investments, Legacy Matters, The Friday Five). Two empty GitHub organizations (Saul-Ewing and saulewing) exist with zero public repositories.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saul-ewing/refs/heads/main/screenshots/saul-ewing-2026-06-20T193440.png",

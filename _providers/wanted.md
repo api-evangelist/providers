@@ -24,13 +24,13 @@ modified: '2026-07-21'
 name: Wanted
 nav: Providers
 network: true
-overview: Wanted is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Talent Sourcing, Human Resources, and Marketplace.
+overview: Wanted is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Sourcing, Human Resources, and Marketplace.
 random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanted/refs/heads/main/screenshots/wanted-2026-09-02T170436.png
 slug: wanted
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Talent Sourcing
 - Human Resources
 - Marketplace

@@ -247,8 +247,8 @@ image: https://shield.the-horizons-innovation.com/horizon_shield_logo_512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: The HORIZ音s株式会社 MCP Server
-  slug: the-horiz音s株式会社-mcp-server
+  name: HORIZON SHIELD MCP Server
+  slug: horizon-shield-mcp-server
 - description: ''
   name: KIRA MCP endpoint (Streamable HTTP, POST)
   slug: kira-mcp-endpoint-streamable-http-post
@@ -268,13 +268,13 @@ mcp_servers:
   name: Femtech registry MCP endpoint
   slug: femtech-registry-mcp-endpoint
 modified: '2026-09-19'
-name: The HORIZ音s株式会社
+name: HORIZON SHIELD
 nav: Providers
 network: true
-overview: 'The HORIZ音s株式会社 publishes 1 API on the [APIs.io](https://apis.io/) network: MCP Verification Gate (MCP conduct register) API. Tagged areas include Construction, Renovation, Cost Estimation, Fair Pricing, and Consumer Protection.
+overview: 'HORIZON SHIELD publishes 1 API on the [APIs.io](https://apis.io/) network: MCP Verification Gate (MCP conduct register) API. Tagged areas include Construction, Renovation, Cost Estimation, Fair Pricing, and Consumer Protection.
 
 
-  The HORIZ音s株式会社''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 32 more developer resources.'
+  HORIZON SHIELD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 32 more developer resources.'
 plans:
 - name: Horizonshield Dev Plans Pricing
   plan_count: 7

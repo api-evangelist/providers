@@ -150,7 +150,7 @@ modified: '2026-09-18'
 name: NeuralVerge API
 nav: Providers
 network: true
-overview: 'NeuralVerge API publishes 1 API on the [APIs.io](https://apis.io/) network: NeuralVerge REST API. Tagged areas include Company Data, People Data, Contact Enrichment, Email Finder, and Email Validation.
+overview: 'NeuralVerge API publishes 1 API on the [APIs.io](https://apis.io/) network: NeuralVerge REST API. Tagged areas include Company Data, People Data, Contact Enrichment, Email Finder, and Email Verification.
 
 
   NeuralVerge API''s developer surface includes engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
@@ -213,7 +213,7 @@ tags:
 - People Data
 - Contact Enrichment
 - Email Finder
-- Email Validation
+- Email Verification
 - Phone Lookup
 - corporate registries
 - KYB / compliance

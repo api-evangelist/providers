@@ -75,7 +75,7 @@ modified: '2026-07-21'
 name: Translucent AI
 nav: Providers
 network: true
-overview: 'Translucent AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Healthcare, and Healthcare Finance.
+overview: 'Translucent AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Healthcare, and Healthcare Finance.
 
 
   Translucent AI''s developer surface includes engineering blog and 6 more developer resources.'
@@ -122,7 +122,7 @@ slug: translucent-ai
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Healthcare
 - Healthcare Finance
 - Financial Analytics

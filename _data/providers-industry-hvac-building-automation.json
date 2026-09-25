@@ -1056,56 +1056,6 @@
      "rank": 22
     },
     {
-     "name": "Turntide Technologies",
-     "slug": "turntide-technologies",
-     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 16.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 25.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Trane Technologies",
      "slug": "trane-technologies",
      "description": "Trane Technologies plc (NYSE: TT) is an Ireland-domiciled global climate innovator that designs, manufactures, sells, and services heating, ventilation, air conditioning (HVAC), transport refrigeration, and building-automation systems. The company operates through two reportable segments — the Americas and EMEA / Asia Pacific — under the Trane, Thermo King, and American Standard Heating & Air Conditioning brands. Spun off from Ingersoll-Rand in 2020, Trane Technologies reported approximately US$23.9B in 2025 revenue, ~45,000 employees, and operations across 61 countries. Its digital surface centers on Trane Connect (cloud building portal), Tracer SC+ / Symbio controllers for commercial building automation, and the Thermo King TracKing / ConnectedSuite telematics platform for transport refrigeration.",
@@ -1143,6 +1093,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Turntide Technologies",
+     "slug": "turntide-technologies",
+     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
+     "score": 29.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 13.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 25.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -2253,7 +2253,7 @@
    "shown": 25,
    "providers": [
     {
-     "name": "Aeterlink Corp.",
+     "name": "Aeterlink",
      "slug": "aeterlinkcorp",
      "description": "Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.",
      "score": 10.4,
@@ -2809,7 +2809,7 @@
      "rank": 59
     },
     {
-     "name": "500net Technology Co., Ltd.",
+     "name": "500net",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "score": 5.0,

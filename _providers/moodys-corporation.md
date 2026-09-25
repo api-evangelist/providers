@@ -264,16 +264,16 @@ jsonld:
   slug: moodys-corporation-context
 layout: provider
 modified: '2026-07-25'
-name: Moody's Corporation
+name: Moody's
 nav: Providers
 network: true
-overview: 'Moody''s Corporation publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Baskets API, Catalog API, and 6 more. Tagged areas include Analytics, Catastrophe Risk, Climate Risk, Compliance, and Credit Ratings.
+overview: 'Moody''s publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Corporation Authentication API, Corporation Baskets API, Corporation Catalog API, and 6 more. Tagged areas include Analytics, Catastrophe Risk, Climate Risk, Compliance, and Credit Ratings.
 
 
-  The Moody''s Corporation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Moody''s catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Moody''s Corporation''s developer surface includes authentication, developer portal, engineering blog, and 11 more developer resources.'
+  Moody''s'' developer surface includes authentication, developer portal, engineering blog, and 11 more developer resources.'
 plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
@@ -287,7 +287,7 @@ rules:
 - effective_rule_count: 47
   extends:
   - spectral:oas
-  name: Moody's Corporation API Rules
+  name: Moody's API Rules
   rule_count: 6
   severity_counts:
     error: 2
@@ -297,7 +297,7 @@ rules:
   slug: moodys-analytics-developer-rules
 - effective_rule_count: 5
   extends: []
-  name: Moody's Corporation API Rules
+  name: Moody's API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -363,7 +363,7 @@ tags:
 - ESG
 - Financial Data
 - KYC
-- Risk
+- Risk Management
 - Fortune 1000
 website: https://www.moodys.com/
 ---

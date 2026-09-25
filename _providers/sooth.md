@@ -99,7 +99,7 @@ tags:
 - World Model
 - Foresight
 - Decision Intelligence
-- Risk
+- Risk Management
 - Machine Learning
 website: https://soothlabs.com
 ---

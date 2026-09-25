@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Effectiv
 nav: Providers
 network: true
-overview: 'Effectiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Fraud Detection, Risk, and Decisioning.
+overview: 'Effectiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Fraud Detection, Risk Management, and Decisioning.
 
 
   Effectiv''s developer surface includes documentation and 7 more developer resources.'
@@ -122,7 +122,7 @@ tags:
 - Company
 - Security
 - Fraud Detection
-- Risk
+- Risk Management
 - Decisioning
 - Identity Verification
 - KYC

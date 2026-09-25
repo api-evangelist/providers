@@ -114,16 +114,16 @@ jsonld:
   slug: whirlpool-context
 layout: provider
 modified: '2026-05-03'
-name: Whirlpool Corporation
+name: Whirlpool
 nav: Providers
 network: true
-overview: 'Whirlpool Corporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appliances, Smart Home, IoT, Connected Devices, and Fortune 500.
+overview: 'Whirlpool publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Appliances, Smart Home, IoT, Connected Devices, and Fortune 500.
 
 
-  The Whirlpool Corporation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Whirlpool catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Whirlpool Corporation''s developer surface includes engineering blog and 10 more developer resources.'
+  Whirlpool''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Whirlpool Plans Pricing
   plan_count: 1
@@ -152,7 +152,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: Whirlpool Corporation API Rules
+  name: Whirlpool API Rules
   rule_count: 5
   severity_counts:
     error: 0

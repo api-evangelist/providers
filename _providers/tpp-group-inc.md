@@ -84,13 +84,13 @@ description: TPP Group is a media intelligence company that creates and scales A
 image: https://tppgroup.co/apple-touch-icon.png
 layout: provider
 modified: '2026-07-21'
-name: TPP GROUP INC.
+name: TPP GROUP
 nav: Providers
 network: true
-overview: 'TPP GROUP INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Media Intelligence, Arabic Content, and Advertising.
+overview: 'TPP GROUP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Media Intelligence, Arabic Content, and Advertising.
 
 
-  TPP GROUP INC.''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  TPP GROUP''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 3
 score:
   band: minimal

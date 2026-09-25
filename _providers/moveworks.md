@@ -362,7 +362,7 @@ modified: '2026-07-20'
 name: Moveworks
 nav: Providers
 network: true
-overview: 'Moveworks publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conversations API, Default API, and 7 more. Tagged areas include Company, Artificial Intelligence, Agentic AI, AI Assistant, and Enterprise Automation.
+overview: 'Moveworks publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conversations API, Default API, and 7 more. Tagged areas include Company, Artificial Intelligence, AI Agents, AI Assistant, and Enterprise Automation.
 
 
   The Moveworks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -427,7 +427,7 @@ slug: moveworks
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - AI Assistant
 - Enterprise Automation
 - Conversational AI

@@ -58,13 +58,13 @@ description: 'Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sadbhaveng.png
 layout: provider
 modified: '2026-07-21'
-name: Sadbhav Engineering Limited
+name: Sadbhav Engineering
 nav: Providers
 network: true
-overview: 'Sadbhav Engineering Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Construction, Engineering, and Roads and Highways.
+overview: 'Sadbhav Engineering is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Construction, Engineering, and Roads and Highways.
 
 
-  Sadbhav Engineering Limited''s developer surface includes support and 3 more developer resources.'
+  Sadbhav Engineering''s developer surface includes support and 3 more developer resources.'
 random_paper: 9
 score:
   band: minimal

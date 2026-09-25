@@ -102,7 +102,7 @@ modified: '2026-05-25'
 name: Fraudio
 nav: Providers
 network: true
-overview: 'Fraudio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, Payment Fraud, Anti-Money Laundering, AML, and Financial Crime.
+overview: 'Fraudio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, Payment Fraud, AML, Financial Crime, and Payments.
 
 
   Fraudio''s developer surface includes engineering blog and 13 more developer resources.'
@@ -157,7 +157,6 @@ slug: fraudio
 tags:
 - Fraud Detection
 - Payment Fraud
-- Anti-Money Laundering
 - AML
 - Financial Crime
 - Payments

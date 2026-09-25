@@ -240,8 +240,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 44,
-   "shown": 44,
+   "count": 43,
+   "shown": 43,
    "providers": [
     {
      "name": "U.S. Department of Transportation",
@@ -1884,49 +1884,6 @@
      "rank": 42
     },
     {
-     "name": "Also",
-     "slug": "also",
-     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
-     "score": 41.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 50.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 43.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 43
-    },
-    {
      "name": "Airport Gap",
      "slug": "airport-gap",
      "description": "Airport Gap is a RESTful API designed to help developers practice API automation testing. It provides access to a database of worldwide airports including ICAO/IATA codes, location coordinates, elevation, and country information. The API also supports calculating distances between airports in miles, kilometers, and nautical miles, and allows authenticated users to save and manage favorite airports. Data is sourced from OpenFlights.org under the Open Database License (ODbL 1.0).",
@@ -1967,7 +1924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Bird",
@@ -2010,7 +1967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "E2open",
@@ -2053,7 +2010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Lytx",
@@ -2096,7 +2053,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Cedarai",
@@ -2139,7 +2096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "DAT Freight & Analytics",
@@ -2182,7 +2139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     }
    ],
    "open": true
@@ -2192,8 +2149,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 49,
-   "shown": 49,
+   "count": 50,
+   "shown": 50,
    "providers": [
     {
      "name": "Chicago Transit Authority",
@@ -2243,7 +2200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Parade",
@@ -2286,7 +2243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Freight Waves",
@@ -2336,7 +2293,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Trimble",
@@ -2378,6 +2335,49 @@
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
+     "name": "Also",
+     "slug": "also",
+     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 37.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
      },
      "rank": 53
     },
@@ -3405,56 +3405,6 @@
      "rank": 76
     },
     {
-     "name": "Flashparking",
-     "slug": "flashparking",
-     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
-     "score": 32.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
-    },
-    {
      "name": "Federal Highway Administration",
      "slug": "federal-highway-administration",
      "description": "The Federal Highway Administration (FHWA) provides stewardship over the construction, maintenance and preservation of the Nations highways, bridges and tunnels. FHWA also conducts research and provides technical assistance to state and local agencies to improve safety, mobility, and to encourage innovation.",
@@ -3493,6 +3443,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
+     "name": "Flashparking",
+     "slug": "flashparking",
+     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
+     "score": 32.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 32.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -3684,7 +3684,7 @@
      "rank": 82
     },
     {
-     "name": "Cubic Corporation",
+     "name": "Cubic",
      "slug": "cubic",
      "description": "Cubic Corporation is a San Diego defense and public-transportation technology company (Cubic Transportation Systems and Cubic Defense) that delivers fare-collection, traffic management and mission systems under agency and government contracts. Its one publicly documented API is the Umo IQ Public Feed (the former NextBus feed) served by Cubic Transportation Systems at retro.umoiq.com: an anonymous XML/JSON query-command feed of transit agencies, routes, stops, arrival predictions, schedules, service messages and live vehicle locations for the agencies Cubic serves. Cubic's other integration surfaces (GRIDSMART, Trafficware, the Umo agency portal API) sit behind customer logins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/screenshots/cubic-2026-06-20T175329.png",
@@ -5002,56 +5002,6 @@
      "rank": 110
     },
     {
-     "name": "Harbinger",
-     "slug": "harbinger",
-     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
      "name": "Connected Kerb",
      "slug": "connected-kerb",
      "description": "Connected Kerb is a UK electric-vehicle charging company that designs, installs, owns and operates public on-street and destination charge points, with a particular focus on residential drivers who have no off-street parking. Founded in 2017 and headquartered in London, it delivers long-term charging concessions for local authorities, workplaces, retail destinations, car parks and residential developers, and by mid-2026 operated roughly 7,800 public chargers across about 1,780 UK locations. Its Chameleon, Gecko, Scarab and Limpet charge points are backed by a charge point management system, a driver mobile app, a customer portal for site hosts and landowners, and an OCPI roaming interface used for e-mobility roaming and for UK Public Charge Point Regulations 2023 open-data obligations.",
@@ -5099,7 +5049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Greenbrier Companies",
@@ -5142,7 +5092,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Waze",
@@ -5185,7 +5135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "National Highway Traffic Safety Administration",
@@ -5235,7 +5185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Netradyne",
@@ -5278,7 +5228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "NMFTA",
@@ -5321,7 +5271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Union Pacific",
@@ -5364,7 +5314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Ather Energy",
@@ -5414,7 +5364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "OurAirports",
@@ -5464,7 +5414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Overhaul",
@@ -5507,7 +5457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Shipping.com",
@@ -5549,7 +5499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "AECOM",
@@ -5583,6 +5533,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 122
+    },
+    {
+     "name": "Harbinger",
+     "slug": "harbinger",
+     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6900,7 +6900,7 @@
      "rank": 152
     },
     {
-     "name": "Moviation, Inc.",
+     "name": "Moviation",
      "slug": "moviation-inc",
      "description": "Moviation, Inc. is a Seoul-based advanced air mobility and premium travel company founded in 2022 and backed by 500 Global. It operates Vonaer, an AI-powered luxury mobility platform that orchestrates on-demand travel across private aviation (jets and helicopters), luxury ground transportation (limousines), super yachts, and curated experiences, with planned expansion into electric vertical takeoff and landing (eVTOL) urban air mobility (UAM). Moviation currently runs air-taxi service with conventional helicopters and has partnered with hybrid-eVTOL developer Plana to build out an advanced air mobility (AAM) ecosystem in South Korea. The company reaches customers through the consumer Vonaer app and a concierge membership program; it publishes no public developer API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moviation-inc/refs/heads/main/screenshots/moviation-inc-2026-08-07T184358.png",
@@ -13389,7 +13389,7 @@
      "rank": 301
     },
     {
-     "name": "CSX Corporation",
+     "name": "CSX",
      "slug": "csx",
      "description": "CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/screenshots/csx-2026-06-20T175327.png",
@@ -15002,49 +15002,6 @@
      "rank": 338
     },
     {
-     "name": "Swiftmile",
-     "slug": "swiftmile",
-     "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
-     "score": 5.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 339
-    },
-    {
      "name": "Wiz Freight",
      "slug": "wiz-freight",
      "description": "Wiz Freight (Wiz Logtec Solutions Private Limited) was a Chennai, India based digital freight forwarder founded in 2020 by Ramkumar Ramachandran and Ramkumar Govindarajan, offering ocean, air and surface freight booking, instant rate discovery, live shipment tracking, digital documentation and multi-currency freight payments through its own technology platform. The company raised roughly $58.6M from Tiger Global Management, Nippon Express Holdings, SBI Investment, Stride Ventures, Foundamental and Axilor Ventures. Trade press reported in September 2025 that the company had suspended export bookings amid an executive exodus, and as of September 2026 its public surface is gone: wizfreight.com serves a GoDaddy Website Builder placeholder, the former booking portal path 404s, and the sit.wizfreight.net platform host no longer resolves. No developer program, API reference or machine-readable contract was ever published on a reachable host, and none survives today.",
@@ -15084,7 +15041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Bestmile",
@@ -15126,7 +15083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Embark Trucks",
@@ -15171,7 +15128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Local Motors",
@@ -15215,7 +15172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Urban Engines",
@@ -15257,7 +15214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Quick Ride",
@@ -15300,7 +15257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Baton",
@@ -15343,7 +15300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Carpooling",
@@ -15385,7 +15342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Con-way",
@@ -15430,7 +15387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Damon Motorcycles",
@@ -15472,7 +15429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "DiDi Autonomous",
@@ -15515,7 +15472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Enhanced Radar",
@@ -15558,7 +15515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "FlightCar",
@@ -15602,7 +15559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Full Truck Alliance",
@@ -15645,7 +15602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Hawaiian Holdings",
@@ -15688,7 +15645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Iomob",
@@ -15730,7 +15687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Kansas City Southern",
@@ -15773,7 +15730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Kyte",
@@ -15818,7 +15775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Luxe",
@@ -15861,7 +15818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Meridianfleetservices",
@@ -15904,7 +15861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "mobike",
@@ -15946,7 +15903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Penske",
@@ -15989,7 +15946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "Phantom Auto",
@@ -16033,7 +15990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Pluto Mobility",
@@ -16075,7 +16032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Remora",
@@ -16118,7 +16075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Riide",
@@ -16161,7 +16118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Rimac",
@@ -16204,7 +16161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Ruedata",
@@ -16247,7 +16204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Skip Scooters",
@@ -16291,7 +16248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Stratim",
@@ -16333,7 +16290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Superpedestrian",
@@ -16377,7 +16334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "TakeWheels",
@@ -16421,7 +16378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "The Boring Company",
@@ -16464,7 +16421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Trinity Industries",
@@ -16506,7 +16463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Vamo",
@@ -16550,7 +16507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Yetcargo",
@@ -16593,7 +16550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Zagster",
@@ -16636,7 +16593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "Landstar System",
@@ -16678,7 +16635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Ofo",
@@ -16722,7 +16679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Duane Morris",
@@ -16772,7 +16729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Howmet Aerospace",
@@ -16815,7 +16772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Penske Automotive",
@@ -16857,7 +16814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "RXO",
@@ -16900,7 +16857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Allegiant Travel",
@@ -16931,6 +16888,56 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 382
+    },
+    {
+     "name": "Swiftmile",
+     "slug": "swiftmile",
+     "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

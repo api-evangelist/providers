@@ -166,13 +166,13 @@ integrations:
   name: OEM Partnerships
 layout: provider
 modified: '2026-08-29'
-name: AAR Corp
+name: AAR
 nav: Providers
 network: true
-overview: 'AAR Corp publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, MRO, Aerospace, Defense, and Parts Supply.
+overview: 'AAR publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, MRO, Aerospace, Defense, and Parts Supply.
 
 
-  AAR Corp''s developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
+  AAR''s developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
 plans:
 - name: Aar Plans Pricing
   plan_count: 1

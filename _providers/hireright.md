@@ -173,5 +173,7 @@ tags:
 - Human Resources
 - Compliance
 - Employment
+- Recruiting
+- Background Checks
 website: http://www.hireright.com/
 ---

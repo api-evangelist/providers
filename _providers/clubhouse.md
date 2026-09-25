@@ -65,7 +65,7 @@ modified: '2026-07-18'
 name: Clubhouse
 nav: Providers
 network: true
-overview: 'Clubhouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Audio, Social Networking, Live Audio, and Voice.
+overview: 'Clubhouse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Audio, Social Network, Live Audio, and Voice.
 
 
   Clubhouse''s developer surface includes support and 4 more developer resources.'
@@ -106,7 +106,7 @@ slug: clubhouse
 tags:
 - Company
 - Social Audio
-- Social Networking
+- Social Network
 - Live Audio
 - Voice
 - Communications

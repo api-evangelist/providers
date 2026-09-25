@@ -170,6 +170,6 @@ tags:
 - training-datasets
 - Open Source
 - Generative AI
-- Agentic AI
+- AI Agents
 website: https://www.essential.ai/
 ---

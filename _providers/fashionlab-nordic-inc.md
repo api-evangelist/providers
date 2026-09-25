@@ -50,10 +50,10 @@ description: FashionLab Nordic Inc. is a company surfaced as a portfolio company
 image: https://app.fashionlab.tech/og-image.png
 layout: provider
 modified: '2026-07-19'
-name: FashionLab Nordic Inc.
+name: FashionLab Nordic
 nav: Providers
 network: true
-overview: FashionLab Nordic Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Nordic, and Platform.
+overview: FashionLab Nordic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Nordic, and Platform.
 random_paper: 0
 score:
   band: minimal

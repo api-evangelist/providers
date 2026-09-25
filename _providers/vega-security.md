@@ -135,7 +135,7 @@ modified: '2026-07-21'
 name: Vega Security
 nav: Providers
 network: true
-overview: 'Vega Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Operations, SIEM, and Agentic AI.
+overview: 'Vega Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Operations, SIEM, and AI Agents.
 
 
   Vega Security''s developer surface includes engineering blog, documentation, and 18 more developer resources.'
@@ -185,7 +185,7 @@ tags:
 - Cybersecurity
 - Security Operations
 - SIEM
-- Agentic AI
+- AI Agents
 - Threat Detection
 - Security Analytics
 website: https://vega.io/

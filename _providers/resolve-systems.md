@@ -125,7 +125,7 @@ tags:
 - Automation
 - Orchestration
 - Service Management
-- Agentic AI
+- AI Agents
 - ITPA
 website: https://resolve.io
 ---

@@ -104,7 +104,7 @@ modified: '2026-08-02'
 name: Raya
 nav: Providers
 network: true
-overview: 'Raya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Networking, Dating, and Community.
+overview: 'Raya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Network, Dating, and Community.
 
 
   Raya''s developer surface includes pricing, signup flow, support, and 11 more developer resources.'
@@ -145,7 +145,7 @@ slug: raya
 tags:
 - Company
 - Consumer
-- Social Networking
+- Social Network
 - Dating
 - Community
 - Membership

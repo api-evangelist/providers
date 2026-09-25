@@ -137,7 +137,7 @@ modified: '2026-07-21'
 name: UnifyApps
 nav: Providers
 network: true
-overview: 'UnifyApps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Integration Platform, and iPaaS.
+overview: 'UnifyApps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Integration Platform, and iPaaS.
 
 
   UnifyApps'' developer surface includes documentation, engineering blog, CLI, authentication, and 15 more developer resources.'
@@ -194,7 +194,7 @@ slug: unifyapps
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Integration Platform
 - iPaaS
 - Automation

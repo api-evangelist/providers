@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: Football-Data
 nav: Providers
 network: true
-overview: 'Football-Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
+overview: 'Football-Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness, Public APIs, and Sports.
 
 
   Football-Data''s developer surface includes engineering blog and 3 more developer resources.'
@@ -106,5 +106,6 @@ slug: football-data
 tags:
 - Sports And Fitness
 - Public APIs
+- Sports
 website: https://www.football-data.org
 ---

@@ -164,6 +164,6 @@ tags:
 - Geospatial
 - Underwriting
 - Property Data
-- Risk
+- Risk Management
 website: https://betterview.com
 ---

@@ -191,7 +191,7 @@ modified: '2026-08-27'
 name: Unit21
 nav: Providers
 network: true
-overview: 'Unit21 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, AML, Anti-Money Laundering, Compliance, and Fintech.
+overview: 'Unit21 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Detection, AML, Compliance, Fintech, and Transaction Monitoring.
 
 
   The Unit21 catalog on APIs.io includes 1 JSON-LD context.
@@ -258,11 +258,10 @@ slug: unit21
 tags:
 - Fraud Detection
 - AML
-- Anti-Money Laundering
 - Compliance
 - Fintech
 - Transaction Monitoring
-- Risk
+- Risk Management
 - SAR
 - Financial Crime
 - Suspicious Activity Reports

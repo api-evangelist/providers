@@ -136,7 +136,7 @@ tags:
 - Cybersecurity
 - Anti-Phishing
 - Threat Detection
-- Agentic AI
+- AI Agents
 - Microsoft 365
 - Google Workspace
 - Email

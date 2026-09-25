@@ -128,6 +128,6 @@ tags:
 - SOC
 - Security Operations
 - Threat Detection
-- Agentic AI
+- AI Agents
 website: https://www.prophetsecurity.ai/
 ---

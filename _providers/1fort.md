@@ -1026,6 +1026,6 @@ tags:
 - Payments
 - Workflow Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 website: https://1fort.ai/
 ---

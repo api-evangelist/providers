@@ -791,7 +791,7 @@
      "rank": 17
     },
     {
-     "name": "Harmonic Inc.",
+     "name": "Harmonic",
      "slug": "harmonicinc",
      "description": "Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband technology company. Its VOS®360 Media SaaS orchestrates the entire live and on-demand video pipeline — ingest, transcoding, packaging, encryption, playout and delivery — while its cOS platform delivers virtualized DOCSIS 4.0 and fiber broadband access via Distributed Access Architecture (DAA) and Remote PHY. Harmonic serves 150+ operators worldwide including Comcast, Charter and Vodafone. The VOS 360 platform exposes a public REST API secured with OAuth 2.0 for managing assets, channels, services, live events, storage, DRM and jobs, enabling integration with third-party CMS and media workflows. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched from Harmonic's public developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/harmonicinc/refs/heads/main/screenshots/harmonicinc-2026-07-25T220724.png",

@@ -149,7 +149,16 @@ apis:
   description: The ValueSet API from NHS England — 1 operation(s) for valueset.
   name: NHS England Value Set API
   slug: nhs-england-valueset-api
-artifact_total: 27
+- description: The NHS e-Referral Service combines electronic booking with a choice of place, date and time for first hospital or clinic appointments. The e-RS FHIR API enables clinical systems to integrate referral
+  name: e-Referral Service (e-RS) FHIR API
+  slug: e-referral-service
+- description: The Summary Care Record holds essential patient information from the GP record. The SCR API enables authorised health and care professionals to retrieve a patient's medication, allergies and adverse r
+  name: Summary Care Record (SCR) API
+  slug: summary-care-record
+- description: NHS login provides a single, secure way for citizens to access NHS digital services. The NHS login API enables relying parties to authenticate users, verify identity to a known level of assurance, and
+  name: NHS Login API
+  slug: nhs-login
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Nhs England Webhooks
@@ -363,21 +372,21 @@ overview: 'NHS England publishes 19 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: developing
-  composite: 49.6
+  composite: 49.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 61.0
     developer_ergonomics: 66.1
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)

@@ -43,7 +43,7 @@ modified: '2026-07-21'
 name: Smalt
 nav: Providers
 network: true
-overview: Smalt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Green Energy, Solar, Heat Pumps, and Training.
+overview: Smalt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Renewable Energy, Solar, Heat Pumps, and Training.
 random_paper: 17
 score:
   band: minimal
@@ -94,7 +94,7 @@ score:
 slug: smalt
 tags:
 - Company
-- Green Energy
+- Renewable Energy
 - Solar
 - Heat Pumps
 - Training

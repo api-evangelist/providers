@@ -83,13 +83,13 @@ description: 'Appriss Inc. was a Louisville, Kentucky data and analytics holding
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appriss-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Appriss Inc.
+name: Appriss
 nav: Providers
 network: true
-overview: 'Appriss Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Loss Prevention, Returns Management, and Fraud Prevention.
+overview: 'Appriss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Loss Prevention, Returns Management, and Fraud Prevention.
 
 
-  Appriss Inc.''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Appriss'' developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 7
 score:
   band: emerging

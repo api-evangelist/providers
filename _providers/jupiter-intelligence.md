@@ -141,5 +141,6 @@ tags:
 - Financial Risk
 - ESG
 - Analytics
+- Climate
 website: https://www.jupiterintel.com/
 ---

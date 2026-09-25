@@ -83,7 +83,7 @@ modified: '2026-07-19'
 name: Lagou
 nav: Providers
 network: true
-overview: 'Lagou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Job, Hiring, and Human Resources.
+overview: 'Lagou is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Job, Hiring, and Human Resources.
 
 
   Lagou''s developer surface includes signup flow and 8 more developer resources.'
@@ -136,7 +136,7 @@ security:
 slug: lagou
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Job
 - Hiring
 - Human Resources

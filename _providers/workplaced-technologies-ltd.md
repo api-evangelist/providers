@@ -63,13 +63,13 @@ description: Workplaced (Workplaced Technologies Ltd) is a workplace-strategy an
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workplaced-technologies-ltd.png
 layout: provider
 modified: '2026-07-21'
-name: Workplaced Technologies Ltd
+name: Workplaced Technologies
 nav: Providers
 network: true
-overview: 'Workplaced Technologies Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace, Hybrid Work, Occupancy, and Desk Booking.
+overview: 'Workplaced Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workplace, Hybrid Work, Occupancy, and Desk Booking.
 
 
-  Workplaced Technologies Ltd''s developer surface includes pricing, engineering blog, and 3 more developer resources.'
+  Workplaced Technologies'' developer surface includes pricing, engineering blog, and 3 more developer resources.'
 random_paper: 16
 score:
   band: minimal

@@ -50,10 +50,10 @@ description: CardMonster turns ideas and brands into games. The company designs 
 image: https://cardmon.com/images/thumbnail.jpg
 layout: provider
 modified: '2026-07-18'
-name: CardMonster Inc.
+name: CardMonster
 nav: Providers
 network: true
-overview: CardMonster Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Tabletop Games, Game Studio, and Playtesting.
+overview: CardMonster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Tabletop Games, Game Studio, and Playtesting.
 random_paper: 5
 score:
   band: minimal

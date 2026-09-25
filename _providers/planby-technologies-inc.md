@@ -58,13 +58,13 @@ description: Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformati
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/planby-technologies-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Planby Technologies, Inc.
+name: Planby Technologies
 nav: Providers
 network: true
-overview: 'Planby Technologies, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Architecture, Construction, and Rendering.
+overview: 'Planby Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Architecture, Construction, and Rendering.
 
 
-  Planby Technologies, Inc.''s developer surface includes engineering blog and 3 more developer resources.'
+  Planby Technologies'' developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 2
 score:
   band: minimal

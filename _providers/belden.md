@@ -190,7 +190,7 @@ tags:
 - Connectivity
 - Industrial Automation
 - Industrial Ethernet
-- IIoT
+- Industrial IoT
 - Networking
 - Signal Transmission
 - Smart Buildings

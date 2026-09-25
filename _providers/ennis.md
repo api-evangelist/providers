@@ -67,13 +67,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ennis.png
 layout: provider
 modified: '2026-04-19'
-name: Ennis Inc
+name: Ennis
 nav: Providers
 network: true
-overview: 'Ennis Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business Forms, Printing, and Promotional.
+overview: 'Ennis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business Forms, Printing, and Promotional.
 
 
-  Ennis Inc''s developer surface includes engineering blog and 3 more developer resources.'
+  Ennis'' developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Ennis Plans Pricing
   plan_count: 1

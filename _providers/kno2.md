@@ -278,7 +278,7 @@ modified: '2026-08-14'
 name: Kno2
 nav: Providers
 network: true
-overview: 'Kno2 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Authentication API, Directory API, and 2 more. Tagged areas include Healthcare Interoperability, Clinical Records, Health Information Exchange, Direct Secure Messaging, and FHIR.
+overview: 'Kno2 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Authentication API, Directory API, and 2 more. Tagged areas include Interoperability, Clinical Records, Health Information Exchange, Direct Secure Messaging, and FHIR.
 
 
   Kno2''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 30 more developer resources.'
@@ -348,7 +348,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: kno2
 tags:
-- Healthcare Interoperability
+- Interoperability
 - Clinical Records
 - Health Information Exchange
 - Direct Secure Messaging

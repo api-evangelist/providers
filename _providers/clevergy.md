@@ -416,7 +416,7 @@ tags:
 - Solar
 - Home Energy
 - Battery Storage
-- Electric Vehicle Charging
+- EV Charging
 - Smart Home
 - Sustainability
 - Spain

@@ -94,7 +94,6 @@ tags:
 - AI Agents
 - Agent Operating System
 - Autonomous Agents
-- Agentic AI
 - Developer Platform
 - Artificial Intelligence
 website: https://sdsa.ai

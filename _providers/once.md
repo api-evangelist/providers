@@ -109,6 +109,6 @@ tags:
 - Social
 - Chat
 - Mobile
-- Communities
+- Community
 website: https://getonce.com/
 ---

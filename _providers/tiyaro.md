@@ -126,7 +126,7 @@ modified: '2026-08-14'
 name: Tiyaro
 nav: Providers
 network: true
-overview: 'Tiyaro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Customer Support.
+overview: 'Tiyaro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Support, and ITSM.
 
 
   Tiyaro''s developer surface includes engineering blog, CLI, and 12 more developer resources.'
@@ -176,7 +176,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Customer Support
 - ITSM
 - Business Process Automation

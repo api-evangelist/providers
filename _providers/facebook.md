@@ -793,7 +793,7 @@ tags:
 - Content Publishing
 - Messaging
 - Social Media
-- Social Networking
+- Social Network
 use_cases:
 - description: Manage pages, publish content, and engage with audiences across Facebook and Instagram.
   name: Social Media Management

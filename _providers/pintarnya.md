@@ -81,7 +81,7 @@ modified: '2026-07-20'
 name: Pintarnya
 nav: Providers
 network: true
-overview: 'Pintarnya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Employment, Recruitment, and Financial Services.
+overview: 'Pintarnya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Employment, Recruiting, and Financial Services.
 
 
   Pintarnya''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
@@ -130,7 +130,7 @@ tags:
 - Company
 - Job
 - Employment
-- Recruitment
+- Recruiting
 - Financial Services
 - Indonesia
 - Marketplace

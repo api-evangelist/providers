@@ -1272,7 +1272,7 @@
      "rank": 25
     },
     {
-     "name": "Prudential plc",
+     "name": "Prudential",
      "slug": "prudential-plc",
      "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/screenshots/prudential-plc-2026-09-02T152254.png",
@@ -3376,6 +3376,49 @@
      "rank": 72
     },
     {
+     "name": "Djoin",
+     "slug": "samastha-synergy-pte-ltd",
+     "description": "Samastha Synergy Pte. Ltd. operates Djoin (djoin.id), positioning itself as a \"digital partner for sustainable scale\" that helps financial institutions and organizations in Indonesia grow through an adaptive product ecosystem. Djoin's named products are Coopmax (a platform aimed at cooperatives / koperasi), Kocek, and ProofyLink. The company runs a private backend API at api.djoin.id, which sits behind Cloudflare and returns 403 to unauthenticated requests; as of this profile there is no public developer portal, OpenAPI/Swagger definition, documentation, or SDK surface published. Samastha Synergy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; this profile captures what is publicly verifiable from the djoin.id site and DNS/TLS probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samastha-synergy-pte-ltd/refs/heads/main/screenshots/samastha-synergy-pte-ltd-2026-09-02T154336.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 73
+    },
+    {
      "name": "Eatsii",
      "slug": "eatsii",
      "description": "Eatsii is a Jakarta, Indonesia based foodtech startup operating a cloud kitchen platform. It runs a cloud kitchen concept that offers takeaway and delivery alongside dine-in service, and markets cloud kitchen space to F&B operators under a franchise partnership model, positioning itself as helping food and beverage companies run a more efficient kitchen in the food delivery era. The company describes itself as combining a heartfelt touch with data and business strategy, and lists 11-50 employees in Food and Beverage Services. It was surfaced through the 500 Global (500 Durians) portfolio. Eatsii publishes no developer program, public API, or technical documentation, and as of July 2026 its eatsii.com domain does not serve a live website.",
@@ -3416,7 +3459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "mucho",
@@ -3460,7 +3503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Mycotech",
@@ -3503,7 +3546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Pazpo",
@@ -3547,7 +3590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Pinhome",
@@ -3590,56 +3633,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Qerja",
      "slug": "qerja",
      "description": "PT Qerja Manfaat Bangsa (Qerja) is an Indonesian human-resources company operating an end-to-end HR product ecosystem for employers, established in 2007 and later part of the PT M Cash Integrasi Tbk technology group. In 2019 it acquired Karir.com, Indonesia's first job portal (since 1998), and reports serving over 50,000 clients and 8 million member users across the country. The public presence is a corporate marketing site (qerjagroup.com) covering its HR services, clients, and user demographics; no public developer portal, API documentation, or machine-readable API surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qerja/refs/heads/main/screenshots/qerja-2026-09-02T152430.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Samastha Synergy Pte. Ltd.",
-     "slug": "samastha-synergy-pte-ltd",
-     "description": "Samastha Synergy Pte. Ltd. operates Djoin (djoin.id), positioning itself as a \"digital partner for sustainable scale\" that helps financial institutions and organizations in Indonesia grow through an adaptive product ecosystem. Djoin's named products are Coopmax (a platform aimed at cooperatives / koperasi), Kocek, and ProofyLink. The company runs a private backend API at api.djoin.id, which sits behind Cloudflare and returns 403 to unauthenticated requests; as of this profile there is no public developer portal, OpenAPI/Swagger definition, documentation, or SDK surface published. Samastha Synergy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; this profile captures what is publicly verifiable from the djoin.id site and DNS/TLS probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samastha-synergy-pte-ltd/refs/heads/main/screenshots/samastha-synergy-pte-ltd-2026-09-02T154336.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",

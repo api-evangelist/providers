@@ -94,7 +94,7 @@ modified: '2026-08-26'
 name: Praxis
 nav: Providers
 network: true
-overview: 'Praxis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Smart Cities, Communities, and Membership.
+overview: 'Praxis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Smart Cities, Community, and Membership.
 
 
   Praxis'' developer surface includes engineering blog, signup flow, and 6 more developer resources.'
@@ -141,7 +141,7 @@ tags:
 - Company
 - Real Estate
 - Smart Cities
-- Communities
+- Community
 - Membership
 - Urban Development
 - Network State

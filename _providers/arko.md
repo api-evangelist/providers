@@ -100,13 +100,13 @@ features:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arko.png
 layout: provider
 modified: '2026-09-18'
-name: ARKO Corp
+name: ARKO
 nav: Providers
 network: true
-overview: 'ARKO Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Fleet Fueling, Fuel, Petroleum, and Retail.
+overview: 'ARKO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Fleet Fueling, Fuel, Petroleum, and Retail.
 
 
-  ARKO Corp''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  ARKO''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal

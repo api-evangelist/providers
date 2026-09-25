@@ -693,6 +693,56 @@
      "rank": 14
     },
     {
+     "name": "Alliance Resource Partners",
+     "slug": "alliance-resource-partners",
+     "description": "Alliance Resource Partners, L.P. (NASDAQ: ARLP) is a diversified energy and natural-resource partnership headquartered in Tulsa, Oklahoma. It is the largest coal producer in the eastern United States, operating underground and surface mines across the Illinois Basin and Appalachia, and it holds an oil and gas mineral and royalty portfolio alongside a growth-investment arm covering other energy and infrastructure ventures. ARLP runs no developer program: it publishes no API documentation, no OpenAPI, no SDK, no API pricing and no developer portal, and the api.arlp.com and developer.arlp.com hosts once listed here do not resolve in DNS. The only machine-readable interface the company serves is the read-only WordPress REST API behind its corporate site at www.arlp.com, which returns ARLP's own published corporate content - business segments, sustainability posture, careers, contact and legal pages, media, taxonomy and cross-content search - anonymously as JSON. Any operational data exchange with ARLP (customer contracts, rail and barge logistics, mine reporting, royalty statements) is a bilateral commercial agreement, not a published API product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 33.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
+    {
      "name": "Cleveland-Cliffs",
      "slug": "cleveland-cliffs",
      "description": "Cleveland-Cliffs is North America's largest flat-rolled steel producer and supplier of iron ore pellets, operating an integrated business spanning mining, steelmaking, and downstream finishing for the automotive, infrastructure, and manufacturing markets. Cleveland-Cliffs does not publish a public developer portal, an OpenAPI/GraphQL contract, or any general-purpose REST API. Its documented machine-to-machine surface is batch EDI: ANSI ASC X12 version 4010 over SFTP or an IBM Sterling VAN, with 23 implementation guidelines and an X12 testing template published as public downloads for outside processors at Burns Harbor, Cleveland, Indiana Harbor and Kote. Its transactional applications (Outside Processors Portal, iSupplier, Customer Service Center, Vendor Inquiry) are login-gated, and the only machine-readable discovery documents it serves are OIDC and RFC 8414 metadata on its own Okta tenant at login.clevelandcliffs.com plus an RFC 9116 security.txt.",
@@ -733,7 +783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "SmartData",
@@ -783,7 +833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Tronox Holdings",
@@ -826,7 +876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Tari",
@@ -871,48 +921,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Adionics",
-     "slug": "adionics",
-     "description": "Adionics is a French cleantech company founded in 2012 in Paris by Guillaume de Souza, out of research into liquid-liquid salt extraction started in 2007. It develops and licenses a patented Direct Lithium Extraction (DLE) process built on Flionex, a proprietary, thermally regenerated and highly selective liquid salt absorbent that captures lithium salts from brine at ambient temperature and releases them at higher temperature in a closed loop, with no traditional reagents and more than 90% less water than evaporation ponds. The company sells a staged engagement to mining operators — a proprietary modeling study, a lab-scale bench test, an on-site pilot plant, and basic engineering plus commissioning support for a commercial plant — targeting lithium-rich salars, geothermal brines, oil-and-gas produced water, industrial effluents and battery recycling streams. It has run 1,500 hours of continuous lithium extraction in the Salar de Atacama, opened a pilot test centre in Salta Province, Argentina, and raised roughly $40M across four rounds. Adionics is a process-technology and engineering company, not a software vendor, and publishes no developer portal, no product API, no SDKs and no OpenAPI. The only machine-readable interface it exposes is the WordPress REST content API behind www.adionics.com, which is anonymously readable, read-only for the public, and captured here for discovery.",
-     "score": 19.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 15.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -971,56 +979,6 @@
      "rank": 20
     },
     {
-     "name": "Alliance Resource Partners",
-     "slug": "alliance-resource-partners",
-     "description": "Alliance Resource Partners, L.P. (NASDAQ: ARLP) is a diversified energy and natural-resource partnership headquartered in Tulsa, Oklahoma. It is the largest coal producer in the eastern United States, operating underground and surface mines across the Illinois Basin and Appalachia, and it holds an oil and gas mineral and royalty portfolio alongside a growth-investment arm covering other energy and infrastructure ventures. ARLP runs no developer program: it publishes no API documentation, no OpenAPI, no SDK, no API pricing and no developer portal, and the api.arlp.com and developer.arlp.com hosts once listed here do not resolve in DNS. The only machine-readable interface the company serves is the read-only WordPress REST API behind its corporate site at www.arlp.com, which returns ARLP's own published corporate content - business segments, sustainability posture, careers, contact and legal pages, media, taxonomy and cross-content search - anonymously as JSON. Any operational data exchange with ARLP (customer contracts, rail and barge logistics, mine reporting, royalty statements) is a bilateral commercial agreement, not a published API product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
-     "score": 18.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
      "name": "Arch Coal",
      "slug": "arch-coal",
      "description": "Arch Coal was a St. Louis-based producer and marketer of metallurgical and thermal coal, renamed Arch Resources in 2020. In January 2025 Arch Resources merged with CONSOL Energy in a merger of equals to form Core Natural Resources, Inc. (NYSE: CNR), headquartered in Canonsburg, Pennsylvania. The combined company operates the Pennsylvania Mining Complex, Leer, Leer South, West Elk, Black Thunder, and other mines across six U.S. states with 5,000+ employees, and holds stakes in East Coast marine export terminals. Core Natural Resources does not publish a public developer API. Its external digital surface is a corporate website at corenaturalresources.com plus a separate investor relations portal, both serving HTML and PDF only — the investor portal's /rss and /feed paths were probed on 2026-07-25 and every one returns HTML, not XML. Machine-readable company data is available only through third-party channels, namely the SEC's own EDGAR APIs.",
@@ -1068,50 +1026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
-    },
-    {
-     "name": "Impossible Metals",
-     "slug": "impossible-metals",
-     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 15.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
+     "rank": 21
     },
     {
      "name": "EnergyX",
@@ -1138,15 +1053,15 @@
       "score": 28.4,
       "matched_via": "tags"
      },
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -1155,7 +1070,92 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "Adionics",
+     "slug": "adionics",
+     "description": "Adionics is a French cleantech company founded in 2012 in Paris by Guillaume de Souza, out of research into liquid-liquid salt extraction started in 2007. It develops and licenses a patented Direct Lithium Extraction (DLE) process built on Flionex, a proprietary, thermally regenerated and highly selective liquid salt absorbent that captures lithium salts from brine at ambient temperature and releases them at higher temperature in a closed loop, with no traditional reagents and more than 90% less water than evaporation ponds. The company sells a staged engagement to mining operators — a proprietary modeling study, a lab-scale bench test, an on-site pilot plant, and basic engineering plus commissioning support for a commercial plant — targeting lithium-rich salars, geothermal brines, oil-and-gas produced water, industrial effluents and battery recycling streams. It has run 1,500 hours of continuous lithium extraction in the Salar de Atacama, opened a pilot test centre in Salta Province, Argentina, and raised roughly $40M across four rounds. Adionics is a process-technology and engineering company, not a software vendor, and publishes no developer portal, no product API, no SDKs and no OpenAPI. The only machine-readable interface it exposes is the WordPress REST content API behind www.adionics.com, which is anonymously readable, read-only for the public, and captured here for discovery.",
+     "score": 17.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 13.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Impossible Metals",
+     "slug": "impossible-metals",
+     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 7.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -2721,7 +2721,7 @@
      "rank": 58
     },
     {
-     "name": "Sadbhav Engineering Limited",
+     "name": "Sadbhav Engineering",
      "slug": "sadbhaveng",
      "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/screenshots/sadbhaveng-2026-09-02T154244.png",
@@ -3129,7 +3129,7 @@
      "rank": 67
     },
     {
-     "name": "BANIQL CORP.",
+     "name": "BANIQL",
      "slug": "baniql-corp",
      "description": "BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure, producing high-quality nickel at roughly 30% lower cost than High Pressure Acid Leaching (HPAL) with net-zero waste, cutting energy consumption and carbon dioxide emissions by around 80% while repurposing leftover materials into products like fertilizers and construction materials. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this materials/cleantech company publishes no developer or API surface, so this profile carries company identity and domain-security data only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/baniql-corp/refs/heads/main/screenshots/baniql-corp-2026-07-25T202332.png",

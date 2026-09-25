@@ -75,13 +75,13 @@ description: CSX Corporation is a Class I freight railroad operating one of the 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/csx.png
 layout: provider
 modified: '2026-04-28'
-name: CSX Corporation
+name: CSX
 nav: Providers
 network: true
-overview: 'CSX Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Class I Railroad, Freight, Intermodal, Logistics, and Rail.
+overview: 'CSX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Class I Railroad, Freight, Intermodal, Logistics, and Rail.
 
 
-  CSX Corporation''s developer surface includes developer portal and 7 more developer resources.'
+  CSX''s developer surface includes developer portal and 7 more developer resources.'
 press:
 - date: ''
   title: CSX embraces AI in drive to improve operations

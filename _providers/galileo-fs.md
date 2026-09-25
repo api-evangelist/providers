@@ -205,7 +205,7 @@ modified: '2026-05-08'
 name: Galileo Financial Technologies
 nav: Providers
 network: true
-overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include Fintech, Backend-as-a-Service, Card Issuing, Banking, and Payments.
+overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include Fintech, Banking as a Service, Card Issuing, Banking, and Payments.
 
 
   Galileo Financial Technologies'' developer surface includes authentication and 9 more developer resources.'
@@ -269,7 +269,7 @@ security:
 slug: galileo-fs
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Card Issuing
 - Banking
 - Payments

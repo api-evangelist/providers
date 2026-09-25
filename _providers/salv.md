@@ -322,7 +322,7 @@ modified: '2026-07-21'
 name: Salv
 nav: Providers
 network: true
-overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Alerts API, Aml API, and 12 more. Tagged areas include Company, Anti-Money Laundering, Financial Crime, Compliance, and RegTech.
+overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Alerts API, Aml API, and 12 more. Tagged areas include Company, AML, Financial Crime, Compliance, and RegTech.
 
 
   The Salv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -391,7 +391,7 @@ security:
 slug: salv
 tags:
 - Company
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Compliance
 - RegTech

@@ -273,7 +273,7 @@ modified: '2026-07-18'
 name: Archastro
 nav: Providers
 network: true
-overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activity Feed API, Agents API, Auth API, and 7 more. Tagged areas include Company, AI Agents, Agentic, Developer Platform, and Automation.
+overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Activity Feed API, Agents API, Auth API, and 7 more. Tagged areas include Company, AI Agents, Developer Platform, Automation, and Integration.
 
 
   The Archastro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -330,7 +330,6 @@ slug: archastro
 tags:
 - Company
 - AI Agents
-- Agentic
 - Developer Platform
 - Automation
 - Integration

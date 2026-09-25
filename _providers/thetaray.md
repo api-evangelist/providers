@@ -130,7 +130,7 @@ modified: '2026-08-05'
 name: ThetaRay
 nav: Providers
 network: true
-overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti-Money Laundering, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
+overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AML, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -187,7 +187,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: thetaray
 tags:
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Transaction Monitoring
 - Sanctions Screening

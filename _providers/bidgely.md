@@ -219,7 +219,7 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - Generative AI
-- Agentic AI
+- AI Agents
 - Demand-Side Management
 - Demand Response
 - Load Flexibility

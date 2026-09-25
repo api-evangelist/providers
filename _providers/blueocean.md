@@ -229,7 +229,7 @@ modified: '2026-08-13'
 name: BlueOcean
 nav: Providers
 network: true
-overview: 'BlueOcean publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Delete Conversation API, Get All Conversation History API, Get Conversation History Summary API, and 16 more. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Brand Intelligence.
+overview: 'BlueOcean publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Delete Conversation API, Get All Conversation History API, Get Conversation History Summary API, and 16 more. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Brand Intelligence.
 
 
   BlueOcean''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
@@ -290,7 +290,7 @@ tags:
 - Company
 - Marketing
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Brand Intelligence
 - Marketing Automation
 - Analytics

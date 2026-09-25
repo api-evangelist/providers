@@ -67,13 +67,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaman.png
 layout: provider
 modified: '2026-04-19'
-name: Kaman Corporation
+name: Kaman
 nav: Providers
 network: true
-overview: 'Kaman Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Distribution, and Industrial.
+overview: 'Kaman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Distribution, and Industrial.
 
 
-  Kaman Corporation''s developer surface includes engineering blog and 3 more developer resources.'
+  Kaman''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Kaman Plans Pricing
   plan_count: 1

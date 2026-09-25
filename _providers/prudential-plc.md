@@ -189,13 +189,13 @@ description: 'Prudential plc is a life and health insurance and asset management
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
-name: Prudential plc
+name: Prudential
 nav: Providers
 network: true
-overview: 'Prudential plc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Life Insurance, Health Insurance, and Carrier.
+overview: 'Prudential is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Life Insurance, Health Insurance, and Carrier.
 
 
-  Prudential plc''s developer surface includes engineering blog and 32 more developer resources.'
+  Prudential''s developer surface includes engineering blog and 32 more developer resources.'
 random_paper: 14
 score:
   band: emerging

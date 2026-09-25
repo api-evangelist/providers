@@ -50,10 +50,10 @@ description: iDialogue Inc. is a company surfaced as a portfolio company of 500-
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idialogue-inc.png
 layout: provider
 modified: '2026-07-17'
-name: iDialogue Inc.
+name: iDialogue
 nav: Providers
 network: true
-overview: iDialogue Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: iDialogue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 8
 score:
   band: minimal

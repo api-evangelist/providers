@@ -45,10 +45,10 @@ description: Yasmina Holdings Limited is a company surfaced as a portfolio compa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yasmina-holdings-limited.png
 layout: provider
 modified: '2026-07-17'
-name: Yasmina Holdings Limited
+name: Yasmina
 nav: Providers
 network: true
-overview: Yasmina Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Yasmina is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 2
 score:
   band: minimal

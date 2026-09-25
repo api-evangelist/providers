@@ -62,13 +62,13 @@ description: Endless Studios LLC is a game development learning platform where a
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endless-studios-llc.png
 layout: provider
 modified: '2026-07-19'
-name: Endless Studios LLC
+name: Endless Studios
 nav: Providers
 network: true
-overview: 'Endless Studios LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Game Development, Game Engine, and Education.
+overview: 'Endless Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Game Development, Game Engine, and Education.
 
 
-  Endless Studios LLC''s developer surface includes signup flow and 4 more developer resources.'
+  Endless Studios'' developer surface includes signup flow and 4 more developer resources.'
 random_paper: 20
 score:
   band: minimal

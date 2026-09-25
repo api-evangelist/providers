@@ -95,13 +95,13 @@ description: Agile Loop L.L.C. is a London-founded enterprise AI company (founde
 image: https://agileloop.ai/agile-loop-logo.svg
 layout: provider
 modified: '2026-07-17'
-name: Agile Loop L.L.C.
+name: Agile Loop
 nav: Providers
 network: true
-overview: 'Agile Loop L.L.C. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Large Action Models, and LLM.
+overview: 'Agile Loop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Large Action Models, and LLM.
 
 
-  Agile Loop L.L.C.''s developer surface includes engineering blog and 12 more developer resources.'
+  Agile Loop''s developer surface includes engineering blog and 12 more developer resources.'
 random_paper: 19
 score:
   band: minimal

@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: Paisley Consulting
 nav: Providers
 network: true
-overview: 'Paisley Consulting is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk, Compliance, and GRC.
+overview: 'Paisley Consulting is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk Management, Compliance, and GRC.
 
 
   Paisley Consulting''s developer surface includes engineering blog, support, and 1 more developer resources.'
@@ -98,7 +98,7 @@ slug: paisley-consulting
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Audit

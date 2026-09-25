@@ -257,7 +257,7 @@ modified: '2026-07-21'
 name: VISO Trust (Protecht)
 nav: Providers
 network: true
-overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, Vendor Risk Management, and TPRM.
+overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including client-api-assessment-rest-resource API, client-api-audit-log-rest-resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, GRC, and Cybersecurity.
 
 
   The VISO Trust (Protecht) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -318,8 +318,6 @@ tags:
 - Company
 - Security
 - Third-Party Risk Management
-- Vendor Risk Management
-- TPRM
 - GRC
 - Cybersecurity
 - Compliance

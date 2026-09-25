@@ -54,10 +54,10 @@ description: Luxvisions Innovation Limited is a camera module and imaging techno
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luxvisions.png
 layout: provider
 modified: '2026-07-20'
-name: Luxvisions Innovation Limited
+name: Luxvisions Innovation
 nav: Providers
 network: true
-overview: Luxvisions Innovation Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Camera Modules, Imaging, and Semiconductors.
+overview: Luxvisions Innovation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Camera Modules, Imaging, and Semiconductors.
 random_paper: 2
 score:
   band: minimal

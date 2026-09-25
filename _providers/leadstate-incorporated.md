@@ -67,10 +67,10 @@ description: Leadstate Incorporated is a New York City based real estate and des
 image: https://www.leadstate.com/preview.jpg
 layout: provider
 modified: '2026-07-19'
-name: Leadstate Incorporated
+name: Leadstate
 nav: Providers
 network: true
-overview: Leadstate Incorporated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Artificial Intelligence, and Generative Video.
+overview: Leadstate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Artificial Intelligence, and Generative Video.
 random_paper: 20
 score:
   band: minimal

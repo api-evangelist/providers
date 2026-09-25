@@ -50,10 +50,10 @@ description: PurismEV Inc. is an AI-driven electric-vehicle energy optimization 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purismev-inc.png
 layout: provider
 modified: '2026-07-20'
-name: PurismEV Inc.
+name: PurismEV
 nav: Providers
 network: true
-overview: PurismEV Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Energy Management, Fleet Management, and Battery.
+overview: PurismEV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Energy Management, Fleet Management, and Battery.
 random_paper: 18
 score:
   band: minimal

@@ -62,7 +62,7 @@ modified: '2026-07-21'
 name: Syft
 nav: Providers
 network: true
-overview: Syft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruitment, Hospitality, and Workforce.
+overview: Syft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruiting, Hospitality, and Workforce.
 random_paper: 14
 score:
   band: minimal
@@ -100,7 +100,7 @@ slug: syft
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Hospitality
 - Workforce
 - Marketplace

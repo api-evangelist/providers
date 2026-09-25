@@ -140,7 +140,7 @@ modified: '2026-07-20'
 name: Popp
 nav: Providers
 network: true
-overview: 'Popp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Staffing, Hiring, and Conversational AI.
+overview: 'Popp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Staffing, Hiring, and Conversational AI.
 
 
   The Popp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +190,7 @@ security:
 slug: popp
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Staffing
 - Hiring
 - Conversational AI

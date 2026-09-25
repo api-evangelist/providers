@@ -93,13 +93,13 @@ description: Glorri is a cloud-based applicant tracking system (ATS) and recruit
 image: https://glorri.com/favicons/android-chrome-512x512.png
 layout: provider
 modified: '2026-07-19'
-name: GLORRI, INC.
+name: GLORRI
 nav: Providers
 network: true
-overview: 'GLORRI, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruitment, ATS, and Talent Acquisition.
+overview: 'GLORRI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Applicant Tracking, and Talent Acquisition.
 
 
-  GLORRI, INC.''s developer surface includes pricing, signup flow, support, YouTube channel, and 9 more developer resources.'
+  GLORRI''s developer surface includes pricing, signup flow, support, YouTube channel, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -138,8 +138,8 @@ slug: glorri-inc
 tags:
 - Company
 - Human Resources
-- Recruitment
-- ATS
+- Recruiting
+- Applicant Tracking
 - Talent Acquisition
 - Hiring
 - Recruiting Automation

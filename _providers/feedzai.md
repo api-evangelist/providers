@@ -140,7 +140,7 @@ modified: '2026-07-19'
 name: Feedzai
 nav: Providers
 network: true
-overview: 'Feedzai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Financial Crime, Risk Management, and Anti-Money Laundering.
+overview: 'Feedzai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, Financial Crime, Risk Management, and AML.
 
 
   Feedzai''s developer surface includes documentation, support, engineering blog, and 18 more developer resources.'
@@ -203,7 +203,7 @@ tags:
 - Fraud Prevention
 - Financial Crime
 - Risk Management
-- Anti-Money Laundering
+- AML
 - RiskOps
 - Machine Learning
 - Payments

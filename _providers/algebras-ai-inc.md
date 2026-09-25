@@ -255,16 +255,16 @@ image: https://algebras.ai/favicon.ico
 layout: provider
 mcp_servers:
 - description: ''
-  name: Algebras AI Inc. MCP Server
-  slug: algebras-ai-inc-mcp-server
+  name: Algebras AI MCP Server
+  slug: algebras-ai-mcp-server
 modified: '2026-07-17'
-name: Algebras AI Inc.
+name: Algebras AI
 nav: Providers
 network: true
-overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Common API, Glossaries API, and 6 more. Tagged areas include Company, Translation, Localization, Internationalization, and Artificial Intelligence.
+overview: 'Algebras AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Inc. Authentication API, Inc. Common API, Inc. Glossaries API, and 6 more. Tagged areas include Company, Translation, Localization, Internationalization, and Artificial Intelligence.
 
 
-  Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+  Algebras AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
 random_paper: 9
 score:
   band: developing

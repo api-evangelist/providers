@@ -66,10 +66,10 @@ description: 9 Mothers Corporation is a defense technology company founded in 20
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/9-mothers-corporation.png
 layout: provider
 modified: '2026-07-17'
-name: 9 Mothers Corporation
+name: 9 Mothers
 nav: Providers
 network: true
-overview: 9 Mothers Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-Drone, Autonomous Systems, and Robotics.
+overview: 9 Mothers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-Drone, Autonomous Systems, and Robotics.
 random_paper: 5
 score:
   band: minimal

@@ -200,7 +200,7 @@ tags:
 - Infrastructure as Code
 - Terraform
 - Identity and Access Management
-- Agentic AI
+- AI Agents
 - DevOps
 - Self-Hosted
 website: https://kubeark.com/

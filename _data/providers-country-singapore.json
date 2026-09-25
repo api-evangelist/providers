@@ -2240,7 +2240,7 @@
      "rank": 46
     },
     {
-     "name": "Prudential plc",
+     "name": "Prudential",
      "slug": "prudential-plc",
      "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/screenshots/prudential-plc-2026-09-02T152254.png",
@@ -2526,7 +2526,7 @@
      "rank": 52
     },
     {
-     "name": "Caresense Pte. Ltd.",
+     "name": "Caresense",
      "slug": "caresense-pte-ltd",
      "description": "CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition, exercise, sleep and stress — and integrated health services including blood testing and telemedicine. The company sells both to individuals and to enterprise teams as a workplace wellbeing programme. CareSense was incorporated in Singapore on 14 June 2024 (UEN 202424008M), registered at 160 Robinson Road #14-04, and was founded by Lucas Ngoo, co-founder of Carousell, and Julian Koo, founder of the home-care platform Jaga-Me. As of this enrichment pass CareSense publishes no public API, developer portal, API documentation or SDKs; its technology surface is consumer and enterprise applications fronted by a Vanta-hosted trust center.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/screenshots/caresense-pte-ltd-2026-07-25T204555.png",
@@ -3406,7 +3406,7 @@
      "rank": 71
     },
     {
-     "name": "Apar Infotech Corporation",
+     "name": "Apar Infotech",
      "slug": "apar-infotech-corporation",
      "description": "Apar Infotech Corporation, which operates publicly as Apar Technologies, is a Singapore-headquartered IT services and consulting group serving clients across Asia Pacific, the Middle East and the Americas. The firm delivers technology consulting and application services, data management and business intelligence, collaboration and content management, enterprise applications, managed services, staff augmentation and collaborative development centres, with practice areas spanning artificial intelligence, cloud, CRM, ServiceNow workflow, RPA/BPM hyperautomation, enterprise mobility and IoT. Apar also publishes a small set of its own products — the Otomeyt HR technology and technical-assessment platform, the Innoculate IoT monitoring platform, and the eLite SIS and eLite BAM applications. Apar is part of the Apar Group and is backed by Insight Partners. As of this enrichment pass Apar publishes no public developer portal, API documentation, machine-readable API specification or self-service sign-up; its API work is delivered inside client engagements rather than as a public product surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/screenshots/apar-infotech-corporation-2026-07-25T200636.png",
@@ -3542,7 +3542,7 @@
      "rank": 74
     },
     {
-     "name": "SALARY HERO PTE. LTD",
+     "name": "SALARY HERO",
      "slug": "salary-hero-pte-ltd",
      "description": "Salary Hero is a Singapore-headquartered financial wellness and earned wage access (EWA) platform offered to employees through their employers. Its products include Salary on Demand (accessing earned wages before payday), budgeting and spending-tracking tools, savings accounts (a partnership with Dime offering 3% interest), and financial-literacy education covering debt management and investing. The service is delivered via iOS and Android apps and is provisioned by employers, integrating with existing payroll and HR systems. Salary Hero is a portfolio company of 500 Global. This profile was enriched by the API Evangelist pipeline; no public developer API, portal, or documentation surface was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salary-hero-pte-ltd/refs/heads/main/screenshots/salary-hero-pte-ltd-2026-09-02T154318.png",
@@ -4365,7 +4365,7 @@
      "rank": 93
     },
     {
-     "name": "Bilimber Pte. Ltd.",
+     "name": "Bilimber",
      "slug": "bilimber-pte-ltd",
      "description": "Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by shares) incorporated on 2020-11-17, operating in research and experimental development on electronics. It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong Kong government program) and added to the API Evangelist network as a stub. As of this enrichment pass the company publishes no public website, developer portal, documentation, or API surface -- the bilimber.com domain is currently unregistered and does not resolve -- so no first-party API artifacts could be searched, derived, or generated. This profile remains a lead awaiting a public API surface.",
      "score": 5.0,

@@ -238,7 +238,7 @@ modified: '2026-05-25'
 name: Conductor OSS
 nav: Providers
 network: true
-overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metadata API, Tasks API, and 1 more. Tagged areas include Agentic AI, Durable Execution, Event-Driven, Microservices, and Netflix.
+overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metadata API, Tasks API, and 1 more. Tagged areas include AI Agents, Durable Execution, Event-Driven, Microservices, and Netflix.
 
 
   Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 20 more developer resources.'
@@ -290,7 +290,7 @@ solutions:
 - description: Fully managed Conductor on AWS, Azure, GCP, or on-prem with SOC2, RBAC, SSO, audit logs, and up to 99.99% availability SLA.
   name: Orkes Enterprise / Cloud
 tags:
-- Agentic AI
+- AI Agents
 - Durable Execution
 - Event-Driven
 - Microservices

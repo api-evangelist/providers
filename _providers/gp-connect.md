@@ -301,6 +301,5 @@ tags:
 - Patient Records
 - Electronic Health Records
 - FHIR STU3
-- FHIR R4
 website: https://www.nhs.uk/
 ---

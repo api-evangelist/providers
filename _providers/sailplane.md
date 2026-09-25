@@ -53,7 +53,7 @@ modified: '2026-07-21'
 name: Sailplane
 nav: Providers
 network: true
-overview: Sailplane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic, and Automation.
+overview: Sailplane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Automation, and Stealth.
 random_paper: 7
 score:
   band: minimal
@@ -92,7 +92,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Automation
 - Stealth
 website: https://www.sailplane.ai/

@@ -67,13 +67,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evercore.png
 layout: provider
 modified: '2026-04-19'
-name: Evercore Inc
+name: Evercore
 nav: Providers
 network: true
-overview: 'Evercore Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Investment Banking, Advisory, and Wealth Management.
+overview: 'Evercore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Investment Banking, Advisory, and Wealth Management.
 
 
-  Evercore Inc''s developer surface includes engineering blog and 3 more developer resources.'
+  Evercore''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Evercore Plans Pricing
   plan_count: 1

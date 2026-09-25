@@ -57,7 +57,7 @@ modified: '2026-07-18'
 name: Downstream
 nav: Providers
 network: true
-overview: Downstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Amazon Advertising, Retail Media, E-Commerce, and Advertising Technology.
+overview: Downstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Amazon Advertising, Retail Media, E-Commerce, and AdTech.
 random_paper: 14
 score:
   band: minimal
@@ -101,7 +101,7 @@ tags:
 - Amazon Advertising
 - Retail Media
 - E-Commerce
-- Advertising Technology
+- AdTech
 - Marketing Analytics
 - Software-as-a-Service
 - Acquired

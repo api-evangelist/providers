@@ -159,7 +159,7 @@ modified: '2026-06-25'
 name: IPQualityScore
 nav: Providers
 network: true
-overview: 'IPQualityScore publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Fingerprint API, Email Validation API, IP Reputation API, and 3 more. Tagged areas include Fraud Prevention, IP Reputation, Proxy Detection, Email Validation, and Threat Intelligence.
+overview: 'IPQualityScore publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Fingerprint API, Email Validation API, IP Reputation API, and 3 more. Tagged areas include Fraud Prevention, IP Reputation, Proxy Detection, Email Verification, and Threat Intelligence.
 
 
   IPQualityScore''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -219,7 +219,7 @@ tags:
 - Fraud Prevention
 - IP Reputation
 - Proxy Detection
-- Email Validation
+- Email Verification
 - Threat Intelligence
 website: https://www.ipqualityscore.com
 ---

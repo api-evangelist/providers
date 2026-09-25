@@ -1,6 +1,6 @@
 {
- "total": 104,
- "shown": 104,
+ "total": 103,
+ "shown": 103,
  "limit": 1000,
  "bands": [
   {
@@ -572,8 +572,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 22,
-   "shown": 22,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Wideo",
@@ -1154,50 +1154,6 @@
      "rank": 25
     },
     {
-     "name": "Rubicon Project",
-     "slug": "rubicon-project",
-     "description": "Rubicon Project is a Los Angeles-based advertising technology company, founded in 2007, that built and operated one of the largest real-time bidding advertising exchanges, connecting digital publishers (the sell side) with advertisers and demand-side platforms. In 2020 Rubicon Project merged with Telaria and rebranded as Magnite, now positioned as the world's largest independent sell-side (SSP) advertising company, spanning connected TV (CTV), online video, display, and audio across its DV+, SpringServe, ClearLine and Magnite Streaming platforms. This profile tracks the company as it exists today under the Magnite brand. Magnite publishes a public, machine-readable OpenAPI 3.1 contract for the SpringServe ad-serving platform (v1 and v0) at console.springserve.com/api-docs, mirrored for the ClearLine buy-side console at console.clearline.magnite.com, together with a public Confluence documentation space, published rate limits, a first-party Python SDK, mobile In-App Ads SDKs for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 26
-    },
-    {
      "name": "Famous",
      "slug": "famous",
      "description": "Famous (famous.co) returns a 301 to Amaze (amaze.co), the creator-commerce platform operated by Amaze Holdings, Inc. Amaze describes itself as building the operating system for creator-led businesses, bringing commerce, content, media, and live shopping into one connected ecosystem. Its products include Amaze Commerce (creator storefronts and AI-powered product creation, at amazecommerce.com), Spring (spri.ng, the creator storefront brand formerly known as Teespring), Amaze Live (shoppable livestreams), and Amaze Media (performance marketing and audience targeting for brands). The company reports 190K+ creators, 1.7B+ lifetime fan reach, and operations across 183 countries. Surfaced originally as a portfolio company of Insight Partners. A public, machine-readable API surface WAS found on the second enrichment pass: the Spring Seller API, a Swagger 2.0 contract with 24 operations served live at api.teespring.com (Spring's legacy API host), documented behind a Swagger UI at https://api.teespring.com/docs. Amaze also publishes first-party Protobuf/gRPC service contracts to npm under the @teespring scope.",
@@ -1239,7 +1195,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Choozle",
@@ -1283,7 +1239,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Chartbeat",
@@ -1327,7 +1283,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "CRM Bonus",
@@ -1371,7 +1327,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "MODIVO",
@@ -1422,7 +1378,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "FreeWheel Media",
@@ -1466,7 +1422,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Gist",
@@ -1510,7 +1466,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "iSpot.tv",
@@ -1554,7 +1510,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 34
+     "rank": 33
     }
    ]
   },
@@ -1608,7 +1564,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "TripleLift",
@@ -1652,7 +1608,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "AppNexus",
@@ -1696,7 +1652,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "WideOrbit",
@@ -1740,7 +1696,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Substack",
@@ -1784,7 +1740,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Coactive",
@@ -1828,7 +1784,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Pokkt",
@@ -1872,7 +1828,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "MadHive",
@@ -1916,7 +1872,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Covatic",
@@ -1960,7 +1916,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Epsilon",
@@ -2004,7 +1960,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "AdReady (CPXi)",
@@ -2048,7 +2004,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Vizit",
@@ -2092,7 +2048,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "OpenX",
@@ -2136,7 +2092,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Koah Labs",
@@ -2179,7 +2135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Flipp (Wishabi)",
@@ -2223,7 +2179,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Marin Software",
@@ -2267,7 +2223,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "FlyteDesk",
@@ -2318,7 +2274,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Ibotta",
@@ -2362,7 +2318,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Sharethrough",
@@ -2406,7 +2362,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Yieldmo",
@@ -2450,7 +2406,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Albertsons",
@@ -2493,7 +2449,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "SocialSign.in",
@@ -2537,7 +2493,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Swiftly",
@@ -2581,7 +2537,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Silveredge",
@@ -2625,7 +2581,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "OneScreen AI",
@@ -2669,7 +2625,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "TEGNA",
@@ -2713,7 +2669,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 60
+     "rank": 59
     }
    ]
   },
@@ -2767,7 +2723,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Catch&Release",
@@ -2810,7 +2766,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "PlayPlay",
@@ -2854,7 +2810,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Lucky Cart",
@@ -2898,7 +2854,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Media Radar",
@@ -2942,7 +2898,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Laurence",
@@ -2986,51 +2942,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 66
-    },
-    {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "Tvscientific",
@@ -3074,7 +2986,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 68
+     "rank": 66
+    },
+    {
+     "name": "Sinclair",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 67
     },
     {
      "name": "Minute Media",
@@ -3118,7 +3074,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Ground",
@@ -3162,7 +3118,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "PUBLY",
@@ -3206,7 +3162,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "WeStock",
@@ -3250,7 +3206,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "TVbeat",
@@ -3294,7 +3250,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Interpublic Group",
@@ -3338,7 +3294,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Quad/Graphics",
@@ -3382,7 +3338,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Gannett",
@@ -3426,7 +3382,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Horizon Media",
@@ -3469,7 +3425,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Newneek",
@@ -3513,7 +3469,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "CoolerX",
@@ -3557,7 +3513,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "ReDEF",
@@ -3601,7 +3557,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "TNL Mediagene",
@@ -3645,7 +3601,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Linkett",
@@ -3688,7 +3644,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Sync API",
@@ -3731,7 +3687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Ara",
@@ -3775,7 +3731,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "CommerceIQ",
@@ -3819,7 +3775,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Virool",
@@ -3863,7 +3819,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "BBDO Worldwide",
@@ -3907,7 +3863,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Spotter",
@@ -3951,7 +3907,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 88
+     "rank": 87
     }
    ]
   },
@@ -4005,7 +3961,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Profitero",
@@ -4049,7 +4005,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "OUTFRONT Media",
@@ -4093,7 +4049,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "SureWaves",
@@ -4137,7 +4093,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Supponor",
@@ -4181,7 +4137,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "MightyHive",
@@ -4225,7 +4181,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Red Ventures",
@@ -4269,7 +4225,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Mediaspectrum",
@@ -4313,7 +4269,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "mth Sense",
@@ -4356,7 +4312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Quantum",
@@ -4400,7 +4356,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Massive Dynamic",
@@ -4444,7 +4400,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "DIVE studios",
@@ -4488,7 +4444,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "88rising",
@@ -4531,7 +4487,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Absurd",
@@ -4575,7 +4531,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Conteller",
@@ -4618,7 +4574,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Tapsense",
@@ -4661,7 +4617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     }
    ]
   }

@@ -204,7 +204,7 @@ modified: '2026-08-13'
 name: TransUnion
 nav: Providers
 network: true
-overview: 'TransUnion publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication Service API, Signing API, Verification API, and 2 more. Tagged areas include Finance, Credit Reporting, Risk, Identity, and Fraud.
+overview: 'TransUnion publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication Service API, Signing API, Verification API, and 2 more. Tagged areas include Finance, Credit Reporting, Risk Management, Identity, and Fraud.
 
 
   TransUnion''s developer surface includes authentication, product news, engineering blog, and 23 more developer resources.'
@@ -275,7 +275,7 @@ slug: transunion
 tags:
 - Finance
 - Credit Reporting
-- Risk
+- Risk Management
 - Identity
 - Fraud
 - Marketing

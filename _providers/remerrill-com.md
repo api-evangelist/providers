@@ -134,16 +134,16 @@ image: https://www.remerrill.com/icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: R.E. Merrill & Associates, Inc. MCP Server
-  slug: re-merrill-associates-inc-mcp-server
+  name: R.E. Merrill & Associates MCP Server
+  slug: re-merrill-associates-mcp-server
 modified: '2026-09-19'
-name: R.E. Merrill & Associates, Inc.
+name: R.E. Merrill & Associates
 nav: Providers
 network: true
-overview: 'R.E. Merrill & Associates, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: R.E. Merrill Pump Line Finder API. Tagged areas include Industrial Pumps, Pump Selection, Industrial Equipment, Chemical Processing, and Manufacturing.
+overview: 'R.E. Merrill & Associates publishes 1 API on the [APIs.io](https://apis.io/) network: R.E. Merrill Pump Line Finder API. Tagged areas include Industrial Pumps, Pump Selection, Industrial Equipment, Chemical Processing, and Manufacturing.
 
 
-  R.E. Merrill & Associates, Inc.''s developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
+  R.E. Merrill & Associates'' developer surface includes documentation, support, engineering blog, authentication, and 15 more developer resources.'
 plans:
 - name: Remerrill Com Plans Pricing
   plan_count: 0

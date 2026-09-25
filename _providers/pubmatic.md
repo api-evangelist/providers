@@ -348,6 +348,6 @@ tags:
 - Identity
 - Curation
 - Auction Packages
-- Agentic AI
+- AI Agents
 website: https://pubmatic.com
 ---

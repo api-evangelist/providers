@@ -66,13 +66,13 @@ description: Forged Sports, Inc. is a Palo Alto, California software company (fo
 image: https://forgedsports.co/favicon.ico?favicon.7bde21e6.ico
 layout: provider
 modified: '2026-07-19'
-name: Forged Sports, Inc.
+name: Forged Sports
 nav: Providers
 network: true
-overview: 'Forged Sports, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Golf, Sports, Venue Management, and Business Intelligence.
+overview: 'Forged Sports is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Golf, Sports, Venue Management, and Business Intelligence.
 
 
-  Forged Sports, Inc.''s developer surface includes support and 5 more developer resources.'
+  Forged Sports'' developer surface includes support and 5 more developer resources.'
 random_paper: 2
 score:
   band: minimal

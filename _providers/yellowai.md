@@ -91,6 +91,6 @@ tags:
 - Chatbots
 - Voice AI
 - Customer Service
-- Agentic AI
+- AI Agents
 website: https://yellow.ai/
 ---

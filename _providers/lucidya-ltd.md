@@ -466,16 +466,16 @@ description: Lucidya is an AI-native customer experience management (CXM) platfo
 image: https://lh3.googleusercontent.com/d/1rlLPfBLpzoGQ2qAS_b9JeAxSnoyaa6RQ
 layout: provider
 modified: '2026-09-16'
-name: Lucidya Ltd
+name: Lucidya
 nav: Providers
 network: true
-overview: 'Lucidya Ltd publishes 36 APIs on the [APIs.io](https://apis.io/) network, including aggregated pages > Analytics API, aggregated pages > Interactions API, Analytics Jobs API, and 33 more. Tagged areas include Company, Customer Experience, Social Listening, Customer Data Platform, and Analytics.
+overview: 'Lucidya publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Ltd aggregated pages > Analytics API, Ltd aggregated pages > Interactions API, Ltd Analytics Jobs API, and 33 more. Tagged areas include Company, Customer Experience, Social Listening, Customer Data Platform, and Analytics.
 
 
-  The Lucidya Ltd catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lucidya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 40 more developer resources.'
+  Lucidya''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 40 more developer resources.'
 plans:
 - name: Lucidya Ltd Plans Pricing
   plan_count: 5

@@ -23,8 +23,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -34,15 +34,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
+  score: 27.0
   scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 16
-  human_in_the_loop: 0
+- acting_count: 84
+  human_in_the_loop: 1
   name: Smarthr Agentic Access
-  operation_count: 27
+  operation_count: 141
   slug: smarthr-agentic-access
-  summary_line: 27 operations · 16 acting
+  summary_line: 141 operations · 84 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://{tenant}.smarthr.jp/api
@@ -75,7 +75,16 @@ apis:
   description: Webhook subscriptions that notify external systems of changes.
   name: SmartHR Webhooks API
   slug: smarthr-webhooks-api
-artifact_total: 20
+- baseURL: https://app.smarthr.jp/api/v1
+  baseurl_source: declared
+  description: The full SmartHR REST API v1 reference (58 paths, 114 operations) covering crews, departments, employment types, custom field templates, dependents, payrolls, tax withholdings, batch jobs and users.
+  name: SmartHR API v1
+  slug: kufu-default-api
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Kufu Smarthr Webhooks
+  slug: kufu-smarthr-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -160,7 +169,10 @@ modified: '2026-07-12'
 name: SmartHR
 nav: Providers
 network: true
-overview: 'SmartHR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Business Establishments API, Crews API, Custom Field Templates API, and 3 more. Tagged areas include Human Resources, HRIS, Labor Management, Payroll, and Japan.
+overview: 'SmartHR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Business Establishments API, Crews API, Custom Field Templates API, and 4 more. Tagged areas include Human Resources, HRIS, Labor Management, Payroll, and Japan.
+
+
+  The SmartHR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   SmartHR''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -175,22 +187,22 @@ rate_limits:
   slug: smarthr-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 48.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 18
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.6
   facets:
     access_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 59.2
-    developer_ergonomics: 29.8
-    discoverability: 68.5
-    operational_transparency: 34.2
+    contract_governance: 4.5
+    contract_quality: 65.3
+    developer_ergonomics: 48.8
+    discoverability: 75.9
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,19 +213,24 @@ score:
   previous_composite: 39.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 7
   schema_version: 0.22.0
   scored_at: '2026-09-24'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png
 security:
+- kind: authentication
+  name: Kufu Authentication
+  slug: kufu-authentication
+  summary_line: 2 schemes
 - kind: authentication
   name: Smarthr Authentication
   slug: smarthr-authentication

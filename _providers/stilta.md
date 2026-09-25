@@ -155,7 +155,7 @@ tags:
 - Intellectual Property
 - Legal Tech
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Patent Search
 - Prior Art
 website: https://www.stilta.com

@@ -66,13 +66,13 @@ description: Sav Technologies Limited operates Sav (sav.money), a UAE-based inte
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sav-technologies-limited.png
 layout: provider
 modified: '2026-07-21'
-name: Sav Technologies Limited
+name: Sav
 nav: Providers
 network: true
-overview: 'Sav Technologies Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Savings, and Investing.
+overview: 'Sav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Savings, and Investing.
 
 
-  Sav Technologies Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Sav''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 6
 score:
   band: minimal

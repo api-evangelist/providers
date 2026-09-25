@@ -54,10 +54,10 @@ description: Dover Corporation is a diversified American industrial conglomerate
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dover.png
 layout: provider
 modified: '2026-04-28'
-name: Dover Corporation
+name: Dover
 nav: Providers
 network: true
-overview: Dover Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Manufacturing, and Fortune 500.
+overview: Dover is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Manufacturing, and Fortune 500.
 press:
 - date: ''
   title: New CPC Solution Tackles Growing Liquid Cooling Needs for AI

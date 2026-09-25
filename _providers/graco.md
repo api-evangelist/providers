@@ -63,10 +63,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graco.png
 layout: provider
 modified: '2026-04-19'
-name: Graco Inc
+name: Graco
 nav: Providers
 network: true
-overview: Graco Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fluid Handling, Manufacturing, and Industrial.
+overview: Graco publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fluid Handling, Manufacturing, and Industrial.
 plans:
 - name: Graco Plans Pricing
   plan_count: 1

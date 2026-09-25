@@ -182,13 +182,13 @@ integrations:
   name: MISO and PJM Markets
 layout: provider
 modified: '2026-08-30'
-name: AES Corporation
+name: AES
 nav: Providers
 network: true
-overview: 'AES Corporation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, Renewable Energy, Battery Storage, and Utility.
+overview: 'AES publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, Renewable Energy, Battery Storage, and Utility.
 
 
-  AES Corporation''s developer surface includes support, documentation, developer portal, engineering blog, and 15 more developer resources.'
+  AES''s developer surface includes support, documentation, developer portal, engineering blog, and 15 more developer resources.'
 plans:
 - name: Aes Plans Pricing
   plan_count: 0

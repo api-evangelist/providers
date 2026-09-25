@@ -45,10 +45,10 @@ description: ShipTag INC is a company surfaced as a portfolio company of 500-glo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shiptag-inc.png
 layout: provider
 modified: '2026-07-17'
-name: ShipTag INC
+name: ShipTag
 nav: Providers
 network: true
-overview: ShipTag INC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: ShipTag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 11
 score:
   band: minimal

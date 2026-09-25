@@ -54,10 +54,10 @@ description: Resti Inc. (resti.cloud) is a cloud-based restaurant management pla
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/resti-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Resti Inc.
+name: Resti
 nav: Providers
 network: true
-overview: Resti Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Management, Hospitality, Human Resources, and Payroll.
+overview: Resti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Management, Hospitality, Human Resources, and Payroll.
 random_paper: 8
 score:
   band: minimal

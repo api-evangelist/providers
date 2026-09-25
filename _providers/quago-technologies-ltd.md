@@ -66,13 +66,13 @@ description: Quago Technologies is a gaming analytics and fraud-detection compan
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quago-technologies-ltd.png
 layout: provider
 modified: '2026-07-20'
-name: Quago Technologies LTD
+name: Quago Technologies
 nav: Providers
 network: true
-overview: 'Quago Technologies LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Analytics, Fraud Detection, and Anti-Cheat.
+overview: 'Quago Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Analytics, Fraud Detection, and Anti-Cheat.
 
 
-  Quago Technologies LTD''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Quago Technologies'' developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 17
 score:
   band: minimal

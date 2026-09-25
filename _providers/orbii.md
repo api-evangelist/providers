@@ -118,7 +118,87 @@ apis:
   description: The PDFs API from Orbii — 4 operation(s) for pdfs.
   name: Orbii PD Fs API
   slug: orbii-pdfs-api
-artifact_total: 34
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Micro Loan API from Orbii — 1 operation(s) for micro loan.
+  name: Orbii Micro Loan API
+  slug: orbii-tech-ltd-micro-loan-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Raw Numbers API from Orbii — 6 operation(s) for raw numbers.
+  name: Orbii Raw Numbers API
+  slug: orbii-tech-ltd-raw-numbers-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Baseline Eligibility Raw API from Orbii — 1 operation(s) for rewaa baseline eligibility raw.
+  name: Orbii Rewaa Baseline Eligibility Raw API
+  slug: orbii-tech-ltd-rewaa-baseline-eligibility-raw-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Business Stability And Risk Raw API from Orbii — 1 operation(s) for rewaa business stability and risk raw.
+  name: Orbii Rewaa Business Stability And Risk Raw API
+  slug: orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Final Band Classification API from Orbii — 1 operation(s) for rewaa final band classification.
+  name: Orbii Rewaa Final Band Classification API
+  slug: orbii-tech-ltd-rewaa-final-band-classification-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Industry And Seasonal Trends Raw API from Orbii — 1 operation(s) for rewaa industry and seasonal trends raw.
+  name: Orbii Rewaa Industry And Seasonal Trends Raw API
+  slug: orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa KPI Rules API from Orbii — 1 operation(s) for rewaa kpi rules.
+  name: Orbii Rewaa KPI Rules API
+  slug: orbii-tech-ltd-rewaa-kpi-rules-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Loan Amounts API from Orbii — 1 operation(s) for rewaa loan amounts.
+  name: Orbii Rewaa Loan Amounts API
+  slug: orbii-tech-ltd-rewaa-loan-amounts-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Payment Processing And Liquidity Raw API from Orbii — 1 operation(s) for rewaa payment processing and liquidity raw.
+  name: Orbii Rewaa Payment Processing And Liquidity Raw API
+  slug: orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Revenue And Sales Performance Raw API from Orbii — 1 operation(s) for rewaa revenue and sales performance raw.
+  name: Orbii Rewaa Revenue And Sales Performance Raw API
+  slug: orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Risk Assessment API from Orbii — 1 operation(s) for rewaa risk assessment.
+  name: Orbii Rewaa Risk Assessment API
+  slug: orbii-tech-ltd-rewaa-risk-assessment-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Risk Assessment API from Orbii — 10 operation(s) for risk assessment.
+  name: Orbii Micro Loan Risk Assessment API
+  slug: orbii-tech-ltd-risk-assessment-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Run Assessment API from Orbii — 1 operation(s) for run assessment.
+  name: Orbii Run Assessment API
+  slug: orbii-tech-ltd-run-assessment-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Scores and Final Band Classification API from Orbii — 2 operation(s) for scores and final band classification.
+  name: Orbii Scores and Final Band Classification API
+  slug: orbii-tech-ltd-scores-and-final-band-classification-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The UpdateKpiRules API from Orbii — 1 operation(s) for updatekpirules.
+  name: Orbii UpdateKpiRules API
+  slug: orbii-tech-ltd-updatekpirules-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Zipped Csv Upload API from Orbii — 1 operation(s) for zipped csv upload.
+  name: Orbii Zipped Csv Upload API
+  slug: orbii-tech-ltd-zipped-csv-upload-api
+artifact_total: 50
 collections:
 - collection_type: open
   name: API Collection
@@ -280,14 +360,14 @@ modified: '2026-07-20'
 name: Orbii
 nav: Providers
 network: true
-overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 12 more. Tagged areas include Company, Artificial Intelligence, Lending, Credit, and Fintech.
+overview: 'Orbii publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 28 more. Tagged areas include Company, Artificial Intelligence, Lending, Credit, and Fintech.
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 29.0
+  composite: 28.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -295,11 +375,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 47.3
+    contract_quality: 46.1
     developer_ergonomics: 47.0
     discoverability: 81.5
     operational_transparency: 0.0
@@ -316,7 +396,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -353,6 +433,6 @@ tags:
 - SME
 - Embedded Finance
 - MENA
-- Risk
+- Risk Management
 website: https://orbii.ai
 ---

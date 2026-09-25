@@ -134,13 +134,13 @@ description: Quissly, Inc. is a Delaware-based SaaS company building an AI-power
 image: https://quissly.com/images/og-default.png
 layout: provider
 modified: '2026-07-20'
-name: Quissly Inc.
+name: Quissly
 nav: Providers
 network: true
-overview: 'Quissly Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Search, Artificial Intelligence, and Conversational Commerce.
+overview: 'Quissly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Search, Artificial Intelligence, and Conversational Commerce.
 
 
-  Quissly Inc.''s developer surface includes documentation, pricing, signup flow, engineering blog, changelog, and 15 more developer resources.'
+  Quissly''s developer surface includes documentation, pricing, signup flow, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Quissly Inc Plans
   plan_count: 10

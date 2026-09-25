@@ -159,13 +159,13 @@ integrations:
   name: FMC Ventures
 layout: provider
 modified: '2026-05-23'
-name: FMC Corporation
+name: FMC
 nav: Providers
 network: true
-overview: 'FMC Corporation publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Agricultural Sciences, Crop Protection, Plant Health, and Insecticides.
+overview: 'FMC publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Agricultural Sciences, Crop Protection, Plant Health, and Insecticides.
 
 
-  FMC Corporation''s developer surface includes engineering blog, GitHub presence, and 14 more developer resources.'
+  FMC''s developer surface includes engineering blog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Fmc Corporation Plans Pricing
   plan_count: 3

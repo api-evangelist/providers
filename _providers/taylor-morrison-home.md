@@ -199,7 +199,7 @@ modified: '2026-05-19'
 name: Taylor Morrison Home
 nav: Providers
 network: true
-overview: 'Taylor Morrison Home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including taylor-morrison-home Communities API, taylor-morrison-home Design API, taylor-morrison-home Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real Estate, Fortune 1000, New Homes, and Communities.
+overview: 'Taylor Morrison Home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including taylor-morrison-home Communities API, taylor-morrison-home Design API, taylor-morrison-home Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real Estate, Fortune 1000, New Homes, and Community.
 
 
   The Taylor Morrison Home catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -311,7 +311,7 @@ tags:
 - Real Estate
 - Fortune 1000
 - New Homes
-- Communities
+- Community
 - Mortgage
 website: https://www.taylormorrison.com/
 ---

@@ -143,5 +143,6 @@ tags:
 - Sustainability
 - Utilities
 - Wind
+- Clean Energy
 website: https://www.nexteraenergy.com
 ---

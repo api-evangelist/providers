@@ -520,7 +520,7 @@ tags:
 - Georgia
 - Atlanta
 - Research
-- Libraries
+- Library
 - Research Repository
 - Library Catalog
 - Course Catalog

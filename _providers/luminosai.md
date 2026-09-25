@@ -154,6 +154,6 @@ tags:
 - Risk Management
 - AI Safety
 - RegTech
-- Agentic AI
+- AI Agents
 website: https://www.luminos.ai/
 ---

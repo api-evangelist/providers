@@ -190,7 +190,7 @@ modified: '2026-07-19'
 name: Fiddler Labs
 nav: Providers
 network: true
-overview: 'Fiddler Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, ML Monitoring, LLM Observability, and Agentic AI.
+overview: 'Fiddler Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Observability, ML Monitoring, LLM Observability, and AI Agents.
 
 
   The Fiddler Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -251,7 +251,7 @@ tags:
 - AI Observability
 - ML Monitoring
 - LLM Observability
-- Agentic AI
+- AI Agents
 - AI Security
 - AI Governance
 - Model Monitoring

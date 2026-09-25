@@ -158,5 +158,6 @@ tags:
 - Scheduling
 - Conversational AI
 - Human Resources
+- Recruiting
 website: https://www.hirevue.com
 ---

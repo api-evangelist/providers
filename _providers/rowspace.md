@@ -103,6 +103,6 @@ tags:
 - Financial Services
 - Asset Management
 - Data Infrastructure
-- Agentic AI
+- AI Agents
 website: https://www.rowspace.ai/
 ---

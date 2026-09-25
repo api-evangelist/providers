@@ -613,7 +613,7 @@
      "rank": 12
     },
     {
-     "name": "Vortx AI Private Limited",
+     "name": "emem",
      "slug": "emem-dev",
      "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
      "score": 49.3,
@@ -1500,7 +1500,7 @@
      "rank": 30
     },
     {
-     "name": "Adonmo Private Limited",
+     "name": "Adonmo",
      "slug": "adonmoprivatelimited",
      "description": "Adonmo Private Limited (AdOnMo) is a Hyderabad, India based ambient digital out-of-home (DOOH) advertising company, incorporated in 2016, that operates what it describes as India's largest ambient DOOH network — 66,000+ smart digital screens across 27+ Indian cities in residential lobbies, corporate offices, gyms, malls and transit environments, reaching a claimed 12M+ daily viewers. The company sells campaigns through its AdServe programmatic platform and a self-serve booking portal, and it operates the screens themselves with Acumen CMS, its digital-signage content management product. Adonmo publishes a small first-party OpenAPI 3.0.0 contract, \"Adonmo API\", from a Flasgger-backed Swagger UI on its production API host.",
      "score": 38.1,
@@ -1635,56 +1635,6 @@
      "rank": 33
     },
     {
-     "name": "Indian Institute of Technology Kanpur",
-     "slug": "iit-kanpur",
-     "description": "The Indian Institute of Technology Kanpur (IIT Kanpur), founded in 1959 in Kanpur, Uttar Pradesh, is an Institute of National Importance and one of India's premier engineering and research institutions. It operates no central developer portal, no open-data portal, and no institutional GitHub organization. Its entire verified public programmatic footprint is the P.K. Kelkar (PKK) Library, which self-hosts Koha 23.11 on the institution's own host libserv.iitk.ac.in and exposes exactly two live machine-readable surfaces: a Koha REST API at /api/v1 whose /public/* subset answers unauthenticated (the rest returns 401), and an OAI-PMH 2.0 metadata-harvesting endpoint serving oai_dc, marc21 and marcxml. Because Koha is open-source software the library runs itself rather than a hosted vendor platform, both surfaces are institution-operated even though the Koha community authored the contract. Two earlier claims in this profile were wrong and are corrected here: the ILS-DI service is NOT available — its describe page renders 200 but every actual call returns \"ILS-DI is disabled\" — and this repository's 64 apis[] entries were one Koha contract split by tag, presenting a single library API as 64 surfaces. Pingala, the ERP/SIS, is login-gated with no documented public API. No Shibboleth/SAML identity federation, no DataCite or Crossref membership, and no research-data repository were found; the institution is registered in ROR. Numerous student clubs and departments run their own GitHub organizations, but none is institution-operated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 61.5,
-      "contract_governance": 13.6,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 13.1,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
      "name": "StockGro",
      "slug": "stockgro",
      "description": "StockGro is an Indian stock market advisory, research and financial-education platform operated by Assetgro Fintech Private Limited and headquartered in Bengaluru. It is registered with SEBI as a Research Analyst (INH000018300) and delivers daily trade ideas with entry, exit and stop-loss levels authored by SEBI-registered research analysts, alongside a portfolio builder, live market data and stock pages, an advisors directory, and StockGro Academy courses used by 1,400+ educational institutions. Its AI assistant, Stoxo, answers market and research questions in conversational language. StockGro is an advisory and research platform connected to major Indian brokers for last-mile execution; it does not execute trades or hold client funds. StockGro publishes no public developer program: the company serves a substantive llms.txt for AI agents, and one internal FastAPI scoring service is publicly reachable at api.stockgro.club, but there is no documented API, portal, or SDK.",
@@ -1723,6 +1673,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
+     "name": "Indian Institute of Technology Kanpur",
+     "slug": "iit-kanpur",
+     "description": "The Indian Institute of Technology Kanpur (IIT Kanpur), founded in 1959 in Kanpur, Uttar Pradesh, is an Institute of National Importance and one of India's premier engineering and research institutions. It operates no central developer portal, no open-data portal, and no institutional GitHub organization. Its entire verified public programmatic footprint is the P.K. Kelkar (PKK) Library, which self-hosts Koha 23.11 on the institution's own host libserv.iitk.ac.in and exposes exactly two live machine-readable surfaces: a Koha REST API at /api/v1 whose /public/* subset answers unauthenticated (the rest returns 401), and an OAI-PMH 2.0 metadata-harvesting endpoint serving oai_dc, marc21 and marcxml. Because Koha is open-source software the library runs itself rather than a hosted vendor platform, both surfaces are institution-operated even though the Koha community authored the contract. Two earlier claims in this profile were wrong and are corrected here: the ILS-DI service is NOT available — its describe page renders 200 but every actual call returns \"ILS-DI is disabled\" — and this repository's 64 apis[] entries were one Koha contract split by tag, presenting a single library API as 64 surfaces. Pingala, the ERP/SIS, is login-gated with no documented public API. No Shibboleth/SAML identity federation, no DataCite or Crossref membership, and no research-data repository were found; the institution is registered in ROR. Numerous student clubs and departments run their own GitHub organizations, but none is institution-operated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 60.4,
+      "contract_governance": 13.6,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 13.1,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -3348,49 +3348,6 @@
      "rank": 69
     },
     {
-     "name": "Burger Singh",
-     "slug": "burger-singh",
-     "description": "Burger Singh is an Indian quick-service restaurant chain founded in 2014 by Kabir Jeet Singh with co-founders Nitin Rana and Rahul Seth, and operated by Tipping Mr Pink Private Limited out of Gurugram, Haryana. It sells Indian-flavoured \"craft\" burgers - regional recipes built on Indian spices and chutneys - alongside fries and sides, desserts and beverages, through a hybrid estate of company-owned and franchised outlets that spans high-street, food-court, express and dine-in formats across India and into the United Kingdom. The business grows primarily through franchising, and its public web surface is organised around that motion: a menu, a store locator, franchise investment brackets, property-partner and bulk-order intake, and a complaint and feedback channel. Burger Singh is a restaurant operator rather than a software vendor and publishes no developer program, no API documentation and no commercial or partner-facing API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate site at burgersinghonline.com, captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png",
-     "score": 21.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 28.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
      "name": "BillDesk",
      "slug": "billdesk",
      "description": "BillDesk is an Indian integrated payment solutions platform founded in 2000, offering REST APIs for bill payments, recurring mandates, UPI payments, net banking, card payments, and enterprise payment gateway integrations. The platform provides three integration tiers (Neo full-redirect, Ace SDK, and CX+ deep API), supporting online payments, e-Mandate setup, invoicing, refunds, tokenization, and 150+ payment methods across web, mobile, and third-party e-commerce plugins.",
@@ -3438,7 +3395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Setu",
@@ -3481,7 +3438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Mitigata",
@@ -3530,7 +3487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Meesho",
@@ -3573,7 +3530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "TartanHQ",
@@ -3623,7 +3580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Falcon",
@@ -3673,7 +3630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Boat Lifestyle",
@@ -3716,7 +3673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Money View",
@@ -3766,7 +3723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "USPL Wrogn",
@@ -3809,7 +3766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Dukaan",
@@ -3852,7 +3809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Dabba",
@@ -3895,7 +3852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "WOW! Momo",
@@ -3914,15 +3871,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.5,
+     "agent_score": 11.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -3931,55 +3888,13 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
-    },
-    {
-     "name": "91Squarefeet",
-     "slug": "91squarefeet",
-     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "BestDoc",
@@ -4029,7 +3944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "EchoLeads",
@@ -4072,7 +3987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "4baseCare",
@@ -4128,7 +4043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "Indifi",
@@ -4171,7 +4086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "Cuemath",
@@ -4221,7 +4136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "Agnikul Cosmos",
@@ -4263,7 +4178,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 89
+     "rank": 87
+    },
+    {
+     "name": "Burger Singh",
+     "slug": "burger-singh",
+     "description": "Burger Singh is an Indian quick-service restaurant chain founded in 2014 by Kabir Jeet Singh with co-founders Nitin Rana and Rahul Seth, and operated by Tipping Mr Pink Private Limited out of Gurugram, Haryana. It sells Indian-flavoured \"craft\" burgers - regional recipes built on Indian spices and chutneys - alongside fries and sides, desserts and beverages, through a hybrid estate of company-owned and franchised outlets that spans high-street, food-court, express and dine-in formats across India and into the United Kingdom. The business grows primarily through franchising, and its public web surface is organised around that motion: a menu, a store locator, franchise investment brackets, property-partner and bulk-order intake, and a complaint and feedback channel. Burger Singh is a restaurant operator rather than a software vendor and publishes no developer program, no API documentation and no commercial or partner-facing API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate site at burgersinghonline.com, captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
     },
     {
      "name": "Practically",
@@ -4312,7 +4270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Probe Information",
@@ -4362,7 +4320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Yubi",
@@ -4401,6 +4359,48 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
+     "name": "91Squarefeet",
+     "slug": "91squarefeet",
+     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -8055,7 +8055,7 @@
      "rank": 172
     },
     {
-     "name": "Jain Irrigation Systems Ltd",
+     "name": "Jain Irrigation Systems",
      "slug": "jains",
      "description": "Jain Irrigation Systems Ltd (JISL) is a global agri-industrial conglomerate headquartered in Jalgaon, Maharashtra, India, and is widely cited as the world's largest micro-irrigation company. Founded in 1963 by Padma Shri recipient Bhavarlal Jain under the slogan \"More Crop Per Drop,\" the company manufactures drip and sprinkler irrigation systems, PVC/HDPE/PP and plumbing piping, rigid and foam plastic sheets, solar pumping and photovoltaic systems, tissue-culture planting material, greenhouses and protected cultivation, and processed foods. JISL operates 33 manufacturing bases across four continents, serves 126+ countries through 11,000+ dealers, is listed on the BSE and NSE, and reports turnover exceeding USD 1.2 billion. The company publishes a structured llms.txt for AI crawlers but exposes no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jains/refs/heads/main/screenshots/jains-2026-07-25T223045.png",
@@ -10904,7 +10904,7 @@
      "rank": 234
     },
     {
-     "name": "Ace Turtle Services Pvt Ltd",
+     "name": "Ace Turtle Services",
      "slug": "aceturtleservicespvtltd",
      "description": "Ace Turtle Services Pvt Ltd (brand \"ace turtle\") is a Bengaluru, India based retail technology company founded in 2014 that operates a vertical commerce model for international fashion and lifestyle brands. It is the exclusive licensee in India and South Asia for brands including Lee, Wrangler, G-STAR, Toys\"R\"Us and Dockers, and it runs three proprietary platforms: Rubicon, an omnichannel commerce platform combining distributed order management, inventory, catalogue, pricing and logistics management; Connect App, a store-operations application for in-store fulfilment, helpdesk and visual merchandising; and Albus, a machine-learning layer for inventory optimisation, safety-stock calculation and dynamic markdown. Rubicon is marketed as a channel-agnostic platform that integrates into a brand's existing technology ecosystem, but as of the September 2026 enrichment pass the company publishes no developer portal, no API reference and no machine-readable contract on any host it controls.",
      "score": 7.6,
@@ -11261,7 +11261,7 @@
      "rank": 242
     },
     {
-     "name": "Sadbhav Engineering Limited",
+     "name": "Sadbhav Engineering",
      "slug": "sadbhaveng",
      "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/screenshots/sadbhaveng-2026-09-02T154244.png",
@@ -14259,7 +14259,7 @@
      "rank": 311
     },
     {
-     "name": "SK Finance Ltd",
+     "name": "SK Finance",
      "slug": "skfin",
      "description": "SK Finance Ltd (skfin.in) is a Jaipur, India-based non-banking financial company (NBFC) providing asset-backed retail lending. Its products span commercial vehicle, car, tractor, construction-equipment and two-wheeler loans alongside secured business loans and home-renovation / mortgage finance, delivered through a physical branch network with EMI calculators, online EMI payment, a branch locator, a loan-application portal and a customer \"Refer and Earn\" referral program. Backed by Norwest Venture Partners. As of this enrichment pass the company publishes a corporate/marketing website (Next.js) with no public developer portal, API documentation, SDKs or other machine-readable API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/skfin/refs/heads/main/screenshots/skfin-2026-09-02T155726.png",

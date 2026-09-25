@@ -240,7 +240,7 @@ modified: '2026-07-20'
 name: Ostrom
 nav: Providers
 network: true
-overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Contracts API, Orders API, and 4 more. Tagged areas include Company, Energy, Electricity, Green Energy, and Smart Meter.
+overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Contracts API, Orders API, and 4 more. Tagged areas include Company, Energy, Electricity, Renewable Energy, and Smart Meter.
 
 
   The Ostrom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -312,7 +312,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Green Energy
+- Renewable Energy
 - Smart Meter
 - Dynamic Pricing
 - Germany

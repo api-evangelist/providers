@@ -142,7 +142,7 @@ tags:
 - Export Control
 - Sanctions Screening
 - Supply Chain
-- Risk
+- Risk Management
 - Artificial Intelligence
 website: https://bitedata.io/
 ---

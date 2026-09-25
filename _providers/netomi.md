@@ -398,7 +398,7 @@ modified: '2026-09-16'
 name: Netomi
 nav: Providers
 network: true
-overview: 'Netomi publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Agent Desk Rest API Controller API, Agent Desk Webhook Controller API, Asset Tracker Controller API, and 30 more. Tagged areas include Company, Artificial Intelligence, Agentic AI, Customer Experience, and Customer Service.
+overview: 'Netomi publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Agent Desk Rest API Controller API, Agent Desk Webhook Controller API, Asset Tracker Controller API, and 30 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Experience, and Customer Service.
 
 
   The Netomi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -459,7 +459,7 @@ slug: netomi
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Customer Experience
 - Customer Service
 - Customer Support

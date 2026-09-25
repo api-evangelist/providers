@@ -62,13 +62,13 @@ description: lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscri
 image: https://www.lunchlab.me/opengraph-image.jpg
 layout: provider
 modified: '2026-07-20'
-name: lunchlab Corp.
+name: lunchlab
 nav: Providers
 network: true
-overview: 'lunchlab Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Service, Corporate Catering, Meal Delivery, and Subscription.
+overview: 'lunchlab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Service, Corporate Catering, Meal Delivery, and Subscription.
 
 
-  lunchlab Corp.''s developer surface includes support and 4 more developer resources.'
+  lunchlab''s developer surface includes support and 4 more developer resources.'
 random_paper: 2
 score:
   band: minimal

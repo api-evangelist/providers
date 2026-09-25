@@ -83,7 +83,7 @@ modified: '2026-07-21'
 name: TaTiO
 nav: Providers
 network: true
-overview: 'TaTiO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruitment, Candidate Assessment, and Job Simulations.
+overview: 'TaTiO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Candidate Assessment, and Job Simulations.
 
 
   TaTiO''s developer surface includes signup flow and 7 more developer resources.'
@@ -126,7 +126,7 @@ slug: tatio
 tags:
 - Company
 - Hiring
-- Recruitment
+- Recruiting
 - Candidate Assessment
 - Job Simulations
 - Human Resources

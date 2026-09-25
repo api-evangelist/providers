@@ -1,6 +1,6 @@
 {
- "total": 415,
- "shown": 415,
+ "total": 414,
+ "shown": 414,
  "limit": 1000,
  "bands": [
   {
@@ -386,8 +386,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 39,
-   "shown": 39,
+   "count": 38,
+   "shown": 38,
    "providers": [
     {
      "name": "U.S. Department of Transportation",
@@ -926,56 +926,6 @@
      "rank": 20
     },
     {
-     "name": "ELISA",
-     "slug": "elisa",
-     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
-     "score": 48.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 33.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
      "name": "Hyundai",
      "slug": "hyundai",
      "description": "Hyundai Motor Company is a South Korean multinational automotive manufacturer and, through Hyundai Developers, the operator of a connected-car data platform for third-party developers. The platform exposes the Hyundai integrated account over OAuth 2.0 and serves nineteen documented REST operations covering user profile, vehicle list, connected-service contract dates, odometer, distance-to-empty, EV battery and charging state, and seven warning-light indicators, sourced from vehicles enrolled in Bluelink. Access is governed by a two-stage consent model built around the Korean Personal Information Protection Act — a per-vehicle OAuth consent plus a separate third-party data-provision consent — and a manual commercialization review before any real customer vehicle data is released. The API reference, a public sample-test tier with fixture vehicles, and the developer guide are all readable without an account; data is limited to vehicles in South Korea.",
@@ -1016,7 +966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Dana",
@@ -1059,7 +1009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Lyft",
@@ -1102,7 +1052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Sunbit",
@@ -1159,7 +1109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Autodesk PowerMill",
@@ -1202,7 +1152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "RunBuggy",
@@ -1245,7 +1195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Dealer.com",
@@ -1288,7 +1238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "May Mobility",
@@ -1331,7 +1281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Sheeva",
@@ -1381,7 +1331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "State Farm",
@@ -1431,7 +1381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Conversica",
@@ -1481,7 +1431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Vehicles.dev",
@@ -1524,7 +1474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Volkswagen",
@@ -1567,7 +1517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Shiftmove",
@@ -1610,7 +1560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Automile",
@@ -1653,7 +1603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Renesas",
@@ -1696,7 +1646,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Gracenote",
@@ -1739,7 +1689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Meero",
@@ -1782,7 +1732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Ryder System",
@@ -1825,7 +1775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Advance Auto Parts",
@@ -1868,7 +1818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Telenav",
@@ -1918,7 +1868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Smartcar",
@@ -1961,7 +1911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "FinditParts",
@@ -2004,7 +1954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Spyne",
@@ -2047,7 +1997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "RS Performance",
@@ -2089,7 +2039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Swift Navigation",
@@ -2132,7 +2082,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     }
    ]
   },
@@ -2184,6 +2134,56 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
+     "name": "ELISA",
+     "slug": "elisa",
+     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -2979,49 +2979,6 @@
      "rank": 66
     },
     {
-     "name": "Automotive Grade Linux",
-     "slug": "automotive-grade-linux",
-     "description": "Automotive Grade Linux (AGL) is a collaborative open source project under the Linux Foundation that develops a unified software platform for connected vehicles. AGL brings together automakers (Toyota, Honda, Mercedes-Benz), suppliers, and technology companies to build an open Linux-based software stack for in-vehicle infotainment, instrument clusters, telematics, and software-defined vehicle (SoDeV) architectures. The platform decouples software from hardware enabling rapid automotive application development.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png",
-     "score": 34.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 13.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 61.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 17.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 67
-    },
-    {
      "name": "Studio Ghibli",
      "slug": "studio-ghibli",
      "description": "Studio Ghibli API — a community-built, unofficial, fan-made, MIT-licensed REST API that catalogs the people, places, and things found in the worlds of Studio Ghibli. Five resource collections (films, people, locations, species, vehicles) cross-link via canonical URLs. No authentication, no metering, no paid tier. Source: github.com/janaipakos/ghibliapi (archived 2022-12-02); canonical instance now at ghibliapi.vercel.app.",
@@ -3062,7 +3019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "CarMD",
@@ -3105,49 +3062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 69
-    },
-    {
-     "name": "Tesla Motors",
-     "slug": "tesla-motors",
-     "description": "Tesla, Inc. (formerly Tesla Motors, Inc.) is an American electric vehicle and clean energy company that designs and manufactures electric cars, battery energy storage systems, solar panels, and related products. The Tesla Owner API provides programmatic access to Tesla vehicles for monitoring state, controlling climate, locking/unlocking doors, managing charging, and executing remote commands.",
-     "score": 33.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 54.8,
-      "contract_governance": 13.6,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "Star Wars API",
@@ -3190,7 +3105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "MarketCheck",
@@ -3240,7 +3155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Toyota",
@@ -3282,7 +3197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "Window Sticker VIN API",
@@ -3331,7 +3246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "ADRO",
@@ -3373,7 +3288,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 75
+     "rank": 73
+    },
+    {
+     "name": "Automotive Grade Linux",
+     "slug": "automotive-grade-linux",
+     "description": "Automotive Grade Linux (AGL) is a collaborative open source project under the Linux Foundation that develops a unified software platform for connected vehicles. AGL brings together automakers (Toyota, Honda, Mercedes-Benz), suppliers, and technology companies to build an open Linux-based software stack for in-vehicle infotainment, instrument clusters, telematics, and software-defined vehicle (SoDeV) architectures. The platform decouples software from hardware enabling rapid automotive application development.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png",
+     "score": 31.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 61.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 17.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
     },
     {
      "name": "Comma.ai",
@@ -3416,7 +3374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Department of Transportation",
@@ -3466,7 +3424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "LicensePlateData",
@@ -3509,7 +3467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "DealerSocket",
@@ -3552,7 +3510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "silvercar",
@@ -3595,7 +3553,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "FuelEconomy.gov",
@@ -3645,7 +3603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Vehicle API",
@@ -3688,7 +3646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "BMW ConnectedDrive",
@@ -3731,7 +3689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "DAS Technology",
@@ -3774,7 +3732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Otonomo",
@@ -3816,7 +3774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Jerry",
@@ -3866,7 +3824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Amphenol",
@@ -3909,7 +3867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Volvo Cars",
@@ -3952,7 +3910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "United States Steel",
@@ -4002,7 +3960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Edmunds",
@@ -4045,7 +4003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "CARFAX",
@@ -4095,7 +4053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Mercedes-Benz",
@@ -4138,7 +4096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Vehicle Databases",
@@ -4181,7 +4139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "ServiceUp",
@@ -4231,7 +4189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Porsche",
@@ -4274,7 +4232,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Quikr",
@@ -4317,7 +4275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Horizon Robotics",
@@ -4360,7 +4318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Goodyear Tire & Rubber",
@@ -4403,7 +4361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Tekion",
@@ -4446,7 +4404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Carvana",
@@ -4489,7 +4447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Ford Motor Company",
@@ -4532,7 +4490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Seyond",
@@ -4575,7 +4533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Vayyar",
@@ -4618,7 +4576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Vayyar Imaging",
@@ -4668,7 +4626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 104
+     "rank": 103
     }
    ]
   },
@@ -4728,7 +4686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Aptera Motors",
@@ -4778,7 +4736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Cleveland-Cliffs",
@@ -4821,7 +4779,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Kelley Blue Book",
@@ -4864,7 +4822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Vroom",
@@ -4907,7 +4865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Ford",
@@ -4950,7 +4908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "AutoLeap",
@@ -4993,57 +4951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
-    },
-    {
-     "name": "Harbinger",
-     "slug": "harbinger",
-     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "BMW",
@@ -5086,7 +4994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 111
     },
     {
      "name": "Autotrader",
@@ -5129,7 +5037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 112
     },
     {
      "name": "National Highway Traffic Safety Administration",
@@ -5179,7 +5087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 113
     },
     {
      "name": "Ather Energy",
@@ -5229,7 +5137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 116
+     "rank": 114
     },
     {
      "name": "Trader Interactive",
@@ -5279,7 +5187,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 115
     },
     {
      "name": "Garmin",
@@ -5329,7 +5237,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 116
+    },
+    {
+     "name": "Harbinger",
+     "slug": "harbinger",
+     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 117
     },
     {
      "name": "Zendrive",
@@ -5378,7 +5336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "4.screen",
@@ -5420,7 +5378,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Hireology",
@@ -5470,7 +5428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Lendbuzz",
@@ -5513,7 +5471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Amkor Technology",
@@ -5556,7 +5514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Kleio",
@@ -5599,7 +5557,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "AutoNation",
@@ -5642,7 +5600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Polaris Industries",
@@ -5691,7 +5649,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Subaru of America",
@@ -5734,7 +5692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Dealertrack",
@@ -5777,7 +5735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Reed Semiconductor",
@@ -5827,7 +5785,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Arconic",
@@ -5870,7 +5828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Mihup",
@@ -5913,7 +5871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Breathe Battery Technologies",
@@ -5963,7 +5921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Rush Enterprises",
@@ -6006,7 +5964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Envisics",
@@ -6026,15 +5984,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -6043,13 +6001,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "American Tire Distributors Holdings",
@@ -6092,7 +6050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "AramisAuto",
@@ -6135,7 +6093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "CarMax",
@@ -6178,7 +6136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Upstream Security",
@@ -6220,7 +6178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "General Motors",
@@ -6263,7 +6221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Vanderhall Motor Works",
@@ -6312,7 +6270,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Mitchell 1",
@@ -6354,7 +6312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Vishay Intertechnology",
@@ -6404,50 +6362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
-    },
-    {
-     "name": "Metalenz",
-     "slug": "metalenz",
-     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 143
+     "rank": 141
     },
     {
      "name": "Revion",
@@ -6490,18 +6405,61 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 142
+    },
+    {
+     "name": "Metalenz",
+     "slug": "metalenz",
+     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
+     "score": 16.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 143
     },
     {
      "name": "Aerospace Engineering Equipment",
      "slug": "aerospaceengineeringequipmentco",
      "description": "Aerospace Engineering Equipment (Suzhou) Co., Ltd. — trading as AEE — is a Chinese industrial equipment manufacturer founded in December 2011 that designs, builds and integrates friction stir welding (FSW) machines, automatic FSW production lines and FSW tooling. It is a wholly owned subsidiary of Shanghai Aerospace Equipment Manufacturing Factory (149 Factory) under the Eighth Academy of the China Aerospace Science and Technology Corporation (CASC), operating an R&D headquarters in Wuzhong District, Suzhou and a volume production base in Liyang across roughly 55,000 square metres. AEE supplies one-, two- and three-dimensional FSW equipment plus process services into aerospace and aviation, rail transit, marine and shipbuilding, new-energy automotive, nuclear, power electronics and marine engineering. AEE publishes no developer program, no API documentation and no machine-readable specification; the surfaces profiled here are the anonymously readable WordPress REST content APIs served from its English-language marketing site at a-fsw.com, documented by API Evangelist from the server's own route index and OPTIONS schema documents.",
-     "score": 16.7,
+     "score": 16.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 30.4,
@@ -6509,15 +6467,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 10.2,
+     "agent_score": 8.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -6526,13 +6484,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Snap-on",
@@ -6575,7 +6533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "SPREAD",
@@ -6618,7 +6576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "OLX",
@@ -6661,7 +6619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Tenneco",
@@ -6704,7 +6662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Ambarella",
@@ -6747,7 +6705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Group 1 Automotive",
@@ -6789,7 +6747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Fueloyal",
@@ -6832,7 +6790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "DigiLens",
@@ -6875,7 +6833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Ridecell",
@@ -6917,7 +6875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Blackberry",
@@ -6960,7 +6918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Reynolds and Reynolds",
@@ -7003,7 +6961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "GirnarSoft",
@@ -7046,7 +7004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "BorgWarner",
@@ -7089,7 +7047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Uhnder",
@@ -7132,7 +7090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Schaeffler",
@@ -7175,7 +7133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Valeo",
@@ -7218,7 +7176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Click Mechanic",
@@ -7261,7 +7219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Aisin",
@@ -7304,7 +7262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Hutchinson",
@@ -7347,7 +7305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "iMotorbike",
@@ -7390,7 +7348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Speero",
@@ -7433,7 +7391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Xtime",
@@ -7476,10 +7434,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
-     "name": "Continental AG",
+     "name": "Continental",
      "slug": "continental-ag",
      "description": "Continental AG is a German multinational automotive supplier and tire manufacturer headquartered in Hanover. As a global Tier 1 automotive supplier, Continental designs and manufactures tires, automotive electronics, brake systems, powertrain components, ADAS, and interior solutions for vehicle manufacturers worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/continental-ag/refs/heads/main/screenshots/continental-ag-2026-06-20T174943.png",
@@ -7519,7 +7477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "TE Connectivity",
@@ -7562,7 +7520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Backlotcars",
@@ -7605,7 +7563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Spiffy",
@@ -7648,7 +7606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Avatr Technology",
@@ -7691,7 +7649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "Denso",
@@ -7734,7 +7692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Forvia",
@@ -7777,7 +7735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Gestamp",
@@ -7820,7 +7778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Hyundai Mobis",
@@ -7863,7 +7821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Magna International",
@@ -7906,7 +7864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "MAHLE",
@@ -7949,7 +7907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Yazaki",
@@ -7992,7 +7950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "ZF Friedrichshafen",
@@ -8035,7 +7993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Lemonaide",
@@ -8085,7 +8043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Lightship",
@@ -8135,7 +8093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Bosch",
@@ -8178,7 +8136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "CarNow",
@@ -8221,7 +8179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Gamma Technologies",
@@ -8264,7 +8222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Slate Auto",
@@ -8307,7 +8265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Insurify",
@@ -8356,7 +8314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "vAuto",
@@ -8399,7 +8357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "Acerta",
@@ -8442,7 +8400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Asbury Automotive Group",
@@ -8484,7 +8442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Green Hills Software",
@@ -8527,7 +8485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "HAAS Alert",
@@ -8570,7 +8528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Adient",
@@ -8613,7 +8571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "BizzyCar",
@@ -8656,7 +8614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Cars24",
@@ -8698,7 +8656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Invygo",
@@ -8740,7 +8698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Adastec",
@@ -8782,7 +8740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "ams OSRAM",
@@ -8825,7 +8783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Bridgestone",
@@ -8868,7 +8826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Helm.ai",
@@ -8911,7 +8869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Aptiv",
@@ -8954,7 +8912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Invisible AI",
@@ -8997,7 +8955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "PlotAPI",
@@ -9040,7 +8998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "ACV Auctions",
@@ -9083,7 +9041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Carma",
@@ -9126,7 +9084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Nissan",
@@ -9169,7 +9127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Rimac Automobili",
@@ -9211,7 +9169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "American Axle and Manufacturing",
@@ -9254,7 +9212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Electric Car Scheme",
@@ -9297,7 +9255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Brumbrum",
@@ -9340,7 +9298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Finn",
@@ -9383,7 +9341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "Honda",
@@ -9426,7 +9384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Flease",
@@ -9469,7 +9427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Xpeng",
@@ -9512,7 +9470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "TrueCar",
@@ -9554,7 +9512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "Sanctuary AI",
@@ -9597,7 +9555,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "AutoZone",
@@ -9640,7 +9598,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Clickable",
@@ -9683,7 +9641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "CelLink",
@@ -9726,7 +9684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Certivity",
@@ -9769,7 +9727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Edge Case Research",
@@ -9812,7 +9770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Euler Motors",
@@ -9855,7 +9813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Modern Meadow",
@@ -9898,7 +9856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Spinny",
@@ -9941,7 +9899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Vay",
@@ -9984,7 +9942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "MayMaan Research",
@@ -10034,7 +9992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "StoreDot",
@@ -10084,7 +10042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "WiTricity",
@@ -10133,7 +10091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "actnano",
@@ -10183,7 +10141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Catena-X",
@@ -10226,7 +10184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Internet Brands",
@@ -10276,7 +10234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Modine Manufacturing",
@@ -10319,7 +10277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Carwow",
@@ -10361,7 +10319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Sonatus",
@@ -10404,7 +10362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Virtuo",
@@ -10447,7 +10405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 234
     }
    ]
   },
@@ -10500,7 +10458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Zero Motorcycles",
@@ -10543,7 +10501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "Applied EV",
@@ -10585,7 +10543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Claim Genius",
@@ -10635,7 +10593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Mia",
@@ -10685,7 +10643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Carmoola",
@@ -10728,7 +10686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "CarOnSale",
@@ -10771,7 +10729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Donut Media",
@@ -10814,7 +10772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Hertz",
@@ -10856,7 +10814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Kardome Technology",
@@ -10899,7 +10857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Moj.io",
@@ -10942,7 +10900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Preteckt",
@@ -10985,7 +10943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Divergent",
@@ -11028,7 +10986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "CarServ",
@@ -11073,7 +11031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Motorq",
@@ -11116,7 +11074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Oxa",
@@ -11159,7 +11117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "Seurat Technologies",
@@ -11202,7 +11160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "WayRay",
@@ -11244,10 +11202,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
-     "name": "EAS Innovations Inc",
+     "name": "ELEV8",
      "slug": "eas-innovations-inc",
      "description": "EAS Innovations Inc operates ELEV8, an end-to-end, cloud-based dealer management system (DMS) built for independent auto dealers and automotive finance companies. The platform unifies real-time accounting, inventory management, CRM and desking, loan servicing, payments and collections into a single fully-integrated system. It offers per-seat pricing, user-based access rights, user-level audit logs, whitelisted IP addresses, multi-rooftop access and department-level restrictions, and is delivered as a SaaS web application at app.elev8dms.com. EAS Innovations is a 500 Global portfolio company. No public developer API is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eas-innovations-inc/refs/heads/main/screenshots/eas-innovations-inc-2026-07-25T212704.png",
@@ -11294,7 +11252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "AK Steel Holding",
@@ -11339,7 +11297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "FordPass / Ford Pro",
@@ -11389,7 +11347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "Guazi",
@@ -11432,7 +11390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "NNG",
@@ -11475,7 +11433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "PitPro Automation",
@@ -11518,7 +11476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "A. Schulman",
@@ -11562,7 +11520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Rivian Automotive",
@@ -11605,7 +11563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Spartan Radar",
@@ -11648,7 +11606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Voya",
@@ -11691,7 +11649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "Kinetic",
@@ -11734,7 +11692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "Motorway",
@@ -11784,7 +11742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Pebble",
@@ -11827,7 +11785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "CarSwitch",
@@ -11869,7 +11827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "CarWale",
@@ -11912,7 +11870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "Custodian",
@@ -11962,7 +11920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Sweater",
@@ -12005,7 +11963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Achates Power",
@@ -12055,7 +12013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Lumotive",
@@ -12098,7 +12056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Tower International",
@@ -12141,7 +12099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Corning",
@@ -12191,7 +12149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "KUKA",
@@ -12234,7 +12192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Hugo",
@@ -12284,7 +12242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Adasky",
@@ -12326,7 +12284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Bliq",
@@ -12369,7 +12327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Turo",
@@ -12411,7 +12369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Wrightspeed",
@@ -12453,7 +12411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "1hai",
@@ -12496,7 +12454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Autoliv",
@@ -12539,7 +12497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Physicsx",
@@ -12589,7 +12547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "AutoChilango",
@@ -12632,7 +12590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Upshift",
@@ -12675,7 +12633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "ClearMotion",
@@ -12718,7 +12676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Aiden Auto",
@@ -12767,7 +12725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Zeromatter",
@@ -12810,7 +12768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "7Invensun Technology",
@@ -12852,7 +12810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Apex.AI",
@@ -12895,7 +12853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Teradar",
@@ -12938,7 +12896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Mips",
@@ -12981,7 +12939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Thor Industries",
@@ -13024,7 +12982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Brazilian Vehicles and Prices",
@@ -13067,7 +13025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Distance",
@@ -13110,7 +13068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Helipaddy sites",
@@ -13153,7 +13111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "iTAC Software",
@@ -13196,7 +13154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "MotorMia",
@@ -13239,7 +13197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "NHTSA",
@@ -13282,7 +13240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Oshkosh",
@@ -13325,7 +13283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "ProLogium Technology",
@@ -13375,7 +13333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Sidecar",
@@ -13418,7 +13376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Auto1",
@@ -13461,7 +13419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Lucid Motors",
@@ -13504,7 +13462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Sonic Automotive",
@@ -13547,7 +13505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Humanising Autonomy",
@@ -13589,7 +13547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Bitauto",
@@ -13632,7 +13590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Cooper Standard Holdings",
@@ -13675,7 +13633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Audi Connect / myAudi",
@@ -13725,7 +13683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Commsignia",
@@ -13775,7 +13733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Source.dev",
@@ -13818,7 +13776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Ossia",
@@ -13868,7 +13826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "StoneEagle F&I",
@@ -13918,7 +13876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Uxin",
@@ -13961,7 +13919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Automatic",
@@ -14006,7 +13964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Axera Tech",
@@ -14049,7 +14007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Nexu",
@@ -14092,7 +14050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Numa",
@@ -14135,7 +14093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Yoshi",
@@ -14185,7 +14143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "Kaiser Aluminum",
@@ -14228,7 +14186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "BYD",
@@ -14278,7 +14236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "ConvenientPower",
@@ -14328,7 +14286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Polestar",
@@ -14371,7 +14329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "Autobia",
@@ -14414,7 +14372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Cooper Tire & Rubber",
@@ -14457,7 +14415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "Autonomic",
@@ -14500,7 +14458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Anywhere 2 Go",
@@ -14550,7 +14508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Civil Maps",
@@ -14593,7 +14551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Clutch Canada",
@@ -14636,7 +14594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Adaps Photonics",
@@ -14678,7 +14636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Aleris",
@@ -14720,7 +14678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Drivemate",
@@ -14763,7 +14721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "TRW Automotive Holdings",
@@ -14806,7 +14764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "CIX Technology",
@@ -14849,7 +14807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "KAR Auction Services (Historical)",
@@ -14892,7 +14850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Kavak",
@@ -14934,7 +14892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Lear",
@@ -14977,10 +14935,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
-     "name": "LKQ Corporation",
+     "name": "LKQ",
      "slug": "lkq",
      "description": "LKQ Corporation is a Fortune 500 company and a leading provider of alternative and specialty parts to repair and accessorize automobiles and other vehicles, with operations across North America, Europe, and Taiwan. LKQ does not currently expose a public developer portal or REST API; this repository captures publicly available company and partner-program references.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lkq/refs/heads/main/screenshots/lkq-2026-06-20T184721.png",
@@ -15020,7 +14978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Boson Motors",
@@ -15063,7 +15021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Harman International",
@@ -15106,7 +15064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Local Motors",
@@ -15150,7 +15108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "1-Automotive",
@@ -15192,7 +15150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "2duche",
@@ -15236,7 +15194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Autobutler",
@@ -15279,7 +15237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Automatic Labs",
@@ -15323,7 +15281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "AutoTrader.com",
@@ -15366,7 +15324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Baicai",
@@ -15409,7 +15367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Belanjaparts",
@@ -15452,7 +15410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Carmera *",
@@ -15494,7 +15452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Carsome",
@@ -15537,7 +15495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Cazoo",
@@ -15579,7 +15537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "Congruent",
@@ -15622,7 +15580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Cruise",
@@ -15665,7 +15623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Exide Technologies",
@@ -15708,7 +15666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "FlightCar",
@@ -15752,7 +15710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Freescale Semiconductor",
@@ -15796,7 +15754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Frontier Car group",
@@ -15840,7 +15798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Garaji",
@@ -15885,7 +15843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Harley-Davidson",
@@ -15928,7 +15886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "Illinois Tool Works",
@@ -15971,7 +15929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Jjgmachining",
@@ -16014,7 +15972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "Joyride",
@@ -16056,7 +16014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Keno",
@@ -16099,7 +16057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Luxe",
@@ -16142,10 +16100,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
-     "name": "Luxvisions Innovation Limited",
+     "name": "Luxvisions Innovation",
      "slug": "luxvisions",
      "description": "Luxvisions Innovation Limited is a camera module and imaging technology manufacturer established in March 2018, headquartered in Hong Kong with operations in Guangzhou, Shenzhen and Shangrao, China. The company designs and produces optical camera modules and audio-video integration technology for mobile phones, tablets, PCs and notebooks, automotive systems, AIOT devices, and 3D/ToF VR/AR/MR applications, and states it launched the industry's first triple camera module for mobile phones. It was surfaced as a portfolio company of Hongshan (HongShan Capital) and added to the API Evangelist network. As a hardware/component manufacturer, Luxvisions publishes no public developer portal, API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/luxvisions/refs/heads/main/screenshots/luxvisions-2026-07-25T225743.png",
@@ -16185,7 +16143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Mekan",
@@ -16228,7 +16186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Metaldyne Performance Group",
@@ -16270,7 +16228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "nasn-auto",
@@ -16312,7 +16270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "OneCommand",
@@ -16354,7 +16312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "OneSwoop",
@@ -16396,7 +16354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Padminivna",
@@ -16439,7 +16397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Penske",
@@ -16482,7 +16440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Prodigy Software",
@@ -16524,7 +16482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "RedCap",
@@ -16567,7 +16525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Rimac",
@@ -16610,7 +16568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "roadster",
@@ -16652,7 +16610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "roxmotor",
@@ -16695,7 +16653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Symbio Robotics",
@@ -16737,7 +16695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Toyota Connected",
@@ -16780,7 +16738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "TRED",
@@ -16822,7 +16780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "tuhu",
@@ -16865,7 +16823,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "VR Motion",
@@ -16908,7 +16866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "finern",
@@ -16958,7 +16916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Airtouch",
@@ -17000,7 +16958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Genuine Parts Company",
@@ -17043,7 +17001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "NIO",
@@ -17086,7 +17044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "MisMar",
@@ -17135,7 +17093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "PACCAR",
@@ -17177,10 +17135,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
-     "name": "Toyota Motor Corporation",
+     "name": "Toyota",
      "slug": "toyota-motor-corporation",
      "description": "The world's largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toyota-motor-corporation/refs/heads/main/screenshots/toyota-motor-corporation-2026-06-20T195510.png",
@@ -17220,7 +17178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "O'Reilly Automotive",
@@ -17263,7 +17221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Penske Automotive",
@@ -17305,7 +17263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Borqs",
@@ -17355,7 +17313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "GM OnStar",
@@ -17405,7 +17363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Lithia Motors",
@@ -17447,7 +17405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Winnebago Industries",
@@ -17490,7 +17448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Cummins",
@@ -17540,7 +17498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "onsemi",
@@ -17590,7 +17548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Pep Boys-Manny, Moe & Jack",
@@ -17633,7 +17591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Chery",
@@ -17683,7 +17641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "DeepWay 深向",
@@ -17733,7 +17691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Graham Holdings",
@@ -17782,7 +17740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Hyundai Bluelink",
@@ -17832,7 +17790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "Icahn Enterprises",
@@ -17881,7 +17839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Ola Electric",
@@ -17931,7 +17889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Openbay",
@@ -17981,10 +17939,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
-     "name": "PurismEV Inc.",
+     "name": "PurismEV",
      "slug": "purismev-inc",
      "description": "PurismEV Inc. is an AI-driven electric-vehicle energy optimization platform that processes real-time vehicle data to help fleets, OEMs, leasing companies, and operators reduce energy consumption, extend battery lifespan, and lower operating costs. Its products include Smart Throttle Control technology (range extension), Battery-Aware Smart Charging, a Smart Mobility energy management system (EMS), and a Fleet Management Dashboard for real-time monitoring across cars, delivery trucks, forklifts, scooters, and drones. PurismEV is backed by 500 Global. The company publishes no public developer API, SDKs, or developer documentation at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/purismev-inc/refs/heads/main/screenshots/purismev-inc-2026-09-02T152335.png",
@@ -18031,7 +17989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "Allison Transmission Holdings",
@@ -18074,7 +18032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "REV Group",
@@ -18121,7 +18079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "Vontier",
@@ -18171,7 +18129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "Parrot",
@@ -18221,7 +18179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Garrett Motion",
@@ -18268,7 +18226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Polaris",
@@ -18311,7 +18269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Wabash National",
@@ -18358,7 +18316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Carro",
@@ -18407,7 +18365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "Rote",
@@ -18457,7 +18415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     }
    ]
   }

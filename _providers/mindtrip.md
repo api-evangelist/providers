@@ -123,7 +123,7 @@ modified: '2026-06-02'
 name: Mindtrip
 nav: Providers
 network: true
-overview: 'Mindtrip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Artificial Intelligence, Agentic AI, Itinerary Planning, and Booking.
+overview: 'Mindtrip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Artificial Intelligence, AI Agents, Itinerary Planning, and Booking.
 
 
   Mindtrip''s developer surface includes documentation, GitHub presence, pricing, and 8 more developer resources.'
@@ -175,7 +175,7 @@ slug: mindtrip
 tags:
 - Travel
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Itinerary Planning
 - Booking
 - Consumer

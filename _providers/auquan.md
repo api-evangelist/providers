@@ -82,7 +82,7 @@ modified: '2026-07-18'
 name: Auquan
 nav: Providers
 network: true
-overview: 'Auquan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Financial Services, and Fintech.
+overview: 'Auquan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Financial Services, and Fintech.
 
 
   Auquan''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -125,7 +125,7 @@ slug: auquan
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Financial Services
 - Fintech
 - Data Analytics

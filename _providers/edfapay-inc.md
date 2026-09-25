@@ -256,16 +256,16 @@ description: EdfaPay is a Saudi fintech and payment-technology company offering 
 image: https://files.readme.io/89700fae642aef272b5162ed82daf2f2ececcb418693c2307830e1a0e3f7fa2e-EdfaPay-Logo.svg
 layout: provider
 modified: '2026-07-19'
-name: EdfaPay, Inc.
+name: EdfaPay
 nav: Providers
 network: true
-overview: 'EdfaPay, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branch Management API, Merchant Management API, Partner Management API, and 4 more. Tagged areas include Company, Payments, Payment Gateway, Fintech, and SoftPOS.
+overview: 'EdfaPay publishes 7 APIs on the [APIs.io](https://apis.io/) network, including EdfaPay, Inc. Branch Management API, EdfaPay, Inc. Merchant Management API, EdfaPay, Inc. Partner Management API, and 4 more. Tagged areas include Company, Payments, Payment Gateway, Fintech, and SoftPOS.
 
 
-  The EdfaPay, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The EdfaPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  EdfaPay, Inc.''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  EdfaPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 11
 score:
   band: developing

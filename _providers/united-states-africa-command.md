@@ -125,6 +125,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
+    - north-america
   previous_composite: 7.6
   regulatory:
     applies: true

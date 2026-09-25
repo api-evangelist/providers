@@ -151,7 +151,7 @@ modified: '2026-05-19'
 name: Unpaywall
 nav: Providers
 network: true
-overview: 'Unpaywall publishes 2 APIs on the [APIs.io](https://apis.io/) network: DOI Lookup API and Search API. Tagged areas include Open Access, Scholarly Articles, Research, Academic, and Libraries.
+overview: 'Unpaywall publishes 2 APIs on the [APIs.io](https://apis.io/) network: DOI Lookup API and Search API. Tagged areas include Open Access, Scholarly Articles, Research, Academic, and Library.
 
 
   The Unpaywall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -240,7 +240,7 @@ tags:
 - Scholarly Articles
 - Research
 - Academic
-- Libraries
+- Library
 - DOI
 - Science
 website: https://unpaywall.org

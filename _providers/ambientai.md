@@ -156,6 +156,6 @@ tags:
 - Access Control
 - Threat Detection
 - Enterprise Security
-- Agentic AI
+- AI Agents
 website: https://www.ambient.ai
 ---

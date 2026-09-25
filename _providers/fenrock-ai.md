@@ -125,7 +125,7 @@ tags:
 - Compliance
 - Financial Crime
 - RegTech
-- Anti-Money Laundering
+- AML
 - KYC
 - Fraud
 - Back Office

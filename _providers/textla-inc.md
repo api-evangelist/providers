@@ -146,13 +146,13 @@ description: Textla is a business texting platform for sending bulk SMS marketin
 image: https://cdn.prod.website-files.com/6621259acbeea8020086d69d/66460f7a6c72efba3794bea2_Textla%20OG%20Image.png
 layout: provider
 modified: '2026-08-13'
-name: Textla Inc.
+name: Textla
 nav: Providers
 network: true
-overview: 'Textla Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SMS, Text Messaging, Business Messaging, and Bulk SMS.
+overview: 'Textla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SMS, Text Messaging, Business Messaging, and Bulk SMS.
 
 
-  Textla Inc.''s developer surface includes pricing, engineering blog, support, signup flow, documentation, getting-started guide, authentication, and 13 more developer resources.'
+  Textla''s developer surface includes pricing, engineering blog, support, signup flow, documentation, getting-started guide, authentication, and 13 more developer resources.'
 plans:
 - name: Textla Inc Plans Pricing
   plan_count: 3

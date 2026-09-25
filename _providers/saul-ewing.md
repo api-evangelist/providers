@@ -127,13 +127,13 @@ description: Saul Ewing LLP is a U.S.-based law firm founded in 1921 as Saul, Ew
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saul-ewing.png
 layout: provider
 modified: '2026-05-23'
-name: Saul Ewing LLP
+name: Saul Ewing
 nav: Providers
 network: true
-overview: 'Saul Ewing LLP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Firms, Litigation, Corporate, and Mergers and Acquisitions.
+overview: 'Saul Ewing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Law Firms, Litigation, Corporate, and Mergers and Acquisitions.
 
 
-  Saul Ewing LLP''s developer surface includes product news, engineering blog, GitHub presence, and 18 more developer resources.'
+  Saul Ewing''s developer surface includes product news, engineering blog, GitHub presence, and 18 more developer resources.'
 random_paper: 8
 score:
   band: minimal

@@ -83,13 +83,13 @@ description: Kaizntree is a New York-based operations platform for growth-stage 
 image: https://framerusercontent.com/assets/8f5XsJWl1a8dJFVsrV3vygTkfhs.png
 layout: provider
 modified: '2026-07-19'
-name: Kaizntree Inc.
+name: Kaizntree
 nav: Providers
 network: true
-overview: 'Kaizntree Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Inventory Management, CPG, and Consumer Packaged Goods.
+overview: 'Kaizntree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Inventory Management, CPG, and Consumer Packaged Goods.
 
 
-  Kaizntree Inc.''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Kaizntree''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
 random_paper: 12
 score:
   band: minimal

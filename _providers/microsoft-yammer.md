@@ -192,7 +192,7 @@ modified: '2026-04-28'
 name: Microsoft Yammer
 nav: Providers
 network: true
-overview: 'Microsoft Yammer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Files API, Groups API, Messages API, and 6 more. Tagged areas include Enterprise Social, Microsoft, Social Networking, Viva Engage, and Yammer.
+overview: 'Microsoft Yammer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Files API, Groups API, Messages API, and 6 more. Tagged areas include Enterprise Social, Microsoft, Social Network, Viva Engage, and Yammer.
 
 
   Microsoft Yammer''s developer surface includes authentication, developer portal, support, and 9 more developer resources.'
@@ -256,7 +256,7 @@ slug: microsoft-yammer
 tags:
 - Enterprise Social
 - Microsoft
-- Social Networking
+- Social Network
 - Viva Engage
 - Yammer
 website: https://www.microsoft.com/

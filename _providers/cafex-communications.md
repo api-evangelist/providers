@@ -143,7 +143,7 @@ modified: '2026-08-08'
 name: CafeX Communications
 nav: Providers
 network: true
-overview: 'CafeX Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Workflow Automation, Agentic AI, and Audit and Compliance.
+overview: 'CafeX Communications publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Low-Code, Workflow Automation, AI Agents, and Audit and Compliance.
 
 
   CafeX Communications'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 15 more developer resources.'
@@ -195,7 +195,7 @@ tags:
 - Company
 - Low-Code
 - Workflow Automation
-- Agentic AI
+- AI Agents
 - Audit and Compliance
 - Collaboration
 - Enterprise Software

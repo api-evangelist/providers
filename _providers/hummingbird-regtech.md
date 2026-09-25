@@ -108,7 +108,7 @@ modified: '2026-07-19'
 name: Hummingbird RegTech
 nav: Providers
 network: true
-overview: 'Hummingbird RegTech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RegTech, Compliance, Anti-Money Laundering, and Financial Crime.
+overview: 'Hummingbird RegTech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RegTech, Compliance, AML, and Financial Crime.
 
 
   Hummingbird RegTech''s developer surface includes developer portal, documentation, support, engineering blog, changelog, and 9 more developer resources.'
@@ -158,7 +158,7 @@ tags:
 - Company
 - RegTech
 - Compliance
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Case Management
 - Transaction Monitoring

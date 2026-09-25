@@ -109,7 +109,7 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 55.2,
+      "contract_quality": 54.9,
       "contract_governance": 47.0,
       "operational_transparency": 50.0,
       "developer_ergonomics": 74.4,
@@ -117,7 +117,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 60.6,
+     "agent_score": 63.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -126,7 +126,7 @@
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": true,

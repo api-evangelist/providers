@@ -256,12 +256,12 @@
      "slug": "cvent-hospitality-cloud",
      "description": "Cvent Hospitality Cloud is the hotel and venue product line of the Cvent Platform. It includes the Cvent Supplier Network (the marketplace connecting event planners with hotels and venues for RFPs and bookings), Passkey (hotel room block and housing management), Venue Sourcing (venue search and discovery), and Sales & Catering (booking management, catering, and contracts). Programmatic access is delivered primarily through the Passkey RegLink REST APIs (with legacy SOAP and URL-based options) and the unified Cvent Platform REST API. Authentication uses OAuth 2.0 client credentials with the token endpoint at api-platform.cvent.com/ea/oauth2/token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/screenshots/cvent-hospitality-cloud-2026-06-20T175403.png",
-     "score": 64.4,
+     "score": 64.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 68.7,
+      "contract_quality": 68.6,
       "contract_governance": 18.2,
       "operational_transparency": 73.7,
       "developer_ergonomics": 73.2,
@@ -745,7 +745,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 60.9,
+      "contract_quality": 61.0,
       "contract_governance": 28.8,
       "operational_transparency": 2.6,
       "developer_ergonomics": 66.1,
@@ -753,8 +753,8 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -762,7 +762,7 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -4529,12 +4529,12 @@
      "slug": "neuehouse",
      "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
-     "score": 21.7,
+     "score": 20.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 8.3,
+      "contract_quality": 1.7,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 35.1,
@@ -5105,49 +5105,6 @@
      "rank": 114
     },
     {
-     "name": "Uncle Nearest",
-     "slug": "uncle-nearest",
-     "description": "Uncle Nearest, Inc. is an American whiskey company headquartered in Shelbyville, Tennessee, founded in 2017 by Fawn Weaver and Keith Weaver and named for Nathan \"Nearest\" Green, the formerly enslaved master distiller who taught Jack Daniel the craft. The company produces the Uncle Nearest 1856 Premium Aged, 1884 Small Batch, Master Blend, Single Barrel, Straight Rye and Uncut/Unfiltered Rye expressions, and operates the Nearest Green Distillery visitor destination in Shelbyville with tours, tastings, private events and a retail shop. Uncle Nearest is a privately held, consumer-facing brand with no developer program and no product API; its only public machine-readable surfaces are the WordPress REST API and the two OpenAPI-documented Events Calendar REST APIs served from its own web host at unclenearest.com, which expose the brand's published events, venues and organizers as read-only JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/screenshots/uncle-nearest-2026-09-02T164843.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 18.5,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 115
-    },
-    {
      "name": "Dayuse",
      "slug": "dayuse",
      "description": "Dayuse is a global online marketplace for daytime hotel bookings, letting travelers reserve 3-to-5-star hotel rooms by the hour or for a microstay during the day rather than for an overnight stay, at discounts of up to 75% off the nightly rate. Founded in France in 2010, the platform connects consumers with more than 9,000 partner hotels across roughly 29 countries, with use cases spanning remote work, layovers, wellness and spa access, and privacy. Hoteliers join through the Dayuse partner network and manage daytime inventory via the partner portal. Dayuse is backed by Partech and is tracked in the API Evangelist network as a company profile; no public developer API is currently published, so this profile captures identity, partner surface, and domain-security posture only.",
@@ -5188,7 +5145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "WOW! Momo",
@@ -5207,15 +5164,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.5,
+     "agent_score": 11.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -5224,13 +5181,13 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Tebi",
@@ -5280,7 +5237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Canary Technologies",
@@ -5330,7 +5287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Slang Ai",
@@ -5373,7 +5330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Blueground",
@@ -5416,7 +5373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Boompop",
@@ -5459,7 +5416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Resy",
@@ -5502,7 +5459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Food Market Hub",
@@ -5545,7 +5502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "D-EDGE Hospitality Solutions",
@@ -5587,7 +5544,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "CAVA",
@@ -5630,7 +5587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "BevSpot",
@@ -5673,7 +5630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "FineDine",
@@ -5716,7 +5673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "HostnFly",
@@ -5759,7 +5716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Tillpoint",
@@ -5802,7 +5759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Gronda",
@@ -5852,7 +5809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Hostie",
@@ -5895,7 +5852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Limehome",
@@ -5929,6 +5886,49 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 132
+    },
+    {
+     "name": "Uncle Nearest",
+     "slug": "uncle-nearest",
+     "description": "Uncle Nearest, Inc. is an American whiskey company headquartered in Shelbyville, Tennessee, founded in 2017 by Fawn Weaver and Keith Weaver and named for Nathan \"Nearest\" Green, the formerly enslaved master distiller who taught Jack Daniel the craft. The company produces the Uncle Nearest 1856 Premium Aged, 1884 Small Batch, Master Blend, Single Barrel, Straight Rye and Uncut/Unfiltered Rye expressions, and operates the Nearest Green Distillery visitor destination in Shelbyville with tours, tastings, private events and a retail shop. Uncle Nearest is a privately held, consumer-facing brand with no developer program and no product API; its only public machine-readable surfaces are the WordPress REST API and the two OpenAPI-documented Events Calendar REST APIs served from its own web host at unclenearest.com, which expose the brand's published events, venues and organizers as read-only JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/screenshots/uncle-nearest-2026-09-02T164843.png",
+     "score": 14.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 18.5,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6113,7 +6113,7 @@
      "rank": 137
     },
     {
-     "name": "Tripitaca, Inc.",
+     "name": "Tripitaca",
      "slug": "tripitaca-inc",
      "description": "Tripitaca is a Kenya-based travel and hospitality booking marketplace where travelers get the best deals when they travel and where property owners list their properties. The platform lets travelers receive offers from hosts and hotels, while hosts create curated packages and special offers, see travelers interested in their area, and make them offers. Coverage spans destinations including Nairobi, Mombasa, Nakuru, Kisumu, and Maasai Mara safari experiences. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripitaca-inc/refs/heads/main/screenshots/tripitaca-inc-2026-09-02T164256.png",
@@ -9207,7 +9207,7 @@
      "rank": 208
     },
     {
-     "name": "Porte Tech Ltd.",
+     "name": "Porte Tech",
      "slug": "porte-tech-ltd",
      "description": "Porte Tech Ltd. is a hotel technology company based in Astana, Kazakhstan that offers a digital concierge platform to streamline guest experiences and reduce front-desk workload for hotels. Its product covers digital check-in and check-out, mobile room keys delivered via app, access codes or QR codes, Bluetooth lock upgrades that reuse existing hardware, an in-app guest experience for bookings and amenity ordering, integrations with spa, restaurant and laundry services, and a centralized management dashboard for property staff. Porte is a 500 Global portfolio company. No public API, SDK, or developer surface is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/porte-tech-ltd/refs/heads/main/screenshots/porte-tech-ltd-2026-09-02T151806.png",
@@ -9250,7 +9250,7 @@
      "rank": 209
     },
     {
-     "name": "Local Holdings Limited",
+     "name": "Local",
      "slug": "local-holdings-limited",
      "description": "Local (uselocal.co) is a Gulf Cooperation Council fintech and hospitality-technology company that replaces traditional card terminals with a single QR code guests scan to pay, order, and earn loyalty points instantly. Its pay-at-table, checkout, and remote payment-link flows serve 200+ restaurants, hotels, and hospitals across Bahrain, the UAE, and Saudi Arabia, capturing customer profiles from each transaction and feeding real-time revenue, table-turn, and staff-performance analytics back to venues. Local integrates with regional payment methods (BenefitPay, Apple Pay, Google Pay, all major cards) and POS platforms including Odoo, Oracle, Lightspeed, Square, and Invo. Local Holdings Limited was surfaced as a 500 Global portfolio company and added to the API Evangelist network; no public developer API, documentation, or SDK surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/local-holdings-limited/refs/heads/main/screenshots/local-holdings-limited-2026-08-07T183112.png",
@@ -9300,7 +9300,7 @@
      "rank": 210
     },
     {
-     "name": "Carnival Corporation",
+     "name": "Carnival",
      "slug": "carnival-corporation",
      "description": "Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/screenshots/carnival-corporation-2026-06-20T174014.png",
@@ -10414,7 +10414,7 @@
      "rank": 235
     },
     {
-     "name": "Resti Inc.",
+     "name": "Resti",
      "slug": "resti-inc",
      "description": "Resti Inc. (resti.cloud) is a cloud-based restaurant management platform used by restaurant chains, primarily across Kazakhstan and Central Asia. It automates HR and payroll (salary calculation from actual hours worked), operational checklists and standards with photo verification, review and reputation management aggregating 2GIS and Yandex Maps, a mobile learning management system (LMS) for staff onboarding and training, and AI-assisted invoice processing and reconciliation. Resti integrates with restaurant POS and back-office systems including iiko, r_keeper, Paloma 365, Poster, and 1C Retail, and is a portfolio company of 500 Global. As of this pass it publishes no public developer API, SDKs, OpenAPI, or developer documentation; the customer login portal is at my.resti.cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/resti-inc/refs/heads/main/screenshots/resti-inc-2026-09-02T153632.png",
@@ -13182,7 +13182,7 @@
      "rank": 298
     },
     {
-     "name": "Loews Corporation",
+     "name": "Loews",
      "slug": "loews",
      "description": "Loews Corporation is a diversified holding company with subsidiaries operating in commercial property and casualty insurance (CNA Financial), natural gas pipelines (Boardwalk Pipelines), packaging products (Altium Packaging), and hotels (Loews Hotels). Loews Corporation does not currently publish a public developer API or developer portal; this index tracks the company website and consumer-facing properties for reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loews/refs/heads/main/screenshots/loews-2026-06-20T184647.png",

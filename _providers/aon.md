@@ -118,7 +118,7 @@ modified: '2026-07-25'
 name: Aon
 nav: Providers
 network: true
-overview: 'Aon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Risk, Reinsurance, Insurance, Health, and Retirement.
+overview: 'Aon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Risk Management, Reinsurance, Insurance, Health, and Retirement.
 
 
   Aon''s developer surface includes YouTube channel and 16 more developer resources.'
@@ -173,7 +173,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: aon
 tags:
-- Risk
+- Risk Management
 - Reinsurance
 - Insurance
 - Health

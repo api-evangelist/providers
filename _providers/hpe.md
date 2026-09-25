@@ -193,5 +193,6 @@ tags:
 - Networking
 - Hybrid Cloud
 - Enterprise IT
+- Data Center
 website: https://www.hpe.com
 ---

@@ -262,9 +262,9 @@ tags:
 - People And Workforce
 - Sustainability
 - ESG
-- Risk
+- Risk Management
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Blockchain
 - Zero-Knowledge Proofs
 - Privacy

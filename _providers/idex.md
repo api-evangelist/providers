@@ -74,13 +74,13 @@ description: 'IDEX Corporation (NYSE: IEX) is a global engineered products compa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idex.png
 layout: provider
 modified: '2026-04-28'
-name: IDEX Corporation
+name: IDEX
 nav: Providers
 network: true
-overview: 'IDEX Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Engineered Products, Fire and Safety, Flow Meters, and Fluidics.
+overview: 'IDEX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Engineered Products, Fire and Safety, Flow Meters, and Fluidics.
 
 
-  IDEX Corporation''s developer surface includes engineering blog and 7 more developer resources.'
+  IDEX''s developer surface includes engineering blog and 7 more developer resources.'
 press:
 - date: ''
   title: Financials - Quarterly Results - IDEX Corp. - Investor Relations

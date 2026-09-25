@@ -115,6 +115,6 @@ tags:
 - User Acquisition
 - Advertising
 - Creative
-- Agentic AI
+- AI Agents
 website: https://www.sett.ai/
 ---

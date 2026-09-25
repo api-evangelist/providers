@@ -64,7 +64,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://developers.google.com/fit
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/agentic-access/google-fitness-agentic-access.yml
   title: ''
@@ -228,5 +228,5 @@ tags:
 - Sessions
 - Wearables
 - Wellness
-website: https://www.google.com/
+website: https://developers.google.com/fit
 ---

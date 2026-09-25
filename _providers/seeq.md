@@ -175,5 +175,6 @@ tags:
 - Artificial Intelligence
 - Process Manufacturing
 - Data Analytics
+- Industrial
 website: https://www.seeq.com/
 ---

@@ -146,13 +146,13 @@ description: String (string.xyz) is a fiat interoperability platform for Web3 ga
 image: https://avatars.githubusercontent.com/u/104804397?v=4
 layout: provider
 modified: '2026-07-21'
-name: String Technology Inc
+name: String Technology
 nav: Providers
 network: true
-overview: 'String Technology Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Web3, Gaming, and Fiat On-Ramp.
+overview: 'String Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Web3, Gaming, and Fiat On-Ramp.
 
 
-  String Technology Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
+  String Technology''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
 random_paper: 17
 score:
   band: emerging

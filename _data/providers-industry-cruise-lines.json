@@ -12,7 +12,7 @@
    "shown": 3,
    "providers": [
     {
-     "name": "Carnival Corporation",
+     "name": "Carnival",
      "slug": "carnival-corporation",
      "description": "Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/screenshots/carnival-corporation-2026-06-20T174014.png",

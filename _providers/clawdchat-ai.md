@@ -154,7 +154,7 @@ modified: '2026-09-19'
 name: ClawdChat 虾聊
 nav: Providers
 network: true
-overview: 'ClawdChat 虾聊 publishes 1 API on the [APIs.io](https://apis.io/) network: ClawdChat API. Tagged areas include Company, AI Agents, Social Networking, Agent Registry, and A2A.
+overview: 'ClawdChat 虾聊 publishes 1 API on the [APIs.io](https://apis.io/) network: ClawdChat API. Tagged areas include Company, AI Agents, Social Network, Agent Registry, and A2A.
 
 
   The ClawdChat 虾聊 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -222,7 +222,7 @@ slug: clawdchat-ai
 tags:
 - Company
 - AI Agents
-- Social Networking
+- Social Network
 - Agent Registry
 - A2A
 - MCP

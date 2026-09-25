@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: MeetMe
 nav: Providers
 network: true
-overview: 'MeetMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Dating, and Messaging.
+overview: 'MeetMe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Network, Dating, and Messaging.
 
 
   MeetMe''s developer surface includes support and 4 more developer resources.'
@@ -106,7 +106,7 @@ slug: meetme
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Dating
 - Messaging
 - Live Streaming

@@ -549,7 +549,7 @@ tags:
 - Paid Search
 - Paid Social
 - Marketing Analytics
-- Advertising Technology
+- AdTech
 - Campaign Management
 - Commerce Media
 - Reporting

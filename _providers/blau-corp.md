@@ -66,13 +66,13 @@ description: Blau (Blau Corp) is a waste-management operating system for haulers
 image: https://blaucorp.com/assets/blau-logo.png
 layout: provider
 modified: '2026-07-18'
-name: Blau Corp
+name: Blau
 nav: Providers
 network: true
-overview: 'Blau Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Waste Management, Sustainability, Logistics, and Fleet Routing.
+overview: 'Blau is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Waste Management, Sustainability, Logistics, and Fleet Routing.
 
 
-  Blau Corp''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Blau''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 21
 score:
   band: minimal

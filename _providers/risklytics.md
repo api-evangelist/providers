@@ -100,7 +100,7 @@ modified: '2026-07-21'
 name: Risklytics
 nav: Providers
 network: true
-overview: 'Risklytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Risk, and Wildfire.
+overview: 'Risklytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Risk Management, and Wildfire.
 
 
   Risklytics'' developer surface includes developer portal, documentation, pricing, authentication, and 7 more developer resources.'
@@ -161,7 +161,7 @@ tags:
 - Company
 - Insurance
 - Insurtech
-- Risk
+- Risk Management
 - Wildfire
 - Property
 - Catastrophe

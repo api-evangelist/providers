@@ -241,7 +241,7 @@ modified: '2026-06-12'
 name: AT Protocol
 nav: Providers
 network: true
-overview: 'AT Protocol publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actor API, Feed API, Graph API, and 6 more. Tagged areas include Social Networking, Decentralized, Federated, Open Source, and Bluesky.
+overview: 'AT Protocol publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actor API, Feed API, Graph API, and 6 more. Tagged areas include Social Network, Decentralized, Federated, Open Source, and Bluesky.
 
 
   The AT Protocol catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -312,7 +312,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: atproto
 tags:
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
 - Open Source

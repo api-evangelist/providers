@@ -342,7 +342,7 @@ tags:
 - Deliverability
 - DMARC
 - Email Authentication
-- Email Validation
+- Email Verification
 - Analytics
 website: https://www.returnpath.com/
 ---

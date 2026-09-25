@@ -616,7 +616,7 @@ modified: '2026-08-13'
 name: Dun & Bradstreet
 nav: Providers
 network: true
-overview: 'Dun & Bradstreet publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data File API, Enrich API, and 5 more. Tagged areas include Business Data, Company Data, D-U-N-S Number, Credit, and Risk.
+overview: 'Dun & Bradstreet publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data File API, Enrich API, and 5 more. Tagged areas include Business Data, Company Data, D-U-N-S Number, Credit, and Risk Management.
 
 
   The Dun & Bradstreet catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -734,7 +734,7 @@ tags:
 - Company Data
 - D-U-N-S Number
 - Credit
-- Risk
+- Risk Management
 - Master Data
 - Data Enrichment
 - Identity Resolution

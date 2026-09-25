@@ -63,13 +63,13 @@ description: SCENARIO-X GLOBAL HOLDING PTE. LTD. (Scenario X) is a financial-tec
 image: https://scenario-x.ai/wp-content/uploads/2024/05/Logo-Stylise.png
 layout: provider
 modified: '2026-07-21'
-name: SCENARIO-X GLOBAL HOLDING PTE. LTD.
+name: SCENARIO-X GLOBAL HOLDING
 nav: Providers
 network: true
-overview: 'SCENARIO-X GLOBAL HOLDING PTE. LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Risk Management, Stress Testing, and RegTech.
+overview: 'SCENARIO-X GLOBAL HOLDING is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Risk Management, Stress Testing, and RegTech.
 
 
-  SCENARIO-X GLOBAL HOLDING PTE. LTD.''s developer surface includes engineering blog and 4 more developer resources.'
+  SCENARIO-X GLOBAL HOLDING''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 4
 score:
   band: minimal

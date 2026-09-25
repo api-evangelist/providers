@@ -146,7 +146,7 @@ modified: '2026-09-16'
 name: PeopleForce
 nav: Providers
 network: true
-overview: 'PeopleForce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Divisions API, and 4 more. Tagged areas include Human Resources, Recruitment, and Employees.
+overview: 'PeopleForce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Divisions API, and 4 more. Tagged areas include Human Resources, Recruiting, and Employees.
 
 
   PeopleForce''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
@@ -205,7 +205,7 @@ security:
 slug: peopleforce
 tags:
 - Human Resources
-- Recruitment
+- Recruiting
 - Employees
 website: https://peopleforce.io
 ---

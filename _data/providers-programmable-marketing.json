@@ -1,6 +1,6 @@
 {
- "total": 805,
- "shown": 805,
+ "total": 800,
+ "shown": 800,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 89.3,
+     "score": 89.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 77.6,
+      "contract_quality": 77.9,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
       "developer_ergonomics": 94.6,
@@ -29,7 +29,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 49.6,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
@@ -124,15 +124,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -4683,7 +4683,7 @@
      "rank": 97
     },
     {
-     "name": "Lucidya Ltd",
+     "name": "Lucidya",
      "slug": "lucidya-ltd",
      "description": "Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png",
@@ -4822,8 +4822,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 165,
-   "shown": 165,
+   "count": 164,
+   "shown": 164,
    "providers": [
     {
      "name": "AskNicely",
@@ -8216,50 +8216,6 @@
      "rank": 174
     },
     {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Audience + measurement APIs",
-     "rank": 175
-    },
-    {
      "name": "MailerSend",
      "slug": "mailersend",
      "description": "MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppression lists, inbound routing, activity and analytics, email verification, DMARC and blocklist monitoring, SMS, and account/token administration. Authentication is a domain-scoped bearer token drawn from a 30-value scope vocabulary. MailerSend ships six official SDKs, an official Laravel driver, a Go CLI with an interactive TUI, a remote OAuth-protected MCP server exposing 127 tools, and its own published Agent Skill — but no machine-readable API contract and no idempotency guarantee.",
@@ -8308,7 +8264,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Hootsuite",
@@ -8352,7 +8308,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "AirOps",
@@ -8396,7 +8352,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "SE Ranking",
@@ -8440,7 +8396,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "CI HUB",
@@ -8484,7 +8440,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Refersion",
@@ -8528,7 +8484,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Google AdMob",
@@ -8572,7 +8528,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Microsoft Clarity",
@@ -8616,7 +8572,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Partnerize",
@@ -8660,7 +8616,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Kentico",
@@ -8704,7 +8660,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Planable",
@@ -8748,7 +8704,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Leanplum",
@@ -8792,7 +8748,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "MediaValet",
@@ -8836,7 +8792,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "Ploy",
@@ -8880,7 +8836,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Factiva",
@@ -8931,7 +8887,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Scrunch AI",
@@ -8975,7 +8931,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Friendbuy",
@@ -9019,7 +8975,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Wunderkind",
@@ -9070,7 +9026,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "LinkedIn Marketing API",
@@ -9114,7 +9070,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Zaius",
@@ -9158,7 +9114,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Knak",
@@ -9202,7 +9158,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Intelligems",
@@ -9246,7 +9202,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "AppLike Group",
@@ -9290,7 +9246,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Creatio",
@@ -9334,7 +9290,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Syft Data",
@@ -9378,7 +9334,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Navattic",
@@ -9422,7 +9378,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Mention",
@@ -9466,7 +9422,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Talkable",
@@ -9510,7 +9466,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "HookLogic (Criteo)",
@@ -9554,7 +9510,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "LeanData",
@@ -9598,7 +9554,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "NeverBounce",
@@ -9642,7 +9598,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Clerk.io",
@@ -9686,7 +9642,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Nutshell",
@@ -9730,7 +9686,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Sequel",
@@ -9774,7 +9730,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Sendspark",
@@ -9818,7 +9774,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Community",
@@ -9869,7 +9825,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "RB2B",
@@ -9913,7 +9869,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Gameball",
@@ -9957,7 +9913,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "SendHub",
@@ -10008,7 +9964,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Beaconstac",
@@ -10070,7 +10026,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "Hashnode",
@@ -10114,7 +10070,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Bynder",
@@ -10158,7 +10114,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Criteo",
@@ -10202,7 +10158,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Pabbly",
@@ -10253,7 +10209,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Clearbit (HubSpot Breeze Intelligence)",
@@ -10297,7 +10253,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "LiveRamp",
@@ -10341,7 +10297,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "SimpleTexting",
@@ -10392,7 +10348,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Act-On",
@@ -10436,7 +10392,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Adapt",
@@ -10480,7 +10436,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Cision",
@@ -10524,7 +10480,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Insider",
@@ -10582,7 +10538,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Paragraph",
@@ -10626,7 +10582,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Cello",
@@ -10670,7 +10626,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Crescendo Lab",
@@ -10721,7 +10677,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Jasper",
@@ -10765,7 +10721,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "YouScan",
@@ -10809,7 +10765,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Bluma",
@@ -10853,7 +10809,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Zenserp",
@@ -10897,7 +10853,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Serper",
@@ -10941,7 +10897,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Skai (Kenshoo)",
@@ -10985,7 +10941,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "SpyFu",
@@ -11029,7 +10985,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Reachdesk",
@@ -11073,7 +11029,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "NextRoll",
@@ -11117,7 +11073,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Pomo",
@@ -11161,7 +11117,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Metrilo",
@@ -11205,7 +11161,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Cardlytics",
@@ -11263,7 +11219,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "CrossEngage",
@@ -11307,7 +11263,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "EventX",
@@ -11351,7 +11307,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Google Marketing Platform Admin",
@@ -11395,7 +11351,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "TheBrief",
@@ -11439,7 +11395,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Brandfolder",
@@ -11483,7 +11439,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Funnel",
@@ -11527,7 +11483,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Google Display & Video 360",
@@ -11571,7 +11527,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Sourcepoint",
@@ -11615,7 +11571,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "mParticle",
@@ -11659,7 +11615,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Rockbot",
@@ -11703,7 +11659,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — sell side APIs",
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "ReviewTrackers",
@@ -11747,7 +11703,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "Freshpaint",
@@ -11805,7 +11761,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Frontify",
@@ -11849,7 +11805,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Warmly",
@@ -11893,7 +11849,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "Marketo",
@@ -11937,7 +11893,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
@@ -11981,7 +11937,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "VigLink (Sovrn Commerce)",
@@ -12025,7 +11981,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Digioh",
@@ -12069,7 +12025,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "VBOUT",
@@ -12113,7 +12069,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Endgame",
@@ -12157,7 +12113,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Sumble",
@@ -12201,7 +12157,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Talkwalker",
@@ -12245,7 +12201,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "LeadSquared",
@@ -12289,7 +12245,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "WebinarJam",
@@ -12333,7 +12289,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 265
+     "rank": 264
     }
    ],
    "open": true
@@ -12343,8 +12299,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 196,
-   "shown": 196,
+   "count": 193,
+   "shown": 193,
    "providers": [
     {
      "name": "DinMo",
@@ -12388,7 +12344,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "LeadIQ",
@@ -12432,7 +12388,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "Sailthru",
@@ -12498,7 +12454,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "CustomerOS",
@@ -12542,7 +12498,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Sendoso",
@@ -12586,7 +12542,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -12630,7 +12586,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Apstal",
@@ -12674,7 +12630,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "DemandSphere",
@@ -12718,7 +12674,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Storyclash",
@@ -12762,7 +12718,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "Wideo",
@@ -12806,7 +12762,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Bluecore",
@@ -12857,7 +12813,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Dreamdata",
@@ -12901,7 +12857,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "iContact",
@@ -12945,7 +12901,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Leadpages",
@@ -12989,7 +12945,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Snap",
@@ -13033,7 +12989,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "TikTok Marketing API",
@@ -13077,7 +13033,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Basis",
@@ -13121,7 +13077,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Drip",
@@ -13165,7 +13121,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Mob.ly",
@@ -13209,7 +13165,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Supermetrics",
@@ -13253,7 +13209,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Rockerbox",
@@ -13297,7 +13253,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Hotmart",
@@ -13348,7 +13304,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Retention + advocacy APIs",
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Appsamurai",
@@ -13392,7 +13348,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Mavrck",
@@ -13443,7 +13399,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Monetate",
@@ -13487,7 +13443,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Lawmatics",
@@ -13531,7 +13487,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Invoca",
@@ -13575,7 +13531,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -13619,7 +13575,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Bevz",
@@ -13663,7 +13619,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Pixc",
@@ -13707,7 +13663,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Constructor.io",
@@ -13751,7 +13707,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "LocalClarity",
@@ -13795,7 +13751,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Chatsimple",
@@ -13839,7 +13795,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "CrawlGraph",
@@ -13883,7 +13839,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Emotive",
@@ -13934,7 +13890,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "GoatCounter",
@@ -13978,7 +13934,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Kissmetrics",
@@ -14022,7 +13978,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Sprout Social",
@@ -14066,7 +14022,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Bloom",
@@ -14110,7 +14066,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Responsys",
@@ -14161,7 +14117,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Sitefire",
@@ -14205,7 +14161,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "The Trade Desk",
@@ -14249,7 +14205,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Brandwatch",
@@ -14293,7 +14249,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Ceros",
@@ -14337,7 +14293,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Archive Technologies",
@@ -14381,7 +14337,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Later",
@@ -14425,7 +14381,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "AutoLeadStar",
@@ -14469,7 +14425,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "OptinMonster",
@@ -14513,7 +14469,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Pinoffer",
@@ -14564,7 +14520,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "SearchApi",
@@ -14608,7 +14564,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Fullcast",
@@ -14652,7 +14608,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "SmartNews",
@@ -14696,7 +14652,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "CrowdTwist",
@@ -14740,7 +14696,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Adverity",
@@ -14784,7 +14740,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "Amperity",
@@ -14828,7 +14784,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Channable",
@@ -14872,7 +14828,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "Google PageSpeed",
@@ -14916,7 +14872,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Hull",
@@ -14960,7 +14916,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "ezoic",
@@ -15004,7 +14960,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Agile CRM",
@@ -15048,7 +15004,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "BrightEdge",
@@ -15092,7 +15048,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "PersistIQ",
@@ -15136,7 +15092,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Sovrn",
@@ -15180,7 +15136,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Magnite",
@@ -15224,7 +15180,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "MCP360",
@@ -15268,7 +15224,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Typeface",
@@ -15312,7 +15268,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Jebbit",
@@ -15356,7 +15312,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Handwrite IO",
@@ -15407,7 +15363,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Involve Asia",
@@ -15451,7 +15407,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Event Registry",
@@ -15495,7 +15451,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Scalarr",
@@ -15539,7 +15495,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "involve.me",
@@ -15583,7 +15539,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "ManyChat",
@@ -15634,7 +15590,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Oracle Eloqua",
@@ -15678,7 +15634,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Blng",
@@ -15722,7 +15678,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "listmonk",
@@ -15773,7 +15729,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Windfall Data",
@@ -15817,7 +15773,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Hilos",
@@ -15861,7 +15817,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Counter",
@@ -15905,7 +15861,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Nimble",
@@ -15949,7 +15905,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Gamesight",
@@ -15993,7 +15949,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Movable Ink",
@@ -16037,7 +15993,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Seam AI",
@@ -16081,7 +16037,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Events.com",
@@ -16125,7 +16081,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Revnu",
@@ -16169,7 +16125,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "WoowUp",
@@ -16213,7 +16169,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "AdRoll",
@@ -16257,7 +16213,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Datorama",
@@ -16301,7 +16257,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Sprinklr",
@@ -16345,7 +16301,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "PowerReviews",
@@ -16389,7 +16345,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Akkio",
@@ -16433,7 +16389,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Bonjoro",
@@ -16477,7 +16433,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Habu",
@@ -16521,7 +16477,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Demio",
@@ -16565,7 +16521,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "CJ Affiliate",
@@ -16609,7 +16565,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Retention + advocacy APIs",
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "MNTN",
@@ -16653,7 +16609,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "Monaco",
@@ -16697,7 +16653,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Opal",
@@ -16741,7 +16697,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Localytics",
@@ -16785,7 +16741,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "MailOptin",
@@ -16829,7 +16785,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "SharpSpring",
@@ -16873,7 +16829,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "News Break",
@@ -16917,51 +16873,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 367
-    },
-    {
-     "name": "Socialbakers",
-     "slug": "socialbakers",
-     "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Audience + measurement APIs",
-     "rank": 368
+     "rank": 366
     },
     {
      "name": "RevContent",
@@ -17005,7 +16917,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 369
+     "rank": 367
     },
     {
      "name": "InMobi",
@@ -17049,7 +16961,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 370
+     "rank": 368
     },
     {
      "name": "Albacross",
@@ -17093,7 +17005,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 371
+     "rank": 369
     },
     {
      "name": "Splash",
@@ -17137,7 +17049,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 372
+     "rank": 370
     },
     {
      "name": "MikMak",
@@ -17181,7 +17093,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 373
+     "rank": 371
     },
     {
      "name": "Truex Media",
@@ -17225,7 +17137,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 374
+     "rank": 372
     },
     {
      "name": "VideoAmp",
@@ -17269,7 +17181,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 375
+     "rank": 373
     },
     {
      "name": "Chord",
@@ -17313,7 +17225,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 376
+     "rank": 374
     },
     {
      "name": "TPS Engage",
@@ -17357,7 +17269,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 377
+     "rank": 375
     },
     {
      "name": "99designs",
@@ -17401,7 +17313,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 378
+     "rank": 376
     },
     {
      "name": "Paedae",
@@ -17445,7 +17357,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 379
+     "rank": 377
     },
     {
      "name": "Brandcast",
@@ -17489,7 +17401,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 380
+     "rank": 378
     },
     {
      "name": "Result",
@@ -17540,7 +17452,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 381
+     "rank": 379
     },
     {
      "name": "Gojiberry AI",
@@ -17584,7 +17496,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 382
+     "rank": 380
     },
     {
      "name": "Uniphore",
@@ -17628,7 +17540,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 383
+     "rank": 381
     },
     {
      "name": "Disconetwork",
@@ -17672,7 +17584,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 384
+     "rank": 382
     },
     {
      "name": "Dotdash Meredith / People Inc",
@@ -17723,7 +17635,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 385
+     "rank": 383
     },
     {
      "name": "Linktree",
@@ -17767,7 +17679,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 386
+     "rank": 384
     },
     {
      "name": "Voyant.io",
@@ -17811,7 +17723,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 387
+     "rank": 385
     },
     {
      "name": "Fxiaoke",
@@ -17855,7 +17767,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 388
+     "rank": 386
     },
     {
      "name": "Opera",
@@ -17899,7 +17811,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 389
+     "rank": 387
     },
     {
      "name": "EasyWebinar",
@@ -17943,7 +17855,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 390
+     "rank": 388
     },
     {
      "name": "NewsWhip",
@@ -17987,7 +17899,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 391
+     "rank": 389
     },
     {
      "name": "Rox",
@@ -18031,7 +17943,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 392
+     "rank": 390
     },
     {
      "name": "Amboras",
@@ -18082,7 +17994,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 393
+     "rank": 391
     },
     {
      "name": "Bombora",
@@ -18126,7 +18038,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 394
+     "rank": 392
     },
     {
      "name": "Dealer.com",
@@ -18170,7 +18082,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 395
+     "rank": 393
     },
     {
      "name": "Instant Commerce",
@@ -18214,7 +18126,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 396
+     "rank": 394
     },
     {
      "name": "Loomly",
@@ -18258,51 +18170,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 397
-    },
-    {
-     "name": "Rubicon Project",
-     "slug": "rubicon-project",
-     "description": "Rubicon Project is a Los Angeles-based advertising technology company, founded in 2007, that built and operated one of the largest real-time bidding advertising exchanges, connecting digital publishers (the sell side) with advertisers and demand-side platforms. In 2020 Rubicon Project merged with Telaria and rebranded as Magnite, now positioned as the world's largest independent sell-side (SSP) advertising company, spanning connected TV (CTV), online video, display, and audio across its DV+, SpringServe, ClearLine and Magnite Streaming platforms. This profile tracks the company as it exists today under the Magnite brand. Magnite publishes a public, machine-readable OpenAPI 3.1 contract for the SpringServe ad-serving platform (v1 and v0) at console.springserve.com/api-docs, mirrored for the ClearLine buy-side console at console.clearline.magnite.com, together with a public Confluence documentation space, published rate limits, a first-party Python SDK, mobile In-App Ads SDKs for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Paid media — buy side APIs",
-     "rank": 398
+     "rank": 395
     },
     {
      "name": "Remerge",
@@ -18346,7 +18214,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 399
+     "rank": 396
     },
     {
      "name": "RTB House",
@@ -18390,7 +18258,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 400
+     "rank": 397
     },
     {
      "name": "SkimBit",
@@ -18434,7 +18302,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 401
+     "rank": 398
     },
     {
      "name": "Permutive",
@@ -18478,7 +18346,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 402
+     "rank": 399
     },
     {
      "name": "Incentivio",
@@ -18529,7 +18397,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 403
+     "rank": 400
     },
     {
      "name": "BetGenius",
@@ -18573,7 +18441,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 404
+     "rank": 401
     },
     {
      "name": "Conversica",
@@ -18624,7 +18492,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 405
+     "rank": 402
     },
     {
      "name": "SiteJabber",
@@ -18668,7 +18536,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 406
+     "rank": 403
     },
     {
      "name": "Syncly",
@@ -18712,7 +18580,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 407
+     "rank": 404
     },
     {
      "name": "Famous",
@@ -18756,7 +18624,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 408
+     "rank": 405
     },
     {
      "name": "Poptin",
@@ -18800,10 +18668,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 409
+     "rank": 406
     },
     {
-     "name": "Whisperr, Inc.",
+     "name": "Whisperr",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png",
@@ -18844,7 +18712,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 410
+     "rank": 407
     },
     {
      "name": "Choozle",
@@ -18888,7 +18756,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 411
+     "rank": 408
     },
     {
      "name": "SegmentStream",
@@ -18932,7 +18800,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 412
+     "rank": 409
     },
     {
      "name": "Nexad",
@@ -18976,7 +18844,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 413
+     "rank": 410
     },
     {
      "name": "Octane AI",
@@ -19020,7 +18888,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 414
+     "rank": 411
     },
     {
      "name": "domob",
@@ -19064,7 +18932,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 415
+     "rank": 412
     },
     {
      "name": "CharacterQuilt",
@@ -19108,7 +18976,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 416
+     "rank": 413
     },
     {
      "name": "Chartbeat",
@@ -19152,7 +19020,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 417
+     "rank": 414
     },
     {
      "name": "Reprise",
@@ -19196,7 +19064,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 418
+     "rank": 415
     },
     {
      "name": "Broadlume",
@@ -19240,7 +19108,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 419
+     "rank": 416
     },
     {
      "name": "Channel99",
@@ -19284,7 +19152,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 420
+     "rank": 417
     },
     {
      "name": "SegMetrics",
@@ -19328,7 +19196,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 421
+     "rank": 418
     },
     {
      "name": "Botify",
@@ -19372,7 +19240,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 422
+     "rank": 419
     },
     {
      "name": "Metadata",
@@ -19416,7 +19284,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 423
+     "rank": 420
     },
     {
      "name": "Sensors Data",
@@ -19460,7 +19328,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 424
+     "rank": 421
     },
     {
      "name": "LiveIntent",
@@ -19504,7 +19372,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 425
+     "rank": 422
     },
     {
      "name": "Zoca",
@@ -19548,7 +19416,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 426
+     "rank": 423
     },
     {
      "name": "Return Path",
@@ -19592,7 +19460,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 427
+     "rank": 424
     },
     {
      "name": "Millimetric",
@@ -19636,7 +19504,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 428
+     "rank": 425
     },
     {
      "name": "CRM Bonus",
@@ -19680,7 +19548,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 429
+     "rank": 426
     },
     {
      "name": "MODIVO",
@@ -19731,7 +19599,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — sell side APIs",
-     "rank": 430
+     "rank": 427
     },
     {
      "name": "Screaming Frog",
@@ -19775,7 +19643,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 431
+     "rank": 428
     },
     {
      "name": "Instapage",
@@ -19819,7 +19687,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 432
+     "rank": 429
     },
     {
      "name": "AdMakeAI",
@@ -19863,7 +19731,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 433
+     "rank": 430
     },
     {
      "name": "Banzai",
@@ -19907,7 +19775,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 434
+     "rank": 431
     },
     {
      "name": "FreeWheel Media",
@@ -19951,7 +19819,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 435
+     "rank": 432
     },
     {
      "name": "HockeyStack",
@@ -19995,7 +19863,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 436
+     "rank": 433
     },
     {
      "name": "Karumi",
@@ -20039,7 +19907,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 437
+     "rank": 434
     },
     {
      "name": "On24",
@@ -20083,7 +19951,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 438
+     "rank": 435
     },
     {
      "name": "Signal AI",
@@ -20127,7 +19995,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 439
+     "rank": 436
     },
     {
      "name": "Quantcast",
@@ -20171,7 +20039,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 440
+     "rank": 437
     },
     {
      "name": "Kapost",
@@ -20215,7 +20083,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 441
+     "rank": 438
     },
     {
      "name": "SocialBee",
@@ -20259,7 +20127,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 442
+     "rank": 439
     },
     {
      "name": "toksta",
@@ -20303,7 +20171,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 443
+     "rank": 440
     },
     {
      "name": "Session AI",
@@ -20347,7 +20215,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 444
+     "rank": 441
     },
     {
      "name": "Fermat",
@@ -20391,7 +20259,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 445
+     "rank": 442
     },
     {
      "name": "Grin",
@@ -20435,7 +20303,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 446
+     "rank": 443
     },
     {
      "name": "ShopMy",
@@ -20479,7 +20347,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 447
+     "rank": 444
     },
     {
      "name": "AppLovin",
@@ -20523,7 +20391,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 448
+     "rank": 445
     },
     {
      "name": "GumGum",
@@ -20567,7 +20435,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 449
+     "rank": 446
     },
     {
      "name": "Publer",
@@ -20611,7 +20479,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 450
+     "rank": 447
     },
     {
      "name": "Trend",
@@ -20662,10 +20530,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 451
+     "rank": 448
     },
     {
-     "name": "Adsmom Inc.",
+     "name": "Adsmom",
      "slug": "adsmom-inc",
      "description": "Adsmom (SIA Adsmom) is a Latvia-based AI-powered ad intelligence platform that indexes 200M+ ads from Meta, TikTok and Google, decodes them with AI, and gives brands, agencies and research teams a clear read on what competitors are running and what is actually working. The platform covers ad search across a competitor library, spend and creative-strategy insights, an AI chat analyst (\"Sense\"), real-time competitor alerts, and branded reporting. Adsmom exposes its ad index programmatically via both a hosted Model Context Protocol (MCP) server — for connecting AI assistants such as Claude, Codex, Cursor and Gemini — and a REST API for server-to-server pipelines, internal tools and scheduled jobs. API and MCP access are included on all paid tiers. The REST API publishes a public OpenAPI 3.0.0 description at api.adsmom.com covering 78 operations across four paid-ad platforms (Meta, TikTok, Google, LinkedIn) plus TikTok and Instagram organic accounts, grouped into Explore (ad search and hydration), Insights (tracked-advertiser management, AI summaries, weekly reports) and Analytics (reach, activity, share of voice, runtime, creative mix, targeting). Adsmom is a 500 Global portfolio company and raised ~$610K in early 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png",
@@ -20706,7 +20574,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 452
+     "rank": 449
     },
     {
      "name": "Chatfuel",
@@ -20750,7 +20618,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 453
+     "rank": 450
     },
     {
      "name": "Gist",
@@ -20794,7 +20662,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 454
+     "rank": 451
     },
     {
      "name": "Ocean.io",
@@ -20838,51 +20706,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 455
-    },
-    {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Audience + measurement APIs",
-     "rank": 456
+     "rank": 452
     },
     {
      "name": "EZR",
@@ -20926,7 +20750,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 457
+     "rank": 453
     },
     {
      "name": "VidMob",
@@ -20970,7 +20794,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 458
+     "rank": 454
     },
     {
      "name": "iSpot.tv",
@@ -21014,7 +20838,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 459
+     "rank": 455
     },
     {
      "name": "Lily AI",
@@ -21058,7 +20882,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 460
+     "rank": 456
     },
     {
      "name": "Ensighten",
@@ -21102,7 +20926,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 461
+     "rank": 457
     }
    ]
   },
@@ -21156,7 +20980,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 462
+     "rank": 458
     },
     {
      "name": "Optimyzee",
@@ -21200,7 +21024,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 463
+     "rank": 459
     },
     {
      "name": "Stagwell",
@@ -21244,7 +21068,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 464
+     "rank": 460
     },
     {
      "name": "MGID",
@@ -21288,7 +21112,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 465
+     "rank": 461
     },
     {
      "name": "Contently",
@@ -21332,7 +21156,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 466
+     "rank": 462
     },
     {
      "name": "Tofu",
@@ -21376,7 +21200,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 467
+     "rank": 463
     },
     {
      "name": "Doceree",
@@ -21438,7 +21262,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 468
+     "rank": 464
     },
     {
      "name": "Superscale",
@@ -21482,7 +21306,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 469
+     "rank": 465
     },
     {
      "name": "Appgain",
@@ -21533,7 +21357,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 470
+     "rank": 466
     },
     {
      "name": "TripleLift",
@@ -21577,7 +21401,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 471
+     "rank": 467
     },
     {
      "name": "Docket",
@@ -21621,7 +21445,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 472
+     "rank": 468
     },
     {
      "name": "Mutiny",
@@ -21665,7 +21489,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 473
+     "rank": 469
     },
     {
      "name": "_done",
@@ -21716,7 +21540,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 474
+     "rank": 470
     },
     {
      "name": "StoryTap",
@@ -21760,7 +21584,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 475
+     "rank": 471
     },
     {
      "name": "Teads",
@@ -21804,7 +21628,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 476
+     "rank": 472
     },
     {
      "name": "FuseWP",
@@ -21847,7 +21671,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 477
+     "rank": 473
     },
     {
      "name": "AppNexus",
@@ -21891,7 +21715,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 478
+     "rank": 474
     },
     {
      "name": "WideOrbit",
@@ -21935,7 +21759,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 479
+     "rank": 475
     },
     {
      "name": "KeepFace",
@@ -21979,7 +21803,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 480
+     "rank": 476
     },
     {
      "name": "Substack",
@@ -22023,7 +21847,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 481
+     "rank": 477
     },
     {
      "name": "Amobee",
@@ -22067,7 +21891,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 482
+     "rank": 478
     },
     {
      "name": "Coactive",
@@ -22111,7 +21935,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 483
+     "rank": 479
     },
     {
      "name": "Pokkt",
@@ -22155,7 +21979,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 484
+     "rank": 480
     },
     {
      "name": "11x",
@@ -22199,7 +22023,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 485
+     "rank": 481
     },
     {
      "name": "Mutiny HQ",
@@ -22243,7 +22067,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 486
+     "rank": 482
     },
     {
      "name": "Knotch",
@@ -22287,7 +22111,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 487
+     "rank": 483
     },
     {
      "name": "LoopMe",
@@ -22331,7 +22155,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 488
+     "rank": 484
     },
     {
      "name": "MadHive",
@@ -22375,7 +22199,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 489
+     "rank": 485
     },
     {
      "name": "NaviStone",
@@ -22419,7 +22243,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 490
+     "rank": 486
     },
     {
      "name": "NIFT",
@@ -22463,7 +22287,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 491
+     "rank": 487
     },
     {
      "name": "Covatic",
@@ -22507,7 +22331,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 492
+     "rank": 488
     },
     {
      "name": "Jeeng",
@@ -22551,7 +22375,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 493
+     "rank": 489
     },
     {
      "name": "Newoldstamp",
@@ -22595,7 +22419,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 494
+     "rank": 490
     },
     {
      "name": "Attendease",
@@ -22639,7 +22463,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 495
+     "rank": 491
     },
     {
      "name": "Epsilon",
@@ -22683,7 +22507,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 496
+     "rank": 492
     },
     {
      "name": "Ovation",
@@ -22727,7 +22551,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 497
+     "rank": 493
     },
     {
      "name": "LeadGenius",
@@ -22771,7 +22595,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 498
+     "rank": 494
     },
     {
      "name": "Motion",
@@ -22815,7 +22639,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 499
+     "rank": 495
     },
     {
      "name": "Tdaycom",
@@ -22858,7 +22682,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 500
+     "rank": 496
     },
     {
      "name": "AdReady (CPXi)",
@@ -22902,7 +22726,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 501
+     "rank": 497
     },
     {
      "name": "Vizit",
@@ -22946,7 +22770,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — sell side APIs",
-     "rank": 502
+     "rank": 498
     },
     {
      "name": "PulseMCP",
@@ -22990,7 +22814,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 503
+     "rank": 499
     },
     {
      "name": "BYBE",
@@ -23041,7 +22865,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 504
+     "rank": 500
     },
     {
      "name": "Fibr",
@@ -23085,7 +22909,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 505
+     "rank": 501
     },
     {
      "name": "Mobile Action",
@@ -23129,7 +22953,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 506
+     "rank": 502
     },
     {
      "name": "Noosh",
@@ -23173,7 +22997,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 507
+     "rank": 503
     },
     {
      "name": "OpenX",
@@ -23217,7 +23041,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 508
+     "rank": 504
     },
     {
      "name": "Kudobuzz",
@@ -23261,7 +23085,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 509
+     "rank": 505
     },
     {
      "name": "Podia",
@@ -23304,7 +23128,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 510
+     "rank": 506
     },
     {
      "name": "StreetMetrics",
@@ -23348,7 +23172,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 511
+     "rank": 507
     },
     {
      "name": "Madvertise",
@@ -23392,7 +23216,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 512
+     "rank": 508
     },
     {
      "name": "2X",
@@ -23436,7 +23260,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 513
+     "rank": 509
     },
     {
      "name": "Chatmeter",
@@ -23480,7 +23304,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 514
+     "rank": 510
     },
     {
      "name": "Infutor",
@@ -23524,10 +23348,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 515
+     "rank": 511
     },
     {
-     "name": "Textla Inc.",
+     "name": "Textla",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/textla-inc/refs/heads/main/screenshots/textla-inc-2026-09-02T163313.png",
@@ -23575,7 +23399,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 516
+     "rank": 512
     },
     {
      "name": "Beacons.ai",
@@ -23619,7 +23443,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 517
+     "rank": 513
     },
     {
      "name": "PlusThis",
@@ -23670,7 +23494,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 518
+     "rank": 514
     },
     {
      "name": "Koah Labs",
@@ -23714,7 +23538,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 519
+     "rank": 515
     },
     {
      "name": "Markable",
@@ -23758,7 +23582,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 520
+     "rank": 516
     },
     {
      "name": "Push",
@@ -23809,7 +23633,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 521
+     "rank": 517
     },
     {
      "name": "Jifflenow",
@@ -23853,7 +23677,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 522
+     "rank": 518
     },
     {
      "name": "Hilbert's AI",
@@ -23897,7 +23721,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 523
+     "rank": 519
     },
     {
      "name": "Animoto",
@@ -23940,7 +23764,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 524
+     "rank": 520
     },
     {
      "name": "Superside",
@@ -23984,7 +23808,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 525
+     "rank": 521
     },
     {
      "name": "BlueOcean",
@@ -24028,7 +23852,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 526
+     "rank": 522
     },
     {
      "name": "Flipp (Wishabi)",
@@ -24072,7 +23896,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 527
+     "rank": 523
     },
     {
      "name": "Sesame Labs",
@@ -24116,7 +23940,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 528
+     "rank": 524
     },
     {
      "name": "DecisionLink",
@@ -24160,7 +23984,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 529
+     "rank": 525
     },
     {
      "name": "Jampp",
@@ -24204,7 +24028,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 530
+     "rank": 526
     },
     {
      "name": "Pavoot",
@@ -24248,7 +24072,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 531
+     "rank": 527
     },
     {
      "name": "Schema.org",
@@ -24292,7 +24116,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 532
+     "rank": 528
     },
     {
      "name": "LocBox Labs",
@@ -24336,7 +24160,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 533
+     "rank": 529
     },
     {
      "name": "SundaySky",
@@ -24380,7 +24204,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 534
+     "rank": 530
     },
     {
      "name": "AdColony",
@@ -24424,7 +24248,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 535
+     "rank": 531
     },
     {
      "name": "Marin Software",
@@ -24468,7 +24292,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 536
+     "rank": 532
     },
     {
      "name": "Qeen.AI",
@@ -24512,7 +24336,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 537
+     "rank": 533
     },
     {
      "name": "FlyteDesk",
@@ -24563,7 +24387,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 538
+     "rank": 534
     },
     {
      "name": "OwnLocal",
@@ -24607,7 +24431,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 539
+     "rank": 535
     },
     {
      "name": "Terminus",
@@ -24651,7 +24475,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 540
+     "rank": 536
     },
     {
      "name": "Ibotta",
@@ -24695,10 +24519,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 541
+     "rank": 537
     },
     {
-     "name": "USADATA, Inc.",
+     "name": "USADATA",
      "slug": "usadata-inc",
      "description": "USADATA is a data and marketing intelligence company founded in 1998 and headquartered in New York City, backed by Insight Partners. It maintains a database of 260+ million US consumer records, 15+ million businesses, and 190 million households, updated monthly, and provides audience intelligence, data enrichment, hygiene, and omnichannel campaign activation. Products include the SL360 self-serve audience platform, Hailey AI conversational audience builder, a white-label Leads Portal with an embeddable Leads Module, and RESTful APIs for real-time and batch enrichment, audience building, hygiene (address standardization, NCOA, dedup, deceased suppression), and matchback attribution, with integrations into Salesforce, HubSpot, Marketo, and other CRM and marketing platforms. One machine-readable contract is published — the Leads Engine SOAP service at leadsengine.usadata.com serves a WSDL anonymously declaring 24 operations for counts, pricing, ordering, suppression, address lookup and geography. The REST APIs the marketing site advertises publish no spec, and API credentials are sales-gated with no developer portal, no reference documentation and no self-service sign-up.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png",
@@ -24739,7 +24563,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 542
+     "rank": 538
     },
     {
      "name": "Simulmedia",
@@ -24783,7 +24607,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 543
+     "rank": 539
     },
     {
      "name": "Vidjet",
@@ -24827,7 +24651,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 544
+     "rank": 540
     },
     {
      "name": "Passionfroot",
@@ -24885,7 +24709,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 545
+     "rank": 541
     },
     {
      "name": "Sendible",
@@ -24929,7 +24753,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 546
+     "rank": 542
     },
     {
      "name": "Spate",
@@ -24973,7 +24797,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 547
+     "rank": 543
     },
     {
      "name": "B12",
@@ -25024,7 +24848,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 548
+     "rank": 544
     },
     {
      "name": "Sharethrough",
@@ -25068,7 +24892,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 549
+     "rank": 545
     },
     {
      "name": "backstitch",
@@ -25112,7 +24936,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 550
+     "rank": 546
     },
     {
      "name": "DAS Technology",
@@ -25156,7 +24980,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 551
+     "rank": 547
     },
     {
      "name": "Repeat",
@@ -25200,7 +25024,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 552
+     "rank": 548
     },
     {
      "name": "Yieldmo",
@@ -25244,7 +25068,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 553
+     "rank": 549
     },
     {
      "name": "Salesgraph",
@@ -25288,7 +25112,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 554
+     "rank": 550
     },
     {
      "name": "Arphie",
@@ -25332,7 +25156,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 555
+     "rank": 551
     },
     {
      "name": "Popmenu",
@@ -25376,7 +25200,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 556
+     "rank": 552
     },
     {
      "name": "Sojern",
@@ -25420,7 +25244,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 557
+     "rank": 553
     },
     {
      "name": "Black Crow AI",
@@ -25464,7 +25288,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 558
+     "rank": 554
     },
     {
      "name": "Giveffect",
@@ -25508,7 +25332,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 559
+     "rank": 555
     },
     {
      "name": "Audigent",
@@ -25552,7 +25376,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 560
+     "rank": 556
     },
     {
      "name": "Newfold",
@@ -25596,7 +25420,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 561
+     "rank": 557
     },
     {
      "name": "Ciloo",
@@ -25640,7 +25464,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 562
+     "rank": 558
     },
     {
      "name": "Haus",
@@ -25684,7 +25508,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 563
+     "rank": 559
     },
     {
      "name": "Cheerfy",
@@ -25742,7 +25566,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 564
+     "rank": 560
     },
     {
      "name": "PebblePost",
@@ -25786,7 +25610,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 565
+     "rank": 561
     },
     {
      "name": "ActionIQ",
@@ -25830,7 +25654,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 566
+     "rank": 562
     },
     {
      "name": "Kana",
@@ -25874,7 +25698,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 567
+     "rank": 563
     },
     {
      "name": "Yesware",
@@ -25918,7 +25742,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 568
+     "rank": 564
     },
     {
      "name": "Albertsons",
@@ -25961,7 +25785,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 569
+     "rank": 565
     },
     {
      "name": "1mind",
@@ -26005,7 +25829,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 570
+     "rank": 566
     },
     {
      "name": "Agentio",
@@ -26049,7 +25873,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 571
+     "rank": 567
     },
     {
      "name": "SocialSign.in",
@@ -26093,7 +25917,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 572
+     "rank": 568
     },
     {
      "name": "Kuaishou",
@@ -26137,7 +25961,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 573
+     "rank": 569
     },
     {
      "name": "TransUnion",
@@ -26188,7 +26012,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 574
+     "rank": 570
     },
     {
      "name": "iZotope",
@@ -26232,7 +26056,7 @@
       "agentic_commerce": "platform"
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 575
+     "rank": 571
     },
     {
      "name": "LiftLab",
@@ -26276,7 +26100,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 576
+     "rank": 572
     },
     {
      "name": "Swiftly",
@@ -26320,7 +26144,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 577
+     "rank": 573
     },
     {
      "name": "Carrd",
@@ -26364,7 +26188,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 578
+     "rank": 574
     },
     {
      "name": "Replyr.ai",
@@ -26415,7 +26239,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 579
+     "rank": 575
     },
     {
      "name": "Silveredge",
@@ -26459,7 +26283,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 580
+     "rank": 576
     },
     {
      "name": "Tremor Video",
@@ -26503,7 +26327,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 581
+     "rank": 577
     },
     {
      "name": "Spindl",
@@ -26547,7 +26371,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 582
+     "rank": 578
     },
     {
      "name": "Evertune",
@@ -26591,7 +26415,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 583
+     "rank": 579
     },
     {
      "name": "RR Donnelley And Sons",
@@ -26635,7 +26459,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 584
+     "rank": 580
     },
     {
      "name": "InsightEra",
@@ -26679,7 +26503,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 585
+     "rank": 581
     },
     {
      "name": "Integral Ad Science",
@@ -26723,7 +26547,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 586
+     "rank": 582
     },
     {
      "name": "Nectar Social",
@@ -26766,7 +26590,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 587
+     "rank": 583
     },
     {
      "name": "Evolv",
@@ -26810,7 +26634,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 588
+     "rank": 584
     },
     {
      "name": "Lotame Solutions",
@@ -26854,7 +26678,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 589
+     "rank": 585
     },
     {
      "name": "The Ticket Fairy",
@@ -26905,7 +26729,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 590
+     "rank": 586
     },
     {
      "name": "Capterra",
@@ -26948,7 +26772,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 591
+     "rank": 587
     },
     {
      "name": "OneScreen AI",
@@ -26992,7 +26816,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 592
+     "rank": 588
     },
     {
      "name": "TEGNA",
@@ -27036,7 +26860,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 593
+     "rank": 589
     },
     {
      "name": "Datafy",
@@ -27080,7 +26904,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 594
+     "rank": 590
     },
     {
      "name": "Paramark",
@@ -27124,7 +26948,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 595
+     "rank": 591
     },
     {
      "name": "Sintra",
@@ -27168,7 +26992,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 596
+     "rank": 592
     },
     {
      "name": "OneShot",
@@ -27212,7 +27036,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 597
+     "rank": 593
     }
    ]
   },
@@ -27221,8 +27045,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 135,
-   "shown": 135,
+   "count": 134,
+   "shown": 134,
    "providers": [
     {
      "name": "Cosmose AI",
@@ -27266,7 +27090,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 598
+     "rank": 594
     },
     {
      "name": "Opensense (formerly SenderGen)",
@@ -27310,7 +27134,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 599
+     "rank": 595
     },
     {
      "name": "PubMatic",
@@ -27354,7 +27178,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 600
+     "rank": 596
     },
     {
      "name": "Clarisights",
@@ -27398,7 +27222,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 601
+     "rank": 597
     },
     {
      "name": "AdQuick",
@@ -27442,7 +27266,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 602
+     "rank": 598
     },
     {
      "name": "MAI",
@@ -27486,7 +27310,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 603
+     "rank": 599
     },
     {
      "name": "WebsitePros",
@@ -27530,51 +27354,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 604
-    },
-    {
-     "name": "Fetch Rewards",
-     "slug": "fetch-rewards",
-     "description": "Fetch (legally Fetch Rewards, LLC) is a Madison, Wisconsin consumer rewards platform whose mobile app lets shoppers scan paper receipts, connect e-receipts and link accounts to earn points redeemable for gift cards and other rewards. On the demand side, Fetch For Business sells consumer packaged goods brands, retailers and restaurants receipt-verified offers, video and display advertising, point boosts, loyalty programs and omnichannel audience activation, all measured against real purchase data and managed through its Mission Control campaign platform. Fetch publishes no public developer or partner API and operates no developer portal; its only public machine-readable contract is the Receipt Processor reference OpenAPI it publishes on GitHub as an engineering hiring exercise. It does run a coordinated vulnerability disclosure program via HackerOne and publishes an RFC 9116 security.txt, and its GitHub organization ships several first-party open-source Swift and Python developer libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 45.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Orchestration APIs",
-     "rank": 605
+     "rank": 600
     },
     {
      "name": "Resulticks",
@@ -27625,7 +27405,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 606
+     "rank": 601
     },
     {
      "name": "CloutJam",
@@ -27669,7 +27449,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 607
+     "rank": 602
     },
     {
      "name": "SOCi",
@@ -27713,7 +27493,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 608
+     "rank": 603
     },
     {
      "name": "Zemanta",
@@ -27757,7 +27537,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 609
+     "rank": 604
     },
     {
      "name": "Catch&Release",
@@ -27800,7 +27580,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 610
+     "rank": 605
     },
     {
      "name": "PlayPlay",
@@ -27844,7 +27624,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 611
+     "rank": 606
     },
     {
      "name": "Rosetta.ai",
@@ -27888,7 +27668,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 612
+     "rank": 607
     },
     {
      "name": "Innertrends",
@@ -27932,7 +27712,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 613
+     "rank": 608
     },
     {
      "name": "Kompyte",
@@ -27976,10 +27756,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 614
+     "rank": 609
     },
     {
-     "name": "Deluxe Corporation",
+     "name": "Deluxe",
      "slug": "deluxe",
      "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
@@ -28027,7 +27807,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 615
+     "rank": 610
     },
     {
      "name": "DoubleVerify",
@@ -28071,7 +27851,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 616
+     "rank": 611
     },
     {
      "name": "Remarkable AI",
@@ -28115,7 +27895,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 617
+     "rank": 612
     },
     {
      "name": "Actively",
@@ -28159,7 +27939,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 618
+     "rank": 613
     },
     {
      "name": "Cloud Commerce",
@@ -28203,7 +27983,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 619
+     "rank": 614
     },
     {
      "name": "Lucky Cart",
@@ -28247,7 +28027,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 620
+     "rank": 615
     },
     {
      "name": "Brandripe",
@@ -28291,7 +28071,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 621
+     "rank": 616
     },
     {
      "name": "Metamarkets",
@@ -28335,7 +28115,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 622
+     "rank": 617
     },
     {
      "name": "Ematic Solutions",
@@ -28379,7 +28159,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 623
+     "rank": 618
     },
     {
      "name": "Media Radar",
@@ -28423,7 +28203,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 624
+     "rank": 619
     },
     {
      "name": "BetaList",
@@ -28467,7 +28247,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 625
+     "rank": 620
     },
     {
      "name": "MadeThis",
@@ -28511,7 +28291,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 626
+     "rank": 621
     },
     {
      "name": "Ebrandvalue",
@@ -28555,7 +28335,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 627
+     "rank": 622
     },
     {
      "name": "Brand.ai",
@@ -28598,7 +28378,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 628
+     "rank": 623
     },
     {
      "name": "LTK",
@@ -28642,7 +28422,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 629
+     "rank": 624
     },
     {
      "name": "Groupboss",
@@ -28686,7 +28466,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 630
+     "rank": 625
     },
     {
      "name": "soona",
@@ -28730,7 +28510,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 631
+     "rank": 626
     },
     {
      "name": "Namogoo",
@@ -28774,7 +28554,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 632
+     "rank": 627
     },
     {
      "name": "Laurence",
@@ -28818,7 +28598,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 633
+     "rank": 628
     },
     {
      "name": "Liquid M",
@@ -28862,7 +28642,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 634
+     "rank": 629
     },
     {
      "name": "AdEspresso",
@@ -28906,7 +28686,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 635
+     "rank": 630
     },
     {
      "name": "Stllr Network",
@@ -28950,7 +28730,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 636
+     "rank": 631
     },
     {
      "name": "Motiva",
@@ -28994,7 +28774,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 637
+     "rank": 632
     },
     {
      "name": "Aktana (PharmaForceIQ)",
@@ -29060,7 +28840,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 638
+     "rank": 633
     },
     {
      "name": "Heyo",
@@ -29104,7 +28884,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 639
+     "rank": 634
     },
     {
      "name": "Plixi",
@@ -29148,51 +28928,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 640
-    },
-    {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Orchestration APIs",
-     "rank": 641
+     "rank": 635
     },
     {
      "name": "AirPR",
@@ -29236,7 +28972,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 642
+     "rank": 636
     },
     {
      "name": "Rocksalt",
@@ -29280,7 +29016,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 643
+     "rank": 637
     },
     {
      "name": "Alyce",
@@ -29323,7 +29059,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 644
+     "rank": 638
     },
     {
      "name": "Commsor",
@@ -29367,7 +29103,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 645
+     "rank": 639
     },
     {
      "name": "Gleeful AI",
@@ -29411,7 +29147,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 646
+     "rank": 640
     },
     {
      "name": "Tvscientific",
@@ -29455,7 +29191,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 647
+     "rank": 641
     },
     {
      "name": "LaunchRock",
@@ -29499,7 +29235,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 648
+     "rank": 642
     },
     {
      "name": "Latana",
@@ -29543,10 +29279,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 649
+     "rank": 643
     },
     {
-     "name": "Spotwise, Inc.",
+     "name": "Spotwise",
      "slug": "spotwise-inc",
      "description": "Spotwise is an agentic operating system for broadcast media that detects advertising across radio, TV, podcasts, and streaming audio in real time, converts that ad-play data into qualified sales leads with decision-maker enrichment, and automates the outreach and CRM workflows that sell against it. Built by broadcasters and backed by 500 Global, the platform packages products including Spotwise aOS, the Spotty conversational copilot, Spotwise Intelligence, Lead-list, Contact Finder, Monitors & Signals, and Skills for ad-sales and commercial-leadership teams across 14 countries. Spotwise ships two OAuth-protected remote Model Context Protocol servers — a product server at app.spotwise.ai/api/mcp and a content server at spotwise.ai/api/mcp — each advertised by RFC 8414 and RFC 9728 metadata documents, plus a publicly readable Payload CMS REST and GraphQL content API on spotwise.ai. It publishes no OpenAPI, no developer portal, no API reference and no SDK, so the product surface its own launch announcement calls \"an open API and a Model Context Protocol server\" cannot be planned against without an account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/screenshots/spotwise-inc-2026-09-02T160602.png",
@@ -29587,7 +29323,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 650
+     "rank": 644
     },
     {
      "name": "Adelphic Mobile *",
@@ -29631,7 +29367,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 651
+     "rank": 645
     },
     {
      "name": "Persado",
@@ -29675,7 +29411,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 652
+     "rank": 646
     },
     {
      "name": "Revie",
@@ -29719,7 +29455,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 653
+     "rank": 647
     },
     {
      "name": "Ripl",
@@ -29763,7 +29499,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 654
+     "rank": 648
     },
     {
      "name": "Peer39",
@@ -29807,7 +29543,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 655
+     "rank": 649
     },
     {
      "name": "Bikky",
@@ -29851,7 +29587,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 656
+     "rank": 650
     },
     {
      "name": "Centric Brands",
@@ -29895,7 +29631,7 @@
       "agentic_commerce": "platform"
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 657
+     "rank": 651
     },
     {
      "name": "Breef",
@@ -29946,7 +29682,51 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 658
+     "rank": 652
+    },
+    {
+     "name": "Sinclair",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "The State of Orchestration APIs",
+     "rank": 653
     },
     {
      "name": "Minute Media",
@@ -29990,10 +29770,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 659
+     "rank": 654
     },
     {
-     "name": "ALLSALE Corp.",
+     "name": "ALLSALE",
      "slug": "allsale-corp",
      "description": "ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-marketing automation platform for consumer brands. It runs three AI agents — a Creator Discovery Agent that finds and engages relevant TikTok creators, a Budget Optimization Agent that recommends budget allocation and commission adjustments, and a Performance Analyst Agent that tracks GMV and predicts results — automating the full workflow from creator discovery and outreach through performance tracking and ROI analysis. The company is a 500 Global portfolio company and reports 100K+ creators engaged and $50M+ in customer revenue generated across its brand clients. Plans run from a $399/month Starter tier to a $599/month Pro tier, with custom Enterprise pricing offering unlimited messaging, multi-brand support, and white-label options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/screenshots/allsale-corp-2026-07-25T195716.png",
@@ -30034,7 +29814,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 660
+     "rank": 655
     },
     {
      "name": "Saleo",
@@ -30078,7 +29858,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 661
+     "rank": 656
     },
     {
      "name": "Ground",
@@ -30122,7 +29902,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 662
+     "rank": 657
     },
     {
      "name": "Advantage Solutions",
@@ -30166,7 +29946,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 663
+     "rank": 658
     },
     {
      "name": "Influenxio",
@@ -30210,7 +29990,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 664
+     "rank": 659
     },
     {
      "name": "Memoir",
@@ -30254,7 +30034,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 665
+     "rank": 660
     },
     {
      "name": "PUBLY",
@@ -30298,7 +30078,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 666
+     "rank": 661
     },
     {
      "name": "Blobr",
@@ -30341,7 +30121,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 667
+     "rank": 662
     },
     {
      "name": "Imagine Ai",
@@ -30385,7 +30165,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 668
+     "rank": 663
     },
     {
      "name": "Mainframe",
@@ -30429,7 +30209,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 669
+     "rank": 664
     },
     {
      "name": "Pixis",
@@ -30473,7 +30253,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 670
+     "rank": 665
     },
     {
      "name": "Nickelytics",
@@ -30517,7 +30297,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 671
+     "rank": 666
     },
     {
      "name": "Bluefish AI",
@@ -30561,7 +30341,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 672
+     "rank": 667
     },
     {
      "name": "WeStock",
@@ -30605,7 +30385,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 673
+     "rank": 668
     },
     {
      "name": "AdMagica AI",
@@ -30649,7 +30429,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 674
+     "rank": 669
     },
     {
      "name": "SpeedyBrand",
@@ -30693,7 +30473,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 675
+     "rank": 670
     },
     {
      "name": "Matthews International",
@@ -30744,7 +30524,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 676
+     "rank": 671
     },
     {
      "name": "Webloyalty",
@@ -30788,7 +30568,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 677
+     "rank": 672
     },
     {
      "name": "App Onboard",
@@ -30832,7 +30612,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 678
+     "rank": 673
     },
     {
      "name": "GoAudience",
@@ -30876,7 +30656,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 679
+     "rank": 674
     },
     {
      "name": "Valid",
@@ -30920,7 +30700,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 680
+     "rank": 675
     },
     {
      "name": "Zefr",
@@ -30964,7 +30744,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 681
+     "rank": 676
     },
     {
      "name": "Atmosplay",
@@ -31008,51 +30788,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 682
-    },
-    {
-     "name": "VaynerMedia",
-     "slug": "vaynermedia",
-     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "The State of Content + brand APIs",
-     "rank": 683
+     "rank": 677
     },
     {
      "name": "ViralGains",
@@ -31110,7 +30846,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 684
+     "rank": 678
     },
     {
      "name": "TVbeat",
@@ -31154,7 +30890,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 685
+     "rank": 679
     },
     {
      "name": "Firefly",
@@ -31198,7 +30934,51 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 686
+     "rank": 680
+    },
+    {
+     "name": "VaynerMedia",
+     "slug": "vaynermedia",
+     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "The State of Content + brand APIs",
+     "rank": 681
     },
     {
      "name": "Indigov",
@@ -31249,7 +31029,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 687
+     "rank": 682
     },
     {
      "name": "Anonym",
@@ -31293,7 +31073,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 688
+     "rank": 683
     },
     {
      "name": "Postcron",
@@ -31337,7 +31117,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 689
+     "rank": 684
     },
     {
      "name": "Interpublic Group",
@@ -31381,7 +31161,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 690
+     "rank": 685
     },
     {
      "name": "Marketing Evolution",
@@ -31425,7 +31205,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 691
+     "rank": 686
     },
     {
      "name": "RetainIQ",
@@ -31476,7 +31256,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 692
+     "rank": 687
     },
     {
      "name": "Ziff Davis Enterprise",
@@ -31520,7 +31300,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 693
+     "rank": 688
     },
     {
      "name": "Braid Social",
@@ -31564,7 +31344,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 694
+     "rank": 689
     },
     {
      "name": "Quad/Graphics",
@@ -31608,7 +31388,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 695
+     "rank": 690
     },
     {
      "name": "Gannett",
@@ -31652,7 +31432,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 696
+     "rank": 691
     },
     {
      "name": "Customer Database",
@@ -31696,7 +31476,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 697
+     "rank": 692
     },
     {
      "name": "Horizon Media",
@@ -31739,7 +31519,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 698
+     "rank": 693
     },
     {
      "name": "Mosaic",
@@ -31783,7 +31563,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 699
+     "rank": 694
     },
     {
      "name": "Pepper Content",
@@ -31827,7 +31607,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 700
+     "rank": 695
     },
     {
      "name": "Property Capsule",
@@ -31871,7 +31651,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 701
+     "rank": 696
     },
     {
      "name": "Newneek",
@@ -31915,7 +31695,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 702
+     "rank": 697
     },
     {
      "name": "Promolta",
@@ -31959,7 +31739,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 703
+     "rank": 698
     },
     {
      "name": "Pico",
@@ -32010,7 +31790,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 704
+     "rank": 699
     },
     {
      "name": "Yieldify *",
@@ -32054,7 +31834,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 705
+     "rank": 700
     },
     {
      "name": "CoolerX",
@@ -32098,7 +31878,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 706
+     "rank": 701
     },
     {
      "name": "ReDEF",
@@ -32142,7 +31922,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 707
+     "rank": 702
     },
     {
      "name": "TNL Mediagene",
@@ -32186,7 +31966,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 708
+     "rank": 703
     },
     {
      "name": "Fivestars",
@@ -32237,7 +32017,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 709
+     "rank": 704
     },
     {
      "name": "Cuponomia",
@@ -32280,7 +32060,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Retention + advocacy APIs",
-     "rank": 710
+     "rank": 705
     },
     {
      "name": "Spot Runner",
@@ -32324,7 +32104,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 711
+     "rank": 706
     },
     {
      "name": "TapAd",
@@ -32368,7 +32148,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 712
+     "rank": 707
     },
     {
      "name": "Atolls",
@@ -32412,7 +32192,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Retention + advocacy APIs",
-     "rank": 713
+     "rank": 708
     },
     {
      "name": "Gomultiply",
@@ -32456,7 +32236,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 714
+     "rank": 709
     },
     {
      "name": "Linkett",
@@ -32499,7 +32279,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 715
+     "rank": 710
     },
     {
      "name": "Sync API",
@@ -32543,7 +32323,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 716
+     "rank": 711
     },
     {
      "name": "GrowthHackers",
@@ -32594,7 +32374,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 717
+     "rank": 712
     },
     {
      "name": "Makrwatch",
@@ -32638,7 +32418,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 718
+     "rank": 713
     },
     {
      "name": "Ara",
@@ -32682,7 +32462,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 719
+     "rank": 714
     },
     {
      "name": "CommerceIQ",
@@ -32726,7 +32506,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 720
+     "rank": 715
     },
     {
      "name": "Virool",
@@ -32770,7 +32550,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 721
+     "rank": 716
     },
     {
      "name": "BBDO Worldwide",
@@ -32814,10 +32594,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 722
+     "rank": 717
     },
     {
-     "name": "STORI AI Inc.",
+     "name": "STORI AI",
      "slug": "stori-ai-inc",
      "description": "STORI AI is a San Francisco-based AI content-marketing platform that helps brands define their identity — archetype, tone, tagline, and colors — and turn that identity into on-brand social posts, graphics, images, videos, and go-to-market marketing materials. The product generates personalized branded content, schedules and publishes it across digital platforms, and offers analytics, content storage, and multi-brand, multi-language, team-collaboration tiers. A Product Hunt Golden Kitty Award recipient, STORI AI is a web SaaS application for marketers and brand teams; it exposes no public developer API, SDKs, or developer portal at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stori-ai-inc/refs/heads/main/screenshots/stori-ai-inc-2026-09-02T160931.png",
@@ -32858,7 +32638,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 723
+     "rank": 718
     },
     {
      "name": "Newton Research",
@@ -32902,7 +32682,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 724
+     "rank": 719
     },
     {
      "name": "Triblio",
@@ -32946,7 +32726,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 725
+     "rank": 720
     },
     {
      "name": "PlusMargin",
@@ -32990,7 +32770,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 726
+     "rank": 721
     },
     {
      "name": "Bizible Marketing Analytics",
@@ -33034,7 +32814,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 727
+     "rank": 722
     },
     {
      "name": "Spotter",
@@ -33078,7 +32858,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 728
+     "rank": 723
     },
     {
      "name": "alphin",
@@ -33122,7 +32902,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 729
+     "rank": 724
     },
     {
      "name": "RankScience",
@@ -33166,7 +32946,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 730
+     "rank": 725
     },
     {
      "name": "Targetspot",
@@ -33210,7 +32990,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 731
+     "rank": 726
     },
     {
      "name": "Kuli",
@@ -33254,7 +33034,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 732
+     "rank": 727
     }
    ]
   },
@@ -33308,7 +33088,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 733
+     "rank": 728
     },
     {
      "name": "Impactyn B.V",
@@ -33352,7 +33132,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 734
+     "rank": 729
     },
     {
      "name": "Alethea",
@@ -33396,7 +33176,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 735
+     "rank": 730
     },
     {
      "name": "GetCraft",
@@ -33439,7 +33219,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 736
+     "rank": 731
     },
     {
      "name": "Likeable Local",
@@ -33483,7 +33263,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 737
+     "rank": 732
     },
     {
      "name": "Omnicom Group",
@@ -33527,7 +33307,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 738
+     "rank": 733
     },
     {
      "name": "Profitero",
@@ -33571,7 +33351,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 739
+     "rank": 734
     },
     {
      "name": "OUTFRONT Media",
@@ -33615,7 +33395,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 740
+     "rank": 735
     },
     {
      "name": "SureWaves",
@@ -33659,7 +33439,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 741
+     "rank": 736
     },
     {
      "name": "Ogilvy",
@@ -33710,7 +33490,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 742
+     "rank": 737
     },
     {
      "name": "Clicktivated",
@@ -33754,7 +33534,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 743
+     "rank": 738
     },
     {
      "name": "Xfactor.io",
@@ -33798,7 +33578,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 744
+     "rank": 739
     },
     {
      "name": "Cardinal",
@@ -33842,7 +33622,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 745
+     "rank": 740
     },
     {
      "name": "Ebbo",
@@ -33886,7 +33666,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 746
+     "rank": 741
     },
     {
      "name": "Supponor",
@@ -33930,7 +33710,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 747
+     "rank": 742
     },
     {
      "name": "Codec",
@@ -33974,7 +33754,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 748
+     "rank": 743
     },
     {
      "name": "MightyHive",
@@ -34018,7 +33798,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 749
+     "rank": 744
     },
     {
      "name": "Free Agency",
@@ -34062,7 +33842,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Owned channels APIs",
-     "rank": 750
+     "rank": 745
     },
     {
      "name": "PearPop",
@@ -34106,7 +33886,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 751
+     "rank": 746
     },
     {
      "name": "Digital Room",
@@ -34150,7 +33930,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 752
+     "rank": 747
     },
     {
      "name": "designstripe",
@@ -34193,7 +33973,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 753
+     "rank": 748
     },
     {
      "name": "Red Ventures",
@@ -34237,7 +34017,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 754
+     "rank": 749
     },
     {
      "name": "coohua",
@@ -34280,7 +34060,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 755
+     "rank": 750
     },
     {
      "name": "Tongal",
@@ -34324,7 +34104,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 756
+     "rank": 751
     },
     {
      "name": "Pimento",
@@ -34368,7 +34148,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 757
+     "rank": 752
     },
     {
      "name": "InstaAgent",
@@ -34412,7 +34192,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 758
+     "rank": 753
     },
     {
      "name": "Mediaspectrum",
@@ -34456,7 +34236,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 759
+     "rank": 754
     },
     {
      "name": "Mirado",
@@ -34507,7 +34287,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 760
+     "rank": 755
     },
     {
      "name": "Xinhe Technology",
@@ -34551,7 +34331,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 761
+     "rank": 756
     },
     {
      "name": "mth Sense",
@@ -34595,7 +34375,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 762
+     "rank": 757
     },
     {
      "name": "Databolt",
@@ -34639,7 +34419,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 763
+     "rank": 758
     },
     {
      "name": "Quantum",
@@ -34683,7 +34463,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 764
+     "rank": 759
     },
     {
      "name": "451 Degrees",
@@ -34727,7 +34507,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 765
+     "rank": 760
     },
     {
      "name": "ADstruc",
@@ -34771,7 +34551,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 766
+     "rank": 761
     },
     {
      "name": "Massive Dynamic",
@@ -34815,7 +34595,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 767
+     "rank": 762
     },
     {
      "name": "GTM Release",
@@ -34858,7 +34638,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 768
+     "rank": 763
     },
     {
      "name": "AA Audience",
@@ -34902,7 +34682,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 769
+     "rank": 764
     },
     {
      "name": "adludio",
@@ -34948,7 +34728,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 770
+     "rank": 765
     },
     {
      "name": "DIVE studios",
@@ -34992,7 +34772,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 771
+     "rank": 766
     },
     {
      "name": "Krunch",
@@ -35036,7 +34816,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 772
+     "rank": 767
     },
     {
      "name": "MoonFruit",
@@ -35080,7 +34860,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 773
+     "rank": 768
     },
     {
      "name": "Novocall",
@@ -35123,7 +34903,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 774
+     "rank": 769
     },
     {
      "name": "Shoelace",
@@ -35167,7 +34947,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 775
+     "rank": 770
     },
     {
      "name": "Shopzilla",
@@ -35210,7 +34990,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Retention + advocacy APIs",
-     "rank": 776
+     "rank": 771
     },
     {
      "name": "Unamo",
@@ -35255,7 +35035,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 777
+     "rank": 772
     },
     {
      "name": "Advolve.AI",
@@ -35299,7 +35079,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 778
+     "rank": 773
     },
     {
      "name": "Datanyze *",
@@ -35343,7 +35123,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 779
+     "rank": 774
     },
     {
      "name": "Nugit",
@@ -35387,7 +35167,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 780
+     "rank": 775
     },
     {
      "name": "ShareRoot",
@@ -35430,7 +35210,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 781
+     "rank": 776
     },
     {
      "name": "Simplifai Labs",
@@ -35474,7 +35254,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 782
+     "rank": 777
     },
     {
      "name": "TubeMogul",
@@ -35518,7 +35298,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 783
+     "rank": 778
     },
     {
      "name": "88rising",
@@ -35561,7 +35341,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 784
+     "rank": 779
     },
     {
      "name": "Absurd",
@@ -35605,7 +35385,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 785
+     "rank": 780
     },
     {
      "name": "Bluebirds",
@@ -35649,7 +35429,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 786
+     "rank": 781
     },
     {
      "name": "Boost Media",
@@ -35694,7 +35474,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 787
+     "rank": 782
     },
     {
      "name": "Brightloom",
@@ -35738,7 +35518,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 788
+     "rank": 783
     },
     {
      "name": "Campanja",
@@ -35783,7 +35563,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Demand capture APIs",
-     "rank": 789
+     "rank": 784
     },
     {
      "name": "Conteller",
@@ -35826,7 +35606,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 790
+     "rank": 785
     },
     {
      "name": "Convertro, Inc.",
@@ -35869,7 +35649,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 791
+     "rank": 786
     },
     {
      "name": "Jump Ramp Games",
@@ -35913,7 +35693,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 792
+     "rank": 787
     },
     {
      "name": "MaxPoint",
@@ -35956,10 +35736,10 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 793
+     "rank": 788
     },
     {
-     "name": "Murmur Technologies INC",
+     "name": "Murmur Technologies",
      "slug": "murmur-technologies-inc",
      "description": "Murmur Technologies INC (Murmur) is a Chicago, Illinois out-of-home advertising technology company operating a mobile digital billboard platform. It mounts smart LCD screens on car-tops and pedestrian backpacks to display geo-targeted ads on city streets, using sensors, computer vision, and location data to segment audiences by demographics, location, and behavior, measure ad performance in real time, and retarget viewers across other channels such as Facebook and Google. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of the 2026-08-12 enrichment pass the operation appears dormant: both marketing domains (murmurcars.com and murmurads.com) carry Route 53 nameservers but no A record at all, and the blog host times out. The one surviving surface is portal.murmurads.com, the advertiser portal, a static React single-page app served from Amazon S3 behind CloudFront whose last build shipped 2024-12-26. Its JavaScript bundle calls a private REST backend at backendapp.murmurcars.com/api/v1/ (campaigns, venues, zipcode demographics, GPS, air quality and user endpoints), but that host — while it still resolves — has TCP 443 and 80 dead, so the portal front-end can no longer reach its own API. Murmur publishes no public API, developer portal, documentation, SDK, or machine-readable specification of any kind, and no package exists for it in any public registry.",
      "score": 5.0,
@@ -35999,7 +35779,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 794
+     "rank": 789
     },
     {
      "name": "OneCommand",
@@ -36042,7 +35822,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 795
+     "rank": 790
     },
     {
      "name": "OneSpot",
@@ -36086,7 +35866,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 796
+     "rank": 791
     },
     {
      "name": "Parative",
@@ -36129,7 +35909,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of The sales handoff APIs",
-     "rank": 797
+     "rank": 792
     },
     {
      "name": "PerfectMarket",
@@ -36174,7 +35954,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 798
+     "rank": 793
     },
     {
      "name": "Propagate",
@@ -36217,7 +35997,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Where the spend lands APIs",
-     "rank": 799
+     "rank": 794
     },
     {
      "name": "refresh",
@@ -36261,7 +36041,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Content + brand APIs",
-     "rank": 800
+     "rank": 795
     },
     {
      "name": "ruhnn",
@@ -36305,7 +36085,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Earned + social APIs",
-     "rank": 801
+     "rank": 796
     },
     {
      "name": "StrikeAd",
@@ -36348,7 +36128,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 802
+     "rank": 797
     },
     {
      "name": "Tapsense",
@@ -36392,7 +36172,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Paid media — buy side APIs",
-     "rank": 803
+     "rank": 798
     },
     {
      "name": "TVTY",
@@ -36435,7 +36215,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Orchestration APIs",
-     "rank": 804
+     "rank": 799
     },
     {
      "name": "HiCustomer",
@@ -36487,7 +36267,7 @@
       "agentic_commerce": false
      },
      "tier": "The State of Audience + measurement APIs",
-     "rank": 805
+     "rank": 800
     }
    ]
   }

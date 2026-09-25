@@ -570,6 +570,6 @@ tags:
 - isac
 - Indicators of Compromise
 - MCP
-- Agentic AI
+- AI Agents
 website: https://www.cyware.com/
 ---

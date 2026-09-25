@@ -135,7 +135,7 @@ modified: '2026-08-27'
 name: Silent Eight
 nav: Providers
 network: true
-overview: 'Silent Eight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Crime Compliance, Anti-Money Laundering, Sanctions Screening, and Transaction Monitoring.
+overview: 'Silent Eight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Crime Compliance, AML, Sanctions Screening, and Transaction Monitoring.
 
 
   Silent Eight''s developer surface includes engineering blog, support, FAQ, and 13 more developer resources.'
@@ -191,14 +191,14 @@ slug: silent-eight
 tags:
 - Company
 - Financial Crime Compliance
-- Anti-Money Laundering
+- AML
 - Sanctions Screening
 - Transaction Monitoring
 - KYC
 - Adverse Media
 - RegTech
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Financial Services
 - Compliance
 website: https://www.silenteight.com/

@@ -95,7 +95,7 @@ modified: '2026-07-19'
 name: Hackajob
 nav: Providers
 network: true
-overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Job.
+overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Talent, and Job.
 
 
   Hackajob''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
@@ -139,7 +139,7 @@ security:
 slug: hackajob
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Hiring
 - Talent
 - Job

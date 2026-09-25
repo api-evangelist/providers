@@ -122,7 +122,7 @@ tags:
 - Source-to-Pay
 - Supplier Management
 - Contract Lifecycle Management
-- Third-Party Risk
+- Third-Party Risk Management
 - Spend Management
 - Enterprise Saas
 website: https://getfocalpoint.com/

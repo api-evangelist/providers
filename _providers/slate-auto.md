@@ -93,7 +93,7 @@ modified: '2026-07-21'
 name: Slate Auto
 nav: Providers
 network: true
-overview: 'Slate Auto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Automotive, EV, and Electric Truck.
+overview: 'Slate Auto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, Automotive, Electric Truck, and Manufacturing.
 
 
   Slate Auto''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
@@ -135,7 +135,6 @@ tags:
 - Company
 - Electric Vehicles
 - Automotive
-- EV
 - Electric Truck
 - Manufacturing
 - Mobility

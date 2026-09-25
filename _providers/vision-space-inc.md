@@ -50,10 +50,10 @@ description: Vision Space Inc. (VisionSpace) is a South Korean company building 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vision-space-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Vision Space Inc.
+name: Vision Space
 nav: Providers
 network: true
-overview: Vision Space Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Simulation, Digital Twin, and Physical AI.
+overview: Vision Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Simulation, Digital Twin, and Physical AI.
 random_paper: 8
 score:
   band: minimal

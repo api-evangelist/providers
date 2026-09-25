@@ -429,7 +429,10 @@ apis:
   description: The White Labels API from Magnite — 1 operation(s) for white labels.
   name: Magnite White Labels API
   slug: magnite-white-labels-api
-artifact_total: 85
+- description: 'Magnite''s Exchange API (xAPI) protobuf extensions to the IAB OpenRTB 2.x protobuf definitions, published in the open on GitHub. Defines Magnite-specific OpenRTB extension fields (extension IDs in the '
+  name: Magnite Exchange API (xAPI) OpenRTB Extensions
+  slug: rubicon-project-openrtb-xapi
+artifact_total: 86
 collections:
 - collection_type: open
   name: SpringServe UI API (V0)
@@ -738,7 +741,7 @@ score:
   band: developing
   composite: 49.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0

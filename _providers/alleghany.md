@@ -87,10 +87,10 @@ description: Alleghany Corporation is a holding company engaged in property and 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alleghany.png
 layout: provider
 modified: '2026-05-23'
-name: Alleghany Corporation
+name: Alleghany
 nav: Providers
 network: true
-overview: Alleghany Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Reinsurance, Property and Casualty, Specialty Insurance, and Excess and Surplus.
+overview: Alleghany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Reinsurance, Property and Casualty, Specialty Insurance, and Excess and Surplus.
 press:
 - date: ''
   title: Familiarity, similarity driving Berkshire's Alleghany deal

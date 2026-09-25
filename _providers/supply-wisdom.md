@@ -158,7 +158,7 @@ modified: '2026-08-29'
 name: Supply Wisdom
 nav: Providers
 network: true
-overview: 'Supply Wisdom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk, Third-Party Risk Management, Supply Chain, and Governance Risk and Compliance.
+overview: 'Supply Wisdom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk Management, Third-Party Risk Management, Supply Chain, and Governance Risk and Compliance.
 
 
   The Supply Wisdom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -215,7 +215,7 @@ security:
 slug: supply-wisdom
 tags:
 - Company
-- Risk
+- Risk Management
 - Third-Party Risk Management
 - Supply Chain
 - Governance Risk and Compliance

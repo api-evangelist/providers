@@ -153,7 +153,7 @@ tags:
 - Risk Quantification
 - Catastrophe Modeling
 - Underwriting
-- Third-Party Risk
+- Third-Party Risk Management
 - Security Ratings
 website: https://cyberwrite.com
 ---

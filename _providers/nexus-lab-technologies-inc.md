@@ -50,10 +50,10 @@ description: Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction so
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexus-lab-technologies-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Nexus Lab Technologies, Inc.
+name: Nexus Lab Technologies
 nav: Providers
 network: true
-overview: Nexus Lab Technologies, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Sustainability, Climate, and Machine Learning.
+overview: Nexus Lab Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Sustainability, Climate, and Machine Learning.
 random_paper: 3
 score:
   band: minimal

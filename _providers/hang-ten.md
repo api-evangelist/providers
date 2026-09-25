@@ -115,7 +115,7 @@ tags:
 - Enterprise Software
 - AI Services
 - Consulting
-- Agentic AI
+- AI Agents
 - SAP
 website: https://hangten.ai
 ---

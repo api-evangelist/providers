@@ -51,10 +51,10 @@ description: SecureInfo Corporation was a cybersecurity and information-assuranc
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/secureinfo-corporation.png
 layout: provider
 modified: '2026-07-21'
-name: SecureInfo Corporation
+name: SecureInfo
 nav: Providers
 network: true
-overview: SecureInfo Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Information Assurance, Compliance, and FISMA.
+overview: SecureInfo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Information Assurance, Compliance, and FISMA.
 random_paper: 10
 score:
   band: minimal

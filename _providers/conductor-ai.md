@@ -151,6 +151,6 @@ tags:
 - Compliance
 - Workflow Automation
 - Document Review
-- Agentic AI
+- AI Agents
 website: https://www.conductorai.com
 ---

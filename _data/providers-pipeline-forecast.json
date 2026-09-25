@@ -29,15 +29,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -3031,49 +3031,6 @@
      "rank": 67
     },
     {
-     "name": "BizAPI",
-     "slug": "bizapi",
-     "description": "BizAPI is a real-time Business Intelligence API from the NAICS Association that provides firmographic data on over 220 million US and international business entities. It enables businesses to enrich CRM records, power customer acquisition workflows, and append NAICS codes, SIC codes, DUNS numbers, company details, sales volume, employee counts, and corporate hierarchy information to any business record via a simple REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 68.0,
-      "contract_governance": 33.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
      "name": "DealHub",
      "slug": "dealhub",
      "description": "DealHub is an agentic quote-to-revenue platform that unifies CPQ (Configure, Price, Quote), CLM (contract lifecycle management), DealRoom digital sales rooms, subscription management, usage-based billing and revenue recognition. The platform is governed by the customer's CRM — with native connectors for Salesforce, HubSpot and Microsoft Dynamics — and centers the quoting experience on a guided-selling Playbook that generates products, calculates pricing and applies discount and approval workflows automatically. DealHub publishes a public developer portal at developers.dealhub.io covering eleven OpenAPI 3.0.3 contracts: Quote, Headless Quote, Actions, CRM, CRM Import, User, Partner, Pricing and Version APIs on api.dealhub.io, the Subskribe billing and revenue API acquired with Subskribe on api.app.subskribe.com, plus two inbound callback contracts (External Query and Callouts) that customers implement so DealHub can pull real-time data and pricing from an external system during quote generation.",
@@ -3114,7 +3071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -3157,7 +3114,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "QuotaPath",
@@ -3200,7 +3157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Chatsimple",
@@ -3243,7 +3200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Lone Wolf Technologies",
@@ -3293,7 +3250,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Sweep",
@@ -3336,7 +3293,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Mixmax",
@@ -3379,7 +3336,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "MadKudu",
@@ -3422,7 +3379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "AutoLeadStar",
@@ -3465,7 +3422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Fullcast",
@@ -3508,7 +3465,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Reevo",
@@ -3551,7 +3508,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Agile CRM",
@@ -3594,7 +3551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "PersistIQ",
@@ -3637,7 +3594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Reform",
@@ -3680,7 +3637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Involve Asia",
@@ -3723,7 +3680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "involve.me",
@@ -3766,7 +3723,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Oracle Eloqua",
@@ -3809,7 +3766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Nimble",
@@ -3852,7 +3809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Seam AI",
@@ -3895,7 +3852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Clozd",
@@ -3938,7 +3895,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Mindtickle",
@@ -3988,7 +3945,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "WoowUp",
@@ -4031,7 +3988,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Cast Corporation",
@@ -4074,7 +4031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Frontline",
@@ -4117,7 +4074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Orum",
@@ -4160,7 +4117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Wealth-X",
@@ -4203,7 +4160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Equals",
@@ -4246,7 +4203,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "CaptivateIQ",
@@ -4289,7 +4246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Monaco",
@@ -4332,7 +4289,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Samu",
@@ -4375,7 +4332,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "ClearSlide",
@@ -4418,7 +4375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "SharpSpring",
@@ -4461,7 +4418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Matik",
@@ -4504,7 +4461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Gojiberry AI",
@@ -4547,7 +4504,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "EasyWebinar",
@@ -4590,7 +4547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Coefficient Works",
@@ -4633,7 +4590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Rox",
@@ -4676,7 +4633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Conversica",
@@ -4726,7 +4683,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "HockeyStack",
@@ -4769,7 +4726,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Boostup",
@@ -4812,7 +4769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Noded AI",
@@ -4855,7 +4812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Magic Moment",
@@ -4898,7 +4855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Caretta",
@@ -4939,6 +4896,49 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
+     "name": "BizAPI",
+     "slug": "bizapi",
+     "description": "BizAPI is a real-time Business Intelligence API from the NAICS Association that provides firmographic data on over 220 million US and international business entities. It enables businesses to enrich CRM records, power customer acquisition workflows, and append NAICS codes, SIC codes, DUNS numbers, company details, sales volume, employee counts, and corporate hierarchy information to any business record via a simple REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png",
+     "score": 39.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 17.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 111

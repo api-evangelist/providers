@@ -440,6 +440,6 @@ tags:
 - Cloud
 - Open Source
 - gRPC
-- Agentic AI
+- AI Agents
 website: https://www.kurrent.io/
 ---

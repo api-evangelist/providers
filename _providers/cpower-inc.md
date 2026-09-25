@@ -86,13 +86,13 @@ description: CPower Energy is a commercial and industrial (C&I) virtual power pl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cpower-inc.png
 layout: provider
 modified: '2026-07-18'
-name: CPower, Inc.
+name: CPower
 nav: Providers
 network: true
-overview: 'CPower, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Energy, Demand Response, and Virtual Power Plant.
+overview: 'CPower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Energy, Demand Response, and Virtual Power Plant.
 
 
-  CPower, Inc.''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  CPower''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 3
 score:
   band: emerging

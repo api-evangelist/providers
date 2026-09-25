@@ -147,5 +147,6 @@ tags:
 - Industrial IoT
 - Manufacturing
 - Fortune 100
+- Industrial
 website: https://www.honeywell.com
 ---

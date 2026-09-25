@@ -121,7 +121,7 @@ modified: '2026-09-16'
 name: Zot
 nav: Providers
 network: true
-overview: Zot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 5 more. Tagged areas include Decentralized, Federation, Privacy, and Social Networking.
+overview: Zot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Catalog API, Manifests API, and 5 more. Tagged areas include Decentralized, Federation, Privacy, and Social Network.
 plans:
 - name: Zot Plans Pricing
   plan_count: 1
@@ -175,6 +175,6 @@ tags:
 - Decentralized
 - Federation
 - Privacy
-- Social Networking
+- Social Network
 website: https://zotlabs.org
 ---

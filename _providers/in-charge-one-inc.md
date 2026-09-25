@@ -46,10 +46,10 @@ description: 'In Charge One, Inc. is a hardware startup behind "Socket to Pocket
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/in-charge-one-inc.png
 layout: provider
 modified: '2026-07-19'
-name: In Charge One, Inc.
+name: In Charge One
 nav: Providers
 network: true
-overview: In Charge One, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, IoT, Charging, and Electric Vehicle Charging.
+overview: In Charge One is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, IoT, Charging, and EV Charging.
 random_paper: 20
 score:
   band: minimal
@@ -100,7 +100,7 @@ tags:
 - Hardware
 - IoT
 - Charging
-- Electric Vehicle Charging
+- EV Charging
 - Payments
 - Consumer Electronics
 - Energy

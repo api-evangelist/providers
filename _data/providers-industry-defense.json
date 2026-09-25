@@ -1,6 +1,6 @@
 {
- "total": 325,
- "shown": 325,
+ "total": 324,
+ "shown": 324,
  "limit": 1000,
  "bands": [
   {
@@ -1285,7 +1285,7 @@
      "rank": 27
     },
     {
-     "name": "Cubic Corporation",
+     "name": "Cubic",
      "slug": "cubic",
      "description": "Cubic Corporation is a San Diego defense and public-transportation technology company (Cubic Transportation Systems and Cubic Defense) that delivers fare-collection, traffic management and mission systems under agency and government contracts. Its one publicly documented API is the Umo IQ Public Feed (the former NextBus feed) served by Cubic Transportation Systems at retro.umoiq.com: an anonymous XML/JSON query-command feed of transit agencies, routes, stops, arrival predictions, schedules, service messages and live vehicle locations for the agencies Cubic serves. Cubic's other integration surfaces (GRIDSMART, Trafficware, the Umo agency portal API) sit behind customer logins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/screenshots/cubic-2026-06-20T175329.png",
@@ -1378,7 +1378,7 @@
      "rank": 29
     },
     {
-     "name": "AAR Corp",
+     "name": "AAR",
      "slug": "aar",
      "description": "AAR CORP. (NYSE: AIR) is a global aerospace and defense aftermarket solutions company and the number one aviation maintenance, repair and overhaul (MRO) provider in North America. It supplies new and used airframe and engine parts, performs airframe and component MRO, runs expeditionary and sustainment programs for government and defense customers on five continents, and operates four aviation software businesses — Trax (eMRO/eMobility aviation ERP), Aerostrat (Aerros maintenance scheduling), Airvoyant (AI-driven parts procurement, launched April 2026) and Airinmar (component repair and warranty management) — whose software covers more than 10,000 aircraft. AAR publishes no developer program, no API reference and no machine-readable contract; its only anonymously reachable API surface is the undocumented Adobe Commerce webapi behind the AAR PAARTS Store at shop.aarcorp.com/rest/V1/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png",
@@ -2796,49 +2796,6 @@
      "rank": 59
     },
     {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
-     "score": 19.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
      "name": "Carpenter Technology",
      "slug": "carpenter-technology",
      "description": "Carpenter Technology Corporation is a U.S.-based producer and distributor of premium specialty alloys — including titanium alloys, powder metals, high-temperature stainless steels, tool steels, and soft magnetic alloys — serving the aerospace, defense, medical, transportation, energy, and industrial end markets. The company supports customers through technical product resources such as its Alloy Finder, alloy technical data sheets, conversion tables, and a member-only Customer Portal for order and account self-service, but does not currently publish a public developer API.",
@@ -2886,7 +2843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Blue Origin",
@@ -2928,7 +2885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Second Front Systems",
@@ -2978,7 +2935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Lunar Outpost",
@@ -3021,7 +2978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Triumph Group",
@@ -3064,7 +3021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Conductor AI",
@@ -3114,7 +3071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "CACI International",
@@ -3164,7 +3121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Aethero",
@@ -3207,7 +3164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Descartes Labs",
@@ -3257,7 +3214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "AMPAworks",
@@ -3304,6 +3261,49 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 69
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -5373,7 +5373,7 @@
      "rank": 115
     },
     {
-     "name": "HEICO Corporation",
+     "name": "HEICO",
      "slug": "heico",
      "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/screenshots/heico-2026-06-20T182623.png",
@@ -5551,8 +5551,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 206,
-   "shown": 206,
+   "count": 205,
+   "shown": 205,
    "providers": [
     {
      "name": "Canopy Aerospace & Defense",
@@ -5819,56 +5819,6 @@
      "rank": 125
     },
     {
-     "name": "American Superconductor Corporation",
-     "slug": "american-superconductor-corporation",
-     "description": "American Superconductor Corporation (AMSC) is a Ayer, Massachusetts based power systems company that designs and deploys grid interconnection, power protection, and power supply solutions for the energy, renewables, industrial, utility, and military sectors. Its portfolio spans grid systems such as D-VAR dynamic reactive compensation and STATCOM, ship protection and degaussing systems for naval defense, wind turbine electrical control systems, and Amperium high-temperature superconductor wire. AMSC was surfaced as a portfolio company of kleiner-perkins and added to the API Evangelist network. This is a public-company / hardtech profile with no public developer API surface; the enrichment pass captured domain-security posture and corporate link properties only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-superconductor-corporation/refs/heads/main/screenshots/american-superconductor-corporation-2026-07-25T200047.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 126
-    },
-    {
      "name": "AMSC",
      "slug": "amsc",
      "description": "American Superconductor Corporation (AMSC) is a power control systems company headquartered in Ayer, Massachusetts, and traded publicly on NASDAQ under the ticker AMSC. The company designs and delivers grid and power-electronics solutions across three specialties - power supply, power protection, and power innovation - serving the energy, renewables, utility, industrial, materials, and military sectors. Its offerings span grid capacity and resiliency systems, renewable generation integration, industrial process power control, and shipboard power protection for naval defense. AMSC is an early Battery Ventures portfolio investment. AMSC does not currently publish a public developer API, SDK, or developer portal; this profile captures the company's corporate identity and domain security posture within the API Evangelist network.",
@@ -5916,7 +5866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Blue Water Autonomy",
@@ -5959,7 +5909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Dedrone",
@@ -6002,7 +5952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Forterra",
@@ -6045,7 +5995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Mesodyne",
@@ -6095,7 +6045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Northwood Space",
@@ -6137,7 +6087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Reach",
@@ -6187,7 +6137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Toka",
@@ -6237,7 +6187,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Vita Inclinata",
@@ -6280,7 +6230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Divergent",
@@ -6323,7 +6273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Dominion Dynamics",
@@ -6373,7 +6323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "ABL Space Systems",
@@ -6416,7 +6366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "AIM Intelligent Machines",
@@ -6458,7 +6408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Air Company",
@@ -6508,7 +6458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "BETA Technologies",
@@ -6551,7 +6501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Niron Magnetics",
@@ -6601,7 +6551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Reliable Robotics",
@@ -6644,7 +6594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Seurat Technologies",
@@ -6687,7 +6637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Sierra Space",
@@ -6730,7 +6680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Vake",
@@ -6773,7 +6723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Laelaps AI",
@@ -6816,7 +6766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Ducommun",
@@ -6859,7 +6809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Freeform",
@@ -6902,7 +6852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Insitu",
@@ -6945,7 +6895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Ocean Aero",
@@ -6988,7 +6938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Sales Patriot",
@@ -7031,7 +6981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Senra Systems",
@@ -7074,10 +7024,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
-     "name": "Parsons Corporation",
+     "name": "Parsons",
      "slug": "parsons",
      "description": "Parsons Corporation is a major US corporation and Fortune 1000 company. The Parsons Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parsons/refs/heads/main/screenshots/parsons-2026-06-20T191422.png",
@@ -7124,7 +7074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Westmag",
@@ -7167,10 +7117,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
-     "name": "Allegheny Technologies Incorporated",
+     "name": "ATI",
      "slug": "allegheny-technologies",
      "description": "Allegheny Technologies Incorporated, which trades and brands itself as ATI Inc., is an American producer of specialty materials and components headquartered in Dallas, Texas and listed on the NYSE under the ticker ATI. ATI melts, forges, rolls, machines and additively manufactures titanium and titanium alloys, nickel-based alloys and superalloys, stainless and specialty steels, zirconium, hafnium, niobium and tungsten materials, plus forgings and castings. It serves aerospace and defense — over half of sales — along with oil and gas, chemical and hydrocarbon processing, power generation, medical and electronics markets, on roughly $4.6 billion in annual revenue. ATI is a materials manufacturer rather than a software company and publishes no public API: as of 2026-09-01 probing found no developer portal, no API reference, no OpenAPI, AsyncAPI, GraphQL or WSDL contract, no SDK on any public package registry and no GitHub organization. The only credentialed digital surfaces are My ATI, a customer and supplier extranet behind a logon form, and a third-party sourcing platform linked from the supplier self-service page; customer onboarding itself is documented as PDF forms emailed to a sales contact.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allegheny-technologies/refs/heads/main/screenshots/allegheny-technologies-2026-07-25T195653.png",
@@ -7210,7 +7160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Castelion",
@@ -7253,7 +7203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "HavocAI",
@@ -7296,7 +7246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Vatn Systems",
@@ -7338,7 +7288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "VulcanForms",
@@ -7381,7 +7331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Whisper Aero",
@@ -7424,7 +7374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Achates Power",
@@ -7474,7 +7424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "GrayMatter Robotics",
@@ -7517,7 +7467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Lumotive",
@@ -7560,7 +7510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Science Applications International Corporation (SAIC)",
@@ -7610,7 +7560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Aerospacelab",
@@ -7660,7 +7610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Textron",
@@ -7703,7 +7653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "JetZero",
@@ -7746,7 +7696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "REGENT Craft",
@@ -7789,7 +7739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Airis Labs",
@@ -7831,7 +7781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "SATIM",
@@ -7874,7 +7824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Scout",
@@ -7917,7 +7867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "Prewitt Ridge",
@@ -7960,7 +7910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "USA Rare Earth",
@@ -8010,7 +7960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Astranis",
@@ -8053,7 +8003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Adarga",
@@ -8095,7 +8045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Code Metal",
@@ -8138,7 +8088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Hexcel",
@@ -8181,7 +8131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Vannevar Labs",
@@ -8224,7 +8174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Allen Control Systems",
@@ -8267,7 +8217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Arondite",
@@ -8310,7 +8260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Cx2",
@@ -8353,7 +8303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "DEFCON AI",
@@ -8396,7 +8346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Involve Space",
@@ -8439,7 +8389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Mach Industries",
@@ -8482,7 +8432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Orqa",
@@ -8525,7 +8475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Overland AI",
@@ -8568,7 +8518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Vermeer",
@@ -8611,7 +8561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "6K",
@@ -8661,7 +8611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Astra Space",
@@ -8704,7 +8654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Firestorm",
@@ -8747,7 +8697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Cognitive Space",
@@ -8797,7 +8747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Amca",
@@ -8840,7 +8790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Teradar",
@@ -8883,7 +8833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Path Robotics",
@@ -8933,7 +8883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Cambium",
@@ -8976,7 +8926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Distance",
@@ -9019,7 +8969,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "Oshkosh",
@@ -9062,7 +9012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "United States Africa Command",
@@ -9112,7 +9062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Addionics",
@@ -9161,7 +9111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Aeon Industrial",
@@ -9210,7 +9160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "L3Harris Technologies",
@@ -9260,7 +9210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Moog",
@@ -9310,7 +9260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "GATE Space",
@@ -9353,7 +9303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Kela Technologies",
@@ -9396,7 +9346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Pyka",
@@ -9439,7 +9389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Defense Information System for Security",
@@ -9489,7 +9439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Rebellion Defense",
@@ -9539,7 +9489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Astro Mechanica",
@@ -9582,10 +9532,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
-     "name": "Isengard Industries Inc",
+     "name": "Isengard Industries",
      "slug": "isengard-industries-inc",
      "description": "Isengard Industries builds sovereign production capability for defense: the means for allied nations to manufacture precision-strike and counter-drone (counter-UAS) systems by the thousand, on their own soil, at a fraction of what traditional prime contractors charge. The company describes its approach as \"Weapons of Mass Production.\" Founded in 2026 and part of Y Combinator's Summer 2026 batch, it is led by Francisco Serra-Martins (previously co-founder/CEO of Terminal Autonomy) and James Tennant (former Australian Army officer), and is headquartered in San Francisco. As a hardware and defense-manufacturing company it does not currently publish a public developer API, SDKs, or API documentation; this profile captures its public identity and security surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/isengard-industries-inc/refs/heads/main/screenshots/isengard-industries-inc-2026-07-25T222940.png",
@@ -9625,7 +9575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Rolls-Royce",
@@ -9675,7 +9625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "LINSOL Co.,Ltd.",
@@ -9718,7 +9668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Quantum Space",
@@ -9761,7 +9711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Xwing",
@@ -9803,7 +9753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Aerospace Kate",
@@ -9845,7 +9795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "ThayerMahan",
@@ -9888,7 +9838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Arctus Aerospace",
@@ -9931,7 +9881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Atlas Motion Systems",
@@ -9974,7 +9924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Heaviside Industries",
@@ -10017,7 +9967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Seeing Systems",
@@ -10060,7 +10010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "VICTUS Technologies",
@@ -10103,7 +10053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Leidos",
@@ -10146,7 +10096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Muon Space",
@@ -10189,7 +10139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "TTM Technologies",
@@ -10232,7 +10182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Defense Contract Management Agency",
@@ -10282,7 +10232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Unmannd",
@@ -10325,7 +10275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Arlo Industries",
@@ -10368,7 +10318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "BlackSky",
@@ -10411,7 +10361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "BlueYard",
@@ -10453,7 +10403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Constelli",
@@ -10496,7 +10446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Fortastra",
@@ -10539,7 +10489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Hermeus",
@@ -10582,7 +10532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Inversion",
@@ -10624,7 +10574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "MightyFly",
@@ -10667,7 +10617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Quantum Systems",
@@ -10710,7 +10660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "Shift5",
@@ -10753,7 +10703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Spirit AeroSystems Holdings",
@@ -10796,7 +10746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "Tekever",
@@ -10839,7 +10789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Vulcan Elements",
@@ -10882,7 +10832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Firehawk Aerospace",
@@ -10925,7 +10875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "AICE",
@@ -10968,7 +10918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Foundation Robotics Labs",
@@ -11011,7 +10961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "NODA AI",
@@ -11054,7 +11004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Valinor",
@@ -11104,7 +11054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "PowerLight Technologies",
@@ -11154,7 +11104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Radia",
@@ -11204,10 +11154,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
-     "name": "9 Mothers Corporation",
+     "name": "9 Mothers",
      "slug": "9-mothers-corporation",
      "description": "9 Mothers Corporation is a defense technology company founded in 2024 and based in Austin, Texas, building AI-powered counter-drone (C-sUAS) point defense systems for the FPV drone era. Its flagship product, EDDA, is a small, low-power, autonomous-capable point-defense turret that engages Group 1 suicide drones at 10-100+ meter range to protect soldiers, vehicles, and critical assets. A Y Combinator Spring 2026 company with reported sales to the U.S. Department of War, its roadmap includes Vor (passive acoustic sensor), Atla (belt-fed shotgun system), and Gleipnir (counter-drone for larger platforms). This profile was surfaced as a Y Combinator portfolio company and added to the API Evangelist network. The company publishes no public API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/9-mothers-corporation/refs/heads/main/screenshots/9-mothers-corporation-2026-07-25T181246.png",
@@ -11247,7 +11197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "American Aerospace Advisors",
@@ -11290,7 +11240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Basalt",
@@ -11333,7 +11283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "BBN",
@@ -11376,7 +11326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Cambridge Aerospace",
@@ -11419,7 +11369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "Citadel",
@@ -11461,7 +11411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "Defense Finance and Accounting Service",
@@ -11511,7 +11461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Distributedspectrum",
@@ -11554,7 +11504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Earendil Robotics",
@@ -11597,7 +11547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "EraDrive",
@@ -11640,7 +11590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "General Radar",
@@ -11683,7 +11633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "Ghost Robotics",
@@ -11726,7 +11676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Greypoint Industries",
@@ -11769,7 +11719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "HawkEye 360",
@@ -11812,7 +11762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Hop Aero",
@@ -11855,7 +11805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Hypersonica",
@@ -11898,7 +11848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Iridium",
@@ -11940,7 +11890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "K2 Space",
@@ -11983,7 +11933,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "Mantari",
@@ -12025,7 +11975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Maquoketa Research",
@@ -12068,7 +12018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "Milliray",
@@ -12111,7 +12061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "OGSystems",
@@ -12154,7 +12104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "Orbital ATK",
@@ -12196,7 +12146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Ornadyne",
@@ -12239,7 +12189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Paragon Solutions",
@@ -12281,7 +12231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Performance Drone Works",
@@ -12323,7 +12273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Philly Shipyard",
@@ -12366,7 +12316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Phoenix Tailings",
@@ -12409,7 +12359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "Pratt & Whitney",
@@ -12452,7 +12402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Raphe Mphibr",
@@ -12495,7 +12445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Rise Robotics",
@@ -12538,7 +12488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Rocket Lab",
@@ -12581,7 +12531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Seasats",
@@ -12624,10 +12574,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
-     "name": "SecureInfo Corporation",
+     "name": "SecureInfo",
      "slug": "secureinfo-corporation",
      "description": "SecureInfo Corporation was a cybersecurity and information-assurance company focused on FISMA and federal compliance, surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass the domain www.secureinfo.com no longer serves an independent site — its TLS certificate resolves to kratosdefense.com (Kratos Defense), indicating the business was acquired/absorbed. No independent public API, developer portal, or OpenAPI surface was found; this profile records that honest finding.",
      "score": 5.0,
@@ -12666,7 +12616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "Singularity",
@@ -12709,7 +12659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Surtr Defense Systems",
@@ -12752,7 +12702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Target Arm",
@@ -12795,7 +12745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Tenet Industries",
@@ -12838,7 +12788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Terra Industries",
@@ -12881,7 +12831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Ursa Space Systems",
@@ -12924,7 +12874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Venus Aerospace",
@@ -12967,7 +12917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "VeriTX",
@@ -13010,7 +12960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "ZeroMark",
@@ -13052,7 +13002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Lockheed Martin",
@@ -13095,7 +13045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "GE Aerospace",
@@ -13138,7 +13088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Huntington Ingalls Industries",
@@ -13181,7 +13131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Aliro Quantum",
@@ -13231,7 +13181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Gallatin AI",
@@ -13281,7 +13231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Raytheon",
@@ -13331,7 +13281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "ATI",
@@ -13374,7 +13324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Epirus",
@@ -13424,7 +13374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "L-3 Communications",
@@ -13474,7 +13424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Percipient.ai",
@@ -13524,7 +13474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Smacktechnologies",
@@ -13574,7 +13524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Amprius Technologies",
@@ -13624,7 +13574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Coreshell",
@@ -13674,7 +13624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Day & Zimmermann",
@@ -13724,7 +13674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Plexus",
@@ -13774,7 +13724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Zeno Power",
@@ -13823,7 +13773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "ManTech International",
@@ -13873,7 +13823,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Nlight",
@@ -13923,7 +13873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "BBN Technologies",
@@ -13973,7 +13923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Exelis",
@@ -14023,7 +13973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "KBR",
@@ -14073,7 +14023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Chariot Defense",
@@ -14123,7 +14073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Curtiss-Wright",
@@ -14173,7 +14123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Icarus",
@@ -14223,7 +14173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Linear Labs",
@@ -14273,7 +14223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Marianaminerals",
@@ -14323,7 +14273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "NPco",
@@ -14373,7 +14323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Academi",
@@ -14422,7 +14372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Sion Power",
@@ -14472,7 +14422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Viasat",
@@ -14519,7 +14469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "Navy",
@@ -14569,7 +14519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "V2X",
@@ -14619,7 +14569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "PAE",
@@ -14671,7 +14621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Kumu Networks",
@@ -14720,7 +14670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "Xenesis",
@@ -14769,7 +14719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Delta Tucker Holdings",
@@ -14821,7 +14771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     }
    ]
   }

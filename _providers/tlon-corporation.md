@@ -141,13 +141,13 @@ mcp_servers:
   name: Tlon MCP Server
   slug: tlon-mcp-server
 modified: '2026-07-21'
-name: Tlon Corporation
+name: Tlon
 nav: Providers
 network: true
-overview: 'Tlon Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Social, Urbit, and Self-Hosting.
+overview: 'Tlon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Social, Urbit, and Self-Hosting.
 
 
-  Tlon Corporation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, signup flow, and 14 more developer resources.'
+  Tlon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, signup flow, and 14 more developer resources.'
 random_paper: 18
 score:
   band: emerging

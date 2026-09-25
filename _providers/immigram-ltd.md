@@ -69,13 +69,13 @@ description: Immigram is a UK relocation and immigration platform that helps IT 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/immigram-ltd.png
 layout: provider
 modified: '2026-07-19'
-name: Immigram LTD
+name: Immigram
 nav: Providers
 network: true
-overview: 'Immigram LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Visa, Relocation, and Global Talent Visa.
+overview: 'Immigram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Visa, Relocation, and Global Talent Visa.
 
 
-  Immigram LTD''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
+  Immigram''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
 random_paper: 10
 score:
   band: emerging

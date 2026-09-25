@@ -258,5 +258,6 @@ tags:
 - Audio
 - Generative
 - TTS
+- Music
 website: https://suno.com/
 ---

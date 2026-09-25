@@ -1,6 +1,6 @@
 {
- "total": 277,
- "shown": 277,
+ "total": 279,
+ "shown": 279,
  "limit": 1000,
  "bands": [
   {
@@ -466,8 +466,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 24,
-   "shown": 24,
+   "count": 25,
+   "shown": 25,
    "providers": [
     {
      "name": "Calm",
@@ -1120,56 +1120,6 @@
      "rank": 22
     },
     {
-     "name": "Hyperice",
-     "slug": "hyperice",
-     "description": "Hyperice is a recovery and movement-enhancement technology company founded in 2010 and headquartered in Irvine, California, known for the Hypervolt percussion massage line, the Normatec dynamic air-compression systems it acquired in 2020, and the Venom thermal/vibration wearables. Its API surface is not a developer platform but an agentic-commerce storefront: hyperice.com runs on Shopify and publishes a machine-readable agent contract at /llms.txt and /agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a live MCP shopping server at /api/ucp/mcp, a fully introspectable Shopify Storefront GraphQL API, OIDC/OAuth2 customer accounts at accounts.hyperice.com, and an unauthenticated read-only product and collection JSON surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 49.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 58.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 23
-    },
-    {
      "name": "Nutritionix",
      "slug": "nutritionix",
      "description": "Nutritionix operates the world's largest verified nutrition database, exposing a Track API (v2) that converts natural-language food and exercise descriptions into full nutrient analysis, and powers food search, branded item lookup, and restaurant menu data for diet, fitness, and health applications.",
@@ -1217,7 +1167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Under Armour",
@@ -1267,7 +1217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Polar",
@@ -1317,7 +1267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Zenoti",
@@ -1356,6 +1306,56 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
+     "name": "Withings",
+     "slug": "withings",
+     "description": "Withings is a connected health device platform providing a REST API for accessing data from smart scales, blood pressure monitors, sleep trackers, thermometers, and fitness watches. The API uses OAuth2 for authentication and provides access to a wide range of health biomarkers including body composition, cardiovascular data, sleep metrics, activity tracking, and clinical-grade measurements. Partners and developers can integrate Withings health data into their applications for remote patient monitoring, wellness platforms, and research applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png",
+     "score": 41.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 59.4,
+      "contract_governance": 25.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1668,6 +1668,56 @@
       "agentic_commerce": false
      },
      "rank": 33
+    },
+    {
+     "name": "Hyperice",
+     "slug": "hyperice",
+     "description": "Hyperice is a recovery and movement-enhancement technology company founded in 2010 and headquartered in Irvine, California, known for the Hypervolt percussion massage line, the Normatec dynamic air-compression systems it acquired in 2020, and the Venom thermal/vibration wearables. Its API surface is not a developer platform but an agentic-commerce storefront: hyperice.com runs on Shopify and publishes a machine-readable agent contract at /llms.txt and /agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a live MCP shopping server at /api/ucp/mcp, a fully introspectable Shopify Storefront GraphQL API, OIDC/OAuth2 customer accounts at accounts.hyperice.com, and an unauthenticated read-only product and collection JSON surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png",
+     "score": 39.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 34
     }
    ]
   },
@@ -1720,7 +1770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Spike",
@@ -1770,7 +1820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Terra",
@@ -1820,7 +1870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Eversports",
@@ -1863,7 +1913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Wodify",
@@ -1906,7 +1956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "ABC Trainerize",
@@ -1949,7 +1999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "PushPress",
@@ -1992,7 +2042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "SparkyFitness",
@@ -2042,7 +2092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Therabody",
@@ -2092,7 +2142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "AG1",
@@ -2142,7 +2192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Momence",
@@ -2192,7 +2242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Miri",
@@ -2242,7 +2292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Parsley Health",
@@ -2292,7 +2342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Soothe",
@@ -2342,7 +2392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Vagaro",
@@ -2385,19 +2435,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "The Picklr",
      "slug": "the-picklr",
      "description": "The Picklr is the largest indoor pickleball club franchise in North America, founded in 2021 in Utah by Jorge Barragan and Austin Wood and franchising since March 2023. It operates membership-based indoor facilities offering unlimited court reservations, open play, adult and junior coaching academies, leagues, tournaments and corporate events, with a single membership valid at every club nationwide. The company publishes no developer programme and sells no API product. It does, however, serve a genuine machine-readable surface from its own domain: a public WordPress REST API exposing 157 club locations plus pages, posts, press and events; a published llms.txt; and three live Model Context Protocol endpoints advertised through RFC 8414 and RFC 9728 discovery documents and gated by an OAuth 2.1 authorization server with PKCE and dynamic client registration. Court booking, membership billing and reservations run on PlayByPoint, a third-party platform, and are outside any Picklr-owned contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/screenshots/the-picklr-2026-09-02T163406.png",
-     "score": 28.4,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 26.8,
@@ -2412,15 +2462,15 @@
       "score": 47.5,
       "matched_via": "tags"
      },
-     "agent_score": 33.0,
-     "agent_band": "agent-ready",
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "served",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -2429,13 +2479,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Zen Planner",
@@ -2478,7 +2528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     }
    ]
   },
@@ -2487,8 +2537,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 97,
-   "shown": 97,
+   "count": 98,
+   "shown": 98,
    "providers": [
     {
      "name": "LegitFit",
@@ -2538,7 +2588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Levels",
@@ -2588,7 +2638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "IM8 Health",
@@ -2638,7 +2688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Noom",
@@ -2699,7 +2749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Chill",
@@ -2749,7 +2799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Aescape",
@@ -2799,7 +2849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Glofox",
@@ -2842,7 +2892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Free Exercise DB",
@@ -2892,7 +2942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "18Birdies",
@@ -2934,7 +2984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "hotcake 夯客",
@@ -2977,7 +3027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Garmin",
@@ -3027,7 +3077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Vivoo",
@@ -3077,7 +3127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Modern Health",
@@ -3127,7 +3177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "TrueCoach",
@@ -3177,7 +3227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Gymshark",
@@ -3220,7 +3270,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Tonal",
@@ -3270,7 +3320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Urban Remedy",
@@ -3313,7 +3363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "CoachClub",
@@ -3363,7 +3413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Sworkit",
@@ -3413,7 +3463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Assured Allies",
@@ -3470,7 +3520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Simpatico Project",
@@ -3520,7 +3570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Fresha",
@@ -3570,7 +3620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Bevel",
@@ -3620,7 +3670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "ClassPass",
@@ -3663,7 +3713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Optimity",
@@ -3713,7 +3763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Urban Sports Club",
@@ -3756,7 +3806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Dialogue",
@@ -3806,7 +3856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "7 Cups",
@@ -3855,7 +3905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Coachup",
@@ -3898,7 +3948,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
+    },
+    {
+     "name": "Headspace",
+     "slug": "headspace",
+     "description": "Headspace is a global mental health platform offering consumer mindfulness, meditation, and sleep content alongside Headspace Care (formerly Ginger) — on-demand coaching, therapy, and psychiatry — and Headspace EAP. The B2B business (Headspace for Organizations) serves 4,000+ employers, health plans, and consultants in 190+ countries with a stratified care model (AI companion Ebb, coaches, therapists, psychiatrists). Integration surfaces for enterprise customers — eligibility file feeds, SSO, SCIM, benefit-platform connectors — are delivered under enterprise contracts and are not exposed via a public developer portal. There is no public REST API, no published OpenAPI specification, and no self-serve partner onboarding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/headspace/refs/heads/main/screenshots/headspace-2026-06-20T182552.png",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 81
     },
     {
      "name": "Boldfit",
@@ -3941,7 +4041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "Caliber Fitness",
@@ -3991,7 +4091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Prenuvo",
@@ -4041,7 +4141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "Hormona",
@@ -4091,7 +4191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "NutriSense",
@@ -4141,7 +4241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Source Beauty",
@@ -4184,7 +4284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Morado",
@@ -4227,7 +4327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "GORGIE",
@@ -4277,7 +4377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Fort",
@@ -4327,7 +4427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "Cult.fit",
@@ -4377,7 +4477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Naluri",
@@ -4427,7 +4527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "SAIB & Co.",
@@ -4470,7 +4570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Bold",
@@ -4520,7 +4620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Game Theory",
@@ -4563,7 +4663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Meditopia",
@@ -4612,7 +4712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "Terapify",
@@ -4662,7 +4762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "FitOn",
@@ -4712,7 +4812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Womaness",
@@ -4762,7 +4862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Hole19",
@@ -4805,7 +4905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Yogaia",
@@ -4848,7 +4948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 101
     },
     {
      "name": "10% Happier",
@@ -4898,7 +4998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 102
     },
     {
      "name": "82 Labs",
@@ -4948,7 +5048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "Agebold",
@@ -4998,7 +5098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "Ferra",
@@ -5048,7 +5148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Imperfect",
@@ -5098,7 +5198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Meru Health",
@@ -5148,7 +5248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "SafelyYou",
@@ -5198,7 +5298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "ZOE",
@@ -5248,10 +5348,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
-     "name": "Caresense Pte. Ltd.",
+     "name": "Caresense",
      "slug": "caresense-pte-ltd",
      "description": "CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition, exercise, sleep and stress — and integrated health services including blood testing and telemedicine. The company sells both to individuals and to enterprise teams as a workplace wellbeing programme. CareSense was incorporated in Singapore on 14 June 2024 (UEN 202424008M), registered at 160 Robinson Road #14-04, and was founded by Lucas Ngoo, co-founder of Carousell, and Julian Koo, founder of the home-care platform Jaga-Me. As of this enrichment pass CareSense publishes no public API, developer portal, API documentation or SDKs; its technology surface is consumer and enterprise applications fronted by a Vanta-hosted trust center.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/screenshots/caresense-pte-ltd-2026-07-25T204555.png",
@@ -5298,7 +5398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "TOCA Football",
@@ -5341,7 +5441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "YAZIO",
@@ -5391,7 +5491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Bristle",
@@ -5441,7 +5541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Lenus eHealth",
@@ -5491,7 +5591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Perch",
@@ -5534,7 +5634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "Bioniq",
@@ -5584,7 +5684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Cerebral",
@@ -5634,7 +5734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Fightcamp",
@@ -5684,7 +5784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "Fiture",
@@ -5734,7 +5834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Mindbloom",
@@ -5784,7 +5884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Signos",
@@ -5834,7 +5934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "SuppCo",
@@ -5884,7 +5984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "Nova Benefits",
@@ -5934,10 +6034,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
-     "name": "Rex Inc",
+     "name": "Rex",
      "slug": "rex-inc",
      "description": "Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (W23) health and fitness company building AI-powered, fully automated nutrition tracking. Its consumer products include Rex Nutribot, a WhatsApp AI nutrition coach; the Drop, a wearable AI camera pendant that detects meals and automatically logs calories, protein, carbs, and fats via computer vision; an AI body scanner; and personalized coaching with daily health reports. Rex also offers a white-label B2B nutrition-and-fitness AI that fitness chains and app builders integrate to add meal logging (photo, barcode, or text), recipe and meal-plan generation, workout logging, 3D body scans, and nutrition analytics under their own brand.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/screenshots/rex-inc-2026-09-02T153738.png",
@@ -5984,7 +6084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Greator",
@@ -6027,7 +6127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Purely B",
@@ -6070,7 +6170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "Zeel",
@@ -6120,7 +6220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "GlossGenius",
@@ -6170,7 +6270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Cyberpsyc",
@@ -6220,7 +6320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Hykso",
@@ -6270,7 +6370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "Myclubs",
@@ -6319,7 +6419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "Somethings",
@@ -6369,7 +6469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "Chi Longevity",
@@ -6419,7 +6519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "Hallow",
@@ -6462,7 +6562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 134
     },
     {
      "name": "Aaptiv",
@@ -6512,7 +6612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 135
     },
     {
      "name": "Baby2Body",
@@ -6562,7 +6662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 136
     },
     {
      "name": "Inkblot Therapy",
@@ -6612,7 +6712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 137
     },
     {
      "name": "Rescripted",
@@ -6662,7 +6762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 138
     },
     {
      "name": "Meela",
@@ -6712,7 +6812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "Carreira Beauty",
@@ -6755,7 +6855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 140
     },
     {
      "name": "Lifesum",
@@ -6805,7 +6905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "Athos",
@@ -6855,7 +6955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "Aspect Health",
@@ -6905,7 +7005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "Endel",
@@ -6948,7 +7048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "GNC Holdings",
@@ -6998,7 +7098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 145
     },
     {
      "name": "Lina",
@@ -7048,7 +7148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 146
     },
     {
      "name": "Scape",
@@ -7098,7 +7198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "Second Nature",
@@ -7148,7 +7248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 148
     },
     {
      "name": "FITCO",
@@ -7198,7 +7298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 149
     }
    ]
   },
@@ -7258,7 +7358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 150
     },
     {
      "name": "Kotcha",
@@ -7308,7 +7408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 151
     },
     {
      "name": "Ergatta",
@@ -7351,7 +7451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 152
     },
     {
      "name": "Pluto Brand",
@@ -7394,7 +7494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 153
     },
     {
      "name": "Aumio",
@@ -7444,7 +7544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 154
     },
     {
      "name": "Blue Fever",
@@ -7494,7 +7594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 155
     },
     {
      "name": "Breathwrk",
@@ -7544,7 +7644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 156
     },
     {
      "name": "Future",
@@ -7594,7 +7694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 157
     },
     {
      "name": "Modern Age",
@@ -7644,7 +7744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 158
     },
     {
      "name": "Sweatcoin",
@@ -7694,7 +7794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 159
     },
     {
      "name": "Well",
@@ -7744,7 +7844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 160
     },
     {
      "name": "The Mind Company",
@@ -7794,7 +7894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 161
     },
     {
      "name": "Nourish",
@@ -7844,7 +7944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "TheSkimm",
@@ -7887,7 +7987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Goop",
@@ -7937,7 +8037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 164
     },
     {
      "name": "HumanCo",
@@ -7987,7 +8087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 165
     },
     {
      "name": "Lucid Lane",
@@ -8037,7 +8137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 166
     },
     {
      "name": "Optimal",
@@ -8087,7 +8187,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 167
     },
     {
      "name": "Ritual",
@@ -8137,7 +8237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 168
     },
     {
      "name": "Rosebud",
@@ -8187,7 +8287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 169
     },
     {
      "name": "Sleep Number",
@@ -8236,7 +8336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 170
     },
     {
      "name": "Welly",
@@ -8286,7 +8386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 171
     },
     {
      "name": "Aiwo",
@@ -8335,7 +8435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 170
+     "rank": 172
     },
     {
      "name": "MyARC Fitness",
@@ -8385,7 +8485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 173
     },
     {
      "name": "1Balance",
@@ -8428,7 +8528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 174
     },
     {
      "name": "Wellxai",
@@ -8478,7 +8578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 175
     },
     {
      "name": "GymNadz",
@@ -8528,7 +8628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 176
     },
     {
      "name": "OurHealthMate",
@@ -8578,7 +8678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 177
     },
     {
      "name": "Instacoach",
@@ -8621,7 +8721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 178
     },
     {
      "name": "NHL Records and Stats",
@@ -8664,7 +8764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 179
     },
     {
      "name": "Octave",
@@ -8714,7 +8814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 180
     },
     {
      "name": "Tepali",
@@ -8764,7 +8864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 181
     },
     {
      "name": "Zwift",
@@ -8807,7 +8907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 182
     },
     {
      "name": "8fit",
@@ -8857,7 +8957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 183
     },
     {
      "name": "Equinox Holdings",
@@ -8907,7 +9007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 184
     },
     {
      "name": "Mindset",
@@ -8957,7 +9057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 185
     },
     {
      "name": "Pura Mente",
@@ -9007,7 +9107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 186
     },
     {
      "name": "Hydrow",
@@ -9057,7 +9157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 187
     },
     {
      "name": "Football-Data",
@@ -9100,7 +9200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 188
     },
     {
      "name": "Open mHealth",
@@ -9150,7 +9250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 189
     },
     {
      "name": "Sportmonks Cricket",
@@ -9193,7 +9293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 190
     },
     {
      "name": "Sportmonks Football",
@@ -9236,7 +9336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 191
     },
     {
      "name": "Tredict",
@@ -9279,7 +9379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 192
     },
     {
      "name": "Gabit",
@@ -9329,7 +9429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 193
     },
     {
      "name": "Gut Wellness Club",
@@ -9379,7 +9479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 194
     },
     {
      "name": "AHARA",
@@ -9428,7 +9528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 195
     },
     {
      "name": "balldontlie",
@@ -9471,7 +9571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 196
     },
     {
      "name": "City Bikes",
@@ -9514,7 +9614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 197
     },
     {
      "name": "Cloudbet",
@@ -9557,7 +9657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 198
     },
     {
      "name": "DiscGolf",
@@ -9600,7 +9700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 199
     },
     {
      "name": "Ergast F1",
@@ -9643,7 +9743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 200
     },
     {
      "name": "Football (Soccer) Videos",
@@ -9686,7 +9786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 201
     },
     {
      "name": "JCDecaux Bike",
@@ -9729,7 +9829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 202
     },
     {
      "name": "MLB Records and Stats",
@@ -9772,7 +9872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 203
     },
     {
      "name": "Oddsmagnet",
@@ -9814,7 +9914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 204
     },
     {
      "name": "OpenLigaDB",
@@ -9857,7 +9957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 205
     },
     {
      "name": "RacingHub",
@@ -9900,7 +10000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 206
     },
     {
      "name": "Squiggle",
@@ -9942,7 +10042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 207
     },
     {
      "name": "Canadian Football League (CFL)",
@@ -9985,7 +10085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 208
     },
     {
      "name": "CAPS",
@@ -10035,7 +10135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 209
     },
     {
      "name": "Football Standings",
@@ -10078,7 +10178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 210
     },
     {
      "name": "Peloton",
@@ -10121,7 +10221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 211
     },
     {
      "name": "ApiMedic",
@@ -10164,7 +10264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 212
     },
     {
      "name": "Fitmint",
@@ -10214,7 +10314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 213
     },
     {
      "name": "Glorify",
@@ -10257,7 +10357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 214
     },
     {
      "name": "Sport List & Data",
@@ -10299,7 +10399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 215
     },
     {
      "name": "Sport Places",
@@ -10341,7 +10441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 216
     },
     {
      "name": "Sport Vision",
@@ -10383,7 +10483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 217
     },
     {
      "name": "SuredBits",
@@ -10425,7 +10525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 218
     },
     {
      "name": "TourneyRadar",
@@ -10468,7 +10568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 219
     },
     {
      "name": "CareClinic",
@@ -10517,7 +10617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 220
     },
     {
      "name": "CollegeFootballData.com",
@@ -10560,7 +10660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 221
     },
     {
      "name": "Treecard",
@@ -10605,7 +10705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 222
     },
     {
      "name": "Hims",
@@ -10654,7 +10754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 223
     },
     {
      "name": "Circles - Online Group Support",
@@ -10703,7 +10803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 224
     },
     {
      "name": "NBA Stats",
@@ -10746,7 +10846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 225
     },
     {
      "name": "Sport Data",
@@ -10788,7 +10888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 226
     },
     {
      "name": "Unwind Me",
@@ -10833,7 +10933,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 227
     },
     {
      "name": "Y&S",
@@ -10875,7 +10975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 228
     },
     {
      "name": "Alan",
@@ -10925,7 +11025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 229
     },
     {
      "name": "GoWabi",
@@ -10968,7 +11068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 230
     },
     {
      "name": "tripaneer",
@@ -11011,7 +11111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 231
     },
     {
      "name": "BeautyDate",
@@ -11053,7 +11153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 232
     },
     {
      "name": "Clicky",
@@ -11096,7 +11196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 233
     },
     {
      "name": "Dulcetta",
@@ -11139,7 +11239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 234
     },
     {
      "name": "Markato",
@@ -11182,7 +11282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 235
     },
     {
      "name": "Omvana",
@@ -11225,7 +11325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 236
     },
     {
      "name": "Within",
@@ -11267,7 +11367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 237
     },
     {
      "name": "Tilray Brands",
@@ -11310,7 +11410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 238
     },
     {
      "name": "10percenthappier",
@@ -11360,7 +11460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 239
     },
     {
      "name": "Proclaim",
@@ -11410,7 +11510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 240
     },
     {
      "name": "Talofa Games",
@@ -11460,7 +11560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 241
     },
     {
      "name": "Tripp",
@@ -11510,7 +11610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "BRND.ME",
@@ -11560,7 +11660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "FitStar",
@@ -11612,7 +11712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "Misfit",
@@ -11661,7 +11761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 245
     },
     {
      "name": "Big Health",
@@ -11711,7 +11811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 246
     },
     {
      "name": "Curejoy",
@@ -11761,7 +11861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 247
     },
     {
      "name": "Life Time Group Holdings",
@@ -11811,7 +11911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 248
     },
     {
      "name": "Crossfit",
@@ -11860,7 +11960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 249
     },
     {
      "name": "Peloton Interactive",
@@ -11910,7 +12010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 250
     },
     {
      "name": "Bellabeat",
@@ -11960,7 +12060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 251
     },
     {
      "name": "besunyen",
@@ -12009,7 +12109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 252
     },
     {
      "name": "Breathe Well-being",
@@ -12059,10 +12159,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 253
     },
     {
-     "name": "Carevision Inc.",
+     "name": "Carevision",
      "slug": "carevision-inc",
      "description": "Carevision Inc. is an AI-powered digital health company whose platform turns any camera into a 60-second contactless cardiometabolic wellness scanner. Using remote photoplethysmography (rPPG) and deep learning models trained on 12M+ patient records, it extracts 30+ physiological parameters — including heart rate, blood pressure indicators, stress index, respiratory rate, and oxygen saturation — and produces a comprehensive digital health persona covering 15+ cardiometabolic conditions. Carevision operates under the FDA General Wellness Policy (it is not a medical device or diagnostic tool) and is delivered as a kiosk, an embedded/white-label SDK for iOS and Android, or a web integration to hospitals and clinics, health insurers, pharmacy chains, diagnostic laboratories, wellness apps, and teleconsultation platforms, integrating with EMR/HIS systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carevision-inc/refs/heads/main/screenshots/carevision-inc-2026-07-25T204603.png",
@@ -12109,7 +12209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 254
     },
     {
      "name": "Fitocracy",
@@ -12158,7 +12258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 255
     },
     {
      "name": "Ginger",
@@ -12208,7 +12308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 256
     },
     {
      "name": "Hero Journey Club",
@@ -12258,7 +12358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 257
     },
     {
      "name": "Instabeat",
@@ -12308,7 +12408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 258
     },
     {
      "name": "Magna",
@@ -12358,7 +12458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 259
     },
     {
      "name": "MyLife",
@@ -12407,7 +12507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 260
     },
     {
      "name": "Planet Fitness",
@@ -12457,7 +12557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 261
     },
     {
      "name": "Prana Health",
@@ -12507,7 +12607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 262
     },
     {
      "name": "Shape Shapescale",
@@ -12557,7 +12657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 263
     },
     {
      "name": "Silk and Sonder",
@@ -12607,7 +12707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 264
     },
     {
      "name": "Sprout Wellness Solutions",
@@ -12656,7 +12756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 265
     },
     {
      "name": "Switch",
@@ -12706,7 +12806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 266
     },
     {
      "name": "YOU-app",
@@ -12756,7 +12856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 267
     },
     {
      "name": "Vail Resorts",
@@ -12803,7 +12903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 268
     },
     {
      "name": "Aivick",
@@ -12852,7 +12952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 269
     },
     {
      "name": "Atlas Wearables",
@@ -12903,7 +13003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 270
     },
     {
      "name": "Getsupp",
@@ -12952,7 +13052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 271
     },
     {
      "name": "Gixo",
@@ -13001,7 +13101,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 272
     },
     {
      "name": "HelloFlo",
@@ -13051,7 +13151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 273
     },
     {
      "name": "Kerros Health",
@@ -13100,7 +13200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 274
     },
     {
      "name": "Millennial Fox",
@@ -13149,7 +13249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 275
     },
     {
      "name": "MycroFriends",
@@ -13198,7 +13298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 276
     },
     {
      "name": "Weilos",
@@ -13247,10 +13347,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 277
     },
     {
-     "name": "Dream Voyage Inc.",
+     "name": "Dream Voyage",
      "slug": "dream-voyage-inc",
      "description": "Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 and backed by Andreessen Horowitz through its Speedrun accelerator alongside Soma Capital. Led by co-founder and CEO Coco Chen, a former TikTok founding product manager and Tinder PM, the studio builds viral AI-powered consumer applications spanning spiritual wellness, dream interpretation, gaming, and social payments. Its products include SINE Daily Manifest (an AI spiritual-health app offering daily affirmations, astrology, birth-chart analysis, and tarot readings that went viral on TikTok), Dreamore (AI-powered dream interpretation), Vdrop (turning social media into a payment network), and RPS (a Solana-based social game). Dream Voyage ships consumer mobile apps rather than a public developer platform; as of this profile it publishes no developer portal, OpenAPI, SDKs, or documented API surface. This record is a network stub retained for discovery and future enrichment.",
      "score": 1.5,
@@ -13296,7 +13396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 278
     },
     {
      "name": "Saude Bliss",
@@ -13346,7 +13446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 279
     }
    ]
   }

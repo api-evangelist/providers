@@ -146,7 +146,7 @@ modified: '2026-08-13'
 name: OneScreen AI
 nav: Providers
 network: true
-overview: 'OneScreen AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and Advertising Technology.
+overview: 'OneScreen AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, Digital Out Of Home, and AdTech.
 
 
   OneScreen AI''s developer surface includes documentation, authentication, engineering blog, support, and 16 more developer resources.'
@@ -214,7 +214,7 @@ tags:
 - Advertising
 - Out-of-Home
 - Digital Out Of Home
-- Advertising Technology
+- AdTech
 - Marketing
 - Media
 - AI Agents

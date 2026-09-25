@@ -1148,7 +1148,7 @@
      "rank": 24
     },
     {
-     "name": "沈阳百事通网络科技有限公司",
+     "name": "昆仑瑶池 (Kunlun Yaochi)",
      "slug": "kunlunyaochi-com",
      "description": "Kunlun Yaochi (昆仑瑶池) is an AI-agent registry and agent-memory platform operated by 沈阳百事通网络科技有限公司 (Shenyang Baishitong Network Technology Co., Ltd.) in Shenyang, China. AI agents self-register over a JSON-RPC 2.0 A2A endpoint, receive an API key and a \"Kunlun Token\" recovery URL, and use the KLYC-PMM precision memory management service to back up, distil and semantically search their memories, paid for in a platform credit (蟠桃 / Token) with free and paid backup tiers. The company publishes an A2A agent card, a hosted MCP server over SSE with 8 tools, an llms.txt, a security.txt and a provider-authored Agent Skill from its own domain.",
      "score": 37.6,
@@ -3104,48 +3104,6 @@
      "rank": 67
     },
     {
-     "name": "Aerospace Engineering Equipment",
-     "slug": "aerospaceengineeringequipmentco",
-     "description": "Aerospace Engineering Equipment (Suzhou) Co., Ltd. — trading as AEE — is a Chinese industrial equipment manufacturer founded in December 2011 that designs, builds and integrates friction stir welding (FSW) machines, automatic FSW production lines and FSW tooling. It is a wholly owned subsidiary of Shanghai Aerospace Equipment Manufacturing Factory (149 Factory) under the Eighth Academy of the China Aerospace Science and Technology Corporation (CASC), operating an R&D headquarters in Wuzhong District, Suzhou and a volume production base in Liyang across roughly 55,000 square metres. AEE supplies one-, two- and three-dimensional FSW equipment plus process services into aerospace and aviation, rail transit, marine and shipbuilding, new-energy automotive, nuclear, power electronics and marine engineering. AEE publishes no developer program, no API documentation and no machine-readable specification; the surfaces profiled here are the anonymously readable WordPress REST content APIs served from its English-language marketing site at a-fsw.com, documented by API Evangelist from the server's own route index and OPTIONS schema documents.",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
      "name": "JD.com (Jingdong)",
      "slug": "jd-com",
      "description": "JD.com (Jingdong) is one of China's largest direct-sales e-commerce platforms, operating a vast first-party retail business and a third-party (POP) marketplace alongside JD Logistics (one of China's largest integrated logistics networks), JD Health, JD Industrials, JD Property, and JD Cloud. JD exposes two distinct developer platforms: JD Open Platform (open.jd.com) — also known as JOS (Jingdong Open Service) — which hosts the partner / ISV REST API for sellers and ERP / OMS vendors covering ware (product), order, promotion, after-sale, warehouse, finance, customer service, message, JD logistics, and B2B; and JD Cloud (jdcloud.com) — JD's public cloud with compute (Cloud Virtual Machine, GPU, bare metal, function compute), storage (object, block, file), network (VPC, CDN, load balancer), database (MySQL, TiDB, StarDB, Redis, MongoDB, ClickHouse), AI (JoyBuilder, JoyAgent, JoyCode, OCR, speech), and security services.",
@@ -3186,7 +3144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Aiguang",
@@ -3219,6 +3177,48 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 69
+    },
+    {
+     "name": "Aerospace Engineering Equipment",
+     "slug": "aerospaceengineeringequipmentco",
+     "description": "Aerospace Engineering Equipment (Suzhou) Co., Ltd. — trading as AEE — is a Chinese industrial equipment manufacturer founded in December 2011 that designs, builds and integrates friction stir welding (FSW) machines, automatic FSW production lines and FSW tooling. It is a wholly owned subsidiary of Shanghai Aerospace Equipment Manufacturing Factory (149 Factory) under the Eighth Academy of the China Aerospace Science and Technology Corporation (CASC), operating an R&D headquarters in Wuzhong District, Suzhou and a volume production base in Liyang across roughly 55,000 square metres. AEE supplies one-, two- and three-dimensional FSW equipment plus process services into aerospace and aviation, rail transit, marine and shipbuilding, new-energy automotive, nuclear, power electronics and marine engineering. AEE publishes no developer program, no API documentation and no machine-readable specification; the surfaces profiled here are the anonymously readable WordPress REST content APIs served from its English-language marketing site at a-fsw.com, documented by API Evangelist from the server's own route index and OPTIONS schema documents.",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6499,7 +6499,7 @@
      "rank": 143
     },
     {
-     "name": "Advancechip Technology (Hunan) Co., Ltd.",
+     "name": "Advancechip",
      "slug": "advancechip",
      "description": "Advancechip Technology (Hunan) Co., Ltd. — 进芯科技（湖南）股份有限公司, formerly Hunan Jinxin Electronic Technology Co., Ltd. — is a fabless integrated-circuit design company founded in October 2012 and headquartered in Changsha, Hunan, China. It develops digital signal processor (DSP) chips and embedded solutions, and states that it has taken three DSP families to mass production: 16-bit fixed-point (ADP16), 32-bit fixed-point (ADP32) and 32-bit floating-point (AVP32), alongside single-core and multi-core SoC parts such as the ADM32F036 motor-control family. The company describes its core technologies as DSP core design, compilation technology, large-scale SoC digital integration and core drive algorithms, held as a fully independent intellectual-property stack, and targets automotive electronics, thermal management, smart home and white goods, small household appliances, health equipment and power tools. Its developer-facing surface is hardware, not web software: evaluation and development boards (AVP32F379QP176, AVP32F00157QP80, AVP32F0039QP100S, ADM32F036A5Q/A6Q/A7Q low-voltage motor boards), a technical-support page and a download section that serves chip data manuals as PDFs from a third-party file host. As probed on 2026-09-07 Advancechip publishes no public web API, no developer portal or API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK in any public package registry, no GitHub organization and no /.well-known documents; the corporate site itself is served over plaintext HTTP only.",
      "score": 6.7,
@@ -13726,7 +13726,7 @@
      "rank": 306
     },
     {
-     "name": "AccuPulse Medical Technology Co., Ltd.",
+     "name": "AccuPulse Medical",
      "slug": "accupulsemedical",
      "description": "AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉) is a cardiac electrophysiology medical device company in Suzhou Industrial Park, Jiangsu, China, founded in November 2020 to treat atrial fibrillation with non-thermal ablation. It is developing a pulsed electric field ablation (PFA) system — the AccuBlator generator and AccuPulse catheter — using high-voltage fields to induce irreversible electroporation in endocardial cells instead of the thermal injury caused by radiofrequency and cryoablation, plus Accu-System, a 3D cardiac electroanatomic mapping and navigation platform with magnetic/electrical localization and high-channel intracardiac EGM acquisition. The founding team came out of Johnson & Johnson, GE, Abbott, Acutus Medical and MicroPort, with R&D in China and the United States. AccuPulse sells regulated devices to hospitals; it runs no developer program and publishes no public API, SDK or machine-readable API contract on any host it controls.",
      "score": 3.3,

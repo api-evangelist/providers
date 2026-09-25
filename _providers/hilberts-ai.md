@@ -169,7 +169,7 @@ tags:
 - Marketing
 - Data Science
 - Automation
-- Agentic AI
+- AI Agents
 - Consumer
 website: https://hilberts.ai
 ---

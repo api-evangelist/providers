@@ -724,7 +724,7 @@ modified: '2026-07-21'
 name: Wegalvanize
 nav: Providers
 network: true
-overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activities API, Analyses API, and 66 more. Tagged areas include Company, Governance, Risk, Compliance, and Audit.
+overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activities API, Analyses API, and 66 more. Tagged areas include Company, Governance, Risk Management, Compliance, and Audit.
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 22 more developer resources.'
@@ -786,7 +786,7 @@ slug: wegalvanize
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - Audit
 - GRC

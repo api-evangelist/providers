@@ -94,13 +94,13 @@ description: 'Allegheny Technologies Incorporated, which trades and brands itsel
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allegheny-technologies.png
 layout: provider
 modified: '2026-09-01'
-name: Allegheny Technologies Incorporated
+name: ATI
 nav: Providers
 network: true
-overview: 'Allegheny Technologies Incorporated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Materials, Aerospace, Defense, Titanium, and Manufacturing.
+overview: 'ATI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Materials, Aerospace, Defense, Titanium, and Manufacturing.
 
 
-  Allegheny Technologies Incorporated''s developer surface includes engineering blog and 7 more developer resources.'
+  ATI''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 16
 score:
   band: minimal

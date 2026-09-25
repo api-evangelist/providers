@@ -85,7 +85,7 @@ modified: '2026-05-11'
 name: JobAdder
 nav: Providers
 network: true
-overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, ATS, Staffing, Human Resources, and Talent Acquisition.
+overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Applicant Tracking, Staffing, Human Resources, and Talent Acquisition.
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
@@ -124,8 +124,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: jobadder
 tags:
-- Recruitment
-- ATS
+- Recruiting
+- Applicant Tracking
 - Staffing
 - Human Resources
 - Talent Acquisition

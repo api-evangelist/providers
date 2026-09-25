@@ -219,13 +219,13 @@ description: 'Polycode Limited is a UK information-technology consultancy (Compa
 image: https://marginalia.polycode.co.uk/favicon.svg
 layout: provider
 modified: '2026-09-19'
-name: Polycode Limited
+name: Polycode
 nav: Providers
 network: true
-overview: 'Polycode Limited publishes 1 API on the [APIs.io](https://apis.io/) network: marginalia public API. Tagged areas include Chat, Memory, Agents, A2A, and Knowledge Graph.
+overview: 'Polycode publishes 1 API on the [APIs.io](https://apis.io/) network: marginalia public API. Tagged areas include Chat, Memory, Agents, A2A, and Knowledge Graph.
 
 
-  Polycode Limited''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, CLI, and 31 more developer resources.'
+  Polycode''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, CLI, and 31 more developer resources.'
 plans:
 - name: Polycode Co Uk Plans Pricing
   plan_count: 0

@@ -349,5 +349,6 @@ tags:
 - Digital Rewards
 - Prepaid Cards
 - Payments
+- Loyalty
 website: https://www.tangocard.com
 ---

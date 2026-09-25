@@ -53,7 +53,7 @@ modified: '2026-07-21'
 name: WorkClass
 nav: Providers
 network: true
-overview: WorkClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruitment, Hiring, and Frontline Workers.
+overview: WorkClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Hiring, and Frontline Workers.
 random_paper: 17
 score:
   band: minimal
@@ -93,7 +93,7 @@ slug: workclass
 tags:
 - Company
 - Job
-- Recruitment
+- Recruiting
 - Hiring
 - Frontline Workers
 - Marketplace

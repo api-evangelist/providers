@@ -1,6 +1,6 @@
 {
- "total": 200,
- "shown": 200,
+ "total": 199,
+ "shown": 199,
  "limit": 1000,
  "bands": [
   {
@@ -377,6 +377,49 @@
      "rank": 8
     },
     {
+     "name": "dotCMS",
+     "slug": "dotcms",
+     "description": "dotCMS is a Java-based visual headless content management system aimed at compliance-led enterprises, deployable as SaaS (dotCMS Cloud), on premise, or as a managed service. It covers content modelling, authoring, workflow, multi-site management, personalization, experiments and content analytics, and pairs headless delivery with a Universal Visual Editor so authors can edit content in place inside a React, Angular or Next.js front end. Every dotCMS instance serves its own first-party OpenAPI 3.0.1 at /api/openapi.json — 592 paths and 754 operations across 71 tags, covering content, content types, workflow, publishing, sites, roles, permissions and dotAI — alongside a GraphQL endpoint at /api/v1/graphql. dotCMS also ships an early agent surface: a first-party MCP server, two published Agent Skills, an RFC 9727 API catalog and markdown content negotiation. It is certified to ISO/IEC 27001, ISO/IEC 42001 (AI management), SOC 2 Type II and TX-RAMP Level II.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/screenshots/dotcms-2026-06-20T180201.png",
+     "score": 70.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 50.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 86.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 44.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
      "name": "Bloomreach",
      "slug": "bloomreach",
      "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
@@ -415,49 +458,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "dotCMS",
-     "slug": "dotcms",
-     "description": "dotCMS is a Java-based visual headless content management system aimed at compliance-led enterprises, deployable as SaaS (dotCMS Cloud), on premise, or as a managed service. It covers content modelling, authoring, workflow, multi-site management, personalization, experiments and content analytics, and pairs headless delivery with a Universal Visual Editor so authors can edit content in place inside a React, Angular or Next.js front end. Every dotCMS instance serves its own first-party OpenAPI 3.0.1 at /api/openapi.json — 592 paths and 754 operations across 71 tags, covering content, content types, workflow, publishing, sites, roles, permissions and dotAI — alongside a GraphQL endpoint at /api/v1/graphql. dotCMS also ships an early agent surface: a first-party MCP server, two published Agent Skills, an RFC 9727 API catalog and markdown content negotiation. It is certified to ISO/IEC 27001, ISO/IEC 42001 (AI management), SOC 2 Type II and TX-RAMP Level II.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/screenshots/dotcms-2026-06-20T180201.png",
-     "score": 70.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 85.7,
-      "access_clarity": 86.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 44.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 10
@@ -715,7 +715,7 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 55.2,
+      "contract_quality": 54.9,
       "contract_governance": 47.0,
       "operational_transparency": 50.0,
       "developer_ergonomics": 74.4,
@@ -723,7 +723,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 60.6,
+     "agent_score": 63.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -732,7 +732,7 @@
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
@@ -1897,8 +1897,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 52,
-   "shown": 52,
+   "count": 51,
+   "shown": 51,
    "providers": [
     {
      "name": "Drupal",
@@ -2073,6 +2073,62 @@
      "rank": 46
     },
     {
+     "name": "Agora Real Estate",
+     "slug": "agora-real-estate",
+     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 42.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
      "name": "Salesforce Experience Cloud",
      "slug": "salesforce-experience-cloud",
      "description": "APIs for building and managing Salesforce Experience Cloud sites, communities, and digital experiences including content management, theming, navigation, and Lightning Web Runtime powered portals.",
@@ -2113,7 +2169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Ceros",
@@ -2156,7 +2212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Later",
@@ -2195,62 +2251,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "Agora Real Estate",
-     "slug": "agora-real-estate",
-     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -2609,6 +2609,49 @@
      "rank": 58
     },
     {
+     "name": "Emplifi",
+     "slug": "emplifi-io",
+     "description": "Emplifi (formerly Socialbakers) is a unified social customer experience platform combining social marketing, commerce and care. Socialbakers was a pioneering social media analytics and marketing platform, founded 2008 in Prague, that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat; it joined Astute and rebranded as Emplifi in 2021 (socialbakers.com now redirects to emplifi.io). This record was listed as Socialbakers until 2026-09-24. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
+     "score": 48.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 13.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
      "name": "Mindtickle",
      "slug": "mindtickle",
      "description": "Mindtickle is an AI-powered revenue productivity platform that unifies sales enablement, training, coaching, conversation intelligence, and digital sales rooms into a single solution. It provides REST and GraphQL APIs for managing readiness programs, user provisioning, content, call intelligence, and analytics for revenue teams.",
@@ -2656,7 +2699,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Episerver",
@@ -2699,7 +2742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Templafy",
@@ -2742,7 +2785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Cloudinary",
@@ -2785,7 +2828,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "ImageKit",
@@ -2828,7 +2871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "MemberPress",
@@ -2878,7 +2921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Opal",
@@ -2921,7 +2964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "ClearSlide",
@@ -2956,49 +2999,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 66
-    },
-    {
-     "name": "Socialbakers",
-     "slug": "socialbakers",
-     "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -4055,49 +4055,6 @@
      "rank": 91
     },
     {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 92
-    },
-    {
      "name": "Yodeck",
      "slug": "yodeck-signage",
      "description": "Yodeck is a cloud-based digital signage platform for managing screens and content at scale, typically on Raspberry Pi based players. It lets teams upload and organize media, build playlists and multi-zone layouts, schedule content, group shows, and monitor and control players remotely. Alongside the web app, Yodeck publishes a REST API (documented at app.yodeck.com/api-docs and available to Premium and Enterprise plans) that programmatically manages media, playlists, layouts, screens/monitors, schedules, shows, and workspaces using named, role-scoped API tokens. Players also expose a local-only Player HTTP API for on-device apps. The public REST reference is behind an account login, so the API surface documented here is modeled from Yodeck's published resource set rather than copied from live spec files.",
@@ -4138,7 +4095,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Extensis",
@@ -4181,7 +4138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     }
    ]
   },
@@ -4234,7 +4191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "ChilledSites",
@@ -4276,7 +4233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Basekit",
@@ -4319,10 +4276,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
-     "name": "Adonmo Private Limited",
+     "name": "Adonmo",
      "slug": "adonmoprivatelimited",
      "description": "Adonmo Private Limited (AdOnMo) is a Hyderabad, India based ambient digital out-of-home (DOOH) advertising company, incorporated in 2016, that operates what it describes as India's largest ambient DOOH network — 66,000+ smart digital screens across 27+ Indian cities in residential lobbies, corporate offices, gyms, malls and transit environments, reaching a claimed 12M+ daily viewers. The company sells campaigns through its AdServe programmatic platform and a self-serve booking portal, and it operates the screens themselves with Acumen CMS, its digital-signage content management product. Adonmo publishes a small first-party OpenAPI 3.0.0 contract, \"Adonmo API\", from a Flasgger-backed Swagger UI on its production API host.",
      "score": 38.1,
@@ -4361,7 +4318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Phraseanet",
@@ -4404,7 +4361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Cloudimage",
@@ -4447,7 +4404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Sitefinity CMS",
@@ -4490,7 +4447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Zesty",
@@ -4533,7 +4490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Payload",
@@ -4576,7 +4533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "ScreenCloud",
@@ -4619,7 +4576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Nuxeo",
@@ -4662,7 +4619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Panopto",
@@ -4712,7 +4669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Widen",
@@ -4755,7 +4712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Sitecore",
@@ -4798,7 +4755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Brickwork",
@@ -4841,7 +4798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Wix",
@@ -4884,7 +4841,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Craft CMS",
@@ -4927,7 +4884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Flockjay",
@@ -4977,7 +4934,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Google Blogger",
@@ -5020,7 +4977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Podia",
@@ -5062,7 +5019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Payload CMS",
@@ -5105,7 +5062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "HealthData.gov",
@@ -5155,7 +5112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "TinaCMS",
@@ -5198,7 +5155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Plasmic",
@@ -5241,7 +5198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Orakl",
@@ -5291,7 +5248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Weebly",
@@ -5334,57 +5291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
-    },
-    {
-     "name": "Turntide Technologies",
-     "slug": "turntide-technologies",
-     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 16.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 25.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
+     "rank": 119
     },
     {
      "name": "Edools",
@@ -5434,57 +5341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
-    },
-    {
-     "name": "Boston University",
-     "slug": "boston",
-     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 17.9,
-      "contract_governance": 3.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 123
+     "rank": 120
     },
     {
      "name": "B12",
@@ -5534,7 +5391,107 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 121
+    },
+    {
+     "name": "Boston University",
+     "slug": "boston",
+     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
+     "score": 29.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.3,
+      "contract_governance": 3.8,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 122
+    },
+    {
+     "name": "Turntide Technologies",
+     "slug": "turntide-technologies",
+     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
+     "score": 29.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 13.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 25.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 123
     },
     {
      "name": "Packdigital",
@@ -5577,7 +5534,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "KeystoneJS",
@@ -5620,7 +5577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Newfold",
@@ -5663,7 +5620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Ciloo",
@@ -5706,7 +5663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Kontent AI",
@@ -5749,7 +5706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "CarbonFarm",
@@ -5792,7 +5749,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "GoSite",
@@ -5842,19 +5799,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "The Picklr",
      "slug": "the-picklr",
      "description": "The Picklr is the largest indoor pickleball club franchise in North America, founded in 2021 in Utah by Jorge Barragan and Austin Wood and franchising since March 2023. It operates membership-based indoor facilities offering unlimited court reservations, open play, adult and junior coaching academies, leagues, tournaments and corporate events, with a single membership valid at every club nationwide. The company publishes no developer programme and sells no API product. It does, however, serve a genuine machine-readable surface from its own domain: a public WordPress REST API exposing 157 club locations plus pages, posts, press and events; a published llms.txt; and three live Model Context Protocol endpoints advertised through RFC 8414 and RFC 9728 discovery documents and gated by an OAuth 2.1 authorization server with PKCE and dynamic client registration. Court booking, membership billing and reservations run on PlayByPoint, a third-party platform, and are outside any Picklr-owned contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/screenshots/the-picklr-2026-09-02T163406.png",
-     "score": 28.4,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 26.8,
@@ -5869,15 +5826,15 @@
       "score": 47.5,
       "matched_via": "tags"
      },
-     "agent_score": 33.0,
-     "agent_band": "agent-ready",
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "served",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -5886,13 +5843,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Carrd",
@@ -5935,7 +5892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Jimdo",
@@ -5978,7 +5935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Allego",
@@ -6021,7 +5978,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "OptiSigns",
@@ -6064,7 +6021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "dopost",
@@ -6107,7 +6064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "WPGraphQL",
@@ -6150,7 +6107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Elementor",
@@ -6193,7 +6150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Pantheon",
@@ -6236,7 +6193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     }
    ]
   },
@@ -6289,7 +6246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "WebsitePros",
@@ -6332,7 +6289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Wuilt",
@@ -6375,7 +6332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Adobe Experience Manager",
@@ -6418,7 +6375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "BookStack",
@@ -6461,7 +6418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Directus",
@@ -6504,7 +6461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Webstudio",
@@ -6547,7 +6504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Provivi",
@@ -6590,7 +6547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Decap CMS",
@@ -6633,7 +6590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Stensul",
@@ -6676,7 +6633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Agility CMS",
@@ -6719,7 +6676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "MadeThis",
@@ -6762,7 +6719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Caisy",
@@ -6805,7 +6762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Hygraph",
@@ -6848,7 +6805,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "soona",
@@ -6891,7 +6848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Apache Sling",
@@ -6934,7 +6891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "BaseHub",
@@ -6977,7 +6934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "LaunchRock",
@@ -7020,7 +6977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Orange Logic",
@@ -7063,7 +7020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Flotiq",
@@ -7106,7 +7063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "DNN Software",
@@ -7149,7 +7106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Xelta - Create Images, Videos & More with Generative AI",
@@ -7192,7 +7149,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Wagtail",
@@ -7235,7 +7192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "INK Games",
@@ -7284,7 +7241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "MadCap Software",
@@ -7327,50 +7284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
-    },
-    {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
-     "score": 19.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 166
+     "rank": 164
     },
     {
      "name": "ACTO",
@@ -7426,7 +7340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 165
     },
     {
      "name": "Century Communities",
@@ -7469,7 +7383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 166
     },
     {
      "name": "Joomla",
@@ -7512,7 +7426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 167
     },
     {
      "name": "Postcron",
@@ -7555,7 +7469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 168
     },
     {
      "name": "Universe",
@@ -7598,7 +7512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 169
     },
     {
      "name": "mxHero",
@@ -7641,7 +7555,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 170
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 171
     },
     {
      "name": "About.me",
@@ -7684,7 +7641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Owner.com",
@@ -7727,7 +7684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Comply365",
@@ -7770,18 +7727,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Ascend Elements",
      "slug": "ascend-elements",
      "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 15.0,
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 6.2,
+      "contract_quality": 1.7,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 24.4,
@@ -7789,12 +7746,12 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 9.8,
+     "agent_score": 8.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -7812,7 +7769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "XtGem",
@@ -7855,7 +7812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "HELP",
@@ -7898,7 +7855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Enplug",
@@ -7941,7 +7898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Raydiant",
@@ -7984,7 +7941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Keystatic",
@@ -8027,7 +7984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "MediaBeacon",
@@ -8070,7 +8027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     }
    ]
   },
@@ -8123,7 +8080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Kovzy Co.",
@@ -8166,7 +8123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Network Solutions",
@@ -8216,7 +8173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "BRICKS",
@@ -8259,7 +8216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Newgen Software",
@@ -8302,7 +8259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Alogent",
@@ -8352,7 +8309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "Mediaspectrum",
@@ -8395,7 +8352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "FilmTrack",
@@ -8437,7 +8394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "GuruHotel",
@@ -8487,7 +8444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Filmgrail",
@@ -8530,7 +8487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "9Slides",
@@ -8573,7 +8530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Chute",
@@ -8617,7 +8574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "JCR",
@@ -8660,7 +8617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Metalogix",
@@ -8702,7 +8659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Populr.me",
@@ -8744,7 +8701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "Strattic",
@@ -8787,7 +8744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Waffl",
@@ -8830,7 +8787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     }
    ]
   },
@@ -8846,7 +8803,7 @@
      "name": "AgentSquared",
      "slug": "agentsquared",
      "description": "AgentSquared was a La Jolla, California real estate marketing technology company, founded in 2013 by Albert Lopez and a team its LinkedIn page describes as \"Internet pioneers who have founded, built and sold leading brand name Internet companies such as Media Temple, Miva, and Attracta.\" Its product was marketing automation for real estate agents and brokers: Instant IDX websites provisioned with a single click, single-property websites generated automatically for new listings, social sharing of those listings, lead capture and CRM, and Google Business Profile and Local Services Ads management. The company was notable as an API CONSUMER rather than an API producer — it was a RESO (Real Estate Standards Organization) member and one of the few vendors building on the National Association of Realtors Web API standard, using deep integrations and channel partnerships with MLS software providers to pull a broker's identity and listing data straight out of the MLS and stand up a fully populated website from it. It worked with RESO to help define and document the client portion of the RESO Web API certification program. AgentSquared never published a developer program of its own: no developer portal, API reference, OpenAPI or other machine-readable contract, SDK, or public package ever appeared on its site. The company reached roughly $961K in reported revenue without raising venture capital. Its web presence is now gone — see x-status below.",
-     "rank": 200
+     "rank": 199
     }
    ]
   }

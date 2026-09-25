@@ -83,13 +83,13 @@ description: Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptio
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chimelabs-holdings-pty-ltd.png
 layout: provider
 modified: '2026-07-18'
-name: Chimelabs Holdings PTY LTD
+name: Chimelabs
 nav: Providers
 network: true
-overview: 'Chimelabs Holdings PTY LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Receptionist, and Telephony.
+overview: 'Chimelabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Receptionist, and Telephony.
 
 
-  Chimelabs Holdings PTY LTD''s developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
+  Chimelabs'' developer surface includes engineering blog, pricing, signup flow, support, and 6 more developer resources.'
 random_paper: 4
 score:
   band: minimal

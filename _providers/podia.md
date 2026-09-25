@@ -232,7 +232,7 @@ tags:
 - No Public API
 - Zapier Only
 - Creator Platform
-- Communities
+- Community
 - Website Builder
 - Client-Side JavaScript
 website: https://www.podia.com

@@ -1,6 +1,6 @@
 {
- "total": 146,
- "shown": 146,
+ "total": 145,
+ "shown": 145,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 89.3,
+     "score": 89.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 77.6,
+      "contract_quality": 77.9,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
       "developer_ergonomics": 94.6,
@@ -29,7 +29,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 49.6,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
@@ -72,15 +72,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -4922,8 +4922,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 28,
-   "shown": 28,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "MAI",
@@ -5013,50 +5013,6 @@
      "rank": 107
     },
     {
-     "name": "Fetch Rewards",
-     "slug": "fetch-rewards",
-     "description": "Fetch (legally Fetch Rewards, LLC) is a Madison, Wisconsin consumer rewards platform whose mobile app lets shoppers scan paper receipts, connect e-receipts and link accounts to earn points redeemable for gift cards and other rewards. On the demand side, Fetch For Business sells consumer packaged goods brands, retailers and restaurants receipt-verified offers, video and display advertising, point boosts, loyalty programs and omnichannel audience activation, all measured against real purchase data and managed through its Mission Control campaign platform. Fetch publishes no public developer or partner API and operates no developer portal; its only public machine-readable contract is the Receipt Processor reference OpenAPI it publishes on GitHub as an engineering hiring exercise. It does run a coordinated vulnerability disclosure program via HackerOne and publishes an RFC 9116 security.txt, and its GitHub organization ships several first-party open-source Swift and Python developer libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 45.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 108
-    },
-    {
      "name": "Rosetta.ai",
      "slug": "rosettaai",
      "description": "Rosetta.ai is a Taipei-based e-commerce personalization and marketing automation platform that uses AI, image recognition, and deep learning to tailor the online shopping experience for every visitor. Its product suite spans Rosetta Engage (AI product recommenders), Rosetta AdMatch (personalized advertising and traffic acquisition), Rosetta Analytics (machine-learning consumer and product insight), and Rosetta Automation (multi-channel EDM, SMS, and LINE marketing). The platform is delivered as a hosted SaaS dashboard and as a Shopify app (\"Personalization Upsell Dealer\"), integrating with storefronts through Google Tag Manager and product-feed connections rather than a public developer REST API. A first-party REST API does run at api.rosetta.ai — the production tag authenticates to it with a Bearer token and an application/vnd.rosetta-ai.v2+json media type — but Rosetta.ai publishes no reference, no specification and no developer program for it, so it is an internal contract rather than a product. This profile was surfaced as a 500 Global portfolio company and enriched from Rosetta.ai's public marketing site, GitBook help center, CDN distribution, and GitHub organization.",
@@ -5098,7 +5054,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Remarkable AI",
@@ -5141,7 +5097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Cloud Commerce",
@@ -5184,7 +5140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Lucky Cart",
@@ -5228,7 +5184,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Ematic Solutions",
@@ -5272,7 +5228,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Media Radar",
@@ -5316,7 +5272,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "LTK",
@@ -5360,7 +5316,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "soona",
@@ -5403,7 +5359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Namogoo",
@@ -5447,7 +5403,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Laurence",
@@ -5491,7 +5447,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Revie",
@@ -5534,7 +5490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Breef",
@@ -5584,10 +5540,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
-     "name": "ALLSALE Corp.",
+     "name": "ALLSALE",
      "slug": "allsale-corp",
      "description": "ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-marketing automation platform for consumer brands. It runs three AI agents — a Creator Discovery Agent that finds and engages relevant TikTok creators, a Budget Optimization Agent that recommends budget allocation and commission adjustments, and a Performance Analyst Agent that tracks GMV and predicts results — automating the full workflow from creator discovery and outreach through performance tracking and ROI analysis. The company is a 500 Global portfolio company and reports 100K+ creators engaged and $50M+ in customer revenue generated across its brand clients. Plans run from a $399/month Starter tier to a $599/month Pro tier, with custom Enterprise pricing offering unlimited messaging, multi-brand support, and white-label options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/screenshots/allsale-corp-2026-07-25T195716.png",
@@ -5628,7 +5584,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "WeStock",
@@ -5672,7 +5628,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Webloyalty",
@@ -5716,7 +5672,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "GoAudience",
@@ -5760,7 +5716,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "RetainIQ",
@@ -5811,7 +5767,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Property Capsule",
@@ -5855,7 +5811,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Yieldify *",
@@ -5899,7 +5855,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "CoolerX",
@@ -5943,7 +5899,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "TNL Mediagene",
@@ -5987,7 +5943,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Cuponomia",
@@ -6029,7 +5985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Atolls",
@@ -6073,7 +6029,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Makrwatch",
@@ -6116,7 +6072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "CommerceIQ",
@@ -6160,7 +6116,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 133
+     "rank": 132
     }
    ]
   },
@@ -6214,7 +6170,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Profitero",
@@ -6258,7 +6214,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Clicktivated",
@@ -6302,7 +6258,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Free Agency",
@@ -6345,7 +6301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "PearPop",
@@ -6388,7 +6344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Digital Room",
@@ -6431,7 +6387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "MoonFruit",
@@ -6474,7 +6430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Shoelace",
@@ -6518,7 +6474,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Shopzilla",
@@ -6561,7 +6517,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Advolve.AI",
@@ -6605,7 +6561,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Brightloom",
@@ -6649,7 +6605,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Propagate",
@@ -6691,7 +6647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "ruhnn",
@@ -6734,7 +6690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     }
    ]
   }

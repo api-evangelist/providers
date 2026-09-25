@@ -76,7 +76,7 @@ modified: '2026-07-18'
 name: Asap Work
 nav: Providers
 network: true
-overview: 'Asap Work is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruitment, Construction, and Temporary Work.
+overview: 'Asap Work is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruiting, Construction, and Temporary Work.
 
 
   Asap Work''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -126,7 +126,7 @@ slug: asap-work
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Construction
 - Temporary Work
 - Marketplace

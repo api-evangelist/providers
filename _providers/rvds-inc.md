@@ -50,10 +50,10 @@ description: RVDS Inc. is a South Korean food and beverage company that describe
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rvds-inc.png
 layout: provider
 modified: '2026-07-21'
-name: RVDS Inc.
+name: RVDS
 nav: Providers
 network: true
-overview: RVDS Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Brand, Restaurant, and South Korea.
+overview: RVDS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Consumer Brand, Restaurant, and South Korea.
 random_paper: 14
 score:
   band: minimal

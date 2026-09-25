@@ -638,7 +638,7 @@ modified: '2026-05-25'
 name: MetaMap
 nav: Providers
 network: true
-overview: 'MetaMap publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Background Checks API, Credit Checks API, and 7 more. Tagged areas include Identity Verification, KYC, AML, Anti-Money Laundering, and Compliance.
+overview: 'MetaMap publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Background Checks API, Credit Checks API, and 7 more. Tagged areas include Identity Verification, KYC, AML, Compliance, and Biometrics.
 
 
   The MetaMap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -729,7 +729,6 @@ tags:
 - Identity Verification
 - KYC
 - AML
-- Anti-Money Laundering
 - Compliance
 - Biometrics
 - Document Verification
@@ -739,7 +738,7 @@ tags:
 - Watchlist
 - Background Checks
 - Credit Check
-- Risk
+- Risk Management
 - Fraud Prevention
 - Onboarding
 - Latin America

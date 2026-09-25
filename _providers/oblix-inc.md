@@ -50,10 +50,10 @@ description: Oblix Inc. is a company surfaced as a portfolio company of 500-glob
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oblix-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Oblix Inc.
+name: Oblix
 nav: Providers
 network: true
-overview: Oblix Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Oblix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 21
 score:
   band: minimal

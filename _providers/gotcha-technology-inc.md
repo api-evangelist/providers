@@ -62,13 +62,13 @@ description: 'GOTCHA Technology Inc. is an emotion-AI company that uses computer
 image: https://gotcha.technology/assets/img/logo-light.png
 layout: provider
 modified: '2026-07-19'
-name: GOTCHA Technology Inc.
+name: GOTCHA Technology
 nav: Providers
 network: true
-overview: 'GOTCHA Technology Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Emotion AI, and Facial Analysis.
+overview: 'GOTCHA Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Vision, Emotion AI, and Facial Analysis.
 
 
-  GOTCHA Technology Inc.''s developer surface includes support, FAQ, product news, and 2 more developer resources.'
+  GOTCHA Technology''s developer surface includes support, FAQ, product news, and 2 more developer resources.'
 random_paper: 6
 score:
   band: minimal

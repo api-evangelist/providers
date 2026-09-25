@@ -234,7 +234,7 @@ modified: '2026-08-27'
 name: ShareThis
 nav: Providers
 network: true
-overview: 'ShareThis publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Summary API, Apps API, Audience API, and 3 more. Tagged areas include Company, Social Sharing, Website Tools, Audience Data, and Advertising Technology.
+overview: 'ShareThis publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Summary API, Apps API, Audience API, and 3 more. Tagged areas include Company, Social Sharing, Website Tools, Audience Data, and AdTech.
 
 
   ShareThis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -302,7 +302,7 @@ tags:
 - Social Sharing
 - Website Tools
 - Audience Data
-- Advertising Technology
+- AdTech
 - Analytics
 - Consent Management
 - Publishing

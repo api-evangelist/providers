@@ -180,7 +180,7 @@ modified: '2026-07-20'
 name: Litmus Automation
 nav: Providers
 network: true
-overview: 'Litmus Automation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial IoT, Edge Computing, and IIoT.
+overview: 'Litmus Automation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial IoT, Edge Computing, and Unified Namespace.
 
 
   Litmus Automation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -234,7 +234,6 @@ tags:
 - Manufacturing
 - Industrial IoT
 - Edge Computing
-- IIoT
 - Unified Namespace
 - MQTT
 - DataOps

@@ -553,7 +553,6 @@ tags:
 - SMTP
 - IMAP
 - MCP
-- Agentic
 - Developer Tools
 - Real-Time
 website: https://www.agentmail.to/

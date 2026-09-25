@@ -132,7 +132,7 @@ modified: '2026-08-12'
 name: Firefly
 nav: Providers
 network: true
-overview: 'Firefly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Out Of Home, Mobility, and Advertising Technology.
+overview: 'Firefly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Out Of Home, Mobility, and AdTech.
 
 
   Firefly''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
@@ -194,7 +194,6 @@ tags:
 - Advertising
 - Digital Out Of Home
 - Mobility
-- Advertising Technology
 - AdTech
 - Marketing
 - Measurements

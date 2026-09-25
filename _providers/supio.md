@@ -86,7 +86,7 @@ modified: '2026-07-21'
 name: Supio
 nav: Providers
 network: true
-overview: 'Supio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and Agentic AI.
+overview: 'Supio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and AI Agents.
 
 
   Supio''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
@@ -133,7 +133,7 @@ tags:
 - Legal
 - Legal Tech
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Personal Injury
 - Document Automation
 - Case Management

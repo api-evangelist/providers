@@ -1,6 +1,6 @@
 {
- "total": 115,
- "shown": 115,
+ "total": 114,
+ "shown": 114,
  "limit": 1000,
  "bands": [
   {
@@ -112,8 +112,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Soracom",
@@ -166,7 +166,7 @@
      "rank": 3
     },
     {
-     "name": "The HORIZ音s株式会社",
+     "name": "HORIZON SHIELD",
      "slug": "horizonshield-dev",
      "description": "The HORIZ音s株式会社 (The HORIZONs Co., Ltd., Hiratsuka, Kanagawa) operates HORIZON SHIELD, a buyer-side, agent-native fair-price verification service for Japanese construction and renovation estimates, built by a 30-year master carpenter on the open JCCDB dataset (95,403 items, CC BY 4.0). Its flagship KIRA server at mcp.horizonshield.dev is a free, anonymous remote MCP server (15 tools, 5 prompts) and A2A agent that audits a quoted price against fair ranges, flags overcharge tactics, and issues SHA-256 receipts anchored to Bitcoin via OpenTimestamps; a FairPriceAttestation tool bridges to Google's AP2 Cart Mandate. Around it sit a public MCP Verification Gate (the family's one OpenAPI, plus MCP and A2A) that measures other people's MCP servers against an A2A Conduct Extension the company authors, the JIDEC append-only verification ledger with an RFC 9727 api-catalog, the Yakumo verified-contractor directory MCP, a WebMCP intake server and a femtech source registry — every card JWS-signed, every surface unauthenticated by design, and paid for by buyers rather than contractors.",
      "score": 56.7,
@@ -215,56 +215,6 @@
      "rank": 4
     },
     {
-     "name": "KUFU",
-     "slug": "kufu",
-     "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
-     "score": 56.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 62.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
-    },
-    {
      "name": "3-shake",
      "slug": "3shake",
      "description": "3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-integration SaaS with 100+ SaaS, DWH and database connectors, a scheduling and workflow engine, and a public Reckoner External API (OpenAPI 3.0.3) for running workflows, reading job results, managing connections, projects and accounts from outside the console. Securify is a Japanese ASM and automated vulnerability-diagnosis platform covering web-application, SaaS, cloud-posture (CSPM), WordPress and SBOM scanning, with a public API for triggering diagnostics from a CI/CD pipeline and an API-diagnosis mode that scans a REST API from an uploaded OpenAPI definition. Relance is a freelance-engineer talent referral service. The company holds ISMS certification against ISO/IEC 27001:2013 and JIS Q 27001:2014 (registration IS 752246).",
@@ -304,7 +254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     }
    ],
    "open": true
@@ -365,7 +315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "SUPER STUDIO",
@@ -408,7 +358,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "University of Tokyo",
@@ -453,6 +403,49 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "SmartHR",
+     "slug": "smarthr",
+     "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 65.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 48.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -729,49 +722,6 @@
       "agentic_commerce": false
      },
      "rank": 15
-    },
-    {
-     "name": "SmartHR",
-     "slug": "smarthr",
-     "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png",
-     "score": 39.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 59.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 29.8,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
     }
    ]
   },
@@ -823,7 +773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Preferred Networks",
@@ -866,7 +816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -916,7 +866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "freee",
@@ -959,7 +909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "LayerX",
@@ -1009,7 +959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Nagoya University",
@@ -1059,7 +1009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Keio University",
@@ -1109,7 +1059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "KOMOJU",
@@ -1159,7 +1109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Kyushu University",
@@ -1209,7 +1159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Rakuten",
@@ -1259,7 +1209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Logiless",
@@ -1302,7 +1252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "TableCheck",
@@ -1345,7 +1295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "PayPay",
@@ -1395,7 +1345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "MakeLeaps",
@@ -1445,7 +1395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Waseda University",
@@ -1495,7 +1445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "JAXA",
@@ -1545,7 +1495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "LegalOn",
@@ -1588,7 +1538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "NTT Docomo",
@@ -1638,7 +1588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "HaneruTo",
@@ -1680,7 +1630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "J-Quants",
@@ -1723,7 +1673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Unifa",
@@ -1772,7 +1722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Tohoku University",
@@ -1822,7 +1772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Woodstock",
@@ -1872,7 +1822,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     }
    ]
   },
@@ -1885,7 +1835,7 @@
    "shown": 27,
    "providers": [
     {
-     "name": "1→10, Inc.",
+     "name": "1→10",
      "slug": "110",
      "description": "1→10, Inc. (株式会社ワントゥーテン, \"One to Ten\") is a Kyoto-headquartered creative technology company that designs and builds spatial experiences — projection mapping and large-scale interactive land art, XR installations, AI concierge and robotics work, IoT product prototyping and brand content — for commercial facilities, cultural sites and events. Founded October 1997, with offices in Kyoto and Tokyo and a Singapore holding company, it positions itself as a \"Spatial DX\" studio and is known for permanent installations such as Magical Shores at Siloso Beach in Singapore and the Nijo Castle YAKAI night event in Kyoto. It is a project-based studio rather than an API platform: its one developer-facing product is ZIG SIM, a smartphone sensor-streaming app used for physical prototyping, and it publishes an Agent Skill for public use.",
      "score": 23.5,
@@ -1924,7 +1874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Hokkaido University",
@@ -1965,6 +1915,48 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "AI model",
+     "slug": "aimodel",
+     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2697,48 +2689,6 @@
      "rank": 56
     },
     {
-     "name": "AI model",
-     "slug": "aimodel",
-     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
      "name": "Souco",
      "slug": "souco",
      "description": "Souco (株式会社souco / souco Co., Ltd.) operates a warehouse-sharing marketplace and logistics resource optimization platform in Japan, connecting cargo owners with available space across a nationwide network of 3,000+ warehouses spanning all 47 prefectures. Businesses can secure short- or long-term storage on demand for a wide range of cargo — food ingredients, apparel, machinery, and documents — under ambient, refrigerated, frozen, or temperature-controlled conditions, with pickup and delivery coordination handled by the platform. Alongside the sharing marketplace, souco offers a rental-warehouse search portal, transportation services, and the Optis engine for optimizing logistics networks, plus consulting and DX support for the logistics industry. The company is backed by 500 Global and Sumitomo Corporation's corporate venture arm. souco is a customer-facing logistics platform and does not currently publish a public developer API, SDKs, or developer documentation; its digital surface is a login-gated web application at app.souco.space.",
@@ -2779,7 +2729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Takeda Pharmaceutical Company",
@@ -2828,7 +2778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "HiJoJo Partners",
@@ -2871,7 +2821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Zehitomo",
@@ -2914,7 +2864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Leaner Technologies",
@@ -2957,7 +2907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Life is Tech",
@@ -3007,7 +2957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Hokan",
@@ -3057,7 +3007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Aerial Partners",
@@ -3099,7 +3049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "ClassAction",
@@ -3142,7 +3092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     }
    ]
   },
@@ -3195,7 +3145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "HERP",
@@ -3238,7 +3188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Kuraseru",
@@ -3288,7 +3238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Dinii",
@@ -3331,7 +3281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Pokelabo",
@@ -3374,10 +3324,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
-     "name": "Aeterlink Corp.",
+     "name": "Aeterlink",
      "slug": "aeterlinkcorp",
      "description": "Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.",
      "score": 10.4,
@@ -3423,7 +3373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Gojo & Company",
@@ -3466,7 +3416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Tyffon",
@@ -3509,7 +3459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Linc'well",
@@ -3559,7 +3509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Rakuten Mobile",
@@ -3609,7 +3559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "SkyDrive",
@@ -3652,7 +3602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Aeronext",
@@ -3694,7 +3644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Koska",
@@ -3737,10 +3687,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
-     "name": "ACROVE, Inc.",
+     "name": "ACROVE",
      "slug": "acrove",
      "description": "ACROVE, Inc. (株式会社ACROVE) is a Tokyo e-commerce platform and brand roll-up company, founded 15 November 2018 as Anoma, Inc. and renamed ACROVE in October 2020, led by representative director Shunsuke Arai and headquartered in Nishi-Shinjuku. It runs two businesses: a Commerce Transformation practice that grows client brand sales on Amazon, Rakuten, Qoo10 and other Japanese marketplaces using its proprietary EC analytics engine ACROVE FORCE (now presented as ACROVE INSIGHT), and an EC roll-up business that acquires and operates consumer brands. It reports support for 170+ client companies and raised a Series C in September 2024. Its commerce arm — the former Digital-Free K.K., now 株式会社Acrove at commerce.acrove.co.jp — is a Magento / Adobe Commerce implementation specialist. ACROVE FORCE, ACROVE MDM and the ACROVE Knowledge Base are login-gated applications; the company publishes no public API, SDK, webhook surface, machine-readable contract or developer portal on any host it operates.",
      "score": 8.7,
@@ -3779,7 +3729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Connected Robotics",
@@ -3822,7 +3772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Every.tv",
@@ -3865,7 +3815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Spacee",
@@ -3908,7 +3858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "TokyoOtakuMode",
@@ -3950,7 +3900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Shippio",
@@ -3993,7 +3943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Agripedia",
@@ -4035,7 +3985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Elephantech",
@@ -4077,7 +4027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "ABABA",
@@ -4119,7 +4069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Advance Composite",
@@ -4161,7 +4111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Agrist",
@@ -4203,7 +4153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "enechain",
@@ -4253,7 +4203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "EVERSTEEL",
@@ -4296,7 +4246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Integral Geometry Science",
@@ -4346,7 +4296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "newmo",
@@ -4389,7 +4339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "CAPS",
@@ -4439,7 +4389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Excite Japan Co., Ltd. (JASDAQ:3754)",
@@ -4481,7 +4431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Kakehashi",
@@ -4531,7 +4481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "AI Medical Service",
@@ -4581,7 +4531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Ocean Network Express",
@@ -4624,7 +4574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Dverse",
@@ -4667,10 +4617,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
-     "name": "Fact Base Inc.",
+     "name": "Fact Base",
      "slug": "fact-base-inc",
      "description": "Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a mission to make manufacturing seamless by driving the digitization of small and mid-sized factories (町工場). Its corporate site presents the company mission and vision for connecting Japan's fragmented small-factory manufacturing base through digital tooling. Surfaced through the API Evangelist network as an Insight Partners portfolio company; as of this enrichment pass no public developer program, API, OpenAPI, SDK, or documentation is published on the corporate domain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fact-base-inc/refs/heads/main/screenshots/fact-base-inc-2026-07-25T214146.png",
@@ -4710,7 +4660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Stailer",
@@ -4753,7 +4703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Sumutasu",
@@ -4796,7 +4746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "VisasQ",
@@ -4839,7 +4789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Aculys",
@@ -4889,7 +4839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Aisilk",
@@ -4931,7 +4881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Sansan",
@@ -4981,7 +4931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "KDDI",
@@ -5031,7 +4981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Aillis",
@@ -5080,7 +5030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "HiCustomer",
@@ -5131,7 +5081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Habitto",
@@ -5181,7 +5131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Pocket Menu",
@@ -5231,7 +5181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "SODA",
@@ -5281,7 +5231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "P2P, Inc.",
@@ -5331,7 +5281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     }
    ]
   },
@@ -5347,7 +5297,7 @@
      "name": "ActEvolve",
      "slug": "actevolve",
      "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
-     "rank": 115
+     "rank": 114
     }
    ]
   }

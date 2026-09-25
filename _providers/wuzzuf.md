@@ -94,7 +94,7 @@ modified: '2026-07-21'
 name: Wuzzuf
 nav: Providers
 network: true
-overview: 'Wuzzuf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruitment, Careers, and Employment.
+overview: 'Wuzzuf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job, Recruiting, Careers, and Employment.
 
 
   Wuzzuf''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
@@ -142,7 +142,7 @@ slug: wuzzuf
 tags:
 - Company
 - Job
-- Recruitment
+- Recruiting
 - Careers
 - Employment
 - Human Resources

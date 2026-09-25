@@ -132,7 +132,7 @@ modified: '2026-08-27'
 name: Elk
 nav: Providers
 network: true
-overview: 'Elk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fediverse, Mastodon, Open Source, Social Networking, and Social Media.
+overview: 'Elk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fediverse, Mastodon, Open Source, Social Network, and Social Media.
 
 
   Elk''s developer surface includes support, documentation, getting-started guide, changelog, and 14 more developer resources.'
@@ -202,7 +202,7 @@ tags:
 - Fediverse
 - Mastodon
 - Open Source
-- Social Networking
+- Social Network
 - Social Media
 - Web-Client
 - Progressive Web App

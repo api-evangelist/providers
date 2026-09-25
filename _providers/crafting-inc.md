@@ -124,13 +124,13 @@ description: Crafting, Inc. (crafting.dev) is a Silicon Valley AI DevOps company
 image: https://cdn.prod.website-files.com/68cb484593353a116fbd329a/69781817f8c5c0741ab17bfa_Avatar%20256.png
 layout: provider
 modified: '2026-07-18'
-name: Crafting, Inc.
+name: Crafting
 nav: Providers
 network: true
-overview: 'Crafting, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Sandboxes, Coding Agents, and Developer Environments.
+overview: 'Crafting is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Sandboxes, Coding Agents, and Developer Environments.
 
 
-  Crafting, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
+  Crafting''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, authentication, and 12 more developer resources.'
 random_paper: 17
 score:
   band: thin

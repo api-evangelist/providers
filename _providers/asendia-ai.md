@@ -100,7 +100,7 @@ modified: '2026-07-18'
 name: Asendia AI
 nav: Providers
 network: true
-overview: 'Asendia AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruitment, Staffing, and Human Resources.
+overview: 'Asendia AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruiting, Staffing, and Human Resources.
 
 
   Asendia AI''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
@@ -147,7 +147,7 @@ slug: asendia-ai
 tags:
 - Company
 - Artificial Intelligence
-- Recruitment
+- Recruiting
 - Staffing
 - Human Resources
 - AI Agents

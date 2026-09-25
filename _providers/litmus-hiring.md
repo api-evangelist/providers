@@ -176,7 +176,7 @@ modified: '2026-07-20'
 name: Litmus Hiring
 nav: Providers
 network: true
-overview: 'Litmus Hiring publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invites API, Roles API, and Submissions API. Tagged areas include Company, Hiring, Recruitment, Technical Assessment, and Developer Hiring.
+overview: 'Litmus Hiring publishes 3 APIs on the [APIs.io](https://apis.io/) network: Invites API, Roles API, and Submissions API. Tagged areas include Company, Hiring, Recruiting, Technical Assessment, and Developer Hiring.
 
 
   Litmus Hiring''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
@@ -234,7 +234,7 @@ slug: litmus-hiring
 tags:
 - Company
 - Hiring
-- Recruitment
+- Recruiting
 - Technical Assessment
 - Developer Hiring
 - MCP

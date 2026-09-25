@@ -104,16 +104,16 @@ jsonld:
   slug: westinghouse-air-brake-technologies-context
 layout: provider
 modified: '2026-05-03'
-name: Westinghouse Air Brake Technologies Corporation
+name: Wabtec
 nav: Providers
 network: true
-overview: 'Westinghouse Air Brake Technologies Corporation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Wabtec publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
-  The Westinghouse Air Brake Technologies Corporation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Wabtec catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Westinghouse Air Brake Technologies Corporation''s developer surface includes developer portal, support, and 6 more developer resources.'
+  Wabtec''s developer surface includes developer portal, support, and 6 more developer resources.'
 plans:
 - name: Westinghouse Air Brake Technologies Plans Pricing
   plan_count: 3
@@ -142,7 +142,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: Westinghouse Air Brake Technologies Corporation API Rules
+  name: Wabtec API Rules
   rule_count: 5
   severity_counts:
     error: 0

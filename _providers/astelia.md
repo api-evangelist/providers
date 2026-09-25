@@ -136,6 +136,6 @@ tags:
 - Attack Surface Management
 - Cybersecurity
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 website: http://astelia.io
 ---

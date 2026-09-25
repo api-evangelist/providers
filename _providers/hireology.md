@@ -114,7 +114,7 @@ modified: '2026-07-19'
 name: Hireology
 nav: Providers
 network: true
-overview: 'Hireology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, ATS, Recruiting, and Hiring.
+overview: 'Hireology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Applicant Tracking, Recruiting, and Hiring.
 
 
   Hireology''s developer surface includes engineering blog, pricing, signup flow, support, and 12 more developer resources.'
@@ -165,7 +165,7 @@ slug: hireology
 tags:
 - Company
 - Ai Apps
-- ATS
+- Applicant Tracking
 - Recruiting
 - Hiring
 - Human Resources

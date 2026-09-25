@@ -2357,8 +2357,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 165,
-   "shown": 165,
+   "count": 164,
+   "shown": 164,
    "providers": [
     {
      "name": "Routific",
@@ -2977,17 +2977,17 @@
     },
     {
      "name": "Kargo",
-     "slug": "kargo",
+     "slug": "kargo-ai",
      "description": "Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves through a dock door, reading LPN, SKU, lot code and expiration-date labels to automate shipping and receiving, verify loads and shipments, detect damage, and feed inventory visibility, shelf-life management, FSMA traceability, claims management, financial reconciliation and automated ASNs back into the customer WMS. Kargo publishes a public integration surface for that data exchange: a REST Document Intake API described by an OpenAPI 3.1 document, a public GraphQL API with open anonymous introspection, a single unified JSON endpoint, a webhook (push) API at shipment and pallet level plus a GraphQL subscription alternative, and flat-file ingest over email, SFTP or AS2. All programmatic access is Auth0 OAuth 2.0 client-credentials bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
-     "score": 51.4,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 69.6,
       "contract_governance": 18.2,
-      "operational_transparency": 10.5,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
@@ -4342,56 +4342,6 @@
      "rank": 94
     },
     {
-     "name": "ELISA",
-     "slug": "elisa",
-     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
-     "score": 48.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 33.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 95
-    },
-    {
      "name": "PackageX",
      "slug": "packagex",
      "description": "PackageX provides vision-AI powered logistics execution — software that turns any camera or device into an intelligent scanning agent to automate receiving, inventory management, fulfillment and dispatch across warehouses, retail and building logistics. Its REST API and mobile Vision SDKs expose shipments, deliveries, tracking, addresses, containers, manifests, documents and vision inferences (shipping-label OCR, bill-of-lading parsing, item segmentation). Authentication is API-key based via the PX-API-KEY header, with separate sandbox and production environments. Customers include WeWork, Subaru, Ricoh, Medtronic, Toyota and On Running.",
@@ -4432,7 +4382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Rithum",
@@ -4475,7 +4425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "AxleHire (Jitsu)",
@@ -4518,7 +4468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "OneRail",
@@ -4561,7 +4511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Loop",
@@ -4611,7 +4561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Emerge",
@@ -4654,7 +4604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Dana",
@@ -4697,7 +4647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Kardinal",
@@ -4740,7 +4690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Lyft",
@@ -4783,7 +4733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Maersk",
@@ -4826,7 +4776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Pax8",
@@ -4869,50 +4819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
-    },
-    {
-     "name": "Amazon Selling Partner API",
-     "slug": "amazon-seller-central",
-     "description": "The Amazon Selling Partner API (SP-API) is the modern REST-based API that enables Amazon sellers, vendors, and third-party developers to programmatically access Seller Central data and operations including catalog management, orders, inventory, pricing, fulfillment, reports, finances, notifications, and advertising. SP-API uses Login with Amazon (LWA) OAuth 2.0 access tokens for authentication and replaces the legacy Amazon Marketplace Web Service (MWS). Since September 2026 Amazon also offers an agent surface: the Amazon Selling Partner Connector, a first-party remote MCP server at https://sellingpartner-ai.amazon.com/mcp (beta, US stores, Seller Central OAuth, write actions drafted for seller approval), and the Selling Partner Agentic Toolkit of provider-published Agent Skills.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png",
-     "score": 47.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 61.3,
-      "contract_governance": 87.9,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 63.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Qargo",
@@ -4955,7 +4862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "Oracle Retail",
@@ -4998,7 +4905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 107
     },
     {
      "name": "Treez",
@@ -5048,7 +4955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 108
     },
     {
      "name": "C.H. Robinson",
@@ -5091,7 +4998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 109
     },
     {
      "name": "SERTICA",
@@ -5134,7 +5041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "Procurify",
@@ -5177,7 +5084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 111
     },
     {
      "name": "AMCS Group",
@@ -5227,7 +5134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 112
     },
     {
      "name": "Denim",
@@ -5277,7 +5184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 113
     },
     {
      "name": "Sendle",
@@ -5320,7 +5227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 114
     },
     {
      "name": "Sparetech",
@@ -5363,7 +5270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 115
     },
     {
      "name": "Chord",
@@ -5406,7 +5313,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 116
     },
     {
      "name": "First Resonance",
@@ -5449,7 +5356,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 117
     },
     {
      "name": "Gopuff",
@@ -5492,7 +5399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 118
     },
     {
      "name": "SAP Sales and Distribution (SD)",
@@ -5535,7 +5442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 119
     },
     {
      "name": "Centene",
@@ -5585,7 +5492,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 120
     },
     {
      "name": "Convelio",
@@ -5635,7 +5542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 121
     },
     {
      "name": "Dexterity",
@@ -5678,7 +5585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 122
     },
     {
      "name": "Matchory",
@@ -5721,7 +5628,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 123
     },
     {
      "name": "Komerce",
@@ -5771,7 +5678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 124
     },
     {
      "name": "TrackingMore",
@@ -5814,7 +5721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 125
     },
     {
      "name": "UniUni",
@@ -5857,7 +5764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 126
     },
     {
      "name": "99 Minutos",
@@ -5900,7 +5807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 127
     },
     {
      "name": "Australia Post",
@@ -5943,7 +5850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 128
     },
     {
      "name": "Ariba",
@@ -5986,7 +5893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 129
     },
     {
      "name": "Passport",
@@ -6036,7 +5943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 130
     },
     {
      "name": "Bureau of Transportation Statistics",
@@ -6086,7 +5993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 131
     },
     {
      "name": "Green Screens AI",
@@ -6129,7 +6036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 132
     },
     {
      "name": "Scout RFP (Workday Strategic Sourcing)",
@@ -6172,7 +6079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 133
     },
     {
      "name": "EditalMD",
@@ -6221,7 +6128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 134
     },
     {
      "name": "Vayana Network",
@@ -6270,7 +6177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 135
     },
     {
      "name": "Bear Robotics",
@@ -6313,7 +6220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 136
     },
     {
      "name": "Cofactr",
@@ -6356,7 +6263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 137
     },
     {
      "name": "Easyship",
@@ -6399,7 +6306,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 138
     },
     {
      "name": "RunBuggy",
@@ -6442,7 +6349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 139
     },
     {
      "name": "MarineTraffic",
@@ -6485,7 +6392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 140
     },
     {
      "name": "Ankorstore",
@@ -6528,7 +6435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 141
     },
     {
      "name": "GenLogs",
@@ -6578,7 +6485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 142
     },
     {
      "name": "Smarter Sorting",
@@ -6621,7 +6528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 143
     },
     {
      "name": "Xeneta",
@@ -6671,7 +6578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 144
     },
     {
      "name": "Logiwa",
@@ -6714,7 +6621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 145
     },
     {
      "name": "Dust Identity",
@@ -6757,7 +6664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 146
     },
     {
      "name": "Qomplement",
@@ -6800,7 +6707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 147
     },
     {
      "name": "Basware",
@@ -6850,7 +6757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 148
     },
     {
      "name": "Sybilion",
@@ -6893,7 +6800,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 149
     },
     {
      "name": "Prewave",
@@ -6936,7 +6843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 150
     },
     {
      "name": "Echo Global Logistics",
@@ -6979,7 +6886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 151
     },
     {
      "name": "Tech Data",
@@ -7022,7 +6929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 152
     },
     {
      "name": "Mile",
@@ -7065,7 +6972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 153
     },
     {
      "name": "Newstore",
@@ -7108,7 +7015,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 154
     },
     {
      "name": "Roadsync",
@@ -7158,7 +7065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 155
     },
     {
      "name": "Madaket",
@@ -7208,7 +7115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 156
     },
     {
      "name": "701x",
@@ -7257,7 +7164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 157
     },
     {
      "name": "ArcBest",
@@ -7300,7 +7207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 158
     },
     {
      "name": "Beacon Roofing Supply",
@@ -7343,7 +7250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 159
     },
     {
      "name": "Broadlume",
@@ -7386,7 +7293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 160
     },
     {
      "name": "Loadsmart",
@@ -7429,7 +7336,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 161
     },
     {
      "name": "ClimateAI",
@@ -7472,7 +7379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 162
     },
     {
      "name": "Happyrobot",
@@ -7515,7 +7422,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 163
     },
     {
      "name": "Navis (Kaleris)",
@@ -7558,7 +7465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 164
     },
     {
      "name": "Opply",
@@ -7608,7 +7515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 165
     },
     {
      "name": "Lalamove",
@@ -7651,7 +7558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 166
     },
     {
      "name": "TermScout",
@@ -7694,7 +7601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 167
     },
     {
      "name": "JAGGAER",
@@ -7737,7 +7644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 168
     },
     {
      "name": "Quartzy",
@@ -7787,7 +7694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 169
     },
     {
      "name": "FRAYT",
@@ -7830,7 +7737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 170
     },
     {
      "name": "Printful",
@@ -7873,7 +7780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 171
     },
     {
      "name": "ClickPost",
@@ -7923,7 +7830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 172
     },
     {
      "name": "Curri",
@@ -7966,7 +7873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 173
     },
     {
      "name": "Metrobi",
@@ -8009,7 +7916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 174
     },
     {
      "name": "Ryder System",
@@ -8052,7 +7959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 175
     },
     {
      "name": "Advance Auto Parts",
@@ -8095,7 +8002,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 176
+    },
+    {
+     "name": "Amazon Selling Partner API",
+     "slug": "amazon-seller-central",
+     "description": "The Amazon Selling Partner API (SP-API) is the modern REST-based API that enables Amazon sellers, vendors, and third-party developers to programmatically access Seller Central data and operations including catalog management, orders, inventory, pricing, fulfillment, reports, finances, notifications, and advertising. SP-API uses Login with Amazon (LWA) OAuth 2.0 access tokens for authentication and replaces the legacy Amazon Marketplace Web Service (MWS). Since September 2026 Amazon also offers an agent surface: the Amazon Selling Partner Connector, a first-party remote MCP server at https://sellingpartner-ai.amazon.com/mcp (beta, US stores, Seller Central OAuth, write actions drafted for seller approval), and the Selling Partner Agentic Toolkit of provider-published Agent Skills.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 61.3,
+      "contract_governance": 22.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 65.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 177
     },
     {
      "name": "Maven Machines",
@@ -8138,7 +8088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Nuvemshop Tiendanube",
@@ -8188,7 +8138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Mati Logistics",
@@ -8231,7 +8181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Elementum",
@@ -8274,7 +8224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Payem",
@@ -8324,7 +8274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Procuros",
@@ -8367,7 +8317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Cosmo Tech",
@@ -8410,7 +8360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Oracle Transportation Management",
@@ -8453,7 +8403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Tropic",
@@ -8496,7 +8446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "iContainers",
@@ -8539,7 +8489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "GoJek",
@@ -8589,7 +8539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Labguru",
@@ -8639,7 +8589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Order Desk",
@@ -8682,7 +8632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Vendr",
@@ -8725,7 +8675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Whiplash",
@@ -8768,7 +8718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Tradeverifyd",
@@ -8811,7 +8761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "E2open",
@@ -8854,7 +8804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "ShipHero",
@@ -8897,7 +8847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Whiplash Merchandising",
@@ -8940,7 +8890,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "3PL Warehouse Manager",
@@ -8983,10 +8933,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
-     "name": "Omniful, Inc.",
+     "name": "Omniful",
      "slug": "omniful-inc",
      "description": "Omniful is an AI-powered unified supply chain and fulfillment platform that consolidates order management (OMS), warehouse management (WMS), transportation management (TMS), inventory, point of sale, and returns into a single intelligent system for retailers, e-commerce businesses, logistics providers, and enterprises. The platform offers plug-and-play integrations with sales channels, marketplaces, and ERPs, multi-location and multi-brand operation support, and a set of public Integration APIs (seller/sales-channel, tenant, and TMS) with bearer-token authentication and webhook event subscriptions, documented as a public Postman collection at docs.omniful.tech. Omniful is a 500 Global portfolio company operating primarily across the MENA region.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png",
@@ -9026,7 +8976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Ordoro",
@@ -9069,7 +9019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Royal Mail",
@@ -9112,7 +9062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Cedarai",
@@ -9155,7 +9105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "FinditParts",
@@ -9198,7 +9148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Coyote Logistics",
@@ -9248,7 +9198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Canix",
@@ -9291,7 +9241,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "DSV",
@@ -9334,7 +9284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Zalando",
@@ -9384,7 +9334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Cosign",
@@ -9427,7 +9377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "DAT Freight & Analytics",
@@ -9470,7 +9420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "BlueCart",
@@ -9513,7 +9463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Interos",
@@ -9556,7 +9506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "Proton.ai",
@@ -9599,7 +9549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "17TRACK",
@@ -9649,7 +9599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "ShipBob",
@@ -9692,7 +9642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Toys R Us",
@@ -9735,7 +9685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 214
     }
    ]
   },
@@ -9744,8 +9694,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 203,
-   "shown": 203,
+   "count": 204,
+   "shown": 204,
    "providers": [
     {
      "name": "Instabee",
@@ -9788,7 +9738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Kpler",
@@ -9838,7 +9788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "ScanSource",
@@ -9881,7 +9831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "EZRentOut",
@@ -9924,10 +9874,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
-     "name": "Maison Safqa Holdings Limited",
+     "name": "Maison Safqa",
      "slug": "maison-safqa-holdings-limited",
      "description": "Maison Safqa Holdings Limited operates Maison Safqa, a members-only luxury flash-sale marketplace (built on Shopify) offering exclusive time-limited sales on high-end brands. For its partner brands it publishes the Maison Safqa Brand Developer API — an API-key-authenticated REST interface for creating products (single and bulk) and updating inventory levels, which the platform then syncs into Shopify with brand data taking precedence on conflict and prices converted to SAR on ingestion. Surfaced originally as a 500 Global portfolio lead and enriched from the provider's public developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png",
@@ -9967,7 +9917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Berrer",
@@ -10009,7 +9959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Parade",
@@ -10052,7 +10002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Ship24",
@@ -10095,7 +10045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Freight Waves",
@@ -10145,7 +10095,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "REKKI",
@@ -10188,7 +10138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Texas Instruments",
@@ -10223,6 +10173,56 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 225
+    },
+    {
+     "name": "ELISA",
+     "slug": "elisa",
+     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -16943,7 +16943,7 @@
      "rank": 377
     },
     {
-     "name": "AAR Corp",
+     "name": "AAR",
      "slug": "aar",
      "description": "AAR CORP. (NYSE: AIR) is a global aerospace and defense aftermarket solutions company and the number one aviation maintenance, repair and overhaul (MRO) provider in North America. It supplies new and used airframe and engine parts, performs airframe and component MRO, runs expeditionary and sustainment programs for government and defense customers on five continents, and operates four aviation software businesses — Trax (eMRO/eMobility aviation ERP), Aerostrat (Aerros maintenance scheduling), Airvoyant (AI-driven parts procurement, launched April 2026) and Airinmar (component repair and warranty management) — whose software covers more than 10,000 aircraft. AAR publishes no developer program, no API reference and no machine-readable contract; its only anonymously reachable API surface is the undocumented Adobe Commerce webapi behind the AAR PAARTS Store at shop.aarcorp.com/rest/V1/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png",
@@ -17745,7 +17745,7 @@
      "rank": 395
     },
     {
-     "name": "PayCargo, LLC",
+     "name": "PayCargo",
      "slug": "paycargo-llc",
      "description": "PayCargo, LLC is a fintech platform for the global logistics and freight industry, providing digital freight-payment processing, accounts-payable automation, and supply-chain payment visibility. Founded in 2007, PayCargo connects payers (shippers, freight forwarders, cargo owners) with vendors (carriers, terminals, warehouses, and other logistics providers) so freight charges can be paid electronically via ACH, credit card, or prepaid funds for faster cargo release. The platform spans ocean, air, and intermodal freight and offers products including PayCargo Payments, AP Automation, the Container Payment Portal, PayCargo Finance, and document/response automation. PayCargo exposes a partner-facing API (GET/POST) for retrieving charges due, processing payments, and reconciling transactions directly from a customer's own accounting/TMS systems, alongside EDI and SFTP integration options. API access is provisioned to partners rather than published as an open developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/screenshots/paycargo-llc-2026-08-07T191629.png",
@@ -18558,7 +18558,7 @@
      "rank": 413
     },
     {
-     "name": "Blassa Inc.",
+     "name": "Blassa",
      "slug": "blassa-inc",
      "description": "Blassa is an AI-powered location intelligence and geocoding platform built for the informal addressing systems common across the Middle East and Africa (MEA), where up to 40% of deliveries fail on the first attempt. The Blassa API turns ambiguous location descriptions and photos into precise coordinates and structured, verified addresses, offering forward and reverse geocoding, multi-language address autocomplete (Arabic, French, and local languages), address validation with deliverability scoring, and photo-to-location conversion. It targets logistics, e-commerce, and last-mile delivery companies looking to cut failed deliveries and improve checkout conversion. Founded in 2021 and backed by 500 Global and the Sanabil Accelerator, Blassa exposes its capabilities through a credit-metered REST API with free, Pro, and Enterprise plans, an API-key auth model, webhook support, and a hosted developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png",
@@ -20935,56 +20935,6 @@
      "rank": 466
     },
     {
-     "name": "Harbinger",
-     "slug": "harbinger",
-     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 467
-    },
-    {
      "name": "Greenbrier Companies",
      "slug": "greenbrier-cos",
      "description": "The Greenbrier Companies is a leading international supplier of equipment and services to global freight transportation markets, designing, building and marketing freight railcars in North America, Europe and South America from its headquarters in Lake Oswego, Oregon. Greenbrier also operates railcar leasing and fleet management, wheel services, maintenance and repair, marine barge manufacturing in Portland, and participates in the RailPulse railcar-telematics joint venture. Greenbrier publishes no developer program, no API portal and no SDKs, and sells no API product. It does, however, operate several real, anonymously callable HTTP surfaces on its own hosts: a bespoke JSON API serving certified tank-car gauge tables at tankcar.gbrx.com, and the WordPress and WooCommerce Store REST APIs behind www.gbrx.com, which expose the railcar product catalog, the aftermarket parts catalog, the press room and site search. Those are catalogued here for discovery; they are not a product Greenbrier markets.",
@@ -21025,7 +20975,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 467
     },
     {
      "name": "Matternet",
@@ -21075,7 +21025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 468
     },
     {
      "name": "Sentry Insurance",
@@ -21124,7 +21074,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 469
     },
     {
      "name": "Stord",
@@ -21167,7 +21117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 470
     },
     {
      "name": "World Fuel Services",
@@ -21216,7 +21166,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 471
     },
     {
      "name": "Sysdyne Technologies",
@@ -21259,7 +21209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 472
     },
     {
      "name": "PostEx",
@@ -21309,7 +21259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 473
     },
     {
      "name": "US AbilityOne Commission",
@@ -21359,7 +21309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 474
     },
     {
      "name": "Globality",
@@ -21402,7 +21352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 475
     },
     {
      "name": "Laundryheap",
@@ -21445,7 +21395,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 476
     },
     {
      "name": "NMFTA",
@@ -21488,7 +21438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 477
     },
     {
      "name": "Procurement Sciences",
@@ -21538,7 +21488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 478
     },
     {
      "name": "Union Pacific",
@@ -21581,56 +21531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
-    },
-    {
-     "name": "Aegis Marine Shipmanagement",
-     "slug": "aegis-marine-shipmanagement",
-     "description": "Aegis Marine Shipmanagement Inc. is a privately owned marine vessel transportation and ship management company headquartered at 215 South Road and King Street, Lacytown, Georgetown, Guyana, with a secondary office in Brooklyn, New York. Founded in 2018 by Guyanese-American businessman Sean Clarke, it serves the oil and gas sector, operating crude oil tankers, liquefied natural gas tankers and offshore support service vessels on behalf of third-party owners, partners and investors. Its services span commercial, technical, safety and quality, and logistics ship management, delivered through partnerships with established marine service providers, and include vessel registration under various flags, technical inspection and marine engine spares, marine vessel chartering, commodity trader engagement, and crew management covering recruitment, familiarization, training, retention and career promotion. Aegis Marine Shipmanagement is a shipping operator rather than a software vendor. It publishes no developer portal, no API documentation, no SDKs and no commercial or partner-facing product API. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at aegisships.com, which is captured here for discovery purposes: it is anonymously readable, effectively read-only, and serves the marketing site's own pages, media and taxonomy rather than any fleet, chartering or vessel-operations data.",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 481
+     "rank": 479
     },
     {
      "name": "Apkudo",
@@ -21691,7 +21592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 480
     },
     {
      "name": "Overhaul",
@@ -21734,7 +21635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 481
     },
     {
      "name": "Shipping.com",
@@ -21776,7 +21677,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 482
+    },
+    {
+     "name": "Aegis Marine Shipmanagement",
+     "slug": "aegis-marine-shipmanagement",
+     "description": "Aegis Marine Shipmanagement Inc. is a privately owned marine vessel transportation and ship management company headquartered at 215 South Road and King Street, Lacytown, Georgetown, Guyana, with a secondary office in Brooklyn, New York. Founded in 2018 by Guyanese-American businessman Sean Clarke, it serves the oil and gas sector, operating crude oil tankers, liquefied natural gas tankers and offshore support service vessels on behalf of third-party owners, partners and investors. Its services span commercial, technical, safety and quality, and logistics ship management, delivered through partnerships with established marine service providers, and include vessel registration under various flags, technical inspection and marine engine spares, marine vessel chartering, commodity trader engagement, and crew management covering recruitment, familiarization, training, retention and career promotion. Aegis Marine Shipmanagement is a shipping operator rather than a software vendor. It publishes no developer portal, no API documentation, no SDKs and no commercial or partner-facing product API. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at aegisships.com, which is captured here for discovery purposes: it is anonymously readable, effectively read-only, and serves the marketing site's own pages, media and taxonomy rather than any fleet, chartering or vessel-operations data.",
+     "score": 21.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 483
     },
     {
      "name": "Certificial",
@@ -21826,7 +21776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 484
     },
     {
      "name": "Kojo Technologies",
@@ -21869,7 +21819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 485
     },
     {
      "name": "The Andersons",
@@ -21915,6 +21865,56 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 486
+    },
+    {
+     "name": "Harbinger",
+     "slug": "harbinger",
+     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -23167,15 +23167,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 9.4,
+     "agent_score": 8.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
@@ -23184,7 +23184,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -24966,48 +24966,6 @@
      "rank": 555
     },
     {
-     "name": "91Squarefeet",
-     "slug": "91squarefeet",
-     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 556
-    },
-    {
      "name": "Exotec",
      "slug": "exotec",
      "description": "Exotec is a French warehouse automation manufacturer and integrator, founded in 2015 and headquartered in Croix, France, that builds the Skypod robotic automated storage and retrieval system (AS/RS) and the Deepsky warehouse execution system (WES) that orchestrates it. Skypod combines autonomous three-dimensional mobile robots, modular racking, picking workstations and inbound exchangers into an all-in-one goods-to-person system; Deepsky is the software layer that coordinates the robots, stations and third-party equipment and connects the installation to a customer's WMS or WCS over a RESTful web-services interface. Exotec reports more than 10,000 robots deployed across over 200 customer sites for more than 50 brands including Decathlon, Renault Group, DSV, Carrefour, Gap and Uniqlo, serving apparel, general merchandise, aftermarket parts, grocery, third-party logistics and healthcare fulfillment. The Deepsky WMS integration interface is delivered as customer-specific documentation under a commercial deployment rather than a public developer program, so Exotec publishes no open developer portal, API reference or SDK. It does publish an llms.txt at its web root and holds ISO/IEC 27001:2022 certification and SOC 2 Type 2 compliance.",
@@ -25048,7 +25006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Tredence",
@@ -25091,7 +25049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "Laserhub",
@@ -25134,7 +25092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Lineage",
@@ -25177,7 +25135,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Standard Industries",
@@ -25220,7 +25178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Veratrak",
@@ -25277,7 +25235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "Orolabs",
@@ -25320,7 +25278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "Valdera",
@@ -25363,7 +25321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Vetcove",
@@ -25413,7 +25371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "CO2 AI",
@@ -25456,7 +25414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "Leah",
@@ -25499,7 +25457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "Shopee",
@@ -25542,7 +25500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "JD.com (Jingdong)",
@@ -25585,7 +25543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Remarcable",
@@ -25628,7 +25586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Archive",
@@ -25671,7 +25629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Fictiv",
@@ -25714,7 +25672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "SkySelect",
@@ -25757,7 +25715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Zone & Company",
@@ -25800,7 +25758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "Brickanta",
@@ -25842,7 +25800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "Pactum",
@@ -25885,7 +25843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "Backerkit",
@@ -25935,7 +25893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Cardinal Health",
@@ -25985,7 +25943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "CargoAi",
@@ -26028,7 +25986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "Omnitracs",
@@ -26071,7 +26029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "Pietra",
@@ -26114,7 +26072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Railinc",
@@ -26157,7 +26115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "Shopventory",
@@ -26200,7 +26158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "Skootar",
@@ -26243,7 +26201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "Vanilla Steel",
@@ -26300,7 +26258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "VendorPM",
@@ -26343,7 +26301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Joor",
@@ -26393,7 +26351,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "Workrise",
@@ -26443,7 +26401,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Brightfield",
@@ -26486,7 +26444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Kiwibot",
@@ -26529,7 +26487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "Makersite",
@@ -26572,7 +26530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 590
     },
     {
      "name": "NoScrubs",
@@ -26615,7 +26573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "Pango",
@@ -26658,7 +26616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "Qualifyze",
@@ -26708,7 +26666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "AMPAworks",
@@ -26758,7 +26716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "CMA CGM",
@@ -26801,7 +26759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Traba",
@@ -26844,7 +26802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "Frete.com",
@@ -26887,7 +26845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "HungryPanda",
@@ -26937,7 +26895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "Settle",
@@ -26987,7 +26945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "2ULaundry",
@@ -27030,7 +26988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Anvyl",
@@ -27073,7 +27031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 601
     },
     {
      "name": "Simbe Robotics",
@@ -27113,6 +27071,48 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 602
+    },
+    {
+     "name": "91Squarefeet",
+     "slug": "91squarefeet",
+     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -27205,7 +27205,7 @@
      "rank": 605
     },
     {
-     "name": "Nowlun Holding Corp.",
+     "name": "Nowlun",
      "slug": "nowlun-holding-corp",
      "description": "Nowlun is a digital freight-forwarding platform serving the Middle East and North Africa that lets businesses compare instant ocean-freight quotes from 30+ shipping lines, book FCL and bulk sea shipments, arrange inland trucking to and from ports, track cargo through transit, and handle customs clearance. Beyond its shipper-facing web application, Nowlun operates a live, OAuth-protected Model Context Protocol (MCP) server at https://nowlun.com/mcp, secured with RFC 8414 authorization-server and RFC 9728 protected-resource discovery (Authorization Code + PKCE, \"mcp\" scope). Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/screenshots/nowlun-holding-corp-2026-08-07T185638.png",
@@ -27913,48 +27913,6 @@
      "rank": 621
     },
     {
-     "name": "Ascend Elements",
-     "slug": "ascend-elements",
-     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 15.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 24.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 9.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 622
-    },
-    {
      "name": "Flock Freight",
      "slug": "flock-freight",
      "description": "Flock Freight is a freight technology company and licensed freight brokerage that pioneered shared truckload (STL) shipping through its FlockDirect service. Its AI-powered pooling technology algorithmically combines multiple partial shipments from different businesses into a single multi-stop full truckload, giving shippers truckload-level service, damage rates, and speed without paying for a full trailer, while cutting empty miles and carbon emissions. The platform provides automated spot rating via API, TMS integrations, and EDI connectivity (204/210/211/214/990/997) for shippers and carriers. Backed by GV and the SoftBank Vision Fund, the company is a certified B Corporation.",
@@ -27995,7 +27953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 622
     },
     {
      "name": "Govini",
@@ -28045,7 +28003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 623
     },
     {
      "name": "MTech Systems",
@@ -28088,7 +28046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 624
     },
     {
      "name": "US Foods",
@@ -28130,7 +28088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 625
     },
     {
      "name": "Certa",
@@ -28173,7 +28131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 626
     },
     {
      "name": "Clutter",
@@ -28216,7 +28174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 627
     },
     {
      "name": "Gatekeeper",
@@ -28259,7 +28217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 628
     },
     {
      "name": "Ross Stores",
@@ -28302,7 +28260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 629
     },
     {
      "name": "SmartHop",
@@ -28345,7 +28303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 630
     },
     {
      "name": "The Coca-Cola Company",
@@ -28388,7 +28346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 631
     },
     {
      "name": "VWR International (Avantor)",
@@ -28438,7 +28396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 632
     },
     {
      "name": "BevSpot",
@@ -28481,7 +28439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 633
     },
     {
      "name": "OZON.ru",
@@ -28523,7 +28481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 634
     },
     {
      "name": "Kabal",
@@ -28573,7 +28531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 635
     },
     {
      "name": "Parcel Monitor",
@@ -28623,7 +28581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 636
     },
     {
      "name": "Regrello",
@@ -28666,7 +28624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 637
     },
     {
      "name": "TikTok Shop API",
@@ -28700,6 +28658,48 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 638
+    },
+    {
+     "name": "Ascend Elements",
+     "slug": "ascend-elements",
+     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 24.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -36806,7 +36806,7 @@
      "rank": 823
     },
     {
-     "name": "Saia Inc",
+     "name": "Saia",
      "slug": "saia",
      "description": "Saia Inc is a major US corporation and Fortune 1000 company. The Saia Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saia/refs/heads/main/screenshots/saia-2026-06-20T193331.png",
@@ -39033,7 +39033,7 @@
      "rank": 873
     },
     {
-     "name": "EAS Innovations Inc",
+     "name": "ELEV8",
      "slug": "eas-innovations-inc",
      "description": "EAS Innovations Inc operates ELEV8, an end-to-end, cloud-based dealer management system (DMS) built for independent auto dealers and automotive finance companies. The platform unifies real-time accounting, inventory management, CRM and desking, loan servicing, payments and collections into a single fully-integrated system. It offers per-seat pricing, user-based access rights, user-level audit logs, whitelisted IP addresses, multi-rooftop access and department-level restrictions, and is delivered as a SaaS web application at app.elev8dms.com. EAS Innovations is a 500 Global portfolio company. No public developer API is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eas-innovations-inc/refs/heads/main/screenshots/eas-innovations-inc-2026-07-25T212704.png",
@@ -39962,7 +39962,7 @@
      "rank": 894
     },
     {
-     "name": "Blau Corp",
+     "name": "Blau",
      "slug": "blau-corp",
      "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blau-corp/refs/heads/main/screenshots/blau-corp-2026-07-25T203303.png",
@@ -44612,7 +44612,7 @@
      "rank": 999
     },
     {
-     "name": "Ace Turtle Services Pvt Ltd",
+     "name": "Ace Turtle Services",
      "slug": "aceturtleservicespvtltd",
      "description": "Ace Turtle Services Pvt Ltd (brand \"ace turtle\") is a Bengaluru, India based retail technology company founded in 2014 that operates a vertical commerce model for international fashion and lifestyle brands. It is the exclusive licensee in India and South Asia for brands including Lee, Wrangler, G-STAR, Toys\"R\"Us and Dockers, and it runs three proprietary platforms: Rubicon, an omnichannel commerce platform combining distributed order management, inventory, catalogue, pricing and logistics management; Connect App, a store-operations application for in-store fulfilment, helpdesk and visual merchandising; and Albus, a machine-learning layer for inventory optimisation, safety-stock calculation and dynamic markdown. Rubicon is marketed as a channel-agnostic platform that integrates into a brand's existing technology ecosystem, but as of the September 2026 enrichment pass the company publishes no developer portal, no API reference and no machine-readable contract on any host it controls.",
      "score": 7.6,

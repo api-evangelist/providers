@@ -148,7 +148,7 @@ modified: '2026-07-19'
 name: Facturama
 nav: Providers
 network: true
-overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronic Invoicing, CFDI, E-Invoicing, and Mexico.
+overview: 'Facturama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Invoicing, CFDI, Mexico, and Tax Compliance.
 
 
   Facturama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -201,9 +201,8 @@ security:
 slug: facturama
 tags:
 - Company
-- Electronic Invoicing
-- CFDI
 - E-Invoicing
+- CFDI
 - Mexico
 - Tax Compliance
 - SAT

@@ -246,7 +246,7 @@ tags:
 - Chargebacks
 - E-Commerce
 - Payments
-- Risk
+- Risk Management
 - Machine Learning
 - Commerce Protection
 - Account Protection

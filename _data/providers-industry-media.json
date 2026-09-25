@@ -1,6 +1,6 @@
 {
- "total": 632,
- "shown": 632,
+ "total": 630,
+ "shown": 630,
  "limit": 1000,
  "bands": [
   {
@@ -197,8 +197,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 40,
-   "shown": 40,
+   "count": 39,
+   "shown": 39,
    "providers": [
     {
      "name": "Dow Jones Developer Platform",
@@ -472,49 +472,6 @@
      "rank": 10
     },
     {
-     "name": "Dolby.io",
-     "slug": "dolby-io",
-     "description": "Dolby.io (now branded as Dolby OptiView) is Dolby Laboratories' developer platform for media, streaming, communications, and advertising APIs. Originally launched as a hub for Dolby's audio and video processing services (Media APIs, Communications APIs), the platform has consolidated around three OptiView pillars — Real-time Streaming (formerly Millicast), Live Streaming (formerly THEOlive), and Playback (formerly THEOplayer) — with an Advertising pillar built on Server-Guided Ad Insertion. The platform powers live sports streaming for the NFL, NASCAR, Paddy Power, and other large broadcasters, with sub-500ms WebRTC delivery, multi-format ingest (WHIP/WHEP, SRT, RTMP), and cross-platform playback SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png",
-     "score": 63.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 64.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "World News API",
      "slug": "worldnewsapi",
      "description": "World News API is a real-time and historical news data API covering thousands of sources across 210+ countries and 86+ languages. It provides full-text and semantic news search, geo-targeted local news search (a radius filter around a latitude/longitude point), article content and link extraction from arbitrary URLs, country-level top news clustering, newspaper front-page images, and news-source discovery. Local news search is a first-class feature - resolve a place name to coordinates with the Geo Coordinates endpoint, then pass those coordinates to Search News via the location-filter parameter to find news published or mentioned near that place. Requests are authenticated with an API key (api-key query parameter or x-api-key header) and metered in points against a daily plan allowance, with X-API-Quota-* headers returning cost and remaining budget on every response. The provider publishes its own OpenAPI 3 document, generated client libraries for two dozen languages, and a first-party local-stdio MCP server exposing eight news tools to AI agents.",
@@ -555,7 +512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "APITube",
@@ -598,7 +555,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Bria",
@@ -641,7 +598,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "EODHD",
@@ -691,7 +648,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Frame.io",
@@ -734,7 +691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Mediastack",
@@ -777,7 +734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Bloomberg",
@@ -827,7 +784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Elsevier",
@@ -877,7 +834,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "API League",
@@ -920,7 +877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "StockData",
@@ -970,7 +927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Ant Media",
@@ -1013,7 +970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "MediaValet",
@@ -1056,7 +1013,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Factiva",
@@ -1106,7 +1063,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Giphy",
@@ -1149,7 +1106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Feedly",
@@ -1192,7 +1149,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Vyond",
@@ -1235,7 +1192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Adobe Premiere Pro",
@@ -1278,7 +1235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "ReefAPI",
@@ -1321,7 +1278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Bynder",
@@ -1364,7 +1321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Criteo",
@@ -1407,7 +1364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Bluma",
@@ -1450,7 +1407,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Serper",
@@ -1493,7 +1450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Youtube",
@@ -1536,7 +1493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "The Movie Database",
@@ -1579,7 +1536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Amazon Elastic Transcoder",
@@ -1622,7 +1579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Brandfolder",
@@ -1665,7 +1622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Conviva",
@@ -1708,7 +1665,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Rockbot",
@@ -1751,7 +1708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Decart",
@@ -1794,7 +1751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Fabric Origin",
@@ -1837,7 +1794,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Descript",
@@ -1880,7 +1837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Amazon MediaConnect",
@@ -1923,7 +1880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Amazon MediaConvert",
@@ -1966,7 +1923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     }
    ],
    "open": true
@@ -1976,8 +1933,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 116,
-   "shown": 116,
+   "count": 114,
+   "shown": 114,
    "providers": [
     {
      "name": "Amazon MediaPackage",
@@ -2020,7 +1977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Amazon MediaTailor",
@@ -2063,7 +2020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Blubrry API",
@@ -2106,7 +2063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Amazon MediaLive",
@@ -2149,7 +2106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "NewTqnia | Technology News, AI and Innovation",
@@ -2192,7 +2149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Wideo",
@@ -2235,7 +2192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Amazon Kinesis Video Streams",
@@ -2278,7 +2235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Alpha Vantage",
@@ -2328,7 +2285,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Picsart",
@@ -2371,7 +2328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Rogers Communications",
@@ -2421,7 +2378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Amazon Deadline Cloud",
@@ -2464,7 +2421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Benzinga",
@@ -2514,7 +2471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Amazon Interactive Video Service",
@@ -2557,7 +2514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "CryptoCompare",
@@ -2607,7 +2564,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "MediaCaption API",
@@ -2650,7 +2607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "SponsorUnited",
@@ -2693,7 +2650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "ACMA",
@@ -2743,7 +2700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Lightricks",
@@ -2786,7 +2743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Plex",
@@ -2829,7 +2786,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Amazon MediaStore",
@@ -2872,7 +2829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Department of Justice",
@@ -2922,7 +2879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "SmartNews",
@@ -2965,7 +2922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Gloria",
@@ -3007,7 +2964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Bing News Search",
@@ -3050,7 +3007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Exactly Ai",
@@ -3093,7 +3050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Riverside",
@@ -3136,7 +3093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Automattic",
@@ -3179,7 +3136,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "EOD Historical Data",
@@ -3229,7 +3186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Deepdub",
@@ -3272,7 +3229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Event Registry",
@@ -3315,7 +3272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Getty Images",
@@ -3358,7 +3315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Newscatcher",
@@ -3401,7 +3358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Aligned News",
@@ -3444,7 +3401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Hedra",
@@ -3487,7 +3444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Pictomancer.ai",
@@ -3529,7 +3486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Refinitiv",
@@ -3579,7 +3536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "CryptoNews API",
@@ -3629,7 +3586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Zencoder",
@@ -3672,7 +3629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Cloudinary",
@@ -3715,7 +3672,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "ImageKit",
@@ -3758,7 +3715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Akkio",
@@ -3801,7 +3758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Opus",
@@ -3844,7 +3801,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Clear Channel Outdoor",
@@ -3887,7 +3844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "News Break",
@@ -3930,7 +3887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "NewsAPI",
@@ -3973,7 +3930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "VerbIT",
@@ -4016,7 +3973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Lightstream",
@@ -4059,7 +4016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "The New York Times",
@@ -4098,6 +4055,56 @@
       "agent_card": false,
       "dry_run_mode": "na",
       "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
+     "name": "WorldCat",
+     "slug": "worldcat",
+     "description": "OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Base API, and WorldCat Entities data API for libraries and developers building discovery and cataloging applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 62.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -4542,49 +4549,6 @@
      "rank": 102
     },
     {
-     "name": "Tribune Media",
-     "slug": "tribune-media",
-     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 60.4,
-      "contract_governance": 54.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 103
-    },
-    {
      "name": "Tiingo",
      "slug": "tiingo",
      "description": "Tiingo provides high-quality financial market data APIs across US equities, crypto, FX, fundamentals, and news, popular among quantitative researchers. APIs include End-of-Day prices, IEX intraday data, Crypto, Forex, Fundamentals, and News, with REST and WebSocket access at api.tiingo.com.",
@@ -4632,7 +4596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "YouTube Data",
@@ -4675,7 +4639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Artlist",
@@ -4718,7 +4682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Cloudflare Stream",
@@ -4761,7 +4725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Brandtrack",
@@ -4804,50 +4768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
-    },
-    {
-     "name": "Rubicon Project",
-     "slug": "rubicon-project",
-     "description": "Rubicon Project is a Los Angeles-based advertising technology company, founded in 2007, that built and operated one of the largest real-time bidding advertising exchanges, connecting digital publishers (the sell side) with advertisers and demand-side platforms. In 2020 Rubicon Project merged with Telaria and rebranded as Magnite, now positioned as the world's largest independent sell-side (SSP) advertising company, spanning connected TV (CTV), online video, display, and audio across its DV+, SpringServe, ClearLine and Magnite Streaming platforms. This profile tracks the company as it exists today under the Magnite brand. Magnite publishes a public, machine-readable OpenAPI 3.1 contract for the SpringServe ad-serving platform (v1 and v0) at console.springserve.com/api-docs, mirrored for the ClearLine buy-side console at console.clearline.magnite.com, together with a public Confluence documentation space, published rate limits, a first-party Python SDK, mobile In-App Ads SDKs for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
+     "rank": 107
     },
     {
      "name": "Comunicate.top API",
@@ -4896,7 +4817,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 108
     },
     {
      "name": "TVU Networks",
@@ -4939,7 +4860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 109
     },
     {
      "name": "Vox Media",
@@ -4982,7 +4903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "Famous",
@@ -5025,7 +4946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 111
     },
     {
      "name": "The New York Times Company",
@@ -5068,7 +4989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 112
     },
     {
      "name": "AOL",
@@ -5111,7 +5032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 113
     },
     {
      "name": "MarketAux",
@@ -5161,7 +5082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 114
     },
     {
      "name": "Roku",
@@ -5204,7 +5125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 115
     },
     {
      "name": "Finnhub",
@@ -5254,7 +5175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 116
     },
     {
      "name": "Chartbeat",
@@ -5297,7 +5218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 117
     },
     {
      "name": "Giant Bomb",
@@ -5340,7 +5261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 118
     },
     {
      "name": "Memesio",
@@ -5383,50 +5304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
-    },
-    {
-     "name": "WorldCat",
-     "slug": "worldcat",
-     "description": "OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Base API, and WorldCat Entities data API for libraries and developers building discovery and cataloging applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 62.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 35.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 122
+     "rank": 119
     },
     {
      "name": "EPFL",
@@ -5476,7 +5354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 120
     },
     {
      "name": "FreeTTS",
@@ -5519,7 +5397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 121
     },
     {
      "name": "Shutterstock",
@@ -5562,7 +5440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 122
     },
     {
      "name": "WSC Sports",
@@ -5604,7 +5482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 123
     },
     {
      "name": "Depositphotos",
@@ -5647,7 +5525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 124
     },
     {
      "name": "ImgBB",
@@ -5690,7 +5568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 125
     },
     {
      "name": "Rightsline",
@@ -5733,7 +5611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 126
     },
     {
      "name": "Motion Elements",
@@ -5776,7 +5654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 127
     },
     {
      "name": "Reuters",
@@ -5819,7 +5697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 128
     },
     {
      "name": "FreeWheel Media",
@@ -5862,7 +5740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 129
     },
     {
      "name": "Signal AI",
@@ -5905,7 +5783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 130
     },
     {
      "name": "useapi.net",
@@ -5948,7 +5826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 131
     },
     {
      "name": "Moises",
@@ -5991,7 +5869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 132
     },
     {
      "name": "Podbean",
@@ -6034,7 +5912,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 133
     },
     {
      "name": "VideoVerse",
@@ -6076,7 +5954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 134
     },
     {
      "name": "Trint",
@@ -6119,7 +5997,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 135
     },
     {
      "name": "Xignite",
@@ -6169,7 +6047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 136
     },
     {
      "name": "Captivate",
@@ -6212,7 +6090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 137
     },
     {
      "name": "Transistor",
@@ -6255,7 +6133,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 138
     },
     {
      "name": "AniList",
@@ -6298,7 +6176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 139
     },
     {
      "name": "Tenor",
@@ -6341,7 +6219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 140
     },
     {
      "name": "Threads",
@@ -6384,7 +6262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 141
     },
     {
      "name": "Contify",
@@ -6427,7 +6305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 142
     },
     {
      "name": "Gist",
@@ -6470,7 +6348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 143
     },
     {
      "name": "Lingopal",
@@ -6513,7 +6391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 144
     },
     {
      "name": "Bytescale",
@@ -6556,7 +6434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 145
     },
     {
      "name": "Narrative Sports",
@@ -6599,7 +6477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 146
     },
     {
      "name": "PoolParty",
@@ -6641,7 +6519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 147
     },
     {
      "name": "iconik",
@@ -6684,7 +6562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 148
     },
     {
      "name": "Yodeck",
@@ -6727,7 +6605,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 149
     },
     {
      "name": "iSpot.tv",
@@ -6770,7 +6648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 150
     },
     {
      "name": "Google News RSS",
@@ -6813,7 +6691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 151
     },
     {
      "name": "Unrivaled Basketball",
@@ -6856,7 +6734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 152
     },
     {
      "name": "Yahoo",
@@ -6899,7 +6777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 153
     },
     {
      "name": "Sonix",
@@ -6942,7 +6820,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 154
     },
     {
      "name": "Sync Labs",
@@ -6985,7 +6863,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 155
     },
     {
      "name": "The Guardian",
@@ -7028,7 +6906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 156
     },
     {
      "name": "Unsplash",
@@ -7071,7 +6949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 157
     }
    ]
   },
@@ -7080,8 +6958,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 103,
-   "shown": 103,
+   "count": 102,
+   "shown": 102,
    "providers": [
     {
      "name": "Sportradar",
@@ -7124,7 +7002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 158
     },
     {
      "name": "ProRata.ai",
@@ -7167,7 +7045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 159
     },
     {
      "name": "Qwilt",
@@ -7210,7 +7088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 160
     },
     {
      "name": "Stagwell",
@@ -7253,7 +7131,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 161
     },
     {
      "name": "MediaLab.AI",
@@ -7296,7 +7174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 162
     },
     {
      "name": "Arena",
@@ -7339,7 +7217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 163
     },
     {
      "name": "Creatomate",
@@ -7382,7 +7260,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 164
     },
     {
      "name": "Marvel",
@@ -7424,7 +7302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 165
     },
     {
      "name": "Microsoft Bing",
@@ -7467,7 +7345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 166
     },
     {
      "name": "Shotstack",
@@ -7510,7 +7388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 167
     },
     {
      "name": "Kitchen Stories",
@@ -7553,7 +7431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 168
     },
     {
      "name": "The News API",
@@ -7596,7 +7474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 169
     },
     {
      "name": "Listen Notes",
@@ -7639,7 +7517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 170
     },
     {
      "name": "Phraseanet",
@@ -7682,7 +7560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 171
     },
     {
      "name": "Spreaker",
@@ -7725,7 +7603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 172
     },
     {
      "name": "Bloomberg APIs",
@@ -7775,7 +7653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 173
     },
     {
      "name": "Brightcove",
@@ -7818,7 +7696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 174
     },
     {
      "name": "ByteArk",
@@ -7861,7 +7739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 175
     },
     {
      "name": "Medium",
@@ -7904,7 +7782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 176
     },
     {
      "name": "Bannerbear",
@@ -7947,7 +7825,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 177
     },
     {
      "name": "Buzzsprout",
@@ -7990,7 +7868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 178
     },
     {
      "name": "Vimeo OTT",
@@ -8033,7 +7911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 179
     },
     {
      "name": "WideOrbit",
@@ -8076,7 +7954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 180
     },
     {
      "name": "Substack",
@@ -8119,7 +7997,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 181
     },
     {
      "name": "Warner Music Group",
@@ -8162,7 +8040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 182
     },
     {
      "name": "Acast",
@@ -8205,7 +8083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 183
     },
     {
      "name": "Coactive",
@@ -8248,7 +8126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 184
     },
     {
      "name": "Coconut",
@@ -8291,7 +8169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 185
     },
     {
      "name": "miso.ai",
@@ -8334,7 +8212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 186
     },
     {
      "name": "Simplecast",
@@ -8377,7 +8255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 187
     },
     {
      "name": "Zesty",
@@ -8420,7 +8298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 188
     },
     {
      "name": "ScreenCloud",
@@ -8463,7 +8341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 189
     },
     {
      "name": "Hourone",
@@ -8506,7 +8384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 190
     },
     {
      "name": "Bloomberg News",
@@ -8556,7 +8434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 191
     },
     {
      "name": "Dacast",
@@ -8599,7 +8477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 192
     },
     {
      "name": "MadHive",
@@ -8642,7 +8520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 193
     },
     {
      "name": "Johns Hopkins University",
@@ -8692,7 +8570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 194
     },
     {
      "name": "Rad.",
@@ -8735,7 +8613,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 195
     },
     {
      "name": "Comcast",
@@ -8785,7 +8663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 196
     },
     {
      "name": "ZDNet",
@@ -8828,7 +8706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 197
     },
     {
      "name": "Covatic",
@@ -8871,7 +8749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 198
     },
     {
      "name": "ActionStreamer",
@@ -8913,7 +8791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 199
     },
     {
      "name": "Mashable",
@@ -8956,7 +8834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 200
     },
     {
      "name": "Megaphone",
@@ -8999,7 +8877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 201
     },
     {
      "name": "NewsBlur",
@@ -9042,7 +8920,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 202
     },
     {
      "name": "Bitmovin",
@@ -9085,7 +8963,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 203
     },
     {
      "name": "Widen",
@@ -9128,7 +9006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 204
     },
     {
      "name": "Songtradr",
@@ -9171,7 +9049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 205
     },
     {
      "name": "LiveLike",
@@ -9214,7 +9092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 206
     },
     {
      "name": "Rotten Tomatoes",
@@ -9257,7 +9135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 207
     },
     {
      "name": "AdReady (CPXi)",
@@ -9300,7 +9178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 208
     },
     {
      "name": "Tempus Ex",
@@ -9343,7 +9221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 209
     },
     {
      "name": "OpenWeb",
@@ -9386,7 +9264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 210
     },
     {
      "name": "Vimeo",
@@ -9429,7 +9307,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 211
     },
     {
      "name": "Reduct",
@@ -9472,7 +9350,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 212
+    },
+    {
+     "name": "Tribune Media",
+     "slug": "tribune-media",
+     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 21.3,
+      "contract_governance": 54.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 213
     },
     {
      "name": "Nekosia API",
@@ -9515,7 +9436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 214
     },
     {
      "name": "Warner Bros. Discovery",
@@ -9558,57 +9479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
-    },
-    {
-     "name": "Next Big Idea Club",
-     "slug": "next-big-idea-club",
-     "description": "Next Big Idea Club is a nonfiction book subscription club and podcast that curates the most important new nonfiction, chosen by a selection committee of Malcolm Gladwell, Adam Grant, Susan Cain, and Daniel Pink. Members receive curated new nonfiction, an in-app library, courses, and author interviews across the web and native iOS/Android apps. The consumer experience is powered by a first-party WordPress REST API (the members/v1 namespace) secured with OAuth 2.0 / OpenID Connect via the WP OAuth Server, with Stripe integration for subscription billing. This profile was seeded as a Bloomberg Beta portfolio lead and enriched from the provider's public /wp-json/ discovery and /.well-known/ OAuth surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png",
-     "score": 33.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 49.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 55.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 218
+     "rank": 215
     },
     {
      "name": "100 Thieves",
@@ -9651,7 +9522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 219
+     "rank": 216
     },
     {
      "name": "Dailyhunt",
@@ -9694,7 +9565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 217
     },
     {
      "name": "Bloomberg Data",
@@ -9744,7 +9615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 218
     },
     {
      "name": "Pixlee",
@@ -9787,7 +9658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 219
     },
     {
      "name": "SPX Graphics",
@@ -9830,10 +9701,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 220
     },
     {
-     "name": "JoySpace Technologies, Inc.",
+     "name": "JoySpace Technologies",
      "slug": "joyspace-technologies-inc",
      "description": "JoySpace Technologies, Inc. (Joyspace) operates an enterprise AI video transformation platform that turns long-form video into viral short clips, captions in 99+ languages, and repurposed content at scale for B2B marketing, sales, podcast, agency, and executive-branding teams. It combines AI clip generation, agentic video-processing workflows, and multimodal semantic search across large video archives, processing 10,000+ videos monthly on enterprise-grade infrastructure. Joyspace exposes a REST API (POST /api/v1/videos/process) secured with Bearer API keys, signed webhooks with automatic retry, and cloud-storage connectors for AWS S3, Google Cloud Storage, Azure Blob Storage, Cloudflare R2, and Dropbox Business. The company is a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/joyspace-technologies-inc/refs/heads/main/screenshots/joyspace-technologies-inc-2026-07-25T223249.png",
@@ -9873,7 +9744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 221
     },
     {
      "name": "Taddy",
@@ -9915,7 +9786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 222
     },
     {
      "name": "The Cat API",
@@ -9958,7 +9829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 223
     },
     {
      "name": "Google Photos Library",
@@ -10001,7 +9872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 224
     },
     {
      "name": "Associated Press",
@@ -10044,7 +9915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 225
     },
     {
      "name": "GNews",
@@ -10087,7 +9958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 226
     },
     {
      "name": "Muck Rack",
@@ -10130,7 +10001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 227
     },
     {
      "name": "Common Sense Media",
@@ -10173,7 +10044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 228
     },
     {
      "name": "Vice Media",
@@ -10215,7 +10086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 229
     },
     {
      "name": "StreamYard",
@@ -10258,7 +10129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 230
     },
     {
      "name": "Rock The Bells",
@@ -10301,7 +10172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 234
+     "rank": 231
     },
     {
      "name": "CloudSight",
@@ -10344,7 +10215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 232
     },
     {
      "name": "Lobsters",
@@ -10387,7 +10258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 233
     },
     {
      "name": "Walt Disney",
@@ -10430,7 +10301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 234
     },
     {
      "name": "StockNewsAPI",
@@ -10479,7 +10350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 235
     },
     {
      "name": "SundaySky",
@@ -10522,7 +10393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 236
     },
     {
      "name": "FlyteDesk",
@@ -10572,7 +10443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 237
     },
     {
      "name": "DVIDS API",
@@ -10622,7 +10493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 238
     },
     {
      "name": "Imgix",
@@ -10665,7 +10536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 239
     },
     {
      "name": "The Philadelphia Inquirer",
@@ -10708,7 +10579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 240
     },
     {
      "name": "Brainsuite.ai",
@@ -10750,7 +10621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 241
     },
     {
      "name": "Messari",
@@ -10793,56 +10664,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 245
-    },
-    {
-     "name": "Virtual Incision",
-     "slug": "virtual-incision",
-     "description": "Virtual Incision Corporation is a Lincoln, Nebraska surgical robotics company, spun out of the University of Nebraska in 2006, that builds MIRA — the Miniaturized In vivo Robotic Assistant — and defined the miniaturized robotic-assisted surgery (miniRAS) category. MIRA is a roughly two-pound, tray-to-table robot inserted through a single umbilical incision, designed to make any operating room robot-ready in minutes. It won FDA De Novo authorization for colectomy in 2024 and 510(k) clearance for benign hysterectomy in 2026. Virtual Incision publishes no product or developer API: MIRA is regulated capital equipment, not a platform. The machine-readable surface on virtualincision.com is the anonymously readable WordPress REST API (newsroom, MIRA pages, events, jobs, media) plus a live but OAuth-gated WordPress MCP Adapter endpoint advertised by RFC 8414 and RFC 9728 discovery documents. The company publishes a coordinated vulnerability disclosure policy under FDA Section 524B.",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 14.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 60.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 246
+     "rank": 242
     },
     {
      "name": "Amagi",
@@ -10885,7 +10707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 243
     },
     {
      "name": "VoyceMe",
@@ -10928,7 +10750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 244
     },
     {
      "name": "Unified",
@@ -10970,7 +10792,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 245
     },
     {
      "name": "Oddcast",
@@ -11020,7 +10842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 246
     },
     {
      "name": "Software Engineering Daily",
@@ -11063,7 +10885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 247
     },
     {
      "name": "TechRepublic",
@@ -11106,7 +10928,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 248
+    },
+    {
+     "name": "Virtual Incision",
+     "slug": "virtual-incision",
+     "description": "Virtual Incision Corporation is a Lincoln, Nebraska surgical robotics company, spun out of the University of Nebraska in 2006, that builds MIRA — the Miniaturized In vivo Robotic Assistant — and defined the miniaturized robotic-assisted surgery (miniRAS) category. MIRA is a roughly two-pound, tray-to-table robot inserted through a single umbilical incision, designed to make any operating room robot-ready in minutes. It won FDA De Novo authorization for colectomy in 2024 and 510(k) clearance for benign hysterectomy in 2026. Virtual Incision publishes no product or developer API: MIRA is regulated capital equipment, not a platform. The machine-readable surface on virtualincision.com is the anonymously readable WordPress REST API (newsroom, MIRA pages, events, jobs, media) plus a live but OAuth-gated WordPress MCP Adapter endpoint advertised by RFC 8414 and RFC 9728 discovery documents. The company publishes a coordinated vulnerability disclosure policy under FDA Section 524B.",
+     "score": 28.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 60.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 249
     },
     {
      "name": "Ximalaya",
@@ -11148,50 +11019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
-    },
-    {
-     "name": "TechCrunch",
-     "slug": "techcrunch",
-     "description": "TechCrunch (https://techcrunch.com/) is a leading technology media property dedicated to covering startups, venture capital, and innovation. Founded in 2005 and acquired by AOL in 2010 and later by Yahoo, TechCrunch delivers breaking news, in-depth analysis, and original reporting on the technology industry, emerging companies, funding rounds, and the people shaping the future of tech. The publication hosts flagship events including TechCrunch Disrupt and the Startup Battlefield competition. TechCrunch runs on WordPress and exposes the standard WordPress REST API for programmatic content access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png",
-     "score": 28.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 17.3,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 254
+     "rank": 250
     },
     {
      "name": "Publicis Groupe",
@@ -11233,7 +11061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 251
     },
     {
      "name": "Slashdot",
@@ -11276,7 +11104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 252
     },
     {
      "name": "Pex",
@@ -11319,7 +11147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 253
     },
     {
      "name": "Radio Mast",
@@ -11362,7 +11190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 254
     },
     {
      "name": "Blink Ledger Systems",
@@ -11412,7 +11240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 255
     },
     {
      "name": "OneScreen AI",
@@ -11455,7 +11283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 256
     },
     {
      "name": "TEGNA",
@@ -11498,7 +11326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 257
     },
     {
      "name": "You.com",
@@ -11540,7 +11368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 258
     },
     {
      "name": "Radio Cult",
@@ -11583,7 +11411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 259
     }
    ]
   },
@@ -11592,8 +11420,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 145,
-   "shown": 145,
+   "count": 147,
+   "shown": 147,
    "providers": [
     {
      "name": "SideChef",
@@ -11636,7 +11464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 260
     },
     {
      "name": "US Army",
@@ -11686,7 +11514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 261
     },
     {
      "name": "Artsy",
@@ -11729,7 +11557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 262
     },
     {
      "name": "GlobalData",
@@ -11778,7 +11606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 263
     },
     {
      "name": "NPR",
@@ -11821,7 +11649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 264
     },
     {
      "name": "Shakr Media",
@@ -11863,7 +11691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 265
     },
     {
      "name": "EIN Newswire",
@@ -11906,7 +11734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 266
     },
     {
      "name": "Catch&Release",
@@ -11948,7 +11776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 267
     },
     {
      "name": "PlayPlay",
@@ -11991,7 +11819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 268
     },
     {
      "name": "sapjilcoding",
@@ -12040,7 +11868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 269
     },
     {
      "name": "Fandom",
@@ -12083,7 +11911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 270
     },
     {
      "name": "Media Radar",
@@ -12126,7 +11954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 271
     },
     {
      "name": "Spaceflight News",
@@ -12169,7 +11997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 272
     },
     {
      "name": "Advisr",
@@ -12211,7 +12039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 273
     },
     {
      "name": "Doodles",
@@ -12253,7 +12081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 274
     },
     {
      "name": "Flipboard",
@@ -12296,7 +12124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 275
     },
     {
      "name": "Hodinkee",
@@ -12339,7 +12167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 280
+     "rank": 276
     },
     {
      "name": "Cornerstone Building Brands",
@@ -12382,7 +12210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 277
     },
     {
      "name": "Wired",
@@ -12425,7 +12253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 278
     },
     {
      "name": "500px",
@@ -12468,50 +12296,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 279
     },
     {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 22.4,
+     "name": "TechCrunch",
+     "slug": "techcrunch",
+     "description": "TechCrunch (https://techcrunch.com/) is a leading technology media property dedicated to covering startups, venture capital, and innovation. Founded in 2005 and acquired by AOL in 2010 and later by Yahoo, TechCrunch delivers breaking news, in-depth analysis, and original reporting on the technology industry, emerging companies, funding rounds, and the people shaping the future of tech. The publication hosts flagship events including TechCrunch Disrupt and the Startup Battlefield competition. TechCrunch runs on WordPress and exposes the standard WordPress REST API for programmatic content access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png",
+     "score": 22.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 36.8
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
+     "agent_score": 4.3,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
+      "agentic_access": "derived",
+      "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 280
     },
     {
      "name": "Tubular Labs",
@@ -12554,7 +12382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 281
     },
     {
      "name": "QuoteMedia",
@@ -12604,7 +12432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 282
     },
     {
      "name": "CBS (Paramount Global)",
@@ -12647,7 +12475,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 283
     },
     {
      "name": "Cloud9",
@@ -12690,7 +12518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 284
     },
     {
      "name": "Toutiao",
@@ -12733,30 +12561,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 285
     },
     {
-     "name": "NeueHouse",
-     "slug": "neuehouse",
-     "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
-     "score": 21.7,
+     "name": "AI model",
+     "slug": "aimodel",
+     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
+      "discoverability": 66.7,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 35.1,
-      "access_clarity": 34.2
+      "developer_ergonomics": 30.4,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 8.8,
+     "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
@@ -12776,7 +12603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 286
     },
     {
      "name": "The Next Web",
@@ -12819,7 +12646,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 287
+    },
+    {
+     "name": "Next Big Idea Club",
+     "slug": "next-big-idea-club",
+     "description": "Next Big Idea Club is a nonfiction book subscription club and podcast that curates the most important new nonfiction, chosen by a selection committee of Malcolm Gladwell, Adam Grant, Susan Cain, and Daniel Pink. Members receive curated new nonfiction, an in-app library, courses, and author interviews across the web and native iOS/Android apps. The consumer experience is powered by a first-party WordPress REST API (the members/v1 namespace) secured with OAuth 2.0 / OpenID Connect via the WP OAuth Server, with Stripe integration for subscription billing. This profile was seeded as a Bloomberg Beta portfolio lead and enriched from the provider's public /wp-json/ discovery and /.well-known/ OAuth surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png",
+     "score": 21.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 55.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 13.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 288
     },
     {
      "name": "Trader Interactive",
@@ -12869,7 +12746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 289
     },
     {
      "name": "Tugboat Yards",
@@ -12920,7 +12797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 290
     },
     {
      "name": "Everlit",
@@ -12963,7 +12840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 291
     },
     {
      "name": "Intelsat",
@@ -13005,7 +12882,93 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 292
+    },
+    {
+     "name": "NeueHouse",
+     "slug": "neuehouse",
+     "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 293
+    },
+    {
+     "name": "Sinclair",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 294
     },
     {
      "name": "Atmosphere",
@@ -13048,7 +13011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Minute Media",
@@ -13091,7 +13054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Ground",
@@ -13134,7 +13097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Palette 2",
@@ -13177,7 +13140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "8i",
@@ -13220,7 +13183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Bloomberg Television and Radio",
@@ -13263,7 +13226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Bloomberg TV",
@@ -13306,7 +13269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "PUBLY",
@@ -13349,7 +13312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Major League Baseball",
@@ -13391,7 +13354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "U.S. Agency for Global Media",
@@ -13441,7 +13404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "360 VUZ",
@@ -13484,10 +13447,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
-     "name": "Harmonic Inc.",
+     "name": "Harmonic",
      "slug": "harmonicinc",
      "description": "Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband technology company. Its VOS®360 Media SaaS orchestrates the entire live and on-demand video pipeline — ingest, transcoding, packaging, encryption, playout and delivery — while its cOS platform delivers virtualized DOCSIS 4.0 and fiber broadband access via Distributed Access Architecture (DAA) and Remote PHY. Harmonic serves 150+ operators worldwide including Comcast, Charter and Vodafone. The VOS 360 platform exposes a public REST API secured with OAuth 2.0 for managing assets, channels, services, live events, storage, DRM and jobs, enabling integration with third-party CMS and media workflows. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched from Harmonic's public developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/harmonicinc/refs/heads/main/screenshots/harmonicinc-2026-07-25T220724.png",
@@ -13534,7 +13497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Lamina Labs",
@@ -13584,7 +13547,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Philo",
@@ -13627,7 +13590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Bloomberg Media Platforms",
@@ -13670,50 +13633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
-    },
-    {
-     "name": "Legendary Entertainment",
-     "slug": "legendary",
-     "description": "Legendary Entertainment is a Burbank, California media company that owns, produces and distributes content to worldwide audiences across three divisions: Legendary Pictures (film), Legendary Television and Digital Media, and Legendary Comics. Its productions have grossed more than $20 billion worldwide at the box office, spanning franchises such as Dune, Godzilla and Kong, A Minecraft Movie, Street Fighter, Enola Holmes and Monarch: Legacy of Monsters, with an explicit focus on the fandom demographic. Legendary runs no public developer program and publishes no documented API. It does, however, expose a live, publicly readable WordPress REST API on legendary.com that serves its news posts and its film, television, comics, trailer and digital catalogs as JSON — captured here as a platform-exposed content API rather than a supported product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png",
-     "score": 19.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 311
+     "rank": 309
     },
     {
      "name": "TelevisaUnivision (Univision Communications)",
@@ -13756,7 +13676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 310
     },
     {
      "name": "The New Stack",
@@ -13799,7 +13719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 311
     },
     {
      "name": "BBC",
@@ -13841,7 +13761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 312
     },
     {
      "name": "Feedough",
@@ -13884,7 +13804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 313
     },
     {
      "name": "Melty",
@@ -13927,7 +13847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 314
     },
     {
      "name": "TVbeat",
@@ -13970,7 +13890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 315
     },
     {
      "name": "Director of National Intelligence",
@@ -14020,7 +13940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 316
     },
     {
      "name": "Bookbub",
@@ -14063,7 +13983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 317
     },
     {
      "name": "Condé Nast",
@@ -14105,7 +14025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 318
     },
     {
      "name": "Kapwing",
@@ -14148,7 +14068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 319
     },
     {
      "name": "Hackernoon",
@@ -14191,50 +14111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
-    },
-    {
-     "name": "Skydance Media",
-     "slug": "skydance-media",
-     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 323
+     "rank": 320
     },
     {
      "name": "Subsplash",
@@ -14277,7 +14154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 321
     },
     {
      "name": "UnitedMasters",
@@ -14320,7 +14197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 322
     },
     {
      "name": "Detail",
@@ -14363,7 +14240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 323
     },
     {
      "name": "Media Chain",
@@ -14406,50 +14283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
-    },
-    {
-     "name": "Endeavor",
-     "slug": "endeavor",
-     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 328
+     "rank": 324
     },
     {
      "name": "Kakao Entertainment",
@@ -14492,7 +14326,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 325
     },
     {
      "name": "Interpublic Group",
@@ -14535,7 +14369,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 326
+    },
+    {
+     "name": "Skydance Media",
+     "slug": "skydance-media",
+     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 327
     },
     {
      "name": "4DReplay",
@@ -14578,7 +14455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 328
     },
     {
      "name": "Cardboard",
@@ -14621,7 +14498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 329
     },
     {
      "name": "Moonvalley",
@@ -14664,7 +14541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 330
     },
     {
      "name": "Wochit",
@@ -14707,7 +14584,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 331
+    },
+    {
+     "name": "Legendary Entertainment",
+     "slug": "legendary",
+     "description": "Legendary Entertainment is a Burbank, California media company that owns, produces and distributes content to worldwide audiences across three divisions: Legendary Pictures (film), Legendary Television and Digital Media, and Legendary Comics. Its productions have grossed more than $20 billion worldwide at the box office, spanning franchises such as Dune, Godzilla and Kong, A Minecraft Movie, Street Fighter, Enola Holmes and Monarch: Legacy of Monsters, with an explicit focus on the fandom demographic. Legendary runs no public developer program and publishes no documented API. It does, however, expose a live, publicly readable WordPress REST API on legendary.com that serves its news posts and its film, television, comics, trailer and digital catalogs as JSON — captured here as a platform-exposed content API rather than a supported product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 332
     },
     {
      "name": "MUBI",
@@ -14749,7 +14669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 333
     },
     {
      "name": "The Business of Fashion",
@@ -14791,7 +14711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 334
     },
     {
      "name": "beva",
@@ -14841,7 +14761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 335
     },
     {
      "name": "GeekWire",
@@ -14884,49 +14804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
-    },
-    {
-     "name": "AI model",
-     "slug": "aimodel",
-     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 339
+     "rank": 336
     },
     {
      "name": "Changelog",
@@ -14969,7 +14847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 337
     },
     {
      "name": "Quad/Graphics",
@@ -15012,7 +14890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 338
     },
     {
      "name": "RedCircle",
@@ -15054,7 +14932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 339
     },
     {
      "name": "Gannett",
@@ -15097,7 +14975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 340
     },
     {
      "name": "Firstory",
@@ -15140,7 +15018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 341
     },
     {
      "name": "Scribd",
@@ -15183,7 +15061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 342
     },
     {
      "name": "Thematic",
@@ -15226,7 +15104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 343
     },
     {
      "name": "Wattpad",
@@ -15269,7 +15147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 344
     },
     {
      "name": "RTSP",
@@ -15312,7 +15190,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 345
+    },
+    {
+     "name": "Endeavor",
+     "slug": "endeavor",
+     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 346
     },
     {
      "name": "Newneek",
@@ -15355,7 +15276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 347
     },
     {
      "name": "Stockio",
@@ -15398,7 +15319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 348
     },
     {
      "name": "The Block",
@@ -15448,7 +15369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 349
     },
     {
      "name": "AMC Global Media",
@@ -15491,7 +15412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 350
     },
     {
      "name": "Intersection",
@@ -15534,7 +15455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 351
     },
     {
      "name": "Brit + Co",
@@ -15576,7 +15497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 352
     },
     {
      "name": "ReDEF",
@@ -15619,7 +15540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 353
     },
     {
      "name": "TNL Mediagene",
@@ -15662,7 +15583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 354
     },
     {
      "name": "Kinema",
@@ -15705,7 +15626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 355
     },
     {
      "name": "Urbia",
@@ -15748,7 +15669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 356
     },
     {
      "name": "8Tracks",
@@ -15790,7 +15711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 357
     },
     {
      "name": "NewsData",
@@ -15833,7 +15754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 358
     },
     {
      "name": "Twisty",
@@ -15876,7 +15797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 359
     },
     {
      "name": "VentureBeat",
@@ -15918,7 +15839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 360
     },
     {
      "name": "24Symbols",
@@ -15968,7 +15889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 361
     },
     {
      "name": "Betr",
@@ -16011,7 +15932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 362
     },
     {
      "name": "Whip Media Group",
@@ -16054,7 +15975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 363
     },
     {
      "name": "Atari",
@@ -16097,7 +16018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 364
     },
     {
      "name": "Layer",
@@ -16140,7 +16061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 365
     },
     {
      "name": "Virool",
@@ -16183,7 +16104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 366
     },
     {
      "name": "1World Online",
@@ -16225,7 +16146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 367
     },
     {
      "name": "3ProTV",
@@ -16274,7 +16195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 368
     },
     {
      "name": "Baton Media",
@@ -16317,7 +16238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 369
     },
     {
      "name": "Bindery",
@@ -16360,7 +16281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 370
     },
     {
      "name": "dwell",
@@ -16403,7 +16324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 371
     },
     {
      "name": "Svbtle",
@@ -16446,7 +16367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 372
     },
     {
      "name": "BBDO Worldwide",
@@ -16489,7 +16410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 373
     },
     {
      "name": "Egab",
@@ -16532,7 +16453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 374
     },
     {
      "name": "Groover",
@@ -16575,7 +16496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 375
     },
     {
      "name": "Instaread",
@@ -16618,7 +16539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 376
     },
     {
      "name": "iQIYI",
@@ -16661,7 +16582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 377
     },
     {
      "name": "SambaTV",
@@ -16704,7 +16625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 378
     },
     {
      "name": "A24",
@@ -16747,7 +16668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 379
     },
     {
      "name": "TREBEL Music",
@@ -16790,7 +16711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 380
     },
     {
      "name": "Wideframe",
@@ -16833,7 +16754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 381
     },
     {
      "name": "DZone",
@@ -16876,7 +16797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 382
     },
     {
      "name": "Qsic",
@@ -16919,7 +16840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 383
     },
     {
      "name": "Hornet",
@@ -16961,7 +16882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 384
     },
     {
      "name": "BuzzFeed",
@@ -17004,7 +16925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 385
     },
     {
      "name": "Shred Video",
@@ -17047,7 +16968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 386
     },
     {
      "name": "Spotter",
@@ -17090,7 +17011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 387
     },
     {
      "name": "The Atavist",
@@ -17133,7 +17054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 388
     },
     {
      "name": "TuneCore",
@@ -17176,7 +17097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 389
     },
     {
      "name": "Watch Club",
@@ -17219,7 +17140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 390
     },
     {
      "name": "Mind Candy, Moshi",
@@ -17269,7 +17190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 391
     },
     {
      "name": "Gen.G",
@@ -17312,7 +17233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 392
     },
     {
      "name": "Rephrase.ai",
@@ -17355,7 +17276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 393
     },
     {
      "name": "BabyCenter",
@@ -17405,7 +17326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 394
     },
     {
      "name": "Netflix",
@@ -17448,7 +17369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 395
     },
     {
      "name": "TT Labs",
@@ -17491,7 +17412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 396
     },
     {
      "name": "Cosm",
@@ -17534,7 +17455,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 397
     },
     {
      "name": "Lil Snack",
@@ -17577,7 +17498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 398
     },
     {
      "name": "9GAG",
@@ -17620,7 +17541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 399
     },
     {
      "name": "Girlboss",
@@ -17663,7 +17584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 400
     },
     {
      "name": "Herb",
@@ -17713,7 +17634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 401
     },
     {
      "name": "MediaBeacon",
@@ -17756,7 +17677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 402
     },
     {
      "name": "Pratilipi",
@@ -17799,7 +17720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 403
     },
     {
      "name": "Booko",
@@ -17842,7 +17763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 404
     },
     {
      "name": "ProPublica Data Store",
@@ -17885,7 +17806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 405
     },
     {
      "name": "TRDATA",
@@ -17935,7 +17856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 406
     }
    ]
   },
@@ -17988,7 +17909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 407
     },
     {
      "name": "Showrunner",
@@ -18031,7 +17952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 408
     },
     {
      "name": "Xperi",
@@ -18074,7 +17995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 409
     },
     {
      "name": "All City Network",
@@ -18116,7 +18037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 410
     },
     {
      "name": "Audible",
@@ -18159,7 +18080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 411
     },
     {
      "name": "Awa Studios",
@@ -18202,7 +18123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 412
     },
     {
      "name": "Blue Wire",
@@ -18245,7 +18166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 413
     },
     {
      "name": "Castbox",
@@ -18288,7 +18209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 414
     },
     {
      "name": "Crystal Dynamics",
@@ -18331,7 +18252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 415
     },
     {
      "name": "Donut Media",
@@ -18374,7 +18295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 416
     },
     {
      "name": "Hallmark Cards",
@@ -18424,7 +18345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 417
     },
     {
      "name": "Jellysmack",
@@ -18467,7 +18388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 418
     },
     {
      "name": "Momox",
@@ -18510,7 +18431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 419
     },
     {
      "name": "PortalOne",
@@ -18553,7 +18474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 420
     },
     {
      "name": "Mars Reel",
@@ -18596,7 +18517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 421
     },
     {
      "name": "Onefootball",
@@ -18639,7 +18560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 422
     },
     {
      "name": "ProbablyMonsters",
@@ -18682,7 +18603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 423
     },
     {
      "name": "Religion of Sports",
@@ -18725,7 +18646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 424
     },
     {
      "name": "Omnicom Group",
@@ -18768,7 +18689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 425
     },
     {
      "name": "Bustle",
@@ -18811,7 +18732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 426
     },
     {
      "name": "Essence Ventures",
@@ -18853,7 +18774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 427
     },
     {
      "name": "Hooked",
@@ -18896,7 +18817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 428
     },
     {
      "name": "Overtime",
@@ -18939,7 +18860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 429
     },
     {
      "name": "Pilotly",
@@ -18982,7 +18903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 430
     },
     {
      "name": "TheSkimm",
@@ -19025,7 +18946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 431
     },
     {
      "name": "Vioo",
@@ -19068,7 +18989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 432
     },
     {
      "name": "Beme",
@@ -19113,7 +19034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 433
     },
     {
      "name": "Beatport",
@@ -19156,7 +19077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 434
     },
     {
      "name": "Everyday Health",
@@ -19205,7 +19126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 435
     },
     {
      "name": "OUTFRONT Media",
@@ -19248,7 +19169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 436
     },
     {
      "name": "SureWaves",
@@ -19291,7 +19212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 437
     },
     {
      "name": "Weshine",
@@ -19334,7 +19255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 438
     },
     {
      "name": "bith.tv",
@@ -19377,7 +19298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 439
     },
     {
      "name": "Cheddar",
@@ -19420,7 +19341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 440
     },
     {
      "name": "DayDayCook",
@@ -19463,7 +19384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 441
     },
     {
      "name": "Kaiber",
@@ -19506,7 +19427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 442
     },
     {
      "name": "Shibuya",
@@ -19549,7 +19470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 443
     },
     {
      "name": "Bleacher Report",
@@ -19592,7 +19513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 444
     },
     {
      "name": "Supponor",
@@ -19635,7 +19556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 445
     },
     {
      "name": "RealNetworks",
@@ -19685,7 +19606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 446
     },
     {
      "name": "Audacy",
@@ -19728,7 +19649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 447
     },
     {
      "name": "HAAWK",
@@ -19771,7 +19692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 448
     },
     {
      "name": "MightyHive",
@@ -19814,7 +19735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 449
     },
     {
      "name": "Baller League",
@@ -19857,7 +19778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 450
     },
     {
      "name": "Blavity",
@@ -19900,7 +19821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 451
     },
     {
      "name": "Business Insider",
@@ -19943,7 +19864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 452
     },
     {
      "name": "Clicker",
@@ -19986,7 +19907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 453
     },
     {
      "name": "Mad Realities",
@@ -20029,7 +19950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 454
     },
     {
      "name": "Powder",
@@ -20072,7 +19993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 455
     },
     {
      "name": "Rigi",
@@ -20115,7 +20036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 456
     },
     {
      "name": "Syncbak",
@@ -20158,7 +20079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 457
     },
     {
      "name": "turntable",
@@ -20201,7 +20122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 458
     },
     {
      "name": "DAZN",
@@ -20244,7 +20165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 459
     },
     {
      "name": "Time Warner",
@@ -20287,7 +20208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 460
     },
     {
      "name": "Red Ventures",
@@ -20330,7 +20251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 461
     },
     {
      "name": "CohnReznick",
@@ -20380,7 +20301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 462
     },
     {
      "name": "Every.tv",
@@ -20423,7 +20344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 463
     },
     {
      "name": "ilovewoof",
@@ -20466,7 +20387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 464
     },
     {
      "name": "TMRW Sports",
@@ -20508,7 +20429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 465
     },
     {
      "name": "Craon",
@@ -20551,7 +20472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 466
     },
     {
      "name": "Art19",
@@ -20594,7 +20515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 467
     },
     {
      "name": "BallerTV",
@@ -20637,7 +20558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 468
     },
     {
      "name": "Huckberry",
@@ -20680,7 +20601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 469
     },
     {
      "name": "Drone Racing League",
@@ -20722,7 +20643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 470
     },
     {
      "name": "Mediaspectrum",
@@ -20765,7 +20686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 471
     },
     {
      "name": "Vedantu",
@@ -20815,7 +20736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 472
     },
     {
      "name": "Currents",
@@ -20858,7 +20779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 473
     },
     {
      "name": "News",
@@ -20901,7 +20822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 474
     },
     {
      "name": "Photobucket",
@@ -20944,7 +20865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 475
     },
     {
      "name": "Sidecar",
@@ -20987,7 +20908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 476
     },
     {
      "name": "TheNews",
@@ -21030,7 +20951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 477
     },
     {
      "name": "TripScout",
@@ -21073,7 +20994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 478
     },
     {
      "name": "Trove",
@@ -21116,7 +21037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 479
     },
     {
      "name": "Feedbin",
@@ -21159,7 +21080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 480
     },
     {
      "name": "Rebel Girls",
@@ -21209,7 +21130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 481
     },
     {
      "name": "BLAST",
@@ -21252,7 +21173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 482
     },
     {
      "name": "Digg",
@@ -21295,7 +21216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 483
     },
     {
      "name": "Lunar-X",
@@ -21338,7 +21259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 484
     },
     {
      "name": "Viacom",
@@ -21381,7 +21302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 485
     },
     {
      "name": "Glimmer (formerly Storyhunter)",
@@ -21431,7 +21352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 486
     },
     {
      "name": "Edgeware",
@@ -21474,7 +21395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 487
     },
     {
      "name": "Florida Man",
@@ -21517,7 +21438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 488
     },
     {
      "name": "Inshorts News",
@@ -21560,7 +21481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 489
     },
     {
      "name": "The Old Reader",
@@ -21603,7 +21524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 490
     },
     {
      "name": "Graphs for Coronavirus",
@@ -21646,7 +21567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 491
     },
     {
      "name": "NPR One",
@@ -21689,7 +21610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 492
     },
     {
      "name": "Spext Labs",
@@ -21731,7 +21652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 493
     },
     {
      "name": "Airborne Entertainment",
@@ -21776,7 +21697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 494
     },
     {
      "name": "fuboTV",
@@ -21819,7 +21740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 495
     },
     {
      "name": "Market Vibe",
@@ -21862,7 +21783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 496
     },
     {
      "name": "KAMI",
@@ -21905,7 +21826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 497
     },
     {
      "name": "Massive Dynamic",
@@ -21948,7 +21869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 498
     },
     {
      "name": "imyup",
@@ -21991,7 +21912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 499
     },
     {
      "name": "Ranker",
@@ -22033,7 +21954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 500
     },
     {
      "name": "Aiva",
@@ -22076,7 +21997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 501
     },
     {
      "name": "CreatorDAO",
@@ -22119,7 +22040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 502
     },
     {
      "name": "DivX, Inc. (NasdaqGS:DIVX)",
@@ -22162,7 +22083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 503
     },
     {
      "name": "FloSports",
@@ -22205,7 +22126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 504
     },
     {
      "name": "Viki",
@@ -22248,7 +22169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 505
     },
     {
      "name": "Discovery Communications",
@@ -22291,7 +22212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 506
     },
     {
      "name": "Headgum",
@@ -22334,7 +22255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 507
     },
     {
      "name": "Playback",
@@ -22377,7 +22298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 508
     },
     {
      "name": "Audio Up Media",
@@ -22420,7 +22341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 509
     },
     {
      "name": "Callisto Media",
@@ -22463,7 +22384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 510
     },
     {
      "name": "Circle of Moms",
@@ -22508,7 +22429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 511
     },
     {
      "name": "DIVE studios",
@@ -22551,7 +22472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 512
     },
     {
      "name": "Hungama",
@@ -22594,7 +22515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 513
     },
     {
      "name": "Light Chaser Animation Studios",
@@ -22637,7 +22558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 514
     },
     {
      "name": "Stats Perform",
@@ -22679,10 +22600,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 515
     },
     {
-     "name": "TPP GROUP INC.",
+     "name": "TPP GROUP",
      "slug": "tpp-group-inc",
      "description": "TPP Group is a media intelligence company that creates and scales Arabic content, helping brands make data-driven marketing investments across the Arabic-speaking world. It operates four integrated divisions - Network (Arabic intellectual property development, 40+ owned and operated IPs), Studio (production infrastructure with 1,400+ produced episodes), Agency (performance-driven distribution), and Intelligence (psychographic audience-behavior analytics and attention measurement). A 500 Global portfolio company; it publishes no public developer or API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tpp-group-inc/refs/heads/main/screenshots/tpp-group-inc-2026-09-02T164007.png",
@@ -22722,7 +22643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 516
     },
     {
      "name": "Upthere",
@@ -22767,7 +22688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 517
     },
     {
      "name": "UTURN",
@@ -22810,7 +22731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 518
     },
     {
      "name": "Adim",
@@ -22853,7 +22774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 519
     },
     {
      "name": "Catalog",
@@ -22896,7 +22817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 520
     },
     {
      "name": "Happs",
@@ -22938,7 +22859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 521
     },
     {
      "name": "Liberty Interactive",
@@ -22981,7 +22902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 522
     },
     {
      "name": "Liberty Media",
@@ -23024,7 +22945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 523
     },
     {
      "name": "Massive Science",
@@ -23067,7 +22988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 524
     },
     {
      "name": "Podfund",
@@ -23110,7 +23031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 525
     },
     {
      "name": "Emergent VR *",
@@ -23153,7 +23074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 526
     },
     {
      "name": "Fanbread",
@@ -23195,7 +23116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 527
     },
     {
      "name": "Inkitt",
@@ -23238,7 +23159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 528
     },
     {
      "name": "Mobcrush",
@@ -23282,7 +23203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 529
     },
     {
      "name": "Movielala",
@@ -23327,7 +23248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 530
     },
     {
      "name": "NBC",
@@ -23370,7 +23291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 531
     },
     {
      "name": "Paramount",
@@ -23413,7 +23334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 532
     },
     {
      "name": "The Athletic",
@@ -23456,7 +23377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 533
     },
     {
      "name": "Twenty-First Century Fox",
@@ -23499,7 +23420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 534
     },
     {
      "name": "Tally Labs",
@@ -23541,7 +23462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 535
     },
     {
      "name": "1 Mainstream",
@@ -23583,7 +23504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 536
     },
     {
      "name": "555 Comic",
@@ -23626,7 +23547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 537
     },
     {
      "name": "60dB",
@@ -23670,7 +23591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 538
     },
     {
      "name": "88rising",
@@ -23712,7 +23633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 539
     },
     {
      "name": "Absurd",
@@ -23755,7 +23676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 540
     },
     {
      "name": "AIHunters",
@@ -23797,7 +23718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 541
     },
     {
      "name": "All Def Digital",
@@ -23840,7 +23761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 542
     },
     {
      "name": "Anchor *",
@@ -23883,7 +23804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 543
     },
     {
      "name": "Associated Content",
@@ -23927,7 +23848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 544
     },
     {
      "name": "Auditude",
@@ -23970,7 +23891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 545
     },
     {
      "name": "Beast Industries",
@@ -24013,7 +23934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 546
     },
     {
      "name": "Beek",
@@ -24058,7 +23979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 547
     },
     {
      "name": "Buzzer",
@@ -24102,7 +24023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 548
     },
     {
      "name": "Callin",
@@ -24145,7 +24066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 549
     },
     {
      "name": "chushou",
@@ -24187,7 +24108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 550
     },
     {
      "name": "Chute",
@@ -24231,7 +24152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 551
     },
     {
      "name": "Conteller",
@@ -24273,7 +24194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 552
     },
     {
      "name": "Curio Labs",
@@ -24316,7 +24237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 553
     },
     {
      "name": "Deep Render",
@@ -24359,7 +24280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 554
     },
     {
      "name": "Dubsmash",
@@ -24403,7 +24324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 555
     },
     {
      "name": "edisn.ai",
@@ -24447,7 +24368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 556
     },
     {
      "name": "EST",
@@ -24490,7 +24411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 557
     },
     {
      "name": "Fan Controlled Football",
@@ -24532,7 +24453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 558
     },
     {
      "name": "Flixster",
@@ -24575,7 +24496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 559
     },
     {
      "name": "Gamefam",
@@ -24618,7 +24539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 560
     },
     {
      "name": "Gimme Media",
@@ -24661,7 +24582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 561
     },
     {
      "name": "Glow",
@@ -24706,7 +24627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 562
     },
     {
      "name": "Graphicly",
@@ -24748,7 +24669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 563
     },
     {
      "name": "Group Nine Media",
@@ -24790,7 +24711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 564
     },
     {
      "name": "iHeartMedia",
@@ -24833,7 +24754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 565
     },
     {
      "name": "Invisible Universe",
@@ -24876,7 +24797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 566
     },
     {
      "name": "Iyuno",
@@ -24918,10 +24839,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 567
     },
     {
-     "name": "Jubilee Inc",
+     "name": "Jubilee",
      "slug": "jubilee-inc",
      "description": "Jubilee Inc (Jubilee Media) is a Los Angeles-based digital media production company that creates discussion-based and dating video shows designed to provoke thoughtful conversation and foster human connection across social and ideological divides. Its flagship YouTube programs include Middle Ground, Odd One Out, and Ranking, alongside sister dating channels such as Love Comma Nectar (Versus 1) and the reaction and behind-the-scenes brand TwoBilee. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; the company publishes no public API or developer platform at this time, so this profile carries identity and domain-security signal only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jubilee-inc/refs/heads/main/screenshots/jubilee-inc-2026-07-25T223255.png",
@@ -24961,7 +24882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 568
     },
     {
      "name": "Kerning Cultures",
@@ -25004,7 +24925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 569
     },
     {
      "name": "Kuwo Music",
@@ -25046,7 +24967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 570
     },
     {
      "name": "Lighthouse",
@@ -25089,7 +25010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 571
     },
     {
      "name": "Meet Cute",
@@ -25132,7 +25053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 572
     },
     {
      "name": "MojiLala",
@@ -25175,7 +25096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 573
     },
     {
      "name": "mSpot",
@@ -25219,7 +25140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 574
     },
     {
      "name": "MySpace",
@@ -25262,7 +25183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 575
     },
     {
      "name": "Myxt",
@@ -25305,7 +25226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 576
     },
     {
      "name": "Newsle",
@@ -25350,7 +25271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 577
     },
     {
      "name": "Next Big Sound",
@@ -25392,7 +25313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 578
     },
     {
      "name": "Old Town Media",
@@ -25435,7 +25356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 579
     },
     {
      "name": "Peerflix Media Network",
@@ -25479,7 +25400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 580
     },
     {
      "name": "Pocket Fm",
@@ -25522,7 +25443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 581
     },
     {
      "name": "Pond5",
@@ -25564,7 +25485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 582
     },
     {
      "name": "Pop-Up Magazine",
@@ -25607,7 +25528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 583
     },
     {
      "name": "Pose",
@@ -25650,7 +25571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 584
     },
     {
      "name": "Post.news",
@@ -25692,7 +25613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 585
     },
     {
      "name": "Prologue",
@@ -25734,7 +25655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 586
     },
     {
      "name": "Radionomy (Azerion)",
@@ -25776,7 +25697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 587
     },
     {
      "name": "Recount Media",
@@ -25819,7 +25740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 588
     },
     {
      "name": "Red Tricycle",
@@ -25862,7 +25783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 589
     },
     {
      "name": "Rooster",
@@ -25905,7 +25826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 590
     },
     {
      "name": "Scripps Networks Interactive",
@@ -25949,7 +25870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 591
     },
     {
      "name": "Seed&Spark",
@@ -25992,7 +25913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 592
     },
     {
      "name": "Shelby.tv",
@@ -26037,7 +25958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 593
     },
     {
      "name": "Shots Mobile",
@@ -26080,10 +26001,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 594
     },
     {
-     "name": "Storia Originals, Inc.",
+     "name": "Storia Originals",
      "slug": "storia-originals-inc",
      "description": "Storia Originals, Inc. (doing business as Storiaverse) was a Los Angeles-based consumer mobile entertainment startup founded in 2023 by Agnes Kozera and David Kierzkowski. Its Storiaverse app pioneered a patent-pending \"read-watch\" format blending short-form reading, animation, and audio, connecting writers and animators to publish and monetize original stories across sci-fi, fantasy, horror, mystery, and comedy, including adaptations of HarperCollins titles. It raised a pre-seed round led by 500 Global. As of this enrichment pass the company exposes no public API, SDK, or developer platform; both its marketing site (storia.io) and its iOS/Android app store listings are no longer reachable (all HTTP 404), indicating the product is inactive or has been wound down.",
      "score": 5.0,
@@ -26122,7 +26043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 595
     },
     {
      "name": "Studio",
@@ -26164,7 +26085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 596
     },
     {
      "name": "Super Sports Media",
@@ -26207,7 +26128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 597
     },
     {
      "name": "Superjampad",
@@ -26250,7 +26171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 598
     },
     {
      "name": "Tastemade",
@@ -26292,7 +26213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 599
     },
     {
      "name": "Tennis Channel",
@@ -26335,7 +26256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 600
     },
     {
      "name": "The Icon League",
@@ -26378,7 +26299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 601
     },
     {
      "name": "The Players' Tribune",
@@ -26421,7 +26342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 602
     },
     {
      "name": "thetab",
@@ -26464,7 +26385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 603
     },
     {
      "name": "VDOnet",
@@ -26508,7 +26429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 604
     },
     {
      "name": "Wave",
@@ -26550,7 +26471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 605
     },
     {
      "name": "WeMash",
@@ -26594,7 +26515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 606
     },
     {
      "name": "Wetpaint",
@@ -26637,7 +26558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 607
     },
     {
      "name": "Zingroll",
@@ -26680,7 +26601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 608
     },
     {
      "name": "Warner Brothers",
@@ -26723,7 +26644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 609
     },
     {
      "name": "Aboutmovie",
@@ -26765,7 +26686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 610
     },
     {
      "name": "IAC/InterActiveCorp",
@@ -26807,7 +26728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 611
     },
     {
      "name": "Infinistream",
@@ -26849,7 +26770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 612
     },
     {
      "name": "News Corp",
@@ -26892,7 +26813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 613
     },
     {
      "name": "USA TODAY",
@@ -26935,7 +26856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 614
     },
     {
      "name": "Curejoy",
@@ -26985,7 +26906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 615
     },
     {
      "name": "Knowable",
@@ -27037,7 +26958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 616
     },
     {
      "name": "Radio Station Pro",
@@ -27080,7 +27001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 617
     },
     {
      "name": "Parlia",
@@ -27130,7 +27051,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 618
     },
     {
      "name": "Dreamscape Immersive",
@@ -27180,7 +27101,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 619
     },
     {
      "name": "Graham Holdings",
@@ -27229,7 +27150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 620
     },
     {
      "name": "Hearst",
@@ -27278,7 +27199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 621
     },
     {
      "name": "illuminem",
@@ -27328,7 +27249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 622
     },
     {
      "name": "Wiley",
@@ -27377,7 +27298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 623
     },
     {
      "name": "Paramount Global",
@@ -27424,7 +27345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 624
     },
     {
      "name": "Gray Television",
@@ -27471,7 +27392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 625
     },
     {
      "name": "Nexstar Media Group",
@@ -27518,7 +27439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 626
     },
     {
      "name": "Spoon University",
@@ -27568,7 +27489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 627
     },
     {
      "name": "WePlayed",
@@ -27618,7 +27539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 628
     },
     {
      "name": "HelloFlo",
@@ -27668,7 +27589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 629
     },
     {
      "name": "LifeMed Media",
@@ -27719,7 +27640,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 630
     }
    ]
   }

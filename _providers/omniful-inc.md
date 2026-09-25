@@ -427,16 +427,16 @@ description: Omniful is an AI-powered unified supply chain and fulfillment platf
 image: https://www.omniful.ai/favicon.ico
 layout: provider
 modified: '2026-07-20'
-name: Omniful, Inc.
+name: Omniful
 nav: Providers
 network: true
-overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Background Jobs API, Billing API, Courier Partners API, and 31 more. Tagged areas include Company, Supply Chain, Fulfillment, Order Management, and Warehouse Management.
+overview: 'Omniful publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Omniful, Inc. Background Jobs API, Omniful, Inc. Billing API, Omniful, Inc. Courier Partners API, and 31 more. Tagged areas include Company, Supply Chain, Fulfillment, Order Management, and Warehouse Management.
 
 
-  The Omniful, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Omniful catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 17 more developer resources.'
+  Omniful''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 17 more developer resources.'
 plans:
 - name: Omniful Inc Plans Pricing
   plan_count: 0

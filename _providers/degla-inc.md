@@ -58,10 +58,10 @@ description: Degla is a Y Combinator (Fall 2026) startup building an autonomous 
 image: https://degla.ai/apple-touch-icon.png
 layout: provider
 modified: '2026-07-18'
-name: Degla Inc
+name: Degla
 nav: Providers
 network: true
-overview: Degla Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Autonomous Systems, Artificial Intelligence, and Aerospace.
+overview: Degla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drones, Autonomous Systems, Artificial Intelligence, and Aerospace.
 random_paper: 10
 score:
   band: minimal

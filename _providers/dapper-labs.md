@@ -309,5 +309,6 @@ tags:
 - Flow
 - Smart Contracts
 - Developer Tools
+- Canada
 website: https://dapperlabs.com
 ---

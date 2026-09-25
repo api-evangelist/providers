@@ -147,13 +147,13 @@ mcp_servers:
   name: Hearth & Home Technologies Agent Commerce MCP Server
   slug: hearth-home-technologies-agent-commerce-mcp-server
 modified: '2026-09-13'
-name: HNI Corporation
+name: HNI
 nav: Providers
 network: true
-overview: 'HNI Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Manufacturing, Office Furniture, Workplace, and Building Products.
+overview: 'HNI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Manufacturing, Office Furniture, Workplace, and Building Products.
 
 
-  HNI Corporation''s developer surface includes authentication and 19 more developer resources.'
+  HNI''s developer surface includes authentication and 19 more developer resources.'
 plans:
 - name: Hni Plans Pricing
   plan_count: 0

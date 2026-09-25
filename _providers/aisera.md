@@ -183,7 +183,7 @@ modified: '2026-07-17'
 name: Aisera
 nav: Providers
 network: true
-overview: 'Aisera publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agentic AI, Conversational AI, ITSM, and Customer Service.
+overview: 'Aisera publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Conversational AI, ITSM, and Customer Service.
 
 
   The Aisera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,7 +240,7 @@ security:
 slug: aisera
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Conversational AI
 - ITSM
 - Customer Service

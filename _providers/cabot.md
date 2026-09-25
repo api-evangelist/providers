@@ -79,10 +79,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cabot.png
 layout: provider
 modified: '2026-07-25'
-name: Cabot Corporation
+name: Cabot
 nav: Providers
 network: true
-overview: Cabot Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Performance Materials, Carbon Black, Manufacturing, and Company.
+overview: Cabot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Performance Materials, Carbon Black, Manufacturing, and Company.
 plans:
 - name: Cabot Plans Pricing
   plan_count: 3

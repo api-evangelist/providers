@@ -209,7 +209,7 @@ modified: '2026-07-10'
 name: Willo
 nav: Providers
 network: true
-overview: 'Willo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Child Organisations API, Departments API, Interview Templates API, and 6 more. Tagged areas include Video Interviewing, Recruitment, Human Resources, ATS, and Screening.
+overview: 'Willo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Child Organisations API, Departments API, Interview Templates API, and 6 more. Tagged areas include Video Interviewing, Recruiting, Human Resources, Applicant Tracking, and Screening.
 
 
   Willo''s developer surface includes authentication, documentation, signup flow, support, changelog, engineering blog, and 10 more developer resources.'
@@ -271,9 +271,9 @@ security:
 slug: willo
 tags:
 - Video Interviewing
-- Recruitment
+- Recruiting
 - Human Resources
-- ATS
+- Applicant Tracking
 - Screening
 - Async Video
 website: https://www.willo.video/

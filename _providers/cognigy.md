@@ -167,7 +167,7 @@ modified: '2026-07-18'
 name: Cognigy
 nav: Providers
 network: true
-overview: 'Cognigy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Agentic AI, Contact Center, and Customer Service Automation.
+overview: 'Cognigy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, AI Agents, Contact Center, and Customer Service Automation.
 
 
   The Cognigy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -221,7 +221,7 @@ slug: cognigy
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service Automation
 - Chatbots

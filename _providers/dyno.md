@@ -376,7 +376,7 @@ tags:
 - Protein Structure Prediction
 - Bioinformatics
 - Computational Biology
-- Agentic AI
+- AI Agents
 - Life Sciences
 website: https://www.dynotx.com
 ---

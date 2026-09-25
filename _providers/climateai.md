@@ -357,7 +357,7 @@ tags:
 - Agriculture
 - Data
 - Supply Chain
-- Risk
+- Risk Management
 - Sustainability
 website: https://climate.ai/
 ---

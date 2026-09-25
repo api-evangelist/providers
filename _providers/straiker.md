@@ -82,7 +82,7 @@ modified: '2026-07-21'
 name: Straiker
 nav: Providers
 network: true
-overview: 'Straiker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Artificial Intelligence, AI Security, and Agentic AI.
+overview: 'Straiker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Artificial Intelligence, AI Security, and AI Agents.
 
 
   Straiker''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
@@ -125,7 +125,7 @@ tags:
 - Security
 - Artificial Intelligence
 - AI Security
-- Agentic AI
+- AI Agents
 - Runtime Security
 - LLM Security
 - MCP

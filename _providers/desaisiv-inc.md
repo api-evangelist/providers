@@ -54,13 +54,13 @@ description: DESAISIV is a corporate InsurTech platform focused on health insura
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/desaisiv-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Desaisiv Inc.
+name: Desaisiv
 nav: Providers
 network: true
-overview: 'Desaisiv Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Health Insurance, and Underwriting.
+overview: 'Desaisiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Health Insurance, and Underwriting.
 
 
-  Desaisiv Inc.''s developer surface includes engineering blog and 2 more developer resources.'
+  Desaisiv''s developer surface includes engineering blog and 2 more developer resources.'
 random_paper: 5
 score:
   band: minimal

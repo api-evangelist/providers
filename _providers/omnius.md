@@ -119,7 +119,7 @@ tags:
 - Insurtech
 - Claims Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Document Processing
 - Machine Learning
 website: https://omnius.com

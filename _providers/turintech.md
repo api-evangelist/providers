@@ -145,7 +145,7 @@ tags:
 - Developer Tools
 - DevOps
 - LLM
-- Agentic AI
+- AI Agents
 - CLI
 website: https://www.turintech.ai
 ---

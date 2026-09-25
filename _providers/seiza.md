@@ -30,7 +30,7 @@ modified: '2026-09-15'
 name: Seiza
 nav: Providers
 network: true
-overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Human Resources, Recruitment, and Recruitment Automation.
+overview: Seiza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Human Resources, Recruiting, and Recruitment Automation.
 random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/seiza/refs/heads/main/screenshots/seiza-2026-09-02T154811.png
 slug: seiza
@@ -38,7 +38,7 @@ tags:
 - Company
 - Software-as-a-Service
 - Human Resources
-- Recruitment
+- Recruiting
 - Recruitment Automation
 - Applicant Tracking
 - Frontline Workers

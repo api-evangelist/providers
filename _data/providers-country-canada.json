@@ -1,6 +1,6 @@
 {
- "total": 179,
- "shown": 179,
+ "total": 194,
+ "shown": 194,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,152 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "Shopify",
+     "slug": "shopify",
+     "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business, selling online, in person, on marketplaces, through social channels, and now inside AI chats. Its developer platform exposes GraphQL Admin, Storefront and Customer Account APIs, a legacy Admin REST surface, 206 webhook topics, Shopify Functions, Hydrogen and the Shopify CLI, so apps and integrations can extend Shopify for merchants and buyers alike. Shopify also runs four MCP servers bound to the Universal Commerce Protocol, letting AI agents search a cross-merchant catalog, build carts, complete checkouts and track orders.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
+     "score": 88.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 75.4,
+      "contract_governance": 47.0,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 96.4,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 71.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 55.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": "self"
+     },
+     "rank": 1
+    },
+    {
+     "name": "Lightspeed Commerce",
+     "slug": "lightspeed",
+     "description": "Omnichannel commerce platform with REST APIs for retail and restaurant POS, inventory management, loyalty programs, and e-commerce integrations. Lightspeed serves retailers and restaurateurs with cloud-based point-of-sale systems, enabling custom integrations through APIs for sales, inventory, customers, orders, payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series, Restaurant K-Series, and eCom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png",
+     "score": 83.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 66.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 92.1,
+      "developer_ergonomics": 85.1,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 84.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "platform",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "Ada",
+     "slug": "ada",
+     "description": "Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation handling, data export, data compliance, and external integrations. All APIs use rotatable API keys for authentication, return JSON, and support cursor-based pagination. Ada serves global brands including Pinterest, Square, Ancestry, and Zendesk, and has powered more than 6.4 billion customer interactions since its founding in 2016.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png",
+     "score": 82.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 70.2,
+      "contract_governance": 43.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 85.7,
+      "access_clarity": 82.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 47.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "templated",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
     {
      "name": "University of Waterloo",
      "slug": "university-of-waterloo",
@@ -59,7 +202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 1
+     "rank": 4
     }
    ],
    "open": true
@@ -69,8 +212,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 10,
-   "shown": 10,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Jane",
@@ -120,7 +263,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 5
     },
     {
      "name": "Float Financial",
@@ -170,7 +313,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 6
+    },
+    {
+     "name": "Hootsuite",
+     "slug": "hootsuite",
+     "description": "Hootsuite is a social media management platform that lets organizations schedule posts, monitor conversations, run paid campaigns, and analyze performance across LinkedIn, X (Twitter), Facebook, Instagram, TikTok, YouTube, and Pinterest from a single dashboard. The platform serves marketers, agencies, and enterprises with collaboration, approval, and governance workflows. Hootsuite publishes four first-party machine-readable API contracts on platform.hootsuite.com — a 48-operation REST API for messages, media, social profiles, members, teams and SCIM 2.0 provisioning; an Analytics API for organic and paid metrics; the Inbox 2.0 (Sparkcentral) API for CRM, virtual agents, queues and proactive messaging; and the Amplify employee-advocacy API — all authenticated with OAuth 2.0. It also serves an RFC 9727 API catalog, RFC 8414 authorization server metadata and RFC 9728 protected resource metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png",
+     "score": 60.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 68.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 49.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
     },
     {
      "name": "Yardi Canada",
@@ -227,7 +413,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 8
     },
     {
      "name": "VoPay",
@@ -277,7 +463,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 9
+    },
+    {
+     "name": "1Password",
+     "slug": "1password",
+     "description": "1Password is a password manager that helps individuals and businesses securely store and manage passwords, credentials, and sensitive information. The platform provides a Connect Server API for programmatic secrets management, an Events API for security monitoring and audit logging, and a Partnership API for managing partner billing accounts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png",
+     "score": 58.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 73.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 75.0,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
     },
     {
      "name": "Versapay",
@@ -327,7 +556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 11
     },
     {
      "name": "Rose Rocket",
@@ -370,7 +599,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 12
     },
     {
      "name": "Hydro-Québec",
@@ -420,7 +649,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 13
+    },
+    {
+     "name": "Jobber",
+     "slug": "jobber",
+     "description": "Jobber is field service management software for home and commercial service businesses, serving 100,000+ businesses across more than 50 trade verticals (cleaning, HVAC, plumbing, electrical, landscaping, roofing, painting, handyman, and more). The platform covers the full service-delivery lifecycle — requests, assessments, quotes, scheduling, visits, time tracking, expenses, invoicing, payments, and reporting — with first-party iOS and Android apps for technicians. The Jobber Developer API is a single GraphQL endpoint at https://api.getjobber.com/api/graphql secured by OAuth 2.0, versioned by date via the X-JOBBER-GRAPHQL-VERSION header, and throttled by a leaky-bucket query-cost budget on top of a 2,500-requests / 5-minute DDoS guard. Third-party apps are published in the Jobber App Marketplace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/screenshots/jobber-2026-06-20T183746.png",
+     "score": 56.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 71.4,
+      "contract_governance": 28.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
     },
     {
      "name": "Helcim",
@@ -470,7 +742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 15
     },
     {
      "name": "APOLLO Insurance",
@@ -520,7 +792,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 16
+    },
+    {
+     "name": "Thinkific",
+     "slug": "thinkific",
+     "description": "Thinkific is an online course creation and delivery platform that enables creators and businesses to build, market, and sell courses, communities, and digital products. The Thinkific Admin REST API provides programmatic access to site data including courses, enrollments, users, products, orders, bundles, and groups. The Webhooks API (v2) delivers real-time event notifications for user actions, payment events, product changes, and lead captures. API access is available on the Grow plan and above, with higher rate limits available to Plus customers. Developers can authenticate via API key or OAuth to build public apps listed in the Thinkific App Store or private integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png",
+     "score": 55.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.4,
+      "contract_governance": 25.0,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 36.9,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 17
     },
     {
      "name": "TELUS",
@@ -569,7 +891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 18
     }
    ],
    "open": true
@@ -579,8 +901,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 23,
-   "shown": 23,
+   "count": 26,
+   "shown": 26,
    "providers": [
     {
      "name": "University of British Columbia",
@@ -630,7 +952,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 19
+    },
+    {
+     "name": "Clio",
+     "slug": "clio",
+     "description": "Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring, time and billing, trust accounting, document management, tasks, and client communications. The Clio Manage API is a REST/JSON API at app.clio.com/api/v4 that uses OAuth 2.0 (authorization code flow) for authentication and exposes the full data model behind Clio Manage, with regional endpoints for the U.S., Canada, EU/UK, and Australia. Webhooks deliver near real-time event notifications, and the Clio App Directory hosts certified third-party integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png",
+     "score": 53.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 59.6,
+      "contract_governance": 54.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 40.5,
+      "access_clarity": 67.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
     },
     {
      "name": "Rogers Communications",
@@ -680,7 +1045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 21
     },
     {
      "name": "IESO",
@@ -730,7 +1095,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 22
+    },
+    {
+     "name": "Coveo",
+     "slug": "coveo",
+     "description": "Coveo is a cloud-based AI-relevance platform that delivers personalized search, recommendations, and discovery experiences across digital workplaces, customer service portals, websites, and commerce storefronts. The Coveo platform exposes a family of REST APIs covering search, content indexing (Push and Stream), usage analytics, machine learning, commerce, and platform administration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png",
+     "score": 50.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 69.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 51.2,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 43.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
     },
     {
      "name": "Bell Canada",
@@ -780,7 +1188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 24
     },
     {
      "name": "McMaster University",
@@ -830,7 +1238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 25
     },
     {
      "name": "Ontario Energy Board",
@@ -880,7 +1288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 26
     },
     {
      "name": "OSFI",
@@ -930,7 +1338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 27
     },
     {
      "name": "Sun Life",
@@ -987,7 +1395,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 28
     },
     {
      "name": "Sendle",
@@ -1030,7 +1438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 29
     },
     {
      "name": "University of Ottawa",
@@ -1080,7 +1488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 30
     },
     {
      "name": "Paystone",
@@ -1130,7 +1538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 31
     },
     {
      "name": "McGill University",
@@ -1180,7 +1588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 32
     },
     {
      "name": "University of Calgary",
@@ -1230,7 +1638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 33
     },
     {
      "name": "Moneris",
@@ -1280,7 +1688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 34
     },
     {
      "name": "Loon Finance",
@@ -1330,7 +1738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 35
     },
     {
      "name": "Payments Canada",
@@ -1380,7 +1788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 36
     },
     {
      "name": "Université de Montréal",
@@ -1430,7 +1838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 37
     },
     {
      "name": "Great-West Lifeco",
@@ -1480,7 +1888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 38
     },
     {
      "name": "Piknik.Spot",
@@ -1522,7 +1930,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 39
     },
     {
      "name": "AESO",
@@ -1572,7 +1980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 40
     },
     {
      "name": "CREA (REALTOR.ca)",
@@ -1615,7 +2023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 41
     },
     {
      "name": "Canada Health Infoway",
@@ -1665,7 +2073,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 42
+    },
+    {
+     "name": "D2L Brightspace",
+     "slug": "brightspace",
+     "description": "D2L Brightspace is an enterprise learning management system (LMS) used by higher education, K-12, and corporate organizations. Its public REST API is the Valence Learning Framework API, exposed under https://{host}/d2l/api/ and split into two product components - \"lp\" (Learning Platform - users, roles, enrollments, org units, data hub) and \"le\" (Learning Environment - content, grades, assignments/dropbox, quizzes, discussions, calendar, news, learning outcomes). Routes are versioned per component (for example lp 1.x and le 1.x) and authenticated with OAuth 2 bearer tokens issued by the D2L auth service; the older ID-Key (app-id/user-id) scheme is deprecated. D2L is the vendor; Valence is the historical name of the API framework.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/screenshots/brightspace-2026-07-25T203856.png",
+     "score": 40.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 52.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 32.1,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 40.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 43
     },
     {
      "name": "TMX Group",
@@ -1715,7 +2173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 44
     }
    ]
   },
@@ -1724,8 +2182,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 32,
-   "shown": 32,
+   "count": 36,
+   "shown": 36,
    "providers": [
     {
      "name": "Scotiabank",
@@ -1775,7 +2233,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 45
+    },
+    {
+     "name": "Dapper Labs",
+     "slug": "dapper-labs",
+     "description": "Dapper Labs is the blockchain company behind the Flow network and a portfolio of consumer NFT experiences including NBA Top Shot, NFL All Day, Disney Pinnacle, and LaLiga Golazos. Its primary public developer surface is the Flow Access API — a public, unauthenticated blockchain node API available over REST (rest-mainnet.onflow.org), gRPC, and WebSocket event streaming — used to read on-chain data (blocks, transactions, accounts, collections, events), execute read-only Cadence scripts, and submit signed Cadence transactions. Flow and its client tooling (FCL, the Flow CLI, Go/JS SDKs) are maintained under the onflow GitHub organization. This profile began as a VC-portfolio stub and has been enriched by the API Evangelist pipeline from Dapper/Flow's real developer artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 57.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 63.7,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 22.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
     },
     {
      "name": "WestJet",
@@ -1818,7 +2319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 47
     },
     {
      "name": "Landcor Data",
@@ -1861,7 +2362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 48
     },
     {
      "name": "Wahi",
@@ -1911,7 +2412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 49
     },
     {
      "name": "Flinks",
@@ -1961,7 +2462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 50
     },
     {
      "name": "EPCOR",
@@ -2011,7 +2512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 51
     },
     {
      "name": "Rotessa",
@@ -2061,7 +2562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 52
     },
     {
      "name": "Manitoba Hydro",
@@ -2111,7 +2612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 53
     },
     {
      "name": "REALTOR.ca",
@@ -2154,7 +2655,100 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 54
+    },
+    {
+     "name": "Cohere",
+     "slug": "cohere",
+     "description": "Generates a text response to a user message and streams it down, token by token.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/screenshots/cohere-2026-06-20T174719.png",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 70.7,
+      "contract_governance": 13.6,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
+     "name": "League",
+     "slug": "league",
+     "description": "League is a Toronto-founded (2014) healthcare platform company whose Health OS powers consumer healthcare experiences for payers, providers, consumer health brands and employers, and which now positions itself as a healthcare-grade agentic experience platform shipping pre-built AI Agent Teams for benefits navigation, care navigation and health coaching. Its data platform is built on the HL7 FHIR standard, using FHIR resources such as QuestionnaireResponse and CarePlan to model both integrated healthcare data and member-generated data across a longitudinal health record. League runs a Developer Program that gives contracted customers SDKs, a server-driven UI framework, back-end extensions and data integrations for embedding League into existing applications. The platform API is served from a live Kong-fronted gateway at api.league.com that answers with the JSON:API media type, but neither the API reference nor any machine-readable contract is published publicly: the documentation portal sits behind an Auth0 login and developer access is granted through a contact-sales form.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/screenshots/league-2026-09-02T150232.png",
+     "score": 34.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
     },
     {
      "name": "University of Toronto",
@@ -2204,7 +2798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 57
     },
     {
      "name": "Certn",
@@ -2247,7 +2841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 58
     },
     {
      "name": "Western University",
@@ -2297,7 +2891,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 59
+    },
+    {
+     "name": "FreshBooks",
+     "slug": "freshbooks",
+     "description": "FreshBooks is a cloud-based accounting and small business management platform offering invoicing, expense tracking, time tracking, project management, payments, estimates, and financial reporting for freelancers, self-employed professionals, and small businesses. The FreshBooks REST API provides access to clients, invoices, expenses, estimates, projects, time entries, payments, and reports using OAuth 2.0 Bearer token authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/screenshots/freshbooks-2026-06-20T181538.png",
+     "score": 33.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 56.5,
+      "contract_governance": 11.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 18.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
     },
     {
      "name": "Air Canada",
@@ -2339,7 +2976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 61
     },
     {
      "name": "BMO Financial Group",
@@ -2389,7 +3026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 62
     },
     {
      "name": "Toronto Hydro",
@@ -2439,7 +3076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 63
     },
     {
      "name": "Alectra Utilities",
@@ -2489,7 +3126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 64
     },
     {
      "name": "The Co-operators",
@@ -2539,7 +3176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 65
     },
     {
      "name": "University of Alberta",
@@ -2588,7 +3225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 66
     },
     {
      "name": "Hydro One",
@@ -2638,7 +3275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 67
     },
     {
      "name": "Interac",
@@ -2688,7 +3325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 68
     },
     {
      "name": "humi.ca",
@@ -2731,7 +3368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 69
     },
     {
      "name": "VRIFY",
@@ -2774,7 +3411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 70
     },
     {
      "name": "FLO",
@@ -2824,7 +3461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 71
     },
     {
      "name": "ATCO",
@@ -2874,7 +3511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 72
     },
     {
      "name": "CAA Insurance",
@@ -2924,7 +3561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 73
     },
     {
      "name": "Wawanesa Insurance",
@@ -2974,7 +3611,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 74
     },
     {
      "name": "ENMAX",
@@ -3024,7 +3661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 75
     },
     {
      "name": "Queen's University at Kingston",
@@ -3074,7 +3711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 76
     },
     {
      "name": "OSCAR EMR",
@@ -3124,7 +3761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 77
     },
     {
      "name": "Kaxo Technologies",
@@ -3166,7 +3803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 78
     },
     {
      "name": "Canada Energy Regulator",
@@ -3216,7 +3853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 79
     },
     {
      "name": "Teranet",
@@ -3266,7 +3903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 80
     }
    ]
   },
@@ -3275,8 +3912,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 63,
-   "shown": 63,
+   "count": 64,
+   "shown": 64,
    "providers": [
     {
      "name": "Canada Life",
@@ -3326,7 +3963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 81
     },
     {
      "name": "Shakepay",
@@ -3383,7 +4020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 82
     },
     {
      "name": "Hydro Ottawa",
@@ -3433,7 +4070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 83
     },
     {
      "name": "VIA Rail Canada",
@@ -3483,7 +4120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 84
     },
     {
      "name": "Nesto",
@@ -3533,7 +4170,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 85
+    },
+    {
+     "name": "Kinaxis",
+     "slug": "kinaxis",
+     "description": "Kinaxis is a concurrent supply chain planning platform — branded Maestro (formerly RapidResponse) — that provides REST APIs for supply chain orchestration, scenario modeling, demand sensing, and supply planning across global manufacturing and distribution networks. The platform offers an AI-infused intelligence engine, digital twin simulation, and a Developer Studio for building custom applications and algorithms on top of the supply chain data fabric.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png",
+     "score": 24.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
     },
     {
      "name": "Transport Canada",
@@ -3583,7 +4263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 87
     },
     {
      "name": "WELL Health Technologies",
@@ -3633,57 +4313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
-    },
-    {
-     "name": "Scimar",
-     "slug": "scimar",
-     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
+     "rank": 88
     },
     {
      "name": "Definity Financial",
@@ -3733,7 +4363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 89
     },
     {
      "name": "NERC",
@@ -3783,7 +4413,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 90
     },
     {
      "name": "RE/MAX Canada",
@@ -3832,7 +4462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 91
     },
     {
      "name": "Steinbach Credit Union",
@@ -3882,7 +4512,57 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 92
+    },
+    {
+     "name": "Scimar",
+     "slug": "scimar",
+     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
+     "score": 23.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 93
     },
     {
      "name": "Transat",
@@ -3925,7 +4605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 94
     },
     {
      "name": "Blue Cross Canada",
@@ -3974,7 +4654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 95
     },
     {
      "name": "Maple",
@@ -4024,100 +4704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
-    },
-    {
-     "name": "Hydrostor",
-     "slug": "hydrostor",
-     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
-     "score": 21.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "HouseSigma",
-     "slug": "housesigma",
-     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations (SigmaEstimate) across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page; developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The listing, sold-history and valuation backend at housesigma.com/bkv2/api/ is private, keyless, undocumented, and explicitly disallowed to all crawlers in robots.txt. The one genuinely public, anonymously callable, machine-readable HTTP surface the company operates is the WordPress REST API behind housesigma.com/blog-en, which serves its Canadian housing-market analysis blog as JSON across 157 advertised routes; API Evangelist derived an OpenAPI for the 22 operations verified to answer anonymously. HouseSigma also publishes a real llms.txt and mobile deep-link association documents. RESO is absent: HouseSigma is not among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png",
-     "score": 21.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
+     "rank": 96
     },
     {
      "name": "Peoples Group",
@@ -4167,7 +4754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 97
     },
     {
      "name": "Nova Scotia Power",
@@ -4217,7 +4804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 98
     },
     {
      "name": "Royal Bank of Canada",
@@ -4267,7 +4854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 99
     },
     {
      "name": "Wealthsimple",
@@ -4317,7 +4904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 100
     },
     {
      "name": "Finaeo",
@@ -4366,7 +4953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 101
     },
     {
      "name": "SaskPower",
@@ -4416,7 +5003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 102
     },
     {
      "name": "Trufla",
@@ -4466,7 +5053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 103
     },
     {
      "name": "Plooto",
@@ -4516,7 +5103,100 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 104
+    },
+    {
+     "name": "Hydrostor",
+     "slug": "hydrostor",
+     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
+     "score": 19.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 105
+    },
+    {
+     "name": "HouseSigma",
+     "slug": "housesigma",
+     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations (SigmaEstimate) across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page; developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The listing, sold-history and valuation backend at housesigma.com/bkv2/api/ is private, keyless, undocumented, and explicitly disallowed to all crawlers in robots.txt. The one genuinely public, anonymously callable, machine-readable HTTP surface the company operates is the WordPress REST API behind housesigma.com/blog-en, which serves its Canadian housing-market analysis blog as JSON across 157 advertised routes; API Evangelist derived an OpenAPI for the 22 operations verified to answer anonymously. HouseSigma also publishes a real llms.txt and mobile deep-link association documents. RESO is absent: HouseSigma is not among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png",
+     "score": 19.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 106
     },
     {
      "name": "FortisBC",
@@ -4566,7 +5246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 107
     },
     {
      "name": "Flight Network",
@@ -4609,7 +5289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 108
     },
     {
      "name": "Yukon Open Data",
@@ -4659,7 +5339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 109
     },
     {
      "name": "Rentals.ca",
@@ -4709,7 +5389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 110
     },
     {
      "name": "Donnees Quebec",
@@ -4759,7 +5439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 111
     },
     {
      "name": "Dialogue",
@@ -4809,7 +5489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 112
     },
     {
      "name": "Alberta",
@@ -4859,7 +5539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 113
     },
     {
      "name": "BC Data Catalogue",
@@ -4909,7 +5589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 114
     },
     {
      "name": "British Columbia (DataBC)",
@@ -4959,7 +5639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 115
     },
     {
      "name": "City of Toronto Open Data",
@@ -5009,7 +5689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 116
     },
     {
      "name": "Donnees Ouvertes Montreal",
@@ -5059,7 +5739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 117
     },
     {
      "name": "Gouvernement ouvert Canada (FR)",
@@ -5109,7 +5789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 118
     },
     {
      "name": "Montréal, Québec",
@@ -5159,7 +5839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 119
     },
     {
      "name": "Niagara Open Data",
@@ -5209,7 +5889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 120
     },
     {
      "name": "Ontario Data Catalogue",
@@ -5259,7 +5939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 121
     },
     {
      "name": "Open Government Canada",
@@ -5309,7 +5989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 122
     },
     {
      "name": "Alterna Savings",
@@ -5359,7 +6039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 123
     },
     {
      "name": "Royal LePage",
@@ -5409,7 +6089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 124
     },
     {
      "name": "BC Hydro",
@@ -5459,7 +6139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 125
     },
     {
      "name": "Coast Capital Savings",
@@ -5509,7 +6189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 126
     },
     {
      "name": "connectFirst Credit Union",
@@ -5559,7 +6239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 127
     },
     {
      "name": "KOHO",
@@ -5608,7 +6288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 128
     },
     {
      "name": "Canadian Tire Bank",
@@ -5658,7 +6338,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 129
     },
     {
      "name": "Porter Airlines",
@@ -5701,7 +6381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 130
     },
     {
      "name": "Cortico",
@@ -5751,7 +6431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 131
     },
     {
      "name": "Tia Health",
@@ -5801,7 +6481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 132
     },
     {
      "name": "Zensurance",
@@ -5851,7 +6531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 133
     },
     {
      "name": "Zolo",
@@ -5893,7 +6573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 134
     },
     {
      "name": "Vancity Community Investment Bank",
@@ -5943,7 +6623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 135
     },
     {
      "name": "Alexi",
@@ -5986,7 +6666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 136
     },
     {
      "name": "Goose Insurance",
@@ -6036,7 +6716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 137
     },
     {
      "name": "Intact Financial",
@@ -6085,7 +6765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 138
     },
     {
      "name": "Desjardins Group",
@@ -6135,7 +6815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 139
     },
     {
      "name": "Sonnet Insurance",
@@ -6185,7 +6865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 140
     },
     {
      "name": "Onlia",
@@ -6235,7 +6915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 141
     },
     {
      "name": "General Fusion",
@@ -6285,7 +6965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 142
     },
     {
      "name": "Asgardian Village · Canadian house",
@@ -6327,7 +7007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 143
     },
     {
      "name": "Tangerine",
@@ -6377,7 +7057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 144
     }
    ]
   },
@@ -6430,7 +7110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 145
     },
     {
      "name": "National Bank of Canada",
@@ -6480,7 +7160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 146
     },
     {
      "name": "Photonic",
@@ -6523,7 +7203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 147
     },
     {
      "name": "Conexus Credit Union",
@@ -6573,7 +7253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 148
     },
     {
      "name": "Pine",
@@ -6615,7 +7295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 149
     },
     {
      "name": "Paperstack",
@@ -6658,7 +7338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 150
     },
     {
      "name": "Dominion Dynamics",
@@ -6708,7 +7388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 151
     },
     {
      "name": "Puzzle Medical Devices",
@@ -6758,7 +7438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 152
     },
     {
      "name": "CIBC",
@@ -6808,7 +7488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 153
     },
     {
      "name": "Bridgewater Bank",
@@ -6858,7 +7538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 154
     },
     {
      "name": "Citibank Canada",
@@ -6908,7 +7588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 155
     },
     {
      "name": "Simplii Financial",
@@ -6958,7 +7638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 156
     },
     {
      "name": "Affinity Credit Union",
@@ -7008,7 +7688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 157
     },
     {
      "name": "Remitbee",
@@ -7058,7 +7738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 158
     },
     {
      "name": "Gandeeva",
@@ -7101,7 +7781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 159
     },
     {
      "name": "Resolute Forest Products",
@@ -7144,7 +7824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 160
     },
     {
      "name": "Servus Credit Union",
@@ -7194,7 +7874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 161
     },
     {
      "name": "BitAccess",
@@ -7244,7 +7924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 162
     },
     {
      "name": "PC Financial",
@@ -7294,7 +7974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 163
     },
     {
      "name": "Semios",
@@ -7337,7 +8017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 164
     },
     {
      "name": "Neo Financial",
@@ -7387,7 +8067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 165
     },
     {
      "name": "Century 21 Canada",
@@ -7437,7 +8117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 166
     },
     {
      "name": "First Nations Bank of Canada",
@@ -7487,7 +8167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 167
     },
     {
      "name": "Amex Bank of Canada",
@@ -7537,7 +8217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 168
     },
     {
      "name": "Rubric Labs",
@@ -7580,7 +8260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 169
     },
     {
      "name": "Home Trust",
@@ -7630,7 +8310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 170
     },
     {
      "name": "Aspect Biosystems",
@@ -7680,7 +8360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 171
     },
     {
      "name": "ATB Financial",
@@ -7730,7 +8410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 172
     },
     {
      "name": "Breathe Life",
@@ -7780,7 +8460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 173
     },
     {
      "name": "Airborne Entertainment",
@@ -7825,7 +8505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 174
     },
     {
      "name": "35Pharma",
@@ -7874,7 +8554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 175
     },
     {
      "name": "Pomelo Health",
@@ -7923,7 +8603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 176
     },
     {
      "name": "Clutch Canada",
@@ -7966,7 +8646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 177
     },
     {
      "name": "Properly",
@@ -8008,7 +8688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 178
     },
     {
      "name": "Prospera Credit Union",
@@ -8058,7 +8738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 179
     },
     {
      "name": "Cmd *",
@@ -8101,7 +8781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 180
     },
     {
      "name": "Equitable Bank",
@@ -8151,7 +8831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 181
     },
     {
      "name": "Skipthedishes",
@@ -8193,7 +8873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 182
     },
     {
      "name": "Smart Reno",
@@ -8235,7 +8915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 183
     },
     {
      "name": "1126833 B.C. LTD.",
@@ -8277,7 +8957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 184
     },
     {
      "name": "ABK Biomedical",
@@ -8326,7 +9006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 185
     },
     {
      "name": "Brim Financial",
@@ -8376,7 +9056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 186
     },
     {
      "name": "Vancity",
@@ -8425,7 +9105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 187
     },
     {
      "name": "Canadian Western Bank",
@@ -8475,7 +9155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 188
     },
     {
      "name": "First West Credit Union",
@@ -8525,7 +9205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 189
     },
     {
      "name": "Meridian Credit Union",
@@ -8575,7 +9255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 190
     },
     {
      "name": "Laurentian Bank of Canada",
@@ -8625,7 +9305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 191
     },
     {
      "name": "B2B Bank",
@@ -8675,7 +9355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 192
     },
     {
      "name": "Manulife Bank",
@@ -8725,7 +9405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 193
     },
     {
      "name": "WayPay",
@@ -8774,7 +9454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 194
     }
    ]
   }

@@ -3817,6 +3817,62 @@
      "rank": 77
     },
     {
+     "name": "Agora Real Estate",
+     "slug": "agora-real-estate",
+     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 42.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 78
+    },
+    {
      "name": "Bargo Congress Trades API",
      "slug": "bargo-congress-trades-api",
      "description": "A free JSON REST API and hosted MCP server from Bargo that normalizes U.S. House and Senate STOCK Act securities transaction disclosures into a queryable dataset — currently 42,000+ disclosed trades across 415 members and 4,100+ tickers. Six read-only GET operations cover trades (filterable by ticker, member, chamber, transaction type and date range), a member roster, per-member disclosure histories, aggregate statistics, and a dataset-freshness health check. Unusually for a free congressional-trading tracker, every row carries per-trade price performance — estimated price at the trade, latest price, and percent move since. Records are parsed and deduplicated from the official U.S. House Clerk Financial Disclosure reports and Senate eFD Periodic Transaction Reports, so disclosures lag transactions by up to ~45 days. Access is anonymous by default at a lower quota; a free no-card API key raises limits and unlocks a focused three-tool MCP server for agents. Open CORS, an embeddable browser widget, and first-party JavaScript and Python clients. Attribution is required; bulk redistribution of raw records is not permitted.",
@@ -3864,7 +3920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Databento",
@@ -3914,7 +3970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Harmonic.ai",
@@ -3957,7 +4013,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Tensor",
@@ -4007,7 +4063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Ostium Labs",
@@ -4053,62 +4109,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Agora Real Estate",
-     "slug": "agora-real-estate",
-     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -8354,7 +8354,7 @@
      "rank": 170
     },
     {
-     "name": "Siemens MindSphere",
+     "name": "Siemens Insights Hub (MindSphere)",
      "slug": "siemens-mindsphere",
      "description": "Siemens MindSphere (now Insights Hub) is Siemens' Industrial IoT as a Service platform that connects industrial machines and assets to the cloud. It enables companies to harness the wealth of data generated by their operations through APIs for asset management, time series data ingestion, event management, file services, identity management, and agent connectivity. MindSphere supports digital twin creation and industrial analytics use cases across manufacturing, energy, transportation, and infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/screenshots/siemens-mindsphere-2026-06-20T193904.png",
@@ -10045,8 +10045,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 177,
-   "shown": 177,
+   "count": 176,
+   "shown": 176,
    "providers": [
     {
      "name": "Etrade",
@@ -15620,56 +15620,6 @@
      "rank": 320
     },
     {
-     "name": "Offerpad",
-     "slug": "offerpad",
-     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
-     "score": 30.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 68.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 16.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 321
-    },
-    {
      "name": "Matrixport",
      "slug": "matrixport",
      "description": "Matrixport is a digital-asset financial services firm whose trading and derivatives venue, bit.com, exposes a public v1 REST and WebSocket API for spot, USD-margined (USD-M) and coin-margined (COIN-M) futures, perpetual swaps, and options, plus Paradigm-style block trades. The API authenticates with an access key and HMAC-SHA256 request signing, and covers market data (index, instruments, tickers, orderbooks, klines, funding), account, position, and full order-management (new/amend/cancel/close, batch orders, stop orders, MMP). First-party SDKs are published for Go, Python, and Java. Added to the API Evangelist network as a crypto-finance provider and enriched from its public developer surface and official SDK repositories.",
@@ -15717,7 +15667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "BMLL Technologies",
@@ -15767,7 +15717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "Incident IQ",
@@ -15817,7 +15767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Gorila",
@@ -15860,7 +15810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "LIQID Investments",
@@ -15903,7 +15853,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "MRI Software",
@@ -15946,7 +15896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Murex",
@@ -15996,7 +15946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Bamboo Invest",
@@ -16046,7 +15996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Sense Street",
@@ -16111,7 +16061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "TradingView",
@@ -16161,7 +16111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "FalconX",
@@ -16211,7 +16161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Nexo",
@@ -16261,7 +16211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Euronext",
@@ -16311,7 +16261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "The Co-operators",
@@ -16361,7 +16311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Wealthbox",
@@ -16404,7 +16354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Flanks",
@@ -16465,7 +16415,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "Rift",
@@ -16515,7 +16465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Cowrywise",
@@ -16558,7 +16508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "ManageEngine ServiceDesk Plus",
@@ -16601,7 +16551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "1010data",
@@ -16644,7 +16594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Boosted.ai",
@@ -16687,7 +16637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Morgan Stanley",
@@ -16737,7 +16687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Pulley",
@@ -16780,7 +16730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "LunarCrush",
@@ -16830,7 +16780,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Connect The Dots",
@@ -16873,7 +16823,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Notice",
@@ -16923,7 +16873,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Perp",
@@ -16973,7 +16923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Knight Frank",
@@ -17023,7 +16973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Sei",
@@ -17073,7 +17023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Wealthfront",
@@ -17116,7 +17066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "ARGUS",
@@ -17159,7 +17109,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Capital Markets Gateway",
@@ -17208,7 +17158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Sitetracker",
@@ -17258,7 +17208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "SysAid",
@@ -17301,7 +17251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Getro",
@@ -17344,7 +17294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Prosper",
@@ -17387,7 +17337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Vauld",
@@ -17433,6 +17383,56 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 357
+    },
+    {
+     "name": "Offerpad",
+     "slug": "offerpad",
+     "description": "Offerpad Solutions Inc. (NYSE: OPAD), headquartered in Chandler, Arizona, is a United States iBuyer and licensed residential real estate brokerage that buys homes directly from sellers for cash, renovates them, and resells them, while also offering traditional listing services, a free local move, and a Renovate service. It sits in the middle of the US residential value chain as a principal-position buyer and MLS-participating brokerage in seventeen states, consuming licensed MLS listing data rather than publishing it. Offerpad's API posture is honestly minimal: there is no developer portal, no published API documentation, and no self-serve API access of any kind. The developer., developers., api. and docs. subdomains do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404. Offerpad is NOT listed in the RESO certification directory, holds no RESO Web API or Data Dictionary certification, and serves no OData service document, $metadata document, or Universal Property Identifier. Its partner surfaces — the Direct+ investor-buyer program, the Powered By Offerpad agent partner portal, the homebuilder program and the vendor network — are human web portals gated behind an intake form and a Mutual Non-Disclosure Agreement, with no programmatic interface described anywhere. The only publicly callable, self-describing API on the domain is the stock WordPress REST API of the marketing site. Offerpad does, however, run a real versioned transaction API privately: helix.offerpad.com serves the customer identity, cash-offer transaction, contract, document and form endpoints behind the Offerpad Connect portal and mobile apps, and it publishes a live RFC 8414 authorization-server metadata document delegating to Okta — so Offerpad's identity layer is machine discoverable while none of its business capability is documented, schema-backed or obtainable by a third party.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png",
+     "score": 28.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 68.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 16.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -17490,49 +17490,6 @@
      "rank": 359
     },
     {
-     "name": "TechCrunch",
-     "slug": "techcrunch",
-     "description": "TechCrunch (https://techcrunch.com/) is a leading technology media property dedicated to covering startups, venture capital, and innovation. Founded in 2005 and acquired by AOL in 2010 and later by Yahoo, TechCrunch delivers breaking news, in-depth analysis, and original reporting on the technology industry, emerging companies, funding rounds, and the people shaping the future of tech. The publication hosts flagship events including TechCrunch Disrupt and the Startup Battlefield competition. TechCrunch runs on WordPress and exposes the standard WordPress REST API for programmatic content access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png",
-     "score": 28.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 17.3,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 360
-    },
-    {
      "name": "Affiliated Managers Group",
      "slug": "affiliated-managers-group",
      "description": "Affiliated Managers Group (AMG) is a global asset management company that partners with outstanding independent investment management firms. With approximately $813 billion in assets under management across roughly 40 affiliate firms and 500+ investment strategies, AMG provides capital, distribution, and operational support while preserving each affiliate's investment autonomy. AMG operates a Wealth Platform for financial advisors and an Institutional Platform for global institutional investors, offering mutual funds, separately managed accounts, and alternative investment strategies.",
@@ -17573,7 +17530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "BitMart",
@@ -17623,7 +17580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Qapital",
@@ -17673,7 +17630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "CrowdHealth",
@@ -17730,7 +17687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Goodvest",
@@ -17780,7 +17737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Arkham Intelligence",
@@ -17830,7 +17787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "BlueLeaf",
@@ -17873,7 +17830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Dealpath",
@@ -17916,7 +17873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Northern Trust",
@@ -17966,7 +17923,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "PolySign",
@@ -18016,7 +17973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "J-Quants",
@@ -18059,7 +18016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "ADDX",
@@ -18101,7 +18058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "X2Y2",
@@ -18151,7 +18108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Hashflow",
@@ -18201,7 +18158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Hidden Road",
@@ -18251,7 +18208,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Tractian",
@@ -18301,7 +18258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "Legal & General",
@@ -18351,7 +18308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Lendo",
@@ -18394,7 +18351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Exchange Data International",
@@ -18444,7 +18401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Moment",
@@ -18494,7 +18451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Woodstock",
@@ -18544,7 +18501,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "M1 Finance",
@@ -18594,7 +18551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     }
    ]
   },
@@ -18603,8 +18560,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 277,
-   "shown": 277,
+   "count": 278,
+   "shown": 278,
    "providers": [
     {
      "name": "Veli",
@@ -18647,7 +18604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "OpenFin",
@@ -18690,7 +18647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "A-Mark Precious Metals",
@@ -18740,7 +18697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "AgentSmyth",
@@ -18789,7 +18746,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Jones Lang LaSalle",
@@ -18831,7 +18788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "Pico",
@@ -18881,7 +18838,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "AiDASH",
@@ -18931,7 +18888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "Berkshire Hathaway",
@@ -18981,7 +18938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Eldorado",
@@ -19031,7 +18988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Infraspeak",
@@ -19074,7 +19031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "StashAway",
@@ -19124,7 +19081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Juniper Square",
@@ -19167,7 +19124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Lyra",
@@ -19217,7 +19174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "BitOasis",
@@ -19267,7 +19224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "BGC Group",
@@ -19316,7 +19273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Bitwise Investments",
@@ -19366,7 +19323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Ameresco",
@@ -19416,7 +19373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "TradeBB",
@@ -19459,7 +19416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Betterment",
@@ -19509,7 +19466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "FundGuard",
@@ -19552,7 +19509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "CAIS",
@@ -19595,7 +19552,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Filament",
@@ -19645,7 +19602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Syfe",
@@ -19695,7 +19652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Connells Group",
@@ -19745,7 +19702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "IEX Cloud",
@@ -19795,7 +19752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Bloomberg Terminal",
@@ -19845,7 +19802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "Cantor Fitzgerald",
@@ -19894,7 +19851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "RE/MAX Canada",
@@ -19943,7 +19900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Freetrade",
@@ -20000,7 +19957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Facet Wealth",
@@ -20043,7 +20000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Trust & Will",
@@ -20086,7 +20043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Talos",
@@ -20125,6 +20082,49 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 413
+    },
+    {
+     "name": "TechCrunch",
+     "slug": "techcrunch",
+     "description": "TechCrunch (https://techcrunch.com/) is a leading technology media property dedicated to covering startups, venture capital, and innovation. Founded in 2005 and acquired by AOL in 2010 and later by Yahoo, TechCrunch delivers breaking news, in-depth analysis, and original reporting on the technology industry, emerging companies, funding rounds, and the people shaping the future of tech. The publication hosts flagship events including TechCrunch Disrupt and the Startup Battlefield competition. TechCrunch runs on WordPress and exposes the standard WordPress REST API for programmatic content access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png",
+     "score": 22.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 4.3,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -21906,15 +21906,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 9.4,
+     "agent_score": 8.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
@@ -21923,7 +21923,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -25040,7 +25040,7 @@
      "rank": 518
     },
     {
-     "name": "Prudential plc",
+     "name": "Prudential",
      "slug": "prudential-plc",
      "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/screenshots/prudential-plc-2026-09-02T152254.png",
@@ -26984,7 +26984,7 @@
      "rank": 560
     },
     {
-     "name": "Safqah Holdings Limited",
+     "name": "Safqah",
      "slug": "safqah-holdings-limited",
      "description": "Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh and regulated by the Saudi Capital Market Authority (CMA). Safqah provides Sharia-compliant, debt-based real estate investment opportunities that let qualified individual and institutional investors fund real estate development deals starting from 1,000 SAR, alongside a financing arm that offers land acquisition, residential development, commercial development, raw land, and bridge financing to real estate developers. Investors track deal performance through periodic reporting and live project camera feeds. The platform is a consumer- and investor-facing web application with no publicly documented developer API, SDK, or integration surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/screenshots/safqah-holdings-limited-2026-09-02T154254.png",
@@ -28486,7 +28486,7 @@
      "rank": 593
     },
     {
-     "name": "Smart Bricks Holdings Limited",
+     "name": "Smart Bricks",
      "slug": "smart-bricks-holdings-limited",
      "description": "Smart Bricks Holdings Limited operates Smart Bricks, an AI-powered real estate investment platform that uses proprietary foundational models and autonomous agents to help retail and institutional investors discover, underwrite, execute, and monitor property deals globally. Backed by a16z, Google, NVIDIA, Microsoft, Techstars, and 500 Global, the company automates deal sourcing, risk modeling across 1,000+ variables per opportunity, diligence, documentation, and portfolio intelligence. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment; Smart Bricks currently publishes a consumer and institutional web application but no public API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/smart-bricks-holdings-limited/refs/heads/main/screenshots/smart-bricks-holdings-limited-2026-09-02T155904.png",
@@ -31889,7 +31889,7 @@
      "rank": 666
     },
     {
-     "name": "TPG Inc",
+     "name": "TPG",
      "slug": "tpg",
      "description": "TPG Inc is a major US corporation and Fortune 1000 company. The TPG Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tpg/refs/heads/main/screenshots/tpg-2026-06-20T195511.png",
@@ -32589,7 +32589,7 @@
      "rank": 682
     },
     {
-     "name": "Diligencesquared Inc",
+     "name": "Diligencesquared",
      "slug": "diligencesquared-inc",
      "description": "DiligenceSquared is an AI-powered commercial due diligence and market research platform serving private equity firms, credit investors, and corporate clients. It deploys AI voice agents to run hundreds of simultaneous investor-grade expert interviews, then organizes the findings into structured, fully source-traceable market intelligence for investment decision-making. Backed by Y Combinator, the company operates a customer web application at app.diligencesquared.com and publishes a Vanta-hosted trust center. As of this enrichment pass it exposes no public developer API, OpenAPI, SDK, or documentation surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/diligencesquared-inc/refs/heads/main/screenshots/diligencesquared-inc-2026-07-25T212033.png",
@@ -35103,7 +35103,7 @@
      "rank": 736
     },
     {
-     "name": "Sav Technologies Limited",
+     "name": "Sav",
      "slug": "sav-technologies-limited",
      "description": "Sav Technologies Limited operates Sav (sav.money), a UAE-based intelligent financial platform that lets users track, save, invest, and grow their wealth across accounts. Sav offers a suite of consumer products including Gold (physical gold investment from AED 10), MyMoney (financial management and savings), Card (a prepaid card with cashback), Wealth (investing), Sav Pro (premium membership), and an upcoming Credit product. Sav describes itself as extending the APIs and technology components of licensed financial services providers to its users. It is a 500 Global portfolio company. As of this enrichment pass, Sav publishes a consumer app and marketing site but no public developer API, API documentation, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sav-technologies-limited/refs/heads/main/screenshots/sav-technologies-limited-2026-09-02T154437.png",
@@ -36780,7 +36780,7 @@
      "rank": 771
     },
     {
-     "name": "Evercore Inc",
+     "name": "Evercore",
      "slug": "evercore",
      "description": "Evercore Inc is a major US corporation and Fortune 1000 company. The Evercore Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/evercore/refs/heads/main/screenshots/evercore-2026-06-20T180905.png",
@@ -40602,7 +40602,7 @@
      "rank": 853
     },
     {
-     "name": "PKO Inc.",
+     "name": "PKO",
      "slug": "pko-inc",
      "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
@@ -42803,7 +42803,7 @@
      "rank": 904
     },
     {
-     "name": "Merklebase, Inc.",
+     "name": "Merklebase",
      "slug": "merklebase-inc",
      "description": "Merklebase provides data-driven infrastructure for institutional digital-asset finance, spanning enterprise data management, a core portfolio management system, reporting and accounting, risk management, a trade capture system, and a digital-asset loan management system. It advertises connectivity to 220+ custodians, trading venues, and data providers, and is used by hedge funds, asset managers, and financial institutions to streamline front-to-back operations across fiat, crypto, derivatives, and stablecoins. A developer API and connectivity layer is referenced by customers, but the public developer surface (docs.merklebase.io on Theneo) is currently unpublished and the API (api.merklebase.io, AWS API Gateway) is gated, so no public OpenAPI/SDK artifacts are harvestable yet.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/merklebase-inc/refs/heads/main/screenshots/merklebase-inc-2026-08-07T172609.png",

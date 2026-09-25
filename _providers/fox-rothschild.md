@@ -162,13 +162,13 @@ description: 'Fox Rothschild LLP is a national US law firm with approximately 1,
 image: https://www.foxrothschild.com/themes/custom/fox/logo.svg
 layout: provider
 modified: '2026-05-23'
-name: Fox Rothschild LLP
+name: Fox Rothschild
 nav: Providers
 network: true
-overview: 'Fox Rothschild LLP publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Law Firms, Legal, Professional Services, Blog, and RSS.
+overview: 'Fox Rothschild publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Law Firms, Legal, Professional Services, Blog, and RSS.
 
 
-  Fox Rothschild LLP''s developer surface includes engineering blog, product news, and 12 more developer resources.'
+  Fox Rothschild''s developer surface includes engineering blog, product news, and 12 more developer resources.'
 random_paper: 2
 score:
   band: minimal

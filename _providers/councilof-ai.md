@@ -244,22 +244,22 @@ image: https://councilof.ai/og-image.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: CSOAI Ltd MCP Server
-  slug: csoai-ltd-mcp-server
+  name: Council of AI MCP Server
+  slug: council-of-ai-mcp-server
 - description: ''
   name: GSPC MCP endpoint (Streamable HTTP)
   slug: gspc-mcp-endpoint-streamable-http
 modified: '2026-09-19'
-name: CSOAI Ltd
+name: Council of AI
 nav: Providers
 network: true
-overview: 'CSOAI Ltd publishes 1 API on the [APIs.io](https://apis.io/) network: Council of AI Public API. Tagged areas include AI Governance, AI Measurement, AI Safety, EU AI Act, and Compliance.
+overview: 'Council of AI publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include AI Governance, AI Measurement, AI Safety, EU AI Act, and Compliance.
 
 
-  The CSOAI Ltd catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Council of AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CSOAI Ltd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 35 more developer resources.'
+  Council of AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 35 more developer resources.'
 plans:
 - name: Councilof Ai Plans Pricing
   plan_count: 0

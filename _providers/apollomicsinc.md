@@ -66,13 +66,13 @@ description: 'Apollomics, Inc. (Nasdaq: APLM) is a clinical-stage biopharmaceuti
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollomicsinc.png
 layout: provider
 modified: '2026-07-17'
-name: Apollomics, Inc.
+name: Apollomics
 nav: Providers
 network: true
-overview: 'Apollomics, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Precision Medicine, and Clinical Trials.
+overview: 'Apollomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Precision Medicine, and Clinical Trials.
 
 
-  Apollomics, Inc.''s developer surface includes support, engineering blog, and 4 more developer resources.'
+  Apollomics'' developer surface includes support, engineering blog, and 4 more developer resources.'
 random_paper: 3
 score:
   band: minimal

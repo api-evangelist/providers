@@ -146,6 +146,6 @@ tags:
 - Computer Vision
 - Artificial Intelligence
 - Intelligence Analysis
-- Agentic AI
+- AI Agents
 website: https://www.airis-labs.com/
 ---

@@ -58,13 +58,13 @@ description: Cerberus Tech, Inc. (C7 Security) is a Central Asian cybersecurity 
 image: https://c7-security.com/favicon.ico
 layout: provider
 modified: '2026-07-18'
-name: Cerberus Tech, Inc.
+name: C7 Security
 nav: Providers
 network: true
-overview: 'Cerberus Tech, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Penetration Testing, and Red Teaming.
+overview: 'C7 Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Penetration Testing, and Red Teaming.
 
 
-  Cerberus Tech, Inc.''s developer surface includes engineering blog, support, and 2 more developer resources.'
+  C7 Security''s developer surface includes engineering blog, support, and 2 more developer resources.'
 random_paper: 11
 score:
   band: minimal

@@ -219,7 +219,7 @@ modified: '2026-05-08'
 name: Treasury Prime
 nav: Providers
 network: true
-overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
+overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include Fintech, Banking as a Service, Banking, Payments, and Card Issuing.
 
 
   Treasury Prime''s developer surface includes getting-started guide, authentication, engineering blog, and 14 more developer resources.'
@@ -283,10 +283,11 @@ security:
 slug: treasury-prime
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Banking
 - Payments
 - Card Issuing
 - ACH
+- Embedded Finance
 website: https://www.treasuryprime.com/
 ---

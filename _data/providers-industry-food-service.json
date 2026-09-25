@@ -1038,7 +1038,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 60.9,
+      "contract_quality": 61.0,
       "contract_governance": 28.8,
       "operational_transparency": 2.6,
       "developer_ergonomics": 66.1,
@@ -1046,8 +1046,8 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1055,7 +1055,7 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -2288,8 +2288,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 41,
-   "shown": 41,
+   "count": 40,
+   "shown": 40,
    "providers": [
     {
      "name": "REKKI",
@@ -2772,56 +2772,6 @@
      "rank": 61
     },
     {
-     "name": "New York Public Library What's On The Menu",
-     "slug": "new-york-public-library-whats-on-the-menu",
-     "description": "The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. The dataset is modeled as four related entities (Menu, MenuPage, MenuItem, Dish) and distributed as bulk CSV downloads. A companion HTTP API formerly provided programmatic access to menus, pages, and dishes; the live site and api.menus.nypl.org were retired in January 2025, but the crowdsourced dataset remains available as a gzip archive on Amazon S3 alongside a data dictionary.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png",
-     "score": 35.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 61.9,
-      "contract_governance": 25.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 62
-    },
-    {
      "name": "Ovation",
      "slug": "ovation",
      "description": "Ovation is an AI-first guest experience and feedback platform for restaurants, founded by Zack Oates and voted the #1 guest feedback platform in a RestaurantOwner.com survey. It uses a frictionless, SMS-based two-question survey to capture real-time guest sentiment on- and off-premise, then applies AI to categorize feedback across 35+ restaurant-specific topics, surface operational insights, generate guest-recovery responses, manage online reviews, and run text marketing campaigns. Ovation connects to 50+ POS, online ordering, and loyalty systems, including Olo, to source guest interactions. These are pre-built partner integrations. Ovation does operate an API — its Summer 2025 release announced API User Management, \"easily create, edit, and remove users via API\", and the API host api.ovationup.com is live — but no public API reference, OpenAPI definition, developer portal, or SDK is published anywhere, and anonymous calls to that host are refused. Where integration is technical it is inbound and partner-driven: for example, Ovation receives Olo webhook events (OrderPlaced, OrderClosed, OrderCancelled, GuestOptIn, UserOptOut, and similar) authenticated with a shared secret, and the connection is configured directly through the partner's customer success and developer teams rather than via a self-serve Ovation API. Integration access is arranged directly with the company.",
@@ -2862,7 +2812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Just Eat",
@@ -2904,7 +2854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Sysco",
@@ -2947,7 +2897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "TableCheck",
@@ -2990,7 +2940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Cuboh",
@@ -3033,7 +2983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Hello Therma",
@@ -3083,7 +3033,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Aloha POS",
@@ -3121,6 +3071,56 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 68
+    },
+    {
+     "name": "New York Public Library What's On The Menu",
+     "slug": "new-york-public-library-whats-on-the-menu",
+     "description": "The New York Public Library's What's On The Menu project is a crowdsourced digital collection of over 17,000 historical restaurant menus from the New York City area dating back to the 1850s, with more than 1.3 million transcribed dishes. The dataset is modeled as four related entities (Menu, MenuPage, MenuItem, Dish) and distributed as bulk CSV downloads. A companion HTTP API formerly provided programmatic access to menus, pages, and dishes; the live site and api.menus.nypl.org were retired in January 2025, but the crowdsourced dataset remains available as a gzip archive on Amazon S3 alongside a data dictionary.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png",
+     "score": 34.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 61.9,
+      "contract_governance": 25.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -3566,7 +3566,7 @@
      "rank": 79
     },
     {
-     "name": "Nutrical Solution Ltd",
+     "name": "Nutrical Solution",
      "slug": "nutrical-solution-ltd",
      "description": "NutriCal (Nutrical Solution Ltd) is the GCC's food nutrition and intelligence platform, offering the region's first Saudi FDA / GCC-compliant food-label and calorie-analysis software. Its SaaS lets restaurants, cafes, hotels, food manufacturers, bakeries, catering companies, nutrition centres, and meal-plan businesses register products, generate bilingual (English/Arabic) nutrition and ingredient labels, manage and cost recipes, run nutrition analysis, and build customer meal plans against an ingredient database of 40,000+ foods sourced from USDA data and NutriCal's proprietary local database. NutriCal also exposes a Food & Nutrition API so apps, programs, and websites can search ingredients, create and analyze recipes, manage recipe categories, build meal plans, and read nutrient and allergen metadata. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png",
@@ -3931,49 +3931,6 @@
      "rank": 87
     },
     {
-     "name": "Daring Foods",
-     "slug": "daring-foods",
-     "description": "Daring Foods is an American plant-based food company, founded in 2018 by Ross Mackay and Eliott Kessas, that makes 100% plant-based chicken from a deliberately short ingredient list with soy as the protein base. Trading simply as \"Daring\", it sells retail Plant Chicken in shredded, diced and breaded-pieces formats plus a line of ready-to-heat Plant Chicken Bowls and Plant Chicken Wings through more than 15,000 US grocery stores, and runs a separate foodservice business supplying bulk and gluten-free product to restaurants, campus dining and institutional kitchens. The company raised over $120 million across 2020-2021 during the plant-based protein boom and was acquired by the Australian plant-based meat manufacturer v2food in 2025, under which it retains its own brand. Daring Foods is a consumer packaged goods business, not a software vendor: it operates no developer program, publishes no product API, and offers no portal, SDKs or developer support. The only machine-readable interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png",
-     "score": 27.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
      "name": "Postmates",
      "slug": "postmates",
      "description": "Postmates was an on-demand delivery platform founded in 2011 that pioneered urban courier-style delivery of food, groceries, alcohol, and convenience goods across the United States. Uber acquired Postmates in December 2020 for approximately $2.65 billion, and by 2023 the Postmates merchant, courier, and consumer experiences were fully absorbed into the Uber Eats and Uber Direct product lines. The historical Postmates Fleet API (courier dispatch) and Postmates Customer API (anonymous delivery) have been retired and replaced by Uber Direct as the supported on-demand delivery API surface. The Postmates consumer brand still operates as a front door that funnels orders into the Uber Eats marketplace. This profile is maintained as a historical record and redirect pointer to the successor Uber developer APIs.",
@@ -4014,7 +3971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Lavu",
@@ -4064,7 +4021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Tenzo",
@@ -4107,7 +4064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     }
    ]
   },
@@ -4116,8 +4073,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 73,
-   "shown": 73,
+   "count": 74,
+   "shown": 74,
    "providers": [
     {
      "name": "2ndKitchen",
@@ -4167,7 +4124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Lightspeed",
@@ -4210,7 +4167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Everytable",
@@ -4253,7 +4210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Tattle",
@@ -4296,7 +4253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "OpenTable",
@@ -4339,7 +4296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Joy (ex-Privateaser)",
@@ -4382,7 +4339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Revel Systems",
@@ -4425,7 +4382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Sheetz",
@@ -4475,50 +4432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
-    },
-    {
-     "name": "Burger Singh",
-     "slug": "burger-singh",
-     "description": "Burger Singh is an Indian quick-service restaurant chain founded in 2014 by Kabir Jeet Singh with co-founders Nitin Rana and Rahul Seth, and operated by Tipping Mr Pink Private Limited out of Gurugram, Haryana. It sells Indian-flavoured \"craft\" burgers - regional recipes built on Indian spices and chutneys - alongside fries and sides, desserts and beverages, through a hybrid estate of company-owned and franchised outlets that spans high-street, food-court, express and dine-in formats across India and into the United Kingdom. The business grows primarily through franchising, and its public web surface is organised around that motion: a menu, a store locator, franchise investment brackets, property-partner and bulk-order intake, and a complaint and feedback channel. Burger Singh is a restaurant operator rather than a software vendor and publishes no developer program, no API documentation and no commercial or partner-facing API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate site at burgersinghonline.com, captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png",
-     "score": 21.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 28.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Bikky",
@@ -4561,7 +4475,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "Graphic Packaging",
@@ -4604,7 +4518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "StoreHub",
@@ -4654,7 +4568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "Tabit",
@@ -4704,7 +4618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "Kitopi",
@@ -4747,7 +4661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 103
     },
     {
      "name": "MenuSifu",
@@ -4797,7 +4711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "Conagra Brands",
@@ -4839,7 +4753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Chick-fil-A",
@@ -4882,7 +4796,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 106
+    },
+    {
+     "name": "Daring Foods",
+     "slug": "daring-foods",
+     "description": "Daring Foods is an American plant-based food company, founded in 2018 by Ross Mackay and Eliott Kessas, that makes 100% plant-based chicken from a deliberately short ingredient list with soy as the protein base. Trading simply as \"Daring\", it sells retail Plant Chicken in shredded, diced and breaded-pieces formats plus a line of ready-to-heat Plant Chicken Bowls and Plant Chicken Wings through more than 15,000 US grocery stores, and runs a separate foodservice business supplying bulk and gluten-free product to restaurants, campus dining and institutional kitchens. The company raised over $120 million across 2020-2021 during the plant-based protein boom and was acquired by the Australian plant-based meat manufacturer v2food in 2025, under which it retains its own brand. Daring Foods is a consumer packaged goods business, not a software vendor: it operates no developer program, publishes no product API, and offers no portal, SDKs or developer support. The only machine-readable interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png",
+     "score": 18.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 107
     },
     {
      "name": "Garten",
@@ -4925,7 +4882,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "SynergySuite",
@@ -4968,7 +4925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Upside Services",
@@ -5011,7 +4968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "WOW! Momo",
@@ -5030,15 +4987,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.5,
+     "agent_score": 11.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -5047,13 +5004,13 @@
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Essendant",
@@ -5096,7 +5053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "LevelUp",
@@ -5146,7 +5103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Tebi",
@@ -5196,7 +5153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Yum China",
@@ -5239,7 +5196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Slang Ai",
@@ -5282,7 +5239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "EatStreet",
@@ -5325,7 +5282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "ConverseNow",
@@ -5368,7 +5325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "ChowNow",
@@ -5411,7 +5368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Resy",
@@ -5454,7 +5411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Yum Brands",
@@ -5488,6 +5445,49 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 121
+    },
+    {
+     "name": "Burger Singh",
+     "slug": "burger-singh",
+     "description": "Burger Singh is an Indian quick-service restaurant chain founded in 2014 by Kabir Jeet Singh with co-founders Nitin Rana and Rahul Seth, and operated by Tipping Mr Pink Private Limited out of Gurugram, Haryana. It sells Indian-flavoured \"craft\" burgers - regional recipes built on Indian spices and chutneys - alongside fries and sides, desserts and beverages, through a hybrid estate of company-owned and franchised outlets that spans high-street, food-court, express and dine-in formats across India and into the United Kingdom. The business grows primarily through franchising, and its public web surface is organised around that motion: a menu, a store locator, franchise investment brackets, property-partner and bulk-order intake, and a complaint and feedback channel. Burger Singh is a restaurant operator rather than a software vendor and publishes no developer program, no API documentation and no commercial or partner-facing API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate site at burgersinghonline.com, captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -7921,7 +7921,7 @@
      "rank": 177
     },
     {
-     "name": "lunchlab Corp.",
+     "name": "lunchlab",
      "slug": "lunchlab-corp",
      "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
@@ -8656,7 +8656,7 @@
      "rank": 194
     },
     {
-     "name": "Local Holdings Limited",
+     "name": "Local",
      "slug": "local-holdings-limited",
      "description": "Local (uselocal.co) is a Gulf Cooperation Council fintech and hospitality-technology company that replaces traditional card terminals with a single QR code guests scan to pay, order, and earn loyalty points instantly. Its pay-at-table, checkout, and remote payment-link flows serve 200+ restaurants, hotels, and hospitals across Bahrain, the UAE, and Saudi Arabia, capturing customer profiles from each transaction and feeding real-time revenue, table-turn, and staff-performance analytics back to venues. Local integrates with regional payment methods (BenefitPay, Apple Pay, Google Pay, all major cards) and POS platforms including Odoo, Oracle, Lightspeed, Square, and Invo. Local Holdings Limited was surfaced as a 500 Global portfolio company and added to the API Evangelist network; no public developer API, documentation, or SDK surface was found during enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/local-holdings-limited/refs/heads/main/screenshots/local-holdings-limited-2026-08-07T183112.png",
@@ -11279,7 +11279,7 @@
      "rank": 254
     },
     {
-     "name": "RVDS Inc.",
+     "name": "RVDS",
      "slug": "rvds-inc",
      "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",

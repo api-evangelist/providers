@@ -49,10 +49,10 @@ description: Enuma, Inc. is a Berkeley, California educational technology compan
 image: https://enuma.com/img/meta/img_meta_enuma.png
 layout: provider
 modified: '2026-07-19'
-name: Enuma, Inc.
+name: Enuma
 nav: Providers
 network: true
-overview: Enuma, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Early Childhood Education, and Learning Apps.
+overview: Enuma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Early Childhood Education, and Learning Apps.
 random_paper: 13
 score:
   band: minimal

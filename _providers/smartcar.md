@@ -309,5 +309,6 @@ tags:
 - Fleet Management
 - EV Management
 - Telematics
+- Electric Vehicles
 website: https://smartcar.com/
 ---

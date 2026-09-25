@@ -78,13 +78,13 @@ description: 500net Technology Co., Ltd. (五百戶科技股份有限公司) is 
 image: https://www.500net.com.tw/tw/Image/logo.png
 layout: provider
 modified: '2026-09-05'
-name: 500net Technology Co., Ltd.
+name: 500net
 nav: Providers
 network: true
-overview: '500net Technology Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Systems Integration, Smart Buildings, Smart Factory, and IoT.
+overview: '500net is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Systems Integration, Smart Buildings, Smart Factory, and IoT.
 
 
-  500net Technology Co., Ltd.''s developer surface includes support and 6 more developer resources.'
+  500net''s developer surface includes support and 6 more developer resources.'
 random_paper: 4
 score:
   band: minimal

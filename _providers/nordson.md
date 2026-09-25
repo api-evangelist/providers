@@ -63,10 +63,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nordson.png
 layout: provider
 modified: '2026-04-19'
-name: Nordson Corporation
+name: Nordson
 nav: Providers
 network: true
-overview: Nordson Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dispensing, Testing, and Industrial.
+overview: Nordson publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dispensing, Testing, and Industrial.
 plans:
 - name: Nordson Plans Pricing
   plan_count: 1

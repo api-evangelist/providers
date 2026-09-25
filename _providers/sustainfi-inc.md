@@ -45,10 +45,10 @@ description: SUSTAINFI INC. is a company surfaced as a portfolio company of 500-
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sustainfi-inc.png
 layout: provider
 modified: '2026-07-21'
-name: SUSTAINFI INC.
+name: SUSTAINFI
 nav: Providers
 network: true
-overview: SUSTAINFI INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: SUSTAINFI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 21
 score:
   band: minimal

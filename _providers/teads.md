@@ -201,7 +201,7 @@ modified: '2026-08-13'
 name: Teads
 nav: Providers
 network: true
-overview: 'Teads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Advertising Technology, and Video Advertising.
+overview: 'Teads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Video Advertising, and Conversions API.
 
 
   Teads'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
@@ -266,7 +266,6 @@ tags:
 - Company
 - Advertising
 - AdTech
-- Advertising Technology
 - Video Advertising
 - Conversions API
 - Contextual Advertising

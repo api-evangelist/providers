@@ -182,5 +182,6 @@ tags:
 - Control Tower
 - Enterprise Software
 - Artificial Intelligence
+- Canada
 website: https://www.kinaxis.com/en
 ---

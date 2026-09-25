@@ -162,7 +162,7 @@ tags:
 - MCP
 - CLI
 - Password Manager
-- Agentic
+- AI Agents
 - Web Automation
 - Developer Tools
 - Y Combinator

@@ -74,13 +74,13 @@ description: EAS Innovations Inc operates ELEV8, an end-to-end, cloud-based deal
 image: https://cdn.prod.website-files.com/65d7f99dc9d20d3b11ab8930/65dcfd1edd82ac04cfe0a8b9_2_Transparent_Image.png
 layout: provider
 modified: '2026-07-18'
-name: EAS Innovations Inc
+name: ELEV8
 nav: Providers
 network: true
-overview: 'EAS Innovations Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Dealer Management, DMS, and Software-as-a-Service.
+overview: 'ELEV8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Dealer Management, DMS, and Software-as-a-Service.
 
 
-  EAS Innovations Inc''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
+  ELEV8''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal

@@ -171,7 +171,7 @@ tags:
 - Access Management
 - Identity Security
 - Non-Human Identity
-- Agentic AI
+- AI Agents
 - MCP
 - IGA
 website: https://www.linx.security

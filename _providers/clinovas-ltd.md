@@ -50,10 +50,10 @@ description: Clinovas LTD (Clinova, clinova.ai) is an AI-powered patient recruit
 image: https://clinova.ai/cover.webp
 layout: provider
 modified: '2026-07-18'
-name: Clinovas LTD
+name: Clinovas
 nav: Providers
 network: true
-overview: Clinovas LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Patient Recruitment, AI Matching, and EHR Integration.
+overview: Clinovas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Patient Recruitment, AI Matching, and EHR Integration.
 random_paper: 0
 score:
   band: minimal

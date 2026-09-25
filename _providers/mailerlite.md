@@ -489,5 +489,6 @@ tags:
 - Segmentation
 - Transactional Email
 - MCP
+- Email
 website: https://www.mailerlite.com/
 ---

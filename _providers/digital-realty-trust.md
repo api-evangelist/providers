@@ -52,7 +52,7 @@ modified: '2026-05-05'
 name: Digital Realty Trust
 nav: Providers
 network: true
-overview: 'Digital Realty Trust is profiled on the [APIs.io](https://apis.io/) network.
+overview: 'Digital Realty Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Center, Colocation, and Interconnection.
 
 
   Digital Realty Trust''s developer surface includes engineering blog and 1 more developer resources.'
@@ -84,9 +84,6 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 3.1
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat
@@ -96,4 +93,8 @@ score:
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-realty-trust/refs/heads/main/screenshots/digital-realty-trust-2026-06-20T180025.png
 slug: digital-realty-trust
+tags:
+- Data Center
+- Colocation
+- Interconnection
 ---

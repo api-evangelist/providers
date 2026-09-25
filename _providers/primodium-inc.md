@@ -86,13 +86,13 @@ description: 'Primodium Inc. (primodiumxyz) is a developer-focused studio buildi
 image: https://avatars.githubusercontent.com/primodiumxyz
 layout: provider
 modified: '2026-07-20'
-name: Primodium Inc.
+name: Primodium
 nav: Providers
 network: true
-overview: 'Primodium Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Gaming, Web3, and Solana.
+overview: 'Primodium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Gaming, Web3, and Solana.
 
 
-  Primodium Inc.''s developer surface includes documentation, getting-started guide, changelog, and 7 more developer resources.'
+  Primodium''s developer surface includes documentation, getting-started guide, changelog, and 7 more developer resources.'
 random_paper: 21
 score:
   band: emerging

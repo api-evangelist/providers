@@ -63,10 +63,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/knoll.png
 layout: provider
 modified: '2026-04-19'
-name: Knoll Inc
+name: Knoll
 nav: Providers
 network: true
-overview: Knoll Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Furniture, Design, and Office.
+overview: Knoll publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Furniture, Design, and Office.
 plans:
 - name: Knoll Plans Pricing
   plan_count: 1

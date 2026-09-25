@@ -112,7 +112,7 @@ tags:
 - Geocoding
 - Exposure Data
 - Property Data
-- Risk
+- Risk Management
 - Catastrophe Modeling
 - Insurtech
 - Geospatial

@@ -200,7 +200,7 @@ tags:
 - Governance
 - FedRAMP
 - Government
-- Risk
+- Risk Management
 - Audit
 - Automation
 website: https://www.anitian.com/

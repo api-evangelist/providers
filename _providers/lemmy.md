@@ -274,7 +274,7 @@ modified: '2026-06-13'
 name: Lemmy
 nav: Providers
 network: true
-overview: 'Lemmy publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Authentication API, and 11 more. Tagged areas include Communities, Federated, Fediverse, Link Aggregator, and Open Source.
+overview: 'Lemmy publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Admin API, Authentication API, and 11 more. Tagged areas include Community, Federated, Fediverse, Link Aggregator, and Open Source.
 
 
   The Lemmy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -345,7 +345,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: lemmy
 tags:
-- Communities
+- Community
 - Federated
 - Fediverse
 - Link Aggregator

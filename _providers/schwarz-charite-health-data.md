@@ -144,7 +144,7 @@ tags:
 - Clinical Data Repository
 - openEHR
 - Interoperability
-- HL7 FHIR
+- FHIR
 - Data Sovereignty
 - Cloud
 - Germany

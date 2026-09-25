@@ -223,13 +223,13 @@ json_schemas:
   slug: whisperr-inc-wire.schema
 layout: provider
 modified: '2026-09-16'
-name: Whisperr, Inc.
+name: Whisperr
 nav: Providers
 network: true
-overview: 'Whisperr, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dashboard API, Decisioning API, Delivery API, and 4 more. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
+overview: 'Whisperr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Whisperr, Inc. Dashboard API, Whisperr, Inc. Decisioning API, Whisperr, Inc. Delivery API, and 4 more. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
 
 
-  Whisperr, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 22 more developer resources.'
+  Whisperr''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 22 more developer resources.'
 plans:
 - name: Whisperr Inc Plans Pricing
   plan_count: 0

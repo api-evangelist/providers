@@ -62,10 +62,10 @@ description: Dream Voyage Inc. is an AI-driven consumer studio founded in 2023 a
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dream-voyage-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Dream Voyage Inc.
+name: Dream Voyage
 nav: Providers
 network: true
-overview: Dream Voyage Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Consumer App, Mobile, and Astrology.
+overview: Dream Voyage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Consumer App, Mobile, and Astrology.
 random_paper: 14
 score:
   band: minimal

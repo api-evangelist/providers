@@ -998,8 +998,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 31,
-   "shown": 31,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "The Climate Corporation",
@@ -2245,49 +2245,6 @@
      "rank": 48
     },
     {
-     "name": "Gotham Greens",
-     "slug": "gotham-greens",
-     "description": "Gotham Greens is an American fresh food and indoor farming company founded in 2009 by Viraj Puri and Eric Haley in Brooklyn, New York, where it built one of the first commercial-scale rooftop hydroponic greenhouses in the world. The company owns and operates a national network of climate-controlled hydroponic greenhouses across the United States, growing pesticide-free leafy greens, lettuces and herbs year-round using a fraction of the land and water of conventional field agriculture, and delivering them to retail, restaurant and foodservice customers within hours of harvest. Under its own brand it sells packaged salad greens, salad kits, fresh herbs, salad dressings, dips, pestos and cooking sauces. Gotham Greens is a consumer packaged goods and controlled-environment agriculture business rather than a software vendor, and publishes no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at gothamgreens.com, captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png",
-     "score": 27.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
      "name": "Agrology",
      "slug": "agrology",
      "description": "Agrology is a Delaware Public Benefit Corporation building a predictive agriculture platform for specialty crops, vineyards and regenerative row-crop operations. Its patented in-field sensor nodes capture ground-truth agronomic telemetry — soil moisture and tension, soil and air temperature, humidity, vapor pressure deficit, barometric pressure, total VOCs, CO2 and nitrous-oxide flux — and feed machine-learning models that produce microclimate predictions, synthetic metrics and threshold alerts for frost, extreme heat, irrigation and smoke taint. The company publishes a first-party Agrology Public API v2 (OpenAPI 3.0.1, 90 operations at https://api.agrology.ag/v2) from its own GitHub organization, covering site and node topology, GeoJSON geometry, historical ground-truth and weather data, microclimate and weather predictions, alerts, reports, dashboards, charts and field experiments.",
@@ -2327,7 +2284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Universiti Putra Malaysia",
@@ -2377,7 +2334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Leaf Agriculture",
@@ -2420,7 +2377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     }
    ]
   },
@@ -2429,59 +2386,9 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 82,
-   "shown": 82,
+   "count": 83,
+   "shown": 83,
    "providers": [
-    {
-     "name": "Vestaron",
-     "slug": "vestaron",
-     "description": "Vestaron is an agricultural biotechnology company founded in 2005 and headquartered in Kalamazoo, Michigan, that develops peptide-based bioinsecticides derived from the venom of spiders and other venomous species. Its peptides deliver insecticidal modes of action that had never before been used for insect control — SPEAR, the first commercialised active ingredient, introduced IRAC Group 32, the first new neuromuscular mode of action since the diamides — and are effective on lepidopteran and sucking pests while remaining gentle on pollinators and beneficial insects. The commercial portfolio is SPEAR LEP, SPEAR RC, SPEAR T, BASIN FLEX, LEPROTEC and LEPROTEC WG, manufactured in partnership with ADM. The company has won the Crop Science Award and an EPA Green Chemistry Challenge award, and in 2024 became the first agriculture and food company inducted into the Global CleanTech 100 Hall of Fame. Vestaron publishes no developer program, no product API and no API documentation. The only machine-readable surfaces on vestaron.com are the WordPress REST content API (wp/v2), which is anonymously readable and serves the corporate newsroom, product and company pages and media library, and an OAuth-gated Model Context Protocol endpoint advertised through RFC 8414 and RFC 9728 metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png",
-     "score": 25.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 14.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
     {
      "name": "Agrovision",
      "slug": "agrovision",
@@ -2522,7 +2429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Farmers Edge",
@@ -2565,7 +2472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Natural Resources Conservation Service",
@@ -2615,7 +2522,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
+    },
+    {
+     "name": "Vestaron",
+     "slug": "vestaron",
+     "description": "Vestaron is an agricultural biotechnology company founded in 2005 and headquartered in Kalamazoo, Michigan, that develops peptide-based bioinsecticides derived from the venom of spiders and other venomous species. Its peptides deliver insecticidal modes of action that had never before been used for insect control — SPEAR, the first commercialised active ingredient, introduced IRAC Group 32, the first new neuromuscular mode of action since the diamides — and are effective on lepidopteran and sucking pests while remaining gentle on pollinators and beneficial insects. The commercial portfolio is SPEAR LEP, SPEAR RC, SPEAR T, BASIN FLEX, LEPROTEC and LEPROTEC WG, manufactured in partnership with ADM. The company has won the Crop Science Award and an EPA Green Chemistry Challenge award, and in 2024 became the first agriculture and food company inducted into the Global CleanTech 100 Hall of Fame. Vestaron publishes no developer program, no product API and no API documentation. The only machine-readable surfaces on vestaron.com are the WordPress REST content API (wp/v2), which is anonymously readable and serves the corporate newsroom, product and company pages and media library, and an OAuth-gated Model Context Protocol endpoint advertised through RFC 8414 and RFC 9728 metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 7.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
     },
     {
      "name": "Provivi",
@@ -2658,7 +2615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "sapjilcoding",
@@ -2707,7 +2664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Farm Credit Administration",
@@ -2757,7 +2714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "La Ruche qui dit Oui!",
@@ -2799,7 +2756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Oishii",
@@ -2842,7 +2799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Taranis",
@@ -2885,7 +2842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Cropio",
@@ -2928,7 +2885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "FarmLogs",
@@ -2971,7 +2928,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Glife",
@@ -3014,7 +2971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Wyvern",
@@ -3064,7 +3021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Farmers Business Network",
@@ -3106,7 +3063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Leaft Foods",
@@ -3149,7 +3106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "EarthOptics",
@@ -3199,7 +3156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Arbol",
@@ -3249,7 +3206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "The Andersons",
@@ -3299,7 +3256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Ambrook",
@@ -3349,18 +3306,18 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "AeroFarms",
      "slug": "aerofarms",
      "description": "AeroFarms is an indoor vertical farming company founded in 2004 and headquartered in Newark, New Jersey, where it grows leafy greens and nutrient-dense microgreens — micro broccoli, micro arugula, micro wasabi mustard and the FlavorSpectrum blends — aeroponically, without sun or soil, under LED light recipes driven by its proprietary agSTACK PLC/SCADA control stack. It sells through US grocery retail rather than through software, is a Certified B Corporation, and was acquired by an affiliate of Palm Ventures in June 2026. AeroFarms is a produce grower, not a software vendor: no developer portal, no API documentation, no SDKs, no API product. The machine-readable surface profiled here is the anonymous, read-only WordPress and WooCommerce REST API behind www.aerofarms.com, a live OAuth-protected MCP server at /wp-json/mcp/mcp-oauth-server, and a published llms.txt.",
-     "score": 20.5,
+     "score": 20.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 2.6,
       "developer_ergonomics": 30.4,
@@ -3368,15 +3325,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 28.0,
+     "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "served",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -3385,13 +3342,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Gro Intelligence",
@@ -3436,7 +3393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "AgroDesign Studios",
@@ -3485,7 +3442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "DecisionNext",
@@ -3528,7 +3485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Tridge",
@@ -3578,7 +3535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Agerpoint",
@@ -3620,7 +3577,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "EOS Data Analytics",
@@ -3662,10 +3619,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
-     "name": "FMC Corporation",
+     "name": "FMC",
      "slug": "fmc-corporation",
      "description": "FMC Corporation (NYSE: FMC) is a global agricultural sciences company headquartered in Philadelphia, Pennsylvania, with roots dating to 1883. FMC develops, manufactures, and sells crop protection chemistries (insecticides, herbicides, fungicides), biological solutions (biopesticides, biostimulants, biofertilizers, pheromones), seed treatments, and precision agriculture technology. Following the 2019 spin-off of Livent (lithium) and the 2021 divestiture of the Health & Nutrition business to DuPont/Eastman, FMC operates as a focused pure-play agricultural sciences company. The 2022 acquisition of Argentine biologicals firm BIOPHERO accelerated FMC's pheromone-based crop protection portfolio (Sofero brand).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/screenshots/fmc-corporation-2026-06-20T181348.png",
@@ -3703,6 +3660,49 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 79
+    },
+    {
+     "name": "Gotham Greens",
+     "slug": "gotham-greens",
+     "description": "Gotham Greens is an American fresh food and indoor farming company founded in 2009 by Viraj Puri and Eric Haley in Brooklyn, New York, where it built one of the first commercial-scale rooftop hydroponic greenhouses in the world. The company owns and operates a national network of climate-controlled hydroponic greenhouses across the United States, growing pesticide-free leafy greens, lettuces and herbs year-round using a fraction of the land and water of conventional field agriculture, and delivering them to retail, restaurant and foodservice customers within hours of harvest. Under its own brand it sells packaged salad greens, salad kits, fresh herbs, salad dressings, dips, pestos and cooking sauces. Gotham Greens is a consumer packaged goods and controlled-environment agriculture business rather than a software vendor, and publishes no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at gothamgreens.com, captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png",
+     "score": 18.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -3801,48 +3801,6 @@
      "rank": 82
     },
     {
-     "name": "3Bar Biologics",
-     "slug": "3bar-biologics",
-     "description": "3Bar Biologics (3BarBio) is an agricultural biotechnology company in Columbus, Ohio, spun out of research at The Ohio State University and operating as the first contract development and manufacturing organization (CDMO) dedicated to agricultural biologicals. Its business is getting living microbes to the field alive: the patented LiveMicrobe platform, including the Iso-Pak and Re-Pak delivery systems, keeps beneficial bacteria viable through storage and distribution, the problem that has historically limited adoption of microbial crop inputs. The company sells design, development, biomanufacturing and fulfillment services to discovery companies, distributors and bulk suppliers, and previously marketed its own Bio-YIELD inoculant to corn, soybean and wheat growers in the eastern Corn Belt. 3Bar Biologics is a manufacturer and services business, not a software vendor: it publishes no developer program, no developer portal, no API documentation, no SDKs and no pricing for any programmatic product. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at www.3barbiologics.com, which is captured here for discovery purposes. That surface is anonymously readable, read-only, entirely undocumented by the company, and carries two reproducible defects on its media collection that are recorded in this profile.",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
-    },
-    {
      "name": "Indigo Agriculture",
      "slug": "indigo-ag",
      "description": "Indigo Agriculture is a Boston-based agriculture-technology company combining microbial seed and foliar treatments (biotrinsic) and on-farm seed treatment hardware (CLIPS) with two large supply-chain programs: Carbon by Indigo, a soil-carbon program that pays growers for verified carbon credits using Indigo's proprietary measurement, reporting, and verification (MRV) stack; and Source by Indigo, a Scope-3 program that connects consumer-goods buyers to sustainably grown crops with greenhouse-gas, water, and low-carbon-biofuel outcome reporting. Indigo does not publish a public developer portal; partner and supply-chain integrations are negotiated directly through their team.",
@@ -3874,6 +3832,48 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "3Bar Biologics",
+     "slug": "3bar-biologics",
+     "description": "3Bar Biologics (3BarBio) is an agricultural biotechnology company in Columbus, Ohio, spun out of research at The Ohio State University and operating as the first contract development and manufacturing organization (CDMO) dedicated to agricultural biologicals. Its business is getting living microbes to the field alive: the patented LiveMicrobe platform, including the Iso-Pak and Re-Pak delivery systems, keeps beneficial bacteria viable through storage and distribution, the problem that has historically limited adoption of microbial crop inputs. The company sells design, development, biomanufacturing and fulfillment services to discovery companies, distributors and bulk suppliers, and previously marketed its own Bio-YIELD inoculant to corn, soybean and wheat growers in the eastern Corn Belt. 3Bar Biologics is a manufacturer and services business, not a software vendor: it publishes no developer program, no developer portal, no API documentation, no SDKs and no pricing for any programmatic product. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at www.3barbiologics.com, which is captured here for discovery purposes. That surface is anonymously readable, read-only, entirely undocumented by the company, and carries two reproducible defects on its media collection that are recorded in this profile.",
+     "score": 17.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6594,7 +6594,7 @@
      "rank": 145
     },
     {
-     "name": "Jain Irrigation Systems Ltd",
+     "name": "Jain Irrigation Systems",
      "slug": "jains",
      "description": "Jain Irrigation Systems Ltd (JISL) is a global agri-industrial conglomerate headquartered in Jalgaon, Maharashtra, India, and is widely cited as the world's largest micro-irrigation company. Founded in 1963 by Padma Shri recipient Bhavarlal Jain under the slogan \"More Crop Per Drop,\" the company manufactures drip and sprinkler irrigation systems, PVC/HDPE/PP and plumbing piping, rigid and foam plastic sheets, solar pumping and photovoltaic systems, tissue-culture planting material, greenhouses and protected cultivation, and processed foods. JISL operates 33 manufacturing bases across four continents, serves 126+ countries through 11,000+ dealers, is listed on the BSE and NSE, and reports turnover exceeding USD 1.2 billion. The company publishes a structured llms.txt for AI crawlers but exposes no public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jains/refs/heads/main/screenshots/jains-2026-07-25T223045.png",
@@ -8209,7 +8209,7 @@
      "rank": 182
     },
     {
-     "name": "iChase Co., Ltd.",
+     "name": "iChase",
      "slug": "ichase-co-ltd",
      "description": "iChase Co., Ltd. (iCHASE) builds AI-powered biosecurity and precision-farming systems for modern agriculture. Its integrated computer-vision monitoring platform protects livestock and optimizes growth for dairy, poultry, warehouse/industrial, and utility operations. Flagship products include the AI Bird Repeller, which detects birds in real time and deploys automated, chemical-free laser deterrence to reduce avian-flu and contamination risk, and InsightScale, which uses 3D scanning and AI weight prediction to track poultry Average Daily Gain and uniformity without stressful manual weighing. iCHASE is a member of the NVIDIA Inception program, a 2024 THRIVE Top 100 Global Innovator, and a 500 Global portfolio company. The site markets an \"Open API\" capability, but no public developer portal, documentation, OpenAPI definition, or SDKs were discoverable at the time of enrichment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ichase-co-ltd/refs/heads/main/screenshots/ichase-co-ltd-2026-07-25T222008.png",
@@ -9529,7 +9529,7 @@
      "rank": 212
     },
     {
-     "name": "CHS Inc.",
+     "name": "CHS",
      "slug": "chs",
      "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",
@@ -10948,7 +10948,7 @@
      "rank": 244
     },
     {
-     "name": "Cultivaet Technologies Holding Ltd.",
+     "name": "Cultivaet",
      "slug": "cultivaet-technologies-holding-ltd",
      "description": "Cultivaet Technologies Holding Ltd. is an AI-driven agricultural technology (\"AgriTech for Humanity\") startup based in Egypt serving smallholder farmers across the Middle East. Its products include a Farmer AI Companion delivering personalized weather, crop-planning, pest-control and soil-health insights, a Knowledge Platform that collects/analyzes/distributes social and scientific agricultural data, and a Business SaaS connecting farmers with food-industry buyers for sustainable procurement and traceability. The company is backed by 500 Global and Sanabil and is part of the Google Cloud Startups Program (pre-seed, 2024). As of this enrichment pass Cultivaet publishes only a marketing site (cultivaet.ai) with no public API, developer portal, documentation, SDKs, or other developer surface, so no API artifacts were generated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cultivaet-technologies-holding-ltd/refs/heads/main/screenshots/cultivaet-technologies-holding-ltd-2026-07-25T210919.png",
@@ -11160,7 +11160,7 @@
      "rank": 249
     },
     {
-     "name": "Kubota Corporation",
+     "name": "Kubota",
      "slug": "kubota-corporation",
      "description": "Kubota Corporation is a Japanese multinational manufacturing agricultural, construction, and industrial machinery, including compact tractors, excavators, mowers, utility vehicles, engines, and water and environmental infrastructure systems sold in over 120 countries. Kubota does not currently publish a public developer API or developer portal; equipment telematics (KubotaNOW) and dealer integrations are handled through partner channels rather than open APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubota-corporation/refs/heads/main/screenshots/kubota-corporation-2026-06-20T184216.png",
@@ -11548,7 +11548,7 @@
      "rank": 258
     },
     {
-     "name": "Plantner Inc.",
+     "name": "Plantner",
      "slug": "plantner-inc",
      "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
@@ -11931,7 +11931,7 @@
      "rank": 267
     },
     {
-     "name": "WeGrow asia CO., LTD.",
+     "name": "WeGrow asia",
      "slug": "wegrow-asia-co-ltd",
      "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/screenshots/wegrow-asia-co-ltd-2026-09-02T170556.png",

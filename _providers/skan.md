@@ -137,6 +137,5 @@ tags:
 - AI Agents
 - Enterprise Automation
 - Workflow Intelligence
-- Agentic AI
 website: https://skan.ai/
 ---

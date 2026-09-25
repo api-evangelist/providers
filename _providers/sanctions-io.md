@@ -171,7 +171,7 @@ modified: '2026-07-11'
 name: sanctions.io
 nav: Providers
 network: true
-overview: 'sanctions.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adverse Media API, Batch Screening API, and 3 more. Tagged areas include Anti-Money Laundering, AML, Sanctions Screening, Compliance, and PEP Screening.
+overview: 'sanctions.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Adverse Media API, Batch Screening API, and 3 more. Tagged areas include AML, Sanctions Screening, Compliance, PEP Screening, and Watchlist.
 
 
   sanctions.io''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 7 more developer resources.'
@@ -228,7 +228,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sanctions-io
 tags:
-- Anti-Money Laundering
 - AML
 - Sanctions Screening
 - Compliance

@@ -241,7 +241,7 @@ tags:
 - Trust and Safety
 - Fraud Detection
 - Content Moderation
-- Risk
+- Risk Management
 - AI Agents
 - Compliance
 website: https://www.safetykit.com

@@ -58,13 +58,13 @@ description: Miruvor AI Inc. is an early-stage deep-tech AI research lab buildin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miruvor-ai-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Miruvor AI Inc.
+name: Miruvor AI
 nav: Providers
 network: true
-overview: 'Miruvor AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Neuromorphic Computing, and Continual Learning.
+overview: 'Miruvor AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Neuromorphic Computing, and Continual Learning.
 
 
-  Miruvor AI Inc.''s developer surface includes support and 3 more developer resources.'
+  Miruvor AI''s developer surface includes support and 3 more developer resources.'
 random_paper: 8
 score:
   band: minimal

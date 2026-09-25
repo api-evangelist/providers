@@ -290,16 +290,16 @@ description: Hopae, Inc. (Hopae S.A.) is a digital identity infrastructure compa
 image: https://framerusercontent.com/assets/JDrpQK9QXlyYCuykjUrR228U2M.svg
 layout: provider
 modified: '2026-07-19'
-name: Hopae, Inc.
+name: Hopae
 nav: Providers
 network: true
-overview: 'Hopae, Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Console - API Keys API, Providers API, Token API, and 6 more. Tagged areas include Company, Identity, Identity Verification, Digital Identity, and eID.
+overview: 'Hopae publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Hopae, Inc. Console - API Keys API, Hopae, Inc. Providers API, Hopae, Inc. Token API, and 6 more. Tagged areas include Company, Identity, Identity Verification, Digital Identity, and eID.
 
 
-  The Hopae, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Hopae catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hopae, Inc.''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
+  Hopae''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
 random_paper: 4
 scopes:
 - name: Hopae Inc Scopes

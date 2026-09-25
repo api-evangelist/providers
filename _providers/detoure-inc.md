@@ -58,10 +58,10 @@ description: Detoure Inc (DETOURE) is a sustainable fashion resale marketplace, 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/detoure-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Detoure Inc
+name: Detoure
 nav: Providers
 network: true
-overview: Detoure Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Resale Marketplace, E-Commerce, and Sustainable Fashion.
+overview: Detoure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Resale Marketplace, E-Commerce, and Sustainable Fashion.
 random_paper: 19
 score:
   band: minimal

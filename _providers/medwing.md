@@ -87,7 +87,7 @@ modified: '2026-07-20'
 name: Medwing
 nav: Providers
 network: true
-overview: 'Medwing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Recruitment, Staffing, and Nursing.
+overview: 'Medwing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Recruiting, Staffing, and Nursing.
 
 
   Medwing''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
@@ -141,7 +141,7 @@ slug: medwing
 tags:
 - Company
 - Healthcare
-- Recruitment
+- Recruiting
 - Staffing
 - Nursing
 - Human Resources

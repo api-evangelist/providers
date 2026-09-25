@@ -155,7 +155,7 @@ modified: '2026-05-24'
 name: AutoGen Studio
 nav: Providers
 network: true
-overview: 'AutoGen Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AutoGen, AutoGen Studio, Multi-Agent, Agent Framework, and Agentic AI.
+overview: 'AutoGen Studio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AutoGen, AutoGen Studio, Multi-Agent, Agent Framework, and AI Agents.
 
 
   AutoGen Studio''s developer surface includes engineering blog, documentation, FAQ, and 19 more developer resources.'
@@ -199,7 +199,7 @@ tags:
 - AutoGen Studio
 - Multi-Agent
 - Agent Framework
-- Agentic AI
+- AI Agents
 - Low-Code
 - No-Code
 - GUI

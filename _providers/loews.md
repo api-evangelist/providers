@@ -66,10 +66,10 @@ description: Loews Corporation is a diversified holding company with subsidiarie
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loews.png
 layout: provider
 modified: '2026-04-28'
-name: Loews Corporation
+name: Loews
 nav: Providers
 network: true
-overview: Loews Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Fortune 500, Holding Company, Hotels, and Insurance.
+overview: Loews is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Fortune 500, Holding Company, Hotels, and Insurance.
 press:
 - date: ''
   title: LOEWS CORPORATION REPORTS NET INCOME OF ...

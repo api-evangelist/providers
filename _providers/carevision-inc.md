@@ -58,13 +58,13 @@ description: Carevision Inc. is an AI-powered digital health company whose platf
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carevision-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Carevision Inc.
+name: Carevision
 nav: Providers
 network: true
-overview: 'Carevision Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Wellness.
+overview: 'Carevision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Wellness.
 
 
-  Carevision Inc.''s developer surface includes engineering blog, support, and 2 more developer resources.'
+  Carevision''s developer surface includes engineering blog, support, and 2 more developer resources.'
 random_paper: 4
 score:
   band: minimal

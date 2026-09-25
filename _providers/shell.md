@@ -396,7 +396,7 @@ modified: '2026-05-19'
 name: Shell
 nav: Providers
 network: true
-overview: 'Shell publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cards API, Catalogue API, and 8 more. Tagged areas include Aviation, Electric Vehicle Charging, Energy, Fleet Management, and Fuel.
+overview: 'Shell publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cards API, Catalogue API, and 8 more. Tagged areas include Aviation, EV Charging, Energy, Fleet Management, and Fuel.
 
 
   The Shell catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -490,7 +490,7 @@ security:
 slug: shell
 tags:
 - Aviation
-- Electric Vehicle Charging
+- EV Charging
 - Energy
 - Fleet Management
 - Fuel

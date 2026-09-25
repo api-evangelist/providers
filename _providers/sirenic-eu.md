@@ -258,7 +258,7 @@ modified: '2026-09-19'
 name: Sirenic
 nav: Providers
 network: true
-overview: 'Sirenic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company Data, Business Registry, KYB, Know Your Business, and Sanctions Screening.
+overview: 'Sirenic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company Data, Business Registry, KYB, Sanctions Screening, and Financial Data.
 
 
   The Sirenic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -343,7 +343,6 @@ tags:
 - Company Data
 - Business Registry
 - KYB
-- Know Your Business
 - Sanctions Screening
 - Financial Data
 - Credit Risk

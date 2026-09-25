@@ -505,7 +505,7 @@ modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Banking as a Service, Banking, Payments, and Card Issuing.
 
 
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -588,12 +588,13 @@ security:
 slug: unit-co
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Banking
 - Payments
 - Card Issuing
 - ACH
 - Lending
 - JSON:API
+- Embedded Finance
 website: https://www.unit.co/
 ---

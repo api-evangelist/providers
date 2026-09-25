@@ -73,7 +73,7 @@ modified: '2026-07-21'
 name: RippleHire
 nav: Providers
 network: true
-overview: 'RippleHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, ATS, Human Resources, and Hiring.
+overview: 'RippleHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Applicant Tracking, Human Resources, and Hiring.
 
 
   RippleHire''s developer surface includes signup flow and 6 more developer resources.'
@@ -118,7 +118,7 @@ slug: ripplehire
 tags:
 - Company
 - Recruiting
-- ATS
+- Applicant Tracking
 - Human Resources
 - Hiring
 - Employee Referrals

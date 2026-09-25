@@ -432,5 +432,6 @@ tags:
 - Security Ratings
 - Data Leaks
 - Threat Intelligence
+- Risk Management
 website: https://www.upguard.com
 ---

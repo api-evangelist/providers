@@ -235,12 +235,11 @@ tags:
 - Templates
 - AI Assistant
 - AI Agents
-- Agentic AI
 - Slack
 - Microsoft Teams
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Legal Engineering
 - MCP
 website: https://www.wordsmith.ai

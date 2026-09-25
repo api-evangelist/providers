@@ -63,10 +63,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heico.png
 layout: provider
 modified: '2026-04-19'
-name: HEICO Corporation
+name: HEICO
 nav: Providers
 network: true
-overview: HEICO Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Aviation, and Defense.
+overview: HEICO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Aviation, and Defense.
 plans:
 - name: Heico Plans Pricing
   plan_count: 1

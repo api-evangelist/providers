@@ -50,10 +50,10 @@ description: HopShop Inc. is a consumer AI fashion-discovery and creator-monetiz
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hopshop-inc.png
 layout: provider
 modified: '2026-07-19'
-name: HopShop Inc.
+name: HopShop
 nav: Providers
 network: true
-overview: HopShop Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-Commerce, and Visual Search.
+overview: HopShop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Retail, E-Commerce, and Visual Search.
 random_paper: 6
 score:
   band: minimal

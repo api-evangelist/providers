@@ -241,6 +241,6 @@ tags:
 - MCP
 - Quality Assurance
 - CI/CD
-- Agentic
+- AI Agents
 website: https://testsprite.com/
 ---

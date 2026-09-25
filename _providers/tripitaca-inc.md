@@ -66,13 +66,13 @@ description: Tripitaca is a Kenya-based travel and hospitality booking marketpla
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tripitaca-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Tripitaca, Inc.
+name: Tripitaca
 nav: Providers
 network: true
-overview: 'Tripitaca, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Booking, and Marketplace.
+overview: 'Tripitaca is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Booking, and Marketplace.
 
 
-  Tripitaca, Inc.''s developer surface includes signup flow, pricing, and 4 more developer resources.'
+  Tripitaca''s developer surface includes signup flow, pricing, and 4 more developer resources.'
 random_paper: 0
 score:
   band: emerging

@@ -66,13 +66,13 @@ description: Local (uselocal.co) is a Gulf Cooperation Council fintech and hospi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/local-holdings-limited.png
 layout: provider
 modified: '2026-07-20'
-name: Local Holdings Limited
+name: Local
 nav: Providers
 network: true
-overview: 'Local Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, QR Payments, and Hospitality.
+overview: 'Local is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, QR Payments, and Hospitality.
 
 
-  Local Holdings Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Local''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 13
 score:
   band: minimal

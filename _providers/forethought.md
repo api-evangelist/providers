@@ -387,7 +387,7 @@ tags:
 - SupportGPT
 - Conversational AI
 - Ticket Triage
-- Agentic AI
+- AI Agents
 - Voice AI
 - Help Desk
 - Multi-Agent

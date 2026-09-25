@@ -69,13 +69,13 @@ description: Bariendo Inc. (now operating as Everself) is a science-forward digi
 image: https://everself.com/og/everself-social.jpg
 layout: provider
 modified: '2026-07-18'
-name: Bariendo Inc.
+name: Everself
 nav: Providers
 network: true
-overview: 'Bariendo Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Weight Loss.
+overview: 'Everself is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Weight Loss.
 
 
-  Bariendo Inc.''s developer surface includes engineering blog, pricing, signup flow, and 4 more developer resources.'
+  Everself''s developer surface includes engineering blog, pricing, signup flow, and 4 more developer resources.'
 random_paper: 7
 score:
   band: emerging

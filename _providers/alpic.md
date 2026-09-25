@@ -298,6 +298,6 @@ tags:
 - Developer Tools
 - Deployment
 - ChatGPT Apps
-- Agentic
+- AI Agents
 website: https://alpic.ai/
 ---

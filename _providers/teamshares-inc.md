@@ -66,13 +66,13 @@ description: Teamshares is a tech-enabled acquirer of small businesses that offe
 image: https://www.teamshares.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
-name: Teamshares Inc
+name: Teamshares
 nav: Providers
 network: true
-overview: 'Teamshares Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Employee Ownership, Small Business, and Acquisition.
+overview: 'Teamshares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Employee Ownership, Small Business, and Acquisition.
 
 
-  Teamshares Inc''s developer surface includes engineering blog and 5 more developer resources.'
+  Teamshares'' developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 20
 score:
   band: emerging

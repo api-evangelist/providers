@@ -50,10 +50,10 @@ description: Wow AI LTD. is a company surfaced as a portfolio company of 500-glo
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wow-ai-ltd.png
 layout: provider
 modified: '2026-07-17'
-name: Wow AI LTD.
+name: WOW AI
 nav: Providers
 network: true
-overview: Wow AI LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: WOW AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 19
 score:
   band: minimal

@@ -95,6 +95,6 @@ tags:
 - Security
 - Vulnerability Management
 - Exposure Management
-- Risk
+- Risk Management
 website: https://www.silk.security/
 ---

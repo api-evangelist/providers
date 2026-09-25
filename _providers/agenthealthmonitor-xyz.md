@@ -211,19 +211,19 @@ image: https://agenthealthmonitor.xyz/static/ahm-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: Digital Intensity Ltd MCP Server
-  slug: digital-intensity-ltd-mcp-server
+  name: Agent Health Monitor MCP Server
+  slug: agent-health-monitor-mcp-server
 modified: '2026-09-19'
-name: Digital Intensity Ltd
+name: Agent Health Monitor
 nav: Providers
 network: true
-overview: 'Digital Intensity Ltd publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent Health Monitor API and AHM Verify API. Tagged areas include Agents, Agent Trust, Risk Scoring, Wallet Intelligence, and Blockchain.
+overview: 'Agent Health Monitor publishes 2 APIs on the [APIs.io](https://apis.io/) network, including AHM Verify API, and 1 more. Tagged areas include Agents, Agent Trust, Risk Scoring, Wallet Intelligence, and Blockchain.
 
 
-  The Digital Intensity Ltd catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Agent Health Monitor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Digital Intensity Ltd''s developer surface includes documentation, API reference, getting-started guide, developer console, pricing, signup flow, engineering blog, and 27 more developer resources.'
+  Agent Health Monitor''s developer surface includes documentation, API reference, getting-started guide, developer console, pricing, signup flow, engineering blog, and 27 more developer resources.'
 plans:
 - name: Agenthealthmonitor Xyz Plans Pricing
   plan_count: 10

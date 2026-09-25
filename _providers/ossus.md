@@ -66,7 +66,7 @@ modified: '2026-07-20'
 name: Ossus
 nav: Providers
 network: true
-overview: 'Ossus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Libraries, Library Management, Integrated Library System, and Cataloguing.
+overview: 'Ossus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Library, Library Management, Integrated Library System, and Cataloguing.
 
 
   Ossus'' developer surface includes engineering blog and 4 more developer resources.'
@@ -121,7 +121,7 @@ security:
 slug: ossus
 tags:
 - Company
-- Libraries
+- Library
 - Library Management
 - Integrated Library System
 - Cataloguing

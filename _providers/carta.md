@@ -191,5 +191,6 @@ tags:
 - Investor Portfolio
 - Private Markets
 - Fintech
+- Startups
 website: https://carta.com
 ---

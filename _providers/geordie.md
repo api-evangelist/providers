@@ -91,7 +91,7 @@ modified: '2026-07-19'
 name: Geordie AI
 nav: Providers
 network: true
-overview: 'Geordie AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agentic AI, and AI Security.
+overview: 'Geordie AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, AI Security, and Observability.
 
 
   Geordie AI''s developer surface includes documentation, engineering blog, signup flow, and 8 more developer resources.'
@@ -137,7 +137,6 @@ tags:
 - Company
 - AI Governance
 - AI Agents
-- Agentic AI
 - AI Security
 - Observability
 - Compliance

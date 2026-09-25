@@ -119,13 +119,13 @@ description: 'EQT Corporation is the largest producer of natural gas in the Unit
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eqt.png
 layout: provider
 modified: '2026-09-06'
-name: EQT Corporation
+name: EQT
 nav: Providers
 network: true
-overview: 'EQT Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Oil and Gas, Appalachian Basin, and Fortune 1000.
+overview: 'EQT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Oil and Gas, Appalachian Basin, and Fortune 1000.
 
 
-  EQT Corporation''s developer surface includes support, engineering blog, and 13 more developer resources.'
+  EQT''s developer surface includes support, engineering blog, and 13 more developer resources.'
 press:
 - date: ''
   title: EQT And Context Labs Announce Strategic Partnership

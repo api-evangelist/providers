@@ -50,10 +50,10 @@ description: Faqtor, Inc. is a company surfaced as a portfolio company of 500-gl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/faqtor-inc.png
 layout: provider
 modified: '2026-07-19'
-name: Faqtor, Inc.
+name: Faqtor
 nav: Providers
 network: true
-overview: Faqtor, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Faqtor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 0
 score:
   band: minimal

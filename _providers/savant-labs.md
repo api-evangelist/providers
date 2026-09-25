@@ -112,7 +112,7 @@ modified: '2026-07-21'
 name: Savant Labs
 nav: Providers
 network: true
-overview: 'Savant Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Automation, Agentic AI, and Finance.
+overview: 'Savant Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Automation, AI Agents, and Finance.
 
 
   Savant Labs'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
@@ -161,7 +161,7 @@ tags:
 - Company
 - Analytics
 - Automation
-- Agentic AI
+- AI Agents
 - Finance
 - Data Preparation
 - No-Code

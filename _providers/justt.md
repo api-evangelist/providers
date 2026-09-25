@@ -369,7 +369,7 @@ tags:
 - Chargebacks
 - Disputes
 - Fraud
-- Risk
+- Risk Management
 - Financial Services
 - E-Commerce
 - Artificial Intelligence

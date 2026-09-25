@@ -62,13 +62,13 @@ description: Flex Pharma, Inc. entered the API Evangelist network as a healthcar
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flex-pharma-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Flex Pharma, Inc.
+name: Flex Pharma
 nav: Providers
 network: true
-overview: 'Flex Pharma, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Life Sciences.
+overview: 'Flex Pharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmaceuticals, Biotechnology, and Life Sciences.
 
 
-  Flex Pharma, Inc.''s developer surface includes support and 4 more developer resources.'
+  Flex Pharma''s developer surface includes support and 4 more developer resources.'
 random_paper: 16
 score:
   band: minimal

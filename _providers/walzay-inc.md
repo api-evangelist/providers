@@ -54,10 +54,10 @@ description: Walzay Inc. is a global tech-talent recruitment marketplace, founde
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walzay-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Walzay Inc.
+name: Walzay
 nav: Providers
 network: true
-overview: Walzay Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Talent, Hiring, and Marketplace.
+overview: Walzay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent, Hiring, and Marketplace.
 random_paper: 11
 score:
   band: minimal
@@ -93,7 +93,7 @@ security:
 slug: walzay-inc
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Talent
 - Hiring
 - Marketplace

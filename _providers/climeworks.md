@@ -188,5 +188,6 @@ tags:
 - Sustainability
 - Energy
 - Switzerland
+- Climate
 website: https://climeworks.com/
 ---

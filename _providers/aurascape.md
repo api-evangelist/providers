@@ -86,7 +86,7 @@ modified: '2026-08-08'
 name: Aurascape
 nav: Providers
 network: true
-overview: 'Aurascape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, Security, Artificial Intelligence, and Agentic AI.
+overview: 'Aurascape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, Security, Artificial Intelligence, and AI Agents.
 
 
   Aurascape''s developer surface includes engineering blog and 9 more developer resources.'
@@ -128,7 +128,7 @@ tags:
 - AI Security
 - Security
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Data Protection
 - Data Loss Prevention
 - Governance

@@ -181,6 +181,6 @@ tags:
 - Private Equity
 - Investor Relations
 - MCP
-- Agentic AI
+- AI Agents
 website: https://junipersquare.com
 ---

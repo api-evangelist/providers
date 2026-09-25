@@ -114,5 +114,6 @@ tags:
 - Switching
 - Open Networking
 - Telemetry
+- Acquired
 website: https://www.nvidia.com/en-us/networking/ethernet-switching/
 ---

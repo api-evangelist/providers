@@ -1,68 +1,6 @@
 {
- "total": 239,
+ "total": 236,
  "bands": [
-  {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66.5+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "providers": [
-    {
-     "name": "Centers for Medicare and Medicaid Services",
-     "slug": "cms",
-     "url": "https://providers.apis.io/providers/cms/",
-     "type": "API Provider",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
-     "score": 81.7,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 64.4,
-      "contract_governance": 43.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 79.2,
-      "access_clarity": 89.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 83.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 1
-    }
-   ],
-   "open": true
-  },
   {
    "band": "strong",
    "label": "Strong",
@@ -120,7 +58,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 1
     },
     {
      "name": "General Services Administration",
@@ -172,7 +110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 2
     },
     {
      "name": "US Census Bureau",
@@ -224,7 +162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     }
    ],
    "open": true
@@ -234,7 +172,7 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 25,
+   "count": 24,
    "providers": [
     {
      "name": "Login.gov",
@@ -286,7 +224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Cancer.gov",
@@ -338,7 +276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Bureau of Industry and Security",
@@ -390,7 +328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Department of Justice",
@@ -438,6 +376,58 @@
       "agent_card": false,
       "dry_run_mode": "na",
       "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "CMS — Centers for Medicare & Medicaid Services",
+     "slug": "cms-gov",
+     "url": "https://providers.apis.io/providers/cms-gov/",
+     "type": "API Provider",
+     "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png",
+     "score": 49.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 61.8,
+      "contract_governance": 13.6,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bound",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -705,7 +695,7 @@
      "rank": 13
     },
     {
-     "name": "VA Lighthouse",
+     "name": "Department of Veterans Affairs (VA Lighthouse)",
      "slug": "va-gov",
      "url": "https://providers.apis.io/providers/va-gov/",
      "type": "API Provider",
@@ -965,58 +955,6 @@
      "rank": 18
     },
     {
-     "name": "CMS — Centers for Medicare & Medicaid Services",
-     "slug": "cms-gov",
-     "url": "https://providers.apis.io/providers/cms-gov/",
-     "type": "API Provider",
-     "description": "The Centers for Medicare & Medicaid Services (CMS) is the U.S. federal agency within the Department of Health and Human Services that administers Medicare, Medicaid, the Children's Health Insurance Program (CHIP), the Health Insurance Marketplace, and the broader CMS open-data program. CMS operates one of the largest collections of HL7 FHIR APIs in the U.S. federal government — Blue Button 2.0, BCDA, AB2D, DPC, and the upstream BFD server — alongside the Marketplace API, the data.cms.gov open-data catalog, the Provider Data Catalog, the Quality Payment Program API, and the Medicare Coverage Database.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.9,
-      "contract_governance": 13.6,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bound",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
      "name": "United States Army Corps of Engineers",
      "slug": "united-states-army-corps-of-engineers",
      "url": "https://providers.apis.io/providers/united-states-army-corps-of-engineers/",
@@ -1066,7 +1004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "U.S. Geological Survey",
@@ -1118,7 +1056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Substance Abuse and Mental Health Services Administration",
@@ -1170,7 +1108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "USDA",
@@ -1222,7 +1160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Bonneville Power Administration",
@@ -1274,7 +1212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Consumer Financial Protection Bureau",
@@ -1326,7 +1264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Cybersecurity and Infrastructure Security Agency",
@@ -1378,7 +1316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "NASA Open APIs",
@@ -1430,59 +1368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
-    },
-    {
-     "name": "Veterans Affairs",
-     "slug": "va",
-     "url": "https://providers.apis.io/providers/va/",
-     "type": "API Provider",
-     "description": "The US Department of Veterans Affairs (VA) Lighthouse API platform provides a portfolio of public-facing REST APIs enabling third-party developers and partners to access veteran benefits data, health records (FHIR), appeals and decision review status, facilities information, forms, and service history verification. APIs support OAuth 2.0 with OpenID Connect and API key authentication and are available with sandbox and production environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 58.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "US Citizenship and Immigration Services",
@@ -1534,9 +1420,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 27
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "thin",
@@ -1595,7 +1482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 28
     },
     {
      "name": "United States National Library of Medicine",
@@ -1604,12 +1491,12 @@
      "type": "API Provider",
      "description": "The United States National Library of Medicine (NLM) is the world's largest biomedical library. It serves as a vital resource for researchers, healthcare professionals, and the general public by providing access to a vast collection of biomedical literature and resources. The NLM offers a wide range of services and resources including online databases, digital archives, and research tools that support medical research, education, and patient care. Key APIs include the NCBI E-Utilities (PubMed, Entrez), NCBI Datasets (genomes, genes), BLAST sequence alignment, and the ClinicalTrials.gov API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png",
-     "score": 39.2,
+     "score": 39.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.9,
+      "contract_quality": 56.5,
       "contract_governance": 39.4,
       "operational_transparency": 28.9,
       "developer_ergonomics": 31.0,
@@ -1647,7 +1534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 29
     },
     {
      "name": "US House of Representatives",
@@ -1699,7 +1586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 30
     },
     {
      "name": "Animal and Plant Health Inspection Service",
@@ -1751,7 +1638,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 31
     },
     {
      "name": "Agricultural Statistics Service",
@@ -1803,7 +1690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 32
     },
     {
      "name": "Election Assistance Commission",
@@ -1855,7 +1742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "Federal Housing Finance Agency (FHFA)",
@@ -1907,7 +1794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "Bureau of Consular Affairs",
@@ -1959,7 +1846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "OSHA",
@@ -2010,7 +1897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Department of Education",
@@ -2062,7 +1949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "United States Department of Agriculture",
@@ -2114,7 +2001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Department of Interior",
@@ -2166,7 +2053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "Agricultural Marketing Service",
@@ -2218,7 +2105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Forest Service",
@@ -2270,7 +2157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Federal Trade Commission",
@@ -2322,7 +2209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "International Trade Administration",
@@ -2374,7 +2261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Fannie Mae",
@@ -2426,7 +2313,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Federal Laboratory Consortium for Technology Transfer",
@@ -2478,7 +2365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Department of Homeland Security",
@@ -2530,59 +2417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
-    },
-    {
-     "name": "Department of Veterans Affairs (VA)",
-     "slug": "department-of-veterans-affairs",
-     "url": "https://providers.apis.io/providers/department-of-veterans-affairs/",
-     "type": "API Provider",
-     "description": "The Department of Veterans Affairs (VA) provides health care, benefits, and memorial services to U.S. military Veterans and their families. The VA API Platform at developer.va.gov publishes a structured catalog of APIs spanning Veteran identity confirmation, benefits claims, appeals, document intake, education, loan guaranty, facilities, forms, and HL7 FHIR clinical health data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png",
-     "score": 35.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 64.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
+     "rank": 46
     },
     {
      "name": "The Administration for Children and Families",
@@ -2634,7 +2469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 47
     },
     {
      "name": "United States Census Bureau",
@@ -2686,7 +2521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 48
     },
     {
      "name": "USPTO",
@@ -2738,58 +2573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
-    },
-    {
-     "name": "Department of State",
-     "slug": "department-of-state",
-     "url": "https://providers.apis.io/providers/department-of-state/",
-     "type": "API Provider",
-     "description": "The U.S. Department of State leads U.S. foreign policy, conducts diplomacy with foreign governments, issues U.S. passports and visas, supports U.S. citizens abroad, and publishes country-specific information and travel advisories. It operates no unified developer portal and issues no API keys, but it does serve several real, anonymous, machine-readable surfaces: the state.gov Content API at https://www.state.gov/wp-json, where 473 WordPress REST routes expose press releases, briefings, reports, biographies, bureaus and country and policy content as structured JSON with no credential; the Office of the Historian Ebook Catalog API, an OPDS Catalog 1.1 feed of the Foreign Relations of the United States series and the only surface the Department documents on a developer page of its own; a DCAT-US 3.0 open data catalog of 397 datasets at https://www.state.gov/data.json; and the Travel Advisories RSS feed. Discovery is the weak point rather than supply — none of the nine State hosts probed serves any /.well-known/ document, three of the four State APIs listed in the federal inventory have been retired without notice, and travel.state.gov and the Bureau of Consular Affairs data catalog refuse non-browser clients outright.",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 15.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
+     "rank": 49
     },
     {
      "name": "Ginnie Mae",
@@ -2841,7 +2625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 50
     },
     {
      "name": "GovInfo",
@@ -2893,7 +2677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 51
     },
     {
      "name": "National Park Service",
@@ -2945,7 +2729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 52
     },
     {
      "name": "US Space Command",
@@ -2997,7 +2781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 53
     },
     {
      "name": "HealthData.gov",
@@ -3049,7 +2833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 54
     },
     {
      "name": "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)",
@@ -3101,7 +2885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 55
     },
     {
      "name": "Food and Drug Administration",
@@ -3153,7 +2937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 56
     },
     {
      "name": "Commodity Futures Trading Commission",
@@ -3205,7 +2989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 57
     },
     {
      "name": "USDA Agricultural Research Service (ARS)",
@@ -3257,7 +3041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 58
     },
     {
      "name": "US Senate",
@@ -3309,7 +3093,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 59
+    },
+    {
+     "name": "Department of State",
+     "slug": "department-of-state",
+     "url": "https://providers.apis.io/providers/department-of-state/",
+     "type": "API Provider",
+     "description": "The U.S. Department of State leads U.S. foreign policy, conducts diplomacy with foreign governments, issues U.S. passports and visas, supports U.S. citizens abroad, and publishes country-specific information and travel advisories. It operates no unified developer portal and issues no API keys, but it does serve several real, anonymous, machine-readable surfaces: the state.gov Content API at https://www.state.gov/wp-json, where 473 WordPress REST routes expose press releases, briefings, reports, biographies, bureaus and country and policy content as structured JSON with no credential; the Office of the Historian Ebook Catalog API, an OPDS Catalog 1.1 feed of the Foreign Relations of the United States series and the only surface the Department documents on a developer page of its own; a DCAT-US 3.0 open data catalog of 397 datasets at https://www.state.gov/data.json; and the Travel Advisories RSS feed. Discovery is the weak point rather than supply — none of the nine State hosts probed serves any /.well-known/ document, three of the four State APIs listed in the federal inventory have been retired without notice, and travel.state.gov and the Bureau of Consular Affairs data catalog refuse non-browser clients outright.",
+     "score": 32.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 55.6,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 13.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
     },
     {
      "name": "Export-Import Bank of the United States",
@@ -3361,7 +3196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 61
     },
     {
      "name": "National Agricultural Library",
@@ -3413,7 +3248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 62
     },
     {
      "name": "Federal Highway Administration",
@@ -3465,7 +3300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 63
     },
     {
      "name": "FCC (Federal Communications Commission)",
@@ -3517,7 +3352,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 64
+    },
+    {
+     "name": "Federal Mediation and Conciliation Service",
+     "slug": "federal-mediation-and-conciliation-service",
+     "url": "https://providers.apis.io/providers/federal-mediation-and-conciliation-service/",
+     "type": "API Provider",
+     "description": "The Federal Mediation and Conciliation Service (FMCS) is an independent United States federal agency created by the Taft-Hartley Act of 1947 to prevent, minimize and resolve work stoppages and labor disputes. It provides collective bargaining mediation, grievance and workplace mediation, arbitrator panel referral, facilitation, dispute-resolution systems design, regulatory negotiations and labor- management partnership services across seventeen published service lines. FMCS also administers the statutory F-7 notice under 29 U.S.C. 158(d) and publishes those notices monthly as Excel workbooks. FMCS publishes no developer programme and no specification of its own; its public website runs on WordPress and serves an anonymous, read-only REST API at https://www.fmcs.gov/wp-json over the agency's pages, document library, neutrals directory, training events and service taxonomy, which is catalogued here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/screenshots/federal-mediation-and-conciliation-service-2026-06-20T181124.png",
+     "score": 31.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 65
     },
     {
      "name": "US Patent and Trademark Office",
@@ -3569,7 +3456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Federal Student Aid",
@@ -3621,7 +3508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "US Army Corps of Engineers",
@@ -3673,7 +3560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "National Credit Union Administration (NCUA)",
@@ -3725,7 +3612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "SAM.gov",
@@ -3777,7 +3664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Department of Transportation",
@@ -3829,7 +3716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "Recreation.gov",
@@ -3881,7 +3768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Department of the Treasury",
@@ -3933,7 +3820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "Bureau of International Labor Affairs",
@@ -3985,7 +3872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Administrative Office of the U.S. Courts",
@@ -4037,7 +3924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Energy Information Administration",
@@ -4089,7 +3976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 76
     },
     {
      "name": "United States Fire Administration",
@@ -4141,7 +4028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 77
     },
     {
      "name": "Bureau of Ocean Energy Management",
@@ -4193,7 +4080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 78
     },
     {
      "name": "National Weather Service",
@@ -4245,7 +4132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 79
     },
     {
      "name": "US Department of Commerce",
@@ -4297,7 +4184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 80
     },
     {
      "name": "Agency for Toxic Substances and Disease Registry",
@@ -4349,7 +4236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "Bureau of Safety and Environmental Enforcement",
@@ -4401,7 +4288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "Administration for Community Living (ACL)",
@@ -4453,7 +4340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "United States Coast Guard",
@@ -4505,7 +4392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "Social Security Administration",
@@ -4557,7 +4444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "Administrative Conference of the United States",
@@ -4608,7 +4495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "National Renewable Energy Laboratory",
@@ -4659,7 +4546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
     },
     {
      "name": "Freedom of Information Act",
@@ -4711,7 +4598,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "OpenFEC",
@@ -4763,7 +4650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Alcohol and Tobacco Tax and Trade Bureau",
@@ -4815,7 +4702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "National Archives and Records Administration",
@@ -4867,7 +4754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "National Archives and Records Administration (NARA)",
@@ -4919,7 +4806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "National Library of Medicine",
@@ -4971,7 +4858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 93
     },
     {
      "name": "Zero-Trust Security Model",
@@ -5023,7 +4910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 94
     },
     {
      "name": "Appalachian Regional Commission",
@@ -5075,7 +4962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 95
     },
     {
      "name": "Federal Reserve",
@@ -5127,7 +5014,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 96
     },
     {
      "name": "US Court of Appeals for the Federal Circuit",
@@ -5179,7 +5066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 97
     },
     {
      "name": "US Department of Defense",
@@ -5231,7 +5118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Federal Motor Carrier Safety Administration",
@@ -5283,7 +5170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 99
     }
    ]
   },
@@ -5292,7 +5179,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 80,
+   "count": 79,
    "providers": [
     {
      "name": "US Army",
@@ -5344,7 +5231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "Consumer Product Safety Commission",
@@ -5396,59 +5283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
-    },
-    {
-     "name": "Federal Mediation and Conciliation Service",
-     "slug": "federal-mediation-and-conciliation-service",
-     "url": "https://providers.apis.io/providers/federal-mediation-and-conciliation-service/",
-     "type": "API Provider",
-     "description": "The Federal Mediation and Conciliation Service (FMCS) is an independent United States federal agency created by the Taft-Hartley Act of 1947 to prevent, minimize and resolve work stoppages and labor disputes. It provides collective bargaining mediation, grievance and workplace mediation, arbitrator panel referral, facilitation, dispute-resolution systems design, regulatory negotiations and labor- management partnership services across seventeen published service lines. FMCS also administers the statutory F-7 notice under 29 U.S.C. 158(d) and publishes those notices monthly as Excel workbooks. FMCS publishes no developer programme and no specification of its own; its public website runs on WordPress and serves an anonymous, read-only REST API at https://www.fmcs.gov/wp-json over the agency's pages, document library, neutrals directory, training events and service taxonomy, which is catalogued here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/screenshots/federal-mediation-and-conciliation-service-2026-06-20T181124.png",
-     "score": 25.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 104
+     "rank": 101
     },
     {
      "name": "National Institutes of Health",
@@ -5500,7 +5335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 102
     },
     {
      "name": "Defense Contract Audit Agency",
@@ -5552,7 +5387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 103
     },
     {
      "name": "US African Development Foundation",
@@ -5604,7 +5439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 104
     },
     {
      "name": "IRS",
@@ -5656,7 +5491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 105
     },
     {
      "name": "National Oceanic and Atmospheric Administration",
@@ -5708,7 +5543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 106
     },
     {
      "name": "Natural Resources Conservation Service",
@@ -5760,7 +5595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 107
     },
     {
      "name": "Fair Housing and Equal Opportunity",
@@ -5812,7 +5647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 108
     },
     {
      "name": "National Institute of Standards and Technology",
@@ -5864,7 +5699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 109
     },
     {
      "name": "US Cyber Command",
@@ -5916,7 +5751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 110
     },
     {
      "name": "Farm Credit Administration",
@@ -5968,7 +5803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 111
     },
     {
      "name": "US Copyright Office",
@@ -6020,7 +5855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 112
     },
     {
      "name": "Public Sector",
@@ -6072,7 +5907,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 113
+    },
+    {
+     "name": "Federal Accounting Standards Advisory Board",
+     "slug": "federal-accounting-standards-advisory-board",
+     "url": "https://providers.apis.io/providers/federal-accounting-standards-advisory-board/",
+     "type": "API Provider",
+     "description": "The Federal Accounting Standards Advisory Board (FASAB) is the U.S. federal advisory body designated to set generally accepted accounting principles for the federal government and its component reporting entities. FASAB issues Statements of Federal Financial Accounting Standards (SFFAS), technical releases, interpretations and staff implementation guidance, consolidates them into the FASAB Handbook, and runs the public due-process cycle of board and ASIC meetings, active projects and exposure drafts open for comment. FASAB publishes no developer program or specification, but fasab.gov runs on WordPress and serves the WordPress REST API anonymously at https://fasab.gov/wp-json/ — a read-only surface over 402 pages, 214 media records, the site taxonomies and search, whose OpenAPI here was derived from that live route index. The authoritative pronouncements remain PDFs on files.fasab.gov.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/screenshots/federal-accounting-standards-advisory-board-2026-06-20T181109.png",
+     "score": 23.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 33.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
     },
     {
      "name": "National Science Foundation",
@@ -6124,7 +6011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 115
     },
     {
      "name": "National Council on Disability",
@@ -6176,7 +6063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 116
     },
     {
      "name": "National Interagency Fire Center",
@@ -6228,7 +6115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 117
     },
     {
      "name": "Chief Financial Officers Council",
@@ -6280,7 +6167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 118
     },
     {
      "name": "National Highway Traffic Safety Administration",
@@ -6332,7 +6219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 119
     },
     {
      "name": "National Geospatial-Intelligence Agency",
@@ -6384,7 +6271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 120
     },
     {
      "name": "US AbilityOne Commission",
@@ -6436,7 +6323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 121
     },
     {
      "name": "Air Force Reserve",
@@ -6488,7 +6375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 122
     },
     {
      "name": "Defense Health Agency",
@@ -6540,7 +6427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 123
     },
     {
      "name": "Federal Bureau of Investigation",
@@ -6592,7 +6479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 124
     },
     {
      "name": "US Air Force",
@@ -6644,7 +6531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 125
     },
     {
      "name": "Economic Development Administration",
@@ -6696,7 +6583,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 126
     },
     {
      "name": "Bureau of Reclamation",
@@ -6748,7 +6635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 127
     },
     {
      "name": "US Commission on Civil Rights",
@@ -6800,7 +6687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 128
     },
     {
      "name": "Customs and Border Protection",
@@ -6852,7 +6739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 129
     },
     {
      "name": "Food Safety and Inspection Service",
@@ -6904,7 +6791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 130
     },
     {
      "name": "U.S. Access Board",
@@ -6956,7 +6843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 131
     },
     {
      "name": "Federal Emergency Management Agency",
@@ -7007,7 +6894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 132
     },
     {
      "name": "Data.gov",
@@ -7059,7 +6946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 133
     },
     {
      "name": "Office of the Comptroller of the Currency (OCC)",
@@ -7111,7 +6998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 134
     },
     {
      "name": "US Commission on International Religious Freedom",
@@ -7163,7 +7050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 135
     },
     {
      "name": "Interpol",
@@ -7215,7 +7102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 136
     },
     {
      "name": "U.S. Agency for Global Media",
@@ -7267,7 +7154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 137
     },
     {
      "name": "Bureau of Justice Statistics",
@@ -7319,7 +7206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 138
     },
     {
      "name": "Nisos",
@@ -7371,7 +7258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 139
     },
     {
      "name": "US Arctic Research Commission",
@@ -7423,7 +7310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 140
     },
     {
      "name": "Army National Guard",
@@ -7475,7 +7362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 141
     },
     {
      "name": "Office of the Federal Register",
@@ -7527,7 +7414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 142
     },
     {
      "name": "Federal Deposit Insurance Corporation",
@@ -7579,7 +7466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 143
     },
     {
      "name": "Director of National Intelligence",
@@ -7631,7 +7518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 144
     },
     {
      "name": "Federal Railroad Administration",
@@ -7683,7 +7570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 145
     },
     {
      "name": "Congressional Budget Office",
@@ -7735,111 +7622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
-    },
-    {
-     "name": "Center for Parent Information and Resources",
-     "slug": "center-for-parent-information-and-resources",
-     "url": "https://providers.apis.io/providers/center-for-parent-information-and-resources/",
-     "type": "API Provider",
-     "description": "The Center for Parent Information and Resources (CPIR) is the federally funded central hub of information and products for the national network of Parent Training and Information Centers (PTIs) and Community Parent Resource Centers (CPRCs). An OSEP-funded project operated by the SPAN Parent Advocacy Network, CPIR supports families and youth with a focus on children with disabilities, delivering resources through the Parent Center Hub website, the Buzz from the Hub newsletter, webinars, glossaries and an events calendar. CPIR runs no developer program and publishes no API documentation, but its own host serves a real anonymous read-only JSON API: the WordPress REST API at parentcenterhub.org/wp-json exposed 34 namespaces and 717 routes on 2026-09-05, including the Connections directory namespace cn-api/v1 that carries the national Parent Center directory (784+ geocoded centers across 55 state and territory terms), plus ISO 3166-1 country reference data, US state geography and GeoJSON, an oEmbed 1.0 provider endpoint, and schema.org structured data. The WordPress content collections (posts, pages, media, users, search) are closed to anonymous callers and return 401 rest_forbidden; article content is available through the site RSS feed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/screenshots/center-for-parent-information-and-resources-2026-06-20T174123.png",
-     "score": 16.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 5.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 149
-    },
-    {
-     "name": "Federal Accounting Standards Advisory Board",
-     "slug": "federal-accounting-standards-advisory-board",
-     "url": "https://providers.apis.io/providers/federal-accounting-standards-advisory-board/",
-     "type": "API Provider",
-     "description": "The Federal Accounting Standards Advisory Board (FASAB) is the U.S. federal advisory body designated to set generally accepted accounting principles for the federal government and its component reporting entities. FASAB issues Statements of Federal Financial Accounting Standards (SFFAS), technical releases, interpretations and staff implementation guidance, consolidates them into the FASAB Handbook, and runs the public due-process cycle of board and ASIC meetings, active projects and exposure drafts open for comment. FASAB publishes no developer program or specification, but fasab.gov runs on WordPress and serves the WordPress REST API anonymously at https://fasab.gov/wp-json/ — a read-only surface over 402 pages, 214 media records, the site taxonomies and search, whose OpenAPI here was derived from that live route index. The authoritative pronouncements remain PDFs on files.fasab.gov.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/screenshots/federal-accounting-standards-advisory-board-2026-06-20T181109.png",
-     "score": 16.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 150
+     "rank": 146
     },
     {
      "name": "Health Resources and Services Administration",
@@ -7891,7 +7674,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 147
+    },
+    {
+     "name": "Center for Parent Information and Resources",
+     "slug": "center-for-parent-information-and-resources",
+     "url": "https://providers.apis.io/providers/center-for-parent-information-and-resources/",
+     "type": "API Provider",
+     "description": "The Center for Parent Information and Resources (CPIR) is the federally funded central hub of information and products for the national network of Parent Training and Information Centers (PTIs) and Community Parent Resource Centers (CPRCs). An OSEP-funded project operated by the SPAN Parent Advocacy Network, CPIR supports families and youth with a focus on children with disabilities, delivering resources through the Parent Center Hub website, the Buzz from the Hub newsletter, webinars, glossaries and an events calendar. CPIR runs no developer program and publishes no API documentation, but its own host serves a real anonymous read-only JSON API: the WordPress REST API at parentcenterhub.org/wp-json exposed 34 namespaces and 717 routes on 2026-09-05, including the Connections directory namespace cn-api/v1 that carries the national Parent Center directory (784+ geocoded centers across 55 state and territory terms), plus ISO 3166-1 country reference data, US state geography and GeoJSON, an oEmbed 1.0 provider endpoint, and schema.org structured data. The WordPress content collections (posts, pages, media, users, search) are closed to anonymous callers and return 401 rest_forbidden; article content is available through the site RSS feed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/screenshots/center-for-parent-information-and-resources-2026-06-20T174123.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 148
     },
     {
      "name": "Chief Human Capital Officers Council",
@@ -7943,7 +7778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 149
     },
     {
      "name": "Data.gov Inventory",
@@ -7995,7 +7830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 150
     },
     {
      "name": "DOE NETL Energy Data Exchange",
@@ -8047,7 +7882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 151
     },
     {
      "name": "Medicaid Open Data",
@@ -8099,7 +7934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 152
     },
     {
      "name": "NASA Open Data",
@@ -8151,7 +7986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 153
     },
     {
      "name": "US Chemical Safety and Hazard Investigation Board",
@@ -8203,7 +8038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 154
     },
     {
      "name": "US Small Business Administration Open Data",
@@ -8255,7 +8090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 155
     },
     {
      "name": "Administration for Native Americans (ANA)",
@@ -8307,7 +8142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 156
     },
     {
      "name": "Defense Intelligence Agency",
@@ -8359,7 +8194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 157
     },
     {
      "name": "Defense Logistics Agency",
@@ -8411,7 +8246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 158
     },
     {
      "name": "Defense Security Cooperation Agency",
@@ -8463,7 +8298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 159
     },
     {
      "name": "Defense Threat Reduction Agency",
@@ -8515,7 +8350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 160
     },
     {
      "name": "Bureau of Engraving and Printing",
@@ -8567,7 +8402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 161
     },
     {
      "name": "Defense Nuclear Facilities Safety Board",
@@ -8619,7 +8454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 162
     },
     {
      "name": "US Capitol Visitor Center",
@@ -8671,7 +8506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 163
     },
     {
      "name": "US Central Command",
@@ -8723,7 +8558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 164
     },
     {
      "name": "Committee on Foreign Investment in the United States",
@@ -8775,7 +8610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 165
     },
     {
      "name": "Bureau of Indian Affairs",
@@ -8827,7 +8662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 166
     },
     {
      "name": "Chief Acquisition Officers Council",
@@ -8879,7 +8714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 167
     },
     {
      "name": "International Trade Commission",
@@ -8931,7 +8766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 168
     },
     {
      "name": "Defense Technical Information Center",
@@ -8982,7 +8817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 169
     },
     {
      "name": "Government Accountability Office",
@@ -9034,7 +8869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 170
     },
     {
      "name": "Equal Employment Opportunity Commission",
@@ -9086,7 +8921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 171
     },
     {
      "name": "Federal Mine Safety and Health Review Commission",
@@ -9138,7 +8973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 172
     },
     {
      "name": "Foreign Claims Settlement Commission",
@@ -9190,7 +9025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 173
     },
     {
      "name": "Chief Information Officers Council",
@@ -9242,7 +9077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 174
     },
     {
      "name": "Internal Revenue Service",
@@ -9294,7 +9129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 175
     },
     {
      "name": "National Labor Relations Board",
@@ -9346,7 +9181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 176
     },
     {
      "name": "National Technical Information Service",
@@ -9398,7 +9233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 177
     },
     {
      "name": "Marine Mammal Commission",
@@ -9450,7 +9285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 178
     }
    ]
   },
@@ -9511,7 +9346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 179
     },
     {
      "name": "U.S. Fish and Wildlife Service",
@@ -9563,7 +9398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 180
     },
     {
      "name": "Federal Labor Relations Authority",
@@ -9615,7 +9450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 181
     },
     {
      "name": "National Endowment for the Humanities",
@@ -9667,7 +9502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 182
     },
     {
      "name": "International Development Finance Corporation",
@@ -9719,58 +9554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
-    },
-    {
-     "name": "Institute of Museum and Library Services",
-     "slug": "institute-of-museum-and-library-services",
-     "url": "https://providers.apis.io/providers/institute-of-museum-and-library-services/",
-     "type": "API Provider",
-     "description": "The Institute of Museum and Library Services (IMLS) is an independent federal agency that advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development. IMLS provides data access to grant and museum information through its APIs.",
-     "score": 10.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 187
+     "rank": 183
     },
     {
      "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
@@ -9822,7 +9606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 184
     },
     {
      "name": "Commission of Fine Arts",
@@ -9874,7 +9658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 185
     },
     {
      "name": "National Transportation Safety Board",
@@ -9926,7 +9710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 186
     },
     {
      "name": "Central Intelligence Agency",
@@ -9978,7 +9762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 187
     },
     {
      "name": "Science Applications International Corporation (SAIC)",
@@ -10030,7 +9814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 188
     },
     {
      "name": "American Battle Monuments Commission",
@@ -10082,7 +9866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 189
     },
     {
      "name": "Drug Enforcement Administration",
@@ -10134,7 +9918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 190
     },
     {
      "name": "Farm Service Agency",
@@ -10186,7 +9970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 191
     },
     {
      "name": "National Invasive Species Information Center",
@@ -10238,7 +10022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 192
     },
     {
      "name": "National Pesticide Information Center",
@@ -10290,7 +10074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 193
     },
     {
      "name": "Office of Child Support Services",
@@ -10342,7 +10126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 194
     },
     {
      "name": "Office of Community Oriented Policing Services",
@@ -10394,7 +10178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 195
     },
     {
      "name": "Office of Congressional Workplace Rights",
@@ -10446,7 +10230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 196
     },
     {
      "name": "Office of Fossil Energy and Carbon Management",
@@ -10498,7 +10282,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 197
+    },
+    {
+     "name": "Institute of Museum and Library Services",
+     "slug": "institute-of-museum-and-library-services",
+     "url": "https://providers.apis.io/providers/institute-of-museum-and-library-services/",
+     "type": "API Provider",
+     "description": "The Institute of Museum and Library Services (IMLS) is an independent federal agency that advances, supports, and empowers America's museums, libraries, and related organizations through grantmaking, research, and policy development. IMLS provides data access to grant and museum information through its APIs.",
+     "score": 9.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 198
     },
     {
      "name": "Merit Systems Protection Board",
@@ -10550,7 +10385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 199
     },
     {
      "name": "Carahsoft",
@@ -10602,7 +10437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 200
     },
     {
      "name": "United States Botanic Garden",
@@ -10654,7 +10489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 201
     },
     {
      "name": "Delta Regional Authority",
@@ -10706,7 +10541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 202
     },
     {
      "name": "Irish Agriculture Open Data",
@@ -10758,7 +10593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 203
     },
     {
      "name": "Irish Housing Open Data",
@@ -10810,7 +10645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 204
     },
     {
      "name": "U.S. Immigration and Customs Enforcement (ICE)",
@@ -10862,7 +10697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 205
     },
     {
      "name": "United States Africa Command",
@@ -10914,7 +10749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 206
     },
     {
      "name": "United States Capitol Police",
@@ -10966,7 +10801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 207
     },
     {
      "name": "United States European Command",
@@ -11018,7 +10853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 208
     },
     {
      "name": "Defense Information System for Security",
@@ -11070,7 +10905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 209
     },
     {
      "name": "Federal Bureau of Prisons",
@@ -11122,7 +10957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 210
     },
     {
      "name": "Council on Environmental Quality",
@@ -11174,7 +11009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 211
     },
     {
      "name": "DOT Regulations",
@@ -11226,7 +11061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 212
     },
     {
      "name": "Defense Contract Management Agency",
@@ -11278,7 +11113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 213
     },
     {
      "name": "National Gallery of Art",
@@ -11330,7 +11165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 214
     },
     {
      "name": "Defense Finance and Accounting Service",
@@ -11382,7 +11217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 215
     },
     {
      "name": "National Cemetery Administration",
@@ -11434,7 +11269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 216
     },
     {
      "name": "National Institute of Food and Agriculture",
@@ -11486,7 +11321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 217
     },
     {
      "name": "National Institute of Mental Health",
@@ -11538,7 +11373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 218
     },
     {
      "name": "Joint Fire Science Program",
@@ -11590,7 +11425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 219
     },
     {
      "name": "Federal Committee on Statistical Methodology",
@@ -11641,7 +11476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 220
     },
     {
      "name": "Mississippi River Commission",
@@ -11693,7 +11528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 221
     },
     {
      "name": "National Indian Gaming Commission",
@@ -11745,7 +11580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 222
     },
     {
      "name": "National Security Agency",
@@ -11797,7 +11632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 223
     },
     {
      "name": "Federal Protective Service",
@@ -11849,7 +11684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 224
     },
     {
      "name": "Federal Maritime Commission",
@@ -11901,7 +11736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 225
     },
     {
      "name": "National Capital Planning Commission",
@@ -11953,7 +11788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 226
     },
     {
      "name": "National Endowment for the Arts",
@@ -12005,7 +11840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 227
     },
     {
      "name": "Navy",
@@ -12057,7 +11892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 228
     },
     {
      "name": "National Institute of Corrections",
@@ -12109,7 +11944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 229
     },
     {
      "name": "Office of Government Ethics",
@@ -12161,7 +11996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 230
     },
     {
      "name": "Office of Inspector General",
@@ -12213,7 +12048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 231
     },
     {
      "name": "National Telecommunications and Information Administration",
@@ -12265,7 +12100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 232
     },
     {
      "name": "National Laboratories",
@@ -12317,7 +12152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 233
     },
     {
      "name": "Office of Career, Technical, and Adult Education",
@@ -12368,7 +12203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 234
     },
     {
      "name": "Office of the Comptroller of the Currency",
@@ -12420,7 +12255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 235
     },
     {
      "name": "Mine Health and Safety Administration",
@@ -12472,7 +12307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 236
     }
    ]
   }

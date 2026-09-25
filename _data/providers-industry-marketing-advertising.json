@@ -1,5 +1,5 @@
 {
- "total": 1584,
+ "total": 1585,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -8,20 +8,20 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 110,
-   "shown": 110,
+   "count": 111,
+   "shown": 111,
    "providers": [
     {
      "name": "Salesforce",
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 89.3,
+     "score": 89.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 77.6,
+      "contract_quality": 77.9,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
       "developer_ergonomics": 94.6,
@@ -29,7 +29,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 49.6,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
@@ -122,15 +122,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -5071,7 +5071,50 @@
      "rank": 107
     },
     {
-     "name": "Lucidya Ltd",
+     "name": "Khoros",
+     "slug": "khoros-ai",
+     "description": "Khoros is the enterprise online-community and social-customer-engagement platform formed when Lithium Technologies merged with Spredfast in 2018; the combined company rebranded as Khoros in 2019 and is today operated by IgniteTech. This record was listed as Lithium until 2026-09-24, and it also carries the Spredfast product line (Khoros Marketing). The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
+     "score": 66.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 62.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 40.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Lucidya",
      "slug": "lucidya-ltd",
      "description": "Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png",
@@ -5111,7 +5154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "SimilarWeb",
@@ -5154,7 +5197,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Showpad",
@@ -5197,7 +5240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     }
    ],
    "open": true
@@ -5207,8 +5250,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 213,
-   "shown": 213,
+   "count": 212,
+   "shown": 212,
    "providers": [
     {
      "name": "AskNicely",
@@ -5265,7 +5308,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Clix",
@@ -5307,7 +5350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Adobe Experience Cloud",
@@ -5350,7 +5393,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "FLORA",
@@ -5393,7 +5436,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Hightouch",
@@ -5436,7 +5479,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "ValueSERP",
@@ -5479,7 +5522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Adobe Analytics",
@@ -5522,7 +5565,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
+    },
+    {
+     "name": "AppsFlyer",
+     "slug": "appsflyer",
+     "description": "AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Roku, Tizen, webOS) and a large REST API estate published on the AppsFlyer developer hub: Pull APIs for raw and aggregate report export, the Master and Cohort reporting APIs, server-to-server and client-to-server event ingestion APIs, the OneLink deep-linking API, audience import/activation APIs, SKAdNetwork conversion-value and postback APIs, app and user management APIs, the Protect360 click-signing anti-fraud API, the ROI360 net-revenue API, and an OpenDSR privacy-request API. AppsFlyer also runs a Push API webhook surface for real-time postbacks and a hosted Model Context Protocol (MCP) server for agent access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png",
+     "score": 65.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 61.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 47.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 119
     },
     {
      "name": "BlueConic",
@@ -5565,7 +5651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Dolby",
@@ -5608,7 +5694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "Explorium",
@@ -5651,7 +5737,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "Moosend",
@@ -5701,7 +5787,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "Scope3",
@@ -5744,7 +5830,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Facebook Business Manager",
@@ -5787,7 +5873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "ZeroBounce",
@@ -5830,7 +5916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "DataForSEO",
@@ -5873,7 +5959,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Walnut",
@@ -5916,7 +6002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Postscript",
@@ -5973,7 +6059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Unbounce",
@@ -6016,7 +6102,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "CreatorIQ",
@@ -6077,7 +6163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "Google Campaign Manager",
@@ -6120,7 +6206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "Infusionsoft (Keap)",
@@ -6163,7 +6249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "LastDatabase",
@@ -6205,7 +6291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 134
     },
     {
      "name": "Seamless.AI",
@@ -6248,7 +6334,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 135
     },
     {
      "name": "GoToWebinar",
@@ -6291,7 +6377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 136
     },
     {
      "name": "Snov.io",
@@ -6334,7 +6420,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 137
     },
     {
      "name": "Northbeam",
@@ -6377,7 +6463,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 138
     },
     {
      "name": "parcelLab",
@@ -6420,7 +6506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "Antavo",
@@ -6463,7 +6549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 140
     },
     {
      "name": "Olo",
@@ -6513,7 +6599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "Profound",
@@ -6556,7 +6642,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "Affise",
@@ -6599,7 +6685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "Qualified",
@@ -6642,7 +6728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "Genesys",
@@ -6707,7 +6793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 145
     },
     {
      "name": "Common Room",
@@ -6750,7 +6836,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 146
     },
     {
      "name": "Koala",
@@ -6793,7 +6879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "MediaMath",
@@ -6836,7 +6922,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 148
     },
     {
      "name": "123FormBuilder",
@@ -6886,7 +6972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 149
     },
     {
      "name": "Encharge",
@@ -6929,7 +7015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 150
     },
     {
      "name": "CleverTap",
@@ -6972,7 +7058,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 151
     },
     {
      "name": "Snapchat",
@@ -7015,7 +7101,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 152
     },
     {
      "name": "Beeketing",
@@ -7065,7 +7151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 153
     },
     {
      "name": "Dun & Bradstreet",
@@ -7108,7 +7194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 154
     },
     {
      "name": "Mailmodo",
@@ -7151,7 +7237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 155
     },
     {
      "name": "Postiz",
@@ -7194,7 +7280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 156
     },
     {
      "name": "Simon Data",
@@ -7237,7 +7323,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 157
     },
     {
      "name": "Vessel",
@@ -7280,7 +7366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 158
     },
     {
      "name": "Seismic",
@@ -7323,7 +7409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 159
     },
     {
      "name": "Extole",
@@ -7366,7 +7452,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 160
     },
     {
      "name": "Apollo.io",
@@ -7409,7 +7495,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 161
     },
     {
      "name": "Goody",
@@ -7459,7 +7545,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "Demandbase",
@@ -7502,7 +7588,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Semrush",
@@ -7545,7 +7631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 164
     },
     {
      "name": "Fundz",
@@ -7595,7 +7681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 165
     },
     {
      "name": "Google Tag Manager",
@@ -7638,7 +7724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 166
     },
     {
      "name": "Silverpop",
@@ -7688,7 +7774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 167
     },
     {
      "name": "Buffer",
@@ -7731,7 +7817,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 168
     },
     {
      "name": "Chili Piper",
@@ -7774,50 +7860,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 167
-    },
-    {
-     "name": "Dolby.io",
-     "slug": "dolby-io",
-     "description": "Dolby.io (now branded as Dolby OptiView) is Dolby Laboratories' developer platform for media, streaming, communications, and advertising APIs. Originally launched as a hub for Dolby's audio and video processing services (Media APIs, Communications APIs), the platform has consolidated around three OptiView pillars — Real-time Streaming (formerly Millicast), Live Streaming (formerly THEOlive), and Playback (formerly THEOplayer) — with an Advertising pillar built on Server-Guided Ad Insertion. The platform powers live sports streaming for the NFL, NASCAR, Paddy Power, and other large broadcasters, with sub-500ms WebRTC delivery, multi-format ingest (WHIP/WHEP, SRT, RTMP), and cross-platform playback SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png",
-     "score": 63.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 64.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Stack Moxie",
@@ -7860,7 +7903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Singular",
@@ -7903,7 +7946,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Amazon Clean Rooms",
@@ -7946,7 +7989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Benchmark Email",
@@ -7989,7 +8032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "SugarCRM",
@@ -8032,7 +8075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Dotdigital",
@@ -8089,7 +8132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Erxes",
@@ -8132,7 +8175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "MOLOCO",
@@ -8175,7 +8218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Storylane",
@@ -8218,7 +8261,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Census",
@@ -8261,7 +8304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Improvado",
@@ -8304,7 +8347,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Yoast",
@@ -8347,7 +8390,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Sendlane",
@@ -8390,7 +8433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Google Indexing",
@@ -8433,7 +8476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "FirstPromoter",
@@ -8476,7 +8519,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Inflection.io",
@@ -8519,7 +8562,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Ahrefs",
@@ -8562,7 +8605,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Flint",
@@ -8605,7 +8648,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "GetAccept",
@@ -8648,7 +8691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Levitate",
@@ -8698,7 +8741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Newscred",
@@ -8741,7 +8784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "StackAdapt",
@@ -8784,7 +8827,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Syllable",
@@ -8834,7 +8877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Cordial",
@@ -8895,7 +8938,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Reputation",
@@ -8938,7 +8981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Exclaimer",
@@ -8981,7 +9024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Total Expert",
@@ -9031,7 +9074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Unifonic",
@@ -9081,7 +9124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "SerpWow",
@@ -9124,7 +9167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Dyspatch",
@@ -9174,7 +9217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Kartra",
@@ -9231,7 +9274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Bazaarvoice",
@@ -9274,7 +9317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "EmailOctopus",
@@ -9324,10 +9367,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
-     "name": "א. ט. הפקות בע״מ / A.T. Hafakot Ltd.",
+     "name": "makeup.land",
      "slug": "makeup-land",
      "description": "makeup.land, operated by א. ט. הפקות בע״מ / A.T. Hafakot Ltd. (company no. 513942789, Zikhron Yaakov and Haifa, Israel), is a Hebrew-first professional cosmetics retailer carrying ~1,550 products from 34+ brands, with ℳ-credit loyalty wallet, M Club tiers, gift cards and a virtual try-on. It publishes a 21-operation OpenAPI 3.1 contract at makeup.land/openapi.json — product search with CIE ΔE 2000 shade matching and cross-lingual semantic search, customers and wallet, carts, orders, gift cards, payment links, partner registration and catalog proposals — every write idempotent via Idempotency-Key, bearer tokens issued by email with four scopes. Alongside it: a live remote MCP server at makeup.land/api/mcp (8 read-only tools, anonymous tools/list, Official MCP Registry land.makeup/v1), RFC 8414 and RFC 9728 OAuth metadata with a WorkOS-style auth.md, an A2A-shaped agent card, an ai-manifest and UCP merchant profile, llms.txt with markdown twins, and Google Merchant and OpenAI ACP product feeds.",
      "score": 61.0,
@@ -9373,7 +9416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Playable",
@@ -9416,7 +9459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Lengow",
@@ -9455,49 +9498,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 204
-    },
-    {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -10959,7 +10959,7 @@
      "rank": 238
     },
     {
-     "name": "CONNSKILL GmbH & Co. KG",
+     "name": "CONNSKILL",
      "slug": "connskill-com",
      "description": "CONNSKILL GmbH & Co. KG is a web design, branding and marketing agency in Traunstein, Germany (HRA 14164, Amtsgericht Traunstein) that also builds and operates CONNSKILL Growth Services at agent.connskill.com — a pay-per-call marketplace for AI agents. It sells Google SERP and keyword research data, site audits, backlinks and competitor intelligence, SMS verification numbers and US number rentals, receive-only e-mail inboxes, social marketing orders, OpenAI-compatible LLM chat and embeddings hosted in Germany, x402 seller trust checks, leak exposure and domain security grades, read-only EVM chain data and cookieless website analytics, plus a free marketplace layer (wishlist, job board, curated x402 directory, published conformance reports). Every call is priced individually and paid in USDC on Base via x402 with no account or API key. The surface is published as OpenAPI 3.1, an A2A agent card, a hosted MCP endpoint and an npm MCP server, llms.txt, ai-plugin.json and an x402 discovery document.",
      "score": 58.9,
@@ -16987,56 +16987,6 @@
      "rank": 372
     },
     {
-     "name": "Amazon",
-     "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 52.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.2,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 46.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 373
-    },
-    {
      "name": "Emotive",
      "slug": "emotive",
      "description": "Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, RealLink branded short links, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a \"5X ROI guarantee\" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and was acquired by Privy. Emotive runs a real, publicly documented developer surface: an Open API for order tracking, manual opt-outs and custom events on api.emotiveapp.co; a Lists / Subscriber API documented in GitBook; and an API gateway at api-gw.emotiveapp.co that serves five OpenAPI 3.0.2 documents (Helpdesk, Sensus Webhooks, Auth Server, Segments, Experiences). Its Mintlify knowledge base publishes an llms.txt, an A2A agent card, a packaged Agent Skill and an anonymous remote MCP server.",
@@ -17084,7 +17034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Kissmetrics",
@@ -17124,6 +17074,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 374
+    },
+    {
+     "name": "Amazon",
+     "slug": "amazon",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 73.0,
+      "contract_governance": 33.3,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 46.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -20478,6 +20478,49 @@
      "rank": 450
     },
     {
+     "name": "Emplifi",
+     "slug": "emplifi-io",
+     "description": "Emplifi (formerly Socialbakers) is a unified social customer experience platform combining social marketing, commerce and care. Socialbakers was a pioneering social media analytics and marketing platform, founded 2008 in Prague, that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat; it joined Astute and rebranded as Emplifi in 2021 (socialbakers.com now redirects to emplifi.io). This record was listed as Socialbakers until 2026-09-24. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
+     "score": 48.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 13.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 451
+    },
+    {
      "name": "Seam AI",
      "slug": "seam-ai",
      "description": "Seam AI (legal entity Talkmore Inc.) is an AI-native account-based marketing (ABM) platform that uses AI agents to score accounts against an ICP, monitor first- and third-party buying signals, prospect and enrich contacts, and execute multi-channel outbound plays into Salesforce, HubSpot, Outreach, Salesloft, Marketo, LinkedIn Ads and the customer data warehouse. Backed by Bessemer Venture Partners, the company has been acquired and is merging its product into Clarify as \"Clarify Signals\"; the getseam.ai marketing site now serves an acquisition notice. The developer surface remains live at docs.getseam.ai, which publishes an OpenAPI 3.1.0 contract for the Seam AI Enrichment API, an llms.txt index, an anonymous Model Context Protocol server, an A2A agent card, and a provider-authored Agent Skill. The API host named in that spec (enricher.getseam.ai) no longer resolves in DNS.",
@@ -20518,7 +20561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "Clozd",
@@ -20561,7 +20604,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "Mindtickle",
@@ -20611,7 +20654,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "Revnu",
@@ -20654,7 +20697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "WoowUp",
@@ -20697,7 +20740,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "Tavus",
@@ -20740,7 +20783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "AdRoll",
@@ -20783,7 +20826,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "AMC Entertainment Holdings",
@@ -20826,7 +20869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "Datorama",
@@ -20869,7 +20912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "Episerver",
@@ -20912,7 +20955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "Sprinklr",
@@ -20955,7 +20998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "PowerReviews",
@@ -20998,7 +21041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "Akkio",
@@ -21041,7 +21084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "Alliance Data Systems (Bread Financial Holdings)",
@@ -21091,7 +21134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "Bonjoro",
@@ -21134,7 +21177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "Habu",
@@ -21177,7 +21220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "TD Bank",
@@ -21227,7 +21270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "Demio",
@@ -21270,7 +21313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "Depict",
@@ -21313,7 +21356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "Demostack",
@@ -21356,7 +21399,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "CJ Affiliate",
@@ -21399,7 +21442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "MNTN",
@@ -21442,7 +21485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "Monaco",
@@ -21485,7 +21528,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "Opal",
@@ -21528,7 +21571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "Samu",
@@ -21571,7 +21614,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Localytics",
@@ -21614,7 +21657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "ShopBack",
@@ -21664,7 +21707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "Clear Channel Outdoor",
@@ -21707,7 +21750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "ClearSlide",
@@ -21750,7 +21793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "MailOptin",
@@ -21793,7 +21836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "Mattermark",
@@ -21836,7 +21879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "SharpSpring",
@@ -21879,7 +21922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Suggestic",
@@ -21936,7 +21979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "Waniwani",
@@ -21986,7 +22029,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "News Break",
@@ -22029,7 +22072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Lattice",
@@ -22068,49 +22111,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 486
-    },
-    {
-     "name": "Socialbakers",
-     "slug": "socialbakers",
-     "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -23049,6 +23049,49 @@
      "rank": 508
     },
     {
+     "name": "ShareThis",
+     "slug": "sharethis",
+     "description": "ShareThis is a Palo Alto, California website-tools and audience-data company, founded in 2007 and now operating as a brand of Predactiv following the 2024 corporate rebrand. Its share, follow, reaction, image and video buttons are embedded across millions of publisher sites via a single sharethis.js loader, and the resulting real-time sharing behavior feeds the company's audience, analytics and targeting data products. For developers ShareThis publishes an OpenAPI 3.0.3-described Platform API for managing properties, app configurations, OAuth clients and AI summaries, an unauthenticated Social Share Count API, and a remote Model Context Protocol server at mcp.sharethis.com that exposes property and app management to AI agents over OAuth.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/screenshots/sharethis-2026-09-02T155116.png",
+     "score": 45.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 52.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 509
+    },
+    {
      "name": "Tremendous",
      "slug": "tremendous",
      "description": "Tremendous allows businesses to send rewards, incentives, and payouts worldwide using their simple API and dashboard. Access 2000+ payout methods including US and global bank transfers, Amazon.com gift cards, Visa and Mastercard prepaid cards, PayPal, Venmo, and charity donations. Supports multi-product rewards (recipient choice) and single-product rewards.",
@@ -23089,7 +23132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "SnackMagic",
@@ -23132,7 +23175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Voyant.io",
@@ -23175,7 +23218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "Kelvin",
@@ -23225,7 +23268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "Lunchbox",
@@ -23268,7 +23311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "Fxiaoke",
@@ -23311,7 +23354,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Opera",
@@ -23354,7 +23397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Paystone",
@@ -23404,7 +23447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "EasyWebinar",
@@ -23447,7 +23490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "Linq.gg",
@@ -23497,7 +23540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Rox",
@@ -23540,7 +23583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "Bombora",
@@ -23583,7 +23626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "DocSend",
@@ -23626,7 +23669,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "Loomly",
@@ -23660,49 +23703,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 522
-    },
-    {
-     "name": "Rubicon Project",
-     "slug": "rubicon-project",
-     "description": "Rubicon Project is a Los Angeles-based advertising technology company, founded in 2007, that built and operated one of the largest real-time bidding advertising exchanges, connecting digital publishers (the sell side) with advertisers and demand-side platforms. In 2020 Rubicon Project merged with Telaria and rebranded as Magnite, now positioned as the world's largest independent sell-side (SSP) advertising company, spanning connected TV (CTV), online video, display, and audio across its DV+, SpringServe, ClearLine and Magnite Streaming platforms. This profile tracks the company as it exists today under the Magnite brand. Magnite publishes a public, machine-readable OpenAPI 3.1 contract for the SpringServe ad-serving platform (v1 and v0) at console.springserve.com/api-docs, mirrored for the ClearLine buy-side console at console.clearline.magnite.com, together with a public Confluence documentation space, published rate limits, a first-party Python SDK, mobile In-App Ads SDKs for iOS and Android, and OpenRTB protobuf extensions. Account creation and API credentials remain partner-gated; the contract itself is anonymously readable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon-project/refs/heads/main/screenshots/rubicon-project-2026-08-17T081658.png",
-     "score": 44.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -24473,6 +24473,56 @@
      "rank": 540
     },
     {
+     "name": "Giftbit",
+     "slug": "giftbit",
+     "description": "Giftbit is a gift card and digital reward platform with a REST API for distributing digital gift cards, managing reward campaigns, tracking redemptions, and accessing a marketplace of 1,500+ brand integrations across 40+ countries. The API enables businesses to send single-brand or multi-brand rewards via email delivery, shortlinks, direct links, or in-app embeds, with no platform subscription fees — paying only the face value of rewards sent.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/screenshots/giftbit-2026-06-20T181826.png",
+     "score": 43.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 65.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 43.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 541
+    },
+    {
      "name": "Poptin",
      "slug": "poptin",
      "description": "Poptin is an Israeli-founded, no-code conversion and lifecycle marketing platform that bundles website popups, bars, embedded forms, coupons, email campaigns, email automation, contact management, audience segmentation and website tracking into a single SaaS product aimed at ecommerce stores, SaaS companies, agencies and small businesses. Delivery is a hosted embed script (cdn.popt.in/pixel.js) installed via first-party plugins for WordPress, Magento 2, Craft CMS, SilverStripe, TYPO3, OctoberCMS, Contao, Shopify, Wix and Google Tag Manager. Its developer surface is client-side and event-shaped rather than REST: documented DOM CustomEvents (poptinView, poptinClose, poptinSubmit, couponCopy) with a published event.detail field set, named global callbacks, and an outbound per-popup Webhooks integration that posts lead data to a subscriber URL. Poptin publishes no public API reference, no OpenAPI, and no developer portal; a Make/Zapier API key is issued from account settings for its two automation connectors.",
@@ -24513,7 +24563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Tango",
@@ -24563,10 +24613,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
-     "name": "Whisperr, Inc.",
+     "name": "Whisperr",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png",
@@ -24606,7 +24656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Choozle",
@@ -24649,7 +24699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "SegmentStream",
@@ -24692,7 +24742,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "AOL",
@@ -24735,7 +24785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Nexad",
@@ -24778,7 +24828,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Octane AI",
@@ -24821,7 +24871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "domob",
@@ -24864,7 +24914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "CharacterQuilt",
@@ -24907,7 +24957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "HappyOrNot",
@@ -24950,7 +25000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Moz",
@@ -24993,7 +25043,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Reprise",
@@ -25036,7 +25086,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "Broadlume",
@@ -25079,7 +25129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Freshworks",
@@ -25122,7 +25172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "Channel99",
@@ -25165,7 +25215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "SegMetrics",
@@ -25208,7 +25258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "Zep",
@@ -25251,7 +25301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "Botify",
@@ -25294,7 +25344,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Metadata",
@@ -25337,7 +25387,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "Revinate",
@@ -25380,7 +25430,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "Sensors Data",
@@ -25423,7 +25473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Google Forms",
@@ -25466,7 +25516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "LiveIntent",
@@ -25509,7 +25559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Fini",
@@ -25552,7 +25602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "TermScout",
@@ -25595,7 +25645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "Zoca",
@@ -25638,7 +25688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "ShortKit",
@@ -25681,7 +25731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Pypestream",
@@ -25724,7 +25774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Tripetto",
@@ -25767,7 +25817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "Whippy",
@@ -25817,7 +25867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Luxury Presence",
@@ -25860,7 +25910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Return Path",
@@ -25903,7 +25953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Millimetric",
@@ -25946,7 +25996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "The Org",
@@ -25989,7 +26039,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "WSC Sports",
@@ -26031,7 +26081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "CRM Bonus",
@@ -26074,7 +26124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Runa",
@@ -26124,7 +26174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Reddit",
@@ -26167,7 +26217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "SAP Commerce Cloud",
@@ -26210,7 +26260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Screaming Frog",
@@ -26253,7 +26303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Instapage",
@@ -26296,7 +26346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "TradeDataHub Public API",
@@ -26339,7 +26389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "AdMakeAI",
@@ -26382,7 +26432,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "Formbricks",
@@ -26425,7 +26475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "Bounti",
@@ -26468,7 +26518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "Fidel",
@@ -26518,7 +26568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Owler",
@@ -26561,7 +26611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Banzai",
@@ -26604,7 +26654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "FreeWheel Media",
@@ -26647,7 +26697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "HockeyStack",
@@ -26690,7 +26740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Karumi",
@@ -26733,7 +26783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "On24",
@@ -26776,7 +26826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "Nectar",
@@ -26819,7 +26869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "Regal Entertainment Group",
@@ -26861,7 +26911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Yotpo",
@@ -26904,7 +26954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Indiegogo",
@@ -26954,7 +27004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Quantcast",
@@ -26997,7 +27047,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Kapost",
@@ -27040,7 +27090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Homebot",
@@ -27083,7 +27133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Nativo",
@@ -27126,7 +27176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "SocialBee",
@@ -27169,7 +27219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "toksta",
@@ -27212,7 +27262,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Prizeout",
@@ -27262,7 +27312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Session AI",
@@ -27305,7 +27355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "SleekFlow",
@@ -27348,7 +27398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Fermat",
@@ -27391,7 +27441,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Grin",
@@ -27434,7 +27484,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Highspot",
@@ -27477,7 +27527,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Tango Card",
@@ -27527,7 +27577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "AppLovin",
@@ -27570,7 +27620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "GumGum",
@@ -27613,7 +27663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Publer",
@@ -27656,7 +27706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Trend",
@@ -27706,7 +27756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Z League",
@@ -27749,10 +27799,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
-     "name": "Adsmom Inc.",
+     "name": "Adsmom",
      "slug": "adsmom-inc",
      "description": "Adsmom (SIA Adsmom) is a Latvia-based AI-powered ad intelligence platform that indexes 200M+ ads from Meta, TikTok and Google, decodes them with AI, and gives brands, agencies and research teams a clear read on what competitors are running and what is actually working. The platform covers ad search across a competitor library, spend and creative-strategy insights, an AI chat analyst (\"Sense\"), real-time competitor alerts, and branded reporting. Adsmom exposes its ad index programmatically via both a hosted Model Context Protocol (MCP) server — for connecting AI assistants such as Claude, Codex, Cursor and Gemini — and a REST API for server-to-server pipelines, internal tools and scheduled jobs. API and MCP access are included on all paid tiers. The REST API publishes a public OpenAPI 3.0.0 description at api.adsmom.com covering 78 operations across four paid-ad platforms (Meta, TikTok, Google, LinkedIn) plus TikTok and Instagram organic accounts, grouped into Explore (ad search and hydration), Insights (tracked-advertiser management, AI summaries, weekly reports) and Analytics (reach, activity, share of voice, runtime, creative mix, targeting). Adsmom is a 500 Global portfolio company and raised ~$610K in early 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png",
@@ -27792,7 +27842,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Chatfuel",
@@ -27835,7 +27885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "engageSPARK",
@@ -27885,7 +27935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "True Fit",
@@ -27928,7 +27978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Gist",
@@ -27971,7 +28021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "Influitive",
@@ -28014,7 +28064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "Crescendo",
@@ -28057,7 +28107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "Magic Moment",
@@ -28100,7 +28150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Ocean.io",
@@ -28139,49 +28189,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 624
-    },
-    {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -29851,7 +29858,7 @@
      "rank": 662
     },
     {
-     "name": "Adonmo Private Limited",
+     "name": "Adonmo",
      "slug": "adonmoprivatelimited",
      "description": "Adonmo Private Limited (AdOnMo) is a Hyderabad, India based ambient digital out-of-home (DOOH) advertising company, incorporated in 2016, that operates what it describes as India's largest ambient DOOH network — 66,000+ smart digital screens across 27+ Indian cities in residential lobbies, corporate offices, gyms, malls and transit environments, reaching a claimed 12M+ daily viewers. The company sells campaigns through its AdServe programmatic platform and a self-serve booking portal, and it operates the screens themselves with Acumen CMS, its digital-signage content management product. Adonmo publishes a small first-party OpenAPI 3.0.0 contract, \"Adonmo API\", from a Flasgger-backed Swagger UI on its production API host.",
      "score": 38.1,
@@ -33938,7 +33945,7 @@
      "rank": 755
     },
     {
-     "name": "Textla Inc.",
+     "name": "Textla",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/textla-inc/refs/heads/main/screenshots/textla-inc-2026-09-02T163313.png",
@@ -35920,7 +35927,7 @@
      "rank": 800
     },
     {
-     "name": "USADATA, Inc.",
+     "name": "USADATA",
      "slug": "usadata-inc",
      "description": "USADATA is a data and marketing intelligence company founded in 1998 and headquartered in New York City, backed by Insight Partners. It maintains a database of 260+ million US consumer records, 15+ million businesses, and 190 million households, updated monthly, and provides audience intelligence, data enrichment, hygiene, and omnichannel campaign activation. Products include the SL360 self-serve audience platform, Hailey AI conversational audience builder, a white-label Leads Portal with an embeddable Leads Module, and RESTful APIs for real-time and batch enrichment, audience building, hygiene (address standardization, NCOA, dedup, deceased suppression), and matchback attribution, with integrations into Salesforce, HubSpot, Marketo, and other CRM and marketing platforms. One machine-readable contract is published — the Leads Engine SOAP service at leadsengine.usadata.com serves a WSDL anonymously declaring 24 operations for counts, pricing, ordering, suppression, address lookup and geography. The REST APIs the marketing site advertises publish no spec, and API credentials are sales-gated with no developer portal, no reference documentation and no self-service sign-up.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png",
@@ -39945,7 +39952,7 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 336,
+   "count": 335,
    "shown": 108,
    "providers": [
     {
@@ -40556,49 +40563,6 @@
      "rank": 906
     },
     {
-     "name": "Fetch Rewards",
-     "slug": "fetch-rewards",
-     "description": "Fetch (legally Fetch Rewards, LLC) is a Madison, Wisconsin consumer rewards platform whose mobile app lets shoppers scan paper receipts, connect e-receipts and link accounts to earn points redeemable for gift cards and other rewards. On the demand side, Fetch For Business sells consumer packaged goods brands, retailers and restaurants receipt-verified offers, video and display advertising, point boosts, loyalty programs and omnichannel audience activation, all measured against real purchase data and managed through its Mission Control campaign platform. Fetch publishes no public developer or partner API and operates no developer portal; its only public machine-readable contract is the Receipt Processor reference OpenAPI it publishes on GitHub as an engineering hiring exercise. It does run a coordinated vulnerability disclosure program via HackerOne and publishes an RFC 9116 security.txt, and its GitHub organization ships several first-party open-source Swift and Python developer libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 45.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 907
-    },
-    {
      "name": "Resulticks",
      "slug": "resulticks",
      "description": "Resulticks is an enterprise omnichannel marketing automation and audience engagement platform, operating under the RESUL brand. It pairs a cookie-independent customer data platform with real-time campaign orchestration across email, SMS, WhatsApp, RCS, LINE, web and mobile push, in-app messaging, voice, social and paid channels, plus audience scoring, Audience 360 journey analytics, a form generator and AI-assisted audience building. Resulticks publishes a public documentation portal at gud.resulticks.com carrying a REST API reference — account setup, data ingestion, audience and target-list management, communication creation and scheduling, and response analytics — against the base domain https://apis.resu.io, alongside web, Flutter, React Native, Cordova and iOS SDK guides. It ships no machine-readable API definition (no OpenAPI, AsyncAPI, GraphQL schema or MCP server), no public pricing, and no status or changelog page; the API host itself is not reachable from the public internet and is customer-scoped. Resulticks is backed by 500 Global.",
@@ -40646,7 +40610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "VIA Rail Canada",
@@ -40696,7 +40660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "CloutJam",
@@ -40739,7 +40703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Shakr Media",
@@ -40781,7 +40745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "SOCi",
@@ -40824,7 +40788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "Crossing Minds",
@@ -40867,7 +40831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "EIN Newswire",
@@ -40910,7 +40874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Pocus",
@@ -40953,7 +40917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Zemanta",
@@ -40996,7 +40960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "AskSenti",
@@ -41039,7 +41003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "Catch&Release",
@@ -41081,7 +41045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "PlayPlay",
@@ -41124,7 +41088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "Rosetta.ai",
@@ -41167,7 +41131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Innertrends",
@@ -41210,7 +41174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "OPOWER",
@@ -41260,7 +41224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "TechSee",
@@ -41310,7 +41274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Kompyte",
@@ -41353,7 +41317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "SpareFoot",
@@ -41396,10 +41360,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 924
     },
     {
-     "name": "Deluxe Corporation",
+     "name": "Deluxe",
      "slug": "deluxe",
      "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
@@ -41446,7 +41410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "DoubleVerify",
@@ -41489,7 +41453,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Inventive",
@@ -41532,7 +41496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "Remarkable AI",
@@ -41575,7 +41539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Supportlogic",
@@ -41618,7 +41582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Voodoo",
@@ -41660,7 +41624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Actively",
@@ -41703,7 +41667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Stensul",
@@ -41746,7 +41710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "Lucky Cart",
@@ -41789,7 +41753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Brandripe",
@@ -41832,7 +41796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "Mayan",
@@ -41875,7 +41839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "Maze",
@@ -41917,7 +41881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "Metamarkets",
@@ -41960,7 +41924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "Panorama Education",
@@ -42025,7 +41989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "Ematic Solutions",
@@ -42068,7 +42032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Tattle",
@@ -42111,7 +42075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Media Radar",
@@ -42154,7 +42118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "MadeThis",
@@ -42197,7 +42161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "Copper Banking",
@@ -42247,7 +42211,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "Ebrandvalue",
@@ -42290,7 +42254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Sierra",
@@ -42333,7 +42297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Brand.ai",
@@ -42375,7 +42339,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "Sirius XM",
@@ -42418,7 +42382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "StoragePug",
@@ -42461,7 +42425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "VoiceOps",
@@ -42504,7 +42468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "Advisr",
@@ -42546,7 +42510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "Groupboss",
@@ -42589,7 +42553,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "soona",
@@ -42632,7 +42596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "Namogoo",
@@ -42675,7 +42639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "CallMiner",
@@ -42718,7 +42682,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "Laurence",
@@ -42761,7 +42725,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "Huuray",
@@ -42811,7 +42775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Liquid M",
@@ -42854,7 +42818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "AdEspresso",
@@ -42897,7 +42861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Rallyware",
@@ -42940,7 +42904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Stllr Network",
@@ -42983,7 +42947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "Motiva",
@@ -43026,7 +42990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "Serchen",
@@ -43069,7 +43033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "Donna",
@@ -43112,7 +43076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "Aktana (PharmaForceIQ)",
@@ -43177,7 +43141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "Heyo",
@@ -43220,7 +43184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Kata.ai",
@@ -43263,7 +43227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "Plixi",
@@ -43306,7 +43270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "Ushur",
@@ -43375,7 +43339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 969
+     "rank": 968
     },
     {
      "name": "AirPR",
@@ -43418,7 +43382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Avarra",
@@ -43461,7 +43425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "Rocksalt",
@@ -43504,7 +43468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Alyce",
@@ -43546,7 +43510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "Cardless",
@@ -43596,7 +43560,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "Commsor",
@@ -43639,7 +43603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "Gleeful AI",
@@ -43682,7 +43646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "Tvscientific",
@@ -43725,7 +43689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "LaunchRock",
@@ -43768,7 +43732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "Nicereply",
@@ -43811,7 +43775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Assembly",
@@ -43854,7 +43818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "imbee",
@@ -43897,7 +43861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "Latana",
@@ -43940,10 +43904,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 982
+     "rank": 981
     },
     {
-     "name": "Spotwise, Inc.",
+     "name": "Spotwise",
      "slug": "spotwise-inc",
      "description": "Spotwise is an agentic operating system for broadcast media that detects advertising across radio, TV, podcasts, and streaming audio in real time, converts that ad-play data into qualified sales leads with decision-maker enrichment, and automates the outreach and CRM workflows that sell against it. Built by broadcasters and backed by 500 Global, the platform packages products including Spotwise aOS, the Spotty conversational copilot, Spotwise Intelligence, Lead-list, Contact Finder, Monitors & Signals, and Skills for ad-sales and commercial-leadership teams across 14 countries. Spotwise ships two OAuth-protected remote Model Context Protocol servers — a product server at app.spotwise.ai/api/mcp and a content server at spotwise.ai/api/mcp — each advertised by RFC 8414 and RFC 9728 metadata documents, plus a publicly readable Payload CMS REST and GraphQL content API on spotwise.ai. It publishes no OpenAPI, no developer portal, no API reference and no SDK, so the product surface its own launch announcement calls \"an open API and a Model Context Protocol server\" cannot be planned against without an account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/screenshots/spotwise-inc-2026-09-02T160602.png",
@@ -43983,7 +43947,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "Carnival Mobile *",
@@ -44026,7 +43990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "Adelphic Mobile *",
@@ -44069,7 +44033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "Decagon",
@@ -44103,6 +44067,48 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 985
+    },
+    {
+     "name": "AI model",
+     "slug": "aimodel",
+     "description": "AI model株式会社 (AI model Inc.) is a Tokyo generative-AI company, founded in August 2020 and headquartered in the Sumitomo Fudosan Toranomon Tower, Minato-ku, that generates and licenses photorealistic AI models and AI talent for apparel, e-commerce and advertising imagery. Its service replaces conventional model photography for product shots (ささげ), key visuals, lookbooks, television commercials, outdoor advertising and in-store POP, and it co-developed the AI character MirAI with Canon Marketing Japan. Its November 2024 Series A was backed by SBI Investment, NTT Docomo Ventures, the Canon Marketing Japan MIRAI Fund with Global Brain, Mitsukoshi Isetan Innovations, Sazaby League and Mitsubishi UFJ Capital; EquityZen reports a pre-Series B round with SBI Investment and Canon MJ CVC as of January 2026. AI model sells a managed creative service, not software: it publishes no developer portal, no API reference, no pricing page, no SDKs and no terms of service, and api., docs., developer., developers. and app. under ai-model.jp do not resolve. The one public, anonymous, machine-readable surface on its estate is the WordPress REST API behind www.ai-model.jp, which serves its published AI model roster (8 records), company news (39), pages, the media library and site-wide search - captured here as three derived OpenAPI documents.",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -44779,7 +44785,7 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 353,
+   "count": 355,
    "shown": 0,
    "providers": []
   },

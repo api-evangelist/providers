@@ -66,13 +66,13 @@ description: Tezbor is a Tashkent, Uzbekistan based courier and last-mile logist
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tezbor-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Tezbor, Inc.
+name: Tezbor
 nav: Providers
 network: true
-overview: 'Tezbor, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Couriers, and Shipping.
+overview: 'Tezbor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Delivery, Couriers, and Shipping.
 
 
-  Tezbor, Inc.''s developer surface includes documentation, signup flow, and 3 more developer resources.'
+  Tezbor''s developer surface includes documentation, signup flow, and 3 more developer resources.'
 random_paper: 9
 score:
   band: minimal

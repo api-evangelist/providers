@@ -530,7 +530,7 @@ tags:
 - Domain Intelligence
 - DNS
 - Geocoding
-- Email Validation
+- Email Verification
 - Phone Validation
 - SSL
 - Web Scraping

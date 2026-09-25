@@ -50,10 +50,10 @@ description: Livsho Holdings Limited operates LIVSHO, described as the GCC's fir
 image: https://livsho.com/storage/assets/logo.jpg
 layout: provider
 modified: '2026-07-20'
-name: Livsho Holdings Limited
+name: Livsho
 nav: Providers
 network: true
-overview: Livsho Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Live Shopping, E-Commerce, and Collectibles.
+overview: Livsho is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Live Shopping, E-Commerce, and Collectibles.
 random_paper: 19
 score:
   band: minimal

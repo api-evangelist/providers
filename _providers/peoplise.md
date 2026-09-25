@@ -70,7 +70,7 @@ modified: '2026-07-20'
 name: Peoplise
 nav: Providers
 network: true
-overview: 'Peoplise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruitment, Hiring, and Talent Acquisition.
+overview: 'Peoplise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Hiring, and Talent Acquisition.
 
 
   Peoplise''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -118,7 +118,7 @@ slug: peoplise
 tags:
 - Company
 - Human Resources
-- Recruitment
+- Recruiting
 - Hiring
 - Talent Acquisition
 - Video Interview

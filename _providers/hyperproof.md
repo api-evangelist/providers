@@ -100,7 +100,7 @@ modified: '2026-05-08'
 name: Hyperproof
 nav: Providers
 network: true
-overview: 'Hyperproof publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GRC, Compliance, Risk, Audit, and SOC 2.
+overview: 'Hyperproof publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GRC, Compliance, Risk Management, Audit, and SOC 2.
 
 
   Hyperproof''s developer surface includes engineering blog and 9 more developer resources.'
@@ -149,7 +149,7 @@ slug: hyperproof
 tags:
 - GRC
 - Compliance
-- Risk
+- Risk Management
 - Audit
 - SOC 2
 website: https://hyperproof.io/

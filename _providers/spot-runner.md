@@ -170,7 +170,7 @@ tags:
 - CTV
 - Online Video
 - Contextual Advertising
-- Agentic AI
+- AI Agents
 - Media Planning
 website: https://www.spotrunner.com/
 ---

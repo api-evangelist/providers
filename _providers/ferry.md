@@ -184,7 +184,7 @@ tags:
 - Edge Computing
 - Industrial IoT
 - Data Integration
-- Agentic AI
+- AI Agents
 - AWS IoT Greengrass
 - Azure IoT Edge
 website: https://www.deployferry.io/

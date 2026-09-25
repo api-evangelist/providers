@@ -69,10 +69,10 @@ description: 'Murmur Technologies INC (Murmur) is a Chicago, Illinois out-of-hom
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/murmur-technologies-inc.png
 layout: provider
 modified: '2026-08-12'
-name: Murmur Technologies INC
+name: Murmur Technologies
 nav: Providers
 network: true
-overview: Murmur Technologies INC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Out-of-Home Advertising, and Digital Billboards.
+overview: Murmur Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Out-of-Home Advertising, and Digital Billboards.
 random_paper: 14
 score:
   band: minimal

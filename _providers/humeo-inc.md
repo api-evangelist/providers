@@ -62,10 +62,10 @@ description: Humeo, INC. is a San Francisco-based applied AI research lab focuse
 image: https://mission.humeo.com/img/humeo_vertical_black_header.svg
 layout: provider
 modified: '2026-07-19'
-name: Humeo, INC.
+name: Humeo
 nav: Providers
 network: true
-overview: Humeo, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Creative Intelligence, Generative Media, and Video.
+overview: Humeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Creative Intelligence, Generative Media, and Video.
 random_paper: 21
 score:
   band: minimal

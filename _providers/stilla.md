@@ -181,7 +181,7 @@ modified: '2026-07-21'
 name: Stilla
 nav: Providers
 network: true
-overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic, and Productivity.
+overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Productivity, and Collaboration.
 
 
   Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
@@ -239,7 +239,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Productivity
 - Collaboration
 - MCP

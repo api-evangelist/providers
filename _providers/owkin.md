@@ -150,6 +150,6 @@ tags:
 - Precision Medicine
 - Life Sciences
 - Federated Learning
-- Agentic AI
+- AI Agents
 website: https://www.owkin.com
 ---

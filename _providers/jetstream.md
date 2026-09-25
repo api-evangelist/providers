@@ -78,7 +78,7 @@ modified: '2026-07-19'
 name: Jetstream
 nav: Providers
 network: true
-overview: 'Jetstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, AI Governance, AI Security, and Agentic AI.
+overview: 'Jetstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, AI Governance, AI Security, and AI Agents.
 
 
   Jetstream''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
@@ -125,7 +125,7 @@ tags:
 - Cybersecurity
 - AI Governance
 - AI Security
-- Agentic AI
+- AI Agents
 - Runtime Governance
 - Compliance
 - FinOps

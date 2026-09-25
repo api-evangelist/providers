@@ -54,13 +54,13 @@ description: Prevenotics, Inc. is an AI-powered preventive healthcare and diagno
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prevenotics-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Prevenotics, Inc.
+name: Prevenotics
 nav: Providers
 network: true
-overview: 'Prevenotics, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Diagnostics, and Medical Imaging.
+overview: 'Prevenotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Diagnostics, and Medical Imaging.
 
 
-  Prevenotics, Inc.''s developer surface includes support and 2 more developer resources.'
+  Prevenotics'' developer surface includes support and 2 more developer resources.'
 random_paper: 21
 score:
   band: minimal

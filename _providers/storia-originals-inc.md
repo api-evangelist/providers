@@ -45,10 +45,10 @@ description: Storia Originals, Inc. (doing business as Storiaverse) was a Los An
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storia-originals-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Storia Originals, Inc.
+name: Storia Originals
 nav: Providers
 network: true
-overview: Storia Originals, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Media, Storytelling, and Animation.
+overview: Storia Originals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Media, Storytelling, and Animation.
 random_paper: 6
 score:
   band: minimal

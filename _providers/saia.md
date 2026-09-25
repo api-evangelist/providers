@@ -67,10 +67,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saia.png
 layout: provider
 modified: '2026-04-19'
-name: Saia Inc
+name: Saia
 nav: Providers
 network: true
-overview: Saia Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Trucking, and Logistics.
+overview: Saia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Freight, Trucking, and Logistics.
 plans:
 - name: Saia Plans Pricing
   plan_count: 1

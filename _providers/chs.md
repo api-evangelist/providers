@@ -132,10 +132,10 @@ features:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chs.png
 layout: provider
 modified: '2026-04-23'
-name: CHS Inc.
+name: CHS
 nav: Providers
 network: true
-overview: CHS Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agribusiness, Agriculture, Animal Nutrition, Cenex, and Cooperative.
+overview: CHS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agribusiness, Agriculture, Animal Nutrition, Cenex, and Cooperative.
 press:
 - date: ''
   title: Community Health Systems and Denim Health Announce a ...

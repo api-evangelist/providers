@@ -91,13 +91,13 @@ description: Kubota Corporation is a Japanese multinational manufacturing agricu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kubota-corporation.png
 layout: provider
 modified: '2026-05-16'
-name: Kubota Corporation
+name: Kubota
 nav: Providers
 network: true
-overview: 'Kubota Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Construction Equipment, Heavy Equipment, Manufacturing, and Telematics.
+overview: 'Kubota is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Construction Equipment, Heavy Equipment, Manufacturing, and Telematics.
 
 
-  Kubota Corporation''s developer surface includes product news and 11 more developer resources.'
+  Kubota''s developer surface includes product news and 11 more developer resources.'
 random_paper: 21
 score:
   band: minimal

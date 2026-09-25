@@ -180,13 +180,13 @@ mcp_servers:
   name: 昆仑社区 - Kunlun v3.0
   slug: 昆仑社区-kunlun-v30
 modified: '2026-09-19'
-name: 沈阳百事通网络科技有限公司
+name: 昆仑瑶池 (Kunlun Yaochi)
 nav: Providers
 network: true
-overview: '沈阳百事通网络科技有限公司 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Registry, A2A, and MCP.
+overview: '昆仑瑶池 (Kunlun Yaochi) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Registry, A2A, and MCP.
 
 
-  沈阳百事通网络科技有限公司''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
+  昆仑瑶池 (Kunlun Yaochi)''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
 plans:
 - name: Kunlunyaochi Com Plans Pricing
   plan_count: 3

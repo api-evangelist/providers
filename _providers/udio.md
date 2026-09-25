@@ -132,5 +132,6 @@ tags:
 - Audio
 - Generative
 - Songs
+- Music
 website: https://www.udio.com/
 ---

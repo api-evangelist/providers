@@ -101,7 +101,7 @@ modified: '2026-07-21'
 name: Satisfi Labs
 nav: Providers
 network: true
-overview: 'Satisfi Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Agentic AI, Chatbots, and Customer Experience.
+overview: 'Satisfi Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, AI Agents, Chatbots, and Customer Experience.
 
 
   Satisfi Labs'' developer surface includes documentation, support, engineering blog, signup flow, and 9 more developer resources.'
@@ -146,7 +146,7 @@ slug: satisfi-labs
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Chatbots
 - Customer Experience
 - Sports

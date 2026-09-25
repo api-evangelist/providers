@@ -48,7 +48,7 @@ modified: '2026-07-21'
 name: Regulatory DataCorp
 nav: Providers
 network: true
-overview: Regulatory DataCorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Compliance, Risk, and KYC.
+overview: Regulatory DataCorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Compliance, Risk Management, and KYC.
 random_paper: 13
 score:
   band: minimal
@@ -89,7 +89,7 @@ tags:
 - Company
 - Commerce
 - Compliance
-- Risk
+- Risk Management
 - KYC
 - AML
 - Financial Crime

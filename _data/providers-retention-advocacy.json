@@ -1,6 +1,6 @@
 {
- "total": 56,
- "shown": 56,
+ "total": 55,
+ "shown": 55,
  "limit": 1000,
  "bands": [
   {
@@ -1943,53 +1943,9 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
-    {
-     "name": "Fetch Rewards",
-     "slug": "fetch-rewards",
-     "description": "Fetch (legally Fetch Rewards, LLC) is a Madison, Wisconsin consumer rewards platform whose mobile app lets shoppers scan paper receipts, connect e-receipts and link accounts to earn points redeemable for gift cards and other rewards. On the demand side, Fetch For Business sells consumer packaged goods brands, retailers and restaurants receipt-verified offers, video and display advertising, point boosts, loyalty programs and omnichannel audience activation, all measured against real purchase data and managed through its Mission Control campaign platform. Fetch publishes no public developer or partner API and operates no developer portal; its only public machine-readable contract is the Receipt Processor reference OpenAPI it publishes on GitHub as an engineering hiring exercise. It does run a coordinated vulnerability disclosure program via HackerOne and publishes an RFC 9116 security.txt, and its GitHub organization ships several first-party open-source Swift and Python developer libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 45.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 43
-    },
     {
      "name": "Lucky Cart",
      "slug": "lucky-cart",
@@ -2032,7 +1988,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Heyo",
@@ -2076,7 +2032,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Commsor",
@@ -2119,7 +2075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Bikky",
@@ -2163,7 +2119,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Influenxio",
@@ -2206,7 +2162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Webloyalty",
@@ -2250,7 +2206,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Fivestars",
@@ -2300,7 +2256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Cuponomia",
@@ -2342,7 +2298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Atolls",
@@ -2386,7 +2342,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 52
+     "rank": 51
     }
    ]
   },
@@ -2440,7 +2396,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Mirado",
@@ -2491,7 +2447,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Shopzilla",
@@ -2534,7 +2490,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Brightloom",
@@ -2578,7 +2534,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 56
+     "rank": 55
     }
    ]
   }

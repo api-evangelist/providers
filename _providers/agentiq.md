@@ -163,6 +163,6 @@ tags:
 - Conversational AI
 - Customer Engagement
 - Relationship Banking
-- Agentic AI
+- AI Agents
 website: https://agentiq.com/
 ---

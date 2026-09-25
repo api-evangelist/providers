@@ -1040,7 +1040,7 @@
      "rank": 22
     },
     {
-     "name": "Vortx AI Private Limited",
+     "name": "emem",
      "slug": "emem-dev",
      "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
      "score": 49.3,
@@ -4566,7 +4566,7 @@
      "rank": 100
     },
     {
-     "name": "AAR Corp",
+     "name": "AAR",
      "slug": "aar",
      "description": "AAR CORP. (NYSE: AIR) is a global aerospace and defense aftermarket solutions company and the number one aviation maintenance, repair and overhaul (MRO) provider in North America. It supplies new and used airframe and engine parts, performs airframe and component MRO, runs expeditionary and sustainment programs for government and defense customers on five continents, and operates four aviation software businesses — Trax (eMRO/eMobility aviation ERP), Aerostrat (Aerros maintenance scheduling), Airvoyant (AI-driven parts procurement, launched April 2026) and Airinmar (component repair and warranty management) — whose software covers more than 10,000 aircraft. AAR publishes no developer program, no API reference and no machine-readable contract; its only anonymously reachable API surface is the undocumented Adobe Commerce webapi behind the AAR PAARTS Store at shop.aarcorp.com/rest/V1/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png",
@@ -6377,49 +6377,6 @@
      "rank": 140
     },
     {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
-     "score": 19.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 141
-    },
-    {
      "name": "SeekOps",
      "slug": "seekops",
      "description": "SeekOps Inc. is an Austin, Texas emissions-measurement company that detects and quantifies methane and carbon dioxide from industrial facilities using drone-mounted laser spectroscopy. Its SeekIR sensor suite applies tunable diode laser absorption spectroscopy (TDLAS) originally developed at NASA's Jet Propulsion Laboratory to search for methane on Mars, hardened for terrestrial energy operations. SeekOps sells measurement as a service — Leak Detection and Quantification (LDAQ) surveys flown over upstream and midstream oil and gas sites, offshore platforms, landfills, biogas digesters and renewable natural gas facilities — and delivers the results through two software surfaces: Celsius, a cloud analytics and reconciliation-reporting dashboard, and FASTR, a real-time telemetry view. Founded in 2017, the company has surveyed facilities across six continents and is backed by Equinor Ventures and OGCI Climate Investments. Its software is customer-only: both Celsius and FASTR sit behind authentication and SeekOps publishes no public developer program, API documentation or machine-readable contract.",
@@ -6467,7 +6424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Agerpoint",
@@ -6509,7 +6466,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "EOS Data Analytics",
@@ -6551,7 +6508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Blue Origin",
@@ -6593,7 +6550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "JetBlue",
@@ -6636,7 +6593,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Spire Global",
@@ -6679,7 +6636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Lunar Outpost",
@@ -6722,7 +6679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Triumph Group",
@@ -6765,7 +6722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Flight Network",
@@ -6808,7 +6765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "James Webb Space Telescope API",
@@ -6851,7 +6808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "IATA",
@@ -6894,7 +6851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "SkySelect",
@@ -6937,7 +6894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "AIG Aerospace",
@@ -6986,7 +6943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Aethero",
@@ -7029,7 +6986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Agnikul Cosmos",
@@ -7071,7 +7028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Descartes Labs",
@@ -7118,6 +7075,49 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 156
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7395,7 +7395,7 @@
      "rank": 163
     },
     {
-     "name": "Moviation, Inc.",
+     "name": "Moviation",
      "slug": "moviation-inc",
      "description": "Moviation, Inc. is a Seoul-based advanced air mobility and premium travel company founded in 2022 and backed by 500 Global. It operates Vonaer, an AI-powered luxury mobility platform that orchestrates on-demand travel across private aviation (jets and helicopters), luxury ground transportation (limousines), super yachts, and curated experiences, with planned expansion into electric vertical takeoff and landing (eVTOL) urban air mobility (UAM). Moviation currently runs air-taxi service with conventional helicopters and has partnered with hybrid-eVTOL developer Plana to build out an advanced air mobility (AAM) ecosystem in South Korea. The company reaches customers through the consumer Vonaer app and a concierge membership program; it publishes no public developer API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moviation-inc/refs/heads/main/screenshots/moviation-inc-2026-08-07T184358.png",
@@ -9226,7 +9226,7 @@
      "rank": 204
     },
     {
-     "name": "HEICO Corporation",
+     "name": "HEICO",
      "slug": "heico",
      "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/screenshots/heico-2026-06-20T182623.png",
@@ -15071,7 +15071,7 @@
      "rank": 337
     },
     {
-     "name": "Nexus Lab Technologies, Inc.",
+     "name": "Nexus Lab Technologies",
      "slug": "nexus-lab-technologies-inc",
      "description": "Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in 2022 and backed by 500 Global. Operating from nexuslab.fr, it applies machine learning to satellite imagery, flight traffic data, and meteorological parameters to help airlines optimize flight paths and reduce contrail formation, mitigating aviation's non-CO2 climate impact. As of this enrichment pass the company publishes only a marketing website with no public API, developer portal, documentation, or SDKs; no developer surface was found to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexus-lab-technologies-inc/refs/heads/main/screenshots/nexus-lab-technologies-inc-2026-08-07T185221.png",

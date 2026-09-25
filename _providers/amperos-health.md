@@ -142,7 +142,7 @@ tags:
 - Medical Billing
 - Insurance
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Health Tech
 - Claims
 - Denial Management

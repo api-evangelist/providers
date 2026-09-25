@@ -110,13 +110,13 @@ description: 'Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized 
 image: https://www.harmonicinc.com/hubfs/Harmonic_Overview_VideoThumbnail.png
 layout: provider
 modified: '2026-07-19'
-name: Harmonic Inc.
+name: Harmonic
 nav: Providers
 network: true
-overview: 'Harmonic Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Streaming, Broadband, and Media.
+overview: 'Harmonic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Streaming, Broadband, and Media.
 
 
-  Harmonic Inc.''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 9 more developer resources.'
+  Harmonic''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 9 more developer resources.'
 random_paper: 19
 score:
   band: emerging

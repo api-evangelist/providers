@@ -139,7 +139,7 @@ tags:
 - FINRA
 - Communications Archiving
 - Governance
-- Risk
+- Risk Management
 - Artificial Intelligence
 website: https://www.greenboard.com
 ---

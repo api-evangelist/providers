@@ -117,7 +117,7 @@ modified: '2026-07-17'
 name: Adversa AI
 nav: Providers
 network: true
-overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, AI Red Teaming, LLM Security, and Agentic AI.
+overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, AI Red Teaming, LLM Security, and AI Agents.
 
 
   Adversa AI''s developer surface includes engineering blog, signup flow, CLI, and 13 more developer resources.'
@@ -171,7 +171,7 @@ tags:
 - AI Security
 - AI Red Teaming
 - LLM Security
-- Agentic AI
+- AI Agents
 - Adversarial Machine Learning
 - AI Governance
 - Cybersecurity

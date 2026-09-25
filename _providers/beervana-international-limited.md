@@ -50,10 +50,10 @@ description: Beervana International Limited is a company surfaced as a portfolio
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beervana-international-limited.png
 layout: provider
 modified: '2026-07-18'
-name: Beervana International Limited
+name: Beervana International
 nav: Providers
 network: true
-overview: Beervana International Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beer, Beverages, Brewing, and Food and Beverage.
+overview: Beervana International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beer, Beverages, Brewing, and Food and Beverage.
 random_paper: 12
 score:
   band: minimal

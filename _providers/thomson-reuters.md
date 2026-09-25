@@ -106,7 +106,7 @@ modified: '2026-05-03'
 name: Thomson Reuters
 nav: Providers
 network: true
-overview: 'Thomson Reuters publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk, and Fraud.
+overview: 'Thomson Reuters publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Tax, Finance, Risk Management, and Fraud.
 
 
   The Thomson Reuters catalog on APIs.io includes 1 JSON-LD context.
@@ -159,7 +159,7 @@ tags:
 - Legal
 - Tax
 - Finance
-- Risk
+- Risk Management
 - Fraud
 - Compliance
 - Data

@@ -45,10 +45,10 @@ description: Pyme Inc is a company surfaced as a portfolio company of 500-global
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pyme-inc.png
 layout: provider
 modified: '2026-07-17'
-name: Pyme Inc
+name: Pyme
 nav: Providers
 network: true
-overview: Pyme Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Pyme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 10
 score:
   band: minimal

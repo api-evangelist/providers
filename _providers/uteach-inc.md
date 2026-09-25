@@ -140,16 +140,16 @@ description: Uteach is an all-in-one online teaching platform and LMS that lets 
 image: https://d35v9chtr4gec.cloudfront.net/uteach/assets/android-icon-512x512-mask.png
 layout: provider
 modified: '2026-07-21'
-name: Uteach, Inc.
+name: Uteach
 nav: Providers
 network: true
-overview: 'Uteach, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, LMS, and Online Courses.
+overview: 'Uteach is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, LMS, and Online Courses.
 
 
-  The Uteach, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Uteach catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uteach, Inc.''s developer surface includes pricing, engineering blog, support, signup flow, FAQ, YouTube channel, authentication, and 15 more developer resources.'
+  Uteach''s developer surface includes pricing, engineering blog, support, signup flow, FAQ, YouTube channel, authentication, and 15 more developer resources.'
 random_paper: 3
 score:
   band: thin

@@ -248,7 +248,7 @@ modified: '2026-07-19'
 name: Leena AI
 nav: Providers
 network: true
-overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, AOP API, Audit Logs API, and 2 more. Tagged areas include Company, Ai Ml, Agentic AI, Artificial Intelligence, and Enterprise Software.
+overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, AOP API, Audit Logs API, and 2 more. Tagged areas include Company, Ai Ml, AI Agents, Artificial Intelligence, and Enterprise Software.
 
 
   Leena AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, changelog, authentication, and 26 more developer resources.'
@@ -318,7 +318,7 @@ slug: leena-ai
 tags:
 - Company
 - Ai Ml
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources

@@ -1,6 +1,6 @@
 {
- "total": 115,
- "shown": 115,
+ "total": 113,
+ "shown": 113,
  "limit": 1000,
  "bands": [
   {
@@ -29,15 +29,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -1364,8 +1364,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 27,
-   "shown": 27,
+   "count": 25,
+   "shown": 25,
    "providers": [
     {
      "name": "Wideo",
@@ -1977,49 +1977,6 @@
      "rank": 44
     },
     {
-     "name": "Socialbakers",
-     "slug": "socialbakers",
-     "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
      "name": "99designs",
      "slug": "99designs",
      "description": "99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.com/resources/v1) lets platforms embed a fully-managed creative marketplace: search and match designers, retrieve designer profiles, reviews and portfolios, collect design briefs, list the products a partner has available for sale, place orders against those product versions, and generate partner coupons. Authentication uses a pair of API key headers (Api-Key-Id and Api-Key-Secret) issued to partners on request — access is sales-gated rather than self-serve, and no API plans or pricing are published. Founded in 2008 as a SitePoint spin-off and acquired by Cimpress/Vista in 2020.",
@@ -2061,7 +2018,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Brandcast",
@@ -2104,7 +2061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Dotdash Meredith / People Inc",
@@ -2155,7 +2112,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Voyant.io",
@@ -2199,7 +2156,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Loomly",
@@ -2243,7 +2200,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Permutive",
@@ -2287,7 +2244,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Chartbeat",
@@ -2331,7 +2288,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Kapost",
@@ -2374,7 +2331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Publer",
@@ -2418,7 +2375,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Trend",
@@ -2468,7 +2425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Gist",
@@ -2512,51 +2469,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 56
-    },
-    {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 57
+     "rank": 55
     }
    ]
   },
@@ -2610,7 +2523,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "Superscale",
@@ -2653,7 +2566,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "Substack",
@@ -2697,7 +2610,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Mutiny HQ",
@@ -2740,7 +2653,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Knotch",
@@ -2784,7 +2697,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "Covatic",
@@ -2828,7 +2741,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Jeeng",
@@ -2872,7 +2785,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "Newoldstamp",
@@ -2916,7 +2829,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Tdaycom",
@@ -2958,7 +2871,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Animoto",
@@ -3000,7 +2913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "Ciloo",
@@ -3043,7 +2956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Kuaishou",
@@ -3086,7 +2999,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
     }
    ]
   },
@@ -3140,7 +3053,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "PlayPlay",
@@ -3184,7 +3097,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "Brandripe",
@@ -3227,7 +3140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Brand.ai",
@@ -3269,7 +3182,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "soona",
@@ -3312,7 +3225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Stllr Network",
@@ -3355,7 +3268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "Rocksalt",
@@ -3398,7 +3311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Gleeful AI",
@@ -3442,7 +3355,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Persado",
@@ -3485,7 +3398,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 76
     },
     {
      "name": "Centric Brands",
@@ -3528,7 +3441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 79
+     "rank": 77
     },
     {
      "name": "Minute Media",
@@ -3572,7 +3485,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 80
+     "rank": 78
     },
     {
      "name": "Memoir",
@@ -3616,7 +3529,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 81
+     "rank": 79
     },
     {
      "name": "PUBLY",
@@ -3660,7 +3573,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 82
+     "rank": 80
     },
     {
      "name": "Imagine Ai",
@@ -3703,7 +3616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "AdMagica AI",
@@ -3746,7 +3659,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "SpeedyBrand",
@@ -3790,7 +3703,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "Matthews International",
@@ -3840,7 +3753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "App Onboard",
@@ -3883,7 +3796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "Valid",
@@ -3927,19 +3840,19 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "VaynerMedia",
      "slug": "vaynermedia",
      "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
-     "score": 17.7,
+     "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 4.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 25.6,
@@ -3947,15 +3860,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 10.2,
+     "agent_score": 8.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -3964,13 +3877,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
     },
     {
      "name": "Postcron",
@@ -4014,7 +3927,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "Interpublic Group",
@@ -4058,7 +3971,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Ziff Davis Enterprise",
@@ -4102,7 +4015,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "Gannett",
@@ -4146,7 +4059,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "Pepper Content",
@@ -4190,7 +4103,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "Newneek",
@@ -4234,7 +4147,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 95
+     "rank": 93
     },
     {
      "name": "ReDEF",
@@ -4278,7 +4191,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 96
+     "rank": 94
     },
     {
      "name": "TNL Mediagene",
@@ -4322,7 +4235,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 97
+     "rank": 95
     },
     {
      "name": "Virool",
@@ -4366,7 +4279,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 98
+     "rank": 96
     },
     {
      "name": "BBDO Worldwide",
@@ -4410,10 +4323,10 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 99
+     "rank": 97
     },
     {
-     "name": "STORI AI Inc.",
+     "name": "STORI AI",
      "slug": "stori-ai-inc",
      "description": "STORI AI is a San Francisco-based AI content-marketing platform that helps brands define their identity — archetype, tone, tagline, and colors — and turn that identity into on-brand social posts, graphics, images, videos, and go-to-market marketing materials. The product generates personalized branded content, schedules and publishes it across digital platforms, and offers analytics, content storage, and multi-brand, multi-language, team-collaboration tiers. A Product Hunt Golden Kitty Award recipient, STORI AI is a web SaaS application for marketers and brand teams; it exposes no public developer API, SDKs, or developer portal at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stori-ai-inc/refs/heads/main/screenshots/stori-ai-inc-2026-09-02T160931.png",
@@ -4453,7 +4366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Spotter",
@@ -4497,7 +4410,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "RankScience",
@@ -4541,7 +4454,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 102
+     "rank": 100
     }
    ]
   },
@@ -4593,7 +4506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "Ogilvy",
@@ -4643,7 +4556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "Tongal",
@@ -4686,7 +4599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 103
     },
     {
      "name": "Pimento",
@@ -4729,7 +4642,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "InstaAgent",
@@ -4772,7 +4685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Mediaspectrum",
@@ -4816,7 +4729,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "adludio",
@@ -4862,7 +4775,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 109
+     "rank": 107
     },
     {
      "name": "DIVE studios",
@@ -4906,7 +4819,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 110
+     "rank": 108
     },
     {
      "name": "88rising",
@@ -4949,7 +4862,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 111
+     "rank": 109
     },
     {
      "name": "Absurd",
@@ -4993,7 +4906,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "Conteller",
@@ -5036,7 +4949,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 113
+     "rank": 111
     },
     {
      "name": "OneSpot",
@@ -5080,7 +4993,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 114
+     "rank": 112
     },
     {
      "name": "refresh",
@@ -5123,7 +5036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 113
     }
    ]
   }

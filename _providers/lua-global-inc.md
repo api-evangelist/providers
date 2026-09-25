@@ -182,19 +182,19 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lua-global
 layout: provider
 mcp_servers:
 - description: Read-only MCP server for the Lua AI platform (heylua.ai) — exposes tools that let any MCP-aware client query Lua agent state mid-conversation.
-  name: Lua Global Inc MCP Server
-  slug: lua-global-inc-mcp-server
+  name: Lua AI MCP Server
+  slug: lua-ai-mcp-server
 modified: '2026-07-20'
-name: Lua Global Inc
+name: Lua AI
 nav: Providers
 network: true
-overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Platform, and Developer Tools.
+overview: 'Lua AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Platform, and Developer Tools.
 
 
-  The Lua Global Inc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Lua AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lua Global Inc''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, authentication, and 21 more developer resources.'
+  Lua AI''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, authentication, and 21 more developer resources.'
 random_paper: 9
 score:
   band: thin

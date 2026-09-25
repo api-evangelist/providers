@@ -238,16 +238,16 @@ image: https://www.puppetry.com/puppetry-logo.png
 layout: provider
 mcp_servers:
 - description: Official Puppetry MCP server — turn any portrait photo into a talking AI video with 500+ voices.
-  name: ELBO AI, INC MCP Server
-  slug: elbo-ai-inc-mcp-server
+  name: Puppetry MCP Server
+  slug: puppetry-mcp-server
 modified: '2026-07-19'
-name: ELBO AI, INC
+name: Puppetry
 nav: Providers
 network: true
-overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audio Uploads API, Text to Speech API, Usage API, and 2 more. Tagged areas include Company, Artificial Intelligence, Video, Text-to-Speech, and Voice.
+overview: 'Puppetry publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ELBO AI, INC Audio Uploads API, ELBO AI, INC Text to Speech API, ELBO AI, INC Usage API, and 2 more. Tagged areas include Company, Artificial Intelligence, Video, Text-to-Speech, and Voice.
 
 
-  ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
+  Puppetry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
 random_paper: 12
 score:
   band: developing

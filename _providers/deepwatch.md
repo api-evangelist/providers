@@ -224,6 +224,6 @@ tags:
 - Threat Intelligence
 - Vulnerability Management
 - Managed Security Services
-- Agentic AI
+- AI Agents
 website: https://www.deepwatch.com/
 ---

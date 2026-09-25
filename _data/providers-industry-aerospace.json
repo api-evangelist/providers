@@ -396,8 +396,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 23,
-   "shown": 23,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "U.S. Department of Transportation",
@@ -536,56 +536,6 @@
      "rank": 11
     },
     {
-     "name": "ELISA",
-     "slug": "elisa",
-     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
-     "score": 48.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 33.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
      "name": "Starlink",
      "slug": "starlink",
      "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
@@ -633,7 +583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "UK Civil Aviation Authority",
@@ -683,7 +633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "American Express Global Business Travel",
@@ -725,7 +675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Flightradar24",
@@ -768,7 +718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "First Resonance",
@@ -811,7 +761,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Bureau of Transportation Statistics",
@@ -861,7 +811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Autodesk PowerMill",
@@ -904,7 +854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Virgin Atlantic",
@@ -947,7 +897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "OpenTravel Alliance",
@@ -990,7 +940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
@@ -1040,7 +990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Kayhan Space",
@@ -1083,7 +1033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "DLR",
@@ -1133,7 +1083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "SpiderOak",
@@ -1176,7 +1126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Airport Gap",
@@ -1219,7 +1169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Aloft",
@@ -1262,7 +1212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Aviation Weather Center",
@@ -1312,7 +1262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "OpenSky Network",
@@ -1355,7 +1305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Tomorrow.io",
@@ -1398,7 +1348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Airbus",
@@ -1441,7 +1391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     }
    ],
    "open": true
@@ -1451,8 +1401,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 37,
-   "shown": 37,
+   "count": 38,
+   "shown": 38,
    "providers": [
     {
      "name": "AeroDataBox",
@@ -1487,6 +1437,56 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 31
+    },
+    {
+     "name": "ELISA",
+     "slug": "elisa",
+     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -2605,7 +2605,7 @@
      "rank": 57
     },
     {
-     "name": "AAR Corp",
+     "name": "AAR",
      "slug": "aar",
      "description": "AAR CORP. (NYSE: AIR) is a global aerospace and defense aftermarket solutions company and the number one aviation maintenance, repair and overhaul (MRO) provider in North America. It supplies new and used airframe and engine parts, performs airframe and component MRO, runs expeditionary and sustainment programs for government and defense customers on five continents, and operates four aviation software businesses — Trax (eMRO/eMobility aviation ERP), Aerostrat (Aerros maintenance scheduling), Airvoyant (AI-driven parts procurement, launched April 2026) and Airinmar (component repair and warranty management) — whose software covers more than 10,000 aircraft. AAR publishes no developer program, no API reference and no machine-readable contract; its only anonymously reachable API surface is the undocumented Adobe Commerce webapi behind the AAR PAARTS Store at shop.aarcorp.com/rest/V1/.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png",
@@ -3374,56 +3374,6 @@
      "rank": 74
     },
     {
-     "name": "Fabric8Labs",
-     "slug": "fabric8labs",
-     "description": "Fabric8Labs is a San Diego, California based advanced-manufacturing company founded in 2015 that invented and commercialized Electrochemical Additive Manufacturing (ECAM), a room-temperature metal 3D printing process that uses a patented microelectrode array printhead to electroplate copper ions out of a water-based metal-salt solution pixel by pixel. Unlike powder-bed and laser metal additive methods, ECAM needs no high-temperature step, no expensive metal powder feedstock and effectively no post-processing, prints at micron-scale resolution directly onto temperature-sensitive substrates, and the company reports more than a 90% reduction in greenhouse gas emissions against alternative additive and traditional manufacturing routes. Fabric8Labs operates as both a technology developer and a production foundry, manufacturing high-precision components for data-center liquid cooling and AI/HPC thermal management (cold plates, single-phase, two-phase and immersion cooling), RF and wireless communications, satellite and aerospace systems, power electronics, photonics cooling, semiconductors, medical devices and luxury goods. It has raised funding from Intel Capital, TDK Ventures and others, including a $50M round announced in November 2025 to expand United States manufacturing capacity toward tens of millions of components annually, and on 10 June 2026 announced it will be acquired by TDK Corporation — the company continues under existing leadership, with ECAM folded into TDK's global manufacturing network. Fabric8Labs publishes no product, customer or developer API and runs no developer program; the only machine-readable surface on fabric8labs.com is the public WordPress REST API (namespace wp/v2) that serves the company newsroom, site pages, leadership team directory, taxonomy and media library as JSON, alongside a WordPress MCP Adapter endpoint and RFC 8414/RFC 9728 OAuth discovery documents that are served but authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 75
-    },
-    {
      "name": "Auterion",
      "slug": "auterion",
      "description": "Auterion builds the software-defined operating system for autonomous drones and robots. Its open, vendor-independent stack — AuterionOS and the Skynode / Skynode X flight-compute modules — runs across drones from many manufacturers, while Auterion Suite provides cloud fleet management, flight data, and compliance, and Auterion Mission Control is the ground-control planning and flight application. Developers extend vehicles with the on-device Auterion SDK, a C++ app framework built on PX4, MAVLink, and ROS 2. Auterion does not publish a public REST/OpenAPI web API; its developer surface is the on-device SDK plus a set of first-party open-source MAVLink and PX4 libraries on GitHub. Backed by Bessemer Venture Partners and Costanoa Ventures.",
@@ -3464,7 +3414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Corporate Travel Management",
@@ -3507,7 +3457,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Transat",
@@ -3550,7 +3500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "AirWise Solutions",
@@ -3592,7 +3542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "OurAirports",
@@ -3639,6 +3589,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 79
+    },
+    {
+     "name": "Fabric8Labs",
+     "slug": "fabric8labs",
+     "description": "Fabric8Labs is a San Diego, California based advanced-manufacturing company founded in 2015 that invented and commercialized Electrochemical Additive Manufacturing (ECAM), a room-temperature metal 3D printing process that uses a patented microelectrode array printhead to electroplate copper ions out of a water-based metal-salt solution pixel by pixel. Unlike powder-bed and laser metal additive methods, ECAM needs no high-temperature step, no expensive metal powder feedstock and effectively no post-processing, prints at micron-scale resolution directly onto temperature-sensitive substrates, and the company reports more than a 90% reduction in greenhouse gas emissions against alternative additive and traditional manufacturing routes. Fabric8Labs operates as both a technology developer and a production foundry, manufacturing high-precision components for data-center liquid cooling and AI/HPC thermal management (cold plates, single-phase, two-phase and immersion cooling), RF and wireless communications, satellite and aerospace systems, power electronics, photonics cooling, semiconductors, medical devices and luxury goods. It has raised funding from Intel Capital, TDK Ventures and others, including a $50M round announced in November 2025 to expand United States manufacturing capacity toward tens of millions of components annually, and on 10 June 2026 announced it will be acquired by TDK Corporation — the company continues under existing leadership, with ECAM folded into TDK's global manufacturing network. Fabric8Labs publishes no product, customer or developer API and runs no developer program; the only machine-readable surface on fabric8labs.com is the public WordPress REST API (namespace wp/v2) that serves the company newsroom, site pages, leadership team directory, taxonomy and media library as JSON, alongside a WordPress MCP Adapter endpoint and RFC 8414/RFC 9728 OAuth discovery documents that are served but authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png",
+     "score": 21.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4175,49 +4175,6 @@
      "rank": 92
     },
     {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
-     "score": 19.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 93
-    },
-    {
      "name": "Arconic",
      "slug": "arconic",
      "description": "Arconic Corporation is an aluminum solutions company producing rolled aluminum sheet and plate, extrusions, and architectural building products for the aerospace, automotive, commercial transportation, building & construction, industrial, and packaging markets. Spun off from Alcoa in 2016, separated from Howmet Aerospace in 2020, and acquired by Apollo Global Management in August 2023 for approximately $5.2 billion, Arconic now operates as a private company headquartered in Pittsburgh, Pennsylvania. Key brands include Kawneer architectural systems and Reynobond aluminum composite panels.",
@@ -4258,7 +4215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Carpenter Technology",
@@ -4308,7 +4265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Blue Origin",
@@ -4350,7 +4307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "JetBlue",
@@ -4393,7 +4350,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Spire Global",
@@ -4436,7 +4393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Lunar Outpost",
@@ -4479,7 +4436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Triumph Group",
@@ -4522,7 +4479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Flight Network",
@@ -4565,7 +4522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Honeywell",
@@ -4608,49 +4565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
-    },
-    {
-     "name": "Aerospace Engineering Equipment",
-     "slug": "aerospaceengineeringequipmentco",
-     "description": "Aerospace Engineering Equipment (Suzhou) Co., Ltd. — trading as AEE — is a Chinese industrial equipment manufacturer founded in December 2011 that designs, builds and integrates friction stir welding (FSW) machines, automatic FSW production lines and FSW tooling. It is a wholly owned subsidiary of Shanghai Aerospace Equipment Manufacturing Factory (149 Factory) under the Eighth Academy of the China Aerospace Science and Technology Corporation (CASC), operating an R&D headquarters in Wuzhong District, Suzhou and a volume production base in Liyang across roughly 55,000 square metres. AEE supplies one-, two- and three-dimensional FSW equipment plus process services into aerospace and aviation, rail transit, marine and shipbuilding, new-energy automotive, nuclear, power electronics and marine engineering. AEE publishes no developer program, no API documentation and no machine-readable specification; the surfaces profiled here are the anonymously readable WordPress REST content APIs served from its English-language marketing site at a-fsw.com, documented by API Evangelist from the server's own route index and OPTIONS schema documents.",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "IATA",
@@ -4693,7 +4608,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "SkySelect",
@@ -4736,7 +4651,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 103
+    },
+    {
+     "name": "Aerospace Engineering Equipment",
+     "slug": "aerospaceengineeringequipmentco",
+     "description": "Aerospace Engineering Equipment (Suzhou) Co., Ltd. — trading as AEE — is a Chinese industrial equipment manufacturer founded in December 2011 that designs, builds and integrates friction stir welding (FSW) machines, automatic FSW production lines and FSW tooling. It is a wholly owned subsidiary of Shanghai Aerospace Equipment Manufacturing Factory (149 Factory) under the Eighth Academy of the China Aerospace Science and Technology Corporation (CASC), operating an R&D headquarters in Wuzhong District, Suzhou and a volume production base in Liyang across roughly 55,000 square metres. AEE supplies one-, two- and three-dimensional FSW equipment plus process services into aerospace and aviation, rail transit, marine and shipbuilding, new-energy automotive, nuclear, power electronics and marine engineering. AEE publishes no developer program, no API documentation and no machine-readable specification; the surfaces profiled here are the anonymously readable WordPress REST content APIs served from its English-language marketing site at a-fsw.com, documented by API Evangelist from the server's own route index and OPTIONS schema documents.",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
     },
     {
      "name": "AIG Aerospace",
@@ -4785,7 +4742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Aethero",
@@ -4828,7 +4785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Agnikul Cosmos",
@@ -4869,6 +4826,49 @@
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
+     },
+     "rank": 107
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 108
     },
@@ -5044,7 +5044,7 @@
      "rank": 112
     },
     {
-     "name": "Moviation, Inc.",
+     "name": "Moviation",
      "slug": "moviation-inc",
      "description": "Moviation, Inc. is a Seoul-based advanced air mobility and premium travel company founded in 2022 and backed by 500 Global. It operates Vonaer, an AI-powered luxury mobility platform that orchestrates on-demand travel across private aviation (jets and helicopters), luxury ground transportation (limousines), super yachts, and curated experiences, with planned expansion into electric vertical takeoff and landing (eVTOL) urban air mobility (UAM). Moviation currently runs air-taxi service with conventional helicopters and has partnered with hybrid-eVTOL developer Plana to build out an advanced air mobility (AAM) ecosystem in South Korea. The company reaches customers through the consumer Vonaer app and a concierge membership program; it publishes no public developer API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moviation-inc/refs/heads/main/screenshots/moviation-inc-2026-08-07T184358.png",
@@ -6813,7 +6813,7 @@
      "rank": 152
     },
     {
-     "name": "Kaman Corporation",
+     "name": "Kaman",
      "slug": "kaman",
      "description": "Kaman Corporation is a major US corporation and Fortune 1000 company. The Kaman Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaman/refs/heads/main/screenshots/kaman-2026-06-20T183913.png",
@@ -7271,7 +7271,7 @@
      "rank": 162
     },
     {
-     "name": "HEICO Corporation",
+     "name": "HEICO",
      "slug": "heico",
      "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/screenshots/heico-2026-06-20T182623.png",
@@ -8767,7 +8767,7 @@
      "rank": 196
     },
     {
-     "name": "Allegheny Technologies Incorporated",
+     "name": "ATI",
      "slug": "allegheny-technologies",
      "description": "Allegheny Technologies Incorporated, which trades and brands itself as ATI Inc., is an American producer of specialty materials and components headquartered in Dallas, Texas and listed on the NYSE under the ticker ATI. ATI melts, forges, rolls, machines and additively manufactures titanium and titanium alloys, nickel-based alloys and superalloys, stainless and specialty steels, zirconium, hafnium, niobium and tungsten materials, plus forgings and castings. It serves aerospace and defense — over half of sales — along with oil and gas, chemical and hydrocarbon processing, power generation, medical and electronics markets, on roughly $4.6 billion in annual revenue. ATI is a materials manufacturer rather than a software company and publishes no public API: as of 2026-09-01 probing found no developer portal, no API reference, no OpenAPI, AsyncAPI, GraphQL or WSDL contract, no SDK on any public package registry and no GitHub organization. The only credentialed digital surfaces are My ATI, a customer and supplier extranet behind a logon form, and a third-party sourcing platform linked from the supplier self-service page; customer onboarding itself is documented as PDF forms emailed to a sales contact.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allegheny-technologies/refs/heads/main/screenshots/allegheny-technologies-2026-07-25T195653.png",
@@ -11689,7 +11689,7 @@
      "rank": 262
     },
     {
-     "name": "Isengard Industries Inc",
+     "name": "Isengard Industries",
      "slug": "isengard-industries-inc",
      "description": "Isengard Industries builds sovereign production capability for defense: the means for allied nations to manufacture precision-strike and counter-drone (counter-UAS) systems by the thousand, on their own soil, at a fraction of what traditional prime contractors charge. The company describes its approach as \"Weapons of Mass Production.\" Founded in 2026 and part of Y Combinator's Summer 2026 batch, it is led by Francisco Serra-Martins (previously co-founder/CEO of Terminal Autonomy) and James Tennant (former Australian Army officer), and is headquartered in San Francisco. As a hardware and defense-manufacturing company it does not currently publish a public developer API, SDKs, or API documentation; this profile captures its public identity and security surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/isengard-industries-inc/refs/heads/main/screenshots/isengard-industries-inc-2026-07-25T222940.png",
@@ -13644,7 +13644,7 @@
      "rank": 307
     },
     {
-     "name": "Degla Inc",
+     "name": "Degla",
      "slug": "degla-inc",
      "description": "Degla is a Y Combinator (Fall 2026) startup building an autonomous aerial intelligence layer that turns natural language into multi-drone mission execution. Operators describe an objective in plain language and Degla plans the mission, assigns aircraft, defines coverage patterns, and deploys a fleet that adapts in real time — with no waypoints, flight plans, or specialized training required. The platform targets search and rescue, emergency response, infrastructure inspection, and other critical field operations. Founded in 2026 by Aziz Hanafi and based in Boston, the company is in early access and has not yet published a public API, developer portal, or documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/degla-inc/refs/heads/main/screenshots/degla-inc-2026-07-25T211628.png",
@@ -14373,7 +14373,7 @@
      "rank": 324
     },
     {
-     "name": "Nexus Lab Technologies, Inc.",
+     "name": "Nexus Lab Technologies",
      "slug": "nexus-lab-technologies-inc",
      "description": "Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in 2022 and backed by 500 Global. Operating from nexuslab.fr, it applies machine learning to satellite imagery, flight traffic data, and meteorological parameters to help airlines optimize flight paths and reduce contrail formation, mitigating aviation's non-CO2 climate impact. As of this enrichment pass the company publishes only a marketing website with no public API, developer portal, documentation, or SDKs; no developer surface was found to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexus-lab-technologies-inc/refs/heads/main/screenshots/nexus-lab-technologies-inc-2026-08-07T185221.png",
@@ -15550,7 +15550,7 @@
      "rank": 351
     },
     {
-     "name": "IDEX Corporation",
+     "name": "IDEX",
      "slug": "idex",
      "description": "IDEX Corporation (NYSE: IEX) is a global engineered products company that designs and manufactures pumps, flow meters, valves, fluidics systems, precision components, and fire and safety equipment. IDEX serves health, science, water, energy, semiconductor, aerospace, fire and safety, and industrial markets through three segments: Fluid and Metering Technologies, Health and Science Technologies, and Fire and Safety / Diversified Products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idex/refs/heads/main/screenshots/idex-2026-06-20T183208.png",

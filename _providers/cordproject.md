@@ -50,10 +50,10 @@ description: Cord Project Inc. was a New York based startup founded around 2014 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cordproject.png
 layout: provider
 modified: '2026-07-18'
-name: cordproject
+name: Cord Project
 nav: Providers
 network: true
-overview: cordproject is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice Messaging, Audio, Messaging, and Consumer.
+overview: Cord Project is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Voice Messaging, Audio, Messaging, and Consumer.
 random_paper: 17
 score:
   band: minimal

@@ -55,10 +55,10 @@ description: Hexing Electrical Co., Ltd. (海兴电力 / Hexing) is a Chinese en
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hxgroup.png
 layout: provider
 modified: '2026-07-19'
-name: Hexing Electrical Co., Ltd.
+name: Hexing Electrical
 nav: Providers
 network: true
-overview: Hexing Electrical Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Smart Grid, Smart Metering, and AMI.
+overview: Hexing Electrical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Smart Grid, Smart Metering, and AMI.
 random_paper: 11
 score:
   band: minimal

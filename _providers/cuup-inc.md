@@ -66,13 +66,13 @@ description: CUUP, Inc. is a New York City-based direct-to-consumer intimates br
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cuup-inc.png
 layout: provider
 modified: '2026-07-18'
-name: CUUP, Inc.
+name: CUUP
 nav: Providers
 network: true
-overview: 'CUUP, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
+overview: 'CUUP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
 
 
-  CUUP, Inc.''s developer surface includes support and 5 more developer resources.'
+  CUUP''s developer surface includes support and 5 more developer resources.'
 random_paper: 12
 score:
   band: emerging

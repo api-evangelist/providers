@@ -45,10 +45,10 @@ description: Perkskit LLC is a company surfaced as a portfolio company of 500-gl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perkskit-llc.png
 layout: provider
 modified: '2026-07-20'
-name: Perkskit LLC
+name: Perkskit
 nav: Providers
 network: true
-overview: Perkskit LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Perkskit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 5
 score:
   band: minimal

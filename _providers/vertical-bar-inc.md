@@ -96,13 +96,13 @@ description: 'Vertical Bar Inc. builds CrossCheck, a DevOps and operations-visib
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertical-bar-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Vertical Bar Inc.
+name: Vertical Bar
 nav: Providers
 network: true
-overview: 'Vertical Bar Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, NetSuite, DevOps, ERP, and Change Management.
+overview: 'Vertical Bar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, NetSuite, DevOps, ERP, and Change Management.
 
 
-  Vertical Bar Inc.''s developer surface includes authentication, pricing, engineering blog, signup flow, and 7 more developer resources.'
+  Vertical Bar''s developer surface includes authentication, pricing, engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 9
 score:
   band: emerging

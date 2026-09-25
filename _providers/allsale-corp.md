@@ -106,13 +106,13 @@ description: ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-ma
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allsale-corp.png
 layout: provider
 modified: '2026-08-13'
-name: ALLSALE Corp.
+name: ALLSALE
 nav: Providers
 network: true
-overview: 'ALLSALE Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TikTok Shop, Creator Marketing, Influencer Marketing, and Social Commerce.
+overview: 'ALLSALE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TikTok Shop, Creator Marketing, Influencer Marketing, and Social Commerce.
 
 
-  ALLSALE Corp.''s developer surface includes pricing, signup flow, support, and 8 more developer resources.'
+  ALLSALE''s developer surface includes pricing, signup flow, support, and 8 more developer resources.'
 plans:
 - name: Allsale Corp Plans Pricing
   plan_count: 3

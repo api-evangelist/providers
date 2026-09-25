@@ -426,7 +426,7 @@ tags:
 - Compensation
 - Workflow Automation
 - AI Companion
-- Agentic AI
+- AI Agents
 - United Kingdom
 - London
 website: https://humaans.io

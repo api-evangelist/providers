@@ -189,7 +189,7 @@ modified: '2026-08-25'
 name: MetricStream
 nav: Providers
 network: true
-overview: 'MetricStream publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk, Compliance, and GRC.
+overview: 'MetricStream publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk Management, Compliance, and GRC.
 
 
   MetricStream''s developer surface includes API reference, documentation, engineering blog, support, signup flow, authentication, changelog, and 18 more developer resources.'
@@ -254,14 +254,14 @@ slug: metricstream
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Audit
 - Enterprise Software
 - RegTech
 - Cyber Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Operational Resilience
 - ESG
 website: https://www.metricstream.com/

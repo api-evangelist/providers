@@ -94,10 +94,10 @@ description: 'UGI Corporation (NYSE: UGI) is a King of Prussia, Pennsylvania-bas
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ugi-corporation.png
 layout: provider
 modified: '2026-05-23'
-name: UGI Corporation
+name: UGI
 nav: Providers
 network: true
-overview: UGI Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Natural Gas, Electric, and Propane.
+overview: UGI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Natural Gas, Electric, and Propane.
 random_paper: 8
 score:
   band: minimal

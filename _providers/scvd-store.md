@@ -340,8 +340,8 @@ image: https://scvd.store/og.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: Record Creative Co. LLC MCP Server
-  slug: record-creative-co-llc-mcp-server
+  name: SCVD General Store MCP Server
+  slug: scvd-general-store-mcp-server
 - description: ''
   name: SCVD General Store MCP endpoint (Streamable HTTP)
   slug: scvd-general-store-mcp-endpoint-streamable-http
@@ -352,16 +352,16 @@ mcp_servers:
   name: SCVD Store Docs MCP endpoint
   slug: scvd-store-docs-mcp-endpoint
 modified: '2026-09-19'
-name: Record Creative Co. LLC
+name: SCVD General Store
 nav: Providers
 network: true
-overview: 'Record Creative Co. LLC publishes 1 API on the [APIs.io](https://apis.io/) network: SCVD General Store API. Tagged areas include Agents, Agentic Commerce, x402, Payments, and Micropayments.
+overview: 'SCVD General Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, Agentic Commerce, x402, Payments, and Micropayments.
 
 
-  The Record Creative Co. LLC catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The SCVD General Store catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Record Creative Co. LLC''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, support, changelog, and 55 more developer resources.'
+  SCVD General Store''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, support, changelog, and 55 more developer resources.'
 plans:
 - name: Scvd Store Plans Pricing
   plan_count: 35

@@ -173,13 +173,13 @@ description: Maison Safqa Holdings Limited operates Maison Safqa, a members-only
 image: https://cdn.shopify.com/s/files/1/0865/0224/4663/files/logo-ms.svg?v=1763809309
 layout: provider
 modified: '2026-07-20'
-name: Maison Safqa Holdings Limited
+name: Maison Safqa
 nav: Providers
 network: true
-overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Products API. Tagged areas include Company, Retail, E-Commerce, Luxury, and Marketplace.
+overview: 'Maison Safqa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Holdings Limited Inventory API and Holdings Limited Products API. Tagged areas include Company, Retail, E-Commerce, Luxury, and Marketplace.
 
 
-  Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 17 more developer resources.'
+  Maison Safqa''s developer surface includes documentation, support, authentication, sandbox, and 17 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 2

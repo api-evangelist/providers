@@ -171,7 +171,7 @@ modified: '2026-07-12'
 name: Sift
 nav: Providers
 network: true
-overview: 'Sift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Decisions API, Events API, Labels API, and 4 more. Tagged areas include Fraud Detection, Fraud Prevention, Risk, Trust and Safety, and Machine Learning.
+overview: 'Sift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Decisions API, Events API, Labels API, and 4 more. Tagged areas include Fraud Detection, Fraud Prevention, Risk Management, Trust and Safety, and Machine Learning.
 
 
   Sift''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -237,7 +237,7 @@ slug: sift
 tags:
 - Fraud Detection
 - Fraud Prevention
-- Risk
+- Risk Management
 - Trust and Safety
 - Machine Learning
 - Payment Fraud

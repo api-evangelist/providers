@@ -81,13 +81,13 @@ description: 'TripleW Ltd. (Belgian operating entity TripleW NV) is an industria
 image: https://cdn.prod.website-files.com/6509994d0ba4c9cac56b32c0/65b77561caea175779edc0ac_Webclip.jpg
 layout: provider
 modified: '2026-09-05'
-name: TripleW Ltd.
+name: TripleW
 nav: Providers
 network: true
-overview: 'TripleW Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Industrial Biotechnology, Bioplastics, and Lactic Acid.
+overview: 'TripleW is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Industrial Biotechnology, Bioplastics, and Lactic Acid.
 
 
-  TripleW Ltd.''s developer surface includes support and 4 more developer resources.'
+  TripleW''s developer surface includes support and 4 more developer resources.'
 random_paper: 16
 score:
   band: minimal

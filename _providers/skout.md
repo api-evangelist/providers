@@ -118,6 +118,6 @@ tags:
 - Consumer App
 - Mobile
 - Messaging
-- Social Networking
+- Social Network
 website: https://www.skout.com/en/
 ---

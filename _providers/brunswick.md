@@ -70,13 +70,13 @@ description: 'Brunswick Corporation is a global leader in marine recreation and 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brunswick.png
 layout: provider
 modified: '2026-04-21'
-name: Brunswick Corporation
+name: Brunswick
 nav: Providers
 network: true
-overview: 'Brunswick Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Boat Manufacturing, Boating, Connectivity, Electrification, and Marine.
+overview: 'Brunswick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Boat Manufacturing, Boating, Connectivity, Electrification, and Marine.
 
 
-  Brunswick Corporation''s developer surface includes engineering blog and 6 more developer resources.'
+  Brunswick''s developer surface includes engineering blog and 6 more developer resources.'
 press:
 - date: ''
   title: Brunswick Corporation Named to Newsweek's Most Trustworthy Companies in America 2026 List for Fourth Consecutive Year

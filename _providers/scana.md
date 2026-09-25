@@ -75,13 +75,13 @@ jsonld:
   slug: scana-context
 layout: provider
 modified: '2026-05-02'
-name: SCANA Corporation
+name: SCANA
 nav: Providers
 network: true
-overview: 'SCANA Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Electric Utility, Energy, Fortune 1000, Natural Gas, and South Carolina.
+overview: 'SCANA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Electric Utility, Energy, Fortune 1000, Natural Gas, and South Carolina.
 
 
-  The SCANA Corporation catalog on APIs.io includes 1 JSON-LD context.'
+  The SCANA catalog on APIs.io includes 1 JSON-LD context.'
 press:
 - date: ''
   title: NextEra Energy is seeking to acquire Dominion ...

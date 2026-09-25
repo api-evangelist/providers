@@ -51,7 +51,7 @@ modified: '2026-04-28'
 name: Molina Healthcare
 nav: Providers
 network: true
-overview: Molina Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: Molina Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500 and FHIR.
 press:
 - date: ''
   title: Annual Report for Fiscal Year 2025
@@ -71,7 +71,7 @@ press:
 random_paper: 10
 score:
   band: minimal
-  composite: 2.6
+  composite: 0.0
   coverage:
     artifact_dirs: 4
     catalog_earned: 14.0
@@ -79,7 +79,7 @@ score:
     catalog_gap: 101.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -94,6 +94,12 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 2.6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 0.0
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat
@@ -104,5 +110,6 @@ score:
 slug: molina-healthcare
 tags:
 - Fortune 500
+- FHIR
 website: https://www.molina-healthcare.com
 ---

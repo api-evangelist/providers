@@ -334,7 +334,7 @@
      "rank": 7
     },
     {
-     "name": "The HORIZ音s株式会社",
+     "name": "HORIZON SHIELD",
      "slug": "horizonshield-dev",
      "description": "The HORIZ音s株式会社 (The HORIZONs Co., Ltd., Hiratsuka, Kanagawa) operates HORIZON SHIELD, a buyer-side, agent-native fair-price verification service for Japanese construction and renovation estimates, built by a 30-year master carpenter on the open JCCDB dataset (95,403 items, CC BY 4.0). Its flagship KIRA server at mcp.horizonshield.dev is a free, anonymous remote MCP server (15 tools, 5 prompts) and A2A agent that audits a quoted price against fair ranges, flags overcharge tactics, and issues SHA-256 receipts anchored to Bitcoin via OpenTimestamps; a FairPriceAttestation tool bridges to Google's AP2 Cart Mandate. Around it sit a public MCP Verification Gate (the family's one OpenAPI, plus MCP and A2A) that measures other people's MCP servers against an A2A Conduct Extension the company authors, the JIDEC append-only verification ledger with an RFC 9727 api-catalog, the Yakumo verified-contractor directory MCP, a WebMCP intake server and a femtech source registry — every card JWS-signed, every surface unauthenticated by design, and paid for by buyers rather than contractors.",
      "score": 56.7,
@@ -3879,48 +3879,6 @@
      "rank": 87
     },
     {
-     "name": "91Squarefeet",
-     "slug": "91squarefeet",
-     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
      "name": "Greenlite",
      "slug": "greenlite",
      "description": "GreenLite Technologies is a construction permitting and plan-review platform that uses AI-powered technology and expert services to streamline building-permit approval for builders, developers, and jurisdictions. Its products include Atlas (a real-time permit tracking and management dashboard), LiteTable (AI-assisted plan review and code-compliance analysis), Private Plan Review (PPR), and Code Compliance & Pre-Check. GreenLite claims to reduce permitting timelines from 90-120+ days to 21-45 days and serves national QSR, retail, healthcare, education, and financial-institution brands. Backed by Craft Ventures and Insight Partners. GreenLite currently exposes no public developer API, documentation, or SDKs; this profile captures its company identity and security posture.",
@@ -3968,7 +3926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "ConstructionOnline",
@@ -4011,7 +3969,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Remarcable",
@@ -4054,7 +4012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Brickanta",
@@ -4096,7 +4054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Build",
@@ -4139,7 +4097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Ediphi",
@@ -4182,7 +4140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Northspyre",
@@ -4225,7 +4183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "UpCodes",
@@ -4268,7 +4226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Built Robotics",
@@ -4318,7 +4276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Document Crunch",
@@ -4361,7 +4319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Handoff",
@@ -4401,6 +4359,48 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
+     "name": "91Squarefeet",
+     "slug": "91squarefeet",
+     "description": "91Squarefeet is a Gurugram, India based design-and-build company delivering turnkey retail and office fit-outs for brands expanding their physical footprint across India. Founded 2018-2019 and backed by Y Combinator, Stellaris Venture Partners and Stride Ventures, it runs a full-stack, non-subcontracted model — in-house project management, a digitized supply chain spanning fixture factories, material OEMs, engineering consultants and labour contractors, and an internal AI-assisted project platform with a field mobile app — and reports 1,100+ delivered projects for brands including TATA, DLF, Godrej, Asian Paints, Kotak and Bluestone. It publishes no developer program, no API documentation and no OpenAPI. The only machine-readable surfaces on its host are the WordPress REST API its public website exposes (serving the company's own portfolio, client, case-study, property, testimonial and press-release content anonymously), a Rank Math llms.txt, and a gated WordPress MCP adapter endpoint.",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -8136,7 +8136,7 @@
      "rank": 184
     },
     {
-     "name": "Parsons Corporation",
+     "name": "Parsons",
      "slug": "parsons",
      "description": "Parsons Corporation is a major US corporation and Fortune 1000 company. The Parsons Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parsons/refs/heads/main/screenshots/parsons-2026-06-20T191422.png",
@@ -9546,7 +9546,7 @@
      "rank": 216
     },
     {
-     "name": "Sadbhav Engineering Limited",
+     "name": "Sadbhav Engineering",
      "slug": "sadbhaveng",
      "description": "Sadbhav Engineering Limited (SEL), operating at sadbhaveng.com, is an Indian infrastructure and civil-engineering contractor founded in 1988 by Vishnubhai M. Patel and headquartered in Ahmedabad, Gujarat. The company builds and operates large-scale roads and highways, mining, and irrigation projects, including Build-Operate-Transfer (BOT) concessions of national significance, and is publicly listed on the NSE and BSE. This is a traditional infrastructure/construction firm: it publishes an investor-relations and corporate website but exposes no developer API, SDK, documentation, or other machine-readable API surface. Surfaced into the API Evangelist network as a stub via vc-portfolio harvesting; an enrichment pass confirmed there is no API product to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadbhaveng/refs/heads/main/screenshots/sadbhaveng-2026-09-02T154244.png",
@@ -9803,7 +9803,7 @@
      "rank": 222
     },
     {
-     "name": "EQUIPTAL HOLDING LTD",
+     "name": "EQUIPTAL",
      "slug": "equiptal-holding-ltd",
      "description": "EQUIPTAL HOLDING LTD operates Moedatech (معداتك), Saudi Arabia's first digital procurement and rental marketplace for heavy construction equipment, connecting contractors with verified suppliers of excavators, cranes, and trucks through RFQs, real-time bidding, and audit-ready digital contracts. Founded in Riyadh in 2020 by Ali Merie and Mansour Hmaid, the company pairs the marketplace with a telematics/fleet layer (built on Traccar GPS tracking) so equipment owners can monitor real-time asset performance. The product ships as iOS and Android apps plus a web app; there is no publicly documented developer API at this time. The company is backed by 500 Global and Plug and Play Middle East. This profile was surfaced from the 500 Global portfolio and enriched from the company's public web, brand (moedatech.net), and GitHub presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equiptal-holding-ltd/refs/heads/main/screenshots/equiptal-holding-ltd-2026-07-25T213550.png",
@@ -10767,7 +10767,7 @@
      "rank": 244
     },
     {
-     "name": "Planby Technologies, Inc.",
+     "name": "Planby Technologies",
      "slug": "planby-technologies-inc",
      "description": "Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformation partner for architecture and construction organizations, helping construction firms, architectural offices, and interior studios adopt AI-powered workflows. Its products include PLANA (interior and concept CG rendering automation) and PLAD (apartment exterior design visualization), which cut visualization timeframes from days to hours, alongside its AX Program for organizational AI transformation (diagnosis, training, and workflow integration) and Knowledge System Building that structures construction data such as blueprints, specifications, and defect records into domain-specific data frameworks. Clients include Samsung E&A, POSCO E&C, Hyundai, Daewoo E&C, and Samsung C&T. Backed by 500 Global. PLANBY publishes no public API or developer surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/planby-technologies-inc/refs/heads/main/screenshots/planby-technologies-inc-2026-09-02T151359.png",
@@ -12287,7 +12287,7 @@
      "rank": 279
     },
     {
-     "name": "Renotag, Inc.",
+     "name": "Renotag",
      "slug": "renotag-inc",
      "description": "Renotag, Inc. is a Calgary, Canada based construction-technology startup (founded 2020, backed by 500 Global) that builds home-renovation and construction cost-estimation software. Its product produces localized renovation estimates and material takeoffs in minutes by combining user inputs with regional labor and material pricing data, helping contractors quote and close more business. As of this enrichment pass Renotag publishes no public developer program, API, OpenAPI specification, SDK, or documentation surface; the primary web properties (renotag.com and api.renotag.com) currently return HTTP 301 redirect loops, and the app is a private login at app.renotag.com. This profile is retained as a portfolio lead surfaced from the 500 Global portfolio.",
      "score": 5.0,

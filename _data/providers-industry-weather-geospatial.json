@@ -2559,7 +2559,7 @@
      "rank": 55
     },
     {
-     "name": "Vortx AI Private Limited",
+     "name": "emem",
      "slug": "emem-dev",
      "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
      "score": 49.3,
@@ -11293,6 +11293,56 @@
      "rank": 248
     },
     {
+     "name": "Entergy",
+     "slug": "entergy",
+     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
+     "score": 27.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 249
+    },
+    {
      "name": "RuhAN",
      "slug": "ruhan",
      "description": "RuhAN (ruhan.co) is a Turkish mining and underground-sciences platform covering mining licence workflows, MAPEG and Turkish mining legislation, tender and field reports, geology and mineral exploration, geophysics data processing, GIS and remote sensing, and the YTK, CED (EIA), technical-supervisor, drilling and field-service market, plus a marketplace for sites, ore, equipment, jobs and expert services. It is a Next.js application on Vercel and is pre-launch: its own /api/health endpoint reports that the Supabase and Gemini backends are not configured, the iyzico payment integration is not live, and all seven commerce and privacy documents under /legal are labelled draft text. RuhAN publishes no OpenAPI, AsyncAPI, GraphQL SDL, MCP server or agent card. Its only machine-readable document is an llms.txt, and its only reachable HTTP surface is two undocumented endpoints -- GET /api/health and POST /api/lead.",
@@ -11333,7 +11383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Aarav Unmanned Systems (Aereo)",
@@ -11375,7 +11425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Canada Energy Regulator",
@@ -11425,7 +11475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "LeoLabs",
@@ -11468,7 +11518,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Appalachian Regional Commission",
@@ -11518,7 +11568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Agrology",
@@ -11560,10 +11610,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
-     "name": "Blassa Inc.",
+     "name": "Blassa",
      "slug": "blassa-inc",
      "description": "Blassa is an AI-powered location intelligence and geocoding platform built for the informal addressing systems common across the Middle East and Africa (MEA), where up to 40% of deliveries fail on the first attempt. The Blassa API turns ambiguous location descriptions and photos into precise coordinates and structured, verified addresses, offering forward and reverse geocoding, multi-language address autocomplete (Arabic, French, and local languages), address validation with deliverability scoring, and photo-to-location conversion. It targets logistics, e-commerce, and last-mile delivery companies looking to cut failed deliveries and improve checkout conversion. Founded in 2021 and backed by 500 Global and the Sanabil Accelerator, Blassa exposes its capabilities through a credit-metered REST API with free, Pro, and Enterprise plans, an API-key auth model, webhook support, and a hosted developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png",
@@ -11594,56 +11644,6 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 255
-    },
-    {
-     "name": "Entergy",
-     "slug": "entergy",
-     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
-     "score": 26.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 15.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -15857,7 +15857,7 @@
      "rank": 347
     },
     {
-     "name": "Aino World Inc.",
+     "name": "Aino World",
      "slug": "aino-world-inc",
      "description": "Aino World Inc. builds Aino, an AI-powered spatial analytics platform for architecture, urban planning, and real estate development teams. Aino automates site research by pulling zoning, parcel, transit, demographic, and environmental data from 10+ sources (Google Maps, Regrid, Rentcast, OpenStreetMap, Overture Maps, Microsoft Planetary Computer, Kontur.io, and the US Census), runs GIS-free spatial analysis, and generates presentation-ready maps and dashboards inside a shared, collaborative workspace. Coverage spans 400+ cities with thousands of reusable data layers and CAD/GeoJSON (DXF) exports. Backed by 500 Global. Programmatic API access is offered on the enterprise Business tier.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aino-world-inc/refs/heads/main/screenshots/aino-world-inc-2026-07-25T195359.png",
@@ -18418,7 +18418,7 @@
      "rank": 405
     },
     {
-     "name": "GeoCat bv",
+     "name": "GeoCat",
      "slug": "geocat",
      "description": "GeoCat bv is a Dutch company built around the open-source geospatial stack, and is the primary maintainer of GeoNetwork, the catalogue software that runs a large share of Europe's INSPIRE metadata infrastructure. It sells GeoCat Bridge, GeoCat Live and hosted catalogue services, and runs a public demonstration estate serving both classic OGC web services and a modern OGC API - Features endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geocat/refs/heads/main/screenshots/geocat-2026-09-02T145559.png",
@@ -18461,7 +18461,7 @@
      "rank": 406
     },
     {
-     "name": "GeoSolutions di Giannecchini Simone & C. s.a.s.",
+     "name": "GeoSolutions",
      "slug": "geosolutions",
      "description": "GeoSolutions is an Italian company and one of the principal maintainers of the open-source geospatial server stack — GeoServer, GeoNetwork, MapStore and GeoNode. It sells enterprise support, deployment and custom development around those projects. Its public demonstration server is a reference OGC deployment, serving classic OGC web services alongside a modern OGC API - Features endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geosolutions/refs/heads/main/screenshots/geosolutions-2026-09-02T145703.png",
@@ -22251,7 +22251,7 @@
      "rank": 494
     },
     {
-     "name": "Spacebel s.a.",
+     "name": "Spacebel",
      "slug": "spacebel",
      "description": "Spacebel s.a. is a Belgian software company building flight and ground software for space missions, including on-board software for ESA missions and Earth-observation ground segments, catalogues and data-access services. Its GIS estate serves Sentinel-derived Earth-observation products through OGC-standard web services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spacebel/refs/heads/main/screenshots/spacebel-2026-09-02T160313.png",

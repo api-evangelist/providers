@@ -382,6 +382,6 @@ tags:
 - Blockchain
 - Knowledge Graph
 - Consent
-- Agentic AI
+- AI Agents
 website: https://burstiq.com
 ---

@@ -57,7 +57,7 @@ modified: '2026-07-21'
 name: TechieMatter
 nav: Providers
 network: true
-overview: 'TechieMatter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Technical Assessment.
+overview: 'TechieMatter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Talent, and Technical Assessment.
 
 
   TechieMatter''s developer surface includes engineering blog and 2 more developer resources.'
@@ -97,7 +97,7 @@ security:
 slug: techiematter
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Hiring
 - Talent
 - Technical Assessment

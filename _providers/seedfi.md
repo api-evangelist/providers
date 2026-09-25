@@ -39,7 +39,7 @@ common:
 - group: other
   title: ''
   type: ParentCompany
-  url: https://apis.io/providers/cross-river-bank/
+  url: https://apis.io/providers/crossriver/
 created: '2026-07-17'
 description: SeedFi was a U.S. consumer fintech that offered credit-building loans and savings products (its "Credit Builder Prime" and "Borrow & Grow" plans) aimed at helping financially underserved borrowers build credit history and cash savings simultaneously. Backed by a16z and other investors, SeedFi was acquired by Cross River Bank in 2022, and its consumer offerings were subsequently folded into Credit Karma (Intuit). The seedfi.com domain now 302-redirects to a Credit Karma support article; SeedFi operates no independent developer portal, public API, documentation, or OpenAPI surface. This profile is retained as a network company record with no API to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seedfi.png

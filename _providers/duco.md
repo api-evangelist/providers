@@ -156,7 +156,7 @@ tags:
 - Data Quality
 - Capital Markets
 - Regulatory Reporting
-- Agentic AI
+- AI Agents
 - Fintech
 website: https://du.co/
 ---

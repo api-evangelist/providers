@@ -92,7 +92,7 @@ modified: '2026-07-19'
 name: Fizz
 nav: Providers
 network: true
-overview: 'Fizz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Community, and Campus.
+overview: 'Fizz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Network, Community, and Campus.
 
 
   Fizz''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -143,7 +143,7 @@ slug: fizz
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Community
 - Campus
 - Higher Education

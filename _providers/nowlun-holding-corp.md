@@ -96,16 +96,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nowlun-hol
 layout: provider
 mcp_servers:
 - description: ''
-  name: Nowlun Holding Corp. MCP Server
-  slug: nowlun-holding-corp-mcp-server
+  name: Nowlun MCP Server
+  slug: nowlun-mcp-server
 modified: '2026-07-20'
-name: Nowlun Holding Corp.
+name: Nowlun
 nav: Providers
 network: true
-overview: 'Nowlun Holding Corp. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight Forwarding, Shipping, and Supply Chain.
+overview: 'Nowlun publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Freight Forwarding, Shipping, and Supply Chain.
 
 
-  Nowlun Holding Corp.''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
+  Nowlun''s developer surface includes authentication, signup flow, engineering blog, support, and 7 more developer resources.'
 random_paper: 6
 scopes:
 - name: Nowlun Holding Corp Scopes

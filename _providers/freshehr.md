@@ -144,7 +144,7 @@ tags:
 - Clinical Informatics
 - Electronic Health Records
 - openEHR
-- HL7 FHIR
+- FHIR
 - SNOMED CT
 - Interoperability
 - Standards

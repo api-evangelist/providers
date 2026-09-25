@@ -83,10 +83,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/continental-ag.png
 layout: provider
 modified: '2026-05-06'
-name: Continental AG
+name: Continental
 nav: Providers
 network: true
-overview: Continental AG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tires, Tier 1 Supplier, ADAS, and Brake Systems.
+overview: Continental is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tires, Tier 1 Supplier, ADAS, and Brake Systems.
 plans:
 - name: Continental Ag Plans Pricing
   plan_count: 1

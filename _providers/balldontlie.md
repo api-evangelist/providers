@@ -61,7 +61,7 @@ modified: '2026-05-28'
 name: balldontlie
 nav: Providers
 network: true
-overview: balldontlie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
+overview: balldontlie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness, Public APIs, and Sports.
 random_paper: 18
 score:
   band: minimal
@@ -101,5 +101,6 @@ slug: balldontlie
 tags:
 - Sports And Fitness
 - Public APIs
+- Sports
 website: https://www.balldontlie.io
 ---

@@ -39,10 +39,10 @@ created: '2026-08-20'
 description: Spacebel s.a. is a Belgian software company building flight and ground software for space missions, including on-board software for ESA missions and Earth-observation ground segments, catalogues and data-access services. Its GIS estate serves Sentinel-derived Earth-observation products through OGC-standard web services.
 layout: provider
 modified: '2026-08-20'
-name: Spacebel s.a.
+name: Spacebel
 nav: Providers
 network: true
-overview: Spacebel s.a. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
+overview: Spacebel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
 random_paper: 17
 score:
   band: minimal

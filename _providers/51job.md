@@ -69,7 +69,7 @@ modified: '2026-07-17'
 name: 51job
 nav: Providers
 network: true
-overview: '51job is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Recruitment, Human Resources, and Job Search.
+overview: '51job is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Recruiting, Human Resources, and Job Search.
 
 
   51job''s developer surface includes support and 5 more developer resources.'
@@ -117,7 +117,7 @@ slug: 51job
 tags:
 - Company
 - Enterprise
-- Recruitment
+- Recruiting
 - Human Resources
 - Job Search
 - Hiring

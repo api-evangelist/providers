@@ -516,5 +516,6 @@ tags:
 - Virtualization
 - Kubernetes
 - Database
+- Data Center
 website: https://www.nutanix.com
 ---

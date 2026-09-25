@@ -250,7 +250,6 @@ tags:
 - Tool Use
 - Function Calling
 - MCP
-- Agentic AI
 - Automation
 use_cases:
 - description: Agents use web search and fetch skills to retrieve, synthesize, and summarize information from the internet in response to user queries.

@@ -70,13 +70,13 @@ description: EverySim Inc. (everysim.io) is a 500 Global-backed company that ope
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/everysim-inc.png
 layout: provider
 modified: '2026-07-19'
-name: EverySim Inc.
+name: EverySim
 nav: Providers
 network: true
-overview: 'EverySim Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, OpenID Connect, SSO, and Identity.
+overview: 'EverySim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, OpenID Connect, SSO, and Identity.
 
 
-  EverySim Inc.''s developer surface includes authentication and 5 more developer resources.'
+  EverySim''s developer surface includes authentication and 5 more developer resources.'
 random_paper: 11
 scopes:
 - name: Everysim Inc Scopes

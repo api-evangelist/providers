@@ -247,22 +247,22 @@ image: https://moltrust.ch/img/moltrust-logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: CryptoKRI GmbH MCP Server
-  slug: cryptokri-gmbh-mcp-server
+  name: MolTrust MCP Server
+  slug: moltrust-mcp-server
 - description: ''
   name: Live endpoint
   slug: live-endpoint
 modified: '2026-09-19'
-name: CryptoKRI GmbH
+name: MolTrust
 nav: Providers
 network: true
-overview: 'CryptoKRI GmbH publishes 2 APIs on the [APIs.io](https://apis.io/) network: MolTrust API and MoltGuard API. Tagged areas include AI Agents, Agent Identity, Decentralized Identity, Verifiable Credentials, and Trust and Safety.
+overview: 'MolTrust publishes 2 APIs on the [APIs.io](https://apis.io/) network, including MoltGuard API, and 1 more. Tagged areas include AI Agents, Agent Identity, Decentralized Identity, Verifiable Credentials, and Trust and Safety.
 
 
-  The CryptoKRI GmbH catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The MolTrust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CryptoKRI GmbH''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  MolTrust''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Moltrust Ch Plans Pricing
   plan_count: 5

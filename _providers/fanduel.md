@@ -148,5 +148,6 @@ tags:
 - Casinos
 - Gaming
 - Regulated
+- Sports
 website: https://www.fanduel.com/
 ---

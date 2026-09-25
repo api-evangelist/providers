@@ -247,6 +247,6 @@ tags:
 - DevOps
 - Continuous Integration
 - Software Quality
-- Agentic AI
+- AI Agents
 website: https://testsigma.com/
 ---

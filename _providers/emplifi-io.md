@@ -1,0 +1,325 @@
+---
+access_model:
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    agentic_commerce: false
+    auth_clarity: negotiable
+    consent_identity: false
+    delegated_identity: documented
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: documented
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 30.3
+  scored_at: '2026-09-24'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Socialbakers Agentic Access
+  operation_count: 41
+  slug: socialbakers-agentic-access
+  summary_line: 41 operations · 9 acting
+api_count: 1
+apis:
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Facebook Ads content and metrics
+  name: Socialbakers Ads API
+  slug: socialbakers-ads-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Digital asset management — collections and assets
+  name: Socialbakers Assets API
+  slug: socialbakers-assets-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Customer care cases and messages
+  name: Socialbakers Care API
+  slug: socialbakers-care-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Community content, labeling and engagement metrics
+  name: Socialbakers Community API
+  slug: socialbakers-community-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Social listening content and metrics
+  name: Socialbakers Listening API
+  slug: socialbakers-listening-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Published content (posts / videos / tweets) per network
+  name: Socialbakers Posts API
+  slug: socialbakers-posts-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Time-series and aggregate metrics per social profile
+  name: Socialbakers Profile Metrics API
+  slug: socialbakers-profile-metrics-api
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Managed profiles, labels, label groups, listening queries, ad accounts
+  name: Socialbakers Reference API
+  slug: socialbakers-reference-api
+artifact_total: 24
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads API
+  slug: open-socialbakers-ads-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Assets API
+  slug: open-socialbakers-assets-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Care API
+  slug: open-socialbakers-care-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Community API
+  slug: open-socialbakers-community-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Listening API
+  slug: open-socialbakers-listening-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Posts API
+  slug: open-socialbakers-posts-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Profile Metrics API
+  slug: open-socialbakers-profile-metrics-api
+- collection_type: open
+  name: Emplifi (Socialbakers) Public Ads Reference API
+  slug: open-socialbakers-reference-api
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.emplifi.io/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/agentic-access/socialbakers-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/socialbakers-agentic-access.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/mcp/socialbakers-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/socialbakers-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/mcp/socialbakers-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/socialbakers-tool-crosswalk.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/packages/socialbakers-packages.yml
+  title: ''
+  type: Packages
+  url: packages/socialbakers-packages.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/plans/socialbakers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/socialbakers-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/changelog/socialbakers-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/socialbakers-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.emplifi.io/platform/latest/home/release-notes.md
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/security/socialbakers-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/socialbakers-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://emplifi.io/legal/trust-center/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/overlays/socialbakers-emplifi-public-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/socialbakers-emplifi-public-api-overlay.yaml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/security/socialbakers-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/socialbakers-domain-security.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.emplifi.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.emplifi.io/platform/latest/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.emplifi.io/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.emplifi.io/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/lifecycle/socialbakers-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/socialbakers-lifecycle.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/llms/socialbakers-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/socialbakers-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.emplifi.io/platform/latest/home/emplifi-public-api-integration.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.emplifi.io/hc/en-us
+- group: start
+  title: ''
+  type: Login
+  url: https://emplifi.io/login/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Emplifi
+- group: company
+  title: ''
+  type: Blog
+  url: https://emplifi.io/resources/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://emplifi.io/pricing/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://emplifi.io/legal/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://emplifi.io/legal/website-terms-of-use/
+created: '2026-07-17'
+description: Emplifi (formerly Socialbakers) is a unified social customer experience platform combining social marketing, commerce and care. Socialbakers was a pioneering social media analytics and marketing platform, founded 2008 in Prague, that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat; it joined Astute and rebranded as Emplifi in 2021 (socialbakers.com now redirects to emplifi.io). This record was listed as Socialbakers until 2026-09-24. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.
+image: https://base.cdn.emplifi.io/suite/main/favicon.ico
+layout: provider
+modified: '2026-08-13'
+name: Emplifi
+nav: Providers
+network: true
+overview: 'Emplifi publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Socialbakers Ads API, Socialbakers Assets API, Socialbakers Care API, and 5 more. Tagged areas include Company, Marketing, Social Media, Analytics, and Social Media Analytics.
+
+
+  Emplifi''s developer surface includes changelog, release notes, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
+plans:
+- name: Socialbakers Plans Pricing
+  plan_count: 9
+  slug: socialbakers-plans-pricing
+random_paper: 13
+rate_limits:
+- limit_count: 2
+  name: Socialbakers Rate Limits
+  slug: socialbakers-rate-limits
+scopes:
+- name: Socialbakers Scopes
+  scope_count: 0
+  slug: socialbakers-scopes
+  summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: developing
+  composite: 48.4
+  coverage:
+    artifact_dirs: 23
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 92.1
+    contract_governance: 4.5
+    contract_quality: 13.0
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    operational_transparency: 57.9
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
+  scored_at: '2026-09-24'
+  upsert:
+    applies: true
+    score: 0.0
+screenshot: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png
+security:
+- kind: authentication
+  name: Socialbakers Authentication
+  slug: socialbakers-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Socialbakers Domain Security
+  slug: socialbakers-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Socialbakers Trust Center
+  slug: socialbakers-trust-center
+  summary_line: SOC 2 Type II, SOC 1 Type II, ISO 27001, PCI, GDPR, CCPA, EU-US Data Privacy Framework, UK extension to the EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, EcoVadis Bronze Sustainability Rating
+slug: emplifi-io
+tags:
+- Company
+- Marketing
+- Social Media
+- Analytics
+- Social Media Analytics
+- Social Listening
+- Marketing Analytics
+- Digital Asset Management
+- Customer Care
+- Emplifi
+website: https://www.emplifi.io/
+---

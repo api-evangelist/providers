@@ -66,13 +66,13 @@ description: EQUIPTAL HOLDING LTD operates Moedatech (معداتك), Saudi Arabi
 image: https://equiptal.net/logo-icon.svg
 layout: provider
 modified: '2026-07-19'
-name: EQUIPTAL HOLDING LTD
+name: EQUIPTAL
 nav: Providers
 network: true
-overview: 'EQUIPTAL HOLDING LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Heavy Equipment, Equipment Rental, and Marketplace.
+overview: 'EQUIPTAL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Heavy Equipment, Equipment Rental, and Marketplace.
 
 
-  EQUIPTAL HOLDING LTD''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  EQUIPTAL''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 0
 score:
   band: minimal

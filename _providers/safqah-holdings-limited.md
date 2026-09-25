@@ -70,13 +70,13 @@ description: Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Fi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safqah-holdings-limited.png
 layout: provider
 modified: '2026-07-21'
-name: Safqah Holdings Limited
+name: Safqah
 nav: Providers
 network: true
-overview: 'Safqah Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Real Estate, Investment, and Financing.
+overview: 'Safqah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Real Estate, Investment, and Financing.
 
 
-  Safqah Holdings Limited''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+  Safqah''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 8
 score:
   band: emerging

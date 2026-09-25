@@ -50,10 +50,10 @@ description: SK Finance Ltd (skfin.in) is a Jaipur, India-based non-banking fina
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skfin.png
 layout: provider
 modified: '2026-07-21'
-name: SK Finance Ltd
+name: SK Finance
 nav: Providers
 network: true
-overview: SK Finance Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, NBFC, and Vehicle Finance.
+overview: SK Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Lending, NBFC, and Vehicle Finance.
 random_paper: 11
 score:
   band: minimal

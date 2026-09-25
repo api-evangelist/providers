@@ -58,13 +58,13 @@ description: Huntsman Corporation is a publicly traded global chemical manufactu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huntsman.png
 layout: provider
 modified: '2026-04-28'
-name: Huntsman Corporation
+name: Huntsman
 nav: Providers
 network: true
-overview: 'Huntsman Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Manufacturing, Materials, Specialty Chemicals, and Fortune 500.
+overview: 'Huntsman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Manufacturing, Materials, Specialty Chemicals, and Fortune 500.
 
 
-  Huntsman Corporation''s developer surface includes engineering blog and 3 more developer resources.'
+  Huntsman''s developer surface includes engineering blog and 3 more developer resources.'
 press:
 - date: ''
   title: Huntsman Announces First Quarter 2026 Earnings

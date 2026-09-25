@@ -70,13 +70,13 @@ description: Focused Space, Inc. operates focused.space, a consumer productivity
 image: https://framerusercontent.com/assets/pgNotUHCX8ahZZ7knkf4D7FYrI.jpg
 layout: provider
 modified: '2026-07-19'
-name: Focused Space, Inc.
+name: Focused Space
 nav: Providers
 network: true
-overview: 'Focused Space, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Focus, Body Doubling, and ADHD.
+overview: 'Focused Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Focus, Body Doubling, and ADHD.
 
 
-  Focused Space, Inc.''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
+  Focused Space''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
 random_paper: 1
 score:
   band: minimal

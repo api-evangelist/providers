@@ -88,7 +88,7 @@ modified: '2026-07-21'
 name: Reindeer AI
 nav: Providers
 network: true
-overview: 'Reindeer AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Enterprise Automation, and Supply Chain.
+overview: 'Reindeer AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Automation, and Supply Chain.
 
 
   Reindeer AI''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
@@ -133,7 +133,7 @@ slug: reindeer-ai
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Enterprise Automation
 - Supply Chain
 - Finance

@@ -142,7 +142,7 @@ tags:
 - Mortgage
 - Lending
 - Underwriting
-- Agentic AI
+- AI Agents
 - Loan Origination
 - Financial Services
 website: https://balerion.ai

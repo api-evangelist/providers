@@ -50,10 +50,10 @@ description: Samastha Synergy Pte. Ltd. operates Djoin (djoin.id), positioning i
 image: https://djoin.id/android-chrome-512x512.png
 layout: provider
 modified: '2026-07-21'
-name: Samastha Synergy Pte. Ltd.
+name: Djoin
 nav: Providers
 network: true
-overview: Samastha Synergy Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Indonesia, and Cooperatives.
+overview: Djoin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Indonesia, and Cooperatives.
 random_paper: 3
 score:
   band: minimal

@@ -98,13 +98,13 @@ description: 'Huma Technologies Inc. operates Huma Finance, described as the fir
 image: https://huma.finance/favicon.ico
 layout: provider
 modified: '2026-07-19'
-name: Huma Technologies Inc.
+name: Huma Technologies
 nav: Providers
 network: true
-overview: 'Huma Technologies Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PayFi, DeFi, Payments, and Lending.
+overview: 'Huma Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PayFi, DeFi, Payments, and Lending.
 
 
-  Huma Technologies Inc.''s developer surface includes documentation, signup flow, support, and 10 more developer resources.'
+  Huma Technologies'' developer surface includes documentation, signup flow, support, and 10 more developer resources.'
 random_paper: 3
 score:
   band: minimal

@@ -28,7 +28,7 @@ modified: '2026-07-19'
 name: Koo
 nav: Providers
 network: true
-overview: Koo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Microblogging, and India.
+overview: Koo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Network, Microblogging, and India.
 random_paper: 21
 security:
 - kind: domain-security
@@ -39,7 +39,7 @@ slug: koo
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Microblogging
 - India
 - Consumer

@@ -280,7 +280,7 @@ tags:
 - Government Data
 - Geospatial
 - Real Estate
-- Risk
+- Risk Management
 - People Data
 website: https://www.crimeometer.com/
 ---

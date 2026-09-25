@@ -58,13 +58,13 @@ description: Pall Corporation is a filtration, separation, and purification solu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pall.png
 layout: provider
 modified: '2026-04-28'
-name: Pall Corporation
+name: Pall
 nav: Providers
 network: true
-overview: 'Pall Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Filtration, Separation, Purification, and Industrial.
+overview: 'Pall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Filtration, Separation, Purification, and Industrial.
 
 
-  Pall Corporation''s developer surface includes support and 3 more developer resources.'
+  Pall''s developer surface includes support and 3 more developer resources.'
 press:
 - date: ''
   title: US Fumbles AI Messaging Amid Global Competition

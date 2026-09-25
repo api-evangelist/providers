@@ -243,19 +243,19 @@ image: https://optionsahoy.com/apple-touch-icon.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: AlphaLatitude Inc. MCP Server
-  slug: alphalatitude-inc-mcp-server
+  name: OptionsAhoy MCP Server
+  slug: optionsahoy-mcp-server
 - description: ''
   name: OptionsAhoy MCP endpoint (Streamable HTTP)
   slug: optionsahoy-mcp-endpoint-streamable-http
 modified: '2026-09-19'
-name: AlphaLatitude Inc.
+name: OptionsAhoy
 nav: Providers
 network: true
-overview: 'AlphaLatitude Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: OptionsAhoy Calculator API. Tagged areas include Equity Compensation, Tax, Stock Options, Financial Planning, and Personal Finance.
+overview: 'OptionsAhoy publishes 1 API on the [APIs.io](https://apis.io/) network: Calculator API. Tagged areas include Equity Compensation, Tax, Stock Options, Financial Planning, and Personal Finance.
 
 
-  AlphaLatitude Inc.''s developer surface includes documentation, API reference, getting-started guide, support, changelog, sandbox, authentication, and 34 more developer resources.'
+  OptionsAhoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, sandbox, authentication, and 34 more developer resources.'
 plans:
 - name: Optionsahoy Com Plans Pricing
   plan_count: 1

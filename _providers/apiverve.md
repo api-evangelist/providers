@@ -302,7 +302,7 @@ tags:
 - DNS
 - WHOIS
 - SSL
-- Email Validation
+- Email Verification
 - Phone Validation
 - Exchange Rates
 - metals prices

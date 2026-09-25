@@ -94,13 +94,13 @@ description: Nexon (operated by Nexon Korea Co., Ltd.) is a global video game pu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexon-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Nexon Inc
+name: Nexon
 nav: Providers
 network: true
-overview: 'Nexon Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Video Games, and Game Data.
+overview: 'Nexon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Video Games, and Game Data.
 
 
-  Nexon Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 5 more developer resources.'
+  Nexon''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 5 more developer resources.'
 random_paper: 9
 score:
   band: emerging

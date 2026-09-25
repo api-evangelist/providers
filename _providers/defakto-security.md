@@ -272,7 +272,7 @@ tags:
 - Cloud Security
 - gRPC
 - Machine Identity
-- Agentic AI
+- AI Agents
 - Developer Tools
 - Identity Federation
 website: https://www.defakto.security/

@@ -234,16 +234,16 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/green-dot.png
 layout: provider
 modified: '2026-07-23'
-name: Green Dot Corporation
+name: Green Dot
 nav: Providers
 network: true
-overview: 'Green Dot Corporation publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Banking as a Service, Embedded Finance, Prepaid Cards, and Banking.
+overview: 'Green Dot publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Banking as a Service, Embedded Finance, Prepaid Cards, and Banking.
 
 
-  The Green Dot Corporation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Green Dot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Dot Corporation''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 23 more developer resources.'
+  Green Dot''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 23 more developer resources.'
 plans:
 - name: Green Dot Plans Pricing
   plan_count: 1

@@ -131,13 +131,13 @@ description: Balance (Getbalance) provides financial infrastructure for B2B comm
 image: https://www.getbalance.com/wp-content/uploads/2023/06/logo.svg
 layout: provider
 modified: '2026-07-19'
-name: Getbalance
+name: Balance
 nav: Providers
 network: true
-overview: 'Getbalance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, B2B Payments, Trade Credit, and Buy Now Pay Later.
+overview: 'Balance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, B2B Payments, Trade Credit, and Buy Now Pay Later.
 
 
-  Getbalance''s developer surface includes documentation, API reference, developer portal, signup flow, engineering blog, support, changelog, and 13 more developer resources.'
+  Balance''s developer surface includes documentation, API reference, developer portal, signup flow, engineering blog, support, changelog, and 13 more developer resources.'
 random_paper: 18
 score:
   band: thin

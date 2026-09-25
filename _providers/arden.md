@@ -124,7 +124,7 @@ tags:
 - Audit Automation
 - GRC
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Financial Reporting
 - Y Combinator
 website: https://ardentech.ai/

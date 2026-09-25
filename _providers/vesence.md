@@ -87,7 +87,7 @@ modified: '2026-07-21'
 name: Vesence
 nav: Providers
 network: true
-overview: 'Vesence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Legal Tech, and Professional Services.
+overview: 'Vesence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Legal Tech, and Professional Services.
 
 
   Vesence''s developer surface includes documentation, support, engineering blog, signup flow, and 6 more developer resources.'
@@ -132,7 +132,7 @@ slug: vesence
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Legal Tech
 - Professional Services
 - Microsoft Office

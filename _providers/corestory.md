@@ -630,6 +630,6 @@ tags:
 - Code Analysis
 - Documentation
 - MCP
-- Agentic
+- AI Agents
 website: https://corestory.ai
 ---

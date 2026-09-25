@@ -131,7 +131,7 @@ modified: '2026-05-25'
 name: Polestar
 nav: Providers
 network: true
-overview: 'Polestar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Electric Vehicles, EV, Connected Car, and Premium Vehicles.
+overview: 'Polestar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Electric Vehicles, Connected Car, Premium Vehicles, and Sustainability.
 
 
   Polestar''s developer surface includes support, GitHub presence, YouTube channel, engineering blog, and 17 more developer resources.'
@@ -184,7 +184,6 @@ slug: polestar-cars
 tags:
 - Automotive
 - Electric Vehicles
-- EV
 - Connected Car
 - Premium Vehicles
 - Sustainability

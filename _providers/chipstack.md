@@ -115,6 +115,5 @@ tags:
 - Verification
 - EDA
 - AI Agents
-- Agentic AI
 website: https://www.chipstack.ai/
 ---

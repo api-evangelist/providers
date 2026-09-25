@@ -233,7 +233,7 @@ tags:
 - Options
 - Crypto
 - Market Data
-- Agentic
+- AI Agents
 - MCP
 website: https://public.com
 ---

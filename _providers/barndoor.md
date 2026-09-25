@@ -632,7 +632,7 @@ modified: '2026-05-19'
 name: Barndoor
 nav: Providers
 network: true
-overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 3 more. Tagged areas include AI Agents, AI Governance, Agentic AI, MCP, and Policy Enforcement.
+overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Connections API, MCP Proxy API, and 3 more. Tagged areas include AI Agents, AI Governance, MCP, Policy Enforcement, and Authentication.
 
 
   The Barndoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -734,7 +734,6 @@ solutions:
 tags:
 - AI Agents
 - AI Governance
-- Agentic AI
 - MCP
 - Policy Enforcement
 - Authentication

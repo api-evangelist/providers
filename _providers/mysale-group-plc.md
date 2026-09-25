@@ -45,10 +45,10 @@ description: 'MySale Group PLC is a former AIM-listed online retailer that opera
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mysale-group-plc.png
 layout: provider
 modified: '2026-07-20'
-name: MYSALE GROUP PLC
+name: MySale
 nav: Providers
 network: true
-overview: MYSALE GROUP PLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Marketplace.
+overview: MySale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Marketplace.
 random_paper: 11
 score:
   band: minimal

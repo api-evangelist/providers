@@ -65,7 +65,12 @@ apis:
   description: Model catalog discovery.
   name: Featherless AI Models API
   slug: featherless-models-api
-artifact_total: 18
+- baseURL: https://api.featherless.ai/v1
+  baseurl_source: declared
+  description: Plan and concurrency information
+  name: Featherless AI Account API
+  slug: recursal-ai-inc-account-api
+artifact_total: 19
 asyncapis:
 - description: AsyncAPI 2.6 description of Featherless AI's **chat completion streaming** surface. Featherless AI's core inference API is OpenAI-compatible and does not publish a WebSocket API for chat. The asynchro
   name: Featherless AI Chat Completions Streaming (HTTP + SSE)
@@ -152,7 +157,7 @@ modified: '2026-06-21'
 name: Featherless AI
 nav: Providers
 network: true
-overview: 'Featherless AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and Open Models.
+overview: 'Featherless AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and Open Models.
 
 
   The Featherless AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -182,7 +187,7 @@ rules:
   slug: featherless-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.2
+  composite: 40.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.8
@@ -190,11 +195,11 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 63.6
+    contract_quality: 54.7
     developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 34.2
@@ -203,9 +208,9 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
+      derived: 1
+      marker_coverage: 20.0
+      total: 5
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat

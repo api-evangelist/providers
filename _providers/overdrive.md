@@ -141,7 +141,7 @@ modified: '2026-07-20'
 name: OverDrive
 nav: Providers
 network: true
-overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Libraries, Ebooks, and Audiobooks.
+overview: 'OverDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Library, Ebooks, and Audiobooks.
 
 
   OverDrive''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
@@ -199,7 +199,7 @@ slug: overdrive
 tags:
 - Company
 - Books
-- Libraries
+- Library
 - Ebooks
 - Audiobooks
 - Digital Media

@@ -868,7 +868,7 @@ modified: '2026-06-05'
 name: Inductive Automation
 nav: Providers
 network: true
-overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Agent Group API, Agent Management API, and 84 more. Tagged areas include SCADA, HMI, Manufacturing, IIoT, and Industrial Automation.
+overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Agent Group API, Agent Management API, and 84 more. Tagged areas include SCADA, HMI, Manufacturing, Industrial IoT, and Industrial Automation.
 
 
   The Inductive Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -959,9 +959,8 @@ tags:
 - SCADA
 - HMI
 - Manufacturing
-- IIoT
-- Industrial Automation
 - Industrial IoT
+- Industrial Automation
 - OPC UA
 website: https://inductiveautomation.com
 ---

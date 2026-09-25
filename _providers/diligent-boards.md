@@ -96,7 +96,7 @@ modified: '2026-07-05'
 name: Diligent
 nav: Providers
 network: true
-overview: 'Diligent publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Governance, Risk, Compliance, GRC, and Board Management.
+overview: 'Diligent publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Governance, Risk Management, Compliance, GRC, and Board Management.
 
 
   Diligent''s developer surface includes documentation and 8 more developer resources.'
@@ -144,7 +144,7 @@ security:
 slug: diligent-boards
 tags:
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Board Management

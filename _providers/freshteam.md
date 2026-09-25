@@ -142,7 +142,7 @@ modified: '2026-07-11'
 name: Freshteam
 nav: Providers
 network: true
-overview: 'Freshteam publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Employees API, Job Postings API, and 2 more. Tagged areas include Human Resources, HRIS, Applicant Tracking, ATS, and Recruiting.
+overview: 'Freshteam publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Employees API, Job Postings API, and 2 more. Tagged areas include Human Resources, HRIS, Applicant Tracking, Recruiting, and Employee Management.
 
 
   Freshteam''s developer surface includes authentication, documentation, and 6 more developer resources.'
@@ -198,7 +198,6 @@ tags:
 - Human Resources
 - HRIS
 - Applicant Tracking
-- ATS
 - Recruiting
 - Employee Management
 - Onboarding

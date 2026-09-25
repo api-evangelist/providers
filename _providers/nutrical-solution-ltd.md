@@ -227,13 +227,13 @@ description: NutriCal (Nutrical Solution Ltd) is the GCC's food nutrition and in
 image: https://www.nutrical.co/common/OpenGraph.png
 layout: provider
 modified: '2026-07-20'
-name: Nutrical Solution Ltd
+name: Nutrical Solution
 nav: Providers
 network: true
-overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Entity API, Ingredients API, Meal Plans API, and 3 more. Tagged areas include Company, Food, Nutrition, Health, and Recipes.
+overview: 'Nutrical Solution publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Ltd Entity API, Ltd Ingredients API, Ltd Meal Plans API, and 3 more. Tagged areas include Company, Food, Nutrition, Health, and Recipes.
 
 
-  Nutrical Solution Ltd''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Nutrical Solution''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 17
 score:
   band: thin

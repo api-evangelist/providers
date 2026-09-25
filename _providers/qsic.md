@@ -195,6 +195,6 @@ tags:
 - Music
 - Media
 - Marketing
-- Advertising Technology
+- AdTech
 website: https://www.getqsic.com/
 ---

@@ -58,10 +58,10 @@ description: Porte Tech Ltd. is a hotel technology company based in Astana, Kaza
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porte-tech-ltd.png
 layout: provider
 modified: '2026-07-20'
-name: Porte Tech Ltd.
+name: Porte Tech
 nav: Providers
 network: true
-overview: Porte Tech Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotel Technology, Digital Concierge, and Guest Experience.
+overview: Porte Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotel Technology, Digital Concierge, and Guest Experience.
 random_paper: 2
 score:
   band: minimal

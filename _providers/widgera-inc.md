@@ -68,10 +68,10 @@ description: Widgera is an AI-native business platform that unifies a company's 
 image: https://widgera.com/widgera.png
 layout: provider
 modified: '2026-07-21'
-name: Widgera, Inc.
+name: Widgera
 nav: Providers
 network: true
-overview: Widgera, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Operations, and Adaptive OS.
+overview: Widgera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Business Operations, and Adaptive OS.
 random_paper: 20
 score:
   band: minimal

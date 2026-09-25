@@ -215,7 +215,7 @@ tags:
 - Climate Risk
 - Geospatial
 - Analytics
-- Risk
+- Risk Management
 - Real Estate
 - ESG
 - Data

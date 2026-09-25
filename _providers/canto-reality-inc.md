@@ -54,10 +54,10 @@ description: Canto Reality, Inc. is an early-stage exploratory deployment lab bu
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/canto-reality-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Canto Reality Inc.
+name: Canto Reality
 nav: Providers
 network: true
-overview: Canto Reality Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Social, and Startups.
+overview: Canto Reality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Social, and Startups.
 random_paper: 5
 score:
   band: minimal

@@ -168,13 +168,13 @@ description: 'Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail elec
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-27'
-name: Vistra Corp
+name: Vistra
 nav: Providers
 network: true
-overview: 'Vistra Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Utilities, Electricity, and Natural Gas.
+overview: 'Vistra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Utilities, Electricity, and Natural Gas.
 
 
-  Vistra Corp''s developer surface includes engineering blog, documentation, and 28 more developer resources.'
+  Vistra''s developer surface includes engineering blog, documentation, and 28 more developer resources.'
 random_paper: 18
 score:
   band: emerging

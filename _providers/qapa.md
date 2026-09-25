@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Qapa
 nav: Providers
 network: true
-overview: Qapa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Staffing, Temporary Work, and Human Resources.
+overview: Qapa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Staffing, Temporary Work, and Human Resources.
 random_paper: 1
 score:
   band: minimal
@@ -98,7 +98,7 @@ security:
 slug: qapa
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Staffing
 - Temporary Work
 - Human Resources

@@ -166,13 +166,13 @@ description: Reachware is an Integration Platform as a Service (iPaaS) that lets
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reachware-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Reachware Inc.
+name: Reachware
 nav: Providers
 network: true
-overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cards API and Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
+overview: 'Reachware publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inc. Cards API and Inc. Payments API. Tagged areas include Company, Payments, iPaaS, Integration, and Fintech.
 
 
-  Reachware Inc.''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
+  Reachware''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
 random_paper: 7
 score:
   band: developing

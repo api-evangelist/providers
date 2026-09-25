@@ -78,7 +78,7 @@ modified: '2026-07-20'
 name: OnMyGrad
 nav: Providers
 network: true
-overview: 'OnMyGrad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Recruitment, Careers, and Human Resources.
+overview: 'OnMyGrad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Recruiting, Careers, and Human Resources.
 
 
   OnMyGrad''s developer surface includes engineering blog and 7 more developer resources.'
@@ -131,7 +131,7 @@ slug: onmygrad
 tags:
 - Company
 - EdTech
-- Recruitment
+- Recruiting
 - Careers
 - Human Resources
 - Campus Recruitment

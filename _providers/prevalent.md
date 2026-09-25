@@ -54,7 +54,7 @@ modified: '2026-07-20'
 name: Prevalent
 nav: Providers
 network: true
-overview: Prevalent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk Management, TPRM, and Vendor Risk.
+overview: Prevalent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk Management, Vendor Risk, and Governance Risk Compliance.
 random_paper: 9
 score:
   band: minimal
@@ -93,8 +93,8 @@ tags:
 - Company
 - Cybersecurity
 - Third-Party Risk Management
-- TPRM
 - Vendor Risk
 - Governance Risk Compliance
+- Risk Management
 website: http://www.prevalent.net/
 ---

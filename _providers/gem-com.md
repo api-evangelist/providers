@@ -122,7 +122,7 @@ modified: '2026-05-23'
 name: Gem
 nav: Providers
 network: true
-overview: 'Gem publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting CRM, ATS, Sourcing, Talent Marketing, and Agentic AI.
+overview: 'Gem publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting CRM, Applicant Tracking, Sourcing, Talent Marketing, and AI Agents.
 
 
   Gem''s developer surface includes documentation, academy / training, status page, and 6 more developer resources.'
@@ -180,10 +180,11 @@ security:
 slug: gem-com
 tags:
 - Recruiting CRM
-- ATS
+- Applicant Tracking
 - Sourcing
 - Talent Marketing
-- Agentic AI
+- AI Agents
 - Human Resources
+- Recruiting
 website: https://www.gem.com
 ---

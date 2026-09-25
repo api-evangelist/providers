@@ -110,13 +110,13 @@ description: AAK Tele-Science, Inc. (aakscience.com) is a Davis, California soft
 image: https://aakscience.com/aak.webp
 layout: provider
 modified: '2026-09-05'
-name: AAK Tele-Science, Inc.
+name: AAK Tele-Science
 nav: Providers
 network: true
-overview: 'AAK Tele-Science, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Science, Collaboration, and Analytics.
+overview: 'AAK Tele-Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Research, Science, Collaboration, and Analytics.
 
 
-  AAK Tele-Science, Inc.''s developer surface includes pricing, signup flow, support, engineering blog, and 10 more developer resources.'
+  AAK Tele-Science''s developer surface includes pricing, signup flow, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Aaktelescienceinc Plans Pricing
   plan_count: 0

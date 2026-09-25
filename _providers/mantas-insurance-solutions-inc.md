@@ -45,10 +45,10 @@ description: MANTAS INSURANCE SOLUTIONS, INC. is a company surfaced as a portfol
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mantas-insurance-solutions-inc.png
 layout: provider
 modified: '2026-07-17'
-name: MANTAS INSURANCE SOLUTIONS, INC.
+name: MANTAS INSURANCE SOLUTIONS
 nav: Providers
 network: true
-overview: MANTAS INSURANCE SOLUTIONS, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: MANTAS INSURANCE SOLUTIONS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 11
 score:
   band: minimal

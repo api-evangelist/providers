@@ -104,16 +104,16 @@ description: Blassa is an AI-powered location intelligence and geocoding platfor
 image: https://storage.googleapis.com/gpt-engineer-file-uploads/7t37Ke0rqPPrjfKJWKCzuL6xo1r2/social-images/social-1770386874845-Logo.png
 layout: provider
 modified: '2026-07-18'
-name: Blassa Inc.
+name: Blassa
 nav: Providers
 network: true
-overview: 'Blassa Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Geocoding, Address Verification, and Maps.
+overview: 'Blassa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Intelligence, Geocoding, Address Verification, and Maps.
 
 
-  The Blassa Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Blassa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blassa Inc.''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 7 more developer resources.'
+  Blassa''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 7 more developer resources.'
 random_paper: 21
 score:
   band: thin

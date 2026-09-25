@@ -105,7 +105,7 @@ modified: '2026-06-13'
 name: Darwinbox
 nav: Providers
 network: true
-overview: 'Darwinbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, Human Resources, Payroll, Recruitment, and Performance Management.
+overview: 'Darwinbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, Human Resources, Payroll, Recruiting, and Performance Management.
 
 
   Darwinbox''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -157,7 +157,7 @@ tags:
 - HRMS
 - Human Resources
 - Payroll
-- Recruitment
+- Recruiting
 - Performance Management
 - Attendance
 - Workforce Analytics

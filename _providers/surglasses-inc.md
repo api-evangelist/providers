@@ -54,10 +54,10 @@ description: Surglasses Inc. (SURGLASSES) is a medical technology manufacturer o
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surglasses-inc.png
 layout: provider
 modified: '2026-07-21'
-name: Surglasses Inc.
+name: Surglasses
 nav: Providers
 network: true
-overview: Surglasses Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Augmented Reality, Surgical Navigation, and Healthcare.
+overview: Surglasses is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Augmented Reality, Surgical Navigation, and Healthcare.
 random_paper: 7
 score:
   band: minimal

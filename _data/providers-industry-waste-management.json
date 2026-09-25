@@ -624,7 +624,7 @@
      "rank": 13
     },
     {
-     "name": "Blau Corp",
+     "name": "Blau",
      "slug": "blau-corp",
      "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blau-corp/refs/heads/main/screenshots/blau-corp-2026-07-25T203303.png",

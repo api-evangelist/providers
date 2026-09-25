@@ -2133,5 +2133,6 @@ tags:
 - Personalization
 - Recommendations
 - Search
+- Canada
 website: https://www.coveo.com
 ---

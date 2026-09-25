@@ -114,7 +114,7 @@ tags:
 - Industrial
 - Operational Data
 - Time Series
-- IIoT
+- Industrial IoT
 - PI System
 - Manufacturing
 website: https://www.osisoft.com

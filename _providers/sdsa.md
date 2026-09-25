@@ -53,7 +53,7 @@ modified: '2026-07-21'
 name: SDSA
 nav: Providers
 network: true
-overview: SDSA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic, and Operating System.
+overview: SDSA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Operating System, and Developer Platform.
 random_paper: 9
 score:
   band: minimal
@@ -92,7 +92,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Operating System
 - Developer Platform
 - Stealth Startup

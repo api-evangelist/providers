@@ -123,7 +123,7 @@ tags:
 - Document Automation
 - Contract Lifecycle Management
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Onboarding
 - Regulatory Reporting
 - Derivatives

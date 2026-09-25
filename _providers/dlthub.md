@@ -184,7 +184,7 @@ tags:
 - Python
 - Open Source
 - Data Integration
-- Agentic
+- AI Agents
 - MCP
 website: https://dlthub.com/
 ---

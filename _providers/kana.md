@@ -153,7 +153,7 @@ modified: '2026-08-13'
 name: Kana
 nav: Providers
 network: true
-overview: 'Kana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Marketing Technology.
+overview: 'Kana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Marketing Technology.
 
 
   Kana''s developer surface includes engineering blog, support, getting-started guide, signup flow, authentication, and 16 more developer resources.'
@@ -215,7 +215,7 @@ tags:
 - Company
 - Marketing
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Marketing Technology
 - Audience Intelligence
 - Customer Data Platform

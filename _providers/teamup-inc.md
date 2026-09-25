@@ -58,10 +58,10 @@ description: TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamup-inc.png
 layout: provider
 modified: '2026-07-21'
-name: TeamUp Inc.
+name: fanZ
 nav: Providers
 network: true
-overview: TeamUp Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Football, Fan Engagement, and Fantasy Sports.
+overview: fanZ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Football, Fan Engagement, and Fantasy Sports.
 random_paper: 21
 score:
   band: minimal

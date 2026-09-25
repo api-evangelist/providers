@@ -57,7 +57,7 @@ modified: '2026-07-18'
 name: Boss
 nav: Providers
 network: true
-overview: Boss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Recruitment, Human Resources, and Job.
+overview: Boss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Recruiting, Human Resources, and Job.
 random_paper: 21
 score:
   band: minimal
@@ -95,7 +95,7 @@ slug: boss
 tags:
 - Company
 - Technology
-- Recruitment
+- Recruiting
 - Human Resources
 - Job
 - Hiring

@@ -97,13 +97,13 @@ description: 'Ace Turtle Services Pvt Ltd (brand "ace turtle") is a Bengaluru, I
 image: https://aceturtle.com/wp-content/uploads/2022/09/footer-logo-1-1.png
 layout: provider
 modified: '2026-09-06'
-name: Ace Turtle Services Pvt Ltd
+name: Ace Turtle Services
 nav: Providers
 network: true
-overview: 'Ace Turtle Services Pvt Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Omnichannel, and Order Management.
+overview: 'Ace Turtle Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Omnichannel, and Order Management.
 
 
-  Ace Turtle Services Pvt Ltd''s developer surface includes engineering blog and 11 more developer resources.'
+  Ace Turtle Services'' developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Aceturtleservicespvtltd Plans Pricing
   plan_count: 0

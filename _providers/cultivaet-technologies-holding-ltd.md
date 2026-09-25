@@ -45,10 +45,10 @@ description: Cultivaet Technologies Holding Ltd. is an AI-driven agricultural te
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cultivaet-technologies-holding-ltd.png
 layout: provider
 modified: '2026-07-18'
-name: Cultivaet Technologies Holding Ltd.
+name: Cultivaet
 nav: Providers
 network: true
-overview: Cultivaet Technologies Holding Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgriTech, Agriculture, Artificial Intelligence, and Machine Learning.
+overview: Cultivaet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgriTech, Agriculture, Artificial Intelligence, and Machine Learning.
 random_paper: 7
 score:
   band: minimal

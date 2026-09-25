@@ -55,10 +55,10 @@ description: PKO is a collective and investment group operating at the intersect
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pko-inc.png
 layout: provider
 modified: '2026-07-20'
-name: PKO Inc.
+name: PKO
 nav: Providers
 network: true
-overview: PKO Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Community, Technology, and Entertainment.
+overview: PKO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Community, Technology, and Entertainment.
 random_paper: 7
 score:
   band: minimal

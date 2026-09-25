@@ -54,10 +54,10 @@ description: Merklebase provides data-driven infrastructure for institutional di
 image: https://image.typedream.com/cdn-cgi/image/width=144,height=144,quality=100,fit=crop/https://api.typedream.com/v0/document/public/ee8109df-e243-482b-9ad1-2021b09157ff/2qQeVkcJM0hvkeTEJcOWBadeVTe_mb.png
 layout: provider
 modified: '2026-07-20'
-name: Merklebase, Inc.
+name: Merklebase
 nav: Providers
 network: true
-overview: Merklebase, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Cryptocurrency, Portfolio Management, and Risk Management.
+overview: Merklebase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Cryptocurrency, Portfolio Management, and Risk Management.
 random_paper: 2
 score:
   band: minimal

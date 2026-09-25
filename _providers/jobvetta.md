@@ -57,7 +57,7 @@ modified: '2026-08-02'
 name: Jobvetta
 nav: Providers
 network: true
-overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Recruitment, Job Search, India, and Employment.
+overview: 'Jobvetta publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Recruiting, Job Search, India, and Employment.
 
 
   Jobvetta''s developer surface includes documentation, signup flow, and 1 more developer resources.'
@@ -101,7 +101,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/jobvetta/refs/heads
 slug: jobvetta
 tags:
 - Job
-- Recruitment
+- Recruiting
 - Job Search
 - India
 - Employment

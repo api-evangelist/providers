@@ -171,7 +171,7 @@ modified: '2026-08-02'
 name: BizVerify
 nav: Providers
 network: true
-overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 6 more. Tagged areas include Business Verification, KYB, Know Your Business, Entity Verification, and Compliance.
+overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 6 more. Tagged areas include Business Verification, KYB, Entity Verification, Compliance, and MCP.
 
 
   BizVerify''s developer surface includes documentation and 11 more developer resources.'
@@ -213,7 +213,6 @@ slug: bizverify
 tags:
 - Business Verification
 - KYB
-- Know Your Business
 - Entity Verification
 - Compliance
 - MCP

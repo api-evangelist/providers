@@ -90,7 +90,7 @@ modified: '2026-07-21'
 name: Scytale
 nav: Providers
 network: true
-overview: 'Scytale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Compliance, Governance, and Risk.
+overview: 'Scytale is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Compliance, Governance, and Risk Management.
 
 
   Scytale''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
@@ -137,7 +137,7 @@ tags:
 - Cloud
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Security
 - GRC
 - SOC 2

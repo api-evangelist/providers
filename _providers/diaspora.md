@@ -326,7 +326,7 @@ modified: '2026-07-20'
 name: Diaspora
 nav: Providers
 network: true
-overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Aspects API, Comments API, Contacts API, and 11 more. Tagged areas include Company, Social, Social Networking, Decentralized, and Federated.
+overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Aspects API, Comments API, Contacts API, and 11 more. Tagged areas include Company, Social, Social Network, Decentralized, and Federated.
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
@@ -388,7 +388,7 @@ slug: diaspora
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
 - Open Source

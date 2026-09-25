@@ -1,5 +1,5 @@
 {
- "total": 2889,
+ "total": 2887,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -1572,7 +1572,7 @@
      "rank": 35
     },
     {
-     "name": "Record Creative Co. LLC",
+     "name": "SCVD General Store",
      "slug": "scvd-store",
      "description": "Record Creative Co. LLC is the one-person Oak City, North Carolina company that operates scvd.store — \"Sean-Claude Van Damme's General Store\", an evidence observatory for agentic commerce and a general store for AI agents. It independently verifies x402 payment endpoints, signed offers and receipts: a free preflight that checks whether any x402 door serves a well-formed, payable v2 challenge, a free conformance desk for any issuer's JWS-signed offers and receipts, a named 31-class defect vocabulary, and a weekly Bitcoin-anchored, hash-chained corpus of the public x402 web. Paid instruments (35 doors from $0.001 to $1,500) — settlement attestations, endpoint watches, launch checks, conformance audits, A2A repair kits, agent memory anchors and the labor of a named human — are bought per call in USDC over x402 v2 on Base, Polygon, Arbitrum, World or Solana with no account, key or signup; every purchase ends in an Ed25519-signed artifact verifiable free forever. One host publishes the whole surface: a 196-operation OpenAPI 3.1 contract, three remote MCP servers (20 tools, MCP Apps cards), an A2A 0.3.0 agent card, a UCP business profile, an RFC 9727 API catalog, RFC 9728 protected-resource metadata, llms.txt, agents.md, SKILL.md files, an official CLI and nine more open-source packages.",
      "score": 72.6,
@@ -2266,7 +2266,7 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 65.4,
+      "contract_quality": 65.7,
       "contract_governance": 33.3,
       "operational_transparency": 63.2,
       "developer_ergonomics": 76.2,
@@ -3905,7 +3905,7 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 55.2,
+      "contract_quality": 54.9,
       "contract_governance": 47.0,
       "operational_transparency": 50.0,
       "developer_ergonomics": 74.4,
@@ -3913,7 +3913,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 60.6,
+     "agent_score": 63.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -3922,7 +3922,7 @@
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
@@ -29532,7 +29532,7 @@
      "rank": 671
     },
     {
-     "name": "TARXAN Inc",
+     "name": "TARXAN",
      "slug": "tarx-com",
      "description": "TARXAN Inc (TARX, Austin TX) builds a local-first AI agent runtime: free TARX_OS / TARX Desktop software for Apple Silicon Macs, a shell CLI that installs a local inference daemon and local MCP servers, an optional hosted \"Supercomputer\" reached through an OpenAI-compatible API (api.tarx.com/v1, model t-supercomputer), and dedicated \"Black Box\" and humanoid/quadruped hardware. Its public agent surface is a remote MCP server at mcp.tarx.com/mcp (22 anonymous tools, OAuth 2.0 + PKCE for private memory, RFC 8414/9728 metadata) advertised by an A2A 0.3.0 agent card at tarx.com/.well-known/agent-card.json and a prose \"cairn\" (we.txt, skill.md, courier.md) that tells visiting agents how to register a Soul through plain REST on tarx.com/api. No OpenAPI is published.",
      "score": 46.7,
@@ -41466,49 +41466,6 @@
      "rank": 945
     },
     {
-     "name": "Featherless AI",
-     "slug": "featherless",
-     "description": "Featherless AI is a serverless LLM inference platform that serves thousands of open-weight models from the Hugging Face catalog behind a single OpenAI-compatible REST API. It uses flat monthly subscription pricing with unlimited tokens rather than per-token billing, exposing chat completions, text completions, an embeddings endpoint, and a large models catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/screenshots/featherless-2026-07-25T214310.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.6,
-      "contract_governance": 11.4,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 32.1,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 946
-    },
-    {
      "name": "Greptile",
      "slug": "greptile",
      "description": "Greptile builds an AI layer that understands entire codebases. Its public REST API indexes Git repositories into a graph plus embeddings, then answers natural-language questions and searches over that code. Greptile also ships an AI code-review product delivered as a GitHub App that reviews pull requests for bugs and anti-patterns.",
@@ -41549,7 +41506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "Imperva",
@@ -41592,7 +41549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "Keboola",
@@ -41635,7 +41592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "OpsLevel",
@@ -41678,7 +41635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "SNHP",
@@ -41727,7 +41684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "SuperViz",
@@ -41770,7 +41727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "Swytchcode",
@@ -41813,7 +41770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "EngFlow",
@@ -41856,7 +41813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "QA Wolf",
@@ -41899,7 +41856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "TronZap",
@@ -41949,7 +41906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "Woodpecker CI",
@@ -41992,7 +41949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Apache JMeter",
@@ -42035,7 +41992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "AppNeta",
@@ -42078,7 +42035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Jinba",
@@ -42121,7 +42078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Milvus",
@@ -42164,7 +42121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "SpiderOak",
@@ -42207,7 +42164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "Splunk SOAR",
@@ -42250,7 +42207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "Superlog",
@@ -42293,7 +42250,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "University of Birmingham",
@@ -42343,7 +42300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "Wallarm",
@@ -42386,7 +42343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Aleo",
@@ -42429,7 +42386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "CCP Games",
@@ -42472,7 +42429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "Chutes",
@@ -42515,7 +42472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 969
+     "rank": 968
     },
     {
      "name": "CodeRabbit",
@@ -42558,7 +42515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Nagios",
@@ -42601,7 +42558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "Nuclei",
@@ -42644,7 +42601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Radius",
@@ -42687,7 +42644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "RapidAPI",
@@ -42730,7 +42687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "Archera",
@@ -42773,7 +42730,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "AskUI",
@@ -42816,7 +42773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "DreamFactory",
@@ -42859,7 +42816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "Fidel",
@@ -42909,7 +42866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "At-Bay",
@@ -42959,7 +42916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Codehooks",
@@ -43002,7 +42959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "echo3D",
@@ -43045,7 +43002,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "Elementum",
@@ -43088,7 +43045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 982
+     "rank": 981
     },
     {
      "name": "Langflow",
@@ -43131,7 +43088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "WarpPay402 Studio",
@@ -43173,7 +43130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "agent402.dev",
@@ -43222,7 +43179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "Aqua Security",
@@ -43265,7 +43222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 986
+     "rank": 985
     },
     {
      "name": "Eigenpal",
@@ -43308,7 +43265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 987
+     "rank": 986
     },
     {
      "name": "Cortex",
@@ -43351,7 +43308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 988
+     "rank": 987
     },
     {
      "name": "Google Cloud Monitoring",
@@ -43394,7 +43351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 989
+     "rank": 988
     },
     {
      "name": "AWS Glue",
@@ -43437,7 +43394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 990
+     "rank": 989
     },
     {
      "name": "Glio",
@@ -43480,7 +43437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 991
+     "rank": 990
     },
     {
      "name": "HashiCorp Nomad",
@@ -43523,7 +43480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 992
+     "rank": 991
     },
     {
      "name": "Polar Signals",
@@ -43566,7 +43523,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 993
+     "rank": 992
     },
     {
      "name": "Amazon Cloud Map",
@@ -43609,7 +43566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 994
+     "rank": 993
     },
     {
      "name": "Drone",
@@ -43652,7 +43609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 995
+     "rank": 994
     },
     {
      "name": "Google Cloud Profiler",
@@ -43695,7 +43652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 996
+     "rank": 995
     },
     {
      "name": "kapa.ai",
@@ -43738,7 +43695,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 997
+     "rank": 996
     },
     {
      "name": "Prophecy.io",
@@ -43781,10 +43738,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 998
+     "rank": 997
     },
     {
-     "name": "Algebras AI Inc.",
+     "name": "Algebras AI",
      "slug": "algebras-ai-inc",
      "description": "Algebras AI is an AI-powered localization platform that translates UI, video, and audio content into 300+ languages with agentic translation, glossary-aware quality, and voice/video dubbing with lip-sync. The Algebras API (OpenAPI 3.0, API-key auth via the X-Api-Key header) exposes text, batch, and agentic translation, translation fluency evaluation, glossaries and terms, localization tables, language detection, video translation, storage upload URLs, and real-time streaming rooms with RTMP ingress/egress. First-party tooling includes a Python CLI, a Unity SDK, a Next.js integration, a locale-checker GitHub Action, a hosted MCP server, and a published agent skill. Algebras AI was surfaced as a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png",
@@ -43824,7 +43781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 999
+     "rank": 998
     },
     {
      "name": "ElectricSQL",
@@ -43867,6 +43824,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 999
+    },
+    {
+     "name": "Litmus Automation",
+     "slug": "litmus-automation",
+     "description": "Litmus Automation (Litmus) is an industrial data platform company that helps manufacturers connect industrial systems, standardize operational data, and deploy analytics, AI, and automation at scale across plant locations. Its products are Litmus Edge (an industrial edge data platform for device connectivity, DataOps, edge intelligence, and analytics), Litmus Edge Manager (centralized fleet management for distributed edge deployments), and Litmus Unify (an MQTT-based Unified Namespace). Litmus exposes a large public API surface — roughly 2,004 endpoints across the three products (REST plus newer GraphQL areas), OAuth2 client-credentials authentication, a standalone litmus-cli, a Python SDK, and an open-source Model Context Protocol (MCP) server for agentic access. Backed by Insight Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/screenshots/litmus-automation-2026-07-25T225339.png",
+     "score": 41.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 66.7,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 6.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 1000
     }
    ]
@@ -43876,7 +43876,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 750,
+   "count": 748,
    "shown": 0,
    "providers": []
   },

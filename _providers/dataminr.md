@@ -124,7 +124,7 @@ modified: '2026-07-18'
 name: Dataminr
 nav: Providers
 network: true
-overview: 'Dataminr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Threat Intelligence, Risk, and Real-Time.
+overview: 'Dataminr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Threat Intelligence, Risk Management, and Real-Time.
 
 
   Dataminr''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
@@ -176,7 +176,7 @@ tags:
 - Company
 - Analytics
 - Threat Intelligence
-- Risk
+- Risk Management
 - Real-Time
 - Security
 - Artificial Intelligence

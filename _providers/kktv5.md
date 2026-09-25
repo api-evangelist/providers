@@ -83,7 +83,7 @@ modified: '2026-07-19'
 name: KK直播 (KK Live)
 nav: Providers
 network: true
-overview: 'KK直播 (KK Live) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Streaming, Video, Social Networking, and Entertainment.
+overview: 'KK直播 (KK Live) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Streaming, Video, Social Network, and Entertainment.
 
 
   KK直播 (KK Live)''s developer surface includes support and 8 more developer resources.'
@@ -132,7 +132,7 @@ tags:
 - Company
 - Live Streaming
 - Video
-- Social Networking
+- Social Network
 - Entertainment
 - Consumer
 - Mobile App

@@ -145,7 +145,7 @@ modified: '2026-08-26'
 name: Posh
 nav: Providers
 network: true
-overview: 'Posh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Conversational AI, Agentic AI, Banking, and Credit Union.
+overview: 'Posh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Conversational AI, AI Agents, Banking, and Credit Union.
 
 
   Posh''s developer surface includes signup flow, engineering blog, support, and 15 more developer resources.'
@@ -228,7 +228,7 @@ slug: posh
 tags:
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Banking
 - Credit Union
 - Financial Services

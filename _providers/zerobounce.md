@@ -278,7 +278,7 @@ modified: '2026-08-13'
 name: ZeroBounce
 nav: Providers
 network: true
-overview: 'ZeroBounce publishes 1 API on the [APIs.io](https://apis.io/) network: Validation API. Tagged areas include Email Validation, Email Deliverability, Email Verification, Marketing, and Lead Scoring.
+overview: 'ZeroBounce publishes 1 API on the [APIs.io](https://apis.io/) network: Validation API. Tagged areas include Email Verification, Email Deliverability, Marketing, Lead Scoring, and Anti-Spam.
 
 
   The ZeroBounce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,9 +349,8 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: zerobounce
 tags:
-- Email Validation
-- Email Deliverability
 - Email Verification
+- Email Deliverability
 - Marketing
 - Lead Scoring
 - Anti-Spam
@@ -359,5 +358,6 @@ tags:
 - Email Finder
 - Deliverability Monitoring
 - DMARC
+- Email
 website: https://www.zerobounce.net
 ---

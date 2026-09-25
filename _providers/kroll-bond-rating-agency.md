@@ -182,7 +182,7 @@ tags:
 - Financial Data
 - Structured Finance
 - Fixed Income
-- Risk
+- Risk Management
 - Analytics
 - Market Data
 - NRSRO

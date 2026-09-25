@@ -220,6 +220,6 @@ tags:
 - AIOps
 - Root Cause Analysis
 - MCP
-- Agentic AI
+- AI Agents
 website: https://neubird.ai
 ---

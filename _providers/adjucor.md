@@ -104,13 +104,13 @@ description: AdjuCor GmbH is a Munich, Germany medical device company, founded i
 image: https://adjucor.com/wp-content/uploads/2024/03/AdjuCor_Logo.png
 layout: provider
 modified: '2026-09-07'
-name: AdjuCor GmbH
+name: AdjuCor
 nav: Providers
 network: true
-overview: 'AdjuCor GmbH is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Heart Failure.
+overview: 'AdjuCor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Heart Failure.
 
 
-  AdjuCor GmbH''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  AdjuCor''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 18
 score:
   band: minimal

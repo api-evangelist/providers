@@ -50,10 +50,10 @@ description: Taskeer Holdings Limited is a company surfaced as a portfolio compa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taskeer-holdings-limited.png
 layout: provider
 modified: '2026-07-21'
-name: Taskeer Holdings Limited
+name: Taskeer
 nav: Providers
 network: true
-overview: Taskeer Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Taskeer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 21
 score:
   band: minimal

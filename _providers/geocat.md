@@ -42,10 +42,10 @@ created: '2026-08-20'
 description: GeoCat bv is a Dutch company built around the open-source geospatial stack, and is the primary maintainer of GeoNetwork, the catalogue software that runs a large share of Europe's INSPIRE metadata infrastructure. It sells GeoCat Bridge, GeoCat Live and hosted catalogue services, and runs a public demonstration estate serving both classic OGC web services and a modern OGC API - Features endpoint.
 layout: provider
 modified: '2026-08-20'
-name: GeoCat bv
+name: GeoCat
 nav: Providers
 network: true
-overview: GeoCat bv publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
+overview: GeoCat publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
 random_paper: 11
 score:
   band: minimal

@@ -165,7 +165,7 @@ tags:
 - Analytics
 - Data Engineering
 - Consulting
-- Agentic AI
+- AI Agents
 - Enterprise AI
 - Machine Learning
 - Decision Intelligence

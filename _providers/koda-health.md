@@ -192,7 +192,7 @@ tags:
 - Patient Engagement
 - Clinical Decision Support
 - EMR Integration
-- HL7 FHIR
+- FHIR
 - Interoperability
 - HIPAA
 - Value-Based Care

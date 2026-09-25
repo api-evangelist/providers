@@ -67,13 +67,13 @@ description: iChase Co., Ltd. (iCHASE) builds AI-powered biosecurity and precisi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ichase-co-ltd.png
 layout: provider
 modified: '2026-07-19'
-name: iChase Co., Ltd.
+name: iChase
 nav: Providers
 network: true
-overview: 'iChase Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Farming, and Livestock.
+overview: 'iChase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Precision Farming, and Livestock.
 
 
-  iChase Co., Ltd.''s developer surface includes support and 5 more developer resources.'
+  iChase''s developer surface includes support and 5 more developer resources.'
 random_paper: 13
 score:
   band: minimal

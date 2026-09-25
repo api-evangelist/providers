@@ -652,7 +652,7 @@ modified: '2026-05-23'
 name: HR Partner
 nav: Providers
 network: true
-overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Addresses API, Applicants API, and 28 more. Tagged areas include Human Resources, HRIS, Employee Records, Leave Management, and Recruitment.
+overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Addresses API, Applicants API, and 28 more. Tagged areas include Human Resources, HRIS, Employee Records, Leave Management, and Recruiting.
 
 
   The HR Partner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -750,7 +750,7 @@ tags:
 - HRIS
 - Employee Records
 - Leave Management
-- Recruitment
+- Recruiting
 - Applicant Tracking
 - Onboarding
 - Performance Management

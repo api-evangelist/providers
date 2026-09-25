@@ -132,7 +132,7 @@ modified: '2026-08-01'
 name: DataVisor
 nav: Providers
 network: true
-overview: 'DataVisor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Detection, Fraud Prevention, Anti-Money Laundering, and Financial Crime.
+overview: 'DataVisor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Detection, Fraud Prevention, AML, and Financial Crime.
 
 
   DataVisor''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 13 more developer resources.'
@@ -190,7 +190,7 @@ tags:
 - Company
 - Fraud Detection
 - Fraud Prevention
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Risk Management
 - Machine Learning

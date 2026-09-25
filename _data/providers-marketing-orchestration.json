@@ -1,6 +1,6 @@
 {
- "total": 545,
- "shown": 545,
+ "total": 541,
+ "shown": 541,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 89.3,
+     "score": 89.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 77.6,
+      "contract_quality": 77.9,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
       "developer_ergonomics": 94.6,
@@ -29,7 +29,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 49.6,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
@@ -123,15 +123,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -3477,7 +3477,7 @@
      "rank": 71
     },
     {
-     "name": "Lucidya Ltd",
+     "name": "Lucidya",
      "slug": "lucidya-ltd",
      "description": "Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png",
@@ -3528,8 +3528,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 111,
-   "shown": 111,
+   "count": 110,
+   "shown": 110,
    "providers": [
     {
      "name": "AskNicely",
@@ -5886,50 +5886,6 @@
      "rank": 123
     },
     {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 124
-    },
-    {
      "name": "MailerSend",
      "slug": "mailersend",
      "description": "MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppression lists, inbound routing, activity and analytics, email verification, DMARC and blocklist monitoring, SMS, and account/token administration. Authentication is a domain-scoped bearer token drawn from a 30-value scope vocabulary. MailerSend ships six official SDKs, an official Laravel driver, a Go CLI with an interactive TUI, a remote OAuth-protected MCP server exposing 127 tools, and its own published Agent Skill — but no machine-readable API contract and no idempotency guarantee.",
@@ -5977,7 +5933,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Hootsuite",
@@ -6021,7 +5977,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "SE Ranking",
@@ -6065,7 +6021,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "CI HUB",
@@ -6108,7 +6064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Kentico",
@@ -6151,7 +6107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Planable",
@@ -6195,7 +6151,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Leanplum",
@@ -6238,7 +6194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "MediaValet",
@@ -6282,7 +6238,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Ploy",
@@ -6326,7 +6282,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Friendbuy",
@@ -6369,7 +6325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Wunderkind",
@@ -6419,7 +6375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "LinkedIn Marketing API",
@@ -6462,7 +6418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Zaius",
@@ -6506,7 +6462,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Knak",
@@ -6550,7 +6506,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Creatio",
@@ -6593,7 +6549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Navattic",
@@ -6636,7 +6592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Talkable",
@@ -6679,7 +6635,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "HookLogic (Criteo)",
@@ -6723,7 +6679,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "LeanData",
@@ -6766,7 +6722,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "NeverBounce",
@@ -6809,7 +6765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Sequel",
@@ -6852,7 +6808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Sendspark",
@@ -6895,7 +6851,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Community",
@@ -6945,7 +6901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "RB2B",
@@ -6988,7 +6944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Gameball",
@@ -7031,7 +6987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "SendHub",
@@ -7081,7 +7037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Beaconstac",
@@ -7142,7 +7098,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Bynder",
@@ -7185,7 +7141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Criteo",
@@ -7229,7 +7185,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Pabbly",
@@ -7280,7 +7236,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Clearbit (HubSpot Breeze Intelligence)",
@@ -7323,7 +7279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "SimpleTexting",
@@ -7373,7 +7329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Act-On",
@@ -7417,7 +7373,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Adapt",
@@ -7460,7 +7416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Insider",
@@ -7518,7 +7474,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Crescendo Lab",
@@ -7569,7 +7525,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Jasper",
@@ -7612,7 +7568,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Bluma",
@@ -7656,7 +7612,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Skai (Kenshoo)",
@@ -7700,7 +7656,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Reachdesk",
@@ -7744,7 +7700,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "NextRoll",
@@ -7788,7 +7744,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Pomo",
@@ -7832,7 +7788,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Metrilo",
@@ -7876,7 +7832,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "Cardlytics",
@@ -7934,7 +7890,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "CrossEngage",
@@ -7978,7 +7934,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "EventX",
@@ -8021,7 +7977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Google Marketing Platform Admin",
@@ -8064,7 +8020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "TheBrief",
@@ -8107,7 +8063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "Funnel",
@@ -8150,7 +8106,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Google Display & Video 360",
@@ -8193,7 +8149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Sourcepoint",
@@ -8237,7 +8193,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Frontify",
@@ -8280,7 +8236,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Warmly",
@@ -8323,7 +8279,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Marketo",
@@ -8367,7 +8323,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
@@ -8411,7 +8367,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Digioh",
@@ -8454,7 +8410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "VBOUT",
@@ -8498,7 +8454,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "LeadSquared",
@@ -8542,7 +8498,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "WebinarJam",
@@ -8585,7 +8541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     }
    ],
    "open": true
@@ -8595,8 +8551,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 129,
-   "shown": 129,
+   "count": 127,
+   "shown": 127,
    "providers": [
     {
      "name": "DinMo",
@@ -8640,7 +8596,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Sailthru",
@@ -8706,7 +8662,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Sendoso",
@@ -8750,7 +8706,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -8794,7 +8750,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Storyclash",
@@ -8837,7 +8793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "Wideo",
@@ -8881,7 +8837,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "Bluecore",
@@ -8932,7 +8888,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Dreamdata",
@@ -8975,7 +8931,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "iContact",
@@ -9019,7 +8975,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Leadpages",
@@ -9062,7 +9018,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Snap",
@@ -9105,7 +9061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "TikTok Marketing API",
@@ -9149,7 +9105,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Basis",
@@ -9193,7 +9149,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Drip",
@@ -9237,7 +9193,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "Mob.ly",
@@ -9280,7 +9236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Supermetrics",
@@ -9323,7 +9279,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "Appsamurai",
@@ -9366,7 +9322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Mavrck",
@@ -9416,7 +9372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Monetate",
@@ -9460,7 +9416,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Lawmatics",
@@ -9504,7 +9460,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Invoca",
@@ -9547,7 +9503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Bevz",
@@ -9590,7 +9546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Pixc",
@@ -9634,7 +9590,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Chatsimple",
@@ -9677,7 +9633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "CrawlGraph",
@@ -9721,7 +9677,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Emotive",
@@ -9772,7 +9728,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Bloom",
@@ -9815,7 +9771,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Responsys",
@@ -9866,7 +9822,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "Sitefire",
@@ -9910,7 +9866,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Ceros",
@@ -9953,7 +9909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Later",
@@ -9996,7 +9952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "AutoLeadStar",
@@ -10040,7 +9996,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "OptinMonster",
@@ -10084,7 +10040,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Pinoffer",
@@ -10135,7 +10091,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "SmartNews",
@@ -10179,7 +10135,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "CrowdTwist",
@@ -10222,7 +10178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Amperity",
@@ -10266,7 +10222,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Hull",
@@ -10310,7 +10266,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Agile CRM",
@@ -10354,7 +10310,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "BrightEdge",
@@ -10398,7 +10354,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "PersistIQ",
@@ -10441,7 +10397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Typeface",
@@ -10484,7 +10440,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Jebbit",
@@ -10527,7 +10483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Handwrite IO",
@@ -10577,7 +10533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Scalarr",
@@ -10620,7 +10576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "involve.me",
@@ -10664,7 +10620,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "ManyChat",
@@ -10715,7 +10671,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Oracle Eloqua",
@@ -10759,7 +10715,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Blng",
@@ -10803,7 +10759,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Windfall Data",
@@ -10846,7 +10802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Hilos",
@@ -10889,7 +10845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Nimble",
@@ -10933,7 +10889,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "Gamesight",
@@ -10976,7 +10932,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Movable Ink",
@@ -11019,7 +10975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "Seam AI",
@@ -11062,7 +11018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Events.com",
@@ -11105,7 +11061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Revnu",
@@ -11149,7 +11105,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "WoowUp",
@@ -11193,7 +11149,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "AdRoll",
@@ -11236,7 +11192,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Datorama",
@@ -11279,7 +11235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Sprinklr",
@@ -11323,7 +11279,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "PowerReviews",
@@ -11367,7 +11323,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Akkio",
@@ -11411,7 +11367,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Bonjoro",
@@ -11455,7 +11411,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Habu",
@@ -11498,7 +11454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Demio",
@@ -11542,7 +11498,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Opal",
@@ -11585,7 +11541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Localytics",
@@ -11629,7 +11585,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "MailOptin",
@@ -11673,7 +11629,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "SharpSpring",
@@ -11717,7 +11673,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "News Break",
@@ -11761,50 +11717,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 254
-    },
-    {
-     "name": "Socialbakers",
-     "slug": "socialbakers",
-     "description": "Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 255
+     "rank": 253
     },
     {
      "name": "Albacross",
@@ -11847,7 +11760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 254
     },
     {
      "name": "Splash",
@@ -11890,7 +11803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 255
     },
     {
      "name": "Paedae",
@@ -11933,7 +11846,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 256
     },
     {
      "name": "Result",
@@ -11983,7 +11896,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 257
     },
     {
      "name": "Uniphore",
@@ -12027,7 +11940,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 260
+     "rank": 258
     },
     {
      "name": "Disconetwork",
@@ -12071,7 +11984,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 261
+     "rank": 259
     },
     {
      "name": "Linktree",
@@ -12115,7 +12028,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 262
+     "rank": 260
     },
     {
      "name": "Voyant.io",
@@ -12159,7 +12072,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 263
+     "rank": 261
     },
     {
      "name": "Fxiaoke",
@@ -12202,7 +12115,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 262
     },
     {
      "name": "Opera",
@@ -12245,7 +12158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 263
     },
     {
      "name": "EasyWebinar",
@@ -12288,7 +12201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 264
     },
     {
      "name": "Amboras",
@@ -12339,7 +12252,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 267
+     "rank": 265
     },
     {
      "name": "Bombora",
@@ -12383,7 +12296,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 268
+     "rank": 266
     },
     {
      "name": "Dealer.com",
@@ -12426,7 +12339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 267
     },
     {
      "name": "Loomly",
@@ -12470,7 +12383,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 270
+     "rank": 268
     },
     {
      "name": "Remerge",
@@ -12514,7 +12427,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 271
+     "rank": 269
     },
     {
      "name": "Permutive",
@@ -12558,7 +12471,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 272
+     "rank": 270
     },
     {
      "name": "Incentivio",
@@ -12609,7 +12522,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 273
+     "rank": 271
     },
     {
      "name": "BetGenius",
@@ -12653,7 +12566,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 274
+     "rank": 272
     },
     {
      "name": "Conversica",
@@ -12704,7 +12617,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 275
+     "rank": 273
     },
     {
      "name": "Famous",
@@ -12748,7 +12661,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 276
+     "rank": 274
     },
     {
      "name": "Poptin",
@@ -12792,10 +12705,10 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 277
+     "rank": 275
     },
     {
-     "name": "Whisperr, Inc.",
+     "name": "Whisperr",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png",
@@ -12836,7 +12749,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 278
+     "rank": 276
     },
     {
      "name": "Choozle",
@@ -12880,7 +12793,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 279
+     "rank": 277
     },
     {
      "name": "Nexad",
@@ -12924,7 +12837,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 280
+     "rank": 278
     },
     {
      "name": "Octane AI",
@@ -12967,7 +12880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 279
     },
     {
      "name": "domob",
@@ -13011,7 +12924,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 282
+     "rank": 280
     },
     {
      "name": "CharacterQuilt",
@@ -13055,7 +12968,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 283
+     "rank": 281
     },
     {
      "name": "Reprise",
@@ -13099,7 +13012,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 284
+     "rank": 282
     },
     {
      "name": "Broadlume",
@@ -13143,7 +13056,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 285
+     "rank": 283
     },
     {
      "name": "Channel99",
@@ -13187,7 +13100,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 286
+     "rank": 284
     },
     {
      "name": "SegMetrics",
@@ -13230,7 +13143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 285
     },
     {
      "name": "Metadata",
@@ -13274,7 +13187,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 288
+     "rank": 286
     },
     {
      "name": "Sensors Data",
@@ -13318,7 +13231,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 289
+     "rank": 287
     },
     {
      "name": "Zoca",
@@ -13361,7 +13274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 288
     },
     {
      "name": "Return Path",
@@ -13405,7 +13318,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 291
+     "rank": 289
     },
     {
      "name": "Screaming Frog",
@@ -13449,7 +13362,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 292
+     "rank": 290
     },
     {
      "name": "Instapage",
@@ -13492,7 +13405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 291
     },
     {
      "name": "AdMakeAI",
@@ -13535,7 +13448,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 292
     },
     {
      "name": "Banzai",
@@ -13579,7 +13492,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 295
+     "rank": 293
     },
     {
      "name": "On24",
@@ -13623,7 +13536,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 296
+     "rank": 294
     },
     {
      "name": "Kapost",
@@ -13666,7 +13579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 295
     },
     {
      "name": "toksta",
@@ -13709,7 +13622,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 296
     },
     {
      "name": "Session AI",
@@ -13753,7 +13666,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 299
+     "rank": 297
     },
     {
      "name": "Grin",
@@ -13796,7 +13709,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 298
     },
     {
      "name": "AppLovin",
@@ -13840,7 +13753,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 301
+     "rank": 299
     },
     {
      "name": "Publer",
@@ -13884,7 +13797,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 302
+     "rank": 300
     },
     {
      "name": "Trend",
@@ -13934,10 +13847,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 301
     },
     {
-     "name": "Adsmom Inc.",
+     "name": "Adsmom",
      "slug": "adsmom-inc",
      "description": "Adsmom (SIA Adsmom) is a Latvia-based AI-powered ad intelligence platform that indexes 200M+ ads from Meta, TikTok and Google, decodes them with AI, and gives brands, agencies and research teams a clear read on what competitors are running and what is actually working. The platform covers ad search across a competitor library, spend and creative-strategy insights, an AI chat analyst (\"Sense\"), real-time competitor alerts, and branded reporting. Adsmom exposes its ad index programmatically via both a hosted Model Context Protocol (MCP) server — for connecting AI assistants such as Claude, Codex, Cursor and Gemini — and a REST API for server-to-server pipelines, internal tools and scheduled jobs. API and MCP access are included on all paid tiers. The REST API publishes a public OpenAPI 3.0.0 description at api.adsmom.com covering 78 operations across four paid-ad platforms (Meta, TikTok, Google, LinkedIn) plus TikTok and Instagram organic accounts, grouped into Explore (ad search and hydration), Insights (tracked-advertiser management, AI summaries, weekly reports) and Analytics (reach, activity, share of voice, runtime, creative mix, targeting). Adsmom is a 500 Global portfolio company and raised ~$610K in early 2025.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png",
@@ -13977,7 +13890,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 302
     },
     {
      "name": "Chatfuel",
@@ -14021,7 +13934,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 305
+     "rank": 303
     },
     {
      "name": "Gist",
@@ -14065,51 +13978,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 306
-    },
-    {
-     "name": "Spredfast",
-     "slug": "spredfast",
-     "description": "Spredfast was an Austin-based social media marketing and management platform providing social publishing, engagement, listening, and analytics for enterprise brands and agencies. Backed by Battery Ventures, it acquired Mass Relevance in 2013, merged with Lithium Technologies in 2018, and the combined company rebranded as Khoros in 2019; the Spredfast product line is delivered today as Khoros Marketing and documented at developer.khoros.com. The API surface still carries the Spredfast name in production — the host is api.spredfast.com, OAuth 2.0 runs on login.spredfast.com, request headers use the x-sf- vendor prefix, and the Conversations v1 contract is still licensed as \"Spredfast API Terms of Use\". Nine OpenAPI documents covering 149 operations are published through the Khoros developer center: Conversations v2 and v1, an asynchronous Analytics Reporting API, a Notifications (Events) API with eleven documented event types, CRM registration, Label Sets, token introspection, the Experiences Stream API inherited from Mass Relevance, and an inverted Custom CRM contract the customer implements. The original devcenter.spredfast.com developer portal is dead and spredfast.com returns 503.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 307
+     "rank": 304
     },
     {
      "name": "EZR",
@@ -14153,7 +14022,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 308
+     "rank": 305
     },
     {
      "name": "VidMob",
@@ -14197,7 +14066,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 309
+     "rank": 306
     },
     {
      "name": "iSpot.tv",
@@ -14241,7 +14110,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 310
+     "rank": 307
     },
     {
      "name": "Lily AI",
@@ -14285,7 +14154,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 311
+     "rank": 308
     },
     {
      "name": "Ensighten",
@@ -14329,7 +14198,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 312
+     "rank": 309
     }
    ]
   },
@@ -14383,7 +14252,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 313
+     "rank": 310
     },
     {
      "name": "Optimyzee",
@@ -14427,7 +14296,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 314
+     "rank": 311
     },
     {
      "name": "Stagwell",
@@ -14471,7 +14340,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 315
+     "rank": 312
     },
     {
      "name": "MGID",
@@ -14514,7 +14383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 313
     },
     {
      "name": "Tofu",
@@ -14557,7 +14426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 314
     },
     {
      "name": "Doceree",
@@ -14618,7 +14487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 315
     },
     {
      "name": "Superscale",
@@ -14661,7 +14530,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 316
     },
     {
      "name": "Appgain",
@@ -14712,7 +14581,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 320
+     "rank": 317
     },
     {
      "name": "Docket",
@@ -14756,7 +14625,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 321
+     "rank": 318
     },
     {
      "name": "Mutiny",
@@ -14799,7 +14668,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 319
     },
     {
      "name": "StoryTap",
@@ -14842,7 +14711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 320
     },
     {
      "name": "FuseWP",
@@ -14885,7 +14754,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 324
+     "rank": 321
     },
     {
      "name": "AppNexus",
@@ -14929,7 +14798,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 325
+     "rank": 322
     },
     {
      "name": "KeepFace",
@@ -14972,7 +14841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 323
     },
     {
      "name": "Amobee",
@@ -15016,7 +14885,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 327
+     "rank": 324
     },
     {
      "name": "Mutiny HQ",
@@ -15059,7 +14928,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 325
     },
     {
      "name": "Knotch",
@@ -15103,7 +14972,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 329
+     "rank": 326
     },
     {
      "name": "MadHive",
@@ -15147,7 +15016,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 330
+     "rank": 327
     },
     {
      "name": "NaviStone",
@@ -15191,7 +15060,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 331
+     "rank": 328
     },
     {
      "name": "NIFT",
@@ -15234,7 +15103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 329
     },
     {
      "name": "Covatic",
@@ -15278,7 +15147,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 333
+     "rank": 330
     },
     {
      "name": "Attendease",
@@ -15321,7 +15190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 331
     },
     {
      "name": "Epsilon",
@@ -15365,7 +15234,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 335
+     "rank": 332
     },
     {
      "name": "LeadGenius",
@@ -15408,7 +15277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 333
     },
     {
      "name": "Tdaycom",
@@ -15450,7 +15319,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 334
     },
     {
      "name": "AdReady (CPXi)",
@@ -15494,7 +15363,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 338
+     "rank": 335
     },
     {
      "name": "BYBE",
@@ -15545,7 +15414,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 339
+     "rank": 336
     },
     {
      "name": "Fibr",
@@ -15588,7 +15457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 337
     },
     {
      "name": "Mobile Action",
@@ -15631,7 +15500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 338
     },
     {
      "name": "Noosh",
@@ -15674,7 +15543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 339
     },
     {
      "name": "Kudobuzz",
@@ -15717,7 +15586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 340
     },
     {
      "name": "StreetMetrics",
@@ -15761,7 +15630,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 344
+     "rank": 341
     },
     {
      "name": "2X",
@@ -15805,7 +15674,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 345
+     "rank": 342
     },
     {
      "name": "Infutor",
@@ -15848,10 +15717,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 343
     },
     {
-     "name": "Textla Inc.",
+     "name": "Textla",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/textla-inc/refs/heads/main/screenshots/textla-inc-2026-09-02T163313.png",
@@ -15898,7 +15767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 344
     },
     {
      "name": "PlusThis",
@@ -15949,7 +15818,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 348
+     "rank": 345
     },
     {
      "name": "Push",
@@ -16000,7 +15869,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 349
+     "rank": 346
     },
     {
      "name": "Jifflenow",
@@ -16043,7 +15912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 347
     },
     {
      "name": "Hilbert's AI",
@@ -16086,7 +15955,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 348
     },
     {
      "name": "Animoto",
@@ -16128,7 +15997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 349
     },
     {
      "name": "Superside",
@@ -16171,7 +16040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 350
     },
     {
      "name": "BlueOcean",
@@ -16215,7 +16084,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 354
+     "rank": 351
     },
     {
      "name": "Flipp (Wishabi)",
@@ -16259,7 +16128,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 355
+     "rank": 352
     },
     {
      "name": "Sesame Labs",
@@ -16302,7 +16171,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 353
     },
     {
      "name": "Jampp",
@@ -16346,7 +16215,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 357
+     "rank": 354
     },
     {
      "name": "Pavoot",
@@ -16389,7 +16258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 355
     },
     {
      "name": "LocBox Labs",
@@ -16432,7 +16301,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 356
     },
     {
      "name": "SundaySky",
@@ -16475,7 +16344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 357
     },
     {
      "name": "Marin Software",
@@ -16519,7 +16388,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 361
+     "rank": 358
     },
     {
      "name": "Qeen.AI",
@@ -16562,7 +16431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 359
     },
     {
      "name": "FlyteDesk",
@@ -16613,7 +16482,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 363
+     "rank": 360
     },
     {
      "name": "OwnLocal",
@@ -16656,7 +16525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 361
     },
     {
      "name": "Terminus",
@@ -16699,10 +16568,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 362
     },
     {
-     "name": "USADATA, Inc.",
+     "name": "USADATA",
      "slug": "usadata-inc",
      "description": "USADATA is a data and marketing intelligence company founded in 1998 and headquartered in New York City, backed by Insight Partners. It maintains a database of 260+ million US consumer records, 15+ million businesses, and 190 million households, updated monthly, and provides audience intelligence, data enrichment, hygiene, and omnichannel campaign activation. Products include the SL360 self-serve audience platform, Hailey AI conversational audience builder, a white-label Leads Portal with an embeddable Leads Module, and RESTful APIs for real-time and batch enrichment, audience building, hygiene (address standardization, NCOA, dedup, deceased suppression), and matchback attribution, with integrations into Salesforce, HubSpot, Marketo, and other CRM and marketing platforms. One machine-readable contract is published — the Leads Engine SOAP service at leadsengine.usadata.com serves a WSDL anonymously declaring 24 operations for counts, pricing, ordering, suppression, address lookup and geography. The REST APIs the marketing site advertises publish no spec, and API credentials are sales-gated with no developer portal, no reference documentation and no self-service sign-up.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png",
@@ -16742,7 +16611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 363
     },
     {
      "name": "Vidjet",
@@ -16785,7 +16654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 364
     },
     {
      "name": "Sendible",
@@ -16829,7 +16698,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 368
+     "rank": 365
     },
     {
      "name": "DAS Technology",
@@ -16873,7 +16742,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 369
+     "rank": 366
     },
     {
      "name": "Repeat",
@@ -16916,7 +16785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 367
     },
     {
      "name": "Popmenu",
@@ -16959,7 +16828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 368
     },
     {
      "name": "Sojern",
@@ -17003,7 +16872,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 372
+     "rank": 369
     },
     {
      "name": "Black Crow AI",
@@ -17046,7 +16915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 370
     },
     {
      "name": "Giveffect",
@@ -17090,7 +16959,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 374
+     "rank": 371
     },
     {
      "name": "Audigent",
@@ -17133,7 +17002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 372
     },
     {
      "name": "Newfold",
@@ -17176,7 +17045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 373
     },
     {
      "name": "Ciloo",
@@ -17219,7 +17088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 374
     },
     {
      "name": "Haus",
@@ -17263,7 +17132,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 378
+     "rank": 375
     },
     {
      "name": "Cheerfy",
@@ -17321,7 +17190,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 379
+     "rank": 376
     },
     {
      "name": "PebblePost",
@@ -17365,7 +17234,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 380
+     "rank": 377
     },
     {
      "name": "Kana",
@@ -17409,7 +17278,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 381
+     "rank": 378
     },
     {
      "name": "Albertsons",
@@ -17452,7 +17321,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 382
+     "rank": 379
     },
     {
      "name": "Agentio",
@@ -17495,7 +17364,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 380
     },
     {
      "name": "SocialSign.in",
@@ -17539,7 +17408,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 384
+     "rank": 381
     },
     {
      "name": "Kuaishou",
@@ -17582,7 +17451,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 382
     },
     {
      "name": "TransUnion",
@@ -17632,7 +17501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 383
     },
     {
      "name": "LiftLab",
@@ -17676,7 +17545,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 387
+     "rank": 384
     },
     {
      "name": "Replyr.ai",
@@ -17726,7 +17595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 385
     },
     {
      "name": "Silveredge",
@@ -17770,7 +17639,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 389
+     "rank": 386
     },
     {
      "name": "Tremor Video",
@@ -17814,7 +17683,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 390
+     "rank": 387
     },
     {
      "name": "Spindl",
@@ -17857,7 +17726,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 388
     },
     {
      "name": "RR Donnelley And Sons",
@@ -17900,7 +17769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 389
     },
     {
      "name": "InsightEra",
@@ -17944,7 +17813,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 393
+     "rank": 390
     },
     {
      "name": "Integral Ad Science",
@@ -17987,7 +17856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 391
     },
     {
      "name": "Nectar Social",
@@ -18029,7 +17898,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 392
     },
     {
      "name": "Lotame Solutions",
@@ -18072,7 +17941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 393
     },
     {
      "name": "The Ticket Fairy",
@@ -18123,7 +17992,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 397
+     "rank": 394
     },
     {
      "name": "OneScreen AI",
@@ -18167,7 +18036,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 398
+     "rank": 395
     },
     {
      "name": "Datafy",
@@ -18210,7 +18079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 396
     },
     {
      "name": "Paramark",
@@ -18253,7 +18122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 397
     },
     {
      "name": "Sintra",
@@ -18296,7 +18165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 398
     }
    ]
   },
@@ -18305,8 +18174,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 95,
-   "shown": 95,
+   "count": 94,
+   "shown": 94,
    "providers": [
     {
      "name": "Opensense (formerly SenderGen)",
@@ -18350,7 +18219,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 402
+     "rank": 399
     },
     {
      "name": "AdQuick",
@@ -18393,7 +18262,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 400
     },
     {
      "name": "MAI",
@@ -18437,7 +18306,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 404
+     "rank": 401
     },
     {
      "name": "WebsitePros",
@@ -18480,51 +18349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
-    },
-    {
-     "name": "Fetch Rewards",
-     "slug": "fetch-rewards",
-     "description": "Fetch (legally Fetch Rewards, LLC) is a Madison, Wisconsin consumer rewards platform whose mobile app lets shoppers scan paper receipts, connect e-receipts and link accounts to earn points redeemable for gift cards and other rewards. On the demand side, Fetch For Business sells consumer packaged goods brands, retailers and restaurants receipt-verified offers, video and display advertising, point boosts, loyalty programs and omnichannel audience activation, all measured against real purchase data and managed through its Mission Control campaign platform. Fetch publishes no public developer or partner API and operates no developer portal; its only public machine-readable contract is the Receipt Processor reference OpenAPI it publishes on GitHub as an engineering hiring exercise. It does run a coordinated vulnerability disclosure program via HackerOne and publishes an RFC 9116 security.txt, and its GitHub organization ships several first-party open-source Swift and Python developer libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 45.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 406
+     "rank": 402
     },
     {
      "name": "Resulticks",
@@ -18575,7 +18400,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 407
+     "rank": 403
     },
     {
      "name": "CloutJam",
@@ -18618,7 +18443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 404
     },
     {
      "name": "SOCi",
@@ -18662,7 +18487,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 409
+     "rank": 405
     },
     {
      "name": "Zemanta",
@@ -18706,7 +18531,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 410
+     "rank": 406
     },
     {
      "name": "Catch&Release",
@@ -18749,7 +18574,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 411
+     "rank": 407
     },
     {
      "name": "PlayPlay",
@@ -18793,7 +18618,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 412
+     "rank": 408
     },
     {
      "name": "Rosetta.ai",
@@ -18837,7 +18662,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 413
+     "rank": 409
     },
     {
      "name": "Innertrends",
@@ -18880,7 +18705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 410
     },
     {
      "name": "Kompyte",
@@ -18923,10 +18748,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 411
     },
     {
-     "name": "Deluxe Corporation",
+     "name": "Deluxe",
      "slug": "deluxe",
      "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",
@@ -18973,7 +18798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 412
     },
     {
      "name": "Remarkable AI",
@@ -19016,7 +18841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 413
     },
     {
      "name": "Lucky Cart",
@@ -19060,7 +18885,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 418
+     "rank": 414
     },
     {
      "name": "Brandripe",
@@ -19103,7 +18928,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 415
     },
     {
      "name": "Ematic Solutions",
@@ -19147,7 +18972,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 420
+     "rank": 416
     },
     {
      "name": "MadeThis",
@@ -19191,7 +19016,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 421
+     "rank": 417
     },
     {
      "name": "Ebrandvalue",
@@ -19234,7 +19059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 418
     },
     {
      "name": "Brand.ai",
@@ -19276,7 +19101,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 419
     },
     {
      "name": "Groupboss",
@@ -19320,7 +19145,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 424
+     "rank": 420
     },
     {
      "name": "soona",
@@ -19363,7 +19188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 421
     },
     {
      "name": "Namogoo",
@@ -19407,7 +19232,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 426
+     "rank": 422
     },
     {
      "name": "Laurence",
@@ -19451,7 +19276,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 427
+     "rank": 423
     },
     {
      "name": "Liquid M",
@@ -19495,7 +19320,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 428
+     "rank": 424
     },
     {
      "name": "AdEspresso",
@@ -19538,7 +19363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 425
     },
     {
      "name": "Stllr Network",
@@ -19581,7 +19406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 426
     },
     {
      "name": "Motiva",
@@ -19625,7 +19450,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 431
+     "rank": 427
     },
     {
      "name": "Aktana (PharmaForceIQ)",
@@ -19690,7 +19515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 428
     },
     {
      "name": "Heyo",
@@ -19734,7 +19559,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 433
+     "rank": 429
     },
     {
      "name": "Plixi",
@@ -19777,51 +19602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
-    },
-    {
-     "name": "Sinclair, Inc.",
-     "slug": "sinclair-broadcast-group",
-     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 435
+     "rank": 430
     },
     {
      "name": "AirPR",
@@ -19864,7 +19645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 431
     },
     {
      "name": "Rocksalt",
@@ -19907,7 +19688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 432
     },
     {
      "name": "Alyce",
@@ -19950,7 +19731,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 438
+     "rank": 433
     },
     {
      "name": "Commsor",
@@ -19993,7 +19774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 434
     },
     {
      "name": "Tvscientific",
@@ -20037,7 +19818,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 440
+     "rank": 435
     },
     {
      "name": "LaunchRock",
@@ -20080,7 +19861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 436
     },
     {
      "name": "Adelphic Mobile *",
@@ -20124,7 +19905,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 442
+     "rank": 437
     },
     {
      "name": "Persado",
@@ -20167,7 +19948,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 438
     },
     {
      "name": "Revie",
@@ -20210,7 +19991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 439
     },
     {
      "name": "Ripl",
@@ -20254,7 +20035,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 445
+     "rank": 440
     },
     {
      "name": "Peer39",
@@ -20298,7 +20079,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 446
+     "rank": 441
     },
     {
      "name": "Bikky",
@@ -20342,7 +20123,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 447
+     "rank": 442
     },
     {
      "name": "Breef",
@@ -20392,10 +20173,54 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 443
     },
     {
-     "name": "ALLSALE Corp.",
+     "name": "Sinclair",
+     "slug": "sinclair-broadcast-group",
+     "description": "Sinclair, Inc. (Nasdaq: SBGI), formerly Sinclair Broadcast Group, is a diversified media company and one of the largest U.S. local television broadcasters. The company operates 177-185+ TV stations across roughly 79-86 markets affiliated with all major broadcast networks (Fox, NBC, CBS, ABC, MyNetworkTV, The CW), owns Tennis Channel, holds a stake in YES Network, and runs digital multicast networks Comet, Charge!, Roar, and The Nest. Sinclair Ventures houses the company's non-broadcast operations, including ad/martech units (AMP, Drive Auto, Free State, Digital Remedy/Compulse) and broadcast technology subsidiaries (Dielectric, ONE Media Technologies, Bitpath, CAST.ERA, Broadspan Wireless). In 2019 Sinclair acquired the Fox Sports regional sports networks for ~$9.6 billion through a Diamond Sports Group joint venture; Diamond was rebranded Bally Sports in 2021, filed Chapter 11 in March 2023, exited bankruptcy in January 2025 as Main Street Sports Group, rebranded again as FanDuel Sports Network, and is winding down operations in mid-2026. Sinclair runs no developer program and publishes no API documentation, but its corporate site at sbgi.net serves a live, public, unauthenticated WordPress REST API whose first-party sbg/v1 namespace publishes the company's full television station footprint — 197 primary stations and 365 digital subchannels across 87 Nielsen DMAs, with network affiliation, market rank and O&O/JSA/LMA/MSA ownership status attached to every call sign — alongside 1,753 press releases and the regional sports network territories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png",
+     "score": 20.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 39.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 444
+    },
+    {
+     "name": "ALLSALE",
      "slug": "allsale-corp",
      "description": "ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-marketing automation platform for consumer brands. It runs three AI agents — a Creator Discovery Agent that finds and engages relevant TikTok creators, a Budget Optimization Agent that recommends budget allocation and commission adjustments, and a Performance Analyst Agent that tracks GMV and predicts results — automating the full workflow from creator discovery and outreach through performance tracking and ROI analysis. The company is a 500 Global portfolio company and reports 100K+ creators engaged and $50M+ in customer revenue generated across its brand clients. Plans run from a $399/month Starter tier to a $599/month Pro tier, with custom Enterprise pricing offering unlimited messaging, multi-brand support, and white-label options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/screenshots/allsale-corp-2026-07-25T195716.png",
@@ -20436,7 +20261,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 449
+     "rank": 445
     },
     {
      "name": "Advantage Solutions",
@@ -20479,7 +20304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 446
     },
     {
      "name": "Influenxio",
@@ -20522,7 +20347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 447
     },
     {
      "name": "Memoir",
@@ -20566,7 +20391,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 452
+     "rank": 448
     },
     {
      "name": "Blobr",
@@ -20609,7 +20434,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 453
+     "rank": 449
     },
     {
      "name": "Mainframe",
@@ -20652,7 +20477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 450
     },
     {
      "name": "Pixis",
@@ -20696,7 +20521,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 455
+     "rank": 451
     },
     {
      "name": "Bluefish AI",
@@ -20739,7 +20564,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 452
     },
     {
      "name": "WeStock",
@@ -20783,7 +20608,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 457
+     "rank": 453
     },
     {
      "name": "AdMagica AI",
@@ -20826,7 +20651,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 454
     },
     {
      "name": "SpeedyBrand",
@@ -20870,7 +20695,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 459
+     "rank": 455
     },
     {
      "name": "Webloyalty",
@@ -20914,7 +20739,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 460
+     "rank": 456
     },
     {
      "name": "App Onboard",
@@ -20957,7 +20782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 457
     },
     {
      "name": "GoAudience",
@@ -21001,7 +20826,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 462
+     "rank": 458
     },
     {
      "name": "Valid",
@@ -21045,50 +20870,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 463
-    },
-    {
-     "name": "VaynerMedia",
-     "slug": "vaynermedia",
-     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 464
+     "rank": 459
     },
     {
      "name": "ViralGains",
@@ -21145,7 +20927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 460
     },
     {
      "name": "Firefly",
@@ -21188,7 +20970,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 461
+    },
+    {
+     "name": "VaynerMedia",
+     "slug": "vaynermedia",
+     "description": "VaynerMedia is an integrated strategy, creative, and media agency founded by Gary Vaynerchuk, positioning itself as \"The Modern Agency of Record\" with social media at the center of its practice. Headquartered in New York with roughly 2,000 employees across offices in Los Angeles, Chattanooga, Chicago, Miami, Toronto, Amsterdam, London, Mexico City, Sydney, Mumbai, Tokyo, Kuala Lumpur, Singapore, and Bangkok, the agency serves clients including Bose, Coach, Diageo, Duracell, Indeed, Jimmy John's, Meta, Mondelez, NatWest, PepsiCo, Tinder, and Wingstop. VaynerMedia is the flagship brand of holding company VaynerX, whose portfolio also includes Gallery Media Group, ChukMedia, Tamara Group, Eva Nosidam Productions, VaynerSpeakers, Tingley Lane, and the Marketing for the Now podcast. VaynerMedia is a services agency, not an API or platform company — it does not publish a developer API, SDK, or public technology product, and its public GitHub presence (github.com/vaynermedia and github.com/vaynerx) consists primarily of forked open source libraries and internal build tooling rather than maintained API products. The one machine-readable surface VaynerMedia does serve is its own website: vaynermedia.com runs on self-hosted WordPress at WP Engine and leaves the WordPress REST API open for anonymous reads at vaynermedia.com/wp-json/, with 365 registered routes covering posts, pages, media, taxonomies and the agency's own case_study custom post type. The site also serves a Yoast-generated llms.txt. Neither is a developer product — they are the content surface of a marketing site — but both are real, public and callable, and they are what an agent researching the agency can actually read.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png",
+     "score": 17.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 462
     },
     {
      "name": "Anonym",
@@ -21231,7 +21056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 463
     },
     {
      "name": "Postcron",
@@ -21275,7 +21100,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 468
+     "rank": 464
     },
     {
      "name": "Interpublic Group",
@@ -21319,7 +21144,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 469
+     "rank": 465
     },
     {
      "name": "Marketing Evolution",
@@ -21363,7 +21188,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 470
+     "rank": 466
     },
     {
      "name": "Ziff Davis Enterprise",
@@ -21407,7 +21232,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 471
+     "rank": 467
     },
     {
      "name": "Quad/Graphics",
@@ -21451,7 +21276,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 472
+     "rank": 468
     },
     {
      "name": "Gannett",
@@ -21495,7 +21320,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 473
+     "rank": 469
     },
     {
      "name": "Horizon Media",
@@ -21538,7 +21363,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 474
+     "rank": 470
     },
     {
      "name": "Mosaic",
@@ -21581,7 +21406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 471
     },
     {
      "name": "Pepper Content",
@@ -21625,7 +21450,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 476
+     "rank": 472
     },
     {
      "name": "Property Capsule",
@@ -21669,7 +21494,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 477
+     "rank": 473
     },
     {
      "name": "Promolta",
@@ -21712,7 +21537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 474
     },
     {
      "name": "Yieldify *",
@@ -21756,7 +21581,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 479
+     "rank": 475
     },
     {
      "name": "TNL Mediagene",
@@ -21800,7 +21625,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 480
+     "rank": 476
     },
     {
      "name": "Fivestars",
@@ -21850,7 +21675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 477
     },
     {
      "name": "TapAd",
@@ -21893,7 +21718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 478
     },
     {
      "name": "Gomultiply",
@@ -21937,7 +21762,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 483
+     "rank": 479
     },
     {
      "name": "Sync API",
@@ -21980,7 +21805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 480
     },
     {
      "name": "GrowthHackers",
@@ -22030,7 +21855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 481
     },
     {
      "name": "CommerceIQ",
@@ -22074,7 +21899,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 486
+     "rank": 482
     },
     {
      "name": "Virool",
@@ -22118,7 +21943,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 487
+     "rank": 483
     },
     {
      "name": "BBDO Worldwide",
@@ -22162,10 +21987,10 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 488
+     "rank": 484
     },
     {
-     "name": "STORI AI Inc.",
+     "name": "STORI AI",
      "slug": "stori-ai-inc",
      "description": "STORI AI is a San Francisco-based AI content-marketing platform that helps brands define their identity — archetype, tone, tagline, and colors — and turn that identity into on-brand social posts, graphics, images, videos, and go-to-market marketing materials. The product generates personalized branded content, schedules and publishes it across digital platforms, and offers analytics, content storage, and multi-brand, multi-language, team-collaboration tiers. A Product Hunt Golden Kitty Award recipient, STORI AI is a web SaaS application for marketers and brand teams; it exposes no public developer API, SDKs, or developer portal at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stori-ai-inc/refs/heads/main/screenshots/stori-ai-inc-2026-09-02T160931.png",
@@ -22205,7 +22030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 485
     },
     {
      "name": "Newton Research",
@@ -22249,7 +22074,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 490
+     "rank": 486
     },
     {
      "name": "Triblio",
@@ -22293,7 +22118,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 491
+     "rank": 487
     },
     {
      "name": "PlusMargin",
@@ -22336,7 +22161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 488
     },
     {
      "name": "Bizible Marketing Analytics",
@@ -22379,7 +22204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 489
     },
     {
      "name": "Spotter",
@@ -22423,7 +22248,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 494
+     "rank": 490
     },
     {
      "name": "alphin",
@@ -22466,7 +22291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 491
     },
     {
      "name": "Kuli",
@@ -22509,7 +22334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 492
     }
    ]
   },
@@ -22562,7 +22387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 493
     },
     {
      "name": "GetCraft",
@@ -22604,7 +22429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 494
     },
     {
      "name": "Likeable Local",
@@ -22648,7 +22473,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 499
+     "rank": 495
     },
     {
      "name": "Omnicom Group",
@@ -22692,7 +22517,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 500
+     "rank": 496
     },
     {
      "name": "SureWaves",
@@ -22736,7 +22561,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 501
+     "rank": 497
     },
     {
      "name": "Ogilvy",
@@ -22786,7 +22611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 498
     },
     {
      "name": "Ebbo",
@@ -22830,7 +22655,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 503
+     "rank": 499
     },
     {
      "name": "Codec",
@@ -22873,7 +22698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 500
     },
     {
      "name": "MightyHive",
@@ -22917,7 +22742,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 505
+     "rank": 501
     },
     {
      "name": "PearPop",
@@ -22960,7 +22785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 502
     },
     {
      "name": "Digital Room",
@@ -23003,7 +22828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 503
     },
     {
      "name": "designstripe",
@@ -23045,7 +22870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 504
     },
     {
      "name": "Red Ventures",
@@ -23089,7 +22914,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 509
+     "rank": 505
     },
     {
      "name": "Tongal",
@@ -23132,7 +22957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 506
     },
     {
      "name": "Pimento",
@@ -23175,7 +23000,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 507
     },
     {
      "name": "InstaAgent",
@@ -23218,7 +23043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 508
     },
     {
      "name": "Mirado",
@@ -23269,7 +23094,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 513
+     "rank": 509
     },
     {
      "name": "Xinhe Technology",
@@ -23312,7 +23137,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 510
     },
     {
      "name": "Quantum",
@@ -23356,7 +23181,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 515
+     "rank": 511
     },
     {
      "name": "451 Degrees",
@@ -23400,7 +23225,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 516
+     "rank": 512
     },
     {
      "name": "ADstruc",
@@ -23444,7 +23269,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 517
+     "rank": 513
     },
     {
      "name": "Massive Dynamic",
@@ -23488,7 +23313,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 518
+     "rank": 514
     },
     {
      "name": "GTM Release",
@@ -23530,7 +23355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 515
     },
     {
      "name": "adludio",
@@ -23576,7 +23401,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 520
+     "rank": 516
     },
     {
      "name": "Krunch",
@@ -23619,7 +23444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 517
     },
     {
      "name": "MoonFruit",
@@ -23662,7 +23487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 518
     },
     {
      "name": "Novocall",
@@ -23704,7 +23529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 519
     },
     {
      "name": "Shoelace",
@@ -23748,7 +23573,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 524
+     "rank": 520
     },
     {
      "name": "Unamo",
@@ -23793,7 +23618,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 525
+     "rank": 521
     },
     {
      "name": "Advolve.AI",
@@ -23837,7 +23662,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 526
+     "rank": 522
     },
     {
      "name": "Datanyze *",
@@ -23880,7 +23705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 523
     },
     {
      "name": "ShareRoot",
@@ -23922,7 +23747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 524
     },
     {
      "name": "Simplifai Labs",
@@ -23966,7 +23791,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 529
+     "rank": 525
     },
     {
      "name": "TubeMogul",
@@ -24009,7 +23834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 526
     },
     {
      "name": "88rising",
@@ -24052,7 +23877,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 531
+     "rank": 527
     },
     {
      "name": "Absurd",
@@ -24096,7 +23921,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 532
+     "rank": 528
     },
     {
      "name": "Boost Media",
@@ -24140,7 +23965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 529
     },
     {
      "name": "Brightloom",
@@ -24184,7 +24009,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 534
+     "rank": 530
     },
     {
      "name": "Campanja",
@@ -24229,7 +24054,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 535
+     "rank": 531
     },
     {
      "name": "Conteller",
@@ -24272,7 +24097,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 536
+     "rank": 532
     },
     {
      "name": "Convertro, Inc.",
@@ -24315,7 +24140,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 537
+     "rank": 533
     },
     {
      "name": "MaxPoint",
@@ -24357,10 +24182,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 534
     },
     {
-     "name": "Murmur Technologies INC",
+     "name": "Murmur Technologies",
      "slug": "murmur-technologies-inc",
      "description": "Murmur Technologies INC (Murmur) is a Chicago, Illinois out-of-home advertising technology company operating a mobile digital billboard platform. It mounts smart LCD screens on car-tops and pedestrian backpacks to display geo-targeted ads on city streets, using sensors, computer vision, and location data to segment audiences by demographics, location, and behavior, measure ad performance in real time, and retarget viewers across other channels such as Facebook and Google. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a lead for enrichment. As of the 2026-08-12 enrichment pass the operation appears dormant: both marketing domains (murmurcars.com and murmurads.com) carry Route 53 nameservers but no A record at all, and the blog host times out. The one surviving surface is portal.murmurads.com, the advertiser portal, a static React single-page app served from Amazon S3 behind CloudFront whose last build shipped 2024-12-26. Its JavaScript bundle calls a private REST backend at backendapp.murmurcars.com/api/v1/ (campaigns, venues, zipcode demographics, GPS, air quality and user endpoints), but that host — while it still resolves — has TCP 443 and 80 dead, so the portal front-end can no longer reach its own API. Murmur publishes no public API, developer portal, documentation, SDK, or machine-readable specification of any kind, and no package exists for it in any public registry.",
      "score": 5.0,
@@ -24399,7 +24224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 535
     },
     {
      "name": "OneCommand",
@@ -24442,7 +24267,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 540
+     "rank": 536
     },
     {
      "name": "OneSpot",
@@ -24486,7 +24311,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 541
+     "rank": 537
     },
     {
      "name": "PerfectMarket",
@@ -24530,7 +24355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 538
     },
     {
      "name": "refresh",
@@ -24573,7 +24398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 539
     },
     {
      "name": "ruhnn",
@@ -24616,7 +24441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 540
     },
     {
      "name": "TVTY",
@@ -24659,7 +24484,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 545
+     "rank": 541
     }
    ]
   }

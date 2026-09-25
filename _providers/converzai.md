@@ -136,7 +136,7 @@ tags:
 - Staffing
 - Conversational AI
 - Voice AI
-- Agentic AI
+- AI Agents
 - Human Resources
 - HR Technology
 website: https://www.converzai.com

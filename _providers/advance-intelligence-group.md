@@ -92,7 +92,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://advance.ai/
+  url: https://advancegroup.com/
 - group: docs
   title: ''
   type: Documentation
@@ -252,5 +252,5 @@ tags:
 - Artificial Intelligence
 - Risk Management
 - Singapore
-website: https://advance.ai/
+website: https://advancegroup.com/
 ---

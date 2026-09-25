@@ -636,7 +636,7 @@ tags:
 - Istio
 - Envoy
 - AI Gateway
-- Agentic AI
+- AI Agents
 - MCP
 - Developer Portal
 - Cloud-Native

@@ -78,13 +78,13 @@ description: LKQ Corporation is a Fortune 500 company and a leading provider of 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lkq.png
 layout: provider
 modified: '2026-04-28'
-name: LKQ Corporation
+name: LKQ
 nav: Providers
 network: true
-overview: 'LKQ Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Auto Parts, Fortune 500, Aftermarket, and Recycled Parts.
+overview: 'LKQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Auto Parts, Fortune 500, Aftermarket, and Recycled Parts.
 
 
-  LKQ Corporation''s developer surface includes product news, engineering blog, and 7 more developer resources.'
+  LKQ''s developer surface includes product news, engineering blog, and 7 more developer resources.'
 press:
 - date: ''
   title: LKQ LKQ Corporation Earnings Call Transcripts

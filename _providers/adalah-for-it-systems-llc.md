@@ -82,13 +82,13 @@ description: Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal 
 image: https://qanoniah.com/og_image.png
 layout: provider
 modified: '2026-07-18'
-name: Adalah for IT Systems LLC
+name: Qanoniah
 nav: Providers
 network: true
-overview: 'Adalah for IT Systems LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and Compliance.
+overview: 'Qanoniah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Artificial Intelligence, and Compliance.
 
 
-  Adalah for IT Systems LLC''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
+  Qanoniah''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
 random_paper: 18
 score:
   band: emerging

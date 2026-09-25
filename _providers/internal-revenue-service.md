@@ -112,6 +112,11 @@ score:
     developer_ergonomics: 14.3
     discoverability: 59.3
     operational_transparency: 10.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 11.7
   regulatory:
     applies: true

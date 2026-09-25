@@ -1,6 +1,6 @@
 {
- "total": 78,
- "shown": 78,
+ "total": 75,
+ "shown": 75,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 19,
-   "shown": 19,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Medplum",
@@ -223,57 +223,6 @@
      "rank": 4
     },
     {
-     "name": "Centers for Medicare and Medicaid Services",
-     "slug": "cms",
-     "description": "The Centers for Medicare and Medicaid Services (CMS) provides a suite of public REST APIs enabling developers to access Medicare provider data, quality measures, drug spending, health plan finder, beneficiary claims, and public health insurance datasets. CMS APIs support interoperability standards including HL7 FHIR and OAuth 2.0 to power healthcare applications across the US health system.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png",
-     "score": 81.7,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 64.4,
-      "contract_governance": 43.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 79.2,
-      "access_clarity": 89.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 83.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "National Health System",
-     "rank": 5
-    },
-    {
      "name": "1upHealth",
      "slug": "1uphealth",
      "description": "1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).",
@@ -329,7 +278,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Veeva",
@@ -380,7 +329,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "athenahealth",
@@ -431,7 +380,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "eClinicalWorks",
@@ -482,7 +431,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Availity",
@@ -533,7 +482,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Flexpa",
@@ -584,7 +533,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "NextGen Healthcare",
@@ -635,7 +584,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Hint Health",
@@ -686,7 +635,7 @@
       "agentic_commerce": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Metriport",
@@ -744,7 +693,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Benchling",
@@ -806,7 +755,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Candid Health",
@@ -857,7 +806,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Health Gorilla",
@@ -908,7 +857,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Healthie",
@@ -959,7 +908,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Canvas Medical",
@@ -1021,7 +970,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 19
+     "rank": 18
     }
    ],
    "open": true
@@ -1098,7 +1047,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Vim",
@@ -1156,7 +1105,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Spruce Health",
@@ -1207,7 +1156,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Epic Systems",
@@ -1258,7 +1207,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Zocdoc",
@@ -1309,7 +1258,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Particle Health",
@@ -1360,7 +1309,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "DoseSpot",
@@ -1418,7 +1367,7 @@
       "agentic_commerce": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Validic",
@@ -1469,7 +1418,7 @@
       "agentic_commerce": false
      },
      "tier": "Devices & Wearables",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Aidbox",
@@ -1531,7 +1480,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Redox",
@@ -1597,7 +1546,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Optum",
@@ -1655,7 +1604,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Zus Health",
@@ -1706,7 +1655,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "Ribbon Health",
@@ -1757,7 +1706,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Practice Fusion",
@@ -1815,7 +1764,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Datavant",
@@ -1866,7 +1815,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Fasten Health",
@@ -1917,7 +1866,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Turquoise Health",
@@ -1975,7 +1924,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Truepill",
@@ -2026,7 +1975,7 @@
       "agentic_commerce": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Suki AI",
@@ -2077,7 +2026,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Photon",
@@ -2135,7 +2084,7 @@
       "agentic_commerce": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "AdvancedMD",
@@ -2193,7 +2142,7 @@
       "agentic_commerce": false
      },
      "tier": "Practice Management",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Human API",
@@ -2251,7 +2200,7 @@
       "agentic_commerce": false
      },
      "tier": "Devices & Wearables",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "pVerify",
@@ -2302,7 +2251,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 42
+     "rank": 41
     }
    ],
    "open": true
@@ -2312,60 +2261,9 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 18,
-   "shown": 18,
+   "count": 16,
+   "shown": 16,
    "providers": [
-    {
-     "name": "Allscripts",
-     "slug": "allscripts",
-     "description": "Allscripts, now operating as Veradigm, is a healthcare IT company providing REST and FHIR APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers FHIR R4 APIs covering 28 clinical resources as well as a Unity API for clinical, scheduling, demographic, and practice management functions across Allscripts EHR products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png",
-     "score": 54.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 43.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 54.2,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 60.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 43
-    },
     {
      "name": "Eligible",
      "slug": "eligible",
@@ -2415,7 +2313,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "Artera",
@@ -2481,7 +2379,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Color",
@@ -2543,7 +2441,7 @@
       "agentic_commerce": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Commure",
@@ -2594,7 +2492,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "H1",
@@ -2645,7 +2543,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Luma Health",
@@ -2703,7 +2601,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "DexCare",
@@ -2761,58 +2659,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 50
-    },
-    {
-     "name": "Oracle Health (Cerner)",
-     "slug": "cerner",
-     "description": "Oracle Health, formerly Cerner, builds and operates Millennium — one of the two dominant electronic health record platforms in United States hospitals and health systems. Cerner was acquired by Oracle in June 2022 and its developer program now runs as the Oracle Health Developer Program. The public developer surface is HL7 FHIR R4: a multi-tenant, US Core-conformant FHIR server that serves a live CapabilityStatement at /metadata and a live SMART on FHIR discovery document at /.well-known/smart-configuration, advertising 303 OAuth scopes across patient, user and system personas in both SMART v1 and SMART v2 granular forms. It supports SMART App Launch (EHR and standalone), SMART Backend Services with private_key_jwt, FHIR Bulk Data Access export, and — unusually — an open, unauthenticated, read-only endpoint that serves real sandbox data with no registration at all. Alongside FHIR it operates proprietary Millennium EHR APIs, HL7 v2 messaging through Cerner Open Interface, and the CareAware device and integration platform. There is no OpenAPI, no GraphQL endpoint, no MCP server, no agent card, no published pricing, no published rate limits, no status page and no first-party SDK for the FHIR API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png",
-     "score": 48.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 20.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 68.5,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 82.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 51
+     "rank": 48
     },
     {
      "name": "Moxe Health",
@@ -2874,7 +2721,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 52
+     "rank": 49
     },
     {
      "name": "Teladoc",
@@ -2932,7 +2779,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 53
+     "rank": 50
     },
     {
      "name": "MEDITECH",
@@ -2983,7 +2830,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 54
+     "rank": 51
     },
     {
      "name": "Waystar",
@@ -3034,7 +2881,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 55
+     "rank": 52
     },
     {
      "name": "Medable",
@@ -3085,7 +2932,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 56
+     "rank": 53
     },
     {
      "name": "Tuva Health",
@@ -3136,7 +2983,7 @@
       "agentic_commerce": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 57
+     "rank": 54
     },
     {
      "name": "Surescripts",
@@ -3187,7 +3034,7 @@
       "agentic_commerce": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 58
+     "rank": 55
     },
     {
      "name": "Komodo Health",
@@ -3238,7 +3085,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 59
+     "rank": 56
     },
     {
      "name": "Kno2",
@@ -3296,7 +3143,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 60
+     "rank": 57
     }
    ]
   },
@@ -3368,7 +3215,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 61
+     "rank": 58
     },
     {
      "name": "Innovaccer",
@@ -3426,7 +3273,7 @@
       "agentic_commerce": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 62
+     "rank": 59
     },
     {
      "name": "Cohere Health",
@@ -3484,7 +3331,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 63
+     "rank": 60
     },
     {
      "name": "Rhapsody",
@@ -3546,7 +3393,7 @@
       "agentic_commerce": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 64
+     "rank": 61
     },
     {
      "name": "Change Healthcare",
@@ -3597,7 +3444,7 @@
       "agentic_commerce": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 65
+     "rank": 62
     },
     {
      "name": "23andMe",
@@ -3658,7 +3505,7 @@
       "agentic_commerce": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 66
+     "rank": 63
     },
     {
      "name": "Amwell",
@@ -3716,7 +3563,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 67
+     "rank": 64
     },
     {
      "name": "HealthVerity",
@@ -3767,7 +3614,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 68
+     "rank": 65
     }
    ]
   },
@@ -3835,7 +3682,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 69
+     "rank": 66
     },
     {
      "name": "Clarify Health",
@@ -3886,7 +3733,7 @@
       "agentic_commerce": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 70
+     "rank": 67
     },
     {
      "name": "Wheel",
@@ -3944,7 +3791,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 71
+     "rank": 68
     },
     {
      "name": "Sesame",
@@ -3995,7 +3842,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 72
+     "rank": 69
     },
     {
      "name": "Notable",
@@ -4057,7 +3904,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 73
+     "rank": 70
     },
     {
      "name": "Abridge",
@@ -4108,7 +3955,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 74
+     "rank": 71
     },
     {
      "name": "Invitae",
@@ -4159,7 +4006,7 @@
       "agentic_commerce": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 75
+     "rank": 72
     },
     {
      "name": "Tempus AI",
@@ -4209,7 +4056,7 @@
       "agentic_commerce": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 76
+     "rank": 73
     },
     {
      "name": "Sprinter Health",
@@ -4260,7 +4107,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 77
+     "rank": 74
     },
     {
      "name": "Regard",
@@ -4311,7 +4158,7 @@
       "agentic_commerce": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 78
+     "rank": 75
     }
    ]
   }

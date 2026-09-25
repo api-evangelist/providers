@@ -23,13 +23,13 @@ modified: '2026-09-15'
 name: Virsa Systems
 nav: Providers
 network: true
-overview: Virsa Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk, Compliance, and GRC.
+overview: Virsa Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk Management, Compliance, and GRC.
 random_paper: 0
 slug: virsa-systems
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Sarbanes-Oxley

@@ -50,10 +50,10 @@ description: Grinta Inc is a company surfaced as a portfolio company of 500-glob
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grinta-inc.png
 layout: provider
 modified: '2026-07-19'
-name: Grinta Inc
+name: Grinta
 nav: Providers
 network: true
-overview: Grinta Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Grinta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 14
 score:
   band: minimal

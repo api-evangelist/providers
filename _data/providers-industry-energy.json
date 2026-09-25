@@ -1,6 +1,6 @@
 {
- "total": 710,
- "shown": 710,
+ "total": 708,
+ "shown": 708,
  "limit": 1000,
  "bands": [
   {
@@ -5331,8 +5331,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 79,
-   "shown": 79,
+   "count": 78,
+   "shown": 78,
    "providers": [
     {
      "name": "Kpler",
@@ -5883,7 +5883,7 @@
      "rank": 116
     },
     {
-     "name": "Helmerich And Payne",
+     "name": "Helmerich & Payne",
      "slug": "helmerich-and-payne",
      "description": "Helmerich & Payne, Inc. (H&P, NYSE: HP) is a Tulsa-based drilling solutions company that operates one of the largest land rig fleets in the United States alongside international and offshore operations, and sells rig automation and wellbore-placement technology under the H&P Technologies banner — FlexRig, AutoSlide, StallAssist, FlexB2D and Autodriller Pro. Its public API surface is narrow but real: through Magnetic Variation Services LLC (MagVAR), the directional-drilling survey-correction company H&P acquired in 2018, it publishes the MagVAR Survey Validation API, an anonymous, read-only HTTPS endpoint that runs ISCWSA OWSG Rev-2 dynamic quality control on MWD survey stations and returns per-field Green/Orange/Red verdicts with inclination and azimuth uncertainty. H&P links the API from its own customer-tools page and documents it with a Swagger 2.0 contract served at the API host.",
      "score": 36.1,
@@ -8789,6 +8789,56 @@
      "rank": 174
     },
     {
+     "name": "Entergy",
+     "slug": "entergy",
+     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
+     "score": 27.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 26.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 175
+    },
+    {
      "name": "Modo Energy",
      "slug": "modo-energy",
      "description": "Modo Energy's API is designed for battery operators, owners, and utilities looking to build state-of-the-art energy data systems.",
@@ -8836,7 +8886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "EcoFlow",
@@ -8886,7 +8936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Canada Energy Regulator",
@@ -8936,7 +8986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Andium",
@@ -8986,7 +9036,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Franklin Whole Home",
@@ -9036,7 +9086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "CONSOL Energy",
@@ -9086,7 +9136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "E.ON Next",
@@ -9134,56 +9184,6 @@
       "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 181
-    },
-    {
-     "name": "Entergy",
-     "slug": "entergy",
-     "description": "Entergy Corporation is an integrated energy company headquartered in New Orleans, Louisiana, providing electricity to more than 3 million utility customers across Arkansas, Louisiana, Mississippi, and Texas. The company operates power generation, transmission, and distribution infrastructure including nuclear, renewable, and hydroelectric resources. While Entergy does not publish a public developer API portal, it operates customer-facing digital tools (myEntergy account portal, outage map, energy efficiency toolkit) that interact with internal systems via private APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/screenshots/entergy-2026-06-20T180727.png",
-     "score": 26.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 15.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 182
@@ -9237,56 +9237,6 @@
       "agentic_commerce": false
      },
      "rank": 183
-    },
-    {
-     "name": "APA Corporation",
-     "slug": "apa",
-     "description": "APA Corporation is an independent energy company that explores for, develops, and produces natural gas, crude oil, and natural gas liquids, with operations in the United States, Egypt, the United Kingdom, and Suriname. Organized in Delaware and headquartered in Houston, Texas, APA is listed on Nasdaq (APA) and listed on Nasdaq Texas since March 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png",
-     "score": 26.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 184
     }
    ]
   },
@@ -9295,8 +9245,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 173,
-   "shown": 173,
+   "count": 174,
+   "shown": 174,
    "providers": [
     {
      "name": "Landis+Gyr",
@@ -9346,7 +9296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Ausgrid",
@@ -9396,7 +9346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Electrify America",
@@ -9446,7 +9396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Energy Transfer",
@@ -9496,7 +9446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "GlobalData",
@@ -9545,7 +9495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "AiDASH",
@@ -9595,7 +9545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Berkshire Hathaway",
@@ -9645,7 +9595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Hydro Ottawa",
@@ -9691,6 +9641,56 @@
       "agent_card": false,
       "dry_run_mode": "na",
       "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 191
+    },
+    {
+     "name": "Alliance Resource Partners",
+     "slug": "alliance-resource-partners",
+     "description": "Alliance Resource Partners, L.P. (NASDAQ: ARLP) is a diversified energy and natural-resource partnership headquartered in Tulsa, Oklahoma. It is the largest coal producer in the eastern United States, operating underground and surface mines across the Illinois Basin and Appalachia, and it holds an oil and gas mineral and royalty portfolio alongside a growth-investment arm covering other energy and infrastructure ventures. ARLP runs no developer program: it publishes no API documentation, no OpenAPI, no SDK, no API pricing and no developer portal, and the api.arlp.com and developer.arlp.com hosts once listed here do not resolve in DNS. The only machine-readable interface the company serves is the read-only WordPress REST API behind its corporate site at www.arlp.com, which returns ARLP's own published corporate content - business segments, sustainability posture, careers, contact and legal pages, media, taxonomy and cross-content search - anonymously as JSON. Any operational data exchange with ARLP (customer contracts, rail and barge logistics, mine reporting, royalty statements) is a bilateral commercial agreement, not a published API product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 33.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -9848,6 +9848,56 @@
      "rank": 195
     },
     {
+     "name": "APA",
+     "slug": "apa",
+     "description": "APA Corporation is an independent energy company that explores for, develops, and produces natural gas, crude oil, and natural gas liquids, with operations in the United States, Egypt, the United Kingdom, and Suriname. Organized in Delaware and headquartered in Houston, Texas, APA is listed on Nasdaq (APA) and listed on Nasdaq Texas since March 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 196
+    },
+    {
      "name": "EVgo",
      "slug": "evgo",
      "description": "EVgo is one of the largest public DC fast charging networks in the United States, operating over 1,100 fast charging locations across 47 states. EVgo provides REST APIs through its EVgo Inside partner integration platform, enabling automakers, fleet operators, and app developers to embed charging station discovery, real-time availability, session initiation, account creation, and payment processing directly into their own branded experiences. Charging station data is also served via the PlugShare API, which EVgo owns and operates.",
@@ -9894,7 +9944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Tank Utility",
@@ -9944,7 +9994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "EV Connect",
@@ -9994,7 +10044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "EnergyHub",
@@ -10044,7 +10094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "VEIR",
@@ -10094,7 +10144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Arundo Analytics",
@@ -10144,7 +10194,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "National Energy System Operator",
@@ -10194,7 +10244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "NERC",
@@ -10244,7 +10294,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Accenta",
@@ -10296,55 +10346,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 204
-    },
-    {
-     "name": "Addis Energy",
-     "slug": "addis-energy",
-     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -10751,7 +10752,7 @@
      "rank": 213
     },
     {
-     "name": "AES Corporation",
+     "name": "AES",
      "slug": "aes",
      "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png",
@@ -10801,56 +10802,6 @@
      "rank": 214
     },
     {
-     "name": "Denbury Resources",
-     "slug": "denbury-resources",
-     "description": "Denbury Resources (now Denbury Inc.) was an independent oil and natural gas company headquartered in Plano, Texas, focused on enhanced oil recovery (EOR) using carbon dioxide injection in mature oil fields across the Gulf Coast and Rocky Mountain regions, and on carbon capture, transport and sequestration through the largest CO2 pipeline network in the United States. ExxonMobil acquired Denbury in November 2023 and it now operates as a subsidiary inside ExxonMobil's Low Carbon Solutions business; Denbury filed a Form 15-12G to deregister its securities on 2023-11-22 and has filed nothing with the SEC since. Denbury is an energy operator rather than a software vendor and publishes no commercial or developer-facing product API, no developer portal, and no SDKs. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at www.denbury.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/screenshots/denbury-resources-2026-06-20T175910.png",
-     "score": 21.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 215
-    },
-    {
      "name": "Yes Energy",
      "slug": "yes-energy",
      "description": "Yes Energy is a Boulder, Colorado power market data company serving the North American wholesale electricity markets — the seven ISOs and RTOs (ERCOT, PJM, MISO, CAISO, SPP, ISO-NE, NYISO) plus Canadian and Western markets. It aggregates, cleans, and enriches nodal locational marginal prices, FTR auction results, transmission and generation outages, real-time generation and flow telemetry, constraints, load, weather, and fuels data, and sells it through DataSignals (a REST API), DataSignals Cloud (Snowflake Secure Data Sharing), DataSignals Lake (bulk load into a customer warehouse), the PowerSignals and QuickSignals analyst front ends, EnCompass modeling, Live Power telemetry, Infrastructure Insights, Position Management, and bid-to-bill Submission Services. It sits in the private, commercial layer of the energy value chain: it does not generate, distribute, or retail electricity and it holds no consumer relationship — it resells and enriches public ISO/RTO market data to traders, IPPs, utilities, and asset developers. Its API posture is honestly closed: the DataSignals REST API is real and confirmed live at https://services.yesenergy.com/PS/rest/, but it answers every anonymous request with HTTP 401 and WWW-Authenticate Basic, and even the product documentation (help.yesenergy.com) redirects through services.yesenergy.com/PS/KnowledgeOwlAuthentication to a customer login. No public developer portal, no self-serve signup, no machine-readable specification, and no free tier are published. Home market is the United States. There is no consumer energy data mandate that applies to Yes Energy — it is not a utility, retailer, or metering agent, so Green Button, ESPI, and the Consumer Data Right are all out of scope — and while the underlying ISO/RTO market data is publicly available at the source, Yes Energy itself publishes none of it openly.",
@@ -10889,6 +10840,56 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 215
+    },
+    {
+     "name": "Denbury Resources",
+     "slug": "denbury-resources",
+     "description": "Denbury Resources (now Denbury Inc.) was an independent oil and natural gas company headquartered in Plano, Texas, focused on enhanced oil recovery (EOR) using carbon dioxide injection in mature oil fields across the Gulf Coast and Rocky Mountain regions, and on carbon capture, transport and sequestration through the largest CO2 pipeline network in the United States. ExxonMobil acquired Denbury in November 2023 and it now operates as a subsidiary inside ExxonMobil's Low Carbon Solutions business; Denbury filed a Form 15-12G to deregister its securities on 2023-11-22 and has filed nothing with the SEC since. Denbury is an energy operator rather than a software vendor and publishes no commercial or developer-facing product API, no developer portal, and no SDKs. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at www.denbury.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/screenshots/denbury-resources-2026-06-20T175910.png",
+     "score": 21.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -11050,55 +11051,6 @@
      "rank": 219
     },
     {
-     "name": "XGS Energy",
-     "slug": "xgs-energy",
-     "description": "XGS Energy is a next-generation geothermal power developer founded in 2008 and headquartered in Palo Alto, California, formerly Geothermic Solution. Its patented Thermal Reach Enhancement technology packs a thermally conductive material around a closed-loop wellbore so heat is drawn from the surrounding rock without relying on natural permeability or produced water, siting geothermal in geology conventional hydrothermal and EGS cannot use. It is developing a 150 MW round-the-clock project in New Mexico with Meta and utility PNM, and in 2025 acquired drilling firm Capuano Engineering. XGS Energy is an energy infrastructure developer, not a software vendor: it publishes no developer program, product API, SDKs or API documentation. The only machine-readable interface it exposes is the WordPress REST content API behind www.xgsenergy.com, captured here for discovery — anonymously readable, read-only, and undocumented by the company.",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 220
-    },
-    {
      "name": "Zapmap",
      "slug": "zapmap",
      "description": "Zapmap (Zapmap Limited, company number 05960749, Bristol, United Kingdom) operates the UK's most comprehensive public electric-vehicle charging map and cross-network payment platform, covering 120,000+ charge points across 100+ charge point operators for 1.3 million registered drivers, and holds the Department for Transport contract to act as its electric vehicle chargepoint open data provider. It sits in the e-mobility data layer of the energy value chain, between the charge point operators legally obliged to publish open charge point data under the UK Public Charge Point Regulations 2023 and the drivers, automotive OEMs, fleets, e-mobility providers and government bodies that consume it. Its API posture is honestly commercial and closed: the Zapmap Spark suite (Search, Plan and Pay APIs) is described only on marketing product pages, with no developer portal, no public API reference, no machine-readable specification, no published authentication scheme and no self-serve signup — every route to access runs through a sales contact form and a data licence. The open data mandate in this market binds charge point operators, not Zapmap; the mandated open data that Zapmap aggregates is redistributed to DfT under contract and sold to the rest of the industry through the paid Insights product rather than published as an anonymous open feed. No consumer energy usage or billing API is offered — this is open-data-fed, closed-surface market data, with no consumer data right in play.",
@@ -11146,7 +11098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Bureau of Reclamation",
@@ -11196,107 +11148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
-    },
-    {
-     "name": "Global Partners LP",
-     "slug": "global-partners",
-     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores. Global Partners publishes no developer program, no API keys and no API documentation, but www.globalp.com runs on WordPress and serves a fully public, unauthenticated WordPress REST API whose custom content types model the company itself: 157 terminals (sw_terminal), 846 retail locations (sw_retail_location), real-estate listings, leadership profiles, and the product, service, fuel-type, fuel-brand, retail-brand, state, supply-method and ownership-status taxonomies applied to them.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png",
-     "score": 21.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 17.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 223
-    },
-    {
-     "name": "Hydrostor",
-     "slug": "hydrostor",
-     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
-     "score": 21.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 224
+     "rank": 221
     },
     {
      "name": "The Andersons",
@@ -11346,7 +11198,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 222
+    },
+    {
+     "name": "Addis Energy",
+     "slug": "addis-energy",
+     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 223
     },
     {
      "name": "Southern Company",
@@ -11396,7 +11297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 224
     },
     {
      "name": "ACCURE Battery Intelligence",
@@ -11445,7 +11346,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 225
     },
     {
      "name": "Irth Solutions",
@@ -11495,7 +11396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 226
     },
     {
      "name": "Nova Scotia Power",
@@ -11545,57 +11446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
-    },
-    {
-     "name": "LanzaTech",
-     "slug": "lanzatech",
-     "description": "LanzaTech is a carbon recycling company (Nasdaq LNZA) that uses gas fermentation to convert waste carbon into fuels and chemicals. Its technology retrofits an industrial site such as a steel mill, a ferroalloy plant or a landfill with a bioreactor in which proprietary bacteria consume carbon-rich off-gases and produce ethanol and other intermediates, marketed as CarbonSmart products and used by brands including Unilever, Coty and Zara. The company operates commercial plants in China, India and Belgium, is building the LanzaTech Porsgrunn CCUS project in Norway with Eramet, and works with LanzaJet on sustainable aviation fuel. LanzaTech publishes no developer program, but lanzatech.com runs on WordPress and exposes a fully public, unauthenticated WordPress REST API whose custom content types (news, employee, board-member, download, testimonial) model the company itself.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png",
-     "score": 20.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 230
+     "rank": 227
     },
     {
      "name": "Redaptive",
@@ -11645,7 +11496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 228
     },
     {
      "name": "Sempra",
@@ -11695,7 +11546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 229
     },
     {
      "name": "First Solar",
@@ -11745,7 +11596,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 230
     },
     {
      "name": "FleetPanda",
@@ -11795,7 +11646,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 231
+    },
+    {
+     "name": "Global Partners LP",
+     "slug": "global-partners",
+     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores. Global Partners publishes no developer program, no API keys and no API documentation, but www.globalp.com runs on WordPress and serves a fully public, unauthenticated WordPress REST API whose custom content types model the company itself: 157 terminals (sw_terminal), 846 retail locations (sw_retail_location), real-estate listings, leadership profiles, and the product, service, fuel-type, fuel-brand, retail-brand, state, supply-method and ownership-status taxonomies applied to them.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 232
     },
     {
      "name": "SaskPower",
@@ -11845,7 +11746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 233
     },
     {
      "name": "Energy Charts API",
@@ -11895,7 +11796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 234
     },
     {
      "name": "AVEVA",
@@ -11945,7 +11846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 235
     },
     {
      "name": "Rhythmos",
@@ -11995,7 +11896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 236
     },
     {
      "name": "OVO Energy",
@@ -12045,7 +11946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 237
     },
     {
      "name": "Energy Robotics",
@@ -12102,7 +12003,156 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 238
+    },
+    {
+     "name": "LanzaTech",
+     "slug": "lanzatech",
+     "description": "LanzaTech is a carbon recycling company (Nasdaq LNZA) that uses gas fermentation to convert waste carbon into fuels and chemicals. Its technology retrofits an industrial site such as a steel mill, a ferroalloy plant or a landfill with a bioreactor in which proprietary bacteria consume carbon-rich off-gases and produce ethanol and other intermediates, marketed as CarbonSmart products and used by brands including Unilever, Coty and Zara. The company operates commercial plants in China, India and Belgium, is building the LanzaTech Porsgrunn CCUS project in Norway with Eramet, and works with LanzaJet on sustainable aviation fuel. LanzaTech publishes no developer program, but lanzatech.com runs on WordPress and exposes a fully public, unauthenticated WordPress REST API whose custom content types (news, employee, board-member, download, testimonial) model the company itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 239
+    },
+    {
+     "name": "XGS Energy",
+     "slug": "xgs-energy",
+     "description": "XGS Energy is a next-generation geothermal power developer founded in 2008 and headquartered in Palo Alto, California, formerly Geothermic Solution. Its patented Thermal Reach Enhancement technology packs a thermally conductive material around a closed-loop wellbore so heat is drawn from the surrounding rock without relying on natural permeability or produced water, siting geothermal in geology conventional hydrothermal and EGS cannot use. It is developing a 150 MW round-the-clock project in New Mexico with Meta and utility PNM, and in 2025 acquired drilling firm Capuano Engineering. XGS Energy is an energy infrastructure developer, not a software vendor: it publishes no developer program, product API, SDKs or API documentation. The only machine-readable interface it exposes is the WordPress REST content API behind www.xgsenergy.com, captured here for discovery — anonymously readable, read-only, and undocumented by the company.",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 240
+    },
+    {
+     "name": "Hydrostor",
+     "slug": "hydrostor",
+     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
+     "score": 19.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 241
     },
     {
      "name": "Enterprise Products Partners",
@@ -12152,7 +12202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Paua",
@@ -12202,7 +12252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "HData",
@@ -12252,7 +12302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Percepto",
@@ -12297,56 +12347,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 244
-    },
-    {
-     "name": "Alliance Resource Partners",
-     "slug": "alliance-resource-partners",
-     "description": "Alliance Resource Partners, L.P. (NASDAQ: ARLP) is a diversified energy and natural-resource partnership headquartered in Tulsa, Oklahoma. It is the largest coal producer in the eastern United States, operating underground and surface mines across the Illinois Basin and Appalachia, and it holds an oil and gas mineral and royalty portfolio alongside a growth-investment arm covering other energy and infrastructure ventures. ARLP runs no developer program: it publishes no API documentation, no OpenAPI, no SDK, no API pricing and no developer portal, and the api.arlp.com and developer.arlp.com hosts once listed here do not resolve in DNS. The only machine-readable interface the company serves is the read-only WordPress REST API behind its corporate site at www.arlp.com, which returns ARLP's own published corporate content - business segments, sustainability posture, careers, contact and legal pages, media, taxonomy and cross-content search - anonymously as JSON. Any operational data exchange with ARLP (customer contracts, rail and barge logistics, mine reporting, royalty statements) is a bilateral commercial agreement, not a published API product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
-     "score": 18.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -13055,56 +13055,6 @@
      "rank": 259
     },
     {
-     "name": "Tokamak Energy",
-     "slug": "tokamak-energy",
-     "description": "Tokamak Energy is a private fusion energy company founded in 2009 as a spinout from the UK Atomic Energy Authority, headquartered at 173 Brook Drive, Milton Park, Oxfordshire OX14 4SD, with subsidiaries in the United States and Japan and more than 300 employees. It runs a two-track strategy: advancing commercial fusion energy through compact spherical tokamaks, and developing high temperature superconducting (HTS) magnet technology as a business in its own right. Its flagship device ST40 is the world's highest field spherical tokamak and is undergoing a USD 52 million upgrade co-funded with the US Department of Energy and the UK Department for Energy Security and Net Zero. Demo4 became the first HTS fusion magnet system to achieve fusion-relevant magnetic fields in 2025, and the company was selected as Magnet Systems Partner for the UK's STEP programme under a GBP 70 million contract running to 2029. The group is organised into three integrated businesses — TE Magnetics (HTS technology, established 2024), Ridgway Machines (manufacturing, acquired 2025) and Fusion. Tokamak Energy is a fusion and superconducting hardware company rather than a software vendor: it publishes no commercial or developer-facing product API, no developer portal, no SDKs and no OpenAPI of its own. The only machine-readable interface it exposes publicly is the WordPress REST content API behind its corporate website at tokamakenergy.com, which is anonymously readable, read-only for unauthenticated callers, and is captured here for discovery purposes. Its public engineering output is instead released as open-source plasma physics code — GSFit, RTGSFit and FORGE — through the tokamak-energy GitHub organisation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/screenshots/tokamak-energy-2026-09-02T163845.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 260
-    },
-    {
      "name": "Urbint",
      "slug": "urbint",
      "description": "Urbint builds AI-powered operational resilience software for gas, electric and telecom utilities, predicting and preventing incidents before they happen across three product lines: Worker Safety, Damage Prevention (including a modern 811 locate-ticket management system), and Emergency Preparedness & Response / storm response. Its \"Model of the World\" fuses weather, topography, environmental, community and infrastructure data with a customer's own work, asset and outage data to score the risk on individual jobs and locate tickets. Urbint raised venture funding from Energy Impact Partners, Piva Capital, Energize Ventures, Blue Bear Capital, National Grid Partners, Fifth Wall, Salesforce Ventures and S2G, acquired Opvantek, WRM Software, Competers and iRestore, and was itself acquired by Itron for $325M in a deal announced 6 October 2025. Urbint ships no public API program; its only public developer surface is a first-party npm design system, @urbint/cl, which bundles a local-stdio MCP server.",
@@ -13151,7 +13101,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "WGL Holdings",
@@ -13200,7 +13150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "terralayr",
@@ -13250,7 +13200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "Southwestern Energy",
@@ -13300,7 +13250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "Imubit",
@@ -13357,7 +13307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "JOLT",
@@ -13398,6 +13348,56 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 265
+    },
+    {
+     "name": "Tokamak Energy",
+     "slug": "tokamak-energy",
+     "description": "Tokamak Energy is a private fusion energy company founded in 2009 as a spinout from the UK Atomic Energy Authority, headquartered at 173 Brook Drive, Milton Park, Oxfordshire OX14 4SD, with subsidiaries in the United States and Japan and more than 300 employees. It runs a two-track strategy: advancing commercial fusion energy through compact spherical tokamaks, and developing high temperature superconducting (HTS) magnet technology as a business in its own right. Its flagship device ST40 is the world's highest field spherical tokamak and is undergoing a USD 52 million upgrade co-funded with the US Department of Energy and the UK Department for Energy Security and Net Zero. Demo4 became the first HTS fusion magnet system to achieve fusion-relevant magnetic fields in 2025, and the company was selected as Magnet Systems Partner for the UK's STEP programme under a GBP 70 million contract running to 2029. The group is organised into three integrated businesses — TE Magnetics (HTS technology, established 2024), Ridgway Machines (manufacturing, acquired 2025) and Fusion. Tokamak Energy is a fusion and superconducting hardware company rather than a software vendor: it publishes no commercial or developer-facing product API, no developer portal, no SDKs and no OpenAPI of its own. The only machine-readable interface it exposes publicly is the WordPress REST content API behind its corporate website at tokamakenergy.com, which is anonymously readable, read-only for unauthenticated callers, and is captured here for discovery purposes. Its public engineering output is instead released as open-source plasma physics code — GSFit, RTGSFit and FORGE — through the tokamak-energy GitHub organisation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/screenshots/tokamak-energy-2026-09-02T163845.png",
+     "score": 16.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -13859,7 +13859,7 @@
      "rank": 275
     },
     {
-     "name": "CPower, Inc.",
+     "name": "CPower",
      "slug": "cpower-inc",
      "description": "CPower Energy is a commercial and industrial (C&I) virtual power plant (VPP) operator that helps organizations monetize the flexibility of their energy assets through demand response and distributed energy resource (DER) programs. Its CPower CONNECT platform lets customers view, manage, and unlock revenue from energy assets while supporting grid reliability and sustainability goals. CPower serves data centers, crypto mining, healthcare, education, retail, commercial real estate, industrial operations, and the public sector, and has operated distributed energy programs across the U.S. since 2015. CPower was acquired by NRG Energy and operates a combined C&I VPP platform. This profile was surfaced as a portfolio-adjacent deep-tech lead and enriched by the API Evangelist pipeline; CPower publishes a customer portal and a security and compliance posture but no public developer API at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cpower-inc/refs/heads/main/screenshots/cpower-inc-2026-07-25T210624.png",
@@ -14697,56 +14697,6 @@
      "rank": 292
     },
     {
-     "name": "Prometheus Fuels",
-     "slug": "prometheus-fuels",
-     "description": "Prometheus Fuels is a Santa Cruz, California energy company founded in 2019 by Rob McGinnis and launched out of Y Combinator, producing carbon-neutral electrofuels from atmospheric CO2. Its \"no-desorb\" direct air capture system dissolves CO2 into carbonate ions in water, and its Faraday Reactor hydrocarbon electrolyzer converts that carbon into methanol, gasoline, diesel, jet fuel and renewable natural gas at room temperature and atmospheric pressure using off-grid solar power. The company also markets an Ultra Long Duration Energy Storage (ULDES) product aimed at data-center power, and operates the Titan Forge Alpha pilot plant in Santa Cruz. It is backed by BMW i Ventures, Maersk Growth and Y Combinator. Prometheus Fuels publishes no product API, developer portal or SDK — it is a physical fuels manufacturer. The single machine-readable surface it operates is the WordPress REST API (wp/v2) behind its corporate site at prometheusfuels.ai, which serves anonymous read access to pages, posts, the site's `news-articles` custom post type, categories, tags, media, comments, users, search, taxonomies, types and statuses, with write operations gated behind WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png",
-     "score": 14.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 23.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 293
-    },
-    {
      "name": "LevelTen Energy",
      "slug": "levelten-energy",
      "description": "LevelTen Energy operates a two-sided digital marketplace and transaction platform for carbon-free energy, describing itself as the transaction infrastructure for the energy transition. Clean energy buyers, advisors, project developers, utilities and financiers use the LevelTen Energy Marketplace to compare thousands of power purchase agreement (PPA) offers, run NPV and settlement cashflow analysis, evaluate risk scenarios and track a Development Maturity Score across projects in North America and Europe. The platform also covers granular certificates, hybrid and storage PPAs, and performance monitoring, alongside market intelligence products including MarketPulse, the LevelTen PPA Price Index and Market Transparency Reports. The marketplace is served by an authenticated API at api.levelten.energy, which is gated behind marketplace login and publishes no public developer documentation, SDKs or machine-readable specification at this time.",
@@ -14794,7 +14744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Sunairio",
@@ -14844,7 +14794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Gecko Robotics",
@@ -14894,7 +14844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "AEG Fuels",
@@ -14943,7 +14893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Cloover",
@@ -14993,10 +14943,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
-     "name": "EQT Corporation",
+     "name": "EQT",
      "slug": "eqt",
      "description": "EQT Corporation is the largest producer of natural gas in the United States, headquartered in Pittsburgh, Pennsylvania. It is a vertically integrated Appalachian Basin operator: upstream exploration and production, plus the interstate gathering and transmission pipelines it acquired with Equitrans Midstream in July 2024. EQT pairs production technology with environmental stewardship commitments, including a Scope 1 and Scope 2 net-zero target it reports as met ahead of its 2025 goal. EQT runs no developer program and publishes no API. Its only machine-readable public documents are the OpenID Connect discovery metadata of two Salesforce customer portals — infopost.eqt.com, the FERC-mandated Informational Postings site for its interstate pipelines, and customers.equitransmidstream.com — whose posting data renders client-side and is otherwise gated to registered customers. Not the Swedish firm EQT AB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/screenshots/eqt-2026-06-20T180803.png",
@@ -15043,7 +14993,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "BWX Technologies",
@@ -15093,7 +15043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Defense Nuclear Facilities Safety Board",
@@ -15143,7 +15093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Rondo Energy",
@@ -15193,7 +15143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Nexamp",
@@ -15243,7 +15193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Amperecloud",
@@ -15293,7 +15243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Go To-U",
@@ -15343,7 +15293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Haven Energy",
@@ -15393,7 +15343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Last Energy",
@@ -15443,10 +15393,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
-     "name": "Vistra Corp",
+     "name": "Vistra",
      "slug": "vistra-energy",
      "description": "Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail electricity and power generation company and the largest competitive power generator in the United States, operating roughly 41,000-44,000 MW of natural gas, nuclear, coal, solar and battery storage capacity alongside a retail business serving nearly 5 million residential, commercial and industrial customers across 16 states and the District of Columbia through TXU Energy, Dynegy, Ambit Energy, Energy Harbor, Homefield Energy and U.S. Gas & Electric. Its home market is the United States, where it sits on both sides of the competitive value chain, a merchant generator selling into ERCOT, PJM, ISO-NE, NYISO, MISO and CAISO, and a retail electricity provider (REP) reselling that power to end customers. Its API posture is honestly none. No developer portal, no API subdomain and no machine-readable contract of any kind was found: developer., developers., docs., api. and data. on vistracorp.com do not resolve; /developers, /api, /docs, /data, /openapi.json, /swagger.json and /.well-known/openid-configuration all return 404; and TXU Energy's 758-URL sitemap contains no developer or API page. The United States has no consumer energy data mandate. Green Button is an NAESB/NIST ESPI standard adopted voluntarily, and TXU Energy appears on the US Department of Energy's list of \"Utilities Committed to Implementing Green Button\", a 2012-era commitment list and not evidence of a live endpoint. The only customer-data surface found is Download-My-Data-style export behind the TXU Energy MyAccount login, whose interval readings are themselves sourced from Smart Meter Texas, the shared ERCOT meter-data platform operated by the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) rather than by Vistra. Because Vistra is a retailer and generator and not a wires company, the third-party interval-data API in its home Texas market belongs to Smart Meter Texas and not to Vistra. Vistra likewise publishes no open market or grid data of its own; ERCOT, the other ISOs/RTOs and the EIA publish the market data about Vistra's fleet. Both sides are therefore closed at the company boundary. Not to be confused with Vistra Limited (vistra.com), the unrelated corporate-services and fund-administration firm that does run a real API developer portal at devportal.vistra.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra-energy/refs/heads/main/screenshots/vistra-energy-2026-09-02T170122.png",
@@ -15493,10 +15443,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
-     "name": "UGI Corporation",
+     "name": "UGI",
      "slug": "ugi",
      "description": "UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png",
@@ -15543,7 +15493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Beyond Limits",
@@ -15593,7 +15543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Neara",
@@ -15643,7 +15593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Arbor",
@@ -15693,7 +15643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Fuse",
@@ -15743,7 +15693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Vectren (CenterPoint Energy)",
@@ -15793,7 +15743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "EnerSys",
@@ -15843,7 +15793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Fluor",
@@ -15893,7 +15843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "FYLD",
@@ -15943,7 +15893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Sighten",
@@ -15993,7 +15943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Growatt",
@@ -16043,7 +15993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "Astronergy",
@@ -16093,7 +16043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Dandelion Energy",
@@ -16143,7 +16093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "Constellation Energy",
@@ -16193,7 +16143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "Bonnet",
@@ -16243,7 +16193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "Evie Networks",
@@ -16293,7 +16243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Heirloom",
@@ -16343,7 +16293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "Gireve",
@@ -16393,7 +16343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Delek US Holdings",
@@ -16443,7 +16393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Utilidata",
@@ -16493,7 +16443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Meshcrafts",
@@ -16543,7 +16493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Optivolt Labs",
@@ -16593,7 +16543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Papernest",
@@ -16643,7 +16593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "SM Energy",
@@ -16684,6 +16634,56 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 331
+    },
+    {
+     "name": "Prometheus Fuels",
+     "slug": "prometheus-fuels",
+     "description": "Prometheus Fuels is a Santa Cruz, California energy company founded in 2019 by Rob McGinnis and launched out of Y Combinator, producing carbon-neutral electrofuels from atmospheric CO2. Its \"no-desorb\" direct air capture system dissolves CO2 into carbonate ions in water, and its Faraday Reactor hydrocarbon electrolyzer converts that carbon into methanol, gasoline, diesel, jet fuel and renewable natural gas at room temperature and atmospheric pressure using off-grid solar power. The company also markets an Ultra Long Duration Energy Storage (ULDES) product aimed at data-center power, and operates the Titan Forge Alpha pilot plant in Santa Cruz. It is backed by BMW i Ventures, Maersk Growth and Y Combinator. Prometheus Fuels publishes no product API, developer portal or SDK — it is a physical fuels manufacturer. The single machine-readable surface it operates is the WordPress REST API (wp/v2) behind its corporate site at prometheusfuels.ai, which serves anonymous read access to pages, posts, the site's `news-articles` custom post type, categories, tags, media, comments, users, search, taxonomies, types and statuses, with write operations gated behind WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -17947,8 +17947,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 353,
-   "shown": 353,
+   "count": 351,
+   "shown": 351,
    "providers": [
     {
      "name": "Booster Fuels",
@@ -18499,56 +18499,6 @@
      "rank": 368
     },
     {
-     "name": "American Superconductor Corporation",
-     "slug": "american-superconductor-corporation",
-     "description": "American Superconductor Corporation (AMSC) is a Ayer, Massachusetts based power systems company that designs and deploys grid interconnection, power protection, and power supply solutions for the energy, renewables, industrial, utility, and military sectors. Its portfolio spans grid systems such as D-VAR dynamic reactive compensation and STATCOM, ship protection and degaussing systems for naval defense, wind turbine electrical control systems, and Amperium high-temperature superconductor wire. AMSC was surfaced as a portfolio company of kleiner-perkins and added to the API Evangelist network. This is a public-company / hardtech profile with no public developer API surface; the enrichment pass captured domain-security posture and corporate link properties only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-superconductor-corporation/refs/heads/main/screenshots/american-superconductor-corporation-2026-07-25T200047.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 369
-    },
-    {
      "name": "Amogy",
      "slug": "amogy",
      "description": "Amogy is an energy-technology company decarbonizing hard-to-electrify sectors by converting energy-dense ammonia into dispatchable, zero-carbon electricity. Its AMMDrive power systems crack ammonia into hydrogen and nitrogen and convert the hydrogen to power for data centers, industrial facilities, microgrids, and maritime vessels, and it develops proprietary low-temperature ammonia-cracking catalysts. Backed by DCVC and other investors, Amogy has demonstrated the world's first carbon-free ammonia-powered maritime vessel and partners with firms such as Samsung Heavy Industries and Mitsubishi. This is a company profile in the API Evangelist network; Amogy publishes no public developer API surface at this time, so this record captures its corporate identity and public web properties rather than API artifacts.",
@@ -18596,7 +18546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "AMSC",
@@ -18646,7 +18596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Battery Smart",
@@ -18696,7 +18646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Bloom Energy",
@@ -18746,7 +18696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Bolt.Earth",
@@ -18796,7 +18746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Calumet Specialty Products Partners",
@@ -18846,7 +18796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Capstone Turbine",
@@ -18896,7 +18846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "Enter",
@@ -18946,7 +18896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "LF Energy",
@@ -18996,7 +18946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Mazama Energy",
@@ -19046,7 +18996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Mesodyne",
@@ -19096,7 +19046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Prisma Photonics",
@@ -19146,7 +19096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "Reach",
@@ -19196,7 +19146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Sage Geosystems",
@@ -19246,7 +19196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "SOLS Energy",
@@ -19296,7 +19246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Star Catcher",
@@ -19346,7 +19296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "Swift Charge",
@@ -19396,7 +19346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Tiger New Energy",
@@ -19446,7 +19396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "CF Industries Holdings",
@@ -19496,7 +19446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "RPC",
@@ -19546,7 +19496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "AGL Resources",
@@ -19596,7 +19546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Air Company",
@@ -19646,7 +19596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Electric Hydrogen",
@@ -19696,7 +19646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "Lila Sciences",
@@ -19746,7 +19696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Sunfire",
@@ -19796,7 +19746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "SHINE Technologies",
@@ -19846,7 +19796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Anthro Energy",
@@ -19896,7 +19846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "Optiwatt",
@@ -19946,7 +19896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "David Energy",
@@ -19996,7 +19946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "Thea Energy",
@@ -20046,7 +19996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "LanzaJet",
@@ -20096,7 +20046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Resynergi",
@@ -20146,7 +20096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "AutoGrid",
@@ -20196,7 +20146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "Gravity",
@@ -20246,7 +20196,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "trawa",
@@ -20296,7 +20246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "247Solar",
@@ -20345,7 +20295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Antora Energy",
@@ -20395,7 +20345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "EcoG",
@@ -20445,7 +20395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Exowatt",
@@ -20495,7 +20445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "General Matter",
@@ -20545,7 +20495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "Heron Power",
@@ -20595,7 +20545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Marvel Fusion",
@@ -20644,7 +20594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Proxima Fusion",
@@ -20694,7 +20644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "rabot.energy",
@@ -20744,7 +20694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Cormint",
@@ -20794,7 +20744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "Portland General Electric",
@@ -20844,7 +20794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "South Jersey Industries",
@@ -20894,7 +20844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "Sunoco LP",
@@ -20944,7 +20894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "Syzygy Plasmonics",
@@ -20994,7 +20944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "1001 AI",
@@ -21044,7 +20994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Condor Energy",
@@ -21094,7 +21044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Noteworthy AI",
@@ -21144,7 +21094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Amentum",
@@ -21194,7 +21144,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "Nanotech Energy",
@@ -21244,7 +21194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "Volter",
@@ -21294,7 +21244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "45-8 ENERGY",
@@ -21343,7 +21293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "Indian Energy Exchange",
@@ -21393,7 +21343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "USA Rare Earth",
@@ -21443,7 +21393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "ecoplanet",
@@ -21493,7 +21443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "Swell Energy",
@@ -21543,7 +21493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "Tesoro",
@@ -21593,10 +21543,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 429
     },
     {
-     "name": "SCANA Corporation",
+     "name": "SCANA",
      "slug": "scana",
      "description": "SCANA Corporation was an American regulated electric and natural gas public utility headquartered in Cayce, South Carolina. Its primary subsidiaries included South Carolina Electric & Gas (SCE&G), which provided electric and natural gas service to approximately 660,000 electric customers in South Carolina, and PSNC Energy, which served over one million natural gas customers in North Carolina and Georgia. SCANA was acquired by Dominion Energy in January 2019, after which the SCANA, SCE&G, and PSNC names were retired and operations were integrated into Dominion Energy's Southeast Energy Group. SCANA Energy Natural Gas continues to operate as a retail natural gas marketer in Georgia.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scana/refs/heads/main/screenshots/scana-2026-06-20T193508.png",
@@ -21643,7 +21593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "United Refining Company",
@@ -21693,7 +21643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "Equilibrium Energy",
@@ -21743,7 +21693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "Physicsx",
@@ -21793,7 +21743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Stegra",
@@ -21843,7 +21793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "Terawatt Infrastructure",
@@ -21893,7 +21843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Verdagy",
@@ -21943,7 +21893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "I-Pulse",
@@ -21993,7 +21943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "Project Canary",
@@ -22043,7 +21993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "Sealed",
@@ -22093,7 +22043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 439
     },
     {
      "name": "Regency Energy Partners",
@@ -22142,7 +22092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 440
     },
     {
      "name": "OpenEI",
@@ -22191,7 +22141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 441
     },
     {
      "name": "Airforestry",
@@ -22241,7 +22191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 442
     },
     {
      "name": "Devon Energy",
@@ -22291,7 +22241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 443
     },
     {
      "name": "DNOW",
@@ -22341,7 +22291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 444
     },
     {
      "name": "Powerledger",
@@ -22391,7 +22341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 445
     },
     {
      "name": "Wunder",
@@ -22441,7 +22391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 446
     },
     {
      "name": "Cameron International",
@@ -22491,7 +22441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 447
     },
     {
      "name": "Coterra Energy",
@@ -22541,7 +22491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 448
     },
     {
      "name": "SunEdison",
@@ -22591,7 +22541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 449
     },
     {
      "name": "Whiting Petroleum",
@@ -22641,7 +22591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 450
     },
     {
      "name": "Beacon Power Services",
@@ -22691,7 +22641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 451
     },
     {
      "name": "enechain",
@@ -22741,7 +22691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 452
     },
     {
      "name": "Excelergy",
@@ -22791,7 +22741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
+     "rank": 453
     },
     {
      "name": "Ferrellgas Partners",
@@ -22841,7 +22791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 455
+     "rank": 454
     },
     {
      "name": "Tantalus",
@@ -22891,7 +22841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 455
     },
     {
      "name": "Jimmy",
@@ -22941,7 +22891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 456
     },
     {
      "name": "XFuel",
@@ -22991,7 +22941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 457
     },
     {
      "name": "280 Earth",
@@ -23041,7 +22991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 458
     },
     {
      "name": "Blixt",
@@ -23091,7 +23041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 459
     },
     {
      "name": "NEO TECH MOBILITY HOLDINGS LIMITED",
@@ -23141,7 +23091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 460
     },
     {
      "name": "ConocoPhillips",
@@ -23191,7 +23141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 461
     },
     {
      "name": "Westar Energy",
@@ -23241,7 +23191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 462
     },
     {
      "name": "Cimarex Energy",
@@ -23291,7 +23241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 463
     },
     {
      "name": "Zanskar",
@@ -23341,7 +23291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 464
     },
     {
      "name": "Dynegy",
@@ -23391,7 +23341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 465
     },
     {
      "name": "CHINT",
@@ -23441,7 +23391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 466
     },
     {
      "name": "CleanCapital",
@@ -23491,7 +23441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 467
     },
     {
      "name": "Continental Resources",
@@ -23540,7 +23490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 468
     },
     {
      "name": "ECO2GROW",
@@ -23589,7 +23539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 469
     },
     {
      "name": "Greenlyte",
@@ -23639,7 +23589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 470
     },
     {
      "name": "Realta Fusion",
@@ -23689,7 +23639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 471
     },
     {
      "name": "Range Resources",
@@ -23739,7 +23689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 472
     },
     {
      "name": "Alliance Holdings",
@@ -23789,7 +23739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 473
     },
     {
      "name": "Archimetis",
@@ -23839,7 +23789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 474
     },
     {
      "name": "Buckeye Partners",
@@ -23889,10 +23839,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 475
     },
     {
-     "name": "CHS Inc.",
+     "name": "CHS",
      "slug": "chs",
      "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",
@@ -23939,7 +23889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 476
     },
     {
      "name": "Exelon",
@@ -23989,7 +23939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 477
     },
     {
      "name": "Hades",
@@ -24039,7 +23989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 478
     },
     {
      "name": "Kinder Morgan",
@@ -24089,7 +24039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 479
     },
     {
      "name": "NGL Energy Partners",
@@ -24139,7 +24089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 480
     },
     {
      "name": "Northvolt",
@@ -24189,7 +24139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 481
     },
     {
      "name": "Chemix",
@@ -24239,7 +24189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 482
     },
     {
      "name": "Aether Fuels",
@@ -24288,7 +24238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 483
     },
     {
      "name": "BrightSource Energy",
@@ -24338,7 +24288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 484
     },
     {
      "name": "Diamondback Energy",
@@ -24387,7 +24337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 485
     },
     {
      "name": "Gyre Energy",
@@ -24437,7 +24387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 486
     },
     {
      "name": "Petra Power",
@@ -24487,7 +24437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 487
     },
     {
      "name": "Climavision",
@@ -24537,7 +24487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 488
     },
     {
      "name": "Liberty Energy",
@@ -24587,7 +24537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 489
     },
     {
      "name": "ProFrac Holding",
@@ -24637,7 +24587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 490
     },
     {
      "name": "Riggs Distler",
@@ -24687,7 +24637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 491
     },
     {
      "name": "Eneryield",
@@ -24737,7 +24687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 492
     },
     {
      "name": "PowerLight Technologies",
@@ -24787,7 +24737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 493
     },
     {
      "name": "4-Horn Industrial",
@@ -24836,7 +24786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 494
     },
     {
      "name": "Airloom Energy",
@@ -24885,7 +24835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 495
     },
     {
      "name": "Alpha Natural Resources",
@@ -24935,7 +24885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 496
     },
     {
      "name": "Libra Robotics",
@@ -24985,7 +24935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 497
     },
     {
      "name": "NuStar Energy",
@@ -25034,7 +24984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 498
     },
     {
      "name": "PSEG",
@@ -25084,7 +25034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 499
     },
     {
      "name": "Cabot Oil & Gas",
@@ -25134,7 +25084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 500
     },
     {
      "name": "Exxon Mobil",
@@ -25184,7 +25134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 501
     },
     {
      "name": "TotalEnergies",
@@ -25234,7 +25184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 502
     },
     {
      "name": "AltoTech Global",
@@ -25284,7 +25234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 503
     },
     {
      "name": "Alva Energy",
@@ -25334,7 +25284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 504
     },
     {
      "name": "Astral Systems",
@@ -25384,7 +25334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 505
     },
     {
      "name": "Enable Midstream Partners",
@@ -25434,7 +25384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 506
     },
     {
      "name": "Interface Fluidics",
@@ -25484,7 +25434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 507
     },
     {
      "name": "Reflect Orbital",
@@ -25534,7 +25484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 508
     },
     {
      "name": "Solestial",
@@ -25584,7 +25534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 509
     },
     {
      "name": "Ultra Safe Nuclear",
@@ -25635,10 +25585,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 510
     },
     {
-     "name": "NewMarket Corporation",
+     "name": "NewMarket",
      "slug": "newmarket",
      "description": "NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/screenshots/newmarket-2026-06-20T190240.png",
@@ -25678,7 +25628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 511
     },
     {
      "name": "Rizm",
@@ -25728,7 +25678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "Skyfri",
@@ -25778,7 +25728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "Advanced Solar Power",
@@ -25827,7 +25777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Carnot Innovations",
@@ -25877,7 +25827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "Duane Morris",
@@ -25927,7 +25877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "General Electric",
@@ -25977,7 +25927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "I Flow",
@@ -26027,7 +25977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "Utility Global",
@@ -26076,7 +26026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 519
     },
     {
      "name": "Valar Atomics",
@@ -26126,10 +26076,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 520
     },
     {
-     "name": "Apollo Atomics Inc",
+     "name": "Apollo Atomics",
      "slug": "apollo-atomics-inc",
      "description": "Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear technology company building compact, power-dense pressurized water reactors for electricity generation, industrial process heat, and data-center power. Founded by Assil Halimi and Drew Walker and based in Cambridge, Massachusetts, the company modifies the steam generator of proven pressurized water reactor technology to shrink the plant by roughly an order of magnitude without sacrificing power output, turning a decade-long construction project into a factory-built machine that can ship on a truck. Apollo has announced a research collaboration with MIT's Department of Nuclear Science and Engineering to validate its reactor design and has submitted a regulatory engagement plan to the U.S. Nuclear Regulatory Commission, targeting a construction permit application in 2028. This is a hardware/energy company with no public developer or API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-atomics-inc/refs/heads/main/screenshots/apollo-atomics-inc-2026-07-25T200704.png",
@@ -26176,7 +26126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Soma Energy",
@@ -26226,7 +26176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "Abaxx",
@@ -26276,7 +26226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "PECO Energy",
@@ -26326,7 +26276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "Amprion",
@@ -26375,7 +26325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "Anadarko Petroleum",
@@ -26427,7 +26377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "Bidgely",
@@ -26477,7 +26427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "Enel X",
@@ -26527,7 +26477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "Energy Transfer Equity",
@@ -26577,7 +26527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "EnergyBank",
@@ -26627,10 +26577,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 530
     },
     {
-     "name": "Hexing Electrical Co., Ltd.",
+     "name": "Hexing Electrical",
      "slug": "hxgroup",
      "description": "Hexing Electrical Co., Ltd. (海兴电力 / Hexing) is a Chinese energy-technology company focused on smart power distribution and utilization, new energy, smart water and gas, water treatment and clean water, and marine electrification. Beyond hardware, Hexing delivers integrated solutions and project delivery spanning metering devices, communication networks (RF, PLC, cellular, NB-IoT), MDC / MDM / AMI platforms, billing systems, distribution automation, energy storage (BESS), EV charging, water metering, seawater desalination and electric marine propulsion. The company reports 34 years of industry experience, operations across 110+ countries and 17 global manufacturing hubs. Surfaced as a portfolio company of qiming and profiled in the API Evangelist network; Hexing publishes no public developer/API surface today, so this profile captures corporate identity plus the AI knowledge file (llms.txt) the company publishes for AI search / RAG.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hxgroup/refs/heads/main/screenshots/hxgroup-2026-07-25T221804.png",
@@ -26677,7 +26627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Kairos Power",
@@ -26727,7 +26677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "Modern Electron",
@@ -26776,7 +26726,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "Oak Ridge National Laboratory",
@@ -26826,7 +26776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "Unigrid",
@@ -26876,7 +26826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "Voxel Energy",
@@ -26926,7 +26876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "PVGIS",
@@ -26975,7 +26925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "ACT-ion",
@@ -27024,7 +26974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 538
     },
     {
      "name": "Calpine",
@@ -27074,7 +27024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 539
     },
     {
      "name": "Darling Ingredients",
@@ -27124,7 +27074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "Elektrik App",
@@ -27174,7 +27124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "Holtec International",
@@ -27224,7 +27174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "Inviscid AI",
@@ -27273,7 +27223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "MDU Resources Group",
@@ -27323,7 +27273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "Moment Energy",
@@ -27373,7 +27323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "NuScale Power",
@@ -27423,7 +27373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Pacific Fusion",
@@ -27473,7 +27423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Phillips 66",
@@ -27523,7 +27473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "Zeno Power",
@@ -27572,7 +27522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 549
     },
     {
      "name": "ChampionX",
@@ -27622,7 +27572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "Dresser-Rand Group",
@@ -27672,7 +27622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "FMC Technologies (now TechnipFMC)",
@@ -27722,7 +27672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "ICF (ICF International)",
@@ -27772,7 +27722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "Marathon Oil",
@@ -27822,7 +27772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Newcleo",
@@ -27872,7 +27822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "The Nuclear Company",
@@ -27921,7 +27871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "Adams Resources & Energy",
@@ -27971,7 +27921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "Alpha Technologies",
@@ -28021,7 +27971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Amphiform",
@@ -28071,7 +28021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Arcturus",
@@ -28121,7 +28071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Blueprint Power",
@@ -28170,10 +28120,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 561
     },
     {
-     "name": "CDI Corp",
+     "name": "CDI",
      "slug": "cdi-corp",
      "description": "CDI Corp (CDI Corporation) is a multidisciplinary engineering and technical resourcing firm founded in Philadelphia in 1950 as Comprehensive Designers, Inc., later listed on the NYSE from 1988 to 2017. After being taken private by AE Industrial Partners in September 2017 for approximately $176M ($8.25 per share), AE divested CDI's aerospace business to Belcan (2017), talent and technology services to Artech (2018), and architecture/engineering subsidiary L.R. Kimball to TranSystems (2021), refocusing the remaining CDI Engineering Solutions on integrated engineering, design, project support, procurement, and construction management for the energy and chemicals industries. On January 1, 2025 CDI Engineering Solutions, LLC became a wholly owned subsidiary of Tata Consulting Engineers and now trades as Tata Consulting Engineers USA, LLC, headquartered in Houston, TX with 650+ employees across ten engineering centers. CDI Corp has no public developer APIs; the company delivers engineering services and staff augmentation rather than software products. The tagline carried by the operating business is \"Quality Results. Sustainable Solutions. Safely Delivered.\"",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png",
@@ -28220,7 +28170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "Chariot Defense",
@@ -28270,7 +28220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Chesapeake Energy",
@@ -28320,7 +28270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "Chevron",
@@ -28370,7 +28320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "Crestwood Equity Partners",
@@ -28420,7 +28370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "Dominion Resources",
@@ -28470,7 +28420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "Ecovate",
@@ -28520,7 +28470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Edviro",
@@ -28570,7 +28520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Electio",
@@ -28620,7 +28570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Electroflow",
@@ -28670,7 +28620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "Eltek",
@@ -28720,7 +28670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Enbala",
@@ -28769,7 +28719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "Endurance Energy",
@@ -28819,7 +28769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "ENGIE Insight Services",
@@ -28869,7 +28819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "Envision Energy",
@@ -28919,7 +28869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Fourth Power",
@@ -28969,7 +28919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "GlassPoint",
@@ -29019,10 +28969,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 578
     },
     {
-     "name": "Hess Corporation",
+     "name": "Hess",
      "slug": "hess-corporation",
      "description": "Hess Corporation was an independent global energy company engaged in the exploration, development, production, transportation, purchase, and sale of crude oil, natural gas liquids, and natural gas. Its core operations centered on onshore unconventional production in the Bakken Shale of North Dakota and a major offshore position in the Stabroek Block in Guyana, with additional interests in the Gulf of Mexico, Canada, and Southeast Asia. Chevron Corporation completed its $53 billion all-stock acquisition of Hess on July 18, 2025, after a regulatory and arbitration delay that included a Federal Trade Commission consent order barring former CEO John B. Hess from serving on Chevron's board and a parallel ExxonMobil/CNOOC arbitration over Guyana right-of-first-refusal claims. Hess is now a wholly-owned subsidiary of Chevron, and the ONE GUYANA FPSO at Stabroek has come online to produce approximately 250,000 barrels of oil per day. Hess Corporation has never offered public developer APIs; its technology integrations were handled through enterprise partner systems and joint-venture operator portals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hess-corporation/refs/heads/main/screenshots/hess-corporation-2026-06-20T182655.png",
@@ -29069,7 +29019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "HF Sinclair",
@@ -29119,7 +29069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "HollyFrontier",
@@ -29169,7 +29119,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "Icahn Enterprises",
@@ -29218,7 +29168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "IHS",
@@ -29268,7 +29218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "Infocast",
@@ -29318,7 +29268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "Jinsheng New Energy",
@@ -29367,7 +29317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Lansing Trade Group",
@@ -29417,7 +29367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "Linear Labs",
@@ -29467,7 +29417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Marathon Petroleum",
@@ -29517,7 +29467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Marianaminerals",
@@ -29567,7 +29517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "MarkWest Energy Partners",
@@ -29617,57 +29567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
-    },
-    {
-     "name": "National Oilwell Varco",
-     "slug": "national-oilwell-varco",
-     "description": "National Oilwell Varco (NOV) is a global provider of equipment, technology, and services for the oil and gas drilling industry. NOV designs and manufactures rigs, drilling tools, downhole equipment, and provides digital solutions for drilling operations worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-oilwell-varco/refs/heads/main/screenshots/national-oilwell-varco-2026-06-20T190035.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 592
+     "rank": 590
     },
     {
      "name": "Nerviom",
@@ -29717,7 +29617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 591
     },
     {
      "name": "New Jersey Resources",
@@ -29767,7 +29667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 592
     },
     {
      "name": "NextEra Energy",
@@ -29817,7 +29717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 593
     },
     {
      "name": "Niko",
@@ -29867,7 +29767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 594
     },
     {
      "name": "NPco",
@@ -29917,7 +29817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 595
     },
     {
      "name": "Oklo",
@@ -29966,7 +29866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 596
     },
     {
      "name": "Ola Electric",
@@ -30016,7 +29916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 597
     },
     {
      "name": "Panthalassa",
@@ -30066,7 +29966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 598
     },
     {
      "name": "Par Pacific Holdings",
@@ -30116,7 +30016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 599
     },
     {
      "name": "PBF Energy",
@@ -30166,7 +30066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 600
     },
     {
      "name": "PowerTap Hydrogen",
@@ -30216,7 +30116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 601
     },
     {
      "name": "PPL",
@@ -30265,7 +30165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 602
     },
     {
      "name": "Praxair",
@@ -30315,7 +30215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 603
     },
     {
      "name": "ProPetro Holding",
@@ -30365,7 +30265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 604
     },
     {
      "name": "Public Service Enterprise Group",
@@ -30415,7 +30315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 605
     },
     {
      "name": "Pulse Space",
@@ -30465,7 +30365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 606
     },
     {
      "name": "Quanta Services",
@@ -30514,7 +30414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 607
     },
     {
      "name": "Radiant",
@@ -30564,7 +30464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 608
     },
     {
      "name": "Resilient Power Systems",
@@ -30613,7 +30513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 609
     },
     {
      "name": "Salient Energy",
@@ -30663,7 +30563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 610
     },
     {
      "name": "SemGroup",
@@ -30713,7 +30613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 611
     },
     {
      "name": "Seventy Seven Energy",
@@ -30764,7 +30664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 612
     },
     {
      "name": "Solactron",
@@ -30814,7 +30714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 613
     },
     {
      "name": "SolarBridge Technologies",
@@ -30864,7 +30764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 614
     },
     {
      "name": "Solstice",
@@ -30914,7 +30814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 615
     },
     {
      "name": "SparkCharge",
@@ -30964,7 +30864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 616
     },
     {
      "name": "Spectra Energy",
@@ -31014,7 +30914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 617
     },
     {
      "name": "Spruce Finance *",
@@ -31064,7 +30964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 618
     },
     {
      "name": "Superior Energy Services",
@@ -31114,7 +31014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 619
     },
     {
      "name": "Terranox AI",
@@ -31163,7 +31063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 620
     },
     {
      "name": "Tibo Energy",
@@ -31213,7 +31113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 621
     },
     {
      "name": "Ubiquitous Energy",
@@ -31263,10 +31163,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 622
     },
     {
-     "name": "UGI Corporation",
+     "name": "UGI",
      "slug": "ugi-corporation",
      "description": "UGI Corporation (NYSE: UGI) is a King of Prussia, Pennsylvania-based natural gas and electric utility and propane distribution company. UGI Utilities serves Pennsylvania natural gas and electric customers, AmeriGas is the largest retail propane distributor in the United States, and UGI International markets LPG across Europe through brands including Antargaz, Flaga, and AvantiGas. The corporation also operates midstream and energy marketing businesses. No public developer portal, OpenAPI specs, or third-party developer APIs have been identified. Customer self-service runs on a Smart Energy Water (SEW)-powered Online Account Center (Android package com.sew.ugi) with CheckFree Pay handling bill payments; AmeriGas operates the separate MyAmeriGas portal at myamerigas.com. Large commercial customers use an Oracle APEX-based TCP platform at apex.ugi.com. UGI Utilities is not listed as a supported utility by UtilityAPI or other Green Button aggregators at the time of profiling.",
      "score": 3.3,
@@ -31312,7 +31212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 623
     },
     {
      "name": "Wi Charge",
@@ -31361,7 +31261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 624
     },
     {
      "name": "yinglisolar",
@@ -31411,7 +31311,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 625
     },
     {
      "name": "ylhyoil",
@@ -31460,7 +31360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 626
     },
     {
      "name": "Zap Energy",
@@ -31510,7 +31410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 627
     },
     {
      "name": "CNX Resources",
@@ -31560,7 +31460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 628
     },
     {
      "name": "Permian Resources",
@@ -31610,7 +31510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 629
     },
     {
      "name": "Western Midstream Partners",
@@ -31660,7 +31560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 630
     },
     {
      "name": "Kairos Aerospace",
@@ -31710,7 +31610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 631
     },
     {
      "name": "Patterson-UTI Energy",
@@ -31760,7 +31660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 632
     },
     {
      "name": "Advanced Ionics",
@@ -31809,7 +31709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 633
     },
     {
      "name": "Aivco",
@@ -31858,7 +31758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 634
     },
     {
      "name": "Cowboy Clean Fuels",
@@ -31908,7 +31808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 635
     },
     {
      "name": "EOG Resources",
@@ -31950,7 +31850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 636
     },
     {
      "name": "Targa Resources",
@@ -31999,7 +31899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 637
     },
     {
      "name": "WorldOil.com, Inc./Wellogix",
@@ -32048,7 +31948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 638
     },
     {
      "name": "Chart Industries",
@@ -32098,7 +31998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 639
     },
     {
      "name": "Civitas Resources",
@@ -32148,7 +32048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 640
     },
     {
      "name": "Halliburton",
@@ -32198,7 +32098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 641
     },
     {
      "name": "MRC Global",
@@ -32248,7 +32148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 642
     },
     {
      "name": "NOV",
@@ -32298,7 +32198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 643
     },
     {
      "name": "Vertex Energy",
@@ -32348,7 +32248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 644
     },
     {
      "name": "California Resources",
@@ -32395,7 +32295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 645
     },
     {
      "name": "EnLink Midstream",
@@ -32442,7 +32342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 646
     },
     {
      "name": "Fourier",
@@ -32492,7 +32392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 647
     },
     {
      "name": "NiSource",
@@ -32542,7 +32442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 648
     },
     {
      "name": "Terragia",
@@ -32592,7 +32492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 649
     },
     {
      "name": "Valvoline",
@@ -32639,7 +32539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 650
     },
     {
      "name": "Pepco Holdings",
@@ -32689,7 +32589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 651
     },
     {
      "name": "Buildscience",
@@ -32741,7 +32641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 652
     },
     {
      "name": "Eversource Energy",
@@ -32791,7 +32691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 653
     },
     {
      "name": "FirstEnergy",
@@ -32841,7 +32741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 654
     },
     {
      "name": "Green Plains",
@@ -32891,7 +32791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 655
     },
     {
      "name": "Integrys Energy Group",
@@ -32941,7 +32841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 656
     },
     {
      "name": "MasTec",
@@ -32991,7 +32891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 657
     },
     {
      "name": "Nanogrid",
@@ -33041,7 +32941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 658
     },
     {
      "name": "National Fuel Gas Company",
@@ -33091,7 +32991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 659
     },
     {
      "name": "NRG Energy",
@@ -33141,7 +33041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 660
     },
     {
      "name": "ONEOK",
@@ -33191,7 +33091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 661
     },
     {
      "name": "Ovintiv",
@@ -33241,7 +33141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 662
     },
     {
      "name": "Peabody Energy",
@@ -33291,7 +33191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 663
     },
     {
      "name": "Puget Energy",
@@ -33341,7 +33241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 664
     },
     {
      "name": "Texaco",
@@ -33391,7 +33291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 665
     },
     {
      "name": "National Laboratories",
@@ -33441,7 +33341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 666
     },
     {
      "name": "Altra Energy Technologies",
@@ -33492,7 +33392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 667
     },
     {
      "name": "Atomic Alchemy",
@@ -33542,7 +33442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 668
     },
     {
      "name": "cdhot (Hot New Energy Technology)",
@@ -33591,7 +33491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 669
     },
     {
      "name": "CES International",
@@ -33642,7 +33542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 670
     },
     {
      "name": "ChemConnect",
@@ -33693,7 +33593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 671
     },
     {
      "name": "Clean Urban Energy",
@@ -33742,7 +33642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 672
     },
     {
      "name": "Cloud Peak Energy",
@@ -33794,7 +33694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 673
     },
     {
      "name": "Concho Resources",
@@ -33846,7 +33746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 674
     },
     {
      "name": "DCP Midstream",
@@ -33896,7 +33796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 675
     },
     {
      "name": "Downstream Energy",
@@ -33945,7 +33845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 676
     },
     {
      "name": "Echelon",
@@ -33996,7 +33896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 677
     },
     {
      "name": "Energen",
@@ -34045,7 +33945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 678
     },
     {
      "name": "Energy Future Holdings",
@@ -34095,7 +33995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 679
     },
     {
      "name": "EP Energy",
@@ -34145,7 +34045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 680
     },
     {
      "name": "Estes Energy",
@@ -34195,7 +34095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 681
     },
     {
      "name": "Fervo Energy",
@@ -34245,7 +34145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 682
     },
     {
      "name": "FirstFuel Software",
@@ -34295,7 +34195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 683
     },
     {
      "name": "GridBank",
@@ -34344,10 +34244,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 684
     },
     {
-     "name": "In Charge One, Inc.",
+     "name": "In Charge One",
      "slug": "in-charge-one-inc",
      "description": "In Charge One, Inc. is a hardware startup behind \"Socket to Pocket,\" a paid charging system for electronic devices in public spaces. The device lets visitors charge smartphones, laptops, drones, e-bikes, and scooters at cafes, shops, clinics, stadiums, airports, and other venues by tapping a card and paying for access, while venue owners monetize the outlet and earn a commission per plugged socket. It ships in wall-mounted, extension-cord, and anti-vandal street versions. Founded in 2023 by Danylo (Daniel) Tonkopii, co-founder of Delfast electric bikes, and Andriy Zinchuk, the company is based in Los Angeles, California and was developed by Ukrainian engineers. It is a consumer/commercial hardware and payments business, not an API provider: no public API, developer portal, or documentation surface has been published, and its incharge.one domain is currently non-resolving and in registrar redemption/pending-delete status. This profile was surfaced as a portfolio company of 500 Global and is retained as an identity record.",
      "score": 2.1,
@@ -34393,7 +34293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 685
     },
     {
      "name": "Magellan Midstream Partners",
@@ -34443,7 +34343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 686
     },
     {
      "name": "Marvel Tech (Mufan Power)",
@@ -34493,7 +34393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 687
     },
     {
      "name": "Northern Tier Energy",
@@ -34543,7 +34443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 688
     },
     {
      "name": "QEP Resources",
@@ -34592,7 +34492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 689
     },
     {
      "name": "Renewable Energy Group",
@@ -34642,7 +34542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 690
     },
     {
      "name": "Rens Energy",
@@ -34691,7 +34591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 691
     },
     {
      "name": "Silver Spring Networks *",
@@ -34742,7 +34642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 692
     },
     {
      "name": "Solar City",
@@ -34791,7 +34691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 693
     },
     {
      "name": "Terra AI",
@@ -34841,7 +34741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 694
     },
     {
      "name": "VLTA",
@@ -34891,7 +34791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 695
     },
     {
      "name": "Talen Energy",
@@ -34941,7 +34841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 696
     },
     {
      "name": "Airx",
@@ -34990,7 +34890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 697
     },
     {
      "name": "Fulcrum BioEnergy",
@@ -35041,7 +34941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 698
     },
     {
      "name": "Matador Resources",
@@ -35090,7 +34990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 699
     },
     {
      "name": "Newfield Exploration",
@@ -35140,7 +35040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 700
     },
     {
      "name": "Radiantnuclear",
@@ -35190,7 +35090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 701
     },
     {
      "name": "Murphy Oil",
@@ -35239,7 +35139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 702
     },
     {
      "name": "Noble Energy",
@@ -35288,7 +35188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 703
     },
     {
      "name": "Pioneer Natural Resources",
@@ -35337,7 +35237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 704
     },
     {
      "name": "Simple Energy",
@@ -35389,7 +35289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 705
     },
     {
      "name": "Duke Energy",
@@ -35438,7 +35338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 706
     },
     {
      "name": "OGE Energy",
@@ -35487,7 +35387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 707
     },
     {
      "name": "Oil States International",
@@ -35536,7 +35436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 708
     }
    ]
   }

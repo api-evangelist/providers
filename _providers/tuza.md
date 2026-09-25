@@ -57,7 +57,7 @@ modified: '2026-07-21'
 name: Tuza
 nav: Providers
 network: true
-overview: 'Tuza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, AI Agents, and Agentic AI.
+overview: 'Tuza is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, AI Agents, and Automation.
 
 
   Tuza''s developer surface includes support and 2 more developer resources.'
@@ -113,7 +113,6 @@ tags:
 - Fintech
 - Banking
 - AI Agents
-- Agentic AI
 - Automation
 - Workflow Automation
 - United Kingdom

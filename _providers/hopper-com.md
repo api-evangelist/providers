@@ -272,6 +272,6 @@ tags:
 - Ancillary Revenue
 - B2B
 - Loyalty
-- Agentic AI
+- AI Agents
 website: https://www.hopper.com
 ---

@@ -55,10 +55,10 @@ description: PerfectBit, Inc. is a Y Combinator-backed company that produces hig
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perfectbit-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Perfectbit Inc
+name: Perfectbit
 nav: Providers
 network: true
-overview: Perfectbit Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Data Verification.
+overview: Perfectbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Data Verification.
 random_paper: 15
 score:
   band: minimal

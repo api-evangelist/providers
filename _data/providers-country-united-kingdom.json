@@ -1,6 +1,6 @@
 {
- "total": 440,
- "shown": 440,
+ "total": 439,
+ "shown": 439,
  "limit": 1000,
  "bands": [
   {
@@ -1797,7 +1797,7 @@
      "rank": 35
     },
     {
-     "name": "CSOAI Ltd",
+     "name": "Council of AI",
      "slug": "councilof-ai",
      "description": "CSOAI Ltd — public name Council of AI (UK Companies House 16939677, London; second domain csoai.org) — is an independent AI-governance MEASUREMENT body: \"measurement, not certification\". It publishes the living GSPC board (Governance · Safety · Provenance · Continuity) as a keyless, CORS-open JSON API, Ed25519-signed measurement cards verifiable offline against a did:web:csoai.org key document, a Merkle public root with inclusion proofs, an EU AI Act Article 50 machine-marking detector, and a dated corrections ledger. The estate is exposed to agents three ways: a 141-operation OpenAPI 3.1 contract at https://councilof.ai/openapi.json (plus a 7-operation read-surfaces spec), a remote MCP server at https://councilof.ai/mcp (13 tools with anonymous tools/list; npm stdio twin csoai-gspc-mcp; MCP Registry io.github.CSOAI-ORG/gspc), and an A2A v1.0 agent card at /.well-known/agent-card.json with eight skills. Ten REST doors and four MCP tools are metered per artefact by x402 (USDC on Base, amounts only inside the 402 challenge); the board, verification and every preview are free and need no account.",
      "score": 52.6,
@@ -2694,56 +2694,6 @@
      "rank": 53
     },
     {
-     "name": "NHS England",
-     "slug": "nhs-england",
-     "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png",
-     "score": 49.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 61.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
      "name": "Starling Bank",
      "slug": "starling-bank",
      "description": "Starling Bank is a UK app-only digital challenger bank founded in 2014 by Anne Boden and headquartered in London, holding a full UK banking licence and authorised and regulated by the Prudential Regulation Authority and the Financial Conduct Authority (FSCS-protected, SWIFT SRLGGB2L). It is a privately held company - not a mutual and not publicly listed - backed by investors including Goldman Sachs, Fidelity, and the Qatar Investment Authority, and it also licenses its core banking platform as Software-as-a-Service under the \"Engine by Starling\" brand. As an FCA-authorised ASPSP it participates in UK Open Banking / PSD2, but Starling is best known for its own developer-friendly, bespoke RESTful Developer API (accounts, transaction feed, payments, payees, savings goals/spaces, cards, mandates, and identity) served over OAuth2 at api.starlingbank.com with a full sandbox, alongside its Open Banking Read/Write (AIS, PIS, CBPII) conformance to the Open Banking Implementation Entity (OBIE) standard secured with FAPI-grade OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Starling is a challenger bank and is not one of the nine CMA9 mandated banks.",
@@ -2798,7 +2748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Utilita",
@@ -2855,7 +2805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Virgin Money UK",
@@ -2916,7 +2866,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Cashflows",
@@ -2964,6 +2914,56 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
+     "name": "NHS England",
+     "slug": "nhs-england",
+     "description": "NHS England (which absorbed NHS Digital in 2023) is the national body that runs England's public health and social care API platform at digital.nhs.uk and api.service.nhs.uk. It publishes a large catalogue of internet-facing APIs - most of them HL7 FHIR R4 built to the FHIR UK Core profile - covering the national spine services: the Personal Demographics Service (PDS), GP Connect, the e-Referral Service (e-RS), the Electronic Prescription Service (EPS), the Organisation Data Service (ODS), Booking and Referral Standard (BaRS), immunisation history, the NHS App, NHS Notify, and the Directory of Healthcare Services. Access is governed centrally: applications onboard through the NHS API platform and authenticate with OAuth 2.0 bearer tokens - application-restricted (signed-JWT client credentials / API key) or user-restricted via NHS login (OIDC) and NHS CIS2 - with production access gated behind registration, assurance, and connection agreements. Home market is the United Kingdom (England). Positioning: a single national health system operating public, standards-based (FHIR UK Core) interoperability APIs rather than a commercial API vendor.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png",
+     "score": 49.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 61.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5088,7 +5088,7 @@
      "rank": 100
     },
     {
-     "name": "Polycode Limited",
+     "name": "Polycode",
      "slug": "polycode-co-uk",
      "description": "Polycode Limited is a UK information-technology consultancy (Companies House 10172940, Leeds, incorporated 2016) that operates marginalia, a small public chat experiment built on a shared, provenance-tracked memory graph: a language model synthesises conversations into an OWL-typed graph and questions are answered by narrowing that graph with SPARQL. marginalia publishes a public REST API (OpenAPI 3.0.3, 50 operations at https://marginalia.polycode.co.uk/api — async chat with task polling, session search and history, insights, projects, usage and budget, key-authed private graphs; no key for reads and chat), an A2A 0.3.0 agent card at /.well-known/agent-card.json with a live JSON-RPC endpoint (message/send, message/stream, tasks/get) advertising chat, recall-memory and research-projects skills, an OpenAI-shaped zero-token completion shim, a first-party CLI and the AGPL-3.0 source on GitLab. Visitor contributions are PII-redacted at ingest and republished under CC-BY-SA 4.0; a volatile flag keeps a turn out of shared memory. The corporate apex polycode.co.uk did not resolve when profiled; the product host is the live web presence.",
      "score": 42.7,
@@ -10992,8 +10992,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 117,
-   "shown": 117,
+   "count": 116,
+   "shown": 116,
    "providers": [
     {
      "name": "p0stman",
@@ -11081,7 +11081,7 @@
      "rank": 218
     },
     {
-     "name": "Aviva plc",
+     "name": "Aviva",
      "slug": "aviva-plc",
      "description": "Aviva plc is the United Kingdom's largest insurer and one of the ten biggest insurance groups in Europe, listed on the London Stock Exchange and serving roughly 20 million UK customers across the UK, Ireland and Canada following completion of its acquisition of Direct Line Insurance Group on 1 July 2025. Aviva is a composite carrier rather than a single-line one: UK and Ireland general insurance (personal and commercial motor, property and liability), the UK's largest life insurance book, a growing corporate and individual health business, workplace pensions and wealth, and Aviva Investors as the asset-management arm. Aviva Canada is that market's second-largest property and casualty insurer. Aviva's API posture is that of a carrier, not a platform. It operates a real, modern developer portal at developer.aviva.co.uk — a Kong Konnect portal fronted by Aviva's own EV certificate — but the portal reports is_public false with RBAC and OIDC authentication enabled, and every content path returns HTTP 403 to an unauthenticated request. It is explicitly a partner surface: the portal's own copy describes Partners discovering, accessing and consuming Aviva Health APIs, with sandbox access granted on application and production consumption granted on approval. There is no self-serve signup, no public API reference, no downloadable OpenAPI, no public Postman workspace, no GraphQL surface and no published event catalogue. The far larger integration channel is not the portal at all: in the UK, Aviva trades with brokers through Polaris UK's imarket and its PL EDI message and code-list standards, reaching broker systems such as Acturis, Applied Systems, Open GI, Bravo and SSP, and in December 2024 Aviva became the first insurer to launch a claims API integrated directly into Acturis, pushing new and updated motor, property and liability claim records into brokers' management systems. No ACORD reference was found on any Aviva surface; the UK's standards seam here is Polaris, not ACORD. This record is therefore an honest stub: a real but partner-gated API programme with no public self-serve surface to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/screenshots/aviva-plc-2026-07-25T201951.png",
@@ -11334,56 +11334,6 @@
      "rank": 223
     },
     {
-     "name": "NHS England Digital",
-     "slug": "nhs-england-digital",
-     "description": "NHS England (incorporating the former NHS Digital and NHSX) provides national digital, data, and technology services for the NHS in England. The organization operates the Spine, the Personal Demographics Service, the Electronic Prescription Service, the Summary Care Record, e-Referral Service, NHS App, NHS.uk, and an extensive API platform of FHIR and REST APIs used by health and care providers, developers, and researchers across England.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nhs-england-digital/refs/heads/main/screenshots/nhs-england-digital-2026-08-07T185240.png",
-     "score": 24.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 25.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 224
-    },
-    {
      "name": "Bupa Australia",
      "slug": "bupa-australia",
      "description": "Bupa Australia is the Australian market unit of the UK-headquartered Bupa group and one of the country's largest private health insurers, trading as Bupa HI Pty Ltd (ABN 81 000 057 590). It writes private health insurance — hospital and ancillary \"extras\" cover, overseas visitor and overseas student health cover, and corporate health plans — and, unusually for a carrier, also owns the provision that consumes those benefits through Bupa Dental, Bupa Optical, Bupa Medical Visa Services and Bupa Aged Care. Its lines of business are health and care rather than property and casualty or life, so the ACORD data standards that shape most of the insurance sector are entirely absent from its published surface; no reference to ACORD, AL3, ACORD XML or NGDS appears anywhere on its public web estate. Australia gives it no forcing function either: the Consumer Data Right was designated to extend to general insurance and then deferred, and a first-hand query of the CDR participant register at api.cdr.gov.au on 2026-07-25 returned 203 data-holder brands drawn only from banking and energy, with no insurance sector and no Bupa brand present. Bupa Australia's API posture is accordingly partner-gated. It does run a genuine first-party developer portal at portal.api.bupa.com.au — an Azure API Management managed portal whose meta author tag names Bupa HI Pty Ltd — but the portal returns HTTP 200 while listing nothing: its /apis and /products routes render empty \"APIs: List\" and \"Products: List\" headings to anonymous visitors, its config.json points at an internal-only management host, and its Get Started page routes every onboarding step through the \"Bupa Integration Fabric Team\" before any API specification is released. No public OpenAPI or Swagger definition, Postman collection, GraphQL schema, gRPC service or webhook catalog could be confirmed, and none of the four insurance verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers. The real integration surface for Bupa Australia's counterparties is not an API at all: ancillary providers claim through HICAPS and HealthPoint terminals, hospital providers check patient eligibility and lodge claims through ECLIPSE, the national Services Australia claiming channel reached via Civica's ECF web front-end, and access to the Bupa Partner Portal at partner.bupa.com.au is requested by downloading and returning a PDF form.",
@@ -11431,7 +11381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Ki Insurance",
@@ -11481,7 +11431,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Connells Group",
@@ -11531,7 +11481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "RSA Insurance",
@@ -11581,7 +11531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "KRY | LIVI",
@@ -11638,7 +11588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "VAT API",
@@ -11681,7 +11631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Coadjute",
@@ -11724,7 +11674,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "National Energy System Operator",
@@ -11774,7 +11724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Vitality",
@@ -11824,7 +11774,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Connected Kerb",
@@ -11874,7 +11824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Freetrade",
@@ -11931,7 +11881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "Future Perfect (Healthcare)",
@@ -11980,7 +11930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "Trainline",
@@ -12023,7 +11973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "ManyPets",
@@ -12079,7 +12029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Virgin Media O2",
@@ -12129,7 +12079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Marshmallow",
@@ -12179,7 +12129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Queen's University Belfast",
@@ -12228,7 +12178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Zapmap",
@@ -12278,7 +12228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "iGent",
@@ -12321,7 +12271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Open GI",
@@ -12371,7 +12321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Sage Accounting",
@@ -12413,7 +12363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Three UK",
@@ -12463,7 +12413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Agentbox",
@@ -12506,7 +12456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Send Technology",
@@ -12563,7 +12513,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Globacap",
@@ -12613,7 +12563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Motics Technologies",
@@ -12663,7 +12613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "OVO Energy",
@@ -12713,7 +12663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "By Miles",
@@ -12770,7 +12720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "Huel",
@@ -12820,7 +12770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Pay.UK",
@@ -12870,7 +12820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Paua",
@@ -12920,7 +12870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "LendInvest",
@@ -12963,7 +12913,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "Propertymark",
@@ -13006,7 +12956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "REalyse",
@@ -13049,7 +12999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Tide",
@@ -13099,7 +13049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "Howden Group",
@@ -13149,7 +13099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Foxtons",
@@ -13192,7 +13142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Calderdale Data Works",
@@ -13242,7 +13192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Essex Open Data",
@@ -13292,7 +13242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "UK Government Open Data",
@@ -13342,57 +13292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
-    },
-    {
-     "name": "Tokamak Energy",
-     "slug": "tokamak-energy",
-     "description": "Tokamak Energy is a private fusion energy company founded in 2009 as a spinout from the UK Atomic Energy Authority, headquartered at 173 Brook Drive, Milton Park, Oxfordshire OX14 4SD, with subsidiaries in the United States and Japan and more than 300 employees. It runs a two-track strategy: advancing commercial fusion energy through compact spherical tokamaks, and developing high temperature superconducting (HTS) magnet technology as a business in its own right. Its flagship device ST40 is the world's highest field spherical tokamak and is undergoing a USD 52 million upgrade co-funded with the US Department of Energy and the UK Department for Energy Security and Net Zero. Demo4 became the first HTS fusion magnet system to achieve fusion-relevant magnetic fields in 2025, and the company was selected as Magnet Systems Partner for the UK's STEP programme under a GBP 70 million contract running to 2029. The group is organised into three integrated businesses — TE Magnetics (HTS technology, established 2024), Ridgway Machines (manufacturing, acquired 2025) and Fusion. Tokamak Energy is a fusion and superconducting hardware company rather than a software vendor: it publishes no commercial or developer-facing product API, no developer portal, no SDKs and no OpenAPI of its own. The only machine-readable interface it exposes publicly is the WordPress REST content API behind its corporate website at tokamakenergy.com, which is anonymously readable, read-only for unauthenticated callers, and is captured here for discovery purposes. Its public engineering output is instead released as open-source plasma physics code — GSFit, RTGSFit and FORGE — through the tokamak-energy GitHub organisation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/screenshots/tokamak-energy-2026-09-02T163845.png",
-     "score": 17.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 28.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 265
+     "rank": 263
     },
     {
      "name": "Strategic Blue",
@@ -13435,7 +13335,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 264
+    },
+    {
+     "name": "Tokamak Energy",
+     "slug": "tokamak-energy",
+     "description": "Tokamak Energy is a private fusion energy company founded in 2009 as a spinout from the UK Atomic Energy Authority, headquartered at 173 Brook Drive, Milton Park, Oxfordshire OX14 4SD, with subsidiaries in the United States and Japan and more than 300 employees. It runs a two-track strategy: advancing commercial fusion energy through compact spherical tokamaks, and developing high temperature superconducting (HTS) magnet technology as a business in its own right. Its flagship device ST40 is the world's highest field spherical tokamak and is undergoing a USD 52 million upgrade co-funded with the US Department of Energy and the UK Department for Energy Security and Net Zero. Demo4 became the first HTS fusion magnet system to achieve fusion-relevant magnetic fields in 2025, and the company was selected as Magnet Systems Partner for the UK's STEP programme under a GBP 70 million contract running to 2029. The group is organised into three integrated businesses — TE Magnetics (HTS technology, established 2024), Ridgway Machines (manufacturing, acquired 2025) and Fusion. Tokamak Energy is a fusion and superconducting hardware company rather than a software vendor: it publishes no commercial or developer-facing product API, no developer portal, no SDKs and no OpenAPI of its own. The only machine-readable interface it exposes publicly is the WordPress REST content API behind its corporate website at tokamakenergy.com, which is anonymously readable, read-only for unauthenticated callers, and is captured here for discovery purposes. Its public engineering output is instead released as open-source plasma physics code — GSFit, RTGSFit and FORGE — through the tokamak-energy GitHub organisation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/screenshots/tokamak-energy-2026-09-02T163845.png",
+     "score": 16.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 28.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 265
     },
     {
      "name": "Convex",
@@ -13485,7 +13435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "MORI",
@@ -13528,7 +13478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "data.gov.uk CKAN Publishing Service",
@@ -13578,7 +13528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Investly",
@@ -13621,7 +13571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "OnTheMarket",
@@ -13664,7 +13614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Accurx",
@@ -13714,7 +13664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "Flexitricity",
@@ -13764,7 +13714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Ultromics",
@@ -13825,7 +13775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "Admiral Group",
@@ -13875,7 +13825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "Accord",
@@ -13924,7 +13874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Barnet Open Data",
@@ -13974,7 +13924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Data Mill North (Leeds)",
@@ -14024,7 +13974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Leeds Data Mill",
@@ -14074,7 +14024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "NHS Scotland Open Data",
@@ -14124,7 +14074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "OpenDataNI (Northern Ireland)",
@@ -14174,7 +14124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Satago",
@@ -14217,7 +14167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Spatial Hub Scotland",
@@ -14267,7 +14217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Bippit",
@@ -14310,7 +14260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "Tem",
@@ -14359,7 +14309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Briefcase",
@@ -14402,7 +14352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Redwood Bank",
@@ -14452,10 +14402,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
-     "name": "Immigram LTD",
+     "name": "Immigram",
      "slug": "immigram-ltd",
      "description": "Immigram is a UK relocation and immigration platform that helps IT specialists, engineers, founders, and entrepreneurs move to the United Kingdom, primarily via the Global Talent Visa (Tech Nation endorsement route) as well as Skilled Worker, settlement (ILR/naturalization), family, US O-1, and Spanish Startup visa paths. The company pairs immigration legal expertise with an AI-assisted platform that scores eligibility in advance, collects and reviews applicant data into a case, and tracks the process through a live dashboard with data-driven guidance and support. Founded in 2019 and backed by the 500 Global accelerator, Immigram is a services/SaaS provider and does not publish a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/immigram-ltd/refs/heads/main/screenshots/immigram-ltd-2026-07-25T222131.png",
@@ -14495,7 +14445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Moneybox",
@@ -14544,7 +14494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "HomeTouch",
@@ -14593,7 +14543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Atom Learning",
@@ -14643,10 +14593,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
-     "name": "Prudential plc",
+     "name": "Prudential",
      "slug": "prudential-plc",
      "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/screenshots/prudential-plc-2026-09-02T152254.png",
@@ -14693,7 +14643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Wayhome",
@@ -14736,7 +14686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "Apron",
@@ -14786,7 +14736,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "ANNA Money",
@@ -14836,7 +14786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "BorrowMyDoggy",
@@ -14879,7 +14829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Butternut Box",
@@ -14922,7 +14872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Click Mechanic",
@@ -14965,7 +14915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "easyJet",
@@ -15014,7 +14964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "KareInn",
@@ -15064,7 +15014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "MyBuilder",
@@ -15107,7 +15057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Spill",
@@ -15157,7 +15107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Zilch",
@@ -15207,7 +15157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "GetHarley",
@@ -15257,7 +15207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Vodafone",
@@ -15307,7 +15257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Visibly",
@@ -15357,7 +15307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Josh Wood Colour",
@@ -15400,7 +15350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Sidekick",
@@ -15443,7 +15393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Fuse",
@@ -15493,7 +15443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Lendable",
@@ -15536,7 +15486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "DoorFeed",
@@ -15579,7 +15529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "IHG Hotels & Resorts",
@@ -15622,7 +15572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Bonnet",
@@ -15672,7 +15622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Nutmeg (J.P. Morgan Personal Investing)",
@@ -15715,7 +15665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Plum",
@@ -15758,7 +15708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "Popsa",
@@ -15801,7 +15751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Mind Foundry",
@@ -15844,7 +15794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Acturis",
@@ -15901,7 +15851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Concirrus",
@@ -15951,7 +15901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "PlotAPI",
@@ -15994,7 +15944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Electric Car Scheme",
@@ -16037,7 +15987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "Serve First",
@@ -16079,7 +16029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "flatfair",
@@ -16122,7 +16072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "INBOTIQA",
@@ -16165,7 +16115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "London House Exchange (Property Partner)",
@@ -16208,7 +16158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "Healthera",
@@ -16258,7 +16208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Smol",
@@ -16301,7 +16251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Kestrl: Muslim Money App",
@@ -16351,7 +16301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Second Nature",
@@ -16401,7 +16351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "OakNorth",
@@ -16451,7 +16401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Tooth Fairy",
@@ -16501,7 +16451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Tripledot",
@@ -16544,7 +16494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Carwow",
@@ -16586,7 +16536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     }
    ]
   },
@@ -16639,7 +16589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Carmoola",
@@ -16682,7 +16632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Dwelly",
@@ -16725,7 +16675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Little Freddie",
@@ -16768,7 +16718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "ProGrad",
@@ -16811,7 +16761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Proportunity",
@@ -16854,7 +16804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Truly Experiences",
@@ -16897,7 +16847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Medefer",
@@ -16947,7 +16897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "On the Beach",
@@ -16990,7 +16940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Sano",
@@ -17040,7 +16990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Oxa",
@@ -17083,7 +17033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "The Modern Milkman",
@@ -17126,7 +17076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "01health",
@@ -17176,7 +17126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Laelaps AI",
@@ -17219,7 +17169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Touchlight",
@@ -17269,7 +17219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Fractile",
@@ -17311,7 +17261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Kennek",
@@ -17354,7 +17304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "mojiworks",
@@ -17397,7 +17347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "Numan",
@@ -17447,7 +17397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Wollit",
@@ -17490,7 +17440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Open Bionics",
@@ -17540,7 +17490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Push Doctor",
@@ -17590,7 +17540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Better Origin",
@@ -17633,7 +17583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Dexory",
@@ -17676,7 +17626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Habito",
@@ -17719,7 +17669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Reposit",
@@ -17769,7 +17719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "Shoobs",
@@ -17812,7 +17762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Superscript",
@@ -17862,7 +17812,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "Taxscouts",
@@ -17904,7 +17854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Bloom & Wild",
@@ -17947,7 +17897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Direct Line Group",
@@ -17997,7 +17947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Mindgard",
@@ -18040,7 +17990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Gousto",
@@ -18083,7 +18033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "So Sure",
@@ -18133,7 +18083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Dishpatch",
@@ -18176,7 +18126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Sourceful",
@@ -18219,7 +18169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Urban Jungle",
@@ -18276,7 +18226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Yonder",
@@ -18326,7 +18276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Lottie",
@@ -18376,7 +18326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Adarga",
@@ -18418,7 +18368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "AirPOS",
@@ -18467,7 +18417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Lantum",
@@ -18517,7 +18467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Savills",
@@ -18567,7 +18517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "BT Group",
@@ -18617,7 +18567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Material Evolution",
@@ -18660,7 +18610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Tuli",
@@ -18710,7 +18660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "Lawhive",
@@ -18753,7 +18703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Close Brothers",
@@ -18803,7 +18753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "EXMO",
@@ -18846,7 +18796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Atom Bank",
@@ -18896,7 +18846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Tiney",
@@ -18946,7 +18896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Avenue3",
@@ -18995,7 +18945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "Alchemab Therapeutics",
@@ -19045,7 +18995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Levicept",
@@ -19095,7 +19045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "NOTHS",
@@ -19137,7 +19087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "THG",
@@ -19180,7 +19130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "Sixfold",
@@ -19230,7 +19180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Addionics",
@@ -19279,7 +19229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Jade Autism",
@@ -19329,7 +19279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "Chipper Cash",
@@ -19379,7 +19329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Pulmocide",
@@ -19429,7 +19379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
      "name": "Jet2",
@@ -19479,7 +19429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "Vsim",
@@ -19522,7 +19472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "IMP Software",
@@ -19572,7 +19522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Evri",
@@ -19615,7 +19565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "freshEHR",
@@ -19664,7 +19614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Hawk-Eye Innovations",
@@ -19707,7 +19657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Getagent",
@@ -19749,7 +19699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Gyre Energy",
@@ -19799,7 +19749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "IONA",
@@ -19849,7 +19799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "Signify Group",
@@ -19892,7 +19842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Tekever",
@@ -19935,7 +19885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Affy MedTech",
@@ -19984,7 +19934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "Cambridge Aerospace",
@@ -20027,7 +19977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Cazoo",
@@ -20069,7 +20019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "CleanCo",
@@ -20112,7 +20062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "crowdcube",
@@ -20154,7 +20104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Dealflo",
@@ -20197,7 +20147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Fluidly",
@@ -20240,7 +20190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Givemetap",
@@ -20283,7 +20233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Hassle",
@@ -20326,7 +20276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "lovecrafts",
@@ -20368,7 +20318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "nested",
@@ -20411,7 +20361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "Newmark Group",
@@ -20453,7 +20403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "OneSwoop",
@@ -20495,7 +20445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "PrimaryBid",
@@ -20538,7 +20488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Quantum Motion",
@@ -20581,7 +20531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "rentify",
@@ -20626,7 +20576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "SimplyCook",
@@ -20668,7 +20618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "taptrip.co",
@@ -20710,7 +20660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "thetab",
@@ -20753,7 +20703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "Thread",
@@ -20797,7 +20747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "Vinterior",
@@ -20840,7 +20790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "Airnow",
@@ -20882,7 +20832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "Medbelle",
@@ -20932,7 +20882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "Twinn Health",
@@ -20982,7 +20932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "Cera",
@@ -21032,7 +20982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 429
     },
     {
      "name": "Exscientia",
@@ -21082,7 +21032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "PCV",
@@ -21132,7 +21082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "AccelerComm",
@@ -21181,7 +21131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "Circle Health Group",
@@ -21231,7 +21181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Ubiquisys",
@@ -21281,7 +21231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "getdinghy",
@@ -21330,7 +21280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Tuza",
@@ -21379,7 +21329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "Trussle",
@@ -21429,7 +21379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "City Reach International",
@@ -21481,7 +21431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "Lanistar",
@@ -21531,7 +21481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 439
     }
    ]
   }

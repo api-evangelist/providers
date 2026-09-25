@@ -207,7 +207,7 @@ modified: '2026-05-11'
 name: Employment Hero
 nav: Providers
 network: true
-overview: 'Employment Hero publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Certifications API, Cost Centres API, and 7 more. Tagged areas include Human Resources, HRIS, Payroll, Recruitment, and Employee Benefits.
+overview: 'Employment Hero publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Certifications API, Cost Centres API, and 7 more. Tagged areas include Human Resources, HRIS, Payroll, Recruiting, and Employee Benefits.
 
 
   Employment Hero''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
@@ -235,6 +235,13 @@ score:
     developer_ergonomics: 52.4
     discoverability: 68.5
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
   previous_composite: 33.6
   provenance:
     agentic_access: derived
@@ -268,7 +275,7 @@ tags:
 - Human Resources
 - HRIS
 - Payroll
-- Recruitment
+- Recruiting
 - Employee Benefits
 - Workforce Management
 - Australia

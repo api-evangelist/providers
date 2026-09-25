@@ -1123,8 +1123,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 95,
-   "shown": 95,
+   "count": 94,
+   "shown": 94,
    "providers": [
     {
      "name": "Routific",
@@ -1436,17 +1436,17 @@
     },
     {
      "name": "Kargo",
-     "slug": "kargo",
+     "slug": "kargo-ai",
      "description": "Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves through a dock door, reading LPN, SKU, lot code and expiration-date labels to automate shipping and receiving, verify loads and shipments, detect damage, and feed inventory visibility, shelf-life management, FSMA traceability, claims management, financial reconciliation and automated ASNs back into the customer WMS. Kargo publishes a public integration surface for that data exchange: a REST Document Intake API described by an OpenAPI 3.1 document, a public GraphQL API with open anonymous introspection, a single unified JSON endpoint, a webhook (push) API at shipment and pallet level plus a GraphQL subscription alternative, and flat-file ingest over email, SFTP or AS2. All programmatic access is Auth0 OAuth 2.0 client-credentials bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
-     "score": 51.4,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 69.6,
       "contract_governance": 18.2,
-      "operational_transparency": 10.5,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
@@ -4412,49 +4412,6 @@
      "rank": 98
     },
     {
-     "name": "Also",
-     "slug": "also",
-     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
-     "score": 41.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 50.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 43.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "platform",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 99
-    },
-    {
      "name": "iContainers",
      "slug": "icontainers",
      "description": "iContainers is a digital freight forwarder founded in 2007 in Barcelona and now part of Agility Logistics, following its 2019/2022 merger with Shipa Freight. The platform lets SMEs, importers/exporters, moving companies, freight agents and individuals search, compare, book, insure, document and track international ocean freight (FCL and LCL), air freight, air express and customs clearance across 250,000+ trade routes to 300+ destinations. Developer access is published as the \"Brutus API\" — an OpenAPI 3.0.0 contract rendered on developer.icontainers.com covering FCL/LCL/air/LTL quoting, rate price calculation, place/port search, booking a rate, booking track-and-trace, and booking document upload/download — secured with JWT bearer tokens. iContainers also sells a white-label freight forwarding portal, and its operational layer is supplied by the third-party platform VelocityOS.ai.",
@@ -4495,7 +4452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "GoJek",
@@ -4545,7 +4502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "PostalCodes.info",
@@ -4595,7 +4552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Whiplash",
@@ -4638,7 +4595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Tradeverifyd",
@@ -4681,7 +4638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "E2open",
@@ -4724,7 +4681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "ShipHero",
@@ -4767,7 +4724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Whiplash Merchandising",
@@ -4810,7 +4767,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "3PL Warehouse Manager",
@@ -4853,10 +4810,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
-     "name": "Omniful, Inc.",
+     "name": "Omniful",
      "slug": "omniful-inc",
      "description": "Omniful is an AI-powered unified supply chain and fulfillment platform that consolidates order management (OMS), warehouse management (WMS), transportation management (TMS), inventory, point of sale, and returns into a single intelligent system for retailers, e-commerce businesses, logistics providers, and enterprises. The platform offers plug-and-play integrations with sales channels, marketplaces, and ERPs, multi-location and multi-brand operation support, and a set of public Integration APIs (seller/sales-channel, tenant, and TMS) with bearer-token authentication and webhook event subscriptions, documented as a public Postman collection at docs.omniful.tech. Omniful is a 500 Global portfolio company operating primarily across the MENA region.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png",
@@ -4896,7 +4853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Ordoro",
@@ -4939,7 +4896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Royal Mail",
@@ -4982,7 +4939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Cedarai",
@@ -5025,7 +4982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "FinditParts",
@@ -5068,7 +5025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Coyote Logistics",
@@ -5118,7 +5075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "DSV",
@@ -5161,7 +5118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "DAT Freight & Analytics",
@@ -5204,7 +5161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "17TRACK",
@@ -5254,7 +5211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Deliveroo",
@@ -5297,7 +5254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "ShipBob",
@@ -5340,7 +5297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     }
    ]
   },
@@ -5349,8 +5306,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 107,
-   "shown": 107,
+   "count": 108,
+   "shown": 108,
    "providers": [
     {
      "name": "Instabee",
@@ -5393,7 +5350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Parade",
@@ -5436,7 +5393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Ship24",
@@ -5479,7 +5436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Freight Waves",
@@ -5529,7 +5486,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Parcels App",
@@ -5579,7 +5536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Extensiv",
@@ -5622,7 +5579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Ninja Van",
@@ -5665,7 +5622,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Terminal49",
@@ -5707,6 +5664,49 @@
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
+     },
+     "rank": 126
+    },
+    {
+     "name": "Also",
+     "slug": "also",
+     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 37.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
      },
      "rank": 127
     },
@@ -9539,7 +9539,7 @@
      "rank": 214
     },
     {
-     "name": "PayCargo, LLC",
+     "name": "PayCargo",
      "slug": "paycargo-llc",
      "description": "PayCargo, LLC is a fintech platform for the global logistics and freight industry, providing digital freight-payment processing, accounts-payable automation, and supply-chain payment visibility. Founded in 2007, PayCargo connects payers (shippers, freight forwarders, cargo owners) with vendors (carriers, terminals, warehouses, and other logistics providers) so freight charges can be paid electronically via ACH, credit card, or prepaid funds for faster cargo release. The platform spans ocean, air, and intermodal freight and offers products including PayCargo Payments, AP Automation, the Container Payment Portal, PayCargo Finance, and document/response automation. PayCargo exposes a partner-facing API (GET/POST) for retrieving charges due, processing payments, and reconciling transactions directly from a customer's own accounting/TMS systems, alongside EDI and SFTP integration options. API access is provisioned to partners rather than published as an open developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/screenshots/paycargo-llc-2026-08-07T191629.png",
@@ -9951,7 +9951,7 @@
      "rank": 223
     },
     {
-     "name": "Blassa Inc.",
+     "name": "Blassa",
      "slug": "blassa-inc",
      "description": "Blassa is an AI-powered location intelligence and geocoding platform built for the informal addressing systems common across the Middle East and Africa (MEA), where up to 40% of deliveries fail on the first attempt. The Blassa API turns ambiguous location descriptions and photos into precise coordinates and structured, verified addresses, offering forward and reverse geocoding, multi-language address autocomplete (Arabic, French, and local languages), address validation with deliverability scoring, and photo-to-location conversion. It targets logistics, e-commerce, and last-mile delivery companies looking to cut failed deliveries and improve checkout conversion. Founded in 2021 and backed by 500 Global and the Sanabil Accelerator, Blassa exposes its capabilities through a credit-metered REST API with free, Pro, and Enterprise plans, an API-key auth model, webhook support, and a hosted developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png",
@@ -11247,56 +11247,6 @@
      "rank": 252
     },
     {
-     "name": "Harbinger",
-     "slug": "harbinger",
-     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 253
-    },
-    {
      "name": "Greenbrier Companies",
      "slug": "greenbrier-cos",
      "description": "The Greenbrier Companies is a leading international supplier of equipment and services to global freight transportation markets, designing, building and marketing freight railcars in North America, Europe and South America from its headquarters in Lake Oswego, Oregon. Greenbrier also operates railcar leasing and fleet management, wheel services, maintenance and repair, marine barge manufacturing in Portland, and participates in the RailPulse railcar-telematics joint venture. Greenbrier publishes no developer program, no API portal and no SDKs, and sells no API product. It does, however, operate several real, anonymously callable HTTP surfaces on its own hosts: a bespoke JSON API serving certified tank-car gauge tables at tankcar.gbrx.com, and the WordPress and WooCommerce Store REST APIs behind www.gbrx.com, which expose the railcar product catalog, the aftermarket parts catalog, the press room and site search. Those are catalogued here for discovery; they are not a product Greenbrier markets.",
@@ -11337,7 +11287,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Matternet",
@@ -11387,7 +11337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "Stord",
@@ -11430,7 +11380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "World Fuel Services",
@@ -11479,7 +11429,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "Sysdyne Technologies",
@@ -11522,7 +11472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "PostEx",
@@ -11572,7 +11522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "Laundryheap",
@@ -11615,7 +11565,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "NMFTA",
@@ -11658,7 +11608,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Union Pacific",
@@ -11701,56 +11651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
-    },
-    {
-     "name": "Aegis Marine Shipmanagement",
-     "slug": "aegis-marine-shipmanagement",
-     "description": "Aegis Marine Shipmanagement Inc. is a privately owned marine vessel transportation and ship management company headquartered at 215 South Road and King Street, Lacytown, Georgetown, Guyana, with a secondary office in Brooklyn, New York. Founded in 2018 by Guyanese-American businessman Sean Clarke, it serves the oil and gas sector, operating crude oil tankers, liquefied natural gas tankers and offshore support service vessels on behalf of third-party owners, partners and investors. Its services span commercial, technical, safety and quality, and logistics ship management, delivered through partnerships with established marine service providers, and include vessel registration under various flags, technical inspection and marine engine spares, marine vessel chartering, commodity trader engagement, and crew management covering recruitment, familiarization, training, retention and career promotion. Aegis Marine Shipmanagement is a shipping operator rather than a software vendor. It publishes no developer portal, no API documentation, no SDKs and no commercial or partner-facing product API. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at aegisships.com, which is captured here for discovery purposes: it is anonymously readable, effectively read-only, and serves the marketing site's own pages, media and taxonomy rather than any fleet, chartering or vessel-operations data.",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 263
+     "rank": 261
     },
     {
      "name": "Overhaul",
@@ -11793,7 +11694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 262
     },
     {
      "name": "Shipping.com",
@@ -11826,6 +11727,105 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 263
+    },
+    {
+     "name": "Aegis Marine Shipmanagement",
+     "slug": "aegis-marine-shipmanagement",
+     "description": "Aegis Marine Shipmanagement Inc. is a privately owned marine vessel transportation and ship management company headquartered at 215 South Road and King Street, Lacytown, Georgetown, Guyana, with a secondary office in Brooklyn, New York. Founded in 2018 by Guyanese-American businessman Sean Clarke, it serves the oil and gas sector, operating crude oil tankers, liquefied natural gas tankers and offshore support service vessels on behalf of third-party owners, partners and investors. Its services span commercial, technical, safety and quality, and logistics ship management, delivered through partnerships with established marine service providers, and include vessel registration under various flags, technical inspection and marine engine spares, marine vessel chartering, commodity trader engagement, and crew management covering recruitment, familiarization, training, retention and career promotion. Aegis Marine Shipmanagement is a shipping operator rather than a software vendor. It publishes no developer portal, no API documentation, no SDKs and no commercial or partner-facing product API. The only machine-readable interface it exposes is the WordPress core REST content API behind its corporate website at aegisships.com, which is captured here for discovery purposes: it is anonymously readable, effectively read-only, and serves the marketing site's own pages, media and taxonomy rather than any fleet, chartering or vessel-operations data.",
+     "score": 21.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 264
+    },
+    {
+     "name": "Harbinger",
+     "slug": "harbinger",
+     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -13929,7 +13929,7 @@
      "rank": 312
     },
     {
-     "name": "Nowlun Holding Corp.",
+     "name": "Nowlun",
      "slug": "nowlun-holding-corp",
      "description": "Nowlun is a digital freight-forwarding platform serving the Middle East and North Africa that lets businesses compare instant ocean-freight quotes from 30+ shipping lines, book FCL and bulk sea shipments, arrange inland trucking to and from ports, track cargo through transit, and handle customs clearance. Beyond its shipper-facing web application, Nowlun operates a live, OAuth-protected Model Context Protocol (MCP) server at https://nowlun.com/mcp, secured with RFC 8414 authorization-server and RFC 9728 protected-resource discovery (Authorization Code + PKCE, \"mcp\" scope). Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nowlun-holding-corp/refs/heads/main/screenshots/nowlun-holding-corp-2026-08-07T185638.png",
@@ -18430,7 +18430,7 @@
      "rank": 414
     },
     {
-     "name": "Saia Inc",
+     "name": "Saia",
      "slug": "saia",
      "description": "Saia Inc is a major US corporation and Fortune 1000 company. The Saia Inc API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saia/refs/heads/main/screenshots/saia-2026-06-20T193331.png",
@@ -20079,7 +20079,7 @@
      "rank": 451
     },
     {
-     "name": "Blau Corp",
+     "name": "Blau",
      "slug": "blau-corp",
      "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blau-corp/refs/heads/main/screenshots/blau-corp-2026-07-25T203303.png",
@@ -22259,7 +22259,7 @@
      "rank": 501
     },
     {
-     "name": "Ace Turtle Services Pvt Ltd",
+     "name": "Ace Turtle Services",
      "slug": "aceturtleservicespvtltd",
      "description": "Ace Turtle Services Pvt Ltd (brand \"ace turtle\") is a Bengaluru, India based retail technology company founded in 2014 that operates a vertical commerce model for international fashion and lifestyle brands. It is the exclusive licensee in India and South Asia for brands including Lee, Wrangler, G-STAR, Toys\"R\"Us and Dockers, and it runs three proprietary platforms: Rubicon, an omnichannel commerce platform combining distributed order management, inventory, catalogue, pricing and logistics management; Connect App, a store-operations application for in-store fulfilment, helpdesk and visual merchandising; and Albus, a machine-learning layer for inventory optimisation, safety-stock calculation and dynamic markdown. Rubicon is marketed as a channel-agnostic platform that integrates into a brand's existing technology ecosystem, but as of the September 2026 enrichment pass the company publishes no developer portal, no API reference and no machine-readable contract on any host it controls.",
      "score": 7.6,
@@ -23138,7 +23138,7 @@
      "rank": 521
     },
     {
-     "name": "CSX Corporation",
+     "name": "CSX",
      "slug": "csx",
      "description": "CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/screenshots/csx-2026-06-20T175327.png",
@@ -23267,7 +23267,7 @@
      "rank": 524
     },
     {
-     "name": "Tezbor, Inc.",
+     "name": "Tezbor",
      "slug": "tezbor-inc",
      "description": "Tezbor is a Tashkent, Uzbekistan based courier and last-mile logistics company that automates the delivery of documents, parcels, and cargo across Uzbekistan. Beyond its consumer and business courier service, Tezbor operates a technology platform that exposes delivery ordering and tracking through an integration API, ready-made e-commerce plugins (WooCommerce, OpenCart, Magento), mobile apps, dashboards, and Telegram bots, so that any online store can automatically generate a Tezbor delivery order from each purchase. The company is backed by 500 Global, Activat, and StartupBase, and counts brands such as Beeline, Ozon, and OQ among its delivery clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tezbor-inc/refs/heads/main/screenshots/tezbor-inc-2026-09-02T163310.png",
@@ -23439,7 +23439,7 @@
      "rank": 528
     },
     {
-     "name": "EQUIPTAL HOLDING LTD",
+     "name": "EQUIPTAL",
      "slug": "equiptal-holding-ltd",
      "description": "EQUIPTAL HOLDING LTD operates Moedatech (معداتك), Saudi Arabia's first digital procurement and rental marketplace for heavy construction equipment, connecting contractors with verified suppliers of excavators, cranes, and trucks through RFQs, real-time bidding, and audit-ready digital contracts. Founded in Riyadh in 2020 by Ali Merie and Mansour Hmaid, the company pairs the marketplace with a telematics/fleet layer (built on Traccar GPS tracking) so equipment owners can monitor real-time asset performance. The product ships as iOS and Android apps plus a web app; there is no publicly documented developer API at this time. The company is backed by 500 Global and Plug and Play Middle East. This profile was surfaced from the 500 Global portfolio and enriched from the company's public web, brand (moedatech.net), and GitHub presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equiptal-holding-ltd/refs/heads/main/screenshots/equiptal-holding-ltd-2026-07-25T213550.png",
@@ -25807,7 +25807,7 @@
      "rank": 582
     },
     {
-     "name": "Cargon Tech B.V.",
+     "name": "Cargon Tech",
      "slug": "cargon-tech-bv",
      "description": "Cargon Tech B.V. is a supply-chain and logistics technology company backed by 500 Global. Its public presence at cargon.com positions Cargon as a fast, innovative supply-chain platform with powerful analytical tools for shippers and carriers, while the related Cargon TMS product (cargon.tech) offers a cloud transport-management system for small carriers and freight forwarders covering dispatch, fleet management, invoicing and Timocom integration. No public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, or /.well-known discovery surface was found during enrichment (the cargon.com site is a client-rendered single-page app that returns its index shell for unknown paths), so this profile currently carries identity and domain-security signal only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargon-tech-bv/refs/heads/main/screenshots/cargon-tech-bv-2026-07-25T204609.png",
@@ -27875,7 +27875,7 @@
      "rank": 630
     },
     {
-     "name": "Vision Space Inc.",
+     "name": "Vision Space",
      "slug": "vision-space-inc",
      "description": "Vision Space Inc. (VisionSpace) is a South Korean company building Physical AI robot simulation software for automation in the logistics and manufacturing sectors. Its TESSERACT product implements logistics and manufacturing sites as digital twins, visualizing process data and predicting operational efficiency through AI-based simulation, while its TARS product delivers real-time 3D monitoring that integrates and manages data from equipment and robots in a unified 3D control dashboard. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass VisionSpace publishes a marketing website only and exposes no public developer API, documentation, developer portal, or GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vision-space-inc/refs/heads/main/screenshots/vision-space-inc-2026-09-02T170038.png",

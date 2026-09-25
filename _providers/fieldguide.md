@@ -383,7 +383,7 @@ tags:
 - Advisory
 - Accounting
 - Compliance
-- Risk
+- Risk Management
 - Engagement Management
 - Artificial Intelligence
 - Agents

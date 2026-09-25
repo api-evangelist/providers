@@ -1004,8 +1004,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 32,
-   "shown": 32,
+   "count": 31,
+   "shown": 31,
    "providers": [
     {
      "name": "Rockwell FactoryTalk",
@@ -2285,7 +2285,7 @@
      "rank": 47
     },
     {
-     "name": "Nutrical Solution Ltd",
+     "name": "Nutrical Solution",
      "slug": "nutrical-solution-ltd",
      "description": "NutriCal (Nutrical Solution Ltd) is the GCC's food nutrition and intelligence platform, offering the region's first Saudi FDA / GCC-compliant food-label and calorie-analysis software. Its SaaS lets restaurants, cafes, hotels, food manufacturers, bakeries, catering companies, nutrition centres, and meal-plan businesses register products, generate bilingual (English/Arabic) nutrition and ingredient labels, manage and cost recipes, run nutrition analysis, and build customer meal plans against an ingredient database of 40,000+ foods sourced from USDA data and NutriCal's proprietary local database. NutriCal also exposes a Food & Nutrition API so apps, programs, and websites can search ingredients, create and analyze recipes, manage recipe categories, build meal plans, and read nutrient and allergen metadata. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png",
@@ -2469,49 +2469,6 @@
       "agentic_commerce": false
      },
      "rank": 51
-    },
-    {
-     "name": "Daring Foods",
-     "slug": "daring-foods",
-     "description": "Daring Foods is an American plant-based food company, founded in 2018 by Ross Mackay and Eliott Kessas, that makes 100% plant-based chicken from a deliberately short ingredient list with soy as the protein base. Trading simply as \"Daring\", it sells retail Plant Chicken in shredded, diced and breaded-pieces formats plus a line of ready-to-heat Plant Chicken Bowls and Plant Chicken Wings through more than 15,000 US grocery stores, and runs a separate foodservice business supplying bulk and gluten-free product to restaurants, campus dining and institutional kitchens. The company raised over $120 million across 2020-2021 during the plant-based protein boom and was acquired by the Australian plant-based meat manufacturer v2food in 2025, under which it retains its own brand. Daring Foods is a consumer packaged goods business, not a software vendor: it operates no developer program, publishes no product API, and offers no portal, SDKs or developer support. The only machine-readable interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png",
-     "score": 27.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
     }
    ]
   },
@@ -2520,8 +2477,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 81,
-   "shown": 81,
+   "count": 82,
+   "shown": 82,
    "providers": [
     {
      "name": "SideChef",
@@ -2564,7 +2521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Create Wellness",
@@ -2614,57 +2571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 54
-    },
-    {
-     "name": "DaVita",
-     "slug": "davita",
-     "description": "DaVita Inc. is a Fortune 500 kidney care company operating in-center hemodialysis, home hemodialysis, and peritoneal dialysis programs in the United States and abroad, alongside transplant support, integrated kidney care, hospital partnerships, and clinical research. DaVita runs no developer program and publishes no API documentation, but its own web platform serves a live, public, unauthenticated REST API at https://www.davita.com/wp-json/ with a first-party davita/v1 namespace: a dialysis center locator, a Kidney Smart class finder, a USDA-sourced food and nutrient lookup shaped for the kidney diet, and 1,258 kidney-friendly recipes, 570 education articles and a kidney vocabulary alongside them. Clinical integration remains sales-led through payer, hospital and physician partnerships and EHR data exchange; there is no public FHIR endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/screenshots/davita-2026-06-20T175733.png",
-     "score": 25.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Lark",
@@ -2729,7 +2636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "Everytable",
@@ -2772,7 +2679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "HVMN",
@@ -2822,7 +2729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "IM8 Health",
@@ -2872,7 +2779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "Noom",
@@ -2933,7 +2840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Norish",
@@ -2976,7 +2883,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
+    },
+    {
+     "name": "Bond Pet Foods",
+     "slug": "bond-pet-foods",
+     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 41.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
     },
     {
      "name": "Chill",
@@ -3026,57 +2976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 62
-    },
-    {
-     "name": "Scimar",
-     "slug": "scimar",
-     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "PanTheryx",
@@ -3126,7 +3026,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 64
+     "rank": 62
+    },
+    {
+     "name": "Scimar",
+     "slug": "scimar",
+     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
+     "score": 23.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
     },
     {
      "name": "Leaft Foods",
@@ -3169,7 +3119,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "ByHeart",
@@ -3215,6 +3165,56 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 65
+    },
+    {
+     "name": "DaVita",
+     "slug": "davita",
+     "description": "DaVita Inc. is a Fortune 500 kidney care company operating in-center hemodialysis, home hemodialysis, and peritoneal dialysis programs in the United States and abroad, alongside transplant support, integrated kidney care, hospital partnerships, and clinical research. DaVita runs no developer program and publishes no API documentation, but its own web platform serves a live, public, unauthenticated REST API at https://www.davita.com/wp-json/ with a first-party davita/v1 namespace: a dialysis center locator, a Kidney Smart class finder, a USDA-sourced food and nutrient lookup shaped for the kidney diet, and 1,258 kidney-friendly recipes, 570 education articles and a kidney vocabulary alongside them. Clinical integration remains sales-led through payer, hospital and physician partnerships and EHR data exchange; there is no public FHIR endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/screenshots/davita-2026-06-20T175733.png",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -3265,99 +3265,6 @@
      "rank": 67
     },
     {
-     "name": "Bond Pet Foods",
-     "slug": "bond-pet-foods",
-     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 30.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
-     "name": "Brightseed",
-     "slug": "brightseed",
-     "description": "Brightseed is a bioactives and AI company founded in 2017 (San Francisco, CA, with operations in Durham, NC) that uses its Forager AI platform to map the compounds in plants to human biological pathways and health benefits. Forager draws on a proprietary dataset the company describes as the world's largest — 21 million bioactive compounds and hundreds of biological receptors spanning 23 health areas — combining high-resolution omics, high-throughput robotics and machine learning to predict which natural compounds confer a benefit and where to source them at commercial scale. Hummingbird, launched in 2026, layers an agentic AI system on top of Forager to carry partners from discovery through development. Brightseed sells discovery services (Bioactive Profiler, Bioactive Ingredient Finder) and market-ready ingredients (Bio Gut Fiber, Bio Meta Control, Bio Gut Core) to food, supplement and health-science companies. Brightseed publishes no product or developer API for Forager or Hummingbird — those are sold as enterprise engagements through a contact form. The single machine-readable surface the company operates is the WordPress REST API (wp/v2) behind its corporate site at www.brightseedbio.com, which exposes anonymous read access to posts, pages, categories, tags, users, media, comments, search, taxonomies, types and statuses, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png",
-     "score": 21.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 69
-    },
-    {
      "name": "Prime Hydration",
      "slug": "prime-hydration",
      "description": "Prime Hydration, LLC is an American beverage company founded in 2022 by Logan Paul and Olajide \"KSI\" Olatunji, manufacturing sports and hydration drinks, zero-sugar hydration, energy drinks, hydration sticks and protein shakes sold direct-to-consumer at drinkprime.com and through retail distribution across North America, Europe, Australia and the Middle East. Prime is not a software company and publishes no developer program, SDK or REST API. Its machine-readable surface is its own storefront: the drinkprime.com store implements the Universal Commerce Protocol (UCP) natively on Shopify, publishing a UCP merchant profile at /.well-known/ucp, an anonymous MCP endpoint at /api/ucp/mcp exposing thirteen catalog, cart, checkout and order tools, an agent-instruction document at /agents.md mirrored to /llms.txt, and Shopify Customer Accounts OAuth 2.0 / OpenID Connect metadata. Agent-driven purchase is explicitly permitted; agent-completed payment without contemporaneous buyer approval is explicitly forbidden.",
@@ -3398,7 +3305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "Vivoo",
@@ -3448,7 +3355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "Campbell's",
@@ -3491,7 +3398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Yummly",
@@ -3534,7 +3441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "Huel",
@@ -3584,7 +3491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "TrueCoach",
@@ -3634,7 +3541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "All In",
@@ -3677,7 +3584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Conagra Brands",
@@ -3710,6 +3617,99 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 75
+    },
+    {
+     "name": "Brightseed",
+     "slug": "brightseed",
+     "description": "Brightseed is a bioactives and AI company founded in 2017 (San Francisco, CA, with operations in Durham, NC) that uses its Forager AI platform to map the compounds in plants to human biological pathways and health benefits. Forager draws on a proprietary dataset the company describes as the world's largest — 21 million bioactive compounds and hundreds of biological receptors spanning 23 health areas — combining high-resolution omics, high-throughput robotics and machine learning to predict which natural compounds confer a benefit and where to source them at commercial scale. Hummingbird, launched in 2026, layers an agentic AI system on top of Forager to carry partners from discovery through development. Brightseed sells discovery services (Bioactive Profiler, Bioactive Ingredient Finder) and market-ready ingredients (Bio Gut Fiber, Bio Meta Control, Bio Gut Core) to food, supplement and health-science companies. Brightseed publishes no product or developer API for Forager or Hummingbird — those are sold as enterprise engagements through a contact form. The single machine-readable surface the company operates is the WordPress REST API (wp/v2) behind its corporate site at www.brightseedbio.com, which exposes anonymous read access to posts, pages, categories, tags, users, media, comments, search, taxonomies, types and statuses, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png",
+     "score": 18.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "Daring Foods",
+     "slug": "daring-foods",
+     "description": "Daring Foods is an American plant-based food company, founded in 2018 by Ross Mackay and Eliott Kessas, that makes 100% plant-based chicken from a deliberately short ingredient list with soy as the protein base. Trading simply as \"Daring\", it sells retail Plant Chicken in shredded, diced and breaded-pieces formats plus a line of ready-to-heat Plant Chicken Bowls and Plant Chicken Wings through more than 15,000 US grocery stores, and runs a separate foodservice business supplying bulk and gluten-free product to restaurants, campus dining and institutional kitchens. The company raised over $120 million across 2020-2021 during the plant-based protein boom and was acquired by the Australian plant-based meat manufacturer v2food in 2025, under which it retains its own brand. Daring Foods is a consumer packaged goods business, not a software vendor: it operates no developer program, publishes no product API, and offers no portal, SDKs or developer support. The only machine-readable interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png",
+     "score": 18.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5066,10 +5066,10 @@
      "rank": 105
     },
     {
-     "name": "Bariendo Inc.",
-     "slug": "bariendo-inc",
-     "description": "Bariendo Inc. (now operating as Everself) is a science-forward digital health company pioneering non-surgical, endoscopic weight-loss care. Founded in 2023 by Harvard Medical School physicians Dr. Christopher C. Thompson (the inventor of Endoscopic Sleeve Gastroplasty) and Dr. Pichamol Jirapinyo, the company delivers minimally invasive procedures — ESG Stomach Tightening, gastric balloon, and revision of prior bariatric surgery — alongside weight-loss medication and a 12-month concierge care program. Its consumer platform streamlines access to these interventions across a dozen-plus U.S. locations, with financing, telehealth consultations, and ongoing weight tracking. Bariendo/Everself is a consumer and clinical health service; it publishes no public developer portal, API, or SDK surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bariendo-inc/refs/heads/main/screenshots/bariendo-inc-2026-07-25T202401.png",
+     "name": "Berry Street",
+     "slug": "berry-street",
+     "description": "Berry Street is a telehealth platform that connects patients with board-certified, registered dietitians for virtual, insurance-covered nutrition therapy. Through 1-on-1 video sessions, patients receive medical nutrition therapy for 30+ conditions including eating disorders, diabetes, PCOS, IBS, gut health, heart disease, and prenatal and pediatric nutrition. Berry Street accepts 1,250+ insurance plans, matches patients to dietitians based on their needs, and offers an enterprise/employer offering for organizations. Backed by Northzone. This API Evangelist profile currently exposes no public developer or API surface; it is a company identity record enriched from Berry Street's public web presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berry-street/refs/heads/main/screenshots/berry-street-2026-07-25T202741.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5078,8 +5078,8 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 44.7
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
@@ -5087,7 +5087,7 @@
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 10.0,
+      "score": 17.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -5116,10 +5116,10 @@
      "rank": 106
     },
     {
-     "name": "Berry Street",
-     "slug": "berry-street",
-     "description": "Berry Street is a telehealth platform that connects patients with board-certified, registered dietitians for virtual, insurance-covered nutrition therapy. Through 1-on-1 video sessions, patients receive medical nutrition therapy for 30+ conditions including eating disorders, diabetes, PCOS, IBS, gut health, heart disease, and prenatal and pediatric nutrition. Berry Street accepts 1,250+ insurance plans, matches patients to dietitians based on their needs, and offers an enterprise/employer offering for organizations. Backed by Northzone. This API Evangelist profile currently exposes no public developer or API surface; it is a company identity record enriched from Berry Street's public web presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berry-street/refs/heads/main/screenshots/berry-street-2026-07-25T202741.png",
+     "name": "Everself",
+     "slug": "bariendo-inc",
+     "description": "Bariendo Inc. (now operating as Everself) is a science-forward digital health company pioneering non-surgical, endoscopic weight-loss care. Founded in 2023 by Harvard Medical School physicians Dr. Christopher C. Thompson (the inventor of Endoscopic Sleeve Gastroplasty) and Dr. Pichamol Jirapinyo, the company delivers minimally invasive procedures — ESG Stomach Tightening, gastric balloon, and revision of prior bariatric surgery — alongside weight-loss medication and a 12-month concierge care program. Its consumer platform streamlines access to these interventions across a dozen-plus U.S. locations, with financing, telehealth consultations, and ongoing weight tracking. Bariendo/Everself is a consumer and clinical health service; it publishes no public developer portal, API, or SDK surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bariendo-inc/refs/heads/main/screenshots/bariendo-inc-2026-07-25T202401.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5128,8 +5128,8 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
+      "developer_ergonomics": 2.4,
+      "access_clarity": 44.7
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
@@ -5137,7 +5137,7 @@
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 17.5,
+      "score": 10.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -5402,7 +5402,7 @@
      "rank": 112
     },
     {
-     "name": "MEAL PLANET HOLDING LTD",
+     "name": "MEAL PLANET",
      "slug": "meal-planet-holding-ltd",
      "description": "MealPlanet (MEAL PLANET HOLDING LTD) is a UAE-based foodtech company, founded in 2024 by Khalid Baareh, that operates a meal-plan aggregation marketplace. Its consumer mobile app lets customers browse, compare, and subscribe to more than 500 personalised meal plans from 100+ trusted brands across the UAE, filtering by goal, calories, and dietary preferences, with flexible delivery and nutrition tracking. In 2024 the company closed a $6M seed round led by Middle East Venture Partners (MEVP) with participation from Sanabil 500 (the Sanabil Accelerator by 500 Global), AlTouq Group, Faith Capital, and Alturki Ventures, funding regional expansion beginning with Saudi Arabia. MealPlanet is a consumer-facing platform and publishes no public developer API, SDK, or documentation as of this enrichment pass.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meal-planet-holding-ltd/refs/heads/main/screenshots/meal-planet-holding-ltd-2026-08-07T172254.png",
@@ -5744,7 +5744,7 @@
      "rank": 119
     },
     {
-     "name": "Rex Inc",
+     "name": "Rex",
      "slug": "rex-inc",
      "description": "Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (W23) health and fitness company building AI-powered, fully automated nutrition tracking. Its consumer products include Rex Nutribot, a WhatsApp AI nutrition coach; the Drop, a wearable AI camera pendant that detects meals and automatically logs calories, protein, carbs, and fats via computer vision; an AI body scanner; and personalized coaching with daily health reports. Rex also offers a white-label B2B nutrition-and-fitness AI that fitness chains and app builders integrate to add meal logging (photo, barcode, or text), recipe and meal-plan generation, workout logging, 3D body scans, and nutrition analytics under their own brand.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/screenshots/rex-inc-2026-09-02T153738.png",
@@ -8285,7 +8285,7 @@
      "rank": 173
     },
     {
-     "name": "CHS Inc.",
+     "name": "CHS",
      "slug": "chs",
      "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",

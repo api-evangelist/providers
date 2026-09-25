@@ -50,10 +50,10 @@ description: Bonpara, Inc is a company surfaced as a portfolio company of 500-gl
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bonpara-inc.png
 layout: provider
 modified: '2026-07-17'
-name: Bonpara, Inc
+name: Bonpara
 nav: Providers
 network: true
-overview: Bonpara, Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Bonpara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 20
 score:
   band: minimal

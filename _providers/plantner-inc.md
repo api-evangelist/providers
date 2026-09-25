@@ -50,10 +50,10 @@ description: Plantner Inc. (PLANTNER) is a South Korean biotechnology company sp
 image: https://plantner.kr/favicon.ico
 layout: provider
 modified: '2026-07-20'
-name: Plantner Inc.
+name: Plantner
 nav: Providers
 network: true
-overview: Plantner Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biomaterials, Alginic Acid, and Pharmaceuticals.
+overview: Plantner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biomaterials, Alginic Acid, and Pharmaceuticals.
 random_paper: 17
 score:
   band: minimal

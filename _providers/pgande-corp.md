@@ -57,10 +57,10 @@ description: PG&E Corporation is the parent company of Pacific Gas and Electric 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pgande-corp.png
 layout: provider
 modified: '2026-04-28'
-name: PG&E Corporation
+name: PG&E
 nav: Providers
 network: true
-overview: PG&E Corporation is profiled on the [APIs.io](https://apis.io/) network.
+overview: PG&E is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: ''
   title: PG&E Unveils $73 Bln Plan To Power AI-Driven Data ...

@@ -70,13 +70,13 @@ description: Zoog.A.I. Ltd. (Zoog) is a consumer application that lets families 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoogai-ltd.png
 layout: provider
 modified: '2026-07-21'
-name: Zoog.A.I. Ltd.
+name: Zoog
 nav: Providers
 network: true
-overview: 'Zoog.A.I. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Kids, Family, and Video.
+overview: 'Zoog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Kids, Family, and Video.
 
 
-  Zoog.A.I. Ltd.''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
+  Zoog''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
 random_paper: 6
 score:
   band: emerging

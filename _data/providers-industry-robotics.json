@@ -337,17 +337,17 @@
     },
     {
      "name": "Kargo",
-     "slug": "kargo",
+     "slug": "kargo-ai",
      "description": "Kargo (Kargo Technologies, kargo.ai) builds an AI-powered smart loading dock for warehouses and distribution centers. Camera towers (Kargo Tower) and forklift-mounted cameras (Kargo Lift) apply computer vision to every pallet that moves through a dock door, reading LPN, SKU, lot code and expiration-date labels to automate shipping and receiving, verify loads and shipments, detect damage, and feed inventory visibility, shelf-life management, FSMA traceability, claims management, financial reconciliation and automated ASNs back into the customer WMS. Kargo publishes a public integration surface for that data exchange: a REST Document Intake API described by an OpenAPI 3.1 document, a public GraphQL API with open anonymous introspection, a single unified JSON endpoint, a webhook (push) API at shipment and pallet level plus a GraphQL subscription alternative, and flat-file ingest over email, SFTP or AS2. All programmatic access is Auth0 OAuth 2.0 client-credentials bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
-     "score": 51.4,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/screenshots/kargo-2026-09-02T150020.png",
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 69.6,
       "contract_governance": 18.2,
-      "operational_transparency": 10.5,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
@@ -557,7 +557,7 @@
      "rank": 12
     },
     {
-     "name": "TARXAN Inc",
+     "name": "TARXAN",
      "slug": "tarx-com",
      "description": "TARXAN Inc (TARX, Austin TX) builds a local-first AI agent runtime: free TARX_OS / TARX Desktop software for Apple Silicon Macs, a shell CLI that installs a local inference daemon and local MCP servers, an optional hosted \"Supercomputer\" reached through an OpenAI-compatible API (api.tarx.com/v1, model t-supercomputer), and dedicated \"Black Box\" and humanoid/quadruped hardware. Its public agent surface is a remote MCP server at mcp.tarx.com/mcp (22 anonymous tools, OAuth 2.0 + PKCE for private memory, RFC 8414/9728 metadata) advertised by an A2A 0.3.0 agent card at tarx.com/.well-known/agent-card.json and a prose \"cairn\" (we.txt, skill.md, courier.md) that tells visiting agents how to register a Soul through plain REST on tarx.com/api. No OpenAPI is published.",
      "score": 46.7,
@@ -2346,55 +2346,6 @@
      "rank": 52
     },
     {
-     "name": "Virtual Incision",
-     "slug": "virtual-incision",
-     "description": "Virtual Incision Corporation is a Lincoln, Nebraska surgical robotics company, spun out of the University of Nebraska in 2006, that builds MIRA — the Miniaturized In vivo Robotic Assistant — and defined the miniaturized robotic-assisted surgery (miniRAS) category. MIRA is a roughly two-pound, tray-to-table robot inserted through a single umbilical incision, designed to make any operating room robot-ready in minutes. It won FDA De Novo authorization for colectomy in 2024 and 510(k) clearance for benign hysterectomy in 2026. Virtual Incision publishes no product or developer API: MIRA is regulated capital equipment, not a platform. The machine-readable surface on virtualincision.com is the anonymously readable WordPress REST API (newsroom, MIRA pages, events, jobs, media) plus a live but OAuth-gated WordPress MCP Adapter endpoint advertised by RFC 8414 and RFC 9728 discovery documents. The company publishes a coordinated vulnerability disclosure policy under FDA Section 524B.",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 14.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 60.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
      "name": "Standard Bots",
      "slug": "standard-bots",
      "description": "Standard Bots designs and builds AI-native industrial robotic arms — the RO1 family (Spark, Core/RO1, Thor, and the Bolt beta) — designed and assembled in the USA for machine tending, welding, palletizing, pick & place, and inspection. The robots ship with a developer platform, \"StandardOS\", that exposes a Bearer-token REST API served on the robot control box (/api/v1) for controlling arm motion, the gripper/end-effector, cameras, routines, teleoperation, recording, I/O and fault recovery. Alongside the REST API, Standard Bots publishes an official Python SDK (PyPI: standardbots), a realtime protobuf external-control streaming channel, and a ROS2 bridge (Cyclone DDS) with MoveIt and Modbus tooling — making the RO1 programmable both for high-level orchestration and low-latency realtime control.",
@@ -2435,7 +2386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Gaussian Robotics",
@@ -2475,6 +2426,55 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
+     "name": "Virtual Incision",
+     "slug": "virtual-incision",
+     "description": "Virtual Incision Corporation is a Lincoln, Nebraska surgical robotics company, spun out of the University of Nebraska in 2006, that builds MIRA — the Miniaturized In vivo Robotic Assistant — and defined the miniaturized robotic-assisted surgery (miniRAS) category. MIRA is a roughly two-pound, tray-to-table robot inserted through a single umbilical incision, designed to make any operating room robot-ready in minutes. It won FDA De Novo authorization for colectomy in 2024 and 510(k) clearance for benign hysterectomy in 2026. Virtual Incision publishes no product or developer API: MIRA is regulated capital equipment, not a platform. The machine-readable surface on virtualincision.com is the anonymously readable WordPress REST API (newsroom, MIRA pages, events, jobs, media) plus a live but OAuth-gated WordPress MCP Adapter endpoint advertised by RFC 8414 and RFC 9728 discovery documents. The company publishes a coordinated vulnerability disclosure policy under FDA Section 524B.",
+     "score": 28.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 60.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -4942,49 +4942,6 @@
      "rank": 110
     },
     {
-     "name": "Impossible Metals",
-     "slug": "impossible-metals",
-     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 15.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
      "name": "Double Robotics",
      "slug": "double-robotics",
      "description": "Double Robotics builds telepresence robots for hybrid work and education, best known for the self-driving Double 3 videoconferencing robot and the earlier iPad-based Double 2. Its developer program spans three surfaces: the Double 3 SDK (a local command-and-event API exposed over a Unix domain socket on the robot, covering base movement, navigation, PTZ cameras, depth sensors, WebRTC calling, and standby/sidebar apps), iOS SDKs for the Double 2 (Basic Control and Camera Kit), and a Fleet REST API for programmatic access to fleet-management data such as robots, users, call logs, and visitor passes. Added to the API Evangelist network from VC-portfolio discovery and enriched against the company's public developer surface.",
@@ -5025,7 +4982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Lunar Outpost",
@@ -5068,7 +5025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Genesis AI",
@@ -5111,7 +5068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "General Intuition",
@@ -5154,7 +5111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Nori",
@@ -5197,7 +5154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Vecna Robotics",
@@ -5240,7 +5197,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Mech-Mind Robotics",
@@ -5283,50 +5240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
-    },
-    {
-     "name": "Metalenz",
-     "slug": "metalenz",
-     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 119
+     "rank": 117
     },
     {
      "name": "Selectron",
@@ -5368,7 +5282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 118
     },
     {
      "name": "Exotec",
@@ -5411,7 +5325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 119
     },
     {
      "name": "Universal Robots",
@@ -5454,7 +5368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 120
     },
     {
      "name": "Ecorobotix",
@@ -5497,7 +5411,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 121
+    },
+    {
+     "name": "Metalenz",
+     "slug": "metalenz",
+     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
+     "score": 16.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 122
     },
     {
      "name": "Wonder Workshop",
@@ -5547,7 +5504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Heex Technologies",
@@ -5590,7 +5547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Imubit",
@@ -5638,6 +5595,49 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 125
+    },
+    {
+     "name": "Impossible Metals",
+     "slug": "impossible-metals",
+     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 7.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -11724,7 +11724,7 @@
      "rank": 263
     },
     {
-     "name": "Aeterlink Corp.",
+     "name": "Aeterlink",
      "slug": "aeterlinkcorp",
      "description": "Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.",
      "score": 10.4,
@@ -18639,7 +18639,7 @@
      "rank": 420
     },
     {
-     "name": "Isengard Industries Inc",
+     "name": "Isengard Industries",
      "slug": "isengard-industries-inc",
      "description": "Isengard Industries builds sovereign production capability for defense: the means for allied nations to manufacture precision-strike and counter-drone (counter-UAS) systems by the thousand, on their own soil, at a fraction of what traditional prime contractors charge. The company describes its approach as \"Weapons of Mass Production.\" Founded in 2026 and part of Y Combinator's Summer 2026 batch, it is led by Francisco Serra-Martins (previously co-founder/CEO of Terminal Autonomy) and James Tennant (former Australian Army officer), and is headquartered in San Francisco. As a hardware and defense-manufacturing company it does not currently publish a public developer API, SDKs, or API documentation; this profile captures its public identity and security surface for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/isengard-industries-inc/refs/heads/main/screenshots/isengard-industries-inc-2026-07-25T222940.png",
@@ -21675,7 +21675,7 @@
      "rank": 490
     },
     {
-     "name": "9 Mothers Corporation",
+     "name": "9 Mothers",
      "slug": "9-mothers-corporation",
      "description": "9 Mothers Corporation is a defense technology company founded in 2024 and based in Austin, Texas, building AI-powered counter-drone (C-sUAS) point defense systems for the FPV drone era. Its flagship product, EDDA, is a small, low-power, autonomous-capable point-defense turret that engages Group 1 suicide drones at 10-100+ meter range to protect soldiers, vehicles, and critical assets. A Y Combinator Spring 2026 company with reported sales to the U.S. Department of War, its roadmap includes Vor (passive acoustic sensor), Atla (belt-fed shotgun system), and Gleipnir (counter-drone for larger platforms). This profile was surfaced as a Y Combinator portfolio company and added to the API Evangelist network. The company publishes no public API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/9-mothers-corporation/refs/heads/main/screenshots/9-mothers-corporation-2026-07-25T181246.png",
@@ -22488,7 +22488,7 @@
      "rank": 509
     },
     {
-     "name": "Degla Inc",
+     "name": "Degla",
      "slug": "degla-inc",
      "description": "Degla is a Y Combinator (Fall 2026) startup building an autonomous aerial intelligence layer that turns natural language into multi-drone mission execution. Operators describe an objective in plain language and Degla plans the mission, assigns aircraft, defines coverage patterns, and deploys a fleet that adapts in real time — with no waypoints, flight plans, or specialized training required. The platform targets search and rescue, emergency response, infrastructure inspection, and other critical field operations. Founded in 2026 by Aziz Hanafi and based in Boston, the company is in early access and has not yet published a public API, developer portal, or documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/degla-inc/refs/heads/main/screenshots/degla-inc-2026-07-25T211628.png",
@@ -25024,7 +25024,7 @@
      "rank": 568
     },
     {
-     "name": "Vision Space Inc.",
+     "name": "Vision Space",
      "slug": "vision-space-inc",
      "description": "Vision Space Inc. (VisionSpace) is a South Korean company building Physical AI robot simulation software for automation in the logistics and manufacturing sectors. Its TESSERACT product implements logistics and manufacturing sites as digital twins, visualizing process data and predicting operational efficiency through AI-based simulation, while its TARS product delivers real-time 3D monitoring that integrates and manages data from equipment and robots in a unified 3D control dashboard. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass VisionSpace publishes a marketing website only and exposes no public developer API, documentation, developer portal, or GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vision-space-inc/refs/heads/main/screenshots/vision-space-inc-2026-09-02T170038.png",

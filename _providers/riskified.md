@@ -352,7 +352,7 @@ tags:
 - Chargebacks
 - E-Commerce
 - Payments
-- Risk
+- Risk Management
 - Machine Learning
 - Account Takeover
 - Policy Abuse

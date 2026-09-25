@@ -6644,12 +6644,12 @@
      "type": "API Provider",
      "description": "The Indian Institute of Technology Kanpur (IIT Kanpur), founded in 1959 in Kanpur, Uttar Pradesh, is an Institute of National Importance and one of India's premier engineering and research institutions. It operates no central developer portal, no open-data portal, and no institutional GitHub organization. Its entire verified public programmatic footprint is the P.K. Kelkar (PKK) Library, which self-hosts Koha 23.11 on the institution's own host libserv.iitk.ac.in and exposes exactly two live machine-readable surfaces: a Koha REST API at /api/v1 whose /public/* subset answers unauthenticated (the rest returns 401), and an OAI-PMH 2.0 metadata-harvesting endpoint serving oai_dc, marc21 and marcxml. Because Koha is open-source software the library runs itself rather than a hosted vendor platform, both surfaces are institution-operated even though the Koha community authored the contract. Two earlier claims in this profile were wrong and are corrected here: the ILS-DI service is NOT available — its describe page renders 200 but every actual call returns \"ILS-DI is disabled\" — and this repository's 64 apis[] entries were one Koha contract split by tag, presenting a single library API as 64 surfaces. Pingala, the ERP/SIS, is login-gated with no documented public API. No Shibboleth/SAML identity federation, no DataCite or Crossref membership, and no research-data repository were found; the institution is registered in ROR. Numerous student clubs and departments run their own GitHub organizations, but none is institution-operated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png",
-     "score": 37.1,
+     "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 61.5,
+      "contract_quality": 60.4,
       "contract_governance": 13.6,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.1,
@@ -9599,58 +9599,6 @@
      "rank": 184
     },
     {
-     "name": "Boston University",
-     "slug": "boston",
-     "url": "https://providers.apis.io/providers/boston/",
-     "type": "API Provider",
-     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 17.9,
-      "contract_governance": 3.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 185
-    },
-    {
      "name": "University of Sydney",
      "slug": "university-of-sydney",
      "url": "https://providers.apis.io/providers/university-of-sydney/",
@@ -9700,7 +9648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Qatar University",
@@ -9752,7 +9700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Fudan University",
@@ -9804,7 +9752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "University of Bern",
@@ -9856,7 +9804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "National University of Singapore",
@@ -9908,7 +9856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Bandung Institute of Technology",
@@ -9960,7 +9908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "University of Rochester",
@@ -10012,7 +9960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "University of Zurich",
@@ -10064,7 +10012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Vrije Universiteit Amsterdam",
@@ -10080,6 +10028,58 @@
       "discoverability": 74.1,
       "contract_quality": 4.4,
       "contract_governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 193
+    },
+    {
+     "name": "Boston University",
+     "slug": "boston",
+     "url": "https://providers.apis.io/providers/boston/",
+     "type": "API Provider",
+     "description": "Boston University is a private research university in Boston, Massachusetts, chartered in 1869, serving roughly 37,000 students across three campuses. Like most universities it is a federation of buyers rather than an API producer, and its programmable footprint has to be read that way. The one substantial machine-readable interface Boston University both operates AND authors is the WordPress REST API on www.bu.edu: nine of its fifteen namespaces are BU IS&T's own plugins — bu-alert, bu-blocks, bu-navigation, bu-slideshow, bu-tts and others — open-sourced at github.com/bu-ist and documented at developer.bu.edu, with some routes public and some returning 401. Alongside it, Boston University operates a Shibboleth SAML 2.0 identity provider at shib.bu.edu whose entity metadata is public, registered by InCommon and exported to eduGAIN with the REFEDS Research & Scholarship and SIRTFI entity categories. Everything else that looks like a Boston University API is a vendor's contract running under BU's name: OpenBU is a DSpace 7.6 instance operated by Atmire (open.bu.edu CNAMEs to boston-prod.cname.atmire.com and its OAI-PMH Identify returns the vendor's admin email), the library discovery layer is Ex Libris Primo, and the LMS is Blackboard Learn. Those are recorded here as tenant relationships, not as Boston University engineering. There is no central developer portal, no API key programme, no published API changelog, and the internal WEB APIs portal at webapi.bu.edu is NXDOMAIN.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png",
+     "score": 29.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.3,
+      "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0

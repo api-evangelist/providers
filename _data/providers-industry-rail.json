@@ -670,7 +670,7 @@
      "rank": 14
     },
     {
-     "name": "Westinghouse Air Brake Technologies Corporation",
+     "name": "Wabtec",
      "slug": "westinghouse-air-brake-technologies",
      "description": "Westinghouse Air Brake Technologies Corporation (Wabtec) is a leading global provider of equipment, systems, digital solutions, and value-added services for the freight rail and passenger transit industries. Wabtec's digital platform, WabtecONE, delivers cloud and on-premise solutions for fleet management, condition monitoring, transportation management (RailConnect TMS), performance analytics, predictive maintenance, and signaling. Wabtec provides B2B API integrations for railroad operators, mines, ports, and transit agencies to connect their operations with the WabtecONE platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png",
@@ -1166,7 +1166,7 @@
      "rank": 25
     },
     {
-     "name": "CSX Corporation",
+     "name": "CSX",
      "slug": "csx",
      "description": "CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/screenshots/csx-2026-06-20T175327.png",

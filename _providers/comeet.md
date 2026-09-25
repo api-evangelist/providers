@@ -151,7 +151,7 @@ modified: '2026-05-19'
 name: Comeet
 nav: Providers
 network: true
-overview: 'Comeet publishes 1 API on the [APIs.io](https://apis.io/) network: Positions API. Tagged areas include ATS, Candidates, Careers, Interviews, and Job.
+overview: 'Comeet publishes 1 API on the [APIs.io](https://apis.io/) network: Positions API. Tagged areas include Applicant Tracking, Candidates, Careers, Interviews, and Job.
 
 
   The Comeet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,7 +234,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: comeet
 tags:
-- ATS
+- Applicant Tracking
 - Candidates
 - Careers
 - Interviews

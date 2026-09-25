@@ -58,13 +58,13 @@ description: Outpace legacy and unproven modern platforms with i2c’s next gene
 image: https://static-cdn.i2cinc.com/wp-content/uploads/2025/10/i2c-inc-Logo.jpg
 layout: provider
 modified: '2026-09-21'
-name: i2c Inc.
+name: i2c
 nav: Providers
 network: true
-overview: 'i2c Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Payments, and Fintech.
+overview: 'i2c is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Payments, and Fintech.
 
 
-  i2c Inc.''s developer surface includes engineering blog and 3 more developer resources.'
+  i2c''s developer surface includes engineering blog and 3 more developer resources.'
 random_paper: 12
 score:
   band: minimal

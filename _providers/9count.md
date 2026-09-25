@@ -86,7 +86,7 @@ modified: '2026-09-05'
 name: 9 Count
 nav: Providers
 network: true
-overview: '9 Count is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer App, Social Networking, Dating, and Mobile App.
+overview: '9 Count is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer App, Social Network, Dating, and Mobile App.
 
 
   9 Count''s developer surface includes engineering blog and 7 more developer resources.'
@@ -126,7 +126,7 @@ slug: 9count
 tags:
 - Company
 - Consumer App
-- Social Networking
+- Social Network
 - Dating
 - Mobile App
 - Social Discovery

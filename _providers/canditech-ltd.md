@@ -96,13 +96,13 @@ description: Canditech is a skills-assessment and job-simulation platform that h
 image: https://site-assets.canditech.io/wp-content/uploads/2023/08/ogimage.jpeg
 layout: provider
 modified: '2026-07-18'
-name: Canditech Ltd.
+name: Canditech
 nav: Providers
 network: true
-overview: 'Canditech Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Skills Assessment, and Talent Assessment.
+overview: 'Canditech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Skills Assessment, and Talent Assessment.
 
 
-  Canditech Ltd.''s developer surface includes documentation, support, pricing, engineering blog, and 9 more developer resources.'
+  Canditech''s developer surface includes documentation, support, pricing, engineering blog, and 9 more developer resources.'
 random_paper: 2
 score:
   band: emerging

@@ -315,6 +315,6 @@ tags:
 - Content Licensing
 - Media
 - RAG
-- Advertising Technology
+- AdTech
 website: https://gist.ai
 ---

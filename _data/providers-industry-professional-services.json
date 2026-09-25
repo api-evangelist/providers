@@ -227,7 +227,7 @@
      "rank": 5
     },
     {
-     "name": "Polycode Limited",
+     "name": "Polycode",
      "slug": "polycode-co-uk",
      "description": "Polycode Limited is a UK information-technology consultancy (Companies House 10172940, Leeds, incorporated 2016) that operates marginalia, a small public chat experiment built on a shared, provenance-tracked memory graph: a language model synthesises conversations into an OWL-typed graph and questions are answered by narrowing that graph with SPARQL. marginalia publishes a public REST API (OpenAPI 3.0.3, 50 operations at https://marginalia.polycode.co.uk/api — async chat with task polling, session search and history, insights, projects, usage and budget, key-authed private graphs; no key for reads and chat), an A2A 0.3.0 agent card at /.well-known/agent-card.json with a live JSON-RPC endpoint (message/send, message/stream, tasks/get) advertising chat, recall-memory and research-projects skills, an OpenAI-shaped zero-token completion shim, a first-party CLI and the AGPL-3.0 source on GitLab. Visitor contributions are PII-redacted at ingest and republished under CC-BY-SA 4.0; a volatile flag keeps a turn out of shared memory. The corporate apex polycode.co.uk did not resolve when profiled; the product host is the live web presence.",
      "score": 42.7,
@@ -3678,7 +3678,7 @@
      "rank": 83
     },
     {
-     "name": "Apar Infotech Corporation",
+     "name": "Apar Infotech",
      "slug": "apar-infotech-corporation",
      "description": "Apar Infotech Corporation, which operates publicly as Apar Technologies, is a Singapore-headquartered IT services and consulting group serving clients across Asia Pacific, the Middle East and the Americas. The firm delivers technology consulting and application services, data management and business intelligence, collaboration and content management, enterprise applications, managed services, staff augmentation and collaborative development centres, with practice areas spanning artificial intelligence, cloud, CRM, ServiceNow workflow, RPA/BPM hyperautomation, enterprise mobility and IoT. Apar also publishes a small set of its own products — the Otomeyt HR technology and technical-assessment platform, the Innoculate IoT monitoring platform, and the eLite SIS and eLite BAM applications. Apar is part of the Apar Group and is backed by Insight Partners. As of this enrichment pass Apar publishes no public developer portal, API documentation, machine-readable API specification or self-service sign-up; its API work is delivered inside client engagements rather than as a public product surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/screenshots/apar-infotech-corporation-2026-07-25T200636.png",
@@ -3899,7 +3899,7 @@
      "rank": 88
     },
     {
-     "name": "Fox Rothschild LLP",
+     "name": "Fox Rothschild",
      "slug": "fox-rothschild",
      "description": "Fox Rothschild LLP is a national US law firm with approximately 1,000 attorneys across 30+ offices. The firm has no public developer APIs. Its programmatic surface is limited to publication and content distribution: subscription-based email alerts and 21+ topical attorney-authored blogs hosted on the LexBlog (WordPress) platform, each of which exposes a standard WordPress RSS 2.0 feed at /feed/. This index catalogs the firm and the RSS-able LexBlog network as the consumable surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png",
@@ -5100,7 +5100,7 @@
      "rank": 115
     },
     {
-     "name": "Planby Technologies, Inc.",
+     "name": "Planby Technologies",
      "slug": "planby-technologies-inc",
      "description": "Planby Technologies, Inc. (PLANBY) is a Seoul-based AI transformation partner for architecture and construction organizations, helping construction firms, architectural offices, and interior studios adopt AI-powered workflows. Its products include PLANA (interior and concept CG rendering automation) and PLAD (apartment exterior design visualization), which cut visualization timeframes from days to hours, alongside its AX Program for organizational AI transformation (diagnosis, training, and workflow integration) and Knowledge System Building that structures construction data such as blueprints, specifications, and defect records into domain-specific data frameworks. Clients include Samsung E&A, POSCO E&C, Hyundai, Daewoo E&C, and Samsung C&T. Backed by 500 Global. PLANBY publishes no public API or developer surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/planby-technologies-inc/refs/heads/main/screenshots/planby-technologies-inc-2026-09-02T151359.png",
@@ -6100,7 +6100,7 @@
      "rank": 138
     },
     {
-     "name": "Blank Rome LLP",
+     "name": "Blank Rome",
      "slug": "blank-rome",
      "description": "Blank Rome LLP is an Am Law 100 U.S. law firm founded in 1946 and headquartered in Philadelphia, with approximately 600+ attorneys across roughly 14 U.S. offices plus an international presence (Shanghai). The firm provides comprehensive legal and government-advocacy services across commercial and corporate litigation, corporate / M&A and finance, restructuring and bankruptcy, government contracts, intellectual property, labor and employment, real estate, tax, white-collar defense, matrimonial and family law, and a nationally recognized maritime and international trade practice. Blank Rome Government Relations LLC, the firm's affiliated lobbying arm, operates from Washington, D.C. The firm publishes practice-area client alerts, the Mainbrace maritime newsletter, and industry insights through its website's News & Events and Publications sections. Blank Rome does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization; this profile catalogs the firm's public-facing knowledge surface (practice pages, newsletters, alerts) rather than a developer platform.",
      "score": 4.3,

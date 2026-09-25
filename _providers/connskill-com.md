@@ -245,13 +245,13 @@ mcp_servers:
   name: Hosted MCP endpoint (POST JSON-RPC; tools/list open, paid tools via x402)
   slug: hosted-mcp-endpoint-post-json-rpc-toolslist-open-paid-tools-via-x402
 modified: '2026-09-19'
-name: CONNSKILL GmbH & Co. KG
+name: CONNSKILL
 nav: Providers
 network: true
-overview: 'CONNSKILL GmbH & Co. KG publishes 1 API on the [APIs.io](https://apis.io/) network: CONNSKILL Growth Services API. Tagged areas include Company, API Provider, SEO, SERP, and Keyword Research.
+overview: 'CONNSKILL publishes 1 API on the [APIs.io](https://apis.io/) network: Growth Services API. Tagged areas include Company, API Provider, SEO, SERP, and Keyword Research.
 
 
-  CONNSKILL GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 33 more developer resources.'
+  CONNSKILL''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 33 more developer resources.'
 plans:
 - name: Connskill Com Plans Pricing
   plan_count: 8

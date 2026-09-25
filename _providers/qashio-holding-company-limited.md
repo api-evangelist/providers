@@ -50,10 +50,10 @@ description: Qashio is a United Arab Emirates-based financial technology company
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qashio-holding-company-limited.png
 layout: provider
 modified: '2026-07-20'
-name: Qashio Holding Company Limited
+name: Qashio
 nav: Providers
 network: true
-overview: Qashio Holding Company Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Corporate Cards, Spend Management, and Expense Management.
+overview: Qashio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Corporate Cards, Spend Management, and Expense Management.
 random_paper: 10
 score:
   band: minimal

@@ -312,9 +312,9 @@ tags:
 - Transaction Monitoring
 - Device Intelligence
 - Behavioral Biometrics
-- Risk
+- Risk Management
 - Financial Crime
-- Agentic AI
+- AI Agents
 - Fintech
 website: https://www.sardine.ai/
 ---

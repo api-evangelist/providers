@@ -62,7 +62,7 @@ apis:
   description: The user API from Playable — 1 operation(s) for user.
   name: Playable User API
   slug: playable-user-api
-- baseURL: https://playable.com/wp-json/mcp/mcp-oauth-server
+- baseURL: https://api.playable.com
   baseurl_source: declared
   description: OAuth
   name: Playable OAUTH API

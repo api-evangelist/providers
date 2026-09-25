@@ -227,7 +227,7 @@ modified: '2026-08-12'
 name: Epsilon
 nav: Providers
 network: true
-overview: 'Epsilon publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Catalog Products API, Catalogs API, and 4 more. Tagged areas include Company, Marketing, Advertising, Retail Media, and Advertising Technology.
+overview: 'Epsilon publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Catalog Products API, Catalogs API, and 4 more. Tagged areas include Company, Marketing, Advertising, Retail Media, and AdTech.
 
 
   Epsilon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
@@ -290,7 +290,7 @@ tags:
 - Marketing
 - Advertising
 - Retail Media
-- Advertising Technology
+- AdTech
 - Identity Resolution
 - Customer Data
 - Loyalty

@@ -145,13 +145,13 @@ json_schemas:
   slug: genie-us-software-com-qualification
 layout: provider
 modified: '2026-09-19'
-name: Genie-us Software, Inc.
+name: Genie-us Software
 nav: Providers
 network: true
-overview: 'Genie-us Software, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agent Skills, and A2A.
+overview: 'Genie-us Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Governance, AI Agents, Agent Skills, and A2A.
 
 
-  Genie-us Software, Inc.''s developer surface includes FAQ, pricing, signup flow, support, and 20 more developer resources.'
+  Genie-us Software''s developer surface includes FAQ, pricing, signup flow, support, and 20 more developer resources.'
 plans:
 - name: Genie Us Software Com Plans Pricing
   plan_count: 2

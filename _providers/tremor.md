@@ -98,6 +98,6 @@ tags:
 - Insurtech
 - Marketplace
 - Auctions
-- Risk
+- Risk Management
 - Financial Services
 ---

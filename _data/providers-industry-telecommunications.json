@@ -1,5 +1,5 @@
 {
- "total": 1352,
+ "total": 1351,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 67,
-   "shown": 67,
+   "count": 69,
+   "shown": 69,
    "providers": [
     {
      "name": "Customer.io",
@@ -1205,6 +1205,67 @@
      "rank": 24
     },
     {
+     "name": "Attentive",
+     "slug": "attentive",
+     "description": "Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom attributes and custom events, uploading product catalogs, distributing offers/coupon codes, resolving identity across phone/email/Shopify/Klaviyo/custom identifiers, handling CCPA privacy deletion requests, and subscribing to webhooks. It also ships iOS, Android, and React Native SDKs and an on-site JavaScript Tag for creative rendering and event collection. Authentication is OAuth 2.0 (authorization code grant) or a bearer API token.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png",
+     "score": 75.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 63.2,
+      "contract_governance": 4.5,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 55.4,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 2,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "ccpa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 30.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
+    },
+    {
      "name": "Birdeye",
      "slug": "birdeye",
      "description": "Birdeye is an AI-powered customer experience and reputation management platform for multi-location brands. Its REST API enables developers to manage online reviews across 200+ sites, send surveys, respond to messages, automate review requests, and track reputation metrics including ratings, sentiment trends, and NPS scores. Integrations cover listings, webchat, appointments, payments, social posting, and customer insights.",
@@ -1245,7 +1306,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Mapp Marketing Cloud",
@@ -1314,7 +1375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Novu",
@@ -1364,7 +1425,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "SendPulse",
@@ -1421,7 +1482,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "MoEngage",
@@ -1482,7 +1543,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Amazon Lightsail",
@@ -1525,7 +1586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Amazon VPN",
@@ -1568,7 +1629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Constant Contact",
@@ -1618,7 +1679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Zoom Phone",
@@ -1668,7 +1729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "ThousandEyes",
@@ -1711,7 +1772,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Iterable",
@@ -1761,7 +1822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "SMTP2GO",
@@ -1811,7 +1872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Paubox",
@@ -1876,7 +1937,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Cloudflare",
@@ -1919,7 +1980,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Calico",
@@ -1969,7 +2030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "SAP Emarsys",
@@ -2026,7 +2087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Knock",
@@ -2083,7 +2144,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Ortto",
@@ -2144,7 +2205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Postmark",
@@ -2187,7 +2248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "8x8",
@@ -2237,7 +2298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Clickup",
@@ -2280,7 +2341,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Blueshift",
@@ -2330,7 +2391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Orange Business",
@@ -2380,7 +2441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Vibes Platform",
@@ -2430,7 +2491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "LINE",
@@ -2473,7 +2534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Mailboxlayer",
@@ -2516,7 +2577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Booking.com",
@@ -2566,7 +2627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Loops",
@@ -2609,7 +2670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Amigo",
@@ -2674,7 +2735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Convoy",
@@ -2717,7 +2778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Zendesk",
@@ -2760,7 +2821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Microsoft Azure Cdn",
@@ -2803,7 +2864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "SignalWire",
@@ -2853,7 +2914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Gumlet",
@@ -2896,7 +2957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Hubble Network",
@@ -2939,7 +3000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Cisco Catalyst SD-WAN",
@@ -2989,7 +3050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Netlify",
@@ -3032,7 +3093,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Shodan",
@@ -3075,7 +3136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Acoustic",
@@ -3132,7 +3193,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "KPN",
@@ -3182,7 +3243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Hustle",
@@ -3232,7 +3293,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
+    },
+    {
+     "name": "Khoros",
+     "slug": "khoros-ai",
+     "description": "Khoros is the enterprise online-community and social-customer-engagement platform formed when Lithium Technologies merged with Spredfast in 2018; the combined company rebranded as Khoros in 2019 and is today operated by IgniteTech. This record was listed as Lithium until 2026-09-24, and it also carries the Spredfast product line (Khoros Marketing). The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/khoros-ai/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
+     "score": 66.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 62.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 40.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 67
     },
     {
      "name": "WhoisFreaks",
@@ -3275,7 +3379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Aeris",
@@ -3324,7 +3428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 69
     }
    ],
    "open": true
@@ -3334,8 +3438,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 130,
-   "shown": 130,
+   "count": 128,
+   "shown": 128,
    "providers": [
     {
      "name": "The Mobile First Company",
@@ -3385,7 +3489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "AskNicely",
@@ -3442,7 +3546,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Clix",
@@ -3484,7 +3588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "Dolby",
@@ -3527,7 +3631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "Azure Service Bus",
@@ -3570,7 +3674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "CloudFront",
@@ -3613,7 +3717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Facebook Business Manager",
@@ -3656,7 +3760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Red5",
@@ -3699,7 +3803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Synadia Communications",
@@ -3742,7 +3846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "Postscript",
@@ -3799,7 +3903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Fastly",
@@ -3842,7 +3946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "Slack",
@@ -3885,7 +3989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Amazon Elastic Load Balancing",
@@ -3928,7 +4032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "GoToWebinar",
@@ -3971,7 +4075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Swisscom",
@@ -4028,7 +4132,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "parcelLab",
@@ -4071,7 +4175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Amazon VPC",
@@ -4114,7 +4218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Genesys",
@@ -4179,7 +4283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Spruce Health",
@@ -4229,7 +4333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "RingCentral",
@@ -4279,7 +4383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Snapchat",
@@ -4322,7 +4426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "Weave",
@@ -4379,7 +4483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Vessel",
@@ -4422,7 +4526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "cPanel",
@@ -4465,7 +4569,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Cisco Catalyst Center",
@@ -4515,7 +4619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Silverpop",
@@ -4565,7 +4669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "ZeroTier",
@@ -4608,50 +4712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
-    },
-    {
-     "name": "Dolby.io",
-     "slug": "dolby-io",
-     "description": "Dolby.io (now branded as Dolby OptiView) is Dolby Laboratories' developer platform for media, streaming, communications, and advertising APIs. Originally launched as a hub for Dolby's audio and video processing services (Media APIs, Communications APIs), the platform has consolidated around three OptiView pillars — Real-time Streaming (formerly Millicast), Live Streaming (formerly THEOlive), and Playback (formerly THEOplayer) — with an Advertising pillar built on Server-Guided Ad Insertion. The platform powers live sports streaming for the NFL, NASCAR, Paddy Power, and other large broadcasters, with sub-500ms WebRTC delivery, multi-format ingest (WHIP/WHEP, SRT, RTMP), and cross-platform playback SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png",
-     "score": 63.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 64.8,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Airalo",
@@ -4700,7 +4761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Gladly",
@@ -4750,7 +4811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Dotdigital",
@@ -4807,7 +4868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "IBM",
@@ -4850,7 +4911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Zavu",
@@ -4900,7 +4961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Gridspace",
@@ -4950,7 +5011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "The Colony",
@@ -4992,7 +5053,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Syllable",
@@ -5042,7 +5103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Cordial",
@@ -5103,7 +5164,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Webscale Networks",
@@ -5145,7 +5206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Unifonic",
@@ -5195,7 +5256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Azure Networking Services",
@@ -5238,7 +5299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Hookdeck",
@@ -5281,7 +5342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Dyspatch",
@@ -5331,7 +5392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Verizon",
@@ -5381,7 +5442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Truora",
@@ -5424,7 +5485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Netcracker",
@@ -5474,7 +5535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "DomScan",
@@ -5517,7 +5578,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Microsoft Azure Private Link",
@@ -5560,7 +5621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "AgentMail",
@@ -5603,7 +5664,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Amazon EventBridge Pipes",
@@ -5646,7 +5707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Geekflare",
@@ -5689,7 +5750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Mist",
@@ -5732,7 +5793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Kixie",
@@ -5782,7 +5843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Sense Talent Labs",
@@ -5825,7 +5886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Kudosity",
@@ -5878,49 +5939,6 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
-    },
-    {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -11429,56 +11447,6 @@
      "rank": 240
     },
     {
-     "name": "Amazon",
-     "slug": "amazon",
-     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 52.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.2,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 46.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 241
-    },
-    {
      "name": "Blues",
      "slug": "blues-wireless",
      "description": "Blues (formerly Blues Wireless) is an IoT connectivity platform that provides hardware modules called Notecards and a cloud service called Notehub for routing device data from edge devices to cloud applications. The Notehub REST API enables developers to manage fleets of cellular, satellite, LoRa, and Wi-Fi connected devices across 130+ countries. Developers can use the API to retrieve device events, manage projects and fleets, configure routes to downstream cloud services, and monitor device health. Blues follows a consumption-based pricing model with no subscription fees, charging per ingressed event beyond a free monthly allowance bundled with each Notecard hardware purchase.",
@@ -11519,7 +11487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "Cisco Expressway",
@@ -11562,7 +11530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Emotive",
@@ -11612,7 +11580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Sprout Social",
@@ -11652,6 +11620,56 @@
       "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 244
+    },
+    {
+     "name": "Amazon",
+     "slug": "amazon",
+     "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 73.0,
+      "contract_governance": 33.3,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 46.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -13621,49 +13639,6 @@
      "rank": 287
     },
     {
-     "name": "ELBO AI, INC",
-     "slug": "elbo-ai-inc",
-     "description": "ELBO AI, INC operates Puppetry (puppetry.com), an AI video-creation platform that turns any portrait photo into a realistic lip-synced talking-head video. Users upload an image, provide a script or audio, pick from 500+ AI voices across 65+ languages, and Puppetry renders a video in minutes — with voice cloning, AI Stories multi-scene storytelling, caption studio, and cartoon/object animation. Beyond the studio web and iOS apps and a Canva integration, Puppetry ships a Developer API beta (Studio plan) for agents and app integrations: a Puppetry Voice API (list voices + TTS), hosted audio uploads with signed URLs, and credit-backed text-to-video and audio-to-video jobs with idempotent creation and job-and-poll status. It publishes an OpenAPI 3.1 spec, an official TypeScript SDK, an MCP server, llms.txt, and an ai-plugin.json manifest. Founded by ex-Google/Microsoft/Apple/Amazon engineers; backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 59.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 43.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 288
-    },
-    {
      "name": "Google Cloud Interconnect",
      "slug": "google-cloud-interconnect",
      "description": "Google Cloud Interconnect provides high-bandwidth, low-latency connections between your on-premises network and Google Cloud, enabling hybrid cloud architectures through dedicated or partner interconnect options.",
@@ -13704,7 +13679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Google Cloud Load Balancing",
@@ -13743,6 +13718,49 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 289
+    },
+    {
+     "name": "Puppetry",
+     "slug": "elbo-ai-inc",
+     "description": "ELBO AI, INC operates Puppetry (puppetry.com), an AI video-creation platform that turns any portrait photo into a realistic lip-synced talking-head video. Users upload an image, provide a script or audio, pick from 500+ AI voices across 65+ languages, and Puppetry renders a video in minutes — with voice cloning, AI Stories multi-scene storytelling, caption studio, and cartoon/object animation. Beyond the studio web and iOS apps and a Canva integration, Puppetry ships a Developer API beta (Studio plan) for agents and app integrations: a Puppetry Voice API (list voices + TTS), hosted audio uploads with signed URLs, and credit-backed text-to-video and audio-to-video jobs with idempotent creation and job-and-poll status. It publishes an OpenAPI 3.1 spec, an official TypeScript SDK, an MCP server, llms.txt, and an ai-plugin.json manifest. Founded by ex-Google/Microsoft/Apple/Amazon engineers; backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png",
+     "score": 49.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 59.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 43.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -18335,7 +18353,7 @@
      "rank": 392
     },
     {
-     "name": "Polycode Limited",
+     "name": "Polycode",
      "slug": "polycode-co-uk",
      "description": "Polycode Limited is a UK information-technology consultancy (Companies House 10172940, Leeds, incorporated 2016) that operates marginalia, a small public chat experiment built on a shared, provenance-tracked memory graph: a language model synthesises conversations into an OWL-typed graph and questions are answered by narrowing that graph with SPARQL. marginalia publishes a public REST API (OpenAPI 3.0.3, 50 operations at https://marginalia.polycode.co.uk/api — async chat with task polling, session search and history, insights, projects, usage and budget, key-authed private graphs; no key for reads and chat), an A2A 0.3.0 agent card at /.well-known/agent-card.json with a live JSON-RPC endpoint (message/send, message/stream, tasks/get) advertising chat, recall-memory and research-projects skills, an OpenAI-shaped zero-token completion shim, a first-party CLI and the AGPL-3.0 source on GitLab. Visitor contributions are PII-redacted at ingest and republished under CC-BY-SA 4.0; a volatile flag keeps a turn out of shared memory. The corporate apex polycode.co.uk did not resolve when profiled; the product host is the live web presence.",
      "score": 42.7,
@@ -19616,7 +19634,7 @@
      "rank": 421
     },
     {
-     "name": "Algebras AI Inc.",
+     "name": "Algebras AI",
      "slug": "algebras-ai-inc",
      "description": "Algebras AI is an AI-powered localization platform that translates UI, video, and audio content into 300+ languages with agentic translation, glossary-aware quality, and voice/video dubbing with lip-sync. The Algebras API (OpenAPI 3.0, API-key auth via the X-Api-Key header) exposes text, batch, and agentic translation, translation fluency evaluation, glossaries and terms, localization tables, language detection, video translation, storage upload URLs, and real-time streaming rooms with RTMP ingress/egress. First-party tooling includes a Python CLI, a Unity SDK, a Next.js integration, a locale-checker GitHub Action, a hosted MCP server, and a published agent skill. Algebras AI was surfaced as a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png",
@@ -22509,7 +22527,7 @@
      "rank": 484
     },
     {
-     "name": "steute Technologies GmbH & Co. KG",
+     "name": "steute Technologies",
      "slug": "steute-technologies-gmbh-and-co-kg",
      "description": "steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline \"Applied Intelligence\", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical devices), Controltec (safe industrial automation with switches, sensors and wireless solutions) and Leantec (digital shop floor solutions). Its Leantec \"nexy\" IIoT wireless network, built on the sWave.NET radio protocol, connects hundreds of wireless switches and sensors to shop-floor IT through a Sensor Bridge gateway that exposes a JWT-secured REST API (OpenAPI 3.0), HTTP(S) push notifications, Modbus TCP and optional OPC UA and SAP modules for eKanban, AGV, Andon and material-flow integration. steute was surfaced as a portfolio company of Battery Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png",
@@ -26220,6 +26238,56 @@
      "rank": 566
     },
     {
+     "name": "Lemonflow",
+     "slug": "lemonflow-ai",
+     "description": "Lemonflow Technologies GmbH is a Munich-based company building AI agents purpose-built for the electric-vehicle charging industry. Its platform gives charge point operators (CPOs), eMobility service providers and charging software vendors 24/7 AI-driven driver support across voice, chat and email in 30+ languages, plus an Operations Hub for proactive network monitoring, OCPP log interpretation, anomaly detection and self-healing automations such as remote charger resets. The developer-facing surface is an embeddable Chat Widget - a lemonflow-chat web component (and an equivalent headless iframe) loaded from chat.lemonflow.ai and driven through a postMessage command/event API - together with a documented set of CPMS integration requirements covering bulk station data, real-time status, OCPP logs, remote actions and ticketing. Lemonflow is backed by Speedinvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonflow-ai/refs/heads/main/screenshots/lemonflow-ai-2026-07-25T224851.png",
+     "score": 35.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 567
+    },
+    {
      "name": "Dead Drop",
      "slug": "dead-drop",
      "description": "Privacy-focused, ephemeral data-sharing API with zero-knowledge encryption. Open source under MIT, built on Cloudflare Workers, Hono, and D1.",
@@ -26260,7 +26328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "Fly Io",
@@ -26303,7 +26371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Onomondo",
@@ -26353,7 +26421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Resemble AI",
@@ -26396,7 +26464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "TalkPush",
@@ -26439,7 +26507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "Hume AI",
@@ -26482,7 +26550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "Lumen Technologies",
@@ -26532,7 +26600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Chert",
@@ -26575,7 +26643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "Spring Integration",
@@ -26618,7 +26686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "A10 Networks",
@@ -26661,7 +26729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "Gupshup",
@@ -26711,7 +26779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Liberate Innovations",
@@ -26761,7 +26829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Subspace",
@@ -26804,7 +26872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Windstream Holdings",
@@ -26854,7 +26922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "Drift",
@@ -26897,7 +26965,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Truphone (1GLOBAL)",
@@ -26947,7 +27015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "CloudRF",
@@ -26997,7 +27065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Bland AI",
@@ -27040,7 +27108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "CometAPI",
@@ -27083,7 +27151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
      "name": "eSIM Go",
@@ -27133,7 +27201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "Google Business Messages",
@@ -27176,7 +27244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Termii",
@@ -27226,7 +27294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Numverify API",
@@ -27276,7 +27344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "PubNub",
@@ -27319,7 +27387,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "46elks",
@@ -27369,7 +27437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Cuein",
@@ -27412,7 +27480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "GroupMe",
@@ -27455,7 +27523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "MiniMax",
@@ -27498,7 +27566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "Apache EventMesh",
@@ -27541,7 +27609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "GetVocal",
@@ -27584,7 +27652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Pica8",
@@ -27627,7 +27695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Zulip",
@@ -27670,7 +27738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Apache OpenMeetings",
@@ -27713,7 +27781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Jitsi",
@@ -27756,7 +27824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Liberate",
@@ -27821,10 +27889,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 602
     },
     {
-     "name": "Textla Inc.",
+     "name": "Textla",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/textla-inc/refs/heads/main/screenshots/textla-inc-2026-09-02T163313.png",
@@ -27871,7 +27939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "Locize",
@@ -27914,7 +27982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Kakao",
@@ -27964,7 +28032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Nokia NetAct",
@@ -28014,7 +28082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "PlusThis",
@@ -28064,7 +28132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "RabbitMQ",
@@ -28107,7 +28175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Cisco Support APIs",
@@ -28150,7 +28218,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Kustomer",
@@ -28193,7 +28261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Datum",
@@ -28236,7 +28304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "Push",
@@ -28286,7 +28354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Engagespot",
@@ -28336,7 +28404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "DerbySoft",
@@ -28379,7 +28447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Here Not There Labs",
@@ -28422,7 +28490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Inworld AI",
@@ -28465,7 +28533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Movius",
@@ -28534,7 +28602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "Symphony",
@@ -28577,7 +28645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "LayerZero",
@@ -28620,7 +28688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Murf",
@@ -28663,7 +28731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Swapcard",
@@ -28706,7 +28774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "CommScope Holding",
@@ -28749,7 +28817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "Muck Rack",
@@ -28792,7 +28860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "Pushbullet",
@@ -28842,7 +28910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Wormhole",
@@ -28885,7 +28953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "Apache Pulsar",
@@ -28928,7 +28996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Cisco Collaboration Hybrid Solutions",
@@ -28971,7 +29039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "LiveChat",
@@ -29014,7 +29082,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "LiveKit",
@@ -29057,7 +29125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "Mailgun",
@@ -29100,7 +29168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "Inspur Cloud",
@@ -29143,7 +29211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Nacos",
@@ -29186,7 +29254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "FCC (Federal Communications Commission)",
@@ -29231,49 +29299,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 632
-    },
-    {
-     "name": "Lemonflow",
-     "slug": "lemonflow-ai",
-     "description": "Lemonflow Technologies GmbH is a Munich-based company building AI agents purpose-built for the electric-vehicle charging industry. Its platform gives charge point operators (CPOs), eMobility service providers and charging software vendors 24/7 AI-driven driver support across voice, chat and email in 30+ languages, plus an Operations Hub for proactive network monitoring, OCPP log interpretation, anomaly detection and self-healing automations such as remote charger resets. The developer-facing surface is an embeddable Chat Widget - a lemonflow-chat web component (and an equivalent headless iframe) loaded from chat.lemonflow.ai and driven through a postMessage command/event API - together with a documented set of CPMS integration requirements covering bulk station data, real-time status, OCPP logs, remote actions and ticketing. Lemonflow is backed by Speedinvest.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lemonflow-ai/refs/heads/main/screenshots/lemonflow-ai-2026-07-25T224851.png",
-     "score": 31.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 54.8,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 5.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -32924,6 +32949,55 @@
      "rank": 713
     },
     {
+     "name": "EFFECT Photonics",
+     "slug": "effect-photonics",
+     "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
+     "score": 27.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 17.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 65.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 714
+    },
+    {
      "name": "Centrical",
      "slug": "centrical",
      "description": "Centrical (legally Biz-Effective Ltd., founded in Israel in 2013 and known as GamEffective until its 2019 rebrand) sells a performance-experience platform for frontline and contact-center employees. The product combines advanced gamification, personalized microlearning, real-time performance management, AI-assisted coaching, quality management and voice-of-the-employee surveys into a single agent-facing experience, and is used by Microsoft, Verizon Cellular Sales, Teleperformance, Hilton and Synchrony among others. Centrical is integration-heavy rather than developer-facing: it ingests KPI and activity data from CRM, POS, telephony, WFM, VoC and contact-center systems (including a packaged Amazon Connect / Contact Lens integration, a Salesforce AppExchange listing and a Microsoft Teams app) over API, SFTP and email. That data and integration API is documented for contracted customers only — Centrical publishes no public developer portal, API reference, or machine-readable contract. The API itself is demonstrably real and entirely gated: api.centrical.me is a live AWS API Gateway host that rejects anonymous callers, and Centrical's public status page lists a \"Core Api\" component in its North America, Europe and APAC regions alongside a \"Management API\".",
@@ -32964,7 +33038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "RR Donnelley And Sons",
@@ -33004,55 +33078,6 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 715
-    },
-    {
-     "name": "EFFECT Photonics",
-     "slug": "effect-photonics",
-     "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
-     "score": 26.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 17.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 65.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -34330,7 +34355,7 @@
      "rank": 744
     },
     {
-     "name": "Tlon Corporation",
+     "name": "Tlon",
      "slug": "tlon-corporation",
      "description": "Tlon Corporation builds Tlon Messenger, a self-owned, self-hosted social messaging app that runs on the user's own Urbit ship, and Tlon Hosting, which runs managed ships under tlon.network. Every account ships with Tlonbot, an OpenClaw-powered AI agent. Developers integrate through the Urbit ship HTTP API (Eyre channels) using the @tloncorp/api and @urbit/http-api TypeScript clients, and through the first-party Tlon MCP Server that exposes messaging, groups, channels, and profile tools to agents. Backed by a16z.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tlon-corporation/refs/heads/main/screenshots/tlon-corporation-2026-09-02T163831.png",
@@ -35528,55 +35553,6 @@
      "rank": 770
     },
     {
-     "name": "USACallerLookup",
-     "slug": "usacallerlookup",
-     "description": "A free, read-only JSON REST API over US phone-numbering data and FTC robocall complaint records. No API key or signup required; access is throttled at 60 requests/minute per IP. Data is sourced from FTC Do Not Call complaints and the NANPA registry and dedicated to the public domain under CC0.",
-     "score": 22.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 29.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 771
-    },
-    {
      "name": "Voquill",
      "slug": "voquill",
      "description": "Voquill is a Y Combinator-backed company building open-source, privacy-first AI voice interfaces. Its flagship product is a cross-platform AI voice dictation app (macOS, Windows, Linux, iOS, Android) that supports local on-device Whisper transcription, bring-your-own API keys, Voquill Cloud, and self-hosted / on-premise enterprise deployments with OIDC SSO, and the company also builds a realtime AI scribe for pathologists that turns voice dictation into signed-off pathology reports inside existing LIS/IMS systems. The desktop app, enterprise gateway, admin portal, mobile app, and CLI are all developed in the open under AGPLv3 at github.com/voquill/voquill; there is currently no public developer API.",
@@ -35624,7 +35600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Lottielab",
@@ -35667,7 +35643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 772
     },
     {
      "name": "Signpost",
@@ -35710,7 +35686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 773
     },
     {
      "name": "Speechly",
@@ -35753,7 +35729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 774
     },
     {
      "name": "CAMARA",
@@ -35803,7 +35779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "Kata.ai",
@@ -35846,7 +35822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "AirPR",
@@ -35889,7 +35865,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 777
     },
     {
      "name": "Plume",
@@ -35932,7 +35908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 778
     },
     {
      "name": "Virgin Media O2",
@@ -35982,7 +35958,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 779
     },
     {
      "name": "Keybase",
@@ -36025,7 +36001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "ZaiNar",
@@ -36068,7 +36044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "App.net",
@@ -36113,7 +36089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Apache MINA",
@@ -36156,7 +36132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "imbee",
@@ -36199,7 +36175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "NetworkCalc",
@@ -36242,7 +36218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "WebSockets",
@@ -36285,7 +36261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "Apkudo",
@@ -36346,7 +36322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Decagon",
@@ -36389,7 +36365,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "Containous (Traefik Labs)",
@@ -36432,7 +36408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "Nokia",
@@ -36482,7 +36458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "Revie",
@@ -36525,7 +36501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Carbyne",
@@ -36566,6 +36542,55 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 792
+    },
+    {
+     "name": "USACallerLookup",
+     "slug": "usacallerlookup",
+     "description": "A free, read-only JSON REST API over US phone-numbering data and FTC robocall complaint records. No API key or signup required; access is throttled at 60 requests/minute per IP. Data is sourced from FTC Do Not Call complaints and the NANPA registry and dedicated to the public domain under CC0.",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 44.6,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 29.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -37453,7 +37478,7 @@
      "rank": 812
     },
     {
-     "name": "Harmonic Inc.",
+     "name": "Harmonic",
      "slug": "harmonicinc",
      "description": "Harmonic Inc. (NASDAQ: HLIT) is a video streaming and virtualized broadband technology company. Its VOS®360 Media SaaS orchestrates the entire live and on-demand video pipeline — ingest, transcoding, packaging, encryption, playout and delivery — while its cOS platform delivers virtualized DOCSIS 4.0 and fiber broadband access via Distributed Access Architecture (DAA) and Remote PHY. Harmonic serves 150+ operators worldwide including Comcast, Charter and Vodafone. The VOS 360 platform exposes a public REST API secured with OAuth 2.0 for managing assets, channels, services, live events, storage, DRM and jobs, enabling integration with third-party CMS and media workflows. This profile was surfaced as a portfolio company of Norwest Venture Partners and enriched from Harmonic's public developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/harmonicinc/refs/heads/main/screenshots/harmonicinc-2026-07-25T220724.png",
@@ -38242,49 +38267,6 @@
      "rank": 829
     },
     {
-     "name": "Eridu",
-     "slug": "eridu",
-     "description": "Eridu is an AI networking infrastructure company founded in 2024 and headquartered at 12900 Saratoga Ave in Saratoga, California. It is building a clean-sheet network switch architecture — silicon, systems and software together — aimed at the interconnect bottleneck that limits how efficiently GPUs exchange data inside large AI training clusters and data centers. The company was co-founded by CEO Drew Perkins, who previously co-founded Lightera Networks (acquired by Ciena) and Infinera, alongside Chief Product Officer Omar Hassen, and emerged from stealth in March 2026 with an oversubscribed Series A of more than $200M led by Socratic Partners, bringing total funding to approximately $230M with participation from John Doerr, Kleiner Perkins, Hudson River Trading, Capricorn Investment Group, Matter Venture Partners and Fusion Fund. Eridu is a semiconductor and systems company rather than a software vendor: it publishes no developer program, no developer portal, no product API, no SDKs and no pricing. The only machine-readable interface it serves is the WordPress core REST API behind its corporate site at eridu.ai, captured here for discovery purposes and anonymously readable but effectively read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 830
-    },
-    {
      "name": "Achronix Semiconductor",
      "slug": "achronix-semiconductor",
      "description": "Achronix Semiconductor is a fabless semiconductor company specializing in high-performance FPGA (field-programmable gate array) products and embedded FPGA (eFPGA) intellectual property. Its portfolio includes the Speedster7t family of standalone FPGAs, Speedcore eFPGA IP for system-on-chip integration, VectorPath PCIe accelerator cards, and the ACE design tools suite for synthesis, verification, and optimization. Achronix technology targets AI/ML inference, 5G/6G networking, data-center compute acceleration, automotive, SmartNICs, and test-and-measurement workloads. The company is privately held and backed by investors including Battery Ventures. It exposes no public web/REST API or developer API portal; its developer surface is a hardware support portal, product documentation, datasheets, and design tools.",
@@ -38325,7 +38307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Alteon",
@@ -38368,7 +38350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "Merbridge",
@@ -38411,7 +38393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "MQTT",
@@ -38445,6 +38427,49 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 833
+    },
+    {
+     "name": "Eridu",
+     "slug": "eridu",
+     "description": "Eridu is an AI networking infrastructure company founded in 2024 and headquartered at 12900 Saratoga Ave in Saratoga, California. It is building a clean-sheet network switch architecture — silicon, systems and software together — aimed at the interconnect bottleneck that limits how efficiently GPUs exchange data inside large AI training clusters and data centers. The company was co-founded by CEO Drew Perkins, who previously co-founded Lightera Networks (acquired by Ciena) and Infinera, alongside Chief Product Officer Omar Hassen, and emerged from stealth in March 2026 with an oversubscribed Series A of more than $200M led by Socratic Partners, bringing total funding to approximately $230M with participation from John Doerr, Kleiner Perkins, Hudson River Trading, Capricorn Investment Group, Matter Venture Partners and Fusion Fund. Eridu is a semiconductor and systems company rather than a software vendor: it publishes no developer program, no developer portal, no product API, no SDKs and no pricing. The only machine-readable interface it serves is the WordPress core REST API behind its corporate site at eridu.ai, captured here for discovery purposes and anonymously readable but effectively read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -39563,55 +39588,6 @@
      "rank": 858
     },
     {
-     "name": "Aira Technologies",
-     "slug": "aira-technologies",
-     "description": "Aira Technologies is an AI-defined networking company founded in 2019 and headquartered in Saratoga, California, building machine-learning and generative-AI software for mobile network operators. Its platform, Naavik, is marketed as an Adaptive Intelligence Framework for the Radio Access Network, combining an Intent Manager that turns natural language into network actions, AppGen for no-code telecom application generation, a reasoning agent for anomaly detection and root-cause analysis, a telecom-specific AI/ML hub and a knowledge graph. Earlier work includes RANGPT, a GenAI utility for RAN observability, analysis, control and automation demonstrated with Broadcom and Tech Mahindra, and an AI-based channel estimation and prediction xApp. The company is a member of the O-RAN Alliance, the AI-RAN Alliance and TM Forum, and raised a $14.5M Series B from AT&T Ventures, Intel Capital and In-Q-Tel. Aira sells to operators through a demo and sales motion and publishes no developer program, no API documentation, no SDKs and no public specification for Naavik or RANGPT. The only machine-readable interface reachable at aira-technology.com is the WordPress REST content API behind the corporate website, captured here for discovery purposes; it is anonymously readable and read-only.",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 859
-    },
-    {
      "name": "Nova Labs",
      "slug": "nova-labs",
      "description": "Nova Labs, Inc. is the company behind the Helium Network, a decentralized wireless network that replaces traditional carrier infrastructure with community-hosted Hotspots and is coordinated on the Solana blockchain and incentivized with the HNT token. Helium operates two networks: a global LoRaWAN network for low-power IoT devices and a cellular/Wi-Fi offload network for mobile connectivity (Helium Mobile). Nova Labs open-sources the network's protocol surface as gRPC/Protobuf service definitions (the helium/proto config, router, and proof-of-coverage services) and publishes a set of first-party client libraries, a command-line tool, and Rust crates for cryptography and protobuf types. This profile was surfaced as an a16z portfolio company and enriched from Nova Labs' public developer surface; much of the legacy Helium IoT REST API tooling is archived following the network's migration to Solana.",
@@ -39659,7 +39635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "Uare.ai",
@@ -39693,6 +39669,55 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 860
+    },
+    {
+     "name": "Aira Technologies",
+     "slug": "aira-technologies",
+     "description": "Aira Technologies is an AI-defined networking company founded in 2019 and headquartered in Saratoga, California, building machine-learning and generative-AI software for mobile network operators. Its platform, Naavik, is marketed as an Adaptive Intelligence Framework for the Radio Access Network, combining an Intent Manager that turns natural language into network actions, AppGen for no-code telecom application generation, a reasoning agent for anomaly detection and root-cause analysis, a telecom-specific AI/ML hub and a knowledge graph. Earlier work includes RANGPT, a GenAI utility for RAN observability, analysis, control and automation demonstrated with Broadcom and Tech Mahindra, and an AI-based channel estimation and prediction xApp. The company is a member of the O-RAN Alliance, the AI-RAN Alliance and TM Forum, and raised a $14.5M Series B from AT&T Ventures, Intel Capital and In-Q-Tel. Aira sells to operators through a demo and sales motion and publishes no developer program, no API documentation, no SDKs and no public specification for Naavik or RANGPT. The only machine-readable interface reachable at aira-technology.com is the WordPress REST content API behind the corporate website, captured here for discovery purposes; it is anonymously readable and read-only.",
+     "score": 16.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -44747,7 +44772,7 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 380,
+   "count": 379,
    "shown": 28,
    "providers": [
     {

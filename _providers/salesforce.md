@@ -20,7 +20,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
@@ -34,7 +34,7 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.6
+  score: 51.8
   scored_at: '2026-09-24'
 agentic_access:
 - acting_count: 158
@@ -862,6 +862,56 @@ apis:
   description: The Oauth API from Salesforce — 4 operation(s) for oauth.
   name: Salesforce OAUTH API
   slug: salesforce-oauth-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics dashboards
+  name: Salesforce Dashboards API
+  slug: salesforce-automation-dashboards-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics dataflows (recipes)
+  name: Salesforce Dataflows API
+  slug: salesforce-automation-dataflows-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics datasets
+  name: Salesforce Datasets API
+  slug: salesforce-automation-datasets-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Flow and FlowDefinition management
+  name: Salesforce Flows API
+  slug: salesforce-automation-flows-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Analytics applications (folders)
+  name: Salesforce Folders API
+  slug: salesforce-automation-folders-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics lenses (explorations)
+  name: Salesforce Lenses API
+  slug: salesforce-automation-lenses-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: SOQL-based streaming event topics (deprecated; use Platform Events or CDC)
+  name: Salesforce PushTopics API
+  slug: salesforce-automation-pushtopics-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Generic streaming channels for custom event delivery
+  name: Salesforce Streaming Channels API
+  slug: salesforce-automation-streaming-channels-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter topics
+  name: Salesforce Topics API
+  slug: salesforce-automation-topics-api
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter user profiles
+  name: Salesforce Users API
+  slug: salesforce-automation-users-api
 arazzos:
 - description: Run the full Bulk API 2.0 delete lifecycle — create a delete ingest job, upload a CSV of Ids, close, poll, and read successful results.
   name: Salesforce Bulk Delete Records
@@ -932,7 +982,7 @@ arazzos:
 - description: Create or update an SObject record keyed on an external id field value.
   name: Salesforce Upsert by External Id
   slug: salesforce-upsert-by-external-id-workflow
-artifact_total: 5731
+artifact_total: 5743
 asyncapis:
 - description: Salesforce Change Data Capture (CDC) delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. Subscribers receive rich change events with
   name: Salesforce Change Data Capture API
@@ -7657,6 +7707,9 @@ json_schemas:
 - name: AuthorizationFormText
   property_count: 6
   slug: salesforce-authorization-form-text
+- name: Salesforce Automation Flow
+  property_count: 21
+  slug: salesforce-automation-flow
 - name: BackgroundOperation
   property_count: 6
   slug: salesforce-background-operation
@@ -18013,6 +18066,10 @@ json_structures:
   slug: salesforce-year-started1-structure
 jsonld:
 - class_count: 0
+  name: Salesforce Automation Context
+  property_count: 16
+  slug: salesforce-automation-context
+- class_count: 0
   name: Salesforce Bulk 2 Context
   property_count: 5
   slug: salesforce-bulk-2-context
@@ -18037,10 +18094,10 @@ modified: '2026-09-16'
 name: Salesforce
 nav: Providers
 network: true
-overview: 'Salesforce publishes 146 APIs on the [APIs.io](https://apis.io/) network, including REST API, Streaming API, Platform Events API, and 143 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
+overview: 'Salesforce publishes 156 APIs on the [APIs.io](https://apis.io/) network, including REST API, Streaming API, Platform Events API, and 153 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
 
 
-  The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
   Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 121 more developer resources.'
@@ -18118,7 +18175,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 89.3
+  composite: 89.4
   coverage:
     artifact_dirs: 44
     catalog_earned: 91.5
@@ -18126,11 +18183,11 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 77.6
+    contract_quality: 77.9
     developer_ergonomics: 94.6
     discoverability: 75.9
     operational_transparency: 86.8
@@ -18142,7 +18199,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 256
+      total: 266
     mcp: first-party
     skills: derived
   schema_version: 0.22.0

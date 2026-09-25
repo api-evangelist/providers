@@ -45,10 +45,10 @@ description: Bilimber Pte. Ltd. is a Singapore-based private company (exempt pri
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bilimber-pte-ltd.png
 layout: provider
 modified: '2026-07-18'
-name: Bilimber Pte. Ltd.
+name: Bilimber
 nav: Providers
 network: true
-overview: Bilimber Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Singapore, Electronics, Research and Development, and Startups.
+overview: Bilimber is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Singapore, Electronics, Research and Development, and Startups.
 random_paper: 19
 score:
   band: minimal

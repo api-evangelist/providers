@@ -114,7 +114,7 @@ modified: '2026-07-18'
 name: CyberVadis
 nav: Providers
 network: true
-overview: 'CyberVadis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk Management, Vendor Risk Management, and Security Ratings.
+overview: 'CyberVadis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk Management, Security Ratings, and Governance Risk Compliance.
 
 
   CyberVadis'' developer surface includes pricing, support, and 14 more developer resources.'
@@ -164,7 +164,6 @@ tags:
 - Company
 - Cybersecurity
 - Third-Party Risk Management
-- Vendor Risk Management
 - Security Ratings
 - Governance Risk Compliance
 - Infrastructure Saas

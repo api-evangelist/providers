@@ -67,13 +67,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parsons.png
 layout: provider
 modified: '2026-04-19'
-name: Parsons Corporation
+name: Parsons
 nav: Providers
 network: true
-overview: 'Parsons Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Engineering, and Government.
+overview: 'Parsons publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Engineering, and Government.
 
 
-  Parsons Corporation''s developer surface includes engineering blog and 3 more developer resources.'
+  Parsons'' developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Parsons Plans Pricing
   plan_count: 1

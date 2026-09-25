@@ -177,13 +177,13 @@ mcp_servers:
   name: Spotwise Model Context Protocol servers
   slug: spotwise-model-context-protocol-servers
 modified: '2026-08-12'
-name: Spotwise, Inc.
+name: Spotwise
 nav: Providers
 network: true
-overview: 'Spotwise, Inc. publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Broadcast Media, Advertising, Media Monitoring, and Sales Intelligence.
+overview: 'Spotwise publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Broadcast Media, Advertising, Media Monitoring, and Sales Intelligence.
 
 
-  Spotwise, Inc.''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
+  Spotwise''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: Spotwise Inc Plans Pricing
   plan_count: 0

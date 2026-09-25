@@ -1635,14 +1635,14 @@
      "slug": "amazon",
      "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 52.0,
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.2,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
+      "discoverability": 75.9,
+      "contract_quality": 73.0,
+      "contract_governance": 33.3,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 46.4,
       "access_clarity": 43.4
      },
@@ -1655,8 +1655,8 @@
       "score": 48.4,
       "matched_via": "tags"
      },
-     "agent_score": 48.5,
-     "agent_band": "agent-ready",
+     "agent_score": 51.4,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1664,7 +1664,7 @@
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": "verified",
-      "error_semantics": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -3931,7 +3931,7 @@
      "rank": 87
     },
     {
-     "name": "Cubic Corporation",
+     "name": "Cubic",
      "slug": "cubic",
      "description": "Cubic Corporation is a San Diego defense and public-transportation technology company (Cubic Transportation Systems and Cubic Defense) that delivers fare-collection, traffic management and mission systems under agency and government contracts. Its one publicly documented API is the Umo IQ Public Feed (the former NextBus feed) served by Cubic Transportation Systems at retro.umoiq.com: an anonymous XML/JSON query-command feed of transit agencies, routes, stops, arrival predictions, schedules, service messages and live vehicle locations for the agencies Cubic serves. Cubic's other integration surfaces (GRIDSMART, Trafficware, the Umo agency portal API) sit behind customer logins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cubic/refs/heads/main/screenshots/cubic-2026-06-20T175329.png",
@@ -5321,7 +5321,7 @@
      "rank": 118
     },
     {
-     "name": "Whirlpool Corporation",
+     "name": "Whirlpool",
      "slug": "whirlpool",
      "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
@@ -8232,7 +8232,7 @@
      "rank": 184
     },
     {
-     "name": "PKO Inc.",
+     "name": "PKO",
      "slug": "pko-inc",
      "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
@@ -8574,7 +8574,7 @@
      "rank": 192
     },
     {
-     "name": "Luxvisions Innovation Limited",
+     "name": "Luxvisions Innovation",
      "slug": "luxvisions",
      "description": "Luxvisions Innovation Limited is a camera module and imaging technology manufacturer established in March 2018, headquartered in Hong Kong with operations in Guangzhou, Shenzhen and Shangrao, China. The company designs and produces optical camera modules and audio-video integration technology for mobile phones, tablets, PCs and notebooks, automotive systems, AIOT devices, and 3D/ToF VR/AR/MR applications, and states it launched the industry's first triple camera module for mobile phones. It was surfaced as a portfolio company of Hongshan (HongShan Capital) and added to the API Evangelist network. As a hardware/component manufacturer, Luxvisions publishes no public developer portal, API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/luxvisions/refs/heads/main/screenshots/luxvisions-2026-07-25T225743.png",
@@ -9605,10 +9605,6 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

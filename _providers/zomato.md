@@ -78,6 +78,13 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
   previous_composite: 4.1
   schema_version: 0.22.0
   scored_at: '2026-09-24'

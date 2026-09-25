@@ -149,13 +149,13 @@ description: 'ACROVE, Inc. (株式会社ACROVE) is a Tokyo e-commerce platform a
 image: https://acrove.co.jp/wp/wp-content/themes/site-theme-corp-01/library/images/common/ogp.png
 layout: provider
 modified: '2026-09-06'
-name: ACROVE, Inc.
+name: ACROVE
 nav: Providers
 network: true
-overview: 'ACROVE, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Business Intelligence, and Retail.
+overview: 'ACROVE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Business Intelligence, and Retail.
 
 
-  ACROVE, Inc.''s developer surface includes engineering blog and 17 more developer resources.'
+  ACROVE''s developer surface includes engineering blog and 17 more developer resources.'
 random_paper: 2
 score:
   band: minimal

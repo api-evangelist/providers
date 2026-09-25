@@ -113,7 +113,7 @@ tags:
 - Financial Services
 - Fund Operations
 - Asset Management
-- Agentic AI
+- AI Agents
 - Reconciliation
 - RegTech
 website: https://oncorps.ai

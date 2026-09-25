@@ -80,13 +80,13 @@ description: Carefull is a financial safety platform that protects the personal 
 image: https://getcarefull.com/assets/img/og/default.jpg
 layout: provider
 modified: '2026-07-18'
-name: Carefull Corporation
+name: Carefull
 nav: Providers
 network: true
-overview: 'Carefull Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Safety, Fraud Detection, and Identity Theft Protection.
+overview: 'Carefull is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Safety, Fraud Detection, and Identity Theft Protection.
 
 
-  Carefull Corporation''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
+  Carefull''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 1
 score:
   band: minimal

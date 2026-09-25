@@ -378,5 +378,6 @@ tags:
 - Inverters
 - Renewable Energy
 - IoT
+- Clean Energy
 website: https://www.solaredge.com
 ---

@@ -102,7 +102,7 @@ modified: '2026-07-10'
 name: Vervoe
 nav: Providers
 network: true
-overview: 'Vervoe publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruitment, Skills Assessment, Talent, and Human Resources.
+overview: 'Vervoe publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruiting, Skills Assessment, Talent, and Human Resources.
 
 
   Vervoe''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -150,7 +150,7 @@ security:
 slug: vervoe
 tags:
 - Hiring
-- Recruitment
+- Recruiting
 - Skills Assessment
 - Talent
 - Human Resources

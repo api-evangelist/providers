@@ -78,10 +78,10 @@ description: Masco Corporation is a global leader in the design, manufacture, an
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/masco.png
 layout: provider
 modified: '2026-04-28'
-name: Masco Corporation
+name: Masco
 nav: Providers
 network: true
-overview: Masco Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Improvement, Building Products, Plumbing, Paint, and Cabinets.
+overview: Masco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Improvement, Building Products, Plumbing, Paint, and Cabinets.
 press:
 - date: ''
   title: Masco Corporation (via Public) / Proxy Statement (Form DEF 14A)

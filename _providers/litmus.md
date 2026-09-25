@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: Litmus
 nav: Providers
 network: true
-overview: 'Litmus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Campaigns API, Clients API, and 3 more. Tagged areas include Developer Tools, Email Testing, Marketing Tools, and Quality Assurance.
+overview: 'Litmus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Campaigns API, Clients API, and 3 more. Tagged areas include Developer Tools, Email Testing, Marketing Tools, Quality Assurance, and Email.
 
 
   The Litmus catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,21 +218,21 @@ rules:
   slug: litmus-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 37.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 53.3
+    catalog_earned: 58.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 23.7
     contract_governance: 9.8
     contract_quality: 65.0
     developer_ergonomics: 40.5
-    discoverability: 55.6
+    discoverability: 64.8
     operational_transparency: 10.5
   previous_composite: 36.5
   provenance:
@@ -268,5 +268,6 @@ tags:
 - Email Testing
 - Marketing Tools
 - Quality Assurance
+- Email
 website: https://www.litmus.com/
 ---

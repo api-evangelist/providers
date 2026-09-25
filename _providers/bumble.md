@@ -87,13 +87,13 @@ description: 'Bumble Inc. (NASDAQ: BMBL) is a global social-connection company t
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bumble.png
 layout: provider
 modified: '2026-05-23'
-name: Bumble Inc
+name: Bumble
 nav: Providers
 network: true
-overview: 'Bumble Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Dating, Social Networking, Consumer App, Mobile, and Relationships.
+overview: 'Bumble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Dating, Social Network, Consumer App, Mobile, and Relationships.
 
 
-  Bumble Inc''s developer surface includes support, engineering blog, and 9 more developer resources.'
+  Bumble''s developer surface includes support, engineering blog, and 9 more developer resources.'
 random_paper: 15
 score:
   band: minimal
@@ -134,7 +134,7 @@ security:
 slug: bumble
 tags:
 - Dating
-- Social Networking
+- Social Network
 - Consumer App
 - Mobile
 - Relationships

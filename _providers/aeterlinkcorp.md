@@ -104,13 +104,13 @@ description: Aeterlink Corp. is a Tokyo-headquartered deep-tech company, origina
 image: https://aeterlink.com/wp-content/uploads/ogp/ogp_new_en.png
 layout: provider
 modified: '2026-09-12'
-name: Aeterlink Corp.
+name: Aeterlink
 nav: Providers
 network: true
-overview: 'Aeterlink Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, IoT, Hardware, and Industrial Automation.
+overview: 'Aeterlink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, IoT, Hardware, and Industrial Automation.
 
 
-  Aeterlink Corp.''s developer surface includes product news, engineering blog, and 11 more developer resources.'
+  Aeterlink''s developer surface includes product news, engineering blog, and 11 more developer resources.'
 plans:
 - name: Aeterlinkcorp Plans Pricing
   plan_count: 0

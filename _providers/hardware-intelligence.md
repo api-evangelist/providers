@@ -117,6 +117,6 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - EDA
-- Agentic
+- AI Agents
 website: https://hardwareintelligence.ai/
 ---

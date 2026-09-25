@@ -214,7 +214,7 @@ tags:
 - Automotive
 - Insurance
 - Maintenance
-- Agentic AI
+- AI Agents
 - MCP
 - Transportation
 website: https://www.serviceup.com/

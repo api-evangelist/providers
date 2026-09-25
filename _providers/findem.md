@@ -108,7 +108,7 @@ modified: '2026-05-23'
 name: Findem
 nav: Providers
 network: true
-overview: Findem publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Intelligence, AI Sourcing, Talent Analytics, Agentic AI, and Embedded AI.
+overview: Findem publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Intelligence, AI Sourcing, Talent Analytics, AI Agents, and Embedded AI.
 plans:
 - name: Findem Plans Pricing
   plan_count: 1
@@ -155,7 +155,7 @@ tags:
 - Talent Intelligence
 - AI Sourcing
 - Talent Analytics
-- Agentic AI
+- AI Agents
 - Embedded AI
 - Human Resources
 website: https://www.findem.ai

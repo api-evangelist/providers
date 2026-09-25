@@ -71,13 +71,13 @@ description: Bloxtel, Inc. builds a decentralized private 5G platform that lets 
 image: https://bloxtel.com/assets/img/bloxtel_logo_white.png
 layout: provider
 modified: '2026-07-18'
-name: Bloxtel, Inc.
+name: Bloxtel
 nav: Providers
 network: true
-overview: 'Bloxtel, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 5G, Private 5G, Telecommunications, and Networking.
+overview: 'Bloxtel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 5G, Private 5G, Telecommunications, and Networking.
 
 
-  Bloxtel, Inc.''s developer surface includes getting-started guide, support, pricing, and 4 more developer resources.'
+  Bloxtel''s developer surface includes getting-started guide, support, pricing, and 4 more developer resources.'
 random_paper: 21
 score:
   band: minimal

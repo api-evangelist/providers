@@ -349,7 +349,7 @@ tags:
 - Contact Center
 - Conversation Intelligence
 - Customer Support
-- Agentic AI
+- AI Agents
 - Voice AI
 - Quality Assurance
 - Reporting

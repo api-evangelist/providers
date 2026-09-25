@@ -112,10 +112,10 @@ description: AccuPulse Medical Technology Co., Ltd. (Suzhou AccuPulse, 艾科脉
 image: https://28415683.s21i.faiusr.com/4/ABUIABAEGAAgn8iajgYoqNjpvAYw_gE4Ug.png
 layout: provider
 modified: '2026-09-06'
-name: AccuPulse Medical Technology Co., Ltd.
+name: AccuPulse Medical
 nav: Providers
 network: true
-overview: AccuPulse Medical Technology Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Electrophysiology.
+overview: AccuPulse Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Electrophysiology.
 random_paper: 12
 score:
   band: minimal

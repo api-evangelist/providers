@@ -385,7 +385,7 @@ tags:
 - Banking
 - SME
 - Open Banking
-- Electronic Invoicing
+- E-Invoicing
 - Italy
 website: https://sibill.com/
 ---

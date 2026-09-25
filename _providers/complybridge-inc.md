@@ -84,13 +84,13 @@ description: 'ComplyBridge is a compliance operating system for regulated financ
 image: https://complybridge.xyz/favicon.ico
 layout: provider
 modified: '2026-07-18'
-name: ComplyBridge, Inc.
+name: ComplyBridge
 nav: Providers
 network: true
-overview: 'ComplyBridge, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, RegTech, Financial Services, and MiCA.
+overview: 'ComplyBridge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, RegTech, Financial Services, and MiCA.
 
 
-  ComplyBridge, Inc.''s developer surface includes signup flow, support, and 8 more developer resources.'
+  ComplyBridge''s developer surface includes signup flow, support, and 8 more developer resources.'
 random_paper: 12
 score:
   band: emerging

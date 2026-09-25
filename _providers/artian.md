@@ -105,7 +105,7 @@ modified: '2026-07-19'
 name: Artian
 nav: Providers
 network: true
-overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Financial Services.
+overview: 'Artian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Financial Services, and Enterprise Software.
 
 
   Artian''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
@@ -165,7 +165,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Financial Services
 - Enterprise Software
 - Workflow Automation

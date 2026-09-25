@@ -1,6 +1,6 @@
 {
- "total": 134,
- "shown": 134,
+ "total": 133,
+ "shown": 133,
  "limit": 1000,
  "bands": [
   {
@@ -80,15 +80,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -2189,8 +2189,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 38,
-   "shown": 38,
+   "count": 37,
+   "shown": 37,
    "providers": [
     {
      "name": "AskNicely",
@@ -3125,50 +3125,6 @@
      "rank": 61
     },
     {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 44.6,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 62
-    },
-    {
      "name": "MailerSend",
      "slug": "mailersend",
      "description": "MailerSend is a transactional email and SMS platform built for developers. Its v1 REST API covers email sending (single, bulk to 500 objects per request, and scheduled up to 72 hours out), SMTP relay, templates, sending domains and DNS verification, sender identities, recipients and five suppression lists, inbound routing, activity and analytics, email verification, DMARC and blocklist monitoring, SMS, and account/token administration. Authentication is a domain-scoped bearer token drawn from a 30-value scope vocabulary. MailerSend ships six official SDKs, an official Laravel driver, a Go CLI with an interactive TUI, a remote OAuth-protected MCP server exposing 127 tools, and its own published Agent Skill — but no machine-readable API contract and no idempotency guarantee.",
@@ -3216,7 +3172,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Leanplum",
@@ -3259,7 +3215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Wunderkind",
@@ -3309,7 +3265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Knak",
@@ -3353,7 +3309,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "NeverBounce",
@@ -3396,7 +3352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Clerk.io",
@@ -3440,7 +3396,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Nutshell",
@@ -3484,7 +3440,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Community",
@@ -3534,7 +3490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "SendHub",
@@ -3584,7 +3540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Hashnode",
@@ -3627,7 +3583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Pabbly",
@@ -3678,7 +3634,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "SimpleTexting",
@@ -3728,7 +3684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Act-On",
@@ -3772,7 +3728,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Paragraph",
@@ -3816,7 +3772,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Crescendo Lab",
@@ -3867,7 +3823,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Metrilo",
@@ -3911,7 +3867,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Salesforce Marketing Cloud Account Engagement (Pardot)",
@@ -3955,7 +3911,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "VBOUT",
@@ -3999,7 +3955,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 80
+     "rank": 79
     }
    ],
    "open": true
@@ -4076,7 +4032,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Bluecore",
@@ -4127,7 +4083,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "iContact",
@@ -4171,7 +4127,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "Drip",
@@ -4215,7 +4171,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -4259,7 +4215,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Emotive",
@@ -4310,7 +4266,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Sprout Social",
@@ -4354,7 +4310,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Responsys",
@@ -4405,7 +4361,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "OptinMonster",
@@ -4449,7 +4405,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "MCP360",
@@ -4493,7 +4449,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "involve.me",
@@ -4537,7 +4493,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Oracle Eloqua",
@@ -4581,7 +4537,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "listmonk",
@@ -4631,7 +4587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Hilos",
@@ -4674,7 +4630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Movable Ink",
@@ -4717,7 +4673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "WoowUp",
@@ -4761,7 +4717,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Localytics",
@@ -4805,7 +4761,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "MailOptin",
@@ -4849,7 +4805,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "SharpSpring",
@@ -4893,7 +4849,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Conversica",
@@ -4944,7 +4900,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Poptin",
@@ -4988,7 +4944,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "LiveIntent",
@@ -5032,7 +4988,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Return Path",
@@ -5076,7 +5032,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Chatfuel",
@@ -5120,7 +5076,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 104
+     "rank": 103
     }
    ]
   },
@@ -5181,7 +5137,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "FuseWP",
@@ -5224,7 +5180,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Substack",
@@ -5268,7 +5224,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Jeeng",
@@ -5312,7 +5268,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Newoldstamp",
@@ -5356,7 +5312,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 109
+     "rank": 108
     },
     {
      "name": "Ovation",
@@ -5399,7 +5355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "PulseMCP",
@@ -5442,7 +5398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Podia",
@@ -5485,10 +5441,10 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 112
+     "rank": 111
     },
     {
-     "name": "Textla Inc.",
+     "name": "Textla",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/textla-inc/refs/heads/main/screenshots/textla-inc-2026-09-02T163313.png",
@@ -5535,7 +5491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Beacons.ai",
@@ -5579,7 +5535,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "PlusThis",
@@ -5630,7 +5586,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Push",
@@ -5681,7 +5637,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Terminus",
@@ -5724,7 +5680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "backstitch",
@@ -5767,7 +5723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Yesware",
@@ -5811,7 +5767,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 119
+     "rank": 118
     }
    ]
   },
@@ -5865,7 +5821,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Ematic Solutions",
@@ -5909,7 +5865,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "BetaList",
@@ -5952,7 +5908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Groupboss",
@@ -5996,7 +5952,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Motiva",
@@ -6040,7 +5996,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Heyo",
@@ -6084,7 +6040,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Revie",
@@ -6127,7 +6083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "PUBLY",
@@ -6171,7 +6127,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "RetainIQ",
@@ -6222,7 +6178,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Braid Social",
@@ -6265,7 +6221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Newneek",
@@ -6309,7 +6265,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Pico",
@@ -6360,7 +6316,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "ReDEF",
@@ -6404,7 +6360,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 132
+     "rank": 131
     }
    ]
   },
@@ -6457,7 +6413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Shoelace",
@@ -6501,7 +6457,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 134
+     "rank": 133
     }
    ]
   }

@@ -256,16 +256,16 @@ json_schemas:
 layout: provider
 mcp_servers:
 - description: ''
-  name: TARXAN Inc MCP Server
-  slug: tarxan-inc-mcp-server
+  name: TARXAN MCP Server
+  slug: tarxan-mcp-server
 modified: '2026-09-19'
-name: TARXAN Inc
+name: TARXAN
 nav: Providers
 network: true
-overview: 'TARXAN Inc publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Runtime, Local-First AI, and Private AI.
+overview: 'TARXAN publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, Agent Runtime, Local-First AI, and Private AI.
 
 
-  TARXAN Inc''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 36 more developer resources.'
+  TARXAN''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 36 more developer resources.'
 plans:
 - name: Tarx Com Plans Pricing
   plan_count: 6

@@ -50,10 +50,10 @@ description: Fintesa Inc. is a financial technology company providing comprehens
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fintesa-inc.png
 layout: provider
 modified: '2026-07-19'
-name: Fintesa Inc.
+name: Fintesa
 nav: Providers
 network: true
-overview: Fintesa Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Merchants.
+overview: Fintesa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Merchants.
 random_paper: 5
 score:
   band: minimal

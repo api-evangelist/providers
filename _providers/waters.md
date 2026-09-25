@@ -63,10 +63,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waters.png
 layout: provider
 modified: '2026-04-19'
-name: Waters Corporation
+name: Waters
 nav: Providers
 network: true
-overview: Waters Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Laboratory, Instruments, and Analytics.
+overview: Waters publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Laboratory, Instruments, and Analytics.
 plans:
 - name: Waters Plans Pricing
   plan_count: 1

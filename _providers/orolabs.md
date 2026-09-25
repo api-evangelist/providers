@@ -101,7 +101,7 @@ modified: '2026-07-20'
 name: Orolabs
 nav: Providers
 network: true
-overview: 'Orolabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Spend Management, Supplier Management, and Agentic AI.
+overview: 'Orolabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Procurement, Spend Management, Supplier Management, and AI Agents.
 
 
   Orolabs'' developer surface includes engineering blog, signup flow, and 11 more developer resources.'
@@ -152,7 +152,7 @@ tags:
 - Procurement
 - Spend Management
 - Supplier Management
-- Agentic AI
+- AI Agents
 - Workflow Automation
 - Enterprise Software
 - ProcureTech

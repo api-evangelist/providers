@@ -122,6 +122,6 @@ tags:
 - Human Resources
 - Interviewing
 - Talent Acquisition
-- ATS
+- Applicant Tracking
 website: https://www.qualifi.hr/
 ---

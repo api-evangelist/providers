@@ -78,13 +78,13 @@ description: DiligenceSquared is an AI-powered commercial due diligence and mark
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diligencesquared-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Diligencesquared Inc
+name: Diligencesquared
 nav: Providers
 network: true
-overview: 'Diligencesquared Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Due Diligence, Market Research, Private Equity, and Artificial Intelligence.
+overview: 'Diligencesquared is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Due Diligence, Market Research, Private Equity, and Artificial Intelligence.
 
 
-  Diligencesquared Inc''s developer surface includes signup flow, support, and 7 more developer resources.'
+  Diligencesquared''s developer surface includes signup flow, support, and 7 more developer resources.'
 random_paper: 2
 score:
   band: minimal

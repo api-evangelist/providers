@@ -66,10 +66,10 @@ description: 'ELKROOM CO., LTD. is a consumer mobile-gaming studio and 500 Globa
 image: https://elkroom.com/images/og/default.png
 layout: provider
 modified: '2026-07-19'
-name: ELKROOM CO., LTD.
+name: ELKROOM
 nav: Providers
 network: true
-overview: ELKROOM CO., LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile, Consumer App, and Game Launcher.
+overview: ELKROOM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile, Consumer App, and Game Launcher.
 random_paper: 21
 score:
   band: minimal

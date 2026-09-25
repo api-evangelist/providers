@@ -98,13 +98,13 @@ graphqls:
 image: https://app.unisub.io/assets/unisub-logo-vertical.svg
 layout: provider
 modified: '2026-07-21'
-name: Unisub LLC
+name: Unisub
 nav: Providers
 network: true
-overview: 'Unisub LLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cryptocurrency, Subscription, and Recurring Billing.
+overview: 'Unisub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Cryptocurrency, Subscription, and Recurring Billing.
 
 
-  Unisub LLC''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
+  Unisub''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
 random_paper: 10
 score:
   band: emerging

@@ -66,13 +66,13 @@ description: TAAI Labs, Inc operates Sparkle (sparkle.security), an AI-first sec
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taai-labs-inc.png
 layout: provider
 modified: '2026-07-21'
-name: TAAI Labs, Inc
+name: Sparkle
 nav: Providers
 network: true
-overview: 'TAAI Labs, Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, Artificial Intelligence, and Secure SDLC.
+overview: 'Sparkle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, Artificial Intelligence, and Secure SDLC.
 
 
-  TAAI Labs, Inc''s developer surface includes signup flow and 5 more developer resources.'
+  Sparkle''s developer surface includes signup flow and 5 more developer resources.'
 random_paper: 5
 score:
   band: emerging

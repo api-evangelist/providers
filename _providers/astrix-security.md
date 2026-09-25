@@ -168,6 +168,5 @@ tags:
 - Identity and Access Management
 - AI Agents
 - Cybersecurity
-- Agentic AI
 website: https://astrix.security/
 ---

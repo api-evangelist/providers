@@ -107,13 +107,13 @@ description: Access Vascular, Inc. is a Billerica, Massachusetts medical device 
 image: http://static1.squarespace.com/static/6221f3828dc3c91f338d47ed/t/65bacd55b532e27a3ad54ad9/1706741077575/AV_logo_white.png?format=1500w
 layout: provider
 modified: '2026-09-06'
-name: Access Vascular, Inc.
+name: Access Vascular
 nav: Providers
 network: true
-overview: 'Access Vascular, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Vascular Access, and Catheters.
+overview: 'Access Vascular is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Vascular Access, and Catheters.
 
 
-  Access Vascular, Inc.''s developer surface includes engineering blog and 10 more developer resources.'
+  Access Vascular''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 17
 score:
   band: minimal

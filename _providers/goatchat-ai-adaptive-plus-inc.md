@@ -50,10 +50,10 @@ description: GoatChat AI - Adaptive Plus Inc. is a company surfaced as a portfol
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goatchat-ai-adaptive-plus-inc.png
 layout: provider
 modified: '2026-07-19'
-name: GoatChat AI - Adaptive Plus Inc.
+name: GoatChat AI
 nav: Providers
 network: true
-overview: GoatChat AI - Adaptive Plus Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbots, and LLM.
+overview: GoatChat AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Chatbots, and LLM.
 random_paper: 21
 score:
   band: minimal

@@ -2323,7 +2323,7 @@
      "rank": 49
     },
     {
-     "name": "lunchlab Corp.",
+     "name": "lunchlab",
      "slug": "lunchlab-corp",
      "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
@@ -3124,7 +3124,7 @@
      "rank": 67
     },
     {
-     "name": "Habitus Associates Co., Ltd.",
+     "name": "Artue",
      "slug": "habitus-associates-co-ltd",
      "description": "Habitus Associates Co., Ltd. is the company behind Artue (artue.io), an AI-powered online marketplace for original artworks by Korean and international artists. Artue lets collectors discover, purchase, and resell paintings, photography, sculptures, and prints, with natural-language search that finds works by mood, color, style, room type, or budget. The platform is explicitly agent-native: it publishes an llms.txt and ships a hosted Model Context Protocol (MCP) server so AI assistants such as Claude and ChatGPT can search its collection directly. Backed by 500 Global and surfaced into the API Evangelist network from that portfolio.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/habitus-associates-co-ltd/refs/heads/main/screenshots/habitus-associates-co-ltd-2026-07-25T220515.png",
@@ -3602,7 +3602,7 @@
      "rank": 78
     },
     {
-     "name": "Plantner Inc.",
+     "name": "Plantner",
      "slug": "plantner-inc",
      "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
@@ -3688,7 +3688,7 @@
      "rank": 80
     },
     {
-     "name": "RVDS Inc.",
+     "name": "RVDS",
      "slug": "rvds-inc",
      "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",

@@ -82,7 +82,7 @@ modified: '2026-08-08'
 name: Nurix
 nav: Providers
 network: true
-overview: 'Nurix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, Agentic AI, and Customer Support.
+overview: 'Nurix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Customer Support.
 
 
   Nurix''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -128,7 +128,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Customer Support
 - Sales
 - Voice

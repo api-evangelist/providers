@@ -120,7 +120,7 @@ modified: '2026-07-18'
 name: ConverSight.ai
 nav: Providers
 network: true
-overview: 'ConverSight.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Supply Chain, Decision Intelligence, and Agentic AI.
+overview: 'ConverSight.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Supply Chain, Decision Intelligence, and AI Agents.
 
 
   ConverSight.ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 11 more developer resources.'
@@ -165,7 +165,7 @@ tags:
 - Artificial Intelligence
 - Supply Chain
 - Decision Intelligence
-- Agentic AI
+- AI Agents
 - Analytics
 - Data
 - Enterprise

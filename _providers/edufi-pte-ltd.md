@@ -66,13 +66,13 @@ description: EduFi (EDUFI PTE. LTD) is a Singapore-incorporated education-financ
 image: https://www.edufi.tech/wp-content/uploads/2022/03/EduFi_logo.svg
 layout: provider
 modified: '2026-07-19'
-name: EDUFI PTE. LTD
+name: EDUFI
 nav: Providers
 network: true
-overview: 'EDUFI PTE. LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Education, Lending, and Financial Services.
+overview: 'EDUFI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Education, Lending, and Financial Services.
 
 
-  EDUFI PTE. LTD''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  EDUFI''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 14
 score:
   band: minimal

@@ -153,7 +153,7 @@ modified: '2026-08-21'
 name: OpenPages
 nav: Providers
 network: true
-overview: 'OpenPages publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Governance, Risk, and Compliance.
+overview: 'OpenPages publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B, Governance, Risk Management, and Compliance.
 
 
   The OpenPages catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -208,11 +208,10 @@ tags:
 - Company
 - B2B
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - GRC
 - Regulatory Compliance
-- Risk Management
 - Enterprise Software
 - Watsonx
 - Audit

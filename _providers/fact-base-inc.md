@@ -50,10 +50,10 @@ description: Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-
 image: https://storage.googleapis.com/production-os-assets/assets/7c1b886b-9518-4f74-9a40-4613316fa605
 layout: provider
 modified: '2026-07-19'
-name: Fact Base Inc.
+name: Fact Base
 nav: Providers
 network: true
-overview: Fact Base Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Japan, Digitization, and Smart Factory.
+overview: Fact Base is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Japan, Digitization, and Smart Factory.
 random_paper: 19
 score:
   band: minimal

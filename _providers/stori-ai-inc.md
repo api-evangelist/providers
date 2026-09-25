@@ -83,13 +83,13 @@ description: STORI AI is a San Francisco-based AI content-marketing platform tha
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stori-ai-inc.png
 layout: provider
 modified: '2026-08-13'
-name: STORI AI Inc.
+name: STORI AI
 nav: Providers
 network: true
-overview: 'STORI AI Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Marketing, Social Media, and Marketing.
+overview: 'STORI AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Content Marketing, Social Media, and Marketing.
 
 
-  STORI AI Inc.''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
+  STORI AI''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
 random_paper: 1
 score:
   band: emerging

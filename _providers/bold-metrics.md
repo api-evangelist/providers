@@ -118,6 +118,6 @@ tags:
 - Retail
 - E-Commerce
 - Digital Twin
-- Agentic
+- AI Agents
 website: https://www.boldmetrics.com/
 ---

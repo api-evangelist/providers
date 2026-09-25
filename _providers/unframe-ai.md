@@ -106,7 +106,7 @@ modified: '2026-07-21'
 name: Unframe AI
 nav: Providers
 network: true
-overview: 'Unframe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Enterprise AI, Agentic AI, and AI Agents.
+overview: 'Unframe AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Enterprise AI, AI Agents, and Workflow Automation.
 
 
   Unframe AI''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -158,7 +158,6 @@ tags:
 - Company
 - Ai Ml
 - Enterprise AI
-- Agentic AI
 - AI Agents
 - Workflow Automation
 - Voice Agents

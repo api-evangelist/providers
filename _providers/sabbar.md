@@ -77,7 +77,7 @@ modified: '2026-07-21'
 name: Sabbar
 nav: Providers
 network: true
-overview: 'Sabbar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employment, Recruitment, Job, and Hiring.
+overview: 'Sabbar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employment, Recruiting, Job, and Hiring.
 
 
   Sabbar''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
@@ -125,7 +125,7 @@ slug: sabbar
 tags:
 - Company
 - Employment
-- Recruitment
+- Recruiting
 - Job
 - Hiring
 - Human Resources

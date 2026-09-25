@@ -89,7 +89,7 @@ modified: '2026-05-11'
 name: Jobvite
 nav: Providers
 network: true
-overview: 'Jobvite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, ATS, Recruiting, Human Resources, and Talent Acquisition.
+overview: 'Jobvite publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Talent Acquisition, and Onboarding.
 
 
   Jobvite''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
@@ -129,7 +129,6 @@ security:
 slug: jobvite
 tags:
 - Applicant Tracking
-- ATS
 - Recruiting
 - Human Resources
 - Talent Acquisition

@@ -49,10 +49,10 @@ description: 'NVE Corporation (nve.com, NASDAQ: NVEC) is a leader in the practic
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nve.png
 layout: provider
 modified: '2026-07-20'
-name: NVE Corporation
+name: NVE
 nav: Providers
 network: true
-overview: NVE Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Sensors, Spintronics, and Magnetic Sensors.
+overview: NVE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Sensors, Spintronics, and Magnetic Sensors.
 random_paper: 21
 score:
   band: minimal

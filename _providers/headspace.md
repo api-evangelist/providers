@@ -242,5 +242,6 @@ tags:
 - EAP
 - Consumer
 - B2B
+- Wellness
 website: https://www.headspace.com
 ---

@@ -107,6 +107,6 @@ tags:
 - Synthetic Data
 - Credit Scoring
 - Financial Services
-- Risk
+- Risk Management
 website: https://zypl.ai
 ---

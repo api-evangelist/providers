@@ -184,7 +184,7 @@ modified: '2026-08-12'
 name: Pinoffer
 nav: Providers
 network: true
-overview: 'Pinoffer publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising Technology, Marketing Technology, E-Commerce, and Marketing Automation.
+overview: 'Pinoffer publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Marketing Technology, E-Commerce, and Marketing Automation.
 
 
   The Pinoffer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,7 +247,7 @@ security:
 slug: pinoffer
 tags:
 - Company
-- Advertising Technology
+- AdTech
 - Marketing Technology
 - E-Commerce
 - Marketing Automation

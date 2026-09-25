@@ -126,6 +126,6 @@ tags:
 - Cybersecurity
 - Security Operations
 - Exposure Management
-- Agentic AI
+- AI Agents
 website: https://www.surf.ai/
 ---

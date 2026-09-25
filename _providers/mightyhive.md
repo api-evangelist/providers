@@ -178,6 +178,6 @@ tags:
 - Programmatic Advertising
 - Consulting
 - Data
-- Advertising Technology
+- AdTech
 website: https://www.monks.com/
 ---

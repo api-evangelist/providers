@@ -66,10 +66,10 @@ description: Hakeem X Technologies (HAKEEM HOLDING LTD) is a UAE-based healthcar
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hakeem-holding-ltd.png
 layout: provider
 modified: '2026-07-19'
-name: HAKEEM HOLDING LTD
+name: HAKEEM
 nav: Providers
 network: true
-overview: HAKEEM HOLDING LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Clinical Decision Support, and Medical Education.
+overview: HAKEEM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Clinical Decision Support, and Medical Education.
 random_paper: 14
 score:
   band: minimal

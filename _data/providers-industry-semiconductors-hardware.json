@@ -1939,7 +1939,7 @@
      "rank": 44
     },
     {
-     "name": "TARXAN Inc",
+     "name": "TARXAN",
      "slug": "tarx-com",
      "description": "TARXAN Inc (TARX, Austin TX) builds a local-first AI agent runtime: free TARX_OS / TARX Desktop software for Apple Silicon Macs, a shell CLI that installs a local inference daemon and local MCP servers, an optional hosted \"Supercomputer\" reached through an OpenAI-compatible API (api.tarx.com/v1, model t-supercomputer), and dedicated \"Black Box\" and humanoid/quadruped hardware. Its public agent surface is a remote MCP server at mcp.tarx.com/mcp (22 anonymous tools, OAuth 2.0 + PKCE for private memory, RFC 8414/9728 metadata) advertised by an A2A 0.3.0 agent card at tarx.com/.well-known/agent-card.json and a prose \"cairn\" (we.txt, skill.md, courier.md) that tells visiting agents how to register a Soul through plain REST on tarx.com/api. No OpenAPI is published.",
      "score": 46.7,
@@ -5604,48 +5604,6 @@
      "rank": 128
     },
     {
-     "name": "aiCTX (now SynSense)",
-     "slug": "aictx",
-     "description": "aiCTX AG — renamed SynSense AG in May 2020 — is a neuromorphic computing company founded in Zurich in 2017 out of the Institute of Neuroinformatics at the University of Zurich and ETH Zurich. It designs ultra-low-power mixed-signal neuromorphic processors and smart sensors for always-on, sub-milliwatt edge inference: the Speck and DYNAP-CNN event-driven vision SoCs, the Xylo family for audio and IMU signal processing, and the DVS, Rigi and AEVEON sensor series. Its developer surface is a stack of open-source Python libraries rather than a product web API — Samna (the device interface and runtime), Rockpool (spiking network training and deployment) and Sinabs (PyTorch spiking CNNs) — backed by a developer community, forum, and firmware and datasheet download hub at synsense.ai. The one HTTP API the company serves publicly is the anonymous, read-only WordPress REST content API behind that corporate site, which exposes its products, partners, offices, awards, open roles and news as machine-readable JSON.",
-     "score": 30.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 6.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 129
-    },
-    {
      "name": "Q Ctrl",
      "slug": "q-ctrl",
      "description": "Q-CTRL builds infrastructure software to power the quantum future, delivering AI-driven quantum control, error-suppression, and performance-management tools that span quantum computing and quantum sensing. Its products — Boulder Opal (hardware design and control), Fire Opal (quantum error suppression), Black Opal (education), and Ironstone Opal (GPS-free quantum navigation) — are consumed primarily through official Python client libraries that authenticate against the Q-CTRL account service and call a hosted cloud GraphQL API at api.q-ctrl.com. Q-CTRL serves enterprise, defense, aerospace, and research customers and is ISO/IEC 27001:2022 certified.",
@@ -5686,7 +5644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Hyperbolic",
@@ -5729,7 +5687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Level Home",
@@ -5772,7 +5730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "SiFive",
@@ -5815,7 +5773,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "ModRetro",
@@ -5858,7 +5816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "MangoBoost",
@@ -5901,7 +5859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Ultraleap",
@@ -5943,7 +5901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Super Micro Computer",
@@ -5986,7 +5944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Fluidstack",
@@ -6029,7 +5987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "HYPERLABS",
@@ -6062,6 +6020,48 @@
       "openapi_examples": "documented",
       "rate_limit_signal": false,
       "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 138
+    },
+    {
+     "name": "aiCTX (now SynSense)",
+     "slug": "aictx",
+     "description": "aiCTX AG — renamed SynSense AG in May 2020 — is a neuromorphic computing company founded in Zurich in 2017 out of the Institute of Neuroinformatics at the University of Zurich and ETH Zurich. It designs ultra-low-power mixed-signal neuromorphic processors and smart sensors for always-on, sub-milliwatt edge inference: the Speck and DYNAP-CNN event-driven vision SoCs, the Xylo family for audio and IMU signal processing, and the DVS, Rigi and AEVEON sensor series. Its developer surface is a stack of open-source Python libraries rather than a product web API — Samna (the device interface and runtime), Rockpool (spiking network training and deployment) and Sinabs (PyTorch spiking CNNs) — backed by a developer community, forum, and firmware and datasheet download hub at synsense.ai. The one HTTP API the company serves publicly is the anonymous, read-only WordPress REST content API behind that corporate site, which exposes its products, partners, offices, awards, open roles and news as machine-readable JSON.",
+     "score": 29.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -6766,6 +6766,55 @@
      "rank": 155
     },
     {
+     "name": "EFFECT Photonics",
+     "slug": "effect-photonics",
+     "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
+     "score": 27.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 17.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 65.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 156
+    },
+    {
      "name": "AIDIN ROBOTICS",
      "slug": "aidinrobotics",
      "description": "AIDIN ROBOTICS Inc. (에이딘로보틱스) is a South Korean robot-sensor company founded in 2019 out of the Robotics Innovatory lab in the Department of Mechanical Engineering at Sungkyunkwan University, and headquartered in Anyang, Gyeonggi-do. It builds the force-sensing layer that sits between a robot and the physical world: six-axis force/torque sensors (AFT200 series), miniature and three-axis F/T sensors, ultra-thin joint torque sensors (ATS/ATSB series), proximity and tactile safety sensors, the Susgrip smart gripper, the AIDIN Hand Gen2 robot hand, the ARC robot motion controller, and the AIDIN9 quadruped platform. Sensors ship in EtherCAT, EtherNet/IP, CAN and RS-485 variants and carry ISO 9001, CE, KC, FCC and RoHS marks. AIDIN ROBOTICS runs no web API product and publishes no OpenAPI, GraphQL, AsyncAPI, gRPC or SOAP contract. Its real developer surface is device-side and first-party: the Apache-2.0 AIDIN Hand Gen2 SDK on GitHub — a C++ library speaking CAN-FD over Linux SocketCAN with a CiA 402 drive state machine, a documented error catalog, a Keep a Changelog history and semantic versioning — plus an older ROS package for reading the AFT force/torque sensor over RS-485. Alongside that, the company's Wix-hosted marketing site serves a company-authored llms.txt and an anonymous remote Model Context Protocol endpoint, which is the only network-callable API surface it publishes.",
@@ -6802,55 +6851,6 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 156
-    },
-    {
-     "name": "EFFECT Photonics",
-     "slug": "effect-photonics",
-     "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
-     "score": 26.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 17.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 65.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -7926,56 +7926,6 @@
      "rank": 181
     },
     {
-     "name": "Exentis Group",
-     "slug": "exentis-group",
-     "description": "Exentis Group AG is a Swiss industrial technology company headquartered at Im Stetterfeld 2 in Stetten (canton Aargau), near Zurich, with facilities and subsidiaries in Switzerland, Germany and the United States. It develops and sells the Exentis 3D Screen Printing platform — an additive manufacturing technology that builds parts layer by layer at room temperature through screen printing followed by sintering, with no lasers, no support structures and no rework, reaching wall thicknesses and cavities down to roughly 70 micrometres and producing undercuts and closed cavities. The company positions the platform for industrial series production rather than prototyping: a single production system is marketed as capable of millions of components per year, and in pharmaceuticals the process is used to mass-produce tablets with adjustable, controlled drug-release profiles. Its named market segments are pharma, new energy and ultra-fine industrial structures, in metals, technical ceramics and polymers, alongside cleanroom and bioprinting configurations. Exentis holds ISO 9001:2015 certification for its Stetten head office and all German locations, and in Q4 2024 reported roughly USD 22 million in orders for nine production systems shipping to United States customers. It is a manufacturing-equipment vendor, not a software company: it publishes no developer portal, no product API, no SDKs, no pricing and no status page. The only machine-readable API surface on its public host is the WordPress REST API behind www.exentis-group.com, which serves the press room, blog, corporate pages, media library, taxonomies, site search and Polylang language configuration as JSON, read-only without credentials — plus an MCP server endpoint mounted by the WordPress MCP adapter, which is present but returns 401 to anonymous callers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/screenshots/exentis-group-2026-09-02T145447.png",
-     "score": 24.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 40.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 182
-    },
-    {
      "name": "zSpace",
      "slug": "zspace",
      "description": "zSpace, Inc. (Nasdaq: ZSPC) builds AR/VR learning technology for K-12, career and technical education, and higher education — glasses-free 3D laptops and all-in-one displays (Inspire, Imagine, AIO Pro) paired with a stylus, head tracking, and a catalog of curriculum-aligned applications, models and simulations. Its developer surface is centered on the zSpace Core SDK, a native C API plus a Unity plugin that gives applications access to the display's stereo frustum, coordinate spaces, tracker devices and targets, stylus buttons, LED and haptics. A first-party developer portal at developer.zspace.com fronts an authenticated web API at api.zspace.com/v2 and a Keycloak OpenID Connect identity provider at auth.zspace.com; product release notes for roughly thirty applications are published from a public updates.zspace.com bucket. zSpace is a publicly traded company (Nasdaq: ZSPC) headquartered in San Jose, California with more than 70 patents, and reports over 2,400 U.S. school, technical-center, community-college and university customers.",
@@ -8022,7 +7972,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Ableton",
@@ -8078,7 +8028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Earable",
@@ -8128,6 +8078,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
+     "rank": 184
+    },
+    {
+     "name": "Exentis Group",
+     "slug": "exentis-group",
+     "description": "Exentis Group AG is a Swiss industrial technology company headquartered at Im Stetterfeld 2 in Stetten (canton Aargau), near Zurich, with facilities and subsidiaries in Switzerland, Germany and the United States. It develops and sells the Exentis 3D Screen Printing platform — an additive manufacturing technology that builds parts layer by layer at room temperature through screen printing followed by sintering, with no lasers, no support structures and no rework, reaching wall thicknesses and cavities down to roughly 70 micrometres and producing undercuts and closed cavities. The company positions the platform for industrial series production rather than prototyping: a single production system is marketed as capable of millions of components per year, and in pharmaceuticals the process is used to mass-produce tablets with adjustable, controlled drug-release profiles. Its named market segments are pharma, new energy and ultra-fine industrial structures, in metals, technical ceramics and polymers, alongside cleanroom and bioprinting configurations. Exentis holds ISO 9001:2015 certification for its Stetten head office and all German locations, and in Q4 2024 reported roughly USD 22 million in orders for nine production systems shipping to United States customers. It is a manufacturing-equipment vendor, not a software company: it publishes no developer portal, no product API, no SDKs, no pricing and no status page. The only machine-readable API surface on its public host is the WordPress REST API behind www.exentis-group.com, which serves the press room, blog, corporate pages, media library, taxonomies, site search and Polylang language configuration as JSON, read-only without credentials — plus an MCP server endpoint mounted by the WordPress MCP adapter, which is present but returns 401 to anonymous callers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/screenshots/exentis-group-2026-09-02T145447.png",
+     "score": 23.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 185
     },
     {
@@ -8174,7 +8174,7 @@
      "rank": 186
     },
     {
-     "name": "Axiado Corporation",
+     "name": "Axiado",
      "slug": "axiado-corporation",
      "description": "Axiado Corporation is a San Jose, California semiconductor company building hardware-anchored, AI-driven platform security for AI data centers, cloud infrastructure, 5G networks and disaggregated compute. Its flagship Trusted Control/Compute Unit (TCU) — the AX3000 family and the second-generation AX3080 — collapses the baseboard management controller (BMC), hardware root of trust, trusted platform module (TPM), hardware security module, firewall and LAN-on-motherboard into a single system-on-chip with on-die AI/ML engines for dynamic threat management. Axiado ships OCP DC-SCM secure control modules (Smart-SCM3002, SCM3003, SCM3080-MT) alongside the SecureStack ADK, a Zephyr RTOS software development kit whose public API reference documents crypto, key management, X.509 certificate, BMC control, flash, SPI, DMA and OS-abstraction engines, plus OpenBMC-based out-of-band management running on the TCU. Developer documentation is published at devhub.axiado.com. The API surface is an embedded C/C++ SDK and on-device management interface — Axiado publishes no hosted public web API and no OpenAPI definition.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/screenshots/axiado-corporation-2026-08-07T162032.png",
@@ -8446,7 +8446,7 @@
      "rank": 192
     },
     {
-     "name": "Piper Inc.",
+     "name": "Piper",
      "slug": "piper-inc",
      "description": "Piper (Piper Learning, Inc. / Piper LLC) is an educational-technology company that makes hands-on STEM learning kits — most notably the Piper Computer Kit, a buildable wooden computer that teaches circuitry and coding through Minecraft, and Piper Make, a browser-based platform for exploring electronics and Python. Its consumer storefront runs on Shopify and exposes an agent-commerce surface: a Universal Commerce Protocol (UCP) merchant profile with an MCP endpoint plus Shopify Customer Account OpenID Connect, letting AI shopping agents search the catalog, build carts, and check out with explicit buyer approval. Surfaced as a 500 Global portfolio company and enriched from its live public agent/discovery surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/screenshots/piper-inc-2026-09-02T151319.png",
@@ -8539,105 +8539,6 @@
      "rank": 194
     },
     {
-     "name": "Addis Energy",
-     "slug": "addis-energy",
-     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 195
-    },
-    {
-     "name": "Fabric8Labs",
-     "slug": "fabric8labs",
-     "description": "Fabric8Labs is a San Diego, California based advanced-manufacturing company founded in 2015 that invented and commercialized Electrochemical Additive Manufacturing (ECAM), a room-temperature metal 3D printing process that uses a patented microelectrode array printhead to electroplate copper ions out of a water-based metal-salt solution pixel by pixel. Unlike powder-bed and laser metal additive methods, ECAM needs no high-temperature step, no expensive metal powder feedstock and effectively no post-processing, prints at micron-scale resolution directly onto temperature-sensitive substrates, and the company reports more than a 90% reduction in greenhouse gas emissions against alternative additive and traditional manufacturing routes. Fabric8Labs operates as both a technology developer and a production foundry, manufacturing high-precision components for data-center liquid cooling and AI/HPC thermal management (cold plates, single-phase, two-phase and immersion cooling), RF and wireless communications, satellite and aerospace systems, power electronics, photonics cooling, semiconductors, medical devices and luxury goods. It has raised funding from Intel Capital, TDK Ventures and others, including a $50M round announced in November 2025 to expand United States manufacturing capacity toward tens of millions of components annually, and on 10 June 2026 announced it will be acquired by TDK Corporation — the company continues under existing leadership, with ECAM folded into TDK's global manufacturing network. Fabric8Labs publishes no product, customer or developer API and runs no developer program; the only machine-readable surface on fabric8labs.com is the public WordPress REST API (namespace wp/v2) that serves the company newsroom, site pages, leadership team directory, taxonomy and media library as JSON, alongside a WordPress MCP Adapter endpoint and RFC 8414/RFC 9728 OAuth discovery documents that are served but authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 196
-    },
-    {
      "name": "Group14 Technologies",
      "slug": "group14-technologies",
      "description": "Group14 Technologies is a battery materials manufacturer headquartered in Woodinville, Washington, founded in 2015 by Rick Luebbe, Dr. Rick Costantino and Aaron Feaver as a spinout of EnerG2. It produces SCC55, a silicon-carbon composite anode material that replaces graphite in lithium-ion cells to raise energy density, shorten charge times and extend cycle life for electric mobility, grid-scale storage and consumer electronics. Manufacturing runs through its BAM (battery active materials) factory network — BAM-1 and the silane factory in Washington State, BAM-2 in Moses Lake, and BAM-3 operated by the SK materials Group14 joint venture in Sangju, South Korea — and the company reports more than 170 issued patents worldwide. Group14 is a materials manufacturer rather than a software vendor: it publishes no developer program, no API documentation, no SDKs and no pricing for machine access. The only machine-readable interfaces it exposes are the anonymously readable WordPress REST content API behind group14.technology, captured here for discovery purposes and read-only without credentials, and a WordPress MCP Adapter endpoint on the same host that is registered but authentication-gated.",
@@ -8662,15 +8563,15 @@
       "score": 40.5,
       "matched_via": "tags"
      },
-     "agent_score": 17.8,
+     "agent_score": 15.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -8679,13 +8580,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 195
     },
     {
      "name": "Graphistry",
@@ -8728,7 +8629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 196
     },
     {
      "name": "1MORE",
@@ -8770,7 +8671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 199
+     "rank": 197
     },
     {
      "name": "Intel",
@@ -8813,7 +8714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 198
     },
     {
      "name": "Quantinuum",
@@ -8856,7 +8757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 199
     },
     {
      "name": "Looking Glass Factory",
@@ -8899,7 +8800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 200
     },
     {
      "name": "HEAVY.AI",
@@ -8942,7 +8843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 201
     },
     {
      "name": "CleverPet",
@@ -8985,7 +8886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 202
     },
     {
      "name": "Halo Collar",
@@ -9028,7 +8929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 203
     },
     {
      "name": "Evolved By Nature",
@@ -9071,7 +8972,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 206
+     "rank": 204
+    },
+    {
+     "name": "Fabric8Labs",
+     "slug": "fabric8labs",
+     "description": "Fabric8Labs is a San Diego, California based advanced-manufacturing company founded in 2015 that invented and commercialized Electrochemical Additive Manufacturing (ECAM), a room-temperature metal 3D printing process that uses a patented microelectrode array printhead to electroplate copper ions out of a water-based metal-salt solution pixel by pixel. Unlike powder-bed and laser metal additive methods, ECAM needs no high-temperature step, no expensive metal powder feedstock and effectively no post-processing, prints at micron-scale resolution directly onto temperature-sensitive substrates, and the company reports more than a 90% reduction in greenhouse gas emissions against alternative additive and traditional manufacturing routes. Fabric8Labs operates as both a technology developer and a production foundry, manufacturing high-precision components for data-center liquid cooling and AI/HPC thermal management (cold plates, single-phase, two-phase and immersion cooling), RF and wireless communications, satellite and aerospace systems, power electronics, photonics cooling, semiconductors, medical devices and luxury goods. It has raised funding from Intel Capital, TDK Ventures and others, including a $50M round announced in November 2025 to expand United States manufacturing capacity toward tens of millions of components annually, and on 10 June 2026 announced it will be acquired by TDK Corporation — the company continues under existing leadership, with ECAM folded into TDK's global manufacturing network. Fabric8Labs publishes no product, customer or developer API and runs no developer program; the only machine-readable surface on fabric8labs.com is the public WordPress REST API (namespace wp/v2) that serves the company newsroom, site pages, leadership team directory, taxonomy and media library as JSON, alongside a WordPress MCP Adapter endpoint and RFC 8414/RFC 9728 OAuth discovery documents that are served but authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png",
+     "score": 21.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 205
     },
     {
      "name": "Hammerhead",
@@ -9110,6 +9061,55 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 206
+    },
+    {
+     "name": "Addis Energy",
+     "slug": "addis-energy",
+     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -10664,15 +10664,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -10681,99 +10681,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 242
-    },
-    {
-     "name": "Eridu",
-     "slug": "eridu",
-     "description": "Eridu is an AI networking infrastructure company founded in 2024 and headquartered at 12900 Saratoga Ave in Saratoga, California. It is building a clean-sheet network switch architecture — silicon, systems and software together — aimed at the interconnect bottleneck that limits how efficiently GPUs exchange data inside large AI training clusters and data centers. The company was co-founded by CEO Drew Perkins, who previously co-founded Lightera Networks (acquired by Ciena) and Infinera, alongside Chief Product Officer Omar Hassen, and emerged from stealth in March 2026 with an oversubscribed Series A of more than $200M led by Socratic Partners, bringing total funding to approximately $230M with participation from John Doerr, Kleiner Perkins, Hudson River Trading, Capricorn Investment Group, Matter Venture Partners and Fusion Fund. Eridu is a semiconductor and systems company rather than a software vendor: it publishes no developer program, no developer portal, no product API, no SDKs and no pricing. The only machine-readable interface it serves is the WordPress core REST API behind its corporate site at eridu.ai, captured here for discovery purposes and anonymously readable but effectively read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 243
-    },
-    {
-     "name": "Kateeva",
-     "slug": "kateeva",
-     "description": "Kateeva is a Silicon Valley capital-equipment company that builds inkjet printing systems for manufacturing advanced displays. It was co-founded in 2008 by Conor Madigan, PhD, Valerie Gassend, PhD, and Gerry Chen, PhD, on the conviction that precision inkjet deposition could make OLED displays mass-producible at cost. The company introduced its YIELDjet platform in 2013 — the display industry's first inkjet equipment solution for depositing the organic thin film encapsulation (TFE) layer of an OLED panel — and shipped the first commercial YIELDjet FLEX system a year later, which became the market-leading tool for flexible mobile OLED mass production. Its current product line is the YIELDjet Lassen, Jarvis, Tioga and Kuna printers, spanning substrate sizes and applications from TFE to OLED RGB pixel deposition and microlens planarization. Kateeva moved its global headquarters to Newark, California in 2015 and operates in China, Korea, Japan and Taiwan; it raised roughly $200 million through a 2016 Series E backed by BOE, TCL Capital, Redview Capital, Samsung Venture Investment, Sigma Partners, Spark Capital, Madrone Capital Partners, DBL Partners and Veeco. Kateeva sells machines to display panel makers, not software: it publishes no developer program, no developer portal, no SDKs and no API documentation of any kind. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at kateeva.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/screenshots/kateeva-2026-09-02T150024.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 244
     },
     {
      "name": "Stratasys",
@@ -10816,7 +10730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 243
     },
     {
      "name": "Achronix Semiconductor",
@@ -10859,7 +10773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 244
     },
     {
      "name": "hubs",
@@ -10902,7 +10816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 245
     },
     {
      "name": "Alif Semiconductor",
@@ -10936,6 +10850,92 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 246
+    },
+    {
+     "name": "Eridu",
+     "slug": "eridu",
+     "description": "Eridu is an AI networking infrastructure company founded in 2024 and headquartered at 12900 Saratoga Ave in Saratoga, California. It is building a clean-sheet network switch architecture — silicon, systems and software together — aimed at the interconnect bottleneck that limits how efficiently GPUs exchange data inside large AI training clusters and data centers. The company was co-founded by CEO Drew Perkins, who previously co-founded Lightera Networks (acquired by Ciena) and Infinera, alongside Chief Product Officer Omar Hassen, and emerged from stealth in March 2026 with an oversubscribed Series A of more than $200M led by Socratic Partners, bringing total funding to approximately $230M with participation from John Doerr, Kleiner Perkins, Hudson River Trading, Capricorn Investment Group, Matter Venture Partners and Fusion Fund. Eridu is a semiconductor and systems company rather than a software vendor: it publishes no developer program, no developer portal, no product API, no SDKs and no pricing. The only machine-readable interface it serves is the WordPress core REST API behind its corporate site at eridu.ai, captured here for discovery purposes and anonymously readable but effectively read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 247
+    },
+    {
+     "name": "Kateeva",
+     "slug": "kateeva",
+     "description": "Kateeva is a Silicon Valley capital-equipment company that builds inkjet printing systems for manufacturing advanced displays. It was co-founded in 2008 by Conor Madigan, PhD, Valerie Gassend, PhD, and Gerry Chen, PhD, on the conviction that precision inkjet deposition could make OLED displays mass-producible at cost. The company introduced its YIELDjet platform in 2013 — the display industry's first inkjet equipment solution for depositing the organic thin film encapsulation (TFE) layer of an OLED panel — and shipped the first commercial YIELDjet FLEX system a year later, which became the market-leading tool for flexible mobile OLED mass production. Its current product line is the YIELDjet Lassen, Jarvis, Tioga and Kuna printers, spanning substrate sizes and applications from TFE to OLED RGB pixel deposition and microlens planarization. Kateeva moved its global headquarters to Newark, California in 2015 and operates in China, Korea, Japan and Taiwan; it raised roughly $200 million through a 2016 Series E backed by BOE, TCL Capital, Redview Capital, Samsung Venture Investment, Sigma Partners, Spark Capital, Madrone Capital Partners, DBL Partners and Veeco. Kateeva sells machines to display panel makers, not software: it publishes no developer program, no developer portal, no SDKs and no API documentation of any kind. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at kateeva.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/screenshots/kateeva-2026-09-02T150024.png",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -11077,49 +11077,6 @@
      "rank": 251
     },
     {
-     "name": "Accelsius",
-     "slug": "accelsius",
-     "description": "Accelsius LLC is an Austin, Texas thermal-management company founded in 2022 by Innventure to commercialize two-phase, direct-to-chip liquid cooling for AI, HPC and mission-critical data centers. Its NeuCool platform circulates a non-conductive dielectric refrigerant through cold plates mounted directly on CPUs and GPUs, removing heat by evaporation rather than by bringing water into the IT rack, and supports 4,500W+ per socket and rack densities up to 250kW. The product line includes the IR150 in-rack CDU, the MR250 medium-rack CDU, the NeuCool Thermal Simulation Rack and Liquid Simulation System used for evaluation and deployment planning, and multi-GPU cold plate assemblies, backed by professional services spanning system architecture, integration, deployment and maintenance. Accelsius is a hardware manufacturer, not a software or data company: it publishes no developer program, product API, SDK or machine-readable product specification. The only machine-readable interface on its public surface is the WordPress core REST API behind accelsius.com, which serves the company's own blog, news, white-paper, case-study, podcast and video content anonymously and read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png",
-     "score": 18.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 252
-    },
-    {
      "name": "Double Robotics",
      "slug": "double-robotics",
      "description": "Double Robotics builds telepresence robots for hybrid work and education, best known for the self-driving Double 3 videoconferencing robot and the earlier iPad-based Double 2. Its developer program spans three surfaces: the Double 3 SDK (a local command-and-event API exposed over a Unix domain socket on the robot, covering base movement, navigation, PTZ cameras, depth sensors, WebRTC calling, and standby/sidebar apps), iOS SDKs for the Double 2 (Basic Control and Camera Kit), and a Fleet REST API for programmatic access to fleet-management data such as robots, users, call logs, and visitor passes. Added to the API Evangelist network from VC-portfolio discovery and enriched against the company's public developer surface.",
@@ -11160,7 +11117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Prysm",
@@ -11203,7 +11160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Quilter",
@@ -11246,7 +11203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "AO Smith",
@@ -11289,7 +11246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "GigaIO",
@@ -11332,10 +11289,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
-     "name": "Whirlpool Corporation",
+     "name": "Whirlpool",
      "slug": "whirlpool",
      "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
@@ -11375,7 +11332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Glowforge",
@@ -11418,7 +11375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "Kipu Quantum",
@@ -11461,7 +11418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Molekule",
@@ -11504,7 +11461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Upmem",
@@ -11546,7 +11503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "Anyscale",
@@ -11589,7 +11546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "Cruz Foam",
@@ -11609,15 +11566,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -11626,13 +11583,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "EnergyX",
@@ -11659,15 +11616,15 @@
       "score": 28.4,
       "matched_via": "tags"
      },
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -11676,13 +11633,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Infinera",
@@ -11732,7 +11689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "Nori",
@@ -11775,7 +11732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "Vishay Intertechnology",
@@ -11825,7 +11782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "Bellwether Coffee",
@@ -11868,7 +11825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Rafay Product Documentation",
@@ -11911,7 +11868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "Sensel",
@@ -11954,7 +11911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Tobii",
@@ -11997,50 +11954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
-    },
-    {
-     "name": "Metalenz",
-     "slug": "metalenz",
-     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 273
+     "rank": 271
     },
     {
      "name": "Colibri",
@@ -12083,7 +11997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 272
     },
     {
      "name": "Graphcore",
@@ -12126,7 +12040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 273
     },
     {
      "name": "Universal Robots",
@@ -12169,7 +12083,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 274
+    },
+    {
+     "name": "Metalenz",
+     "slug": "metalenz",
+     "description": "Metalenz is a fabless semiconductor optics company in Boston, Massachusetts that commercialises meta-optics — flat metasurface lenses that replace stacks of curved refractive elements with a single planar chip patterned by nanostructures and mass produced in a standard semiconductor foundry. The company was founded in 2016 by CEO Rob Devlin and Harvard professor Federico Capasso out of the Capasso Lab at the Harvard John A. Paulson School of Engineering and Applied Sciences, and holds the exclusive worldwide licence to that lab's metasurface intellectual property, now more than 150 issued and pending patents. Its first-generation metasurfaces reached mass production in 2022 through a manufacturing partnership with STMicroelectronics and have since shipped in well over 100 million consumer devices. The current product line is built on the PolarEyes polarization imaging platform: Polar ID, a single-camera polarization face authentication system for smartphones that works under the display and uses the Samsung ISOCELL Vizion 931 sensor and Qualcomm Snapdragon imaging stack; Polar 3D, on-device relightable selfies and avatars from one image; and the Orion and Gemini dot-pattern projectors for structured-light 3D sensing. Metalenz sells optical components, licences and full-stack biometric solutions to device makers and foundries — UMC and STMicroelectronics are named manufacturing partners — and is backed by Neotribe Ventures, Intel Capital, TDK Ventures, 3M, Applied Ventures, M Ventures, Braemar Energy Ventures and Foothill Ventures. It sells silicon and IP, not software: it publishes no developer program, no developer portal, no SDK and no API documentation of any kind. The only machine-readable interface it exposes to the public is the WordPress REST content API behind metalenz.com, which is anonymously readable, read-only without credentials, and captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png",
+     "score": 16.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 275
     },
     {
      "name": "Sunthetics",
@@ -12212,7 +12169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Fictiv",
@@ -12246,6 +12203,49 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 277
+    },
+    {
+     "name": "Accelsius",
+     "slug": "accelsius",
+     "description": "Accelsius LLC is an Austin, Texas thermal-management company founded in 2022 by Innventure to commercialize two-phase, direct-to-chip liquid cooling for AI, HPC and mission-critical data centers. Its NeuCool platform circulates a non-conductive dielectric refrigerant through cold plates mounted directly on CPUs and GPUs, removing heat by evaporation rather than by bringing water into the IT rack, and supports 4,500W+ per socket and rack densities up to 250kW. The product line includes the IR150 in-rack CDU, the MR250 medium-rack CDU, the NeuCool Thermal Simulation Rack and Liquid Simulation System used for evaluation and deployment planning, and multi-GPU cold plate assemblies, backed by professional services spanning system architecture, integration, deployment and maintenance. Accelsius is a hardware manufacturer, not a software or data company: it publishes no developer program, product API, SDK or machine-readable product specification. The only machine-readable interface on its public surface is the WordPress core REST API behind accelsius.com, which serves the company's own blog, news, white-paper, case-study, podcast and video content anonymously and read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -13767,7 +13767,7 @@
      "rank": 312
     },
     {
-     "name": "Continental AG",
+     "name": "Continental",
      "slug": "continental-ag",
      "description": "Continental AG is a German multinational automotive supplier and tire manufacturer headquartered in Hanover. As a global Tier 1 automotive supplier, Continental designs and manufactures tires, automotive electronics, brake systems, powertrain components, ADAS, and interior solutions for vehicle manufacturers worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/continental-ag/refs/heads/main/screenshots/continental-ag-2026-06-20T174943.png",
@@ -20802,7 +20802,7 @@
      "rank": 469
     },
     {
-     "name": "Aeterlink Corp.",
+     "name": "Aeterlink",
      "slug": "aeterlinkcorp",
      "description": "Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.",
      "score": 10.4,
@@ -25577,7 +25577,7 @@
      "rank": 576
     },
     {
-     "name": "SCENARIO-X GLOBAL HOLDING PTE. LTD.",
+     "name": "SCENARIO-X GLOBAL HOLDING",
      "slug": "scenario-x-global-holding-pte-ltd",
      "description": "SCENARIO-X GLOBAL HOLDING PTE. LTD. (Scenario X) is a financial-technology company building an AI- and quantum-computing-powered platform for financial risk analysis, stress testing, and regulatory reporting. The integrated platform is organized into four modules — Scenario (adverse market-condition design), PPNR (Pre-Provision Net Revenue projection), Risk (market, counterparty, credit, and operational risk), and Console (financial-data aggregation) — plus a quantum-computing offering for predictive financial modeling. It serves banks, insurers, family offices, independent wealth managers, and commodity traders. Surfaced as a portfolio company of 500 Global and tracked in the API Evangelist network; no public API or developer surface has been found to date.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scenario-x-global-holding-pte-ltd/refs/heads/main/screenshots/scenario-x-global-holding-pte-ltd-2026-09-02T154523.png",
@@ -28203,7 +28203,7 @@
      "rank": 635
     },
     {
-     "name": "Advancechip Technology (Hunan) Co., Ltd.",
+     "name": "Advancechip",
      "slug": "advancechip",
      "description": "Advancechip Technology (Hunan) Co., Ltd. — 进芯科技（湖南）股份有限公司, formerly Hunan Jinxin Electronic Technology Co., Ltd. — is a fabless integrated-circuit design company founded in October 2012 and headquartered in Changsha, Hunan, China. It develops digital signal processor (DSP) chips and embedded solutions, and states that it has taken three DSP families to mass production: 16-bit fixed-point (ADP16), 32-bit fixed-point (ADP32) and 32-bit floating-point (AVP32), alongside single-core and multi-core SoC parts such as the ADM32F036 motor-control family. The company describes its core technologies as DSP core design, compilation technology, large-scale SoC digital integration and core drive algorithms, held as a fully independent intellectual-property stack, and targets automotive electronics, thermal management, smart home and white goods, small household appliances, health equipment and power tools. Its developer-facing surface is hardware, not web software: evaluation and development boards (AVP32F379QP176, AVP32F00157QP80, AVP32F0039QP100S, ADM32F036A5Q/A6Q/A7Q low-voltage motor boards), a technical-support page and a download section that serves chip data manuals as PDFs from a third-party file host. As probed on 2026-09-07 Advancechip publishes no public web API, no developer portal or API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK in any public package registry, no GitHub organization and no /.well-known documents; the corporate site itself is served over plaintext HTTP only.",
      "score": 6.7,
@@ -32637,49 +32637,6 @@
      "rank": 736
     },
     {
-     "name": "Swiftmile",
-     "slug": "swiftmile",
-     "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
-     "score": 5.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 737
-    },
-    {
      "name": "Tidal Vision",
      "slug": "tidal-vision",
      "description": "Tidal Vision Products, Inc. is a Bellingham, Washington biotechnology and specialty-chemicals manufacturer, and the only commercial-scale US producer of chitosan — a non-toxic, non-hazmat, biodegradable industrial biopolymer upcycled from crab and shrimp shell waste. Its zero-waste Chitofining process extracts, modifies and formulates chitosan chemistries that displace PFAS, halogenated chemicals, toxic antimicrobials and persistent plastics across three business lines: Tidal Clear water and wastewater treatment, Tidal Grow AgriScience crop and soil inputs, and Tidal-Tec Biomaterial Science performance materials. The company closed an oversubscribed $140M+ Series B in 2025 and acquired Clear Water Services. It is a materials-science manufacturer and publishes no public developer program, API, or machine-readable API contract.",
@@ -32720,7 +32677,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 738
+     "rank": 737
     },
     {
      "name": "AICE",
@@ -32763,7 +32720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 739
+     "rank": 738
     },
     {
      "name": "Aquantia",
@@ -32806,7 +32763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 739
     },
     {
      "name": "Axalta Coating Systems",
@@ -32849,7 +32806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 740
     },
     {
      "name": "Bouffalo Lab",
@@ -32892,7 +32849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 742
+     "rank": 741
     },
     {
      "name": "Cuspai",
@@ -32935,7 +32892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 742
     },
     {
      "name": "Cypress",
@@ -32978,7 +32935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 743
     },
     {
      "name": "Foundation Robotics Labs",
@@ -33021,7 +32978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 744
     },
     {
      "name": "Harman International",
@@ -33064,7 +33021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 745
     },
     {
      "name": "houmo",
@@ -33107,7 +33064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 746
     },
     {
      "name": "INDEX Robotics",
@@ -33150,7 +33107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 748
+     "rank": 747
     },
     {
      "name": "Local Motors",
@@ -33194,7 +33151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 748
     },
     {
      "name": "Planqc",
@@ -33237,7 +33194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 749
     },
     {
      "name": "Qphox",
@@ -33280,7 +33237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 750
     },
     {
      "name": "Upverter",
@@ -33322,7 +33279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 751
     },
     {
      "name": "Valinor",
@@ -33372,7 +33329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 752
     },
     {
      "name": "Voltron Data",
@@ -33414,7 +33371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 754
+     "rank": 753
     },
     {
      "name": "Omate",
@@ -33463,7 +33420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 754
     },
     {
      "name": "PowerLight Technologies",
@@ -33513,7 +33470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 756
+     "rank": 755
     },
     {
      "name": "3com",
@@ -33557,7 +33514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 757
+     "rank": 756
     },
     {
      "name": "6thSense",
@@ -33600,10 +33557,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 757
     },
     {
-     "name": "9 Mothers Corporation",
+     "name": "9 Mothers",
      "slug": "9-mothers-corporation",
      "description": "9 Mothers Corporation is a defense technology company founded in 2024 and based in Austin, Texas, building AI-powered counter-drone (C-sUAS) point defense systems for the FPV drone era. Its flagship product, EDDA, is a small, low-power, autonomous-capable point-defense turret that engages Group 1 suicide drones at 10-100+ meter range to protect soldiers, vehicles, and critical assets. A Y Combinator Spring 2026 company with reported sales to the U.S. Department of War, its roadmap includes Vor (passive acoustic sensor), Atla (belt-fed shotgun system), and Gleipnir (counter-drone for larger platforms). This profile was surfaced as a Y Combinator portfolio company and added to the API Evangelist network. The company publishes no public API, SDK, or developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/9-mothers-corporation/refs/heads/main/screenshots/9-mothers-corporation-2026-07-25T181246.png",
@@ -33643,7 +33600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 758
     },
     {
      "name": "Acela Micro",
@@ -33685,7 +33642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 759
     },
     {
      "name": "Advanced Metal Research",
@@ -33728,7 +33685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 760
     },
     {
      "name": "AerNos",
@@ -33770,7 +33727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 761
     },
     {
      "name": "Agrani Labs",
@@ -33812,7 +33769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 763
+     "rank": 762
     },
     {
      "name": "Airloom Energy",
@@ -33861,7 +33818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 763
     },
     {
      "name": "airquality",
@@ -33904,7 +33861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 764
     },
     {
      "name": "Akash Systems",
@@ -33947,7 +33904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 765
     },
     {
      "name": "Aliena",
@@ -33990,7 +33947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 766
     },
     {
      "name": "AMCC",
@@ -34032,7 +33989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 767
     },
     {
      "name": "AMCC (Applied Micro Circuits Corporation)",
@@ -34076,7 +34033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 768
     },
     {
      "name": "Anobit Technologies",
@@ -34120,7 +34077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 769
     },
     {
      "name": "Apex Space",
@@ -34163,7 +34120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 770
     },
     {
      "name": "Apigy",
@@ -34205,7 +34162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Arilinc",
@@ -34248,7 +34205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 772
     },
     {
      "name": "asgoodasnew",
@@ -34290,7 +34247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 773
     },
     {
      "name": "Atrisa",
@@ -34333,7 +34290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 774
     },
     {
      "name": "Avegant",
@@ -34376,7 +34333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "Avnera",
@@ -34418,7 +34375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "Awavesemi",
@@ -34461,7 +34418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 777
     },
     {
      "name": "Bear Flag Robotics",
@@ -34504,7 +34461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 778
     },
     {
      "name": "BigScreen",
@@ -34547,10 +34504,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 779
     },
     {
-     "name": "Bilimber Pte. Ltd.",
+     "name": "Bilimber",
      "slug": "bilimber-pte-ltd",
      "description": "Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by shares) incorporated on 2020-11-17, operating in research and experimental development on electronics. It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong Kong government program) and added to the API Evangelist network as a stub. As of this enrichment pass the company publishes no public website, developer portal, documentation, or API surface -- the bilimber.com domain is currently unregistered and does not resolve -- so no first-party API artifacts could be searched, derived, or generated. This profile remains a lead awaiting a public API surface.",
      "score": 5.0,
@@ -34589,7 +34546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "Bolt Threads",
@@ -34632,7 +34589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "Bridgeco",
@@ -34675,7 +34632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Bright Silicon Technologies",
@@ -34718,7 +34675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "Britesemi",
@@ -34761,7 +34718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "Bumblebee Spaces",
@@ -34804,7 +34761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "Calista Technologies",
@@ -34846,7 +34803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "Cambridge Aerospace",
@@ -34889,7 +34846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Cavium",
@@ -34931,7 +34888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "Citadel",
@@ -34973,7 +34930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "Coinmine",
@@ -35015,7 +34972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "Compaq",
@@ -35059,7 +35016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Compaq Computer Corporation",
@@ -35101,7 +35058,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 793
+     "rank": 792
     },
     {
      "name": "Conexant Systems",
@@ -35143,7 +35100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 794
+     "rank": 793
     },
     {
      "name": "Congruent",
@@ -35186,7 +35143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 795
+     "rank": 794
     },
     {
      "name": "Cornami",
@@ -35229,7 +35186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 796
+     "rank": 795
     },
     {
      "name": "Cray",
@@ -35271,7 +35228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 797
+     "rank": 796
     },
     {
      "name": "Creopop",
@@ -35314,7 +35271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 798
+     "rank": 797
     },
     {
      "name": "Crossbar",
@@ -35357,7 +35314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 799
+     "rank": 798
     },
     {
      "name": "Crystal",
@@ -35399,7 +35356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 800
+     "rank": 799
     },
     {
      "name": "CYGIA",
@@ -35441,7 +35398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 801
+     "rank": 800
     },
     {
      "name": "Dabee",
@@ -35484,7 +35441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 802
+     "rank": 801
     },
     {
      "name": "Damon Motorcycles",
@@ -35526,7 +35483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 803
+     "rank": 802
     },
     {
      "name": "Danger",
@@ -35570,7 +35527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 804
+     "rank": 803
     },
     {
      "name": "Datost",
@@ -35612,7 +35569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 805
+     "rank": 804
     },
     {
      "name": "Diablo Technologies",
@@ -35656,7 +35613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 806
+     "rank": 805
     },
     {
      "name": "Discovered Materials",
@@ -35699,7 +35656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 807
+     "rank": 806
     },
     {
      "name": "Earendil Robotics",
@@ -35742,7 +35699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 808
+     "rank": 807
     },
     {
      "name": "EDGE Sound Research",
@@ -35785,7 +35742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 809
+     "rank": 808
     },
     {
      "name": "eigencomm",
@@ -35827,7 +35784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 810
+     "rank": 809
     },
     {
      "name": "Eka Robotics",
@@ -35870,7 +35827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 811
+     "rank": 810
     },
     {
      "name": "Elephint",
@@ -35913,7 +35870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 812
+     "rank": 811
     },
     {
      "name": "Energy Micro",
@@ -35956,7 +35913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 813
+     "rank": 812
     },
     {
      "name": "Enjoy Technologies",
@@ -36000,7 +35957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 814
+     "rank": 813
     },
     {
      "name": "Etched",
@@ -36043,7 +36000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 815
+     "rank": 814
     },
     {
      "name": "Figure",
@@ -36086,7 +36043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 816
+     "rank": 815
     },
     {
      "name": "Finisar",
@@ -36128,7 +36085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 817
+     "rank": 816
     },
     {
      "name": "Freescale Semiconductor",
@@ -36172,7 +36129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 818
+     "rank": 817
     },
     {
      "name": "Fungible",
@@ -36216,7 +36173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 819
+     "rank": 818
     },
     {
      "name": "Fusion I/O",
@@ -36260,7 +36217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 820
+     "rank": 819
     },
     {
      "name": "galbot",
@@ -36303,7 +36260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 821
+     "rank": 820
     },
     {
      "name": "Galileo Technology",
@@ -36346,7 +36303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 822
+     "rank": 821
     },
     {
      "name": "Generalastro",
@@ -36389,7 +36346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 823
+     "rank": 822
     },
     {
      "name": "Ghost Robotics",
@@ -36432,7 +36389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 824
+     "rank": 823
     },
     {
      "name": "Graft Concepts",
@@ -36474,7 +36431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 825
+     "rank": 824
     },
     {
      "name": "Greypoint Industries",
@@ -36517,7 +36474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 826
+     "rank": 825
     },
     {
      "name": "Growth Networks",
@@ -36559,7 +36516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 827
+     "rank": 826
     },
     {
      "name": "Hardware Intelligence",
@@ -36602,7 +36559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "Hlabs",
@@ -36645,7 +36602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "HUM Industries",
@@ -36688,7 +36645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "Humane",
@@ -36732,7 +36689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "IBEX Process Technology",
@@ -36776,7 +36733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "Iceberg Quantum",
@@ -36819,7 +36776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "icerasemi",
@@ -36862,7 +36819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "Impossible Aerospace",
@@ -36904,7 +36861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "Industrial Safety Technologies",
@@ -36948,7 +36905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "Innovium",
@@ -36991,7 +36948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "Inphi",
@@ -37033,7 +36990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "IPtronics",
@@ -37075,7 +37032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "IQI Inc (Beijing AIQI Technology)",
@@ -37118,7 +37075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "JAKA",
@@ -37161,7 +37118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "K2 Space",
@@ -37204,7 +37161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "Kalpana",
@@ -37248,7 +37205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Lara Networks",
@@ -37291,7 +37248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "Leaba Semiconductor",
@@ -37334,7 +37291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Libra Robotics",
@@ -37384,7 +37341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Lightspeed Photonics",
@@ -37427,7 +37384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "Link A Media",
@@ -37471,7 +37428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "LSI",
@@ -37513,7 +37470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "LSI Logic",
@@ -37555,7 +37512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "Luma Home",
@@ -37597,7 +37554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "Lumina",
@@ -37640,7 +37597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "Luminous Computing",
@@ -37682,7 +37639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Luminus Devices",
@@ -37725,10 +37682,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 854
+     "rank": 853
     },
     {
-     "name": "Luxvisions Innovation Limited",
+     "name": "Luxvisions Innovation",
      "slug": "luxvisions",
      "description": "Luxvisions Innovation Limited is a camera module and imaging technology manufacturer established in March 2018, headquartered in Hong Kong with operations in Guangzhou, Shenzhen and Shangrao, China. The company designs and produces optical camera modules and audio-video integration technology for mobile phones, tablets, PCs and notebooks, automotive systems, AIOT devices, and 3D/ToF VR/AR/MR applications, and states it launched the industry's first triple camera module for mobile phones. It was surfaced as a portfolio company of Hongshan (HongShan Capital) and added to the API Evangelist network. As a hardware/component manufacturer, Luxvisions publishes no public developer portal, API, SDK, or documentation surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/luxvisions/refs/heads/main/screenshots/luxvisions-2026-07-25T225743.png",
@@ -37768,7 +37725,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Maker Comms",
@@ -37810,7 +37767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 856
+     "rank": 855
     },
     {
      "name": "Maquoketa Research",
@@ -37853,7 +37810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "Mentor Graphics",
@@ -37895,7 +37852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "Meridian Data",
@@ -37937,7 +37894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 859
+     "rank": 858
     },
     {
      "name": "Milliray",
@@ -37980,7 +37937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "Muir Test Systems",
@@ -38022,7 +37979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 861
+     "rank": 860
     },
     {
      "name": "Mutto Optronics",
@@ -38065,7 +38022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 862
+     "rank": 861
     },
     {
      "name": "Mycotech",
@@ -38108,7 +38065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 863
+     "rank": 862
     },
     {
      "name": "Mycoworks",
@@ -38151,7 +38108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 864
+     "rank": 863
     },
     {
      "name": "Mythic",
@@ -38194,7 +38151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 865
+     "rank": 864
     },
     {
      "name": "Nanoconduction",
@@ -38238,7 +38195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 866
+     "rank": 865
     },
     {
      "name": "nasn-auto",
@@ -38280,7 +38237,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 867
+     "rank": 866
     },
     {
      "name": "Natural Intelligence Systems",
@@ -38322,7 +38279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 868
+     "rank": 867
     },
     {
      "name": "Nervana Systems",
@@ -38366,7 +38323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 869
+     "rank": 868
     },
     {
      "name": "Network Engines",
@@ -38409,7 +38366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 870
+     "rank": 869
     },
     {
      "name": "Noise & Vibration Technologies",
@@ -38452,7 +38409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 871
+     "rank": 870
     },
     {
      "name": "nomiku",
@@ -38494,7 +38451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 872
+     "rank": 871
     },
     {
      "name": "North",
@@ -38537,7 +38494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 873
+     "rank": 872
     },
     {
      "name": "Northstar Technology",
@@ -38579,7 +38536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 874
+     "rank": 873
     },
     {
      "name": "Nubis",
@@ -38622,7 +38579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 875
+     "rank": 874
     },
     {
      "name": "Nuvia",
@@ -38664,7 +38621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 876
+     "rank": 875
     },
     {
      "name": "Olix",
@@ -38706,7 +38663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 877
+     "rank": 876
     },
     {
      "name": "oneNav",
@@ -38749,7 +38706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 878
+     "rank": 877
     },
     {
      "name": "Oratomic",
@@ -38791,7 +38748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 879
+     "rank": 878
     },
     {
      "name": "Origami Robotics",
@@ -38834,7 +38791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 880
+     "rank": 879
     },
     {
      "name": "PCH International",
@@ -38877,7 +38834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 881
+     "rank": 880
     },
     {
      "name": "Peel",
@@ -38920,7 +38877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 882
+     "rank": 881
     },
     {
      "name": "Performance Drone Works",
@@ -38962,7 +38919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 883
+     "rank": 882
     },
     {
      "name": "Periodic Labs",
@@ -39005,7 +38962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 884
+     "rank": 883
     },
     {
      "name": "petkit",
@@ -39048,7 +39005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 885
+     "rank": 884
     },
     {
      "name": "Piestro",
@@ -39092,7 +39049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 886
+     "rank": 885
     },
     {
      "name": "Pixelworks",
@@ -39135,7 +39092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 887
+     "rank": 886
     },
     {
      "name": "Pliant Technology",
@@ -39179,7 +39136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 888
+     "rank": 887
     },
     {
      "name": "Porotech",
@@ -39222,7 +39179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 889
+     "rank": 888
     },
     {
      "name": "PriceBaba",
@@ -39264,7 +39221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 890
+     "rank": 889
     },
     {
      "name": "prmeasure",
@@ -39307,7 +39264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 891
+     "rank": 890
     },
     {
      "name": "Pure Watercraft",
@@ -39350,7 +39307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 892
+     "rank": 891
     },
     {
      "name": "Quantum Effect Dev",
@@ -39394,7 +39351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 893
+     "rank": 892
     },
     {
      "name": "Quantum Motion",
@@ -39437,7 +39394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 894
+     "rank": 893
     },
     {
      "name": "Quirky",
@@ -39481,7 +39438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 895
+     "rank": 894
     },
     {
      "name": "Remora",
@@ -39524,7 +39481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 896
+     "rank": 895
     },
     {
      "name": "Resonado Labs",
@@ -39567,7 +39524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 897
+     "rank": 896
     },
     {
      "name": "Rev1",
@@ -39610,7 +39567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 898
+     "rank": 897
     },
     {
      "name": "Reveal Imaging",
@@ -39652,7 +39609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 899
+     "rank": 898
     },
     {
      "name": "Revolv",
@@ -39695,7 +39652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 900
+     "rank": 899
     },
     {
      "name": "Ricursive",
@@ -39738,7 +39695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 901
+     "rank": 900
     },
     {
      "name": "Riide",
@@ -39781,7 +39738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Rise Robotics",
@@ -39824,7 +39781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "Rohm and Haas",
@@ -39867,7 +39824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "S3 Graphics",
@@ -39910,7 +39867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Sabi",
@@ -39953,7 +39910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "Samsara Eco",
@@ -39996,7 +39953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "Sandforce",
@@ -40038,7 +39995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "SGI (Silicon Graphics)",
@@ -40082,7 +40039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "Shellworks",
@@ -40125,7 +40082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Sibeam",
@@ -40169,7 +40126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Silicon Clocks",
@@ -40211,7 +40168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "Silicon Optix",
@@ -40255,7 +40212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "Singularity",
@@ -40298,7 +40255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "SIQ Basketball",
@@ -40341,7 +40298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Snowcap Compute",
@@ -40384,7 +40341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "supermag",
@@ -40427,7 +40384,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "Syenta",
@@ -40470,7 +40427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Symmorphix",
@@ -40514,7 +40471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "Synplicity",
@@ -40558,7 +40515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Talking Computers",
@@ -40601,7 +40558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Target Arm",
@@ -40644,7 +40601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "Tattvam",
@@ -40687,7 +40644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Tempo Automation",
@@ -40729,7 +40686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "Tenet Industries",
@@ -40772,7 +40729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Terra Industries",
@@ -40815,7 +40772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "TopXGun",
@@ -40857,7 +40814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Trocafone",
@@ -40899,7 +40856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "TruckLabs",
@@ -40942,7 +40899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "uBEAM",
@@ -40986,7 +40943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Vertical Circuits",
@@ -41028,7 +40985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Vexata",
@@ -41072,7 +41029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Vue",
@@ -41114,7 +41071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "Weft",
@@ -41156,7 +41113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Yunyinggu (Viewtrix Technology)",
@@ -41199,7 +41156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "ZeroMark",
@@ -41241,7 +41198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "Zibra Labs",
@@ -41284,7 +41241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "Zymergen",
@@ -41327,7 +41284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "Unconventional AI",
@@ -41377,7 +41334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "Entegris",
@@ -41420,7 +41377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Occamnetworks",
@@ -41470,7 +41427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Primesense",
@@ -41512,7 +41469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "Astral Systems",
@@ -41562,7 +41519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "Ateios",
@@ -41612,7 +41569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "finern",
@@ -41662,7 +41619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Gokin",
@@ -41712,7 +41669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Green Revolution Cooling",
@@ -41762,7 +41719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 946
     },
     {
      "name": "Nurotron",
@@ -41812,7 +41769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 948
+     "rank": 947
     },
     {
      "name": "PicoJool",
@@ -41862,7 +41819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 949
+     "rank": 948
     },
     {
      "name": "Solestial",
@@ -41912,7 +41869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 950
+     "rank": 949
     },
     {
      "name": "Yuze Semiconductor",
@@ -41961,7 +41918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 951
+     "rank": 950
     },
     {
      "name": "83 Sciences",
@@ -42011,7 +41968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 952
+     "rank": 951
     },
     {
      "name": "Airtouch",
@@ -42053,7 +42010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 953
+     "rank": 952
     },
     {
      "name": "Atomic Semi",
@@ -42096,7 +42053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 954
+     "rank": 953
     },
     {
      "name": "Celero Communications",
@@ -42138,7 +42095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 955
+     "rank": 954
     },
     {
      "name": "Celestial AI",
@@ -42181,7 +42138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 956
+     "rank": 955
     },
     {
      "name": "Greyter",
@@ -42225,7 +42182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 957
+     "rank": 956
     },
     {
      "name": "Nantero",
@@ -42269,7 +42226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 958
+     "rank": 957
     },
     {
      "name": "Nexa3D",
@@ -42311,7 +42268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 959
+     "rank": 958
     },
     {
      "name": "Perfumeo",
@@ -42353,7 +42310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 960
+     "rank": 959
     },
     {
      "name": "Qualtera",
@@ -42398,7 +42355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 961
+     "rank": 960
     },
     {
      "name": "RSI Video Technologies",
@@ -42441,7 +42398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 962
+     "rank": 961
     },
     {
      "name": "Tela Innovations",
@@ -42483,7 +42440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 963
+     "rank": 962
     },
     {
      "name": "Advanced Solar Power",
@@ -42532,7 +42489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 964
+     "rank": 963
     },
     {
      "name": "Helion Energy",
@@ -42581,7 +42538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 965
+     "rank": 964
     },
     {
      "name": "Jewelbots",
@@ -42631,7 +42588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 966
+     "rank": 965
     },
     {
      "name": "Jabil Circuit",
@@ -42674,7 +42631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 967
+     "rank": 966
     },
     {
      "name": "PEI-Genesis",
@@ -42717,7 +42674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 968
+     "rank": 967
     },
     {
      "name": "Vaire Computing",
@@ -42767,10 +42724,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 969
+     "rank": 968
     },
     {
-     "name": "Apollo Atomics Inc",
+     "name": "Apollo Atomics",
      "slug": "apollo-atomics-inc",
      "description": "Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear technology company building compact, power-dense pressurized water reactors for electricity generation, industrial process heat, and data-center power. Founded by Assil Halimi and Drew Walker and based in Cambridge, Massachusetts, the company modifies the steam generator of proven pressurized water reactor technology to shrink the plant by roughly an order of magnitude without sacrificing power output, turning a decade-long construction project into a factory-built machine that can ship on a truck. Apollo has announced a research collaboration with MIT's Department of Nuclear Science and Engineering to validate its reactor design and has submitted a regulatory engagement plan to the U.S. Nuclear Regulatory Commission, targeting a construction permit application in 2028. This is a hardware/energy company with no public developer or API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-atomics-inc/refs/heads/main/screenshots/apollo-atomics-inc-2026-07-25T200704.png",
@@ -42817,7 +42774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 970
+     "rank": 969
     },
     {
      "name": "Cassie",
@@ -42867,7 +42824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 971
+     "rank": 970
     },
     {
      "name": "EnerVenue",
@@ -42917,7 +42874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 972
+     "rank": 971
     },
     {
      "name": "Ideal Power Converters",
@@ -42967,7 +42924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 973
+     "rank": 972
     },
     {
      "name": "Rfmd",
@@ -43017,7 +42974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 974
+     "rank": 973
     },
     {
      "name": "TeraWatt Technology",
@@ -43067,7 +43024,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 975
+     "rank": 974
     },
     {
      "name": "Arzeda",
@@ -43117,7 +43074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 976
+     "rank": 975
     },
     {
      "name": "DuPont",
@@ -43160,7 +43117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 977
+     "rank": 976
     },
     {
      "name": "hhgregg",
@@ -43203,7 +43160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 978
+     "rank": 977
     },
     {
      "name": "Modulus Video",
@@ -43245,7 +43202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 979
+     "rank": 978
     },
     {
      "name": "Northpoint Communications",
@@ -43288,7 +43245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 980
+     "rank": 979
     },
     {
      "name": "SiTera",
@@ -43330,7 +43287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 981
+     "rank": 980
     },
     {
      "name": "Kyten Technologies",
@@ -43379,7 +43336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 982
+     "rank": 981
     },
     {
      "name": "Letel",
@@ -43429,7 +43386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 983
+     "rank": 982
     },
     {
      "name": "LiquidStack",
@@ -43479,7 +43436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 984
+     "rank": 983
     },
     {
      "name": "Misfit",
@@ -43528,7 +43485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 985
+     "rank": 984
     },
     {
      "name": "Modern Electron",
@@ -43577,7 +43534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 986
+     "rank": 985
     },
     {
      "name": "Transphorm",
@@ -43627,7 +43584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 987
+     "rank": 986
     },
     {
      "name": "Unigrid",
@@ -43677,7 +43634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 988
+     "rank": 987
     },
     {
      "name": "Voxel Energy",
@@ -43727,7 +43684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 989
+     "rank": 988
     },
     {
      "name": "XtalPi",
@@ -43777,7 +43734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 990
+     "rank": 989
     },
     {
      "name": "AMD",
@@ -43820,7 +43777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 991
+     "rank": 990
     },
     {
      "name": "Epirus",
@@ -43870,7 +43827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 992
+     "rank": 991
     },
     {
      "name": "ACT-ion",
@@ -43919,7 +43876,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 993
+     "rank": 992
     },
     {
      "name": "Alsym Energy",
@@ -43969,7 +43926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 994
+     "rank": 993
     },
     {
      "name": "Amprius Technologies",
@@ -44019,7 +43976,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 995
+     "rank": 994
     },
     {
      "name": "Nabhdrishti Aerospace",
@@ -44069,7 +44026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 996
+     "rank": 995
     },
     {
      "name": "NuScale Power",
@@ -44119,7 +44076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 997
+     "rank": 996
     },
     {
      "name": "Pacific Fusion",
@@ -44169,7 +44126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 998
+     "rank": 997
     },
     {
      "name": "Plexus",
@@ -44219,13 +44176,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 999
+     "rank": 998
     },
     {
      "name": "TAE Technologies",
      "slug": "tae-technologies",
      "description": "TAE Technologies (formerly Tri Alpha Energy) is a Foothill Ranch, California fusion energy company founded in 1998, pursuing commercial fusion power using aneutronic hydrogen-boron (p-B11) fuel in an advanced beam-driven field-reversed configuration (FRC). Because the p-B11 reaction is aneutronic, TAE's approach produces virtually no neutron flux or on-site radioactive waste compared with conventional deuterium-tritium concepts. The company has built a progression of plasma machines — Sewer Pipe, CBFR-SPS, C-2, C-2U, and C-2W (\"Norman\") — and is constructing Copernicus in Irvine, California to demonstrate net energy gain, with Da Vinci planned as the grid-connected power-plant demonstration. TAE has raised more than USD 1.2 billion from investors including Google, Chevron, NEA, Goldman Sachs, Vulcan, Venrock, Wellcome Trust, and the Kuwait Investment Authority, and runs research collaborations with Japan's National Institute for Fusion Science (NIFS). Two operating subsidiaries commercialize spin-off technology: TAE Life Sciences develops accelerator-based Boron Neutron Capture Therapy (BNCT) systems for cancer treatment, and TAE Power Solutions builds modular, software-controlled power-management systems for e-mobility and battery applications. TAE is a private hardware and deep-science company; it does not publish a developer API, SDK, OpenAPI specification, or public open-source code repository.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tae-technologies/refs/heads/main/screenshots/tae-technologies-2026-06-20T194852.png",
+     "score": 3.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 999
+    },
+    {
+     "name": "Volt14",
+     "slug": "volt14",
+     "description": "Volt14 Solutions Pte Ltd is a Singapore-based deep-tech startup developing silicon-majority anode materials for lithium-ion batteries. Its fully integrated, tunable, and ready-to-use anodes replace conventional graphite to deliver large gains in energy density and lower normalized cell cost, while remaining compatible with existing battery cell manufacturing infrastructure. Target application markets include electric vehicles, consumer electronics, appliances, and power tools. The company is a materials-science and battery-technology producer; it publishes a corporate and careers website but exposes no public developer or API product surface. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/volt14/refs/heads/main/screenshots/volt14-2026-09-02T170221.png",
      "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",

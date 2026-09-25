@@ -122,7 +122,7 @@ tags:
 - Trade Data
 - Supply Chain Intelligence
 - Data Feed
-- Risk
+- Risk Management
 - S&P Global
 website: https://panjiva.com/
 ---

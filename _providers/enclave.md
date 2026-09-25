@@ -143,7 +143,7 @@ tags:
 - Cloud Security
 - Vulnerability Management
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - CVE
 - DevSecOps
 website: https://enclave.ai

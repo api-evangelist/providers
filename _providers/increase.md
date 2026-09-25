@@ -686,5 +686,6 @@ tags:
 - Payments
 - ACH
 - Wires
+- Embedded Finance
 website: https://increase.com/
 ---

@@ -50,10 +50,10 @@ description: Jubilee Inc (Jubilee Media) is a Los Angeles-based digital media pr
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jubilee-inc.png
 layout: provider
 modified: '2026-07-19'
-name: Jubilee Inc
+name: Jubilee
 nav: Providers
 network: true
-overview: Jubilee Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Video, Entertainment, and Content Production.
+overview: Jubilee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Video, Entertainment, and Content Production.
 random_paper: 17
 score:
   band: minimal

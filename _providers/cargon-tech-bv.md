@@ -50,10 +50,10 @@ description: Cargon Tech B.V. is a supply-chain and logistics technology company
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cargon-tech-bv.png
 layout: provider
 modified: '2026-07-18'
-name: Cargon Tech B.V.
+name: Cargon Tech
 nav: Providers
 network: true
-overview: Cargon Tech B.V. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Logistics, Freight, and Transport Management.
+overview: Cargon Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Logistics, Freight, and Transport Management.
 random_paper: 18
 score:
   band: minimal

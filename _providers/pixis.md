@@ -205,7 +205,7 @@ tags:
 - Marketing
 - Artificial Intelligence
 - Generative AI
-- Advertising Technology
+- AdTech
 - Marketing Automation
 website: https://pixis.ai/
 ---

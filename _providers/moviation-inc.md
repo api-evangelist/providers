@@ -71,13 +71,13 @@ description: Moviation, Inc. is a Seoul-based advanced air mobility and premium 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moviation-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Moviation, Inc.
+name: Moviation
 nav: Providers
 network: true
-overview: 'Moviation, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Air Taxi, Urban Air Mobility, and eVTOL.
+overview: 'Moviation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Air Taxi, Urban Air Mobility, and eVTOL.
 
 
-  Moviation, Inc.''s developer surface includes support, signup flow, pricing, and 4 more developer resources.'
+  Moviation''s developer surface includes support, signup flow, pricing, and 4 more developer resources.'
 random_paper: 21
 score:
   band: emerging

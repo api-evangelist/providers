@@ -151,7 +151,6 @@ tags:
 - Demand Response
 - Flexibility
 - Grid Services
-- Electric Vehicle Charging
 - EV Charging
 - Electrification
 - E-Mobility

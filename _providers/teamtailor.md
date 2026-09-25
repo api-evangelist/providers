@@ -82,7 +82,7 @@ modified: '2026-05-11'
 name: Teamtailor
 nav: Providers
 network: true
-overview: 'Teamtailor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ATS, Applicant Tracking, Recruiting, Human Resources, and Hiring.
+overview: 'Teamtailor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Applicant Tracking, Recruiting, Human Resources, Hiring, and Employer Branding.
 
 
   Teamtailor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
@@ -127,7 +127,6 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: teamtailor
 tags:
-- ATS
 - Applicant Tracking
 - Recruiting
 - Human Resources

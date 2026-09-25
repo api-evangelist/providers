@@ -195,7 +195,7 @@ tags:
 - Tech Education
 - Workforce Development
 - Generative AI Training
-- Agentic AI
+- AI Agents
 - Data Science
 - Cloud Computing
 - Cybersecurity

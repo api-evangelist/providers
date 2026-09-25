@@ -191,8 +191,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 23,
-   "shown": 23,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "TheTVDB",
@@ -589,49 +589,6 @@
      "rank": 13
     },
     {
-     "name": "Tribune Media",
-     "slug": "tribune-media",
-     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 60.4,
-      "contract_governance": 54.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "Bandsintown",
      "slug": "bandsintown",
      "description": "Bandsintown is a concert discovery platform that connects fans with live music events through a REST API for accessing artist event listings, venue information, and fan notification management. The platform serves as the largest database of upcoming concert listings and concert tickets, enabling artists, developers, and partners to display tour dates, retrieve artist metadata, filter events by date range, and drive fan engagement through RSVP and notification tracking. API access requires an app_id parameter obtained through the Bandsintown for Artists account settings or via a partnership request for broader integration use cases.",
@@ -672,7 +629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "chucknorris.io",
@@ -715,7 +672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "AOL",
@@ -758,7 +715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Roku",
@@ -801,7 +758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Giant Bomb",
@@ -844,7 +801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Gala Games",
@@ -894,7 +851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Gracenote",
@@ -937,7 +894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Rightsline",
@@ -980,7 +937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Regal Entertainment Group",
@@ -1022,7 +979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "AniList",
@@ -1065,7 +1022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "The Open Movie Database",
@@ -1108,7 +1065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Ticketmaster",
@@ -1151,7 +1108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Superhero API",
@@ -1201,7 +1158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     }
    ],
    "open": true
@@ -1211,8 +1168,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 32,
-   "shown": 32,
+   "count": 33,
+   "shown": 33,
    "providers": [
     {
      "name": "Bored API",
@@ -1255,7 +1212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Marvel",
@@ -1297,7 +1254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Tickitto",
@@ -1347,7 +1304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Warner Music Group",
@@ -1390,7 +1347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "RAWG",
@@ -1433,7 +1390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Comcast",
@@ -1483,7 +1440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Ron Swanson Quotes",
@@ -1526,7 +1483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Tivo",
@@ -1569,7 +1526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Songtradr",
@@ -1612,7 +1569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Rotten Tomatoes",
@@ -1655,7 +1612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "An API of Ice and Fire",
@@ -1686,6 +1643,49 @@
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
+    },
+    {
+     "name": "Tribune Media",
+     "slug": "tribune-media",
+     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 21.3,
+      "contract_governance": 54.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -2704,7 +2704,7 @@
      "rank": 61
     },
     {
-     "name": "1→10, Inc.",
+     "name": "1→10",
      "slug": "110",
      "description": "1→10, Inc. (株式会社ワントゥーテン, \"One to Ten\") is a Kyoto-headquartered creative technology company that designs and builds spatial experiences — projection mapping and large-scale interactive land art, XR installations, AI concierge and robotics work, IoT product prototyping and brand content — for commercial facilities, cultural sites and events. Founded October 1997, with offices in Kyoto and Tokyo and a Singapore holding company, it positions itself as a \"Spatial DX\" studio and is known for permanent installations such as Magical Shores at Siloso Beach in Singapore and the Nijo Castle YAKAI night event in Kyoto. It is a project-based studio rather than an API platform: its one developer-facing product is ZIG SIM, a smartphone sensor-streaming app used for physical prototyping, and it publishes an Agent Skill for public use.",
      "score": 23.5,
@@ -3395,49 +3395,6 @@
      "rank": 77
     },
     {
-     "name": "Legendary Entertainment",
-     "slug": "legendary",
-     "description": "Legendary Entertainment is a Burbank, California media company that owns, produces and distributes content to worldwide audiences across three divisions: Legendary Pictures (film), Legendary Television and Digital Media, and Legendary Comics. Its productions have grossed more than $20 billion worldwide at the box office, spanning franchises such as Dune, Godzilla and Kong, A Minecraft Movie, Street Fighter, Enola Holmes and Monarch: Legacy of Monsters, with an explicit focus on the fandom demographic. Legendary runs no public developer program and publishes no documented API. It does, however, expose a live, publicly readable WordPress REST API on legendary.com that serves its news posts and its film, television, comics, trailer and digital catalogs as JSON — captured here as a platform-exposed content API rather than a supported product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png",
-     "score": 19.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
      "name": "Satisfi Labs",
      "slug": "satisfi-labs",
      "description": "Satisfi Labs is an agentic AI platform for the sports, entertainment, and tourism industries, delivering specialized conversational AI agents that are built and tuned by industry experts to sell more tickets, scale guest support, improve the fan and visitor experience, and collect first-party customer data. The platform centers on an AI Agent Engine (content management, response types, enrichments, and generated responses trained on a customer's own website and documents), a Live Agent Engine for human handoff, and a Marketing Engine, with channel deployment across web, SMS, WhatsApp, Facebook Messenger, and email and integrations into ticketing (Ticketmaster, SeatGeek, FEVO, Ventrata, ParkWhiz), commerce (Shopify, WordPress), and automation (Zapier, Salesforce) systems. Clients include MLB, the Tampa Bay Buccaneers, Houston Astros, Atlanta Braves, Orlando Magic, and Georgia Tech Athletics. Satisfi Labs is a Techstars-backed company. This profile is maintained by API Evangelist; the company exposes a customer application and help center rather than a documented public developer API.",
@@ -3478,7 +3435,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Xiao-Y Technology (小y科技)",
@@ -3521,7 +3478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Sony",
@@ -3564,7 +3521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Cinemark Holdings",
@@ -3606,7 +3563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Melty",
@@ -3649,7 +3606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "National Hockey League",
@@ -3692,50 +3649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
-    },
-    {
-     "name": "Skydance Media",
-     "slug": "skydance-media",
-     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "UnitedMasters",
@@ -3778,50 +3692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
-    },
-    {
-     "name": "Endeavor",
-     "slug": "endeavor",
-     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 87
+     "rank": 84
     },
     {
      "name": "Kakao Entertainment",
@@ -3864,7 +3735,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 85
+    },
+    {
+     "name": "Skydance Media",
+     "slug": "skydance-media",
+     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
     },
     {
      "name": "4DReplay",
@@ -3907,7 +3821,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
+    },
+    {
+     "name": "Legendary Entertainment",
+     "slug": "legendary",
+     "description": "Legendary Entertainment is a Burbank, California media company that owns, produces and distributes content to worldwide audiences across three divisions: Legendary Pictures (film), Legendary Television and Digital Media, and Legendary Comics. Its productions have grossed more than $20 billion worldwide at the box office, spanning franchises such as Dune, Godzilla and Kong, A Minecraft Movie, Street Fighter, Enola Holmes and Monarch: Legacy of Monsters, with an explicit focus on the fandom demographic. Legendary runs no public developer program and publishes no documented API. It does, however, expose a live, publicly readable WordPress REST API on legendary.com that serves its news posts and its film, television, comics, trailer and digital catalogs as JSON — captured here as a platform-exposed content API rather than a supported product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
     },
     {
      "name": "MUBI",
@@ -3949,7 +3906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "beva",
@@ -3999,7 +3956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Moviepass",
@@ -4042,7 +3999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Trass Games",
@@ -4085,7 +4042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Wattpad",
@@ -4128,7 +4085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Games24x7",
@@ -4168,6 +4125,49 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 94
+    },
+    {
+     "name": "Endeavor",
+     "slug": "endeavor",
+     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -5359,7 +5359,7 @@
      "rank": 122
     },
     {
-     "name": "Zoog.A.I. Ltd.",
+     "name": "Zoog",
      "slug": "zoogai-ltd",
      "description": "Zoog.A.I. Ltd. (Zoog) is a consumer application that lets families create personalized video books and songs for children. Parents and kids can read classic children's books, sing popular nursery rhymes, and turn them into personalized videos featuring their own family, then share those magical creations. Zoog is delivered as an iOS app (with an Android waitlist) and a companion website, and is backed by 500 Global. It has no public developer API surface, SDKs, or API documentation at this time; this profile captures its identity and web presence within the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoogai-ltd/refs/heads/main/screenshots/zoogai-ltd-2026-09-02T171836.png",
@@ -12701,7 +12701,7 @@
      "rank": 292
     },
     {
-     "name": "PKO Inc.",
+     "name": "PKO",
      "slug": "pko-inc",
      "description": "PKO is a collective and investment group operating at the intersection of technology and entertainment. Describing itself as a community of founders, creators, execs, artists, angels and investors with more than 700 members, PKO runs online and offline networking events, mixers and collaborations, and invests in startups across metaverse, virtual worlds, VR/AR, web3 (crypto, NFTs, DAOs), the creator economy, gaming and esports, social media, platforms, marketplaces, communities, streaming video, and content and media. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. PKO publishes no public API, SDK, or developer surface; founders submit pitches by email.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pko-inc/refs/heads/main/screenshots/pko-inc-2026-09-02T151346.png",
@@ -14253,7 +14253,7 @@
      "rank": 328
     },
     {
-     "name": "CardMonster Inc.",
+     "name": "CardMonster",
      "slug": "cardmonster-inc",
      "description": "CardMonster turns ideas and brands into games. The company designs and publishes premium IP-based tabletop titles with global partners such as Disney and Krafton, and builds CardMonster Forge, an AI-powered tool that helps creators turn their own ideas into playable digital prototypes. From physical board games to an online playtesting platform, CardMonster connects creativity and technology to make game creation faster, smarter, and more accessible. Backed by 500 Global. As of this enrichment pass CardMonster publishes no public API, developer portal, or machine-readable specification; this profile captures company identity and domain-security posture only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cardmonster-inc/refs/heads/main/screenshots/cardmonster-inc-2026-07-25T204517.png",
@@ -14981,7 +14981,7 @@
      "rank": 345
     },
     {
-     "name": "Jubilee Inc",
+     "name": "Jubilee",
      "slug": "jubilee-inc",
      "description": "Jubilee Inc (Jubilee Media) is a Los Angeles-based digital media production company that creates discussion-based and dating video shows designed to provoke thoughtful conversation and foster human connection across social and ideological divides. Its flagship YouTube programs include Middle Ground, Odd One Out, and Ranking, alongside sister dating channels such as Love Comma Nectar (Versus 1) and the reaction and behind-the-scenes brand TwoBilee. Surfaced as a 500 Global portfolio company and added to the API Evangelist network; the company publishes no public API or developer platform at this time, so this profile carries identity and domain-security signal only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jubilee-inc/refs/heads/main/screenshots/jubilee-inc-2026-07-25T223255.png",
@@ -16311,7 +16311,7 @@
      "rank": 376
     },
     {
-     "name": "Storia Originals, Inc.",
+     "name": "Storia Originals",
      "slug": "storia-originals-inc",
      "description": "Storia Originals, Inc. (doing business as Storiaverse) was a Los Angeles-based consumer mobile entertainment startup founded in 2023 by Agnes Kozera and David Kierzkowski. Its Storiaverse app pioneered a patent-pending \"read-watch\" format blending short-form reading, animation, and audio, connecting writers and animators to publish and monetize original stories across sci-fi, fantasy, horror, mystery, and comedy, including adaptations of HarperCollins titles. It raised a pre-seed round led by 500 Global. As of this enrichment pass the company exposes no public API, SDK, or developer platform; both its marketing site (storia.io) and its iOS/Android app store listings are no longer reachable (all HTTP 404), indicating the product is inactive or has been wound down.",
      "score": 5.0,

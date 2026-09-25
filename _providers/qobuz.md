@@ -345,5 +345,6 @@ tags:
 - Music Metadata
 - Audiophile
 - France
+- Music
 website: https://www.qobuz.com/
 ---

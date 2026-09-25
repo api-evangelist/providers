@@ -101,16 +101,16 @@ description: JoySpace Technologies, Inc. (Joyspace) operates an enterprise AI vi
 image: https://joyspace-ai.b-cdn.net/images/ogImage.png
 layout: provider
 modified: '2026-07-19'
-name: JoySpace Technologies, Inc.
+name: JoySpace Technologies
 nav: Providers
 network: true
-overview: 'JoySpace Technologies, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Artificial Intelligence, Video Processing, and Content Creation.
+overview: 'JoySpace Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Artificial Intelligence, Video Processing, and Content Creation.
 
 
-  The JoySpace Technologies, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The JoySpace Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JoySpace Technologies, Inc.''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 5 more developer resources.'
+  JoySpace Technologies'' developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 5 more developer resources.'
 random_paper: 20
 score:
   band: thin

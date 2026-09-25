@@ -66,13 +66,13 @@ description: Innovatrix Tech, Corp. operates Sahl (getsahl.io), an AI-powered Go
 image: https://getsahl.io/wp-content/uploads/2025/03/Sahl_logo.png
 layout: provider
 modified: '2026-07-19'
-name: Innovatrix Tech, Corp.
+name: Sahl
 nav: Providers
 network: true
-overview: 'Innovatrix Tech, Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GRC, Compliance, Governance, and Risk.
+overview: 'Sahl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GRC, Compliance, Governance, and Risk Management.
 
 
-  Innovatrix Tech, Corp.''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Sahl''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -112,7 +112,7 @@ tags:
 - GRC
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Security
 - Regulatory
 - Audit

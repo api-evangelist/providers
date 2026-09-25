@@ -64,10 +64,10 @@ mcp_servers:
   name: Artue MCP server (search_artworks)
   slug: artue-mcp-server-search-artworks
 modified: '2026-07-19'
-name: Habitus Associates Co., Ltd.
+name: Artue
 nav: Providers
 network: true
-overview: Habitus Associates Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art, Marketplace, E-Commerce, and Artificial Intelligence.
+overview: Artue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art, Marketplace, E-Commerce, and Artificial Intelligence.
 random_paper: 6
 score:
   band: minimal

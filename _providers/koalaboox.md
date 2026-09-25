@@ -160,7 +160,7 @@ modified: '2026-07-19'
 name: Koalaboox
 nav: Providers
 network: true
-overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, PEPPOL, and Accounting.
+overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, E-Invoicing, PEPPOL, and Accounting.
 
 
   Koalaboox''s developer surface includes documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -226,7 +226,7 @@ slug: koalaboox
 tags:
 - Company
 - Invoicing
-- Electronic Invoicing
+- E-Invoicing
 - PEPPOL
 - Accounting
 - Invoice Financing

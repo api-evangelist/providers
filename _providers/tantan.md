@@ -95,7 +95,7 @@ tags:
 - Dating
 - Social
 - Mobile
-- Social Networking
+- Social Network
 - Online Dating
 website: https://tantanapp.com/en
 ---

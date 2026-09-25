@@ -111,7 +111,7 @@ modified: '2026-08-14'
 name: PitchMe
 nav: Providers
 network: true
-overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Data Enrichment, Talent Intelligence, and Human Resources.
+overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Data Enrichment, Talent Intelligence, and Human Resources.
 
 
   PitchMe''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -162,7 +162,7 @@ security:
 slug: pitchme
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Data Enrichment
 - Talent Intelligence
 - Human Resources

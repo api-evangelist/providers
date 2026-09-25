@@ -45,10 +45,10 @@ description: Yaya Pass, Inc. is a company surfaced as a portfolio company of 500
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yaya-pass-inc.png
 layout: provider
 modified: '2026-07-17'
-name: Yaya Pass, Inc.
+name: Yaya Pass
 nav: Providers
 network: true
-overview: Yaya Pass, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: Yaya Pass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 3
 score:
   band: minimal

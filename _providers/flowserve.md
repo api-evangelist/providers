@@ -79,7 +79,7 @@ modified: '2026-04-28'
 name: Flowserve
 nav: Providers
 network: true
-overview: 'Flowserve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Flow Control, IIoT, Manufacturing, and Fortune 1000.
+overview: 'Flowserve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Flow Control, Industrial IoT, Manufacturing, and Fortune 1000.
 
 
   The Flowserve catalog on APIs.io includes 1 JSON-LD context.'
@@ -140,7 +140,7 @@ slug: flowserve
 tags:
 - Industrial
 - Flow Control
-- IIoT
+- Industrial IoT
 - Manufacturing
 - Fortune 1000
 website: https://www.flowserve.com

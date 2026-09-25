@@ -81,7 +81,7 @@ modified: '2026-07-20'
 name: Perimeter VRM (formerly ProcessBolt)
 nav: Providers
 network: true
-overview: 'Perimeter VRM (formerly ProcessBolt) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vendor Risk Management, Third-Party Risk, Governance Risk Compliance, and Cybersecurity.
+overview: 'Perimeter VRM (formerly ProcessBolt) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Third-Party Risk Management, Governance Risk Compliance, Cybersecurity, and Risk Assessment.
 
 
   Perimeter VRM (formerly ProcessBolt)''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
@@ -121,8 +121,7 @@ security:
 slug: processbolt
 tags:
 - Company
-- Vendor Risk Management
-- Third-Party Risk
+- Third-Party Risk Management
 - Governance Risk Compliance
 - Cybersecurity
 - Risk Assessment

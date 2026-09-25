@@ -112,7 +112,7 @@ modified: '2026-05-11'
 name: Recruitee
 nav: Providers
 network: true
-overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, ATS, Applicant Tracking, Human Resources, and Hiring.
+overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Applicant Tracking, Human Resources, Hiring, and Careers Site.
 
 
   Recruitee''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, and 9 more developer resources.'
@@ -156,7 +156,6 @@ security:
 slug: recruitee
 tags:
 - Recruiting
-- ATS
 - Applicant Tracking
 - Human Resources
 - Hiring

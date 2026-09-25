@@ -97,5 +97,6 @@ tags:
 - Ethernet Switch Silicon
 - Data Center
 - Hardware
+- Acquired
 website: http://innovium.com
 ---

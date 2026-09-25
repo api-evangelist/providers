@@ -173,7 +173,7 @@ tags:
 - KYC
 - Financial Services
 - Insurance
-- Agentic AI
+- AI Agents
 - Machine Learning
 website: https://www.taktile.com/
 ---

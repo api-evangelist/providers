@@ -415,7 +415,7 @@ modified: '2026-05-23'
 name: Instabug (Luciq)
 nav: Providers
 network: true
-overview: 'Instabug (Luciq) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Luciq Webhooks, App Hangs API, Applications API, and 4 more. Tagged areas include Agentic AI, APM, Application Performance Monitoring, Bug Reporting, and Crash Reporting.
+overview: 'Instabug (Luciq) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Luciq Webhooks, App Hangs API, Applications API, and 4 more. Tagged areas include AI Agents, APM, Application Performance Monitoring, Bug Reporting, and Crash Reporting.
 
 
   The Instabug (Luciq) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -514,7 +514,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: instabug
 tags:
-- Agentic AI
+- AI Agents
 - APM
 - Application Performance Monitoring
 - Bug Reporting

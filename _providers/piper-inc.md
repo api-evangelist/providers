@@ -102,16 +102,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/piper-inc.
 layout: provider
 mcp_servers:
 - description: ''
-  name: Piper Inc. MCP Server
-  slug: piper-inc-mcp-server
+  name: Piper MCP Server
+  slug: piper-mcp-server
 modified: '2026-07-20'
-name: Piper Inc.
+name: Piper
 nav: Providers
 network: true
-overview: 'Piper Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, STEM, and Hardware.
+overview: 'Piper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, STEM, and Hardware.
 
 
-  Piper Inc.''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
+  Piper''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
 random_paper: 1
 scopes:
 - name: Piper Inc Scopes

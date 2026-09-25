@@ -239,7 +239,7 @@ tags:
 - Background Checks
 - Human Resources
 - Social Media
-- Risk
+- Risk Management
 - Compliance
 - Artificial Intelligence
 website: https://fama.io

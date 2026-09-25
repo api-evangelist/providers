@@ -114,7 +114,7 @@ modified: '2026-09-16'
 name: Zoho Recruit
 nav: Providers
 network: true
-overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API. Tagged areas include ATS, Recruiting, Recruitment CRM, Human Resources, and Zoho.
+overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API. Tagged areas include Applicant Tracking, Recruiting, Recruitment CRM, Human Resources, and Zoho.
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -162,7 +162,7 @@ security:
   summary_line: security.txt · contact published
 slug: zoho-recruit
 tags:
-- ATS
+- Applicant Tracking
 - Recruiting
 - Recruitment CRM
 - Human Resources

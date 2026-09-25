@@ -53,7 +53,7 @@ modified: '2026-07-19'
 name: Getlinks
 nav: Providers
 network: true
-overview: Getlinks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Hiring, Talent, and Job.
+overview: Getlinks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Talent, and Job.
 random_paper: 7
 score:
   band: minimal
@@ -95,7 +95,7 @@ security:
 slug: getlinks
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Hiring
 - Talent
 - Job

@@ -170,7 +170,7 @@ modified: '2026-06-21'
 name: TRONITY
 nav: Providers
 network: true
-overview: 'TRONITY publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charging & Battery API, Commands API, and 3 more. Tagged areas include Connected Car, EV, Telematics, Fleet, and Vehicle Data.
+overview: 'TRONITY publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charging & Battery API, Commands API, and 3 more. Tagged areas include Connected Car, Electric Vehicles, Telematics, Fleet, and Vehicle Data.
 
 
   TRONITY''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -232,7 +232,7 @@ security:
 slug: tronity
 tags:
 - Connected Car
-- EV
+- Electric Vehicles
 - Telematics
 - Fleet
 - Vehicle Data

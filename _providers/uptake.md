@@ -195,5 +195,6 @@ tags:
 - Telematics
 - Machine Learning
 - Industrial IoT
+- Industrial
 website: https://uptake.com/
 ---

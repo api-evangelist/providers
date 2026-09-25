@@ -88,5 +88,4 @@ tags:
 - Machine Learning
 - Edge Computing
 - Smart Buildings
-- IIoT
 ---

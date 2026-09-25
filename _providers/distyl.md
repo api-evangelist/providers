@@ -80,7 +80,7 @@ modified: '2026-07-18'
 name: Distyl
 nav: Providers
 network: true
-overview: 'Distyl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise AI, Agentic AI, and AI Agents.
+overview: 'Distyl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Enterprise AI, AI Agents, and Machine Learning.
 
 
   Distyl''s developer surface includes engineering blog and 7 more developer resources.'
@@ -133,7 +133,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Enterprise AI
-- Agentic AI
 - AI Agents
 - Machine Learning
 - Healthcare

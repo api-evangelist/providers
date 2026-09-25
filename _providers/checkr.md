@@ -298,5 +298,6 @@ tags:
 - Human Resources
 - Identity Verification
 - Criminal Records
+- Recruiting
 website: https://checkr.com
 ---

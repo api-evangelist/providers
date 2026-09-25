@@ -50,10 +50,10 @@ description: Ecobites Pte. Ltd. operates Rec Rec, a Vietnamese consumer packaged
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ecobites-pte-ltd.png
 layout: provider
 modified: '2026-07-19'
-name: Ecobites Pte. Ltd.
+name: Rec Rec
 nav: Providers
 network: true
-overview: Ecobites Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Snacks, and E-Commerce.
+overview: Rec Rec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Packaged Goods, Food and Beverage, Snacks, and E-Commerce.
 random_paper: 5
 score:
   band: minimal

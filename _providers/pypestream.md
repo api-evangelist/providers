@@ -371,7 +371,7 @@ modified: '2026-08-26'
 name: Pypestream
 nav: Providers
 network: true
-overview: 'Pypestream publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Advanced API, Agent API, and 24 more. Tagged areas include Company, Conversational AI, Agentic AI, Contact Center, and Customer Service.
+overview: 'Pypestream publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Advanced API, Agent API, and 24 more. Tagged areas include Company, Conversational AI, AI Agents, Contact Center, and Customer Service.
 
 
   The Pypestream catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -443,7 +443,7 @@ slug: pypestream
 tags:
 - Company
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Contact Center
 - Customer Service
 - Customer Engagement

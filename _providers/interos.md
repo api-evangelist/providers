@@ -277,7 +277,7 @@ tags:
 - Supply Chain
 - Risk Management
 - Supplier Risk
-- Third-Party Risk
+- Third-Party Risk Management
 - Artificial Intelligence
 website: https://www.interos.ai
 ---

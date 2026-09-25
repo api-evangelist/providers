@@ -69,7 +69,7 @@ modified: '2026-07-18'
 name: Crowdplat
 nav: Providers
 network: true
-overview: 'Crowdplat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdsourcing, Recruitment, Hiring, and Artificial Intelligence.
+overview: 'Crowdplat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crowdsourcing, Recruiting, Hiring, and Artificial Intelligence.
 
 
   Crowdplat''s developer surface includes signup flow, support, and 4 more developer resources.'
@@ -110,7 +110,7 @@ slug: crowdplat
 tags:
 - Company
 - Crowdsourcing
-- Recruitment
+- Recruiting
 - Hiring
 - Artificial Intelligence
 - Talent Marketplace

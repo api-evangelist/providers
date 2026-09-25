@@ -300,6 +300,7 @@ tags:
 - Podcasting
 - Transcription
 - Video Editing
+- Audio
 use_cases:
 - description: Import recordings, run Studio Sound and filler-word removal, and publish episodes without opening the desktop app.
   name: Podcast Production Automation

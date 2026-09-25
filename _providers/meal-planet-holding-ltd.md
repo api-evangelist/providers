@@ -66,13 +66,13 @@ description: MealPlanet (MEAL PLANET HOLDING LTD) is a UAE-based foodtech compan
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meal-planet-holding-ltd.png
 layout: provider
 modified: '2026-07-20'
-name: MEAL PLANET HOLDING LTD
+name: MEAL PLANET
 nav: Providers
 network: true
-overview: 'MEAL PLANET HOLDING LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Meal Delivery, Meal Plans, and Marketplace.
+overview: 'MEAL PLANET is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Tech, Meal Delivery, Meal Plans, and Marketplace.
 
 
-  MEAL PLANET HOLDING LTD''s developer surface includes signup flow, support, and 4 more developer resources.'
+  MEAL PLANET''s developer surface includes signup flow, support, and 4 more developer resources.'
 random_paper: 15
 score:
   band: emerging

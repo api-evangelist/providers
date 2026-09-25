@@ -61,7 +61,7 @@ modified: '2026-07-21'
 name: SlideRule
 nav: Providers
 network: true
-overview: SlideRule is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk, Fraud, Decisioning, and Rules Engine.
+overview: SlideRule is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk Management, Fraud, Decisioning, and Rules Engine.
 random_paper: 1
 score:
   band: minimal
@@ -98,7 +98,7 @@ security:
 slug: sliderule
 tags:
 - Company
-- Risk
+- Risk Management
 - Fraud
 - Decisioning
 - Rules Engine

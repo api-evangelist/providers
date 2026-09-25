@@ -128,7 +128,6 @@ tags:
 - Human Resources
 - Recruiting
 - Applicant Tracking
-- ATS
 - Software-as-a-Service
 - Japan
 website: https://herp.co.jp/

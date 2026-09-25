@@ -2447,7 +2447,7 @@
      "rank": 50
     },
     {
-     "name": "Vortx AI Private Limited",
+     "name": "emem",
      "slug": "emem-dev",
      "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
      "score": 49.3,
@@ -2982,7 +2982,7 @@
      "rank": 61
     },
     {
-     "name": "Moody's Corporation",
+     "name": "Moody's",
      "slug": "moodys-corporation",
      "description": "Moody's Corporation (NYSE: MCO) is a global integrated risk-assessment firm operating through two segments: Moody's Ratings (Moody's Investors Service), which publishes credit ratings and assessment services on debt obligations, and Moody's Analytics, which provides data, software, research, and APIs spanning economic data, credit risk, KYC/AML, ESG, climate, and catastrophe modeling. Moody's Analytics products are exposed through multiple developer APIs and a portal at developer.moodys.com, with deeper API surfaces published at api.economy.com (Data Buffet, Scenario Studio, AutoCycle, ECCL) and through subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC), and Four Twenty Seven (climate).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/screenshots/moodys-corporation-2026-08-17T081109.png",
@@ -5877,8 +5877,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 102,
-   "shown": 102,
+   "count": 101,
+   "shown": 101,
    "providers": [
     {
      "name": "Near Space Labs",
@@ -8601,56 +8601,6 @@
      "rank": 181
     },
     {
-     "name": "Turntide Technologies",
-     "slug": "turntide-technologies",
-     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 16.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 25.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 182
-    },
-    {
      "name": "Arlula",
      "slug": "arlula",
      "description": "Arlula is a satellite imagery marketplace and API platform providing programmatic access to archive and tasking satellite imagery from multiple providers. The Arlula API enables developers to search the global satellite archive, discover tasking opportunities, place imagery orders, and download delivered datasets including GeoTIFF imagery, preview images, and metadata files.",
@@ -8691,7 +8641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Specright",
@@ -8734,7 +8684,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "FAO FAOSTAT",
@@ -8784,7 +8734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Underdog",
@@ -8827,7 +8777,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "Ellipsis Drive",
@@ -8870,7 +8820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Good Leap",
@@ -8920,7 +8870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 187
     },
     {
      "name": "JAXA",
@@ -8970,7 +8920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 188
     },
     {
      "name": "FuelEconomy.gov",
@@ -9020,7 +8970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 189
     },
     {
      "name": "Sharethrough",
@@ -9063,7 +9013,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Southern California Edison",
@@ -9113,7 +9063,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Kevala",
@@ -9163,7 +9113,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "MetricStream",
@@ -9206,7 +9156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Refurbed",
@@ -9256,7 +9206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Isometric",
@@ -9306,7 +9256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "National Energy System Operator (NESO)",
@@ -9353,6 +9303,56 @@
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 196
+    },
+    {
+     "name": "Turntide Technologies",
+     "slug": "turntide-technologies",
+     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
+     "score": 29.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 13.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 25.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -10278,49 +10278,6 @@
      "rank": 216
     },
     {
-     "name": "Gotham Greens",
-     "slug": "gotham-greens",
-     "description": "Gotham Greens is an American fresh food and indoor farming company founded in 2009 by Viraj Puri and Eric Haley in Brooklyn, New York, where it built one of the first commercial-scale rooftop hydroponic greenhouses in the world. The company owns and operates a national network of climate-controlled hydroponic greenhouses across the United States, growing pesticide-free leafy greens, lettuces and herbs year-round using a fraction of the land and water of conventional field agriculture, and delivering them to retail, restaurant and foodservice customers within hours of harvest. Under its own brand it sells packaged salad greens, salad kits, fresh herbs, salad dressings, dips, pestos and cooking sauces. Gotham Greens is a consumer packaged goods and controlled-environment agriculture business rather than a software vendor, and publishes no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at gothamgreens.com, captured here for discovery purposes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png",
-     "score": 27.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 217
-    },
-    {
      "name": "Andium",
      "slug": "andium",
      "description": "Andium is a New York City based industrial IoT company that combines its own hardware and AI software into an end-to-end remote field monitoring platform for the energy sector. Its InSite smart camera and edge software watch remote oil and gas wellsites for methane leaks, flare and pilot-light outages, tank levels, liquid spills, fire and asset movement, and push real-time alerts to operators instead of sending crews to look. The company reports cutting site greenhouse-gas emissions by up to 65%, field operating costs by up to 45% and windshield time by 80%, and raised a $21.7M Series B led by Aramco Ventures. Andium publishes no public developer program, documentation or specification for that monitoring platform; the only callable, machine-readable API surface on any andium.com host is the Universal Commerce Protocol MCP endpoint on its Shopify-backed merchandise storefront at shop.andium.com.",
@@ -10368,7 +10325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Agrology",
@@ -10410,7 +10367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Ernst & Young (EY)",
@@ -10453,7 +10410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Cority",
@@ -10510,7 +10467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Franklin Whole Home",
@@ -10560,7 +10517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "CONSOL Energy",
@@ -10610,7 +10567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "E.ON Next",
@@ -10660,7 +10617,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Pantheon",
@@ -10703,7 +10660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     }
    ]
   },
@@ -10712,8 +10669,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 278,
-   "shown": 278,
+   "count": 279,
+   "shown": 279,
    "providers": [
     {
      "name": "Ausgrid",
@@ -10763,57 +10720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
-    },
-    {
-     "name": "Vestaron",
-     "slug": "vestaron",
-     "description": "Vestaron is an agricultural biotechnology company founded in 2005 and headquartered in Kalamazoo, Michigan, that develops peptide-based bioinsecticides derived from the venom of spiders and other venomous species. Its peptides deliver insecticidal modes of action that had never before been used for insect control — SPEAR, the first commercialised active ingredient, introduced IRAC Group 32, the first new neuromuscular mode of action since the diamides — and are effective on lepidopteran and sucking pests while remaining gentle on pollinators and beneficial insects. The commercial portfolio is SPEAR LEP, SPEAR RC, SPEAR T, BASIN FLEX, LEPROTEC and LEPROTEC WG, manufactured in partnership with ADM. The company has won the Crop Science Award and an EPA Green Chemistry Challenge award, and in 2024 became the first agriculture and food company inducted into the Global CleanTech 100 Hall of Fame. Vestaron publishes no developer program, no product API and no API documentation. The only machine-readable surfaces on vestaron.com are the WordPress REST content API (wp/v2), which is anonymously readable and serves the corporate newsroom, product and company pages and media library, and an OAuth-gated Model Context Protocol endpoint advertised through RFC 8414 and RFC 9728 metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png",
-     "score": 25.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 14.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 227
+     "rank": 225
     },
     {
      "name": "ISN",
@@ -10863,7 +10770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 226
     },
     {
      "name": "AiDASH",
@@ -10913,7 +10820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 227
     },
     {
      "name": "Hydro Ottawa",
@@ -10963,7 +10870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 228
     },
     {
      "name": "Copernicus Marine",
@@ -11013,7 +10920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 229
     },
     {
      "name": "Deloitte",
@@ -11056,7 +10963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 230
     },
     {
      "name": "Farmers Edge",
@@ -11099,7 +11006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 231
     },
     {
      "name": "SA Power Networks",
@@ -11149,7 +11056,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 232
     },
     {
      "name": "Libryo",
@@ -11206,7 +11113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 233
     },
     {
      "name": "Moxion Power Co",
@@ -11256,7 +11163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 234
     },
     {
      "name": "Aptera Motors",
@@ -11306,7 +11213,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 237
+     "rank": 235
+    },
+    {
+     "name": "Vestaron",
+     "slug": "vestaron",
+     "description": "Vestaron is an agricultural biotechnology company founded in 2005 and headquartered in Kalamazoo, Michigan, that develops peptide-based bioinsecticides derived from the venom of spiders and other venomous species. Its peptides deliver insecticidal modes of action that had never before been used for insect control — SPEAR, the first commercialised active ingredient, introduced IRAC Group 32, the first new neuromuscular mode of action since the diamides — and are effective on lepidopteran and sucking pests while remaining gentle on pollinators and beneficial insects. The commercial portfolio is SPEAR LEP, SPEAR RC, SPEAR T, BASIN FLEX, LEPROTEC and LEPROTEC WG, manufactured in partnership with ADM. The company has won the Crop Science Award and an EPA Green Chemistry Challenge award, and in 2024 became the first agriculture and food company inducted into the Global CleanTech 100 Hall of Fame. Vestaron publishes no developer program, no product API and no API documentation. The only machine-readable surfaces on vestaron.com are the WordPress REST content API (wp/v2), which is anonymously readable and serves the corporate newsroom, product and company pages and media library, and an OAuth-gated Model Context Protocol endpoint advertised through RFC 8414 and RFC 9728 metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 7.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 236
     },
     {
      "name": "Ameresco",
@@ -11356,7 +11313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Provivi",
@@ -11390,6 +11347,49 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 238
+    },
+    {
+     "name": "Bond Pet Foods",
+     "slug": "bond-pet-foods",
+     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 41.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -11851,55 +11851,6 @@
      "rank": 249
     },
     {
-     "name": "Addis Energy",
-     "slug": "addis-energy",
-     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 250
-    },
-    {
      "name": "Group14 Technologies",
      "slug": "group14-technologies",
      "description": "Group14 Technologies is a battery materials manufacturer headquartered in Woodinville, Washington, founded in 2015 by Rick Luebbe, Dr. Rick Costantino and Aaron Feaver as a spinout of EnerG2. It produces SCC55, a silicon-carbon composite anode material that replaces graphite in lithium-ion cells to raise energy density, shorten charge times and extend cycle life for electric mobility, grid-scale storage and consumer electronics. Manufacturing runs through its BAM (battery active materials) factory network — BAM-1 and the silane factory in Washington State, BAM-2 in Moses Lake, and BAM-3 operated by the SK materials Group14 joint venture in Sangju, South Korea — and the company reports more than 170 issued patents worldwide. Group14 is a materials manufacturer rather than a software vendor: it publishes no developer program, no API documentation, no SDKs and no pricing for machine access. The only machine-readable interfaces it exposes are the anonymously readable WordPress REST content API behind group14.technology, captured here for discovery purposes and read-only without credentials, and a WordPress MCP Adapter endpoint on the same host that is registered but authentication-gated.",
@@ -11924,15 +11875,15 @@
       "score": 40.5,
       "matched_via": "tags"
      },
-     "agent_score": 17.8,
+     "agent_score": 15.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -11941,63 +11892,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
-    },
-    {
-     "name": "Harbinger",
-     "slug": "harbinger",
-     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
-     "score": 23.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 252
+     "rank": 250
     },
     {
      "name": "Connected Kerb",
@@ -12047,7 +11948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 251
     },
     {
      "name": "International Energy Agency (IEA)",
@@ -12096,7 +11997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 252
     },
     {
      "name": "WinCL",
@@ -12146,7 +12047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 253
     },
     {
      "name": "World Fuel Services",
@@ -12195,7 +12096,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 254
     },
     {
      "name": "Wyvern",
@@ -12245,7 +12146,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 255
+    },
+    {
+     "name": "Greif",
+     "slug": "greif",
+     "description": "Greif is an industrial packaging products and services leader with a vision to be the best performing customer service company in the world. Greif also offers digital tools such as the Greif Green Tool carbon footprint calculator and the Greif+ online platform for customers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greif/refs/heads/main/screenshots/greif-2026-06-20T182402.png",
+     "score": 22.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 26.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 24.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 256
     },
     {
      "name": "EarthOptics",
@@ -12295,7 +12239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "AerisWeather",
@@ -12338,7 +12282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "Arbol",
@@ -12388,10 +12332,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
-     "name": "AES Corporation",
+     "name": "AES",
      "slug": "aes",
      "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png",
@@ -12438,7 +12382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Apkudo",
@@ -12499,56 +12443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
-    },
-    {
-     "name": "XGS Energy",
-     "slug": "xgs-energy",
-     "description": "XGS Energy is a next-generation geothermal power developer founded in 2008 and headquartered in Palo Alto, California, formerly Geothermic Solution. Its patented Thermal Reach Enhancement technology packs a thermally conductive material around a closed-loop wellbore so heat is drawn from the surrounding rock without relying on natural permeability or produced water, siting geothermal in geology conventional hydrothermal and EGS cannot use. It is developing a 150 MW round-the-clock project in New Mexico with Meta and utility PNM, and in 2025 acquired drilling firm Capuano Engineering. XGS Energy is an energy infrastructure developer, not a software vendor: it publishes no developer program, product API, SDKs or API documentation. The only machine-readable interface it exposes is the WordPress REST content API behind www.xgsenergy.com, captured here for discovery — anonymously readable, read-only, and undocumented by the company.",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 1.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 263
+     "rank": 261
     },
     {
      "name": "Open Geospatial Consortium (OGC)",
@@ -12591,50 +12486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
-    },
-    {
-     "name": "Bond Pet Foods",
-     "slug": "bond-pet-foods",
-     "description": "Bond Pet Foods is a Boulder, Colorado food-biotechnology company that makes animal proteins for pet food by precision fermentation rather than by farming animals. Its process pairs a chicken DNA sequence with brewer's yeast and runs it through a roughly 48-hour controlled fermentation, after which the protein is harvested, dried and milled into a powder that pet food makers formulate into finished products. The company operates a 15,000 square-foot food lab in central Boulder, is led by founder and CEO Rich Kelleman, markets itself as an \"Ally For All Animals\", and has announced a $17.5M Series A, an investment from Symrise AG, and development partnerships with Hill's Pet Nutrition and Wilbur-Ellis Nutrition. Bond Pet Foods runs no developer program and publishes no API documentation, but its own site at www.bondpets.com runs on WordPress and WooCommerce and exposes a genuinely public, machine-readable API surface - a WordPress REST API discovery index advertising 970 routes across 57 namespaces, and an anonymously readable WooCommerce Store API covering the merchandise catalog, categories and cart.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 30.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 265
+     "rank": 262
     },
     {
      "name": "Evolved By Nature",
@@ -12677,7 +12529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 266
+     "rank": 263
     },
     {
      "name": "Tetra Tech",
@@ -12720,7 +12572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 264
     },
     {
      "name": "dClimate",
@@ -12763,20 +12615,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 265
     },
     {
-     "name": "Hydrostor",
-     "slug": "hydrostor",
-     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
-     "score": 21.4,
+     "name": "Addis Energy",
+     "slug": "addis-energy",
+     "description": "Addis Energy is a Somerville, Massachusetts deep-tech energy company founded in January 2025 out of research in the MIT Department of Materials Science and Engineering. It is developing Stimulated Geologic Ammonia — injecting nitrogen, water and engineered fluids into iron-rich subsurface rock and using the earth's own heat and pressure as the reactor to produce ammonia underground rather than in a Haber-Bosch plant. Founded by Michael Alexander (CEO), Charlie Mitchell (COO), Iwnetim Abate (Chief Science Officer) and Yet-Ming Chiang (Chief Strategy Officer), it has raised an $8.3M seed round plus a $4.5M ARPA-E award, backed by Engine Ventures, At One Ventures, Pillar VC, Voyager VC, Blindspot Ventures and Emerson Collective. It is not a software vendor: no developer program, portal, SDKs or product API. The only machine-readable interface it exposes is the WordPress core REST content API behind addisenergy.com, captured here for discovery and anonymously readable but read-only.",
+     "score": 21.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 4.5,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
@@ -12787,18 +12638,18 @@
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 44.6,
+      "score": 33.8,
       "matched_via": "tags"
      },
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -12807,13 +12658,63 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 266
+    },
+    {
+     "name": "Harbinger",
+     "slug": "harbinger",
+     "description": "Harbinger (Harbinger Motors Inc.) is an American commercial-vehicle manufacturer founded in July 2021 and headquartered in Garden Grove, California. It builds a purpose-designed medium-duty platform — Class 4-6 stripped chassis in all-electric and plug-in hybrid range-extended configurations, the HC Series low-cab-forward cab chassis, the Sevna cab chassis and a step van — around in-house motors, battery packs, power electronics and vehicle software, and sells into last-mile delivery, work-truck, mobile-healthcare, RV and motorhome, and government fleets. Its Harbinger Industria line packages the same drivetrain as off-grid and jobsite power systems. The company has announced serial production of an American-made medium-duty EV, a $160 million Series C co-led by FedEx, Capricorn and THOR Industries, the acquisition of autonomous-driving company Phantom AI alongside a ZF licensing agreement, and a robotics partnership with American Rheinmetall. Harbinger is a vehicle manufacturer rather than a software vendor, and publishes no developer program, no developer portal, no API documentation, no SDKs and no partner API. The only machine-readable interface it exposes to the public is the WordPress REST content API behind harbingermotors.com, which is captured here for discovery purposes and is anonymously readable but read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 267
     },
     {
      "name": "ACCURE Battery Intelligence",
@@ -12862,7 +12763,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 268
     },
     {
      "name": "Graphic Packaging",
@@ -12905,50 +12806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
-    },
-    {
-     "name": "Perfect Day",
-     "slug": "perfect-day",
-     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/screenshots/perfect-day-2026-09-02T151042.png",
-     "score": 20.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 14.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 272
+     "rank": 269
     },
     {
      "name": "Nova Scotia Power",
@@ -12998,57 +12856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
-    },
-    {
-     "name": "LanzaTech",
-     "slug": "lanzatech",
-     "description": "LanzaTech is a carbon recycling company (Nasdaq LNZA) that uses gas fermentation to convert waste carbon into fuels and chemicals. Its technology retrofits an industrial site such as a steel mill, a ferroalloy plant or a landfill with a bioreactor in which proprietary bacteria consume carbon-rich off-gases and produce ethanol and other intermediates, marketed as CarbonSmart products and used by brands including Unilever, Coty and Zara. The company operates commercial plants in China, India and Belgium, is building the LanzaTech Porsgrunn CCUS project in Norway with Eramet, and works with LanzaJet on sustainable aviation fuel. LanzaTech publishes no developer program, but lanzatech.com runs on WordPress and exposes a fully public, unauthenticated WordPress REST API whose custom content types (news, employee, board-member, download, testimonial) model the company itself.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png",
-     "score": 20.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 274
+     "rank": 270
     },
     {
      "name": "MSCI",
@@ -13091,7 +12899,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 271
     },
     {
      "name": "Abatable",
@@ -13133,49 +12941,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 276
-    },
-    {
-     "name": "AeroFarms",
-     "slug": "aerofarms",
-     "description": "AeroFarms is an indoor vertical farming company founded in 2004 and headquartered in Newark, New Jersey, where it grows leafy greens and nutrient-dense microgreens — micro broccoli, micro arugula, micro wasabi mustard and the FlavorSpectrum blends — aeroponically, without sun or soil, under LED light recipes driven by its proprietary agSTACK PLC/SCADA control stack. It sells through US grocery retail rather than through software, is a Certified B Corporation, and was acquired by an affiliate of Palm Ventures in June 2026. AeroFarms is a produce grower, not a software vendor: no developer portal, no API documentation, no SDKs, no API product. The machine-readable surface profiled here is the anonymous, read-only WordPress and WooCommerce REST API behind www.aerofarms.com, a live OAuth-protected MCP server at /wp-json/mcp/mcp-oauth-server, and a published llms.txt.",
-     "score": 20.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 1.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 277
+     "rank": 272
     },
     {
      "name": "Redaptive",
@@ -13225,7 +12991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 273
     },
     {
      "name": "EcoCart",
@@ -13275,7 +13041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 274
     },
     {
      "name": "First Solar",
@@ -13325,7 +13091,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 275
     },
     {
      "name": "Peaxy",
@@ -13375,7 +13141,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 276
+    },
+    {
+     "name": "AeroFarms",
+     "slug": "aerofarms",
+     "description": "AeroFarms is an indoor vertical farming company founded in 2004 and headquartered in Newark, New Jersey, where it grows leafy greens and nutrient-dense microgreens — micro broccoli, micro arugula, micro wasabi mustard and the FlavorSpectrum blends — aeroponically, without sun or soil, under LED light recipes driven by its proprietary agSTACK PLC/SCADA control stack. It sells through US grocery retail rather than through software, is a Certified B Corporation, and was acquired by an affiliate of Palm Ventures in June 2026. AeroFarms is a produce grower, not a software vendor: no developer portal, no API documentation, no SDKs, no API product. The machine-readable surface profiled here is the anonymous, read-only WordPress and WooCommerce REST API behind www.aerofarms.com, a live OAuth-protected MCP server at /wp-json/mcp/mcp-oauth-server, and a published llms.txt.",
+     "score": 20.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 24.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 277
     },
     {
      "name": "TO THE MARKET",
@@ -13418,7 +13226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 282
+     "rank": 278
     },
     {
      "name": "Gro Intelligence",
@@ -13463,7 +13271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 279
     },
     {
      "name": "Rhythmos",
@@ -13513,7 +13321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 280
     },
     {
      "name": "OVO Energy",
@@ -13563,7 +13371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 281
     },
     {
      "name": "Sustaira",
@@ -13606,7 +13414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 282
     },
     {
      "name": "Grubbly Farms",
@@ -13649,7 +13457,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 283
+    },
+    {
+     "name": "LanzaTech",
+     "slug": "lanzatech",
+     "description": "LanzaTech is a carbon recycling company (Nasdaq LNZA) that uses gas fermentation to convert waste carbon into fuels and chemicals. Its technology retrofits an industrial site such as a steel mill, a ferroalloy plant or a landfill with a bioreactor in which proprietary bacteria consume carbon-rich off-gases and produce ethanol and other intermediates, marketed as CarbonSmart products and used by brands including Unilever, Coty and Zara. The company operates commercial plants in China, India and Belgium, is building the LanzaTech Porsgrunn CCUS project in Norway with Eramet, and works with LanzaJet on sustainable aviation fuel. LanzaTech publishes no developer program, but lanzatech.com runs on WordPress and exposes a fully public, unauthenticated WordPress REST API whose custom content types (news, employee, board-member, download, testimonial) model the company itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 284
     },
     {
      "name": "Leaf Logistics",
@@ -13692,7 +13550,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 285
+    },
+    {
+     "name": "XGS Energy",
+     "slug": "xgs-energy",
+     "description": "XGS Energy is a next-generation geothermal power developer founded in 2008 and headquartered in Palo Alto, California, formerly Geothermic Solution. Its patented Thermal Reach Enhancement technology packs a thermally conductive material around a closed-loop wellbore so heat is drawn from the surrounding rock without relying on natural permeability or produced water, siting geothermal in geology conventional hydrothermal and EGS cannot use. It is developing a 150 MW round-the-clock project in New Mexico with Meta and utility PNM, and in 2025 acquired drilling firm Capuano Engineering. XGS Energy is an energy infrastructure developer, not a software vendor: it publishes no developer program, product API, SDKs or API documentation. The only machine-readable interface it exposes is the WordPress REST content API behind www.xgsenergy.com, captured here for discovery — anonymously readable, read-only, and undocumented by the company.",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 286
     },
     {
      "name": "Bloomberg ESG Products",
@@ -13735,7 +13642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 287
     },
     {
      "name": "Bloomberg Sustainable Finance Products",
@@ -13778,41 +13685,48 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 288
     },
     {
-     "name": "Greif",
-     "slug": "greif",
-     "description": "Greif is an industrial packaging products and services leader with a vision to be the best performing customer service company in the world. Greif also offers digital tools such as the Greif Green Tool carbon footprint calculator and the Greif+ online platform for customers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greif/refs/heads/main/screenshots/greif-2026-06-20T182402.png",
-     "score": 19.4,
+     "name": "Hydrostor",
+     "slug": "hydrostor",
+     "description": "Hydrostor is a Canadian long-duration energy storage developer founded in 2010 and headquartered in Toronto, with offices in Denver, Colorado and Melbourne and Adelaide, Australia. It builds and operates Advanced Compressed Air Energy Storage (A-CAES) facilities: surplus grid electricity runs a compressor, the heat of compression is captured and stored, and the cooled compressed air is sent into a purpose-built underground cavern held at constant pressure by a water column. On discharge the water weight pushes the air back to surface, where it is recombined with the stored heat and expanded through a turbine, giving eight or more hours of emissions-free storage from a plant with a multi-decade asset life. The company is backed by Goldman Sachs Alternatives, CPP Investments, the Canada Growth Fund, Canoe Financial and Arctern Ventures, operates a commercially contracted utility-scale facility in Goderich, Ontario, and is advancing a roughly 7 GW pipeline including the Willow Rock and Copper Valley centers in California, Silver City in New South Wales, and Quinte and Wellington in Ontario. Hydrostor is an energy infrastructure developer rather than a software vendor: it publishes no developer portal, no SDKs, no product API and no machine-readable specification of its own. The only machine-readable interface it exposes is the WordPress core REST content API behind hydrostor.ca, which is anonymously readable, read-only without credentials, and carries the project portfolio, the newsroom archive and the media library. That surface is profiled here for discovery purposes and is described from the site's own self-describing route index.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png",
+     "score": 19.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 13.3,
+      "contract_quality": 6.7,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
+      "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 11.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": false,
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -13821,7 +13735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 289
     },
     {
      "name": "Supplier",
@@ -13864,7 +13778,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 290
     },
     {
      "name": "Ecologi",
@@ -13907,49 +13821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
-    },
-    {
-     "name": "Adionics",
-     "slug": "adionics",
-     "description": "Adionics is a French cleantech company founded in 2012 in Paris by Guillaume de Souza, out of research into liquid-liquid salt extraction started in 2007. It develops and licenses a patented Direct Lithium Extraction (DLE) process built on Flionex, a proprietary, thermally regenerated and highly selective liquid salt absorbent that captures lithium salts from brine at ambient temperature and releases them at higher temperature in a closed loop, with no traditional reagents and more than 90% less water than evaporation ponds. The company sells a staged engagement to mining operators — a proprietary modeling study, a lab-scale bench test, an on-site pilot plant, and basic engineering plus commissioning support for a commercial plant — targeting lithium-rich salars, geothermal brines, oil-and-gas produced water, industrial effluents and battery recycling streams. It has run 1,500 hours of continuous lithium extraction in the Salar de Atacama, opened a pilot test centre in Salta Province, Argentina, and raised roughly $40M across four rounds. Adionics is a process-technology and engineering company, not a software vendor, and publishes no developer portal, no product API, no SDKs and no OpenAPI. The only machine-readable interface it exposes is the WordPress REST content API behind www.adionics.com, which is anonymously readable, read-only for the public, and captured here for discovery.",
-     "score": 19.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 15.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 294
+     "rank": 291
     },
     {
      "name": "Uppercase",
@@ -13992,7 +13864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 295
+     "rank": 292
     },
     {
      "name": "Climate-X",
@@ -14042,7 +13914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 293
     },
     {
      "name": "Matthews International",
@@ -14092,7 +13964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 294
     },
     {
      "name": "SeekOps",
@@ -14142,7 +14014,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 295
+    },
+    {
+     "name": "Perfect Day",
+     "slug": "perfect-day",
+     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/screenshots/perfect-day-2026-09-02T151042.png",
+     "score": 18.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 14.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 296
     },
     {
      "name": "Quantilia",
@@ -14185,7 +14100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 297
     },
     {
      "name": "Synop",
@@ -14235,7 +14150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 298
     },
     {
      "name": "Agerpoint",
@@ -14277,7 +14192,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 299
     },
     {
      "name": "AI Clearing",
@@ -14326,7 +14241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 300
     },
     {
      "name": "Breathe Battery Technologies",
@@ -14376,7 +14291,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 301
+    },
+    {
+     "name": "Gotham Greens",
+     "slug": "gotham-greens",
+     "description": "Gotham Greens is an American fresh food and indoor farming company founded in 2009 by Viraj Puri and Eric Haley in Brooklyn, New York, where it built one of the first commercial-scale rooftop hydroponic greenhouses in the world. The company owns and operates a national network of climate-controlled hydroponic greenhouses across the United States, growing pesticide-free leafy greens, lettuces and herbs year-round using a fraction of the land and water of conventional field agriculture, and delivering them to retail, restaurant and foodservice customers within hours of harvest. Under its own brand it sells packaged salad greens, salad kits, fresh herbs, salad dressings, dips, pestos and cooking sauces. Gotham Greens is a consumer packaged goods and controlled-environment agriculture business rather than a software vendor, and publishes no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at gothamgreens.com, captured here for discovery purposes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png",
+     "score": 18.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 9.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 302
     },
     {
      "name": "helios",
@@ -14433,50 +14391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
-    },
-    {
-     "name": "Impossible Metals",
-     "slug": "impossible-metals",
-     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 15.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 305
+     "rank": 303
     },
     {
      "name": "Jupiter Intelligence",
@@ -14519,7 +14434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 304
     },
     {
      "name": "UrbanFootprint",
@@ -14562,7 +14477,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 305
     },
     {
      "name": "Spire Global",
@@ -14605,50 +14520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
-    },
-    {
-     "name": "LIVEKINDLY",
-     "slug": "livekindly",
-     "description": "LIVEKINDLY Collective (thelivekindlyco.com) is a global plant-based food company founded in March 2020 by Roger Lienhard around a mission to make plant-based living the new norm. It is a house of alternative-protein brands — Fry's Family Food Co., Like Meat, Oumph! and The No Meat Company — sold across Europe, the UK, South Africa and North America, and it also runs a B2B Solutions arm supplying plant-based protein to other food businesses. The Collective raised over half a billion dollars across its early rounds, reported profitability in November 2025, announced it was joining forces with TiNDLE Foods in December 2025, and was certified as a B Corp in June 2026. LIVEKINDLY publishes no developer platform, no documentation portal and no OpenAPI. The machine-readable surface on thelivekindlyco.com is its WordPress REST API (wp/v2), which serves the corporate newsroom, the brand and partner directories, the careers listings, pages and media library as anonymously readable JSON, alongside a WordPress MCP Adapter endpoint that is live and fronted by a real RFC 8414 OAuth authorization server — but is authentication-gated to a single \"mcp\" scope. The company is tracked on the Forge Global secondary market.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png",
-     "score": 18.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 309
+     "rank": 306
     },
     {
      "name": "Sourcemap",
@@ -14691,7 +14563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 307
     },
     {
      "name": "Avetta",
@@ -14734,7 +14606,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 308
     },
     {
      "name": "Persefoni",
@@ -14777,7 +14649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 309
     },
     {
      "name": "Too Good To Go",
@@ -14819,7 +14691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 310
     },
     {
      "name": "Allbirds",
@@ -14862,7 +14734,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 314
+     "rank": 311
     },
     {
      "name": "Climeworks",
@@ -14912,7 +14784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 312
     },
     {
      "name": "HAMAMA",
@@ -14962,7 +14834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 313
     },
     {
      "name": "Cruz Foam",
@@ -14982,15 +14854,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -14999,13 +14871,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 314
     },
     {
      "name": "EnergyX",
@@ -15032,15 +14904,15 @@
       "score": 28.4,
       "matched_via": "tags"
      },
-     "agent_score": 13.8,
+     "agent_score": 11.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -15049,13 +14921,55 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 315
+    },
+    {
+     "name": "Adionics",
+     "slug": "adionics",
+     "description": "Adionics is a French cleantech company founded in 2012 in Paris by Guillaume de Souza, out of research into liquid-liquid salt extraction started in 2007. It develops and licenses a patented Direct Lithium Extraction (DLE) process built on Flionex, a proprietary, thermally regenerated and highly selective liquid salt absorbent that captures lithium salts from brine at ambient temperature and releases them at higher temperature in a closed loop, with no traditional reagents and more than 90% less water than evaporation ponds. The company sells a staged engagement to mining operators — a proprietary modeling study, a lab-scale bench test, an on-site pilot plant, and basic engineering plus commissioning support for a commercial plant — targeting lithium-rich salars, geothermal brines, oil-and-gas produced water, industrial effluents and battery recycling streams. It has run 1,500 hours of continuous lithium extraction in the Salar de Atacama, opened a pilot test centre in Salta Province, Argentina, and raised roughly $40M across four rounds. Adionics is a process-technology and engineering company, not a software vendor, and publishes no developer portal, no product API, no SDKs and no OpenAPI. The only machine-readable interface it exposes is the WordPress REST content API behind www.adionics.com, which is anonymously readable, read-only for the public, and captured here for discovery.",
+     "score": 17.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 13.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 316
     },
     {
      "name": "Noda",
@@ -15105,7 +15019,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 317
     },
     {
      "name": "Ohmconnect",
@@ -15155,7 +15069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 318
     },
     {
      "name": "Waste Connections",
@@ -15198,7 +15112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 319
     },
     {
      "name": "Bellwether Coffee",
@@ -15241,7 +15155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 320
     },
     {
      "name": "Enervee",
@@ -15291,49 +15205,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 321
     },
     {
-     "name": "3Bar Biologics",
-     "slug": "3bar-biologics",
-     "description": "3Bar Biologics (3BarBio) is an agricultural biotechnology company in Columbus, Ohio, spun out of research at The Ohio State University and operating as the first contract development and manufacturing organization (CDMO) dedicated to agricultural biologicals. Its business is getting living microbes to the field alive: the patented LiveMicrobe platform, including the Iso-Pak and Re-Pak delivery systems, keeps beneficial bacteria viable through storage and distribution, the problem that has historically limited adoption of microbial crop inputs. The company sells design, development, biomanufacturing and fulfillment services to discovery companies, distributors and bulk suppliers, and previously marketed its own Bio-YIELD inoculant to corn, soybean and wheat growers in the eastern Corn Belt. 3Bar Biologics is a manufacturer and services business, not a software vendor: it publishes no developer program, no developer portal, no API documentation, no SDKs and no pricing for any programmatic product. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at www.3barbiologics.com, which is captured here for discovery purposes. That surface is anonymously readable, read-only, entirely undocumented by the company, and carries two reproducible defects on its media collection that are recorded in this profile.",
+     "name": "LIVEKINDLY",
+     "slug": "livekindly",
+     "description": "LIVEKINDLY Collective (thelivekindlyco.com) is a global plant-based food company founded in March 2020 by Roger Lienhard around a mission to make plant-based living the new norm. It is a house of alternative-protein brands — Fry's Family Food Co., Like Meat, Oumph! and The No Meat Company — sold across Europe, the UK, South Africa and North America, and it also runs a B2B Solutions arm supplying plant-based protein to other food businesses. The Collective raised over half a billion dollars across its early rounds, reported profitability in November 2025, announced it was joining forces with TiNDLE Foods in December 2025, and was certified as a B Corp in June 2026. LIVEKINDLY publishes no developer platform, no documentation portal and no OpenAPI. The machine-readable surface on thelivekindlyco.com is its WordPress REST API (wp/v2), which serves the corporate newsroom, the brand and partner directories, the careers listings, pages and media library as anonymously readable JSON, alongside a WordPress MCP Adapter endpoint that is live and fronted by a real RFC 8414 OAuth authorization server — but is authentication-gated to a single \"mcp\" scope. The company is tracked on the Forge Global secondary market.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png",
      "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 7.3,
-      "contract_governance": 18.2,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 10.5
+      "developer_ergonomics": 30.4,
+      "access_clarity": 21.1
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 13.8,
-     "agent_band": "agent-aware",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 322
     },
     {
      "name": "Nuvolo",
@@ -15383,7 +15298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 323
     },
     {
      "name": "Indigo Agriculture",
@@ -15426,7 +15341,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 324
+    },
+    {
+     "name": "3Bar Biologics",
+     "slug": "3bar-biologics",
+     "description": "3Bar Biologics (3BarBio) is an agricultural biotechnology company in Columbus, Ohio, spun out of research at The Ohio State University and operating as the first contract development and manufacturing organization (CDMO) dedicated to agricultural biologicals. Its business is getting living microbes to the field alive: the patented LiveMicrobe platform, including the Iso-Pak and Re-Pak delivery systems, keeps beneficial bacteria viable through storage and distribution, the problem that has historically limited adoption of microbial crop inputs. The company sells design, development, biomanufacturing and fulfillment services to discovery companies, distributors and bulk suppliers, and previously marketed its own Bio-YIELD inoculant to corn, soybean and wheat growers in the eastern Corn Belt. 3Bar Biologics is a manufacturer and services business, not a software vendor: it publishes no developer program, no developer portal, no API documentation, no SDKs and no pricing for any programmatic product. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at www.3barbiologics.com, which is captured here for discovery purposes. That surface is anonymously readable, read-only, entirely undocumented by the company, and carries two reproducible defects on its media collection that are recorded in this profile.",
+     "score": 17.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 6.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 325
     },
     {
      "name": "Koloma",
@@ -15476,7 +15433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Ecorobotix",
@@ -15519,7 +15476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Plan A",
@@ -15569,7 +15526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Standard Industries",
@@ -15612,7 +15569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "terralayr",
@@ -15662,7 +15619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "CO2 AI",
@@ -15705,7 +15662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "JOLT",
@@ -15755,7 +15712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "Twaice",
@@ -15805,7 +15762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "Archive",
@@ -15848,7 +15805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Complir",
@@ -15891,7 +15848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "EcoSoul Home",
@@ -15934,7 +15891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "Huawei FusionSolar",
@@ -15983,7 +15940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "AuditBoard",
@@ -16026,7 +15983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Build",
@@ -16060,6 +16017,49 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 339
+    },
+    {
+     "name": "Impossible Metals",
+     "slug": "impossible-metals",
+     "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
+     "score": 16.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 7.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -16614,7 +16614,7 @@
      "rank": 352
     },
     {
-     "name": "CPower, Inc.",
+     "name": "CPower",
      "slug": "cpower-inc",
      "description": "CPower Energy is a commercial and industrial (C&I) virtual power plant (VPP) operator that helps organizations monetize the flexibility of their energy assets through demand response and distributed energy resource (DER) programs. Its CPower CONNECT platform lets customers view, manage, and unlock revenue from energy assets while supporting grid reliability and sustainability goals. CPower serves data centers, crypto mining, healthcare, education, retail, commercial real estate, industrial operations, and the public sector, and has operated distributed energy programs across the U.S. since 2015. CPower was acquired by NRG Energy and operates a combined C&I VPP platform. This profile was surfaced as a portfolio-adjacent deep-tech lead and enriched by the API Evangelist pipeline; CPower publishes a customer portal and a security and compliance posture but no public developer API at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cpower-inc/refs/heads/main/screenshots/cpower-inc-2026-07-25T210624.png",
@@ -17139,48 +17139,6 @@
      "rank": 363
     },
     {
-     "name": "Ascend Elements",
-     "slug": "ascend-elements",
-     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 15.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 6.2,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 24.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 9.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 364
-    },
-    {
      "name": "Cato Digital",
      "slug": "cato-digital",
      "description": "Cato Digital is a sustainable bare metal cloud provider that repurposes large-scale, second-life servers from hyperscalers like Meta and NVIDIA to deliver AI & GPU servers (up to 512GB VRAM), ephemeral application servers, and build-your-own storage arrays at 60-75% below major cloud providers. Led by CEO Dean Nelson, the company operates on a \"use what we have before we build more\" circular-economy principle, tapping underutilized data center capacity and clean energy, and is a founding member of the Infrastructure Masons Climate Accord. Customers provision and manage infrastructure through the Cato console rather than a public developer API.",
@@ -17221,7 +17179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Certa",
@@ -17264,7 +17222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Crux",
@@ -17314,7 +17272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Kayrros",
@@ -17364,7 +17322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "Mainspring Energy",
@@ -17414,38 +17372,30 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
-     "name": "Prometheus Fuels",
-     "slug": "prometheus-fuels",
-     "description": "Prometheus Fuels is a Santa Cruz, California energy company founded in 2019 by Rob McGinnis and launched out of Y Combinator, producing carbon-neutral electrofuels from atmospheric CO2. Its \"no-desorb\" direct air capture system dissolves CO2 into carbonate ions in water, and its Faraday Reactor hydrocarbon electrolyzer converts that carbon into methanol, gasoline, diesel, jet fuel and renewable natural gas at room temperature and atmospheric pressure using off-grid solar power. The company also markets an Ultra Long Duration Energy Storage (ULDES) product aimed at data-center power, and operates the Titan Forge Alpha pilot plant in Santa Cruz. It is backed by BMW i Ventures, Maersk Growth and Y Combinator. Prometheus Fuels publishes no product API, developer portal or SDK — it is a physical fuels manufacturer. The single machine-readable surface it operates is the WordPress REST API (wp/v2) behind its corporate site at prometheusfuels.ai, which serves anonymous read access to pages, posts, the site's `news-articles` custom post type, categories, tags, media, comments, users, search, taxonomies, types and statuses, with write operations gated behind WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png",
+     "name": "Ascend Elements",
+     "slug": "ascend-elements",
+     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
      "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 13.3,
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
       "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 24.4,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 23.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
+     "agent_score": 8.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
@@ -17464,7 +17414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "LevelTen Energy",
@@ -17514,7 +17464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Metrobloks",
@@ -17557,7 +17507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Sound Agriculture",
@@ -17606,7 +17556,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Clarity AI",
@@ -17649,7 +17599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Sunairio",
@@ -17699,7 +17649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 374
     },
     {
      "name": "Brandback",
@@ -17742,7 +17692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 375
     },
     {
      "name": "GreenFi",
@@ -17792,7 +17742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 376
     },
     {
      "name": "Resourcify",
@@ -17835,7 +17785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 377
     },
     {
      "name": "Agragene",
@@ -17884,7 +17834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 378
     },
     {
      "name": "RatedPower",
@@ -17934,7 +17884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 379
     },
     {
      "name": "Cladwell",
@@ -17977,7 +17927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 380
     },
     {
      "name": "Cloover",
@@ -18027,7 +17977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 381
     },
     {
      "name": "Hithium",
@@ -18077,7 +18027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 382
     },
     {
      "name": "Rondo Energy",
@@ -18127,7 +18077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 383
     },
     {
      "name": "Active Membranes",
@@ -18169,7 +18119,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 384
     },
     {
      "name": "Nexamp",
@@ -18219,7 +18169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 385
     },
     {
      "name": "Phononic",
@@ -18262,7 +18212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 386
     },
     {
      "name": "Amperecloud",
@@ -18312,7 +18262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 387
     },
     {
      "name": "Go To-U",
@@ -18362,7 +18312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 388
     },
     {
      "name": "Haven Energy",
@@ -18412,7 +18362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 389
     },
     {
      "name": "Junk King",
@@ -18455,7 +18405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 390
     },
     {
      "name": "Last Energy",
@@ -18505,7 +18455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 391
     },
     {
      "name": "Mill",
@@ -18548,7 +18498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 392
     },
     {
      "name": "Renew Financial",
@@ -18597,10 +18547,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 393
     },
     {
-     "name": "Vistra Corp",
+     "name": "Vistra",
      "slug": "vistra-energy",
      "description": "Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail electricity and power generation company and the largest competitive power generator in the United States, operating roughly 41,000-44,000 MW of natural gas, nuclear, coal, solar and battery storage capacity alongside a retail business serving nearly 5 million residential, commercial and industrial customers across 16 states and the District of Columbia through TXU Energy, Dynegy, Ambit Energy, Energy Harbor, Homefield Energy and U.S. Gas & Electric. Its home market is the United States, where it sits on both sides of the competitive value chain, a merchant generator selling into ERCOT, PJM, ISO-NE, NYISO, MISO and CAISO, and a retail electricity provider (REP) reselling that power to end customers. Its API posture is honestly none. No developer portal, no API subdomain and no machine-readable contract of any kind was found: developer., developers., docs., api. and data. on vistracorp.com do not resolve; /developers, /api, /docs, /data, /openapi.json, /swagger.json and /.well-known/openid-configuration all return 404; and TXU Energy's 758-URL sitemap contains no developer or API page. The United States has no consumer energy data mandate. Green Button is an NAESB/NIST ESPI standard adopted voluntarily, and TXU Energy appears on the US Department of Energy's list of \"Utilities Committed to Implementing Green Button\", a 2012-era commitment list and not evidence of a live endpoint. The only customer-data surface found is Download-My-Data-style export behind the TXU Energy MyAccount login, whose interval readings are themselves sourced from Smart Meter Texas, the shared ERCOT meter-data platform operated by the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) rather than by Vistra. Because Vistra is a retailer and generator and not a wires company, the third-party interval-data API in its home Texas market belongs to Smart Meter Texas and not to Vistra. Vistra likewise publishes no open market or grid data of its own; ERCOT, the other ISOs/RTOs and the EIA publish the market data about Vistra's fleet. Both sides are therefore closed at the company boundary. Not to be confused with Vistra Limited (vistra.com), the unrelated corporate-services and fund-administration firm that does run a real API developer portal at devportal.vistra.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra-energy/refs/heads/main/screenshots/vistra-energy-2026-09-02T170122.png",
@@ -18647,7 +18597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 394
     },
     {
      "name": "AENTS",
@@ -18696,7 +18646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 395
     },
     {
      "name": "Lightship",
@@ -18746,7 +18696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 396
     },
     {
      "name": "Beewise",
@@ -18789,7 +18739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
      "name": "CLUBZERO",
@@ -18832,7 +18782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 398
     },
     {
      "name": "Highstock",
@@ -18875,7 +18825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 399
     },
     {
      "name": "Imperfect Foods",
@@ -18918,7 +18868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 400
     },
     {
      "name": "Misfits Market",
@@ -18961,7 +18911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 401
     },
     {
      "name": "Planet FWD",
@@ -19004,7 +18954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 402
     },
     {
      "name": "ReelData AI",
@@ -19047,7 +18997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 403
     },
     {
      "name": "Rheaply",
@@ -19090,7 +19040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 404
     },
     {
      "name": "Timberhub",
@@ -19133,7 +19083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 405
     },
     {
      "name": "WiredScore",
@@ -19176,7 +19126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 406
     },
     {
      "name": "Arbor",
@@ -19226,7 +19176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 407
     },
     {
      "name": "Fuse",
@@ -19276,7 +19226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 408
     },
     {
      "name": "Invesdor",
@@ -19326,7 +19276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 409
     },
     {
      "name": "Overstory",
@@ -19376,7 +19326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 410
     },
     {
      "name": "Runwise",
@@ -19426,7 +19376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 411
     },
     {
      "name": "Solar Mosaic",
@@ -19476,7 +19426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 412
     },
     {
      "name": "Turion Space",
@@ -19519,7 +19469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 413
     },
     {
      "name": "Conservation Labs",
@@ -19562,7 +19512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 414
     },
     {
      "name": "EnerSys",
@@ -19612,7 +19562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 415
     },
     {
      "name": "Inspire",
@@ -19662,7 +19612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 416
     },
     {
      "name": "Sighten",
@@ -19712,7 +19662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 417
     },
     {
      "name": "Grover",
@@ -19755,7 +19705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 418
     },
     {
      "name": "Growatt",
@@ -19805,7 +19755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 419
     },
     {
      "name": "Sirius",
@@ -19848,7 +19798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 420
     },
     {
      "name": "Astronergy",
@@ -19898,7 +19848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 421
     },
     {
      "name": "Dandelion Energy",
@@ -19948,7 +19898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 422
     },
     {
      "name": "Cheaf",
@@ -19991,7 +19941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 423
     },
     {
      "name": "Constellation Energy",
@@ -20041,7 +19991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 424
     },
     {
      "name": "Material Bank",
@@ -20084,7 +20034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 425
     },
     {
      "name": "Bevi",
@@ -20127,7 +20077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 426
     },
     {
      "name": "Bonnet",
@@ -20177,7 +20127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 427
     },
     {
      "name": "Greyparrot",
@@ -20220,7 +20170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 428
     },
     {
      "name": "Heirloom",
@@ -20270,7 +20220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 429
     },
     {
      "name": "KITRO",
@@ -20313,7 +20263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 430
     },
     {
      "name": "Presso",
@@ -20356,7 +20306,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 431
     },
     {
      "name": "Root Global",
@@ -20399,7 +20349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 432
     },
     {
      "name": "Gireve",
@@ -20449,7 +20399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 433
     },
     {
      "name": "Replenysh",
@@ -20492,7 +20442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 434
     },
     {
      "name": "Spoiler Alert",
@@ -20535,7 +20485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 435
     },
     {
      "name": "Anker Innovations",
@@ -20585,7 +20535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 436
     },
     {
      "name": "Diligent",
@@ -20628,7 +20578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 437
     },
     {
      "name": "Buncha",
@@ -20671,7 +20621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 438
     },
     {
      "name": "Cur8",
@@ -20714,7 +20664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 439
     },
     {
      "name": "Meshcrafts",
@@ -20764,7 +20714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 440
     },
     {
      "name": "Revivn",
@@ -20807,7 +20757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 441
     },
     {
      "name": "The House Of LR&C",
@@ -20850,7 +20800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 442
     },
     {
      "name": "Vital Lyfe",
@@ -20893,7 +20843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 443
     },
     {
      "name": "Agreena",
@@ -20936,7 +20886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 444
     },
     {
      "name": "Electric Car Scheme",
@@ -20979,7 +20929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 445
     },
     {
      "name": "Optivolt Labs",
@@ -21029,7 +20979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 446
     },
     {
      "name": "Alcoa",
@@ -21063,6 +21013,56 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 447
+    },
+    {
+     "name": "Prometheus Fuels",
+     "slug": "prometheus-fuels",
+     "description": "Prometheus Fuels is a Santa Cruz, California energy company founded in 2019 by Rob McGinnis and launched out of Y Combinator, producing carbon-neutral electrofuels from atmospheric CO2. Its \"no-desorb\" direct air capture system dissolves CO2 into carbonate ions in water, and its Faraday Reactor hydrocarbon electrolyzer converts that carbon into methanol, gasoline, diesel, jet fuel and renewable natural gas at room temperature and atmospheric pressure using off-grid solar power. The company also markets an Ultra Long Duration Energy Storage (ULDES) product aimed at data-center power, and operates the Titan Forge Alpha pilot plant in Santa Cruz. It is backed by BMW i Ventures, Maersk Growth and Y Combinator. Prometheus Fuels publishes no product API, developer portal or SDK — it is a physical fuels manufacturer. The single machine-readable surface it operates is the WordPress REST API (wp/v2) behind its corporate site at prometheusfuels.ai, which serves anonymous read access to pages, posts, the site's `news-articles` custom post type, categories, tags, media, comments, users, search, taxonomies, types and statuses, with write operations gated behind WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -28327,7 +28327,7 @@
      "rank": 604
     },
     {
-     "name": "Blau Corp",
+     "name": "Blau",
      "slug": "blau-corp",
      "description": "Blau (Blau Corp) is a waste-management operating system for haulers (gestores), final-destination facilities, and government regulators across Mexico, Colombia, and Spain. The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis, automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not currently publish a public developer API, SDK, or API documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blau-corp/refs/heads/main/screenshots/blau-corp-2026-07-25T203303.png",
@@ -39124,7 +39124,7 @@
      "rank": 840
     },
     {
-     "name": "TripleW Ltd.",
+     "name": "TripleW",
      "slug": "3plw",
      "description": "TripleW Ltd. (Belgian operating entity TripleW NV) is an industrial biotechnology and specialty-chemicals company founded in 2016, headquartered at Innovatiestraat 1, 2030 Antwerpen, Belgium, with a US office in Shorewood, Wisconsin and R&D split between Israel and Belgium. Its patented process treats food waste as a third-generation renewable feedstock: hydrolysis, fermentation and purification yield pure lactic acid, sold under the Circulac brand in grades for personal care, home care, food and beverage and industrial use, and as the building block of polylactic acid (PLA) bioplastic. The same process chemically recycles discarded PLA back into feedstock, and can be installed inside existing waste-management infrastructure. Its flagship commercial Circulac facility is at the Port of Antwerp. TripleW sells industrial chemical product and engineering services, not software: no developer program, no public API, and no machine-readable API contract of any kind.",
      "score": 6.0,
@@ -41254,7 +41254,7 @@
      "rank": 888
     },
     {
-     "name": "500net Technology Co., Ltd.",
+     "name": "500net",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "score": 5.0,
@@ -41526,7 +41526,7 @@
      "rank": 894
     },
     {
-     "name": "BANIQL CORP.",
+     "name": "BANIQL",
      "slug": "baniql-corp",
      "description": "BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure, producing high-quality nickel at roughly 30% lower cost than High Pressure Acid Leaching (HPAL) with net-zero waste, cutting energy consumption and carbon dioxide emissions by around 80% while repurposing leftover materials into products like fertilizers and construction materials. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this materials/cleantech company publishes no developer or API surface, so this profile carries company identity and domain-security data only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/baniql-corp/refs/heads/main/screenshots/baniql-corp-2026-07-25T202332.png",
@@ -41741,7 +41741,7 @@
      "rank": 899
     },
     {
-     "name": "Cultivaet Technologies Holding Ltd.",
+     "name": "Cultivaet",
      "slug": "cultivaet-technologies-holding-ltd",
      "description": "Cultivaet Technologies Holding Ltd. is an AI-driven agricultural technology (\"AgriTech for Humanity\") startup based in Egypt serving smallholder farmers across the Middle East. Its products include a Farmer AI Companion delivering personalized weather, crop-planning, pest-control and soil-health insights, a Knowledge Platform that collects/analyzes/distributes social and scientific agricultural data, and a Business SaaS connecting farmers with food-industry buyers for sustainable procurement and traceability. The company is backed by 500 Global and Sanabil and is part of the Google Cloud Startups Program (pre-seed, 2024). As of this enrichment pass Cultivaet publishes only a marketing site (cultivaet.ai) with no public API, developer portal, documentation, SDKs, or other developer surface, so no API artifacts were generated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cultivaet-technologies-holding-ltd/refs/heads/main/screenshots/cultivaet-technologies-holding-ltd-2026-07-25T210919.png",
@@ -41784,49 +41784,6 @@
      "rank": 900
     },
     {
-     "name": "Ecobites Pte. Ltd.",
-     "slug": "ecobites-pte-ltd",
-     "description": "Ecobites Pte. Ltd. operates Rec Rec, a Vietnamese consumer packaged-goods brand producing cricket-based snack foods marketed as high-protein, nutrient-dense alternatives to conventional snacks. Its product line spans cricket noodles (Mi Dam De), cricket puffs (Banh Phong De) in flavors such as Gochujang and Mala, and seasoned dried crickets (De Say). Products emphasize complete protein with a full amino-acid profile plus iron, zinc, magnesium, and potassium while keeping sodium low. Rec Rec is distributed through 7-Eleven, Farmers Market, Galaxy Cinema, BHD Cineplex, Naman Market, LS Place, Shopee, and TikTok Shop. The company is a 500 Global portfolio company and was added to the API Evangelist network as a lead. It publishes a consumer e-commerce website but no public developer or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecobites-pte-ltd/refs/heads/main/screenshots/ecobites-pte-ltd-2026-07-25T212753.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 901
-    },
-    {
      "name": "Ecolab",
      "slug": "ecolab",
      "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
@@ -41867,7 +41824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Effa",
@@ -41909,7 +41866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "Enviri (formerly Harsco)",
@@ -41952,7 +41909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "Exide Technologies",
@@ -41995,7 +41952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Faircraft",
@@ -42038,7 +41995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "Forever Oceans",
@@ -42080,7 +42037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "Formo",
@@ -42123,7 +42080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "GAGO Group",
@@ -42166,7 +42123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "Givemetap",
@@ -42209,7 +42166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "graphenest.com",
@@ -42252,7 +42209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Ideon Technologies",
@@ -42295,7 +42252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "infarm",
@@ -42337,7 +42294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "jsgaiya",
@@ -42379,7 +42336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Libra Robotics",
@@ -42429,7 +42386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Lunasonde",
@@ -42472,7 +42429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "Mantari",
@@ -42514,7 +42471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "microTERRA",
@@ -42557,7 +42514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Module",
@@ -42600,7 +42557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "Molagri",
@@ -42643,7 +42600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Mushroom Material",
@@ -42686,7 +42643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Mycotech",
@@ -42729,7 +42686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "Mycoworks",
@@ -42772,10 +42729,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 922
     },
     {
-     "name": "Nexus Lab Technologies, Inc.",
+     "name": "Nexus Lab Technologies",
      "slug": "nexus-lab-technologies-inc",
      "description": "Nexus Lab (Nexus Lab Technologies, Inc.) is a contrail-reduction software company founded in 2022 and backed by 500 Global. Operating from nexuslab.fr, it applies machine learning to satellite imagery, flight traffic data, and meteorological parameters to help airlines optimize flight paths and reduce contrail formation, mitigating aviation's non-CO2 climate impact. As of this enrichment pass the company publishes only a marketing website with no public API, developer portal, documentation, or SDKs; no developer surface was found to catalog.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nexus-lab-technologies-inc/refs/heads/main/screenshots/nexus-lab-technologies-inc-2026-08-07T185221.png",
@@ -42815,7 +42772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "Nosh Bio",
@@ -42858,7 +42815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Nucor",
@@ -42901,7 +42858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "Omeat",
@@ -42944,7 +42901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Omniscient",
@@ -42986,7 +42943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "OpenInvest",
@@ -43028,7 +42985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Orbicle Bio",
@@ -43071,7 +43028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Packfleet",
@@ -43116,7 +43073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Phoenix Tailings",
@@ -43159,7 +43116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Phood Solutions",
@@ -43202,7 +43159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "Planetly",
@@ -43244,13 +43201,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Plant Prefab",
      "slug": "plant-prefab",
      "description": "Plant Prefab is a Southern California offsite construction technology company that custom-fabricates panelized and modular building components to deliver housing and hospitality projects in roughly half the time of traditional site-built construction. Its panel-based building system spans open-cavity panels to fully finished modules, and its LivingHomes product line and in-house Plant Design Studio offer customized, sustainable designs recognized with LEED Platinum, NAHB Energy Value Housing, and AIA Top Ten Green Projects awards. The company is backed by Obvious Ventures and does not currently publish a public developer API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plant-prefab/refs/heads/main/screenshots/plant-prefab-2026-09-02T151424.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 934
+    },
+    {
+     "name": "Rec Rec",
+     "slug": "ecobites-pte-ltd",
+     "description": "Ecobites Pte. Ltd. operates Rec Rec, a Vietnamese consumer packaged-goods brand producing cricket-based snack foods marketed as high-protein, nutrient-dense alternatives to conventional snacks. Its product line spans cricket noodles (Mi Dam De), cricket puffs (Banh Phong De) in flavors such as Gochujang and Mala, and seasoned dried crickets (De Say). Products emphasize complete protein with a full amino-acid profile plus iron, zinc, magnesium, and potassium while keeping sodium low. Rec Rec is distributed through 7-Eleven, Farmers Market, Galaxy Cinema, BHD Cineplex, Naman Market, LS Place, Shopee, and TikTok Shop. The company is a 500 Global portfolio company and was added to the API Evangelist network as a lead. It publishes a consumer e-commerce website but no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecobites-pte-ltd/refs/heads/main/screenshots/ecobites-pte-ltd-2026-07-25T212753.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -45675,7 +45675,7 @@
      "rank": 987
     },
     {
-     "name": "Apollo Atomics Inc",
+     "name": "Apollo Atomics",
      "slug": "apollo-atomics-inc",
      "description": "Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear technology company building compact, power-dense pressurized water reactors for electricity generation, industrial process heat, and data-center power. Founded by Assil Halimi and Drew Walker and based in Cambridge, Massachusetts, the company modifies the steam generator of proven pressurized water reactor technology to shrink the plant by roughly an order of magnitude without sacrificing power output, turning a decade-long construction project into a factory-built machine that can ship on a truck. Apollo has announced a research collaboration with MIT's Department of Nuclear Science and Engineering to validate its reactor design and has submitted a regulatory engagement plan to the U.S. Nuclear Regulatory Commission, targeting a construction permit application in 2028. This is a hardware/energy company with no public developer or API surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-atomics-inc/refs/heads/main/screenshots/apollo-atomics-inc-2026-07-25T200704.png",
@@ -46260,7 +46260,7 @@
      "rank": 999
     },
     {
-     "name": "Hexing Electrical Co., Ltd.",
+     "name": "Hexing Electrical",
      "slug": "hxgroup",
      "description": "Hexing Electrical Co., Ltd. (海兴电力 / Hexing) is a Chinese energy-technology company focused on smart power distribution and utilization, new energy, smart water and gas, water treatment and clean water, and marine electrification. Beyond hardware, Hexing delivers integrated solutions and project delivery spanning metering devices, communication networks (RF, PLC, cellular, NB-IoT), MDC / MDM / AMI platforms, billing systems, distribution automation, energy storage (BESS), EV charging, water metering, seawater desalination and electric marine propulsion. The company reports 34 years of industry experience, operations across 110+ countries and 17 global manufacturing hubs. Surfaced as a portfolio company of qiming and profiled in the API Evangelist network; Hexing publishes no public developer/API surface today, so this profile captures corporate identity plus the AI knowledge file (llms.txt) the company publishes for AI search / RAG.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hxgroup/refs/heads/main/screenshots/hxgroup-2026-07-25T221804.png",

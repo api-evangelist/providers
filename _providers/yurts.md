@@ -137,7 +137,7 @@ modified: '2026-09-04'
 name: Yurts
 nav: Providers
 network: true
-overview: 'Yurts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, National Security, and Defense.
+overview: 'Yurts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, National Security, and Defense.
 
 
   Yurts'' developer surface includes engineering blog, support, and 17 more developer resources.'
@@ -202,7 +202,7 @@ slug: yurts
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - National Security
 - Defense
 - Generative AI

@@ -42,10 +42,10 @@ created: '2026-08-20'
 description: GeoSolutions is an Italian company and one of the principal maintainers of the open-source geospatial server stack — GeoServer, GeoNetwork, MapStore and GeoNode. It sells enterprise support, deployment and custom development around those projects. Its public demonstration server is a reference OGC deployment, serving classic OGC web services alongside a modern OGC API - Features endpoint.
 layout: provider
 modified: '2026-08-20'
-name: GeoSolutions di Giannecchini Simone & C. s.a.s.
+name: GeoSolutions
 nav: Providers
 network: true
-overview: GeoSolutions di Giannecchini Simone & C. s.a.s. publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
+overview: GeoSolutions publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
 random_paper: 3
 score:
   band: minimal

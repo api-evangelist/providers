@@ -533,5 +533,6 @@ tags:
 - Education
 - Digital Products
 - Webhook
+- Canada
 website: https://www.thinkific.com
 ---

@@ -118,7 +118,7 @@ modified: '2026-07-19'
 name: Leah
 nav: Providers
 network: true
-overview: 'Leah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, Contract Lifecycle Management, and Legal.
+overview: 'Leah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Contract Lifecycle Management, and Legal.
 
 
   Leah''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
@@ -171,7 +171,7 @@ slug: leah
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Contract Lifecycle Management
 - Legal
 - Legal Technology

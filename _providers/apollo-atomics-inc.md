@@ -54,13 +54,13 @@ description: Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollo-atomics-inc.png
 layout: provider
 modified: '2026-07-17'
-name: Apollo Atomics Inc
+name: Apollo Atomics
 nav: Providers
 network: true
-overview: 'Apollo Atomics Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Nuclear, Reactors, and Clean Energy.
+overview: 'Apollo Atomics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Nuclear, Reactors, and Clean Energy.
 
 
-  Apollo Atomics Inc''s developer surface includes support and 2 more developer resources.'
+  Apollo Atomics'' developer surface includes support and 2 more developer resources.'
 random_paper: 21
 score:
   band: minimal

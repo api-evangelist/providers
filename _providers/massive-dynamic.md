@@ -92,7 +92,7 @@ modified: '2026-08-12'
 name: Massive Dynamic
 nav: Providers
 network: true
-overview: Massive Dynamic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Advertising Technology, Artificial Intelligence, and Marketing.
+overview: Massive Dynamic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Artificial Intelligence, and Marketing.
 plans:
 - name: Massive Dynamic Plans Pricing
   plan_count: 0
@@ -134,7 +134,7 @@ slug: massive-dynamic
 tags:
 - Company
 - Advertising
-- Advertising Technology
+- AdTech
 - Artificial Intelligence
 - Marketing
 - Media

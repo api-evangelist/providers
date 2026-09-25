@@ -132,7 +132,7 @@ modified: '2026-07-20T12:00:00Z'
 name: Maisa
 nav: Providers
 network: true
-overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agentic AI, AI Agents, and Digital Workers.
+overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Digital Workers, and Business Process Automation.
 
 
   Maisa''s developer surface includes authentication, API reference, documentation, engineering blog, support, and 13 more developer resources.'
@@ -185,7 +185,6 @@ slug: maisa
 tags:
 - Company
 - Artificial Intelligence
-- Agentic AI
 - AI Agents
 - Digital Workers
 - Business Process Automation

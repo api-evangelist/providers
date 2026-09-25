@@ -86,13 +86,13 @@ description: Aino World Inc. builds Aino, an AI-powered spatial analytics platfo
 image: https://framerusercontent.com/images/7vnYOIbPRwODInaAzUvTifKAEY8.png
 layout: provider
 modified: '2026-07-17'
-name: Aino World Inc.
+name: Aino World
 nav: Providers
 network: true
-overview: 'Aino World Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spatial Analytics, Geospatial, GIS, and Mapping.
+overview: 'Aino World is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spatial Analytics, Geospatial, GIS, and Mapping.
 
 
-  Aino World Inc.''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 6 more developer resources.'
+  Aino World''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 6 more developer resources.'
 random_paper: 15
 score:
   band: emerging

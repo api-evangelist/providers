@@ -97,7 +97,7 @@ modified: '2026-07-19'
 name: Jobandtalent
 nav: Providers
 network: true
-overview: 'Jobandtalent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Staffing, Workforce, and Recruitment.
+overview: 'Jobandtalent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Staffing, Workforce, and Recruiting.
 
 
   Jobandtalent''s developer surface includes engineering blog, support, and 10 more developer resources.'
@@ -148,7 +148,7 @@ tags:
 - Marketplace
 - Staffing
 - Workforce
-- Recruitment
+- Recruiting
 - Employment
 - Human Resources
 website: https://www.jobandtalent.com

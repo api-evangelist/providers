@@ -328,7 +328,7 @@ modified: '2026-07-31'
 name: anecdotes
 nav: Providers
 network: true
-overview: 'anecdotes publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Analysis Rules API, Authorization API, Create Controls API, and 14 more. Tagged areas include Company, Compliance, Governance, Risk, and Security.
+overview: 'anecdotes publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Analysis Rules API, Authorization API, Create Controls API, and 14 more. Tagged areas include Company, Compliance, Governance, Risk Management, and Security.
 
 
   The anecdotes catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -403,7 +403,7 @@ tags:
 - Company
 - Compliance
 - Governance
-- Risk
+- Risk Management
 - Security
 - GRC
 - Audit

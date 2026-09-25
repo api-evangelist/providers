@@ -236,16 +236,16 @@ description: BALAD CORP (Balad) is a Cairo-based fintech providing cross-border 
 image: https://www.balad.me/images/og-default.png
 layout: provider
 modified: '2026-07-18'
-name: BALAD CORP
+name: BALAD
 nav: Providers
 network: true
-overview: 'BALAD CORP publishes 7 APIs on the [APIs.io](https://apis.io/) network, including APIs/Authentication API, APIs/Core/Balance API, APIs/Core/Exchange rate API, and 4 more. Tagged areas include Company, Payments, Remittances, Cross-Border Payments, and Fintech.
+overview: 'BALAD publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CORP APIs/Authentication API, CORP APIs/Core/Balance API, CORP APIs/Core/Exchange rate API, and 4 more. Tagged areas include Company, Payments, Remittances, Cross-Border Payments, and Fintech.
 
 
-  The BALAD CORP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The BALAD catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BALAD CORP''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
+  BALAD''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
 random_paper: 13
 scopes:
 - name: Balad Corp Scopes

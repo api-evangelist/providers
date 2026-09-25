@@ -87,13 +87,13 @@ description: Jain Irrigation Systems Ltd (JISL) is a global agri-industrial cong
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jains.png
 layout: provider
 modified: '2026-07-19'
-name: Jain Irrigation Systems Ltd
+name: Jain Irrigation Systems
 nav: Providers
 network: true
-overview: 'Jain Irrigation Systems Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Irrigation, Micro Irrigation, and Drip Irrigation.
+overview: 'Jain Irrigation Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Irrigation, Micro Irrigation, and Drip Irrigation.
 
 
-  Jain Irrigation Systems Ltd''s developer surface includes engineering blog and 10 more developer resources.'
+  Jain Irrigation Systems'' developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 5
 score:
   band: minimal

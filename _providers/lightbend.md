@@ -200,7 +200,7 @@ modified: '2026-07-19'
 name: Lightbend
 nav: Providers
 network: true
-overview: 'Lightbend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Agentic AI, Actor Model, and Distributed Systems.
+overview: 'Lightbend is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, AI Agents, Actor Model, and Distributed Systems.
 
 
   Lightbend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
@@ -256,7 +256,7 @@ slug: lightbend
 tags:
 - Company
 - AI Infrastructure
-- Agentic AI
+- AI Agents
 - Actor Model
 - Distributed Systems
 - Reactive

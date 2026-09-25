@@ -74,13 +74,13 @@ description: EMERGENCES AI, INC. (Emergences Labs) builds human competency model
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emergences-ai-inc.png
 layout: provider
 modified: '2026-07-19'
-name: EMERGENCES AI, INC.
+name: EMERGENCES AI
 nav: Providers
 network: true
-overview: 'EMERGENCES AI, INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Assessment, and Training.
+overview: 'EMERGENCES AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Assessment, and Training.
 
 
-  EMERGENCES AI, INC.''s developer surface includes engineering blog and 7 more developer resources.'
+  EMERGENCES AI''s developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 10
 score:
   band: minimal

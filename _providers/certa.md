@@ -90,7 +90,7 @@ modified: '2026-07-18'
 name: Certa
 nav: Providers
 network: true
-overview: 'Certa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Third-Party Risk Management, TPRM, Compliance, and Procurement.
+overview: 'Certa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Third-Party Risk Management, Compliance, Procurement, and Vendor Management.
 
 
   Certa''s developer surface includes engineering blog and 9 more developer resources.'
@@ -139,7 +139,6 @@ slug: certa
 tags:
 - Company
 - Third-Party Risk Management
-- TPRM
 - Compliance
 - Procurement
 - Vendor Management

@@ -50,10 +50,10 @@ description: DK Finechemical Co., Ltd. is a company surfaced as a portfolio comp
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dk-finechemical-co-ltd.png
 layout: provider
 modified: '2026-07-18'
-name: DK Finechemical Co., Ltd.
+name: DK Finechemical
 nav: Providers
 network: true
-overview: DK Finechemical Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
+overview: DK Finechemical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
 random_paper: 4
 score:
   band: minimal

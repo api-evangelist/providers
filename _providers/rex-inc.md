@@ -78,13 +78,13 @@ description: Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rex-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Rex Inc
+name: Rex
 nav: Providers
 network: true
-overview: 'Rex Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Fitness, Nutrition, and Artificial Intelligence.
+overview: 'Rex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Fitness, Nutrition, and Artificial Intelligence.
 
 
-  Rex Inc''s developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
+  Rex''s developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
 random_paper: 12
 score:
   band: emerging

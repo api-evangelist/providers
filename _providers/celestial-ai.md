@@ -109,5 +109,6 @@ tags:
 - Data Center
 - Hardware
 - Chiplets
+- Acquired
 website: https://www.celestial.ai/
 ---

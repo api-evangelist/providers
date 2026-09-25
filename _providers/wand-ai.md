@@ -146,7 +146,7 @@ modified: '2026-09-04'
 name: Wand
 nav: Providers
 network: true
-overview: 'Wand publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Enterprise Software.
+overview: 'Wand publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Enterprise Software, and Workforce Automation.
 
 
   Wand''s developer surface includes engineering blog, authentication, and 20 more developer resources.'
@@ -211,7 +211,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Enterprise Software
 - Workforce Automation
 - Orchestration

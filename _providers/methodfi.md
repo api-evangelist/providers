@@ -737,16 +737,16 @@ finops:
 image: https://framerusercontent.com/assets/ZHgWyxIoZ4u3muxNTrEuOhP9o.jpg
 layout: provider
 modified: '2026-08-08'
-name: MethodFi
+name: Method Financial
 nav: Providers
 network: true
-overview: 'MethodFi publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Account Attributes API, Account Balances API, Account Card Brands API, and 41 more. Tagged areas include Company, Fintech, Liability Data, Payments, and Lending.
+overview: 'Method Financial publishes 44 APIs on the [APIs.io](https://apis.io/) network, including MethodFi Account Attributes API, MethodFi Account Balances API, MethodFi Account Card Brands API, and 41 more. Tagged areas include Company, Fintech, Liability Data, Payments, and Lending.
 
 
-  The MethodFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Method Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MethodFi''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 34 more developer resources.'
+  Method Financial''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 34 more developer resources.'
 plans:
 - name: Methodfi Plans Pricing
   plan_count: 2

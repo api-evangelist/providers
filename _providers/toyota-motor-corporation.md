@@ -63,13 +63,13 @@ description: The world's largest automobile manufacturer by production volume, p
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toyota-motor-corporation.png
 layout: provider
 modified: '2026-05-05'
-name: Toyota Motor Corporation
+name: Toyota
 nav: Providers
 network: true
-overview: 'Toyota Motor Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Manufacturing, Electric Vehicles, and Hybrid.
+overview: 'Toyota is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Manufacturing, Electric Vehicles, and Hybrid.
 
 
-  Toyota Motor Corporation''s developer surface includes engineering blog and 4 more developer resources.'
+  Toyota''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 15
 score:
   band: minimal

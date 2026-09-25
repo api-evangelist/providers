@@ -225,7 +225,7 @@ tags:
 - Chargebacks
 - Account Protection
 - E-Commerce
-- Risk
+- Risk Management
 - Machine Learning
 - A2A
 website: https://www.forter.com/

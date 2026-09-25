@@ -119,6 +119,5 @@ tags:
 - AI Agents
 - Contract Management
 - Legal Operations
-- Agentic AI
 website: https://www.flank.ai/
 ---

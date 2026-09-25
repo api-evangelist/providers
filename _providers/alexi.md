@@ -190,7 +190,7 @@ tags:
 - Law Firms
 - Document Drafting
 - RAG
-- Agentic AI
+- AI Agents
 - Private AI
 - Single Tenant
 - Knowledge Management

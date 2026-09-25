@@ -53,7 +53,7 @@ modified: '2026-07-20'
 name: Maimai
 nav: Providers
 network: true
-overview: Maimai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Professional Networking, Social Network, and Recruitment.
+overview: Maimai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Professional Networking, Social Network, and Recruiting.
 random_paper: 6
 score:
   band: minimal
@@ -100,7 +100,7 @@ tags:
 - Consumer
 - Professional Networking
 - Social Network
-- Recruitment
+- Recruiting
 - Careers
 - China
 website: https://maimai.cn/

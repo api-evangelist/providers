@@ -272,7 +272,7 @@ modified: '2026-07-21'
 name: VISO Trust
 nav: Providers
 network: true
-overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Client API Assessment Rest Resource API, Client API Audit Log Rest Resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, TPRM, and Vendor Risk.
+overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Client API Assessment Rest Resource API, Client API Audit Log Rest Resource API, Client API Chat Rest Resource API, and 9 more. Tagged areas include Company, Security, Third-Party Risk Management, Vendor Risk, and Risk Management.
 
 
   The VISO Trust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -333,7 +333,6 @@ tags:
 - Company
 - Security
 - Third-Party Risk Management
-- TPRM
 - Vendor Risk
 - Risk Management
 - Compliance

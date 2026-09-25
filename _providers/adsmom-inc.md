@@ -249,16 +249,16 @@ image: https://adsmom.com/og-default.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: Adsmom Inc. MCP Server
-  slug: adsmom-inc-mcp-server
+  name: Adsmom MCP Server
+  slug: adsmom-mcp-server
 modified: '2026-09-16'
-name: Adsmom Inc.
+name: Adsmom
 nav: Providers
 network: true
-overview: 'Adsmom Inc. publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics · Google API, Analytics · Meta API, and 11 more. Tagged areas include Company, Advertising, Ad Intelligence, Competitive Intelligence, and Marketing.
+overview: 'Adsmom publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Inc. Account API, Inc. Analytics · Google API, Inc. Analytics · Meta API, and 11 more. Tagged areas include Company, Advertising, Ad Intelligence, Competitive Intelligence, and Marketing.
 
 
-  Adsmom Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Adsmom''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Adsmom Inc Plans
   plan_count: 3

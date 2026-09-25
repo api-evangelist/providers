@@ -71,13 +71,13 @@ description: Desert Farms Inc. is a direct-to-consumer camel milk brand founded 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/desert-farms-inc.png
 layout: provider
 modified: '2026-07-18'
-name: DESERT FARMS INC.
+name: DESERT FARMS
 nav: Providers
 network: true
-overview: 'DESERT FARMS INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Camel Milk, Consumer Packaged Goods, E-Commerce, and Food and Beverage.
+overview: 'DESERT FARMS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Camel Milk, Consumer Packaged Goods, E-Commerce, and Food and Beverage.
 
 
-  DESERT FARMS INC.''s developer surface includes engineering blog, support, and 5 more developer resources.'
+  DESERT FARMS''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 4
 score:
   band: minimal

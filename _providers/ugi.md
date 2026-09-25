@@ -88,13 +88,13 @@ jsonld:
   slug: ugi-context
 layout: provider
 modified: '2026-09-16'
-name: UGI Corporation
+name: UGI
 nav: Providers
 network: true
-overview: 'UGI Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Natural Gas, Propane, and Electric.
+overview: 'UGI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Natural Gas, Propane, and Electric.
 
 
-  The UGI Corporation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+  The UGI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 plans:
 - name: Ugi Plans Pricing
   plan_count: 1
@@ -123,7 +123,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: UGI Corporation API Rules
+  name: UGI API Rules
   rule_count: 5
   severity_counts:
     error: 0

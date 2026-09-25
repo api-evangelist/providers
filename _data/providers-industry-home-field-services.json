@@ -6310,7 +6310,7 @@
      "rank": 140
     },
     {
-     "name": "Chimelabs Holdings PTY LTD",
+     "name": "Chimelabs",
      "slug": "chimelabs-holdings-pty-ltd",
      "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",

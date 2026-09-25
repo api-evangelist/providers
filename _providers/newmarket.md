@@ -66,13 +66,13 @@ description: 'NewMarket Corporation (NYSE: NEU) is a publicly traded specialty c
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newmarket.png
 layout: provider
 modified: '2026-04-28'
-name: NewMarket Corporation
+name: NewMarket
 nav: Providers
 network: true
-overview: 'NewMarket Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Petroleum Additives, Publicly Traded, and Fortune 1000.
+overview: 'NewMarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Chemicals, Petroleum Additives, Publicly Traded, and Fortune 1000.
 
 
-  NewMarket Corporation''s developer surface includes engineering blog and 5 more developer resources.'
+  NewMarket''s developer surface includes engineering blog and 5 more developer resources.'
 press:
 - date: ''
   title: NewMarket Corporation Increases Quarterly Dividend

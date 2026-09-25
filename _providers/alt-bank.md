@@ -226,7 +226,7 @@ tags:
 - Credit Cards
 - Payments
 - KYC
-- Risk
+- Risk Management
 - Brazil
 - Financial Inclusion
 - Banking as a Service

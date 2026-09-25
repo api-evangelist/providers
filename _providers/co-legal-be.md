@@ -218,8 +218,8 @@ image: https://co-legal.be/assets/icon-512.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: Co-Legal B.V. MCP Server
-  slug: co-legal-bv-mcp-server
+  name: Co-Legal MCP Server
+  slug: co-legal-mcp-server
 - description: ''
   name: Co-Legal MCP endpoint (Streamable HTTP)
   slug: co-legal-mcp-endpoint-streamable-http
@@ -227,13 +227,13 @@ mcp_servers:
   name: MCP discovery pointer
   slug: mcp-discovery-pointer
 modified: '2026-09-19'
-name: Co-Legal B.V.
+name: Co-Legal
 nav: Providers
 network: true
-overview: 'Co-Legal B.V. publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Research, Tax, Case Law, and Legislation.
+overview: 'Co-Legal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Research, Tax, Case Law, and Legislation.
 
 
-  Co-Legal B.V.''s developer surface includes documentation, API reference, getting-started guide, FAQ, support, engineering blog, pricing, and 33 more developer resources.'
+  Co-Legal''s developer surface includes documentation, API reference, getting-started guide, FAQ, support, engineering blog, pricing, and 33 more developer resources.'
 plans:
 - name: Co Legal Be Plans Pricing
   plan_count: 1

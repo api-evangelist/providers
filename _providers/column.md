@@ -283,7 +283,7 @@ modified: '2026-05-30'
 name: Column
 nav: Providers
 network: true
-overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, Backend-as-a-Service, ACH, and Wires.
+overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, Banking as a Service, ACH, and Wires.
 
 
   Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 12 more developer resources.'
@@ -347,8 +347,9 @@ slug: column
 tags:
 - Fintech
 - Banking
-- Backend-as-a-Service
+- Banking as a Service
 - ACH
 - Wires
+- Embedded Finance
 website: https://column.com/
 ---

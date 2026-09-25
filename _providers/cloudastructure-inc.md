@@ -66,13 +66,13 @@ description: Cloudastructure Inc. is a cloud-based AI video surveillance and rem
 image: https://cdn.prod.website-files.com/610476b7bda1940095409800/62d6ded4381a1b1e550ac16f_CloudaStructureLogo.png
 layout: provider
 modified: '2026-07-18'
-name: CloudAStructure Inc
+name: CloudAStructure
 nav: Providers
 network: true
-overview: 'CloudAStructure Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Surveillance, Physical Security, Artificial Intelligence, and Computer Vision.
+overview: 'CloudAStructure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Surveillance, Physical Security, Artificial Intelligence, and Computer Vision.
 
 
-  CloudAStructure Inc''s developer surface includes engineering blog, support, FAQ, and 3 more developer resources.'
+  CloudAStructure''s developer surface includes engineering blog, support, FAQ, and 3 more developer resources.'
 random_paper: 20
 score:
   band: minimal

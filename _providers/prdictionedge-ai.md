@@ -198,7 +198,7 @@ modified: '2026-09-19'
 name: AUX by PrdictionEdge
 nav: Providers
 network: true
-overview: 'AUX by PrdictionEdge publishes 1 API on the [APIs.io](https://apis.io/) network: AUX Evidence and Certification API. Tagged areas include Company, Counterparty Verification, Sanctions Screening, Legal Entity Identifier, and Know Your Business.
+overview: 'AUX by PrdictionEdge publishes 1 API on the [APIs.io](https://apis.io/) network: AUX Evidence and Certification API. Tagged areas include Company, Counterparty Verification, Sanctions Screening, Legal Entity Identifier, and KYB.
 
 
   AUX by PrdictionEdge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 25 more developer resources.'
@@ -266,7 +266,7 @@ tags:
 - Counterparty Verification
 - Sanctions Screening
 - Legal Entity Identifier
-- Know Your Business
+- KYB
 - Agent Infrastructure
 - Trust and Safety
 - Signed Receipts

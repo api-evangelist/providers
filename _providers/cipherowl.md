@@ -235,7 +235,7 @@ modified: '2026-09-16'
 name: CipherOwl
 nav: Providers
 network: true
-overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API, and SRR API. Tagged areas include Blockchain, Compliance, Crypto, Security, and Risk.
+overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API, and SRR API. Tagged areas include Blockchain, Compliance, Crypto, Security, and Risk Management.
 
 
   CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -299,7 +299,7 @@ tags:
 - Compliance
 - Crypto
 - Security
-- Risk
+- Risk Management
 - Sanctions Screening
 - AML
 - Digital Assets

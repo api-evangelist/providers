@@ -95,7 +95,7 @@ modified: '2026-04-28'
 name: Python Standard Library and Popular
 nav: Providers
 network: true
-overview: 'Python Standard Library and Popular publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Libraries, Programming Language, and Python.
+overview: 'Python Standard Library and Popular publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Library, Programming Language, and Python.
 
 
   Python Standard Library and Popular''s developer surface includes documentation and 4 more developer resources.'
@@ -109,8 +109,8 @@ rate_limits:
   name: Python Rate Limits
   slug: python-rate-limits
 score:
-  band: emerging
-  composite: 11.9
+  band: minimal
+  composite: 9.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 34.0
@@ -118,7 +118,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -127,6 +127,12 @@ score:
     discoverability: 46.3
     operational_transparency: 13.2
   previous_composite: 11.9
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 11.1
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat
@@ -143,7 +149,7 @@ security:
 slug: python
 tags:
 - Framework
-- Libraries
+- Library
 - Programming Language
 - Python
 website: https://www.python.org

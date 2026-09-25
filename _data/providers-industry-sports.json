@@ -1,6 +1,6 @@
 {
- "total": 185,
- "shown": 185,
+ "total": 193,
+ "shown": 193,
  "limit": 1000,
  "bands": [
   {
@@ -608,49 +608,6 @@
      "rank": 13
     },
     {
-     "name": "Tribune Media",
-     "slug": "tribune-media",
-     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 60.4,
-      "contract_governance": 54.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "DiscGolfAPI",
      "slug": "discgolfapi",
      "description": "DiscGolfAPI is a free, read-only public API that publishes structured JSON data about disc golf courses for developers, clubs, publishers, apps, and AI systems. It provides machine-readable course records with names, locations, countries, regions, hole counts where known, coordinates where available, operational and access fields, confidence and verification signals, update timestamps, and attribution/licence metadata. DiscGolfAPI is infrastructure and reference data — not a review site, rating platform, or social network.",
@@ -698,7 +655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "The New York Times Company",
@@ -741,7 +698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Pred",
@@ -791,7 +748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Active Network",
@@ -834,7 +791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "The Rundown",
@@ -877,7 +834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "The Racing API",
@@ -920,7 +877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Gracenote",
@@ -963,7 +920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "WSC Sports",
@@ -1005,7 +962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Under Armour",
@@ -1055,7 +1012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Polar",
@@ -1105,7 +1062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "SeatGeek",
@@ -1148,7 +1105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "The Odds API",
@@ -1191,7 +1148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "VideoVerse",
@@ -1233,7 +1190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "TrainingPeaks",
@@ -1279,6 +1236,56 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 27
+    },
+    {
+     "name": "Betfair",
+     "slug": "betfair",
+     "description": "Betfair operates the world's largest online betting exchange, where customers back and lay outcomes against each other rather than against a bookmaker. The Betfair Exchange API (API-NG) gives automated clients programmatic access to the exchange - navigating markets, retrieving live prices, placing and managing bets, and reading account state. It is exposed as lightweight JSON-RPC and REST operations over HTTPS under https://api.betfair.com/exchange (the Betting, Accounts, and Heartbeat APIs), with a separate real-time Exchange Stream API delivered over a raw SSL/TCP socket (CRLF-delimited JSON, not WebSocket) for low-latency market and order updates. A Historic Data API and a licensed Vendor (affiliate) API round out the platform. Auth combines an Application Key with a session token (ssoid) obtained from Betfair's identity SSO login.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/screenshots/betfair-2026-08-17T122904.png",
+     "score": 40.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 59.3,
+      "contract_governance": 13.6,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 29.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 30.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -1422,8 +1429,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 26,
-   "shown": 26,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "RunSignup",
@@ -1597,6 +1604,49 @@
      "rank": 35
     },
     {
+     "name": "SportsDataIO",
+     "slug": "sportsdataio",
+     "description": "SportsDataIO is an award-winning sports data and content provider producing millions of data points across thousands of games annually. The platform offers robust REST APIs, responsive widgets, database downloads, and fantasy sports tools covering 14+ major sports including NFL, MLB, NBA, NHL, Soccer, Golf, NASCAR, MMA/UFC, Tennis, Formula 1, College Football, College Basketball, WNBA, and Olympics. Data includes live scores, statistics, odds feeds, fantasy projections, injuries, lineups, depth charts, standings, and player news.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/screenshots/sportsdataio-2026-06-20T194350.png",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 59.1,
+      "contract_governance": 13.6,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 22.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 36
+    },
+    {
      "name": "Highlightly",
      "slug": "highlightly",
      "description": "Highlightly is a real-time sports data and highlights API covering football, basketball, American football, hockey, baseball, cricket, rugby, volleyball, and handball across 950+ leagues. Its REST APIs serve live scores, matches, standings, team and player statistics, head-to-head records, odds, and on-demand video highlight clips, available directly via highlightly.net hosts or through RapidAPI.",
@@ -1637,7 +1687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Sorare",
@@ -1680,7 +1730,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
+    },
+    {
+     "name": "API-Sports",
+     "slug": "api-sports",
+     "description": "API-Sports is a sports-data provider selling twelve independent read-only REST APIs — one per sport — covering football, basketball, baseball, American football (NFL and NCAA), NBA, Formula 1, ice hockey, handball, rugby, volleyball, MMA and Australian rules football. Each API returns live scores, fixtures and schedules, standings, team and player statistics, lineups, injuries, transfers, odds and multi-season historical results, and each is versioned independently with its major version carried in the hostname. A single API key works across every sport an account subscribes to, authenticated with an x-apisports-key header, and the same APIs are resold through the RapidAPI marketplace. API-Sports also ships a first-party embeddable widget library that renders games and standings with no client code.",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 59.5,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 10.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
     },
     {
      "name": "5DollarFootballAPI",
@@ -1723,7 +1815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "Stats Perform",
@@ -1766,7 +1858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Inthegame",
@@ -1809,7 +1901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "Eversports",
@@ -1852,7 +1944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Statorium",
@@ -1895,7 +1987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "PlayerData",
@@ -1938,7 +2030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Football Charts",
@@ -1980,7 +2072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "LiveLike",
@@ -2023,7 +2115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Tempus Ex",
@@ -2066,7 +2158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Fevo",
@@ -2116,7 +2208,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 49
+    },
+    {
+     "name": "Tribune Media",
+     "slug": "tribune-media",
+     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 21.3,
+      "contract_governance": 54.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 50
     },
     {
      "name": "Fnatic",
@@ -2159,7 +2294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "Latiyal Infotech",
@@ -2202,7 +2337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "AGL",
@@ -2244,7 +2379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Keyper",
@@ -2287,7 +2422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "Genius Sports",
@@ -2330,7 +2465,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 55
+    },
+    {
+     "name": "OddsJam",
+     "slug": "oddsjam",
+     "description": "OddsJam's Sports Betting API offers real-time betting odds from 100+ sportsbooks including player props, alternate markets, injury data, schedules, rankings, and scores for sports betting applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/screenshots/oddsjam-2026-06-20T190620.png",
+     "score": 29.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 55.7,
+      "contract_governance": 11.4,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
     },
     {
      "name": "NASCAR",
@@ -2373,19 +2551,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 57
     },
     {
      "name": "The Picklr",
      "slug": "the-picklr",
      "description": "The Picklr is the largest indoor pickleball club franchise in North America, founded in 2021 in Utah by Jorge Barragan and Austin Wood and franchising since March 2023. It operates membership-based indoor facilities offering unlimited court reservations, open play, adult and junior coaching academies, leagues, tournaments and corporate events, with a single membership valid at every club nationwide. The company publishes no developer programme and sells no API product. It does, however, serve a genuine machine-readable surface from its own domain: a public WordPress REST API exposing 157 club locations plus pages, posts, press and events; a published llms.txt; and three live Model Context Protocol endpoints advertised through RFC 8414 and RFC 9728 discovery documents and gated by an OAuth 2.1 authorization server with PKCE and dynamic client registration. Court booking, membership billing and reservations run on PlayByPoint, a third-party platform, and are outside any Picklr-owned contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/screenshots/the-picklr-2026-09-02T163406.png",
-     "score": 28.4,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 1.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 26.8,
@@ -2400,15 +2578,15 @@
       "score": 47.5,
       "matched_via": "tags"
      },
-     "agent_score": 33.0,
-     "agent_band": "agent-ready",
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "served",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -2417,13 +2595,13 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 58
     },
     {
      "name": "OpenF1",
@@ -2466,7 +2644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 59
     },
     {
      "name": "Race Entry",
@@ -2509,7 +2687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 60
     },
     {
      "name": "Sleeper",
@@ -2552,7 +2730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 61
     }
    ]
   },
@@ -2605,7 +2783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 62
     },
     {
      "name": "DSG Sports Analytics",
@@ -2648,7 +2826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 63
     },
     {
      "name": "18Birdies",
@@ -2690,7 +2868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 64
     },
     {
      "name": "Cloud9",
@@ -2733,7 +2911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 65
     },
     {
      "name": "SidelineSwap",
@@ -2776,7 +2954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 66
     },
     {
      "name": "Opendorse",
@@ -2826,7 +3004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 67
     },
     {
      "name": "Premier Lacrosse League",
@@ -2869,7 +3047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 64
+     "rank": 68
     },
     {
      "name": "Minute Media",
@@ -2912,7 +3090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 69
     },
     {
      "name": "Preciser",
@@ -2955,7 +3133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 70
     },
     {
      "name": "Major League Baseball",
@@ -2997,7 +3175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 71
     },
     {
      "name": "Satisfi Labs",
@@ -3040,7 +3218,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 72
     },
     {
      "name": "National Hockey League",
@@ -3083,93 +3261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
-    },
-    {
-     "name": "Skydance Media",
-     "slug": "skydance-media",
-     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 25.6,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
-     "name": "Endeavor",
-     "slug": "endeavor",
-     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "SportsAPI",
@@ -3212,7 +3304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "Swish Analytics",
@@ -3255,7 +3347,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 75
+    },
+    {
+     "name": "Skydance Media",
+     "slug": "skydance-media",
+     "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 25.6,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
     },
     {
      "name": "4DReplay",
@@ -3298,7 +3433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "Urban Sports Club",
@@ -3341,7 +3476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Sportwey",
@@ -3391,7 +3526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "Coachup",
@@ -3434,7 +3569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "MyFavorito",
@@ -3477,7 +3612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 81
     },
     {
      "name": "OpenSponsorship",
@@ -3520,7 +3655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "All Sports API",
@@ -3563,7 +3698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
      "name": "Cricket API",
@@ -3605,7 +3740,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 84
+    },
+    {
+     "name": "Endeavor",
+     "slug": "endeavor",
+     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 85
     },
     {
      "name": "TransferRoom",
@@ -3648,7 +3826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 86
     },
     {
      "name": "Goals",
@@ -3691,7 +3869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 87
     },
     {
      "name": "Eksab",
@@ -3734,7 +3912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 88
     },
     {
      "name": "TicketRev",
@@ -3784,7 +3962,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 89
     },
     {
      "name": "Game Theory",
@@ -3827,7 +4005,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 90
     },
     {
      "name": "Hole19",
@@ -3870,7 +4048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 91
     },
     {
      "name": "Betr",
@@ -3913,7 +4091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 92
     },
     {
      "name": "Imperfect",
@@ -3963,7 +4141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 93
     },
     {
      "name": "TOCA Football",
@@ -4006,7 +4184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 94
     },
     {
      "name": "DubClub",
@@ -4049,7 +4227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 95
     },
     {
      "name": "StatusPRO",
@@ -4092,7 +4270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 96
     },
     {
      "name": "Teamworks",
@@ -4135,7 +4313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 97
     },
     {
      "name": "ThriveFantasy",
@@ -4178,7 +4356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 98
     },
     {
      "name": "Icon Source",
@@ -4228,7 +4406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "RACE RESULT",
@@ -4271,7 +4449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "Arena Club",
@@ -4321,7 +4499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Autograph",
@@ -4364,7 +4542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "Myclubs",
@@ -4413,7 +4591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 103
     },
     {
      "name": "Candy Fanatics (fka Candy Digital)",
@@ -4463,7 +4641,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 104
     },
     {
      "name": "TrackMan",
@@ -4506,7 +4684,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 105
     },
     {
      "name": "WOO Sports",
@@ -4549,7 +4727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "Underdog Fantasy",
@@ -4592,7 +4770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "Gametime",
@@ -4635,7 +4813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "Gen.G",
@@ -4678,7 +4856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 109
     },
     {
      "name": "Cosm",
@@ -4721,7 +4899,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 110
     },
     {
      "name": "Nix",
@@ -4771,7 +4949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "str8bat",
@@ -4814,7 +4992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 108
+     "rank": 112
     },
     {
      "name": "World Golf Tour",
@@ -4857,7 +5035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 113
     },
     {
      "name": "Amer Sports",
@@ -4900,7 +5078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 114
     },
     {
      "name": "Draftea",
@@ -4943,7 +5121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 115
     },
     {
      "name": "StatMuse",
@@ -4986,7 +5164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 116
     }
    ]
   },
@@ -4995,8 +5173,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 73,
-   "shown": 73,
+   "count": 77,
+   "shown": 77,
    "providers": [
     {
      "name": "All City Network",
@@ -5038,7 +5216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 117
     },
     {
      "name": "Blue Wire",
@@ -5081,7 +5259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 118
     },
     {
      "name": "Fitetv",
@@ -5124,10 +5302,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 119
     },
     {
-     "name": "Forged Sports, Inc.",
+     "name": "Forged Sports",
      "slug": "forged-sports-inc",
      "description": "Forged Sports, Inc. is a Palo Alto, California software company (founded May 2024) building a Venue Management System (VMS) for commercial indoor golf and golf-simulator venues. The platform consolidates bay operations, bookings, player profiles, waivers, leagues, business intelligence, and third-party integrations into a single command center — offering live bay monitoring, reservation and booking management, player-retention analytics, game-popularity insight, and bay-utilization reporting. Forged Sports also develops gamified indoor-golf experiences on top of launch-monitor technologies. Backed by 500 Global. No public developer API, documentation, or SDK surface is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/screenshots/forged-sports-inc-2026-07-25T214938.png",
@@ -5167,7 +5345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 120
     },
     {
      "name": "Mars Reel",
@@ -5210,7 +5388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 121
     },
     {
      "name": "Onefootball",
@@ -5253,7 +5431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 122
     },
     {
      "name": "Religion of Sports",
@@ -5296,7 +5474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 123
     },
     {
      "name": "i-Brain Tech",
@@ -5346,7 +5524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 124
     },
     {
      "name": "Gym Class VR",
@@ -5389,7 +5567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 125
     },
     {
      "name": "Overtime",
@@ -5432,7 +5610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 126
     },
     {
      "name": "Player's Health",
@@ -5482,7 +5660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 127
     },
     {
      "name": "Bleacher Report",
@@ -5525,7 +5703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 128
     },
     {
      "name": "Supponor",
@@ -5568,7 +5746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 129
     },
     {
      "name": "SwingVision",
@@ -5611,7 +5789,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 130
+    },
+    {
+     "name": "FanDuel",
+     "slug": "fanduel",
+     "description": "FanDuel is a major US sports betting and daily fantasy sports operator (FanDuel Sportsbook, FanDuel Casino, FanDuel Fantasy, FanDuel TV). FanDuel does not publish a public developer REST API for its sportsbook, casino, or fantasy products. Internal/private APIs power the apps and a Sportradar/SBTech-derived trading stack but are not available to third-party developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fanduel/refs/heads/main/screenshots/fanduel-2026-06-20T181034.png",
+     "score": 9.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 131
     },
     {
      "name": "Audacy",
@@ -5654,7 +5875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 132
     },
     {
      "name": "AlmostApps",
@@ -5697,7 +5918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 133
     },
     {
      "name": "Instacoach",
@@ -5740,7 +5961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 134
     },
     {
      "name": "Jump",
@@ -5783,7 +6004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 135
     },
     {
      "name": "Season Share",
@@ -5826,7 +6047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 136
     },
     {
      "name": "SuperQuickQuestion",
@@ -5869,7 +6090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 137
     },
     {
      "name": "DAZN",
@@ -5912,7 +6133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 138
     },
     {
      "name": "ATC (Alquila tu cancha)",
@@ -5962,7 +6183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 139
     },
     {
      "name": "FanCraze",
@@ -6012,7 +6233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 140
     },
     {
      "name": "Hudl",
@@ -6055,7 +6276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 141
     },
     {
      "name": "TMRW Sports",
@@ -6097,7 +6318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 142
     },
     {
      "name": "Arc Simulations",
@@ -6140,7 +6361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 143
     },
     {
      "name": "BallerTV",
@@ -6183,7 +6404,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 144
+    },
+    {
+     "name": "Football-Data",
+     "slug": "football-data",
+     "description": "Football data with matches info, players, teams, and competitions",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-data/refs/heads/main/screenshots/football-data-2026-06-20T181411.png",
+     "score": 8.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 145
     },
     {
      "name": "FTN Network",
@@ -6225,7 +6489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 146
     },
     {
      "name": "Drone Racing League",
@@ -6267,7 +6531,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 147
+    },
+    {
+     "name": "balldontlie",
+     "slug": "balldontlie",
+     "description": "Balldontlie provides access to stats data from the NBA",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/balldontlie/refs/heads/main/screenshots/balldontlie-2026-08-07T162247.png",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 148
     },
     {
      "name": "Project Admission",
@@ -6310,7 +6617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 149
     },
     {
      "name": "Unrivaled Sports",
@@ -6352,7 +6659,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 150
+    },
+    {
+     "name": "DraftKings",
+     "slug": "draftkings",
+     "description": "DraftKings is a digital sports entertainment and gaming company that operates a leading daily fantasy sports platform, an online sportsbook, and an iGaming casino across regulated jurisdictions in North America. The company also runs DraftKings Marketplace for digital collectibles and offers business-to-business gaming technology. No publicly documented developer API or developer portal is currently exposed at draftkings.com; integrations are typically handled through licensed partner agreements rather than self-serve developer access.",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 151
     },
     {
      "name": "Matchday",
@@ -6395,7 +6744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 152
     },
     {
      "name": "fuboTV",
@@ -6438,7 +6787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 153
     },
     {
      "name": "Ring Radar",
@@ -6481,7 +6830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 154
     },
     {
      "name": "Sportlogiq",
@@ -6524,7 +6873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 155
     },
     {
      "name": "FloSports",
@@ -6567,7 +6916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 156
     },
     {
      "name": "Dream11",
@@ -6610,7 +6959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 157
     },
     {
      "name": "gameSense Sports",
@@ -6653,7 +7002,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 158
     },
     {
      "name": "UberSense",
@@ -6695,7 +7044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 159
     },
     {
      "name": "Liberty Media",
@@ -6738,7 +7087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 160
     },
     {
      "name": "Signify Group",
@@ -6781,7 +7130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 161
     },
     {
      "name": "Caffeine",
@@ -6824,7 +7173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 162
     },
     {
      "name": "The Athletic",
@@ -6867,7 +7216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 163
     },
     {
      "name": "Alltricks",
@@ -6910,7 +7259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 164
     },
     {
      "name": "ARG",
@@ -6953,7 +7302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 165
     },
     {
      "name": "Athletes First",
@@ -6996,7 +7345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 166
     },
     {
      "name": "Betty Labs",
@@ -7038,7 +7387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 167
     },
     {
      "name": "Buzzer",
@@ -7082,7 +7431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 168
     },
     {
      "name": "DeporPrivé",
@@ -7125,7 +7474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 169
     },
     {
      "name": "edisn.ai",
@@ -7169,7 +7518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 170
     },
     {
      "name": "Fan Controlled Football",
@@ -7211,7 +7560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 171
     },
     {
      "name": "Fanatics",
@@ -7253,7 +7602,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 172
+    },
+    {
+     "name": "fanZ",
+     "slug": "teamup-inc",
+     "description": "TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of teams, leagues and players, prediction challenges and mini-games, a rewards system of points, badges and digital collectibles, an official merchandise store, and global leaderboards, plus news, match highlights and video content. The product is a consumer-facing mobile application operated by Wathbah for Information Technology and backed by 500 Global; no public developer API, documentation, or developer portal was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamup-inc/refs/heads/main/screenshots/teamup-inc-2026-09-02T162655.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 173
     },
     {
      "name": "Kairos Sports Tech",
@@ -7296,7 +7688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 174
     },
     {
      "name": "Locker Room *",
@@ -7338,7 +7730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 175
     },
     {
      "name": "Malaeb",
@@ -7381,7 +7773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 176
     },
     {
      "name": "MoreTickets",
@@ -7424,7 +7816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 177
     },
     {
      "name": "Rei do Pitaco",
@@ -7466,7 +7858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 178
     },
     {
      "name": "SIQ Basketball",
@@ -7509,7 +7901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 179
     },
     {
      "name": "Super Sports Media",
@@ -7552,50 +7944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
-    },
-    {
-     "name": "TeamUp Inc.",
-     "slug": "teamup-inc",
-     "description": "TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of teams, leagues and players, prediction challenges and mini-games, a rewards system of points, badges and digital collectibles, an official merchandise store, and global leaderboards, plus news, match highlights and video content. The product is a consumer-facing mobile application operated by Wathbah for Information Technology and backed by 500 Global; no public developer API, documentation, or developer portal was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamup-inc/refs/heads/main/screenshots/teamup-inc-2026-09-02T162655.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 172
+     "rank": 180
     },
     {
      "name": "Tennis Channel",
@@ -7638,7 +7987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 181
     },
     {
      "name": "The Icon League",
@@ -7681,7 +8030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 182
     },
     {
      "name": "The Players' Tribune",
@@ -7724,7 +8073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 183
     },
     {
      "name": "VICI Sports",
@@ -7767,7 +8116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 184
     },
     {
      "name": "YouStake",
@@ -7810,7 +8159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 185
     },
     {
      "name": "National Football League",
@@ -7853,7 +8202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 186
     },
     {
      "name": "Fantasy Akhada",
@@ -7896,7 +8245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 187
     },
     {
      "name": "Duane Morris",
@@ -7946,7 +8295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 188
     },
     {
      "name": "National Basketball Association",
@@ -7988,7 +8337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 189
     },
     {
      "name": "Crossfit",
@@ -8037,7 +8386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 190
     },
     {
      "name": "WePlayed",
@@ -8087,7 +8436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 191
     },
     {
      "name": "Hinsta",
@@ -8137,7 +8486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 192
     },
     {
      "name": "Beryllium",
@@ -8189,7 +8538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 193
     }
    ]
   }

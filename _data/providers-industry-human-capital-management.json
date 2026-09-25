@@ -1,6 +1,6 @@
 {
- "total": 877,
- "shown": 877,
+ "total": 875,
+ "shown": 875,
  "limit": 1000,
  "bands": [
   {
@@ -312,8 +312,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 37,
-   "shown": 37,
+   "count": 36,
+   "shown": 36,
    "providers": [
     {
      "name": "Deel",
@@ -1529,56 +1529,6 @@
      "rank": 32
     },
     {
-     "name": "KUFU",
-     "slug": "kufu",
-     "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
-     "score": 56.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 62.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 33
-    },
-    {
      "name": "University of Wisconsin-Madison",
      "slug": "university-of-wisconsin-madison",
      "description": "The University of Wisconsin-Madison is a public land-grant research university in Madison, Wisconsin, and one of the very few institutions in this cohort that genuinely operates an API program of its own rather than pointing at a vendor's. Its Division of Information Technology (DoIT) runs a formal API Program on a UW-owned Google Apigee organization (doit-ipt-apigee-prod-ce29), fronted by a public developer portal at developer.wisc.edu, and publishes eleven OpenAPI 3.0 contracts — 245 operations across Person, HR, Manifest (Grouper groups), Finance, Locations, Enterprise Billing and OAuth — every one of them served from api.wisc.edu or mock.api.wisc.edu with a wisc.edu contact. Nothing in this repository is a vendor contract running under the institution's name: there is no Figshare, Pure, Ex Libris, Dataverse or Symplectic surface attributed here. Beyond the gateway, UW-Madison operates a fully public unauthenticated course-search API at public.enroll.wisc.edu, its own Shibboleth identity provider at login.wisc.edu speaking both SAML 2.0 and OpenID Connect, and a live OAI-PMH 2.0 endpoint for the MINDS@UW institutional repository. The honest limits: production access is gated behind a manual institutional approval per API product and is effectively closed to anyone without a UW NetID, the estate declares zero OAuth scopes, no contract carries a license or terms of service, and the developer portal is a client-rendered single-page app that returns an identical 2,138-byte shell for every URL — including ones that do not exist. Learning management runs on a Canvas tenant, recorded here as a tenant relationship and not as UW-Madison engineering.",
@@ -1626,7 +1576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Workday",
@@ -1669,7 +1619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Supaglue",
@@ -1712,7 +1662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Credentially",
@@ -1769,7 +1719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Worksome",
@@ -1818,7 +1768,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Xero",
@@ -1868,7 +1818,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Yoodli",
@@ -1910,7 +1860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Niural",
@@ -1960,7 +1910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Bright Pattern",
@@ -2021,7 +1971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Nayya",
@@ -2071,7 +2021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     }
    ],
    "open": true
@@ -2081,8 +2031,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 125,
-   "shown": 125,
+   "count": 123,
+   "shown": 123,
    "providers": [
     {
      "name": "Rocketlane",
@@ -2125,7 +2075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Skedulo",
@@ -2168,50 +2118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
-    },
-    {
-     "name": "Greenhouse",
-     "slug": "greenhouse-io",
-     "description": "Greenhouse Software is an enterprise applicant tracking system (ATS) and end-to-end hiring platform spanning sourcing, structured interviewing, offer management, hiring decisions, and new-hire onboarding. The company markets itself across early-stage, scaling, and enterprise tiers (Core, Plus, Pro) and lists customers including DoorDash, Betterment, MLB, Coupang, HelloFresh, Trivago, and the NFL. Greenhouse exposes a broad developer surface — Harvest (REST), Job Board, Audit Log (Pro), Candidate Ingestion (Partner), Onboarding (GraphQL), Assessment (partner-hosted), and Recruiting / Onboarding Webhooks — that powers hundreds of pre-built integrations across sourcing, assessment, background-check, video-interviewing, HRIS, payroll, SSO, and e-signature vendors. The platform recently acquired Ezra AI Labs to integrate conversational AI into the hiring workflow and continues to invest in fraud detection and identity verification through its Real Talent feature set.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png",
-     "score": 53.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 69.1,
-      "contract_governance": 9.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 34.5,
-      "access_clarity": 68.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 24.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Calm",
@@ -2261,7 +2168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Clio",
@@ -2304,7 +2211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Codesignal",
@@ -2354,7 +2261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "Color",
@@ -2415,7 +2322,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Ethena",
@@ -2465,7 +2372,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Mavenlink",
@@ -2508,7 +2415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 50
     },
     {
      "name": "QuotaPath",
@@ -2551,7 +2458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 51
     },
     {
      "name": "Factorial",
@@ -2594,7 +2501,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Thatch Health",
@@ -2644,7 +2551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Justworks",
@@ -2694,7 +2601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "Offendersearch API",
@@ -2744,7 +2651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "KarmaCheck",
@@ -2794,7 +2701,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "HR Partner",
@@ -2844,7 +2751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "Worklittle",
@@ -2887,7 +2794,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Harri",
@@ -2930,7 +2837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "WakaTime",
@@ -2973,7 +2880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "HeyMilo",
@@ -3016,7 +2923,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Laurel",
@@ -3059,7 +2966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "Buk",
@@ -3102,7 +3009,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Cadana",
@@ -3152,7 +3059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "QGenda",
@@ -3202,7 +3109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "Argyle",
@@ -3245,7 +3152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Yoobic",
@@ -3288,7 +3195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "Absentify",
@@ -3331,7 +3238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "WizeHire",
@@ -3373,7 +3280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "PlanSource",
@@ -3434,7 +3341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "LeO",
@@ -3491,7 +3398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "Pinwheel",
@@ -3541,7 +3448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Teambridge",
@@ -3584,7 +3491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "7shifts",
@@ -3627,7 +3534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Quinyx",
@@ -3670,7 +3577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Rentahuman",
@@ -3720,7 +3627,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 76
+    },
+    {
+     "name": "SmartHR",
+     "slug": "smarthr",
+     "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 65.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 48.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
     },
     {
      "name": "Deskera",
@@ -3762,7 +3712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Goethena",
@@ -3812,7 +3762,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Reflektive",
@@ -3855,7 +3805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Palenca (Vech)",
@@ -3898,7 +3848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "ActivTrak",
@@ -3941,7 +3891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 82
     },
     {
      "name": "KolayIK",
@@ -3984,7 +3934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "When I Work",
@@ -4027,7 +3977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Leapsome",
@@ -4070,7 +4020,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "TeamOhana",
@@ -4113,7 +4063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Paradox",
@@ -4163,7 +4113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Telleroo",
@@ -4213,7 +4163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Workday Advanced Compensation",
@@ -4256,7 +4206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "Small Improvements",
@@ -4299,7 +4249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Zoho People",
@@ -4342,7 +4292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "Wellhub",
@@ -4392,7 +4342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Workday Studio",
@@ -4435,7 +4385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Garner Health",
@@ -4485,7 +4435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Indeed",
@@ -4528,7 +4478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Lattice",
@@ -4571,7 +4521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Sun Life",
@@ -4628,7 +4578,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Culture Amp",
@@ -4671,7 +4621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "Rollee",
@@ -4728,7 +4678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Tadeus API",
@@ -4771,7 +4721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Trakstar",
@@ -4821,7 +4771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Paychex",
@@ -4864,7 +4814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Willo",
@@ -4907,7 +4857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Request Finance",
@@ -4957,7 +4907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "IntelyCare",
@@ -5007,7 +4957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Humaans",
@@ -5048,6 +4998,56 @@
       "delegated_identity": "served",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 106
+    },
+    {
+     "name": "Department of Veterans Affairs (VA Lighthouse)",
+     "slug": "va-gov",
+     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake), Health (HL7 FHIR R4 Patient Health and Clinical Health, Community Care Eligibility), Facilities, Forms, Veteran Verification and Confirmation, Appeals and Decision Reviews under the Appeals Modernization Act (AMA), Address Validation, Direct Deposit Management, VA Letter Generation, Education Benefits, and the full VA Home Loan Guaranty stack (Loan Guaranty, Loan Review, Guaranty Remittance, Health-Care-Costs Coverage). All authenticated APIs use OAuth 2.0 with both Authorization Code (Veteran consent) and Client Credentials (system) flows; the health APIs additionally support SMART-on-FHIR. The platform is operated by the VA Office of the CTO with open-source backend code in github.com/department-of-veterans-affairs/vets-api and reference clients in vets-api-clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 68.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 107
@@ -5096,56 +5096,6 @@
      "rank": 108
     },
     {
-     "name": "VA Lighthouse",
-     "slug": "va-gov",
-     "description": "VA Lighthouse is the US Department of Veterans Affairs' developer API platform. Published at developer.va.gov with production endpoints at api.va.gov, Lighthouse exposes 22+ APIs covering Benefits (claims, documents, reference data, intake), Health (HL7 FHIR R4 Patient Health and Clinical Health, Community Care Eligibility), Facilities, Forms, Veteran Verification and Confirmation, Appeals and Decision Reviews under the Appeals Modernization Act (AMA), Address Validation, Direct Deposit Management, VA Letter Generation, Education Benefits, and the full VA Home Loan Guaranty stack (Loan Guaranty, Loan Review, Guaranty Remittance, Health-Care-Costs Coverage). All authenticated APIs use OAuth 2.0 with both Authorization Code (Veteran consent) and Client Credentials (system) flows; the health APIs additionally support SMART-on-FHIR. The platform is operated by the VA Office of the CTO with open-source backend code in github.com/department-of-veterans-affairs/vets-api and reference clients in vets-api-clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 68.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 109
-    },
-    {
      "name": "Workday Integration",
      "slug": "workday-integration",
      "description": "Collection of Workday Integration APIs for enterprise resource planning, human capital management, and financial management.",
@@ -5186,7 +5136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Ashby",
@@ -5229,7 +5179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "TalentLMS",
@@ -5279,7 +5229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Smokeball",
@@ -5322,7 +5272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Optibus",
@@ -5365,7 +5315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Puzzle",
@@ -5408,7 +5358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Cobee by Pluxee",
@@ -5451,7 +5401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "AlayaCare",
@@ -5501,7 +5451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Phenom",
@@ -5544,7 +5494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Kombo",
@@ -5594,7 +5544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Onsi",
@@ -5644,7 +5594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "The Predictive Index",
@@ -5687,7 +5637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Wagestream",
@@ -5730,7 +5680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Papaya Global",
@@ -5780,7 +5730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Truto",
@@ -5823,7 +5773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Enboarder",
@@ -5866,7 +5816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Get On Board",
@@ -5909,7 +5859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Workday Benefits",
@@ -5952,7 +5902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Workleap",
@@ -5995,7 +5945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Workday Payroll",
@@ -6038,7 +5988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Great-West Lifeco",
@@ -6088,7 +6038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Noyo",
@@ -6138,7 +6088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Harvest",
@@ -6181,49 +6131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
-    },
-    {
-     "name": "Employ Inc",
-     "slug": "employ-inc",
-     "description": "Employ, Inc. is the Denver-based parent company of the JazzHR, Lever and Jobvite applicant tracking systems, and of the AI Interview, Screening and Sourcing Companions layered across them. Employ itself runs no developer program: the recruiting APIs its customers integrate against are published under each brand's own domain and are profiled separately in this network. What Employ publishes on employinc.com is a corporate surface that is nonetheless machine-readable — the WordPress REST API behind its site, two self-describing Events Calendar REST contracts, and an anonymous Atlassian Statuspage API on status.employinc.com — plus the legal, security and responsible-AI documents (Security Exhibit, DPAs, SLAs, NYC Local Law 144 bias audit) that govern every brand underneath it.",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 70.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 133
+     "rank": 131
     },
     {
      "name": "Workstream",
@@ -6266,7 +6174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 132
     },
     {
      "name": "Financial Data Exchange (FDX)",
@@ -6316,7 +6224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 133
     },
     {
      "name": "micro1",
@@ -6359,7 +6267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 134
     },
     {
      "name": "SAP Fieldglass",
@@ -6402,7 +6310,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 135
+    },
+    {
+     "name": "Employ",
+     "slug": "employ-inc",
+     "description": "Employ, Inc. is the Denver-based parent company of the JazzHR, Lever and Jobvite applicant tracking systems, and of the AI Interview, Screening and Sourcing Companions layered across them. Employ itself runs no developer program: the recruiting APIs its customers integrate against are published under each brand's own domain and are profiled separately in this network. What Employ publishes on employinc.com is a corporate surface that is nonetheless machine-readable — the WordPress REST API behind its site, two self-describing Events Calendar REST contracts, and an anonymous Atlassian Statuspage API on status.employinc.com — plus the legal, security and responsible-AI documents (Security Exhibit, DPAs, SLAs, NYC Local Law 144 bias audit) that govern every brand underneath it.",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 67.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 31.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 136
     },
     {
      "name": "KPMG",
@@ -6445,7 +6395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Appfire",
@@ -6488,7 +6438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Sage HR",
@@ -6531,7 +6481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Contalink",
@@ -6574,7 +6524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "VCV",
@@ -6617,7 +6567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Hubstaff",
@@ -6660,7 +6610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Sage",
@@ -6703,7 +6653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Workera",
@@ -6745,7 +6695,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Everhour",
@@ -6788,7 +6738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Workday Recruiting",
@@ -6831,7 +6781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Nectar",
@@ -6874,7 +6824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "OpenProject",
@@ -6917,7 +6867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Harver",
@@ -6960,7 +6910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Work Market",
@@ -7010,7 +6960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Finch",
@@ -7053,7 +7003,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Cachet",
@@ -7103,7 +7053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "MyCase",
@@ -7153,7 +7103,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Welcome to the Jungle",
@@ -7195,7 +7145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Ease",
@@ -7245,7 +7195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Rhumbix",
@@ -7288,7 +7238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "VidGrid",
@@ -7331,7 +7281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Fountain",
@@ -7374,7 +7324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Aflac",
@@ -7424,57 +7374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
-    },
-    {
-     "name": "Veterans Affairs",
-     "slug": "va",
-     "description": "The US Department of Veterans Affairs (VA) Lighthouse API platform provides a portfolio of public-facing REST APIs enabling third-party developers and partners to access veteran benefits data, health records (FHIR), appeals and decision review status, facilities information, forms, and service history verification. APIs support OAuth 2.0 with OpenID Connect and API key authentication and are available with sandbox and production environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 58.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 161
+     "rank": 159
     },
     {
      "name": "handy",
@@ -7517,7 +7417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 160
     },
     {
      "name": "ADP",
@@ -7560,7 +7460,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 161
     },
     {
      "name": "Nmbrs",
@@ -7603,7 +7503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 162
     },
     {
      "name": "Weavix",
@@ -7646,7 +7546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 163
     },
     {
      "name": "OnPay",
@@ -7689,7 +7589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 164
     },
     {
      "name": "CareAcademy",
@@ -7739,50 +7639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
-    },
-    {
-     "name": "SmartHR",
-     "slug": "smarthr",
-     "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png",
-     "score": 39.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 59.2,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 29.8,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 168
+     "rank": 165
     }
    ]
   },
@@ -7835,7 +7692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 166
     },
     {
      "name": "Gloat",
@@ -7878,7 +7735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 167
     },
     {
      "name": "Bitrix24",
@@ -7921,7 +7778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 168
     },
     {
      "name": "Handshake",
@@ -7971,7 +7828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 169
     },
     {
      "name": "ERPNext",
@@ -8014,7 +7871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 170
     },
     {
      "name": "PracticePanther",
@@ -8057,7 +7914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 171
     },
     {
      "name": "Accurate Background",
@@ -8100,7 +7957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 172
     },
     {
      "name": "HiBob",
@@ -8143,7 +8000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 173
     },
     {
      "name": "Guusto",
@@ -8193,7 +8050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 174
     },
     {
      "name": "Human Interest",
@@ -8236,7 +8093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 175
     },
     {
      "name": "Clockodo",
@@ -8279,7 +8136,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 176
     },
     {
      "name": "Keka HR",
@@ -8322,7 +8179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 177
     },
     {
      "name": "CharlieHR",
@@ -8365,7 +8222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 178
     },
     {
      "name": "GoodHire",
@@ -8408,7 +8265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 179
     },
     {
      "name": "AbsenceSoft",
@@ -8451,7 +8308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 180
     },
     {
      "name": "FreeAgent",
@@ -8494,7 +8351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 181
     },
     {
      "name": "Bonusly",
@@ -8537,7 +8394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 182
     },
     {
      "name": "Checkr",
@@ -8580,7 +8437,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 183
     },
     {
      "name": "Contra",
@@ -8623,7 +8480,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 184
     },
     {
      "name": "Sterling",
@@ -8666,7 +8523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 185
     },
     {
      "name": "Truv",
@@ -8709,7 +8566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 186
     },
     {
      "name": "Yello",
@@ -8773,7 +8630,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 187
     },
     {
      "name": "COR",
@@ -8816,7 +8673,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 188
     },
     {
      "name": "Staffbase",
@@ -8859,7 +8716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 189
     },
     {
      "name": "Vector Solutions",
@@ -8909,7 +8766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 190
     },
     {
      "name": "Mosaic",
@@ -8952,7 +8809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 191
     },
     {
      "name": "Sesame HR",
@@ -8995,7 +8852,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 192
     },
     {
      "name": "TimeCamp",
@@ -9038,7 +8895,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 193
     },
     {
      "name": "Consola Finance",
@@ -9081,7 +8938,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 194
     },
     {
      "name": "Hnry",
@@ -9131,7 +8988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 195
     },
     {
      "name": "Zeal",
@@ -9174,7 +9031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 196
     },
     {
      "name": "freee",
@@ -9217,7 +9074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 197
     },
     {
      "name": "Freshteam",
@@ -9260,7 +9117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 198
     },
     {
      "name": "LayerX",
@@ -9310,7 +9167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 199
     },
     {
      "name": "Workable",
@@ -9353,7 +9210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 200
     },
     {
      "name": "forecast",
@@ -9396,7 +9253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 201
     },
     {
      "name": "Google Cloud Talent Solution",
@@ -9439,7 +9296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 202
     },
     {
      "name": "GoGet",
@@ -9482,7 +9339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 203
     },
     {
      "name": "Bullhorn",
@@ -9525,7 +9382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 204
     },
     {
      "name": "Eightfold AI",
@@ -9568,7 +9425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 205
     },
     {
      "name": "Lever",
@@ -9611,7 +9468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 206
     },
     {
      "name": "Litmus Hiring",
@@ -9654,7 +9511,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 207
     },
     {
      "name": "Workday Tracking System",
@@ -9697,7 +9554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 208
     },
     {
      "name": "The Muse",
@@ -9740,7 +9597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 209
     },
     {
      "name": "QuickBooks",
@@ -9783,7 +9640,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 210
     },
     {
      "name": "QuickBooks Online",
@@ -9833,10 +9690,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 211
     },
     {
-     "name": "ZenHR Inc",
+     "name": "ZenHR",
      "slug": "zenhr-inc",
      "description": "ZenHR is an AI-powered HR and payroll management platform (HRMS) serving businesses across the MENA region, with localization for Saudi Arabia, UAE, Egypt, Iraq, Jordan, and Kuwait (GOSI, WPS, social security, and local tax/labor laws). It provides automated payroll, attendance, employee self-service, performance management, and recruitment. ZenHR exposes a REST API (v3) that lets external applications integrate with branches, employees, master/professional/financial data, salaries, financial transactions, loans, overtime, time off, attendance, competencies, HR letters, terminations, business travel, and documents. The API responds in JSON, uses OAuth 2.0 (authorization code + PKCE), and is documented as a published Postman collection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/screenshots/zenhr-inc-2026-08-17T083041.png",
@@ -9876,7 +9733,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 212
     },
     {
      "name": "Frappe",
@@ -9919,7 +9776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 213
     },
     {
      "name": "Teamwork.com",
@@ -9962,7 +9819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 214
     },
     {
      "name": "Joblogic",
@@ -10005,7 +9862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 215
     },
     {
      "name": "SAP S/4HANA",
@@ -10048,7 +9905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 216
     },
     {
      "name": "401GO",
@@ -10091,7 +9948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 217
     },
     {
      "name": "Gusto",
@@ -10134,7 +9991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 218
     },
     {
      "name": "Jellyvision",
@@ -10184,7 +10041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 219
     },
     {
      "name": "Vistra",
@@ -10227,7 +10084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 220
     },
     {
      "name": "Atomic",
@@ -10270,7 +10127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 221
     },
     {
      "name": "Pinpoint",
@@ -10313,7 +10170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 222
     },
     {
      "name": "Sunny Yuen",
@@ -10355,7 +10212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 223
     },
     {
      "name": "酷学院 (Cool College)",
@@ -10405,7 +10262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 224
     },
     {
      "name": "Rippling",
@@ -10448,7 +10305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 225
     },
     {
      "name": "Mosey",
@@ -10491,7 +10348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 226
     },
     {
      "name": "TalkPush",
@@ -10534,7 +10391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 227
     },
     {
      "name": "SmartRecruiters",
@@ -10577,7 +10434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 228
     },
     {
      "name": "Comeet",
@@ -10620,7 +10477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 229
     },
     {
      "name": "Direct Hire",
@@ -10662,7 +10519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 230
     },
     {
      "name": "MyFatoorah",
@@ -10712,7 +10569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 231
     },
     {
      "name": "Certn",
@@ -10755,7 +10612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 232
     },
     {
      "name": "Nomad Health",
@@ -10805,7 +10662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 233
     },
     {
      "name": "Nirvana Health",
@@ -10855,7 +10712,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 234
     },
     {
      "name": "Nova Lima",
@@ -10898,7 +10755,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 235
     },
     {
      "name": "MYOB",
@@ -10941,7 +10798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 236
     },
     {
      "name": "Planday",
@@ -10984,7 +10841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 237
     },
     {
      "name": "Salsa",
@@ -11034,7 +10891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 238
     },
     {
      "name": "Timeular",
@@ -11077,7 +10934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 239
     },
     {
      "name": "Knit",
@@ -11120,7 +10977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 240
     },
     {
      "name": "Employment Hero",
@@ -11163,7 +11020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 241
     },
     {
      "name": "Toggl Track",
@@ -11206,7 +11063,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 242
     },
     {
      "name": "CosmoLex",
@@ -11249,7 +11106,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 243
+    },
+    {
+     "name": "Greenhouse",
+     "slug": "greenhouse",
+     "description": "Greenhouse is an applicant tracking system (ATS) and recruiting software platform. It exposes a family of APIs and webhooks that let partners and customers manage candidates, jobs, applications, onboarding, audit logs, and assessment integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/screenshots/greenhouse-2026-06-20T182356.png",
+     "score": 33.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 65.9,
+      "contract_governance": 13.6,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 244
     },
     {
      "name": "Leena AI",
@@ -11292,7 +11192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 245
     },
     {
      "name": "Nowsta",
@@ -11335,7 +11235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 246
     },
     {
      "name": "Facturama",
@@ -11378,7 +11278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 247
     },
     {
      "name": "Retail Zipline",
@@ -11421,7 +11321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 248
     },
     {
      "name": "FreshBooks",
@@ -11464,7 +11364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 249
     },
     {
      "name": "Kanban Tool",
@@ -11507,7 +11407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 250
     },
     {
      "name": "Spark Hire",
@@ -11550,7 +11450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 251
     },
     {
      "name": "Cornerstone OnDemand",
@@ -11600,7 +11500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 252
     },
     {
      "name": "Hakuna",
@@ -11643,7 +11543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 253
     },
     {
      "name": "Memory",
@@ -11686,7 +11586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 254
     },
     {
      "name": "BambooHR",
@@ -11729,7 +11629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 255
     },
     {
      "name": "WorkMotion",
@@ -11772,7 +11672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 256
     },
     {
      "name": "Zoho Projects",
@@ -11815,7 +11715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 257
     },
     {
      "name": "UKG",
@@ -11858,7 +11758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 258
     },
     {
      "name": "Fourth",
@@ -11901,7 +11801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 259
     },
     {
      "name": "BigChange",
@@ -11944,7 +11844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 260
     },
     {
      "name": "Peakon",
@@ -11987,7 +11887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 261
     },
     {
      "name": "Absence.io",
@@ -12030,7 +11930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 262
     },
     {
      "name": "Oyster HR",
@@ -12073,7 +11973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 263
     },
     {
      "name": "Tsenta",
@@ -12116,7 +12016,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 264
     },
     {
      "name": "Breathe HR",
@@ -12159,7 +12059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 265
     },
     {
      "name": "Bridgit",
@@ -12202,7 +12102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 266
     },
     {
      "name": "Homebase",
@@ -12245,7 +12145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 267
     },
     {
      "name": "Upwork",
@@ -12288,7 +12188,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 268
     },
     {
      "name": "GrowthSpace",
@@ -12331,7 +12231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 269
     },
     {
      "name": "Docebo",
@@ -12381,7 +12281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 270
     },
     {
      "name": "TaskRabbit",
@@ -12424,7 +12324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 271
     },
     {
      "name": "Towers Watson",
@@ -12473,7 +12373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 272
     },
     {
      "name": "Clockify",
@@ -12516,7 +12416,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 273
     },
     {
      "name": "Nory",
@@ -12559,7 +12459,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 274
     },
     {
      "name": "Opkit",
@@ -12608,7 +12508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 275
     },
     {
      "name": "Braintrust (Talent Network)",
@@ -12651,7 +12551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 276
     },
     {
      "name": "Brigad",
@@ -12701,7 +12601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 277
     },
     {
      "name": "iCIMS",
@@ -12744,7 +12644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 278
     },
     {
      "name": "Hive",
@@ -12787,7 +12687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 279
     },
     {
      "name": "Pyn",
@@ -12830,7 +12730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 280
     },
     {
      "name": "15Five",
@@ -12873,7 +12773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 281
     },
     {
      "name": "G-P",
@@ -12916,7 +12816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 282
     },
     {
      "name": "MainStreet",
@@ -12959,7 +12859,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 283
     },
     {
      "name": "Arist",
@@ -13002,7 +12902,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 284
     },
     {
      "name": "Personio",
@@ -13045,7 +12945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 285
     },
     {
      "name": "ZayZoon",
@@ -13094,7 +12994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 286
     },
     {
      "name": "Paylocity",
@@ -13137,7 +13037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 287
     },
     {
      "name": "Multiplier",
@@ -13180,7 +13080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 288
     },
     {
      "name": "Popp",
@@ -13223,7 +13123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 289
     },
     {
      "name": "Highline",
@@ -13273,7 +13173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 290
     },
     {
      "name": "Shyft",
@@ -13316,7 +13216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 291
     },
     {
      "name": "Unit4",
@@ -13366,7 +13266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 292
     },
     {
      "name": "humi.ca",
@@ -13409,7 +13309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 293
     },
     {
      "name": "Getro",
@@ -13452,7 +13352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 294
     },
     {
      "name": "Lynx",
@@ -13509,7 +13409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 295
     },
     {
      "name": "Wellfound",
@@ -13551,7 +13451,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 296
     },
     {
      "name": "Velocity Global",
@@ -13594,7 +13494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 297
     },
     {
      "name": "Employee Navigator",
@@ -13663,7 +13563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 298
     },
     {
      "name": "Zego",
@@ -13713,7 +13613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 299
     },
     {
      "name": "UKG Ready",
@@ -13756,7 +13656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 300
     },
     {
      "name": "Lanes & Planes",
@@ -13799,7 +13699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 301
     },
     {
      "name": "PeopleForce",
@@ -13842,7 +13742,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 302
     },
     {
      "name": "Accelo",
@@ -13885,50 +13785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
-    },
-    {
-     "name": "Greenhouse",
-     "slug": "greenhouse",
-     "description": "Greenhouse is an applicant tracking system (ATS) and recruiting software platform. It exposes a family of APIs and webhooks that let partners and customers manage candidates, jobs, applications, onboarding, audit logs, and assessment integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/screenshots/greenhouse-2026-06-20T182356.png",
-     "score": 27.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 50.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 306
+     "rank": 303
     },
     {
      "name": "Humanity",
@@ -13971,7 +13828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 304
     },
     {
      "name": "Allianz Engagement Survey",
@@ -14021,7 +13878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 305
     },
     {
      "name": "Centrical",
@@ -14064,7 +13921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 306
     },
     {
      "name": "Legal & General",
@@ -14114,7 +13971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 307
     },
     {
      "name": "Department of Labor",
@@ -14164,7 +14021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 308
     },
     {
      "name": "Karat",
@@ -14207,7 +14064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 309
     },
     {
      "name": "Sharebite",
@@ -14268,7 +14125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 310
     },
     {
      "name": "Unifa",
@@ -14317,7 +14174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 311
     },
     {
      "name": "PayActiv",
@@ -14374,7 +14231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 312
     },
     {
      "name": "PayFit",
@@ -14417,7 +14274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 313
     },
     {
      "name": "Recuro Health",
@@ -14478,7 +14335,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 314
     },
     {
      "name": "Zoho Recruit",
@@ -14521,7 +14378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 315
     },
     {
      "name": "OurPeople",
@@ -14564,7 +14421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 316
     }
    ]
   },
@@ -14624,7 +14481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 317
     },
     {
      "name": "Nivelo",
@@ -14674,7 +14531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 318
     },
     {
      "name": "Raken",
@@ -14717,7 +14574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 319
     },
     {
      "name": "ISN",
@@ -14767,7 +14624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 320
     },
     {
      "name": "Open (open.money)",
@@ -14817,7 +14674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 321
     },
     {
      "name": "Instawork",
@@ -14860,7 +14717,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 322
     },
     {
      "name": "NoBueno",
@@ -14902,7 +14759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 323
     },
     {
      "name": "Carrum Health",
@@ -14963,7 +14820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 324
     },
     {
      "name": "Redmine",
@@ -15006,7 +14863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 325
     },
     {
      "name": "Acrisure",
@@ -15056,7 +14913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 326
     },
     {
      "name": "Replicon",
@@ -15099,7 +14956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 327
     },
     {
      "name": "Bonsai",
@@ -15142,7 +14999,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 328
     },
     {
      "name": "Mursion",
@@ -15192,7 +15049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 329
     },
     {
      "name": "Worky",
@@ -15235,7 +15092,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 330
     },
     {
      "name": "UKG Pro",
@@ -15278,7 +15135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 331
     },
     {
      "name": "Bupa Australia",
@@ -15328,7 +15185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 332
     },
     {
      "name": "Ubeya",
@@ -15371,7 +15228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 333
     },
     {
      "name": "Scripta Insights",
@@ -15432,7 +15289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 334
     },
     {
      "name": "Simpro",
@@ -15475,7 +15332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 335
     },
     {
      "name": "Simpplr",
@@ -15518,7 +15375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 336
     },
     {
      "name": "bswift",
@@ -15578,7 +15435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 337
     },
     {
      "name": "Codility",
@@ -15621,7 +15478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 338
     },
     {
      "name": "Lincoln National",
@@ -15671,7 +15528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 339
     },
     {
      "name": "Rightway",
@@ -15728,7 +15585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 340
     },
     {
      "name": "BetterWorks",
@@ -15771,7 +15628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 341
     },
     {
      "name": "Solera Health",
@@ -15828,7 +15685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 342
     },
     {
      "name": "PageUp People",
@@ -15871,7 +15728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 343
     },
     {
      "name": "SAP SuccessFactors",
@@ -15914,7 +15771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 344
     },
     {
      "name": "Everlance",
@@ -15957,7 +15814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 345
     },
     {
      "name": "Vitality",
@@ -16007,7 +15864,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 346
     },
     {
      "name": "Localyze",
@@ -16050,7 +15907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 347
     },
     {
      "name": "HackerRank",
@@ -16100,7 +15957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 348
     },
     {
      "name": "JobGet",
@@ -16143,7 +16000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 349
     },
     {
      "name": "Zebec",
@@ -16193,7 +16050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 350
     },
     {
      "name": "Deputy",
@@ -16236,7 +16093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 351
     },
     {
      "name": "Sparrow",
@@ -16279,7 +16136,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 352
     },
     {
      "name": "ExecOnline",
@@ -16329,7 +16186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 353
     },
     {
      "name": "Symetra Financial",
@@ -16378,7 +16235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 354
     },
     {
      "name": "TriNet Zenefits",
@@ -16421,7 +16278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 355
     },
     {
      "name": "SmithRx",
@@ -16471,7 +16328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 356
     },
     {
      "name": "Blue Cross Canada",
@@ -16520,7 +16377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 357
     },
     {
      "name": "SideCare",
@@ -16570,7 +16427,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 358
     },
     {
      "name": "Assembly",
@@ -16613,7 +16470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 359
     },
     {
      "name": "Gravie",
@@ -16663,7 +16520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 360
     },
     {
      "name": "Recruitee",
@@ -16706,7 +16563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 361
     },
     {
      "name": "Hallo",
@@ -16767,7 +16624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 362
     },
     {
      "name": "Collective Health",
@@ -16824,7 +16681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 363
     },
     {
      "name": "Firefly Health",
@@ -16874,7 +16731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 364
     },
     {
      "name": "ChangeEngine",
@@ -16917,7 +16774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 365
     },
     {
      "name": "Valence (FKA Shift)",
@@ -16960,7 +16817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 366
     },
     {
      "name": "Vervoe",
@@ -17003,7 +16860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 367
     },
     {
      "name": "Asendia AI",
@@ -17046,7 +16903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 368
     },
     {
      "name": "Wrapbook",
@@ -17089,7 +16946,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 369
     },
     {
      "name": "Acumen Software",
@@ -17138,7 +16995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 370
     },
     {
      "name": "Darwinbox",
@@ -17181,7 +17038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 371
     },
     {
      "name": "Dolibarr",
@@ -17231,7 +17088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 372
     },
     {
      "name": "Check",
@@ -17281,7 +17138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 373
     },
     {
      "name": "Peopleix",
@@ -17324,7 +17181,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 374
     },
     {
      "name": "Pequity",
@@ -17367,7 +17224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 375
     },
     {
      "name": "Hireology",
@@ -17417,7 +17274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 376
     },
     {
      "name": "Modern Health",
@@ -17467,7 +17324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 377
     },
     {
      "name": "Arthur J. Gallagher",
@@ -17517,7 +17374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 378
     },
     {
      "name": "TartanHQ",
@@ -17567,7 +17424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 379
     },
     {
      "name": "Vida Health",
@@ -17617,7 +17474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 380
     },
     {
      "name": "Workhuman",
@@ -17660,7 +17517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 381
     },
     {
      "name": "Jack & Jill",
@@ -17703,7 +17560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 382
     },
     {
      "name": "Complete",
@@ -17753,7 +17610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 383
     },
     {
      "name": "Talentium",
@@ -17796,7 +17653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 384
     },
     {
      "name": "Benepass",
@@ -17846,7 +17703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 385
     },
     {
      "name": "Litify",
@@ -17889,7 +17746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 386
     },
     {
      "name": "Rates and Limits",
@@ -17938,7 +17795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 387
     },
     {
      "name": "Forma",
@@ -17988,7 +17845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 388
     },
     {
      "name": "Remofirst",
@@ -18031,7 +17888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 389
     },
     {
      "name": "Final Round AI",
@@ -18074,7 +17931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 390
     },
     {
      "name": "Playroll",
@@ -18117,7 +17974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 391
     },
     {
      "name": "SeekOut",
@@ -18160,7 +18017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 392
     },
     {
      "name": "Gem",
@@ -18203,7 +18060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 393
     },
     {
      "name": "Sana Benefits",
@@ -18253,7 +18110,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 394
     },
     {
      "name": "Boon",
@@ -18296,7 +18153,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 395
     },
     {
      "name": "Securian Financial Group",
@@ -18345,7 +18202,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 396
     },
     {
      "name": "DataPeople",
@@ -18388,7 +18245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 397
     },
     {
      "name": "Elevate",
@@ -18445,7 +18302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 398
     },
     {
      "name": "Awardco",
@@ -18488,7 +18345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 399
     },
     {
      "name": "Guideline",
@@ -18531,7 +18388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 400
     },
     {
      "name": "HireVue",
@@ -18574,7 +18431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 401
     },
     {
      "name": "Miter",
@@ -18617,7 +18474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 402
     },
     {
      "name": "Zinc",
@@ -18660,7 +18517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 403
     },
     {
      "name": "Aidaly",
@@ -18709,7 +18566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 404
     },
     {
      "name": "Shiftsmart",
@@ -18759,7 +18616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 405
     },
     {
      "name": "Wonolo",
@@ -18802,7 +18659,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 406
     },
     {
      "name": "Athena",
@@ -18845,7 +18702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 407
     },
     {
      "name": "Groundswell",
@@ -18888,7 +18745,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 408
     },
     {
      "name": "Monograph",
@@ -18931,7 +18788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 409
     },
     {
      "name": "TriNet Group",
@@ -18974,7 +18831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 410
     },
     {
      "name": "Jake Gaylor",
@@ -19016,7 +18873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 411
     },
     {
      "name": "MORE Health",
@@ -19066,7 +18923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 412
     },
     {
      "name": "HealthJoy",
@@ -19123,7 +18980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 413
     },
     {
      "name": "Pave",
@@ -19173,7 +19030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 414
     },
     {
      "name": "Symmetrical",
@@ -19216,7 +19073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 415
     },
     {
      "name": "Beamery",
@@ -19259,7 +19116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 416
     },
     {
      "name": "Clipboard Health",
@@ -19309,7 +19166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 417
     },
     {
      "name": "ThreeFlow",
@@ -19359,7 +19216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 418
     },
     {
      "name": "Garten",
@@ -19402,7 +19259,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 422
+     "rank": 419
     },
     {
      "name": "TestGorilla",
@@ -19445,7 +19302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 423
+     "rank": 420
     },
     {
      "name": "Wolf",
@@ -19488,7 +19345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 424
+     "rank": 421
     },
     {
      "name": "CareRev",
@@ -19545,7 +19402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 425
+     "rank": 422
     },
     {
      "name": "ModernLoop",
@@ -19588,10 +19445,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 426
+     "rank": 423
     },
     {
-     "name": "Canditech Ltd.",
+     "name": "Canditech",
      "slug": "canditech-ltd",
      "description": "Canditech is a skills-assessment and job-simulation platform that helps hiring teams evaluate candidates' technical and soft skills before interviewing. The product generates role-specific skill assessments with AI, offers a library of 500+ expert-made tests, and runs job simulations, video interviews, cognitive and personality tests, and pre-screening chatbots, backed by anti-cheating controls (ChatGPT detection, copy-paste and tab tracking, device and location monitoring). Canditech is API-first and integrates with 40+ applicant tracking systems (Greenhouse, Lever, Workable, Ashby, SmartRecruiters, Workday, SAP SuccessFactors and more), plus WhatsApp, SMS, and Google Sheets. A private Enterprise API is available to partners and enterprise customers on request. Backed by Insight Partners. This profile is maintained in the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canditech-ltd/refs/heads/main/screenshots/canditech-ltd-2026-07-25T204341.png",
@@ -19631,7 +19488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 424
     },
     {
      "name": "EIS Group",
@@ -19681,7 +19538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 425
     },
     {
      "name": "Findem",
@@ -19724,7 +19581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 426
     },
     {
      "name": "Howden Group",
@@ -19774,7 +19631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 427
     },
     {
      "name": "Juno Journey",
@@ -19824,7 +19681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 428
     },
     {
      "name": "Lively",
@@ -19874,7 +19731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 429
     },
     {
      "name": "JobAdder",
@@ -19917,7 +19774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 430
     },
     {
      "name": "Tava Health",
@@ -19974,7 +19831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 431
     },
     {
      "name": "AllWork",
@@ -20017,7 +19874,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 432
     },
     {
      "name": "Hackajob",
@@ -20060,7 +19917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 436
+     "rank": 433
     },
     {
      "name": "Atomic",
@@ -20110,7 +19967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 437
+     "rank": 434
     },
     {
      "name": "Guardian Life",
@@ -20160,7 +20017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 438
+     "rank": 435
     },
     {
      "name": "Simpatico Project",
@@ -20210,7 +20067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 439
+     "rank": 436
     },
     {
      "name": "Trusted Health",
@@ -20260,7 +20117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 440
+     "rank": 437
     },
     {
      "name": "Worksmith",
@@ -20303,7 +20160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 441
+     "rank": 438
     },
     {
      "name": "Zenjob",
@@ -20346,7 +20203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 442
+     "rank": 439
     },
     {
      "name": "Glassdoor",
@@ -20389,7 +20246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 443
+     "rank": 440
     },
     {
      "name": "ianacare",
@@ -20439,7 +20296,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 444
+     "rank": 441
     },
     {
      "name": "Stack Health",
@@ -20489,7 +20346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 445
+     "rank": 442
     },
     {
      "name": "Angle Health",
@@ -20539,7 +20396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 446
+     "rank": 443
     },
     {
      "name": "BetterUp",
@@ -20582,7 +20439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 447
+     "rank": 444
     },
     {
      "name": "Voiio",
@@ -20625,7 +20482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 448
+     "rank": 445
     },
     {
      "name": "Stepful",
@@ -20675,7 +20532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 449
+     "rank": 446
     },
     {
      "name": "ConstructionOnline",
@@ -20718,7 +20575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 450
+     "rank": 447
     },
     {
      "name": "Family First",
@@ -20768,7 +20625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 451
+     "rank": 448
     },
     {
      "name": "Metaview",
@@ -20810,7 +20667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 452
+     "rank": 449
     },
     {
      "name": "Back Office",
@@ -20860,7 +20717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 453
+     "rank": 450
     },
     {
      "name": "Cocoon",
@@ -20903,50 +20760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 454
-    },
-    {
-     "name": "Endeavor",
-     "slug": "endeavor",
-     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
-     "score": 16.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.2,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 455
+     "rank": 451
     },
     {
      "name": "HelloVerify",
@@ -20989,7 +20803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 456
+     "rank": 452
     },
     {
      "name": "AccessHope",
@@ -21039,7 +20853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 457
+     "rank": 453
     },
     {
      "name": "Carrot",
@@ -21089,7 +20903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 458
+     "rank": 454
     },
     {
      "name": "HireArt",
@@ -21132,7 +20946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 459
+     "rank": 455
     },
     {
      "name": "Poplin",
@@ -21175,7 +20989,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 460
+     "rank": 456
     },
     {
      "name": "HR & People",
@@ -21218,7 +21032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 461
+     "rank": 457
     },
     {
      "name": "Openroll",
@@ -21261,7 +21075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 462
+     "rank": 458
     },
     {
      "name": "Origin Financial",
@@ -21304,7 +21118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 463
+     "rank": 459
     },
     {
      "name": "Zone & Company",
@@ -21347,7 +21161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 464
+     "rank": 460
     },
     {
      "name": "BrightHire",
@@ -21390,7 +21204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 465
+     "rank": 461
     },
     {
      "name": "Donut",
@@ -21433,7 +21247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 466
+     "rank": 462
     },
     {
      "name": "Unmind",
@@ -21483,7 +21297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 467
+     "rank": 463
     },
     {
      "name": "Workwell Technologies",
@@ -21526,7 +21340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 468
+     "rank": 464
     },
     {
      "name": "AstroPay",
@@ -21576,7 +21390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 469
+     "rank": 465
     },
     {
      "name": "MentorCloud",
@@ -21626,7 +21440,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 470
+     "rank": 466
     },
     {
      "name": "Palm HR",
@@ -21669,7 +21483,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 471
+     "rank": 467
     },
     {
      "name": "Peppy",
@@ -21730,7 +21544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 472
+     "rank": 468
     },
     {
      "name": "Pointone",
@@ -21773,7 +21587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 473
+     "rank": 469
     },
     {
      "name": "Skuad",
@@ -21816,7 +21630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 474
+     "rank": 470
     },
     {
      "name": "TransparentBusiness",
@@ -21859,7 +21673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 475
+     "rank": 471
     },
     {
      "name": "Ben",
@@ -21902,7 +21716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 476
+     "rank": 472
     },
     {
      "name": "Snappy",
@@ -21945,7 +21759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 477
+     "rank": 473
     },
     {
      "name": "Workrise",
@@ -21995,7 +21809,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 478
+     "rank": 474
     },
     {
      "name": "Brightfield",
@@ -22038,7 +21852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 479
+     "rank": 475
     },
     {
      "name": "Uno Health",
@@ -22088,7 +21902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 480
+     "rank": 476
     },
     {
      "name": "Yulife",
@@ -22138,7 +21952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 481
+     "rank": 477
     },
     {
      "name": "Chief Human Capital Officers Council",
@@ -22188,7 +22002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 482
+     "rank": 478
     },
     {
      "name": "Traba",
@@ -22231,7 +22045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 483
+     "rank": 479
     },
     {
      "name": "Ebix",
@@ -22281,7 +22095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 484
+     "rank": 480
     },
     {
      "name": "HireLogic",
@@ -22324,7 +22138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 485
+     "rank": 481
     },
     {
      "name": "Wuzzuf",
@@ -22367,7 +22181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 486
+     "rank": 482
     },
     {
      "name": "Bippit",
@@ -22410,7 +22224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 487
+     "rank": 483
     },
     {
      "name": "Braid Social",
@@ -22453,7 +22267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 488
+     "rank": 484
     },
     {
      "name": "VanHack",
@@ -22496,7 +22310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 489
+     "rank": 485
     },
     {
      "name": "Disclo",
@@ -22546,7 +22360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 490
+     "rank": 486
     },
     {
      "name": "MarketerHire",
@@ -22589,7 +22403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 491
+     "rank": 487
     },
     {
      "name": "Advance Tech Lending",
@@ -22631,7 +22445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 492
+     "rank": 488
     },
     {
      "name": "Blomma",
@@ -22674,7 +22488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 493
+     "rank": 489
     },
     {
      "name": "Collective",
@@ -22717,7 +22531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 494
+     "rank": 490
     },
     {
      "name": "hampr",
@@ -22760,7 +22574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 495
+     "rank": 491
     },
     {
      "name": "Helpling",
@@ -22803,7 +22617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 492
     },
     {
      "name": "Jobbatical",
@@ -22846,7 +22660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 493
     },
     {
      "name": "Lantern",
@@ -22896,7 +22710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 494
     },
     {
      "name": "Teamtailor",
@@ -22939,7 +22753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 495
     },
     {
      "name": "Jobvite",
@@ -22982,7 +22796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 496
     },
     {
      "name": "Empathy",
@@ -23032,7 +22846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 497
     },
     {
      "name": "symplr",
@@ -23081,7 +22895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 498
     },
     {
      "name": "Employee Cycle",
@@ -23124,7 +22938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 499
     },
     {
      "name": "Home From College",
@@ -23174,7 +22988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 500
     },
     {
      "name": "Jobandtalent",
@@ -23217,7 +23031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 501
     },
     {
      "name": "Nomi Health",
@@ -23267,7 +23081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 502
     },
     {
      "name": "Pasito",
@@ -23317,7 +23131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 503
     },
     {
      "name": "PickTrace",
@@ -23360,7 +23174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 504
     },
     {
      "name": "Incredible Health",
@@ -23410,7 +23224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 505
     },
     {
      "name": "RippleHire",
@@ -23453,7 +23267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 506
     },
     {
      "name": "Figures",
@@ -23496,7 +23310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 507
     },
     {
      "name": "The Mom Project",
@@ -23539,7 +23353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 508
     },
     {
      "name": "Upwage",
@@ -23582,7 +23396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 509
     },
     {
      "name": "WorkForce Software",
@@ -23625,7 +23439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 510
     },
     {
      "name": "Keep Financial",
@@ -23668,7 +23482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 511
     },
     {
      "name": "Meisterwerk",
@@ -23711,7 +23525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 512
     },
     {
      "name": "Inkling",
@@ -23761,7 +23575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 513
     },
     {
      "name": "Jify",
@@ -23811,7 +23625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 514
     },
     {
      "name": "Taito.ai",
@@ -23854,7 +23668,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 515
+    },
+    {
+     "name": "Endeavor",
+     "slug": "endeavor",
+     "description": "Endeavor was a global sports and entertainment company representing talent and owning and operating events, with subsidiaries including WME, IMG, and UFC. Following the 2024 take-private transaction by Silver Lake and the separation of TKO Group Holdings (UFC and WWE), the remaining talent, media, marketing, and licensing businesses were rebranded as WME Group. This repository tracks Endeavor as a corporate entity. It publishes no developer program, no API documentation and no OpenAPI; the only machine-readable surfaces on its own hosts are the wmegrp.com WordPress content API, which is anonymously readable, and a live but authentication-gated WordPress MCP Adapter endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/endeavor/refs/heads/main/screenshots/endeavor-2026-06-20T180654.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.2,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 516
     },
     {
      "name": "Heartland Payment Systems",
@@ -23904,7 +23761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 517
     },
     {
      "name": "TransferRoom",
@@ -23947,7 +23804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 518
     },
     {
      "name": "Apron",
@@ -23997,7 +23854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 519
     },
     {
      "name": "Gnowbe",
@@ -24047,7 +23904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 520
     },
     {
      "name": "Arc",
@@ -24090,7 +23947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 521
     },
     {
      "name": "Indinero",
@@ -24133,7 +23990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 522
     },
     {
      "name": "Julaya",
@@ -24183,7 +24040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 523
     },
     {
      "name": "Insperity",
@@ -24226,7 +24083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 524
     },
     {
      "name": "ConnectRN",
@@ -24276,7 +24133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 525
     },
     {
      "name": "Entelo",
@@ -24319,7 +24176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 526
     },
     {
      "name": "PitchMe",
@@ -24362,7 +24219,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 527
     },
     {
      "name": "Wishup",
@@ -24405,7 +24262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 528
     },
     {
      "name": "Back",
@@ -24448,7 +24305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 529
     },
     {
      "name": "Incluyeme",
@@ -24491,7 +24348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 530
     },
     {
      "name": "Paro",
@@ -24534,7 +24391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 531
     },
     {
      "name": "RippleMatch",
@@ -24577,7 +24434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 532
     },
     {
      "name": "Swept",
@@ -24620,7 +24477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 533
     },
     {
      "name": "Fiverr",
@@ -24663,7 +24520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 534
     },
     {
      "name": "Spill",
@@ -24713,7 +24570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 535
     },
     {
      "name": "Newfront",
@@ -24763,7 +24620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 536
     },
     {
      "name": "coachhub",
@@ -24806,7 +24663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 537
     },
     {
      "name": "Every",
@@ -24856,10 +24713,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 538
     },
     {
-     "name": "Prescience Inc",
+     "name": "Prescience",
      "slug": "prescience-inc",
      "description": "Prescience, Inc. is a Y Combinator (Summer 2026) health benefits platform for employers, building \"healthcare for the age of abundant intelligence.\" It uses machine-learning underwriting to design custom, largely self-insured health plans that aim to cut employer healthcare spend 20-50% versus traditional PEO and insurer plans, pairing $0-deductible coverage, included GLP-1 medications, wearables, and a 24/7 AI Care Companion for members. The company sells to employers, private-equity portfolios, and providers, and publicly attests to SOC 2 and HIPAA compliance. As of this profile it exposes a marketing and member/employer web application only - no public API, developer portal, SDKs, MCP server, or machine-readable specification was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/prescience-inc/refs/heads/main/screenshots/prescience-inc-2026-09-02T151940.png",
@@ -24906,10 +24763,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 539
     },
     {
-     "name": "GLORRI, INC.",
+     "name": "GLORRI",
      "slug": "glorri-inc",
      "description": "Glorri is a cloud-based applicant tracking system (ATS) and recruitment automation platform for talent acquisition teams. It spans the entire hiring process, from sourcing candidates across multiple channels and job boards, to automating recruiting workflows and candidate communication, AI-assisted applicant screening, and analytics on team performance and hiring efficiency, with GDPR-compliant data handling. Glorri markets plans (Pay as you go, Flex, Corporate, and Enterprise Plus) for companies of different sizes, with custom integrations and a branded career page available on higher tiers. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; as of this enrichment pass Glorri publishes a web application and marketing site but no public developer portal, API documentation, or machine-readable API specification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/glorri-inc/refs/heads/main/screenshots/glorri-inc-2026-07-25T215924.png",
@@ -24949,7 +24806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 540
     },
     {
      "name": "May",
@@ -25006,7 +24863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 541
     },
     {
      "name": "Refyne",
@@ -25049,7 +24906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 542
     },
     {
      "name": "ShiftMed",
@@ -25099,7 +24956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 543
     },
     {
      "name": "Coursebase",
@@ -25149,7 +25006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 544
     },
     {
      "name": "Mottu",
@@ -25192,7 +25049,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 545
     },
     {
      "name": "Kinside",
@@ -25242,7 +25099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 546
     },
     {
      "name": "Salt Labs",
@@ -25285,7 +25142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 547
     },
     {
      "name": "Visibly",
@@ -25335,7 +25192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 548
     },
     {
      "name": "Wisq",
@@ -25378,7 +25235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 549
     },
     {
      "name": "Billables Ai",
@@ -25421,7 +25278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 550
     },
     {
      "name": "Brightside",
@@ -25464,7 +25321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 551
     },
     {
      "name": "CyberTalents",
@@ -25507,7 +25364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 552
     },
     {
      "name": "HeavyConnect",
@@ -25550,7 +25407,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 553
     },
     {
      "name": "JobToday",
@@ -25592,7 +25449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 554
     },
     {
      "name": "Leland",
@@ -25641,7 +25498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 555
     },
     {
      "name": "Pintarnya",
@@ -25684,7 +25541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 556
     },
     {
      "name": "Sabbar",
@@ -25727,7 +25584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 557
     },
     {
      "name": "Shakers",
@@ -25770,7 +25627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 558
     },
     {
      "name": "Torch",
@@ -25813,7 +25670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 559
     },
     {
      "name": "wayup",
@@ -25856,7 +25713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 560
     },
     {
      "name": "Apna",
@@ -25898,7 +25755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 561
     },
     {
      "name": "CLAP",
@@ -25941,7 +25798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 562
     },
     {
      "name": "Lara AI",
@@ -25984,7 +25841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 563
     },
     {
      "name": "M7 Health",
@@ -26034,7 +25891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 564
     },
     {
      "name": "SafelyYou",
@@ -26084,7 +25941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 565
     },
     {
      "name": "doinstruct",
@@ -26127,7 +25984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 566
     },
     {
      "name": "Earnin",
@@ -26177,7 +26034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 567
     },
     {
      "name": "Firstjob.me",
@@ -26220,7 +26077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 568
     },
     {
      "name": "Hrmony",
@@ -26263,7 +26120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 569
     },
     {
      "name": "Manara",
@@ -26313,7 +26170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 570
     },
     {
      "name": "Fertifa",
@@ -26363,7 +26220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 571
     },
     {
      "name": "Mutual of Omaha",
@@ -26412,7 +26269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 572
     },
     {
      "name": "Bandana",
@@ -26455,7 +26312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 573
     },
     {
      "name": "Paraform",
@@ -26498,7 +26355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 574
     },
     {
      "name": "Reflex Careers",
@@ -26541,7 +26398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 575
     },
     {
      "name": "WellTheory",
@@ -26591,7 +26448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 576
     },
     {
      "name": "BrightPlan",
@@ -26634,7 +26491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 577
     },
     {
      "name": "Crosschq",
@@ -26677,7 +26534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 578
     },
     {
      "name": "Heard",
@@ -26727,7 +26584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 579
     },
     {
      "name": "Meritfirst",
@@ -26770,7 +26627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 580
     },
     {
      "name": "Mona Ai",
@@ -26813,7 +26670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 581
     },
     {
      "name": "Paycor",
@@ -26856,7 +26713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 582
     },
     {
      "name": "Spring Health",
@@ -26906,7 +26763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 583
     },
     {
      "name": "The Ladders",
@@ -26949,7 +26806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 584
     },
     {
      "name": "Topia",
@@ -26992,7 +26849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 585
     },
     {
      "name": "TaTiO",
@@ -27035,7 +26892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 586
     },
     {
      "name": "The Helper Bees",
@@ -27085,7 +26942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 587
     },
     {
      "name": "Workhint",
@@ -27135,7 +26992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 588
     },
     {
      "name": "51haohuo.com",
@@ -27177,7 +27034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 589
     },
     {
      "name": "Minu",
@@ -27227,7 +27084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 590
     },
     {
      "name": "AllCare",
@@ -27277,7 +27134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 591
     },
     {
      "name": "Nova Benefits",
@@ -27327,7 +27184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 592
     },
     {
      "name": "Upkid",
@@ -27377,7 +27234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 593
     },
     {
      "name": "Bolster",
@@ -27420,7 +27277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 594
     },
     {
      "name": "Nexus AI",
@@ -27463,7 +27320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 595
     },
     {
      "name": "Zehitomo",
@@ -27506,7 +27363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 596
     },
     {
      "name": "Liftoff",
@@ -27549,7 +27406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 597
     },
     {
      "name": "Standout",
@@ -27592,7 +27449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 598
     },
     {
      "name": "Electric Car Scheme",
@@ -27635,7 +27492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 599
     },
     {
      "name": "Lockton",
@@ -27685,7 +27542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 600
     },
     {
      "name": "VidCruiter",
@@ -27728,7 +27585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 601
     },
     {
      "name": "Terminal",
@@ -27771,7 +27628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 602
     },
     {
      "name": "Easop",
@@ -27814,7 +27671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 603
     },
     {
      "name": "Happy5",
@@ -27857,7 +27714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 604
     },
     {
      "name": "Lagou",
@@ -27907,7 +27764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 605
     },
     {
      "name": "Magic",
@@ -27950,7 +27807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 606
     },
     {
      "name": "Seso",
@@ -27993,7 +27850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 607
     },
     {
      "name": "Aura Finance",
@@ -28036,7 +27893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 608
     },
     {
      "name": "EarnBetter",
@@ -28079,7 +27936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 609
     },
     {
      "name": "EAT Club",
@@ -28122,7 +27979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 610
     },
     {
      "name": "Foodsmart",
@@ -28172,7 +28029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 611
     },
     {
      "name": "Perfectly",
@@ -28215,7 +28072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 612
     },
     {
      "name": "Radish Health",
@@ -28265,7 +28122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 613
     },
     {
      "name": "Saffron",
@@ -28308,7 +28165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 614
     },
     {
      "name": "ADP Workforce Now",
@@ -28351,7 +28208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 615
     },
     {
      "name": "BeyondHQ",
@@ -28393,7 +28250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 616
     },
     {
      "name": "dopay",
@@ -28443,7 +28300,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 617
     },
     {
      "name": "Epsor",
@@ -28486,7 +28343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 618
     },
     {
      "name": "Fastwork",
@@ -28536,7 +28393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 619
     },
     {
      "name": "Gebeya",
@@ -28579,7 +28436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 620
     },
     {
      "name": "LaborUp",
@@ -28622,7 +28479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 621
     },
     {
      "name": "Miso Robotics",
@@ -28665,7 +28522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 622
     },
     {
      "name": "Qualifi",
@@ -28708,7 +28565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 623
     },
     {
      "name": "River Health",
@@ -28758,7 +28615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 624
     },
     {
      "name": "Robert Half International",
@@ -28801,7 +28658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 625
     },
     {
      "name": "Twill",
@@ -28844,7 +28701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 626
     },
     {
      "name": "Vela",
@@ -28887,7 +28744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 627
     },
     {
      "name": "Assemble",
@@ -28930,7 +28787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 628
     },
     {
      "name": "Cooleaf",
@@ -28973,7 +28830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 629
     },
     {
      "name": "Ellis",
@@ -29023,7 +28880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 630
     },
     {
      "name": "Execthread",
@@ -29066,7 +28923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 631
     },
     {
      "name": "Gustav",
@@ -29109,7 +28966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 632
     },
     {
      "name": "Jolly",
@@ -29152,7 +29009,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 633
     },
     {
      "name": "Skello",
@@ -29195,7 +29052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 634
     },
     {
      "name": "Gridwise",
@@ -29238,7 +29095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 635
     },
     {
      "name": "HireRight",
@@ -29281,7 +29138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 636
     },
     {
      "name": "SnapCare",
@@ -29331,7 +29188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 637
     },
     {
      "name": "Accolade",
@@ -29381,7 +29238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 638
     },
     {
      "name": "Happypal",
@@ -29424,7 +29281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 639
     },
     {
      "name": "Medely",
@@ -29474,7 +29331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 640
     },
     {
      "name": "Jitjatjo",
@@ -29523,7 +29380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 641
     },
     {
      "name": "Medley",
@@ -29566,7 +29423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 642
     },
     {
      "name": "Numbi",
@@ -29609,7 +29466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 643
     },
     {
      "name": "Andela",
@@ -29652,7 +29509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 644
     },
     {
      "name": "Brown & Brown",
@@ -29702,7 +29559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 645
     },
     {
      "name": "Centivo",
@@ -29752,10 +29609,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 646
     },
     {
-     "name": "Helio AI LLC",
+     "name": "Helio AI",
      "slug": "helio-ai-llc",
      "description": "Helio AI LLC operates Helio.AI, an AI-powered recruiting and applicant tracking (ATS) platform for HR and talent-acquisition teams. It automates the end-to-end hiring workflow — job posting and distribution, resume screening, candidate tracking, real-time analytics, and team collaboration — and pairs the ATS with a gamified personality test to evaluate candidates. The product is offered in multiple languages (English, Russian, Georgian, Armenian, Azerbaijani, and Uzbek) and targets markets across Georgia, Armenia, Azerbaijan, and Uzbekistan. Helio AI is backed by 500 Global. The company runs its customer application at app.helio-ai.com and does not currently publish a public developer API program or documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/helio-ai-llc/refs/heads/main/screenshots/helio-ai-llc-2026-07-25T220917.png",
@@ -29795,7 +29652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 647
     },
     {
      "name": "Simplyinsured",
@@ -29845,7 +29702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 648
     }
    ]
   },
@@ -29854,8 +29711,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 226,
-   "shown": 226,
+   "count": 227,
+   "shown": 227,
    "providers": [
     {
      "name": "Calvis",
@@ -29898,7 +29755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 649
     },
     {
      "name": "HERP",
@@ -29941,7 +29798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 650
     },
     {
      "name": "Onze",
@@ -29991,7 +29848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 651
     },
     {
      "name": "Simbel",
@@ -30041,7 +29898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 652
     },
     {
      "name": "Come Bien",
@@ -30084,7 +29941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 653
     },
     {
      "name": "Guild",
@@ -30134,7 +29991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 654
     },
     {
      "name": "Lightcast",
@@ -30177,7 +30034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 655
     },
     {
      "name": "OnMyGrad",
@@ -30227,7 +30084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 656
     },
     {
      "name": "Asap Work",
@@ -30270,7 +30127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 657
     },
     {
      "name": "CareGuide",
@@ -30313,7 +30170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 658
     },
     {
      "name": "CodeMentor",
@@ -30356,7 +30213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 659
     },
     {
      "name": "Equitable",
@@ -30406,7 +30263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 660
     },
     {
      "name": "HealthEquity",
@@ -30456,7 +30313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 661
     },
     {
      "name": "Knoetic",
@@ -30499,7 +30356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 662
     },
     {
      "name": "Qwick",
@@ -30542,7 +30399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 663
     },
     {
      "name": "sherpa",
@@ -30585,7 +30442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 664
     },
     {
      "name": "ShiftSouth",
@@ -30628,7 +30485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 665
     },
     {
      "name": "Slik",
@@ -30671,7 +30528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 666
     },
     {
      "name": "ContinuumCloud",
@@ -30721,7 +30578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 667
     },
     {
      "name": "Crew",
@@ -30764,7 +30621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 668
     },
     {
      "name": "Jobvetta",
@@ -30807,7 +30664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 669
     },
     {
      "name": "Moonhub",
@@ -30850,7 +30707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 670
     },
     {
      "name": "Nuevo Método",
@@ -30900,7 +30757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 671
     },
     {
      "name": "Well",
@@ -30950,7 +30807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 672
     },
     {
      "name": "StanCorp Financial Group",
@@ -30999,7 +30856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 673
     },
     {
      "name": "XP Health",
@@ -31049,7 +30906,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 674
     },
     {
      "name": "51job",
@@ -31092,7 +30949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 675
     },
     {
      "name": "Aidora",
@@ -31134,7 +30991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 676
     },
     {
      "name": "BrightGo",
@@ -31177,7 +31034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 677
     },
     {
      "name": "Clair",
@@ -31227,7 +31084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 678
     },
     {
      "name": "Crowdplat",
@@ -31270,7 +31127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 679
     },
     {
      "name": "Joblocal",
@@ -31313,7 +31170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 680
     },
     {
      "name": "Milu Health",
@@ -31363,7 +31220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 681
     },
     {
      "name": "Summer",
@@ -31413,7 +31270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 682
     },
     {
      "name": "TrueBlue",
@@ -31456,7 +31313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 683
     },
     {
      "name": "Comento",
@@ -31506,7 +31363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 684
     },
     {
      "name": "Edme Insurance Brokers",
@@ -31556,10 +31413,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 685
     },
     {
-     "name": "EMERGENCES AI, INC.",
+     "name": "EMERGENCES AI",
      "slug": "emergences-ai-inc",
      "description": "EMERGENCES AI, INC. (Emergences Labs) builds human competency models, assessment, and training solutions for the AI era, focused on defining the transformative skills whose value compounds rather than erodes as AI advances. Its products include NeoWork, real-world task assessments for recruiting and identifying top performers in AI-native roles and for reskilling; NeoHuman, deliberate-practice training that teaches professionals and students effective human-AI collaboration through real enterprise work; and an expert-curated Data offering of annotated professional workflow trajectories for agent reinforcement learning and domain-specific benchmarks. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It publishes a public website with research, blog, careers, and legal pages, but does not currently expose a public API, developer portal, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/emergences-ai-inc/refs/heads/main/screenshots/emergences-ai-inc-2026-07-25T213236.png",
@@ -31599,7 +31456,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 686
     },
     {
      "name": "FutureFit AI",
@@ -31642,7 +31499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 687
     },
     {
      "name": "Howdy",
@@ -31684,7 +31541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 688
     },
     {
      "name": "Northstar",
@@ -31727,7 +31584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 689
     },
     {
      "name": "Pack",
@@ -31770,7 +31627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 690
     },
     {
      "name": "PayScale",
@@ -31813,7 +31670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 691
     },
     {
      "name": "Reliance Health",
@@ -31863,7 +31720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 692
     },
     {
      "name": "Sona",
@@ -31906,7 +31763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 693
     },
     {
      "name": "Sounding Board",
@@ -31949,7 +31806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 694
     },
     {
      "name": "Stride Health",
@@ -31999,7 +31856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 695
     },
     {
      "name": "Trayd",
@@ -32042,7 +31899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 696
     },
     {
      "name": "Zolvers",
@@ -32085,7 +31942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 697
     },
     {
      "name": "conrizon",
@@ -32128,7 +31985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 698
     },
     {
      "name": "Lumity",
@@ -32178,7 +32035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 699
     },
     {
      "name": "Betterleap",
@@ -32228,7 +32085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 700
     },
     {
      "name": "Nava Benefits",
@@ -32278,7 +32135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 701
     },
     {
      "name": "Praxis Labs",
@@ -32321,7 +32178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 702
     },
     {
      "name": "Take2.ai",
@@ -32371,7 +32228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 703
     },
     {
      "name": "Bonum Coaching",
@@ -32414,7 +32271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 704
     },
     {
      "name": "ANSR",
@@ -32457,7 +32314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 705
     },
     {
      "name": "Calificadas",
@@ -32500,7 +32357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 706
     },
     {
      "name": "Free Agency",
@@ -32543,7 +32400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 707
     },
     {
      "name": "OVIA",
@@ -32586,7 +32443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 708
     },
     {
      "name": "Pariti",
@@ -32629,7 +32486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 709
     },
     {
      "name": "Beisen",
@@ -32672,10 +32529,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 710
     },
     {
-     "name": "Morgan, Lewis & Bockius LLP",
+     "name": "Morgan Lewis",
      "slug": "morgan-lewis",
      "description": "Morgan, Lewis & Bockius LLP is a global Am Law 10 firm with approximately 2,200 lawyers and 39 offices across North America, Europe, Asia, and the Middle East. The firm provides corporate, transactional, litigation, and regulatory services across energy, financial services, healthcare, life sciences, retail and ecommerce, sports, technology, and transportation, with widely recognized depth in employee benefits and executive compensation, fintech and financial services regulation, intellectual property, and M&A. Morgan Lewis does not publish a public developer API, SDK, OpenAPI spec, or machine-readable data product; its public technology surface is limited to its corporate website, an email-alert subscription managed through a Real Magnet (REACTION) marketing platform, and a portfolio of LexBlog-style practice blogs covering specific subject areas.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/morgan-lewis/refs/heads/main/screenshots/morgan-lewis-2026-06-20T185806.png",
@@ -32715,7 +32572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 711
     },
     {
      "name": "Airvet",
@@ -32764,7 +32621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 715
+     "rank": 712
     },
     {
      "name": "Mochacare",
@@ -32814,7 +32671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 716
+     "rank": 713
     },
     {
      "name": "Onsitedental",
@@ -32864,7 +32721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 714
     },
     {
      "name": "Ovia Health",
@@ -32914,7 +32771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 718
+     "rank": 715
     },
     {
      "name": "Rightway Healthcare",
@@ -32964,7 +32821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 719
+     "rank": 716
     },
     {
      "name": "A.Team",
@@ -33007,7 +32864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 720
+     "rank": 717
     },
     {
      "name": "Artemis Health",
@@ -33057,7 +32914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 721
+     "rank": 718
     },
     {
      "name": "Beam Dental",
@@ -33107,7 +32964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 722
+     "rank": 719
     },
     {
      "name": "Loop Health",
@@ -33157,7 +33014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 723
+     "rank": 720
     },
     {
      "name": "Meta4",
@@ -33200,7 +33057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 724
+     "rank": 721
     },
     {
      "name": "Lantum",
@@ -33250,7 +33107,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 725
+     "rank": 722
+    },
+    {
+     "name": "ZipRecruiter",
+     "slug": "ziprecruiter",
+     "description": "Job search app and website",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ziprecruiter/refs/heads/main/screenshots/ziprecruiter-2026-06-20T201927.png",
+     "score": 8.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 723
     },
     {
      "name": "Clockster",
@@ -33293,7 +33193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 726
+     "rank": 724
     },
     {
      "name": "Knowify",
@@ -33336,7 +33236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 727
+     "rank": 725
     },
     {
      "name": "Peoplise",
@@ -33379,10 +33279,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 728
+     "rank": 726
     },
     {
-     "name": "SALARY HERO PTE. LTD",
+     "name": "SALARY HERO",
      "slug": "salary-hero-pte-ltd",
      "description": "Salary Hero is a Singapore-headquartered financial wellness and earned wage access (EWA) platform offered to employees through their employers. Its products include Salary on Demand (accessing earned wages before payday), budgeting and spending-tracking tools, savings accounts (a partnership with Dime offering 3% interest), and financial-literacy education covering debt management and investing. The service is delivered via iOS and Android apps and is provisioned by employers, integrating with existing payroll and HR systems. Salary Hero is a portfolio company of 500 Global. This profile was enriched by the API Evangelist pipeline; no public developer API, portal, or documentation surface was found.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salary-hero-pte-ltd/refs/heads/main/screenshots/salary-hero-pte-ltd-2026-09-02T154318.png",
@@ -33422,7 +33322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 729
+     "rank": 727
     },
     {
      "name": "LIMRA",
@@ -33472,7 +33372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 730
+     "rank": 728
     },
     {
      "name": "Lyra Health",
@@ -33522,7 +33422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 731
+     "rank": 729
     },
     {
      "name": "Puddle",
@@ -33565,7 +33465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 732
+     "rank": 730
     },
     {
      "name": "Schedex",
@@ -33608,7 +33508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 733
+     "rank": 731
     },
     {
      "name": "Convergys",
@@ -33651,7 +33551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 734
+     "rank": 732
     },
     {
      "name": "Hireguide",
@@ -33694,7 +33594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 735
+     "rank": 733
     },
     {
      "name": "BallerTV",
@@ -33737,7 +33637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 736
+     "rank": 734
     },
     {
      "name": "Compt",
@@ -33780,7 +33680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 737
+     "rank": 735
     },
     {
      "name": "Grade",
@@ -33830,7 +33730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 738
+     "rank": 736
     },
     {
      "name": "Medwing",
@@ -33879,7 +33779,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 739
+     "rank": 737
     },
     {
      "name": "Swing Education",
@@ -33929,7 +33829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 738
     },
     {
      "name": "Voya Financial",
@@ -33979,7 +33879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 739
     },
     {
      "name": "ABABA",
@@ -34021,7 +33921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 742
+     "rank": 740
     },
     {
      "name": "Auditocity",
@@ -34064,7 +33964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 741
     },
     {
      "name": "Aware Health",
@@ -34114,7 +34014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 742
     },
     {
      "name": "JOBDOH",
@@ -34157,7 +34057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 743
     },
     {
      "name": "MicroBenefits",
@@ -34200,7 +34100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 744
     },
     {
      "name": "Paynas",
@@ -34250,7 +34150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 745
     },
     {
      "name": "Glint",
@@ -34300,7 +34200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 748
+     "rank": 746
     },
     {
      "name": "Nilo Health",
@@ -34350,7 +34250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 747
     },
     {
      "name": "Fond",
@@ -34393,7 +34293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 748
     },
     {
      "name": "MindSumo",
@@ -34435,7 +34335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 749
     },
     {
      "name": "Textio",
@@ -34478,7 +34378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 750
     },
     {
      "name": "Tryprism",
@@ -34521,7 +34421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 751
     },
     {
      "name": "58.com",
@@ -34564,7 +34464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 754
+     "rank": 752
     },
     {
      "name": "Smashfly",
@@ -34607,7 +34507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 753
     },
     {
      "name": "Betterfly",
@@ -34657,7 +34557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 756
+     "rank": 754
     },
     {
      "name": "Handl Health",
@@ -34707,7 +34607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 757
+     "rank": 755
     },
     {
      "name": "Byteboard",
@@ -34750,7 +34650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 756
     },
     {
      "name": "PwC (PricewaterhouseCoopers)",
@@ -34793,7 +34693,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 757
     },
     {
      "name": "Ravio",
@@ -34835,7 +34735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 758
     },
     {
      "name": "Aon",
@@ -34885,7 +34785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 759
     },
     {
      "name": "Truveris",
@@ -34935,7 +34835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 760
     },
     {
      "name": "Homethrive",
@@ -34985,7 +34885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 763
+     "rank": 761
     },
     {
      "name": "Spokn",
@@ -35028,7 +34928,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 762
     },
     {
      "name": "Altru",
@@ -35071,7 +34971,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 763
     },
     {
      "name": "Bambee",
@@ -35114,7 +35014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 764
     },
     {
      "name": "bannerman",
@@ -35157,7 +35057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 765
     },
     {
      "name": "Intrro",
@@ -35200,7 +35100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 766
     },
     {
      "name": "Mogul",
@@ -35243,7 +35143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 767
     },
     {
      "name": "Powerus",
@@ -35286,10 +35186,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 768
     },
     {
-     "name": "Resti Inc.",
+     "name": "Resti",
      "slug": "resti-inc",
      "description": "Resti Inc. (resti.cloud) is a cloud-based restaurant management platform used by restaurant chains, primarily across Kazakhstan and Central Asia. It automates HR and payroll (salary calculation from actual hours worked), operational checklists and standards with photo verification, review and reputation management aggregating 2GIS and Yandex Maps, a mobile learning management system (LMS) for staff onboarding and training, and AI-assisted invoice processing and reconciliation. Resti integrates with restaurant POS and back-office systems including iiko, r_keeper, Paloma 365, Poster, and 1C Retail, and is a portfolio company of 500 Global. As of this pass it publishes no public developer API, SDKs, OpenAPI, or developer documentation; the customer login portal is at my.resti.cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/resti-inc/refs/heads/main/screenshots/resti-inc-2026-09-02T153632.png",
@@ -35329,7 +35229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 769
     },
     {
      "name": "Squadio",
@@ -35372,7 +35272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 770
     },
     {
      "name": "Lendtable",
@@ -35416,7 +35316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 771
     },
     {
      "name": "UrbanHire",
@@ -35458,7 +35358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 772
     },
     {
      "name": "Korn Ferry",
@@ -35501,7 +35401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 773
     },
     {
      "name": "Leade.rs",
@@ -35545,7 +35445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 774
     },
     {
      "name": "LegalPad",
@@ -35588,7 +35488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 775
     },
     {
      "name": "Nexiu",
@@ -35631,7 +35531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 776
     },
     {
      "name": "Talently",
@@ -35674,7 +35574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 777
     },
     {
      "name": "Trace",
@@ -35717,7 +35617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 778
     },
     {
      "name": "Alan",
@@ -35767,7 +35667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 779
     },
     {
      "name": "Rumarocket",
@@ -35810,7 +35710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 780
     },
     {
      "name": "Suitable",
@@ -35853,7 +35753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 781
     },
     {
      "name": "TechieMatter",
@@ -35896,7 +35796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 782
     },
     {
      "name": "Karpatia Benefits",
@@ -35946,7 +35846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 783
     },
     {
      "name": "Omnipresent",
@@ -35989,7 +35889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 784
     },
     {
      "name": "Alight",
@@ -36032,7 +35932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 785
     },
     {
      "name": "Alassio",
@@ -36075,7 +35975,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 786
     },
     {
      "name": "Ally",
@@ -36118,7 +36018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 787
     },
     {
      "name": "AllyO",
@@ -36161,7 +36061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 788
     },
     {
      "name": "andjaro",
@@ -36204,7 +36104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 789
     },
     {
      "name": "atSpoke",
@@ -36248,7 +36148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 790
     },
     {
      "name": "Awork",
@@ -36291,7 +36191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 793
+     "rank": 791
     },
     {
      "name": "Boss",
@@ -36334,7 +36234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 794
+     "rank": 792
     },
     {
      "name": "Bravado",
@@ -36376,7 +36276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 795
+     "rank": 793
     },
     {
      "name": "CenterForce Technologies",
@@ -36420,7 +36320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 796
+     "rank": 794
     },
     {
      "name": "Circular",
@@ -36464,7 +36364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 797
+     "rank": 795
     },
     {
      "name": "Clustree",
@@ -36506,7 +36406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 798
+     "rank": 796
     },
     {
      "name": "ConverzAI",
@@ -36549,7 +36449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 799
+     "rank": 797
     },
     {
      "name": "Crew32",
@@ -36592,7 +36492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 800
+     "rank": 798
     },
     {
      "name": "Cultivate",
@@ -36634,7 +36534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 801
+     "rank": 799
     },
     {
      "name": "Dexterra",
@@ -36676,7 +36576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 802
+     "rank": 800
     },
     {
      "name": "Drafted",
@@ -36718,7 +36618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 803
+     "rank": 801
     },
     {
      "name": "Elite Business Ventures",
@@ -36761,7 +36661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 804
+     "rank": 802
     },
     {
      "name": "Folhamatic",
@@ -36803,7 +36703,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 805
+     "rank": 803
     },
     {
      "name": "Getlinks",
@@ -36846,7 +36746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 806
+     "rank": 804
     },
     {
      "name": "Glintinc",
@@ -36889,7 +36789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 807
+     "rank": 805
     },
     {
      "name": "Glints",
@@ -36931,7 +36831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 808
+     "rank": 806
     },
     {
      "name": "GoDays",
@@ -36974,7 +36874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 809
+     "rank": 807
     },
     {
      "name": "Good & Co.",
@@ -37017,7 +36917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 810
+     "rank": 808
     },
     {
      "name": "HomeJoy",
@@ -37061,7 +36961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 811
+     "rank": 809
     },
     {
      "name": "Hyphen",
@@ -37104,7 +37004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 812
+     "rank": 810
     },
     {
      "name": "iMedeon",
@@ -37148,7 +37048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 813
+     "rank": 811
     },
     {
      "name": "Jibe",
@@ -37191,7 +37091,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 814
+     "rank": 812
     },
     {
      "name": "Jopwell",
@@ -37233,7 +37133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 815
+     "rank": 813
     },
     {
      "name": "Kelly Services",
@@ -37276,7 +37176,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 816
+     "rank": 814
     },
     {
      "name": "Koru Careers",
@@ -37320,7 +37220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 817
+     "rank": 815
     },
     {
      "name": "Lytmus",
@@ -37364,7 +37264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 818
+     "rank": 816
     },
     {
      "name": "Maimai",
@@ -37407,7 +37307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 819
+     "rank": 817
     },
     {
      "name": "Manpower",
@@ -37450,7 +37350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 820
+     "rank": 818
     },
     {
      "name": "ManpowerGroup",
@@ -37493,7 +37393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 821
+     "rank": 819
     },
     {
      "name": "Mayflower",
@@ -37536,7 +37436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 822
+     "rank": 820
     },
     {
      "name": "Mya Systems",
@@ -37579,7 +37479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 823
+     "rank": 821
     },
     {
      "name": "NodeFlair",
@@ -37622,7 +37522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 824
+     "rank": 822
     },
     {
      "name": "Orgspace",
@@ -37666,7 +37566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 825
+     "rank": 823
     },
     {
      "name": "Pento",
@@ -37709,7 +37609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 826
+     "rank": 824
     },
     {
      "name": "Platypus",
@@ -37751,7 +37651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 827
+     "rank": 825
     },
     {
      "name": "Plerk",
@@ -37795,7 +37695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 828
+     "rank": 826
     },
     {
      "name": "Powerplay",
@@ -37838,7 +37738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 829
+     "rank": 827
     },
     {
      "name": "Qapa",
@@ -37881,7 +37781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 830
+     "rank": 828
     },
     {
      "name": "Qerja",
@@ -37924,7 +37824,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 829
     },
     {
      "name": "Raised",
@@ -37967,7 +37867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 830
     },
     {
      "name": "RolePoint",
@@ -38011,7 +37911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 831
     },
     {
      "name": "ShearShare",
@@ -38054,7 +37954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 834
+     "rank": 832
     },
     {
      "name": "Skillbridge",
@@ -38097,7 +37997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 835
+     "rank": 833
     },
     {
      "name": "SnapShyft",
@@ -38140,7 +38040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 836
+     "rank": 834
     },
     {
      "name": "SpringRole",
@@ -38183,7 +38083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 837
+     "rank": 835
     },
     {
      "name": "Surfboard",
@@ -38226,7 +38126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 838
+     "rank": 836
     },
     {
      "name": "Syft",
@@ -38269,7 +38169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 839
+     "rank": 837
     },
     {
      "name": "Talentpluto",
@@ -38312,7 +38212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 840
+     "rank": 838
     },
     {
      "name": "Tapchief",
@@ -38355,7 +38255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 841
+     "rank": 839
     },
     {
      "name": "Teamnote",
@@ -38398,10 +38298,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 842
+     "rank": 840
     },
     {
-     "name": "Walzay Inc.",
+     "name": "Walzay",
      "slug": "walzay-inc",
      "description": "Walzay Inc. is a global tech-talent recruitment marketplace, founded in 2019 by Humaira Khan and headquartered in New York City. The platform connects companies with vetted remote and in-office software, engineering, and sales professionals — largely sourced from the Middle East and other emerging markets — and offers white-glove recruiting alongside a self-serve candidate marketplace. Walzay is backed by 500 Global and the Sanabil 500 MENA Seed Accelerator. No public API or developer surface was found during enrichment.",
      "score": 5.0,
@@ -38440,7 +38340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 843
+     "rank": 841
     },
     {
      "name": "Wanted",
@@ -38485,7 +38385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 844
+     "rank": 842
     },
     {
      "name": "WorkClass",
@@ -38528,7 +38428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 845
+     "rank": 843
     },
     {
      "name": "Workpop",
@@ -38573,7 +38473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 846
+     "rank": 844
     },
     {
      "name": "YOURIKA",
@@ -38623,7 +38523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 847
+     "rank": 845
     },
     {
      "name": "Zugata",
@@ -38665,7 +38565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 848
+     "rank": 846
     },
     {
      "name": "Swile",
@@ -38715,7 +38615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 849
+     "rank": 847
     },
     {
      "name": "AiTA",
@@ -38757,7 +38657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 850
+     "rank": 848
     },
     {
      "name": "Kanarys",
@@ -38799,7 +38699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 851
+     "rank": 849
     },
     {
      "name": "Seiza",
@@ -38842,7 +38742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 852
+     "rank": 850
     },
     {
      "name": "TaskHuman",
@@ -38884,7 +38784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 853
+     "rank": 851
     },
     {
      "name": "Healthcaresource.com",
@@ -38934,7 +38834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 854
+     "rank": 852
     },
     {
      "name": "Humu",
@@ -38977,7 +38877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 855
+     "rank": 853
     },
     {
      "name": "Speedlancer",
@@ -39020,7 +38920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 856
+     "rank": 854
     },
     {
      "name": "Via",
@@ -39063,7 +38963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 857
+     "rank": 855
     },
     {
      "name": "Viva Benefits",
@@ -39106,7 +39006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 858
+     "rank": 856
     },
     {
      "name": "Day & Zimmermann",
@@ -39156,7 +39056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 859
+     "rank": 857
     },
     {
      "name": "Virtual Internship Partners",
@@ -39206,7 +39106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 858
     },
     {
      "name": "Bright Horizons Family Solutions",
@@ -39256,7 +39156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 861
+     "rank": 859
     },
     {
      "name": "silversheet",
@@ -39305,7 +39205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 862
+     "rank": 860
     },
     {
      "name": "Sprout Wellness Solutions",
@@ -39354,7 +39254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 863
+     "rank": 861
     },
     {
      "name": "Tokaido Health",
@@ -39404,7 +39304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 864
+     "rank": 862
     },
     {
      "name": "WorkAmerica",
@@ -39454,7 +39354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 865
+     "rank": 863
     },
     {
      "name": "LookSharp",
@@ -39504,7 +39404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 866
+     "rank": 864
     },
     {
      "name": "Likeplum",
@@ -39554,7 +39454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 867
+     "rank": 865
     },
     {
      "name": "Brighter",
@@ -39604,7 +39504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 868
+     "rank": 866
     },
     {
      "name": "Gigmile",
@@ -39654,7 +39554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 869
+     "rank": 867
     },
     {
      "name": "Liazon",
@@ -39703,7 +39603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 870
+     "rank": 868
     },
     {
      "name": "Poppins Health",
@@ -39752,7 +39652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 871
+     "rank": 869
     },
     {
      "name": "Wagmo",
@@ -39802,7 +39702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 872
+     "rank": 870
     },
     {
      "name": "Smalt",
@@ -39851,7 +39751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 873
+     "rank": 871
     },
     {
      "name": "Dechert",
@@ -39901,7 +39801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 874
+     "rank": 872
     },
     {
      "name": "Nowpay",
@@ -39951,7 +39851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 875
+     "rank": 873
     },
     {
      "name": "Stoke Talent",
@@ -40000,7 +39900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 876
+     "rank": 874
     },
     {
      "name": "Utopia Labs",
@@ -40050,7 +39950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 877
+     "rank": 875
     }
    ]
   }

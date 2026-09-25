@@ -124,7 +124,7 @@ modified: '2026-07-18'
 name: CyberGRX
 nav: Providers
 network: true
-overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk, Vendor Risk Management, and Risk Management.
+overview: 'CyberGRX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Third-Party Risk Management, Risk Management, and GRC.
 
 
   CyberGRX''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, sandbox, and 9 more developer resources.'
@@ -172,8 +172,7 @@ slug: cybergrx
 tags:
 - Company
 - Cybersecurity
-- Third-Party Risk
-- Vendor Risk Management
+- Third-Party Risk Management
 - Risk Management
 - GRC
 - Security Assessment

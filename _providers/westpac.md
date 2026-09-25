@@ -238,13 +238,13 @@ description: Westpac Banking Corporation is Australia's oldest bank and company,
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.png
 layout: provider
 modified: '2026-07-21'
-name: Westpac Banking Corporation
+name: Westpac
 nav: Providers
 network: true
-overview: 'Westpac Banking Corporation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Westpac publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Corporation Banking Account Balances API, Banking Corporation Banking Account Direct Debits API, Banking Corporation Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Westpac Banking Corporation''s developer surface includes documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 22 more developer resources.'
+  Westpac''s developer surface includes documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 22 more developer resources.'
 random_paper: 11
 score:
   band: developing

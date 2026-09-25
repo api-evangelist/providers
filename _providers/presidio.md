@@ -67,13 +67,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/presidio.png
 layout: provider
 modified: '2026-04-19'
-name: Presidio Inc
+name: Presidio
 nav: Providers
 network: true
-overview: 'Presidio Inc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Solutions, Cloud, and Security.
+overview: 'Presidio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IT Solutions, Cloud, and Security.
 
 
-  Presidio Inc''s developer surface includes engineering blog and 3 more developer resources.'
+  Presidio''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Presidio Plans Pricing
   plan_count: 1

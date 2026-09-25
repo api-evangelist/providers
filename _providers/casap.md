@@ -258,6 +258,6 @@ tags:
 - Payments
 - Banking
 - Dispute Resolution
-- Agentic AI
+- AI Agents
 website: https://www.casaphq.com
 ---

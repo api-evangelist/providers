@@ -54,13 +54,13 @@ description: Quest Software Inc. is a privately held IT management and cybersecu
 image: https://www.quest.com/images/rwd/logos/quest-logo.svg
 layout: provider
 modified: '2026-07-20'
-name: Quest Software Inc.
+name: Quest Software
 nav: Providers
 network: true
-overview: 'Quest Software Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Management, Database Management, Endpoint Management, and Data Protection.
+overview: 'Quest Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Management, Database Management, Endpoint Management, and Data Protection.
 
 
-  Quest Software Inc.''s developer surface includes support and 2 more developer resources.'
+  Quest Software''s developer surface includes support and 2 more developer resources.'
 random_paper: 15
 score:
   band: minimal

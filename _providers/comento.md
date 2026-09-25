@@ -65,7 +65,7 @@ modified: '2026-07-18'
 name: Comento
 nav: Providers
 network: true
-overview: 'Comento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Careers, Mentoring, Recruitment, and Education.
+overview: 'Comento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Careers, Mentoring, Recruiting, and Education.
 
 
   Comento''s developer surface includes support and 4 more developer resources.'
@@ -120,7 +120,7 @@ tags:
 - Company
 - Careers
 - Mentoring
-- Recruitment
+- Recruiting
 - Education
 - Job
 - Community

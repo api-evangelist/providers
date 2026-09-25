@@ -144,7 +144,7 @@ tags:
 - Supply Chain
 - Workflow Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Process Orchestration
 website: https://www.regrello.com/
 ---

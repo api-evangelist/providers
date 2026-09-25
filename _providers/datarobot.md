@@ -240,7 +240,7 @@ tags:
 - Machine Learning
 - MLOps
 - Data Science
-- Agentic AI
+- AI Agents
 - Predictive Analytics
 - Generative AI
 website: https://datarobot.com

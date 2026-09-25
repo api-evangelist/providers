@@ -47,7 +47,9 @@ apis:
 - description: The Entrez Programming Utilities (E-utilities) are the public API to the NCBI Entrez system, providing access to over 38 Entrez databases including PubMed, GenBank (Nuccore), Gene, Taxonomy, and Prote
   name: NCBI Entrez E-utilities API
   slug: ncbi-entrez-e-utilities-api
-- description: The BLAST (Basic Local Alignment Search Tool) URL API allows developers to submit nucleotide and protein sequence homology searches via HTTPS, poll for job status, and retrieve results in multiple for
+- baseURL: https://blast.ncbi.nlm.nih.gov/blast/Blast.cgi
+  baseurl_source: declared
+  description: The BLAST (Basic Local Alignment Search Tool) URL API allows developers to submit nucleotide and protein sequence homology searches via HTTPS, poll for job status, and retrieve results in multiple for
   name: NCBI BLAST URL API
   slug: ncbi-blast-url-api
 - description: The PubChem Power User Gateway (PUG) REST API provides programmatic access to PubChem's chemical compound, substance, and bioassay data. Developers can retrieve compound properties, structures, synony
@@ -102,7 +104,27 @@ apis:
   description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Center for Biotechnology Information (NCBI) Virus API
   slug: ncbi-virus-api
-artifact_total: 57
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Retrieve records from Entrez databases
+  name: NCBI E-utilities Fetch API
+  slug: ncbi-e-utilities-fetch-api
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Database information and statistics
+  name: NCBI E-utilities Info API
+  slug: ncbi-e-utilities-info-api
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Find linked records across databases
+  name: NCBI E-utilities Link API
+  slug: ncbi-e-utilities-link-api
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Search Entrez databases
+  name: NCBI E-utilities Search API
+  slug: ncbi-e-utilities-search-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -135,7 +157,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.nih.gov/
+  url: https://www.ncbi.nlm.nih.gov/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/agentic-access/ncbi-agentic-access.yml
   title: ''
@@ -249,7 +271,7 @@ modified: '2026-06-13'
 name: National Center for Biotechnology Information (NCBI)
 nav: Providers
 network: true
-overview: 'National Center for Biotechnology Information (NCBI) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 5 more. Tagged areas include Bioinformatics, Genomics, Life Sciences, PubMed, and Sequences.
+overview: 'National Center for Biotechnology Information (NCBI) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including NCBI BLAST URL API, BioSample API, Gene API, and 10 more. Tagged areas include Bioinformatics, Genomics, Life Sciences, PubMed, and Sequences.
 
 
   The National Center for Biotechnology Information (NCBI) catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -314,7 +336,7 @@ rules:
   slug: ncbi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 42.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 59.3
@@ -322,14 +344,14 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 57.9
+    contract_quality: 57.6
     developer_ergonomics: 50.0
     discoverability: 75.9
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -337,7 +359,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 13
   regulatory:
     applies: true
     matched_via: tags
@@ -371,5 +393,6 @@ tags:
 - Taxonomy
 - Chemistry
 - Open Access
-website: https://www.nih.gov/
+- Research Data
+website: https://www.ncbi.nlm.nih.gov/
 ---

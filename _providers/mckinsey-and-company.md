@@ -302,7 +302,7 @@ tags:
 - Research
 - Insights
 - Open Source
-- Agentic AI
+- AI Agents
 - Kubernetes
 - Data Visualization
 - Causal Inference

@@ -210,7 +210,7 @@ tags:
 - Health Data
 - Semantic Interoperability
 - openEHR
-- HL7 FHIR
+- FHIR
 - ISO 13606
 - SNOMED CT
 - OMOP CDM

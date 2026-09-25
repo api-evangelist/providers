@@ -135,6 +135,6 @@ tags:
 - Threat Detection
 - MITRE ATT&CK
 - Detection Posture Management
-- Agentic AI
+- AI Agents
 website: https://cardinalops.com/
 ---

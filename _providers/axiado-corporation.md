@@ -173,13 +173,13 @@ description: Axiado Corporation is a San Jose, California semiconductor company 
 image: https://axiado.com/wp-content/uploads/2024/07/AXIADO_HORIZONTAL_PRIMARY.png
 layout: provider
 modified: '2026-07-31'
-name: Axiado Corporation
+name: Axiado
 nav: Providers
 network: true
-overview: 'Axiado Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Hardware Security, Platform Security, Data Center, and Cybersecurity.
+overview: 'Axiado publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Hardware Security, Platform Security, Data Center, and Cybersecurity.
 
 
-  Axiado Corporation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
+  Axiado''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 5
 score:
   band: emerging

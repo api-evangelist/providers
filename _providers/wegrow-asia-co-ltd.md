@@ -50,10 +50,10 @@ description: WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural techn
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegrow-asia-co-ltd.png
 layout: provider
 modified: '2026-07-21'
-name: WeGrow asia CO., LTD.
+name: WeGrow asia
 nav: Providers
 network: true
-overview: WeGrow asia CO., LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Smart Farming, and Taiwan.
+overview: WeGrow asia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Smart Farming, and Taiwan.
 random_paper: 12
 score:
   band: minimal

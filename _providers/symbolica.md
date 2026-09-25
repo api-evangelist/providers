@@ -135,7 +135,7 @@ modified: '2026-07-21'
 name: Symbolica
 nav: Providers
 network: true
-overview: 'Symbolica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, Agentic AI, and SDK.
+overview: 'Symbolica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, AI Agents, and SDK.
 
 
   Symbolica''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
@@ -181,7 +181,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Agentic AI
+- AI Agents
 - SDK
 - Developer Tools
 - LLM

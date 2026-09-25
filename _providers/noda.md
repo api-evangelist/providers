@@ -89,7 +89,7 @@ modified: '2026-07-20'
 name: Noda
 nav: Providers
 network: true
-overview: 'Noda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Agentic AI, Building Operations, and Commercial Real Estate.
+overview: 'Noda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, AI Agents, Building Operations, and Commercial Real Estate.
 
 
   Noda''s developer surface includes engineering blog and 9 more developer resources.'
@@ -138,7 +138,7 @@ slug: noda
 tags:
 - Company
 - Enterprise
-- Agentic AI
+- AI Agents
 - Building Operations
 - Commercial Real Estate
 - Energy Management

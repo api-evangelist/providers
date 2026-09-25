@@ -101,10 +101,10 @@ integrations:
   name: Owner-Operator Engineering Frameworks
 layout: provider
 modified: '2026-05-23'
-name: CDI Corp
+name: CDI
 nav: Providers
 network: true
-overview: CDI Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Engineering Services, Technical Staffing, Energy, Chemicals, and Project Services.
+overview: CDI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Engineering Services, Technical Staffing, Energy, Chemicals, and Project Services.
 random_paper: 15
 score:
   band: minimal

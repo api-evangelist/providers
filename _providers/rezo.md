@@ -109,7 +109,7 @@ modified: '2026-07-21'
 name: Rezo
 nav: Providers
 network: true
-overview: 'Rezo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Experience, Contact Center, Conversational AI, and Agentic AI.
+overview: 'Rezo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Experience, Contact Center, Conversational AI, and AI Agents.
 
 
   Rezo''s developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -160,7 +160,7 @@ tags:
 - Customer Experience
 - Contact Center
 - Conversational AI
-- Agentic AI
+- AI Agents
 - Customer Support
 - Speech Analytics
 - Automation

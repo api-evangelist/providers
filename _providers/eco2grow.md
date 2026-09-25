@@ -111,7 +111,6 @@ tags:
 - Sustainability
 - Power Purchase Agreement
 - Energy Procurement
-- Green Energy
 - Climate
 website: https://eco2grow.com/
 ---

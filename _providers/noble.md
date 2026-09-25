@@ -86,7 +86,7 @@ modified: '2026-07-20'
 name: Noble
 nav: Providers
 network: true
-overview: 'Noble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk, Credit Decisioning, Underwriting, and Fintech.
+overview: 'Noble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk Management, Credit Decisioning, Underwriting, and Fintech.
 
 
   Noble''s developer surface includes documentation, API reference, engineering blog, and 7 more developer resources.'
@@ -136,7 +136,7 @@ security:
 slug: noble
 tags:
 - Company
-- Risk
+- Risk Management
 - Credit Decisioning
 - Underwriting
 - Fintech

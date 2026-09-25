@@ -140,7 +140,7 @@ modified: '2026-06-21'
 name: Pinpoint
 nav: Providers
 network: true
-overview: 'Pinpoint publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Comments API, and 1 more. Tagged areas include ATS, Recruitment, Hiring, Human Resources, and JSON:API.
+overview: 'Pinpoint publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Comments API, and 1 more. Tagged areas include Applicant Tracking, Recruiting, Hiring, Human Resources, and JSON:API.
 
 
   Pinpoint''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -197,8 +197,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pinpoint
 tags:
-- ATS
-- Recruitment
+- Applicant Tracking
+- Recruiting
 - Hiring
 - Human Resources
 - JSON:API

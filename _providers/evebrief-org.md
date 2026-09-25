@@ -200,7 +200,7 @@ tags:
 - EVM
 - Security
 - Fraud Detection
-- Risk
+- Risk Management
 - Agent-Native
 - Market Intelligence
 website: https://evebrief.org/

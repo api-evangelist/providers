@@ -193,8 +193,8 @@ description: 'MUJ428 LLC operates the MUJ428 Trust Layer ("VERIFY BEFORE ACT"), 
 layout: provider
 mcp_servers:
 - description: ''
-  name: MUJ428 LLC MCP Server
-  slug: muj428-llc-mcp-server
+  name: MUJ428 MCP Server
+  slug: muj428-mcp-server
 - description: ''
   name: MUJ428 Trust Layer MCP endpoint (canonical, Streamable HTTP)
   slug: muj428-trust-layer-mcp-endpoint-canonical-streamable-http
@@ -202,13 +202,13 @@ mcp_servers:
   name: MUJ428 Trust Layer MCP compatibility facade (Streamable HTTP)
   slug: muj428-trust-layer-mcp-compatibility-facade-streamable-http
 modified: '2026-09-19'
-name: MUJ428 LLC
+name: MUJ428
 nav: Providers
 network: true
-overview: 'MUJ428 LLC publishes 1 API on the [APIs.io](https://apis.io/) network: MUJ428 Trust Layer API. Tagged areas include Agents, Agent Trust, Agentic Commerce, A2A, and MCP.
+overview: 'MUJ428 publishes 1 API on the [APIs.io](https://apis.io/) network: Trust Layer API. Tagged areas include Agents, Agent Trust, Agentic Commerce, A2A, and MCP.
 
 
-  MUJ428 LLC''s developer surface includes documentation, API reference, getting-started guide, FAQ, pricing, authentication, changelog, and 23 more developer resources.'
+  MUJ428''s developer surface includes documentation, API reference, getting-started guide, FAQ, pricing, authentication, changelog, and 23 more developer resources.'
 plans:
 - name: Muj428 Com Plans Pricing
   plan_count: 7
@@ -277,7 +277,7 @@ tags:
 - MCP
 - x402
 - Payments
-- Risk
+- Risk Management
 - Verification
 - Agent-Native
 website: https://agents.muj428.com/

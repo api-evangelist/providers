@@ -159,13 +159,13 @@ mcp_servers:
   name: MCP Server (candidate, derived from the Leads Engine WSDL)
   slug: mcp-server-candidate-derived-from-the-leads-engine-wsdl
 modified: '2026-08-13'
-name: USADATA, Inc.
+name: USADATA
 nav: Providers
 network: true
-overview: 'USADATA, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing, Data Enrichment, and Audience Targeting.
+overview: 'USADATA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Marketing, Data Enrichment, and Audience Targeting.
 
 
-  USADATA, Inc.''s developer surface includes authentication, signup flow, API reference, engineering blog, support, sandbox, and 18 more developer resources.'
+  USADATA''s developer surface includes authentication, signup flow, API reference, engineering blog, support, sandbox, and 18 more developer resources.'
 plans:
 - name: Usadata Inc Plans Pricing
   plan_count: 0

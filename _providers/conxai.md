@@ -378,7 +378,7 @@ tags:
 - Artificial Intelligence
 - Document Processing
 - Computer Vision
-- Agentic AI
+- AI Agents
 - Machine Learning
 website: https://www.conxai.com/
 ---

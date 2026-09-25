@@ -126,7 +126,7 @@ modified: '2026-08-12'
 name: Clicktivated
 nav: Providers
 network: true
-overview: 'Clicktivated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Interactive Video, Shoppable Video, and Advertising Technology.
+overview: 'Clicktivated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Interactive Video, Shoppable Video, and AdTech.
 
 
   Clicktivated''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -183,7 +183,7 @@ tags:
 - Video
 - Interactive Video
 - Shoppable Video
-- Advertising Technology
+- AdTech
 - First-Party Data
 - Retail
 - Tourism

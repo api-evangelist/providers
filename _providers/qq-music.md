@@ -112,6 +112,13 @@ score:
     developer_ergonomics: 31.0
     discoverability: 63.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - china
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - greater-china
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   upsert:

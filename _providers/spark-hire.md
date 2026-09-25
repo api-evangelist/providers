@@ -226,6 +226,6 @@ tags:
 - Hiring
 - Human Resources
 - Talent Assessment
-- ATS
+- Applicant Tracking
 website: https://www.sparkhire.com
 ---

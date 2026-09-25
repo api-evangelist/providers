@@ -307,7 +307,7 @@ modified: '2026-06-13'
 name: WorldCat
 nav: Providers
 network: true
-overview: 'WorldCat publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Bibliographic Resources API, Local Bib Resources API, Local Holdings Resources API, and 16 more. Tagged areas include Libraries, Bibliographic Records, WorldCat, OCLC, and Cataloging.
+overview: 'WorldCat publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Bibliographic Resources API, Local Bib Resources API, Local Holdings Resources API, and 16 more. Tagged areas include Library, Bibliographic Records, WorldCat, OCLC, and Cataloging.
 
 
   The WorldCat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -341,7 +341,7 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.0
+  composite: 46.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 78.3
@@ -349,7 +349,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
@@ -365,6 +365,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Education & Research
+    regime_id: education
+    score: 50.0
   schema_version: 0.22.0
   scored_at: '2026-09-24'
   trend: flat
@@ -383,7 +389,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: worldcat
 tags:
-- Libraries
+- Library
 - Bibliographic Records
 - WorldCat
 - OCLC

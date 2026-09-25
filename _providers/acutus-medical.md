@@ -79,10 +79,10 @@ description: Acutus Medical, Inc. is a Carlsbad, California arrhythmia-managemen
   operated a developer program or published an API; as of September 2026 its entire public web presence — acutus.com, acutusmedical.com and the ir.acutusmedical.com investor site its own press releases link to — no longer resolves in DNS, leaving no host on which a contract could be published.
 layout: provider
 modified: '2026-09-06'
-name: Acutus Medical, Inc.
+name: Acutus Medical
 nav: Providers
 network: true
-overview: Acutus Medical, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Electrophysiology.
+overview: Acutus Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Electrophysiology.
 random_paper: 17
 score:
   band: minimal

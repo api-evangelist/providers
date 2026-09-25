@@ -92,13 +92,13 @@ description: 'CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caresense-pte-ltd.png
 layout: provider
 modified: '2026-07-20'
-name: Caresense Pte. Ltd.
+name: Caresense
 nav: Providers
 network: true
-overview: 'Caresense Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Artificial Intelligence, and Health Coaching.
+overview: 'Caresense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Artificial Intelligence, and Health Coaching.
 
 
-  Caresense Pte. Ltd.''s developer surface includes support, signup flow, and 10 more developer resources.'
+  Caresense''s developer surface includes support, signup flow, and 10 more developer resources.'
 random_paper: 2
 score:
   band: emerging

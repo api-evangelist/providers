@@ -433,7 +433,7 @@ modified: 2026-06-13
 name: Middesk
 nav: Providers
 network: true
-overview: 'Middesk publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Actions API, Subpackage Agents API, Subpackage Applications API, and 25 more. Tagged areas include Business Verification, KYB, Know Your Business, Identity Verification, and Compliance.
+overview: 'Middesk publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Subpackage Actions API, Subpackage Agents API, Subpackage Applications API, and 25 more. Tagged areas include Business Verification, KYB, Identity Verification, Compliance, and EIN Validation.
 
 
   The Middesk catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -502,7 +502,6 @@ slug: middesk
 tags:
 - Business Verification
 - KYB
-- Know Your Business
 - Identity Verification
 - Compliance
 - EIN Validation

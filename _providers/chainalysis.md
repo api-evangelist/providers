@@ -210,7 +210,7 @@ modified: '2026-08-27'
 name: Chainalysis
 nav: Providers
 network: true
-overview: 'Chainalysis publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, AML, KYT, Sanctions, and Investigations.
+overview: 'Chainalysis publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, AML, Transaction Monitoring, Sanctions, and Investigations.
 
 
   Chainalysis'' developer surface includes documentation, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
@@ -274,11 +274,11 @@ slug: chainalysis
 tags:
 - Compliance
 - AML
-- KYT
+- Transaction Monitoring
 - Sanctions
 - Investigations
 - Blockchain Analytics
-- Risk
+- Risk Management
 - Crypto
 website: https://www.chainalysis.com/
 ---

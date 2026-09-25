@@ -2825,7 +2825,7 @@
      "rank": 54
     },
     {
-     "name": "Deluxe Corporation",
+     "name": "Deluxe",
      "slug": "deluxe",
      "description": "Deluxe Corporation (NYSE: DLX) is a US payments and data company that has moved from its origin as a check printer into merchant services, treasury management, payroll and marketing data. Its developer surface is the Deluxe Payments Platform (DPP), a gateway sold to independent software vendors and merchants and documented at developer.deluxe.com. DPP publishes three RAML 1.0 APIs covering 56 operations: a Gateway Experience API for card and ACH/EFT sales, authorizations, captures, voids, refunds, batches, EMV card-present processing on Ingenico terminals, customer vault and tokenization, subscriptions, payment links and an eight-event webhook surface; a Reports Experience API for daily card and ACH settlement, monthly fee statements and authorized/captured/settled transaction reports; and an Invoice Experience API for drafting, editing, sharing, cloning and downloading invoices. Deluxe also ships two browser-embeddable payment surfaces — a Hosted Payment Form and an Embedded Payments JavaScript SDK — both of which keep the integrator out of PCI DSS scope. Access is not self-serve: credentials are issued by the Deluxe integrations team after an email request, and no pricing is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png",

@@ -75,10 +75,10 @@ description: Hess Corporation was an independent global energy company engaged i
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hess-corporation.png
 layout: provider
 modified: '2026-05-22'
-name: Hess Corporation
+name: Hess
 nav: Providers
 network: true
-overview: Hess Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakken, Crude Oil, Deepwater, Energy, and Exploration and Production.
+overview: Hess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakken, Crude Oil, Deepwater, Energy, and Exploration and Production.
 random_paper: 8
 score:
   band: minimal

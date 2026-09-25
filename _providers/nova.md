@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: Nova
 nav: Providers
 network: true
-overview: 'Nova is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SAP, Agentic AI, and Enterprise Software.
+overview: 'Nova is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SAP, AI Agents, and Enterprise Software.
 
 
   Nova''s developer surface includes engineering blog and 3 more developer resources.'
@@ -102,7 +102,7 @@ tags:
 - Company
 - Artificial Intelligence
 - SAP
-- Agentic AI
+- AI Agents
 - Enterprise Software
 - Developer Productivity
 - Code Intelligence

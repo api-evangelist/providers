@@ -268,7 +268,7 @@ modified: '2026-09-16'
 name: Discourse
 nav: Providers
 network: true
-overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Communities, Forums, and Open Source.
+overview: 'Discourse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Backups API, Badges API, and 13 more. Tagged areas include Community, Forums, and Open Source.
 
 
   Discourse''s developer surface includes documentation, engineering blog, support, and 15 more developer resources.'
@@ -329,7 +329,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: discourse
 tags:
-- Communities
+- Community
 - Forums
 - Open Source
 website: https://www.discourse.org/

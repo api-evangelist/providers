@@ -411,7 +411,7 @@
      "rank": 8
     },
     {
-     "name": "AlphaLatitude Inc.",
+     "name": "OptionsAhoy",
      "slug": "optionsahoy-com",
      "description": "AlphaLatitude Inc. is a Sunnyvale, California C-corporation (founded March 2026) that builds OptionsAhoy, an equity-compensation optimization product for individual investors: multi-year, multi-state tax planning for incentive stock options and the alternative minimum tax, non-qualified stock options, restricted stock units, qualified small business stock, single-stock concentration, protective-put and collar hedging, and selling equity to fund a cash goal. The paid platform is an invite-only beta; the eight calculators behind it are published free and keyless as in-browser tools and as three agent surfaces on one host — an 11-operation OpenAPI 3.1.0 REST API at https://optionsahoy.com/api/v1, a remote MCP server at https://optionsahoy.com/mcp (eight annotated tools, also shipped as the optionsahoy-mcp npm stdio package and a Claude Desktop bundle), and an A2A 0.3.0 agent card at /.well-known/agent-card.json with eight skills. The engine is deterministic (no model inference) and the provider publishes a verification page reproducing its federal and state tax math against IRS Rev. Proc. 2025-32, PSL Tax-Calculator and OpenTaxSolver.",
      "score": 50.4,
@@ -1702,7 +1702,7 @@
      "rank": 36
     },
     {
-     "name": "Co-Legal B.V.",
+     "name": "Co-Legal",
      "slug": "co-legal-be",
      "description": "Co-Legal B.V. is a Dutch company (KvK 42135345, Delft) building AI-native legal software and dossier support for Belgian and cross-border Belgium–Netherlands matters — wealth planning and succession, company law and transactions, tax and finance, real estate — sold to law firms, notaries, accountants and tax advisers by proposal, with the private platform behind Cloudflare Access and Microsoft Entra. Alongside it Co-Legal runs a public, free, anonymous, read-only agent at agent.co-legal.be for informational Belgian and Dutch legal and fiscal source questions: an A2A 1.0 agent card signed with JWS ES256 (verifiable against a published JWKS) declaring 17 skills — KBO/BCE company lookup, EU VIES VAT validation, Belgian and Dutch ECLI case-law resolvers, EUR-Lex/CELEX and Justel/wetten.overheid.nl statute resolvers, Flemish inheritance-tax brackets, ECB reference rates, IBAN validation, public legal-corpus search and read, a citation verifier, DOCX concept drafting and a natural-language answer skill — and a remote MCP server at https://agent.co-legal.be/mcp that answers an anonymous tools/list with 12 of those as read-only, idempotent tools. Everything runs on Google Cloud in the EU with the model (claude-opus-5 via Vertex AI) disclosed inside the card. No OpenAPI is published; the MCP tools/list and the card's tool-schema extension are the machine-readable contract.",
      "score": 36.2,
@@ -5519,7 +5519,7 @@
      "rank": 121
     },
     {
-     "name": "Blank Rome LLP",
+     "name": "Blank Rome",
      "slug": "blank-rome",
      "description": "Blank Rome LLP is an Am Law 100 U.S. law firm founded in 1946 and headquartered in Philadelphia, with approximately 600+ attorneys across roughly 14 U.S. offices plus an international presence (Shanghai). The firm provides comprehensive legal and government-advocacy services across commercial and corporate litigation, corporate / M&A and finance, restructuring and bankruptcy, government contracts, intellectual property, labor and employment, real estate, tax, white-collar defense, matrimonial and family law, and a nationally recognized maritime and international trade practice. Blank Rome Government Relations LLC, the firm's affiliated lobbying arm, operates from Washington, D.C. The firm publishes practice-area client alerts, the Mainbrace maritime newsletter, and industry insights through its website's News & Events and Publications sections. Blank Rome does not operate a public developer program, REST/GraphQL API, SDK ecosystem, or GitHub organization; this profile catalogs the firm's public-facing knowledge surface (practice pages, newsletters, alerts) rather than a developer platform.",
      "score": 4.3,

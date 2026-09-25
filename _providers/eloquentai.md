@@ -91,7 +91,7 @@ modified: '2026-07-19'
 name: Eloquent AI
 nav: Providers
 network: true
-overview: 'Eloquent AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic AI, and Customer Service.
+overview: 'Eloquent AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer Service, and Customer Support Automation.
 
 
   Eloquent AI''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
@@ -138,7 +138,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic AI
 - Customer Service
 - Customer Support Automation
 - Financial Services

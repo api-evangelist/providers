@@ -117,7 +117,7 @@ tags:
 - Fraud Investigation
 - Risk Operations
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Financial Services
 - Security
 website: https://www.mousecat.ai

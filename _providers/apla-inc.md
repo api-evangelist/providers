@@ -50,10 +50,10 @@ description: 'Apla, Inc. (aplahub.com) was an AI-based accounting and bookkeepin
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apla-inc.png
 layout: provider
 modified: '2026-07-17'
-name: Apla, Inc.
+name: Apla
 nav: Providers
 network: true
-overview: Apla, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Fintech, and Expense Management.
+overview: Apla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Bookkeeping, Fintech, and Expense Management.
 random_paper: 3
 score:
   band: minimal

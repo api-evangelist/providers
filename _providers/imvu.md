@@ -146,7 +146,7 @@ modified: '2026-08-23'
 name: Together Labs
 nav: Providers
 network: true
-overview: 'Together Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Networking, Virtual Worlds, Metaverse, and Gaming.
+overview: 'Together Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Virtual Worlds, Metaverse, and Gaming.
 
 
   Together Labs'' developer surface includes documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
@@ -201,7 +201,7 @@ security:
 slug: imvu
 tags:
 - Company
-- Social Networking
+- Social Network
 - Virtual Worlds
 - Metaverse
 - Gaming

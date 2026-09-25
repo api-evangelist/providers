@@ -62,13 +62,13 @@ description: Dorado Software, Inc. is a Roseville, California infrastructure man
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dorado-software-inc.png
 layout: provider
 modified: '2026-07-18'
-name: Dorado Software Inc
+name: Dorado Software
 nav: Providers
 network: true
-overview: 'Dorado Software Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Management, Network Management, DCIM, and Orchestration.
+overview: 'Dorado Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure Management, Network Management, DCIM, and Orchestration.
 
 
-  Dorado Software Inc''s developer surface includes support, engineering blog, and 3 more developer resources.'
+  Dorado Software''s developer surface includes support, engineering blog, and 3 more developer resources.'
 random_paper: 20
 score:
   band: minimal

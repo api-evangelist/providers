@@ -4,7 +4,7 @@
   "name": "Accounting & Finance Operations",
   "description": "The finance back office — ledgers and bookkeeping, invoicing and billing, accounts payable and receivable, expense and spend management, ERP, and financial planning.",
   "icon": "calculate",
-  "count": 894,
+  "count": 892,
   "roster_only": false
  },
  {
@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5720,
+  "count": 5723,
   "roster_only": false
  },
  {
@@ -44,7 +44,7 @@
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 415,
+  "count": 414,
   "roster_only": false
  },
  {
@@ -52,7 +52,7 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 859,
+  "count": 858,
   "roster_only": false
  },
  {
@@ -68,7 +68,7 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1311,
+  "count": 1312,
   "roster_only": false
  },
  {
@@ -76,7 +76,7 @@
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1278,
+  "count": 1277,
   "roster_only": false
  },
  {
@@ -116,7 +116,7 @@
   "name": "Communications Platform as a Service (CPaaS)",
   "description": "Programmable communications sold as an API — SMS and messaging, programmable voice and telephony, verification, and the carrier connectivity underneath.",
   "icon": "forum",
-  "count": 213,
+  "count": 214,
   "roster_only": false
  },
  {
@@ -132,7 +132,7 @@
   "name": "Consumer Goods",
   "description": "",
   "icon": "/industries/assets/icons/consumer-goods.png",
-  "count": 388,
+  "count": 387,
   "roster_only": false
  },
  {
@@ -140,7 +140,7 @@
   "name": "Content Management & Digital Experience",
   "description": "Where web content is authored and delivered — traditional and headless CMS, digital experience platforms, website builders, and digital asset management.",
   "icon": "web",
-  "count": 200,
+  "count": 199,
   "roster_only": false
  },
  {
@@ -156,7 +156,7 @@
   "name": "Customer Relationship Management (CRM)",
   "description": "Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.",
   "icon": "support_agent",
-  "count": 375,
+  "count": 372,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2222,
+  "count": 2226,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2475,
+  "count": 2469,
   "roster_only": false
  },
  {
@@ -188,7 +188,7 @@
   "name": "Defense",
   "description": "",
   "icon": "/industries/assets/icons/defense.png",
-  "count": 325,
+  "count": 324,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2889,
+  "count": 2887,
   "roster_only": false
  },
  {
@@ -204,7 +204,7 @@
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1971,
+  "count": 1966,
   "roster_only": false
  },
  {
@@ -220,7 +220,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1007,
+  "count": 1008,
   "roster_only": false
  },
  {
@@ -228,7 +228,7 @@
   "name": "Energy",
   "description": "",
   "icon": "/industries/assets/icons/energy.png",
-  "count": 710,
+  "count": 708,
   "roster_only": false
  },
  {
@@ -268,7 +268,7 @@
   "name": "Financial Services",
   "description": "",
   "icon": "/industries/assets/icons/financial-services.png",
-  "count": 1207,
+  "count": 1206,
   "roster_only": false
  },
  {
@@ -276,7 +276,7 @@
   "name": "Financial Technology",
   "description": "",
   "icon": "/industries/assets/icons/financial-technology.png",
-  "count": 2007,
+  "count": 2002,
   "roster_only": false
  },
  {
@@ -284,7 +284,7 @@
   "name": "Fitness & Wellness",
   "description": "Gyms, studios and the wellness economy — booking and member management, connected fitness hardware and training platforms, and the mindfulness and recovery services around them.",
   "icon": "fitness_center",
-  "count": 277,
+  "count": 279,
   "roster_only": false
  },
  {
@@ -308,7 +308,7 @@
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 719,
+  "count": 718,
   "roster_only": false
  },
  {
@@ -316,7 +316,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 874,
+  "count": 868,
   "roster_only": false
  },
  {
@@ -324,7 +324,7 @@
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2102,
+  "count": 2098,
   "roster_only": false
  },
  {
@@ -348,7 +348,7 @@
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 877,
+  "count": 875,
   "roster_only": false
  },
  {
@@ -364,7 +364,7 @@
   "name": "Industrial",
   "description": "",
   "icon": "/industries/assets/icons/industrial.png",
-  "count": 1053,
+  "count": 1051,
   "roster_only": false
  },
  {
@@ -388,7 +388,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 963,
+  "count": 967,
   "roster_only": false
  },
  {
@@ -396,7 +396,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1186,
+  "count": 1236,
   "roster_only": false
  },
  {
@@ -404,7 +404,7 @@
   "name": "Life Sciences",
   "description": "",
   "icon": "/industries/assets/icons/life-sciences.png",
-  "count": 1092,
+  "count": 1091,
   "roster_only": false
  },
  {
@@ -428,7 +428,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1584,
+  "count": 1585,
   "roster_only": false
  },
  {
@@ -436,7 +436,7 @@
   "name": "Media",
   "description": "",
   "icon": "/industries/assets/icons/media.png",
-  "count": 632,
+  "count": 630,
   "roster_only": false
  },
  {
@@ -452,7 +452,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 690,
+  "count": 693,
   "roster_only": false
  },
  {
@@ -484,7 +484,7 @@
   "name": "Payments & Money Movement",
   "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
   "icon": "payments",
-  "count": 1718,
+  "count": 1715,
   "roster_only": false
  },
  {
@@ -508,7 +508,7 @@
   "name": "Productivity Software",
   "description": "The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.",
   "icon": "task_alt",
-  "count": 405,
+  "count": 404,
   "roster_only": false
  },
  {
@@ -540,7 +540,7 @@
   "name": "Retail",
   "description": "",
   "icon": "/industries/assets/icons/retail.png",
-  "count": 1058,
+  "count": 1057,
   "roster_only": false
  },
  {
@@ -572,7 +572,7 @@
   "name": "Sports",
   "description": "",
   "icon": "/industries/assets/icons/sports.png",
-  "count": 185,
+  "count": 193,
   "roster_only": false
  },
  {
@@ -604,7 +604,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1352,
+  "count": 1351,
   "roster_only": false
  },
  {

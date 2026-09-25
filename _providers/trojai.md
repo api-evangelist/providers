@@ -202,6 +202,6 @@ tags:
 - Prompt Injection
 - Model Risk
 - MLOps
-- Agentic AI
+- AI Agents
 website: https://troj.ai/
 ---

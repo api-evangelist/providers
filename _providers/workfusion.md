@@ -174,7 +174,7 @@ modified: '2026-09-04'
 name: WorkFusion
 nav: Providers
 network: true
-overview: 'WorkFusion publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Financial Crime Compliance, Anti-Money Laundering, Sanctions Screening, and KYC.
+overview: 'WorkFusion publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Financial Crime Compliance, AML, Sanctions Screening, and KYC.
 
 
   WorkFusion''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, YouTube channel, and 18 more developer resources.'
@@ -239,7 +239,7 @@ slug: workfusion
 tags:
 - AI Agents
 - Financial Crime Compliance
-- Anti-Money Laundering
+- AML
 - Sanctions Screening
 - KYC
 - Transaction Monitoring

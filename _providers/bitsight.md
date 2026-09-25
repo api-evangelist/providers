@@ -210,5 +210,6 @@ tags:
 - Attack Surface Management
 - Threat Intelligence
 - Vendor Risk
+- Risk Management
 website: http://www.bitsight.com/
 ---

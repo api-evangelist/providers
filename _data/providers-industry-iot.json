@@ -1,6 +1,6 @@
 {
- "total": 963,
- "shown": 963,
+ "total": 967,
+ "shown": 967,
  "limit": 1000,
  "bands": [
   {
@@ -2987,8 +2987,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 148,
-   "shown": 148,
+   "count": 146,
+   "shown": 146,
    "providers": [
     {
      "name": "Clevergy",
@@ -5471,56 +5471,6 @@
      "rank": 118
     },
     {
-     "name": "ELISA",
-     "slug": "elisa",
-     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
-     "score": 48.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 33.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 119
-    },
-    {
      "name": "Macrometa",
      "slug": "macrometa",
      "description": "Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API plus first-party Python (pyC8) and JavaScript (jsC8) SDKs. Macrometa has since expanded into PhotonIQ, an AI-powered edge delivery suite for web performance and digital operations — prerendering, edge-side tagging, function-as-a-service, digital fingerprinting, virtual waiting rooms, event delivery, and hypersearch. This profile catalogs Macrometa's published OpenAPI surface across the GDN core and the PhotonIQ product family, along with its SDKs, CLI, status page, and developer documentation.",
@@ -5561,7 +5511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Siemens PLM",
@@ -5604,7 +5554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Hyundai",
@@ -5647,7 +5597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "SPAN",
@@ -5697,7 +5647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "HiveMQ",
@@ -5740,7 +5690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "WeFitter",
@@ -5797,7 +5747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "LocoNav",
@@ -5840,7 +5790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Starlink",
@@ -5890,7 +5840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Akamai",
@@ -5933,7 +5883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Esper",
@@ -5976,7 +5926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Sofar Ocean",
@@ -6019,7 +5969,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "AngelCam",
@@ -6062,7 +6012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Root Insurance",
@@ -6112,7 +6062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Cloudflare D1",
@@ -6155,7 +6105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Ditto",
@@ -6198,7 +6148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Amazon Timestream",
@@ -6241,7 +6191,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Nest",
@@ -6284,7 +6234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Arduino",
@@ -6327,7 +6277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Limitless",
@@ -6370,7 +6320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Lakeside Software",
@@ -6413,7 +6363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Sense",
@@ -6463,7 +6413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Liesheng Group",
@@ -6513,7 +6463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Bear Robotics",
@@ -6556,7 +6506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Google Distributed Cloud",
@@ -6599,7 +6549,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "Ninetailed",
@@ -6642,7 +6592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Nortech",
@@ -6685,7 +6635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Agco",
@@ -6728,7 +6678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Dust Identity",
@@ -6771,7 +6721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "QuantCDN",
@@ -6814,7 +6764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Cradlepoint",
@@ -6857,7 +6807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Shiftmove",
@@ -6900,7 +6850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Azure Stream Analytics",
@@ -6943,7 +6893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Automile",
@@ -6986,7 +6936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Oden Technologies",
@@ -7029,7 +6979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "701x",
@@ -7078,7 +7028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Renesas",
@@ -7121,7 +7071,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "75F",
@@ -7170,7 +7120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Gardin",
@@ -7220,7 +7170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Cloudflare KV",
@@ -7263,7 +7213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Memfault",
@@ -7306,7 +7256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Butlr",
@@ -7349,7 +7299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Analog Devices",
@@ -7392,7 +7342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "NATS",
@@ -7435,7 +7385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Viridi",
@@ -7484,10 +7434,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
-     "name": "Siemens MindSphere",
+     "name": "Siemens Insights Hub (MindSphere)",
      "slug": "siemens-mindsphere",
      "description": "Siemens MindSphere (now Insights Hub) is Siemens' Industrial IoT as a Service platform that connects industrial machines and assets to the cloud. It enables companies to harness the wealth of data generated by their operations through APIs for asset management, time series data ingestion, event management, file services, identity management, and agent connectivity. MindSphere supports digital twin creation and industrial analytics use cases across manufacturing, energy, transportation, and infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/screenshots/siemens-mindsphere-2026-06-20T193904.png",
@@ -7527,7 +7477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Ring",
@@ -7570,7 +7520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Ubicquia",
@@ -7620,7 +7570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Amazon Monitron",
@@ -7663,7 +7613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "Rokid",
@@ -7706,7 +7656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "VivaLNK",
@@ -7756,7 +7706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Under Armour",
@@ -7806,7 +7756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "ButterflyMX",
@@ -7849,7 +7799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Polar",
@@ -7899,7 +7849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "SpiderOak",
@@ -7942,7 +7892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Ultrahuman",
@@ -7992,7 +7942,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Wattwatchers",
@@ -8042,7 +7992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Maven Machines",
@@ -8085,7 +8035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Inductive Automation",
@@ -8128,7 +8078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "PTC",
@@ -8171,7 +8121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Withings",
@@ -8221,7 +8171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Dexcom",
@@ -8271,7 +8221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "Node-RED",
@@ -8314,7 +8264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "China Mobile",
@@ -8364,7 +8314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "Litmus Automation",
@@ -8407,7 +8357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Caterpillar",
@@ -8450,50 +8400,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 184
-    },
-    {
-     "name": "Civil Infrastructure Platform",
-     "slug": "civil-infrastructure-platform",
-     "description": "The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equipment. CIP curates a Super Long-Term Support (SLTS) kernel and core user-space packages that can be maintained for more than ten years, plus working groups for security (IEC 62443 alignment), software update, real-time, and testing. CIP's primary programmable interface is source code — the kernel, CIP Core images and tooling published through GitLab and Debian-derived package archives — and it publishes machine-readable product lifecycle data for those. CIP also serves one live REST API: its own event calendar at cip-project.org/wp-json, declared in an RFC 9727 /.well-known/api-catalog and described by OpenAPI documents the site serves itself.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png",
-     "score": 41.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 24.0,
-      "contract_governance": 63.6,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 11.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 185
+     "rank": 183
     },
     {
      "name": "Expanso",
@@ -8536,7 +8443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 184
     },
     {
      "name": "Door",
@@ -8579,7 +8486,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 185
     },
     {
      "name": "Google Nest Smart Device Management",
@@ -8622,7 +8529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 186
     },
     {
      "name": "World Air Quality Index (WAQI)",
@@ -8672,7 +8579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 187
     },
     {
      "name": "TrainingPeaks",
@@ -8722,7 +8629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 188
     },
     {
      "name": "Arccos Golf",
@@ -8765,7 +8672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 191
+     "rank": 189
     },
     {
      "name": "Bitfinder",
@@ -8815,7 +8722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 190
     },
     {
      "name": "Lytx",
@@ -8858,7 +8765,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 191
     },
     {
      "name": "Rachio",
@@ -8901,7 +8808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 192
     },
     {
      "name": "Smartcar",
@@ -8944,7 +8851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 193
     },
     {
      "name": "Apache NiFi",
@@ -8987,7 +8894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 194
     },
     {
      "name": "Density",
@@ -9030,7 +8937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 195
     },
     {
      "name": "Verdigris Technologies",
@@ -9080,7 +8987,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 196
     },
     {
      "name": "Cesanta",
@@ -9123,7 +9030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 197
     },
     {
      "name": "Empatica",
@@ -9173,7 +9080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 198
     },
     {
      "name": "Google Fit REST",
@@ -9223,7 +9130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 199
     },
     {
      "name": "PassiveLogic",
@@ -9273,7 +9180,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 200
     },
     {
      "name": "Cognite",
@@ -9316,7 +9223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 201
     },
     {
      "name": "FitBark",
@@ -9366,7 +9273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 202
     },
     {
      "name": "Guidewheel",
@@ -9416,7 +9323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 203
     },
     {
      "name": "Weavix",
@@ -9459,7 +9366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 204
     },
     {
      "name": "OSIsoft PI System",
@@ -9502,7 +9409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 205
     },
     {
      "name": "IXON",
@@ -9545,7 +9452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 206
     },
     {
      "name": "Geotab",
@@ -9588,7 +9495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 207
     },
     {
      "name": "Agri Info Design",
@@ -9630,7 +9537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 208
     },
     {
      "name": "Swift Navigation",
@@ -9673,7 +9580,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 209
     },
     {
      "name": "Vapor IO",
@@ -9715,7 +9622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 210
     }
    ]
   },
@@ -9724,8 +9631,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 151,
-   "shown": 151,
+   "count": 153,
+   "shown": 153,
    "providers": [
     {
      "name": "EZRentOut",
@@ -9768,7 +9675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 211
     },
     {
      "name": "LocalAI",
@@ -9811,7 +9718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 212
     },
     {
      "name": "Qwilt",
@@ -9854,7 +9761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 213
     },
     {
      "name": "Sensibo",
@@ -9897,7 +9804,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 214
+    },
+    {
+     "name": "ELISA",
+     "slug": "elisa",
+     "description": "ELISA (Enabling Linux in Safety Applications) is a Linux Foundation collaborative project that builds the shared tools, processes and evidence needed to use Linux in safety-critical systems. Its working groups and special interest groups span automotive, aerospace, medical devices, railways, space-grade Linux and open-source engineering process, producing white papers, case studies, kernel analysis tooling and a public technical directory. ELISA develops two tools of its own: BASIL, a software quality management and traceability application with an HTTP REST API and SPDX 3.0.1 export, and ks-nav, kernel-source navigation tooling. ELISA itself publishes a machine-readable API surface at https://elisa.tech/wp-json/ — declared through an RFC 9727 api-catalog and described by a live OpenAPI 3.0.0 document — plus an llms.txt and permissive Content Signals for AI use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 215
     },
     {
      "name": "Zededa",
@@ -9940,7 +9897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Quanergy",
@@ -9983,7 +9940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Sentera",
@@ -10026,7 +9983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Spike",
@@ -10076,7 +10033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Sigfox",
@@ -10126,10 +10083,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
-     "name": "steute Technologies GmbH & Co. KG",
+     "name": "steute Technologies",
      "slug": "steute-technologies-gmbh-and-co-kg",
      "description": "steute Technologies GmbH & Co. KG is a German industrial technology company headquartered in Löhne that develops switchgear, sensors and controls under the tagline \"Applied Intelligence\", organized into three divisions: Meditec (certified user interfaces such as foot and hand controls for medical devices), Controltec (safe industrial automation with switches, sensors and wireless solutions) and Leantec (digital shop floor solutions). Its Leantec \"nexy\" IIoT wireless network, built on the sWave.NET radio protocol, connects hundreds of wireless switches and sensors to shop-floor IT through a Sensor Bridge gateway that exposes a JWT-secured REST API (OpenAPI 3.0), HTTP(S) push notifications, Modbus TCP and optional OPC UA and SAP modules for eKanban, AGV, Andon and material-flow integration. steute was surfaced as a portfolio company of Battery Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png",
@@ -10176,7 +10133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "BRICK Schema",
@@ -10226,7 +10183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Afero",
@@ -10276,7 +10233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "CNH",
@@ -10319,7 +10276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "LI-COR Intermediate",
@@ -10369,7 +10326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Terra",
@@ -10419,7 +10376,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Upstash",
@@ -10462,7 +10419,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Xiaomi",
@@ -10505,7 +10462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "Tesla",
@@ -10546,6 +10503,49 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 229
+    },
+    {
+     "name": "Civil Infrastructure Platform",
+     "slug": "civil-infrastructure-platform",
+     "description": "The Civil Infrastructure Platform (CIP) is a Linux Foundation collaborative project that builds an industrial-grade open source base layer for civil infrastructure systems such as transportation, power generation and distribution, building and city management, industrial control, and healthcare equipment. CIP curates a Super Long-Term Support (SLTS) kernel and core user-space packages that can be maintained for more than ten years, plus working groups for security (IEC 62443 alignment), software update, real-time, and testing. CIP's primary programmable interface is source code — the kernel, CIP Core images and tooling published through GitLab and Debian-derived package archives — and it publishes machine-readable product lifecycle data for those. CIP also serves one live REST API: its own event calendar at cip-project.org/wp-json, declared in an RFC 9727 /.well-known/api-catalog and described by OpenAPI documents the site serves itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/screenshots/civil-infrastructure-platform-2026-06-20T174430.png",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 10.7,
+      "contract_governance": 63.6,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -12735,49 +12735,6 @@
      "rank": 278
     },
     {
-     "name": "Automotive Grade Linux",
-     "slug": "automotive-grade-linux",
-     "description": "Automotive Grade Linux (AGL) is a collaborative open source project under the Linux Foundation that develops a unified software platform for connected vehicles. AGL brings together automakers (Toyota, Honda, Mercedes-Benz), suppliers, and technology companies to build an open Linux-based software stack for in-vehicle infotainment, instrument clusters, telematics, and software-defined vehicle (SoDeV) architectures. The platform decouples software from hardware enabling rapid automotive application development.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png",
-     "score": 34.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 13.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 61.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 17.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 279
-    },
-    {
      "name": "Samsara",
      "slug": "samsara",
      "description": "Samsara is a leading connected operations platform for physical operations industries including transportation, logistics, construction, field services, and energy. The Samsara REST API provides programmatic access to fleet telematics, driver safety, compliance (ELD/HOS), vehicle diagnostics, route management, industrial IoT sensors, and workforce management. With over two million connected devices, the platform offers real-time GPS tracking, AI-powered safety cameras, digital inspection forms (DVIRs), IFTA reporting, and data streaming via webhooks and Kafka. Base URL: https://api.samsara.com. Authentication uses Bearer tokens with OAuth 2.0 support.",
@@ -12818,7 +12775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "PubNub",
@@ -12861,7 +12818,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Reelables",
@@ -12904,7 +12861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "Flic",
@@ -12947,7 +12904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "Picogrid",
@@ -12990,7 +12947,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "ADT",
@@ -13033,7 +12990,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "Delos",
@@ -13076,7 +13033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Samsung SmartThings",
@@ -13119,7 +13076,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "IKEA",
@@ -13161,7 +13118,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "TRONITY",
@@ -13204,7 +13161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "1KOMMA5°",
@@ -13254,7 +13211,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Hailo",
@@ -13296,7 +13253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Baker Hughes",
@@ -13346,49 +13303,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 292
-    },
-    {
-     "name": "Tesla Motors",
-     "slug": "tesla-motors",
-     "description": "Tesla, Inc. (formerly Tesla Motors, Inc.) is an American electric vehicle and clean energy company that designs and manufactures electric cars, battery energy storage systems, solar panels, and related products. The Tesla Owner API provides programmatic access to Tesla vehicles for monitoring state, controlling climate, locking/unlocking doors, managing charging, and executing remote commands.",
-     "score": 33.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 54.8,
-      "contract_governance": 13.6,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 293
+     "rank": 291
     },
     {
      "name": "Akri",
@@ -13431,7 +13346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 292
     },
     {
      "name": "Cypress Semiconductor",
@@ -13474,57 +13389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
-    },
-    {
-     "name": "Flashparking",
-     "slug": "flashparking",
-     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
-     "score": 32.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 296
+     "rank": 293
     },
     {
      "name": "Toit",
@@ -13567,7 +13432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 294
     },
     {
      "name": "Toyota",
@@ -13609,7 +13474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 295
     },
     {
      "name": "WasmEdge",
@@ -13652,7 +13517,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 296
+    },
+    {
+     "name": "Flashparking",
+     "slug": "flashparking",
+     "description": "Flash (formerly FlashParking) is an Austin, Texas parking technology company that sells an end-to-end mobility platform to parking asset owners and operators: cloud software (FlashOS), purpose-built PARCS gate and kiosk hardware, Flash Vision LPR/computer-vision cameras, valet and enforcement applications, EV charging, accounts-receivable automation, and a consumer Demand Network reached through its ParkWhiz/Arrive brands. Flash publishes a named catalog of nine partner APIs for Flash PARCS and Flash Valet - eParking, Locations, Monthly, Validations, Customer Service, Price Manager, FlashPass, Vehicle Request and Flash Receipt - used by partners including Ticketmaster, SpotHero, LAZ Parking, Genea and Daktronics. Those APIs are commercially gated: the help center documents what each API does but publishes no base URL, no authentication model and no machine-readable specification, and sandbox certification plus production access carry monthly fees arranged through sales@flashparking.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flashparking/refs/heads/main/screenshots/flashparking-2026-09-02T145528.png",
+     "score": 32.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 32.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 297
     },
     {
      "name": "Inspur Cloud",
@@ -13695,7 +13610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 298
     },
     {
      "name": "Armada",
@@ -13738,7 +13653,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 299
     },
     {
      "name": "JumpCloud",
@@ -13781,7 +13696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 300
     },
     {
      "name": "Openpath",
@@ -13824,7 +13739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 301
     },
     {
      "name": "Phosphorus",
@@ -13867,7 +13782,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 302
+    },
+    {
+     "name": "Automotive Grade Linux",
+     "slug": "automotive-grade-linux",
+     "description": "Automotive Grade Linux (AGL) is a collaborative open source project under the Linux Foundation that develops a unified software platform for connected vehicles. AGL brings together automakers (Toyota, Honda, Mercedes-Benz), suppliers, and technology companies to build an open Linux-based software stack for in-vehicle infotainment, instrument clusters, telematics, and software-defined vehicle (SoDeV) architectures. The platform decouples software from hardware enabling rapid automotive application development.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/screenshots/automotive-grade-linux-2026-06-20T172702.png",
+     "score": 31.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 61.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 17.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 303
     },
     {
      "name": "Comma.ai",
@@ -13910,7 +13868,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Trane Technologies",
@@ -13953,7 +13911,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Ubidots",
@@ -13996,49 +13954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
-    },
-    {
-     "name": "aiCTX (now SynSense)",
-     "slug": "aictx",
-     "description": "aiCTX AG — renamed SynSense AG in May 2020 — is a neuromorphic computing company founded in Zurich in 2017 out of the Institute of Neuroinformatics at the University of Zurich and ETH Zurich. It designs ultra-low-power mixed-signal neuromorphic processors and smart sensors for always-on, sub-milliwatt edge inference: the Speck and DYNAP-CNN event-driven vision SoCs, the Xylo family for audio and IMU signal processing, and the DVS, Rigi and AEVEON sensor series. Its developer surface is a stack of open-source Python libraries rather than a product web API — Samna (the device interface and runtime), Rockpool (spiking network training and deployment) and Sinabs (PyTorch spiking CNNs) — backed by a developer community, forum, and firmware and datasheet download hub at synsense.ai. The one HTTP API the company serves publicly is the anonymous, read-only WordPress REST content API behind that corporate site, which exposes its products, partners, offices, awards, open roles and news as machine-readable JSON.",
-     "score": 30.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 6.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 10.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 308
+     "rank": 306
     },
     {
      "name": "Hologram",
@@ -14088,7 +14004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 307
     },
     {
      "name": "Xylem",
@@ -14138,7 +14054,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 308
     },
     {
      "name": "Orange",
@@ -14188,7 +14104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 309
     },
     {
      "name": "CIONIC",
@@ -14253,7 +14169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 310
     },
     {
      "name": "Google Assistant",
@@ -14296,7 +14212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 311
     },
     {
      "name": "BMW ConnectedDrive",
@@ -14339,7 +14255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 312
     },
     {
      "name": "Cisco Meraki",
@@ -14382,7 +14298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 313
     },
     {
      "name": "Level Home",
@@ -14425,7 +14341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 314
     },
     {
      "name": "Otonomo",
@@ -14467,7 +14383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 315
     },
     {
      "name": "SiFive",
@@ -14510,7 +14426,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 316
     },
     {
      "name": "Sonos",
@@ -14553,7 +14469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 317
     },
     {
      "name": "Jerry",
@@ -14603,7 +14519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 318
     },
     {
      "name": "Amphenol",
@@ -14646,7 +14562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 319
     },
     {
      "name": "Pulsoid",
@@ -14696,7 +14612,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 320
     },
     {
      "name": "Volvo Cars",
@@ -14739,7 +14655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 321
     },
     {
      "name": "Gaussian Robotics",
@@ -14782,7 +14698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 322
     },
     {
      "name": "Steelcase",
@@ -14824,7 +14740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 323
     },
     {
      "name": "Voltaiq",
@@ -14880,7 +14796,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 324
+    },
+    {
+     "name": "aiCTX (now SynSense)",
+     "slug": "aictx",
+     "description": "aiCTX AG — renamed SynSense AG in May 2020 — is a neuromorphic computing company founded in Zurich in 2017 out of the Institute of Neuroinformatics at the University of Zurich and ETH Zurich. It designs ultra-low-power mixed-signal neuromorphic processors and smart sensors for always-on, sub-milliwatt edge inference: the Speck and DYNAP-CNN event-driven vision SoCs, the Xylo family for audio and IMU signal processing, and the DVS, Rigi and AEVEON sensor series. Its developer surface is a stack of open-source Python libraries rather than a product web API — Samna (the device interface and runtime), Rockpool (spiking network training and deployment) and Sinabs (PyTorch spiking CNNs) — backed by a developer community, forum, and firmware and datasheet download hub at synsense.ai. The one HTTP API the company serves publicly is the anonymous, read-only WordPress REST content API behind that corporate site, which exposes its products, partners, offices, awards, open roles and news as machine-readable JSON.",
+     "score": 29.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 325
     },
     {
      "name": "Nine Fives",
@@ -14923,7 +14881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Apache Derby",
@@ -14966,7 +14924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "ZenAdmin",
@@ -15009,7 +14967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "Telemetron",
@@ -15052,7 +15010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Aperia Technologies",
@@ -15095,7 +15053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "GridPoint",
@@ -15145,7 +15103,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Armis",
@@ -15202,7 +15160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "CAA Insurance",
@@ -15252,7 +15210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "BioIntelliSense",
@@ -15317,7 +15275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "FIWARE",
@@ -15360,7 +15318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Blynk",
@@ -15410,7 +15368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 336
     },
     {
      "name": "GigSky",
@@ -15460,7 +15418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "R-Zero",
@@ -15510,7 +15468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Zego",
@@ -15560,7 +15518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Cosmoplat",
@@ -15603,7 +15561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "EcoFlow",
@@ -15653,7 +15611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "Artisight",
@@ -15703,7 +15661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "CTERA",
@@ -15746,7 +15704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "3DaGoGo",
@@ -15789,7 +15747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Goodyear Tire & Rubber",
@@ -15832,7 +15790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Motorola Solutions",
@@ -15875,7 +15833,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Tractian",
@@ -15925,7 +15883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "VitalConnect",
@@ -15974,7 +15932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Andium",
@@ -16024,7 +15982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "Striveworks",
@@ -16074,7 +16032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "Agrology",
@@ -16116,7 +16074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "AIDIN ROBOTICS",
@@ -16158,7 +16116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "Franklin Whole Home",
@@ -16208,7 +16166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Echodyne",
@@ -16258,7 +16216,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "Seyond",
@@ -16301,7 +16259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Unifa",
@@ -16350,7 +16308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Vayyar",
@@ -16393,7 +16351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 357
     },
     {
      "name": "Devialet",
@@ -16436,7 +16394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 358
     },
     {
      "name": "Vayyar Imaging",
@@ -16486,7 +16444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 360
+     "rank": 359
     },
     {
      "name": "Helium Network",
@@ -16529,7 +16487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 360
     },
     {
      "name": "RYSE",
@@ -16571,6 +16529,49 @@
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
+     },
+     "rank": 361
+    },
+    {
+     "name": "Rockwell Automation",
+     "slug": "rockwell-automation",
+     "description": "Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industrial networking, motor control, safety systems, and the FactoryTalk software suite for MES, SCADA, historian, remote access, and industrial data management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png",
+     "score": 26.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 14.7,
+      "contract_governance": 25.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
      },
      "rank": 362
     },
@@ -16631,8 +16632,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 277,
-   "shown": 277,
+   "count": 278,
+   "shown": 278,
    "providers": [
     {
      "name": "Cogniac",
@@ -17709,7 +17710,7 @@
      "rank": 386
     },
     {
-     "name": "Axiado Corporation",
+     "name": "Axiado",
      "slug": "axiado-corporation",
      "description": "Axiado Corporation is a San Jose, California semiconductor company building hardware-anchored, AI-driven platform security for AI data centers, cloud infrastructure, 5G networks and disaggregated compute. Its flagship Trusted Control/Compute Unit (TCU) — the AX3000 family and the second-generation AX3080 — collapses the baseboard management controller (BMC), hardware root of trust, trusted platform module (TPM), hardware security module, firewall and LAN-on-motherboard into a single system-on-chip with on-die AI/ML engines for dynamic threat management. Axiado ships OCP DC-SCM secure control modules (Smart-SCM3002, SCM3003, SCM3080-MT) alongside the SecureStack ADK, a Zephyr RTOS software development kit whose public API reference documents crypto, key management, X.509 certificate, BMC control, flash, SPI, DMA and OS-abstraction engines, plus OpenBMC-based out-of-band management running on the TCU. Developer documentation is published at devhub.axiado.com. The API surface is an embedded C/C++ SDK and on-device management interface — Axiado publishes no hosted public web API and no OpenAPI definition.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/axiado-corporation/refs/heads/main/screenshots/axiado-corporation-2026-08-07T162032.png",
@@ -17931,7 +17932,7 @@
      "rank": 391
     },
     {
-     "name": "1→10, Inc.",
+     "name": "1→10",
      "slug": "110",
      "description": "1→10, Inc. (株式会社ワントゥーテン, \"One to Ten\") is a Kyoto-headquartered creative technology company that designs and builds spatial experiences — projection mapping and large-scale interactive land art, XR installations, AI concierge and robotics work, IoT product prototyping and brand content — for commercial facilities, cultural sites and events. Founded October 1997, with offices in Kyoto and Tokyo and a Singapore holding company, it positions itself as a \"Spatial DX\" studio and is known for permanent installations such as Magical Shores at Siloso Beach in Singapore and the Nijo Castle YAKAI night event in Kyoto. It is a project-based studio rather than an API platform: its one developer-facing product is ZIG SIM, a smartphone sensor-streaming app used for physical prototyping, and it publishes an Agent Skill for public use.",
      "score": 23.5,
@@ -21593,7 +21594,7 @@
      "rank": 470
     },
     {
-     "name": "Whirlpool Corporation",
+     "name": "Whirlpool",
      "slug": "whirlpool",
      "description": "Whirlpool Corporation is the world's only major U.S.-based manufacturer of kitchen and laundry appliances, with approximately $16 billion in annual net sales and 41,000 employees globally. Its brand portfolio includes Whirlpool, KitchenAid, JennAir, Maytag, Amana, Brastemp, Consul, and InSinkErator. Whirlpool offers connected smart appliances integrating with Amazon Alexa, Amazon Dash Replenishment, Google Assistant, and Matter for smart home automation, and provides a cloud-connected appliance API used by the Whirlpool mobile app and third-party integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whirlpool/refs/heads/main/screenshots/whirlpool-2026-06-20T201441.png",
@@ -23095,6 +23096,49 @@
      "rank": 503
     },
     {
+     "name": "Belden",
+     "slug": "belden",
+     "description": "Belden Inc. designs, manufactures, and markets networking, connectivity, and cable products and solutions for industrial automation, smart buildings, and broadcast markets. The company delivers end-to-end signal transmission solutions for mission-critical applications, including industrial Ethernet infrastructure, cybersecurity, and IIoT connectivity. Belden's Hirschmann brand is a leading provider of industrial network switches and management software with CLI, SNMP, and REST API interfaces for network device management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/screenshots/belden-2026-06-20T173137.png",
+     "score": 15.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 504
+    },
+    {
      "name": "Lucis",
      "slug": "lucis",
      "description": "Lucis is a Paris-based, AI-powered preventative health platform (Y Combinator P25; backed by General Catalyst) that helps members understand their biology through comprehensive lab testing and personalised coaching. Members receive two annual lab assessments (blood, urine, and saliva) at 450+ partner labs across Europe, producing 110+ data points across 11 body systems — metabolic, cardiovascular, hormonal, nervous, and more — which an AI engine turns into personalised action plans spanning nutrition, supplementation, sleep, activity, and mental health. The platform ingests wearable data (Garmin, Withings, Oura, Strava; Apple Watch and Whoop coming soon) for ongoing monitoring. Lucis is a consumer health product; as of this profile it exposes a member web/mobile application and a compliance portal but publishes no public developer API surface.",
@@ -23142,7 +23186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 505
     },
     {
      "name": "Numina",
@@ -23185,7 +23229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 506
     },
     {
      "name": "Pipy",
@@ -23227,7 +23271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 507
     },
     {
      "name": "Automox",
@@ -23270,7 +23314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 508
     },
     {
      "name": "Fueloyal",
@@ -23313,7 +23357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 509
     },
     {
      "name": "DigiLens",
@@ -23356,7 +23400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 510
     },
     {
      "name": "FlexGen Power Systems",
@@ -23406,7 +23450,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 511
     },
     {
      "name": "Blackberry",
@@ -23449,7 +23493,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 512
     },
     {
      "name": "Metromile",
@@ -23498,7 +23542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 513
     },
     {
      "name": "Cloudpost Networks",
@@ -23548,7 +23592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 514
     },
     {
      "name": "SkyFoundry",
@@ -23598,7 +23642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 515
     },
     {
      "name": "Ampere Computing",
@@ -23641,7 +23685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 516
     },
     {
      "name": "Arrcus",
@@ -23684,7 +23728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 517
     },
     {
      "name": "Fort",
@@ -23734,7 +23778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 518
     },
     {
      "name": "K3s",
@@ -23777,7 +23821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 519
     },
     {
      "name": "Uhnder",
@@ -23820,7 +23864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 520
     },
     {
      "name": "Jala",
@@ -23863,7 +23907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 521
     },
     {
      "name": "Uptake",
@@ -23906,7 +23950,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 522
     },
     {
      "name": "Irhythmtech",
@@ -23956,7 +24000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 523
     },
     {
      "name": "Ordr",
@@ -24006,7 +24050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 524
     },
     {
      "name": "ServiceMax",
@@ -24049,7 +24093,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 525
     },
     {
      "name": "XAG",
@@ -24092,7 +24136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 526
     },
     {
      "name": "Metrobloks",
@@ -24135,7 +24179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 527
     },
     {
      "name": "Aeva",
@@ -24178,7 +24222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 528
     },
     {
      "name": "Squadle",
@@ -24221,7 +24265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 529
     },
     {
      "name": "Upciti",
@@ -24264,7 +24308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 530
     },
     {
      "name": "Cala Health",
@@ -24314,7 +24358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 531
     },
     {
      "name": "Globalstar",
@@ -24356,7 +24400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 532
     },
     {
      "name": "Josys",
@@ -24399,7 +24443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 533
     },
     {
      "name": "Lennox International",
@@ -24442,7 +24486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 534
     },
     {
      "name": "Monarch Tractor",
@@ -24485,7 +24529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 535
     },
     {
      "name": "Control4",
@@ -24528,7 +24572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 536
     },
     {
      "name": "Mero",
@@ -24571,7 +24615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 537
     },
     {
      "name": "CoolerX",
@@ -24614,7 +24658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 538
     },
     {
      "name": "Illumix",
@@ -24657,7 +24701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 539
     },
     {
      "name": "Intenseye",
@@ -24700,7 +24744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 540
     },
     {
      "name": "KubeEdge",
@@ -24743,7 +24787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 541
     },
     {
      "name": "OpenYurt",
@@ -24786,7 +24830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 542
     },
     {
      "name": "Retrocausal",
@@ -24829,7 +24873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 543
     },
     {
      "name": "TE Connectivity",
@@ -24872,7 +24916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 544
     },
     {
      "name": "Fleetmatics",
@@ -24915,7 +24959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 545
     },
     {
      "name": "Roborock",
@@ -24958,7 +25002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 546
     },
     {
      "name": "Silk Labs",
@@ -25001,7 +25045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 547
     },
     {
      "name": "Universal Electronics",
@@ -25044,7 +25088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 548
     },
     {
      "name": "Vodafone",
@@ -25094,7 +25138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 549
     },
     {
      "name": "VanMoof",
@@ -25137,7 +25181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 550
     },
     {
      "name": "Eero",
@@ -25180,7 +25224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 551
     },
     {
      "name": "Friend",
@@ -25223,7 +25267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 552
     },
     {
      "name": "Inmarsat",
@@ -25273,7 +25317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 553
     },
     {
      "name": "Mill",
@@ -25316,7 +25360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 554
     },
     {
      "name": "Shelly",
@@ -25358,7 +25402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 554
+     "rank": 555
     },
     {
      "name": "Beewise",
@@ -25401,7 +25445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 556
     },
     {
      "name": "Bosch",
@@ -25444,7 +25488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 557
     },
     {
      "name": "Efficient Computer",
@@ -25494,7 +25538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 558
     },
     {
      "name": "exein",
@@ -25536,7 +25580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 559
     },
     {
      "name": "HelloTech",
@@ -25579,7 +25623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 560
     },
     {
      "name": "Runwise",
@@ -25629,7 +25673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 561
     },
     {
      "name": "Conservation Labs",
@@ -25672,7 +25716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 562
     },
     {
      "name": "Imperfect",
@@ -25722,7 +25766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 563
     },
     {
      "name": "Acerta",
@@ -25765,7 +25809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 564
     },
     {
      "name": "AtomBeam",
@@ -25808,7 +25852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 565
     },
     {
      "name": "Growatt",
@@ -25858,7 +25902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 566
     },
     {
      "name": "Hesai Technology",
@@ -25901,7 +25945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 567
     },
     {
      "name": "SAVA",
@@ -25951,7 +25995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 568
     },
     {
      "name": "AEssenseGrows",
@@ -25993,7 +26037,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 569
     },
     {
      "name": "Nirvana Tech",
@@ -26043,7 +26087,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 570
     },
     {
      "name": "Amber Box",
@@ -26086,7 +26130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 571
     },
     {
      "name": "Bevi",
@@ -26129,7 +26173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 572
     },
     {
      "name": "BirdBuddy",
@@ -26172,7 +26216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 573
     },
     {
      "name": "KITRO",
@@ -26215,7 +26259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 574
     },
     {
      "name": "Neolink",
@@ -26258,7 +26302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 575
     },
     {
      "name": "Sol",
@@ -26301,7 +26345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 576
     },
     {
      "name": "Versuni",
@@ -26344,7 +26388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 577
     },
     {
      "name": "ams OSRAM",
@@ -26387,7 +26431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 578
     },
     {
      "name": "Cowboy",
@@ -26430,7 +26474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 579
     },
     {
      "name": "Fightcamp",
@@ -26480,7 +26524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 580
     },
     {
      "name": "Fiture",
@@ -26530,7 +26574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 581
     },
     {
      "name": "KitchenMate",
@@ -26573,7 +26617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 582
     },
     {
      "name": "Somnee",
@@ -26623,7 +26667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 583
     },
     {
      "name": "Anker Innovations",
@@ -26673,7 +26717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 584
     },
     {
      "name": "Natural Cycles",
@@ -26723,7 +26767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 585
     },
     {
      "name": "Utilidata",
@@ -26773,10 +26817,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 586
     },
     {
-     "name": "Rex Inc",
+     "name": "Rex",
      "slug": "rex-inc",
      "description": "Rex Inc, operating as Rex.fit (BabylonAI Inc.), is a Y Combinator (W23) health and fitness company building AI-powered, fully automated nutrition tracking. Its consumer products include Rex Nutribot, a WhatsApp AI nutrition coach; the Drop, a wearable AI camera pendant that detects meals and automatically logs calories, protein, carbs, and fats via computer vision; an AI body scanner; and personalized coaching with daily health reports. Rex also offers a white-label B2B nutrition-and-fitness AI that fitness chains and app builders integrate to add meal logging (photo, barcode, or text), recipe and meal-plan generation, workout logging, 3D body scans, and nutrition analytics under their own brand.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/screenshots/rex-inc-2026-09-02T153738.png",
@@ -26823,7 +26867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 587
     },
     {
      "name": "LF Edge",
@@ -26866,7 +26910,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 588
     },
     {
      "name": "Revivn",
@@ -26909,7 +26953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 589
     },
     {
      "name": "Tile (thetileapp)",
@@ -26952,7 +26996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 589
+     "rank": 590
     },
     {
      "name": "Astera Labs",
@@ -26995,7 +27039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 591
     },
     {
      "name": "Rimac Automobili",
@@ -27037,7 +27081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 592
     },
     {
      "name": "Robotiq",
@@ -27080,7 +27124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 593
     },
     {
      "name": "Roofline",
@@ -27123,7 +27167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 594
     },
     {
      "name": "Valmont Industries",
@@ -27166,7 +27210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 595
     },
     {
      "name": "Halter",
@@ -27209,7 +27253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 596
     },
     {
      "name": "Hykso",
@@ -27259,7 +27303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 597
     },
     {
      "name": "Myndlift",
@@ -27309,7 +27353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 598
     },
     {
      "name": "Optivolt Labs",
@@ -27359,7 +27403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 599
     },
     {
      "name": "Hitachi Construction Machinery",
@@ -27401,7 +27445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 600
     },
     {
      "name": "Biobeat",
@@ -27451,7 +27495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 601
     },
     {
      "name": "Hidrate",
@@ -27501,7 +27545,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 601
+     "rank": 602
     },
     {
      "name": "Instrumental",
@@ -27544,7 +27588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 603
     },
     {
      "name": "N-Drip",
@@ -27587,7 +27631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 604
     },
     {
      "name": "Smartex",
@@ -27630,7 +27674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 605
     },
     {
      "name": "Versatile",
@@ -27673,7 +27717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 606
     },
     {
      "name": "WOO Sports",
@@ -27716,7 +27760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Boldr",
@@ -27766,7 +27810,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Gridware",
@@ -27816,7 +27860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Datakrew",
@@ -27859,7 +27903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Detect",
@@ -27901,7 +27945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "Stuf Storage",
@@ -27944,7 +27988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 612
     },
     {
      "name": "Verve Motion",
@@ -27987,7 +28031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 612
+     "rank": 613
     },
     {
      "name": "Botrista",
@@ -28030,7 +28074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 614
     },
     {
      "name": "Juxta",
@@ -28080,7 +28124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 615
     },
     {
      "name": "Parklio",
@@ -28123,7 +28167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 616
     },
     {
      "name": "Arrive AI",
@@ -28173,7 +28217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 617
     },
     {
      "name": "EyeLights",
@@ -28216,7 +28260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 618
     },
     {
      "name": "Ai Fabrik",
@@ -28259,7 +28303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 619
     },
     {
      "name": "Athos",
@@ -28309,7 +28353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 620
     },
     {
      "name": "Axiom Space",
@@ -28359,7 +28403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 621
     },
     {
      "name": "Euler Motors",
@@ -28402,7 +28446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 622
     },
     {
      "name": "LARQ",
@@ -28445,7 +28489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 623
     },
     {
      "name": "NanoLumens",
@@ -28488,7 +28532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 624
     },
     {
      "name": "Nix",
@@ -28538,7 +28582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 625
     },
     {
      "name": "str8bat",
@@ -28581,7 +28625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 625
+     "rank": 626
     },
     {
      "name": "Wakefit",
@@ -28623,7 +28667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 627
     },
     {
      "name": "Trackonomy",
@@ -28666,7 +28710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 628
     },
     {
      "name": "4D Bios",
@@ -28708,7 +28752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 629
     },
     {
      "name": "Biofourmis",
@@ -28758,7 +28802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 630
     },
     {
      "name": "ROMTech",
@@ -28808,7 +28852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 631
     },
     {
      "name": "Sensata Technologies",
@@ -28851,7 +28895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 632
     },
     {
      "name": "Sensorum Health",
@@ -28901,7 +28945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 633
     },
     {
      "name": "Synapsor",
@@ -28951,7 +28995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 634
     },
     {
      "name": "AutoTrac",
@@ -29001,7 +29045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 635
     },
     {
      "name": "Cactos",
@@ -29051,7 +29095,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 636
     },
     {
      "name": "Hula Earth",
@@ -29094,7 +29138,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 637
     },
     {
      "name": "Moleaer",
@@ -29137,7 +29181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 638
     },
     {
      "name": "Oriient",
@@ -29180,7 +29224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 639
     },
     {
      "name": "Sioma",
@@ -29223,7 +29267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 640
     },
     {
      "name": "Sonatus",
@@ -29266,7 +29310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 641
     }
    ]
   },
@@ -29275,8 +29319,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 322,
-   "shown": 322,
+   "count": 325,
+   "shown": 325,
    "providers": [
     {
      "name": "Customer Analytics",
@@ -29319,7 +29363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 642
     },
     {
      "name": "Pragmatic",
@@ -29362,7 +29406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 643
     },
     {
      "name": "Zero Motorcycles",
@@ -29405,7 +29449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 644
     },
     {
      "name": "Freedom Robotics",
@@ -29448,7 +29492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 645
     },
     {
      "name": "Plumerai",
@@ -29491,7 +29535,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 646
+    },
+    {
+     "name": "Haber",
+     "slug": "haber",
+     "description": "Haber (Elixa Technologies Private Limited), headquartered in Pune, India with a US presence in Chicago, is an industrial AI company delivering AI-led automation for smart manufacturing across heavy industries including pulp, paper, packaging and tissue, metals and mining, food and beverages, oil and gas, and water/utility institutions. Its product suite spans eLIXA, an IIoT-powered process intelligence platform; Mt. Fuji for historical data storage, visualizations, digital twins and predictive interventions; Kaiznn, an optimization engine for trim-loss reduction, inventory and production scheduling; plus Kensei and FiMorph. The platform emphasizes real-time monitoring, predictive analytics, and enterprise-grade security (SOC 2 Type 2, ISO/IEC 27001:2022). Surfaced as a portfolio company of Accel and enriched into the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/haber/refs/heads/main/screenshots/haber-2026-07-25T220508.png",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 647
     },
     {
      "name": "Kepler Communications",
@@ -29534,7 +29621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 648
     },
     {
      "name": "Kotcha",
@@ -29584,7 +29671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 649
     },
     {
      "name": "Deako",
@@ -29634,7 +29721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 650
     },
     {
      "name": "Drover AI",
@@ -29677,7 +29764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 651
     },
     {
      "name": "E-Peas",
@@ -29727,7 +29814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 652
     },
     {
      "name": "Epic CleanTec",
@@ -29770,7 +29857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 653
     },
     {
      "name": "Evigence Sensors",
@@ -29813,7 +29900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 654
     },
     {
      "name": "FiberSense",
@@ -29856,7 +29943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 655
     },
     {
      "name": "Forterra",
@@ -29899,7 +29986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 656
     },
     {
      "name": "Freight Farms",
@@ -29942,7 +30029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 657
     },
     {
      "name": "INGU",
@@ -29992,7 +30079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 658
     },
     {
      "name": "Jiobit",
@@ -30035,7 +30122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 659
     },
     {
      "name": "Kardome Technology",
@@ -30078,7 +30165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 660
     },
     {
      "name": "Moj.io",
@@ -30121,7 +30208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 661
     },
     {
      "name": "Neuron Mobility",
@@ -30164,7 +30251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 662
     },
     {
      "name": "Preteckt",
@@ -30207,7 +30294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 663
     },
     {
      "name": "Prisma Photonics",
@@ -30257,7 +30344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 664
     },
     {
      "name": "Reach",
@@ -30307,7 +30394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 665
     },
     {
      "name": "Stellapps",
@@ -30349,7 +30436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 666
     },
     {
      "name": "WINT",
@@ -30392,7 +30479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 667
     },
     {
      "name": "Fuchsia",
@@ -30442,7 +30529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 668
     },
     {
      "name": "Justos",
@@ -30492,7 +30579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 669
     },
     {
      "name": "K4Connect",
@@ -30542,7 +30629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 670
     },
     {
      "name": "REEV",
@@ -30592,7 +30679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 671
     },
     {
      "name": "Remedee Labs",
@@ -30642,7 +30729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 672
     },
     {
      "name": "Siren",
@@ -30692,10 +30779,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 673
     },
     {
-     "name": "Aeterlink Corp.",
+     "name": "Aeterlink",
      "slug": "aeterlinkcorp",
      "description": "Aeterlink Corp. is a Tokyo-headquartered deep-tech company, originating from Stanford University research, that develops, manufactures and sells spatial (microwave) wireless power transfer systems under the AirPlug brand. AirPlug delivers power to battery-free IoT sensors and devices at distances of roughly 15-20 meters with bidirectional data communication, and is sold into factory automation, building management and medical implant applications. Founded in August 2020, the company operates offices in Tokyo, Indianapolis and Bangkok, and is active in the international standardization of spatial wireless power transfer. Aeterlink publishes no public developer program, API reference or machine-readable API contract; its product materials are distributed by request form.",
      "score": 10.4,
@@ -30741,7 +30828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 674
     },
     {
      "name": "iBasis",
@@ -30791,7 +30878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 675
     },
     {
      "name": "Motorq",
@@ -30834,7 +30921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 676
     },
     {
      "name": "Skyworks Solutions",
@@ -30877,7 +30964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 677
     },
     {
      "name": "Stel",
@@ -30927,7 +31014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 678
     },
     {
      "name": "Aiper",
@@ -30969,7 +31056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 679
     },
     {
      "name": "Aptos Orbital",
@@ -31012,7 +31099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 680
     },
     {
      "name": "Blaize",
@@ -31055,7 +31142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 681
     },
     {
      "name": "FordPass / Ford Pro",
@@ -31105,7 +31192,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 682
     },
     {
      "name": "Karnott",
@@ -31148,7 +31235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 683
     },
     {
      "name": "Lumos Helmet",
@@ -31191,7 +31278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 684
     },
     {
      "name": "Nanit",
@@ -31234,7 +31321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 685
     },
     {
      "name": "Sensefinity",
@@ -31277,7 +31364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 686
     },
     {
      "name": "Optiwatt",
@@ -31327,7 +31414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 687
     },
     {
      "name": "Tovala",
@@ -31370,7 +31457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 688
     },
     {
      "name": "Tozuda",
@@ -31413,7 +31500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 689
     },
     {
      "name": "Feel Therapeutics",
@@ -31463,7 +31550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 690
     },
     {
      "name": "Iceotope",
@@ -31506,7 +31593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 691
     },
     {
      "name": "Inofab",
@@ -31556,7 +31643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 692
     },
     {
      "name": "NinjaBlocks",
@@ -31601,7 +31688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 693
     },
     {
      "name": "Open Bionics",
@@ -31651,7 +31738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 694
     },
     {
      "name": "Prophetic",
@@ -31701,7 +31788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 695
     },
     {
      "name": "Sleep Number",
@@ -31750,7 +31837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 696
     },
     {
      "name": "Spartan Radar",
@@ -31793,7 +31880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 697
     },
     {
      "name": "STAND+",
@@ -31843,10 +31930,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 698
     },
     {
-     "name": "Bloxtel, Inc.",
+     "name": "Bloxtel",
      "slug": "bloxtel-inc",
      "description": "Bloxtel, Inc. builds a decentralized private 5G platform that lets enterprises deploy standalone 5G networks in hours. Its all-in-one 5G Access Point runs Open6GC, Bloxtel's decentralized network core, and pairs with tokenized dSIM electronic-SIM technology and a Web3 Operator dApp for configuring networks, managing dSIM subscriptions, and AI-powered predictive maintenance. Solutions span indoor coverage, SIM-swap protection, neutral hosting, peer nodes, and network analytics, targeting lower latency, reduced threat surface, and lower cost versus traditional carrier deployments. Backed by 500 Global. As of this profile Bloxtel publishes a marketing and lead-generation site only, with no public developer portal, API reference, OpenAPI, or SDK yet available.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloxtel-inc/refs/heads/main/screenshots/bloxtel-inc-2026-07-25T203423.png",
@@ -31893,7 +31980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 699
     },
     {
      "name": "Optoscale",
@@ -31936,7 +32023,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 700
+    },
+    {
+     "name": "OSIsoft",
+     "slug": "osisoft",
+     "description": "OSIsoft was the enterprise software company behind the PI System, the operational data infrastructure used across manufacturing, energy, utilities, oil and gas, and other industrial sectors to collect, historize, contextualize, and visualize high-volume real-time sensor and control-system time-series data. Its developer surface centered on the PI Web API (a RESTful interface to the PI Data Archive and Asset Framework), AF SDK, and the PI Square developer community. OSIsoft was acquired by AVEVA in 2021; all osisoft.com and docs.osisoft.com properties now redirect to AVEVA, where the product ships as the AVEVA PI System. This profile is maintained as a historical/acquired-company record in the API Evangelist network, with developer resources pointing at the live AVEVA successor pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/osisoft/refs/heads/main/screenshots/osisoft-2026-08-07T191017.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 701
     },
     {
      "name": "Pebble",
@@ -31979,7 +32109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 702
     },
     {
      "name": "Plotlogic",
@@ -32022,7 +32152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 703
     },
     {
      "name": "Frontlinewildfire",
@@ -32072,7 +32202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 704
     },
     {
      "name": "Roost",
@@ -32122,7 +32252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 705
     },
     {
      "name": "Wellxai",
@@ -32172,7 +32302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 706
     },
     {
      "name": "Carnot Fleet",
@@ -32215,7 +32345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 707
     },
     {
      "name": "EcoG",
@@ -32265,7 +32395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 708
     },
     {
      "name": "Humatics",
@@ -32308,7 +32438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 709
     },
     {
      "name": "Kace",
@@ -32351,7 +32481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 710
     },
     {
      "name": "Inspiren",
@@ -32401,7 +32531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 711
     },
     {
      "name": "Atlas5D",
@@ -32451,7 +32581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 712
     },
     {
      "name": "Cool Planet",
@@ -32501,7 +32631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 713
     },
     {
      "name": "FANUC",
@@ -32544,7 +32674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 714
     },
     {
      "name": "Pillar Technologies",
@@ -32587,7 +32717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 715
     },
     {
      "name": "ECOVACS Robotics",
@@ -32630,7 +32760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 716
     },
     {
      "name": "Semios",
@@ -32673,7 +32803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 717
     },
     {
      "name": "Aclima",
@@ -32723,7 +32853,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 715
+     "rank": 718
     },
     {
      "name": "Adasky",
@@ -32765,7 +32895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 716
+     "rank": 719
     },
     {
      "name": "Alterego",
@@ -32808,7 +32938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 720
     },
     {
      "name": "B2X",
@@ -32851,7 +32981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 718
+     "rank": 721
     },
     {
      "name": "Lynk Global",
@@ -32893,7 +33023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 719
+     "rank": 722
     },
     {
      "name": "Scout",
@@ -32936,7 +33066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 720
+     "rank": 723
     },
     {
      "name": "Payment24",
@@ -32986,7 +33116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 721
+     "rank": 724
     },
     {
      "name": "Understory",
@@ -33036,7 +33166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 722
+     "rank": 725
     },
     {
      "name": "Green Fusion",
@@ -33086,7 +33216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 723
+     "rank": 726
     },
     {
      "name": "Naviday Health",
@@ -33136,7 +33266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 724
+     "rank": 727
     },
     {
      "name": "The Travelers Companies",
@@ -33186,10 +33316,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 725
+     "rank": 728
     },
     {
-     "name": "Carnival Corporation",
+     "name": "Carnival",
      "slug": "carnival-corporation",
      "description": "Carnival Corporation & plc is the world's largest cruise company operating eight cruise line brands (Carnival Cruise Line, Princess Cruises, Holland America Line, Seabourn, Cunard, P&O Cruises, Costa Cruises, AIDA Cruises), plus the White Pass and Yukon Route. Carnival operates the OceanMedallion wearable IoT technology and mobile experience platform, the Carnival HUB app, the Princess MedallionClass app, and a portfolio of guest-facing digital experiences across its fleet of over 90 ships.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnival-corporation/refs/heads/main/screenshots/carnival-corporation-2026-06-20T174014.png",
@@ -33229,7 +33359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 726
+     "rank": 729
     },
     {
      "name": "Code Metal",
@@ -33272,7 +33402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 727
+     "rank": 730
     },
     {
      "name": "Feetme",
@@ -33322,7 +33452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 728
+     "rank": 731
     },
     {
      "name": "Volterra",
@@ -33365,7 +33495,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 729
+     "rank": 732
     },
     {
      "name": "Koska",
@@ -33408,7 +33538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 730
+     "rank": 733
     },
     {
      "name": "Lyte",
@@ -33451,7 +33581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 731
+     "rank": 734
     },
     {
      "name": "morewis",
@@ -33493,7 +33623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 732
+     "rank": 735
     },
     {
      "name": "Theta EdgeCloud",
@@ -33536,7 +33666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 733
+     "rank": 736
     },
     {
      "name": "Volteum",
@@ -33586,7 +33716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 734
+     "rank": 737
     },
     {
      "name": "xiaoyi",
@@ -33629,7 +33759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 735
+     "rank": 738
     },
     {
      "name": "BrainCo",
@@ -33679,7 +33809,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 736
+     "rank": 739
+    },
+    {
+     "name": "Flowserve",
+     "slug": "flowserve",
+     "description": "Flowserve moves, controls and protects the flow of materials in the world's most critical industries through pumps, seals, valves, and flow control systems. No public developer APIs have been identified; the company offers digital services such as RedRaven IIoT monitoring through customer engagements rather than an open developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowserve/refs/heads/main/screenshots/flowserve-2026-06-20T181334.png",
+     "score": 8.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 740
     },
     {
      "name": "Philips",
@@ -33729,7 +33902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 737
+     "rank": 741
     },
     {
      "name": "Zwift",
@@ -33772,10 +33945,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 738
+     "rank": 742
     },
     {
-     "name": "Apar Infotech Corporation",
+     "name": "Apar Infotech",
      "slug": "apar-infotech-corporation",
      "description": "Apar Infotech Corporation, which operates publicly as Apar Technologies, is a Singapore-headquartered IT services and consulting group serving clients across Asia Pacific, the Middle East and the Americas. The firm delivers technology consulting and application services, data management and business intelligence, collaboration and content management, enterprise applications, managed services, staff augmentation and collaborative development centres, with practice areas spanning artificial intelligence, cloud, CRM, ServiceNow workflow, RPA/BPM hyperautomation, enterprise mobility and IoT. Apar also publishes a small set of its own products — the Otomeyt HR technology and technical-assessment platform, the Innoculate IoT monitoring platform, and the eLite SIS and eLite BAM applications. Apar is part of the Apar Group and is backed by Insight Partners. As of this enrichment pass Apar publishes no public developer portal, API documentation, machine-readable API specification or self-service sign-up; its API work is delivered inside client engagements rather than as a public product surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apar-infotech-corporation/refs/heads/main/screenshots/apar-infotech-corporation-2026-07-25T200636.png",
@@ -33815,7 +33988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 739
+     "rank": 743
     },
     {
      "name": "OWLR",
@@ -33858,7 +34031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 744
     },
     {
      "name": "Cron Systems",
@@ -33901,7 +34074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 745
     },
     {
      "name": "DayOne",
@@ -33944,7 +34117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 742
+     "rank": 746
     },
     {
      "name": "Evreka",
@@ -33987,7 +34160,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 747
     },
     {
      "name": "Acacus Group",
@@ -34029,7 +34202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 748
     },
     {
      "name": "ISAAC Instruments",
@@ -34072,7 +34245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 749
     },
     {
      "name": "Cambridge Terahertz",
@@ -34115,7 +34288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 750
     },
     {
      "name": "Hydrow",
@@ -34165,7 +34338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 751
     },
     {
      "name": "Aiden Auto",
@@ -34214,7 +34387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 748
+     "rank": 752
     },
     {
      "name": "INDOS",
@@ -34257,7 +34430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 753
     },
     {
      "name": "Nothing",
@@ -34300,7 +34473,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 754
     },
     {
      "name": "Open mHealth",
@@ -34350,7 +34523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 755
     },
     {
      "name": "Savi Technology",
@@ -34393,7 +34566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 756
     },
     {
      "name": "Wisear",
@@ -34436,7 +34609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 757
     },
     {
      "name": "DNOW",
@@ -34486,7 +34659,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 754
+     "rank": 758
     },
     {
      "name": "EcoPlant",
@@ -34536,7 +34709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 759
     },
     {
      "name": "Securly",
@@ -34586,7 +34759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 756
+     "rank": 760
     },
     {
      "name": "Apex.AI",
@@ -34629,7 +34802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 757
+     "rank": 761
     },
     {
      "name": "Auradine (Velaura AI)",
@@ -34679,7 +34852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 762
     },
     {
      "name": "Gabit",
@@ -34729,7 +34902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 763
     },
     {
      "name": "Teradar",
@@ -34772,7 +34945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 764
     },
     {
      "name": "INURU",
@@ -34822,7 +34995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 765
     },
     {
      "name": "iTAC Software",
@@ -34865,7 +35038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 766
     },
     {
      "name": "Lynq",
@@ -34908,7 +35081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 763
+     "rank": 767
     },
     {
      "name": "Nodal Industries",
@@ -34951,7 +35124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 768
     },
     {
      "name": "Bug Labs",
@@ -34994,7 +35167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 769
     },
     {
      "name": "Hippo",
@@ -35044,7 +35217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 770
     },
     {
      "name": "StackPath",
@@ -35087,7 +35260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 771
     },
     {
      "name": "Lyten",
@@ -35137,7 +35310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 772
     },
     {
      "name": "Matter Intelligence",
@@ -35180,7 +35353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 773
     },
     {
      "name": "Praan",
@@ -35223,7 +35396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 774
     },
     {
      "name": "Skylo",
@@ -35273,7 +35446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 775
     },
     {
      "name": "Humanising Autonomy",
@@ -35315,7 +35488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 776
     },
     {
      "name": "DRINKOTEC",
@@ -35365,7 +35538,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 777
     },
     {
      "name": "Swiftlane",
@@ -35408,7 +35581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 778
     },
     {
      "name": "Vayu Robotics",
@@ -35451,7 +35624,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 779
     },
     {
      "name": "Fishbit",
@@ -35494,7 +35667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 780
     },
     {
      "name": "iRobot",
@@ -35537,7 +35710,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 781
     },
     {
      "name": "Sandbar",
@@ -35580,7 +35753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 782
     },
     {
      "name": "4DBIM",
@@ -35622,7 +35795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 783
     },
     {
      "name": "Audi Connect / myAudi",
@@ -35672,7 +35845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 784
     },
     {
      "name": "Globetouch",
@@ -35722,7 +35895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 785
     },
     {
      "name": "Hinge Health",
@@ -35772,7 +35945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 786
     },
     {
      "name": "Commsignia",
@@ -35822,10 +35995,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 787
     },
     {
-     "name": "EQUIPTAL HOLDING LTD",
+     "name": "EQUIPTAL",
      "slug": "equiptal-holding-ltd",
      "description": "EQUIPTAL HOLDING LTD operates Moedatech (معداتك), Saudi Arabia's first digital procurement and rental marketplace for heavy construction equipment, connecting contractors with verified suppliers of excavators, cranes, and trucks through RFQs, real-time bidding, and audit-ready digital contracts. Founded in Riyadh in 2020 by Ali Merie and Mansour Hmaid, the company pairs the marketplace with a telematics/fleet layer (built on Traccar GPS tracking) so equipment owners can monitor real-time asset performance. The product ships as iOS and Android apps plus a web app; there is no publicly documented developer API at this time. The company is backed by 500 Global and Plug and Play Middle East. This profile was surfaced from the 500 Global portfolio and enriched from the company's public web, brand (moedatech.net), and GitHub presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equiptal-holding-ltd/refs/heads/main/screenshots/equiptal-holding-ltd-2026-07-25T213550.png",
@@ -35865,7 +36038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 788
     },
     {
      "name": "Source.dev",
@@ -35908,7 +36081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 789
     },
     {
      "name": "Aixinsemiconductortechnology",
@@ -35950,7 +36123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 790
     },
     {
      "name": "Biolinq",
@@ -36000,7 +36173,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 791
     },
     {
      "name": "Ossia",
@@ -36050,7 +36223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 792
     },
     {
      "name": "Vitesse",
@@ -36093,7 +36266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 793
     },
     {
      "name": "IKEA U.S.",
@@ -36135,7 +36308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 794
     },
     {
      "name": "Tractive",
@@ -36185,7 +36358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 795
     },
     {
      "name": "Sensome",
@@ -36235,7 +36408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 796
     },
     {
      "name": "Aerohive",
@@ -36278,7 +36451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 793
+     "rank": 797
     },
     {
      "name": "AgroMatch",
@@ -36321,7 +36494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 794
+     "rank": 798
     },
     {
      "name": "AliciaBots",
@@ -36364,7 +36537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 795
+     "rank": 799
     },
     {
      "name": "Atom Semiconductor",
@@ -36407,7 +36580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 796
+     "rank": 800
     },
     {
      "name": "Automatic",
@@ -36452,7 +36625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 797
+     "rank": 801
     },
     {
      "name": "Axera Tech",
@@ -36495,7 +36668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 798
+     "rank": 802
     },
     {
      "name": "emergen",
@@ -36538,7 +36711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 799
+     "rank": 803
     },
     {
      "name": "Fluent.ai",
@@ -36581,7 +36754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 800
+     "rank": 804
     },
     {
      "name": "GeoGrid",
@@ -36624,7 +36797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 801
+     "rank": 805
     },
     {
      "name": "Nofence",
@@ -36667,7 +36840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 802
+     "rank": 806
     },
     {
      "name": "Lexmark International",
@@ -36710,7 +36883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 803
+     "rank": 807
     },
     {
      "name": "Aikenong",
@@ -36752,7 +36925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 804
+     "rank": 808
     },
     {
      "name": "Ethonai",
@@ -36795,7 +36968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 805
+     "rank": 809
     },
     {
      "name": "LINSOL Co.,Ltd.",
@@ -36838,7 +37011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 806
+     "rank": 810
     },
     {
      "name": "Anoria",
@@ -36888,7 +37061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 807
+     "rank": 811
     },
     {
      "name": "Mauna Kea Semiconductors",
@@ -36931,7 +37104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 808
+     "rank": 812
     },
     {
      "name": "Mira",
@@ -36974,7 +37147,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 809
+     "rank": 813
     },
     {
      "name": "Autonomic",
@@ -37017,7 +37190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 810
+     "rank": 814
     },
     {
      "name": "Ion Mobility",
@@ -37060,7 +37233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 811
+     "rank": 815
     },
     {
      "name": "Adaps Photonics",
@@ -37102,7 +37275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 812
+     "rank": 816
     },
     {
      "name": "AgZen",
@@ -37145,7 +37318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 813
+     "rank": 817
     },
     {
      "name": "Coolso",
@@ -37188,7 +37361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 814
+     "rank": 818
     },
     {
      "name": "GreenQ",
@@ -37230,7 +37403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 815
+     "rank": 819
     },
     {
      "name": "Syntiant",
@@ -37273,7 +37446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 816
+     "rank": 820
     },
     {
      "name": "AI-Prime (Paidao Intelligence)",
@@ -37316,7 +37489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 817
+     "rank": 821
     },
     {
      "name": "Arcstone",
@@ -37359,7 +37532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 818
+     "rank": 822
     },
     {
      "name": "Aspinity",
@@ -37402,7 +37575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 819
+     "rank": 823
     },
     {
      "name": "CIX Technology",
@@ -37445,7 +37618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 820
+     "rank": 824
     },
     {
      "name": "Colony Capital (DigitalBridge Group)",
@@ -37488,7 +37661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 821
+     "rank": 825
     },
     {
      "name": "Fox-Tech",
@@ -37531,7 +37704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 822
+     "rank": 826
     },
     {
      "name": "PathSpot",
@@ -37574,7 +37747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 823
+     "rank": 827
     },
     {
      "name": "SiLC",
@@ -37617,7 +37790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 824
+     "rank": 828
     },
     {
      "name": "Limbo",
@@ -37666,50 +37839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 825
-    },
-    {
-     "name": "Swiftmile",
-     "slug": "swiftmile",
-     "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
-     "score": 5.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 826
+     "rank": 829
     },
     {
      "name": "Bouffalo Lab",
@@ -37752,7 +37882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 827
+     "rank": 830
     },
     {
      "name": "CTRL-labs *",
@@ -37794,7 +37924,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 828
+     "rank": 831
     },
     {
      "name": "Cypress",
@@ -37837,7 +37967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 829
+     "rank": 832
     },
     {
      "name": "eFishery",
@@ -37880,7 +38010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 830
+     "rank": 833
     },
     {
      "name": "houmo",
@@ -37923,7 +38053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 834
     },
     {
      "name": "Metis Labs",
@@ -37966,7 +38096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 835
     },
     {
      "name": "SmartRent",
@@ -38009,7 +38139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 836
     },
     {
      "name": "Valinor",
@@ -38059,7 +38189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 834
+     "rank": 837
     },
     {
      "name": "View",
@@ -38102,7 +38232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 835
+     "rank": 838
     },
     {
      "name": "Omate",
@@ -38151,10 +38281,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 836
+     "rank": 839
     },
     {
-     "name": "500net Technology Co., Ltd.",
+     "name": "500net",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "score": 5.0,
@@ -38200,7 +38330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 837
+     "rank": 840
     },
     {
      "name": "6thSense",
@@ -38243,7 +38373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 838
+     "rank": 841
     },
     {
      "name": "AerNos",
@@ -38285,7 +38415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 839
+     "rank": 842
     },
     {
      "name": "airquality",
@@ -38328,7 +38458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 840
+     "rank": 843
     },
     {
      "name": "American Aerospace Advisors",
@@ -38371,7 +38501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 841
+     "rank": 844
     },
     {
      "name": "Apigy",
@@ -38413,7 +38543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 842
+     "rank": 845
     },
     {
      "name": "AquaShield",
@@ -38455,7 +38585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 843
+     "rank": 846
     },
     {
      "name": "Arilinc",
@@ -38498,7 +38628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 844
+     "rank": 847
     },
     {
      "name": "Automatic Labs",
@@ -38542,7 +38672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 845
+     "rank": 848
     },
     {
      "name": "Avegant",
@@ -38585,7 +38715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 846
+     "rank": 849
     },
     {
      "name": "Axiometrix Solutions",
@@ -38628,7 +38758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 847
+     "rank": 850
     },
     {
      "name": "Axon",
@@ -38671,7 +38801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 848
+     "rank": 851
     },
     {
      "name": "BeBop Sensors",
@@ -38713,7 +38843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 849
+     "rank": 852
     },
     {
      "name": "Bsquare",
@@ -38756,7 +38886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 850
+     "rank": 853
     },
     {
      "name": "Bumblebee Spaces",
@@ -38799,7 +38929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 851
+     "rank": 854
     },
     {
      "name": "Chickin",
@@ -38842,7 +38972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 852
+     "rank": 855
     },
     {
      "name": "Comfy *",
@@ -38885,7 +39015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 853
+     "rank": 856
     },
     {
      "name": "Conexant Systems",
@@ -38927,7 +39057,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 854
+     "rank": 857
     },
     {
      "name": "Congruent",
@@ -38970,7 +39100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 855
+     "rank": 858
     },
     {
      "name": "Crossbar",
@@ -39013,7 +39143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 856
+     "rank": 859
     },
     {
      "name": "Datost",
@@ -39055,7 +39185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 857
+     "rank": 860
     },
     {
      "name": "Dimeq",
@@ -39098,7 +39228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 858
+     "rank": 861
     },
     {
      "name": "Distributedspectrum",
@@ -39141,7 +39271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 859
+     "rank": 862
     },
     {
      "name": "Dropcam",
@@ -39184,7 +39314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 863
     },
     {
      "name": "EchoStar",
@@ -39227,7 +39357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 861
+     "rank": 864
     },
     {
      "name": "eigencomm",
@@ -39269,7 +39399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 862
+     "rank": 865
     },
     {
      "name": "Energy Micro",
@@ -39312,7 +39442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 863
+     "rank": 866
     },
     {
      "name": "EraDrive",
@@ -39355,7 +39485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 864
+     "rank": 867
     },
     {
      "name": "Fleetsmith",
@@ -39399,7 +39529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 865
+     "rank": 868
     },
     {
      "name": "FogHorn Systems (Johnson Controls)",
@@ -39441,7 +39571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 866
+     "rank": 869
     },
     {
      "name": "Fossil Group",
@@ -39484,7 +39614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 867
+     "rank": 870
     },
     {
      "name": "Freescale Semiconductor",
@@ -39528,7 +39658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 868
+     "rank": 871
     },
     {
      "name": "Geekatoo",
@@ -39570,7 +39700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 869
+     "rank": 872
     },
     {
      "name": "General Instinct",
@@ -39613,7 +39743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 870
+     "rank": 873
     },
     {
      "name": "General Radar",
@@ -39656,7 +39786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 871
+     "rank": 874
     },
     {
      "name": "HUM Industries",
@@ -39699,7 +39829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 872
+     "rank": 875
     },
     {
      "name": "Humane",
@@ -39743,7 +39873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 873
+     "rank": 876
     },
     {
      "name": "IControl Networks",
@@ -39785,7 +39915,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 874
+     "rank": 877
     },
     {
      "name": "Infiot",
@@ -39827,7 +39957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 875
+     "rank": 878
     },
     {
      "name": "Instart Logic",
@@ -39871,7 +40001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 876
+     "rank": 879
     },
     {
      "name": "IQI Inc (Beijing AIQI Technology)",
@@ -39914,7 +40044,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 877
+     "rank": 880
     },
     {
      "name": "Iridium",
@@ -39956,10 +40086,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 878
+     "rank": 881
     },
     {
-     "name": "Kubota Corporation",
+     "name": "Kubota",
      "slug": "kubota-corporation",
      "description": "Kubota Corporation is a Japanese multinational manufacturing agricultural, construction, and industrial machinery, including compact tractors, excavators, mowers, utility vehicles, engines, and water and environmental infrastructure systems sold in over 120 countries. Kubota does not currently publish a public developer API or developer portal; equipment telematics (KubotaNOW) and dealer integrations are handled through partner channels rather than open APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubota-corporation/refs/heads/main/screenshots/kubota-corporation-2026-06-20T184216.png",
@@ -39999,7 +40129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 879
+     "rank": 882
     },
     {
      "name": "Luma Home",
@@ -40041,7 +40171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 880
+     "rank": 883
     },
     {
      "name": "Mantari",
@@ -40083,7 +40213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 881
+     "rank": 884
     },
     {
      "name": "Nexite",
@@ -40126,7 +40256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 882
+     "rank": 885
     },
     {
      "name": "nomiku",
@@ -40168,7 +40298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 883
+     "rank": 886
     },
     {
      "name": "North",
@@ -40211,7 +40341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 884
+     "rank": 887
     },
     {
      "name": "Omen",
@@ -40253,7 +40383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 885
+     "rank": 888
     },
     {
      "name": "One Raven",
@@ -40296,7 +40426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 886
+     "rank": 889
     },
     {
      "name": "OnFarm",
@@ -40341,7 +40471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 887
+     "rank": 890
     },
     {
      "name": "Padminivna",
@@ -40384,7 +40514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 888
+     "rank": 891
     },
     {
      "name": "Parstream",
@@ -40426,7 +40556,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 889
+     "rank": 892
     },
     {
      "name": "Peel",
@@ -40469,7 +40599,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 890
+     "rank": 893
     },
     {
      "name": "petkit",
@@ -40512,7 +40642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 891
+     "rank": 894
     },
     {
      "name": "Process Sensing Technologies",
@@ -40555,7 +40685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 892
+     "rank": 895
     },
     {
      "name": "Ready Robotics",
@@ -40597,7 +40727,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 893
+     "rank": 896
     },
     {
      "name": "Revolv",
@@ -40640,7 +40770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 894
+     "rank": 897
     },
     {
      "name": "Riide",
@@ -40683,7 +40813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 895
+     "rank": 898
     },
     {
      "name": "Ruedata",
@@ -40726,7 +40856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 896
+     "rank": 899
     },
     {
      "name": "Sabi",
@@ -40769,7 +40899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 897
+     "rank": 900
     },
     {
      "name": "SIQ Basketball",
@@ -40812,7 +40942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 898
+     "rank": 901
     },
     {
      "name": "Space Runners",
@@ -40855,7 +40985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 899
+     "rank": 902
     },
     {
      "name": "Spider Fleet",
@@ -40897,7 +41027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 900
+     "rank": 903
     },
     {
      "name": "Strella Biotechnology",
@@ -40940,7 +41070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 901
+     "rank": 904
     },
     {
      "name": "Superpedestrian",
@@ -40984,7 +41114,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 902
+     "rank": 905
     },
     {
      "name": "Taascom",
@@ -41026,7 +41156,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 903
+     "rank": 906
     },
     {
      "name": "Toyota Connected",
@@ -41069,7 +41199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 904
+     "rank": 907
     },
     {
      "name": "TruckLabs",
@@ -41112,7 +41242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 905
+     "rank": 908
     },
     {
      "name": "Tule Technologies",
@@ -41155,7 +41285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 906
+     "rank": 909
     },
     {
      "name": "Veniam",
@@ -41198,7 +41328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 907
+     "rank": 910
     },
     {
      "name": "Weft",
@@ -41240,7 +41370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 911
     },
     {
      "name": "AltoTech Global",
@@ -41290,7 +41420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 912
     },
     {
      "name": "Airtouch",
@@ -41332,7 +41462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 913
     },
     {
      "name": "Aisilk",
@@ -41374,7 +41504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 914
     },
     {
      "name": "Perfumeo",
@@ -41416,7 +41546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 915
     },
     {
      "name": "Skyfri",
@@ -41466,7 +41596,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 916
     },
     {
      "name": "Uptime",
@@ -41508,7 +41638,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 917
     },
     {
      "name": "I Flow",
@@ -41558,7 +41688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 918
     },
     {
      "name": "Jewelbots",
@@ -41608,7 +41738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 919
     },
     {
      "name": "KDDI",
@@ -41658,7 +41788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 920
     },
     {
      "name": "Raytheon",
@@ -41708,7 +41838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 921
     },
     {
      "name": "Element Science",
@@ -41758,7 +41888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 922
     },
     {
      "name": "OpenEyes Insurance",
@@ -41808,7 +41938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 923
     },
     {
      "name": "Otolith",
@@ -41858,7 +41988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 924
     },
     {
      "name": "Qnovia",
@@ -41908,7 +42038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 925
     },
     {
      "name": "Borqs",
@@ -41958,7 +42088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 926
     },
     {
      "name": "GM OnStar",
@@ -42008,10 +42138,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 927
     },
     {
-     "name": "Hexing Electrical Co., Ltd.",
+     "name": "Hexing Electrical",
      "slug": "hxgroup",
      "description": "Hexing Electrical Co., Ltd. (海兴电力 / Hexing) is a Chinese energy-technology company focused on smart power distribution and utilization, new energy, smart water and gas, water treatment and clean water, and marine electrification. Beyond hardware, Hexing delivers integrated solutions and project delivery spanning metering devices, communication networks (RF, PLC, cellular, NB-IoT), MDC / MDM / AMI platforms, billing systems, distribution automation, energy storage (BESS), EV charging, water metering, seawater desalination and electric marine propulsion. The company reports 34 years of industry experience, operations across 110+ countries and 17 global manufacturing hubs. Surfaced as a portfolio company of qiming and profiled in the API Evangelist network; Hexing publishes no public developer/API surface today, so this profile captures corporate identity plus the AI knowledge file (llms.txt) the company publishes for AI search / RAG.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hxgroup/refs/heads/main/screenshots/hxgroup-2026-07-25T221804.png",
@@ -42058,7 +42188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 928
     },
     {
      "name": "LiquidStack",
@@ -42108,7 +42238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 929
     },
     {
      "name": "Misfit",
@@ -42157,7 +42287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 930
     },
     {
      "name": "Inviscid AI",
@@ -42206,7 +42336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 931
     },
     {
      "name": "PayRange",
@@ -42256,7 +42386,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 932
+    },
+    {
+     "name": "Swiftmile",
+     "slug": "swiftmile",
+     "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 933
     },
     {
      "name": "Bellabeat",
@@ -42306,7 +42486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 934
     },
     {
      "name": "Cardiogram",
@@ -42355,7 +42535,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 935
     },
     {
      "name": "Curtiss-Wright",
@@ -42405,7 +42585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 936
     },
     {
      "name": "Envision Energy",
@@ -42455,7 +42635,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 937
     },
     {
      "name": "GYENNO",
@@ -42505,7 +42685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 938
     },
     {
      "name": "Happiest Baby",
@@ -42555,7 +42735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 935
+     "rank": 939
     },
     {
      "name": "Hyundai Bluelink",
@@ -42605,7 +42785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 936
+     "rank": 940
     },
     {
      "name": "Illume Labs",
@@ -42655,7 +42835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 937
+     "rank": 941
     },
     {
      "name": "Instabeat",
@@ -42705,7 +42885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 938
+     "rank": 942
     },
     {
      "name": "Livongo",
@@ -42755,7 +42935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 939
+     "rank": 943
     },
     {
      "name": "Mantis",
@@ -42805,7 +42985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 940
+     "rank": 944
     },
     {
      "name": "OMsignal",
@@ -42855,7 +43035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 941
+     "rank": 945
     },
     {
      "name": "Petcube",
@@ -42905,7 +43085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 942
+     "rank": 946
     },
     {
      "name": "Theranica",
@@ -42955,7 +43135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 943
+     "rank": 947
     },
     {
      "name": "Tibo Energy",
@@ -43005,7 +43185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 944
+     "rank": 948
     },
     {
      "name": "Wi Charge",
@@ -43054,7 +43234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 945
+     "rank": 949
     },
     {
      "name": "Lighting",
@@ -43096,7 +43276,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 946
+     "rank": 950
     },
     {
      "name": "Endotronix",
@@ -43146,7 +43326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 951
     },
     {
      "name": "Neuroharmonics",
@@ -43195,7 +43375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 948
+     "rank": 952
     },
     {
      "name": "Flock",
@@ -43245,10 +43425,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 949
+     "rank": 953
     },
     {
-     "name": "NVE Corporation",
+     "name": "NVE",
      "slug": "nve",
      "description": "NVE Corporation (nve.com, NASDAQ: NVEC) is a leader in the practical commercialization of spintronics, a nanotechnology that relies on electron spin rather than electron charge to acquire, store, and transmit information. NVE designs and manufactures spintronic GMR and TMR magnetic sensors (analog, angle/rotation, current, gear-tooth, and medical sensors), digital signal isolators (CAN, RS-422/485, PLC, battery-management, and power interfaces), and power-management ICs. Its developer surface is hardware-oriented: PDF datasheets, application notes, reference designs, magnetic-field calculators/web apps, a YouTube channel, and Arduino/embedded sample code on GitHub. NVE publishes no software/web API, OpenAPI or AsyncAPI specification, SDK, or developer API platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nve/refs/heads/main/screenshots/nve-2026-08-07T185808.png",
@@ -43295,7 +43475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 950
+     "rank": 954
     },
     {
      "name": "Amodo",
@@ -43345,7 +43525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 951
+     "rank": 955
     },
     {
      "name": "Aeroscout",
@@ -43395,7 +43575,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 952
+     "rank": 956
     },
     {
      "name": "Atlas Wearables",
@@ -43446,7 +43626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 953
+     "rank": 957
     },
     {
      "name": "Calibra Medical",
@@ -43495,7 +43675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 954
+     "rank": 958
     },
     {
      "name": "Corventis",
@@ -43544,7 +43724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 955
+     "rank": 959
     },
     {
      "name": "Kumu Networks",
@@ -43593,7 +43773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 956
+     "rank": 960
     },
     {
      "name": "Millennial Fox",
@@ -43642,7 +43822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 957
+     "rank": 961
     },
     {
      "name": "Nova Metrix",
@@ -43692,7 +43872,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 958
+     "rank": 962
     },
     {
      "name": "Playbrush",
@@ -43742,7 +43922,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 959
+     "rank": 963
     },
     {
      "name": "Echelon",
@@ -43793,10 +43973,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 960
+     "rank": 964
     },
     {
-     "name": "In Charge One, Inc.",
+     "name": "In Charge One",
      "slug": "in-charge-one-inc",
      "description": "In Charge One, Inc. is a hardware startup behind \"Socket to Pocket,\" a paid charging system for electronic devices in public spaces. The device lets visitors charge smartphones, laptops, drones, e-bikes, and scooters at cafes, shops, clinics, stadiums, airports, and other venues by tapping a card and paying for access, while venue owners monetize the outlet and earn a commission per plugged socket. It ships in wall-mounted, extension-cord, and anti-vandal street versions. Founded in 2023 by Danylo (Daniel) Tonkopii, co-founder of Delfast electric bikes, and Andriy Zinchuk, the company is based in Los Angeles, California and was developed by Ukrainian engineers. It is a consumer/commercial hardware and payments business, not an API provider: no public API, developer portal, or documentation surface has been published, and its incharge.one domain is currently non-resolving and in registrar redemption/pending-delete status. This profile was surfaced as a portfolio company of 500 Global and is retained as an identity record.",
      "score": 2.1,
@@ -43842,7 +44022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 961
+     "rank": 965
     },
     {
      "name": "Silver Spring Networks *",
@@ -43893,7 +44073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 962
+     "rank": 966
     }
    ]
   },
@@ -43909,7 +44089,7 @@
      "name": "99degrees Custom",
      "slug": "99degreescustom",
      "description": "99Degrees (99Degrees Custom, Inc.) is a Lawrence, Massachusetts contract apparel manufacturer founded in 2013 by Brenna Nan Schneider, operating out of the historic Everett Mills. It produces performance activewear, workwear, uniforms and technology-integrated apparel for global and growth-stage brands, and runs an R&D operation focused on Design for Manufacturing, rapid prototyping and applied research — including integrating sensors, electronics, robotics and hardware into textiles for wearable medical and industrial safety products. During the COVID-19 pandemic it pivoted its Lawrence floor to medical gowns and PPE. The company raised roughly $2.35M across four rounds, won the MIT Inclusive Innovation Competition top prize and MassChallenge's $100k Diamond Prize, and entered a manufacturing partnership with Reliable Source Industrial. 99Degrees is a physical-goods manufacturer, not a software company: no source, live or archived, shows it ever published a developer program, public API, SDK, webhook surface or machine-readable specification. Its canonical host 99degreescustom.com lapsed and was re-registered by a domain broker on 2026-05-24; it now serves a \"for sale\" parking lander and is deliberately not wired as a Website pointer. This profile is retained as a historical record — there is no API surface to catalog.",
-     "rank": 963
+     "rank": 967
     }
    ]
   }

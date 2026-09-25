@@ -269,7 +269,7 @@ modified: '2026-08-13'
 name: NeverBounce
 nav: Providers
 network: true
-overview: 'NeverBounce publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Jobs API, Single API, and 1 more. Tagged areas include Email Verification, Email Validation, Email Hygiene, Deliverability, and Marketing.
+overview: 'NeverBounce publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Jobs API, Single API, and 1 more. Tagged areas include Email Verification, Email Hygiene, Deliverability, Marketing, and List Cleaning.
 
 
   The NeverBounce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -333,12 +333,12 @@ security:
 slug: neverbounce
 tags:
 - Email Verification
-- Email Validation
 - Email Hygiene
 - Deliverability
 - Marketing
 - List Cleaning
 - Data Quality
 - ZoomInfo
+- Email
 website: https://www.neverbounce.com
 ---

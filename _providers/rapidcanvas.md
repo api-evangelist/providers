@@ -148,7 +148,7 @@ modified: '2026-07-20'
 name: RapidCanvas
 nav: Providers
 network: true
-overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Agentic AI, and Data Science.
+overview: 'RapidCanvas publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Agents, and Data Science.
 
 
   RapidCanvas'' developer surface includes documentation, getting-started guide, pricing, engineering blog, signup flow, support, changelog, and 15 more developer resources.'
@@ -203,7 +203,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Learning
-- Agentic AI
+- AI Agents
 - Data Science
 - MLOps
 - Enterprise AI

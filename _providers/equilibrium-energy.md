@@ -87,7 +87,7 @@ modified: '2026-07-19'
 name: Equilibrium Energy
 nav: Providers
 network: true
-overview: 'Equilibrium Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Power, Artificial Intelligence, and Agentic AI.
+overview: 'Equilibrium Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Power, Artificial Intelligence, and AI Agents.
 
 
   Equilibrium Energy''s developer surface includes engineering blog, support, and 8 more developer resources.'
@@ -136,7 +136,7 @@ tags:
 - Energy
 - Power
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Energy Trading
 - Forecasting
 - Optimization

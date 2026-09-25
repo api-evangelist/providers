@@ -99,13 +99,13 @@ description: 'Advancechip Technology (Hunan) Co., Ltd. — 进芯科技（湖南
 image: https://oss-usa.jingwxcx.com/jxdzkj/upload_files/2025/10/14/9d78c00f818c49a3a65c1ff0f8d3830e.png
 layout: provider
 modified: '2026-09-07'
-name: Advancechip Technology (Hunan) Co., Ltd.
+name: Advancechip
 nav: Providers
 network: true
-overview: 'Advancechip Technology (Hunan) Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Integrated Circuits, Digital Signal Processing, and Embedded Systems.
+overview: 'Advancechip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Integrated Circuits, Digital Signal Processing, and Embedded Systems.
 
 
-  Advancechip Technology (Hunan) Co., Ltd.''s developer surface includes support, product news, and 9 more developer resources.'
+  Advancechip''s developer surface includes support, product news, and 9 more developer resources.'
 random_paper: 20
 score:
   band: minimal

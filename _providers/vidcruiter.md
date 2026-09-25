@@ -71,7 +71,7 @@ modified: '2026-07-25'
 name: VidCruiter
 nav: Providers
 network: true
-overview: 'VidCruiter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, Video Interviewing, Hiring, Human Resources, and Applicant Tracking.
+overview: 'VidCruiter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, Video Interviewing, Hiring, Human Resources, and Applicant Tracking.
 
 
   VidCruiter''s developer surface includes documentation and 4 more developer resources.'
@@ -114,7 +114,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: vidcruiter
 tags:
-- Recruitment
+- Recruiting
 - Video Interviewing
 - Hiring
 - Human Resources

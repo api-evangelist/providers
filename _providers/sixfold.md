@@ -162,7 +162,7 @@ tags:
 - Risk Assessment
 - Submission Triage
 - Document Processing
-- Agentic AI
+- AI Agents
 - Enterprise Saas
 website: https://www.sixfold.ai
 ---

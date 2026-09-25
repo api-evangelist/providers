@@ -223,16 +223,16 @@ image: https://emem.dev/logo.png
 layout: provider
 mcp_servers:
 - description: ''
-  name: Vortx AI Private Limited MCP Server
-  slug: vortx-ai-private-limited-mcp-server
+  name: emem MCP Server
+  slug: emem-mcp-server
 modified: '2026-09-19'
-name: Vortx AI Private Limited
+name: emem
 nav: Providers
 network: true
-overview: 'Vortx AI Private Limited publishes 1 API on the [APIs.io](https://apis.io/) network: emem REST API. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Memory, and Geospatial.
+overview: 'emem publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Memory, and Geospatial.
 
 
-  Vortx AI Private Limited''s developer surface includes authentication, documentation, API reference, getting-started guide, support, GitHub presence, changelog, and 31 more developer resources.'
+  emem''s developer surface includes authentication, documentation, API reference, getting-started guide, support, GitHub presence, changelog, and 31 more developer resources.'
 plans:
 - name: Emem Dev Plans Pricing
   plan_count: 2

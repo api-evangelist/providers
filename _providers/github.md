@@ -49,46 +49,232 @@ apis:
   baseurl_source: declared
   description: The GitHub Gists API lets you programmatically manage gistslightweight code snippets and notesover HTTP. You can create gists (public or secret/unlisted), read individual gists, list public gists, you
   name: GitHub Gists API
+  phrasing_intents:
+  - id: gists/list
+    intent: List my gists
+    question: Which gists have I created?
+  - id: gists/create
+    intent: Create a gist
+    question: How do I share a code snippet as a new gist?
+  - id: gists/list-public
+    intent: List recent public gists from everyone
+    question: What public gists have people shared most recently?
+  - id: gists/list-starred
+    intent: List gists I've starred
+    question: Which gists have I starred?
+  - id: gists/get
+    intent: Get a gist and its files
+    question: What files and content are inside a particular gist?
+  - id: gists/update
+    intent: Update a gist's description or files
+    question: Can I edit the files in a gist I already posted?
+  - id: gists/delete
+    intent: Delete a gist
+    question: How do I delete a gist I no longer need?
+  - id: gists/list-comments
+    intent: List comments on a gist
+    question: What have people commented on a gist?
+  phrasing_ops: 20
   slug: github-gists-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Issues API lets you programmatically manage issue tracking on GitHub, enabling you to list and filter issues across repositories, create and edit issues, change their state (open/closed), a
   name: GitHub Issues API
+  phrasing_intents:
+  - id: issues/list
+    intent: List my issues across every repository I can see
+    question: What issues are assigned to me across all my repos, including organization repositories?
+  - id: issues/list-for-org
+    intent: List my issues in one organization
+    question: Which issues in a single organization are assigned to me?
+  - id: issues/list-assignees
+    intent: List who can be assigned issues in a repository
+    question: Who are the available assignees for issues in a repository?
+  - id: issues/check-user-can-be-assigned
+    intent: Check if a user can be assigned issues in a repo
+    question: Does a given user have permission to be assigned issues in this repository at all?
+  - id: issues/list-for-repo
+    intent: List issues in a repository
+    question: How do I list the open issues in one specific repository?
+  - id: issues/create
+    intent: Open a new issue in a repository
+    question: How do I file a new issue in a repository through the API?
+  - id: issues/list-comments-for-repo
+    intent: List issue comments across a whole repository
+    question: What comments have been left on issues and pull requests across an entire repository?
+  - id: issues/get-comment
+    intent: Get one issue comment by its id
+    question: How can I look up a single issue comment when I only have its comment id?
+  phrasing_ops: 40
   slug: github-issues-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Licenses API lets you programmatically discover and retrieve open source license information across GitHub. It provides endpoints to list the common licenses GitHub supports, get detailed m
   name: GitHub Licenses API
+  phrasing_intents:
+  - id: licenses/get-all-commonly-used
+    intent: List commonly used open source licenses
+    question: Which open source licenses are most commonly used on GitHub?
+  - id: licenses/get
+    intent: Get the details of one license
+    question: What permissions, conditions and limitations does a specific license like MIT carry?
+  - id: licenses/get-for-repo
+    intent: Get a repository's license
+    question: Which license does a particular repository use?
+  phrasing_ops: 3
   slug: github-licenses-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Markdown API is a REST service that converts Markdownespecially GitHub Flavored Markdowninto the same HTML GitHub renders in READMEs, issues, and pull requests, so external apps can display
   name: GitHub Markdown API
+  phrasing_intents:
+  - id: markdown/render
+    intent: Render Markdown to HTML
+    question: How do I turn Markdown into HTML the same way GitHub displays it?
+  - id: markdown/render-raw
+    intent: Render plain-text Markdown like a README
+    question: Can I send Markdown as plain text instead of JSON and get HTML back?
+  phrasing_ops: 2
   slug: github-markdown-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: Use the REST API to get meta information about GitHub, including the IP addresses of GitHub services.
   name: GitHub Meta API
+  phrasing_intents:
+  - id: meta/root
+    intent: Discover the API's top-level resource links
+    question: What resource URLs does the REST API root advertise?
+  - id: meta/get
+    intent: Get server meta information
+    question: What meta information does my GitHub Enterprise Server instance publish about itself?
+  - id: meta/get-octocat
+    intent: Get the Octocat as ASCII art
+    question: Can I get the Octocat drawn as ASCII art with my own message in a speech bubble?
+  - id: meta/get-zen
+    intent: Get a random Zen of GitHub saying
+    question: What's a random line from the Zen of GitHub?
+  phrasing_ops: 4
   slug: github-meta-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Projects API enables developers to programmatically create and manage GitHub Projects, which are flexible tools for planning and tracking work using customizable boards, tables, and roadmap
   name: GitHub Projects API
+  phrasing_intents:
+  - id: projects/list-for-org
+    intent: List an organization's project boards
+    question: Which classic project boards does an organization have?
+  - id: projects/create-for-org
+    intent: Create an organization project board
+    question: How do I create a new project board owned by an organization?
+  - id: projects/get-card
+    intent: Get a project card
+    question: What's on a specific project card, and which column is it in?
+  - id: projects/update-card
+    intent: Edit or archive a project card
+    question: How do I archive a project card without deleting it?
+  - id: projects/delete-card
+    intent: Delete a project card
+    question: Can I permanently remove a card from a project board instead of archiving it?
+  - id: projects/move-card
+    intent: Move a card within or between project columns
+    question: How do I move a project card to the top or bottom of a column?
+  - id: projects/get-column
+    intent: Get a project column
+    question: What are the details of a specific column on a project board?
+  - id: projects/update-column
+    intent: Rename a project column
+    question: How do I rename a column on a project board?
+  phrasing_ops: 25
   slug: github-projects-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Repos API is a set of REST endpoints that let you programmatically create, read, update, and delete repositories and their resources, giving you control over a repos lifecycle and configura
   name: GitHub Repos API
+  phrasing_intents:
+  - id: repos/list-for-org
+    intent: List an organization's repositories
+    question: What repositories does my GitHub organization own?
+  - id: repos/create-in-org
+    intent: Create a repository in an organization
+    question: How do I create a new repository under my organization rather than my personal account?
+  - id: repos/get
+    intent: Get a repository's details
+    question: Where can I see a repository's default branch, visibility and settings?
+  - id: repos/update
+    intent: Update a repository's settings
+    question: Can I rename a repository or change its description through the API?
+  - id: repos/delete
+    intent: Delete a repository
+    question: How do I permanently delete a GitHub repository?
+  - id: repos/list-autolinks
+    intent: List a repository's autolinks
+    question: Which autolink references are configured on my repository?
+  - id: repos/create-autolink
+    intent: Create an autolink reference
+    question: How do I make ticket IDs like JIRA-123 in commits link to our tracker automatically?
+  - id: repos/get-autolink
+    intent: Get one autolink reference
+    question: What URL template does a specific autolink use?
+  phrasing_ops: 163
   slug: github-repos-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Search API lets you programmatically find and filter content across GitHubincluding repositories, code, issues and pull requests, commits, users, topics, and labelsusing a powerful query la
   name: GitHub Search API
+  phrasing_intents:
+  - id: search/code
+    intent: Search for code inside files
+    question: How do I find where a function is defined across GitHub repositories?
+  - id: search/commits
+    intent: Search commits on default branches
+    question: How can I find commits whose message mentions a bug number?
+  - id: search/issues-and-pull-requests
+    intent: Search issues and pull requests
+    question: How do I find open issues mentioning a keyword across repositories?
+  - id: search/labels
+    intent: Search labels in a repository
+    question: How do I find issue labels in one repository by name or description?
+  - id: search/repos
+    intent: Search repositories
+    question: What are the most-starred repositories for a given topic or language?
+  - id: search/topics
+    intent: Search repository topics
+    question: Which repository topics exist that relate to a keyword?
+  - id: search/users
+    intent: Search users
+    question: How do I find GitHub users by login, name or public email?
+  phrasing_ops: 7
   slug: github-search-api
 - baseURL: https://api.github.com/
   baseurl_source: declared
   description: The GitHub Users API (part of the REST API) lets applications read and, for the authenticated account, manage user-related data on GitHub. It can fetch public profiles for any user or the authenticate
   name: GitHub User API
+  phrasing_intents:
+  - id: users/get-authenticated
+    intent: Get my own account profile
+    question: Who am I signed in as, according to the token I'm using?
+  - id: users/update-authenticated
+    intent: Update my own profile
+    question: Can I change my display name, bio or location on my profile through the API?
+  - id: users/list-emails-for-authenticated-user
+    intent: List all email addresses on my account
+    question: Which email addresses are attached to my account, and which one is public?
+  - id: users/add-email-for-authenticated-user
+    intent: Add an email address to my account
+    question: How do I add another email address to my account?
+  - id: users/delete-email-for-authenticated-user
+    intent: Remove an email address from my account
+    question: Can I remove an old email address from my account?
+  - id: users/list-followers-for-authenticated-user
+    intent: List my followers
+    question: Who follows me?
+  - id: users/list-followed-by-authenticated-user
+    intent: List the people I follow
+    question: Which accounts am I following?
+  - id: users/check-person-is-followed-by-authenticated
+    intent: Check if I follow a user
+    question: Am I already following a particular user?
+  phrasing_ops: 36
   slug: github-user-api
 - description: 'The GitHub Deployments API lets you create and manage deployments and deployment statuses for repositories. Deployments are requests to deploy a specific ref (branch, SHA, tag) to an environment, and '
   name: GitHub Deployments API
@@ -157,121 +343,589 @@ apis:
   baseurl_source: declared
   description: Endpoints to manage GitHub Actions using the REST API.
   name: GitHub Actions API
+  phrasing_intents:
+  - id: actions/get-actions-cache-usage-for-enterprise
+    intent: Check Actions cache usage for an enterprise
+    question: How much GitHub Actions cache storage is my whole enterprise using right now?
+  - id: actions/get-actions-cache-usage-policy-for-enterprise
+    intent: Get the enterprise Actions cache size policy
+    question: What cache size limit do repos in my enterprise get for GitHub Actions by default?
+  - id: actions/set-actions-cache-usage-policy-for-enterprise
+    intent: Set the enterprise Actions cache size policy
+    question: Can I raise the default Actions cache size limit for every repo in my enterprise?
+  - id: actions/get-github-actions-default-workflow-permissions-enterprise
+    intent: Get default GITHUB_TOKEN permissions for an enterprise
+    question: What permissions does GITHUB_TOKEN get by default in workflows across my enterprise?
+  - id: actions/set-github-actions-default-workflow-permissions-enterprise
+    intent: Set default GITHUB_TOKEN permissions for an enterprise
+    question: Can I make GITHUB_TOKEN read-only by default for every workflow in my enterprise?
+  - id: actions/get-actions-cache-usage-for-org
+    intent: Check Actions cache usage for an organization
+    question: How much Actions cache storage is my organization using in total?
+  - id: actions/get-actions-cache-usage-by-repo-for-org
+    intent: List repos by Actions cache usage in an org
+    question: Which repositories in my organization are using the most Actions cache?
+  - id: actions/get-github-actions-permissions-organization
+    intent: Get the Actions permissions policy for an org
+    question: Which repositories in my organization are allowed to run GitHub Actions?
+  phrasing_ops: 137
   slug: github-actions-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Activity API from GitHub — 25 operation(s) for activity.
   name: GitHub Activity API
+  phrasing_intents:
+  - id: activity/list-public-events
+    intent: List recent public events across the server
+    question: What public activity is happening across the whole GitHub instance right now?
+  - id: activity/get-feeds
+    intent: List the Atom feeds available to me
+    question: Which Atom timeline feeds can I subscribe to as the signed-in user?
+  - id: activity/list-public-events-for-repo-network
+    intent: List public events for a repository's fork network
+    question: What public activity is happening across a repository and all of its forks?
+  - id: activity/list-notifications-for-authenticated-user
+    intent: List my notifications
+    question: What unread notifications do I have across all my repositories?
+  - id: activity/mark-notifications-as-read
+    intent: Mark all my notifications as read
+    question: How do I clear every notification in my inbox at once?
+  - id: activity/get-thread
+    intent: Get one notification thread
+    question: What is a particular notification thread about and why did I get it?
+  - id: activity/mark-thread-as-read
+    intent: Mark one notification thread as read
+    question: Can I mark just a single notification as read without clearing the rest?
+  - id: activity/get-thread-subscription-for-authenticated-user
+    intent: Check my subscription to a notification thread
+    question: Am I subscribed to a given notification thread, or have I ignored it?
+  phrasing_ops: 31
   slug: github-activity-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Apps API from GitHub — 23 operation(s) for apps.
   name: GitHub Apps API
+  phrasing_intents:
+  - id: apps/get-authenticated
+    intent: Get the GitHub App I'm authenticated as
+    question: Which GitHub App do my current JWT credentials belong to?
+  - id: apps/create-from-manifest
+    intent: Finish creating an app from a manifest
+    question: How do I complete the app manifest flow after the user is redirected back with a code?
+  - id: apps/get-webhook-config-for-app
+    intent: View my app's webhook configuration
+    question: Where is my app sending its webhook payloads?
+  - id: apps/update-webhook-config-for-app
+    intent: Change my app's webhook settings
+    question: Can I point my app's webhook at a new URL?
+  - id: apps/list-webhook-deliveries
+    intent: List my app's webhook deliveries
+    question: Which webhook deliveries has my app sent recently?
+  - id: apps/get-webhook-delivery
+    intent: Inspect one webhook delivery for my app
+    question: What request and response were recorded for one of my app's webhook deliveries?
+  - id: apps/redeliver-webhook-delivery
+    intent: Redeliver a webhook from my app
+    question: Can I resend a webhook my app already delivered once?
+  - id: apps/list-installation-requests-for-authenticated-app
+    intent: List pending installation requests for my app
+    question: Who has asked to install my app but is still waiting for approval?
+  phrasing_ops: 29
   slug: github-apps-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The GitHub Billing API lets you view billing and usage information for organizations and enterprises, including Actions minutes, Packages storage and data transfer, Codespaces usage, and shared storag
   name: GitHub Billing API
+  phrasing_intents:
+  - id: billing/get-github-advanced-security-billing-ghe
+    intent: Get Advanced Security committers for an enterprise
+    question: How many Advanced Security seats is our whole enterprise consuming?
+  - id: billing/get-github-advanced-security-billing-org
+    intent: Get Advanced Security committers for an org
+    question: How many Advanced Security seats is my organization using?
+  phrasing_ops: 2
   slug: github-billing-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: 'The GitHub Checks API lets you create and manage check runs and check suites that report detailed status, annotations, and results for commits. It enables CI/CD tools and integrations to report build '
   name: GitHub Checks API
+  phrasing_intents:
+  - id: checks/create
+    intent: Create a check run for a commit
+    question: How does my app report a CI result against a specific commit?
+  - id: checks/get
+    intent: Get a check run
+    question: What's the status and conclusion of a specific check run?
+  - id: checks/update
+    intent: Update or complete a check run
+    question: How do I mark an in-progress check run as completed with a conclusion?
+  - id: checks/list-annotations
+    intent: List annotations on a check run
+    question: What line-level warnings or failures did a check run annotate?
+  - id: checks/rerequest-run
+    intent: Re-run a single check run
+    question: Can I re-run one failed check without pushing new code?
+  - id: checks/create-suite
+    intent: Create a check suite manually
+    question: When would I need to create a check suite by hand instead of letting it happen automatically?
+  - id: checks/set-suites-preferences
+    intent: Change automatic check suite creation for a repo
+    question: Can I stop check suites from being created automatically on every push?
+  - id: checks/get-suite
+    intent: Get a check suite
+    question: What's the overall status and conclusion of a check suite?
+  phrasing_ops: 12
   slug: github-checks-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Retrieve code scanning alerts from a repository.
   name: GitHub Code-Scanning API
+  phrasing_intents:
+  - id: code-scanning/list-alerts-for-enterprise
+    intent: List code scanning alerts across an enterprise
+    question: What code scanning alerts are open across every organization in our enterprise?
+  - id: code-scanning/list-alerts-for-org
+    intent: List code scanning alerts across an organization
+    question: Which repositories in our organization have critical code scanning alerts on the default branch?
+  - id: code-scanning/list-alerts-for-repo
+    intent: List code scanning alerts in a repository
+    question: What code scanning alerts does a repository have right now?
+  - id: code-scanning/get-alert
+    intent: Get one code scanning alert
+    question: What rule triggered a specific code scanning alert and where in the code is it?
+  - id: code-scanning/update-alert
+    intent: Dismiss or reopen a code scanning alert
+    question: How do I dismiss a code scanning alert as a false positive?
+  - id: code-scanning/list-alert-instances
+    intent: List where a code scanning alert occurs
+    question: On which branches and files does a single code scanning alert show up?
+  - id: code-scanning/list-recent-analyses
+    intent: List code scanning analyses for a repository
+    question: When did code scanning last analyze my repository, and with which tool?
+  - id: code-scanning/get-analysis
+    intent: Get one code scanning analysis
+    question: What did a single code scanning analysis find, and can I download it as SARIF?
+  phrasing_ops: 13
   slug: github-code-scanning-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Codes-Of-Conduct API from GitHub — 2 operation(s) for codes-of-conduct.
   name: GitHub Codes-Of-Conduct API
+  phrasing_intents:
+  - id: codes-of-conduct/get-all-codes-of-conduct
+    intent: List all available codes of conduct
+    question: Which codes of conduct does GitHub offer for projects?
+  - id: codes-of-conduct/get-conduct-code
+    intent: Get a single code of conduct by key
+    question: What does the full text of the Contributor Covenant code of conduct say?
+  phrasing_ops: 2
   slug: github-codes-of-conduct-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Endpoints to manage Dependabot.
   name: GitHub Dependabot API
+  phrasing_intents:
+  - id: dependabot/list-alerts-for-enterprise
+    intent: List Dependabot alerts across an enterprise
+    question: Which vulnerable dependencies are open across every repo in our enterprise?
+  - id: dependabot/list-alerts-for-org
+    intent: List Dependabot alerts for an organization
+    question: What Dependabot security alerts are open across my organization's repos?
+  - id: dependabot/list-org-secrets
+    intent: List an organization's Dependabot secrets
+    question: What Dependabot secrets has my organization defined?
+  - id: dependabot/get-org-public-key
+    intent: Get the org key for encrypting Dependabot secrets
+    question: Which public key do I encrypt an organization Dependabot secret with?
+  - id: dependabot/get-org-secret
+    intent: Get one organization Dependabot secret
+    question: When was an org Dependabot secret last updated and who can use it?
+  - id: dependabot/create-or-update-org-secret
+    intent: Create or update an org Dependabot secret
+    question: How do I add a private registry token as a Dependabot secret for my whole org?
+  - id: dependabot/delete-org-secret
+    intent: Delete an organization Dependabot secret
+    question: How can I remove an organization-level Dependabot secret?
+  - id: dependabot/list-selected-repos-for-org-secret
+    intent: List repos allowed to use an org Dependabot secret
+    question: Which repositories can use an org Dependabot secret set to selected visibility?
+  phrasing_ops: 19
   slug: github-dependabot-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The GitHub Dependency Graph API lets you view and submit dependency information for a repository. It provides endpoints to export the software bill of materials (SBOM) for a repository and to submit d
   name: GitHub Dependency Graph API
+  phrasing_intents:
+  - id: dependency-graph/diff-range
+    intent: Compare dependency changes between two commits
+    question: Which dependencies were added or removed between two commits in my repo?
+  - id: dependency-graph/export-sbom
+    intent: Export a repository's SBOM
+    question: How do I get a software bill of materials for my GitHub repository?
+  - id: dependency-graph/create-repository-snapshot
+    intent: Submit a dependency snapshot for a repository
+    question: How do I submit dependencies my build detected to the dependency graph?
+  phrasing_ops: 3
   slug: github-dependency-graph-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Emojis API from GitHub — 1 operation(s) for emojis.
   name: GitHub Emojis API
+  phrasing_intents:
+  - id: emojis/get
+    intent: List the emojis available to use
+    question: Which emoji shortcodes can I use in issues and comments on my Enterprise Server?
+  phrasing_ops: 1
   slug: github-emojis-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Enterprise Administration
   name: GitHub Enterprise-Admin API
+  phrasing_intents:
+  - id: enterprise-admin/list-global-webhooks
+    intent: List global webhooks on the instance
+    question: Which global webhooks are configured on our GitHub Enterprise Server instance?
+  - id: enterprise-admin/create-global-webhook
+    intent: Create a global webhook
+    question: How do I set up an instance-wide webhook that fires on user and organization events?
+  - id: enterprise-admin/get-global-webhook
+    intent: Get a global webhook's details
+    question: What events and delivery URL is a particular global webhook configured with?
+  - id: enterprise-admin/update-global-webhook
+    intent: Update a global webhook
+    question: How do I change which events an existing global webhook listens to?
+  - id: enterprise-admin/delete-global-webhook
+    intent: Delete a global webhook
+    question: How do I remove an instance-wide webhook we no longer use?
+  - id: enterprise-admin/ping-global-webhook
+    intent: Send a test ping to a global webhook
+    question: How can I test that a global webhook's endpoint is receiving deliveries?
+  - id: enterprise-admin/list-public-keys
+    intent: List SSH public keys across the instance
+    question: Which user SSH public keys exist on our enterprise instance?
+  - id: enterprise-admin/delete-public-key
+    intent: Delete a user's SSH public key
+    question: As a site admin, how do I revoke a compromised SSH public key for a user?
+  phrasing_ops: 121
   slug: github-enterprise-admin-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Enterprise-Admin - Scim API from GitHub — 1 operation(s) for enterprise-admin - scim.
   name: GitHub Enterprise-Admin - Scim API
+  phrasing_intents:
+  - id: enterprise-admin/list-provisioned-groups-enterprise
+    intent: List SCIM-provisioned groups in an enterprise
+    question: Which groups has our identity provider provisioned into the enterprise over SCIM?
+  phrasing_ops: 1
   slug: github-enterprise-admin-scim-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Raw Git functionality.
   name: GitHub Git API
+  phrasing_intents:
+  - id: git/create-blob
+    intent: Create a Git blob in a repository
+    question: How do I upload raw file content as a Git blob without cloning the repo?
+  - id: git/get-blob
+    intent: Get a Git blob by its SHA
+    question: How can I read a file's contents from the Git database by its blob SHA?
+  - id: git/create-commit
+    intent: Create a Git commit object
+    question: How do I create a commit directly through the Git database from a tree SHA?
+  - id: git/get-commit
+    intent: Get a Git commit object by SHA
+    question: How do I look up the raw Git commit object, including its tree and parents, for a SHA?
+  - id: git/list-matching-refs
+    intent: List Git references matching a prefix
+    question: How do I find all branches whose names start with feature/?
+  - id: git/get-ref
+    intent: Get a single Git reference
+    question: What commit SHA does a specific branch point to right now?
+  - id: git/create-ref
+    intent: Create a branch or tag reference
+    question: How do I create a new branch from a commit SHA through the API?
+  - id: git/update-ref
+    intent: Move a reference to a new commit
+    question: How do I point an existing branch at a different commit?
+  phrasing_ops: 13
   slug: github-git-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Gitignore API from GitHub — 2 operation(s) for gitignore.
   name: GitHub Gitignore API
+  phrasing_intents:
+  - id: gitignore/get-all-templates
+    intent: List available gitignore templates
+    question: Which .gitignore templates can I choose from when creating a GitHub repository?
+  - id: gitignore/get-template
+    intent: Get the contents of a gitignore template
+    question: What does the Python .gitignore template actually contain?
+  phrasing_ops: 2
   slug: github-gitignore-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The GitHub Migrations API lets you migrate data to and from GitHub. It supports organization migrations that export repositories and metadata as downloadable archives, source imports that convert repo
   name: GitHub Migrations API
+  phrasing_intents:
+  - id: migrations/list-for-org
+    intent: List an organization's recent migrations
+    question: What migrations have been run for my organization recently, exports and imports alike?
+  - id: migrations/start-for-org
+    intent: Start an organization migration export
+    question: How do I export several of my organization's repositories into a migration archive?
+  - id: migrations/get-status-for-org
+    intent: Check an organization migration's status
+    question: Has my organization's migration export finished yet, or is it still exporting?
+  - id: migrations/download-archive-for-org
+    intent: Download an organization migration archive
+    question: Where do I download the archive once my organization migration is exported?
+  - id: migrations/delete-archive-for-org
+    intent: Delete an organization migration archive
+    question: Can I delete an organization migration archive before the seven-day automatic cleanup?
+  - id: migrations/unlock-repo-for-org
+    intent: Unlock a repository locked for migration
+    question: My repository is still locked after an organization migration; how do I unlock it?
+  - id: migrations/list-repos-for-org
+    intent: List repositories in an organization migration
+    question: Which repositories are included in a given organization migration?
+  - id: migrations/list-for-authenticated-user
+    intent: List my user migrations
+    question: What personal account migrations have I started?
+  phrasing_ops: 11
   slug: github-migrations-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: OAuth Authorizations API
   name: GitHub Oauth-Authorizations API
+  phrasing_intents:
+  - id: oauth-authorizations/list-grants
+    intent: List the OAuth apps I've granted access
+    question: Which OAuth applications have I granted access to my account?
+  - id: oauth-authorizations/get-grant
+    intent: Get one OAuth grant
+    question: What scopes did I grant a particular OAuth app?
+  - id: oauth-authorizations/delete-grant
+    intent: Revoke an OAuth grant and its tokens
+    question: How do I cut off an OAuth app's access to my account entirely?
+  - id: oauth-authorizations/list-authorizations
+    intent: List my OAuth authorizations
+    question: What OAuth tokens and authorizations exist on my account?
+  - id: oauth-authorizations/create-authorization
+    intent: Create a new OAuth authorization (deprecated)
+    question: Can I still create a personal token through the OAuth Authorizations API?
+  - id: oauth-authorizations/get-or-create-authorization-for-app
+    intent: Get or create an authorization for an OAuth app
+    question: Can I reuse an existing authorization for an OAuth app instead of making a duplicate?
+  - id: oauth-authorizations/get-or-create-authorization-for-app-and-fingerprint
+    intent: Get or create an app authorization by fingerprint
+    question: Can I keep separate authorizations for the same app per device using a fingerprint?
+  - id: oauth-authorizations/get-authorization
+    intent: Get one OAuth authorization
+    question: What scopes and note are attached to one of my authorizations?
+  phrasing_ops: 10
   slug: github-oauth-authorizations-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Oidc API from GitHub — 1 operation(s) for oidc.
   name: GitHub Oidc API
+  phrasing_intents:
+  - id: oidc/get-oidc-custom-sub-template-for-org
+    intent: Get an org's OIDC subject claim template
+    question: Which claim keys make up the OIDC subject claim for my organization's Actions tokens?
+  - id: oidc/update-oidc-custom-sub-template-for-org
+    intent: Set an org's OIDC subject claim template
+    question: Can I change which claims go into the OIDC subject claim for my org's workflows?
+  phrasing_ops: 2
   slug: github-oidc-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Orgs API from GitHub — 30 operation(s) for orgs.
   name: GitHub Orgs API
+  phrasing_intents:
+  - id: orgs/list
+    intent: List every organization on the server
+    question: Can I get a list of all organizations on our GitHub Enterprise Server in the order they were created?
+  - id: orgs/list-custom-roles
+    intent: List custom repository roles (deprecated, by org ID)
+    question: Is there an older endpoint that lists an organization's custom repository roles by numeric organization ID?
+  - id: orgs/get
+    intent: Get an organization's profile and settings
+    question: What details can I pull about a GitHub organization, like its plan, billing email and settings?
+  - id: orgs/update
+    intent: Update an organization's profile and settings
+    question: How do I change the billing email or public profile details of an organization?
+  - id: orgs/delete
+    intent: Delete an organization and all its repositories
+    question: What happens to the repositories when I delete a whole organization?
+  - id: announcement-banners/get-announcement-banner-for-org
+    intent: Get an organization's announcement banner
+    question: What announcement banner is currently showing to members of our organization?
+  - id: announcement-banners/set-announcement-banner-for-org
+    intent: Set an organization's announcement banner
+    question: Can I post a banner message that every member of my organization sees?
+  - id: announcement-banners/remove-announcement-banner-for-org
+    intent: Remove an organization's announcement banner
+    question: How do I take down the announcement banner from our organization?
+  phrasing_ops: 49
   slug: github-orgs-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The GitHub Packages API lets you manage packages and package versions in GitHub Packages, a software package hosting service that supports npm, Maven, Gradle, RubyGems, NuGet, Docker, and other packag
   name: GitHub Packages API
+  phrasing_intents:
+  - id: packages/list-docker-migration-conflicting-packages-for-organization
+    intent: List an org's packages that conflicted in Docker migration
+    question: Which of our organization's packages ran into a conflict when migrating from the Docker registry?
+  - id: packages/list-packages-for-organization
+    intent: List an organization's packages
+    question: What npm, Maven or container packages does our organization publish?
+  - id: packages/get-package-for-organization
+    intent: Get one package owned by an organization
+    question: What are the details of a specific package our organization publishes, like visibility and version count?
+  - id: packages/delete-package-for-org
+    intent: Delete an entire organization package
+    question: How do I delete a whole package, every version, from our organization?
+  - id: packages/restore-package-for-org
+    intent: Restore a deleted organization package
+    question: Can I bring back a package our organization deleted a couple of weeks ago?
+  - id: packages/get-all-package-versions-for-package-owned-by-org
+    intent: List versions of an organization package
+    question: Which versions of an organization's package have been published?
+  - id: packages/get-package-version-for-organization
+    intent: Get one version of an organization package
+    question: What are the details of one specific version of an org package, like its tags and creation date?
+  - id: packages/delete-package-version-for-org
+    intent: Delete one version of an organization package
+    question: Can I delete just one bad version of an org package and keep the rest?
+  phrasing_ops: 27
   slug: github-packages-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Interact with GitHub Pull Requests.
   name: GitHub Pulls API
+  phrasing_intents:
+  - id: pulls/list
+    intent: List pull requests in a repository
+    question: What pull requests are open in a repository right now?
+  - id: pulls/create
+    intent: Open a pull request
+    question: How do I open a pull request from my feature branch into main?
+  - id: pulls/list-review-comments-for-repo
+    intent: List review comments across all PRs in a repo
+    question: What line-level code review comments have been left across every pull request in a repository?
+  - id: pulls/get-review-comment
+    intent: Get one pull request review comment
+    question: What does a specific inline review comment on a pull request diff say?
+  - id: pulls/update-review-comment
+    intent: Edit a pull request review comment
+    question: Can I edit the text of an inline review comment on a pull request?
+  - id: pulls/delete-review-comment
+    intent: Delete a pull request review comment
+    question: Can I delete an inline code review comment I left on a pull request diff?
+  - id: pulls/get
+    intent: Get a pull request by number
+    question: What's the status, branches and mergeability of a specific pull request?
+  - id: pulls/update
+    intent: Edit, close or retarget a pull request
+    question: Can I change the base branch a pull request merges into?
+  phrasing_ops: 27
   slug: github-pulls-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Check your current rate limit status
   name: GitHub Rate-Limit API
+  phrasing_intents:
+  - id: rate-limit/get
+    intent: Check my remaining API rate limit
+    question: How many API requests do I have left before I get rate limited?
+  phrasing_ops: 1
   slug: github-rate-limit-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: 'The GitHub Reactions API lets you create, list, and delete emoji reactions on issues, pull requests, issue comments, pull request review comments, commit comments, release assets, and team discussion '
   name: GitHub Reactions API
+  phrasing_intents:
+  - id: reactions/list-for-team-discussion-comment-in-org
+    intent: List reactions on a team discussion comment
+    question: What emoji reactions has a reply on our team discussion received?
+  - id: reactions/create-for-team-discussion-comment-in-org
+    intent: React to a team discussion comment
+    question: How do I add an emoji reaction to a reply in a team discussion?
+  - id: reactions/delete-for-team-discussion-comment
+    intent: Remove a reaction from a team discussion comment
+    question: Can I take back an emoji reaction I left on a team discussion reply?
+  - id: reactions/list-for-team-discussion-in-org
+    intent: List reactions on a team discussion
+    question: How are people reacting to a discussion post on our team page?
+  - id: reactions/create-for-team-discussion-in-org
+    intent: React to a team discussion
+    question: Can I put an emoji reaction on a team discussion post itself?
+  - id: reactions/delete-for-team-discussion
+    intent: Remove a reaction from a team discussion
+    question: How can I remove a reaction I put on a team discussion post?
+  - id: reactions/list-for-commit-comment
+    intent: List reactions on a commit comment
+    question: What reactions has a comment on a commit gotten?
+  - id: reactions/create-for-commit-comment
+    intent: React to a commit comment
+    question: How do I add an emoji reaction to a comment on a commit?
+  phrasing_ops: 25
   slug: github-reactions-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The GitHub Secret Scanning API lets you retrieve and manage secret scanning alerts for repositories, organizations, and enterprises. Secret scanning detects tokens, keys, and other credentials acciden
   name: GitHub Secret Scanning API
+  phrasing_intents:
+  - id: secret-scanning/list-alerts-for-enterprise
+    intent: List leaked-secret alerts across an enterprise
+    question: Where have secrets been leaked across all the organizations in our enterprise?
+  - id: secret-scanning/list-alerts-for-org
+    intent: List leaked-secret alerts across an organization
+    question: Which repositories in our organization have exposed credentials that are still open?
+  - id: secret-scanning/list-alerts-for-repo
+    intent: List leaked-secret alerts in a repository
+    question: Has anyone committed an API key or token to this repository?
+  - id: secret-scanning/get-alert
+    intent: Get one secret scanning alert
+    question: What kind of secret triggered a specific alert, and has it been resolved?
+  - id: secret-scanning/update-alert
+    intent: Resolve or reopen a secret scanning alert
+    question: How do I close a secret scanning alert after I've rotated the leaked credential?
+  - id: secret-scanning/list-locations-for-alert
+    intent: List where a leaked secret was found
+    question: In which files and commits was a leaked secret found?
+  phrasing_ops: 6
   slug: github-secret-scanning-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Interact with GitHub Teams.
   name: GitHub Teams API
+  phrasing_intents:
+  - id: teams/external-idp-group-info-for-org
+    intent: Look up an external identity provider group
+    question: Which members and teams are tied to one of our external IdP groups?
+  - id: teams/list-external-idp-groups-for-org
+    intent: List external IdP groups in an organization
+    question: What external identity provider groups are available to my organization?
+  - id: teams/list
+    intent: List the teams in an organization
+    question: What teams exist in my organization?
+  - id: teams/create
+    intent: Create a team in an organization
+    question: How do I create a new team in my GitHub organization?
+  - id: teams/get-by-name
+    intent: Get a team by its slug
+    question: How can I look up a team's details from its slug?
+  - id: teams/update-in-org
+    intent: Update a team's settings
+    question: Can I rename an existing team or change its description?
+  - id: teams/delete-in-org
+    intent: Delete a team from an organization
+    question: What happens to child teams when I delete a parent team in my org?
+  - id: teams/list-discussions-in-org
+    intent: List discussions on a team's page
+    question: What discussions have been posted on my team's page?
+  phrasing_ops: 63
   slug: github-teams-api
 - baseURL: https://api.github.com
   baseurl_source: declared
@@ -4252,7 +4906,7 @@ score:
   band: exemplar
   composite: 77.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 74.5
     catalog_earned_first_party: 24.0
     catalog_gap: 40.5

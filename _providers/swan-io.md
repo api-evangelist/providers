@@ -135,7 +135,7 @@ modified: '2026-07-12'
 name: Swan
 nav: Providers
 network: true
-overview: 'Swan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Memberships API, Cards API, and 4 more. Tagged areas include Embedded Banking, Banking as a Service, Backend-as-a-Service, Payments, and Account.
+overview: 'Swan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Account Memberships API, Cards API, and 4 more. Tagged areas include Embedded Banking, Banking as a Service, Payments, Account, and Cards.
 
 
   Swan''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -204,7 +204,6 @@ slug: swan-io
 tags:
 - Embedded Banking
 - Banking as a Service
-- Backend-as-a-Service
 - Payments
 - Account
 - Cards
@@ -214,5 +213,6 @@ tags:
 - France
 - Fintech
 - GraphQL
+- Embedded Finance
 website: https://www.swan.io
 ---

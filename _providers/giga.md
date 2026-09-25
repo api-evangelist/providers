@@ -175,7 +175,6 @@ tags:
 - Customer Support
 - Conversational AI
 - Contact Center
-- Agentic AI
 - Enterprise
 website: https://giga.ai/
 ---

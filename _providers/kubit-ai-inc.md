@@ -195,13 +195,13 @@ mcp_servers:
   name: KubitMCP
   slug: kubitmcp
 modified: '2026-07-19'
-name: Kubit AI, Inc.
+name: Kubit AI
 nav: Providers
 network: true
-overview: 'Kubit AI, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Product Analytics, Data Warehouse, and LLM Observability.
+overview: 'Kubit AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Product Analytics, Data Warehouse, and LLM Observability.
 
 
-  Kubit AI, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 25 more developer resources.'
+  Kubit AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 25 more developer resources.'
 random_paper: 5
 scopes:
 - name: Kubit Ai Inc Scopes

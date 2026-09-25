@@ -184,7 +184,7 @@ modified: '2026-07-21'
 name: SecurityScorecard
 nav: Providers
 network: true
-overview: 'SecurityScorecard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cybersecurity, Security Ratings, and Third-Party Risk.
+overview: 'SecurityScorecard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Cybersecurity, Security Ratings, and Third-Party Risk Management.
 
 
   The SecurityScorecard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,7 +240,7 @@ tags:
 - Enterprise
 - Cybersecurity
 - Security Ratings
-- Third-Party Risk
+- Third-Party Risk Management
 - Risk Management
 - Attack Surface
 - Compliance

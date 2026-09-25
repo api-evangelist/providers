@@ -61,7 +61,7 @@ modified: '2026-07-20'
 name: Pariti
 nav: Providers
 network: true
-overview: Pariti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Talent Acquisition, Hiring, and Recruiting.
+overview: Pariti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, Hiring, and Artificial Intelligence.
 random_paper: 11
 score:
   band: minimal
@@ -98,10 +98,9 @@ security:
 slug: pariti
 tags:
 - Company
-- Recruitment
+- Recruiting
 - Talent Acquisition
 - Hiring
-- Recruiting
 - Artificial Intelligence
 - Human Resources
 website: https://pariti.io

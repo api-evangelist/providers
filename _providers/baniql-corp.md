@@ -50,10 +50,10 @@ description: BANIQL CORP. (BANiQL) is developing a sustainable process for selec
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baniql-corp.png
 layout: provider
 modified: '2026-07-18'
-name: BANIQL CORP.
+name: BANIQL
 nav: Providers
 network: true
-overview: BANIQL CORP. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cleantech, Battery Materials, Nickel, and Cobalt.
+overview: BANIQL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cleantech, Battery Materials, Nickel, and Cobalt.
 random_paper: 12
 score:
   band: minimal

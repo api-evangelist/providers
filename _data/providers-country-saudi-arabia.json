@@ -162,7 +162,7 @@
      "rank": 3
     },
     {
-     "name": "Lucidya Ltd",
+     "name": "Lucidya",
      "slug": "lucidya-ltd",
      "description": "Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png",
@@ -527,7 +527,7 @@
      "rank": 10
     },
     {
-     "name": "EdfaPay, Inc.",
+     "name": "EdfaPay",
      "slug": "edfapay-inc",
      "description": "EdfaPay is a Saudi fintech and payment-technology company offering a developer-friendly payment platform across the GCC region. Its products include a hosted Checkout and Server-to-Server (S2S) payment gateway, SoftPOS tap-to-pay technology that turns mobile devices into card readers, merchant onboarding, payouts, e-invoicing, and white-label solutions for banks and partners. The gateway supports Visa, Mastercard, MADA, Apple Pay and STC Pay with 3D Secure, webhooks, refunds and recurring payments, on PCI-DSS certified infrastructure. EdfaPay was added to the API Evangelist network as a portfolio company of 500 Global and enriched from its public developer documentation, OpenAPI definitions and SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png",
@@ -577,7 +577,7 @@
      "rank": 11
     },
     {
-     "name": "Oumla Ltd",
+     "name": "Oumla",
      "slug": "oumla-ltd",
      "description": "Oumla is a Saudi-based provider of enterprise-grade digital asset infrastructure for regulated institutions. Its Core API delivers MPC-based wallet and address management, portfolio and native-balance queries, on-chain transaction tracking, smart-contract templates plus deployment and read/write interactions, and tokenization (collections, issue, mint, burn) for tokenized securities, fund units, sukuk, and NFTs. Products span Digital Assets Infrastructure (custody, policy engines, lifecycle), Capital Markets Tokenization, the Oumla Financial Chain for Shariah-compliant interbank settlement, and Bahith blockchain monitoring and compliance analytics built for Saudi data sovereignty. Authentication is via the x-api-key header; long-running mutations run as async workflows. Oumla is SOC 2 Type II and ISO 27001 certified.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png",
@@ -727,7 +727,7 @@
      "rank": 14
     },
     {
-     "name": "Reachware Inc.",
+     "name": "Reachware",
      "slug": "reachware-inc",
      "description": "Reachware is an Integration Platform as a Service (iPaaS) that lets separate SaaS and business systems operate as one connected ecosystem, with 200+ prebuilt connectors to systems like NetSuite, QuickBooks, Microsoft Dynamics 365, Odoo, SAP, Oracle, Magento, Zid and Qoyod. Alongside the core platform it ships Reach Pay (a payment API for Saudi Arabia payment gateways), Reachware Fatoora (ZATCA e-invoicing), and extension modules for banking, HR, inventory, loyalty and property management. Reach Pay exposes a hosted-redirect REST API for requesting payments, retrieving payment details, refunds and card tokenization. Reachware reports 3,500+ active subscriptions, 300+ customers, 100M+ transactions, and is CMMI Level 3 certified. It was surfaced as a portfolio company of 500 Global and profiled by the API Evangelist enrichment pipeline.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/screenshots/reachware-inc-2026-08-17T081449.png",
@@ -880,7 +880,7 @@
    "shown": 8,
    "providers": [
     {
-     "name": "Sadq Holding Limited",
+     "name": "Sadq",
      "slug": "sadq-holding-limited",
      "description": "Sadq (صادق) is a Saudi Arabian electronic-signature and digital-trust platform that lets businesses send, sign, and manage legally binding documents online. Its Integration API covers signing envelopes and document packages, signing invitations (email/SMS/link), direct and template-based signing, PKI/e-signing via Saudi Arabia's Nafath national digital identity, document download, reusable templates, users and permissions, signing workflows, webhooks, KYB business verification (commercial-registration checks, Absher OTP, delegacy and national-address lookups), archiving, delegations, and consumption reporting. The platform is fully agent-native — it publishes an OpenAPI schema, an RFC 9727 API catalog, OAuth 2.0 / OIDC discovery metadata, an llms.txt, an auth.md agent-registration guide, and a hosted MCP server. Sadq is a 500 Global portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/screenshots/sadq-holding-limited-2026-08-17T081705.png",
@@ -1266,12 +1266,12 @@
      "slug": "labayh",
      "description": "Labayh (لبيه) is a Saudi Arabian digital mental-health platform delivering online psychological, psychiatric and family counselling to the Arabic-speaking Gulf market. Patients book scheduled or instant video and audio sessions with more than 1,000 licensed specialists, and can also enrol in structured therapeutic programs for depression, anxiety, OCD and social phobia, join peer support groups, take psychological assessments, track mood daily, and watch live and recorded webinars. The company reports over 70 million minutes of consultation delivered. Alongside the consumer app it runs Labayh Business, a corporate employee-wellbeing arm, and Labayh Academy, a training platform for practitioners. Labayh is backed by 500 Global. It operates no developer program and publishes no OpenAPI, SDKs or developer portal; the API catalogued here is the anonymously readable WordPress REST surface behind labayh.net, whose OpenAPI description API Evangelist derived from the server's own discovery document.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png",
-     "score": 24.1,
+     "score": 23.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 8.3,
+      "contract_quality": 1.7,
       "contract_governance": 4.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 30.4,
@@ -1634,49 +1634,6 @@
      "rank": 33
     },
     {
-     "name": "Adalah for IT Systems LLC",
-     "slug": "adalah-for-it-systems-llc",
-     "description": "Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal technology platform that enables companies to access, understand, and act on the latest and most accurate legal information and procedures in seconds. The AI-driven service targets legal and compliance teams across Saudi Arabia. Backed by 500 Global, the company is tracked in the API Evangelist network; no public API or developer surface has been discovered to date.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adalah-for-it-systems-llc/refs/heads/main/screenshots/adalah-for-it-systems-llc-2026-07-25T181610.png",
-     "score": 13.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
-    },
-    {
      "name": "FIFOplus",
      "slug": "fifoplus",
      "description": "FIFOplus is a B2B smart-procurement marketplace for the HORECA sector (hotels, restaurants, cafes, and catering) in Saudi Arabia, connecting food-service buyers with suppliers across a webstore and mobile app that lists more than 5,000 food and non-food items spanning meat, seafood, dairy, produce, frozen goods, condiments, beverages, packaging, and cleaning supplies. The platform layers ordering, real-time order tracking, inventory, menu, and finance optimization with AI and integrates with point-of-sale systems and credit-terms payment. Founded in 2021 and headquartered in Jeddah, FIFOplus operates across Jeddah, Makkah, Riyadh, and Taif and is backed by the Sanabil 500 MENA Seed Accelerator (500 Global) and Palm Ventures. This profile is maintained by the API Evangelist network; FIFOplus publishes no public developer API, OpenAPI, or developer portal at this time.",
@@ -1717,13 +1674,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Gathern",
      "slug": "gathern",
      "description": "Gathern (جاذر) is the first licensed peer-to-peer vacation-rental marketplace in Saudi Arabia, founded in Riyadh in 2016 and licensed by the Saudi Ministry of Tourism. Through its iOS, Android, and web apps, travelers book short-term private accommodations directly from local hosts — chalets, apartments, villas, farms, resorts, rest houses (istrahat), camps, caravans, and rooms — across more than 200 cities and provinces in the Kingdom, including Riyadh, Jeddah, Taif, Al Khobar, Dammam, Mecca, Medina, and AlUla. The platform lists tens of thousands of units, has served more than five million users, and holds a leading share of the alternative-hospitality sector in Saudi Arabia. Backed by 500 Global, STV, Sanabil Investments (a Public Investment Fund subsidiary), and others, Gathern raised a $72M Series B and is preparing for a Tadawul listing. Gathern operates as a consumer marketplace app and does not currently publish a public developer API surface; this profile tracks its public web properties for the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gathern/refs/heads/main/screenshots/gathern-2026-07-25T215511.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "Qanoniah",
+     "slug": "adalah-for-it-systems-llc",
+     "description": "Adalah for IT Systems LLC operates Qanoniah, a Saudi Arabian legal technology platform that enables companies to access, understand, and act on the latest and most accurate legal information and procedures in seconds. The AI-driven service targets legal and compliance teams across Saudi Arabia. Backed by 500 Global, the company is tracked in the API Evangelist network; no public API or developer surface has been discovered to date.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adalah-for-it-systems-llc/refs/heads/main/screenshots/adalah-for-it-systems-llc-2026-07-25T181610.png",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1806,7 +1806,7 @@
      "rank": 37
     },
     {
-     "name": "Safqah Holdings Limited",
+     "name": "Safqah",
      "slug": "safqah-holdings-limited",
      "description": "Safqah Holdings Limited operates Safqah (Safqah Capital / Safqah Financial), a Saudi Arabian fintech platform headquartered in the Al-Malqa district of Riyadh and regulated by the Saudi Capital Market Authority (CMA). Safqah provides Sharia-compliant, debt-based real estate investment opportunities that let qualified individual and institutional investors fund real estate development deals starting from 1,000 SAR, alongside a financing arm that offers land acquisition, residential development, commercial development, raw land, and bridge financing to real estate developers. Investors track deal performance through periodic reporting and live project camera feeds. The platform is a consumer- and investor-facing web application with no publicly documented developer API, SDK, or integration surface at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/safqah-holdings-limited/refs/heads/main/screenshots/safqah-holdings-limited-2026-09-02T154254.png",
@@ -2574,7 +2574,7 @@
      "rank": 54
     },
     {
-     "name": "EQUIPTAL HOLDING LTD",
+     "name": "EQUIPTAL",
      "slug": "equiptal-holding-ltd",
      "description": "EQUIPTAL HOLDING LTD operates Moedatech (معداتك), Saudi Arabia's first digital procurement and rental marketplace for heavy construction equipment, connecting contractors with verified suppliers of excavators, cranes, and trucks through RFQs, real-time bidding, and audit-ready digital contracts. Founded in Riyadh in 2020 by Ali Merie and Mansour Hmaid, the company pairs the marketplace with a telematics/fleet layer (built on Traccar GPS tracking) so equipment owners can monitor real-time asset performance. The product ships as iOS and Android apps plus a web app; there is no publicly documented developer API at this time. The company is backed by 500 Global and Plug and Play Middle East. This profile was surfaced from the 500 Global portfolio and enriched from the company's public web, brand (moedatech.net), and GitHub presence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equiptal-holding-ltd/refs/heads/main/screenshots/equiptal-holding-ltd-2026-07-25T213550.png",
@@ -3418,7 +3418,7 @@
      "rank": 73
     },
     {
-     "name": "Desaisiv Inc.",
+     "name": "Desaisiv",
      "slug": "desaisiv-inc",
      "description": "DESAISIV is a corporate InsurTech platform focused on health insurance in Saudi Arabia and the wider MENA region. Founded in 2022, the company builds AI and automation products for insurers and third-party administrators (TPAs), including smart underwriting automation, a real-time quotation engine, OCR-powered claims intelligence, a corporates insurance marketplace, and SME portals. Its platform bridges data, systems, insurers, and corporates to streamline underwriting, quoting, and claims. DESAISIV is backed by 500 Global, Terra VC, Oqal, and other MENA/UK/US investors via a US$2M pre-seed round. This profile is maintained in the API Evangelist network; the company does not currently publish a public developer portal or API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/screenshots/desaisiv-inc-2026-07-25T211740.png",

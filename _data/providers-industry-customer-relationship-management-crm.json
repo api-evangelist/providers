@@ -1,6 +1,6 @@
 {
- "total": 375,
- "shown": 375,
+ "total": 372,
+ "shown": 372,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics and AI. Its Lightning Platform exposes REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and subscribe to org data programmatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 89.3,
+     "score": 89.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 77.6,
+      "contract_quality": 77.9,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
       "developer_ergonomics": 94.6,
@@ -29,7 +29,7 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 49.6,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
@@ -72,15 +72,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -1460,8 +1460,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 54,
-   "shown": 54,
+   "count": 52,
+   "shown": 52,
    "providers": [
     {
      "name": "The Mobile First Company",
@@ -1771,49 +1771,6 @@
      "rank": 38
     },
     {
-     "name": "Capsule",
-     "slug": "capsule",
-     "description": "Capsule is a CRM and project-management platform for small and mid-sized businesses that unifies contacts, sales pipelines, tasks, cases, and projects. The Capsule REST API exposes parties (contacts and companies), opportunities, projects, tasks, cases, entries, tracks, and settings such as tags, pipelines, milestones, stages, and custom fields, with REST Hooks webhooks for event-driven integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/screenshots/capsule-2026-06-20T173941.png",
-     "score": 63.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.1,
-      "contract_governance": 0.0,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 39.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 39
-    },
-    {
      "name": "Chili Piper",
      "slug": "chili-piper",
      "description": "Chili Piper is a demand conversion platform for B2B go-to-market teams, founded in 2016 by Alina and Nicolas Vandenberghe and headquartered in New York. Its products - Concierge, Distro, Handoff, Chat AI, Web Experiences, Re-engagement and ChiliCal - turn inbound website visitors and form submissions into booked meetings by qualifying, enriching, routing and scheduling leads against Salesforce or HubSpot ownership, territory and round-robin distribution logic. For developers, Chili Piper publishes the Edge API (https://fire.chilipiper.com/api/fire-edge), a bearer-token REST surface covering users, workspaces, teams, routing rules, distributions, meetings, meeting types, scheduling links, handoff and Concierge routing; a hosted remote MCP server with 55 documented tools; official Agent Skills and ChatGPT GPT actions published under the Chili-Piper GitHub organization; a Concierge JavaScript embed distributed on npm; and custom webhooks for booked, updated and cancelled meetings.",
@@ -1854,7 +1811,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Gong",
@@ -1897,7 +1854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "SugarCRM",
@@ -1940,7 +1897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Erxes",
@@ -1983,7 +1940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Census",
@@ -2026,7 +1983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Levitate",
@@ -2076,7 +2033,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Total Expert",
@@ -2126,7 +2083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "NationBuilder",
@@ -2169,7 +2126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Kartra",
@@ -2226,7 +2183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "FieldPulse",
@@ -2276,7 +2233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Relm",
@@ -2318,7 +2275,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Salesloft",
@@ -2361,7 +2318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Kixie",
@@ -2411,7 +2368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Apollo API Documentation",
@@ -2454,7 +2411,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Crossbeam",
@@ -2497,7 +2454,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Salesflare",
@@ -2540,7 +2497,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Creatio",
@@ -2583,7 +2540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Erply",
@@ -2626,7 +2583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "AgendaPro",
@@ -2675,7 +2632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Synthflow",
@@ -2718,7 +2675,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Microsoft",
@@ -2761,7 +2718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "LeanData",
@@ -2804,7 +2761,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Nutshell",
@@ -2847,7 +2804,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Clari",
@@ -2890,7 +2847,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Coperniq",
@@ -2940,7 +2897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Entergram",
@@ -2982,7 +2939,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Zendesk Sell",
@@ -3025,7 +2982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Badger Maps",
@@ -3068,7 +3025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Evercontact",
@@ -3111,7 +3068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Salesforce Sales Cloud",
@@ -3154,7 +3111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "ECI Solutions",
@@ -3204,7 +3161,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Zoho",
@@ -3247,7 +3204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Demodesk",
@@ -3290,7 +3247,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Pipeliner CRM",
@@ -3332,7 +3289,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Jobber",
@@ -3375,7 +3332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Siro",
@@ -3418,7 +3375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Metrilo",
@@ -3461,7 +3418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Supaglue",
@@ -3504,7 +3461,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Warmly",
@@ -3547,7 +3504,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Marketo",
@@ -3590,7 +3547,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Splio",
@@ -3647,7 +3604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Endgame",
@@ -3690,7 +3647,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "LeadSquared",
@@ -3733,50 +3690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
-    },
-    {
-     "name": "Salesforce Automation",
-     "slug": "salesforce-automation",
-     "description": "A collection of Salesforce APIs for automating business processes, sales operations, and customer relationship management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png",
-     "score": 54.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 71.2,
-      "contract_governance": 28.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 69.0,
-      "access_clarity": 51.3
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "Thoughtly",
@@ -3826,7 +3740,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "Poggio Labs",
@@ -3869,7 +3783,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 83
     }
    ],
    "open": true
@@ -3879,8 +3793,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 83,
-   "shown": 83,
+   "count": 82,
+   "shown": 82,
    "providers": [
     {
      "name": "Knownwell",
@@ -3923,7 +3837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "CustomerOS",
@@ -3966,7 +3880,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "Street.co.uk",
@@ -4009,7 +3923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -4052,7 +3966,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
     },
     {
      "name": "Aircover",
@@ -4094,7 +4008,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "Pipedrive",
@@ -4137,7 +4051,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Chorus.ai",
@@ -4180,7 +4094,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "Paperless Parts",
@@ -4223,7 +4137,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "Mob.ly",
@@ -4266,7 +4180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "Lawmatics",
@@ -4309,50 +4223,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
-    },
-    {
-     "name": "BizAPI",
-     "slug": "bizapi",
-     "description": "BizAPI is a real-time Business Intelligence API from the NAICS Association that provides firmographic data on over 220 million US and international business entities. It enables businesses to enrich CRM records, power customer acquisition workflows, and append NAICS codes, SIC codes, DUNS numbers, company details, sales volume, employee counts, and corporate hierarchy information to any business record via a simple REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 68.0,
-      "contract_governance": 33.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 96
+     "rank": 93
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -4395,7 +4266,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 94
     },
     {
      "name": "ServiceTitan",
@@ -4438,7 +4309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 95
     },
     {
      "name": "Lone Wolf Technologies",
@@ -4488,7 +4359,63 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 96
+    },
+    {
+     "name": "Agora Real Estate",
+     "slug": "agora-real-estate",
+     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
+     "score": 51.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 42.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 97
     },
     {
      "name": "Planhat",
@@ -4531,7 +4458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Mixmax",
@@ -4574,7 +4501,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -4617,7 +4544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "Vitally",
@@ -4660,63 +4587,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 103
-    },
-    {
-     "name": "Agora Real Estate",
-     "slug": "agora-real-estate",
-     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 77.6
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 104
+     "rank": 101
     },
     {
      "name": "AutoLeadStar",
@@ -4759,7 +4630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 102
     },
     {
      "name": "PeopleSoft",
@@ -4802,7 +4673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 103
     },
     {
      "name": "Reevo",
@@ -4845,7 +4716,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 104
     },
     {
      "name": "Teamleader",
@@ -4887,7 +4758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 105
     },
     {
      "name": "CommsHarbor",
@@ -4936,7 +4807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 106
     },
     {
      "name": "Agile CRM",
@@ -4979,7 +4850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 107
     },
     {
      "name": "PersistIQ",
@@ -5022,7 +4893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 108
     },
     {
      "name": "Reform",
@@ -5065,7 +4936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 109
     },
     {
      "name": "involve.me",
@@ -5108,7 +4979,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 110
     },
     {
      "name": "Oracle Eloqua",
@@ -5151,7 +5022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 111
     },
     {
      "name": "VaultRE",
@@ -5194,7 +5065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 112
     },
     {
      "name": "Hilos",
@@ -5237,7 +5108,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 113
     },
     {
      "name": "Nimble",
@@ -5280,7 +5151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 114
     },
     {
      "name": "Deskera",
@@ -5322,7 +5193,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 115
     },
     {
      "name": "Affinity",
@@ -5365,7 +5236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 116
     },
     {
      "name": "Folk",
@@ -5408,7 +5279,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 117
     },
     {
      "name": "Phonely",
@@ -5458,7 +5329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 118
     },
     {
      "name": "Seam AI",
@@ -5501,7 +5372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 119
     },
     {
      "name": "CDK Global",
@@ -5544,7 +5415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 120
     },
     {
      "name": "Udesk",
@@ -5587,7 +5458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 121
     },
     {
      "name": "WoowUp",
@@ -5630,7 +5501,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 122
     },
     {
      "name": "Frontline",
@@ -5673,7 +5544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 123
     },
     {
      "name": "Salesforce Einstein",
@@ -5716,7 +5587,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 124
     },
     {
      "name": "Twenty",
@@ -5759,7 +5630,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 125
     },
     {
      "name": "Aptly",
@@ -5802,7 +5673,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 126
     },
     {
      "name": "Wealth-X",
@@ -5845,50 +5716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
-    },
-    {
-     "name": "Salesforce Automation System",
-     "slug": "salesforce-automation-system",
-     "description": "Salesforce Automation System refers to the collection of APIs and tools within Salesforce for automating business processes, including Flow Builder, approval processes, Process Builder, and Workflow Rules. These capabilities enable organizations to automate CRM, sales, marketing, and customer service workflows programmatically via the Salesforce REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png",
-     "score": 47.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 70.9,
-      "contract_governance": 28.8,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 58.3,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 29.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 131
+     "rank": 127
     },
     {
      "name": "Monaco",
@@ -5931,7 +5759,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 128
     },
     {
      "name": "Samu",
@@ -5974,7 +5802,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 129
     },
     {
      "name": "ClearSlide",
@@ -6017,7 +5845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 130
     },
     {
      "name": "SharpSpring",
@@ -6060,7 +5888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 131
     },
     {
      "name": "Alto (Vebra / Zoopla)",
@@ -6103,7 +5931,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 132
     },
     {
      "name": "Velaris",
@@ -6146,7 +5974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 133
     },
     {
      "name": "Microsoft Dynamics 365",
@@ -6189,7 +6017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 134
     },
     {
      "name": "Gojiberry AI",
@@ -6232,7 +6060,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 135
     },
     {
      "name": "Fixture",
@@ -6275,7 +6103,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 136
     },
     {
      "name": "Fxiaoke",
@@ -6318,7 +6146,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 137
     },
     {
      "name": "Hubflo",
@@ -6361,7 +6189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 138
     },
     {
      "name": "Apache OFBiz",
@@ -6404,7 +6232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 139
     },
     {
      "name": "EasyWebinar",
@@ -6447,7 +6275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 140
     },
     {
      "name": "Rox",
@@ -6490,7 +6318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 141
     },
     {
      "name": "Conversica",
@@ -6540,7 +6368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 142
     },
     {
      "name": "Devrev",
@@ -6583,7 +6411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 143
     },
     {
      "name": "Truto",
@@ -6626,7 +6454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 144
     },
     {
      "name": "Salesforce Knowledge Management",
@@ -6669,7 +6497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 145
     },
     {
      "name": "Copper",
@@ -6712,7 +6540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 146
     },
     {
      "name": "Revinate",
@@ -6755,7 +6583,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 147
     },
     {
      "name": "Avify",
@@ -6805,7 +6633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 148
     },
     {
      "name": "Luxury Presence",
@@ -6848,7 +6676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 149
     },
     {
      "name": "CRM Bonus",
@@ -6891,7 +6719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 150
     },
     {
      "name": "Pega",
@@ -6933,7 +6761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 151
     },
     {
      "name": "Reonic",
@@ -6983,7 +6811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 152
     },
     {
      "name": "SAP Business ByDesign",
@@ -7026,7 +6854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 153
     },
     {
      "name": "Salesforce Flow",
@@ -7069,7 +6897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 154
     },
     {
      "name": "Homebot",
@@ -7112,7 +6940,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 155
     },
     {
      "name": "AppLovin",
@@ -7155,7 +6983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 156
     },
     {
      "name": "Boostup",
@@ -7198,7 +7026,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 157
     },
     {
      "name": "MemberClicks",
@@ -7241,7 +7069,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 158
     },
     {
      "name": "Z League",
@@ -7284,7 +7112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 159
     },
     {
      "name": "Magic Moment",
@@ -7327,7 +7155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 160
     },
     {
      "name": "EZR",
@@ -7370,7 +7198,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 161
+    },
+    {
+     "name": "BizAPI",
+     "slug": "bizapi",
+     "description": "BizAPI is a real-time Business Intelligence API from the NAICS Association that provides firmographic data on over 220 million US and international business entities. It enables businesses to enrich CRM records, power customer acquisition workflows, and append NAICS codes, SIC codes, DUNS numbers, company details, sales volume, employee counts, and corporate hierarchy information to any business record via a simple REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png",
+     "score": 39.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 17.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 11.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 162
     },
     {
      "name": "Neon One",
@@ -7413,7 +7284,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 163
     },
     {
      "name": "Proton.ai",
@@ -7456,7 +7327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 164
     },
     {
      "name": "Accord",
@@ -7498,7 +7369,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 165
     }
    ]
   },
@@ -7551,7 +7422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 166
     },
     {
      "name": "Stagwell",
@@ -7594,7 +7465,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 167
     },
     {
      "name": "Bloomerang",
@@ -7637,7 +7508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 168
     },
     {
      "name": "ERPNext",
@@ -7680,7 +7551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 169
     },
     {
      "name": "Keller Williams",
@@ -7730,7 +7601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 170
     },
     {
      "name": "Tofu",
@@ -7773,7 +7644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 171
     },
     {
      "name": "Dapta",
@@ -7816,7 +7687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 172
     },
     {
      "name": "SmartMoving",
@@ -7859,7 +7730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 173
     },
     {
      "name": "weclapp",
@@ -7902,7 +7773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 174
     },
     {
      "name": "Moonscale",
@@ -7945,7 +7816,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 175
     },
     {
      "name": "Teachworks",
@@ -7995,7 +7866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 176
     },
     {
      "name": "FuseWP",
@@ -8037,7 +7908,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 177
     },
     {
      "name": "Import2",
@@ -8080,7 +7951,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 178
     },
     {
      "name": "Elead",
@@ -8123,7 +7994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 179
     },
     {
      "name": "11x",
@@ -8166,7 +8037,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 180
     },
     {
      "name": "Bullhorn",
@@ -8209,7 +8080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 181
     },
     {
      "name": "Rasayel",
@@ -8252,7 +8123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 182
     },
     {
      "name": "Revert",
@@ -8294,7 +8165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 183
     },
     {
      "name": "Impartner",
@@ -8337,7 +8208,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 184
     },
     {
      "name": "Funnel Leasing",
@@ -8380,7 +8251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 185
     },
     {
      "name": "Builder Prime",
@@ -8423,7 +8294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 186
     },
     {
      "name": "Joblogic",
@@ -8466,7 +8337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 187
     },
     {
      "name": "Apollo",
@@ -8509,7 +8380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 188
     },
     {
      "name": "Microsoft Dynamics",
@@ -8552,7 +8423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 189
     },
     {
      "name": "Workiz",
@@ -8595,7 +8466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 190
     },
     {
      "name": "TalkPush",
@@ -8638,7 +8509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 191
     },
     {
      "name": "PushPress",
@@ -8681,7 +8552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 192
     },
     {
      "name": "BuildOps",
@@ -8724,7 +8595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 193
     },
     {
      "name": "Podio",
@@ -8767,7 +8638,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 194
     },
     {
      "name": "Scratchpad",
@@ -8810,7 +8681,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 195
     },
     {
      "name": "SuiteCRM",
@@ -8852,7 +8723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 196
     },
     {
      "name": "Goodays",
@@ -8895,7 +8766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 197
     },
     {
      "name": "Backstory",
@@ -8938,7 +8809,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 198
     },
     {
      "name": "Freshsales",
@@ -8981,7 +8852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 199
     },
     {
      "name": "PlusThis",
@@ -9031,7 +8902,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 200
     },
     {
      "name": "Kustomer",
@@ -9074,7 +8945,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 201
     },
     {
      "name": "Monday.com",
@@ -9117,7 +8988,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 202
     },
     {
      "name": "Push",
@@ -9167,7 +9038,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 203
+    },
+    {
+     "name": "Capsule CRM",
+     "slug": "capsule-crm",
+     "description": "Capsule is a simple online CRM for small and midsize businesses that manages contacts, sales pipelines, tasks, projects, and email integration with a focus on ease of use. The Capsule API v2 is a REST/JSON service exposing parties (people and organisations), opportunities, projects, tasks, cases, users, and custom fields for integration with marketing, finance, and productivity tools. Authentication uses a Bearer token (personal access token or OAuth 2 access token) against the base URL https://api.capsulecrm.com/api/v2/.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/screenshots/capsule-crm-2026-06-20T173943.png",
+     "score": 32.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 25.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 204
     },
     {
      "name": "SevenRooms",
@@ -9210,7 +9124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 205
     },
     {
      "name": "Less Annoying CRM",
@@ -9252,7 +9166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 206
     },
     {
      "name": "BigChange",
@@ -9295,7 +9209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 207
     },
     {
      "name": "Apex27",
@@ -9338,50 +9252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
-    },
-    {
-     "name": "Capsule CRM",
-     "slug": "capsule-crm",
-     "description": "Capsule is a simple online CRM for small and midsize businesses that manages contacts, sales pipelines, tasks, projects, and email integration with a focus on ease of use. The Capsule API v2 is a REST/JSON service exposing parties (people and organisations), opportunities, projects, tasks, cases, users, and custom fields for integration with marketing, finance, and productivity tools. Authentication uses a Bearer token (personal access token or OAuth 2 access token) against the base URL https://api.capsulecrm.com/api/v2/.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/screenshots/capsule-crm-2026-06-20T173943.png",
-     "score": 31.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 53.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 38.1,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 211
+     "rank": 208
     },
     {
      "name": "Realtor",
@@ -9431,7 +9302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 209
     },
     {
      "name": "WATI",
@@ -9474,7 +9345,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 210
     },
     {
      "name": "HoneyBook",
@@ -9524,7 +9395,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 211
     },
     {
      "name": "Zomentum",
@@ -9574,7 +9445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 212
     },
     {
      "name": "Aircall",
@@ -9617,7 +9488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 213
     },
     {
      "name": "SAP Business One",
@@ -9660,7 +9531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 214
     },
     {
      "name": "Streak",
@@ -9703,7 +9574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 215
     },
     {
      "name": "DealerSocket",
@@ -9746,7 +9617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 216
     },
     {
      "name": "AlterEstate",
@@ -9789,7 +9660,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 217
     },
     {
      "name": "Winn.ai",
@@ -9832,7 +9703,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 218
     },
     {
      "name": "Wealthbox",
@@ -9875,7 +9746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 219
     },
     {
      "name": "Acumatica",
@@ -9918,7 +9789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 220
     },
     {
      "name": "InsideSales (XANT / InsideSales.com)",
@@ -9961,7 +9832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 221
     },
     {
      "name": "Insightly",
@@ -10004,7 +9875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 222
     },
     {
      "name": "Giveffect",
@@ -10047,7 +9918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 223
     },
     {
      "name": "Connect The Dots",
@@ -10090,7 +9961,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 224
     },
     {
      "name": "Holded",
@@ -10133,7 +10004,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 225
     },
     {
      "name": "Cheerfy",
@@ -10190,7 +10061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 226
     },
     {
      "name": "Getro",
@@ -10233,7 +10104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 227
     },
     {
      "name": "Macro",
@@ -10276,7 +10147,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 228
     },
     {
      "name": "Vtiger",
@@ -10318,7 +10189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 229
     },
     {
      "name": "Exact Online",
@@ -10361,7 +10232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 230
     },
     {
      "name": "GoSite",
@@ -10411,7 +10282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 231
     },
     {
      "name": "Yesware",
@@ -10454,7 +10325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 232
     },
     {
      "name": "Attio",
@@ -10497,7 +10368,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 233
     },
     {
      "name": "Groupthink",
@@ -10540,7 +10411,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 234
     },
     {
      "name": "Pixieset",
@@ -10583,7 +10454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 235
     },
     {
      "name": "graph8",
@@ -10626,7 +10497,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 236
     },
     {
      "name": "Odoo",
@@ -10669,7 +10540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 237
     },
     {
      "name": "Accelo",
@@ -10712,7 +10583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 238
     },
     {
      "name": "Replyr.ai",
@@ -10762,7 +10633,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 239
     },
     {
      "name": "InsightEra",
@@ -10805,7 +10676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 240
     },
     {
      "name": "AgencyZoom",
@@ -10855,7 +10726,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 241
     }
    ]
   },
@@ -10915,7 +10786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 242
     },
     {
      "name": "RecappED",
@@ -10958,7 +10829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 243
     },
     {
      "name": "Bonsai",
@@ -11001,7 +10872,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 244
     },
     {
      "name": "Chatwik",
@@ -11043,7 +10914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 245
     },
     {
      "name": "Pocus",
@@ -11086,7 +10957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 246
     },
     {
      "name": "Membrain",
@@ -11128,7 +10999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 247
     },
     {
      "name": "Rattle",
@@ -11171,7 +11042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 248
     },
     {
      "name": "Ematic Solutions",
@@ -11214,7 +11085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 249
     },
     {
      "name": "Brevian",
@@ -11257,7 +11128,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 250
     },
     {
      "name": "Advisr",
@@ -11299,7 +11170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 251
     },
     {
      "name": "Groupboss",
@@ -11342,7 +11213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 252
     },
     {
      "name": "propertybase",
@@ -11385,7 +11256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 253
     },
     {
      "name": "Zocks",
@@ -11428,7 +11299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 254
     },
     {
      "name": "Signpost",
@@ -11471,7 +11342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 255
     },
     {
      "name": "Donna",
@@ -11514,7 +11385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 256
     },
     {
      "name": "Introhive",
@@ -11557,7 +11428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 257
     },
     {
      "name": "EliseAI",
@@ -11606,7 +11477,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 258
     },
     {
      "name": "Intellectible",
@@ -11656,7 +11527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 259
     },
     {
      "name": "Dolibarr",
@@ -11706,7 +11577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 260
     },
     {
      "name": "Applied Systems",
@@ -11756,7 +11627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 261
     },
     {
      "name": "Charles Co",
@@ -11799,7 +11670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 262
     },
     {
      "name": "Agentbox",
@@ -11842,7 +11713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 263
     },
     {
      "name": "PLACE",
@@ -11892,7 +11763,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 264
     },
     {
      "name": "Civic Roundtable",
@@ -11942,7 +11813,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 265
     },
     {
      "name": "Boulevard",
@@ -11992,7 +11863,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 266
     },
     {
      "name": "EspoCRM",
@@ -12034,7 +11905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 267
     },
     {
      "name": "Dealpad",
@@ -12077,7 +11948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 268
     },
     {
      "name": "Follow Up Boss",
@@ -12120,7 +11991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 269
     },
     {
      "name": "Lavender",
@@ -12163,7 +12034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 270
     },
     {
      "name": "SetSail",
@@ -12206,7 +12077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 271
     },
     {
      "name": "Ctrl",
@@ -12249,7 +12120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 272
     },
     {
      "name": "JobNimbus",
@@ -12292,50 +12163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
-    },
-    {
-     "name": "Habiteo",
-     "slug": "habiteo",
-     "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png",
-     "score": 17.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 8.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 277
+     "rank": 273
     },
     {
      "name": "Von",
@@ -12378,7 +12206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 274
     },
     {
      "name": "Bonterra (fka EveryAction)",
@@ -12421,7 +12249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 275
     },
     {
      "name": "Indigov",
@@ -12471,7 +12299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 276
     },
     {
      "name": "Tebi",
@@ -12521,7 +12349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 277
     },
     {
      "name": "Linker Finance",
@@ -12571,7 +12399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 278
     },
     {
      "name": "FranConnect",
@@ -12614,7 +12442,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 279
+    },
+    {
+     "name": "Habiteo",
+     "slug": "habiteo",
+     "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png",
+     "score": 16.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 8.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 280
     },
     {
      "name": "Beside",
@@ -12657,7 +12528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 281
     },
     {
      "name": "Runbooks",
@@ -12700,7 +12571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 282
     },
     {
      "name": "Polimorphic",
@@ -12750,7 +12621,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 283
     },
     {
      "name": "Sage Care",
@@ -12800,7 +12671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 284
     },
     {
      "name": "Easol",
@@ -12850,7 +12721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 285
     },
     {
      "name": "People.ai",
@@ -12893,7 +12764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 286
     },
     {
      "name": "OEN",
@@ -12943,7 +12814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 287
     },
     {
      "name": "Handoff",
@@ -12986,7 +12857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 288
     },
     {
      "name": "MyFavorito",
@@ -13029,7 +12900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 289
     },
     {
      "name": "Quad/Graphics",
@@ -13072,7 +12943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 290
     },
     {
      "name": "Savana",
@@ -13129,7 +13000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 291
     },
     {
      "name": "Whelp",
@@ -13172,7 +13043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 292
     },
     {
      "name": "Customer Database",
@@ -13215,7 +13086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 293
     },
     {
      "name": "Mosaic",
@@ -13258,7 +13129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 294
     },
     {
      "name": "Tillpoint",
@@ -13301,7 +13172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 295
     },
     {
      "name": "TravelJoy",
@@ -13351,7 +13222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 296
     },
     {
      "name": "Paperplane",
@@ -13394,7 +13265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 297
     },
     {
      "name": "HELP",
@@ -13437,7 +13308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 298
     },
     {
      "name": "EZLynx",
@@ -13487,7 +13358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 299
     },
     {
      "name": "Oracle NetSuite",
@@ -13530,7 +13401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 300
     },
     {
      "name": "Pico",
@@ -13580,7 +13451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 301
     },
     {
      "name": "Housewhisper",
@@ -13623,7 +13494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 302
     },
     {
      "name": "Tungee",
@@ -13666,7 +13537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 303
     },
     {
      "name": "Humanitru",
@@ -13709,7 +13580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 304
     },
     {
      "name": "Roofr",
@@ -13759,7 +13630,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 305
     },
     {
      "name": "Aisle Planner",
@@ -13802,7 +13673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 306
     },
     {
      "name": "Panora",
@@ -13845,7 +13716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 307
     },
     {
      "name": "Chasi",
@@ -13888,7 +13759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 308
     },
     {
      "name": "Marand",
@@ -13937,7 +13808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 309
     },
     {
      "name": "Ciro",
@@ -13980,7 +13851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 310
     },
     {
      "name": "Loft",
@@ -14023,7 +13894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 311
     },
     {
      "name": "Instil",
@@ -14066,7 +13937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 312
     },
     {
      "name": "swivl",
@@ -14109,7 +13980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 313
     },
     {
      "name": "MHub",
@@ -14152,7 +14023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 314
     },
     {
      "name": "Numero",
@@ -14195,7 +14066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 315
     },
     {
      "name": "Sankun",
@@ -14238,7 +14109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 316
     },
     {
      "name": "Clubessential",
@@ -14281,7 +14152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 317
     },
     {
      "name": "Item",
@@ -14324,7 +14195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 318
     },
     {
      "name": "Assemble",
@@ -14367,7 +14238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 319
     },
     {
      "name": "Hokan",
@@ -14417,7 +14288,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 320
     },
     {
      "name": "Salesape",
@@ -14460,7 +14331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 321
     },
     {
      "name": "Branch8",
@@ -14503,7 +14374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 322
     },
     {
      "name": "Avantos",
@@ -14546,7 +14417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 323
     }
    ]
   },
@@ -14559,7 +14430,7 @@
    "shown": 49,
    "providers": [
     {
-     "name": "Widgera, Inc.",
+     "name": "Widgera",
      "slug": "widgera-inc",
      "description": "Widgera is an AI-native business platform that unifies a company's operations into what it calls \"One Adaptive OS.\" Its AI assistants (branded Aiva) learn a business, automate workflows, build internal apps, and run customer interactions across a suite of modules that includes CRM, Chats, Drive, Analytics, and autonomous Agents. Widgera positions itself as the infrastructure layer powering operations for retail, automotive, hospitality, real estate, and service organizations, with a roster of customers across consumer electronics retail, car service, real estate, and wellness. The company is backed by 500 Global. As of this profile Widgera runs a private application backend (api.widgera.com) but publishes no public developer API, SDKs, or developer portal; its public surface is a marketing site plus Privacy and Terms pages and homepage-published compliance posture (SOC 2, ISO 27001, GDPR).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/widgera-inc/refs/heads/main/screenshots/widgera-inc-2026-09-02T170738.png",
@@ -14599,7 +14470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 324
     },
     {
      "name": "Superb",
@@ -14649,7 +14520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 325
     },
     {
      "name": "Dinii",
@@ -14692,7 +14563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 326
     },
     {
      "name": "Arzana",
@@ -14735,10 +14606,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 327
     },
     {
-     "name": "EAS Innovations Inc",
+     "name": "ELEV8",
      "slug": "eas-innovations-inc",
      "description": "EAS Innovations Inc operates ELEV8, an end-to-end, cloud-based dealer management system (DMS) built for independent auto dealers and automotive finance companies. The platform unifies real-time accounting, inventory management, CRM and desking, loan servicing, payments and collections into a single fully-integrated system. It offers per-seat pricing, user-based access rights, user-level audit logs, whitelisted IP addresses, multi-rooftop access and department-level restrictions, and is delivered as a SaaS web application at app.elev8dms.com. EAS Innovations is a 500 Global portfolio company. No public developer API is currently published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eas-innovations-inc/refs/heads/main/screenshots/eas-innovations-inc-2026-07-25T212704.png",
@@ -14785,7 +14656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 328
     },
     {
      "name": "Breezy",
@@ -14828,7 +14699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 329
     },
     {
      "name": "Dooly",
@@ -14871,7 +14742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 330
     },
     {
      "name": "Buildertrend",
@@ -14914,7 +14785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 331
     },
     {
      "name": "Goomp Inc, Kalendar AI",
@@ -14957,7 +14828,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 332
     },
     {
      "name": "Apparta",
@@ -15000,7 +14871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 333
     },
     {
      "name": "KWI",
@@ -15043,7 +14914,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 334
     },
     {
      "name": "Altvia",
@@ -15086,7 +14957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 335
     },
     {
      "name": "SAGARIS",
@@ -15129,7 +15000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 336
     },
     {
      "name": "Personify",
@@ -15172,10 +15043,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 337
     },
     {
-     "name": "Chimelabs Holdings PTY LTD",
+     "name": "Chimelabs",
      "slug": "chimelabs-holdings-pty-ltd",
      "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
@@ -15215,7 +15086,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 338
     },
     {
      "name": "Cabal",
@@ -15258,7 +15129,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 339
     },
     {
      "name": "MoveitPro",
@@ -15301,7 +15172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 340
     },
     {
      "name": "CloudCraze",
@@ -15344,7 +15215,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 341
     },
     {
      "name": "Altitude Software",
@@ -15387,7 +15258,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 342
     },
     {
      "name": "Atrium",
@@ -15430,7 +15301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 343
     },
     {
      "name": "UnifiedCRM",
@@ -15473,7 +15344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 344
     },
     {
      "name": "Awfar Market",
@@ -15516,7 +15387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 345
     },
     {
      "name": "Vymo",
@@ -15566,7 +15437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 346
     },
     {
      "name": "Placester",
@@ -15608,7 +15479,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 347
     },
     {
      "name": "Agillion",
@@ -15652,7 +15523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 348
     },
     {
      "name": "AnswerSoft",
@@ -15695,7 +15566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 349
     },
     {
      "name": "Baker Technologies",
@@ -15740,7 +15611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 350
     },
     {
      "name": "Chordiant Software",
@@ -15784,7 +15655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 351
     },
     {
      "name": "Ciridae",
@@ -15827,7 +15698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 352
     },
     {
      "name": "Connected",
@@ -15869,7 +15740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 353
     },
     {
      "name": "Consona",
@@ -15913,7 +15784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 354
     },
     {
      "name": "Contactually",
@@ -15958,7 +15829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 355
     },
     {
      "name": "Corio, Inc.",
@@ -16003,7 +15874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 356
     },
     {
      "name": "Naranga",
@@ -16045,7 +15916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 357
     },
     {
      "name": "Node.io",
@@ -16088,7 +15959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 358
     },
     {
      "name": "OneCommand",
@@ -16130,7 +16001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 359
     },
     {
      "name": "Parature",
@@ -16174,7 +16045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 360
     },
     {
      "name": "Partnered",
@@ -16217,7 +16088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 361
     },
     {
      "name": "Rapportive",
@@ -16262,7 +16133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 362
     },
     {
      "name": "Soff",
@@ -16304,7 +16175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 363
     },
     {
      "name": "Vantus",
@@ -16346,7 +16217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 364
     },
     {
      "name": "Vlocity",
@@ -16388,7 +16259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 365
     },
     {
      "name": "xchange (Formerly Exchange Applications Inc.)",
@@ -16432,7 +16303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 366
     },
     {
      "name": "Sansan",
@@ -16482,7 +16353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 367
     },
     {
      "name": "Givecampus",
@@ -16532,7 +16403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 368
     },
     {
      "name": "Lumific",
@@ -16582,7 +16453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 369
     },
     {
      "name": "Seneca Systems",
@@ -16632,7 +16503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 370
     },
     {
      "name": "Tact.ai",
@@ -16681,7 +16552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 371
     },
     {
      "name": "Banksight",
@@ -16731,7 +16602,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 372
     }
    ]
   }

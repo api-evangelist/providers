@@ -61,13 +61,13 @@ description: Englease is an online English language learning platform serving st
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/englease-technologies-spv-ltd.png
 layout: provider
 modified: '2026-07-19'
-name: Englease Technologies SPV Ltd
+name: Englease Technologies SPV
 nav: Providers
 network: true
-overview: 'Englease Technologies SPV Ltd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, English Language Learning, EdTech, Online Education, and E-Learning.
+overview: 'Englease Technologies SPV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, English Language Learning, EdTech, Online Education, and E-Learning.
 
 
-  Englease Technologies SPV Ltd''s developer surface includes engineering blog and 4 more developer resources.'
+  Englease Technologies SPV''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 20
 score:
   band: minimal

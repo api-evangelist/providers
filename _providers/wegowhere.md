@@ -73,7 +73,7 @@ modified: '2026-07-21'
 name: WeGoWhere
 nav: Providers
 network: true
-overview: 'WeGoWhere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Mobile App, Social Networking, and Activity Planning.
+overview: 'WeGoWhere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Mobile App, Social Network, and Activity Planning.
 
 
   WeGoWhere''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
@@ -122,7 +122,7 @@ tags:
 - Company
 - Social
 - Mobile App
-- Social Networking
+- Social Network
 - Activity Planning
 - Event
 - Consumer

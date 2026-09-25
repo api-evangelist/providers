@@ -96,7 +96,7 @@ modified: '2026-07-19'
 name: Hummingbird
 nav: Providers
 network: true
-overview: 'Hummingbird is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Compliance, RegTech, and Anti-Money Laundering.
+overview: 'Hummingbird is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Compliance, RegTech, and AML.
 
 
   Hummingbird''s developer surface includes support, engineering blog, changelog, signup flow, and 8 more developer resources.'
@@ -147,7 +147,7 @@ tags:
 - Fintech
 - Compliance
 - RegTech
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Transaction Monitoring
 - Regulatory Reporting

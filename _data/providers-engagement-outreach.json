@@ -79,15 +79,15 @@
      },
      "scored_at": "2026-09-24",
      "schema_version": "0.22.0",
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": "verified",
       "auth_clarity": "served",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -4843,49 +4843,6 @@
      "rank": 101
     },
     {
-     "name": "Kickbox",
-     "slug": "kickbox",
-     "description": "Kickbox is an email verification and list cleaning service that helps senders improve deliverability by detecting invalid, disposable, role-based, and risky email addresses before they enter mailing lists. The platform offers real-time single verification, bulk batch verification, and a deliverability monitoring suite. Kickbox provides a simple HTTPS REST API authenticated by API key returning structured verification results with reason codes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/screenshots/kickbox-2026-06-20T184032.png",
-     "score": 56.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 59.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 72.0,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-09-24",
-     "schema_version": "0.22.0",
-     "agent_score": 39.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 102
-    },
-    {
      "name": "Email Verifier API",
      "slug": "email-verifier-api",
      "description": "Email Verifier API is a real-time email verification service offering a 16-point engine that validates deliverability through syntax checking, DNS / MX lookups, real-time SMTP handshakes, mailbox existence probing, catch-all and greylisting detection, disposable address detection, role-account flagging, spam-trap and complainer detection, gibberish and offensive-language scanning, B2B / B2C classification, typo correction, and SMTP provider identification. The service is delivered as a single REST endpoint that accepts GET or POST requests, returns JSON or XML, and meters usage against a credit-pack balance that never expires. The product targets growth teams, ESPs, and lead-generation operators that need to eliminate hard bounces and protect sender reputation before they send.",
@@ -4926,7 +4883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Reachdesk",
@@ -4969,7 +4926,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "UpLead",
@@ -5012,7 +4969,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "NextRoll",
@@ -5055,7 +5012,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "Pomo",
@@ -5098,7 +5055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "Metrilo",
@@ -5141,7 +5098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "CrossEngage",
@@ -5172,6 +5129,49 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
+     "name": "Kickbox",
+     "slug": "kickbox",
+     "description": "Kickbox is an email verification and list cleaning service that helps senders improve deliverability by detecting invalid, disposable, role-based, and risky email addresses before they enter mailing lists. The platform offers real-time single verification, bulk batch verification, and a deliverability monitoring suite. Kickbox provides a simple HTTPS REST API authenticated by API key returning structured verification results with reason codes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/screenshots/kickbox-2026-06-20T184032.png",
+     "score": 55.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 59.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 72.0,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-09-24",
+     "schema_version": "0.22.0",
+     "agent_score": 39.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
@@ -7383,7 +7383,7 @@
      "rank": 158
     },
     {
-     "name": "Whisperr, Inc.",
+     "name": "Whisperr",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png",
@@ -9248,7 +9248,7 @@
      "rank": 200
     },
     {
-     "name": "ALLSALE Corp.",
+     "name": "ALLSALE",
      "slug": "allsale-corp",
      "description": "ALLSALE Corp. operates ALLSALE, a TikTok Shop growth and creator-marketing automation platform for consumer brands. It runs three AI agents — a Creator Discovery Agent that finds and engages relevant TikTok creators, a Budget Optimization Agent that recommends budget allocation and commission adjustments, and a Performance Analyst Agent that tracks GMV and predicts results — automating the full workflow from creator discovery and outreach through performance tracking and ROI analysis. The company is a 500 Global portfolio company and reports 100K+ creators engaged and $50M+ in customer revenue generated across its brand clients. Plans run from a $399/month Starter tier to a $599/month Pro tier, with custom Enterprise pricing offering unlimited messaging, multi-brand support, and white-label options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/allsale-corp/refs/heads/main/screenshots/allsale-corp-2026-07-25T195716.png",

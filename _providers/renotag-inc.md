@@ -50,10 +50,10 @@ description: Renotag, Inc. is a Calgary, Canada based construction-technology st
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/renotag-inc.png
 layout: provider
 modified: '2026-07-20'
-name: Renotag, Inc.
+name: Renotag
 nav: Providers
 network: true
-overview: Renotag, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Cost Estimation, Home Renovation, and Contractors.
+overview: Renotag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Cost Estimation, Home Renovation, and Contractors.
 random_paper: 11
 score:
   band: minimal

@@ -111,16 +111,16 @@ description: PlexTrac is a penetration test reporting and proactive exposure man
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plextrac-llc.png
 layout: provider
 modified: '2026-07-20'
-name: PlexTrac, LLC
+name: PlexTrac
 nav: Providers
 network: true
-overview: 'PlexTrac, LLC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Penetration Testing, Vulnerability Management, and Security Reporting.
+overview: 'PlexTrac publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Penetration Testing, Vulnerability Management, and Security Reporting.
 
 
-  The PlexTrac, LLC catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The PlexTrac catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PlexTrac, LLC''s developer surface includes documentation, API reference, support, engineering blog, pricing, and 9 more developer resources.'
+  PlexTrac''s developer surface includes documentation, API reference, support, engineering blog, pricing, and 9 more developer resources.'
 random_paper: 17
 score:
   band: developing

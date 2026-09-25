@@ -48,7 +48,7 @@ modified: '2026-07-19'
 name: Id Analytics
 nav: Providers
 network: true
-overview: Id Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Fraud, Analytics, and Risk.
+overview: Id Analytics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Fraud, Analytics, and Risk Management.
 random_paper: 8
 score:
   band: minimal
@@ -95,7 +95,7 @@ tags:
 - Identity
 - Fraud
 - Analytics
-- Risk
+- Risk Management
 - Credit Risk
 - Identity Verification
 ---

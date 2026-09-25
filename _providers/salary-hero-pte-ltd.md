@@ -62,13 +62,13 @@ description: Salary Hero is a Singapore-headquartered financial wellness and ear
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salary-hero-pte-ltd.png
 layout: provider
 modified: '2026-07-21'
-name: SALARY HERO PTE. LTD
+name: SALARY HERO
 nav: Providers
 network: true
-overview: 'SALARY HERO PTE. LTD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Earned Wage Access, and Financial Wellness.
+overview: 'SALARY HERO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Earned Wage Access, and Financial Wellness.
 
 
-  SALARY HERO PTE. LTD''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  SALARY HERO''s developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 0
 score:
   band: minimal

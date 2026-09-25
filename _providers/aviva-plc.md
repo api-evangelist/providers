@@ -159,13 +159,13 @@ description: 'Aviva plc is the United Kingdom''s largest insurer and one of the 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
-name: Aviva plc
+name: Aviva
 nav: Providers
 network: true
-overview: 'Aviva plc publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Property and Casualty, Life Insurance, and Health Insurance.
+overview: 'Aviva publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Property and Casualty, Life Insurance, and Health Insurance.
 
 
-  Aviva plc''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, developer portal, engineering blog, and 17 more developer resources.'
+  Aviva''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, developer portal, engineering blog, and 17 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 2

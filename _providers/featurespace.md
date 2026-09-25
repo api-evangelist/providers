@@ -98,7 +98,7 @@ modified: '2026-07-19'
 name: Featurespace
 nav: Providers
 network: true
-overview: 'Featurespace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, Fraud Detection, Financial Crime, Anti-Money Laundering, and Behavioral Analytics.
+overview: 'Featurespace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, Fraud Detection, Financial Crime, AML, and Behavioral Analytics.
 
 
   Featurespace''s developer surface includes documentation, engineering blog, signup flow, and 10 more developer resources.'
@@ -146,7 +146,7 @@ tags:
 - Fraud Prevention
 - Fraud Detection
 - Financial Crime
-- Anti-Money Laundering
+- AML
 - Behavioral Analytics
 - Risk Scoring
 - Machine Learning

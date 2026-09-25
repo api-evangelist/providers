@@ -209,16 +209,16 @@ mcp_servers:
   name: Live endpoint (Streamable HTTP)
   slug: live-endpoint-streamable-http
 modified: '2026-09-19'
-name: א. ט. הפקות בע״מ / A.T. Hafakot Ltd.
+name: makeup.land
 nav: Providers
 network: true
-overview: 'א. ט. הפקות בע״מ / A.T. Hafakot Ltd. publishes 1 API on the [APIs.io](https://apis.io/) network: makeup.land V1 API. Tagged areas include Cosmetics, Beauty, Retail, E-Commerce, and Shopping.
+overview: 'makeup.land publishes 1 API on the [APIs.io](https://apis.io/) network: V1 API. Tagged areas include Cosmetics, Beauty, Retail, E-Commerce, and Shopping.
 
 
-  The א. ט. הפקות בע״מ / A.T. Hafakot Ltd. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The makeup.land catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  א. ט. הפקות בע״מ / A.T. Hafakot Ltd.''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, FAQ, and 27 more developer resources.'
+  makeup.land''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, FAQ, and 27 more developer resources.'
 plans:
 - name: Makeup Land Plans Pricing
   plan_count: 1

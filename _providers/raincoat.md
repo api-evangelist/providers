@@ -107,7 +107,7 @@ tags:
 - Natural Disasters
 - Embedded Insurance
 - Financial Services
-- Risk
+- Risk Management
 - Geospatial Data
 website: https://www.raincoat.com/
 ---

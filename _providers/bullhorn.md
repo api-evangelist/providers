@@ -170,7 +170,7 @@ modified: '2026-07-18'
 name: Bullhorn
 nav: Providers
 network: true
-overview: 'Bullhorn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruitment, Applicant Tracking, and ATS.
+overview: 'Bullhorn publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Staffing, Recruiting, Applicant Tracking, and CRM.
 
 
   Bullhorn''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -221,9 +221,8 @@ slug: bullhorn
 tags:
 - Company
 - Staffing
-- Recruitment
+- Recruiting
 - Applicant Tracking
-- ATS
 - CRM
 - Human Resources
 - REST

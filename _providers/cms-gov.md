@@ -10,10 +10,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bound
@@ -21,26 +22,26 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
+  score: 42.7
   scored_at: '2026-09-24'
 agentic_access:
-- acting_count: 12
-  human_in_the_loop: 0
+- acting_count: 26
+  human_in_the_loop: 1
   name: Cms Gov Agentic Access
-  operation_count: 61
+  operation_count: 155
   slug: cms-gov-agentic-access
-  summary_line: 61 operations · 12 acting
+  summary_line: 155 operations · 26 acting · 1 human-in-the-loop
 api_count: 10
 apis:
 - baseURL: https://api.bluebutton.cms.gov/v2/fhir
@@ -168,7 +169,174 @@ apis:
   description: The Submissions API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for submissions.
   name: CMS — Centers for Medicare & Medicaid Services Submissions API
   slug: cms-gov-submissions-api
-artifact_total: 76
+- description: Provides Original Medicare claims data to fee-for-service Medicare providers in a structured, standardized FHIR format at the point of care. Helps providers gain complete views of patient medical hist
+  name: CMS Data at the Point of Care (DPC) API
+  slug: cms-data-at-the-point-of-care-dpc-api
+- description: The API behind Finder.Healthcare.gov that helps users find private health plans available outside the Health Insurance Marketplace. Supports individual plan lookups, small group plan searches, and geo
+  name: CMS Finder API
+  slug: cms-finder-api
+- description: Enables QPP participants to submit quality performance data and receive real-time performance scoring feedback. Supports Merit-based Incentive Payment System (MIPS) and Advanced Alternative Payment Mo
+  name: CMS Quality Payment Program (QPP) Submissions API
+  slug: cms-quality-payment-program-qpp-submissions-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Information about the state of Marketplace API.
+  name: Centers for Medicare and Medicaid Services API Reference API
+  slug: cms-api-reference-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Information about the bulk data json files maintained by Marketplace API.
+  name: Centers for Medicare and Medicaid Services Bulk Data API
+  slug: cms-bulk-data-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Search CPT/HCPCS codes by procedure codes or terms describing medical procedures. Get code details for a given procedure code.
+  name: Centers for Medicare and Medicaid Services Code Search API
+  slug: cms-code-search-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: For a given procedure code or entire set of codes, get national averages for the amount Medicare pays hospitals or surgical centers, and the national average copay amounts.
+  name: Centers for Medicare and Medicaid Services Cost Search API
+  slug: cms-cost-search-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Enrollment grouping validation and information.
+  name: Centers for Medicare and Medicaid Services Enrollments API
+  slug: cms-enrollments-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Geographic data, including information on states, counties, and zipcodes.
+  name: Centers for Medicare and Medicaid Services Geography API
+  slug: cms-geography-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Household specific calculations, including eligibility information, out of pocket costs, poverty levels, and cost benchmarks.
+  name: Centers for Medicare and Medicaid Services Households & Eligibility API
+  slug: cms-households-eligibility-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Data related to health insurance issuers on the marketplace.
+  name: Centers for Medicare and Medicaid Services Insurance Issuers API
+  slug: cms-insurance-issuers-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Data on both health and dental insurance plans.
+  name: Centers for Medicare and Medicaid Services Insurance Plans API
+  slug: cms-insurance-plans-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: The Plans API from Centers for Medicare and Medicaid Services — 1 operation(s) for plans.
+  name: Centers for Medicare and Medicaid Services Plans API
+  slug: cms-plans-api
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Lookup information on providers, drugs, and what is covered under what plans.
+  name: Centers for Medicare and Medicaid Services Provider & Drug Coverage API
+  slug: cms-provider-drug-coverage-api
+- description: data.cms.gov hosts hundreds of CMS datasets including Medicare Fee-for-Service utilization and payment data, Provider of Services files, Medicare Part B/D Prescriber summaries, Marketplace open enroll
+  name: CMS Socrata Open Data API (data.cms.gov)
+  slug: cms-socrata-open-data
+- description: The Provider Data Catalog API (formerly Hospital Compare) exposes the Medicare.gov Care Compare datasets including Hospital, Nursing Home, Home Health, Hospice, Physician, Long-Term Care Hospital, Inp
+  name: CMS Provider Data Catalog API (Care Compare)
+  slug: cms-provider-data-catalog
+- description: The NPPES NPI Registry API provides free public access to look up active National Provider Identifier records for individual and organizational healthcare providers, supporting FHIR-compatible JSON re
+  name: NPPES NPI Registry API
+  slug: nppes-npi-registry
+- description: The Healthcare.gov Marketplace API and accompanying Open Data Plan Finder exposes Qualified Health Plan (QHP) details, plan attributes, provider networks, and formularies for the Federally-Facilitated
+  name: Healthcare.gov Marketplace API
+  slug: healthcare-gov-marketplace
+- description: The Quality Payment Program Measures Data repository and REST API publish machine-readable specifications of MIPS quality, promoting interoperability, improvement activities, and cost measures for eac
+  name: CMS Quality Payment Program (QPP) Measures API
+  slug: qpp-measures-api
+- description: The Medicare Coverage Database publishes National Coverage Determinations (NCDs), Local Coverage Determinations (LCDs), articles, and coding guidance used to determine Medicare coverage and reimbursem
+  name: Medicare Coverage Database (MCD) API
+  slug: medicare-coverage-database
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+  name: Centers for Medicare and Medicaid Services 1. Export API
+  slug: cms-1-export-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+  name: Centers for Medicare and Medicaid Services 2. Status API
+  slug: cms-2-status-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: After creating a job, the API to download the generated bulk download files
+  name: Centers for Medicare and Medicaid Services 3. Download API
+  slug: cms-3-download-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: Provide the standard required FHIR capability statement
+  name: Centers for Medicare and Medicaid Services 4. Capabilities API
+  slug: cms-4-capabilities-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The admin-api API from Centers for Medicare and Medicaid Services — 5 operation(s) for admin-api.
+  name: Centers for Medicare and Medicaid Services Admin API
+  slug: cms-admin-api-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The attribution API from Centers for Medicare and Medicaid Services — 2 operation(s) for attribution.
+  name: Centers for Medicare and Medicaid Services Attribution API
+  slug: cms-attribution-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The auth API from Centers for Medicare and Medicaid Services — 3 operation(s) for auth.
+  name: Centers for Medicare and Medicaid Services Auth API
+  slug: cms-auth-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: Provide the standard required FHIR capability statement
+  name: Centers for Medicare and Medicaid Services Capabilities API
+  slug: cms-capabilities-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The data API from Centers for Medicare and Medicaid Services — 1 operation(s) for data.
+  name: Centers for Medicare and Medicaid Services Data API
+  slug: cms-data-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: After creating a job, the API to download the generated bulk download files
+  name: Centers for Medicare and Medicaid Services Download API
+  slug: cms-download-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+  name: Centers for Medicare and Medicaid Services Export API
+  slug: cms-export-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The group API from Centers for Medicare and Medicaid Services — 2 operation(s) for group.
+  name: Centers for Medicare and Medicaid Services Group API
+  slug: cms-group-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The health-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for health-api.
+  name: Centers for Medicare and Medicaid Services Health API
+  slug: cms-health-api-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The job API from Centers for Medicare and Medicaid Services — 4 operation(s) for job.
+  name: Centers for Medicare and Medicaid Services Job API
+  slug: cms-job-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The maintenance-mode-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for maintenance-mode-api.
+  name: Centers for Medicare and Medicaid Services Maintenance Mode API
+  slug: cms-maintenance-mode-api-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The metadata API from Centers for Medicare and Medicaid Services — 3 operation(s) for metadata.
+  name: Centers for Medicare and Medicaid Services Metadata API
+  slug: cms-metadata-api
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+  name: Centers for Medicare and Medicaid Services Status API
+  slug: cms-status-api
+artifact_total: 113
 collections:
 - collection_type: open
   name: API Collection
@@ -460,7 +628,7 @@ modified: '2026-05-25'
 name: CMS — Centers for Medicare & Medicaid Services
 nav: Providers
 network: true
-overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Auth API, Benchmarks API, and 22 more. Tagged areas include Healthcare, Medicare, Medicaid, FHIR, and Bulk Data.
+overview: 'CMS — Centers for Medicare & Medicaid Services publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Auth API, Benchmarks API, and 50 more. Tagged areas include Healthcare, Medicare, Medicaid, FHIR, and Bulk Data.
 
 
   The CMS — Centers for Medicare & Medicaid Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -501,30 +669,30 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.4
+  composite: 49.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
     access_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 55.9
-    developer_ergonomics: 45.2
+    contract_quality: 61.8
+    developer_ergonomics: 59.5
     discoverability: 68.5
-    operational_transparency: 31.6
+    operational_transparency: 55.3
   previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 89.5
       derived: 0
       marker_coverage: 0.0
-      total: 25
+      total: 57
   regulatory:
     applies: true
     matched_via: tags
@@ -533,7 +701,7 @@ score:
     score: 57.4
   schema_version: 0.22.0
   scored_at: '2026-09-24'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0

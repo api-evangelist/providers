@@ -105,7 +105,7 @@ tags:
 - Classifieds
 - Marketplace
 - Real Estate
-- Recruitment
+- Recruiting
 - Local Services
 - China
 website: https://www.58.com/

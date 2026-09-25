@@ -110,7 +110,7 @@ tags:
 - Authentication
 - Identity
 - Security
-- Risk
+- Risk Management
 - Continuous Authentication
 website: https://www.behaviosec.com
 ---

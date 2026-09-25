@@ -82,7 +82,7 @@ modified: '2026-05-23'
 name: Glassdoor
 nav: Providers
 network: true
-overview: 'Glassdoor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employer Reviews, Job Search, Salaries, Recruitment, and Employer Branding.
+overview: 'Glassdoor publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employer Reviews, Job Search, Salaries, Recruiting, and Employer Branding.
 
 
   Glassdoor''s developer surface includes documentation and 5 more developer resources.'
@@ -136,7 +136,7 @@ tags:
 - Employer Reviews
 - Job Search
 - Salaries
-- Recruitment
+- Recruiting
 - Employer Branding
 website: https://www.glassdoor.com/
 ---
