@@ -311,6 +311,13 @@ TAG_INDUSTRY_EXCLUDE = {
     "event-management-software": {
         "harmony", "pylon", "freshservice", "sysaid", "zoho-desk", "halp",
         "shohoz", "catch-that-bus",
+        # roadmap#632 -- `event management` is a homograph too. In IT operations an "event" is a
+        # monitoring signal (AIOps, alert correlation, on-call): Moogsoft, Zenoss, ilert and
+        # ServiceNow's ITOM carry the tag for that, and Druva for backup events. CrossEngage and
+        # Togai mean tracked/metered events, NewsBreak local listings. Zendesk and Kaseya reach
+        # the vertical through ITSM `ticketing`, the same half taken out above.
+        "moogsoft", "zenoss", "ilert", "servicenow", "druva",
+        "crossenagage", "togai", "news-break", "zendesk", "kaseya",
     },
     # `billing` is the leaky tag here and it leaks in one direction: CLINICAL
     # systems whose billing is a module. Revenue cycle management is finance

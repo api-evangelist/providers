@@ -1328,13 +1328,24 @@
   - tickets
   exclude:
   - catch-that-bus
+  - crossenagage
+  - druva
   - freshservice
   - halp
   - harmony
+  - ilert
+  - kaseya
+  - moogsoft
+  - news-break
   - pylon
+  - servicenow
   - shohoz
   - sysaid
+  - togai
+  - zendesk
+  - zenoss
   - zoho-desk
+
 - slug: payments
   name: Payments & Money Movement
   icon: payments
